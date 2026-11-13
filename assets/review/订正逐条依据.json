@@ -1,0 +1,275 @@
+[
+  {
+    "source_location": 1,
+    "anchor": "pdf-018",
+    "original": "直到1957年，algorithm这个词才第一次出现在《韦氏新世界词典》中。",
+    "final": "直到1957年，《韦氏新世界词典》仍未收录 algorithm 这个词。",
+    "basis": "英文印刷页1，PDF 23。原句的 did not appear 和 as late as 1957 表示那时仍未收录，中文印本颠倒了否定。"
+  },
+  {
+    "source_location": 1,
+    "anchor": "pdf-018",
+    "original": "《语录》第 IV 卷",
+    "final": "《语录》第 IV 卷第 1 篇",
+    "basis": "同页引语署名 Discourses IV.i，中文印本只给出卷号。"
+  },
+  {
+    "source_location": 166,
+    "anchor": "pdf-183",
+    "original": "FCHECK 的入口条件：无效字段说明使子程序转移到 MEMERROR。",
+    "final": "无效字段说明使 FCHECK 转移到 FERROR。",
+    "basis": "英文印刷第 207 页（PDF 229 页）明确作 FERROR，中文版同页第 140、146 行也均跳 FERROR；MEMERROR 对应 MEMORY 的地址检查。"
+  },
+  {
+    "source_location": 172,
+    "anchor": "pdf-189",
+    "original": "第 39 行注释：9 行和 40 行的常量。",
+    "final": "第 39 行注释：29 行和 40 行的常量。",
+    "basis": "英文印刷第 213 页（PDF 235）列 29 and 40。第 29 行用 8F、第 40 行用 8B，二者均引用第 39 行的 8H。"
+  },
+  {
+    "source_location": 232,
+    "anchor": "pdf-249",
+    "original": "114 行“操作码 (6) 的第三个字”。",
+    "final": "结点格式 (6) 的第三个字。",
+    "basis": "英文 PDF 314（印刷第 292 页）114 行 “third word of node format (6)”；STA 2,6 写结点的第三个字。"
+  },
+  {
+    "source_location": 244,
+    "anchor": "pdf-261",
+    "original": "§2.2.6 习题20 将下标范围排为 $1\\le ij\\le n$。",
+    "final": "$1\\le i,j\\le n$。",
+    "basis": "英文物理329／印刷307明确要求行、列下标分别处于 1 到 n。"
+  },
+  {
+    "source_location": 252,
+    "anchor": "pdf-269",
+    "original": "§2.3 习题 18 两处将表名排为 LL。",
+    "final": "两处均为 L，依次询问 $L[5,1,1]$ 和 $L[3,1]$。",
+    "basis": "英文物理339／印刷317的习题18使用在式 (3) 中定义的同一个表 L。"
+  },
+  {
+    "source_location": 255,
+    "anchor": "pdf-272",
+    "original": "§2.3.1 式 (6) 第三行“后序下 of NODE(P) 的后继的地址”",
+    "final": "后序下 NODE(P) 的后继的地址",
+    "basis": "英文物理 343 页，印刷 321 页，原文为“address of successor of NODE(P) in postorder”。中文“后序下”后多排 of。"
+  },
+  {
+    "source_location": 259,
+    "anchor": "pdf-276",
+    "original": "如果 NODE(Q) 的右子树为空，则该算法插入新结点 NODE(P)，作为 NODE(P) 的右子树。",
+    "final": "如果 NODE(P) 的右子树为空，则把新结点 NODE(Q) 作为 NODE(P) 的右子树。",
+    "basis": "英文印刷第 327 页（PDF 349）明确新结点为 Q、父结点为 P；I1 中赋值 RLINK(P) ← Q 再次确认。"
+  },
+  {
+    "source_location": 260,
+    "anchor": "pdf-277",
+    "original": "§2.3.1 定理 A 式 (11) 两行均把“则”置于第二种情形的 0 之前",
+    "final": "左（右）子树非空时相应指标为 1，否则为 0。排成两行并令条件与取值对应。",
+    "basis": "英文物理 350 页、印刷 328 页把 otherwise 与 0 并列。"
+  },
+  {
+    "source_location": 260,
+    "anchor": "pdf-277",
+    "original": "§2.3.1 式 (12) 前“则 T 和 T′ 当且仅当”",
+    "final": "则 $T$ 和 $T'$ 相似，当且仅当 $n=n'$，并且",
+    "basis": "英文物理 350 页、印刷 328 页明确要求两树相似及其结点数相等。后接式 (12)。"
+  },
+  {
+    "source_location": 261,
+    "anchor": "pdf-278",
+    "original": "§2.3.1 式 (13) 前“此外，T 和 T′ 当且仅当还有”",
+    "final": "此外，两树 $T$ 和 $T'$ 等价，当且仅当在上述相似条件之外还有",
+    "basis": "英文物理 350 页、印刷 328 页把等价定义为满足相似条件，并且对应结点的信息相同。后接式 (13)。"
+  },
+  {
+    "source_location": 264,
+    "anchor": "pdf-281",
+    "original": "§2.3.1 习题 25 第 (iii) 条写作“并且 (T) 不等价于 left(T′)”。",
+    "final": "并且 left(T) 不等价于 left(T′)。",
+    "basis": "英文物理355／印刷333指明两棵树的左子树不等价。"
+  },
+  {
+    "source_location": 264,
+    "anchor": "pdf-281",
+    "original": "§2.3.1 习题 32 写作“像在非线索树中一样，Λ 它们指向左、右子树”。",
+    "final": "LLINK、RLINK 分别指向左、右子树，或为空链 Λ。",
+    "basis": "英文物理355／印刷333明确将 Λ 列为左右链接可能的值。"
+  },
+  {
+    "source_location": 268,
+    "anchor": "pdf-285",
+    "original": "§2.3.2 式 (12) 的条件“如果 a 是常量或不等于 ≠ x”",
+    "final": "如果 a 是常量或与 x 不同的变量",
+    "basis": "英文物理 360 页，印刷 338 页，原文是“if a is a constant or a variable ≠ x”。中文漏排“变量”并重复表达不等关系。"
+  },
+  {
+    "source_location": 272,
+    "anchor": "pdf-289",
+    "original": "051 行“LLINK 置下一个根结点的”；060、062 行“进入 COPY 的特殊入口 COPY”。",
+    "final": "051 行“设置下一个根结点的 LLINK”；060、062 行“进入 COPY 的特殊入口”。",
+    "basis": "英文 PDF 365（印刷第 343 页）051 行 Set LLINK of next root node；060/062 行仅有 special entrance to COPY，各说一次。"
+  },
+  {
+    "source_location": 294,
+    "anchor": "pdf-311",
+    "original": "标记为 J 的框是入度为 3（因为弧 e₁₆ 和 e₂₁）、出度为 1 的顶点。",
+    "final": "标记为 J 的框是入度为 2（因为弧 e₁₆ 和 e₂₁）、出度为 1 的顶点。",
+    "basis": "英文印刷第 372 页（PDF 394）明确写 in-degree 2，并列出两条入弧 e₁₆、e₂₁；与入度定义相符。"
+  },
+  {
+    "source_location": 294,
+    "anchor": "pdf-311",
+    "original": "最小代价自由数（见习题 11）",
+    "final": "最小代价自由树（见习题 11）",
+    "basis": "英文印刷页 371 图 33 为 free tree，与本节自由树定义一致。"
+  },
+  {
+    "source_location": 320,
+    "anchor": "pdf-337",
+    "original": "§2.3.4.5 习题17 在差分条件前多印 $f(n)=$。",
+    "final": "$\\Delta f(n)=f(n+1)-f(n)\\ge0$，且 $\\Delta^2 f(n)=\\Delta f(n+1)-\\Delta f(n)\\le0$。",
+    "basis": "英文物理428／印刷406给出非减凹条件，没有 f 与其一阶差分相等的要求。"
+  },
+  {
+    "source_location": 337,
+    "anchor": "pdf-354",
+    "original": "§2.4 算法 A6 将两个赋值连印为 PARENT(Q) ← P1CHILD(Q) ← Λ。",
+    "final": "PARENT(Q) ← P1，CHILD(Q) ← Λ，SIB(Q) ← Λ。",
+    "basis": "英文物理451／印刷429的 A6 列出三个独立字段及各自的赋值。"
+  },
+  {
+    "source_location": 386,
+    "anchor": "pdf-403",
+    "original": "中文印刷页 386 和英文印刷页 493 都写 Hₙ⁽⁰,ᵛ⁾ = ∑ₖ₌₁ⁿ Hₙ⁽ᵛ⁾，Hₙ⁽ᵘ,⁰⁾ = Hₙ⁽ᵘ⁻¹⁾。",
+    "final": "按定义，Hₙ⁽⁰,ᵛ⁾ = Hₙ⁽ᵛ⁻¹⁾，Hₙ⁽ᵘ,⁰⁾ = ∑ₖ₌₁ⁿ Hₖ⁽ᵘ⁾。",
+    "basis": "§1.2.7 习题 25：中译题干 PDF 79（印刷 62），英文题干 PDF 101（印刷 79）；答案分别为中文 PDF 403、英文 PDF 515。按题干 Hₙ⁽ᵘ,ᵛ⁾＝∑₁≤ⱼ≤ₖ≤ₙ j⁻ᵘk⁻ᵛ，u＝0 时每个 k 出现 k 次，得 ∑ₖk¹⁻ᵛ；v＝0 时先对 j 求和，得 ∑ₖHₖ⁽ᵘ⁾。n＝2 时令 (u,v)＝(0,1) 和 (1,0)，正确值依次为 2、5/2，原印给出 3、2。"
+  },
+  {
+    "source_location": 392,
+    "anchor": "pdf-409",
+    "original": "§1.2.9 习题 25 的解答中，二项式系数右侧的指示条件印为“[n ]”。",
+    "final": "末项应为二项式系数乘以指示量 [n 为偶数]。也就是说，奇数 n 的系数为 0。",
+    "basis": "英文物理521／印刷499的解答25在相同位置写作 [n even]，与 [zⁿ](1+z²)ⁿ 只含偶次幂相符。"
+  },
+  {
+    "source_location": 446,
+    "anchor": "pdf-463",
+    "original": "堂亲关系段落中把迭代函数 parent 重复排成 parentparent。",
+    "final": "所有带迭代次数的函数统一为单个 parent，包括 parent^[m+1](X) = parent^[m+n+1](Y) 与 parent^[m](X) ≠ parent^[m+n](Y)。",
+    "basis": "英文 PDF 583（印刷 561），§2.3 习题 6 的定义及其答案均为单个 parent，只有递归定义处会嵌套调用，并配成括号。"
+  },
+  {
+    "source_location": 447,
+    "anchor": "pdf-464",
+    "original": "parentparent^[j](X) ≠ parentparent^[k](Y)。",
+    "final": "parent^[j](X) ≠ parent^[k](Y)。",
+    "basis": "§2.3 习题 7 的英文答案（PDF 583，印刷第 561 页）左、右均为单个 parent；与习题 6 的迭代定义一致。"
+  },
+  {
+    "source_location": 459,
+    "anchor": "pdf-476",
+    "original": "P ← P = c",
+    "final": "P ← P − c",
+    "basis": "英文 PDF 599（印刷 577），§2.3.3 习题 17 的答案明确写为 P ← P − c，指在表示 (9) 中取后序前驱。"
+  },
+  {
+    "source_location": 503,
+    "anchor": "pdf-520",
+    "original": "阿伯加斯特：Louis Franois Antoine Arbogast",
+    "final": "阿伯加斯特：Louis François Antoine Arbogast",
+    "basis": "英文 PDF 652 页相应人名条目，身份及中文正文位置可对齐；恢复姓氏、字母或附加符号。"
+  },
+  {
+    "source_location": 503,
+    "anchor": "pdf-520",
+    "original": "伯克：Jhon Burke",
+    "final": "伯克：John Burke",
+    "basis": "英文 PDF 654 页相应人名条目，身份及中文正文位置可对齐；恢复姓氏、字母或附加符号。"
+  },
+  {
+    "source_location": 503,
+    "anchor": "pdf-520",
+    "original": "鲍格朗：Francois Bergeron",
+    "final": "鲍格朗：François Bergeron",
+    "basis": "英文 PDF 653 页相应人名条目，身份及中文正文位置可对齐；恢复姓氏、字母或附加符号。"
+  },
+  {
+    "source_location": 503,
+    "anchor": "pdf-520",
+    "original": "巴赫曼：Paul Gustav Heinrich",
+    "final": "巴赫曼：Paul Gustav Heinrich Bachmann",
+    "basis": "英文 PDF 653 页相应人名条目，身份及中文正文位置可对齐；恢复姓氏、字母或附加符号。"
+  },
+  {
+    "source_location": 505,
+    "anchor": "pdf-522",
+    "original": "科尼格：Dnes Knig",
+    "final": "科尼格：Dénes Kőnig",
+    "basis": "英文 PDF 663 页相应人名条目，身份及中文正文位置可对齐；恢复姓氏、字母或附加符号。"
+  },
+  {
+    "source_location": 505,
+    "anchor": "pdf-522",
+    "original": "卢卡斯：Franois douard Anatole Lucas",
+    "final": "卢卡斯：François Édouard Anatole Lucas",
+    "basis": "英文 PDF 664 页相应人名条目，身份及中文正文位置可对齐；恢复姓氏、字母或附加符号。"
+  },
+  {
+    "source_location": 505,
+    "anchor": "pdf-522",
+    "original": "卢卡西维茨：Jan Lukasiewicz",
+    "final": "卢卡西维茨：Jan Łukasiewicz",
+    "basis": "英文 PDF 664 页相应人名条目，身份及中文正文位置可对齐；恢复姓氏、字母或附加符号。"
+  },
+  {
+    "source_location": 506,
+    "anchor": "pdf-523",
+    "original": "琼斯：Cliffor Bryn Jones",
+    "final": "琼斯：Clifford Bryn Jones",
+    "basis": "英文 PDF 662 页相应人名条目，身份及中文正文位置可对齐；恢复姓氏、字母或附加符号。"
+  },
+  {
+    "source_location": 506,
+    "anchor": "pdf-523",
+    "original": "裘努埃：Francois Genuys",
+    "final": "裘努埃：François Genuys",
+    "basis": "英文 PDF 660 页相应人名条目，身份及中文正文位置可对齐；恢复姓氏、字母或附加符号。"
+  },
+  {
+    "source_location": 506,
+    "anchor": "pdf-523",
+    "original": "帕夫拉克：Zdzislaw Pawlak",
+    "final": "帕夫拉克：Zdzisław Pawlak",
+    "basis": "英文 PDF 667 页相应人名条目，身份及中文正文位置可对齐；恢复姓氏、字母或附加符号。"
+  },
+  {
+    "source_location": "补配旧译本 PDF 432",
+    "anchor": "alt-432",
+    "original": "原句将 53 读作内存块总数，再说明其中有保留块及 21 个自由块。",
+    "final": "共有 53 个保留块，另有 21 个自由块。",
+    "basis": "英文印刷 435 页，PDF 457 页，分别给出两类块的数目。"
+  },
+  {
+    "source_location": "补配旧译本 PDF 444",
+    "anchor": "alt-444",
+    "original": "边界标记系统的保留时间为 37+7A。",
+    "final": "边界标记系统的保留时间为 33+7A。",
+    "basis": "英文印刷 449 页的表列 33+7A。"
+  },
+  {
+    "source_location": "补配旧译本 PDF 447",
+    "anchor": "alt-447",
+    "original": "Wilson 等人的综述缺出版信息。",
+    "final": "补入 LNCS 986 (1995), 1–116。",
+    "basis": "英文印刷 452 页给出完整出处。"
+  },
+  {
+    "source_location": "补配旧译本 PDF 457",
+    "anchor": "alt-457",
+    "original": "Kolmogorov 图模型中的“向量”。",
+    "final": "图模型中的“顶点”。",
+    "basis": "英文物理 485–486 页用 vertex 或 vertices 指图的顶点。"
+  }
+]

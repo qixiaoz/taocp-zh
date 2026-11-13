@@ -1,0 +1,25 @@
+{
+  "name": "taocp-zh",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "《计算机程序设计艺术》卷一中文阅读网站",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "book:prepare": "node scripts/prepare-book.mjs",
+    "docs:dev": "npm run book:prepare && vitepress dev docs --host 127.0.0.1",
+    "docs:build": "npm run book:prepare && vitepress build docs && npm run site:check",
+    "docs:preview": "vitepress preview docs --host 127.0.0.1",
+    "site:check": "node scripts/check-site.mjs"
+  },
+  "devDependencies": {
+    "cheerio": "1.0.0",
+    "fflate": "0.8.2",
+    "katex": "0.19.1",
+    "markdown-it-footnote": "4.0.0",
+    "markdown-it-mathjax3": "4.3.2",
+    "vitepress": "1.6.4"
+  }
+}
