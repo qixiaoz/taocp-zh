@@ -30,6 +30,10 @@ npm run docs:preview
 
 网站配置位于 `docs/.vitepress/config.mts`，配套阅读样式位于 `docs/.vitepress/theme/style.css`。公式、长表和程序清单支持局部横向滚动，正文保留原书题号与原页索引。
 
+阅读页提供纸色、白色和深色模式，支持调整正文字号及正文最大宽度。桌面端可收起章节目录，手机端通过“章节目录”按钮展开目录。设置保存在当前浏览器，切换章节或刷新后继续生效；“恢复默认”回到纸色、18 px 字号、760 px 最大宽度及展开目录。较窄的窗口会自动限制实际正文宽度。
+
+阅读设置组件位于 `docs/.vitepress/theme/ReaderControls.vue`，偏好校验与首屏初始化位于 `reader-preferences.ts`。新增或调整设置后，应检查首次载入、刷新、跨节导航、存储不可用以及桌面和手机端的布局。
+
 网页公式使用 KaTeX 在构建时排版，并附带可访问的 MathML。渲染插件处理母稿的两处嵌套美元分隔符、七处闭合分隔符前的空白及 HTML 表格内的公式，生成版共呈现 12,699 处数学表达式。这些是网页语法兼容处理，整卷下载内容按母稿的 SHA-256 校验。
 
 推送到 `main` 后，GitHub Actions 自动生成并检查网站，再通过 GitHub Pages 发布。仓库 Pages 的发布源设置为 **GitHub Actions**，网站基路径为 `/taocp-zh/`。

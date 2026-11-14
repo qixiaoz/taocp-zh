@@ -1,17 +1,177 @@
 :root {
-  --vp-font-family-base: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  --reader-font-size: 18px;
+  --reader-content-width: 760px;
+  --reader-font-family: 'Iowan Old Style', 'Palatino Linotype', 'Songti SC',
+    'Noto Serif CJK SC', 'Noto Serif SC', 'Source Han Serif SC', 'STSong', serif;
+  --vp-sidebar-width: 272px;
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI',
     'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
   --vp-font-family-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo,
     'PingFang SC', 'Microsoft YaHei', monospace;
+  --vp-c-brand-1: #835332;
+  --vp-c-brand-2: #986541;
+  --vp-c-brand-3: #835332;
+  --vp-c-brand-soft: rgba(131, 83, 50, 0.1);
+  --vp-home-hero-name-color: var(--vp-c-text-1);
+  --vp-home-hero-name-background: none;
 }
+
+html[data-reader-theme='paper'] {
+  color-scheme: light;
+  --vp-c-bg: #f6f1e6;
+  --vp-c-bg-alt: #eee8dc;
+  --vp-c-bg-elv: #fcf8ef;
+  --vp-c-bg-soft: #eee8dc;
+  --vp-c-text-1: #342f29;
+  --vp-c-text-2: #625a4f;
+  --vp-c-text-3: #766b5c;
+  --vp-c-divider: #d9d0c0;
+  --vp-c-border: #c8bcaa;
+  --vp-c-gutter: #e4dbcc;
+  --vp-code-block-bg: #eee8dc;
+  --vp-code-bg: #eae2d4;
+  --vp-sidebar-bg-color: #eee8dc;
+  --vp-nav-bg-color: #f6f1e6;
+  --vp-local-nav-bg-color: #f6f1e6;
+}
+
+html[data-reader-theme='light'] {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+  --vp-c-bg: #202321;
+  --vp-c-bg-alt: #1b1e1c;
+  --vp-c-bg-elv: #292d29;
+  --vp-c-bg-soft: #292d29;
+  --vp-c-text-1: #e6e3db;
+  --vp-c-text-2: #babcb3;
+  --vp-c-text-3: #9c9f95;
+  --vp-c-brand-1: #d5af89;
+  --vp-c-brand-2: #e1c09e;
+  --vp-c-brand-3: #a77b54;
+  --vp-c-brand-soft: rgba(213, 175, 137, 0.12);
+  --vp-c-divider: #3b413b;
+  --vp-c-border: #555d54;
+  --vp-c-gutter: #343a34;
+  --vp-code-block-bg: #191c1a;
+}
+
+/* Keep controls in the UI font; the reading column uses book typography. */
+.VPDoc .vp-doc {
+  font-family: var(--reader-font-family);
+  font-size: var(--reader-font-size);
+  --vp-code-font-size: 0.85em;
+}
+
+.VPDoc .vp-doc h1 {
+  font-size: 1.85em;
+  line-height: 1.45;
+  letter-spacing: 0.01em;
+  margin-bottom: 1.1em;
+}
+
+.VPDoc .vp-doc h2 {
+  font-size: 1.4em;
+  line-height: 1.5;
+  margin-top: 2em;
+}
+
+.VPDoc .vp-doc h3 { font-size: 1.15em; line-height: 1.6; }
+.VPDoc .vp-doc h4 { font-size: 1em; line-height: 1.7; }
+.VPDoc .vp-doc blockquote > p { font-size: 0.95em; }
+.VPDoc .vp-doc th,
+.VPDoc .vp-doc td { font-size: 0.9em; }
+.VPDoc .vp-doc li + li { margin-top: 0.4em; }
+
+.VPDoc .container {
+  max-width: calc(var(--reader-content-width) + 232px);
+}
+
+.VPDoc .content,
+.VPDoc:not(.has-sidebar) .content {
+  min-width: 0;
+  max-width: var(--reader-content-width);
+  padding: 0;
+}
+
+.Layout .VPDoc .content-container,
+.Layout .VPDoc.has-aside .content-container {
+  max-width: var(--reader-content-width);
+}
+
+.VPDoc .aside {
+  flex: 0 0 200px;
+  max-width: 200px;
+  padding-left: 0;
+  margin-left: 32px;
+}
+
+.VPDoc .aside-container,
+.VPDoc .aside-curtain { width: 200px; }
+
+.VPHero .name,
+.VPHero .text { font-family: var(--reader-font-family); }
 
 @media (min-width: 960px) {
   .VPHero:not(.has-image) .name {
     max-width: 100%;
   }
+
+  .Layout .VPContent.has-sidebar {
+    padding-left: var(--vp-sidebar-width);
+    padding-right: 0;
+  }
+
+  .Layout .VPSidebar {
+    width: var(--vp-sidebar-width);
+    padding-left: 24px;
+    padding-right: 24px;
+    border-right: 1px solid var(--vp-c-divider);
+  }
+
+  .VPNavBar.has-sidebar > .wrapper > .container > .title {
+    width: var(--vp-sidebar-width);
+    padding-left: 24px;
+    padding-right: 16px;
+  }
+
+  .VPNavBar.has-sidebar > .wrapper > .container > .content {
+    padding-left: var(--vp-sidebar-width);
+    padding-right: 32px;
+  }
+
+  .VPNavBar.has-sidebar > .divider,
+  .Layout .VPLocalNav.has-sidebar { padding-left: var(--vp-sidebar-width); }
+
+  html[data-reader-toc='hidden'] .VPSidebar { display: none; }
+  html[data-reader-toc='hidden'] .VPContent.has-sidebar,
+  html[data-reader-toc='hidden'] .VPLocalNav.has-sidebar { padding-left: 0; }
+  html[data-reader-toc='hidden'] .VPDoc .aside { display: none; }
+  html[data-reader-toc='hidden'] .VPDoc .container {
+    max-width: var(--reader-content-width);
+  }
+  html[data-reader-toc='hidden'] .VPDoc .content { margin: 0 auto; }
 }
 
-/* Keep the default theme's layout; only adapt dense book content. */
+@media (min-width: 1280px) {
+  .VPDoc .content { flex: 1 1 auto; }
+}
+
+@media (max-width: 959px) {
+  .VPDoc { padding: 24px 24px 64px; }
+  .VPDoc .vp-doc h1 { font-size: 1.55em; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .Layout *, .Layout *::before, .Layout *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}
+
+/* Preserve the book's formula, table and program layout at every font size. */
 .vp-doc {
   line-height: 1.85;
   overflow-wrap: break-word;
@@ -103,7 +263,7 @@
 
 .vp-doc .footnotes {
   margin-top: 2rem;
-  font-size: 0.9em;
+  font-size: 0.88em;
 }
 
 .vp-doc .footnote-backref {

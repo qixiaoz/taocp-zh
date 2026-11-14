@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
 import navigation from './book-navigation.json'
 import { installBookMarkdown } from '../../scripts/book-markdown.mjs'
+import { READER_INIT_SCRIPT } from './theme/reader-preferences'
 
 // VitePress serializes this function into the client bundle. Keep it self-contained
 // so the browser uses exactly the same tokenizer as the build-time search index.
@@ -22,9 +23,12 @@ export default defineConfig({
   description: '《计算机程序设计艺术》第一卷《基本算法》中文阅读版：基本概念、信息结构、习题答案与附录。',
   base: '/taocp-zh/',
   cleanUrls: false,
-  appearance: true,
+  appearance: false,
   lastUpdated: false,
-  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/taocp-zh/favicon.svg' }]],
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/taocp-zh/favicon.svg' }],
+    ['script', {}, READER_INIT_SCRIPT]
+  ],
   vite: {
     build: { assetsInlineLimit: 0 }
   },
