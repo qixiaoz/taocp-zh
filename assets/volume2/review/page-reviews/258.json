@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "section": "4.4",
+  "pdf_page": 258,
+  "printed_page": 247,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "0415fbd452a53c412c25463050fac7bce184e1f5b7b00ba2f298ebbb547f26b9",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/scans/258.jpg",
+    "image_sha256": "b6a76b71abc20d65c8937e35a01a3628c25d3d2fc48028dd7095073408a3991d",
+    "scope": "entire page prose, all inline/display math, code rows, table cells, hand-calculation traces, exercise numbering/difficulty/recommendation and original footnote where present"
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      336,
+      337
+    ],
+    "en_printed_pages": [
+      321,
+      322
+    ],
+    "evidence": "Actual rendered Chinese and English pages, English PDF text layer, program field comparison and independent exact numerical checks.",
+    "scope": "all corresponding prose and formulas/programs/tables/exercises; no independent proof of every exercise is claimed"
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/batch256-proof.html",
+    "html_sha256": "e7abbcf817f94ec5bbb578cdcbc03c24af59f411b04cf55a51e48a1c32579d6a",
+    "math_count_in_eight_page_proof": 261,
+    "math_parse_errors": 0,
+    "desktop_visual_review": true,
+    "mobile_visual_review": true,
+    "desktop_screenshot": ".work/volume2/source-audit/batch256-proof-1040-258.png",
+    "mobile_screenshot": ".work/volume2/source-audit/batch256-proof-390-258.png",
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "missing_images": 0,
+    "page_errors": 0,
+    "document_horizontal_overflow": false,
+    "wide_math_code_table_scroll": {
+      "evidence": ".work/volume2/source-audit/batch256-scroll.json",
+      "initial_left_edges_and_right_ends_reachable": true,
+      "scrollable_elements_at_1040px": 33,
+      "scrollable_elements_at_390px": 39
+    },
+    "qualification": "Standalone eight-page proof, not full-volume/site acceptance.",
+    "layout_revision": {
+      "change": "Keep operation labels on one line inside editable table1; preserve all source text, bits, math and table rows.",
+      "prior_evidence": ".work/volume2/source-audit/history/batch256-before-table-nowrap/",
+      "checks_rerun": [
+        "VitePress/KaTeX261 math expressions",
+        "all numerical/BCD checks",
+        "MIX field comparison",
+        "desktop390px screenshots and no-overflow check",
+        "table/math/code left/right scroll and footnote forward/back"
+      ]
+    }
+  },
+  "exercises": [],
+  "answer_exceptions": [],
+  "substantive_corrections": [],
+  "source_discrepancies_retained": [],
+  "numeric_evidence": ".work/volume2/source-audit/batch256-numeric-check.json",
+  "program_evidence": ".work/volume2/source-audit/batch256-program-check.json",
+  "next_steps": [
+    "Bind into whole volume; retain page anchors outside formulas/code/tables.",
+    "Verify complete-volume exercise/answer links and hashes after binding.",
+    "Retain this original page-file hash record if binding changes bytes."
+  ],
+  "tables": [
+    {
+      "number": 1,
+      "anchor": "table-4-1",
+      "rows": 6,
+      "columns": 3,
+      "status": "editable Markdown; all variable subscripts, masks and bit strings visually compared;1000 packed-BCD input cases independently checked",
+      "source_en_pdf_page": 337,
+      "mobile_layout": "Operation labels use nowrap spans; table scrolls horizontally inside page, no single-character vertical labels."
+    }
+  ]
+}

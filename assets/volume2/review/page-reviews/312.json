@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.5.4",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 312,
+  "cnPrintedPage": 301,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    404,
+    405
+  ],
+  "enPrintedPages": [
+    389,
+    390
+  ],
+  "pageMarkdownSha256": "967f9fee96b55823e302975d04ff7831d76736460949b4d11d4f2c542c3815dc",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/312.jpg",
+  "cnPageImageSha256": "b693dd1bcfdfa64ef1694685c353434a080d6636402dc411bd267198226b3bdc",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-404.png",
+      "sha256": "34bf2f2c8075e140d48f95614cc5005e90a81017ec087f5208df194063de4fa3"
+    },
+    {
+      "file": "source-audit/en-render/page-405.png",
+      "sha256": "3430426fe7d7285ef195d0c98a8d31d36584651b68b98359223102c022a28e4b"
+    }
+  ],
+  "coveredRegions": [
+    "311续括号、模数配对和所有倍率/余数条件。",
+    "完整17行MIXAL清单，16条指令的标签、操作码、地址、注释、字段列位置；英文实图及PDF抽取额外核对。",
+    "循环/字长估计、筛法历史与所有引文；末接313。"
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-312",
+    "p-301"
+  ],
+  "numberedFormulaTags": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 311,
+    "previousEnd": "其中 $x=9x'+a$ 且",
+    "start": "$x=9x''-a$），",
+    "extractPreviousFootnotesBeforeJoining": [
+      "v2-p300-1"
+    ]
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 313,
+    "end": "步骤 D2 和 D3 的迭",
+    "nextStart": "代过程"
+  },
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via actual repository book-markdown.mjs",
+    "mathExpressions": 31,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [
+      17
+    ],
+    "meaning": "仅语法；原图/双语核对与有限复算分列。"
+  },
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch312-proof.html",
+    "htmlSha256": "650934f8eed2449a7f566b8f1a67f3ac2e9586dcab371914f33701094e6f5162",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof only, not whole-volume/offline/final-site/online acceptance.",
+    "browserPath": "Browser plugin not available; bundled Playwright plus local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch312-proof-1280-312.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch312-proof-390-312.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch312-right-390-312.png",
+    "mobileRightEndVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "mathmlBodyLeak": 0,
+    "mathParseErrors": 0,
+    "proofMathExpressions": 471,
+    "machineObservations": ".work/volume2/source-audit/batch312-browser.json",
+    "scrollableElementCounts": {
+      "1280": 44,
+      "390": 64
+    }
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch312-numeric-check.json",
+  "numericScope": "685 exact/numeric checks include actual sample data, primality certificates and finite algorithm replay; finite AlgorithmP exhaustion does not prove its general bound. Historical performance timings and6432966-iteration claim not rerun.",
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终整卷母稿装订/包含证明",
+    "整卷Pandoc、正式VitePress和线上发布/下载",
+    "未把有限复算、历史性能描述或机器语法通过扩写为一般定理的证明。"
+  ],
+  "programCheck": ".work/volume2/source-audit/batch312-program-check.json"
+}

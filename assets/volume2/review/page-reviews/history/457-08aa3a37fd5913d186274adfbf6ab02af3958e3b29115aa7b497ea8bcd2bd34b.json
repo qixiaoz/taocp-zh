@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 457,
+  "cnPrintedPage": 446,
+  "enPdfPages": [
+    586,
+    587
+  ],
+  "enPrintedPages": [
+    571,
+    572
+  ],
+  "pageMarkdownSha256": "4fd9ae1b44c87c835c4cc567ecf2d0fafbb0d11a94731b39a0f375d66d7cfc1a",
+  "cnPageImageSha256": "146ae5e4b4118285fbfa7c2c1068bf4bc9fe358151a01d1db39a0f34ab72ffc0",
+  "enPageImageSha256": {
+    "586": "7627ad3216e4df807d59c595bb3effa28b4855635e54cb3fb939de8cdffd9e7a",
+    "587": "3bfd3e8e86e2295f94803d4678453ea902701fc19264b4c4cbe8cf1e1dfed216"
+  },
+  "coveredRegions": [
+    "3.3.2答34完整六行五列表/各c/tau幂级数及均值二阶矩、35(a)–(e)完整有限域/三阶矩/原历史引文；3.3.3实际标题、答1–3。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-457",
+    "p-446",
+    "ans-3-3-2-34",
+    "ans-3-3-2-35",
+    "ans-3-3-3-1",
+    "ans-3-3-3-2",
+    "ans-3-3-3-3"
+  ],
+  "answerAnchors": [
+    "ans-3-3-2-34",
+    "ans-3-3-2-35",
+    "ans-3-3-3-1",
+    "ans-3-3-3-2",
+    "ans-3-3-3-3"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 88,
+    "displayExpressions": 2,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.3.2答34表情况5",
+      "cnPrintedPage": 446,
+      "enPdfPage": 586,
+      "enPrintedPage": 571,
+      "original": "(1+z)/(1-mz+2z²-z³)",
+      "final": "1/(1-mz+2z²-z³)",
+      "basis": {
+        "alphabetSizes": [
+          4,
+          5
+        ],
+        "lengths": [
+          0,
+          6
+        ],
+        "generatingFunctionChecks": 84,
+        "allPassed": true,
+        "fallingPowersPreserved": true,
+        "row5Correction": {
+          "original": "(1+z)/(1-mz+2z²-z³)",
+          "final": "1/(1-mz+2z²-z³)",
+          "generalDerivation": "避ab/bc的线性状态转移可消元得D(z)=1-mz+2z²-z³和分子1；原分子给[z]G=m+1而任何单字母串均合法、个数m；亦与c表无epsilon一次项相符。"
+        }
+      }
+    },
+    {
+      "section": "3.3.2答35(d)三阶矩",
+      "cnPrintedPage": 446,
+      "enPdfPage": 587,
+      "enPrintedPage": 572,
+      "original": "m^3−6B(N+1)/N",
+      "final": "m^3/N−6B(N+1)/N",
+      "basis": {
+        "cnPdfPage": 457,
+        "enPdfPage": 587,
+        "original": "m^3−6B(N+1)/N",
+        "final": "m^3/N−6B(N+1)/N",
+        "generalDerivation": "紧前显示式1/N(m³−m^underline3+6Σtriple)中，Σtriple=binom(m,3)−B(N+1)，且6binom(m,3)=m^underline3，代入必得m³/N；原题CN071已给正确目标。",
+        "finiteAllStartsChecks": 31,
+        "allExactPassed": true
+      }
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {},
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "17fe0051e44453dfc5395d74b7da8d4a4ee291bed5aaaad0479614aa4117ad40",
+    "visualReviewSha256": "9fd358b26f3871a254abfd13afa5f256ea08f3b50750a46d081784833ec15939",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 88,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 2,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 88,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 9,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "2be701a51c3e4028b81ea2a930a49016e6d20079316b7db1b90cd0fc0561b308",
+  "numericalCheckQualification": "一般代数依据/原图双语核对为主；小规模枚举只辅助证明检查，不将有限计算充作一般/渐近证明。原文引用的巨型精确划分数未独立计算。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "editableTables": 1,
+  "fallingFactorialNotation": "EX/EX²的m^underline2/3/4和ES_m³前式m^underline3均按原图明确保留，不转成普通幂。"
+}

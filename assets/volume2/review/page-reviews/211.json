@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.4",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；最终母稿须另行证明包含、跨页合段/程序合块及允许展示转换，不仅替换本哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整页和列出的英文页图，逐段/逐式/表格单元/清单行及注释比较；语法/文本字段检查/复算独立列出。模型视觉核查，不声称人类签核。",
+  "cnPdfPage": 211,
+  "cnPrintedPage": 200,
+  "enPdfPages": [
+    275,
+    276,
+    277
+  ],
+  "enPrintedPages": [
+    260,
+    261,
+    262
+  ],
+  "pageMarkdownSha256": "2e4268092ee89e73e6b4bf41c9df4133ead67fb8980bbe742650c00a1a20d3fd",
+  "cnPageImage": "scans/211.jpg",
+  "cnPageImageSha256": "1d435a5025aeb145ecdf39437b4ce77f22669046483c2d2cd43aac421e4ed08f",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-275.png",
+      "sha256": "43364a1e5d09ae0bfcd3a90819c6e6b0c61aacc09a99fea44904c506635c04ae"
+    },
+    {
+      "file": "verified-sources/en-276.png",
+      "sha256": "6f75a652d81071b20afbdd92e2ca425a718a314d273472ecb462b16ff0c543b2"
+    },
+    {
+      "file": "verified-sources/en-277.png",
+      "sha256": "6e0bb1d5f175175e02a2d0425b4e8b225380824e612df4245ccc96760ebe9009"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码；物理页和印刷页隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-211",
+    "p-200"
+  ],
+  "coveredRegions": [
+    "首续式20的c_m定义21。",
+    "Q_m显式解22、c1及c_(m+1)二行递推23。",
+    "生成函数定义、无编号二行系数展开、式24/25/26。",
+    "复圆半径、m极限与最后一致收敛指数级数，定理证明完整结束方块。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "not-applicable",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "首21式续210的20式。定理F证明在本页结束；无数学块被拆开。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 27,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "仅排版语法；内容来自以上中文/英文原页实际比较。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "辅助原页核查，不当作原书答案来源或替代视觉比较。",
+    "results": {
+      "generatingFunctionAuxiliaryCheck": "C(z)25与式24解出的C(z)用r=2,z=0.1,0.25,0.5,-0.25数值代入一致；对应r=2的c1..c3同时用于图5。",
+      "singularityRadius": 2.906215982973569,
+      "actualRecord": "verified-sources/double-numerical-checks.json"
+    }
+  },
+  "untested": [
+    "最终母稿装订包含/跨页程序合并与原题答双向链接。",
+    "最终正式VitePress/Pandoc整卷和线上。",
+    "未执行MIX程序，未以代码字段一致宣称数值实现正确。"
+  ],
+  "renderReview": {
+    "file": "verified-render/double-dom-review-207-213.json",
+    "sha256": "5d532860bad6c3f57d1c0c7bfe88441a4f54af888670ed901753f4bad05ca278",
+    "scope": "CurrentpageSHA; isolated1280/390 DOM plus explicitlylistedselectedregionsactualvisual. SharedVitePress/Pandoc notincluded."
+  }
+}

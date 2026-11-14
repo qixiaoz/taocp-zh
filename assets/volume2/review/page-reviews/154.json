@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "section": "3.6",
+  "pdf_page": 154,
+  "printed_page": 143,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "058675dcfbf836c849f79b7ec6e5667246a013e399b63c73c80364f686065772",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/source-audit/cn-render/full-154.png",
+    "scope": "all page prose, sequence and punctuation; all formulas, program specification, stage directions, quoted letter, original footnote and unnumbered illustration where present"
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      204,
+      205
+    ],
+    "en_printed_pages": [
+      189,
+      190
+    ],
+    "scope": "all corresponding prose/scripts and every mathematical expression; original Chinese translation retained except listed substantive corrections",
+    "original_english_formula_images_checked": [
+      204,
+      208
+    ]
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/chapter36-tail-proof.html",
+    "html_sha256": "b8897ed2534f2d49eb7e1d95f0c0b8b65ebe568f5a49b3793c9dd238f6e0c058",
+    "desktop_screenshot": ".work/volume2/source-audit/tail-proof-1040-154.png",
+    "mobile_screenshot": ".work/volume2/source-audit/tail-proof-390-154.png",
+    "desktop_visual_review": true,
+    "mobile_visual_review": false,
+    "source_pipeline": "current VitePress + installBookMarkdown + markdown-it-footnote; standalone proof",
+    "math_expressions_in_four_page_proof": 41,
+    "math_parse_errors": 0,
+    "missing_images": 0,
+    "page_errors": 0,
+    "document_horizontal_overflow": false,
+    "footnote_navigation_actual_test": null,
+    "long_math_both_ends": null,
+    "qualification": "Not complete-volume binding or final website verification."
+  },
+  "exercises": [
+    {
+      "anchor": "ex-3-6-1",
+      "number": 1,
+      "difficulty": "21",
+      "recommended": false,
+      "answer_anchor": "ans-3-6-1"
+    },
+    {
+      "anchor": "ex-3-6-2",
+      "number": 2,
+      "difficulty": "15",
+      "recommended": true,
+      "answer_anchor": "ans-3-6-2"
+    },
+    {
+      "anchor": "ex-3-6-3",
+      "number": 3,
+      "difficulty": "32",
+      "recommended": false,
+      "answer_anchor": null
+    },
+    {
+      "anchor": "ex-3-6-4",
+      "number": 4,
+      "difficulty": "40",
+      "recommended": false,
+      "answer_anchor": null
+    },
+    {
+      "anchor": "ex-3-6-5",
+      "number": 5,
+      "difficulty": "46",
+      "recommended": false,
+      "answer_anchor": null
+    }
+  ],
+  "answer_exceptions": [
+    {
+      "exercise": "ex-3-6-3",
+      "reason": "No independent answer in Chinese printed468/physical479 or English printed599/physical614; original answer numbering jumps from2 to7."
+    },
+    {
+      "exercise": "ex-3-6-4",
+      "reason": "No independent answer in Chinese printed468/physical479 or English printed599/physical614; original answer numbering jumps from2 to7."
+    },
+    {
+      "exercise": "ex-3-6-5",
+      "reason": "No independent answer in Chinese printed468/physical479 or English printed599/physical614; original answer numbering jumps from2 to7."
+    }
+  ],
+  "substantive_corrections": [
+    {
+      "section": "3.6 exercise1",
+      "cn_printed_page": 143,
+      "en_printed_page": 189,
+      "en_pdf_page": 204,
+      "source_reading": "rX = ; 关闭上溢.",
+      "final_reading": "rX = ?; 关闭上溢.",
+      "english_basis": "rX =?; overflow off.",
+      "reason": "Original Chinese image has no character after =; English question mark marks unspecified register content and was restored."
+    }
+  ],
+  "source_discrepancies_retained": [
+    {
+      "location": "exercise3 title",
+      "source_reading": "（A 骰子游戏）",
+      "decision": "Retain literal A visible in Chinese source; do not silently paraphrase title."
+    }
+  ],
+  "next_steps": [
+    "Bind into complete volume and verify complete-volume hashes, links and final rendering.",
+    "Transcribe corresponding original answers without fabricating answers3–6."
+  ],
+  "continuation": {
+    "begins_mid_paragraph_from_pdf_page": 153,
+    "first_text": "推荐的随机数生成器也不是令人满意的.",
+    "ends_in_exercise": 5,
+    "script_continues_in_pdf_page": 155
+  },
+  "navigationRepair": {
+    "cnPdfPage": 154,
+    "oldPageMarkdownSha256": "bd41c261aa512191efc1b843d068bb0ca074a877cfe5e02370142cda83643870",
+    "newPageMarkdownSha256": "058675dcfbf836c849f79b7ec6e5667246a013e399b63c73c80364f686065772",
+    "treatment": "Remove only three editorial navigation links to nonexistent original independent answers3.6-3/4/5. Chinese/English original answer numbering jumps2 to7; exercise text/math/order/difficulty unchanged. No replacement answer or target is invented.",
+    "removedLinks": [
+      "ans-3-6-3",
+      "ans-3-6-4",
+      "ans-3-6-5"
+    ],
+    "existingOriginalExceptionEvidence": [
+      {
+        "exercise": "ex-3-6-3",
+        "reason": "No independent answer in Chinese printed468/physical479 or English printed599/physical614; original answer numbering jumps from2 to7."
+      },
+      {
+        "exercise": "ex-3-6-4",
+        "reason": "No independent answer in Chinese printed468/physical479 or English printed599/physical614; original answer numbering jumps from2 to7."
+      },
+      {
+        "exercise": "ex-3-6-5",
+        "reason": "No independent answer in Chinese printed468/physical479 or English printed599/physical614; original answer numbering jumps from2 to7."
+      }
+    ],
+    "answerSourceReviewFiles": [
+      "verified/479.json",
+      "verified/480.json"
+    ],
+    "answerSourcePrivateReviewHashes": [
+      "d30336bf34bdf2c351c4bc64f262d3612adf2edc47e28b3573fdf4ebc23272f5",
+      "569517124faaa3f5c74c1b1a7645af24a43a75d17181514f6c7918993fbadb78"
+    ],
+    "allOtherBytesUnchanged": true,
+    "history": "verified-history/154-before-unavailable-answer-links-bd41c261aa512191efc1b843d068bb0ca074a877cfe5e02370142cda83643870",
+    "browserEvidence": {
+      "file": "proof/navigation154-browser.json",
+      "sha256": "72dfffc00304e40048c93bfc2cdf27ff01484d08b91429b0ef5a35f6ee50b25d",
+      "status": "passed"
+    },
+    "sourceImageActuallyViewedByRoot": [
+      "scans/479.jpg",
+      "proof/455-478/en/614.png"
+    ],
+    "historicalChecksRetainTheirOriginalInputHashes": true
+  }
+}

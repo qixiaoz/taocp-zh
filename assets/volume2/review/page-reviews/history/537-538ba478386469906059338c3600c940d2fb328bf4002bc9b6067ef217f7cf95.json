@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 537,
+  "cnPrintedPage": 526,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "245fd61cb933e22281487727c42adb4b620a79349077c01e988a3b844db22608",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/537.jpg",
+  "cnPageImageSha256": "58dfe5df65bad704a82bc03fc6579c04afb8da1c439b4fa38bf16b2fcb911257",
+  "enPdfPages": [
+    683,
+    684
+  ],
+  "enPrintedPages": [
+    668,
+    669
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-683.png",
+      "sha256": "6e833c52d210347ee39fd6db956215794b3de459cd33d52da86888bc7859a3c6"
+    },
+    {
+      "file": "verified-sources/en-684.png",
+      "sha256": "9982dfc2320223df183304c1b5299e7f1f08cedfebd75161b03c61a1b8eb1451"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-537",
+    "p-526"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "完整答43(b)随机向量/两两独立/χ计算/分阶段位恢复/全部微分式误差界、概率与时间界。",
+    "G_j漏floor与加号、Z_j条件、ε负幂等据原图恢复；中文与英文共享的求和起点疑点单列，不称全证明已独立复证。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末“如”接538“果我们…”成为“如果我们”，同一句；最后T(F)完整式在本页。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.5.4-43-chebyshev-epsilon",
+      "section": "4.5.4答案43(b)切比雪夫界",
+      "cnPrintedPage": 526,
+      "enPdfPage": 684,
+      "enPrintedPage": 669,
+      "original": "≤(8/9)n^−1 ε^2",
+      "final": "≤(8/9)n^−1 ε^−2",
+      "basis": "两版共同指数错误。Var(Z)≤n/2，E Z≥3nε/4，故Pr(Z≤0)≤(n/2)/(9n²ε²/16)=8/(9nε²)；代n=4min(r,2^t)ε^−2才得到紧接的2/(9min(r,2^t))。局部修复不宣称其后总错误率求和已独立成立。"
+    }
+  ],
+  "sourceIssues": [
+    {
+      "location": "4.5.4答案43(b)总错误概率的分阶段求和",
+      "englishSame": true,
+      "original": "阶段t<lg n；用Σ_(t≥1)2^−t=1作前段预算，算法阶段从0≤t<r开始",
+      "decision": "保底本列疑。min(r,2^t)的切换点应与lg r有关，且原求和从1开始未显式覆盖t=0；本批未认定原9/10整体界的所有条件已证明。只修局部可唯一验证的ε指数。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "answers": [],
+  "syntaxCheck": {
+    "page": 537,
+    "sha256": "245fd61cb933e22281487727c42adb4b620a79349077c01e988a3b844db22608",
+    "mathExpressions": 96,
+    "display": 4,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 537,
+        "width": 1280,
+        "sha256": "245fd61cb933e22281487727c42adb4b620a79349077c01e988a3b844db22608",
+        "pageErrors": [],
+        "bodyText": 5815,
+        "documentWidth": 1280,
+        "expressions": 96,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 537,
+        "width": 390,
+        "sha256": "245fd61cb933e22281487727c42adb4b620a79349077c01e988a3b844db22608",
+        "pageErrors": [],
+        "bodyText": 5815,
+        "documentWidth": 390,
+        "expressions": 96,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 79,
+            "max": 79,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 379,
+            "max": 379,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 156,
+            "max": 156,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 277,
+            "max": 277,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 141,
+            "max": 141,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 314,
+            "max": 314,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 69,
+            "max": 69,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  }
+}

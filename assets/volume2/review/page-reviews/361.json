@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "section": "4.6.2",
+  "sections": [
+    "4.6.2"
+  ],
+  "cnPdfPage": 361,
+  "cnPrintedPage": 350,
+  "enPdfPages": [
+    465,
+    466
+  ],
+  "enPrintedPages": [
+    450,
+    451
+  ],
+  "pageMarkdownSha256": "2061988e8ffba04dc6769c12d96e224764d6d1972379932d922ecfc5e74d002b",
+  "masterSha256": null,
+  "cnPageImage": "scans/361.jpg",
+  "cnPageImageSha256": "257955ba50abc6176b08191e7e379904ed472885cb368c058b3db8d4c2d5ab38",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-465.png",
+      "sha256": "a9d57b55ec904a55725be6b9795d2ae5a6df6cfa77d9de5b4fd743f762795961"
+    },
+    {
+      "file": "source-audit/en-render/page-466.png",
+      "sha256": "c05c7a140ebbe478845150c2b2f760954d0e20b1a379675c16e5242df8a1e409"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-361",
+    "p-350"
+  ],
+  "numberedFormulaTags": [
+    22,
+    23
+  ],
+  "coveredRegions": [
+    "整数因子→模p因子论证、例22/23；模2/13次数证书；系数34界、模71四因子和常数排除；x^n−1历史说明，跨页亨泽尔引入。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 46,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch359-numeric-check.json",
+  "numericScope": "Specific source examples only: complete mod3 cubic list and24gcdcells, algorithmD mod13 trace, full mod2/mod5/mod71 factorizations with exhaustive divisor certificates, mod2/mod13 degree-set irreducibility certificate for22, exact coefficient bound34, all8 lowdegree mod71 candidates, mod169 product/reductions/constant tests, all100 inversesmod101, particular norm example. No finite computation is presented as a general factorization/LLL/finite-field/norm theorem proof.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch359-proof.html",
+    "htmlSha256": "a8a865d167eba71d698a111e4d02403c13726e02d7f2186369125085813e8066",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume or production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch359-proof-1280-361.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch359-proof-390-361.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 524,
+    "scrollableElementCounts": {
+      "1280": 34,
+      "390": 40
+    },
+    "machineObservations": ".work/volume2/source-audit/batch359-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch359-right-390-361.png",
+    "mobileRightEndVisualReview": true
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 362,
+    "end": "对任意大的指数$e$将多项式模$p$的因",
+    "nextStart": "子分解唯一地拓展为模$p^e$的因子分解",
+    "endsMidWord": "因子分解"
+  },
+  "history": [
+    {
+      "status": "historical-superseded",
+      "evidence": ".work/volume2/source-audit/history/batch359-before-boundary-fix",
+      "reason": "Removed draft duplicate望at end362after sourcecrop confirms362ends希and363starts望. Actual changedpage rerendered; source mathematical content unchanged."
+    }
+  ]
+}

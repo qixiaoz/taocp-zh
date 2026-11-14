@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "仅绑定当前单页字节；装订后另建包含/合段证明，不仅改此哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接看中文完整页与所列英文页，按段、式、习题、字段核对。解析和复算另列，不充当原页证据。",
+  "cnPdfPage": 182,
+  "cnPrintedPage": 171,
+  "enPdfPages": [
+    238,
+    239,
+    240
+  ],
+  "enPrintedPages": [
+    223,
+    224,
+    225
+  ],
+  "pageMarkdownSha256": "5f878c085ff91535f0a22db7c21e063320ebef6411e4c52486d7d434572d7866",
+  "cnPageImage": "scans/182.jpg",
+  "cnPageImageSha256": "dada448596d78d3cc21ab6db898aeb845d9f0ab5b4c4b200f930b117505f3c04",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-238.png",
+      "sha256": "d747460f0aef63c0f0c24b7390c4c167a1f1b932f326f232467a3fe56294374a"
+    },
+    {
+      "file": "verified-sources/en-239.png",
+      "sha256": "7c3e52054a3b0c68a99380b980d1f9d8b6a68690533de4f0e01b0cd7378cee63"
+    },
+    {
+      "file": "verified-sources/en-240.png",
+      "sha256": "42eca414b78c95dd88b203708995e2807fd65adb4555bf355a789edc4e7d7b72"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号、书名/节名及页码；隐藏页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-182",
+    "p-171",
+    "eq-4-2-1-12",
+    "eq-4-2-1-13"
+  ],
+  "coveredRegions": [
+    "浮点硬件续文、七个MIX操作的C/F字段、效果、溢出行为、运行时间。",
+    "编号程序12的全部6行及限制说明，FADD FUDGE、两个六字段内存布局（后者编号13）。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "numberedListings": [
+    12
+  ],
+  "numberedWordLayouts": [
+    13
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "not-applicable",
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuationNotes": "首“花一点心思…”接181末“多”；其他均本页完整。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 9,
+    "parseErrors": 0,
+    "codeLines": [
+      1,
+      6,
+      1
+    ],
+    "meaning": "只证明语法可排版；原页/英文比对另列。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "独立复算辅助原页核查，不作原书答案来源或全节证明。",
+    "results": {
+      "instructionRuntimeUnits": [
+        4,
+        4,
+        9,
+        11,
+        3,
+        4,
+        3
+      ],
+      "sourceFieldListWord": "[+,Q+4,1,0,0,0]",
+      "fourByteGuardZeroAssumption": true
+    }
+  },
+  "untested": [
+    "最终母稿包含、题答链接及引语分节归属。",
+    "正式VitePress/Pandoc整卷；私有选择性HTML视觉验证另列。"
+  ],
+  "codeReview": {
+    "numberedListing12": [
+      {
+        "label": "FLOT",
+        "opcode": "STJ",
+        "address": "9F",
+        "englishFieldsMatch": true,
+        "textPosition": 1939
+      },
+      {
+        "label": "",
+        "opcode": "SLA",
+        "address": "1",
+        "englishFieldsMatch": true,
+        "textPosition": 1962
+      },
+      {
+        "label": "",
+        "opcode": "ENTX",
+        "address": "Q+4",
+        "englishFieldsMatch": true,
+        "textPosition": 1979
+      },
+      {
+        "label": "",
+        "opcode": "SRC",
+        "address": "1",
+        "englishFieldsMatch": true,
+        "textPosition": 2082
+      },
+      {
+        "label": "",
+        "opcode": "FADD",
+        "address": "=0=",
+        "englishFieldsMatch": true,
+        "textPosition": 2099
+      },
+      {
+        "label": "9H",
+        "opcode": "JMP",
+        "address": "*",
+        "englishFieldsMatch": true,
+        "textPosition": 2114
+      }
+    ],
+    "allFieldsMatchEnglish": true,
+    "visualReviewPerformed": true,
+    "wordLayouts": {
+      "first": [
+        "+",
+        "Q+4",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "second": [
+        "+",
+        "Q+4",
+        "1",
+        "round(u)spanslast3bytes"
+      ],
+      "editable": true
+    }
+  }
+}

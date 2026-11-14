@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录只绑定单页稿，装订母稿另加包含证明，不能把历史哈希换成新哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "cnPdfPage": 141,
+  "cnPrintedPage": 130,
+  "section": "3.5",
+  "enPdfPages": [
+    186,
+    187,
+    188
+  ],
+  "enPrintedPages": [
+    171,
+    172,
+    173
+  ],
+  "pageMarkdownSha256": "c7093069661bff602f8b8ea8ef10d369a69e86dfc386207113a06a85d138b8d8",
+  "cnPageImageSha256": "5e53fd3106f22a7f649ae7470c483cab409e65d938ef61bc0cd0a3a5bd45f336",
+  "enPageImageSha256": {
+    "186": "a83eae403ce6f1dc23767047ba9b982da70504aeb1e2e8724ca3c290835a4945",
+    "187": "5cb2c571ecd6e99cce1b2d58196ce5cf2030c9859d1f5d7aa945f971e9b3ee25",
+    "188": "5b32ee349e0de3386faf90252e93e31134e7cac3224234742596722c821b5d2a"
+  },
+  "coveredRegions": [
+    "P1预测构造与式(39)、概率等式、移位对称定义、P2及证明、迭代源定义、P3/P4及完整证明、布尔猜测动机和式(40)。"
+  ],
+  "explicitAnchors": [
+    "pdf-141",
+    "p-130"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，源页位置用隐藏锚点保留。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 98,
+    "displayExpressions": 3,
+    "parseErrors": 0
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "引理P2证明的预测值/预测检验取补关系",
+      "cnPrintedPage": 130,
+      "enPrintedPage": 172,
+      "enPdfPage": 187,
+      "cn": "正概率差时令A′为A_k^P并用于B_(N−k)…B_(N−1)0…0；负差时令A′为1−A_k^P",
+      "en": "两分支与中文相同",
+      "disposition": "保留两版共同证明构造并列符号疑点；没有把待查改法混进原书证明。引理P2的存在性结论与这条具体构造的符号必须分开。",
+      "analysis": {
+        "sources": "CN141 print130; EN187 print172",
+        "equation39": "A_k^P(B)=F_k(B)+B_(k+1)+Bprime_(k+1) mod2",
+        "zeroPaddedOutput": "F_k+Bprime_(k+1), which is the complement of the predictor F_k+Bprime_(k+1)+1 defined immediately before(39).",
+        "counterexample": {
+          "N": 1,
+          "S": [
+            "1"
+          ],
+          "A": "A(B)=B1",
+          "k": 0,
+          "F0": "fresh fair suffix bitC",
+          "A0P(B)": "C+B1+C mod2=B1",
+          "sourceP2A_primeOnPaddedInput0": "0",
+          "predictionSuccessOnS": "0",
+          "requiredByLemmaP2AtEpsilonOneHalf": "1"
+        },
+        "disposition": "Lemma P2 statement is achievable by complementing this predictor; common proof construction retained in transcription and flagged, without silently reversing its sign."
+      },
+      "qualification": "式(39)已在N=1/2的全部真值表和非空源集合上用精确分数验证；疑点是将成功检验改用为预测值时的补符号。"
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuation": {
+    "ends_mid_sentence_after_display": true,
+    "continues_to_pdf_page": 142,
+    "left_last_prose": "一种方便的做法是对于所有的 $z_1\\cdots z_R$，计算期望值",
+    "left_last_display": "s=\\operatorname E\\left((-1)^{G(z_1\\cdots z_R)+x_1z_1+\\cdots+x_Rz_R}\\right)\\tag{40}",
+    "right_start": "的平均值。这等于正确猜测之和减去所有错误猜测再除以 $2^R$。",
+    "instruction": "式(40)完整闭合，续文在142开始；保留页锚点及块后空行，不能把锚点插入指数。"
+  },
+  "exerciseNumbers": [],
+  "recommendedExercises": [],
+  "answerExceptions": [],
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "7116fa8981a84666930c23eb46c0ed70c0d8d22c3264bc3688011ce5072846bd",
+    "visualReviewSha256": "a3d7e62a8058b641aa69833089ecf43d22162b0e37b0b13b697a42e3acbbb11f",
+    "browserAvailability": "Browser plugin not available; task-authorized bundled Playwright + isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 98,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 98,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 2,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "a51768b650635f1c287a28730d8d4710d433ec4d0ff16acf89c283181298bfde",
+  "numericalCheckQualification": "有限真值表、GF(2)矩阵枚举和历史算术复算辅助原图核对，不把有限检查当作普遍复杂度/概率/测度论证明。",
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc/VitePress、全站题答/索引/搜索/线上下载和发布由主任务统一执行。"
+  ]
+}

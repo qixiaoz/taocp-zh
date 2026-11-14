@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "substantiveCorrections": [
+    {
+      "section": "3.3.1B",
+      "cnPrintedPage": 40,
+      "enPdfPage": 66,
+      "enPrintedPage": 51,
+      "location": "首段，二次使用KS检验的F定义",
+      "source": "令F(x)是K_{1000}^+的经验分布函数",
+      "final": "令F(x)是K_{1000}^+的分布函数",
+      "basis": "英文the distribution function与另行确定的empirical F_r明确区分；F随后采用已知理论极限F∞，不能也称经验分布。"
+    },
+    {
+      "section": "3.3.1B",
+      "cnPrintedPage": 40,
+      "enPdfPage": 67,
+      "enPrintedPage": 52,
+      "location": "式(16)前，对200个原观测检验",
+      "source": "对所有200个观测值做一次KS检验，得到图4，并得到下面的结果",
+      "final": "对产生图4的所有200个观测值做一次KS检验，得到下面的结果",
+      "basis": "英文all 200 of the observations that led to Fig.4；图4是先前由20个K10+值构成的图，原句把来源误作本次输出。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 51,
+  "cnPrintedPage": 40,
+  "section": "3.3.1",
+  "enPdfPages": [
+    66,
+    67,
+    68
+  ],
+  "enPrintedPages": [
+    51,
+    52,
+    53
+  ],
+  "pageMarkdownSha256": "545ac569cc929836beb8b990258b6baac291c51723278f769abd725e76b2a41b",
+  "cnPageImageSha256": "ca97bc42d1211832f4e191a8418d2f8543c781707677c4134e32f4ed7431d90f",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 41,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-051",
+    "p-40"
+  ],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "coveredRegions": [
+    "二级KS检验与式(15)；5中最大例、全部生成器参数、式(16)六统计量；KS总结与χ²联合检验至页末20个。"
+  ],
+  "endsMidParagraph": true
+}

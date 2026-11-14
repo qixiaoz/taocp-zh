@@ -4,6 +4,19 @@ import navigation from './book-navigation.json'
 import { installBookMarkdown } from '../../scripts/book-markdown.mjs'
 import { READER_INIT_SCRIPT } from './theme/reader-preferences'
 
+const publishedVolumes = navigation.volumes
+const multipleVolumes = publishedVolumes.length > 1
+const siteTitle = multipleVolumes ? '《计算机程序设计艺术》中文阅读' : '《计算机程序设计艺术》卷1'
+const readingNav = multipleVolumes
+  ? publishedVolumes.map(volume => ({ text: volume.title.split('·')[0], link: `${volume.routePrefix}/frontmatter`, activeMatch: `^${volume.routePrefix}/` }))
+  : [{ text: '章节正文', link: '/volume1/frontmatter', activeMatch: '^/volume1/' }]
+const reportNav = multipleVolumes
+  ? { text: '校订说明', items: publishedVolumes.map(volume => ({ text: volume.title, link: volume.reportRoute })) }
+  : { text: '校订说明', link: '/corrections' }
+const downloadNav = multipleVolumes
+  ? { text: '下载', items: publishedVolumes.map(volume => ({ text: volume.title, link: `/taocp-zh${volume.downloads.bundle}` })) }
+  : { text: '下载', link: '/taocp-zh/downloads/taocp-volume1.zip' }
+
 // VitePress serializes this function into the client bundle. Keep it self-contained
 // so the browser uses exactly the same tokenizer as the build-time search index.
 function tokenizeChinese(text: string): string[] {
@@ -19,8 +32,10 @@ function tokenizeChinese(text: string): string[] {
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: '《计算机程序设计艺术》卷1',
-  description: '《计算机程序设计艺术》第一卷《基本算法》中文阅读版：基本概念、信息结构、习题答案与附录。',
+  title: siteTitle,
+  description: multipleVolumes
+    ? '《计算机程序设计艺术》中文阅读版：卷一基本算法、卷二半数值算法，含习题答案、附录与索引。'
+    : '《计算机程序设计艺术》第一卷《基本算法》中文阅读版：基本概念、信息结构、习题答案与附录。',
   base: '/taocp-zh/',
   cleanUrls: false,
   appearance: false,
@@ -36,19 +51,19 @@ export default defineConfig({
     math: true,
     image: { lazyLoading: true },
     lineNumbers: false,
-    languageAlias: { mixal: 'text' },
+    languageAlias: { mixal: 'text', fortran: 'text' },
     config(md) {
       md.use(footnote)
-      installBookMarkdown(md)
+      installBookMarkdown(md, { literalMath: true })
     }
   },
   themeConfig: {
-    siteTitle: '《计算机程序设计艺术》卷1',
+    siteTitle,
     nav: [
       { text: '主页', link: '/' },
-      { text: '章节正文', link: '/volume1/frontmatter', activeMatch: '^/volume1/' },
-      { text: '校订说明', link: '/corrections' },
-      { text: '下载', link: '/taocp-zh/downloads/taocp-volume1.zip' }
+      ...readingNav,
+      reportNav,
+      downloadNav
     ],
     sidebar: navigation.sidebar,
     outline: { level: [2, 3], label: '本页目录' },
@@ -63,6 +78,12 @@ export default defineConfig({
     search: {
       provider: 'local',
       options: {
+        _render(src, env, md) {
+          // Search indexes HTML before Vue SSR: retain full math and code text.
+          env.bookDirectHTML = true
+          const html = md.render(src, env)
+          return env.frontmatter?.search === false ? '' : html
+        },
         detailedView: 'auto',
         translations: {
           button: { buttonText: '搜索', buttonAriaLabel: '搜索全书' },

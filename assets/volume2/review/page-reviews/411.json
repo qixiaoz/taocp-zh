@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 411,
+  "cnPrintedPage": 400,
+  "enPdfPages": [
+    528,
+    529
+  ],
+  "enPrintedPages": [
+    513,
+    514
+  ],
+  "pageMarkdownSha256": "923851dc30f2d7cf9b9286cc5bb713d86bf928f04f0e52c0a4bad6e32f796796",
+  "masterSha256": null,
+  "cnPageImage": "scans/411.jpg",
+  "cnPageImageSha256": "c392caa7f996a8a960773c9f69a199d9c354fd29d2461c07e558433aeb18e780",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-528.png",
+      "sha256": "2cb383d7138ce53f9ceffb0106420bb5c231c96a672d38f1dab4fd7758239477"
+    },
+    {
+      "file": "source-audit/en-render/page-529.png",
+      "sha256": "6d9fa44d7146c874d7d3acdbf14e8fbf700959154d69e8bade5a6400131b0474"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-411",
+    "p-400"
+  ],
+  "numberedFormulaTags": [
+    76
+  ],
+  "coveredRegions": [
+    "W结论及完整证明i/ii、满秩C/逆D/covered76避根论证；u5−1在Q/R/C的因子数及秩、全部原历史推广/引文到续句。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 75,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch409-numeric-check.json",
+  "numericScope": "Exact coefficient realization checks for all64slots of66/68 and72slots of70, all16bilinear basis cases69, complete serialization of9source matrices. Companion73 identities and gcd/singularity checks on explicit n2..6,4examples each only; not a numerical proof of general TheoremW. Exact factorization/irreducibility certificates for displayedu5−1; theoremWrank8/7/5 only hypothesis substitution. Given exercise19/21/22/24 polynomials re-expanded exactly; no new answers in manuscript. Ex48 tiny legal index example supports bilingual typo repair.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch409-proof.html",
+    "htmlSha256": "6b6fe069ad628295114cbe0b1aef1af4357e208d7eb22a9b8063018e261f939b",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch409-proof-1280-411.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch409-proof-390-411.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 463,
+    "scrollableElementCounts": {
+      "1280": 75,
+      "390": 92
+    },
+    "machineObservations": ".work/volume2/source-audit/batch409-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "startsMidTheorem": {
+    "theorem": "4.6.4-W",
+    "previousCnPdfPage": 410,
+    "previousEnd": "完整式75闭合",
+    "start": "则在这个域上",
+    "afterClosedDisplay": true
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 412,
+    "end": "也见他在*SICOMP* **9** (1980), 731–738中对可交换",
+    "nextStart": "的双线性形式的有趣的讨论."
+  }
+}

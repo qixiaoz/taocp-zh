@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页Markdown和中英文证据图字节。整节/整卷装订后须另作逐段包含和跨页合段证明，不能仅更换哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接查看本中文完整页图与对应英文页图，按段、公式、图表、习题逐项比较。实质订正和遗留差异分别登记；解析/复算不是目视和双语签核的替代。",
+  "cnPdfPage": 169,
+  "cnPrintedPage": 158,
+  "enPdfPages": [
+    223,
+    224
+  ],
+  "enPrintedPages": [
+    208,
+    209
+  ],
+  "pageMarkdownSha256": "c6a2b31d94bb520e9ccfc73f919d260a805a53f8a7e7228081b2daaf43118551",
+  "cnPageImage": "scans/169.jpg",
+  "cnPageImageSha256": "d14e3e7768b3168cc5571581b6937471b49c60eae4c0e4fcfc949583a7437de4",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-223.png",
+      "sha256": "d72e63f804a46723156da213e83ee0bb99d2fca79572990672d39041daad5343"
+    },
+    {
+      "file": "verified-sources/en-224.png",
+      "sha256": "bc81bf4f6dea2d6fff2c7aac90e5bc3418386b3823185ed6dfc40417c71df45c"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-169",
+    "p-158",
+    "ex-4-1-1",
+    "ex-4-1-2"
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号、书名/节名和页码；页码用隐藏锚点保留。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "coveredRegions": [
+    "福勒续句、63%位数比例、SETUN和触发器。",
+    "混合进制定义式9、阶乘式10及所有数字界。",
+    "时间/英币两个混合进制例、康托尔/帕里与其他数系引用。",
+    "习题1–2完整题干、难度、习题2推荐三角。"
+  ],
+  "unverifiedPageRegions": [],
+  "numberedFormulaTags": [
+    "9",
+    "10"
+  ],
+  "mathExpressions": [
+    {
+      "sourceLine": 3,
+      "display": false,
+      "tex": "\\ln2/\\ln3\\approx63\\%",
+      "sha256": "79feb2a88430ce2a45f69eaddf9860ed0137f5d2d0d7efd054f5aef399e30735"
+    },
+    {
+      "sourceLine": 5,
+      "display": false,
+      "tex": "\\langle b_n\\rangle",
+      "sha256": "aa8561764d6be59c115031a10f8ae8b1234db94d1c782e41191e7beff8ba7512"
+    },
+    {
+      "sourceLine": 5,
+      "display": false,
+      "tex": "n",
+      "sha256": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9"
+    },
+    {
+      "sourceLine": 7,
+      "display": true,
+      "tex": "\\begin{aligned}\n&\\left[\\begin{matrix}\\ldots,a_3,a_2,a_1,a_0;\\ a_{-1},a_{-2},\\ldots\\\\\\ldots,b_3,b_2,b_1,b_0;\\ b_{-1},b_{-2},\\ldots\\end{matrix}\\right]\\\\\n&\\quad=\\cdots+a_3b_2b_1b_0+a_2b_1b_0+a_1b_0+a_0+\\frac{a_{-1}}{b_{-1}}+\\frac{a_{-2}}{b_{-1}b_{-2}}+\\cdots.\\tag{9}\n\\end{aligned}",
+      "sha256": "65dcc68cc381ef860ab0d05159c79430396eaf50341974b5aba4f5a9fd189615"
+    },
+    {
+      "sourceLine": 14,
+      "display": false,
+      "tex": "b_0,b_1,b_2,\\ldots",
+      "sha256": "64640bcd9686eed420e799675266d1686b618c4dc6d9c61c5e10890028a55b34"
+    },
+    {
+      "sourceLine": 14,
+      "display": false,
+      "tex": "a_n",
+      "sha256": "046b4724fc2febf009e0d74429da7ccd97ea4844104812540954b4c08820044c"
+    },
+    {
+      "sourceLine": 14,
+      "display": false,
+      "tex": "0\\le a_n<b_n",
+      "sha256": "353b0f422b33cff95ded2ca5067fdcf6c327207464abdb1d58de6387c79da1d6"
+    },
+    {
+      "sourceLine": 16,
+      "display": false,
+      "tex": "b_n=n+2",
+      "sha256": "4816fb3319a2ef0ce00f0685f1200d38d201ead14e4fc165577b63bf697f5678"
+    },
+    {
+      "sourceLine": 18,
+      "display": true,
+      "tex": "c_n\\,n!+c_{n-1}(n-1)!+\\cdots+c_2\\,2!+c_1,\\tag{10}",
+      "sha256": "97bd3c53d530dbfeb8d2dd53e7ea44177c9666581e4fddb3f5906e72fd9b8da7"
+    },
+    {
+      "sourceLine": 22,
+      "display": false,
+      "tex": "1\\le k\\le n",
+      "sha256": "68bd42c9cc0cadab6a55efe0c9c2f8f228998052477f034d083fc9189788eac6"
+    },
+    {
+      "sourceLine": 22,
+      "display": false,
+      "tex": "0\\le c_k\\le k",
+      "sha256": "d7d1fd0fbfa68d4af2e6b8cfa88a119c6268bea0752c825f68b6a44ad1af68b2"
+    },
+    {
+      "sourceLine": 22,
+      "display": false,
+      "tex": "c_n\\ne0",
+      "sha256": "a93a871d50f0de720603caf8b454e25dd49c710584dfc0cb6c3dcd3597023a57"
+    },
+    {
+      "sourceLine": 26,
+      "display": true,
+      "tex": "\\left[\\begin{matrix}3,\\ 2,\\ 9,\\ 22,\\ 57;\\quad492\\\\7,\\ 24,\\ 60,\\ 60;\\quad1000\\end{matrix}\\right]\\text{ 秒}.",
+      "sha256": "ddd9a70895fee69b2d33b0a48927ece86aab9148f18aa2a7674ee92c47bba9e8"
+    },
+    {
+      "sourceLine": 30,
+      "display": false,
+      "tex": "\\left[\\begin{smallmatrix}10,\\quad6,\\quad3;\\ 1\\\\20,\\ 12;\\ 2\\end{smallmatrix}\\right]",
+      "sha256": "31d052703619a58e2e0c75887d030b17c6e7433ee203313c8d735d1b820b34b5"
+    },
+    {
+      "sourceLine": 38,
+      "display": false,
+      "tex": "\\phi",
+      "sha256": "10ce0200b450ea955833553e717821c7721818b8a95cffd7e54b46e08918b512"
+    },
+    {
+      "sourceLine": 42,
+      "display": false,
+      "tex": "-2",
+      "sha256": "cf3bae39dd692048a8bf961182e6a34dfd323eeb0748e162eaf055107f1cb873"
+    },
+    {
+      "sourceLine": 42,
+      "display": false,
+      "tex": "-10,-9,\\ldots,9,10",
+      "sha256": "20f50e67c0caf8ccfc8431f6353a4b65cd5cac3789e75f6f567d7c589ddc0c62"
+    },
+    {
+      "sourceLine": 44,
+      "display": false,
+      "tex": "-2",
+      "sha256": "cf3bae39dd692048a8bf961182e6a34dfd323eeb0748e162eaf055107f1cb873"
+    },
+    {
+      "sourceLine": 44,
+      "display": false,
+      "tex": "b=\\frac1{10}",
+      "sha256": "f092a8c8308630d19deb817d04f48203b84d1d92cb161061cbf24cd0efc0a40e"
+    },
+    {
+      "sourceLine": 44,
+      "display": false,
+      "tex": "-49",
+      "sha256": "2ee881da095c64e8b818d883fc507aabc8a34c34a0836d262d1811a74dc20453"
+    },
+    {
+      "sourceLine": 44,
+      "display": false,
+      "tex": "-3\\frac17",
+      "sha256": "20a8daa68a9df46f97f83bd72f8339f09b80a8d5b0da36294842af8d3beed820"
+    },
+    {
+      "sourceLine": 44,
+      "display": false,
+      "tex": "\\pi",
+      "sha256": "f1cf04093d08b6dc0d58a87396405cb9093a22e9ed62a95bb95ed46e5da97097"
+    }
+  ],
+  "exerciseNumbers": [
+    1,
+    2
+  ],
+  "answerLinkStatus": "not-yet-added-awaiting-verified-answer-transcription",
+  "numericalChecks": {
+    "meaning": "独立复算辅助，不替代原页/英文视觉核查。",
+    "results": {
+      "digitRatio": 0.6309297535714574,
+      "mixedTimeSeconds": "505244373/250",
+      "oldCurrencyPence": "4951/2"
+    }
+  },
+  "crossPageBlocks": {
+    "unclosedCodeFences": false,
+    "unclosedDisplayMath": false,
+    "unclosedTables": false,
+    "note": "本十页没有跨页程序或逻辑表；165脚注单独分配，正文跨页接续见下。"
+  },
+  "untested": [
+    "最终母稿包含关系、跨页合段和题答链接。",
+    "正式VitePress及Pandoc整卷排版。"
+  ],
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "start": "接168末句。",
+  "end": "末为习题2完整结束。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 22,
+    "parseErrors": 0,
+    "footnoteDefinitions": 0,
+    "footnoteReferences": 0,
+    "meaning": "只证明单页Markdown可排版；内容依另列的中英文页图逐项检查。"
+  },
+  "markdownIntegrity": {
+    "uniquePageAnchors": true,
+    "unexpectedControlCharacters": 0,
+    "balancedCodeFences": true
+  }
+}

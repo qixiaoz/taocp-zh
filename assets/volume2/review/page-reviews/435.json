@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 435,
+  "cnPrintedPage": 424,
+  "enPdfPages": [
+    558,
+    559
+  ],
+  "enPrintedPages": [
+    543,
+    544
+  ],
+  "pageMarkdownSha256": "2b965fbc59b1ca652241afded59f6911d299d7714d38527326925195bcde7e8a",
+  "cnPageImageSha256": "d1cdd6b7c7e33de163e3bc96f17b1dcc7dfc86aa800837f4aa0041bdbab51571",
+  "enPageImageSha256": {
+    "558": "cc6eba3dfe75584c094ef799d9f6a4f1916885a9fe8fc8a10a877294c459d73b",
+    "559": "b51ec6cd30c22821e73f06f4b1fee4a83a3ba105bae588cca51d3bb77e4a08f5"
+  },
+  "coveredRegions": [
+    "3.2.1答4/5、3.2.1.1实际标题及原答1–8全部，五个MIX块逐标号/操作码/地址/注释/原两栏位置核对，Montgomery乘法、带下划线mod补码定义。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-435",
+    "p-424",
+    "ans-3-2-1-4",
+    "ans-3-2-1-5",
+    "ans-3-2-1-1-1",
+    "ans-3-2-1-1-2",
+    "ans-3-2-1-1-3",
+    "ans-3-2-1-1-4",
+    "ans-3-2-1-1-5",
+    "ans-3-2-1-1-6",
+    "ans-3-2-1-1-7",
+    "ans-3-2-1-1-8"
+  ],
+  "answerAnchors": [
+    "ans-3-2-1-4",
+    "ans-3-2-1-5",
+    "ans-3-2-1-1-1",
+    "ans-3-2-1-1-2",
+    "ans-3-2-1-1-3",
+    "ans-3-2-1-1-4",
+    "ans-3-2-1-1-5",
+    "ans-3-2-1-1-6",
+    "ans-3-2-1-1-7",
+    "ans-3-2-1-1-8"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 58,
+    "displayExpressions": 2,
+    "parseErrors": 0,
+    "codeBlockLineCounts": [
+      1,
+      6,
+      1,
+      1,
+      7
+    ]
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "answer": "3.2.1.1-8",
+    "continues_to_pdf_page": 436,
+    "left_last_code_line": "INCA 1     (此步不可能上溢。)",
+    "right_start": "*注记：* 由于在 $e$ 位反码二进制计算机上的加法是",
+    "instruction": "代码围栏在435完整闭合，436原注记另段仍属答8，不在代码内插页锚点。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "1a14955033b1700b1256977a587197c243973e68e5adbb2494ccd867ab6c677d",
+    "visualReviewSha256": "04e58fa4501ba0b2caba3a45ab2478bccedfe71e3d7038752183c4d4710add42",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 58,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 6,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 58,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 9,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "f23565ac5a4d9850d0f0c3203bc61ccf50a197acb791f155924afabbc94778b4",
+  "numericalCheckQualification": "所有有限枚举只辅助原页核查，不替代普遍命题/渐近证明；共同疑点保留底本。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

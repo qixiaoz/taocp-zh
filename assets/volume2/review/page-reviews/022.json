@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 22,
+  "cnPrintedPage": 11,
+  "section": "3.2.1.1",
+  "enPdfPages": [
+    29
+  ],
+  "enPrintedPages": [
+    14
+  ],
+  "pageMarkdownSha256": "6dbb613a861bafd9bef5a4fc849a7088cd376a9fe61bb8df641dc60e5d525bae",
+  "cnPageImageSha256": "0755b465a99352b942a71c5fe024ba269ce2eaae669dfbe9946257354814a4ce",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 99,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-022",
+    "p-11",
+    "table-3-2-1-1-1"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "coveredRegions": [
+    "表1全部：38行二进制字大小、8行十进制字大小，两侧92个完整因子积。"
+  ],
+  "numericAudit": {
+    "method": "按转录因子用Python整数逐项乘方/乘积，比较base**e±1。",
+    "rows": 46,
+    "products": 92,
+    "allMatch": true,
+    "records": [
+      {
+        "base": 2,
+        "exponent": 15,
+        "minusProduct": 32767,
+        "plusProduct": 32769,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 16,
+        "minusProduct": 65535,
+        "plusProduct": 65537,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 17,
+        "minusProduct": 131071,
+        "plusProduct": 131073,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 18,
+        "minusProduct": 262143,
+        "plusProduct": 262145,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 19,
+        "minusProduct": 524287,
+        "plusProduct": 524289,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 20,
+        "minusProduct": 1048575,
+        "plusProduct": 1048577,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 21,
+        "minusProduct": 2097151,
+        "plusProduct": 2097153,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 22,
+        "minusProduct": 4194303,
+        "plusProduct": 4194305,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 23,
+        "minusProduct": 8388607,
+        "plusProduct": 8388609,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 24,
+        "minusProduct": 16777215,
+        "plusProduct": 16777217,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 25,
+        "minusProduct": 33554431,
+        "plusProduct": 33554433,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 26,
+        "minusProduct": 67108863,
+        "plusProduct": 67108865,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 27,
+        "minusProduct": 134217727,
+        "plusProduct": 134217729,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 28,
+        "minusProduct": 268435455,
+        "plusProduct": 268435457,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 29,
+        "minusProduct": 536870911,
+        "plusProduct": 536870913,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 30,
+        "minusProduct": 1073741823,
+        "plusProduct": 1073741825,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 31,
+        "minusProduct": 2147483647,
+        "plusProduct": 2147483649,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 32,
+        "minusProduct": 4294967295,
+        "plusProduct": 4294967297,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 33,
+        "minusProduct": 8589934591,
+        "plusProduct": 8589934593,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 34,
+        "minusProduct": 17179869183,
+        "plusProduct": 17179869185,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 35,
+        "minusProduct": 34359738367,
+        "plusProduct": 34359738369,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 36,
+        "minusProduct": 68719476735,
+        "plusProduct": 68719476737,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 37,
+        "minusProduct": 137438953471,
+        "plusProduct": 137438953473,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 38,
+        "minusProduct": 274877906943,
+        "plusProduct": 274877906945,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 39,
+        "minusProduct": 549755813887,
+        "plusProduct": 549755813889,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 40,
+        "minusProduct": 1099511627775,
+        "plusProduct": 1099511627777,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 41,
+        "minusProduct": 2199023255551,
+        "plusProduct": 2199023255553,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 42,
+        "minusProduct": 4398046511103,
+        "plusProduct": 4398046511105,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 43,
+        "minusProduct": 8796093022207,
+        "plusProduct": 8796093022209,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 44,
+        "minusProduct": 17592186044415,
+        "plusProduct": 17592186044417,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 45,
+        "minusProduct": 35184372088831,
+        "plusProduct": 35184372088833,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 46,
+        "minusProduct": 70368744177663,
+        "plusProduct": 70368744177665,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 47,
+        "minusProduct": 140737488355327,
+        "plusProduct": 140737488355329,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 48,
+        "minusProduct": 281474976710655,
+        "plusProduct": 281474976710657,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 59,
+        "minusProduct": 576460752303423487,
+        "plusProduct": 576460752303423489,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 60,
+        "minusProduct": 1152921504606846975,
+        "plusProduct": 1152921504606846977,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 63,
+        "minusProduct": 9223372036854775807,
+        "plusProduct": 9223372036854775809,
+        "bothMatch": true
+      },
+      {
+        "base": 2,
+        "exponent": 64,
+        "minusProduct": 18446744073709551615,
+        "plusProduct": 18446744073709551617,
+        "bothMatch": true
+      },
+      {
+        "base": 10,
+        "exponent": 6,
+        "minusProduct": 999999,
+        "plusProduct": 1000001,
+        "bothMatch": true
+      },
+      {
+        "base": 10,
+        "exponent": 7,
+        "minusProduct": 9999999,
+        "plusProduct": 10000001,
+        "bothMatch": true
+      },
+      {
+        "base": 10,
+        "exponent": 8,
+        "minusProduct": 99999999,
+        "plusProduct": 100000001,
+        "bothMatch": true
+      },
+      {
+        "base": 10,
+        "exponent": 9,
+        "minusProduct": 999999999,
+        "plusProduct": 1000000001,
+        "bothMatch": true
+      },
+      {
+        "base": 10,
+        "exponent": 10,
+        "minusProduct": 9999999999,
+        "plusProduct": 10000000001,
+        "bothMatch": true
+      },
+      {
+        "base": 10,
+        "exponent": 11,
+        "minusProduct": 99999999999,
+        "plusProduct": 100000000001,
+        "bothMatch": true
+      },
+      {
+        "base": 10,
+        "exponent": 12,
+        "minusProduct": 999999999999,
+        "plusProduct": 1000000000001,
+        "bothMatch": true
+      },
+      {
+        "base": 10,
+        "exponent": 16,
+        "minusProduct": 9999999999999999,
+        "plusProduct": 10000000000000001,
+        "bothMatch": true
+      }
+    ]
+  },
+  "ocrRepairs": [
+    "补回OCR漏掉的十进制e=11、12、16三行及对应因子；删除伪横线/点号/上划线；2^e-1的减号不可错成等号。"
+  ]
+}

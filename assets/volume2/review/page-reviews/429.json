@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.7",
+  "sections": [
+    "4.7"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 429,
+  "cnPrintedPage": 418,
+  "enPdfPages": [
+    550,
+    551
+  ],
+  "enPrintedPages": [
+    535,
+    536
+  ],
+  "pageMarkdownSha256": "91c86fa94689aa6ea965b11588fd7b22e58e899432abd75d898e4c2af66c7a71",
+  "masterSha256": null,
+  "cnPageImage": "scans/429.jpg",
+  "cnPageImageSha256": "d0a71ce28736d131a02a25a7bf978c2e50503d82d559f7f2d860d368a93fe559",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-550.png",
+      "sha256": "abc889d146231f2eef494ed36bb9c3bceda33e87a3462ee235b1b3a107ac4a6d"
+    },
+    {
+      "file": "source-audit/en-render/page-551.png",
+      "sha256": "e905d059b09f2e21b06c5c6467d2f1ebbc55bb941f9053bfb3e695411fb0cf85"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-429",
+    "p-418",
+    "ex-4-7-23",
+    "ex-4-7-24",
+    "ex-4-7-25",
+    "ex-4-7-26",
+    "ex-4-7-27",
+    "ex-4-7-28"
+  ],
+  "numberedFormulaTags": [],
+  "coveredRegions": [
+    "22(d)两完整恒等式与引文/23(a–e)全部公式及n0初值/24原假设保源列疑/25–27完整首项/28狄利克雷定义与卷积直到页末闭合式。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 65,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch429-numeric-check.json",
+  "numericScope": "ExactFraction finite fullpower-matrix log/exponential23a,b,d,e orders5,8,11×4series includingallcompositiontuples23e; not arbitrarycomplexiteration proof. GF2 splitcomposition26 N1..33×5cases againstdirectcomposition. qproduct27 N4,8,12×q0,2,−2,1/2×m1..6. Dirichlet28 fullcoefficients1..96×4cases,deltaLeibniz/power6exponents/exp/log exact; finite truncations not general rank,asymptoticcomplexity or authorial-intent proofs.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch429-proof.html",
+    "htmlSha256": "bb0ef5df543fb11405a96956dfde461c5623693ffc4c2ef03a4aede86191f632",
+    "rendererSha256": "517d51952f8f8b8f8d7b6c7266d490c25b1ab65332cbb6e18476809abe7a425a",
+    "scope": "Two-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch429-proof-1280-429.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch429-proof-390-429.png",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch429-right-390-429.png",
+    "mobileRightEndVisualReview": true,
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 83,
+    "scrollableElementCounts": {
+      "1280": 8,
+      "390": 15
+    },
+    "machineObservations": ".work/volume2/source-audit/batch429-browser.json",
+    "footnoteRoundTrip": "notApplicable: nooriginalfootnoteon429"
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch425-answer-presence.json",
+    "linkedExercises": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "allActualOriginalNumberedAnswersPresent": true,
+    "roundTripDeferredUntilAnswerTranscriptionAndAssembly": true,
+    "independentAnswerContentReviewClaimed": false
+  },
+  "startsMidExercise": {
+    "exercise": "4.7-22",
+    "previousCnPdfPage": 428,
+    "previousCompleteParts": [
+      "definition",
+      "a",
+      "b",
+      "c"
+    ],
+    "start": "(d) 因此，任意幂多项式$V_n(x)$",
+    "fullAnswerLinkAfterTwoIdentitiesAndOriginalNote": true
+  },
+  "endsMidExercise": {
+    "exercise": "4.7-28",
+    "nextCnPdfPage": 430,
+    "end": "W_n=\\sum_{d\\backslash n}U_dV_{n/d}.\n$$",
+    "nextStart": "普通的幂级数可看作狄利克雷级数的特例",
+    "afterClosedDisplay": true,
+    "answerLinkAfterFullExerciseOn430": true
+  },
+  "commonSourceQuestions": [
+    {
+      "id": "v2-4.7-ex24-zero-linear-coefficient",
+      "section": "4.7",
+      "exercise": 24,
+      "cnPdfPage": 429,
+      "cnPrintedPage": 418,
+      "enPdfPage": 551,
+      "enPrintedPage": 536,
+      "printedAndPreservedHypothesis": "U(z)=U1z+U2z²+...; U1不是单位根 / U1 isnot arootofunity.",
+      "printedRequest": "(a) seeklnUwithpower-matrixofU^[alpha]=exp(alpha lnU); (b) nonzeroWcommutingwithUisacomplexiterate.",
+      "legalPrintedExample": "OverC, U(z)=z² hasU1=0, whichisnota rootofunity; itsfirstpositive-degree1×1 power-matrixblockis[0]. No finitecomplexmatrixlogexists becausethe exponentialofanyfinitecomplexmatrixisinvertible (in1×1 expa≠0).",
+      "whatThisRefutes": "Theprintedhypothesisaloneisinsufficientfor(a); not arefutationoftheprecedingnonzeroU1Schroedertheory.",
+      "contextActuallyRead": "CN425–426 explicitlyassumesU1nonzeroandnotrootofunity; actualoriginalanswer24CN581 useslnU1 and distinctdiagonalpowers, bothrequiringnonzero.",
+      "candidateRepair": "AddU1≠0, consistentwithprecedingtheoryandanswer; noauthorerratum/uniqueeditorialscopeconfirmed, so bodypreserved.",
+      "unverified": "Noattempttoproveallcomplexiterationbranchclaimsorbroadformalcompositionhypotheseshere.",
+      "sourceCrop": "source-audit/429-ex24-crop.png",
+      "sourceCropSha256": "62ee209688719ea258ba6c49f525a48f76a773fc51e4234f70973b17dfdb0487",
+      "cnAnswerImageSha256": "607cb01496295b5b7a91e45e1290d5be91cc58821e48c663c5bc533b462c7635",
+      "enImageSha256": "e905d059b09f2e21b06c5c6467d2f1ebbc55bb941f9053bfb3e695411fb0cf85"
+    }
+  ]
+}

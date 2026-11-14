@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "section": "4.6.2",
+  "sections": [
+    "4.6.2"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 367,
+  "cnPrintedPage": 356,
+  "enPdfPages": [
+    473,
+    474
+  ],
+  "enPrintedPages": [
+    458,
+    459
+  ],
+  "pageMarkdownSha256": "29e67dcad198bb5baf8675807c36c2ed9218199a8ef670d37d04a5395839ba04",
+  "masterSha256": null,
+  "cnPageImage": "scans/367.jpg",
+  "cnPageImageSha256": "fe4aff7420059d571a4a0992f6eb01898dd110afdd2d1efda4867ee5f53dce48",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-473.png",
+      "sha256": "b7a371ddbbbcaebb0ca00e7d7f85d7c74bd2fdcd588ccece2d6c9314f497c001"
+    },
+    {
+      "file": "source-audit/en-render/page-474.png",
+      "sha256": "9a7250590b9f966d1f9b757644e56b70299bd4c885b35d49a0487f2700c8e7c5"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-367",
+    "p-356",
+    "ex-4-6-2-22",
+    "ex-4-6-2-23",
+    "ex-4-6-2-24",
+    "ex-4-6-2-25",
+    "ex-4-6-2-26",
+    "ex-4-6-2-27",
+    "ex-4-6-2-28"
+  ],
+  "numberedFormulaTags": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 75,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch367-numeric-check.json",
+  "numericScope": "Finite specimen checks: Bombieriexamples, all scalar0..4/vector-coordinate0..2 coefficient cases of21a; actualp2 Hensellift of22through16with768correctionpairs;25exactexpansion; all9/81samplingcases29; specificF27/F8traces; allowedp3d1counterexample31; Psi1..15coefficientproducts;33intentionallyfalseexample. None is promoted to a general Bombieri/Hensel/probability/trace/irreducibility theorem proof.",
+  "coveredRegions": [
+    "21题从多重下标简写开始续：所有粗体多指标/阶乘/求和/指标条件、(a)–(g)整式、范数/齐次化例；22–28全部题号/难度/推荐/提示与同余度数条件。"
+  ],
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch367-answer-presence.json",
+    "linkedExercises": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "allOriginalNumberedAnswersPresent": true,
+    "roundTripDeferredUntilActualAnswerTranscriptionAndAssembly": true,
+    "noFabricatedAnswerContent": true
+  },
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch367-proof.html",
+    "htmlSha256": "4278b4defac1cf4f3ecdeabd8a3bc4f99d3e4a9a091e04f0bf7527f6264b846d",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Two-page standalone proof, not full-volume or production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch367-proof-1280-367.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch367-proof-390-367.png",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch367-right-390-367.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 172,
+    "scrollableElementCounts": {
+      "1280": 9,
+      "390": 16
+    },
+    "machineObservations": ".work/volume2/source-audit/batch367-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "startsMidExercise": {
+    "previousCnPdfPage": 366,
+    "exercise": "4.6.2-21",
+    "previousEnd": "完整多重下标独立式已闭合",
+    "start": "而是写成$u(\\mathbf x)=\\sum_{\\mathbf j}u_{\\mathbf j}\\mathbf x^{\\mathbf j}$",
+    "afterClosedDisplay": true
+  },
+  "mathIndexReview": {
+    "vectorIndices": "All i,j,k,p,q,r,s in21(a) are bold multiindices; vector factorials/product definition and componentwise conditions retained.",
+    "sourceEnPdfPage": 473,
+    "sourceCnCrop": "source-audit/367-bombieri-example-crop.png",
+    "sourceCnCropSha256": "6fdb993993aa0e7b91358b7fc96acb6b163a333e4b325d201958d66247626457"
+  }
+}

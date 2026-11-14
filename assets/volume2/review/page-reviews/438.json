@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 438,
+  "cnPrintedPage": 427,
+  "enPdfPages": [
+    562,
+    563
+  ],
+  "enPrintedPages": [
+    547,
+    548
+  ],
+  "pageMarkdownSha256": "4fd05fbd0225c92855ece078e0e7edc52d304664039e190fbb1e0398f769a011",
+  "cnPageImageSha256": "e6212cfc8259e728d58d49e99cf14ca2e71955c6eb2922dbd608cd98540fef0e",
+  "enPageImageSha256": {
+    "562": "35dd9abbda8530e6edfdf796d61b47d755f70c00773f55ac42017b1dfae2a16c",
+    "563": "02333aa5a1a641d68075bc03f432d69b80ba51bfda1be6ac75d59dd402cb968f"
+  },
+  "coveredRegions": [
+    "3.2.1.1答14强推广全部续证/进位界/生成器实例，3.2.1.2实际标题及原答1–10全部，TheoremA/CRT/2幂边界与乘数条件。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-438",
+    "p-427",
+    "ans-3-2-1-2-1",
+    "ans-3-2-1-2-2",
+    "ans-3-2-1-2-3",
+    "ans-3-2-1-2-4",
+    "ans-3-2-1-2-5",
+    "ans-3-2-1-2-6",
+    "ans-3-2-1-2-7",
+    "ans-3-2-1-2-8",
+    "ans-3-2-1-2-9",
+    "ans-3-2-1-2-10"
+  ],
+  "answerAnchors": [
+    "ans-3-2-1-2-1",
+    "ans-3-2-1-2-2",
+    "ans-3-2-1-2-3",
+    "ans-3-2-1-2-4",
+    "ans-3-2-1-2-5",
+    "ans-3-2-1-2-6",
+    "ans-3-2-1-2-7",
+    "ans-3-2-1-2-8",
+    "ans-3-2-1-2-9",
+    "ans-3-2-1-2-10"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 67,
+    "displayExpressions": 3,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.2.1.1答14",
+      "cnPrintedPage": 427,
+      "enPdfPage": 562,
+      "enPrintedPage": 547,
+      "original": "进位加法（add-with-borrow）",
+      "final": "进位加法（add-with-carry）",
+      "basis": "英文原页add-with-carry；该式加c_n并减bc_(n+1)，确是进位加法。中文进位名称正确而括注误borrow。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 437,
+    "answer": "3.2.1.1-14",
+    "right_start": "等价于 $X_n=b^{-1}X_{n-1}\\bmod|m|$，",
+    "endsInCompleteAnswer": "3.2.1.2-10",
+    "nextPage": 439
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "1a14955033b1700b1256977a587197c243973e68e5adbb2494ccd867ab6c677d",
+    "visualReviewSha256": "04e58fa4501ba0b2caba3a45ab2478bccedfe71e3d7038752183c4d4710add42",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 67,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 15,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 67,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 17,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "f23565ac5a4d9850d0f0c3203bc61ccf50a197acb791f155924afabbc94778b4",
+  "numericalCheckQualification": "所有有限枚举只辅助原页核查，不替代普遍命题/渐近证明；共同疑点保留底本。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

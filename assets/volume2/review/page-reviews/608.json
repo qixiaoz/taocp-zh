@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "index",
+  "reviewDate": "2026-11-15",
+  "reviewerType": "model-direct-original-Chinese-and-English-image-comparison-not-human-signoff",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "bdde60a9b8e2d9741849311b7659b3dffad23f77d035a69f81aebec71ac5fe12",
+  "cnPdfPage": 608,
+  "cnPrintedPage": 597,
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "entryCount": 136,
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "reviewScope": "All original Chinese index subjects were compared with the recorded original English index crops, notation tables or body images by models. Two entries on614 remain exact English-subject correspondence questions; comparison complete does not mean all entries are proven identical across editions. Original Chinese references and order retained; no fixed page offset.",
+  "cnEvidence": [
+    {
+      "image": "scans/608.jpg",
+      "sha256": "bb378ed340f0c50b9ee39532619d1e3d92859b2f89a4fa2b730d6162cabdfa30",
+      "viewedDirectly": true
+    }
+  ],
+  "entryCatalog": {
+    "file": "index-work/general-608-entry-catalog.json",
+    "sha256": "88377f43427a44dd8717a68dd600ff32c76958c7f2d60ee858427a273b274fc4"
+  },
+  "browserEvidence": {
+    "file": "index-work/browser-604-614.json",
+    "sha256": "c5b249788f7ecbe90b441fe3911115cc794bd076b0401d8e407f63c46dbad39c",
+    "status": "passed",
+    "viewports": [
+      1280,
+      390
+    ]
+  },
+  "substantiveCorrections": [],
+  "sourceIssues": [],
+  "pending": [
+    "Whole-book inclusion proof",
+    "All original reference targets and actual routed jumps"
+  ],
+  "indexDisplayRevision": {
+    "previousChineseReviewSha256": "ae36b21a3a0fedb14444a8bc7f42b2af3c3be36c6a5d0df854bccdecbe75afbc",
+    "treatment": "Normalize spacing after page-reference commas, keeping all labels/row order/13see-targets. On610 restore Euler totient varphi, distinct from golden-ratio phi, as in actual original and appendixB589. English subject comparison still pending.",
+    "actualNewBrowserEvidenceSha256": "c5b249788f7ecbe90b441fe3911115cc794bd076b0401d8e407f63c46dbad39c",
+    "seeClicksEvidenceSha256": "cda4911fe2fd9fe69dbfb0408ad19020fa70a65a7c7656cf9c6eb17083e25cb1",
+    "viewports": [
+      1280,
+      390
+    ],
+    "status": "passed",
+    "historicalQualification": "This earlier display-only revision preceded English comparison. Current English coverage is recorded separately in englishSubjectReview."
+  },
+  "englishSubjectReview": {
+    "cnPdfPage": 608,
+    "entryCount": 136,
+    "currentPageMarkdownSha256": "bdde60a9b8e2d9741849311b7659b3dffad23f77d035a69f81aebec71ac5fe12",
+    "frozenEnglishAuditPageMarkdownSha256": "bdde60a9b8e2d9741849311b7659b3dffad23f77d035a69f81aebec71ac5fe12",
+    "englishAudit": {
+      "file": "assets/volume2/review/index-english-604-609.jsonl",
+      "sha256": "1b1ca7ecff15fabfa8f2e1c5f5537ba580397fa3fd108bfed754cca9639f5876",
+      "rows": 784,
+      "qualification": "Sealed historical source-image comparison; pageMarkdownSha256 remains the actual frozen input, never relabelled as a later revision."
+    },
+    "rows": [
+      1,
+      136
+    ],
+    "results": {
+      "matched-entry": 46,
+      "matched-parent-or-alias": 90
+    },
+    "currentRevision": {
+      "exactSubjectReplacements": [],
+      "allOtherBytesUnchanged": true,
+      "browserEvidence": null
+    },
+    "scope": "All original Chinese index subjects were compared with the recorded original English index crops, notation tables or body images by models. Two entries on614 remain exact English-subject correspondence questions; comparison complete does not mean all entries are proven identical across editions. Original Chinese references and order retained; no fixed page offset."
+  }
+}

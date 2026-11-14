@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 469,
+  "cnPrintedPage": 458,
+  "enPdfPages": [
+    601,
+    602
+  ],
+  "enPrintedPages": [
+    586,
+    587
+  ],
+  "pageMarkdownSha256": "0d7950e86eed4205983a7d38fb98c1412532235ec0f12a4026cc497fb619edf2",
+  "cnPageImageSha256": "3bb6bf37b5cabb63eb66f61c69f0801da2e249d94c109bca4d08f95a97380c6f",
+  "enPageImageSha256": {
+    "601": "13f32140ce72493b6b4258e2b3eba9475f4b31e62656b2b9c666fe7b56bb37f9",
+    "602": "5333dbc84d1b95d14090fa5baa999755b2dc54ea12013219062dad9d660955d5"
+  },
+  "coveredRegions": [
+    "3.4.1答11–19全尾拒绝、Mills比证明、相关正态矩阵与原注、连续尺度/卷积、Γ包络G1–G3/优化、几何矩、合成、负二项N1–N2。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-469",
+    "p-458",
+    "ans-3-4-1-11",
+    "ans-3-4-1-12",
+    "ans-3-4-1-13",
+    "ans-3-4-1-14",
+    "ans-3-4-1-15",
+    "ans-3-4-1-16",
+    "ans-3-4-1-17",
+    "ans-3-4-1-18",
+    "ans-3-4-1-19"
+  ],
+  "answerAnchors": [
+    "ans-3-4-1-11",
+    "ans-3-4-1-12",
+    "ans-3-4-1-13",
+    "ans-3-4-1-14",
+    "ans-3-4-1-15",
+    "ans-3-4-1-16",
+    "ans-3-4-1-17",
+    "ans-3-4-1-18",
+    "ans-3-4-1-19"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 135,
+    "displayExpressions": 1,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.4.1答13协方差下标",
+      "cnPrintedPage": 458,
+      "enPdfPage": 601,
+      "enPrintedPage": 586,
+      "original": "a21a31+a22a33=c23",
+      "final": "a21a31+a22a32=c23",
+      "basis": {
+        "cnPrintedPage": 458,
+        "cnOriginal": "a21a31+a22a33=c23",
+        "english": "a21a31+a22a32=c23 EN601 printed586",
+        "final": "a21a31+a22a32=c23",
+        "basis": "完整原题CN117印106指定Y2=a21X1+a22X2,Y3=a31X1+a32X2+a33X3，独立标准正态给Cov(Y2,Y3)=a21a31+a22a32；矩阵AA^T的(2,3)元素同一式。"
+      }
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "continues_to_pdf_page": 470,
+    "answer": "3.4.1-19",
+    "left_end": "否则，返回 $N$ 并终止。$\\quad\\blacksquare$",
+    "right_start": "［对于负二项分布，罗格·莱热提出了一种有趣的方法，",
+    "instruction": "N2算法结束符留469；470首是同答原作者注记。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "79abfa46724d8d811ebd1697835aa80f05953c547df3610c9e8666ccbd0a61b5",
+    "visualReviewSha256": "a02cbf1518a20f9b511952f7157e24252810bc321bf27b5457f0968192446899",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 135,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 135,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "55c5ed9a0a067646d83b6e56feb7ba476432b9d02bb7d83194da50b47b243f31",
+  "numericalCheckQualification": "独立精确整数/有理数和高精度数值计算辅助逐原图比对；有限枚举/差分不替代一般证明。论证依据另逐项明列。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

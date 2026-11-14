@@ -1,0 +1,582 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 473,
+  "cnPrintedPage": 462,
+  "enPdfPages": [
+    606,
+    607
+  ],
+  "enPrintedPages": [
+    591,
+    592
+  ],
+  "pageMarkdownSha256": "607e5b12e9b0c9f7d552322beae8e4d9ccbe1c9cc499c8d46f8f7fcb938494d9",
+  "cnPageImageSha256": "55b2aedcdae964e14f608a4c2fff5b830aeb5194290cc524a33789a6a3eaa6e3",
+  "enPageImageSha256": {
+    "606": "09d761b4617dd7e07b33803af47d2223707827b9b89b6e6e1dc38db4bd14407f",
+    "607": "88a9bbfd77bb8a822849b32562b44a443cbd63a8501fb86ac5441f6dfb1a3e01"
+  },
+  "coveredRegions": [
+    "3.4.2答8(d)拒绝/迭代与原注；9–18(a)全部实际原答/水库/PGF矩/对换算法/仿射洗牌群/纸牌符号/达尔稀疏洗牌/有序散列/弗洛伊德/合并定向树。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-473",
+    "p-462",
+    "ans-3-4-2-9",
+    "ans-3-4-2-10",
+    "ans-3-4-2-11",
+    "ans-3-4-2-12",
+    "ans-3-4-2-13",
+    "ans-3-4-2-14",
+    "ans-3-4-2-15",
+    "ans-3-4-2-16",
+    "ans-3-4-2-17",
+    "ans-3-4-2-18"
+  ],
+  "answerAnchors": [
+    "ans-3-4-2-9",
+    "ans-3-4-2-10",
+    "ans-3-4-2-11",
+    "ans-3-4-2-12",
+    "ans-3-4-2-13",
+    "ans-3-4-2-14",
+    "ans-3-4-2-15",
+    "ans-3-4-2-16",
+    "ans-3-4-2-17",
+    "ans-3-4-2-18"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 88,
+    "displayExpressions": 1,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.4.2答9水库记录漏项",
+      "cnPrintedPage": 462,
+      "enPdfPage": 606,
+      "enPrintedPage": 591,
+      "original": "7个记录：2,3,5,9,13,16",
+      "final": "7个记录：1,2,3,5,9,13,16",
+      "basis": {
+        "cnPdfPage": 473,
+        "cnPrintedPage": 462,
+        "enPdfPage": 606,
+        "enPrintedPage": 591,
+        "original": "7个记录：2,3,5,9,13,16",
+        "final": "7个记录：1,2,3,5,9,13,16",
+        "sourceEvidence": {
+          "question": {
+            "cnPdfPage": 122,
+            "cnPrintedPage": 111,
+            "enPdfPage": 162,
+            "enPrintedPage": 147,
+            "n": 3,
+            "N": 20,
+            "M_sequence": [
+              4,
+              1,
+              6,
+              7,
+              5,
+              3,
+              5,
+              11,
+              11,
+              3,
+              7,
+              9,
+              3,
+              11,
+              4,
+              5,
+              4
+            ]
+          },
+          "algorithm": {
+            "cnPdfPage": 120,
+            "cnPrintedPage": 109,
+            "enPdfPage": 159,
+            "enPrintedPage": 144,
+            "R1": "前n记录全复制到水库，I[j]=j,t=m=n",
+            "R3": "t++，若M>n转R5",
+            "R4": "追加下一输入记录，m++，I[M]=m",
+            "R6": "排序I并输出所指水库记录"
+          },
+          "images": {
+            "CN120": "00f1615e72a612da6e9ef374284a38b92fafbaae0c0aaa3113e839e8f178be78",
+            "CN122": "bc5677c09b1a14647025b738086dc99f5710f63987e9ee0df1fe3c790196103f",
+            "CN473": "55b2aedcdae964e14f608a4c2fff5b830aeb5194290cc524a33789a6a3eaa6e3",
+            "EN159": "26e87eb9a3de352ed9b2814999f6b3815d9b254aac4dda6a621832ef1e8e8645",
+            "EN162": "1ecddc2d7cb1fd0a763419988ac983668912fad5822f41bbac878ef29607537b",
+            "EN606": "09d761b4617dd7e07b33803af47d2223707827b9b89b6e6e1dc38db4bd14407f"
+          }
+        },
+        "steps": [
+          {
+            "inputRecord": 4,
+            "M": 4,
+            "R4append": false,
+            "reservoir": [
+              1,
+              2,
+              3
+            ],
+            "I": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "inputRecord": 5,
+            "M": 1,
+            "R4append": true,
+            "reservoir": [
+              1,
+              2,
+              3,
+              5
+            ],
+            "I": [
+              4,
+              2,
+              3
+            ]
+          },
+          {
+            "inputRecord": 6,
+            "M": 6,
+            "R4append": false,
+            "reservoir": [
+              1,
+              2,
+              3,
+              5
+            ],
+            "I": [
+              4,
+              2,
+              3
+            ]
+          },
+          {
+            "inputRecord": 7,
+            "M": 7,
+            "R4append": false,
+            "reservoir": [
+              1,
+              2,
+              3,
+              5
+            ],
+            "I": [
+              4,
+              2,
+              3
+            ]
+          },
+          {
+            "inputRecord": 8,
+            "M": 5,
+            "R4append": false,
+            "reservoir": [
+              1,
+              2,
+              3,
+              5
+            ],
+            "I": [
+              4,
+              2,
+              3
+            ]
+          },
+          {
+            "inputRecord": 9,
+            "M": 3,
+            "R4append": true,
+            "reservoir": [
+              1,
+              2,
+              3,
+              5,
+              9
+            ],
+            "I": [
+              4,
+              2,
+              5
+            ]
+          },
+          {
+            "inputRecord": 10,
+            "M": 5,
+            "R4append": false,
+            "reservoir": [
+              1,
+              2,
+              3,
+              5,
+              9
+            ],
+            "I": [
+              4,
+              2,
+              5
+            ]
+          },
+          {
+            "inputRecord": 11,
+            "M": 11,
+            "R4append": false,
+            "reservoir": [
+              1,
+              2,
+              3,
+              5,
+              9
+            ],
+            "I": [
+              4,
+              2,
+              5
+            ]
+          },
+          {
+            "inputRecord": 12,
+            "M": 11,
+            "R4append": false,
+            "reservoir": [
+              1,
+              2,
+              3,
+              5,
+              9
+            ],
+            "I": [
+              4,
+              2,
+              5
+            ]
+          },
+          {
+            "inputRecord": 13,
+            "M": 3,
+            "R4append": true,
+            "reservoir": [
+              1,
+              2,
+              3,
+              5,
+              9,
+              13
+            ],
+            "I": [
+              4,
+              2,
+              6
+            ]
+          },
+          {
+            "inputRecord": 14,
+            "M": 7,
+            "R4append": false,
+            "reservoir": [
+              1,
+              2,
+              3,
+              5,
+              9,
+              13
+            ],
+            "I": [
+              4,
+              2,
+              6
+            ]
+          },
+          {
+            "inputRecord": 15,
+            "M": 9,
+            "R4append": false,
+            "reservoir": [
+              1,
+              2,
+              3,
+              5,
+              9,
+              13
+            ],
+            "I": [
+              4,
+              2,
+              6
+            ]
+          },
+          {
+            "inputRecord": 16,
+            "M": 3,
+            "R4append": true,
+            "reservoir": [
+              1,
+              2,
+              3,
+              5,
+              9,
+              13,
+              16
+            ],
+            "I": [
+              4,
+              2,
+              7
+            ]
+          },
+          {
+            "inputRecord": 17,
+            "M": 11,
+            "R4append": false,
+            "reservoir": [
+              1,
+              2,
+              3,
+              5,
+              9,
+              13,
+              16
+            ],
+            "I": [
+              4,
+              2,
+              7
+            ]
+          },
+          {
+            "inputRecord": 18,
+            "M": 4,
+            "R4append": false,
+            "reservoir": [
+              1,
+              2,
+              3,
+              5,
+              9,
+              13,
+              16
+            ],
+            "I": [
+              4,
+              2,
+              7
+            ]
+          },
+          {
+            "inputRecord": 19,
+            "M": 5,
+            "R4append": false,
+            "reservoir": [
+              1,
+              2,
+              3,
+              5,
+              9,
+              13,
+              16
+            ],
+            "I": [
+              4,
+              2,
+              7
+            ]
+          },
+          {
+            "inputRecord": 20,
+            "M": 4,
+            "R4append": false,
+            "reservoir": [
+              1,
+              2,
+              3,
+              5,
+              9,
+              13,
+              16
+            ],
+            "I": [
+              4,
+              2,
+              7
+            ]
+          }
+        ],
+        "finalI": [
+          4,
+          2,
+          7
+        ],
+        "finalSample": [
+          2,
+          5,
+          16
+        ],
+        "basis": "R1强制包含初始记录1、2、3；后续水库只追加从不删除记录1，更新仅改I。故原列六项漏1，英文原答明确七项且模拟完全吻合。"
+      }
+    },
+    {
+      "section": "3.4.2答16散列抽样",
+      "cnPrintedPage": 462,
+      "enPdfPage": 607,
+      "enPrintedPage": 592,
+      "original": "把它们在表中排序并丢弃重复元素",
+      "final": "把它们存储在表中并丢弃重复元素",
+      "basis": {
+        "cnPdfPage": 473,
+        "cnPrintedPage": 462,
+        "enPdfPage": 607,
+        "enPrintedPage": 592,
+        "section": "3.4.2答16散列抽样",
+        "original": "把它们在表中排序并丢弃重复元素",
+        "final": "把它们存储在表中并丢弃重复元素",
+        "english": "storing them in the table and discarding duplicates",
+        "basis": "完整题CN123印112/EN163印148要求散列O(n)随机样本；本段先说明存储与去重、单次期望O(1)，后一句才另用ordered hash table解决排序输出。英文storing清楚指存储，原中文误作排序改变本段操作。"
+      }
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 472,
+    "answerAtStart": "3.4.2-8(d)",
+    "right_start": "(d)（见习题3.4.1-29。）",
+    "continuation_end": "(1985), 37–57。",
+    "continues_to_pdf_page": 474,
+    "answerAtEnd": "3.4.2-18",
+    "left_end": "合并的定向树，如",
+    "floatingBlocksAtEnd": "此句后完整原无编号定向树图；474起(b)，不能把图挪到新标题3.5之后。",
+    "right_next_start": "(b) 1-环和2-环的集合。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "fc8e03523bd20eb4601cdcf0490af5403b7d511532ddf94c03cd68c3115cbc32",
+    "visualReviewSha256": "ec1699b44942da35ecb910bafe683e79795afd9299a8729b84a4be75671b18bf",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 88,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 88,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 2,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ],
+    "imageZoomCases": [
+      {
+        "viewport": 1280,
+        "images": [
+          {
+            "url": "assets/volume2/figures/ans-3-4-2-18-merge-tree.png",
+            "root": "HTML",
+            "labels": 0,
+            "images": [
+              {
+                "width": 1670,
+                "height": 210
+              }
+            ],
+            "href": "../../../assets/volume2/figures/ans-3-4-2-18-merge-tree.png"
+          }
+        ],
+        "actualOpenAndBrowserBack": true
+      },
+      {
+        "viewport": 390,
+        "images": [
+          {
+            "url": "assets/volume2/figures/ans-3-4-2-18-merge-tree.png",
+            "root": "HTML",
+            "labels": 0,
+            "images": [
+              {
+                "width": 1670,
+                "height": 210
+              }
+            ],
+            "href": "../../../assets/volume2/figures/ans-3-4-2-18-merge-tree.png"
+          }
+        ],
+        "actualOpenAndBrowserBack": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "c9faf78f68b721b4e1a84fa9d1da4baabbfedbe80a42bc6292030a3e3162c44a",
+  "numericalCheckQualification": "精确有理数/有限组合枚举与图中32编号边逐项对应只辅助原页复核，不取代无穷序列、Fourier或一般图连通性证明。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "assets": [
+    {
+      "path": "assets/volume2/figures/ans-3-4-2-18-merge-tree.png",
+      "sha256": "669dcc638abe64dc0579995056cc616eac3f228f1ba413d7549d0ac3146dab3d",
+      "kind": "clear-original-cn-diagram-crop",
+      "crop": [
+        300,
+        2680,
+        1970,
+        2890
+      ],
+      "cnPdfPage": 473,
+      "enPdfPage": 607,
+      "visualComparedWithBothOriginals": true,
+      "scope": "节点1..26、15自环、合并父节点26/24/22/18/17/16/15及所有箭头逐原图保留；无独立图号，不造图号。"
+    }
+  ],
+  "publicationSanitization": {
+    "privateOriginalReviewSha256": "b92eb2b6d3f9e6ed33c20273b0a094fb581fe4ff5b03d5367bc366bec371afa6",
+    "fields": [
+      ".renderReview.imageZoomCases[0].images[0].url",
+      ".renderReview.imageZoomCases[1].images[0].url"
+    ],
+    "treatment": "Local file asset URLs are normalized to repository-relative asset paths for public delivery. The original observed URLs remain only in the private, hash-bound review record."
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "section": "4.6.3",
+  "sections": [
+    "4.6.3"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 382,
+  "cnPrintedPage": 371,
+  "enPdfPages": [
+    491,
+    492,
+    493
+  ],
+  "enPrintedPages": [
+    476,
+    477,
+    478
+  ],
+  "pageMarkdownSha256": "1ee5fddad26151bc4397f578e529f18aad1561acfa28d71354caa5e642df4675",
+  "masterSha256": null,
+  "cnPageImage": "scans/382.jpg",
+  "cnPageImageSha256": "c36d801ad3b0cea90eba0d17847dbe8badd5a08cff336ac822a7e6722c385197",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-491.png",
+      "sha256": "52d53c17a0f8fc5b182ee76e202f31cf12654e2782fd8fe123d9a10423979d33"
+    },
+    {
+      "file": "source-audit/en-render/page-492.png",
+      "sha256": "9aea352099376f3b7f1846776151588b7e8b36e1ca4f51c063be7eae2f5a267e"
+    },
+    {
+      "file": "source-audit/en-render/page-493.png",
+      "sha256": "8bd2d795582b1678ab95f6da4f473d5c28c2996706d25250e11d554399384c8a"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-382",
+    "p-371"
+  ],
+  "numberedFormulaTags": [],
+  "coveredRegions": [
+    "6103指数例子和6106/6107界、12509/16537链、vanLeeuwen推广；所有历史猜想/记录/引文、382链、c(r)39项全表与续句。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 59,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch377-numeric-check.json",
+  "numericScope": "Exact complete general addition-chain search for n1..2222 and2731; four individual minimum probes12509/16537 general/star; no general theorem derived by finite tests. c1..15 and d1..11 independently recomputed; larger historical c/d values and later record holders only source-image/bilingual verified. Whole formula48 n2..1000 exact. Huge example only exact bit identity, compressed6106-step upper witness and sourceH hypothesis substitution, not independent optimality search.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch377-proof.html",
+    "htmlSha256": "1e3af7453fa812b35f61904ded414aae8eca96ecdabbba65075285b945dc0098",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch377-proof-1280-382.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch377-proof-390-382.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 495,
+    "scrollableElementCounts": {
+      "1280": 127,
+      "390": 155
+    },
+    "machineObservations": ".work/volume2/source-audit/batch377-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 383,
+    "end": "对于",
+    "nextStart": "$r>18$，这里列出的数值"
+  },
+  "numberTable": {
+    "function": "c(r)",
+    "entries": 39,
+    "allBilingualSourceCellsReviewed": true,
+    "independentMinimumRecomputation": "r1..15 only; c16..39 not recomputed"
+  },
+  "historicalClaimsRetained": [
+    "12509/16537 minimality as recorded, later record holders30958077/375494703, unboundedness and bibliography kept historical. Independent search confirms individual12509/16537 lengths, not first-gap prefix enumeration."
+  ]
+}

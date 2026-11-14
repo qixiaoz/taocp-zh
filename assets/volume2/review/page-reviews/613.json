@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "index",
+  "reviewDate": "2026-11-15",
+  "reviewerType": "model-direct-original-Chinese-and-English-image-comparison-not-human-signoff",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "fe9b72cd55d0db9f9444b806fc42af5b80aeeabafe69648fabb7e8605736057c",
+  "cnPdfPage": 613,
+  "cnPrintedPage": 602,
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "entryCount": 136,
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "reviewScope": "All original Chinese index subjects were compared with the recorded original English index crops, notation tables or body images by models. Two entries on614 remain exact English-subject correspondence questions; comparison complete does not mean all entries are proven identical across editions. Original Chinese references and order retained; no fixed page offset.",
+  "cnEvidence": [
+    {
+      "image": "scans/613.jpg",
+      "sha256": "dc38282ff425fcc0f1eb72644e0d810a38deae2fe90949e89e7055fc1dcb2564",
+      "viewedDirectly": true
+    }
+  ],
+  "entryCatalog": {
+    "file": "index-work/general-613-entry-catalog.json",
+    "sha256": "a18135a370a1b6cd2c1fef2a57f50201cc414649dd6e3568a4c64d2b9f043318"
+  },
+  "browserEvidence": {
+    "file": "index-work/browser-604-614.json",
+    "sha256": "c5b249788f7ecbe90b441fe3911115cc794bd076b0401d8e407f63c46dbad39c",
+    "status": "passed",
+    "viewports": [
+      1280,
+      390
+    ]
+  },
+  "substantiveCorrections": [
+    {
+      "id": "index-613-64-source-confirmed-subject",
+      "section": "索引",
+      "cnPrintedPage": 602,
+      "enPdfPage": 120,
+      "enPrintedPage": 105,
+      "original": "优点，图形",
+      "final": "优劣指标",
+      "basis": "英文figure of merit与正文同一椭球体体积指标对应；仅改索引主题，页码79与行序保留。正文090已另行核订。",
+      "sourceAuditRow": 64,
+      "sealedEnglishAuditSha256": "97b160ff107cb21af9c2d5c0770233b494fab472970a465ec52bebaca280f727",
+      "allReferenceLabelsAndRowOrderUnchanged": true
+    },
+    {
+      "id": "index-613-106-source-confirmed-subject",
+      "section": "索引",
+      "cnPrintedPage": 602,
+      "enPdfPage": 104,
+      "enPrintedPage": 89,
+      "original": "增加选择",
+      "final": "增量的选择",
+      "basis": "英文choice of increment及正文同一个c的增量选择准则；索引术语统一为增量的选择，正文079不改。",
+      "sourceAuditRow": 106,
+      "sealedEnglishAuditSha256": "97b160ff107cb21af9c2d5c0770233b494fab472970a465ec52bebaca280f727",
+      "allReferenceLabelsAndRowOrderUnchanged": true
+    },
+    {
+      "id": "index-613-136-source-confirmed-subject",
+      "section": "索引",
+      "cnPrintedPage": 602,
+      "enPdfPage": 148,
+      "enPrintedPage": 133,
+      "original": "正态偏差的对数方法",
+      "final": "指数偏差的对数方法",
+      "basis": "原引用101页为指数分布D.(1)，英文Logarithm method及X=-mu ln U明确为指数偏差；不是正态偏差。",
+      "sourceAuditRow": 136,
+      "sealedEnglishAuditSha256": "97b160ff107cb21af9c2d5c0770233b494fab472970a465ec52bebaca280f727",
+      "allReferenceLabelsAndRowOrderUnchanged": true
+    }
+  ],
+  "sourceIssues": [],
+  "pending": [
+    "Whole-book inclusion proof",
+    "All original reference targets and actual routed jumps"
+  ],
+  "indexDisplayRevision": {
+    "previousChineseReviewSha256": "690d9e60ee7c3746de0573743cda3c972a294ec7aa468eaed1ebfd9c880b00c0",
+    "treatment": "Normalize spacing after page-reference commas, keeping all labels/row order/13see-targets. On610 restore Euler totient varphi, distinct from golden-ratio phi, as in actual original and appendixB589. English subject comparison still pending.",
+    "actualNewBrowserEvidenceSha256": "c5b249788f7ecbe90b441fe3911115cc794bd076b0401d8e407f63c46dbad39c",
+    "seeClicksEvidenceSha256": "cda4911fe2fd9fe69dbfb0408ad19020fa70a65a7c7656cf9c6eb17083e25cb1",
+    "viewports": [
+      1280,
+      390
+    ],
+    "status": "passed",
+    "historicalQualification": "This earlier display-only revision preceded English comparison. Current English coverage is recorded separately in englishSubjectReview."
+  },
+  "englishSubjectReview": {
+    "cnPdfPage": 613,
+    "entryCount": 136,
+    "currentPageMarkdownSha256": "fe9b72cd55d0db9f9444b806fc42af5b80aeeabafe69648fabb7e8605736057c",
+    "frozenEnglishAuditPageMarkdownSha256": "a023e41c992935b266c855b8176006f7ee1beb327feecf23e887aed7ecc7e693",
+    "englishAudit": {
+      "file": "assets/volume2/review/index-english-610-614.jsonl",
+      "sha256": "97b160ff107cb21af9c2d5c0770233b494fab472970a465ec52bebaca280f727",
+      "rows": 614,
+      "qualification": "Sealed historical source-image comparison; pageMarkdownSha256 remains the actual frozen input, never relabelled as a later revision."
+    },
+    "rows": [
+      1,
+      136
+    ],
+    "results": {
+      "matched-entry": 69,
+      "matched-subentry": 62,
+      "matched-index-and-body": 2,
+      "confirmed-mistranslation-candidate": 2,
+      "confirmed-terminology-alignment-candidate": 1
+    },
+    "currentRevision": {
+      "exactSubjectReplacements": [
+        [
+          "优点，图形",
+          "优劣指标"
+        ],
+        [
+          "增加选择",
+          "增量的选择"
+        ],
+        [
+          "正态偏差的对数方法",
+          "指数偏差的对数方法"
+        ]
+      ],
+      "allOtherBytesUnchanged": true,
+      "browserEvidence": {
+        "file": "proof/index-term-fixes-browser.json",
+        "sha256": "03dcc7972972fb655447966fcf85cd16990cd79ae5dfd3841bf25a2ba301b08c",
+        "status": "passed"
+      }
+    },
+    "scope": "All original Chinese index subjects were compared with the recorded original English index crops, notation tables or body images by models. Two entries on614 remain exact English-subject correspondence questions; comparison complete does not mean all entries are proven identical across editions. Original Chinese references and order retained; no fixed page offset."
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "仅绑定当前单页字节；装订后另建包含/合段证明，不仅改此哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接看中文完整页与所列英文页，按段、式、习题、字段核对。解析和复算另列，不充当原页证据。",
+  "cnPdfPage": 185,
+  "cnPrintedPage": 174,
+  "enPdfPages": [
+    242,
+    243,
+    244
+  ],
+  "enPrintedPages": [
+    227,
+    228,
+    229
+  ],
+  "pageMarkdownSha256": "591f6ab56b0c581fee862c635ca2c0af6af193f38bb8cc3fe4f80ceb8cbad76a",
+  "cnPageImage": "scans/185.jpg",
+  "cnPageImageSha256": "2833d9477fae4325f3edd99fe54df89bd521681a670c5d6aade36b86f1570f3f",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-242.png",
+      "sha256": "e6e0639f0b9781b7233042847fe0037ead3fb72f8bb937f17c71e4e6936d9c30"
+    },
+    {
+      "file": "verified-sources/en-243.png",
+      "sha256": "9f065f5da162f2ffbe1f2118c5e43f1936f8d366a63e9fddb63a830d4024c74f"
+    },
+    {
+      "file": "verified-sources/en-244.png",
+      "sha256": "c8f56babdcf78940727c4df66f365926dc439aba1d368cdb17dd68207c53da15"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号、书名/节名及页码；隐藏页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-185",
+    "p-174",
+    "ex-4-2-1-11",
+    "ex-4-2-1-12",
+    "ex-4-2-1-13",
+    "ex-4-2-1-14",
+    "ex-4-2-1-15",
+    "ex-4-2-1-16",
+    "ex-4-2-1-17",
+    "ex-4-2-1-18",
+    "ex-4-2-1-19"
+  ],
+  "coveredRegions": [
+    "§4.2.1习题11–19全部题干与难度、11/15两个推荐三角。",
+    "原区间上下和算符、带圈mod算符、36位表示与所有八进制字段/保护位。",
+    "下节两段原引语及署名1750/1824。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "numberedListings": [],
+  "numberedWordLayouts": [],
+  "exerciseNumbers": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "answerLinkStatus": "pendingverifiedanswers",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "习题11–19完成§4.2.1。两段引语属于随后§4.2.2，中文版排在本页末，英文排244页开头。保留原序；分节时宜将其归入下节而不损原页定位。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 42,
+    "parseErrors": 0,
+    "codeLines": [],
+    "meaning": "只证明语法可排版；原页/英文比对另列。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "独立复算辅助原页核查，不作原书答案来源或全节证明。",
+    "results": {
+      "octalWholeWordComplements": {
+        "positive1point5": "201600000000",
+        "negative1point5": "576200000000",
+        "positive1": "201400000000",
+        "negative1": "576400000000"
+      },
+      "inputFractionBits33": true,
+      "retainedFractionBits27": true
+    }
+  },
+  "untested": [
+    "最终母稿包含、题答链接及引语分节归属。",
+    "正式VitePress/Pandoc整卷；私有选择性HTML视觉验证另列。"
+  ],
+  "symbolTranscription": {
+    "trianglePlusAndDownTrianglePlus": "triangle/triangledown+mkern+mathord单字符加号，无复合mo外包；与原上下三角内加号逐项核对。",
+    "circledMod": "text{textcircled{tiny mod}}，保留整个mod在圈内，区别于普通bmod。"
+  },
+  "renderCompatibilityRevision": {
+    "oldContentEvidence": "verified-history/185-before-compound-symbol-fix/185.json",
+    "failure": "mathbin包含复合三角与mkern时，KaTeX0.19 MathML输出mo内自闭合mspace；Chrome把后续内容嵌入隐藏MathML。",
+    "fix": "去除复合外层mathbin，以显式间距、三角、单字符mathord加号合成；带圈mod放在text中并缩小内文字使其完整处于圈内。",
+    "mathematicalNotationPreserved": true,
+    "sourceWordsAndNumbersUnchanged": true,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.1+4.3.2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订须另证包含与跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文整页及列出的英文页图，逐段/逐式/表格/程序字段频次注释和难度推荐符号比较。机器检查和复算另列，不声称人类签核。",
+  "cnPdfPage": 229,
+  "cnPrintedPage": 218,
+  "enPdfPages": [
+    299,
+    300
+  ],
+  "enPrintedPages": [
+    284,
+    285
+  ],
+  "pageMarkdownSha256": "b0f930ad6916d139d4593ae4679e1e6d02941e426d288cb3771faab9e7ca5cbb",
+  "cnPageImage": "scans/229.jpg",
+  "cnPageImageSha256": "59baf70668905f63a3ce0dc7cd08b0673ee9a04914747abbe9ac6d948327d5af",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-299.png",
+      "sha256": "1a2a003beb377f2ce6843b9a4e3c0aabc4b803e406d0b9eeff988fc47571206c"
+    },
+    {
+      "file": "verified-sources/en-300.png",
+      "sha256": "41ce5ab7b713896d5c8d04b78b1fb392a16ab7b279cf099b120b224c770b4262"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-229",
+    "p-218",
+    "ex-4-3-1-40",
+    "ex-4-3-1-41",
+    "ex-4-3-1-42",
+    "ex-4-3-1-43",
+    "sec-4-3-2"
+  ],
+  "coveredRegions": [
+    "首续题39复杂度/连续串假设。",
+    "习题40–43完整，Montgomery三子题所有符号、Eulerian数、8位颜色除255取最近公式。",
+    "§4.3.2实际标题、模表示引言、式1–4与无编号模乘等式。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [
+    {
+      "id": "v2-4.3.1-ex41b-comma",
+      "section": "4.3.1习题41(b)",
+      "cnPrintedPage": 218,
+      "enPdfPage": 299,
+      "enPrintedPage": 284,
+      "sourceText": "|u||v|<w",
+      "finalText": "|u|,|v|<w",
+      "evidence": "英文原页两个绝对值之间明确有逗号，分别要求两个操作数的绝对值小于w；乘积界不是同一假设。",
+      "kind": "substantive-omitted-separator"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "exerciseNumbers": [
+    40,
+    41,
+    42,
+    43
+  ],
+  "answerLinkStatus": "pendingactualanswer-area-verification",
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "continuationNotes": "首续题39，43结束后实际4.3.2标题。末无编号模乘等式完整，230首“对每个模数m_j…”续同一句；公式保持整块，不内插页锚点。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 70,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "只是语法；内容核查依实际中英文原页。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终母稿装订/跨页代码合并/题答回链",
+    "正式VitePress/Pandoc整卷与线上",
+    "未执行MIX或将机器字段一致称作算法正确性证明。"
+  ],
+  "renderReview": {
+    "file": "verified-render/classical-dom-review-222-229.json",
+    "sha256": "18411f91c2491a713c87fc399036de41b8e750c7fd1b54d844a234e272d254fc",
+    "scope": "当前页SHA私有1280/390 DOM与列出复杂区域实际看图，非正式全站。"
+  }
+}

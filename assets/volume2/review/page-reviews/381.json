@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "section": "4.6.3",
+  "sections": [
+    "4.6.3"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 381,
+  "cnPrintedPage": 370,
+  "enPdfPages": [
+    490,
+    491
+  ],
+  "enPrintedPages": [
+    475,
+    476
+  ],
+  "pageMarkdownSha256": "9a8a99a5cd123c7e5241228e5c75fa7a811f4dada5fd79ee973aaaab264f5953",
+  "masterSha256": null,
+  "cnPageImage": "scans/381.jpg",
+  "cnPageImageSha256": "e07f224574253586ec1f647a025760092e96961c22d0edca475d94af8711b641",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-490.png",
+      "sha256": "67c27a0af8c523f5097ec4356867818bac00efd4b5512d2c790d8dfae184d460"
+    },
+    {
+      "file": "source-audit/en-render/page-491.png",
+      "sha256": "52d53c17a0f8fc5b182ee76e202f31cf12654e2782fd8fe123d9a10423979d33"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-381",
+    "p-370"
+  ],
+  "numberedFormulaTags": [
+    45,
+    46,
+    47
+  ],
+  "coveredRegions": [
+    "定理H证明后半45–46及全部行内不等式、反证和不同j的不同小步；定理F47及完整构造证明。"
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "v2-4.6.3-H-distinct-steps",
+      "section": "4.6.3",
+      "cnPrintedPage": 370,
+      "cnPdfPage": 381,
+      "location": "定理H证明末段，式(46)后",
+      "original": "当j≠j′时，我们所找到的步骤i不会与j或j′相同.",
+      "final": "当j≠j′时，我们为j和j′所找到的步骤i不会相同.",
+      "enLocation": {
+        "pdfPage": 491,
+        "printedPage": 476,
+        "position": "TheoremH proof after(46)"
+      },
+      "enShortExcerpt": "the step i at which this occurs cannot be the same for both j and j′",
+      "basis": "英文比较的是不同j所对应的首次进入步骤i，中文误将步骤i与指标j/j′直接比较。保留后续全部反证式及本书假设，仅恢复此句指代。",
+      "fullHypothesisContext": {
+        "theorem": "n=sum2^ej; e0>...>et>=0; e0>2e1+2.271(t−1); e(i−1)>=ei+2m; m=2^floor(3.271(t−1))−t; hypothetical star chain r<=e0+t−1",
+        "jQuantifier": "1<=j<=t; i is first step with Mij nonempty; xj in Mij and Muv; v proved0",
+        "contradictionScope": "If a common i worked for both j and j′, (46) forces |xj−xj′|<m, while separated ej force the different multisets apart; hence t distinct small steps."
+      },
+      "cnSourceCrop": "source-audit/381-distinct-steps-crop.png",
+      "cnSourceCropSha256": "25f9926a3993d3acc536e01e884afc6f7416d314c850976643a161e80b5b4d93",
+      "enSourceImageSha256": "52d53c17a0f8fc5b182ee76e202f31cf12654e2782fd8fe123d9a10423979d33"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 88,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch377-numeric-check.json",
+  "numericScope": "Exact complete general addition-chain search for n1..2222 and2731; four individual minimum probes12509/16537 general/star; no general theorem derived by finite tests. c1..15 and d1..11 independently recomputed; larger historical c/d values and later record holders only source-image/bilingual verified. Whole formula48 n2..1000 exact. Huge example only exact bit identity, compressed6106-step upper witness and sourceH hypothesis substitution, not independent optimality search.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch377-proof.html",
+    "htmlSha256": "1e3af7453fa812b35f61904ded414aae8eca96ecdabbba65075285b945dc0098",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch377-proof-1280-381.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch377-proof-390-381.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 495,
+    "scrollableElementCounts": {
+      "1280": 127,
+      "390": 155
+    },
+    "machineObservations": ".work/volume2/source-audit/batch377-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "startsContinuationOfProof": {
+    "theorem": "4.6.3-H",
+    "previousCnPdfPage": 380,
+    "start": "为证明定理H"
+  }
+}

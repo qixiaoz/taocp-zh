@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "母稿尚未装订；绑定单页Markdown字节和原页图。装订后另作包含与跨页合段证明，不得只改哈希冒充重新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接查看中文完整页图、对应英文页图，逐段、逐式、逐数与引文对照。存在的译文差异依底本保留并单列；核实标记表示已实际比较，非声称这些差异已经实质订正。",
+  "editorialDisposition": "source-retained-with-reported-differences",
+  "cnPdfPage": 163,
+  "cnPrintedPage": 152,
+  "enPdfPages": [
+    216,
+    217
+  ],
+  "enPrintedPages": [
+    201,
+    202
+  ],
+  "pageMarkdownSha256": "4386f5d494a2c2204e67b6fe9722351de3508bf5160a9f724eb49fbab897d627",
+  "cnPageImage": "scans/163.jpg",
+  "cnPageImageSha256": "21549e09dac37ca737f484e0152ca04a64eff9d788e49a465ee55e58032dd60f",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-216.png",
+      "sha256": "8e331b9341423053b0ed7aff8972af731e0f253791e5b832dc28de9c9319ae49"
+    },
+    {
+      "file": "verified-sources/en-217.png",
+      "sha256": "453cbd301c0b563a684b70675521a32a5cf35fc1a226e9909ba6e9608fc9a1e5"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-163",
+    "p-152"
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉的节号、书名/小节名、印刷页码；页码用隐藏锚点保留。"
+  ],
+  "originalFootnotesPresent": false,
+  "addedExplanationsInBody": false,
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "continuationNotes": "首句接162；末尾“发展历”接164首字“史”。",
+  "coveredRegions": [
+    "奈斯特龙引语续文、十六进制发音、音调系统与参考资料。",
+    "二进制文献、幂、游戏、皮亚诺256符号、鲍登及格拉泽。",
+    "巴贝奇与菲利普斯论文、octonary/octonal/octal/hexadecimal词源段落。",
+    "5%八进制循环数的两个上点记号。",
+    "电子电路、六名发明者与兰德尔段落本页部分。"
+  ],
+  "unverifiedPageRegions": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "cnText": "它将无法获得我们这一代人、我们的科学家和哲学家的认可。",
+      "enText": "it will reflect that much less credit upon our generation, upon our scientific men and philosophers",
+      "enPdfPage": 216,
+      "kind": "translation-difference",
+      "action": "奈斯特龙引语照中文底本保留，并列疑英文的评价对象和含义不同。"
+    },
+    {
+      "cnText": "在它出现以前人们用的词是senidenary、sedecimal或sexadecimal",
+      "enText": "more proper terms would be senidenary or sedecimal or even sexadecimal",
+      "enPdfPage": 217,
+      "kind": "translation-difference",
+      "action": "中文照录；英文为更合适用词的建议，未表述为这些词先前实际通用。"
+    }
+  ],
+  "numberedFormulaTags": [],
+  "mathExpressions": [
+    {
+      "sourceLine": 3,
+      "display": false,
+      "tex": "(\\mathrm{C0160})_{16}",
+      "sha256": "ad9b5aa1a5f7fcb5508bf0cce4e216a2d56ad921b4bd543b609e5fe291a39e44"
+    },
+    {
+      "sourceLine": 13,
+      "display": false,
+      "tex": "3.\\dot{1}46\\dot{3}",
+      "sha256": "7fe89eb3a24f68309522f9153b364511a5060cb8913778c9e9d99cdcf6439c18"
+    }
+  ],
+  "numericalChecks": {
+    "meaning": "独立复算辅助原页检查，不替代目视或双语对照。",
+    "results": {
+      "octalRepeatingPercentage": {
+        "octal": "3.(1463) repeating",
+        "exactValue": "16/5",
+        "divideBy64": "1/20",
+        "equals5Percent": true
+      }
+    }
+  },
+  "tables": [],
+  "untested": [
+    "最终母稿的逐段包含关系与跨页合段。",
+    "正式VitePress和Pandoc整卷校样。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 2,
+    "parseErrors": 0,
+    "meaning": "仅证明样例语法可排版；内容依据另列的中英文页图逐项复核。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniquePageAnchors": true
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订须另证包含与跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文整页及列出的英文页图，逐段/逐式/表格/程序字段频次注释和难度推荐符号比较。机器检查和复算另列，不声称人类签核。",
+  "cnPdfPage": 235,
+  "cnPrintedPage": 224,
+  "enPdfPages": [
+    307,
+    308
+  ],
+  "enPrintedPages": [
+    292,
+    293
+  ],
+  "pageMarkdownSha256": "78e6c9c84ba57293b4ad1f8539f351165d21208db73c376ee4ca6043bab7b293",
+  "cnPageImage": "scans/235.jpg",
+  "cnPageImageSha256": "fb4d70b96fb62190e741ff7f1b9ae30c9ee3054388c25f7fd57501de9aee1d43",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-307.png",
+      "sha256": "ebbf9bfd33b3293af44700dbc5b5b4d24c49c9d0ffa551b8dc305c91ca749190"
+    },
+    {
+      "file": "verified-sources/en-308.png",
+      "sha256": "37e7bcab643795c9035b1e64681344edb5333526dea6b24e446ca943e389dce3"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-235",
+    "p-224",
+    "ex-4-3-2-1",
+    "ex-4-3-2-2",
+    "ex-4-3-2-3",
+    "ex-4-3-2-4",
+    "ex-4-3-2-5",
+    "ex-4-3-2-6",
+    "ex-4-3-2-7"
+  ],
+  "coveredRegions": [
+    "全部模硬件历史文献和4.3.3B引用。",
+    "中文原引语三行和作者/书名/1983，与英文实际引语对应。",
+    "习题1–7题号、难度、3/5/7推荐。",
+    "广义CRT所有条件、贪婪模数问题、Mersenne逆恒等式。",
+    "习题7五行嵌套赋值完整，题干后续讨论在236，不宣称本节结束。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "answerLinkStatus": "pendingactualanswer-area-verification",
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuationNotes": "末是4.3.2习题7的完整多行公式，最后逗号；下一236仍须接该题后续讨论和本节余题。只保留一个ex7，未转录236，也未假定4.3.3起页。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 33,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "只是语法；内容核查依实际中英文原页。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终母稿装订/跨页代码合并/题答回链",
+    "正式VitePress/Pandoc整卷与线上",
+    "未执行MIX或将机器字段一致称作算法正确性证明。"
+  ]
+}

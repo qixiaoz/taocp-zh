@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订须另证包含与跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文整页及列出的英文页图，逐段/逐式/表格/程序字段频次注释和难度推荐符号比较。机器检查和复算另列，不声称人类签核。",
+  "cnPdfPage": 230,
+  "cnPrintedPage": 219,
+  "enPdfPages": [
+    300,
+    301
+  ],
+  "enPrintedPages": [
+    285,
+    286
+  ],
+  "pageMarkdownSha256": "d6605033e7df397882f5072c601aacd589b21d0e89d95f27945a072beab62866",
+  "cnPageImage": "scans/230.jpg",
+  "cnPageImageSha256": "da9ceb7130f4dbe1bc49f1409bc387869e7a8947f660a62ead15f39900afd210",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-300.png",
+      "sha256": "41ce5ab7b713896d5c8d04b78b1fb392a16ab7b279cf099b120b224c770b4262"
+    },
+    {
+      "file": "verified-sources/en-301.png",
+      "sha256": "628509ebb7b5522f5da5d00ebedb2453a0b8a804f0b4dcea4facebe1e5ea03d1"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-230",
+    "p-219",
+    "thm-4-3-2-c"
+  ],
+  "coveredRegions": [
+    "首续模乘等式的每模证明，范围/溢出/并行性完整讨论。",
+    "完整定理C、两两互素5、区间/同余6。",
+    "两种存在性证明全部正文、构造常数7/8、解9。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pendingactualanswer-area-verification",
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "continuationNotes": "首句接229完整无编号模乘等式。末9式完整，231首“满足(6)的所有条件。”完成证明；不把页锚点塞进公式。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 51,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "只是语法；内容核查依实际中英文原页。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终母稿装订/跨页代码合并/题答回链",
+    "正式VitePress/Pandoc整卷与线上",
+    "未执行MIX或将机器字段一致称作算法正确性证明。"
+  ]
+}

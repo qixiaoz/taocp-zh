@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 577,
+  "cnPrintedPage": 566,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "65a4149f7e9b77895bf267e4c986bdc073ec2896997e61ee94dd1578e7d8ecde",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/577.jpg",
+  "cnPageImageSha256": "64863c7ddae546d0afaafef7391cf8fc35dd4416332c1deb4207175cc7157b8c",
+  "enPdfPages": [
+    733,
+    734,
+    735
+  ],
+  "enPrintedPages": [
+    718,
+    719,
+    720
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-733.png",
+      "sha256": "268223ca24c8bee4d1580040c6d918408fa23ddf527b476cc5155e8c5597e335"
+    },
+    {
+      "file": "verified-sources/en-734.png",
+      "sha256": "e26ae982b5541d3cbb7131f7702f6748ff4ecad1158cc1d5e69cf85f4bee67b4"
+    },
+    {
+      "file": "verified-sources/en-735.png",
+      "sha256": "8d60a7c918f838bab6c2f698186fe5012f0c7f9a844c173eb2d9eae3b1fa2767"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-577",
+    "p-566",
+    "ans-sec-4-7",
+    "ans-4-7-1",
+    "ans-4-7-2",
+    "ans-4-7-3",
+    "ans-4-7-4",
+    "ans-4-7-5",
+    "ans-4-7-6",
+    "ans-4-7-7"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续74(b)–(d)幺模矩阵/消去/一乘法例与2乘法界；实际4.7节标题。",
+    "答1–7完整商/整数缩放/幂/exp-ln/反演/牛顿倒数/树系数公式；7变量CN误植结合CN427和EN548原题修复。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末7完整；578从8开始。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.7-7-reversion-coefficient-variable",
+      "section": "4.7答案7",
+      "cnPrintedPage": 566,
+      "enPdfPage": 735,
+      "enPrintedPage": 720,
+      "original": "V_n=C(mk,k)/n",
+      "final": "W_n=C(mk,k)/n",
+      "basis": "英文明确W_n；中文原题CN427/印416和英文EXE7/EN548皆要求z=t−t^m的反演系数W_n。拉格朗日系数z^n t(z)=C(mk,k)/n（n=(m−1)k+1），不是原函数的V_n。旧转录按CN保留V，结合原题确认后保存旧MD/HTML/截图/浏览器历史并真重检当前页。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "4.7答案4 ln递推",
+      "chinese": "W_n=V_n+Σ(k/n−1)V_k W_(n−k)",
+      "english": "W_n=V_n+Σ(k/n−1)W_k V_(n−k)",
+      "decision": "中文底本正确，保留。由V=e^W给nV_n=Σ_k kW_kV_(n−k)，移项再换k↔n−k得CN式。EN式若V=1+az给W3=a³/6，真值a³/3；本批未把EN错误覆盖CN。"
+    }
+  ],
+  "answers": [
+    {
+      "anchor": "ans-4-7-1",
+      "exercise_anchor": "ex-4-7-1",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-7-2",
+      "exercise_anchor": "ex-4-7-2",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-7-3",
+      "exercise_anchor": "ex-4-7-3",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-7-4",
+      "exercise_anchor": "ex-4-7-4",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-7-5",
+      "exercise_anchor": "ex-4-7-5",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-7-6",
+      "exercise_anchor": "ex-4-7-6",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-7-7",
+      "exercise_anchor": "ex-4-7-7",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 577,
+    "sha256": "65a4149f7e9b77895bf267e4c986bdc073ec2896997e61ee94dd1578e7d8ecde",
+    "mathExpressions": 69,
+    "display": 2,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 577,
+        "width": 1280,
+        "sha256": "65a4149f7e9b77895bf267e4c986bdc073ec2896997e61ee94dd1578e7d8ecde",
+        "pageErrors": [],
+        "bodyText": 4965,
+        "documentWidth": 1280,
+        "expressions": 69,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 30,
+            "max": 30,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 577,
+        "width": 390,
+        "sha256": "65a4149f7e9b77895bf267e4c986bdc073ec2896997e61ee94dd1578e7d8ecde",
+        "pageErrors": [],
+        "bodyText": 4965,
+        "documentWidth": 390,
+        "expressions": 69,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 47,
+            "max": 47,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 143,
+            "max": 143,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 400,
+            "max": 400,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 133,
+            "max": 133,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 432,
+            "max": 432,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 312,
+            "max": 312,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 313,
+            "max": 313,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/577-65a4149f7e9b77895bf267e4c986bdc073ec2896997e61ee94dd1578e7d8ecde-metadata-update/577.json",
+      "pageMarkdownSha256": "65a4149f7e9b77895bf267e4c986bdc073ec2896997e61ee94dd1578e7d8ecde",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.6.4+4.7",
+  "numericCheck": {
+    "file": "arithmetic-end/numeric-check.json",
+    "sha256": "d14036eeadb4a74b6531c751fc02fd4345c06f1dcac921616478a077ddd22f5b",
+    "inputPageSha256": "65a4149f7e9b77895bf267e4c986bdc073ec2896997e61ee94dd1578e7d8ecde",
+    "meaning": "17项有限范围/全张量系数/一般推导见文件；本页哈希绑定不代表该页全部一般定理已独立重证。"
+  },
+  "renderedHtmlSha256": "84ac2055cb045d338a2dfe053ae79b8be3f8a22032a7a184a09cabbb5e0bfe35",
+  "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+  "renderScreenshotsDirectlyViewed": [
+    {
+      "file": "arithmetic-end/577-390.png",
+      "sha256": "de2ed421bb5b33246583960526eda5a0b15b00fc12b53cae98c9c961ba3eb055"
+    }
+  ],
+  "additionalOriginalEvidence": [
+    {
+      "file": "scans/427.jpg",
+      "sha256": "28ffd850af1cafdb3c6dc2a4555cb8cade1150789c6274b29033d522656e795e",
+      "scope": "4.7原题7命名反演系数W_n"
+    },
+    {
+      "file": "verified-sources/en-548.png",
+      "sha256": "64721013c6ddb53772c0b44893f4e10b01973b78192d048949ab90f62d4ad3f9",
+      "scope": "EXE4.7-7英文原题W_n"
+    }
+  ],
+  "exerciseTargetsPending": [
+    {
+      "page": 577,
+      "answer": "ans-4-7-1",
+      "target": "ex-4-7-1",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 577,
+      "answer": "ans-4-7-2",
+      "target": "ex-4-7-2",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 577,
+      "answer": "ans-4-7-3",
+      "target": "ex-4-7-3",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 577,
+      "answer": "ans-4-7-4",
+      "target": "ex-4-7-4",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 577,
+      "answer": "ans-4-7-5",
+      "target": "ex-4-7-5",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 577,
+      "answer": "ans-4-7-6",
+      "target": "ex-4-7-6",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 577,
+      "answer": "ans-4-7-7",
+      "target": "ex-4-7-7",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "names",
+  "reviewDate": "2026-11-14",
+  "reviewerType": "model-direct-page-image-comparison",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "441c42317ea2501c41776ae1ab663ecfbd7a1e5ff12c53cbb8f2ca7eaab6ef0b",
+  "cnPdfPage": 600,
+  "cnPrintedPage": 589,
+  "enPdfPages": [
+    756,
+    758,
+    760,
+    762,
+    764,
+    765,
+    767,
+    768,
+    769,
+    770,
+    771,
+    772,
+    774,
+    776,
+    777,
+    779
+  ],
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "entryCount": 120,
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "reviewScope": "Every entry read directly in the Chinese source image, columnwise top-to-bottom, left then right; all continuation names and page-reference tails retained. Corresponding English original index entry images viewed in labelled contact sheets. English edition page numbers are not substituted for Chinese numbers. Original Chinese abbreviated/expanded names and aliases retained unless a demonstrable spelling error is recorded.",
+  "cnEvidence": [
+    {
+      "image": "scans/600.jpg",
+      "sha256": "db89447d89d841aba32af78b5eea1ae4a1f7265d8875c008a09d5a75a8329256",
+      "viewedDirectly": true
+    },
+    {
+      "image": "index-work/600-jonquieres-zoom.png",
+      "sha256": "2c147ae5cb81a8eea95a4b4f6b40a5ffd43b4e4c1370320d4518ea1a8f68dd7e",
+      "viewedDirectly": true
+    }
+  ],
+  "enEvidence": [
+    {
+      "image": "index-work/names-600-en-contact-1.png",
+      "sha256": "36cdf96a9c6b6c2638b1f51654bdc70e8bb7b8d99fa6256b7b13393d6e08eb3d",
+      "viewedDirectly": true
+    },
+    {
+      "image": "index-work/names-600-en-contact-2.png",
+      "sha256": "f813ea3f8d0b836cb07079abb6deb282b52232007d3cfaf7e63c337e186c4c25",
+      "viewedDirectly": true
+    }
+  ],
+  "entryCatalog": {
+    "file": "index-work/names-600-entry-catalog.json",
+    "sha256": "0dbf95d11469de6b5e660d1e09b2232fe17e01d230a698f2cdb5f883a944e69d"
+  },
+  "englishMatchCatalog": {
+    "file": "index-work/names-600-matched.json",
+    "sha256": "3e085402dea6c0028df018106264a6c18b0eef4e04380edfeaac44de9bcf81bf",
+    "qualification": "Machine matching is only a location aid. Page images were directly read; variant aliases are retained, not machine-canonicalized."
+  },
+  "browserEvidence": {
+    "file": "index-work/browser-598-603.json",
+    "sha256": "5d926b7863b5c35f7f6a3209ac3f788b79d758848a9512c983f7c81214bc465e",
+    "viewports": [
+      1280,
+      390
+    ],
+    "status": "passed"
+  },
+  "directReviewNotesSha256": "76b32852b7ca0a4234d18d8e6e89e43e8e633333e06c0053c972ae721a294e63",
+  "substantiveCorrections": [
+    {
+      "section": "人名索引／容凯尔",
+      "cnPrintedPage": 589,
+      "enPdfPage": 764,
+      "enPrintedPage": 749,
+      "original": "Jean Philippe Ernest de Fauque de de Jonquières",
+      "final": "Jean Philippe Ernest de Fauque de Jonquières",
+      "basis": "中文放大原图重复de；英文实际原索引Jonquières,Jean Philippe Ernest de Fauque de完整姓名只有一个末尾de，删去重复词，姓名其余部分和中文页码保留。"
+    }
+  ],
+  "versionDifferences": [],
+  "sourceIssues": [],
+  "pending": [
+    "Final whole-book inclusion proof",
+    "Full-book index-reference existence and routed browser jumps"
+  ],
+  "displayTreatments": []
+}

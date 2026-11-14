@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "names",
+  "reviewDate": "2026-11-14",
+  "reviewerType": "model-direct-page-image-comparison",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "5b61ecd65e5affe7fe8cc649e7a8c258ea29393e44aebabce5f42d7bb81bccce",
+  "cnPdfPage": 598,
+  "cnPrintedPage": 587,
+  "enPdfPages": [
+    756,
+    757,
+    765,
+    766,
+    770,
+    772,
+    773,
+    774,
+    778,
+    779
+  ],
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "entryCount": 123,
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "reviewScope": "Every entry read directly in the Chinese source image, columnwise top-to-bottom, left then right; all continuation names and page-reference tails retained. Corresponding English original index entry images viewed in labelled contact sheets. English edition page numbers are not substituted for Chinese numbers. Original Chinese abbreviated/expanded names and aliases retained unless a demonstrable spelling error is recorded.",
+  "cnEvidence": [
+    {
+      "image": "scans/598.jpg",
+      "sha256": "76b4586a02d6bb43f372f2a74d555cecdaac84b6e0b2717fdfe23e8cbf524bff",
+      "viewedDirectly": true
+    }
+  ],
+  "enEvidence": [
+    {
+      "image": "index-work/names-598-en-contact-1.png",
+      "sha256": "bf706022d6ab2fae5de1c7b52fd67c70c9673741c0817aed7e3b74aba3fc7d67",
+      "viewedDirectly": true
+    },
+    {
+      "image": "index-work/names-598-en-contact-2.png",
+      "sha256": "61061d565b55d732bd481612683af73b6e4a7430c707b875ecf33521c217db67",
+      "viewedDirectly": true
+    }
+  ],
+  "entryCatalog": {
+    "file": "index-work/names-598-entry-catalog.json",
+    "sha256": "9f2b840e74d3b9553873ebd333773f6725aea4796622782b6cb32b7ef18a98d3"
+  },
+  "englishMatchCatalog": {
+    "file": "index-work/names-598-matched.json",
+    "sha256": "7f14af6e5e21ab805cbbec7f5ef61c3667f06bd5a17f03daf2be42a9dca415b2",
+    "qualification": "Machine matching is only a location aid. Page images were directly read; variant aliases are retained, not machine-canonicalized."
+  },
+  "browserEvidence": {
+    "file": "index-work/browser-598-603.json",
+    "sha256": "5d926b7863b5c35f7f6a3209ac3f788b79d758848a9512c983f7c81214bc465e",
+    "viewports": [
+      1280,
+      390
+    ],
+    "status": "passed"
+  },
+  "directReviewNotesSha256": "81779cda014fe56186feea28bf23e77a539b7e89d4939f1eb4a691ddd7e8ba58",
+  "substantiveCorrections": [],
+  "versionDifferences": [
+    {
+      "entry": "勒加尔，Francois Pierre Marcel Le Gall,564",
+      "finding": "No Le Gall name/index entry found in the 2014 English source. Retain Chinese 2016 entry without inventing a corresponding English location."
+    },
+    {
+      "entry": "莱因德，Alexander Henry Rhind,359",
+      "finding": "English index has Rhind papyrus,462, but no full personal-name entry. Treat it as a subject location aid, not exact confirmation of the expanded personal name. Chinese full name retained from actual image."
+    }
+  ],
+  "sourceIssues": [],
+  "pending": [
+    "Final whole-book inclusion proof",
+    "Full-book index-reference existence and routed browser jumps"
+  ],
+  "displayTreatments": []
+}

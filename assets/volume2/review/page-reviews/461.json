@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 461,
+  "cnPrintedPage": 450,
+  "enPdfPages": [
+    591,
+    592
+  ],
+  "enPrintedPages": [
+    576,
+    577
+  ],
+  "pageMarkdownSha256": "d8930bfe4ae5bad259fb98001b66d5e613b1f3d0b1df5f80c01a2407dbd45191",
+  "cnPageImageSha256": "244d122e0b30c536521d5beceb782a21cc7d2d5614cad30ea057b9ef85d0620a",
+  "enPageImageSha256": {
+    "591": "62295c3bf8a4d5e33e49e336871461134804f83c97327217e8f694ae03570c1a",
+    "592": "69266ac334fcaa8d312c32fa3185c8344244df0bc8344b66a6c5ff3ab8935f83"
+  },
+  "coveredRegions": [
+    "3.3.3答25误差界续段、26/27全游程论证、两行概率表、图A1/A2/A3全部边界/标签/点/直线参数及可搜索中文图题。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-461",
+    "p-450",
+    "ans-3-3-3-26",
+    "ans-3-3-3-27",
+    "fig-A-1",
+    "fig-A-2",
+    "fig-A-3"
+  ],
+  "answerAnchors": [
+    "ans-3-3-3-26",
+    "ans-3-3-3-27"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 28,
+    "displayExpressions": 0,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "cnPdfPage": 461,
+      "enPdfPage": 591,
+      "originalFormula": "k>1:1/(F_(k−1) F_(k+1))−1/(F_k F_(k+2))",
+      "printedTable": "k2=1/3,k3=1/10,k4=1/24,k5=1/65",
+      "check": "标准F0=0,F1=1时所印公式k2给1/6而表给1/3，k3给4/15而表给1/10；两版共同不一致。",
+      "disposition": "保公式/表/原图列疑；不从表猜唯一通式，也未将尝试从公式重绘的A2发布。A2用原图。"
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 460,
+    "answer": "3.3.3-25",
+    "right_start": "这是 $(\\beta-\\alpha)(\\beta'-\\alpha')+\\epsilon$，",
+    "continuation_end": "$|\\epsilon|<2(\\beta'-\\alpha')/a$。",
+    "floatingBlocksAtEnd": "图A1/A2/A3均在27/概率表后，最后A3供462首答28引用，不能移动到461首25误差界前。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "17fe0051e44453dfc5395d74b7da8d4a4ee291bed5aaaad0479614aa4117ad40",
+    "visualReviewSha256": "9fd358b26f3871a254abfd13afa5f256ea08f3b50750a46d081784833ec15939",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 28,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 28,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ],
+    "imageZoomCases": [
+      {
+        "viewport": 1280,
+        "images": [
+          {
+            "url": "assets/volume2/figures/answer-fig-A-1.svg",
+            "root": "svg",
+            "labels": 4,
+            "images": [],
+            "href": "../../../assets/volume2/figures/answer-fig-A-1.svg"
+          },
+          {
+            "url": "assets/volume2/figures/answer-fig-A-2.png",
+            "root": "HTML",
+            "labels": 0,
+            "images": [
+              {
+                "width": 516,
+                "height": 516
+              }
+            ],
+            "href": "../../../assets/volume2/figures/answer-fig-A-2.png"
+          },
+          {
+            "url": "assets/volume2/figures/answer-fig-A-3.png",
+            "root": "HTML",
+            "labels": 0,
+            "images": [
+              {
+                "width": 1080,
+                "height": 915
+              }
+            ],
+            "href": "../../../assets/volume2/figures/answer-fig-A-3.png"
+          }
+        ],
+        "actualOpenAndBrowserBack": true
+      },
+      {
+        "viewport": 390,
+        "images": [
+          {
+            "url": "assets/volume2/figures/answer-fig-A-1.svg",
+            "root": "svg",
+            "labels": 4,
+            "images": [],
+            "href": "../../../assets/volume2/figures/answer-fig-A-1.svg"
+          },
+          {
+            "url": "assets/volume2/figures/answer-fig-A-2.png",
+            "root": "HTML",
+            "labels": 0,
+            "images": [
+              {
+                "width": 516,
+                "height": 516
+              }
+            ],
+            "href": "../../../assets/volume2/figures/answer-fig-A-2.png"
+          },
+          {
+            "url": "assets/volume2/figures/answer-fig-A-3.png",
+            "root": "HTML",
+            "labels": 0,
+            "images": [
+              {
+                "width": 1080,
+                "height": 915
+              }
+            ],
+            "href": "../../../assets/volume2/figures/answer-fig-A-3.png"
+          }
+        ],
+        "actualOpenAndBrowserBack": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "2be701a51c3e4028b81ea2a930a49016e6d20079316b7db1b90cd0fc0561b308",
+  "numericalCheckQualification": "一般代数依据/原图双语核对为主；小规模枚举只辅助证明检查，不将有限计算充作一般/渐近证明。原文引用的巨型精确划分数未独立计算。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "assets": [
+    {
+      "path": "assets/volume2/figures/answer-fig-A-1.svg",
+      "sha256": "47984a4c9375f3bf72d1a5b28afcdd1237c19b940bf7be8c2cb7ccce6aad9982",
+      "kind": "editable-svg-redraw",
+      "cnPdfPage": 461,
+      "enPdfPage": 591,
+      "visualComparedWithBothOriginals": true
+    },
+    {
+      "path": "assets/volume2/figures/answer-fig-A-2.png",
+      "sha256": "03ef6fe9471e13a328bb4eb49d0a58b8359541aec3595eb05d1d5b336cd410d1",
+      "kind": "clear-original-en-crop",
+      "cnPdfPage": 461,
+      "enPdfPage": 591,
+      "visualComparedWithBothOriginals": true
+    },
+    {
+      "path": "assets/volume2/figures/answer-fig-A-3.png",
+      "sha256": "915cf1b46942c38acb91df1b1ae6c340cbf3e2cff6dd11e64c0566c7773160f6",
+      "kind": "clear-original-en-crop",
+      "cnPdfPage": 461,
+      "enPdfPage": 592,
+      "visualComparedWithBothOriginals": true
+    }
+  ],
+  "figureEvidenceSha256": "7b986ea9013dbfd45689a7f6e1a87c14ec6f80d5e8d8ddc34f0322622fc11b9b",
+  "figureQualification": "A1方形两对角线及312/123/321/213重绘；A2/A3采用较清晰的英文对应原图，逐原中文核线段/区域/符号点/直线参数一致；A2只遮去图外另一个图题的残片，图内像素未改。未把从疑似错误公式推导的重绘图发布。",
+  "publicationSanitization": {
+    "privateOriginalReviewSha256": "fd67fdff1c5ce8013d7cc9adc4df40f5b54f401e26a7f7296bd355d480044ba3",
+    "fields": [
+      ".renderReview.imageZoomCases[0].images[0].url",
+      ".renderReview.imageZoomCases[0].images[1].url",
+      ".renderReview.imageZoomCases[0].images[2].url",
+      ".renderReview.imageZoomCases[1].images[0].url",
+      ".renderReview.imageZoomCases[1].images[1].url",
+      ".renderReview.imageZoomCases[1].images[2].url"
+    ],
+    "treatment": "Local file asset URLs are normalized to repository-relative asset paths for public delivery. The original observed URLs remain only in the private, hash-bound review record."
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "recordVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "masterSha256": null,
+  "masterBinding": "尚未装订卷二母稿。本记录绑定样例文件字节；装订后应另作逐段包含证明，不得仅替换本记录哈希冒充母稿复核。",
+  "sources": {
+    "cn": {
+      "fileSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+      "edition": "中文第三版"
+    },
+    "en": {
+      "fileSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+      "edition": "Third Edition, first digital release March 2014"
+    }
+  },
+  "verificationMeaning": "originalPageVisualReview 与 bilingualVerification 均指本记录明确列出的区域，由模型直接查看页图并逐项比较；不表示全页或整节已校订。",
+  "sample": "structure",
+  "sampleFile": "structure.md",
+  "sampleSha256": "4131eb881c92bce3f52ea88f4983246e229792fe45bc761aef0504807e7ac185",
+  "asset": "assets/volume2/figures/fig-4-13.svg",
+  "assetSha256": "1a203286cdd3929f180f951ff6c83b00e7729df2ecf73abcb20ecd1e0cd555ba",
+  "scope": {
+    "section": "4.6.3",
+    "cnPdfPage": 370,
+    "cnPrintedPage": 359,
+    "enPdfPage": 477,
+    "enPrintedPage": 462,
+    "figureNumber": 13,
+    "completePage": false,
+    "included": "图13的全部节点、连线、端点、方向、四个分支标签；算法A1–A5；x^23示例表及其前后相邻一句。",
+    "omitted": "图表后的历史说明、乘法次数公式及本页后续正文；算法开头的定义在前一页，不在样例。"
+  },
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "nodes": [
+    {
+      "id": "A1",
+      "label": "初始化",
+      "shape": "rectangle"
+    },
+    {
+      "id": "A2",
+      "label": "将 N 折半",
+      "shape": "rectangle"
+    },
+    {
+      "id": "A3",
+      "label": "将 Y 乘以 Z",
+      "shape": "rectangle"
+    },
+    {
+      "id": "A4",
+      "label": "N = 0吗?",
+      "shape": "rounded-rectangle"
+    },
+    {
+      "id": "A5",
+      "label": "将 Z 平方",
+      "shape": "rectangle"
+    }
+  ],
+  "edges": [
+    {
+      "from": "entry",
+      "to": "A1"
+    },
+    {
+      "from": "A1",
+      "to": "A2"
+    },
+    {
+      "from": "A2",
+      "to": "A3",
+      "label": "奇数"
+    },
+    {
+      "from": "A2",
+      "to": "A5",
+      "label": "偶数"
+    },
+    {
+      "from": "A3",
+      "to": "A4"
+    },
+    {
+      "from": "A4",
+      "to": "A5",
+      "label": "否"
+    },
+    {
+      "from": "A4",
+      "to": "exit",
+      "label": "是"
+    },
+    {
+      "from": "A5",
+      "to": "A2"
+    }
+  ],
+  "checks": {
+    "fiveNodes": true,
+    "eightDirectedEdgesIncludingEntryExit": true,
+    "fourBranchLabels": true,
+    "cnEnTopologyMatch": true,
+    "algorithmStepsMatch": true,
+    "sixExampleTableRowsMatch": true,
+    "standaloneSvgRendered": true,
+    "renderer": "sharp 0.35.5 / libvips, 144 dpi",
+    "renderReviewedVisually": true,
+    "renderEvidenceSha256": "10441005d1cd2a01b63e7d3d7445e3f8320993acbfde628ef67d17af12c5e7a4",
+    "noRasterEmbeddedInSvg": true,
+    "captionSearchableInMarkdown": true,
+    "whiteBackgroundForDarkMode": true
+  },
+  "exampleTableArithmeticCheck": {
+    "n": 23,
+    "rows": [
+      [
+        23,
+        0,
+        1
+      ],
+      [
+        11,
+        1,
+        2
+      ],
+      [
+        5,
+        3,
+        4
+      ],
+      [
+        2,
+        7,
+        8
+      ],
+      [
+        1,
+        7,
+        16
+      ],
+      [
+        0,
+        23,
+        16
+      ]
+    ],
+    "columns": "N,Y的指数,Z的指数；第一行Y=1对应指数0。",
+    "invariant": "23 = Y的指数 + N × Z的指数",
+    "allRowsSatisfyInvariant": true
+  },
+  "pending": [
+    "尚未在VitePress桌面/手机实际页面验证；小屏缩放需最终浏览器检查。",
+    "整页其余段落需另行转录、校订。"
+  ]
+}

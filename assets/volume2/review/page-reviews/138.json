@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "只绑定单页稿；装订母稿另作包含证明，不能修改历史哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "originalFootnoteKeys": [],
+  "unverifiedPageRegions": [],
+  "cnPdfPage": 138,
+  "cnPrintedPage": 127,
+  "section": "3.5",
+  "enPdfPages": [
+    182,
+    183,
+    184
+  ],
+  "enPrintedPages": [
+    167,
+    168,
+    169
+  ],
+  "pageMarkdownSha256": "15ebe4c2cabdb469fdcd586b19a8c6734e26d7d425fc4dfae2788c28d00b3df0",
+  "cnPageImageSha256": "786257a70acdde89634a5e3d872f6915a53c92db5e5b55b43870d3dfa83f6531",
+  "enPageImageSha256": {
+    "182": "ebbc5a4e736db4ae16dc112eb2b259dd4231522b1a184429ae6e2152ff6ba6bd",
+    "183": "644561c9ebde74d2eafbfdaafcd302bf34d5b8be8b7975cec91512fcfe54f203",
+    "184": "bbcf8bc4e25bcfcbd4be626667f3f25a5ac74974460ba0ffd6764c2fc10454a3"
+  },
+  "coveredRegions": [
+    "E标题、三种9位串对比、有限分布式(35)(36)、Q1全部、21条11位串及完整178项分类、Q2全部、四条抽样规则、8位串条件引入。"
+  ],
+  "explicitAnchors": [
+    "pdf-138",
+    "p-127"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，原页定位以隐藏锚点保存。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 36,
+    "displayExpressions": 3,
+    "footnotes": 0,
+    "parseErrors": 0
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "2df4b6478c629edfae497fe5601bf55798522310a932f6945233cf4e4bc195cd",
+    "visualReviewSha256": "c503255a8c760487c841b617e3f3b7abb7654a4b066c605123ccc6b57b012a9c",
+    "browserAvailability": "Browser plugin not available; task-authorized bundled Playwright + isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 36,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 36,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 4,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "bb5e9e541e1937a23e38c2d17b8dc7eac95c55ca59b1598914ef138e017d7aa8",
+  "numericalCheckQualification": "有限计数例和源表全枚举辅助复核，不将数值检查宣称为定理W/M的一般证明。",
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuation": {
+    "ends_mid_sentence": true,
+    "continues_to_pdf_page": 139,
+    "left_end": "现在，序列 $X_0,X_1,\\ldots,X_7$ 关于 $\\mathcal A$ 是 $(4,\\frac18)$ 随机的，如果",
+    "right_start": "由(a)，$|\\frac18(X_0+X_1+\\cdots+X_7)-\\frac12|\\le\\frac18$",
+    "instruction": "首条件续接同一引导句，其他(b)–(d)按原段落保持。表格与公式均不跨页。"
+  },
+  "exerciseNumbers": [],
+  "answerExceptions": [],
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc/VitePress、全站题答/索引/搜索/线上下载和部署由主任务执行。"
+  ],
+  "binaryTableCheck": {
+    "explicitStrings": 21,
+    "stringLength": 11,
+    "sourceClaimTotal": 178,
+    "integerClassificationTotal": 178,
+    "exhaustiveUniverse": 2048,
+    "completeInBoundsWindowsMatchExactly": true,
+    "cyclicWindowsDoNotMatch": true,
+    "qualification": "全枚举采用仅完整位于长度11串内的窗口，分母仍为式(35)的N；不把串循环连接。"
+  }
+}

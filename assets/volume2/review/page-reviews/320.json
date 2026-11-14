@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.5.4",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 320,
+  "cnPrintedPage": 309,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    414,
+    415,
+    416
+  ],
+  "enPrintedPages": [
+    399,
+    400,
+    401
+  ],
+  "pageMarkdownSha256": "e8c6176429ce635b5c0b2a8eb389db51052334c05aabde1903993fbeef05c896",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/320.jpg",
+  "cnPageImageSha256": "51b02afe0cd9732edd6edeb4fa4205708e0a1f85583e868ad8114d52765d3a20",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-414.png",
+      "sha256": "5135e21bf80b4eb31b18edf9a7dee4638340ffe30ef88a84ab9cf082ff24a048"
+    },
+    {
+      "file": "source-audit/en-render/page-415.png",
+      "sha256": "89728aec13661c1b17f2e47fa82d71abce62c62477b21bc57bf27d6324df3cee"
+    },
+    {
+      "file": "source-audit/en-render/page-416.png",
+      "sha256": "afc26dac37eee1c7e610905df14ce060bc21f53cfa5cd2f867805cf18d2e46ff"
+    }
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-320",
+    "p-309"
+  ],
+  "numberedFormulaTags": [
+    23
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 86,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "仅语法；原图/双语核对与独立复算分列。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终整卷母稿装订/包含证明",
+    "整卷Pandoc、正式VitePress和线上发布/下载",
+    "未把有限复算、历史性能描述或机器语法通过扩写为一般定理的证明。"
+  ],
+  "coveredRegions": [
+    "中文本页全部正文、所有行内式及无编号/编号独立式、证明推导与不等式、引文、数表每格及脚注（如存在），实际查看所列英文对应原图。"
+  ],
+  "substantiveCorrections": [
+    {
+      "section": "4.5.4 theoretical bound introduction",
+      "cnPrintedPage": 309,
+      "enPdfPage": 416,
+      "enPrintedPage": 401,
+      "original": "其预期的运行时间是O(N^ε(N))",
+      "final": "其预期的运行时间可被证明是O(N^ε(N))",
+      "basis": "English asks whether such an expected-time bound can be proved, distinguishing this section from preceding heuristic estimate."
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 319,
+    "previousEnd": "这三个表",
+    "start": "达式的值都是差不多大小的."
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 321,
+    "end": "我们在前面已经看到算法 E 很可能",
+    "nextStart": "满足这个条件"
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch320-numeric-check.json",
+  "numericScope": "1528检查；460素数表项用完整n−1Lucas证书精确认证，所有被跳过候选有合数证据；大费马数只验给定因数整除与残余位数，未证大残余素性。有限RSA/同余/递推抽验不是一般定理证明。",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch320-proof.html",
+    "htmlSha256": "bb243d49027d877f592fd2df0cc21c523760755c946dcc262088c3c79094011a",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof only; not final site/whole-volume acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright and localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch320-proof-1280-320.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch320-proof-390-320.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch320-right-390-320.png",
+    "mobileRightEndVisualReview": false,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "proofMathExpressions": 472,
+    "scrollableElementCounts": {
+      "1280": 56,
+      "390": 62
+    },
+    "machineObservations": ".work/volume2/source-audit/batch320-browser.json",
+    "footnotes": [
+      [],
+      []
+    ]
+  },
+  "sourceDiscrepanciesRetained": [
+    {
+      "location": "E3 identity repeated in heuristic discussion",
+      "original": "P²−kNQ²=(−1)^S V",
+      "handling": "同318的取模P整数等式疑点；保原，见318.json及batch312-numeric-check精确反例；未据此宣称算法输出错误。"
+    }
+  ]
+}

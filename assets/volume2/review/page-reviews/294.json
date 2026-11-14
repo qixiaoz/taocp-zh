@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "sections": [
+    "4.5.3"
+  ],
+  "pdf_page": 294,
+  "printed_page": 283,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "71a74f311d43768cec0f978e83d204da8f0e1217eb6c595df7d8f1879ad0eadb",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/scans/294.jpg",
+    "image_sha256": "da5ade7b39964a15a7bc0fce597620776fa18ff1ed65048e5b03aa2a25c89bbc",
+    "scope": "Entire Chinese source page: prose/proof, all inline/display mathematics,40digit constant, table cells, MIX fields/comments, original exercise difficulty/arrows/parts and polynomial algorithm steps where present."
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      382,
+      383
+    ],
+    "en_printed_pages": [
+      367,
+      368
+    ],
+    "scope": "Actual English page images inspected alongside Chinese originals, all corresponding prose and formula/sequence/table/program/algorithm fields compared. No fixed page-offset assumption.",
+    "qualification": "Original proof transcribed and inspected; recomputation and finite examples are auxiliary and not called general proof."
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/batch293-proof.html",
+    "html_sha256": "a1656986d1a567ba15029b8fd3b0236cf26b6f3a9e173566125211ac5b7d5b91",
+    "math_count_in_eight_page_proof": 535,
+    "math_parse_errors": 0,
+    "desktop_visual_review": true,
+    "mobile_visual_review": false,
+    "desktop_screenshot": ".work/volume2/source-audit/batch293-proof-1040-294.png",
+    "mobile_screenshot": ".work/volume2/source-audit/batch293-proof-390-294.png",
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "document_horizontal_overflow": false,
+    "missing_images": 0,
+    "page_errors": 0,
+    "all_wide_elements_initial_left_and_right_end_reachable": true,
+    "scroll_evidence": ".work/volume2/source-audit/batch293-scroll.json",
+    "scrollable_element_counts": {
+      "1040": 65,
+      "390": 100
+    },
+    "inline_katex_nowrap": true,
+    "qualification": "Standalone eight-page proof using current renderer/math CSS; not final whole-volume/site acceptance.",
+    "historical_before_removing_nonexistent_answer13_link": ".work/volume2/source-audit/history/batch293-before-answer13-exception"
+  },
+  "substantive_corrections": [
+    {
+      "section": "4.5.3 LemmaM inclusion in proof",
+      "cn_printed_page": 283,
+      "en_pdf_page": 382,
+      "en_printed_page": 367,
+      "source_reading": "\\mathcal I_N⊆\\mathcal I⊆\\mathcal I_N∪\\mathcal K",
+      "english_original_also_reads": "I_N⊆I⊆I_N∪K",
+      "final_reading": "\\mathcal I_N⊆\\mathcal I⊆\\mathcal I_N∪\\mathcal K_N",
+      "reason": "Both originals drop subscriptN. By preceding definition,K_N includes all tailsI_k,J_k for k>N;K alone contains neither tail. Explicit witness3/8 inI2=[1/4,1/2), withI1=[0,1/4),J1=[1/2,1),N1, disproves original inclusion. Corrected inclusion follows directly fromK_N definition and supports boundr_n+t_n.",
+      "evidence": ".work/volume2/source-audit/batch293-numeric-check.json",
+      "source_closeup": ".work/volume2/source-audit/cn-render/294-lemmaM-K.png"
+    }
+  ],
+  "source_discrepancies_retained": [],
+  "numeric_evidence": ".work/volume2/source-audit/batch293-numeric-check.json",
+  "next_steps": [
+    "Bind into master with page anchors outside formulas/code/tables.",
+    "Preserve old page SHA records historically if master binding changes bytes."
+  ],
+  "theorems": [
+    "LemmaM",
+    "TheoremE"
+  ]
+}

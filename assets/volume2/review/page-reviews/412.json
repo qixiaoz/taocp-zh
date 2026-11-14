@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 412,
+  "cnPrintedPage": 401,
+  "enPdfPages": [
+    529,
+    530,
+    531
+  ],
+  "enPrintedPages": [
+    514,
+    515,
+    516
+  ],
+  "pageMarkdownSha256": "b95a555c982851a3ef6c41c103d42ad409f6f6fb20b6ea5ae78e6ca19a51fdf7",
+  "masterSha256": null,
+  "cnPageImage": "scans/412.jpg",
+  "cnPageImageSha256": "bc5f4b3a2265ac26192f40f9c76bf0795402ddb557368f2836f05732ec8f5e8f",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-529.png",
+      "sha256": "6d9fa44d7146c874d7d3acdbf14e8fbf700959154d69e8bade5a6400131b0474"
+    },
+    {
+      "file": "source-audit/en-render/page-530.png",
+      "sha256": "4491805c8aefc45d67396a2f36369d530328c81207c64f7d054ba7775c878df9"
+    },
+    {
+      "file": "source-audit/en-render/page-531.png",
+      "sha256": "6d28e694fc5114f6ca2885ea05e7510cbdd01df049f97ca8400dac9a6964d201"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-412",
+    "p-401",
+    "ex-4-6-4-1",
+    "ex-4-6-4-2",
+    "ex-4-6-4-3",
+    "ex-4-6-4-4",
+    "ex-4-6-4-5",
+    "ex-4-6-4-6",
+    "ex-4-6-4-7",
+    "ex-4-6-4-8",
+    "ex-4-6-4-9",
+    "ex-4-6-4-10",
+    "ex-4-6-4-11",
+    "ex-4-6-4-12",
+    "ex-4-6-4-13"
+  ],
+  "numberedFormulaTags": [],
+  "coveredRegions": [
+    "张量秩复杂性续句、进一步阅读完整；习题1–13所有式/算法引用/难度及2推荐；9Ryser n个epsilon/10子集递推完整。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 55,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch409-numeric-check.json",
+  "numericScope": "Exact coefficient realization checks for all64slots of66/68 and72slots of70, all16bilinear basis cases69, complete serialization of9source matrices. Companion73 identities and gcd/singularity checks on explicit n2..6,4examples each only; not a numerical proof of general TheoremW. Exact factorization/irreducibility certificates for displayedu5−1; theoremWrank8/7/5 only hypothesis substitution. Given exercise19/21/22/24 polynomials re-expanded exactly; no new answers in manuscript. Ex48 tiny legal index example supports bilingual typo repair.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch409-proof.html",
+    "htmlSha256": "6b6fe069ad628295114cbe0b1aef1af4357e208d7eb22a9b8063018e261f939b",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch409-proof-1280-412.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch409-proof-390-412.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 463,
+    "scrollableElementCounts": {
+      "1280": 75,
+      "390": 92
+    },
+    "machineObservations": ".work/volume2/source-audit/batch409-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "startsMidParagraph": {
+    "previousCnPdfPage": 411,
+    "previousEnd": "对可交换",
+    "start": "的双线性形式的有趣的讨论."
+  },
+  "sourceReadback": {
+    "exercise9": "epsilon_n already correct in CN source, not epsilon_m correction",
+    "crop": "source-audit/412-epsilon-source.png",
+    "sha256": "133e09aa4192598c90904b1aa16093aaf6ca13fe6e8584f70044ccade87b88b0"
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch409-answer-presence.json",
+    "linkedExercises": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "allActualOriginalNumberedAnswersPresent": true,
+    "roundTripDeferredUntilAnswerTranscriptionAndAssembly": true,
+    "independentAnswerContentReviewClaimed": false
+  }
+}

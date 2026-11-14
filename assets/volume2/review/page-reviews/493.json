@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "answers4.2.2",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 493,
+  "cnPrintedPage": 482,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "e6e20089452070b8d59e09ed1d350b9980349f6e07a9d8929672f291c6ca375b",
+  "masterBinding": "单页MD当前字节；整卷装订另证包含，不重写旧哈希冒充复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型直接看完整中文与列出的英文原页图，逐段/所有数学/算法/程序字段注释/原答号比较，不声称人类签核或所有一般证明独立重证。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/493.jpg",
+  "cnPageImageSha256": "a354565df491357a0c2e038d7b6db9c8ccc508eaee8d292df3c18254a4b2d4af",
+  "enPdfPages": [
+    630,
+    631
+  ],
+  "enPrintedPages": [
+    615,
+    616
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-630.png",
+      "sha256": "4addbdff767c8363158f1e8487d43e225392c87b8468ddd4fc5430ebc955f273"
+    },
+    {
+      "file": "verified-sources/en-631.png",
+      "sha256": "c3561b1894473ba83a2291a4cac325ae893ad460c905e18b9cb393dbd8ed3050"
+    }
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-493",
+    "p-482",
+    "ans-4-2-2-19",
+    "ans-4-2-2-20",
+    "ans-4-2-2-21"
+  ],
+  "coveredRegions": [
+    "FCMP原续24行、全部标签/地址/注释/复制07–20原指示，不虚填省略的指令。",
+    "4.2.2答19系数多项式/误差及文献，20舍入例外，21精确乘法拆分至末倍数。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-2-2-19",
+      "exercise_anchor": "ex-4-2-2-19",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-2-2-20",
+      "exercise_anchor": "ex-4-2-2-20",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-2-2-21",
+      "exercise_anchor": "ex-4-2-2-21",
+      "backlink_present": true
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuationNotes": "首FCMP的STA续492JOV，原复制07–20指示不是扫描缺页。末“w−u1v1是2^(p−1)”完整行内式接494首“的倍数”，合段。",
+  "syntaxCheck": {
+    "page": 493,
+    "sha256": "e6e20089452070b8d59e09ed1d350b9980349f6e07a9d8929672f291c6ca375b",
+    "mathExpressions": 42,
+    "display": 0,
+    "footnotes": 0,
+    "codeLines": [
+      24
+    ],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿装订和所有题答往返",
+    "MIX程序执行及所有一般证明的独立重证",
+    "整卷Pandoc/VitePress/线上发布"
+  ],
+  "browserCheck": {
+    "tool": "Isolated local Chrome with Playwright; Browser plugin unavailable",
+    "scope": "Private standalone page proofs, not final website/full-volume offline acceptance",
+    "viewports": [
+      1280,
+      390
+    ],
+    "report": "arithmetic-answers/browser-493-500.json",
+    "reportSha256": "590df6ab21539bae1e6143d7dbd2a2a02f6ce77df5d4b39165f3ef2fdbba8953",
+    "currentPageSha256": "e6e20089452070b8d59e09ed1d350b9980349f6e07a9d8929672f291c6ca375b",
+    "cases": 2,
+    "noPageErrors": true,
+    "noMissingImages": true,
+    "noDocumentOverflow": true,
+    "noHiddenMathmlSwallowing": true,
+    "allMeasuredHorizontalScrollEndsReachable": true,
+    "screenshotsDirectlyInspectedWidths": [],
+    "meaning": "All24 pages observed in both browser sizes by DOM checks; selected critical original-content screenshots directly viewed. Separate endpoints cover wide code/formulas/tables."
+  },
+  "numericCheck": {
+    "report": "arithmetic-answers/numeric-check.json",
+    "reportSha256": "a7e06af050f360c280ccb5e8bed434c70d609cd5265d9e38b47b16b2465f27e0",
+    "meaning": "Exact finite checks and two explicit general algebraic derivations are individually scoped; no claim of executing MIX or independently reproving every original theorem."
+  },
+  "reviewHistory": [
+    {
+      "historyDirectory": "verified-history/answers485-508-before-final-evidence",
+      "reason": "保留此前单页MD/JSON签核；本次添加当前SHA绑定浏览器与独立复算，并将初稿误标的日期纠正为实际2026-11-14，不改变原页复核含义。"
+    }
+  ]
+}

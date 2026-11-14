@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 101,
+  "cnPrintedPage": 90,
+  "section": "3.4/3.4.1",
+  "enPdfPages": [
+    134,
+    135
+  ],
+  "enPrintedPages": [
+    119,
+    120
+  ],
+  "pageMarkdownSha256": "9edeb32450acba4985dfd5fd953bc11eefd2894fc50236c7989ccc3654bef592",
+  "cnPageImageSha256": "d5739eccb192d9dc6a26c39d10fb6f4b707ba96d63e6adc1ca0925fefca7e464",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 29,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-101",
+    "p-90",
+    "sec-3-4",
+    "sec-3-4-1"
+  ],
+  "coveredRegions": [
+    "§3.4完整引言、§3.4.1实际标题及首段；A随机整数全部、两行MIX代码(1)、一般权重分布式(2)，到骰子概率续句。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "codeEvidence": {
+    "listing": 1,
+    "language": "MIXAL",
+    "lines": [
+      "LDA  U",
+      "MUL  K"
+    ],
+    "physicalLines": 2,
+    "sourceEnglishPdfPage": 134,
+    "review": "中英原图逐行核对LDA/MUL及U/K；英文向量字宽5.230pt，操作码字段3字宽，地址起点为第6字位（间隔2空格），对应所录LDA两空格U/MUL两空格K。无分页代码接续。"
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 102,
+    "end": "为了以“骰子”概率1/36，",
+    "continuation": "2/36,…,6/36,…,2/36,1/36得到相应的11个数"
+  }
+}

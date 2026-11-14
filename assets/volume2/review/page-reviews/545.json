@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 545,
+  "cnPrintedPage": 534,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "e897ce2451f79fc96bc9cc74ff8d8ba42fcc892cb214fae6e00109dd273808ac",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/545.jpg",
+  "cnPageImageSha256": "07dc3d278e077159041210e83fbff6c902b4f01f06f365d623c01cadf5bd7cb7",
+  "enPdfPages": [
+    693,
+    694
+  ],
+  "enPrintedPages": [
+    678,
+    679
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-693.png",
+      "sha256": "b8fd11fc762c35e9b7d153099716ab8da3924926c55b89bdbbefb1d53dff1402"
+    },
+    {
+      "file": "verified-sources/en-694.png",
+      "sha256": "4ee12514b51ad2df0229575231a71731dc66e6ebfda6bb92ca4f3ef1bf7605c0"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-545",
+    "p-534",
+    "ans-sec-4-6-2",
+    "ans-4-6-2-1",
+    "ans-4-6-2-2",
+    "ans-4-6-2-3",
+    "ans-4-6-2-4"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "实际4.6.2标题、答1全部容斥/均值/二次因子概率/Galois原注；CN各根错译及共同1−错误分别记录。",
+    "答2唯一平方部分/生成函数/r次幂注，3CRT构造及整系数反例，4Euler积/Möbius反演与高斯原历史。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末4历史参考完整。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.6.2-1-all-selected-roots",
+      "section": "4.6.2答案1首句",
+      "cnPrintedPage": 534,
+      "enPdfPage": 693,
+      "enPrintedPage": 678,
+      "original": "以其中至少一个为根",
+      "final": "以所选各根为根（每个至少一次）",
+      "basis": "英文having those roots at least once。可整除所选k个互异线性因子乘积的首一n次多项式才有p^(n−k)个；至少一个的并集不具有此计数。"
+    },
+    {
+      "id": "v2-ans4.6.2-1-quadratic-complement",
+      "section": "4.6.2答案1不可约二次因子概率",
+      "cnPrintedPage": 534,
+      "enPdfPage": 693,
+      "enPrintedPage": 678,
+      "original": "Σ_(k≤n/2) C(p(p−1)/2,k)(−1)^k p^(−2k)",
+      "final": "1−Σ_(0≤k≤n/2) C(p(p−1)/2,k)(−1)^k p^(−2k)",
+      "basis": "两版共同漏补集1−。M=p(p−1)/2个互异首一不可约二次式，给定k个同时整除的概率为p^(−2k)；容斥交替和包括k0是一个二次因子也没有的概率。其补集即存在至少一个，与原随后上下界/极限一致。p2,n2时只有1个二次不可约式，概率1/4；原和为3/4。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-6-2-1",
+      "exercise_anchor": "ex-4-6-2-1",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-2",
+      "exercise_anchor": "ex-4-6-2-2",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-3",
+      "exercise_anchor": "ex-4-6-2-3",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-4",
+      "exercise_anchor": "ex-4-6-2-4",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 545,
+    "sha256": "e897ce2451f79fc96bc9cc74ff8d8ba42fcc892cb214fae6e00109dd273808ac",
+    "mathExpressions": 71,
+    "display": 4,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 545,
+        "width": 1280,
+        "sha256": "e897ce2451f79fc96bc9cc74ff8d8ba42fcc892cb214fae6e00109dd273808ac",
+        "pageErrors": [],
+        "bodyText": 4489,
+        "documentWidth": 1280,
+        "expressions": 71,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 545,
+        "width": 390,
+        "sha256": "e897ce2451f79fc96bc9cc74ff8d8ba42fcc892cb214fae6e00109dd273808ac",
+        "pageErrors": [],
+        "bodyText": 4489,
+        "documentWidth": 390,
+        "expressions": 71,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 316,
+            "max": 316,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 274,
+            "max": 274,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 202,
+            "max": 202,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 143,
+            "max": 143,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 26,
+            "max": 26,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 251,
+            "max": 251,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/545-e897ce2451f79fc96bc9cc74ff8d8ba42fcc892cb214fae6e00109dd273808ac-metadata-update/545.json",
+      "pageMarkdownSha256": "e897ce2451f79fc96bc9cc74ff8d8ba42fcc892cb214fae6e00109dd273808ac",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.6.2",
+  "numericCheck": {
+    "file": "arithmetic-final/numeric-check.json",
+    "sha256": "366d868527ea4ebadd69161aea5793d80975c4cc4a54e4cb76bdc9b410cde1df",
+    "inputPageSha256": "e897ce2451f79fc96bc9cc74ff8d8ba42fcc892cb214fae6e00109dd273808ac",
+    "meaning": "独立复算17项及一般符号/计数证明具体范围见文件；绑定本页不代表本页全部一般证明已重证。"
+  },
+  "exerciseTargetsPending": []
+}

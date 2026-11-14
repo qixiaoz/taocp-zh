@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 528,
+  "cnPrintedPage": 517,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "1165cbf0f520607d07f44599d56722b731a315e69ac8e6ab7ff1f13b512a8b19",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/528.jpg",
+  "cnPageImageSha256": "cb93e934cb988615a1564ace12dfdd63b39262c71fe5e56282f790e79fa7d612",
+  "enPdfPages": [
+    672,
+    673
+  ],
+  "enPrintedPages": [
+    657,
+    658
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-672.png",
+      "sha256": "544b23ae21aa4b3628e5b924f619c44e9ad5c8295819e7115767b18a19728c50"
+    },
+    {
+      "file": "verified-sources/en-673.png",
+      "sha256": "61b4d7b0d63d0db70bb692b5f9cd655da449d53e1ab2b9e2879879294822630c"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-528",
+    "p-517",
+    "ans-sec-4-5-4",
+    "ans-4-5-4-1",
+    "ans-4-5-4-2",
+    "ans-4-5-4-3",
+    "ans-4-5-4-4",
+    "ans-4-5-4-5",
+    "ans-4-5-4-6"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续4.5.3答51唯一解/终止步骤与一般双阈值。实际4.5.4标题答1–6(a)。",
+    "答4完整迭代期望/密度/三个算法的常数与原历史，答5全部同余/筛值/因数例，答6模p计数至末“此”。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末答6“此”接529“外，如果…”即“此外”；页锚点不进入数学。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.5.4-4-cost-ratio",
+      "section": "4.5.4答案4",
+      "cnPrintedPage": 517,
+      "enPdfPage": 673,
+      "enPrintedPage": 658,
+      "original": "代价比平方运算多大约1.17倍时",
+      "final": "代价超过平方运算的大约1.17倍时",
+      "basis": "英文more than about1.17times the cost。由两算法系数比较(3.09243−1.98277)/(1.98277−1.03081)≈1.16565，阈值是成本比1.17，不是额外增加1.17倍。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-5-4-1",
+      "exercise_anchor": "ex-4-5-4-1",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-4-2",
+      "exercise_anchor": "ex-4-5-4-2",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-4-3",
+      "exercise_anchor": "ex-4-5-4-3",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-4-4",
+      "exercise_anchor": "ex-4-5-4-4",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-4-5",
+      "exercise_anchor": "ex-4-5-4-5",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-4-6",
+      "exercise_anchor": "ex-4-5-4-6",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 528,
+    "sha256": "1165cbf0f520607d07f44599d56722b731a315e69ac8e6ab7ff1f13b512a8b19",
+    "mathExpressions": 66,
+    "display": 2,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 528,
+        "width": 1280,
+        "sha256": "1165cbf0f520607d07f44599d56722b731a315e69ac8e6ab7ff1f13b512a8b19",
+        "pageErrors": [],
+        "bodyText": 4045,
+        "documentWidth": 1280,
+        "expressions": 66,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 528,
+        "width": 390,
+        "sha256": "1165cbf0f520607d07f44599d56722b731a315e69ac8e6ab7ff1f13b512a8b19",
+        "pageErrors": [],
+        "bodyText": 4045,
+        "documentWidth": 390,
+        "expressions": 66,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 137,
+            "max": 137,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 104,
+            "max": 104,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 4,
+            "max": 4,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 74,
+            "max": 74,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 58,
+            "max": 58,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/528-1165cbf0f520607d07f44599d56722b731a315e69ac8e6ab7ff1f13b512a8b19-metadata-update/528.json",
+      "pageMarkdownSha256": "1165cbf0f520607d07f44599d56722b731a315e69ac8e6ab7ff1f13b512a8b19",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.5.3+4.5.4",
+  "numericCheck": {
+    "file": "arithmetic-next/numeric-check.json",
+    "sha256": "9de329303f6088a80f88dba8b90ca9c70d9565b71050b39dd74a40742a099b9a",
+    "inputPageSha256": "1165cbf0f520607d07f44599d56722b731a315e69ac8e6ab7ff1f13b512a8b19",
+    "meaning": "独立复算的具体有限范围/一般Laurent推导见文件；本页绑定不等于本页所有一般证明已独立复证。"
+  }
+}

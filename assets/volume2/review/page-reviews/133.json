@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "只绑定单页稿；装订母稿另作包含证明，不能修改历史哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "originalFootnoteKeys": [],
+  "unverifiedPageRegions": [],
+  "cnPdfPage": 133,
+  "cnPrintedPage": 122,
+  "section": "3.5",
+  "enPdfPages": [
+    176,
+    177
+  ],
+  "enPrintedPages": [
+    161,
+    162
+  ],
+  "pageMarkdownSha256": "7d524b48a27149ea564808c76e5097772f5fb0798ebfe595cf528a8daaf9455b",
+  "cnPageImageSha256": "1784b9624b651c1af257500e4aa69bebc8f79aa3c9fd4e1ecc7da713960d292e",
+  "enPageImageSha256": {
+    "176": "249d3ed04910ed12891ff7858cfde01350b906c79ee877b60ad589609f817246",
+    "177": "ffb1c809411cbe0debb84f2f733a64415ef5c1cd9f54477da230c0536665b680"
+  },
+  "coveredRegions": [
+    "R4全部、θ幂/Koksma/Niederreiter/Tichy历史说明、赌博游程及下注叙述、子序列规则的完整定义/示例/可计算性与实数输入限制、R5全部。"
+  ],
+  "explicitAnchors": [
+    "pdf-133",
+    "p-122"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，原页定位以隐藏锚点保存。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 80,
+    "displayExpressions": 0,
+    "footnotes": 0,
+    "parseErrors": 0
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.5 R4赌博例",
+      "cnPrintedPage": 122,
+      "enPrintedPage": 161,
+      "enPdfPage": 176,
+      "original": "赌徒在第一次遇到连续n个“正面”的游程之后，对第n次掷硬币下注",
+      "final": "赌徒把第n次下注放在第一次遇到连续n个“正面”的游程之后的那次掷硬币上",
+      "basis": "英文完整句是places his nth bet on the coin toss following the first run of n consecutive heads；n修饰第n次下注，而不是第n次掷硬币。中文原句将下注时刻错误固定为第n次投掷，和同段s_n为首次n正面游程后的位置不符。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "2df4b6478c629edfae497fe5601bf55798522310a932f6945233cf4e4bc195cd",
+    "visualReviewSha256": "c503255a8c760487c841b617e3f3b7abb7654a4b066c605123ccc6b57b012a9c",
+    "browserAvailability": "Browser plugin not available; task-authorized bundled Playwright + isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 80,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 80,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "bb5e9e541e1937a23e38c2d17b8dc7eac95c55ca59b1598914ef138e017d7aa8",
+  "numericalCheckQualification": "有限计数例和源表全枚举辅助复核，不将数值检查宣称为定理W/M的一般证明。",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {},
+  "exerciseNumbers": [],
+  "answerExceptions": [],
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc/VitePress、全站题答/索引/搜索/线上下载和部署由主任务执行。"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 442,
+  "cnPrintedPage": 431,
+  "enPdfPages": [
+    567,
+    568
+  ],
+  "enPrintedPages": [
+    552,
+    553
+  ],
+  "pageMarkdownSha256": "cb64d50070030d6193f554700f8f38744a03dc716b503b81f4eba381b0c85bda",
+  "cnPageImageSha256": "5c0491ff7d9d257b7423354754da3fb5b9668c492565ce9db6ebf31e8dbdb24d",
+  "enPageImageSha256": {
+    "567": "9fc8ae25106cd1b024cab6681b526c000f4cbf45b5b6347aa85fb10d97bbf5a3",
+    "568": "8911f900829511a3dd48b38c5dee8b4782b660494b1b5c75ea015e0802c06e05"
+  },
+  "coveredRegions": [
+    "3.2.2答5续字、6/7（Mantel双列序列图文字化完整）、8全证明与原注、9、10两情况证明。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-442",
+    "p-431",
+    "ans-3-2-2-6",
+    "ans-3-2-2-7",
+    "ans-3-2-2-8",
+    "ans-3-2-2-9",
+    "ans-3-2-2-10"
+  ],
+  "answerAnchors": [
+    "ans-3-2-2-6",
+    "ans-3-2-2-7",
+    "ans-3-2-2-8",
+    "ans-3-2-2-9",
+    "ans-3-2-2-10"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 106,
+    "displayExpressions": 4,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 441,
+    "answerAtStart": "3.2.2-5",
+    "right_start": "数字来选取 $j$。",
+    "continuation_end": "周期长度。）",
+    "continues_to_pdf_page": 443,
+    "answerAtEnd": "3.2.2-10",
+    "left_end": "因而该条件等价于 $F_n\\equiv0$，$F_{n+1}\\equiv1$。",
+    "right_next_start": "对于任意模数确定 $\\langle F_n\\rangle$ 周期的方法，",
+    "instruction": "443首段为原答10文献续段，原答11锚点之后才换题。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "5e57c9e2c0a00340abe77994e2dc1b04baa4d7622cacefa3f10e8a2541f612a5",
+    "visualReviewSha256": "b885509b55e1722edee94f0f99f54dba399e56cb2576923e57dbe1f595c4b0f3",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 106,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 106,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 6,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "28140b15279fc6b44157c9da65ad66580283c389d4ea21c90d3faf8d05fa0cbf",
+  "numericalCheckQualification": "有限复算辅助原图与逐段证明核对，不把枚举当作普遍或渐近证明；巨型素数表未独立证明素性。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

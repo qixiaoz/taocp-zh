@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.6.1",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 340,
+  "cnPrintedPage": 329,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    439,
+    440
+  ],
+  "enPrintedPages": [
+    424,
+    425
+  ],
+  "pageMarkdownSha256": "1d3c38c7a8df5dd07d689ddb683600e0165fa0d90888d81aa88f04b385c8eb06",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/340.jpg",
+  "cnPageImageSha256": "47e63044ba3ba040ae2f30fc5c35de67585ead151fb2d3e272eb186d9baf20fa",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-439.png",
+      "sha256": "0a781f737f0d21edf99b54c4f2abbc63206bee39cb1539feb1e78a103ce8c557"
+    },
+    {
+      "file": "source-audit/en-render/page-440.png",
+      "sha256": "101a661035543be986016c6126b3d57d05f9114d00a283ae90e057998ad1579d"
+    }
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-340",
+    "p-329",
+    "alg-4-6-1-r"
+  ],
+  "numberedFormulaTags": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 39,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "语法与实际原图/双语、数值复算分别记录。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "完整Pandoc/正式VitePress/线上及ZIP",
+    "有限具体例子复算未扩大为全称代数或复杂度证明。"
+  ],
+  "sections": [
+    "4.6.1"
+  ],
+  "coveredRegions": [
+    "模13全长除法式5的所有数字/空位/横线、每个式6系数与归一化说明；式7–8、伪除法动机及算法R输入。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": {
+    "nextCnPdfPage": 341,
+    "end": "算法R输入的完整独立式",
+    "nextStart": "其中 $v_n\\ne0$",
+    "afterClosedDisplay": true
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch335-numeric-check.json",
+  "numericScope": "49组精确整数/Fraction/mod13核对；含两长除法每格与空位、4次整数伪余式、4次原有理余式、5行首一序列、二进制/多项式乘法和多元因子展开。只是本书具体例子，不是所有环/域定理的一般证明。",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch335-proof.html",
+    "htmlSha256": "c1cc832569000196cf0192d2a73af2b177efb366fe7114456e3de672527a311a",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof; not whole-volume/final-site acceptance.",
+    "browserPath": "Browser plugin absent; bundledPlaywright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch335-proof-1280-340.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch335-proof-390-340.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch335-right-390-340.png",
+    "mobileRightEndVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "proofMathExpressions": 453,
+    "scrollableElementCounts": {
+      "1280": 48,
+      "390": 71
+    },
+    "machineObservations": ".work/volume2/source-audit/batch335-browser.json"
+  },
+  "sourceReadingClarification": {
+    "note": "先前缩图对m/n有疑问，放大后确认原图本来就是n，当前转录忠实，不记实质订正。",
+    "image": ".work/volume2/source-audit/340-input-formula-crop.png"
+  },
+  "longDivisionDisplayTransformation": {
+    "equationTag": 5,
+    "numericCellsAndBlankPlacesPreserved": true,
+    "method": "EditableLaTexarray; currentKaTeXdoesnotsupportcline, so divider rules usefullhline without changing any numerical cell or digit position.",
+    "fullCellMapAndExactArithmetic": ".work/volume2/source-audit/batch335-numeric-check.json"
+  }
+}

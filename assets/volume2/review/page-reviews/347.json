@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.6.1",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 347,
+  "cnPrintedPage": 336,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    447,
+    448,
+    449
+  ],
+  "enPrintedPages": [
+    432,
+    433,
+    434
+  ],
+  "pageMarkdownSha256": "f83628fcdd4c3f69ebb208cd0e36879f0261af7029cc1fbb12e4cd7f18960a0c",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/347.jpg",
+  "cnPageImageSha256": "ef7f4e07192c5f2507bee45f2c948321b72527959120452f902dcad473f99408",
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "完整Pandoc/正式VitePress/线上及ZIP",
+    "有限具体例子复算未扩大为全称代数或复杂度证明。"
+  ],
+  "sections": [
+    "4.6.1"
+  ],
+  "numericEvidence": ".work/volume2/source-audit/batch343-numeric-check.json",
+  "pageAnchors": [
+    "pdf-347",
+    "p-336"
+  ],
+  "numberedFormulaTags": [
+    27
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "coveredRegions": [
+    "系数界续句；未约简算法指数递推及27；完整8×8零行列式；随机/概率的原书限定和例外；结式/Sylvester文献；公因子乘积序列E/C比较，末段跨348。"
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "v2-4.6.1-bound-27-in-place",
+      "classification": "cn-mistranslated-equation-relation",
+      "cnPrintedPage": 336,
+      "location": "式27前一句",
+      "enLocation": {
+        "pdfPage": 448,
+        "printedPage": 433
+      },
+      "original": "因此在(26)中取m=n+1所得的上界约等于",
+      "final": "因此当m=n+1时，代替(26)所得的上界约等于",
+      "basis": "英文原句明确in place of (26) for m=n+1：27是取消E3/C3约简后用来代替26的上界，不是把m=n+1代入26所得的值；26的N指数m+n和递推a_k=2a_{k−1}+a_{k−2}亦排除后一读法。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-447.png",
+      "sha256": "ad712fa19efbd48b22afde8dc3bde4a11dd36f11f7b974b9ab96e2c680b48e96"
+    },
+    {
+      "file": "source-audit/en-render/page-448.png",
+      "sha256": "4d7cfb0cc84f9402c2b1113ba3f87fdafc15383dd40eeee1fe1d706bf3885b52"
+    },
+    {
+      "file": "source-audit/en-render/page-449.png",
+      "sha256": "e468627bae6a4cf2929add095c3967de72f3fe90cbe504bb59f17fe1fb8c33da"
+    }
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 50,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "语法与原图/双语/精确复算分项记录。"
+  },
+  "numericScope": "Exact source example of Algorithm C and all 375 paired minors of matrices17/18/21/22; each source subresultant coefficient and h determinant; exercise1/2/3 particular inputs; literal free-word convolution/division for exercises17/18. No finite computation is claimed as a general UFD, root bound, probability, complexity or noncommutative theorem proof.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch343-proof.html",
+    "htmlSha256": "c4f4c74916aac4899b094a91fd542a37ed7a76932da85387a4af544daad83e4e",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not whole-volume or production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright with local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch343-proof-1280-347.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch343-proof-390-347.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 914,
+    "scrollableElementCounts": {
+      "1280": 348,
+      "390": 366
+    },
+    "machineObservations": ".work/volume2/source-audit/batch343-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these eight pages"
+  },
+  "startsMidParagraph": {
+    "previousCnPdfPage": 346,
+    "previousEnd": "式(26)已经闭合",
+    "start": "算法E执行过程中",
+    "afterClosedDisplay": true
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 348,
+    "end": "则对$u(x)=w(x)u_1(x)$和",
+    "nextStart": "$v(x)=w(x)u_2(x)$使用算法C得到的多项式序列为"
+  },
+  "history": [
+    {
+      "status": "historical-superseded",
+      "evidence": ".work/volume2/source-audit/history/batch343-before-image-readiness",
+      "reason": "Initial browser image-state sample preceded lazy-image loading. Rechecked with eager loading plus image decode before collecting state; no markdown change."
+    }
+  ],
+  "matrixCellEvidence": ".work/volume2/source-audit/batch343-matrix-cells.json"
+}

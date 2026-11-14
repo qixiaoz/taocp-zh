@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 78,
+  "cnPrintedPage": 67,
+  "section": "3.3.3",
+  "enPdfPages": [
+    102,
+    103,
+    104
+  ],
+  "enPrintedPages": [
+    87,
+    88,
+    89
+  ],
+  "pageMarkdownSha256": "66e270cdd0fb5d5cd53c3f871925752a5946d1c9612c8e9bac66fa641c1a1ca1",
+  "cnPageImageSha256": "b41797d8385317a0f0eaf337a210f09ef8e2ac0df5b5e450d98fa387b74612f7",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 23,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-078",
+    "p-67"
+  ],
+  "coveredRegions": [
+    "例1结论(37)；例2完整4行表与结果(38)；例3估计(39)及历史讨论、原蒲柏引言和两点解释，第三点开头。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "numericAudit": {
+    "method": "Python Fraction; independent defining sawtooth sum(16) versus reciprocity recursion(19)/(31) for every1≤k≤24,coprime1≤h≤k,0≤c<k; then exact recurrence/table calculations for examples. TheoremP additionally enumerates every full-period LCG with2≤m≤40,1≤a,c<m and counts decreases. Finite checks supplement all formula direct CN/EN comparison; do not claim proof of general theorem.",
+    "smallDedekindCases": 2915,
+    "smallDedekindAllMatch": true,
+    "theoremPFullPeriodCases": 925,
+    "theoremPAllMatch": true,
+    "examples": [
+      {
+        "cnPdfPage": 77,
+        "sigmaExact": "36893488134534201345/4294967296",
+        "CExact": "98382635059784275287/393530540239137101141",
+        "euclidRows": [
+          {
+            "m": 34359738368,
+            "h": 17179869185,
+            "c": 1,
+            "a": 1,
+            "b": 0,
+            "remainder": 17179869183,
+            "cNext": 1
+          },
+          {
+            "m": 17179869185,
+            "h": 17179869183,
+            "c": 1,
+            "a": 1,
+            "b": 0,
+            "remainder": 2,
+            "cNext": 1
+          },
+          {
+            "m": 17179869183,
+            "h": 2,
+            "c": 1,
+            "a": 8589934591,
+            "b": 0,
+            "remainder": 1,
+            "cNext": 1
+          },
+          {
+            "m": 2,
+            "h": 1,
+            "c": 1,
+            "a": 2,
+            "b": 1,
+            "remainder": 0,
+            "cNext": 0
+          }
+        ],
+        "matchesAllPrintedValues": true
+      },
+      {
+        "cnPdfPage": 78,
+        "sigmaExact": "-39615831693/1250000000",
+        "sigmaDecimal": -31.6926653544,
+        "CApprox": -3.16926653544e-09,
+        "euclidRows": [
+          {
+            "m": 10000000000,
+            "h": 10001,
+            "c": 2113248653,
+            "a": 999900,
+            "b": 211303,
+            "remainder": 100,
+            "cNext": 7350
+          },
+          {
+            "m": 10001,
+            "h": 100,
+            "c": 7350,
+            "a": 100,
+            "b": 73,
+            "remainder": 1,
+            "cNext": 50
+          },
+          {
+            "m": 100,
+            "h": 1,
+            "c": 50,
+            "a": 100,
+            "b": 50,
+            "remainder": 0,
+            "cNext": 0
+          }
+        ],
+        "matchesAllPrintedValues": true
+      }
+    ]
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 79,
+    "end": "其三，人们发现，当",
+    "continuation": "式(40)的条件"
+  }
+}

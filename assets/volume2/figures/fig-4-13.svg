@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="270" viewBox="0 0 850 270" role="img" aria-labelledby="title desc">
+  <title id="title">图 13：从右到左的二进制幂算法流程</title>
+  <desc id="desc">入口到A1初始化，再到A2将N折半。奇数到A3将Y乘以Z，再到A4判断N是否为0；是则结束，否则到A5将Z平方。A2偶数也到A5。A5返回A2。</desc>
+  <rect width="850" height="270" fill="white"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#222" stroke-width="1.2"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#222" stroke-width="1.2">
+    <path d="M105 20 V63" marker-end="url(#arrow)"/>
+    <rect x="40" y="63" width="130" height="44"/>
+    <path d="M170 85 H295" marker-end="url(#arrow)"/>
+    <rect x="295" y="63" width="170" height="44"/>
+    <path d="M465 85 H585" marker-end="url(#arrow)"/>
+    <rect x="585" y="63" width="195" height="44"/>
+    <path d="M682.5 107 V162" marker-end="url(#arrow)"/>
+    <rect x="600" y="162" width="165" height="44" rx="22"/>
+    <path d="M682.5 206 V250" marker-end="url(#arrow)"/>
+    <path d="M600 184 H465" marker-end="url(#arrow)"/>
+    <rect x="295" y="162" width="170" height="44"/>
+    <path d="M402 107 V162" marker-end="url(#arrow)"/>
+    <path d="M355 162 V107" marker-end="url(#arrow)"/>
+  </g>
+  <g fill="#222" font-family="'Noto Serif CJK SC','Songti SC','SimSun',serif" font-size="21" text-anchor="middle">
+    <text x="105" y="92">A1. 初始化</text>
+    <text x="380" y="92">A2. 将 <tspan font-style="italic">N</tspan> 折半</text>
+    <text x="682.5" y="92">A3. 将 <tspan font-style="italic">Y</tspan> 乘以 <tspan font-style="italic">Z</tspan></text>
+    <text x="682.5" y="191">A4. <tspan font-style="italic">N</tspan> = 0吗?</text>
+    <text x="380" y="191">A5. 将 <tspan font-style="italic">Z</tspan> 平方</text>
+    <text x="494" y="74">奇数</text>
+    <text x="430" y="133">偶数</text>
+    <text x="582" y="176">否</text>
+    <text x="699" y="225">是</text>
+  </g>
+</svg>

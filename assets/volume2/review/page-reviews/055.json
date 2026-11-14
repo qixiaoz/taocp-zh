@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 55,
+  "cnPrintedPage": 44,
+  "section": "3.3.1",
+  "enPdfPages": [
+    72,
+    73,
+    74
+  ],
+  "enPrintedPages": [
+    57,
+    58,
+    59
+  ],
+  "pageMarkdownSha256": "885c0eb9e8266df0c2c362271b48fecc844d80721963bfd215dbcfa144920bd4",
+  "cnPageImageSha256": "ec8e9e03bb431b39e252bd6315e7c3c87068a2c27bc64ed045560b0103aa0dbb",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 35,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-055",
+    "p-44",
+    "ex-3-3-1-1",
+    "ex-3-3-1-2",
+    "ex-3-3-1-3",
+    "ex-3-3-1-4",
+    "ex-3-3-1-5",
+    "ex-3-3-1-6",
+    "ex-3-3-1-7",
+    "ex-3-3-1-8"
+  ],
+  "exerciseNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "answerExistenceEvidence": [
+    {
+      "exercise": 1,
+      "enAnswerPdfPage": 574,
+      "targetAnchor": "ans-3-3-1-1",
+      "scope": "只实看英文574–577原答页核实答项存在，没有转录或校订答案。"
+    },
+    {
+      "exercise": 2,
+      "enAnswerPdfPage": 574,
+      "targetAnchor": "ans-3-3-1-2",
+      "scope": "只实看英文574–577原答页核实答项存在，没有转录或校订答案。"
+    },
+    {
+      "exercise": 3,
+      "enAnswerPdfPage": 574,
+      "targetAnchor": "ans-3-3-1-3",
+      "scope": "只实看英文574–577原答页核实答项存在，没有转录或校订答案。"
+    },
+    {
+      "exercise": 4,
+      "enAnswerPdfPage": 574,
+      "targetAnchor": "ans-3-3-1-4",
+      "scope": "只实看英文574–577原答页核实答项存在，没有转录或校订答案。"
+    },
+    {
+      "exercise": 5,
+      "enAnswerPdfPage": 574,
+      "targetAnchor": "ans-3-3-1-5",
+      "scope": "只实看英文574–577原答页核实答项存在，没有转录或校订答案。"
+    },
+    {
+      "exercise": 6,
+      "enAnswerPdfPage": 574,
+      "targetAnchor": "ans-3-3-1-6",
+      "scope": "只实看英文574–577原答页核实答项存在，没有转录或校订答案。"
+    },
+    {
+      "exercise": 7,
+      "enAnswerPdfPage": 574,
+      "targetAnchor": "ans-3-3-1-7",
+      "scope": "只实看英文574–577原答页核实答项存在，没有转录或校订答案。"
+    },
+    {
+      "exercise": 8,
+      "enAnswerPdfPage": 574,
+      "targetAnchor": "ans-3-3-1-8",
+      "scope": "只实看英文574–577原答页核实答项存在，没有转录或校订答案。"
+    }
+  ],
+  "answerExceptions": [],
+  "coveredRegions": [
+    "n重积分分母/分子解释、式(25)(26)(27)全部、数值求和稳定性；习题1–8完整和其中11项观测表/20项小数。"
+  ],
+  "numericAudit": {
+    "methodRelation": "将原式(26)令d=t/n并换元j=n−k，得到050.json中复算105个KS分位数所用Smirnov有限和；没有用近似式(27)代替有限n精确值。"
+  },
+  "ocrRepairs": [
+    "(25)(26)分别保留编号，不因OCR合并漏掉25；n−s√n不能误作n=s√n。"
+  ]
+}

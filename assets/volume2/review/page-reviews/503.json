@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "answers4.3.1",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 503,
+  "cnPrintedPage": 492,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "a56dfd85bd016599cf671115b3c3e697b2744160e5453c3323397e6a64807e27",
+  "masterBinding": "单页MD当前字节；整卷装订另证包含，不重写旧哈希冒充复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型直接看完整中文与列出的英文原页图，逐段/所有数学/算法/程序字段注释/原答号比较，不声称人类签核或所有一般证明独立重证。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/503.jpg",
+  "cnPageImageSha256": "570e5bb1122b6e9bb43d6e179b2b5718e7d7961f7bdc67b4effc052bbc82a0b6",
+  "enPdfPages": [
+    642,
+    643
+  ],
+  "enPrintedPages": [
+    627,
+    628
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-642.png",
+      "sha256": "f8ba68eccb67dbbbb93ea7293bd8a4587618cfdcc53d74bd296ed05257a533ac"
+    },
+    {
+      "file": "verified-sources/en-643.png",
+      "sha256": "e61796f92ce54f240f8d25b2589c0c2290fbd689a0f9c20fda47d2eff3b3cdaa"
+    }
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-503",
+    "p-492",
+    "ans-4-3-1-30",
+    "ans-4-3-1-31",
+    "ans-4-3-1-32",
+    "ans-4-3-1-34",
+    "ans-4-3-1-36",
+    "ans-4-3-1-37",
+    "ans-4-3-1-38",
+    "ans-4-3-1-39"
+  ],
+  "coveredRegions": [
+    "答30/31/32/34/36–39，原未列33/35不造。",
+    "多精度覆盖内存/虚拟移位/几何平均迭代全状态；BBP拆分求和和log单位根全部复数/共轭式。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.3.1-39-scale",
+      "section": "4.3.1答案39",
+      "cnPrintedPage": 492,
+      "enPdfPage": 643,
+      "enPrintedPage": 628,
+      "original": "计算其前m/4项2^m次",
+      "final": "计算其前m/4项的2^m倍",
+      "basis": "英文computing2^m times its firstm/4terms中的times是乘法缩放，用于取得2^(−m)定点近似；不是重复计算2^m次。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-3-1-30",
+      "exercise_anchor": "ex-4-3-1-30",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-3-1-31",
+      "exercise_anchor": "ex-4-3-1-31",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-3-1-32",
+      "exercise_anchor": "ex-4-3-1-32",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-3-1-34",
+      "exercise_anchor": "ex-4-3-1-34",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-3-1-36",
+      "exercise_anchor": "ex-4-3-1-36",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-3-1-37",
+      "exercise_anchor": "ex-4-3-1-37",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-3-1-38",
+      "exercise_anchor": "ex-4-3-1-38",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-3-1-39",
+      "exercise_anchor": "ex-4-3-1-39",
+      "backlink_present": true
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuationNotes": "末39单位根DFT恒等式完整，504首“因此4S1…”续同一Note，不再造ans39。",
+  "syntaxCheck": {
+    "page": 503,
+    "sha256": "a56dfd85bd016599cf671115b3c3e697b2744160e5453c3323397e6a64807e27",
+    "mathExpressions": 80,
+    "display": 0,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿装订和所有题答往返",
+    "MIX程序执行及所有一般证明的独立重证",
+    "整卷Pandoc/VitePress/线上发布"
+  ],
+  "originalMissingIndependentAnswers": [
+    {
+      "section": "4.3.1",
+      "number": 33,
+      "evidence": "CN503/EN642原号32→34→36，未列33/35。"
+    },
+    {
+      "section": "4.3.1",
+      "number": 35,
+      "evidence": "CN503/EN642原号32→34→36，未列33/35。"
+    }
+  ],
+  "browserCheck": {
+    "tool": "Isolated local Chrome with Playwright; Browser plugin unavailable",
+    "scope": "Private standalone page proofs, not final website/full-volume offline acceptance",
+    "viewports": [
+      1280,
+      390
+    ],
+    "report": "arithmetic-answers/browser-501-508.json",
+    "reportSha256": "6211670f95b6c373077da5e6afa7a67486a4de7f7672e85a90bcdff852387c95",
+    "currentPageSha256": "a56dfd85bd016599cf671115b3c3e697b2744160e5453c3323397e6a64807e27",
+    "cases": 2,
+    "noPageErrors": true,
+    "noMissingImages": true,
+    "noDocumentOverflow": true,
+    "noHiddenMathmlSwallowing": true,
+    "allMeasuredHorizontalScrollEndsReachable": true,
+    "screenshotsDirectlyInspectedWidths": [],
+    "meaning": "All24 pages observed in both browser sizes by DOM checks; selected critical original-content screenshots directly viewed. Separate endpoints cover wide code/formulas/tables."
+  },
+  "numericCheck": {
+    "report": "arithmetic-answers/numeric-check.json",
+    "reportSha256": "a7e06af050f360c280ccb5e8bed434c70d609cd5265d9e38b47b16b2465f27e0",
+    "meaning": "Exact finite checks and two explicit general algebraic derivations are individually scoped; no claim of executing MIX or independently reproving every original theorem."
+  },
+  "reviewHistory": [
+    {
+      "historyDirectory": "verified-history/answers485-508-before-final-evidence",
+      "reason": "保留此前单页MD/JSON签核；本次添加当前SHA绑定浏览器与独立复算，并将初稿误标的日期纠正为实际2026-11-14，不改变原页复核含义。"
+    }
+  ]
+}

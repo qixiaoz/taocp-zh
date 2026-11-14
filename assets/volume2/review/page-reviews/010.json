@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "pdf_page": 10,
+  "printed_page": "viii",
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "28af0d2432a0a29ded7b0a4d926f7b3e7ec260820a8da021464b04d1f9e53764",
+  "master_sha256": null,
+  "master_binding_status": "not_bound; do not relabel this page review as a new master check",
+  "transcription_status": "complete",
+  "machine_check_status": "markdown rendered with current VitePress/KaTeX pipeline; no math parse errors",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text",
+    "source_image": ".work/volume2/source-audit/cn-render/full-010.png",
+    "scope": "all prose, paragraph sequence, punctuation, running-header omission, quotations, any tables or formulas on this page",
+    "not_in_scope": "later complete-book binding and final-site verification"
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      13,
+      14
+    ],
+    "en_printed_pages": [
+      "xii",
+      "xiii"
+    ],
+    "scope": "matching table-of-contents section labels and relative order; language-specific printed page numbers retained",
+    "english_evidence": "actual PDF text layer and relevant rendered page; page012 formulas visually checked"
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/frontmatter-proof.html",
+    "source_pipeline": "vitepress createMarkdownRenderer + math:true + installBookMarkdown",
+    "screenshot_desktop": ".work/volume2/source-audit/proof-1040-010.png",
+    "screenshot_mobile": ".work/volume2/source-audit/proof-390-010.png",
+    "desktop_visual_review": true,
+    "mobile_visual_review": false,
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "missing_images": 0,
+    "page_errors": 0,
+    "document_horizontal_overflow": false,
+    "qualification": "Standalone six-page proof; not website browser acceptance or complete-volume proof.",
+    "html_sha256": "b8d7cd031226de47d3c28c605f6a4248b6188ccf8f374e512ab78c84a3dc1399",
+    "screenshot_desktop_sha256": "b5b5d2ee1935aaee2ce005365a9ae59f1bdf5b8f99058bcabeed94b52a373aed",
+    "screenshot_mobile_sha256": "ab364633ca1c75fb1154259147013522dac421ba037ea419075594431fae33f7"
+  },
+  "footnotes": {
+    "original_footnotes_on_page": 0,
+    "reviewed": true
+  },
+  "substantive_corrections": [],
+  "source_discrepancies_retained": [],
+  "continuation": {},
+  "next_steps": [
+    "Bind page into master preserving source anchors and paragraph continuation.",
+    "Run current complete-volume checks after binding; preserve this page-file SHA evidence historically."
+  ],
+  "toc_entries": 44
+}

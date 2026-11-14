@@ -3,26 +3,31 @@ layout: home
 title: 主页
 hero:
   name: 《计算机程序设计艺术》
-  text: 卷1 · 基本算法
-  tagline: The Art of Computer Programming · Fundamental Algorithms
+  text: 中文阅读版
+  tagline: The Art of Computer Programming · Donald E. Knuth
   actions:
     - theme: brand
-      text: 开始阅读
+      text: 卷一 · 基本算法
       link: /volume1/frontmatter
     - theme: alt
-      text: 校订说明
-      link: /corrections
+      text: 卷二 · 半数值算法
+      link: /volume2/frontmatter
 features:
-  - title: 作者
-    details: ［美］Donald E. Knuth（唐纳德·E. 克努特）
-  - title: 本卷内容
-    details: 基本概念、信息结构、习题答案与附录索引。
+  - title: 卷一 · 基本算法
+    details: 基本概念、数学基础、MIX 程序与信息结构。
+    link: /volume1/
+    linkText: 查看卷一目录
+  - title: 卷二 · 半数值算法
+    details: 随机数、算术、整数与多项式算法。
+    link: /volume2/
+    linkText: 查看卷二目录
   - title: 中文阅读版
-    details: 按节阅读，支持全文搜索、原页跳转、纸色模式与阅读设置。
+    details: 按节阅读，支持全文搜索、原页跳转、题答往返与本机阅读设置。
 ---
 
-本卷从算法的基本概念与数学基础讲起，介绍 MIX 计算机、程序设计方法，以及线性表、树和存储分配等信息结构。各节保留习题，书后收录习题答案、数值表、符号与索引。
+两卷均保留原书的习题、答案、附录和索引，公式使用 LaTeX，程序与表格保留可编辑文本。中英文来源、实质订正、缺页和版本疑点分别登记在各卷校订报告中；构建通过与上线状态单独验收。
 
-可从[卷前说明与序言](/volume1/frontmatter)开始阅读，也可通过章节目录查阅所需内容。有关中英文核对、源页补配与排版处理，见[校订说明](/corrections)。
-
-[下载完整 Markdown 与配套图像](/downloads/taocp-volume1.zip)
+| 分册 | 在线阅读 | 校订说明 | 整卷下载 |
+|---|---|---|---|
+| 卷一《基本算法》 | [卷前](/volume1/frontmatter) · [目录](/volume1/) | [卷一校订报告](/corrections) | [Markdown 与配套资源](/downloads/taocp-volume1.zip) |
+| 卷二《半数值算法》 | [卷前](/volume2/frontmatter) · [目录](/volume2/) | [卷二校订报告](/volume2/corrections) | [Markdown 与配套资源](/downloads/taocp-volume2.zip) |

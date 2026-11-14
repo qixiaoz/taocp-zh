@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.3",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；最终母稿须另行证明包含、跨页合段/程序合块及允许展示转换，不仅替换本哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整页和列出的英文页图，逐段/逐式/表格单元/清单行及注释比较；语法/文本字段检查/复算独立列出。模型视觉核查，不声称人类签核。",
+  "cnPdfPage": 201,
+  "cnPrintedPage": 190,
+  "enPdfPages": [
+    263,
+    264
+  ],
+  "enPrintedPages": [
+    248,
+    249
+  ],
+  "pageMarkdownSha256": "860709e16519daad46943db2d118e45877f4cf7c085ac7e0b848e5cb2bd2191e",
+  "cnPageImage": "scans/201.jpg",
+  "cnPageImageSha256": "454cba7946a3ffac042cd52bd037d159217adda125a1c2fd3056c99adfa9d1a9",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-263.png",
+      "sha256": "2023d92dae4a4148d2038a806a4f3f22d4a0c7a07742a68a0f53dbbfc15b82da"
+    },
+    {
+      "file": "verified-sources/en-264.png",
+      "sha256": "4a29d9f64698dc6284ce2dd1d60aa304071c75b68df103e3a898e099b7f00b9a"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码；物理页和印刷页隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-201",
+    "p-190"
+  ],
+  "coveredRegions": [
+    "程序A27–66每一字段/注释及原结束方块，DNORM/DZERO/EXPOVD/EXPUND标签。",
+    "额外1/三个可能值/补码比较完整段落。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "not-applicable",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "首程序A27–66续200。程序中41前空行保留；正文末段完整。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 0,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [
+      41
+    ],
+    "meaning": "仅排版语法；内容来自以上中文/英文原页实际比较。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "辅助原页核查，不当作原书答案来源或替代视觉比较。",
+    "results": {}
+  },
+  "untested": [
+    "最终母稿装订包含/跨页程序合并与原题答双向链接。",
+    "最终正式VitePress/Pandoc整卷和线上。",
+    "未执行MIX程序，未以代码字段一致宣称数值实现正确。"
+  ],
+  "renderReview": {
+    "file": "verified-render/double-dom-review-199-206.json",
+    "sha256": "6f0e4ea6e73341500b9b50022fc1392832b8c3f20e4374f322fb9dbe0ed62dff",
+    "scope": "Currentpage SHA; isolated1280/390 DOM plus explicitlylistedselectedregionsactualvisual. SharedVitePress/Pandoc not included."
+  }
+}

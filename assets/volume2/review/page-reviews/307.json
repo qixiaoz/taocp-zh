@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "sections": [
+    "4.5.4"
+  ],
+  "pdf_page": 307,
+  "printed_page": 296,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "1de6f976ed1ef9e418ebd7e7e97da1cba8c9e7470693a424f56ba90bdb51689f",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/scans/307.jpg",
+    "image_sha256": "8fe2253cceea01f3da09878eb0a57008e203851cec70fc44685fe3b2ce930bea",
+    "scope": "Entire actual source page: all prose/quoted history, every inline/display equation and bound, factor/distribution/residue table cell, algorithm branch/update, figure node/edge/curve/caption, original footnote and exercise symbols where present."
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      398,
+      399
+    ],
+    "en_printed_pages": [
+      383,
+      384
+    ],
+    "scope": "Actual corresponding English source images inspected; complete matching prose, formulas, algorithms, numeric fields, captions and figure labels compared. Original Chinese figure placement retained before following prose.",
+    "qualification": "Book historical experiments are retained as historical claims; finite recomputation does not prove global distributions, convergence, primality theorems or untested experiments."
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/batch304-proof.html",
+    "html_sha256": "847cb7380626dc253cfe10b0ecc6739c6dc36f26a7071cfeb1eed022dbf1c33c",
+    "math_count_in_eight_page_proof": 599,
+    "math_parse_errors": 0,
+    "desktop_visual_review": true,
+    "mobile_visual_review": true,
+    "desktop_screenshot": ".work/volume2/source-audit/batch304-proof-1040-307.png",
+    "mobile_screenshot": ".work/volume2/source-audit/batch304-proof-390-307.png",
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "missing_images": 0,
+    "page_errors": 0,
+    "document_horizontal_overflow": false,
+    "inline_katex_nowrap": true,
+    "all_wide_elements_initial_left_and_right_end_reachable": true,
+    "scroll_evidence": ".work/volume2/source-audit/batch304-scroll.json",
+    "scrollable_element_counts": {
+      "1040": 42,
+      "390": 57
+    },
+    "qualification": "Standalone eight-page proof, not whole-volume/final site acceptance.",
+    "historical_before_invariant_group_and_divisor5_correction": ".work/volume2/source-audit/history/batch304-before-invariant-group-and-divisor5"
+  },
+  "numeric_evidence": ".work/volume2/source-audit/batch304-numeric-check.json",
+  "substantive_corrections": [],
+  "source_discrepancies_retained": [],
+  "next_steps": [
+    "Parent binds with page anchors outside math/code/table blocks.",
+    "Preserve current page-SHA record historically if binding changes bytes."
+  ],
+  "tables": [
+    {
+      "kind": "F/G percentage points",
+      "probabilities": 11,
+      "quantile_cells": 22,
+      "numerical_recomputation": "Independent delay integration atsteps.001and.0005; all22withinhalf last printed4decimalunit; maxstep-halvingdifference5.84e−8; not theorem proof."
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/volume2/figures/fig-4-12.png",
+      "sha256": "02732db677fab2661952dfaaeb33a937df6d1d5c15bd11ef4ef98f5d7e89b2c8",
+      "source_cn_pdf_page": 307,
+      "source_en_pdf_page": 399,
+      "crop_xyxy": [
+        570,
+        1880,
+        1560,
+        2390
+      ],
+      "pixel_dimensions": [
+        990,
+        510
+      ],
+      "kind": "clear original graphic crop",
+      "reason": "Smooth probability curves retained exactly as source; reliable exact redraw not inferred from finite table.",
+      "axes_curve_labels_and_both_curve_shapes_compared": true,
+      "caption_searchable_outside_image": true,
+      "enlargement_passed": [
+        1040,
+        390
+      ],
+      "evidence": ".work/volume2/source-audit/batch304-browser.json"
+    }
+  ],
+  "continuation": {
+    "begins_mid_sentence_from_pdf_page": 306,
+    "first_text": "为严格的证明"
+  }
+}

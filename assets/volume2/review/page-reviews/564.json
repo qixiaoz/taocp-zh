@@ -1,0 +1,984 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 564,
+  "cnPrintedPage": 553,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "cec9e66982a7d773900c08099e8995bc82c596707d45c8e3e3ddc6d736f78111",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/564.jpg",
+  "cnPageImageSha256": "70c195c6abcfd170c462fab6dd3f56042497ac3ec7f3ecc71750d3945e1aa3cf",
+  "enPdfPages": [
+    717,
+    718
+  ],
+  "enPrintedPages": [
+    702,
+    703
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-717.png",
+      "sha256": "b03a7d0449a4530385fcd49e036e3478b7a24c3dcfa786c56ae87c7ac7b5928e"
+    },
+    {
+      "file": "verified-sources/en-718.png",
+      "sha256": "6711641f45cea6866cd2b7ec13dc4fe868c783f079d18a292e94cff2bb27db4c"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-564",
+    "p-553",
+    "ans-4-6-4-26",
+    "ans-4-6-4-27",
+    "ans-4-6-4-28",
+    "ans-4-6-4-29",
+    "ans-4-6-4-30",
+    "ans-4-6-4-31",
+    "ans-4-6-4-32",
+    "ans-4-6-4-33",
+    "ans-4-6-4-34",
+    "ans-4-6-4-35"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "答26(a)(b)(c)全方案、27非零式存在值、28代数相关、29有限并、30参数消除全特殊分支。",
+    "31–34复杂度/归一化全部4种步骤与除0讨论；35下界论证及唯一候选链全部7条。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末35 display完整，565继续分析该链；不重复ans35。",
+  "substantiveCorrections": [],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-6-4-26",
+      "exercise_anchor": "ex-4-6-4-26",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-27",
+      "exercise_anchor": "ex-4-6-4-27",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-28",
+      "exercise_anchor": "ex-4-6-4-28",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-29",
+      "exercise_anchor": "ex-4-6-4-29",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-30",
+      "exercise_anchor": "ex-4-6-4-30",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-31",
+      "exercise_anchor": "ex-4-6-4-31",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-32",
+      "exercise_anchor": "ex-4-6-4-32",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-33",
+      "exercise_anchor": "ex-4-6-4-33",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-34",
+      "exercise_anchor": "ex-4-6-4-34",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-35",
+      "exercise_anchor": "ex-4-6-4-35",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 564,
+    "sha256": "cec9e66982a7d773900c08099e8995bc82c596707d45c8e3e3ddc6d736f78111",
+    "mathExpressions": 98,
+    "display": 1,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 564,
+        "width": 1280,
+        "sha256": "cec9e66982a7d773900c08099e8995bc82c596707d45c8e3e3ddc6d736f78111",
+        "pageErrors": [],
+        "bodyText": 5818,
+        "documentWidth": 1280,
+        "expressions": 98,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 564,
+        "width": 390,
+        "sha256": "cec9e66982a7d773900c08099e8995bc82c596707d45c8e3e3ddc6d736f78111",
+        "pageErrors": [],
+        "bodyText": 5818,
+        "documentWidth": 390,
+        "expressions": 98,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 131,
+            "max": 131,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 32,
+            "max": 32,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 377,
+            "max": 377,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/564-cec9e66982a7d773900c08099e8995bc82c596707d45c8e3e3ddc6d736f78111-metadata-update-2/564.json",
+      "pageMarkdownSha256": "cec9e66982a7d773900c08099e8995bc82c596707d45c8e3e3ddc6d736f78111",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.6.4",
+  "numericCheck": {
+    "file": "arithmetic-end/numeric-check.json",
+    "sha256": "d14036eeadb4a74b6531c751fc02fd4345c06f1dcac921616478a077ddd22f5b",
+    "inputPageSha256": "cec9e66982a7d773900c08099e8995bc82c596707d45c8e3e3ddc6d736f78111",
+    "meaning": "17项有限范围/全张量系数/一般推导见文件；本页哈希绑定不代表该页全部一般定理已独立重证。"
+  },
+  "renderedHtmlSha256": "ce4aeb2665d5b6177486fb2505cfcfc2873f481caea39c3fd7e28f0b35a917d6",
+  "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+  "exerciseTargetsPending": [
+    {
+      "page": 564,
+      "answer": "ans-4-6-4-26",
+      "target": "ex-4-6-4-26",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 564,
+      "answer": "ans-4-6-4-27",
+      "target": "ex-4-6-4-27",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 564,
+      "answer": "ans-4-6-4-28",
+      "target": "ex-4-6-4-28",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 564,
+      "answer": "ans-4-6-4-29",
+      "target": "ex-4-6-4-29",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 564,
+      "answer": "ans-4-6-4-30",
+      "target": "ex-4-6-4-30",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 564,
+      "answer": "ans-4-6-4-31",
+      "target": "ex-4-6-4-31",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 564,
+      "answer": "ans-4-6-4-32",
+      "target": "ex-4-6-4-32",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 564,
+      "answer": "ans-4-6-4-33",
+      "target": "ex-4-6-4-33",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 564,
+      "answer": "ans-4-6-4-34",
+      "target": "ex-4-6-4-34",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 564,
+      "answer": "ans-4-6-4-35",
+      "target": "ex-4-6-4-35",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    }
+  ]
+}

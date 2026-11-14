@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页Markdown和中英文证据图字节。整节/整卷装订后须另作逐段包含和跨页合段证明，不能仅更换哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接查看本中文完整页图与对应英文页图，按段、公式、图表、习题逐项比较。实质订正和遗留差异分别登记；解析/复算不是目视和双语签核的替代。",
+  "cnPdfPage": 173,
+  "cnPrintedPage": 162,
+  "enPdfPages": [
+    228
+  ],
+  "enPrintedPages": [
+    213
+  ],
+  "pageMarkdownSha256": "855f751c278e2dcbabcfac866aa595dd8e81a43612c1452b8649bd7c1d79f75c",
+  "cnPageImage": "scans/173.jpg",
+  "cnPageImageSha256": "0aa3404da180a13d7c013c3b833a36318c624df8087e22164ee5ca2e379a0f5f",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-228.png",
+      "sha256": "3debed55404d8f8314b053992e3f0c6cf594ee5e10b535b0dbeb32adda198358"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-173",
+    "p-162",
+    "ex-4-1-34"
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号、书名/节名和页码；页码用隐藏锚点保留。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "coveredRegions": [
+    "习题34完整题干、难度22、推荐三角。",
+    "实际页图其余区域为空白；未当作缺页或补写内容。"
+  ],
+  "unverifiedPageRegions": [],
+  "numberedFormulaTags": [],
+  "mathExpressions": [
+    {
+      "sourceLine": 3,
+      "display": false,
+      "tex": "n",
+      "sha256": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9"
+    },
+    {
+      "sourceLine": 3,
+      "display": false,
+      "tex": "(\\ldots a_2a_1a_0)_2",
+      "sha256": "bdcf1706af20f206d66a20b02f6fe21ff046b1b289e3fc3d2b98b1ffea45aa35"
+    },
+    {
+      "sourceLine": 3,
+      "display": false,
+      "tex": "a_j",
+      "sha256": "7435dd184fb653522f3bc21b142de5f0560bd907d1425ee718d4a35c0927e71d"
+    },
+    {
+      "sourceLine": 3,
+      "display": false,
+      "tex": "-1",
+      "sha256": "1bad6b8cf97131fceab8543e81f7757195fbb1d36b376ee994ad1cf17699c464"
+    }
+  ],
+  "exerciseNumbers": [
+    34
+  ],
+  "answerLinkStatus": "not-yet-added-awaiting-verified-answer-transcription",
+  "numericalChecks": {
+    "meaning": "独立复算辅助，不替代原页/英文视觉核查。",
+    "results": {}
+  },
+  "crossPageBlocks": {
+    "unclosedCodeFences": false,
+    "unclosedDisplayMath": false,
+    "unclosedTables": false,
+    "note": "本十页没有跨页程序或逻辑表；165脚注单独分配，正文跨页接续见下。"
+  },
+  "untested": [
+    "最终母稿包含关系、跨页合段和题答链接。",
+    "正式VitePress及Pandoc整卷排版。"
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "end": "§4.1结束；下一物理174为§4.2，不并入本页。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 4,
+    "parseErrors": 0,
+    "footnoteDefinitions": 0,
+    "footnoteReferences": 0,
+    "meaning": "只证明单页Markdown可排版；内容依另列的中英文页图逐项检查。"
+  },
+  "markdownIntegrity": {
+    "uniquePageAnchors": true,
+    "unexpectedControlCharacters": 0,
+    "balancedCodeFences": true
+  }
+}

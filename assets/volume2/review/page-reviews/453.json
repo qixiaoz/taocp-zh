@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 453,
+  "cnPrintedPage": 442,
+  "enPdfPages": [
+    581,
+    582
+  ],
+  "enPrintedPages": [
+    566,
+    567
+  ],
+  "pageMarkdownSha256": "95a7890e53f85c0b70114d50d39cb2b53fc1e89e86022ef0fd6d84255d507d0f",
+  "cnPageImageSha256": "01cf950ca05fe64328ed8f5ceaac04f476ca0677fcfc003e88787ef9e0f42c27",
+  "enPageImageSha256": {
+    "581": "c012a7138ce76a83930853e58734c709e2911d673b2ba7c8d88a25f1cfa1ada1",
+    "582": "ee25422df276ea003a43eec75d71b43cde951862cbb502c3ab616c879b8e3fa6"
+  },
+  "coveredRegions": [
+    "3.3.2答24跨页结尾、25原经验范围、26(a)–(d)全间隔分布/均值/二阶矩/方差及全部历史原注、27至跨页半句和三角形几何说明。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-453",
+    "p-442",
+    "ans-3-3-2-25",
+    "ans-3-3-2-26",
+    "ans-3-3-2-27"
+  ],
+  "answerAnchors": [
+    "ans-3-3-2-25",
+    "ans-3-3-2-26",
+    "ans-3-3-2-27"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 77,
+    "displayExpressions": 3,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.3.2答26(a)",
+      "cnPrintedPage": 442,
+      "enPdfPage": 581,
+      "enPrintedPage": 566,
+      "original": "用该积分在特殊情况s1=...=sn=0时的值除以该积分",
+      "final": "用该积分除以它在特殊情况s1=...=sn=0时的值",
+      "basis": "英文divide this integral by its value...；概率为事件多面体体积I/总单形体积I0，原中文颠倒为I0/I会大于1。"
+    },
+    {
+      "section": "3.3.2答26(c)",
+      "cnPrintedPage": 442,
+      "enPdfPage": 581,
+      "enPrintedPage": 566,
+      "original": "1-F_k(s)=G_1(s)+...+G_(k-1)(s)",
+      "final": "1-F_k(s)=G_0(s)+...+G_(k-1)(s)",
+      "basis": "英文原图明确G0；恰有0到k−1个间隔小于s包含0，尤其k=1只有G0，原G1起项遗漏全体间隔≥s事件；(b)与下式也验证。"
+    }
+  ],
+  "preservedVersionDifferences": [
+    {
+      "location": "de Finetti文献年份",
+      "cn": "Giornale Istituto Italiano degli Attuari27(1964)",
+      "en": "同卷页，年份1958（EN581印566）",
+      "disposition": "保中文1964，单列书目版本差异；未仅凭两版年份不同擅自确认原文年份。"
+    }
+  ],
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "continuation": {
+    "begins_from_pdf_page": 452,
+    "answerAtStart": "3.3.2-24",
+    "left_end": "其中 $p$ 表示当 $(x,y,z)=(S_1,S_2,S_3)$ 排序为",
+    "right_start": "和是 $K(a_1,b_4)$，但是它将与",
+    "continues_to_pdf_page": 454,
+    "answerAtEnd": "3.3.2-27",
+    "left_last_paragraph_start": "要想理解迭代间隔的行为，",
+    "right_next_start": "$(S_{(1)},S_{(2)},S_{(3)})$ 时可用的排列，",
+    "instruction": "454有先置浮动三角图，装订须识别并移到整段之外，再合续句；不能把图或pdf锚点当作排序公式一部分。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "9bc85dce0d94da184c43bacc6b0c2ff1ce6562bc6ca872c3d8e2f8547ec2cea7",
+    "visualReviewSha256": "ead05adfe313353d4e0940e380af0605f53f3838c150d7e555cf845335b2f677",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 77,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 3,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 77,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 12,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "0f6f4894ea1d82239f78c74e391ed49fd57098a6fa71c5104b16362c6d6fff07",
+  "numericalCheckQualification": "逐原图/双语校订与一般代数推导为主；全部有限数值/枚举只作辅助，不充当渐近、测度或一般概率证明。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

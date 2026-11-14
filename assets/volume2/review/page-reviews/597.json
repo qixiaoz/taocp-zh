@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "names",
+  "reviewDate": "2026-11-14",
+  "reviewerType": "model-direct-page-image-comparison",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "2efa5bbba65020e3ba56f4323872d648e0867310b87f225cf74cb1155f2f56c3",
+  "cnPdfPage": 597,
+  "cnPrintedPage": 586,
+  "enPdfPages": [
+    752,
+    755,
+    756,
+    757,
+    762,
+    763,
+    764,
+    765,
+    778,
+    779
+  ],
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "entryCount": 125,
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "reviewScope": "Every entry read directly in the Chinese source image, columnwise top-to-bottom, left then right; all continuation names and page-reference tails retained. Corresponding English original index entry images viewed in labelled contact sheets. English edition page numbers are not substituted for Chinese numbers. Original Chinese abbreviated/expanded names and aliases retained unless a demonstrable spelling error is recorded.",
+  "cnEvidence": [
+    {
+      "image": "scans/597.jpg",
+      "sha256": "b1633bdf81c74d29000026932cd5b8d30c59da4cbe4bb27d7e893b44f34374af",
+      "viewedDirectly": true
+    }
+  ],
+  "enEvidence": [
+    {
+      "image": "index-work/names-597-en-contact-1.png",
+      "sha256": "cef9d17ee2ac1129323b78b34560724642f2dc316045eb415ec7576ec30dd355",
+      "viewedDirectly": true
+    },
+    {
+      "image": "index-work/names-597-en-contact-2.png",
+      "sha256": "0bd17639b1e7e8d05cc1cfd87ef17185c0b1426f565173c8c309fae29c99185e",
+      "viewedDirectly": true
+    }
+  ],
+  "entryCatalog": {
+    "file": "index-work/names-597-entry-catalog.json",
+    "sha256": "9abac09194b67e55e237353f319f1c99a9215017951f09d9bb33543e41003b67"
+  },
+  "englishMatchCatalog": {
+    "file": "index-work/names-597-matched.json",
+    "sha256": "aefdd0e7091ac1330274d11376dcf6cdde81552998a60ee59425153095f70126",
+    "qualification": "Machine matching is only a location aid. Page images were directly read; variant aliases are retained, not machine-canonicalized."
+  },
+  "browserEvidence": {
+    "file": "index-work/browser-596-597.json",
+    "sha256": "5712373715f27099dccfee05f18dc3647a874808491da524409e17009da791d9",
+    "viewports": [
+      1280,
+      390
+    ],
+    "status": "passed"
+  },
+  "directReviewNotesSha256": "91d7b00763340aba31f5e4cb1534e252fa9426153569dcc73a90d17c6d74efaf",
+  "substantiveCorrections": [
+    {
+      "section": "人名索引／赫曼",
+      "cnPrintedPage": 586,
+      "enPdfPage": 763,
+      "enPrintedPage": 748,
+      "original": "Hans Jrgen Herrmann",
+      "final": "Hans Jürgen Herrmann",
+      "basis": "中文原图该拼写缺ü；英文实际索引原图明确Hans Jürgen，恢复同一姓名的缺字。"
+    }
+  ],
+  "versionDifferences": [
+    {
+      "entry": "赫杰，Mark van Hoeij,352",
+      "finding": "No Hoeij entry/name found in the English 2014 index/text. Retain Chinese 2016 entry without inventing a corresponding English page."
+    }
+  ],
+  "sourceIssues": [
+    {
+      "entry": "亥姆霍兹，Hermann von Schelling,49",
+      "finding": "Chinese label appears to refer to a different surname than the accompanying Latin name. English original index PDF778 confirms von Schelling,Hermann. Retain the Chinese label pending an authoritative Chinese-name correction."
+    }
+  ],
+  "pending": [
+    "Final whole-book inclusion proof",
+    "Full-book index-reference existence and routed browser jumps"
+  ]
+}

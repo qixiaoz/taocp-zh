@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.3",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订另证包含和跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型实际查看中文整页与列出的英文原页图片，逐段、逐式、表单元、算法、图线和难度推荐符号对照；不声称人类签核。",
+  "cnPdfPage": 239,
+  "cnPrintedPage": 228,
+  "enPdfPages": [
+    312,
+    313
+  ],
+  "enPrintedPages": [
+    297,
+    298
+  ],
+  "pageMarkdownSha256": "c86052cb09945d4b75acc149b38a0a806185299d1441ef5e55908869bbeadc8d",
+  "cnPageImage": "scans/239.jpg",
+  "cnPageImageSha256": "fac8750d617ede4bd6f899e58379b1a00f3089be65357f7f600d7c9a2d5d5b54",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-312.png",
+      "sha256": "08545c71edea96fbc202e12b5247742465ee6c381c699f189e9e34e314d8125f"
+    },
+    {
+      "file": "verified-sources/en-313.png",
+      "sha256": "10a7d6398b061248983b99abfe158abcd86bf42113e154404f49cf785349ea71"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-239",
+    "p-228"
+  ],
+  "coveredRegions": [
+    "下降阶乘定义、式14/15及无编号差分恒等式。",
+    "式16全部15项三角差分数值、式17嵌套式。",
+    "式18阶梯型系数转换表全部数字、运算符及水平/竖直线归属，可编辑HTML数学。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "14",
+    "15",
+    "16",
+    "17",
+    "18"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pending-actual-answer-area-verification",
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuationNotes": "末式18完整HTML逻辑表；240首“其中各条水平线…”解释，不合入表单元。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 43,
+    "parseErrors": 0,
+    "codeLines": [],
+    "meaning": "语法与机器检查只作辅助，内容依中英文实际原图。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "完整母稿装订与全部题答双链",
+    "整卷Pandoc/VitePress和线上发布验收"
+  ]
+}

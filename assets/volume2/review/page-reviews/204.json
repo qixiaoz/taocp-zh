@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.3",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；最终母稿须另行证明包含、跨页合段/程序合块及允许展示转换，不仅替换本哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整页和列出的英文页图，逐段/逐式/表格单元/清单行及注释比较；语法/文本字段检查/复算独立列出。模型视觉核查，不声称人类签核。",
+  "cnPdfPage": 204,
+  "cnPrintedPage": 193,
+  "enPdfPages": [
+    266,
+    267,
+    268
+  ],
+  "enPrintedPages": [
+    251,
+    252,
+    253
+  ],
+  "pageMarkdownSha256": "170da154f02309cc2b2ebdbd0468be6495d05c740564dc668add0f0290dcf476",
+  "cnPageImage": "scans/204.jpg",
+  "cnPageImageSha256": "d1b2fc89fa2a005e2088ce1171adae5f27fd792d5239b1641d18f0e6cf9da3ca",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-266.png",
+      "sha256": "81af2df607cc79b8c31e88585590855ef49af77e2ba2c7b4d5a7f4ecdc8139e2"
+    },
+    {
+      "file": "verified-sources/en-267.png",
+      "sha256": "df14000dd6c685da33d3e0e5667f33f296e5de042c56cb56c70f55f3438acb8d"
+    },
+    {
+      "file": "verified-sources/en-268.png",
+      "sha256": "214d4970921e7e0f828e48d0bdee2dabe7192ef5bf2cb879a3570d1bacafcff6"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码；物理页和印刷页隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-204",
+    "p-193",
+    "ex-4-2-3-1",
+    "ex-4-2-3-2",
+    "ex-4-2-3-3",
+    "ex-4-2-3-4",
+    "ex-4-2-3-5",
+    "ex-4-2-3-6",
+    "ex-4-2-3-7"
+  ],
+  "coveredRegions": [
+    "程序D22–39所有字段/注释及结束方块。",
+    "完整4×2时间表及三精度文献。",
+    "习题1–7开头、5/7推荐箭头、全部难度、3种相对误差。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "D24注释",
+      "cnText": "rAX ← |w_m v_l/bv_m|。",
+      "enText": "rAX ← |wm vl/bvm|, approximately.",
+      "decision": "中文未写approximately，保留原注；该赋值实际为近似的性质由英文及算法推导注明在本独立记录中，不加正文。"
+    }
+  ],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "answerLinkStatus": "pendingverifiedanswers",
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuationNotes": "首D22–39续203。页末习题7题干与三误差式完整，205首“的上界δ1…”是同一题续句，合为一题不重复锚点。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 12,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [
+      18
+    ],
+    "meaning": "仅排版语法；内容来自以上中文/英文原页实际比较。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "辅助原页核查，不当作原书答案来源或替代视觉比较。",
+    "results": {}
+  },
+  "untested": [
+    "最终母稿装订包含/跨页程序合并与原题答双向链接。",
+    "最终正式VitePress/Pandoc整卷和线上。",
+    "未执行MIX程序，未以代码字段一致宣称数值实现正确。"
+  ],
+  "renderReview": {
+    "file": "verified-render/double-dom-review-199-206.json",
+    "sha256": "6f0e4ea6e73341500b9b50022fc1392832b8c3f20e4374f322fb9dbe0ed62dff",
+    "scope": "Currentpage SHA; isolated1280/390 DOM plus explicitlylistedselectedregionsactualvisual. SharedVitePress/Pandoc not included."
+  }
+}

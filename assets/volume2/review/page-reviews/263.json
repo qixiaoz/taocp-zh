@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "section": "4.4",
+  "pdf_page": 263,
+  "printed_page": 252,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "117ca90f72807a0b1f5c211b87094fdefdf4a8ef4b0815e7dbb7746527b676de",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/scans/263.jpg",
+    "image_sha256": "7a0bd7ba7b73332f9449bb2a46b7f9e250098cb1630fbf902670e67f113a7ffd",
+    "scope": "entire page prose, all inline/display math, code rows, table cells, hand-calculation traces, exercise numbering/difficulty/recommendation and original footnote where present"
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      342,
+      343,
+      344
+    ],
+    "en_printed_pages": [
+      327,
+      328,
+      329
+    ],
+    "evidence": "Actual rendered Chinese and English pages, English PDF text layer, program field comparison and independent exact numerical checks.",
+    "scope": "all corresponding prose and formulas/programs/tables/exercises; no independent proof of every exercise is claimed"
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/batch256-proof.html",
+    "html_sha256": "e7abbcf817f94ec5bbb578cdcbc03c24af59f411b04cf55a51e48a1c32579d6a",
+    "math_count_in_eight_page_proof": 261,
+    "math_parse_errors": 0,
+    "desktop_visual_review": true,
+    "mobile_visual_review": false,
+    "desktop_screenshot": ".work/volume2/source-audit/batch256-proof-1040-263.png",
+    "mobile_screenshot": ".work/volume2/source-audit/batch256-proof-390-263.png",
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "missing_images": 0,
+    "page_errors": 0,
+    "document_horizontal_overflow": false,
+    "wide_math_code_table_scroll": {
+      "evidence": ".work/volume2/source-audit/batch256-scroll.json",
+      "initial_left_edges_and_right_ends_reachable": true,
+      "scrollable_elements_at_1040px": 33,
+      "scrollable_elements_at_390px": 39
+    },
+    "qualification": "Standalone eight-page proof, not full-volume/site acceptance.",
+    "layout_revision": {
+      "change": "Keep operation labels on one line inside editable table1; preserve all source text, bits, math and table rows.",
+      "prior_evidence": ".work/volume2/source-audit/history/batch256-before-table-nowrap/",
+      "checks_rerun": [
+        "VitePress/KaTeX261 math expressions",
+        "all numerical/BCD checks",
+        "MIX field comparison",
+        "desktop390px screenshots and no-overflow check",
+        "table/math/code left/right scroll and footnote forward/back"
+      ]
+    }
+  },
+  "exercises": [
+    {
+      "anchor": "ex-4-4-2",
+      "number": 2,
+      "difficulty": "25",
+      "recommended": false,
+      "answer_anchor": "ans-4-4-2"
+    },
+    {
+      "anchor": "ex-4-4-3",
+      "number": 3,
+      "difficulty": "25",
+      "recommended": true,
+      "answer_anchor": "ans-4-4-3"
+    },
+    {
+      "anchor": "ex-4-4-4",
+      "number": 4,
+      "difficulty": "M21",
+      "recommended": false,
+      "answer_anchor": "ans-4-4-4"
+    },
+    {
+      "anchor": "ex-4-4-5",
+      "number": 5,
+      "difficulty": "M20",
+      "recommended": false,
+      "answer_anchor": "ans-4-4-5"
+    },
+    {
+      "anchor": "ex-4-4-6",
+      "number": 6,
+      "difficulty": "30",
+      "recommended": false,
+      "answer_anchor": null
+    },
+    {
+      "anchor": "ex-4-4-7",
+      "number": 7,
+      "difficulty": "M18",
+      "recommended": false,
+      "answer_anchor": "ans-4-4-7"
+    },
+    {
+      "anchor": "ex-4-4-8",
+      "number": 8,
+      "difficulty": "24",
+      "recommended": false,
+      "answer_anchor": "ans-4-4-8"
+    },
+    {
+      "anchor": "ex-4-4-9",
+      "number": 9,
+      "difficulty": "M29",
+      "recommended": true,
+      "answer_anchor": "ans-4-4-9"
+    },
+    {
+      "anchor": "ex-4-4-10",
+      "number": 10,
+      "difficulty": "22",
+      "recommended": false,
+      "answer_anchor": "ans-4-4-10"
+    },
+    {
+      "anchor": "ex-4-4-11",
+      "number": 11,
+      "difficulty": "16",
+      "recommended": false,
+      "answer_anchor": "ans-4-4-11"
+    },
+    {
+      "anchor": "ex-4-4-12",
+      "number": 12,
+      "difficulty": "22",
+      "recommended": true,
+      "answer_anchor": "ans-4-4-12"
+    },
+    {
+      "anchor": "ex-4-4-13",
+      "number": 13,
+      "difficulty": "25",
+      "recommended": true,
+      "answer_anchor": "ans-4-4-13"
+    },
+    {
+      "anchor": "ex-4-4-14",
+      "number": 14,
+      "difficulty": "M27",
+      "recommended": true,
+      "answer_anchor": "ans-4-4-14"
+    },
+    {
+      "anchor": "ex-4-4-15",
+      "number": 15,
+      "difficulty": "M47",
+      "recommended": false,
+      "answer_anchor": null
+    },
+    {
+      "anchor": "ex-4-4-16",
+      "number": 16,
+      "difficulty": "41",
+      "recommended": false,
+      "answer_anchor": null
+    },
+    {
+      "anchor": "ex-4-4-17",
+      "number": 17,
+      "difficulty": "M40",
+      "recommended": false,
+      "answer_anchor": "ans-4-4-17"
+    },
+    {
+      "anchor": "ex-4-4-18",
+      "number": 18,
+      "difficulty": "HM34",
+      "recommended": false,
+      "answer_anchor": "ans-4-4-18"
+    }
+  ],
+  "answer_exceptions": [
+    {
+      "exercise": "ex-4-4-6",
+      "reason": "No independent original answer: actual Chinese answer pages509–512 and English answer section physical650–653; no link fabricated."
+    },
+    {
+      "exercise": "ex-4-4-15",
+      "reason": "No independent original answer: actual Chinese answer pages509–512 and English answer section physical650–653; no link fabricated."
+    },
+    {
+      "exercise": "ex-4-4-16",
+      "reason": "No independent original answer: actual Chinese answer pages509–512 and English answer section physical650–653; no link fabricated."
+    }
+  ],
+  "substantive_corrections": [
+    {
+      "section": "4.4 exercise13",
+      "cn_printed_page": 252,
+      "en_printed_page": 328,
+      "en_pdf_page": 343,
+      "source_reading": "并舍入到180个有效位",
+      "final_reading": "并截断为180位十进制小数",
+      "english_basis": "truncating it to180 decimal digits",
+      "reason": "Original task requests truncation, not rounding; keep the first180 decimal places without rounding."
+    }
+  ],
+  "source_discrepancies_retained": [],
+  "numeric_evidence": ".work/volume2/source-audit/batch256-numeric-check.json",
+  "program_evidence": ".work/volume2/source-audit/batch256-program-check.json",
+  "next_steps": [
+    "Bind into whole volume; retain page anchors outside formulas/code/tables.",
+    "Verify complete-volume exercise/answer links and hashes after binding.",
+    "Retain this original page-file hash record if binding changes bytes."
+  ]
+}

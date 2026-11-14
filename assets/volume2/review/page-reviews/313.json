@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.5.4",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 313,
+  "cnPrintedPage": 302,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    406,
+    407
+  ],
+  "enPrintedPages": [
+    391,
+    392
+  ],
+  "pageMarkdownSha256": "a2b99ca67c7861f04c06cd7570b767a749ee1aaa22c65d2beda5def7896857f9",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/313.jpg",
+  "cnPageImageSha256": "bba04ed684e101fc033242f18805e950ea926c7fd3bdbce90d7d762e867d7a09",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-406.png",
+      "sha256": "cb52358a15be69066a52834070a63aceba7872966f3a6f5c71235e55be42459a"
+    },
+    {
+      "file": "source-audit/en-render/page-407.png",
+      "sha256": "684e658f49ea17a8d2af4ef84abc8ca85ca7cac4297010f19093a01d57999937"
+    }
+  ],
+  "coveredRegions": [
+    "312续文献与素性检测说明。",
+    "费马例子的全部指数/32次平方/3029026160、原根与阶论证及两条件。",
+    "n−1因子依赖段与65位例子式(15)。"
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-313",
+    "p-302"
+  ],
+  "numberedFormulaTags": [
+    15
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [
+    {
+      "section": "4.5.4 Primality testing introduction",
+      "cnPrintedPage": 302,
+      "enPdfPage": 406,
+      "enPrintedPage": 391,
+      "original": "还没有哪一个可以很快判断一个很大的数n是否是素数的",
+      "final": "还没有哪一个可以很快判断一个很大的数n是素数的",
+      "basis": "English says efficiently establishing that a large n is prime. The preceding factoring methods can quickly establish nonprimality in some cases, so the one-sided assertion is retained precisely."
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 312,
+    "previousEnd": "步骤 D2 和 D3 的迭",
+    "start": "代过程"
+  },
+  "endsMidParagraph": false,
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via actual repository book-markdown.mjs",
+    "mathExpressions": 88,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "仅语法；原图/双语核对与有限复算分列。"
+  },
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch312-proof.html",
+    "htmlSha256": "650934f8eed2449a7f566b8f1a67f3ac2e9586dcab371914f33701094e6f5162",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof only, not whole-volume/offline/final-site/online acceptance.",
+    "browserPath": "Browser plugin not available; bundled Playwright plus local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch312-proof-1280-313.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch312-proof-390-313.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch312-right-390-313.png",
+    "mobileRightEndVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "mathmlBodyLeak": 0,
+    "mathParseErrors": 0,
+    "proofMathExpressions": 471,
+    "machineObservations": ".work/volume2/source-audit/batch312-browser.json",
+    "scrollableElementCounts": {
+      "1280": 44,
+      "390": 64
+    }
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch312-numeric-check.json",
+  "numericScope": "685 exact/numeric checks include actual sample data, primality certificates and finite algorithm replay; finite AlgorithmP exhaustion does not prove its general bound. Historical performance timings and6432966-iteration claim not rerun.",
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终整卷母稿装订/包含证明",
+    "整卷Pandoc、正式VitePress和线上发布/下载",
+    "未把有限复算、历史性能描述或机器语法通过扩写为一般定理的证明。"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "section": "answers3.6 plus adjacent original-page items where present",
+  "pdf_page": 481,
+  "printed_page": 470,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "bae33acad2ab37c28f30f428527990fd5e930261dd6e126dd5de72571b1b1db1",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound; current evidence refers to this exact page file",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/source-audit/cn-render/full-481.png",
+    "scope": "complete page: every prose paragraph, formula, program row, label, opcode/operator, comment, number and original item numbering; running page headers omitted from prose",
+    "source_image_sha256": "b97107f99c747d6eddb8c3ac7bf9693911fe2069aebe902b0cdc3db4abe12faa"
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      616,
+      617
+    ],
+    "en_printed_pages": [
+      601,
+      602
+    ],
+    "evidence": "Original rendered Chinese and English pages, English text layer, program-token comparison, and listed independent numerical checks.",
+    "scope": "Every expression and corresponding paragraph/program on this page; language-specific prose retained except explicitly recorded correction.",
+    "qualification": "Independent proofs of every theorem are not claimed."
+  },
+  "answers": [
+    {
+      "anchor": "ans-3-6-11",
+      "exercise_anchor": "ex-3-6-11",
+      "backlink_present": true
+    }
+  ],
+  "original_missing_independent_answers": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "missing_answer_evidence": "Chinese printed468/physical479 and English printed599/physical614: answer numbering jumps2→7; original items3–6 not supplied or linked.",
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/chapter36-answers-proof.html",
+    "html_sha256": "841fb5930e7f933aac8b0924648d4fc803438327019daaee74124a7dc990e513",
+    "math_count_in_six_page_proof": 148,
+    "math_parse_errors": 0,
+    "standalone_proof_only": true,
+    "desktop_visual_review": true,
+    "desktop_screenshot": ".work/volume2/source-audit/answers-proof-1040-481.png",
+    "desktop_screenshot_sha256": "d861fe4e3a303510c8d89157fde1220e0e8e014f6e95b4152174bed8f6f0f064",
+    "mobile_screenshot": ".work/volume2/source-audit/answers-proof-390-481.png",
+    "mobile_visual_review": false,
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "page_errors": 0,
+    "missing_images": 0,
+    "document_horizontal_overflow": false,
+    "wide_math_or_program_scroll": {
+      "evidence": ".work/volume2/source-audit/answers-scroll.json",
+      "all_initial_left_edges_and_right_ends_reachable": true,
+      "scrollable_elements_at_1040px": 33,
+      "scrollable_elements_at_390px": 43
+    },
+    "qualification": "Not complete-volume binding, final website validation, or all-volume offline proof."
+  },
+  "substantive_corrections": [],
+  "source_discrepancies_retained": [
+    {
+      "cn_printed_page": 470,
+      "en_printed_page": 602,
+      "cn_reading": "ANSI/IEEE标准",
+      "en_reading": "ANSI/IEEE Standard754",
+      "decision": "Retain less-specific original Chinese reference; code and exact53/52-bit arithmetic statements match."
+    }
+  ],
+  "ocr_or_representation_checks": [],
+  "next_steps": [
+    "Bind original answer items by section, preserving page anchors outside code/math.",
+    "Run final complete-volume source/site/ZIP checks and test bidirectional exercise links when all body targets exist.",
+    "Retain this page SHA record as historical evidence if binding changes whitespace, fences, or anchor placement."
+  ],
+  "program_continuation": [
+    {
+      "language": "FORTRAN",
+      "logical_item": "answer3.6-10",
+      "continues_from": 480,
+      "logical_program_ends_on_this_page": true
+    },
+    {
+      "language": "C",
+      "logical_item": "answer3.6-11",
+      "starts_on_this_page": true,
+      "continues_on": 482,
+      "last_row": "register int i,j;"
+    }
+  ]
+}

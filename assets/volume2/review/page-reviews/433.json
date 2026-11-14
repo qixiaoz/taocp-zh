@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 433,
+  "cnPrintedPage": 422,
+  "enPdfPages": [
+    555,
+    556,
+    557
+  ],
+  "enPrintedPages": [
+    540,
+    541,
+    542
+  ],
+  "pageMarkdownSha256": "231f58e02f0e3c940df58d6f26a71808c78673ef1ed1049383f6b1dd8f2edd05",
+  "cnPageImageSha256": "2eba3a2eb57982f9899446abcdce933c041775d50beefecc3b1fe890e7c7d373",
+  "enPageImageSha256": {
+    "555": "204509e6f69297df8c80f3e66d12735f27c243460e8fcc82a8c7147b436fa9b6",
+    "556": "51a437ec822a08f10e5dc3e90c576b985a62d49e00507ed1d911ab1c8c041335",
+    "557": "5f0d9dfe4d52dc44dddcef1359572dd1b5f1c14fe6f1f4dfdf5aa66be40368c8"
+  },
+  "coveredRegions": [
+    "3.1答10–14全部至c_r(m)完整展开式，包括概率乘积、Q(m)、两种均值、T_mn和Stirling计数、全部历史文献。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-433",
+    "p-422",
+    "ans-3-1-10",
+    "ans-3-1-11",
+    "ans-3-1-12",
+    "ans-3-1-13",
+    "ans-3-1-14"
+  ],
+  "answerAnchors": [
+    "ans-3-1-10",
+    "ans-3-1-11",
+    "ans-3-1-12",
+    "ans-3-1-13",
+    "ans-3-1-14"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 70,
+    "displayExpressions": 5,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "3.1答13最后渐近误差",
+      "cnPrintedPage": 422,
+      "enPdfPage": 556,
+      "enPrintedPage": 541,
+      "cn": "O(m^{1/2})",
+      "en": "O(m^{1/2})",
+      "disposition": "保留两版共同正指数。它作为较弱O界未必为假，不能仅凭期望更尖锐的误差而改成负指数。"
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "answer": "3.1-14",
+    "continues_to_pdf_page": 434,
+    "left_last_prose": "$c_r(m)$ 的值可以像习题13中那样确定：",
+    "left_last_display_end": "\\frac1{2!}{3\\brack r}\\frac{m-1}m\\frac{m-2}m+\\cdots\\right).",
+    "right_start": "现在，可以计算期望的平均值；它是（见习题12）",
+    "instruction": "完整c_r独立式不拆；434以同一答14下一段继续，不重复答锚点。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "1a14955033b1700b1256977a587197c243973e68e5adbb2494ccd867ab6c677d",
+    "visualReviewSha256": "04e58fa4501ba0b2caba3a45ab2478bccedfe71e3d7038752183c4d4710add42",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 70,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 11,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 70,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 14,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "f23565ac5a4d9850d0f0c3203bc61ccf50a197acb791f155924afabbc94778b4",
+  "numericalCheckQualification": "所有有限枚举只辅助原页核查，不替代普遍命题/渐近证明；共同疑点保留底本。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

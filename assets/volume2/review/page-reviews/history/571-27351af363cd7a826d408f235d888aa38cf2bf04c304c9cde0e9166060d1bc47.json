@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 571,
+  "cnPrintedPage": 560,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "58d69bc69bf8049467c9594c31dab2bf6e99d32505a937b8e9a7f9e375c9954e",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/571.jpg",
+  "cnPageImageSha256": "a3f3f97d59f56f719e169196eb6069ae295b32737abddc49660b8b807cb917cf",
+  "enPdfPages": [
+    726,
+    727
+  ],
+  "enPrintedPages": [
+    711,
+    712
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-726.png",
+      "sha256": "050e51ca4b9b3edb7cd09677bdfbe61e1ab8cbe44f1b16e9e10d9ef324816a24"
+    },
+    {
+      "file": "verified-sources/en-727.png",
+      "sha256": "d1d4c4eb4e8c324fcb7c8df26a04eeffcd69775ea409f71ec9f8906ce51db157"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-571",
+    "p-560",
+    "ans-4-6-4-58"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续57全部两组各10个(a,r)、14组较大模数与原参考；58(a)非零线性组合秩/二元码/熵下界及原文献。",
+    "58(b)完整3×4实现及degree2/degree3两组同矩阵实现；degree4在572首。全部矩阵可编辑，完整张量系数逐项复算，首A[1,5]共同误植以唯一单字段修复登记。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末58(b)degree3实现完整，572首degree4实现同答续段。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.6.4-58b-realization-entry",
+      "section": "4.6.4答案58(b)第一组矩阵A[1,5]",
+      "cnPrintedPage": 560,
+      "enPdfPage": 727,
+      "enPrintedPage": 712,
+      "original": "第一矩阵第一行10001111，即第5项1",
+      "final": "第一矩阵第一行10000111，即第5项0",
+      "basis": "两版共同误植。按完整A(3×8)、B(4×8)、C(6×8)逐单项式卷积，原实现比多项式乘积多x0*y3*(e4−e3)。原B第5列仅y3非零，原C第5列=e4−e3，去掉A该列的x0即消全部残差。对三矩阵全部104条目逐个作任意有理delta的单字段搜索，唯一同时满足72个张量系数约束的修复为A[1,5]−1；详细原矩阵/残差/唯一性保存在arithmetic-end/matrix58-repair-proof.json。其余三组实现全部张量系数亦复算通过。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-6-4-58",
+      "exercise_anchor": "ex-4-6-4-58",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 571,
+    "sha256": "58d69bc69bf8049467c9594c31dab2bf6e99d32505a937b8e9a7f9e375c9954e",
+    "mathExpressions": 31,
+    "display": 4,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 571,
+        "width": 1280,
+        "sha256": "58d69bc69bf8049467c9594c31dab2bf6e99d32505a937b8e9a7f9e375c9954e",
+        "pageErrors": [],
+        "bodyText": 4450,
+        "documentWidth": 1280,
+        "expressions": 31,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 901,
+            "max": 901,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 196,
+            "max": 196,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 154,
+            "max": 154,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 571,
+        "width": 390,
+        "sha256": "58d69bc69bf8049467c9594c31dab2bf6e99d32505a937b8e9a7f9e375c9954e",
+        "pageErrors": [],
+        "bodyText": 4450,
+        "documentWidth": 390,
+        "expressions": 31,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 1303,
+            "max": 1303,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 181,
+            "max": 181,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 598,
+            "max": 598,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 360,
+            "max": 360,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 556,
+            "max": 556,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  }
+}

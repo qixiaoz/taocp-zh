@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 397,
+  "cnPrintedPage": 386,
+  "enPdfPages": [
+    510,
+    511,
+    512
+  ],
+  "enPrintedPages": [
+    495,
+    496,
+    497
+  ],
+  "pageMarkdownSha256": "45be1e76b483980ac5a36cc17349c99a68eb16bd5af12632e104d1710e330592",
+  "masterSha256": null,
+  "cnPageImage": "scans/397.jpg",
+  "cnPageImageSha256": "a2d7eb66504cb29228dfd91d036ddd863924fafd7f4cea55ff7fac8625053668",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-510.png",
+      "sha256": "129fc9e7ba670677b1e0f11e1a81179e3819bbfef38f49f42909c8c857b4adcc"
+    },
+    {
+      "file": "source-audit/en-render/page-511.png",
+      "sha256": "db331b9526cd21884e08ef59b95bfd14c9ea33dcf888ef57865c9b21c21cb064"
+    },
+    {
+      "file": "source-audit/en-render/page-512.png",
+      "sha256": "5dc51afaa6d7bb4d576992cdb29205e686c4e784130baf643d391e433e06f37d"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-397",
+    "p-386"
+  ],
+  "numberedFormulaTags": [
+    28,
+    29
+  ],
+  "coveredRegions": [
+    "定理M28完整证明、定理A29完整归纳/集合分解证明、定理C及全部上下界/代数无关说明至跨页使+用；共同原书集合疑点保源。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "M/A proofs sums/products",
+      "cnOriginalAndFinal": "各个x_k；而β_k是各个α_k的和",
+      "enOriginal": "x’s; β_j is a sum of α’s",
+      "enPdfPages": [
+        510,
+        511
+      ],
+      "meaning": "保留中文符号写法，登记未定义x_k/局部j-k记号疑点；不按模式替换，不用此符号差异否定定理。",
+      "cnCrops": [
+        "source-audit/397-M-sums-source.png",
+        "source-audit/397-A-products-source.png"
+      ]
+    }
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 89,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch397-numeric-check.json",
+  "numericScope": "Exact free noncommutative algebra proves all4 entries of source36 and15-add7-product schedule; 35 scalar-pair cancellation separately uses commutativity. Determinants31/32 finite rational matrices n2..5 (16each) and exact operation-count sums n2..40; literalYates32cells/256coefficients plus integer inverse/sign changes; causal39/40 finite2x3x2data. Interpolation41–46 finite explicit rational basis/ranges; no numeric proof of general dimension/complexity/stability or research historical claims. Shamir only full finite example n2,p7.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch397-proof.html",
+    "htmlSha256": "65b436b19f90926cb42417ed2fcfe4090c9b5db5c42755fad3caa9456fa24e5a",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch397-proof-1280-397.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch397-proof-390-397.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 405,
+    "scrollableElementCounts": {
+      "1280": 118,
+      "390": 130
+    },
+    "machineObservations": ".work/volume2/source-audit/batch397-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "sourceQuestions": [
+    {
+      "id": "v2-4.6.4-A-result-set-decomposition",
+      "status": "preserved-common-source-proof-gap",
+      "cnPdfPage": 397,
+      "cnPrintedPage": 386,
+      "enLocation": {
+        "pdfPage": 511,
+        "printedPage": 496,
+        "position": "TheoremA last proof paragraph"
+      },
+      "originalAndFinal": "R=R1∪...∪Rq∪R′, with Ri result vectors when A(2i−1)=0 and R′ result vectors when all α are nonzero.",
+      "completeHypotheses": "Polynomial chain λ0=x, each step parameter operation αj o λk or chain operation (±λj)oλk, o in+,-,×. q counts additions/subtractions. Tj=AjBj, Aj product of parameters; βi=A2i/A(2i−1). Source does not restrict α values to nonzero in result setR.",
+      "exactAdmissibleCounterexample": {
+        "chain": [
+          "λ0=x",
+          "κ1=α1+x",
+          "u=α2κ1"
+        ],
+        "q": 1,
+        "T": [
+          "T1=x",
+          "T2=α1",
+          "T3=α2κ1"
+        ],
+        "A": [
+          "A1=1",
+          "A2=α1",
+          "A3=α2"
+        ],
+        "B": [
+          "B1=x",
+          "B2=1",
+          "B3=κ1"
+        ],
+        "resultCoefficients": "(u1,u0)=(α2,α1α2)",
+        "choice": {
+          "α1": 0,
+          "α2": 1
+        },
+        "Rpoint": [
+          1,
+          0
+        ],
+        "R1": "empty: A1=1 neverzero",
+        "Rprime": "allα nonzero implies u1≠0,u0≠0; excludes(1,0)",
+        "failedClaim": "printed set equality R=R1∪R′ for this allowed decomposition",
+        "doesNotDisproveTheoremA": true
+      },
+      "possibleRepairsNotApplied": [
+        "Define R′ using nonzero odd denominators A(2i−1), rather than all individual αk.",
+        "Change Ri or decomposition to include parameter-zero loci and adjust induction."
+      ],
+      "unverifiedDependencies": "Not a proof correction: need recheck all subsequent dependencies on parameter nonzero, denominator choices, and induction after any candidate rewrite. Alternative proof presentations are possible, so retain both book sources and list doubt.",
+      "rootInstruction": "explicit retain-source instruction received2026-11-15",
+      "numericEvidence": ".work/volume2/source-audit/batch397-numeric-check.json"
+    }
+  ],
+  "endsMidParagraph": {
+    "nextCnPdfPage": 398,
+    "end": "所以不能使",
+    "nextStart": "用上面的定理.",
+    "crossPageWord": "使用"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "sections": [
+    "4.5.2"
+  ],
+  "pdf_page": 273,
+  "printed_page": 262,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "e1d4dbd28fabf54a8d8f061fafb7c522a630f05439be4b9999fd2f4e7db677ce",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/scans/273.jpg",
+    "image_sha256": "83aa410e1e3e8da38a1f469b409edd24f0be1b9b18e7d4d1347280f69c566ae7",
+    "scope": "Entire actual Chinese page: all prose, inline/display mathematics, original program comments/fields/timings, tables, algorithm updates and footnote where present."
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      355,
+      356
+    ],
+    "en_printed_pages": [
+      340,
+      341
+    ],
+    "scope": "Actual corresponding English page images inspected, prose and every formula/program/table field compared. This is not inferred from a fixed pagination offset or OCR agreement.",
+    "qualification": "Convergence and historical references not independently reproved; finite numerical/algorithm checks separately described."
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/batch272-proof.html",
+    "html_sha256": "26e0a0d726a45b5996d1a9be717f67c03f2e1529560bd9e5769511a0c003ba4f",
+    "math_count_in_eight_page_proof": 478,
+    "math_parse_errors": 0,
+    "desktop_visual_review": true,
+    "mobile_visual_review": false,
+    "desktop_screenshot": ".work/volume2/source-audit/batch272-proof-1040-273.png",
+    "mobile_screenshot": ".work/volume2/source-audit/batch272-proof-390-273.png",
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "document_horizontal_overflow": false,
+    "missing_images": 0,
+    "page_errors": 0,
+    "scroll_evidence": ".work/volume2/source-audit/batch272-scroll.json",
+    "all_wide_elements_initial_left_and_right_end_reachable": true,
+    "scrollable_element_counts": {
+      "1040": 35,
+      "390": 50
+    },
+    "qualification": "Independent eight-page KaTeX/footnote proof with current public math-display CSS; not final full-volume or site acceptance."
+  },
+  "substantive_corrections": [
+    {
+      "section": "4.5.2 comparison of ProgramA/B",
+      "cn_printed_page": 262,
+      "en_pdf_page": 355,
+      "en_printed_page": 340,
+      "source_reading": "然而与欧几里得算法同样著名的其他算法都已经被更先进的方法取代了.",
+      "final_reading": "但看来，即使像欧几里得算法这样备受尊崇的过程，也无法抵挡进步的潮流.",
+      "english_basis": "but it appears that not even a procedure as venerable as Euclid’s algorithm can withstand progress",
+      "reason": "Chinese sentence changes the subject to all other famous algorithms; original English specifically includes Euclid’s procedure in the observation about progress."
+    }
+  ],
+  "source_discrepancies_retained": [
+    {
+      "location": "AlgorithmC signed inputs",
+      "reading": "给定整数u1,...,un; C1 d←un",
+      "decision": "Both editions use integers here after nonnegative-input context. If n=1 and un<0, the stated algorithm returns a negative value. Retain original; list domain ambiguity rather than silently insert abs or nonnegative."
+    },
+    {
+      "location": "Ancient China claim",
+      "cn_reading": "因为在中国古代时它已经出现",
+      "en_reading": "it may well have been known in ancient China",
+      "decision": "Retain Chinese edition’s more definite wording and explicitly record modality difference."
+    }
+  ],
+  "numeric_evidence": ".work/volume2/source-audit/batch272-numeric-check.json",
+  "next_steps": [
+    "Bind into master with anchors outside math/code/table blocks.",
+    "If binding changes page bytes, preserve this record historically and review affected changes under new master SHA."
+  ],
+  "continuation": {
+    "begins_mid_sentence_from_pdf_page": 272,
+    "first_text": "进行的估算表明",
+    "algorithm_C_continues_on_pdf_page": 274,
+    "last_algorithm_step": "C1",
+    "next_algorithm_step": "C2",
+    "binding_requirement": "Keep C1 and C2 in one logical algorithm with page anchors outside math blocks; original footnote stays linked."
+  },
+  "original_footnotes": [
+    {
+      "id": "v2-p262-1",
+      "forward_and_back_link_test": ".work/volume2/source-audit/batch272-footnote-check.json"
+    }
+  ]
+}

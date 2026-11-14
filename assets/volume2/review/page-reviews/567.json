@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 567,
+  "cnPrintedPage": 556,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "3d658a1813319065a1da84bea57f81be828f319a6da5fb6ca5849a8a04f7e7ce",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/567.jpg",
+  "cnPageImageSha256": "e7b89c01ebbb98b90266d4f5c8b07a2015609821fbce95b0bdb4596dc81f1cdf",
+  "enPdfPages": [
+    721,
+    722
+  ],
+  "enPrintedPages": [
+    706,
+    707
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-721.png",
+      "sha256": "dd2ae39c0796735ac0122365f0b50abbc43dd24b5e9728045f4ba30dd5fad37f"
+    },
+    {
+      "file": "verified-sources/en-722.png",
+      "sha256": "40c5562e26b90dfec27def9b4b0d74a9db3e134c6addc7e067c196463046d64f"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-567",
+    "p-556",
+    "ans-4-6-4-42",
+    "ans-4-6-4-43",
+    "ans-4-6-4-44"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续41旋转/四乘除/六乘除及复杂度注，42(a)(b)(c)全参数计数/有限域计数/整数系数预计算证明。",
+    "43求等比和链，44预计算幂求值全部次数/分割/通用多项式构造。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末44 display完整，568从“覆盖”继续解释同式。",
+  "substantiveCorrections": [],
+  "sourceIssues": [
+    {
+      "location": "4.6.4答案43 a_i/a_j/a_k与x^i/p_i的下标",
+      "englishSame": true,
+      "original": "设a_i=a_j+a_k为最优加法链一步，随后写x^i=x^jx^k、p_i=p_kx^j+p_j且p_i=x^(i−1)+…+1",
+      "decision": "保底本列疑。原叙述在链位置索引和链数值之间切换，按严格索引读法通常应为x^(a_i)等，或需把首句改成值i=j+k；两种记号修复皆可能，未替作者重排整个下标。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-6-4-42",
+      "exercise_anchor": "ex-4-6-4-42",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-43",
+      "exercise_anchor": "ex-4-6-4-43",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-44",
+      "exercise_anchor": "ex-4-6-4-44",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 567,
+    "sha256": "3d658a1813319065a1da84bea57f81be828f319a6da5fb6ca5849a8a04f7e7ce",
+    "mathExpressions": 68,
+    "display": 2,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 567,
+        "width": 1280,
+        "sha256": "3d658a1813319065a1da84bea57f81be828f319a6da5fb6ca5849a8a04f7e7ce",
+        "pageErrors": [],
+        "bodyText": 4197,
+        "documentWidth": 1280,
+        "expressions": 68,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 103,
+            "max": 103,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 567,
+        "width": 390,
+        "sha256": "3d658a1813319065a1da84bea57f81be828f319a6da5fb6ca5849a8a04f7e7ce",
+        "pageErrors": [],
+        "bodyText": 4197,
+        "documentWidth": 390,
+        "expressions": 68,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 17,
+            "max": 17,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 94,
+            "max": 94,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 505,
+            "max": 505,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/567-3d658a1813319065a1da84bea57f81be828f319a6da5fb6ca5849a8a04f7e7ce-metadata-update/567.json",
+      "pageMarkdownSha256": "3d658a1813319065a1da84bea57f81be828f319a6da5fb6ca5849a8a04f7e7ce",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.6.4",
+  "numericCheck": {
+    "file": "arithmetic-end/numeric-check.json",
+    "sha256": "d14036eeadb4a74b6531c751fc02fd4345c06f1dcac921616478a077ddd22f5b",
+    "inputPageSha256": "3d658a1813319065a1da84bea57f81be828f319a6da5fb6ca5849a8a04f7e7ce",
+    "meaning": "17项有限范围/全张量系数/一般推导见文件；本页哈希绑定不代表该页全部一般定理已独立重证。"
+  },
+  "renderedHtmlSha256": "fc1c295caae15a7c6aa06f15da5f66a5cb206e1fea6999e13ff0c0d460604a6a",
+  "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+  "exerciseTargetsPending": [
+    {
+      "page": 567,
+      "answer": "ans-4-6-4-42",
+      "target": "ex-4-6-4-42",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 567,
+      "answer": "ans-4-6-4-43",
+      "target": "ex-4-6-4-43",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 567,
+      "answer": "ans-4-6-4-44",
+      "target": "ex-4-6-4-44",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    }
+  ]
+}

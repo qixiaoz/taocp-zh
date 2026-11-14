@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-15",
+  "status": "passed",
+  "scope": "独立完整两卷拟公开源树+fresh locked dependencies本机复现；不是云GitHub Actions或线上浏览器验收",
+  "revision": "r003",
+  "sourceTreeSha256": "e3294926b9072c0bc6f0bad97be0e3512bbd2961d1b58930ccc197a4a2ec0303",
+  "frozenFiles": 1070,
+  "privateOriginalEvidenceSha256": "69e1b182addedcf744ba6275119df923da38c5180b23c4e1c16a0423571306a0",
+  "dependencyLockSha256": "d23c3cd5b81f93af008ce5b2c41c527b7d8db98baeaa3d905e2dc2f29ff0f622",
+  "install": {
+    "command": "npm ci --offline --no-audit --fund=false",
+    "exitCode": 0,
+    "packages": 192,
+    "cache": "Task-local copy of existing npm tarball cache, never source repository node_modules",
+    "networkUsed": false
+  },
+  "build": {
+    "command": "npm run docs:build",
+    "exitCode": 0,
+    "heapMiB": 8192,
+    "log": "docs-build-r003-direct.log"
+  },
+  "allFrozenInputBytesUnchangedAfterBuild": true,
+  "dependencyIndependence": {
+    "noRepositoryNodeModules": true,
+    "noSourcePDFOrPrivateWorkingTools": true,
+    "freshInstalledPackages": 192,
+    "node": "v22.22.3"
+  },
+  "volumes": [
+    {
+      "id": "volume1",
+      "source": {
+        "file": "计算机程序设计艺术·卷1·基本算法.md",
+        "sha256": "ff31566c52de1643b13d8461c49a9b946bd379885aaa0a6fa762ebc7ab995da5",
+        "bytes": 2000750,
+        "lines": 27206
+      },
+      "pages": 103,
+      "math": 12699,
+      "zipMembers": 268,
+      "sourceAndAllAssetsMatch": true,
+      "siteStatus": "passed"
+    },
+    {
+      "id": "volume2",
+      "source": {
+        "file": "计算机程序设计艺术·卷2·半数值算法.md",
+        "sha256": "a273301d2ea5ada1ecc1c41cb836f8fc9636e1c2317dde57f2d5c9fa83e723ee",
+        "bytes": 2627049,
+        "lines": 38265
+      },
+      "pages": 83,
+      "math": 32487,
+      "zipMembers": 785,
+      "sourceAndAllAssetsMatch": true,
+      "siteStatus": "passed"
+    }
+  ],
+  "siteErrors": 0,
+  "siteWarnings": 0,
+  "fullMarkupEquivalence": {
+    "status": "passed",
+    "scope": "Every actual built book formula inner DOM compared with direct KaTeX0.19.1 renderToString(trust:false), same full HTML+MathML options; source/data-tex identity is independently covered by site-check.",
+    "volumes": [
+      {
+        "id": "volume1",
+        "mathCompared": 12699
+      },
+      {
+        "id": "volume2",
+        "mathCompared": 32487
+      }
+    ],
+    "mathCompared": 45186,
+    "uniqueTexAndMode": 26308,
+    "errors": [],
+    "totalErrors": 0
+  },
+  "actualBuiltIndexQueries": {
+    "status": "passed",
+    "scope": "Actual complete built search index loaded with the same MiniSearch options as VitePress client; this is not a browser interaction test.",
+    "indexFile": "@localSearchIndexroot.BtxGkV44.js",
+    "queries": {
+      "≤": {
+        "hits": 207,
+        "examples": [
+          {
+            "id": "/taocp-zh/volume1/sec-1-2-3.html#_1-2-3-和与积",
+            "score": 2.412395771819847
+          },
+          {
+            "id": "/taocp-zh/volume1/answers/1-2-3.html#_1-2-3-节",
+            "score": 2.405991439695221
+          },
+          {
+            "id": "/taocp-zh/volume1/sec-2-2-6.html#习题",
+            "score": 2.4015374452603444
+          },
+          {
+            "id": "/taocp-zh/volume2/sec-4-6-3.html#_4-6-3-幂的计算",
+            "score": 2.398236958322084
+          },
+          {
+            "id": "/taocp-zh/volume2/answers/4-2-2.html#_4-2-2-节",
+            "score": 2.398128800402718
+          }
+        ]
+      },
+      "≥": {
+        "hits": 191,
+        "examples": [
+          {
+            "id": "/taocp-zh/volume1/sec-1-2-9.html#_1-2-9生成函数",
+            "score": 2.809368560993766
+          },
+          {
+            "id": "/taocp-zh/volume2/sec-3-5.html#习题",
+            "score": 2.809367288095794
+          },
+          {
+            "id": "/taocp-zh/volume2/answers/4-5-2.html#_4-5-2-节",
+            "score": 2.8036192600902727
+          },
+          {
+            "id": "/taocp-zh/volume2/answers/3-5.html#_3-5-节",
+            "score": 2.798600487222889
+          },
+          {
+            "id": "/taocp-zh/volume1/sec-1-2-6.html#_1-2-6-二项式系数",
+            "score": 2.7949357009951363
+          }
+        ]
+      },
+      "LDA": {
+        "hits": 58,
+        "examples": [
+          {
+            "id": "/taocp-zh/volume1/answers/2-2-4.html#_2-2-4-节",
+            "score": 42.223099504986415
+          },
+          {
+            "id": "/taocp-zh/volume1/sec-1-3-1.html#_1-3-1-mix-的描述",
+            "score": 21.01332611958063
+          },
+          {
+            "id": "/taocp-zh/volume1/answers/2-2-6.html#_2-2-6-节",
+            "score": 17.720928303014876
+          },
+          {
+            "id": "/taocp-zh/volume1/sec-1-3-1.html#习题",
+            "score": 13.457370412964565
+          },
+          {
+            "id": "/taocp-zh/volume1/sec-1-4-3-1.html#_1-4-3-1-mix-模拟程序",
+            "score": 13.327693395316345
+          }
+        ]
+      },
+      "MIX": {
+        "hits": 90,
+        "examples": [
+          {
+            "id": "/taocp-zh/volume1/sec-1-3-2.html#_1-3-2-mix-汇编语言",
+            "score": 33.31374505951343
+          },
+          {
+            "id": "/taocp-zh/volume1/sec-1-3.html#_1-3-mix",
+            "score": 33.04846488117514
+          },
+          {
+            "id": "/taocp-zh/volume1/sec-1-4-3-1.html#_1-4-3-1-mix-模拟程序",
+            "score": 32.749267536260696
+          },
+          {
+            "id": "/taocp-zh/volume1/sec-1-3-1.html#_1-3-1-mix-的描述",
+            "score": 28.910465829844007
+          },
+          {
+            "id": "/taocp-zh/volume2/sec-mix-reference.html#mix-指令参考表",
+            "score": 22.134898532782447
+          }
+        ]
+      },
+      "随机数": {
+        "hits": 100,
+        "examples": [
+          {
+            "id": "/taocp-zh/volume2/sec-3.html#第-3-章-随机数",
+            "score": 89.330921087999
+          },
+          {
+            "id": "/taocp-zh/volume2/sec-3-2.html#_3-2-生成均匀的随机数",
+            "score": 81.82819198020604
+          },
+          {
+            "id": "/taocp-zh/volume2/sec-3-3-1.html#_3-3-1-研究随机数据的一般检验过程",
+            "score": 79.9073869259891
+          },
+          {
+            "id": "/taocp-zh/volume2/sec-3-5.html#_3-5-什么是随机序列",
+            "score": 71.80711585663543
+          },
+          {
+            "id": "/taocp-zh/volume2/sec-3-4-2.html#_3-4-2-随机抽样和洗牌",
+            "score": 65.44181371918785
+          }
+        ]
+      },
+      "欧几里得": {
+        "hits": 37,
+        "examples": [
+          {
+            "id": "/taocp-zh/volume2/sec-4-5-2.html#欧几里得算法",
+            "score": 42.70094989132615
+          },
+          {
+            "id": "/taocp-zh/volume2/sec-4-5-3.html#_4-5-3-对欧几里得算法的分析",
+            "score": 33.9499546919426
+          },
+          {
+            "id": "/taocp-zh/volume2/sec-4-5-3.html#习题",
+            "score": 15.804245174058671
+          },
+          {
+            "id": "/taocp-zh/volume2/sec-4-5-2.html#推广",
+            "score": 10.904654689978837
+          },
+          {
+            "id": "/taocp-zh/volume2/sec-4-5-2.html#二进制方法",
+            "score": 10.228048715541377
+          }
+        ]
+      }
+    }
+  },
+  "preservation": {
+    "volume1RouteSequenceUnchanged": true,
+    "volume1ZipSameAsOriginalArtifact": true,
+    "volume1BookSameAsGitHead": true
+  },
+  "qualification": "This independent clean install/build binds its frozen source tree. Later report and evidence additions do not relabel that tree; the final local build and GitHub Actions validate the complete release separately. Host paths and raw private process logs are omitted from this public summary."
+}

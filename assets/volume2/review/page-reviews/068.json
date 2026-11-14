@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 68,
+  "cnPrintedPage": 57,
+  "section": "3.3.2",
+  "enPdfPages": [
+    90,
+    91
+  ],
+  "enPrintedPages": [
+    75,
+    76
+  ],
+  "pageMarkdownSha256": "265c2bf2a314963a13faca12f9f3701191bf6aba0b3530cc318214593b0ab24e",
+  "cnPageImageSha256": "8c3354b68e35ef13f33eb180631f2b65b050edf12a02276d642fb0e73414f17f",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 35,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-068",
+    "p-57",
+    "ex-3-3-2-1",
+    "ex-3-3-2-2",
+    "ex-3-3-2-3",
+    "ex-3-3-2-4",
+    "ex-3-3-2-5"
+  ],
+  "coveredRegions": [
+    "M承前文献及全部讨论；猴子检验LCG、两字符遗漏数、均值/标准差和6次实验结论；习题1–5完整题号/难度/推荐箭头。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "猴子检验初值",
+      "sourceChinese": "x_1=1234567（小写x）",
+      "sourceEnglish": "X_1=1234567（大写X）",
+      "enPdfPage": 90,
+      "decision": "保留中文版小写字形，计算使用前文已定义递推数列。"
+    }
+  ],
+  "exerciseNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "answerExistenceEvidence": [
+    {
+      "exercise": 1,
+      "enPdfPage": 577,
+      "enPrintedPage": 562,
+      "review": "英文原答案实页直接查见独立题号；只据此建立链接，未在此转录答案。"
+    },
+    {
+      "exercise": 2,
+      "enPdfPage": 577,
+      "enPrintedPage": 562,
+      "review": "英文原答案实页直接查见独立题号；只据此建立链接，未在此转录答案。"
+    },
+    {
+      "exercise": 3,
+      "enPdfPage": 577,
+      "enPrintedPage": 562,
+      "review": "英文原答案实页直接查见独立题号；只据此建立链接，未在此转录答案。"
+    },
+    {
+      "exercise": 4,
+      "enPdfPage": 577,
+      "enPrintedPage": 562,
+      "review": "英文原答案实页直接查见独立题号；只据此建立链接，未在此转录答案。"
+    },
+    {
+      "exercise": 5,
+      "enPdfPage": 577,
+      "enPrintedPage": 562,
+      "review": "英文原答案实页直接查见独立题号；只据此建立链接，未在此转录答案。"
+    }
+  ],
+  "answerExceptions": [],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 67,
+    "start": "Denmark（October1975）",
+    "previousEnd": "Tech. Univ."
+  },
+  "numericAudit": {
+    "method": "Generate six consecutive blocks of2^21 values, starting X1=1234567 with source LCG a62605,c113218009,m2^29; leading ten bits Y=X>>19; mark each adjacent overlapping pair in bytearray2^20 and count zero entries. Compare with source mean141909.33,sd290.46; these theoretical moments are not independently rederived here.",
+    "records": [
+      {
+        "trial": 1,
+        "missingPairs": 141395,
+        "zAgainstSourceMeanAndSd": -1.770742959443597
+      },
+      {
+        "trial": 2,
+        "missingPairs": 140909,
+        "zAgainstSourceMeanAndSd": -3.4439509743165573
+      },
+      {
+        "trial": 3,
+        "missingPairs": 141449,
+        "zAgainstSourceMeanAndSd": -1.584830957791046
+      },
+      {
+        "trial": 4,
+        "missingPairs": 141066,
+        "zAgainstSourceMeanAndSd": -2.903429043585992
+      },
+      {
+        "trial": 5,
+        "missingPairs": 141398,
+        "zAgainstSourceMeanAndSd": -1.7604145149073442
+      },
+      {
+        "trial": 6,
+        "missingPairs": 141219,
+        "zAgainstSourceMeanAndSd": -2.376678372237097
+      }
+    ],
+    "allSixFitSourceRangeMinus1point5ToMinus3point5Sd": true
+  }
+}

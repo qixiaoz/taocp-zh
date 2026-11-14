@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.7",
+  "sections": [
+    "4.7"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 426,
+  "cnPrintedPage": 415,
+  "enPdfPages": [
+    547,
+    548
+  ],
+  "enPrintedPages": [
+    532,
+    533
+  ],
+  "pageMarkdownSha256": "862c4f99c675e7e9e54b2f4bc9d4a9a0fe21e8c78f12674ae2ba38b091619fbc",
+  "masterSha256": null,
+  "cnPageImage": "scans/426.jpg",
+  "cnPageImageSha256": "90e91dad378b272b95d9507af988b935d9fdc57017a53d802e9d407b7a533ddf",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-547.png",
+      "sha256": "a9cd185eac8b9f6349526cb09fb641665d61d71c2f95237310409d7f5f4f74c4"
+    },
+    {
+      "file": "source-audit/en-render/page-548.png",
+      "sha256": "d150d8acde91fba620e0c51ee27d418c594a2d29395c5d66ae5b78ea0e2a1576"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-426",
+    "p-415",
+    "ex-4-7-1",
+    "ex-4-7-2",
+    "ex-4-7-3"
+  ],
+  "numberedFormulaTags": [
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "coveredRegions": [
+    "施罗德方法结论/27–31全部/各种首项/单位根与零导数/平移不动点/代数函数原引文/习题1–3完整。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 65,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch425-numeric-check.json",
+  "numericScope": "Exact recurrence26 closedform by algebra and finite dyadic checks, conditionedonkeepingprintedT(2n)=2T(n)+C(n),C(n)=cn³,targetT(n). Recursion22–25 exactFraction testedorders2,4,8,16×5nonresonantcases; not general algorithm proof. All20 Padeexamplecoefficients. FussCatalan7 m2..7,n1..12. Full finite power-matrix products20/inverses21 andnegative-index21b orders4,7,10×4cases,17/18 at2rational(x,y) each. GeneralizedLagrange8 finitecompletecoefficients,not allseries proof. No numerical checks asserted asproof of arbitraryformalfield conditions/complexiteration/asymptotic complexity.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch425-proof.html",
+    "htmlSha256": "095973c58e5ce5373ee273fb2fd54ee80e97df43f3c4d35dd0be5287e14100a9",
+    "rendererSha256": "18a14b4f17127544b79760e76d475ed046baa4590ef5d1098c14e6e2c536e885",
+    "scope": "Four-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch425-proof-1280-426.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch425-proof-390-426.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 248,
+    "scrollableElementCounts": {
+      "1280": 25,
+      "390": 39
+    },
+    "machineObservations": ".work/volume2/source-audit/batch425-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch425-answer-presence.json",
+    "linkedExercises": [
+      1,
+      2,
+      3
+    ],
+    "allActualOriginalNumberedAnswersPresent": true,
+    "roundTripDeferredUntilAnswerTranscriptionAndAssembly": true,
+    "independentAnswerContentReviewClaimed": false
+  }
+}

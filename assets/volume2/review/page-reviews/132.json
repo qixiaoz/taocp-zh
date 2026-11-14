@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "只绑定单页稿；装订母稿另作包含证明，不能修改历史哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "originalFootnoteKeys": [],
+  "unverifiedPageRegions": [],
+  "cnPdfPage": 132,
+  "cnPrintedPage": 121,
+  "section": "3.5",
+  "enPdfPages": [
+    174,
+    175,
+    176
+  ],
+  "enPrintedPages": [
+    159,
+    160,
+    161
+  ],
+  "pageMarkdownSha256": "d2a1c75f48db6e939ebd871dd1666cd9b3c0c4e7d31a376c7972ab10ed7ddba9",
+  "cnPageImageSha256": "3838d7a9089c1c32fcadc7cdcdbf6d10b6132d059f0a1ede17a93f4e7f7d6af3",
+  "enPageImageSha256": {
+    "174": "c88d0b939d248a05e71f0686e76822680cae7d38442676f21ee49654aca26183",
+    "175": "83ab19a0435d93e1acb16c76fe3599531d5f9c14c14767a33d305a5bd3ccdae1",
+    "176": "249d3ed04910ed12891ff7858cfde01350b906c79ee877b60ad589609f817246"
+  },
+  "coveredRegions": [
+    "R1极限性质、R2零元素/固定实数反证、测度推广式(27)、有理数及可数值集反证、平方子序列式(28)、共同√n原界、R3与单调子序列全部。"
+  ],
+  "explicitAnchors": [
+    "pdf-132",
+    "p-121"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，原页定位以隐藏锚点保存。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 40,
+    "displayExpressions": 3,
+    "footnotes": 0,
+    "parseErrors": 0
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "平方位置改为0后的k分布计数界",
+      "cnPrintedPage": 121,
+      "enPrintedPage": 160,
+      "enPdfPage": 175,
+      "cn": "ν_k(n)最多改变√n",
+      "en": "the counts ν_k(n) ... changed by at most sqrt(n)",
+      "disposition": "保留两版共同原界并列疑，不擅改原作者论证。滑动k元组的严格并集界应考虑每个改值最多影响k个窗口。",
+      "analyticBound": "Among starts0<=j<n a length-k window uses positions0..n+k-2. Each replaced square can affect at most k starts, so changes<=k*(floor(sqrt(n+k-2))+1)=O(k*sqrt(n)) for fixedk; division byn still tends0.",
+      "finiteCounterexample": {
+        "n": 16,
+        "k": 2,
+        "originalPrefix": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "replacedSquareIndices": [
+          0,
+          1,
+          4,
+          9,
+          16
+        ],
+        "changedWindowCount": 7,
+        "sqrt_n": 4.0
+      },
+      "conclusionQualification": "对固定k，O(k√n)/n仍趋于0，原段关于保持∞分布的结论不受这一常数/边界疏漏影响。"
+    }
+  ],
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "2df4b6478c629edfae497fe5601bf55798522310a932f6945233cf4e4bc195cd",
+    "visualReviewSha256": "c503255a8c760487c841b617e3f3b7abb7654a4b066c605123ccc6b57b012a9c",
+    "browserAvailability": "Browser plugin not available; task-authorized bundled Playwright + isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 40,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 40,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "bb5e9e541e1937a23e38c2d17b8dc7eac95c55ca59b1598914ef138e017d7aa8",
+  "numericalCheckQualification": "有限计数例和源表全枚举辅助复核，不将数值检查宣称为定理W/M的一般证明。",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {},
+  "exerciseNumbers": [],
+  "answerExceptions": [],
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc/VitePress、全站题答/索引/搜索/线上下载和部署由主任务执行。"
+  ]
+}

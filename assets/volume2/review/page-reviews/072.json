@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 72,
+  "cnPrintedPage": 61,
+  "section": "3.3.3",
+  "enPdfPages": [
+    95,
+    96
+  ],
+  "enPrintedPages": [
+    80,
+    81
+  ],
+  "pageMarkdownSha256": "03ffd0d5fd0bae799173c1d9f66b75dc384ddd1d130ddc052e7a77f9c6ec8fbe",
+  "cnPageImageSha256": "5b8a447207415faa94eebb90974fd4865938aa6cffb14faa7158feb6df2f4b0d",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 34,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-072",
+    "p-61"
+  ],
+  "coveredRegions": [
+    "§3.3.3承前正文；定理P与完整证明、所有取整上下界和式(1)–(7)。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "定理P后r界",
+      "sourceChinese": "|r|≤d/2m",
+      "sourceEnglish": "|r|<d/2m",
+      "enPdfPage": 95,
+      "decision": "保留中文较弱的非严格界，未擅改为严格不等号。"
+    }
+  ],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 71,
+    "start": "美的结果",
+    "previousEnd": "过于完"
+  },
+  "numericAudit": {
+    "method": "Python Fraction; independent defining sawtooth sum(16) versus reciprocity recursion(19)/(31) for every1≤k≤24,coprime1≤h≤k,0≤c<k; then exact recurrence/table calculations for examples. TheoremP additionally enumerates every full-period LCG with2≤m≤40,1≤a,c<m and counts decreases. Finite checks supplement all formula direct CN/EN comparison; do not claim proof of general theorem.",
+    "theoremPFullPeriodCases": 925,
+    "theoremPAllMatch": true
+  }
+}

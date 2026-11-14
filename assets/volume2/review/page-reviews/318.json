@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.5.4",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 318,
+  "cnPrintedPage": 307,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    412,
+    413
+  ],
+  "enPrintedPages": [
+    397,
+    398
+  ],
+  "pageMarkdownSha256": "38758836519e436dd20183351bf3ce14a0a2f5473efb46cd1f746b48c1bf25d8",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/318.jpg",
+  "cnPageImageSha256": "3558b51d7bacc90d55ab2ccb033897d53bc793b2fe153c0f792846bb85d8d44a",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-412.png",
+      "sha256": "c6ce76df318514d5c043500bce61441fe37dfa94e78d5ab012dc6d40dab655ce"
+    },
+    {
+      "file": "source-audit/en-render/page-413.png",
+      "sha256": "b7f716a7d72c8c102ef34a6a7ce74c7411efde07ff917c26c838e8599932c0c6"
+    }
+  ],
+  "coveredRegions": [
+    "317续逼近段与连分数引用。",
+    "式(19)–(21)全部指数/向量指标/素数选取/线性依赖条件。",
+    "算法E全部E1–E5的赋值顺序、互素/不变量原注释和终止；E3疑点保源另列。",
+    "例子输入及再迭代14次的跨页句。"
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-318",
+    "p-307",
+    "alg-4-5-4-e"
+  ],
+  "numberedFormulaTags": [
+    19,
+    20,
+    21
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 317,
+    "previousEnd": "反之，如果 $x/d$ 是 $\\sqrt{kN}$ 的非常",
+    "start": "好的近似值"
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 319,
+    "end": "再继续做 $14$ 次迭代，",
+    "nextStart": "我们将得到",
+    "floatBeforeContinuation": true
+  },
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via actual repository book-markdown.mjs",
+    "mathExpressions": 83,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "仅语法；原图/双语核对与有限复算分列。"
+  },
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch312-proof.html",
+    "htmlSha256": "650934f8eed2449a7f566b8f1a67f3ac2e9586dcab371914f33701094e6f5162",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof only, not whole-volume/offline/final-site/online acceptance.",
+    "browserPath": "Browser plugin not available; bundled Playwright plus local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch312-proof-1280-318.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch312-proof-390-318.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch312-right-390-318.png",
+    "mobileRightEndVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "mathmlBodyLeak": 0,
+    "mathParseErrors": 0,
+    "proofMathExpressions": 471,
+    "machineObservations": ".work/volume2/source-audit/batch312-browser.json",
+    "scrollableElementCounts": {
+      "1280": 44,
+      "390": 64
+    }
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch312-numeric-check.json",
+  "numericScope": "685 exact/numeric checks include actual sample data, primality certificates and finite algorithm replay; finite AlgorithmP exhaustion does not prove its general bound. Historical performance timings and6432966-iteration claim not rerun.",
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终整卷母稿装订/包含证明",
+    "整卷Pandoc、正式VitePress和线上发布/下载",
+    "未把有限复算、历史性能描述或机器语法通过扩写为一般定理的证明。"
+  ],
+  "sourceDiscrepanciesRetained": [
+    {
+      "location": "AlgorithmE stepE3 original parenthetical annotation",
+      "cnPrintedPage": 307,
+      "enPdfPage": 413,
+      "enPrintedPage": 398,
+      "original": "存在某个与P互素的Q使P²−kNQ²=(−1)^S V",
+      "handling": "两版共有；保持原式并列疑，不在正文增加新的提升变量或改写Q条件。",
+      "preciseCounterexample": {
+        "from": "Table1 thirdE4 row, CN319/printed308; EN413/printed398",
+        "N": 197209,
+        "k": 1,
+        "P": 159316,
+        "V": 720,
+        "S": 0,
+        "PDefinitionInE1E5": "P=p_n modN",
+        "forcedQSquaredNumerator": 25381587136,
+        "forcedQSquaredDenominator": 197209,
+        "forcedQSquared": 128704,
+        "lowerSquare": 128164,
+        "upperSquare": 128881,
+        "integerQExists": false
+      },
+      "actualRelationPreservedByReplay": "P²≡(−1)^S V (mod N)",
+      "qualification": "该反例仅否定取模后的P满足原注释整数等式，不说明算法输出错误；前100步同余不变量与25输出独立复算均成立。",
+      "evidence": ".work/volume2/source-audit/batch312-numeric-check.json"
+    }
+  ]
+}

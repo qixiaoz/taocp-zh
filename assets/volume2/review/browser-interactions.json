@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "scope": "Final actual local production-site interaction evidence; original raw results unchanged.",
+  "sourceBookSha256": {
+    "volume1": "ff31566c52de1643b13d8461c49a9b946bd379885aaa0a6fa762ebc7ab995da5",
+    "volume2": "a273301d2ea5ada1ecc1c41cb836f8fc9636e1c2317dde57f2d5c9fa83e723ee"
+  },
+  "buildGate": {
+    "approvedNewBuild": true,
+    "rootSignal": "Explicit new dual-volume site-check passed, errors0 warnings0",
+    "volume2SourceSha256": "a273301d2ea5ada1ecc1c41cb836f8fc9636e1c2317dde57f2d5c9fa83e723ee",
+    "siteCheckSha256": "ea71ce0e46bba75f9adcd272019472a18ce0b4ebdd8ff1f1c0c77149e6d1839e",
+    "distIndexSha256": "e7ca95abb47581766ffa9caa9b588414b025eb6a6aeebd0a4fce4359f86c642a",
+    "createdAt": "2026-11-14T19:07:51.817Z",
+    "browserPlugin": "not available",
+    "browserFallback": "existing Playwright with isolated Chrome; sandbox escalation required"
+  },
+  "evidence": {
+    "links": {
+      "file": "private-evidence/site-interaction/runs/001-initial/links-interaction.json",
+      "sha256": "29864409877db65e150ea81d9270a27b8986f3980fe7675c3cba03dc614ae445"
+    },
+    "settingsFinal": {
+      "file": "private-evidence/site-interaction/runs/002-settings-refinement/settings-search.json",
+      "sha256": "cabf743c606e10ceae11f9927d8ab691baeab71bf6224d055a425eec1e912a43"
+    },
+    "spectral": {
+      "file": "private-evidence/site-interaction/runs/001-initial/spectral-interaction.json",
+      "sha256": "1cbf43818eb87c15bb46342075826f8ac6fa234b6957bd91c3d9a6bb04c8276c"
+    },
+    "maxMathImage": {
+      "file": "private-evidence/site-interaction/runs/004-max-math-image/max-math-image.json",
+      "sha256": "c31dc7a6fbc8b43bfdb02a0bb550139099e3a750f30990ddc15a586ef5b3aa3d"
+    },
+    "consoleExplanation": {
+      "file": "private-evidence/site-interaction/runs/003-console-and-number/console-reproducer-and-spectral-number.json",
+      "sha256": "7703fb76c4dfaca4078f1fff3814886821d8a79fabaa8eb74e40988bed839f4a"
+    },
+    "visual": {
+      "file": "private-evidence/site-interaction/visual-review.json",
+      "sha256": "052745b18e471770fce48316cab79e388de7d4465f893969ca33ae26f2ee8f80"
+    },
+    "handoff": {
+      "file": "private-evidence/site-interaction/HANDOFF.md",
+      "sha256": "bea7fe2c1adf7c4078cf642c43f597dd5c0916095be5cd64a5ff707740faaf99"
+    }
+  },
+  "caseCounts": {
+    "totalFinalRecords": 91,
+    "rawPass": 90,
+    "rawFail": 1,
+    "functionalAndLayoutCases": 85,
+    "functionalAndLayoutPassed": 85,
+    "consoleGroups": 6,
+    "cleanConsoleGroups": 5,
+    "explainedNonAppConsoleGroups": 1,
+    "settingsRefinedCases": 23,
+    "settingsRefinedPassed": 23
+  },
+  "actions": {
+    "footnoteDistinct": 21,
+    "footnoteRoundTrips": 42,
+    "seeDistinct": 13,
+    "seeRoundTrips": 26,
+    "zipDownloads": 4,
+    "reportDownloads": 4,
+    "searchDistinctQueries": [
+      "线性同余",
+      "ENTX",
+      "∞"
+    ],
+    "searchExecutions": 6,
+    "searchOpenedResultsPassed": 6,
+    "directlyViewedRepresentativeScreenshots": 26
+  },
+  "historicalInitialSettings": {
+    "file": "private-evidence/site-interaction/runs/001-initial/settings-search.json",
+    "sha256": "721387ca933222275d2bc999582f7e50376eb96922d28ad1c8223d610a890237",
+    "status": "historical initial harness diagnosis; not final success evidence",
+    "differences": "Initial broad .VPDoc .content selected aside content; initial mobile text filter selected active3.3.4 self-link. Refined test uses direct main content container, waits for real geometry, and clicks distinct3.4 route. No public implementation change."
+  },
+  "explainedConsole": {
+    "url": "/favicon.ico",
+    "trigger": "Chrome automatic origin-root favicon request after opening standalone SVG",
+    "projectBase": "/taocp-zh/",
+    "svgDisplayed": true,
+    "returnPassed": true,
+    "appPageErrors": 0,
+    "downloadErrAborted": "Expected browser navigation-to-download handoff; all downloaded bytes verified."
+  },
+  "limitations": [
+    "Local production build only; online acceptance separate.",
+    "26 representative screenshots were directly viewed by model, not human whole-site visual signoff.",
+    "Root owns complete186routes×2width automatic checks."
+  ],
+  "status": "passed-with-explained-standalone-image-favicon-request",
+  "publicationSanitization": {
+    "privateOriginalEvidenceSha256": "2c53004a2d25c4ced96e92c48c87df7b8fcb588fd3a726cd93ccb9a17a13cced",
+    "fields": [
+      ".evidence.links.file",
+      ".evidence.settingsFinal.file",
+      ".evidence.spectral.file",
+      ".evidence.maxMathImage.file",
+      ".evidence.consoleExplanation.file",
+      ".evidence.visual.file",
+      ".evidence.handoff.file",
+      ".historicalInitialSettings.file",
+      ".explainedConsole.url"
+    ],
+    "treatment": "Local preview origin removed from observed URLs; private work-file locators marked private-evidence. Actual source hashes, action counts, successes and the explained non-application favicon404 remain unchanged. Private raw evidence is not included in downloads."
+  }
+}

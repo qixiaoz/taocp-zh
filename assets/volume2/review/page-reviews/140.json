@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录只绑定单页稿，装订母稿另加包含证明，不能把历史哈希换成新哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "cnPdfPage": 140,
+  "cnPrintedPage": 129,
+  "section": "3.5",
+  "enPdfPages": [
+    185,
+    186
+  ],
+  "enPrintedPages": [
+    170,
+    171
+  ],
+  "pageMarkdownSha256": "bf973f4fdd7336faba062e57451a189b47eaa4739f98e42c1c7b91483c64f827",
+  "cnPageImageSha256": "d6f4c1f8ed2674e89efdadfabb5d6f9e221ec58a90b68751ca2f8a3d15dcd237",
+  "enPageImageSha256": {
+    "185": "8573d170f75a00b147d3926cbeb758bc97a6d559558c624325bf604ab80c7b72",
+    "186": "a83eae403ce6f1dc23767047ba9b982da70504aeb1e2e8724ca3c290835a4945"
+  },
+  "coveredRegions": [
+    "N源续句、线性同余位集式(38)、放大比与姚期智定义、定义P及时间定义、预测检验、引理P1全部与hybrid证明前段。"
+  ],
+  "explicitAnchors": [
+    "pdf-140",
+    "p-129"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，源页位置用隐藏锚点保留。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 92,
+    "displayExpressions": 1,
+    "parseErrors": 0
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.5 引理P1证明",
+      "cnPrintedPage": 129,
+      "enPrintedPage": 171,
+      "enPdfPage": 186,
+      "original": "通过补充A的输出",
+      "final": "通过对A的输出取补",
+      "basis": "英文原图为complementing the output of A，指将二值输出0/1互换，使概率差的符号反向，从而可假定P(A,S)−P(A,$_N)≥ε；不是添加/补充输出。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_mid_word_from_pdf_page": 139,
+    "starts_mid_paragraph": true,
+    "left_end": "$S$ 的每个元素代表一个可能用作伪随机",
+    "right_start": "位源的序列，选择不同的“种子”值就得到 $S$ 的不同元素。",
+    "joined_word": "伪随机位源",
+    "paragraph_end": "则 $S$ 是",
+    "instruction": "仅首段与139末合段；随后的式(38)是完整独立式，页锚点保持公式外。"
+  },
+  "exerciseNumbers": [],
+  "recommendedExercises": [],
+  "answerExceptions": [],
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "7116fa8981a84666930c23eb46c0ed70c0d8d22c3264bc3688011ce5072846bd",
+    "visualReviewSha256": "a3d7e62a8058b641aa69833089ecf43d22162b0e37b0b13b697a42e3acbbb11f",
+    "browserAvailability": "Browser plugin not available; task-authorized bundled Playwright + isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 92,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 92,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "a51768b650635f1c287a28730d8d4710d433ec4d0ff16acf89c283181298bfde",
+  "numericalCheckQualification": "有限真值表、GF(2)矩阵枚举和历史算术复算辅助原图核对，不把有限检查当作普遍复杂度/概率/测度论证明。",
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc/VitePress、全站题答/索引/搜索/线上下载和发布由主任务统一执行。"
+  ]
+}

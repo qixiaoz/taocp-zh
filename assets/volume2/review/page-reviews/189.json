@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "仅绑定当前单页字节；装订后另建包含/合段证明，不仅改此哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接看中文完整页与所列英文页，按段、式、习题、字段核对。解析和复算另列，不充当原页证据。",
+  "cnPdfPage": 189,
+  "cnPrintedPage": 178,
+  "enPdfPages": [
+    248,
+    249
+  ],
+  "enPrintedPages": [
+    233,
+    234
+  ],
+  "pageMarkdownSha256": "f0e2fc4ce048355496cfc95cc2d13eb8a3f0a96c31cda6a91d9fd8549d5ed507",
+  "cnPageImage": "scans/189.jpg",
+  "cnPageImageSha256": "c2276db199757a02d95df966cd9a0c926af177481594d7005d077435eda0000e",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-248.png",
+      "sha256": "1f41f2c00760dac66846ffc8adbfabf0db1b6ca307eaa142041f83e35c8cc7ec"
+    },
+    {
+      "file": "verified-sources/en-249.png",
+      "sha256": "40f960aea95f5532c18e8326d3add4b1fec4ec9447852be1dc9326df7211b8be"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号、书名/节名及页码；隐藏页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-189",
+    "p-178"
+  ],
+  "coveredRegions": [
+    "迭代终止条件与式20。",
+    "两组比较符号prec/succ/sim/approx定义21–24、max/min及e_u/e_v。",
+    "邻域N(u)定义及所有集合关系等价表述。",
+    "式25–33每个单/双波线、严格/非严格号、epsilon方向、min及和。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33"
+  ],
+  "numberedListings": [],
+  "numberedWordLayouts": [],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "not-applicable",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "本页末式33完整；后续规律继续190，未跨页截断公式。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 61,
+    "parseErrors": 0,
+    "codeLines": [],
+    "meaning": "只证明语法可排版；原页/英文比对另列。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "独立复算辅助原页核查，不作原书答案来源或全节证明。",
+    "results": {
+      "distinctRelationsChecked": [
+        "prec",
+        "succ",
+        "sim(singlewave)",
+        "approx(doublewave)"
+      ],
+      "eq33Conclusion": "sim, notapprox",
+      "eq32Tolerance": "min(epsilon1,epsilon2)"
+    }
+  },
+  "untested": [
+    "最终母稿包含、题答链接及引语分节归属。",
+    "正式VitePress/Pandoc整卷；私有选择性HTML视觉验证另列。"
+  ]
+}

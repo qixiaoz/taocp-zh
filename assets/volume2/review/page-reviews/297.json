@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "sections": [
+    "4.5.3"
+  ],
+  "pdf_page": 297,
+  "printed_page": 286,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "b1a4a1876931dd36ee6b685d3ba9d0a42d2565a25f4404bcc8dab25f2c97d594",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/scans/297.jpg",
+    "image_sha256": "0551fcae14c266a68c6188c3087668c31dff0244a89c01481864b9f7380f9e6d",
+    "scope": "Entire Chinese source page: prose/proof, all inline/display mathematics,40digit constant, table cells, MIX fields/comments, original exercise difficulty/arrows/parts and polynomial algorithm steps where present."
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      385,
+      386,
+      387
+    ],
+    "en_printed_pages": [
+      370,
+      371,
+      372
+    ],
+    "scope": "Actual English page images inspected alongside Chinese originals, all corresponding prose and formula/sequence/table/program/algorithm fields compared. No fixed page-offset assumption.",
+    "qualification": "Original proof transcribed and inspected; recomputation and finite examples are auxiliary and not called general proof."
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/batch293-proof.html",
+    "html_sha256": "a1656986d1a567ba15029b8fd3b0236cf26b6f3a9e173566125211ac5b7d5b91",
+    "math_count_in_eight_page_proof": 535,
+    "math_parse_errors": 0,
+    "desktop_visual_review": true,
+    "mobile_visual_review": false,
+    "desktop_screenshot": ".work/volume2/source-audit/batch293-proof-1040-297.png",
+    "mobile_screenshot": ".work/volume2/source-audit/batch293-proof-390-297.png",
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "document_horizontal_overflow": false,
+    "missing_images": 0,
+    "page_errors": 0,
+    "all_wide_elements_initial_left_and_right_end_reachable": true,
+    "scroll_evidence": ".work/volume2/source-audit/batch293-scroll.json",
+    "scrollable_element_counts": {
+      "1040": 65,
+      "390": 100
+    },
+    "inline_katex_nowrap": true,
+    "qualification": "Standalone eight-page proof using current renderer/math CSS; not final whole-volume/site acceptance.",
+    "historical_before_removing_nonexistent_answer13_link": ".work/volume2/source-audit/history/batch293-before-answer13-exception"
+  },
+  "substantive_corrections": [],
+  "source_discrepancies_retained": [],
+  "numeric_evidence": ".work/volume2/source-audit/batch293-numeric-check.json",
+  "next_steps": [
+    "Bind into master with page anchors outside formulas/code/tables.",
+    "Preserve old page SHA records historically if master binding changes bytes."
+  ],
+  "continuation": {
+    "begins_mid_sentence_from_pdf_page": 296,
+    "ends_mid_sentence_after_display": true,
+    "last_display": "double sum57",
+    "continues_on_pdf_page": 298,
+    "next_first_text": "来估计执行除法步骤的平均次数"
+  }
+}

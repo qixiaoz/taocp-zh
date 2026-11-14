@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.5.4",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 323,
+  "cnPrintedPage": 312,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    418,
+    419,
+    420
+  ],
+  "enPrintedPages": [
+    403,
+    404,
+    405
+  ],
+  "pageMarkdownSha256": "e650893bae311224827665349d8fd3682f20b416e4e14d6f363bf4c50ffb3845",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/323.jpg",
+  "cnPageImageSha256": "a4c4884b2ece64e6767bce60224a2d9c07e5e50c9ed614043bb7b62966e8e0e5",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-418.png",
+      "sha256": "561acd9a6d4bf2618aeae0eeebe7efec6fb121ffc7be5e59a4f0e5b2838f844b"
+    },
+    {
+      "file": "source-audit/en-render/page-419.png",
+      "sha256": "2ca2ca9cfcb3894735e3620608ff2719f5f811bfd777bd4021074d951df5b8aa"
+    },
+    {
+      "file": "source-audit/en-render/page-420.png",
+      "sha256": "afb544ef8d2ea1a6153c9e2a264fb3abf5790021b383637686e5f9d904a6c572"
+    }
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-323",
+    "p-312"
+  ],
+  "numberedFormulaTags": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 61,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "仅语法；原图/双语核对与独立复算分列。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终整卷母稿装订/包含证明",
+    "整卷Pandoc、正式VitePress和线上发布/下载",
+    "未把有限复算、历史性能描述或机器语法通过扩写为一般定理的证明。"
+  ],
+  "coveredRegions": [
+    "中文本页全部正文、所有行内式及无编号/编号独立式、证明推导与不等式、引文、数表每格及脚注（如存在），实际查看所列英文对应原图。"
+  ],
+  "substantiveCorrections": [
+    {
+      "section": "4.5.4 RSA historical assertion",
+      "cnPrintedPage": 312,
+      "enPdfPage": 418,
+      "enPrintedPage": 403,
+      "original": "只有知道一个很大的数N的素因数才能将加密的信息破译",
+      "final": "似乎只有知道一个很大的数N的素因数才能将加密的信息破译",
+      "basis": "English includesapparently; the book later explicitly notes absence of a proof that arbitrary cube-root extraction requires factoring."
+    },
+    {
+      "section": "4.5.4 RSA historical confidence",
+      "cnPrintedPage": 312,
+      "enPdfPage": 418,
+      "enPrintedPage": 403,
+      "original": "为在计算机网络中保护私密数据和通信提供了一种很安全的方式",
+      "final": "几乎肯定为在计算机网络中保护私密数据和通信提供了一种很安全的方式",
+      "basis": "English includesalmostcertainly. Historical source confidence is preserved with its qualifier, not promoted to a security theorem or current advice."
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": {
+    "nextCnPdfPage": 324,
+    "end": "李维斯特、沙米尔和",
+    "nextStart": "阿德尔曼最初的方案"
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch320-numeric-check.json",
+  "numericScope": "1528检查；460素数表项用完整n−1Lucas证书精确认证，所有被跳过候选有合数证据；大费马数只验给定因数整除与残余位数，未证大残余素性。有限RSA/同余/递推抽验不是一般定理证明。",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch320-proof.html",
+    "htmlSha256": "bb243d49027d877f592fd2df0cc21c523760755c946dcc262088c3c79094011a",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof only; not final site/whole-volume acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright and localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch320-proof-1280-323.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch320-proof-390-323.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch320-right-390-323.png",
+    "mobileRightEndVisualReview": false,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "proofMathExpressions": 472,
+    "scrollableElementCounts": {
+      "1280": 56,
+      "390": 62
+    },
+    "machineObservations": ".work/volume2/source-audit/batch320-browser.json",
+    "footnotes": [
+      [],
+      []
+    ]
+  }
+}

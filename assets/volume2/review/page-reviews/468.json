@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 468,
+  "cnPrintedPage": 457,
+  "enPdfPages": [
+    600,
+    601
+  ],
+  "enPrintedPages": [
+    585,
+    586
+  ],
+  "pageMarkdownSha256": "aca6ad192c19a0120e3592d1a03a1462e61540976c90d8d087b3bc65f1dca6ec",
+  "cnPageImageSha256": "66672c8edacc2a44a3247c4a23836ee6c643a3cecd97a88f84a3fb6220982903",
+  "enPageImageSha256": {
+    "600": "8dca7d1a6f4a8c7d91a49736c9d4b141a019deb5b7cc20d1054528933041365a",
+    "601": "13f32140ce72493b6b4258e2b3eba9475f4b31e62656b2b9c666fe7b56bb37f9"
+  },
+  "coveredRegions": [
+    "3.4.1答5麦克拉伦续段、6完整面积比/几何分布/图A4、7全归纳证明和别名表算法/原注、8/9、10全部32混合分量常量/导数根/D/E及四组原近似值。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-468",
+    "p-457",
+    "ans-3-4-1-6",
+    "ans-3-4-1-7",
+    "ans-3-4-1-8",
+    "ans-3-4-1-9",
+    "ans-3-4-1-10"
+  ],
+  "answerAnchors": [
+    "ans-3-4-1-6",
+    "ans-3-4-1-7",
+    "ans-3-4-1-8",
+    "ans-3-4-1-9",
+    "ans-3-4-1-10"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 86,
+    "displayExpressions": 2,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.4.1答10 D常量",
+      "cnPrintedPage": 457,
+      "enPdfPage": 601,
+      "enPrintedPage": 586,
+      "original": "D_(j+15)←a_j/b_j j (额外j紧邻分母后)",
+      "final": "D_(j+15)←a_j/b_j",
+      "basis": {
+        "cnPrintedPage": 457,
+        "cnOriginal": "D_(j+15)←a_j/b_j j (额外j紧邻分母后)",
+        "english": "D_(j+15)←a_j/b_j, EN601 printed586",
+        "final": "D_(j+15)←a_j/b_j",
+        "basis": "英文原式无额外j；D是楔形线性上下界a_j/b_j比值。CN108表1j=6给D21=.995，复算a6/b6约.995，若再除6或乘6均不符。",
+        "D21": "0.995154501317650875109461"
+      }
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 467,
+    "answer": "3.4.1-5",
+    "right_start": "我们还可以按如下步骤处理（由麦克拉伦建议）：",
+    "continuation_end": "并且数值稳定性稍差。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "79abfa46724d8d811ebd1697835aa80f05953c547df3610c9e8666ccbd0a61b5",
+    "visualReviewSha256": "a02cbf1518a20f9b511952f7157e24252810bc321bf27b5457f0968192446899",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 86,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 86,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 3,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ],
+    "imageZoomCases": [
+      {
+        "viewport": 1280,
+        "images": [
+          {
+            "url": "assets/volume2/figures/answer-fig-A-4.svg",
+            "root": "svg",
+            "labels": 9,
+            "images": [],
+            "href": "../../../assets/volume2/figures/answer-fig-A-4.svg"
+          }
+        ],
+        "actualOpenAndBrowserBack": true
+      },
+      {
+        "viewport": 390,
+        "images": [
+          {
+            "url": "assets/volume2/figures/answer-fig-A-4.svg",
+            "root": "svg",
+            "labels": 9,
+            "images": [],
+            "href": "../../../assets/volume2/figures/answer-fig-A-4.svg"
+          }
+        ],
+        "actualOpenAndBrowserBack": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "55c5ed9a0a067646d83b6e56feb7ba476432b9d02bb7d83194da50b47b243f31",
+  "numericalCheckQualification": "独立精确整数/有理数和高精度数值计算辅助逐原图比对；有限枚举/差分不替代一般证明。论证依据另逐项明列。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "assets": [
+    {
+      "path": "assets/volume2/figures/answer-fig-A-4.svg",
+      "sha256": "97e83f0f298620e6d9a6a9b01ff943be48d9dd62eac4a03dd453ce1851960db3",
+      "kind": "editable-svg-redraw",
+      "cnPdfPage": 468,
+      "enPdfPage": 600,
+      "visualComparedWithBothOriginals": true,
+      "geometry": "单位方形四边/第一象限单位圆弧/左原点/两轴与1/竖线U=x及交点/A1左A2右/圆箭头逐原图一致；示意x=.75仅为排版位置，与原图约同。"
+    }
+  ],
+  "publicationSanitization": {
+    "privateOriginalReviewSha256": "5d579ef04dc71b4fd39032388307ec773bdc6e7a36e970da838cfc29fb441d5a",
+    "fields": [
+      ".renderReview.imageZoomCases[0].images[0].url",
+      ".renderReview.imageZoomCases[1].images[0].url"
+    ],
+    "treatment": "Local file asset URLs are normalized to repository-relative asset paths for public delivery. The original observed URLs remain only in the private, hash-bound review record."
+  }
+}

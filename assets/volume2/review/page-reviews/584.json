@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "app-a",
+  "reviewDate": "2026-11-14",
+  "reviewerType": "model-direct-page-image-comparison",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "381b2a2096c63e539654f99726d2bd7fcda8f1b5741ac834d0697c9c4235639a",
+  "cnPdfPage": 584,
+  "cnPrintedPage": 573,
+  "enPdfPages": [
+    742
+  ],
+  "enPrintedPages": [
+    727
+  ],
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "reviewScope": "All original Chinese page text, symbols, digit groups, signs, table columns/rows or harmonic formulas directly viewed; corresponding English original table/formula images compared.",
+  "priorInputQualification": "The volume-one common-appendix transcription was used only as a starting text. This new review actually examined the volume-two Chinese/English pages and freshly recomputed its data; no old review hash is relabeled.",
+  "cnEvidence": {
+    "image": "cn-584.png",
+    "sha256": "5b913c6c9208b7117839ff60f77b08d00ab64b2ea0216dbf83b9eb8eeab3892f",
+    "viewedDirectly": true
+  },
+  "enEvidence": [
+    {
+      "image": "en-742.png",
+      "sha256": "4394c010671a79574a27b4aec5c98970da5232dc3b159ecfa0c0f1ba40c55fad",
+      "viewedDirectly": true
+    }
+  ],
+  "numericalVerification": {
+    "file": "appendix-a-numeric-check.json",
+    "sha256": "6008e7d95686fc8740678b2fc16ed5ee2f1d755ab555f08912c00229b01a89b0",
+    "freshPrecisionDecimalDigits": 150,
+    "scope": "44 constants to 45 octal fractional places, all rounding and direction marks."
+  },
+  "rendering": {
+    "html": "proof/appendix-a-vitepress.html",
+    "htmlSha256": "53c9314657b918c2ef62d6ce8fb056b5f6bcfac924ecaa65db653abcc9c78cda",
+    "browserRecord": "proof/appendix-a-browser.json",
+    "browserRecordSha256": "9266bc51781ea1495b212a61068513278911c4edb471d296085c59f570f05845",
+    "viewports": [
+      1280,
+      390
+    ],
+    "wholeDocumentOverflow": false,
+    "pageErrors": 0,
+    "representativeScreenshotsViewedDirectly": [
+      "proof/app-a-1280-583-left.png",
+      "proof/app-a-390-584-right.png",
+      "proof/app-a-390-586-right.png"
+    ],
+    "qualification": "Four-page independent proof, not final whole-volume website acceptance. Numeric values are additionally checked from the exact page draft bytes."
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "cnPrintedPage": 573,
+      "original": "在下一版中，我计划给出这些常数的36位十六进制数字，以代替45位八进制数字。",
+      "handling": "Retained as original Chinese text. The corresponding English digital Appendix A pages741–744 have no matching sentence; not silently deleted or presented as a current editorial promise.",
+      "bilingualQualification": "This Chinese-only sentence was directly checked against its Chinese source; no nonexistent English counterpart is claimed."
+    }
+  ],
+  "pending": [
+    "Whole-master inclusion binding",
+    "Final full-volume Pandoc and website acceptance"
+  ]
+}

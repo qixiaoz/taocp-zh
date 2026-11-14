@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "section": "4.6.3",
+  "sections": [
+    "4.6.3"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 371,
+  "cnPrintedPage": 360,
+  "enPdfPages": [
+    478,
+    479
+  ],
+  "enPrintedPages": [
+    463,
+    464
+  ],
+  "pageMarkdownSha256": "9ffb57679c8c53a486203e3b56e05e408018d198b092a7fc4bf743b4f37c8497",
+  "masterSha256": null,
+  "cnPageImage": "scans/371.jpg",
+  "cnPageImageSha256": "7c68b36481efd62cea7bcb37f8b40c92d21ad722fca71efb3df99d370f012c78",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-478.png",
+      "sha256": "e73d9651ab2949a326c8da9ef3f6a51a279b0295292595d3ac21adeef1b0ee9f"
+    },
+    {
+      "file": "source-audit/en-render/page-479.png",
+      "sha256": "e69b8366b29213f00dee9d980222e2146855c15218bc3fb24d54bb54ae28b8d3"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-371",
+    "p-360"
+  ],
+  "numberedFormulaTags": [],
+  "coveredRegions": [
+    "跨页完整讨论、因子方法全部条件及n15/55/33数例、m进制全部式/限制、幂树比较每一数值/例子、加法链引言。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 71,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch369-numeric-check.json",
+  "numericScope": "Specific source figures14/15 all162 paths and finite complete minimum-search certificate n1..233; source23 table/invariant; exact BFSpower-tree/factor-method comparison of all100000targets. Bound checks on displayed finite paths do not establish general TheoremA/B/C or optimality beyond exact finite targets.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch369-proof.html",
+    "htmlSha256": "e24a22ea40a6ff98699a885a0e570ea160b00c66ba308e3fe825d8c70166798a",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch369-proof-1280-371.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch369-proof-390-371.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 466,
+    "scrollableElementCounts": {
+      "1280": 48,
+      "390": 64
+    },
+    "machineObservations": ".work/volume2/source-audit/batch369-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "startsMidParagraph": {
+    "previousCnPdfPage": 370,
+    "previousEnd": "$n$的值特别大",
+    "start": "的情况."
+  }
+}

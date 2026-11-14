@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订须另证包含与跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文整页及列出的英文页图，逐段/逐式/表格/程序字段频次注释和难度推荐符号比较。机器检查和复算另列，不声称人类签核。",
+  "cnPdfPage": 222,
+  "cnPrintedPage": 211,
+  "enPdfPages": [
+    289,
+    290,
+    291
+  ],
+  "enPrintedPages": [
+    274,
+    275,
+    276
+  ],
+  "pageMarkdownSha256": "1b8184d923e57112dc5ff301acd593f0e54d72c4e31e54ff04bd532ae537613e",
+  "cnPageImage": "scans/222.jpg",
+  "cnPageImageSha256": "24e99c8a5d5781998412a8f3cb777cc39a20f82b423ae97d4c29fbfd1468688c",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-289.png",
+      "sha256": "e8687f697802a09a943e246043075104fd05b2ef3d92f441d91d380fdb646991"
+    },
+    {
+      "file": "verified-sources/en-290.png",
+      "sha256": "0692538f3cec42ff488d27291e39a3a58a1dd1c84170cd1759660ed5476869dd"
+    },
+    {
+      "file": "verified-sources/en-291.png",
+      "sha256": "aa5ebd53b8acf996d5b0746aaeeeef38859b1ff7dcb5a71bff8e10988532884c"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-222",
+    "p-211"
+  ],
+  "coveredRegions": [
+    "程序D088–101尾部14行含D8原省略、全部频次/注释，原结束方块。",
+    "D运行时间量M/N/E/K/Kprime、低概率例外、d>1时间、Smith文献。",
+    "测试数据恒等式与underbrace三组位数、99899999001实例。",
+    "求补表示字长/符号的跨页论述。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pendingactualanswer-area-verification",
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuationNotes": "首D088–101续221087，D1原002–038及D8原101省略均不补造。末“乘法和除”接223首“法运算过程中…”，合段。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 30,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [
+      14
+    ],
+    "meaning": "只是语法；内容核查依实际中英文原页。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终母稿装订/跨页代码合并/题答回链",
+    "正式VitePress/Pandoc整卷与线上",
+    "未执行MIX或将机器字段一致称作算法正确性证明。"
+  ],
+  "renderReview": {
+    "file": "verified-render/classical-dom-review-222-229.json",
+    "sha256": "18411f91c2491a713c87fc399036de41b8e750c7fd1b54d844a234e272d254fc",
+    "scope": "当前页SHA私有1280/390 DOM与列出复杂区域实际看图，非正式全站。"
+  }
+}

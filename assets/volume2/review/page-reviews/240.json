@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.3",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订另证包含和跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型实际查看中文整页与列出的英文原页图片，逐段、逐式、表单元、算法、图线和难度推荐符号对照；不声称人类签核。",
+  "cnPdfPage": 240,
+  "cnPrintedPage": 229,
+  "enPdfPages": [
+    313,
+    314
+  ],
+  "enPrintedPages": [
+    298,
+    299
+  ],
+  "pageMarkdownSha256": "8b7821e39aeddbfabd4687b9f9b5498a528ebd6cc4c66f0d89ebca241ab98265",
+  "cnPageImage": "scans/240.jpg",
+  "cnPageImageSha256": "b5cd17425b949333db0af59a7be34d2d82e06e51a57ce4b036f98e0c3c8859a4",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-313.png",
+      "sha256": "10a7d6398b061248983b99abfe158abcd86bf42113e154404f49cf785349ea71"
+    },
+    {
+      "file": "verified-sources/en-314.png",
+      "sha256": "7ed03c3c0b01128dc688bf69274fd72769cfd8e9259a2b11217d115426d65c90"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-240",
+    "p-229",
+    "alg-4-3-3-t"
+  ],
+  "coveredRegions": [
+    "式18后的三行多项式、式19系数、乘积与Stirling恒等式。",
+    "算法T引言、4个栈用途、T1/T2全部赋值/停止条件/原注。",
+    "q_k/r_k表0–6七列及70000位例。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "19"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pending-actual-answer-area-verification",
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuationNotes": "末T2完整；241首T3继续同一算法，无跨页数学块。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 28,
+    "parseErrors": 0,
+    "codeLines": [],
+    "meaning": "语法与机器检查只作辅助，内容依中英文实际原图。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "完整母稿装订与全部题答双链",
+    "整卷Pandoc/VitePress和线上发布验收"
+  ],
+  "browserCheck": {
+    "tool": "Playwright with isolated local Chrome; Browser plugin unavailable",
+    "scope": "Private independent page proof, not final website or full-volume Pandoc",
+    "viewports": [
+      1280,
+      390
+    ],
+    "report": "arithmetic-work/browser-236-243.json",
+    "reportSha256": "7d8114172610ac063011035db7de4f2a98f35511b21d883e86b6b29e3d435653",
+    "currentPageSha256": "8b7821e39aeddbfabd4687b9f9b5498a528ebd6cc4c66f0d89ebca241ab98265",
+    "cases": 2,
+    "noPageErrors": true,
+    "noMissingImages": true,
+    "noDocumentOverflow": true,
+    "noHiddenMathmlSwallowing": true,
+    "allMeasuredHorizontalScrollEndsReachable": true,
+    "screenshotsDirectlyInspectedWidths": [
+      1280
+    ],
+    "meaning": "DOM checks executed on every page; directly inspected selected formula/table/figure/algorithm screenshots, with separate long-formula/table endpoints."
+  },
+  "numericCheck": {
+    "report": "arithmetic-work/numeric-check.json",
+    "reportSha256": "5fcbdb25d5d70651bc6a9ef3cc97d19035f14312384a3c153f6066e650a7c56a",
+    "meaning": "Finite exact/sample recomputations supplement direct CN/EN image review; all related source MD hashes recorded. Not a general proof."
+  },
+  "reviewHistory": [
+    {
+      "previousPageMarkdownSha256": "32fc148e6ad38c32502fddd6b353e86e607062c87282d7438c506be89424b3e6",
+      "historyDirectory": "verified-history/240-32fc148e6ad38c32502fddd6b353e86e607062c87282d7438c506be89424b3e6-before-stack-list-display",
+      "change": "去掉不属于原书的表头“辅助栈/用途”，将三行栈说明恢复为原书列举形式。",
+      "reverification": "中文240与英文313/314原列举文字重新对照；当前MD重渲0错，1280/390实际Chrome检查并直接看1280截图。"
+    }
+  ]
+}

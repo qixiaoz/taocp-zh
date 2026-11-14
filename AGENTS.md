@@ -16,6 +16,8 @@
 |---|---|
 | `计算机程序设计艺术·卷1·基本算法.md` | 当前卷一母稿。正文修改在这里进行；构建不得反写母稿。 |
 | `校订报告.md` | 当前卷一的来源、实质订正、版本差异、缺页处理和复核范围。 |
+| `计算机程序设计艺术·卷2·半数值算法.md`、`校订报告·卷2.md` | 卷二独立母稿和报告；资源及公开复核记录位于 `assets/volume2/`。 |
+| `scripts/book-volumes.mjs` | 各卷发布开关、来源路径、章节边界、路由、资产及 ZIP 配置。 |
 | `assets/figures/` | 随书交付的插图；正文使用相对路径。 |
 | `assets/review/` | 可公开的校对依据与状态记录；生成器会收录到网站及下载包。 |
 | `source_cn/`、`source_en/` | 本地中文底本、补配本和英文对校本；不进入发布。 |
@@ -28,7 +30,7 @@
 | `docs/.vitepress/theme/ReaderControls.vue`、`ReaderLayout.vue`、`reader-preferences.ts` | 阅读设置界面、主题插槽及本机偏好校验；首屏初始化和挂载恢复使用相同规则。 |
 | `.github/workflows/deploy.yml` | GitHub Actions 构建与 Pages 部署。 |
 
-`docs/volume1/`、`docs/corrections.md`、`docs/assets/`、`docs/public/review/`、`docs/public/linked-assets/`、`docs/public/downloads/`、构建清单和 `docs/.vitepress/dist/` 都是生成物。修复它们的上游输入或生成器，不把手改生成物当作持久修复。
+`docs/volume1/`、`docs/volume2/`、`docs/corrections.md`、`docs/assets/`、`docs/public/review/`、`docs/public/linked-assets/`、`docs/public/downloads/`、构建清单和 `docs/.vitepress/dist/` 都是生成物。修复它们的上游输入或生成器，不把手改生成物当作持久修复。
 
 `.work/tools/` 中保留了卷一的 OCR、装订、Pandoc 和数学检查脚本；这些是本机历史工具，常含固定卷名、页数和旧哈希。复用前读代码并适配。需要长期使用的能力应整理到 `scripts/`，明确依赖与参数。公共 CI 必须能只靠已提交文件和锁定依赖完成构建。
 
@@ -66,14 +68,14 @@
 
 ## 接入后续分册
 
-当前构建只支持卷一，并非已经实现的多卷框架。新增分册时先做明确的分册配置，再扩展生成器和校验器；不要通过替换卷一母稿来发布新卷。
+当前构建通过 `scripts/book-volumes.mjs` 独立配置卷一、卷二。新增分册先登记明确配置，验证生成器及校验器适配，不替换现有母稿或借用其他卷的数量基准。发布开关为显式门槛，不依据文件存在自动发布。
 
 - 配置至少包含卷标识、书名、母稿路径、独立报告路径、资产范围、章节范围、答案与附录边界、路由前缀、ZIP 名称和预期来源页数。
-- 检查 `prepare-book.mjs` 中固定的 `BOOK`、`REPORT`、`/volume1/`、`bodyTree('1')` / `bodyTree('2')`、`sec-answers` / `sec-app-a` 以及卷前 `headingLine: 2`。卷二、卷三等的章节编号不从 1 重启。
-- 同步适配 `check-site.mjs` 的 `/volume1/` 路由约束、`inspect-math-input.mjs` 的母稿名、网站首页／导航／搜索／下载，以及 `.gitignore`。多卷不能共用一份会互相覆盖的报告或构建清单。
+- 配置按实际卷号指定 `chapterRoots`、答案与附录边界、卷前标题位置及跨节引文的前导锚点。卷二从第3、4章开始，不能重编为第1、2章。
+- 同步检查 `prepare-book.mjs`、`check-site.mjs`、`inspect-math-input.mjs --volume volumeN`、网站首页／导航／搜索／下载及 `.gitignore`。各卷有独立报告和构建清单；卷一旧清单及旧链接保持兼容。
 - 新卷路由使用独立前缀，例如 `/volume2/`；资产按卷隔离，例如 `assets/volume2/`。这是新增卷的命名约定，现有卷一文件和链接保持稳定。
 - 原书页锚点可在各卷独立 HTML 页面复用；跨卷查找表必须带卷标识，不能用单一 `anchorRoutes` 混装全部卷。跨卷引用仅在目标实际存在时建立链接。
-- 当前准备脚本会清空并重建 `docs/assets/`、`docs/public/review/` 和 `docs/public/linked-assets/`。多卷扩展时应一次汇总全部资产或按卷清理，避免后生成的一卷删除先生成的一卷。
+- 准备脚本清空共享生成资源目录后一次汇总已启用各卷的资源；各卷资产范围必须互不重叠。检查停用卷的旧生成页面不会继续进入发布。
 - 构建仍发布到同一 `/taocp-zh/` 基路径时，卷路由位于其下，不为每一卷更改站点基路径。扩展后回归卷一旧链接及下载。
 
 ## 网站构建与已知陷阱
@@ -85,7 +87,7 @@ npm ci
 npm run docs:dev
 ```
 
-停止开发服务器后，构建并预览正式产物。`docs:build` 会依次准备内容、构建 VitePress、校验产物：
+停止开发服务器后，构建并预览正式产物。`docs:build` 会依次准备内容、以8 GiB Node堆上限构建 VitePress、校验产物。双卷默认约4 GiB堆曾实际耗尽，保留脚本中的内存参数：
 
 ```sh
 npm run docs:build

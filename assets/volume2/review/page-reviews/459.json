@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 459,
+  "cnPrintedPage": 448,
+  "enPdfPages": [
+    588,
+    589,
+    590
+  ],
+  "enPrintedPages": [
+    573,
+    574,
+    575
+  ],
+  "pageMarkdownSha256": "74e14dc62ab181fc1225b10b4097d30b7021c4d0a20981c25abf683870344d0e",
+  "cnPageImageSha256": "9cba0a0b8ef15261198b151715fac6edb4b49ed24ce08a8c6ca007d853f9c211",
+  "enPageImageSha256": {
+    "588": "9a873a4dbc7628eb4129f09088754c111425301e2da26391d20c6a425d7f7c1f",
+    "589": "1c0fb77ff8512a456e6e89c4b3cb59d946c9ba2e7f47316445931250ebdec45c",
+    "590": "e0ddbc034fe028ec4bcf4661e0bb32aa638e789ccdeee93d63916f8adc966530"
+  },
+  "coveredRegions": [
+    "3.3.3答17算法D全部D1–D4及单精度说明、18全部分和推导、19完整长概率展开及原注、20至S1–S7定义；公式完整块外分页。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-459",
+    "p-448",
+    "ans-3-3-3-18",
+    "ans-3-3-3-19",
+    "ans-3-3-3-20"
+  ],
+  "answerAnchors": [
+    "ans-3-3-3-18",
+    "ans-3-3-3-19",
+    "ans-3-3-3-20"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 71,
+    "displayExpressions": 4,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuation": {
+    "begins_from_pdf_page": 458,
+    "answerAtStart": "3.3.3-17",
+    "right_start": "**D1.** ［初始化。］置",
+    "continues_to_pdf_page": 460,
+    "answerAtEnd": "3.3.3-20",
+    "left_end": "$S_7=-\\sigma(a'-1,m,a'c)$，",
+    "right_next_start": "$S_8=-\\sigma(a'(a'-1),m,(a')^2c)$，最后",
+    "instruction": "S1–S8为同一个定义段，460首只接S8，不重排为新答；随后的S9四行块在460闭合。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "17fe0051e44453dfc5395d74b7da8d4a4ee291bed5aaaad0479614aa4117ad40",
+    "visualReviewSha256": "9fd358b26f3871a254abfd13afa5f256ea08f3b50750a46d081784833ec15939",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 71,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 4,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 71,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 8,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "2be701a51c3e4028b81ea2a930a49016e6d20079316b7db1b90cd0fc0561b308",
+  "numericalCheckQualification": "一般代数依据/原图双语核对为主；小规模枚举只辅助证明检查，不将有限计算充作一般/渐近证明。原文引用的巨型精确划分数未独立计算。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

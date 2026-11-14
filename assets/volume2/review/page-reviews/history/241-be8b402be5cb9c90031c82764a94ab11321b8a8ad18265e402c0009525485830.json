@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.3",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订另证包含和跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型实际查看中文整页与列出的英文原页图片，逐段、逐式、表单元、算法、图线和难度推荐符号对照；不声称人类签核。",
+  "cnPdfPage": 241,
+  "cnPrintedPage": 230,
+  "enPdfPages": [
+    314,
+    315,
+    316
+  ],
+  "enPrintedPages": [
+    299,
+    300,
+    301
+  ],
+  "pageMarkdownSha256": "a5f26b7c2a4c43dd19c761351539366a25b9d87a036b2a718fd97e36d4075e1c",
+  "cnPageImage": "scans/241.jpg",
+  "cnPageImageSha256": "2e970257ded09246bed8a94b1c6e50b20f400897f728ed85bdfff980e05d1feb",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-314.png",
+      "sha256": "7ed03c3c0b01128dc688bf69274fd72769cfd8e9259a2b11217d115426d65c90"
+    },
+    {
+      "file": "verified-sources/en-315.png",
+      "sha256": "ac4d59122f8d3ccf101a81e545b828d95574c88d53e5898321f5d904364d3641"
+    },
+    {
+      "file": "verified-sources/en-316.png",
+      "sha256": "f4b1f0343f3f6270264c7e5c8c94bd9c1fac2cafecdd77d8f3046f408f4f3641"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-241",
+    "p-230"
+  ],
+  "coveredRegions": [
+    "算法T的T3–T10完整步骤与控制码、两Horner式、位数界、双重循环的正反次序。",
+    "所有2^(k+1)下标和q_k+q_(k+1)位数界、原结束方块。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pending-actual-answer-area-verification",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "末T10完整结束；242首图8是浮动图，后续复杂度新段。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 79,
+    "parseErrors": 0,
+    "codeLines": [],
+    "meaning": "语法与机器检查只作辅助，内容依中英文实际原图。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "完整母稿装订与全部题答双链",
+    "整卷Pandoc/VitePress和线上发布验收"
+  ]
+}

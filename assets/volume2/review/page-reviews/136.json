@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "只绑定单页稿；装订母稿另作包含证明，不能修改历史哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "originalFootnoteKeys": [],
+  "unverifiedPageRegions": [],
+  "cnPdfPage": 136,
+  "cnPrintedPage": 125,
+  "section": "3.5",
+  "enPdfPages": [
+    180,
+    181
+  ],
+  "enPrintedPages": [
+    165,
+    166
+  ],
+  "pageMarkdownSha256": "0c8752637625e850a756d256cbfe55b9898d34b7234722032d6e55f05f90667c",
+  "cnPageImageSha256": "a6a36a674748b308b4f5d4748293ae1ebf519d9c74eb1414fa9e6880aa41fd59",
+  "enPageImageSha256": {
+    "180": "93646b4366ff4c2628bd2f74ca13cad60794356c359cda81e06dc7eaa54de433",
+    "181": "76ce7b7bdbe914e2b397f2cc73aa74240ee599774d51cc88965d03a0d3d33925"
+  },
+  "coveredRegions": [
+    "定理W完整计数/三角不等式/2√N界、R5存在性/不可有效枚举说明、本原递归/位移变体、定理M与其证明开头及N(R,S)零测目标。"
+  ],
+  "explicitAnchors": [
+    "pdf-136",
+    "p-125"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，原页定位以隐藏锚点保存。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 80,
+    "displayExpressions": 2,
+    "footnotes": 0,
+    "parseErrors": 0
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "2df4b6478c629edfae497fe5601bf55798522310a932f6945233cf4e4bc195cd",
+    "visualReviewSha256": "c503255a8c760487c841b617e3f3b7abb7654a4b066c605123ccc6b57b012a9c",
+    "browserAvailability": "Browser plugin not available; task-authorized bundled Playwright + isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 80,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 80,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "bb5e9e541e1937a23e38c2d17b8dc7eac95c55ca59b1598914ef138e017d7aa8",
+  "numericalCheckQualification": "有限计数例和源表全枚举辅助复核，不将数值检查宣称为定理W/M的一般证明。",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {},
+  "exerciseNumbers": [],
+  "answerExceptions": [],
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc/VitePress、全站题答/索引/搜索/线上下载和部署由主任务执行。"
+  ]
+}

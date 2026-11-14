@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 416,
+  "cnPrintedPage": 405,
+  "enPdfPages": [
+    535,
+    536
+  ],
+  "enPrintedPages": [
+    520,
+    521
+  ],
+  "pageMarkdownSha256": "259574a4fed60ff9fb1c08f471dc03aa62d31d54e6f7a1bb45c527ed15303cf1",
+  "masterSha256": null,
+  "cnPageImage": "scans/416.jpg",
+  "cnPageImageSha256": "8cd43472a7424a2a8fb2f70e933beb2cf59b167c4ede136e7d5a907e6d372685",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-535.png",
+      "sha256": "759ec4bf184407ee607bd79a9a100d5691ab345c23929a48d823ae3c1042fe13"
+    },
+    {
+      "file": "source-audit/en-render/page-536.png",
+      "sha256": "9f72458b2146b8d8cc8945a56181b48ca21f8af7698a19df9c692a9e04ecc90c"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-416",
+    "p-405",
+    "ex-4-6-4-46",
+    "ex-4-6-4-47",
+    "ex-4-6-4-48",
+    "ex-4-6-4-49",
+    "ex-4-6-4-50",
+    "ex-4-6-4-51",
+    "ex-4-6-4-52",
+    "ex-4-6-4-53",
+    "ex-4-6-4-54",
+    "ex-4-6-4-55",
+    "ex-4-6-4-56",
+    "ex-4-6-4-57",
+    "ex-4-6-4-58",
+    "ex-4-6-4-59"
+  ],
+  "numberedFormulaTags": [],
+  "coveredRegions": [
+    "习题46–58完整难度/推荐/所有维数索引；48直和两条件据EN修复，其余保持；53全部(a)(b)；59循环/负循环定义与页内题干至并。"
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "v2-4.6.4-ex48-direct-sum-conditions",
+      "section": "4.6.4",
+      "cnPdfPage": 416,
+      "cnPrintedPage": 405,
+      "exercise": 48,
+      "location": "直和定义的两个分支条件",
+      "original": "if i>m,j>n,k>s: t″ijk=tijk; if i≤m,j≤n,k≤s: t″ijk=t′(i−m,j−n,k−s)",
+      "final": "if i≤m,j≤n,k≤s: t″ijk=tijk; if i>m,j>n,k>s: t″ijk=t′(i−m,j−n,k−s)",
+      "minimalEdit": "交换两个条件组，保留对应原张量/移位张量公式、零分支、直积及秩界。",
+      "enLocation": {
+        "pdfPage": 535,
+        "printedPage": 520,
+        "position": "exercise48 directsum definition"
+      },
+      "enFormula": "t″ijk=tijk if i≤m,j≤n,k≤s; t″ijk=t′(i−m,j−n,k−s) if i>m,j>n,k>s",
+      "completeHypotheses": "T m×n×s andT′ m′×n′×s′; originalindices1-based; directsum shape(m+m′)×(n+n′)×(s+s′).",
+      "exactLegalCounterexample": {
+        "allSixDimensions": 1,
+        "T111": 2,
+        "Tprime111": 3,
+        "originalAt111": "calls undefined Tprime000",
+        "originalAt222": "calls undefined T222",
+        "finalAt111": 2,
+        "finalAt222": 3,
+        "allOther6Cells": 0
+      },
+      "basis": "英文原定义、原张量合法下标范围和整体直和维数共同唯一定位两个块；未改张量秩命题本身。",
+      "cnCrop": "source-audit/416-direct-sum-source.png",
+      "cnCropSha256": "bc989a1ddc7d6affe5eb672ecc8146e9aad29517580d69f9731874e591969767",
+      "enImageSha256": "759ec4bf184407ee607bd79a9a100d5691ab345c23929a48d823ae3c1042fe13"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 86,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch409-numeric-check.json",
+  "numericScope": "Exact coefficient realization checks for all64slots of66/68 and72slots of70, all16bilinear basis cases69, complete serialization of9source matrices. Companion73 identities and gcd/singularity checks on explicit n2..6,4examples each only; not a numerical proof of general TheoremW. Exact factorization/irreducibility certificates for displayedu5−1; theoremWrank8/7/5 only hypothesis substitution. Given exercise19/21/22/24 polynomials re-expanded exactly; no new answers in manuscript. Ex48 tiny legal index example supports bilingual typo repair.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch409-proof.html",
+    "htmlSha256": "6b6fe069ad628295114cbe0b1aef1af4357e208d7eb22a9b8063018e261f939b",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch409-proof-1280-416.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch409-proof-390-416.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 463,
+    "scrollableElementCounts": {
+      "1280": 75,
+      "390": 92
+    },
+    "machineObservations": ".work/volume2/source-audit/batch409-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch409-right-390-416.png",
+    "mobileRightEndVisualReview": true
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch409-answer-presence.json",
+    "linkedExercises": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ],
+    "allActualOriginalNumberedAnswersPresent": true,
+    "roundTripDeferredUntilAnswerTranscriptionAndAssembly": true,
+    "independentAnswerContentReviewClaimed": false
+  },
+  "endsMidExercise": {
+    "exercise": "4.6.4-59",
+    "nextCnPdfPage": 417,
+    "end": "你的算法应当只涉及关于整数的运算，并",
+    "nextStart": "且最多包含$O(n\\log n)$次乘法",
+    "answer59OriginalPresent": true,
+    "answerLinkToBeAtFullExerciseEndOn417": true,
+    "nextOriginalPageDirectlyViewed": true
+  },
+  "sourceReadback": {
+    "exercise59": "negative sign before wrapped convolution sum is printed correctly, retained",
+    "sourceCrop": "source-audit/416-negacyclic-source.png",
+    "sourceCropSha256": "d20181e855a5c5956584eb833c2da200e6a4d5fee8b47dbcbec4dd231f8c4b9e"
+  }
+}

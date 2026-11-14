@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "sections": [
+    "4.5.2"
+  ],
+  "pdf_page": 280,
+  "printed_page": 269,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "7cfdc7ba24cf1ab9686b10da6b841535fa257695f842c80a333a6b1e5aac6262",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/scans/280.jpg",
+    "image_sha256": "20670b1ae68cb223db0f13eeb68be648aa508c3d1940e5ef61b18f56e35ad617",
+    "scope": "Entire actual Chinese page prose, every inline/display expression, numbered formula, figure/caption, exercise number/difficulty/recommendation/subpart. No OCR agreement substituted for image inspection."
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      364,
+      365
+    ],
+    "en_printed_pages": [
+      349,
+      350
+    ],
+    "scope": "Actual corresponding English page images inspected; every corresponding formula, bound, sign, subscript/prime, long decimal, prose, exercise and figure compared. Chinese order retained for Figure10 float.",
+    "qualification": "Book assumptions and conjectures retained as such. Only separately enumerated finite mathematical checks are independently recomputed."
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/batch280-proof.html",
+    "html_sha256": "2b2b5611fc798a8afce5fb944a95311ad69deff3886ff0dad0b4b5c0f0c3ef0b",
+    "math_count_in_five_page_proof": 282,
+    "math_parse_errors": 0,
+    "desktop_visual_review": true,
+    "mobile_visual_review": true,
+    "desktop_screenshot": ".work/volume2/source-audit/batch280-proof-1040-280.png",
+    "mobile_screenshot": ".work/volume2/source-audit/batch280-proof-390-280.png",
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "document_horizontal_overflow": false,
+    "missing_images": 0,
+    "page_errors": 0,
+    "scroll_evidence": ".work/volume2/source-audit/batch280-scroll.json",
+    "all_wide_elements_initial_left_and_right_end_reachable": true,
+    "scrollable_element_counts": {
+      "1040": 22,
+      "390": 43
+    },
+    "qualification": "Standalone five-page KaTeX proof, not final whole-volume/site acceptance."
+  },
+  "substantive_corrections": [],
+  "source_discrepancies_retained": [],
+  "numeric_evidence": ".work/volume2/source-audit/batch280-numeric-check.json",
+  "next_steps": [
+    "Bind with page anchors outside formula, table and code blocks.",
+    "Retain this original page SHA record historically if master binding changes text."
+  ],
+  "formulas": {
+    "numbered_range": [
+      40,
+      50
+    ],
+    "all40digits_of_lambda_compared_to_English": true
+  },
+  "assets": [
+    {
+      "path": "assets/volume2/figures/fig-4-10.png",
+      "sha256": "e79d35893142013df5baf5866c2d7a9165e4a69fd9f862677757d9fb0e509757",
+      "source_cn_pdf_page": 280,
+      "source_cn_printed_page": 269,
+      "source_en_pdf_page": 365,
+      "source_en_printed_page": 350,
+      "source_crop_xyxy": [
+        420,
+        1115,
+        1765,
+        1690
+      ],
+      "pixel_dimensions": [
+        1345,
+        575
+      ],
+      "kind": "clear original graphic crop",
+      "reason": "Exact smooth distribution curve cannot be reliably reconstructed from finite original tick values; retain clear original axes/grid/curve rather than approximate it as a definitive redraw.",
+      "caption_outside_image_searchable": true,
+      "visual_comparison": "Actual source Chinese and English G(x) curves, axes/ticks from x0..4 and y-1..1 checked; G(0)=1,G(1)=0 and decreasing curve preserved.",
+      "enlargement_click_passed": [
+        1040,
+        390
+      ],
+      "evidence": ".work/volume2/source-audit/batch280-browser.json"
+    }
+  ],
+  "continuation": {
+    "formula50_followed_by_comma": true,
+    "continues_on_pdf_page": 281,
+    "next_first_text": "我们还可由(47)知下面两个幂级数",
+    "binding_requirement": "Keep original connective comma after formula50; page anchor outside math."
+  }
+}

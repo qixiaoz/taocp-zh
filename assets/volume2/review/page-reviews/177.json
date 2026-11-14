@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定本单页Markdown字节；母稿装订后另作包含/合段/代码合并证明，不得只替换哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "中文完整页图与实际对应英文页图已直接查看，逐段、逐式、逐代码行比较。机器token/语法检查仅是辅助。原编者注无英文对应者另列例外。",
+  "cnPdfPage": 177,
+  "cnPrintedPage": 166,
+  "enPdfPages": [
+    232,
+    233,
+    234
+  ],
+  "enPrintedPages": [
+    217,
+    218,
+    219
+  ],
+  "pageMarkdownSha256": "37e848efa8542ffa3eba4130f7cce555b75466dab2f035e33c132cf4f797a58d",
+  "cnPageImage": "scans/177.jpg",
+  "cnPageImageSha256": "f3c10d7edb6ae8ba12f6d5bc5c70514df1bb3c06c410f8776e130175fac8198c",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-232.png",
+      "sha256": "0713e6e01afe768148f456e95ae5efb599630866aa57992d576f9aa50540a084"
+    },
+    {
+      "file": "verified-sources/en-233.png",
+      "sha256": "6c48cf0e963463a70695f9766bc3a49262fea92d68ea6d6d87fd0c7c7cb502b4"
+    },
+    {
+      "file": "verified-sources/en-234.png",
+      "sha256": "667c175274658d2abb6dbf16c8b6f329405b3f0f2d5979b6ef76c256da8bfdb3"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号/小节名/印刷页码，页码用隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-177",
+    "p-166",
+    "fig-4-3"
+  ],
+  "addedExplanationsInBody": false,
+  "coveredRegions": [
+    "正式图3全部N1–N7节点、13条含入口出口箭头及六个条件/分支注记。",
+    "OFLO说明续文、规范化程序的寄存器预设。",
+    "程序A00–29行；标号/操作码/地址字段/中文注释。"
+  ],
+  "unverifiedPageRegions": [],
+  "mathExpressions": [
+    {
+      "sourceLine": 6,
+      "display": false,
+      "tex": "(e,f)",
+      "sha256": "d9165d22abb8c5b7ba34c3fe6443fdc089a23080b64b2a3ae9fc2c0747e9e0dd"
+    },
+    {
+      "sourceLine": 8,
+      "display": false,
+      "tex": "b",
+      "sha256": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d"
+    },
+    {
+      "sourceLine": 8,
+      "display": false,
+      "tex": "\\mathrm{rI2}=e",
+      "sha256": "6efb6cb722bdd2c39be5c7ec1ad51ed1a562f150fa7e8cea3f4a62aacd17064f"
+    },
+    {
+      "sourceLine": 8,
+      "display": false,
+      "tex": "\\mathrm{rAX}=f",
+      "sha256": "bf908685736a8ca66c082abbd827337c899249b5946e6d4045a3df8613a0e122"
+    },
+    {
+      "sourceLine": 8,
+      "display": false,
+      "tex": "\\mathrm{rA}=0",
+      "sha256": "faac45f9be0e0f89db9e11d931cb843665aa04aab9c26fd4b2b9c9894483fdd8"
+    },
+    {
+      "sourceLine": 8,
+      "display": false,
+      "tex": "\\mathrm{rX}=0",
+      "sha256": "3fb2094357f2c66d36f0854fb9114f736dd7e82ab2895827afeb616b8707cf59"
+    },
+    {
+      "sourceLine": 8,
+      "display": false,
+      "tex": "\\mathrm{rI2}<b",
+      "sha256": "22710d55c32ffdb33b7680a0bbd662e4449cfd94c4b527bee88c05958e8cd501"
+    }
+  ],
+  "numberedFormulaTags": [],
+  "numberedListings": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "region": "OFLOdescription",
+      "cnText": "溢出位则被意外触发了",
+      "enText": "overflow toggle has unexpectedly been turned on",
+      "action": "中文疑似多出“则”字，按实印照录并列疑；未伪称OCR修复。"
+    }
+  ],
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuationNotes": "首正文续176；程序A00–29行继续到178的30–70行。最终须合并一逻辑代码清单，178页锚点放在代码块外并在报告注明程序内实际页界。",
+  "untested": [
+    "最终母稿装订包含、跨页程序合并和锚点摆放。",
+    "正式VitePress/Pandoc整卷及程序运行；本记录不宣称执行过MIX程序。"
+  ],
+  "codeReview": {
+    "program": "A",
+    "logicalGroup": "program-4-2-1-a",
+    "printedLines": [
+      0,
+      29
+    ],
+    "lineCount": 30,
+    "sourceFieldComparisonEvidence": "verified-sources/program-a-fields.json",
+    "evidenceSha256": "3a3ac8e07ced8b7711f97d87c2f7075041bd8f9b0d365c847c2d9caed87ebbce",
+    "englishTextFieldsAllMatch": true,
+    "visualLineReview": true,
+    "cnCommentsVisuallyCompared": true,
+    "codeRows": [
+      {
+        "line": 0,
+        "label": "BYTE",
+        "opcode": "EQU",
+        "address": "1(4:4)",
+        "cnComment": "字节大小 b",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 1,
+        "label": "EXP",
+        "opcode": "EQU",
+        "address": "1:1",
+        "cnComment": "指数字段的定义",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 2,
+        "label": "FSUB",
+        "opcode": "STA",
+        "address": "TEMP",
+        "cnComment": "浮点减法子程序：",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 3,
+        "label": "",
+        "opcode": "LDAN",
+        "address": "TEMP",
+        "cnComment": "改变操作数的符号。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 4,
+        "label": "FADD",
+        "opcode": "STJ",
+        "address": "EXITF",
+        "cnComment": "浮点加法子程序：",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 5,
+        "label": "",
+        "opcode": "JOV",
+        "address": "OFLO",
+        "cnComment": "确保溢出标志关闭。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 6,
+        "label": "",
+        "opcode": "STA",
+        "address": "TEMP",
+        "cnComment": "TEMP ← v。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 7,
+        "label": "",
+        "opcode": "LDX",
+        "address": "ACC",
+        "cnComment": "rX ← u。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 8,
+        "label": "",
+        "opcode": "CMPA",
+        "address": "ACC(EXP)",
+        "cnComment": "此处合并执行步骤 A1、A2 和 A3。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 9,
+        "label": "",
+        "opcode": "JGE",
+        "address": "1F",
+        "cnComment": "当 e_v ≥ e_u 时跳转。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 10,
+        "label": "",
+        "opcode": "STX",
+        "address": "FU(0:4)",
+        "cnComment": "FU ← ±ffff0。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 11,
+        "label": "",
+        "opcode": "LD2",
+        "address": "ACC(EXP)",
+        "cnComment": "rI2 ← e_w。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 12,
+        "label": "",
+        "opcode": "STA",
+        "address": "FV(0:4)",
+        "cnComment": "",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 13,
+        "label": "",
+        "opcode": "LD1N",
+        "address": "TEMP(EXP)",
+        "cnComment": "rI1 ← −e_v。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 14,
+        "label": "",
+        "opcode": "JMP",
+        "address": "4F",
+        "cnComment": "",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 15,
+        "label": "1H",
+        "opcode": "STA",
+        "address": "FU(0:4)",
+        "cnComment": "FU ← ±ffff0（交换 u 和 v）。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 16,
+        "label": "",
+        "opcode": "LD2",
+        "address": "TEMP(EXP)",
+        "cnComment": "rI2 ← e_w。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 17,
+        "label": "",
+        "opcode": "STX",
+        "address": "FV(0:4)",
+        "cnComment": "",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 18,
+        "label": "",
+        "opcode": "LD1N",
+        "address": "ACC(EXP)",
+        "cnComment": "rI1 ← −e_v。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 19,
+        "label": "4H",
+        "opcode": "INC1",
+        "address": "0,2",
+        "cnComment": "rI1 ← e_u − e_v。（步骤 A4 不必要。）",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 20,
+        "label": "5H",
+        "opcode": "LDA",
+        "address": "FV",
+        "cnComment": "A5. 右移。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 21,
+        "label": "",
+        "opcode": "ENTX",
+        "address": "0",
+        "cnComment": "清除 rX。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 22,
+        "label": "",
+        "opcode": "SRAX",
+        "address": "0,1",
+        "cnComment": "右移 e_u − e_v 位。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 23,
+        "label": "6H",
+        "opcode": "ADD",
+        "address": "FU",
+        "cnComment": "A6. 相加。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 24,
+        "label": "",
+        "opcode": "JOV",
+        "address": "N4",
+        "cnComment": "A7. 规范化。若小数部分溢出则跳转。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 25,
+        "label": "",
+        "opcode": "JXZ",
+        "address": "NORM",
+        "cnComment": "简单情形？",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 26,
+        "label": "",
+        "opcode": "LD1",
+        "address": "FV(0:1)",
+        "cnComment": "检查符号是否相反。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 27,
+        "label": "",
+        "opcode": "JAP",
+        "address": "1F",
+        "cnComment": "",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 28,
+        "label": "",
+        "opcode": "J1N",
+        "address": "N2",
+        "cnComment": "若否，则规范化。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 29,
+        "label": "",
+        "opcode": "JMP",
+        "address": "2F",
+        "cnComment": "",
+        "englishPdfTextFieldsMatch": true
+      }
+    ],
+    "layout": "原印行号与标号/操作码/地址/注释列以等宽字段排印；注释中的数学以下标文字或Unicode保留。不是可直接执行的无行号源文件。"
+  },
+  "figure": {
+    "id": "fig-4-3",
+    "asset": "assets/volume2/figures/fig-4-3.svg",
+    "sha256": "1c513034b52c1782895a0bc9e45ea58623aa52318de4c9f298589abf1379286d",
+    "renderEvidence": "verified-sources/fig-4-3-render.png",
+    "renderEvidenceSha256": "b8d91c0202cd583b0f6205728e583a662c9c3b4b354aedf225d50412cc045139",
+    "format": "semantic SVG redraw; no raster embedded",
+    "nodeCount": 7,
+    "directedEdgesIncludingEntryExit": 13,
+    "sourceChineseAndEnglishViewed": true,
+    "renderViewedDirectly": true,
+    "captionSearchableInMarkdown": true,
+    "whiteBackgroundForDarkMode": true,
+    "labelsAndTopologyMatch": true,
+    "renderer": "sharp0.35.5 at96dpi",
+    "scope": "语义/箭头/条件/原图比对，不是像素复制。"
+  },
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 7,
+    "parseErrors": 0,
+    "footnotes": 0,
+    "codeBlocks": 1,
+    "codeLines": [
+      30
+    ],
+    "meaning": "仅验证排版语法，不能代替另外记录的原页逐项核查。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  }
+}

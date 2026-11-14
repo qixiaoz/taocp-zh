@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订须另证包含与跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文整页及列出的英文页图，逐段/逐式/表格/程序字段频次注释和难度推荐符号比较。机器检查和复算另列，不声称人类签核。",
+  "cnPdfPage": 217,
+  "cnPrintedPage": 206,
+  "enPdfPages": [
+    284,
+    285
+  ],
+  "enPrintedPages": [
+    269,
+    270
+  ],
+  "pageMarkdownSha256": "2872c81d87f4b9b385329def023a13e111da55e4c47b9e0473b1e2e75f36aae1",
+  "cnPageImage": "scans/217.jpg",
+  "cnPageImageSha256": "365659f1afebb1ffb4b6882fa0d25ac91879bfba7a79902df31080df38eb7a3b",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-284.png",
+      "sha256": "b187b9f65f2adbbf1cce6359cab28a63374a30061b484eda0816dc9c71aab68b"
+    },
+    {
+      "file": "verified-sources/en-285.png",
+      "sha256": "8d7f41423d3a4085d7269293658f7567de4589f35d37d4ad1749ccd69e85ea36"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-217",
+    "p-206",
+    "tab-4-3-1-1",
+    "prog-4-3-1-m"
+  ],
+  "coveredRegions": [
+    "正式表1八行11列所有数字/点/05前导零。",
+    "式1和b²−1不等式、寄存器解释。",
+    "程序M设置和01–22所有代码/频次/中文注释。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "1"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pendingactualanswer-area-verification",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "程序M01–22接218首23–28，最终须合一个mixal块；218锚点移块外并另留行号页码映射。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 18,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [
+      22
+    ],
+    "meaning": "只是语法；内容核查依实际中英文原页。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终母稿装订/跨页代码合并/题答回链",
+    "正式VitePress/Pandoc整卷与线上",
+    "未执行MIX或将机器字段一致称作算法正确性证明。"
+  ],
+  "renderReview": {
+    "file": "verified-render/classical-dom-review-217-217.json",
+    "sha256": "75b1b7df025a4fc83fa27193e40147ed48988fa9253011dccd71bd5812dcc55b",
+    "scope": "私有1280/390；源图内容独立复核。217旧表和图6/7旧输出已被当前专项复验替代。"
+  }
+}

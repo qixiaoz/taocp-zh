@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 79,
+  "cnPrintedPage": 68,
+  "section": "3.3.3",
+  "enPdfPages": [
+    104,
+    105
+  ],
+  "enPrintedPages": [
+    89,
+    90
+  ],
+  "pageMarkdownSha256": "3fbb2ddf4d1ee21a3e05e3075b43cf598ef464547d15f2e3f563a791641e31af",
+  "cnPageImageSha256": "ab334a72fdf5f19b6b2306ea868d95b6ff618414d55ea56328919a4ab0ebd74f",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 31,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-079",
+    "p-68",
+    "ex-3-3-3-1",
+    "ex-3-3-3-2"
+  ],
+  "coveredRegions": [
+    "承前式(40)；定理K/式(41)的全部上下界；例4部分商22项/界；平均部分商和渐近式；历史引用；第一组习题1、2。"
+  ],
+  "substantiveCorrections": [
+    {
+      "section": "3.3.3",
+      "cnPrintedPage": 68,
+      "enPdfPage": 104,
+      "enPrintedPage": 89,
+      "location": "式(40)后引号中的条件",
+      "source": "既然c有其他选择标准",
+      "final": "既然c没有其他选择标准",
+      "basis": "英文实页明确In the absence of any other criterion for choosing c；中文漏否定，原句含义相反。"
+    },
+    {
+      "section": "3.3.3",
+      "cnPrintedPage": 68,
+      "enPdfPage": 104,
+      "enPrintedPage": 89,
+      "location": "定理K式(41)四个求和下标",
+      "source": "四处条件均只印裸j，奇偶限定文字缺失",
+      "final": "从左至右分别加j奇、j偶、j奇、j偶",
+      "basis": "中文原图放大可见四处仅有j；英文实页明确j odd,j even,j odd,j even。例4的22项部分商由整数除法复算，依此分组界为−55、67.5，与中英原例一致。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [
+    1,
+    2
+  ],
+  "answerExistenceEvidence": [
+    {
+      "exercise": 1,
+      "enPdfPage": 587,
+      "review": "已直接查看英文原答实页题号，依此建立链接；本页稿未转录答案。"
+    },
+    {
+      "exercise": 2,
+      "enPdfPage": 587,
+      "review": "已直接查看英文原答实页题号，依此建立链接；本页稿未转录答案。"
+    }
+  ],
+  "answerExceptions": [],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 78,
+    "start": "式(40)",
+    "previousEnd": "其三，人们发现，当"
+  },
+  "numericAudit": {
+    "method": "Example4: exact integer Euclidean division, odd/even partial quotient sums in(41). Figure8/precision: enumerate all256 integer points(x,(137x+187)mod256), compute distinct dot products for each cited normal; exhaustive search of all nonzero normal coordinates[-256,256] subject to u1+137u2≡0mod256. Minimum274 found, bounds ample because a vector of length√274 exists. Supplements direct CN/EN images.",
+    "partialQuotients": [
+      10,
+      1,
+      14,
+      1,
+      7,
+      1,
+      1,
+      1,
+      3,
+      3,
+      3,
+      5,
+      2,
+      1,
+      8,
+      7,
+      1,
+      4,
+      1,
+      2,
+      4,
+      2
+    ],
+    "oddSum": 54,
+    "evenSum": 28,
+    "sigmaBounds": [
+      "-55",
+      "135/2"
+    ],
+    "sourceBoundsMatch": true,
+    "twoDimensionalMinimumNormSquared": 274,
+    "minimizingVector": [
+      -7,
+      15
+    ],
+    "lineFamilies": [
+      {
+        "normal": [
+          18,
+          -2
+        ],
+        "normSquared": 328,
+        "parallelLineCount": 20,
+        "all256PointsCovered": true
+      },
+      {
+        "normal": [
+          -7,
+          15
+        ],
+        "normSquared": 274,
+        "parallelLineCount": 21,
+        "all256PointsCovered": true
+      },
+      {
+        "normal": [
+          11,
+          13
+        ],
+        "normSquared": 290,
+        "parallelLineCount": 24,
+        "all256PointsCovered": true
+      }
+    ]
+  }
+}

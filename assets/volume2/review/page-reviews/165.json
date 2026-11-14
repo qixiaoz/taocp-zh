@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页Markdown和中英文证据图字节。整节/整卷装订后须另作逐段包含和跨页合段证明，不能仅更换哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接查看本中文完整页图与对应英文页图，按段、公式、图表、习题逐项比较。实质订正和遗留差异分别登记；解析/复算不是目视和双语签核的替代。",
+  "cnPdfPage": 165,
+  "cnPrintedPage": 154,
+  "enPdfPages": [
+    218,
+    219
+  ],
+  "enPrintedPages": [
+    203,
+    204
+  ],
+  "pageMarkdownSha256": "6e7f306387bedd2374cd0a1126d524231660aeecd6872c5747c6d4f9eb85e130",
+  "cnPageImage": "scans/165.jpg",
+  "cnPageImageSha256": "ebbd8d020e466c34c5a466052be54bed2cdf16d1f45d393d0983e413558bce26",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-218.png",
+      "sha256": "796e9ca81f02720d13514efad4b190f76655c079aabe39f72f3b5c5ae5fa7712"
+    },
+    {
+      "file": "verified-sources/en-219.png",
+      "sha256": "ac0e137b2d2d9a2ab88a60a3c4bb8bfa9c2ff29beee55b876ee5b2b198261e48"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-165",
+    "p-154"
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号、书名/节名和页码；页码用隐藏锚点保留。"
+  ],
+  "originalFootnotesPresent": true,
+  "originalFootnoteIds": [
+    "v2-p154-1"
+  ],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "coveredRegions": [
+    "全9求补段落续文、二进制对应方式。",
+    "对2/全1/全2的引号与原书译者脚注。",
+    "小数点位置说明；式5与A_j的完整下标。",
+    "负十进制展开、式6/7、历史段落本页部分。"
+  ],
+  "unverifiedPageRegions": [],
+  "numberedFormulaTags": [
+    "5",
+    "6",
+    "7"
+  ],
+  "mathExpressions": [
+    {
+      "sourceLine": 5,
+      "display": false,
+      "tex": "n",
+      "sha256": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9"
+    },
+    {
+      "sourceLine": 5,
+      "display": false,
+      "tex": "2^n",
+      "sha256": "e8a3fed33f2f1fe03f4e3514915ae4e4f9f73651beb595f1362a299d23b8e48a"
+    },
+    {
+      "sourceLine": 5,
+      "display": false,
+      "tex": "2^n-1",
+      "sha256": "78c46b57174e6ff4445a803235fdbe5883a64e39a355f2f8d3f630d51b0f4036"
+    },
+    {
+      "sourceLine": 7,
+      "display": false,
+      "tex": "(2\\ldots22)_3",
+      "sha256": "ef23c419f6da0e93c41e22d7dad6b9aefad804aa5c17b5f957aae1fe0a91909b"
+    },
+    {
+      "sourceLine": 11,
+      "display": false,
+      "tex": "b",
+      "sha256": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d"
+    },
+    {
+      "sourceLine": 11,
+      "display": false,
+      "tex": "b^k",
+      "sha256": "c4a00e5b81eeab0440460ffb7e03e83f58bc0bb4c9d11ab74f2c55776c00ee63"
+    },
+    {
+      "sourceLine": 13,
+      "display": true,
+      "tex": "(\\ldots a_3a_2a_1a_0.a_{-1}a_{-2}\\ldots)_b\n=(\\ldots A_3A_2A_1A_0.A_{-1}A_{-2}\\ldots)_{b^k},\\tag{5}",
+      "sha256": "2f0a43750e6b452734d268b11af06579435f2dfd49ee9b13026fec964612bede"
+    },
+    {
+      "sourceLine": 20,
+      "display": true,
+      "tex": "A_j=(a_{kj+k-1}\\ldots a_{kj+1}a_{kj})_b.",
+      "sha256": "c900489d988bd31c733fd8cbdcc8edd0bae173f0d4cd9ebe4b0f11750702ba00"
+    },
+    {
+      "sourceLine": 26,
+      "display": false,
+      "tex": "b",
+      "sha256": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d"
+    },
+    {
+      "sourceLine": 26,
+      "display": false,
+      "tex": "(-10)",
+      "sha256": "9cb5c97f55087f9942bba39adec2adda5045e0e22d114dbb91ad57122bd9e657"
+    },
+    {
+      "sourceLine": 28,
+      "display": true,
+      "tex": "\\begin{aligned}\n&(\\ldots a_3a_2a_1a_0.a_{-1}a_{-2}\\ldots)_{-10}\\\\\n&\\qquad=\\cdots+a_3(-10)^3+a_2(-10)^2+a_1(-10)^1+a_0+\\cdots\\\\\n&\\qquad=\\cdots-1000a_3+100a_2-10a_1+a_0-\\frac1{10}a_{-1}+\\frac1{100}a_{-2}-\\cdots.\n\\end{aligned}",
+      "sha256": "e515eda17c242b6e3f8a2e2c9029e7de97cc5727118117b72cbe94cc89ee1945"
+    },
+    {
+      "sourceLine": 36,
+      "display": false,
+      "tex": "0\\le a_k\\le9",
+      "sha256": "0f596ee1a75774366ebff7c58e6e1624dc2c30e974d2d20ff188196f659f3959"
+    },
+    {
+      "sourceLine": 38,
+      "display": true,
+      "tex": "(1\\ 93755\\ 73910)_{-10},\\tag{6}",
+      "sha256": "ab3f1029235dcc5a480c876ef78940009414cee859a5ebd423f88656e555fbd6"
+    },
+    {
+      "sourceLine": 42,
+      "display": false,
+      "tex": "10\\ 305\\ 070\\ 900-9\\ 070\\ 503\\ 010",
+      "sha256": "5ee060a1a81c270de40b433e9404f006c1277a821a9cff8a342d934d19ed0b6a"
+    },
+    {
+      "sourceLine": 42,
+      "display": false,
+      "tex": "-12345\\ 67890",
+      "sha256": "446778eb0a10fe2c92d0d1a720a294701fee88a2a95cad90fede0418645d965f"
+    },
+    {
+      "sourceLine": 44,
+      "display": true,
+      "tex": "(28466\\ 48290)_{-10},\\tag{7}",
+      "sha256": "a575b53dce54330f46de50bacd7a104d810f8f26d29c8f9b34ae47d5d3d2987e"
+    }
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "not-applicable",
+  "numericalChecks": {
+    "meaning": "独立复算辅助，不替代原页/英文视觉核查。",
+    "results": {
+      "negativeBase10PositiveExample": 1234567890,
+      "negativeBase10NegativeExample": -1234567890
+    }
+  },
+  "crossPageBlocks": {
+    "unclosedCodeFences": false,
+    "unclosedDisplayMath": false,
+    "unclosedTables": false,
+    "note": "本十页没有跨页程序或逻辑表；165脚注单独分配，正文跨页接续见下。"
+  },
+  "untested": [
+    "最终母稿包含关系、跨页合段和题答链接。",
+    "正式VitePress及Pandoc整卷排版。"
+  ],
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "start": "接164未闭合的括注。",
+  "end": "末正文“下一篇”接166首“文献”。末尾的[^v2-p154-1]定义是原书译者注，装订先单独抽取再合段，勿把它当作正文结尾。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 16,
+    "parseErrors": 0,
+    "footnoteDefinitions": 1,
+    "footnoteReferences": 1,
+    "meaning": "只证明单页Markdown可排版；内容依另列的中英文页图逐项检查。"
+  },
+  "markdownIntegrity": {
+    "uniquePageAnchors": true,
+    "unexpectedControlCharacters": 0,
+    "balancedCodeFences": true
+  }
+}

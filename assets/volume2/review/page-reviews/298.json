@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "sections": [
+    "4.5.3"
+  ],
+  "pdf_page": 298,
+  "printed_page": 287,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "90700328fe3437e4fcbbc9fa5c63f2c7cbd88d7d364c91e0ad3bd56db23ad047",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/scans/298.jpg",
+    "image_sha256": "89cb36dddaad050d6b083bff808573f3ce23dcdfc0e1fb8947437f08e6696a6a",
+    "scope": "Entire Chinese source page: prose/proof, all inline/display mathematics,40digit constant, table cells, MIX fields/comments, original exercise difficulty/arrows/parts and polynomial algorithm steps where present."
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      387,
+      388
+    ],
+    "en_printed_pages": [
+      372,
+      373
+    ],
+    "scope": "Actual English page images inspected alongside Chinese originals, all corresponding prose and formula/sequence/table/program/algorithm fields compared. No fixed page-offset assumption.",
+    "qualification": "Original proof transcribed and inspected; recomputation and finite examples are auxiliary and not called general proof."
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/batch293-proof.html",
+    "html_sha256": "a1656986d1a567ba15029b8fd3b0236cf26b6f3a9e173566125211ac5b7d5b91",
+    "math_count_in_eight_page_proof": 535,
+    "math_parse_errors": 0,
+    "desktop_visual_review": true,
+    "mobile_visual_review": false,
+    "desktop_screenshot": ".work/volume2/source-audit/batch293-proof-1040-298.png",
+    "mobile_screenshot": ".work/volume2/source-audit/batch293-proof-390-298.png",
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "document_horizontal_overflow": false,
+    "missing_images": 0,
+    "page_errors": 0,
+    "all_wide_elements_initial_left_and_right_end_reachable": true,
+    "scroll_evidence": ".work/volume2/source-audit/batch293-scroll.json",
+    "scrollable_element_counts": {
+      "1040": 65,
+      "390": 100
+    },
+    "inline_katex_nowrap": true,
+    "qualification": "Standalone eight-page proof using current renderer/math CSS; not final whole-volume/site acceptance.",
+    "historical_before_removing_nonexistent_answer13_link": ".work/volume2/source-audit/history/batch293-before-answer13-exception"
+  },
+  "substantive_corrections": [
+    {
+      "section": "4.5.3 Heilbronn result",
+      "cn_printed_page": 287,
+      "en_pdf_page": 387,
+      "en_printed_page": 372,
+      "source_reading": "具有同一个分母的分数的不同分子作为部分商的分布",
+      "final_reading": "具有同一个分母的各个分数的全部部分商的分布",
+      "english_basis": "the entire collection of partial quotients belonging to the fractions having a given denominator",
+      "reason": "The result concerns all partial quotients of the fractions, not their different numerators being treated as partial quotients."
+    }
+  ],
+  "source_discrepancies_retained": [
+    {
+      "location": "Hensley variance sentence",
+      "both_editions_reading": "variance of tau_n is proportional to logn",
+      "decision": "Retain both originals; tau_n was defined as a mean, so intended underlying random-variable variance is a source-notation question requiring separate primary-paper review. Not silently redefined here."
+    }
+  ],
+  "numeric_evidence": ".work/volume2/source-audit/batch293-numeric-check.json",
+  "next_steps": [
+    "Bind into master with page anchors outside formulas/code/tables.",
+    "Preserve old page SHA records historically if master binding changes bytes."
+  ],
+  "continuation": {
+    "begins_mid_sentence_from_pdf_page": 297,
+    "ends_mid_word": true,
+    "last_text": "结果（定",
+    "continues_on_pdf_page": 299,
+    "next_first_text": "理E）",
+    "binding_requirement": "Join定理E across page boundary; anchor stays outside math."
+  }
+}

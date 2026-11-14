@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "section": "3.6",
+  "pdf_page": 157,
+  "printed_page": 146,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "a1d1aa30dd835997664738ba6f1cb719efc77a14d2100ec2af4345409d65fbcc",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/source-audit/cn-render/full-157.png",
+    "scope": "all page prose, sequence and punctuation; all formulas, program specification, stage directions, quoted letter, original footnote and unnumbered illustration where present"
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      208
+    ],
+    "en_printed_pages": [
+      193
+    ],
+    "scope": "all corresponding prose/scripts and every mathematical expression; original Chinese translation retained except listed substantive corrections",
+    "original_english_formula_images_checked": [
+      204,
+      208
+    ]
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/chapter36-tail-proof.html",
+    "html_sha256": "b8897ed2534f2d49eb7e1d95f0c0b8b65ebe568f5a49b3793c9dd238f6e0c058",
+    "desktop_screenshot": ".work/volume2/source-audit/tail-proof-1040-157.png",
+    "mobile_screenshot": ".work/volume2/source-audit/tail-proof-390-157.png",
+    "desktop_visual_review": true,
+    "mobile_visual_review": true,
+    "source_pipeline": "current VitePress + installBookMarkdown + markdown-it-footnote; standalone proof",
+    "math_expressions_in_four_page_proof": 41,
+    "math_parse_errors": 0,
+    "missing_images": 0,
+    "page_errors": 0,
+    "document_horizontal_overflow": false,
+    "footnote_navigation_actual_test": null,
+    "long_math_both_ends": {
+      "evidence": ".work/volume2/source-audit/tail-scroll.json",
+      "fully_reachable_at_widths": [
+        1040,
+        390
+      ]
+    },
+    "qualification": "Not complete-volume binding or final website verification."
+  },
+  "exercises": [
+    {
+      "anchor": "ex-3-6-9",
+      "number": 9,
+      "difficulty": "HM32",
+      "recommended": false,
+      "answer_anchor": "ans-3-6-9"
+    },
+    {
+      "anchor": "ex-3-6-10",
+      "number": 10,
+      "difficulty": "22",
+      "recommended": false,
+      "answer_anchor": "ans-3-6-10"
+    },
+    {
+      "anchor": "ex-3-6-11",
+      "number": 11,
+      "difficulty": "M25",
+      "recommended": true,
+      "answer_anchor": "ans-3-6-11"
+    },
+    {
+      "anchor": "ex-3-6-12",
+      "number": 12,
+      "difficulty": "M21",
+      "recommended": true,
+      "answer_anchor": "ans-3-6-12"
+    },
+    {
+      "anchor": "ex-3-6-13",
+      "number": 13,
+      "difficulty": "M25",
+      "recommended": false,
+      "answer_anchor": "ans-3-6-13"
+    },
+    {
+      "anchor": "ex-3-6-14",
+      "number": 14,
+      "difficulty": "M35",
+      "recommended": true,
+      "answer_anchor": "ans-3-6-14"
+    },
+    {
+      "anchor": "ex-3-6-15",
+      "number": 15,
+      "difficulty": "25",
+      "recommended": true,
+      "answer_anchor": "ans-3-6-15"
+    }
+  ],
+  "answer_exceptions": [],
+  "substantive_corrections": [
+    {
+      "section": "3.6 exercise9(c)",
+      "cn_printed_page": 146,
+      "en_printed_page": 193,
+      "en_pdf_page": 208,
+      "source_reading": "当且仅当 |n-n′| ≥ 2^70-1",
+      "final_reading": "只有当 |n-n′| ≥ 2^70-1 时才可能成立",
+      "english_basis": "only if |n − n′| ≥ 2^70 − 1",
+      "reason": "Original English asserts a necessary condition; Chinese iff incorrectly adds the converse."
+    }
+  ],
+  "source_discrepancies_retained": [],
+  "next_steps": [
+    "Bind into complete volume and verify complete-volume hashes, links and final rendering.",
+    "Transcribe corresponding original answers without fabricating answers3–6."
+  ]
+}

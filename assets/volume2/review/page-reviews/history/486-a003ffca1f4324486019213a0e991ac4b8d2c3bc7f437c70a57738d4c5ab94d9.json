@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "answers4.1",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 486,
+  "cnPrintedPage": 475,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "2b4e9bc585be4246506f003b08485ddbad1c51eb010750f043c894fcd58cfd1f",
+  "masterBinding": "单页MD当前字节；整卷装订另证包含，不重写旧哈希冒充复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型直接看完整中文与列出的英文原页图，逐段/所有数学/算法/程序字段注释/原答号比较，不声称人类签核或所有一般证明独立重证。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/486.jpg",
+  "cnPageImageSha256": "53623978f79171e4246212b8dcd62dd97b087a2fae730d8e2f4533b3ead1426e",
+  "enPdfPages": [
+    622,
+    623
+  ],
+  "enPrintedPages": [
+    607,
+    608
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-622.png",
+      "sha256": "d996b8c003ec6b5e237dcf60eac6403ac1a575d304253b65a30340e3b62562c8"
+    },
+    {
+      "file": "verified-sources/en-623.png",
+      "sha256": "4379ea3fce5286b811a0d54371850449e7367827c494c747faf06644f2b9e3f9"
+    }
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-486",
+    "p-475",
+    "ans-4-1-19",
+    "ans-4-1-20",
+    "ans-4-1-21",
+    "ans-4-1-22",
+    "ans-4-1-23",
+    "ans-4-1-24"
+  ],
+  "coveredRegions": [
+    "答18文献续段、答19–24至末跨页“且”。",
+    "答20数字17/26/…以无分数线的上下叠数字呈现，保留负数字的上横线。",
+    "答21平衡十进制，答22负号，答23测度求并证明、答24数字集与证明显式边界。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.1-23-countable",
+      "section": "4.1答案23",
+      "cnPrintedPage": 475,
+      "enPdfPage": 623,
+      "enPrintedPage": 608,
+      "original": "T是有限多个形如…的零测集的并集",
+      "final": "T是可数多个形如…的零测集的并集",
+      "basis": "英文原页为countably many sets；此处k与整数n取遍可数集合，不能缩成有限个。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-1-19",
+      "exercise_anchor": "ex-4-1-19",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-20",
+      "exercise_anchor": "ex-4-1-20",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-21",
+      "exercise_anchor": "ex-4-1-21",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-22",
+      "exercise_anchor": "ex-4-1-22",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-23",
+      "exercise_anchor": "ex-4-1-23",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-24",
+      "exercise_anchor": "ex-4-1-24",
+      "backlink_present": true
+    }
+  ],
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "continuationNotes": "首续答18文献；末答24“且”接487“对于x≠x′∈X…”，同一段，无跨页数学块。",
+  "syntaxCheck": {
+    "page": 486,
+    "sha256": "2b4e9bc585be4246506f003b08485ddbad1c51eb010750f043c894fcd58cfd1f",
+    "mathExpressions": 69,
+    "display": 0,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿装订和所有题答往返",
+    "MIX程序执行及所有一般证明的独立重证",
+    "整卷Pandoc/VitePress/线上发布"
+  ]
+}

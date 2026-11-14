@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "只绑定单页稿；装订母稿另作包含证明，不能修改旧证据哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "cnPdfPage": 124,
+  "cnPrintedPage": 113,
+  "section": "3.5",
+  "enPdfPages": [
+    164,
+    165
+  ],
+  "enPrintedPages": [
+    149,
+    150
+  ],
+  "pageMarkdownSha256": "4bb8e8e88b3fae881a7e4c28055bbb4c07944148ad12158e22c20bef56467f2f",
+  "cnPageImageSha256": "e2970d7b9bfe9de9497e8c411684fe99dd9548bf44f195e3c69084140561749a",
+  "enPageImageSha256": {
+    "164": "f89d42c2a86797f1705e18e80e09e6f0ab59fc3123a981cb7b3411dc77634a4e",
+    "165": "00ca6eb4bd1bc60ad1348cf9b672bc72123af3a54832227fc9fb0c4efbf7173d"
+  },
+  "coveredRegions": [
+    "标题/引论、概率哲学两作者引语、等分布式(1)(2)、频率说明、定义A全部。"
+  ],
+  "explicitAnchors": [
+    "pdf-124",
+    "p-113",
+    "sec-3-5"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码；原页定位以隐藏锚点保存。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 43,
+    "displayExpressions": 2,
+    "parseErrors": 0
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "7e08520b73c168d771f12c3af7ba95a76c8b5b3b05926e43009495f362db32ea",
+    "visualReviewSha256": "f5ab29e7886c99c98ed3ec6a498d9e354ca1abae4d872419c7f7e1cca4924b9a",
+    "browserAvailability": "Browser plugin not available; bundled Playwright + task-authorized isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 43,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingDisplayBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 43,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingDisplayBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "1a32ba180c35d113d6387c75f8a06d5236908247109e699902ad5b808ac8fe13",
+  "numericalCheckQualification": "仅周期16完整块计数、单项式积分值、有限求和辅助；不声称数值验证证明了定理A/B/C/F。",
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {},
+  "exerciseNumbers": [],
+  "answerExceptions": [],
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc/VitePress、全站题答/索引/搜索/线上下载和发布由主任务执行。"
+  ]
+}

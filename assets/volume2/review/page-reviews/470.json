@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 470,
+  "cnPrintedPage": 459,
+  "enPdfPages": [
+    602,
+    603
+  ],
+  "enPrintedPages": [
+    587,
+    588
+  ],
+  "pageMarkdownSha256": "bf996de84452ca0925c8766e330c55bcaa187964e29ec4007f11a98389383fa6",
+  "cnPageImageSha256": "6fc841dadcad1bee628178ff68fd153c741b7d818161c508983f9d955a8a81e1",
+  "enPageImageSha256": {
+    "602": "5333dbc84d1b95d14090fa5baa999755b2dc54ea12013219062dad9d660955d5",
+    "603": "be79d22f8f45f0c5dc7906419a9d6a92951e8625135603af90be603a359573eb"
+  },
+  "coveredRegions": [
+    "答19Γ泊松原注；20完整四行四情形表；21三个积分原函数/最大内区/外区公式；22完整连续泊松/二项逆变换论证/原注；23、25、26、27位算法B1/B2。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-470",
+    "p-459",
+    "ans-3-4-1-20",
+    "ans-3-4-1-21",
+    "ans-3-4-1-22",
+    "ans-3-4-1-23",
+    "ans-3-4-1-25",
+    "ans-3-4-1-26",
+    "ans-3-4-1-27"
+  ],
+  "answerAnchors": [
+    "ans-3-4-1-20",
+    "ans-3-4-1-21",
+    "ans-3-4-1-22",
+    "ans-3-4-1-23",
+    "ans-3-4-1-25",
+    "ans-3-4-1-26",
+    "ans-3-4-1-27"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 103,
+    "displayExpressions": 4,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.4.1答22连续二项积分参数",
+      "cnPrintedPage": 459,
+      "enPdfPage": 603,
+      "enPrintedPage": 588,
+      "original": "(1−u)^(n−x)",
+      "final": "(1−u)^(t−x)",
+      "basis": {
+        "cnPrintedPage": 459,
+        "enPdfPage": 603,
+        "enPrintedPage": 588,
+        "cnOriginal": "(1−u)^(n−x)",
+        "englishOriginal": "(1−u)^(n−x)",
+        "final": "(1−u)^(t−x)",
+        "completeFormulaEvidence": "同一原式Γ(t+1)/(Γ(x)Γ(t+1−x))，紧接floor(G^-1(U))是参数(t,p)二项分布；此段无n的定义。",
+        "analyticBasis": "Beta(x,t+1−x)=Γ(x)Γ(t+1−x)/Γ(t+1)，对应被积式u^(x−1)(1−u)^(t−x)。对整数0≤n≤t有G(n+1)−G(n)=binom(t,n)p^n(1−p)^(t−n)，因而floor逆变换为所述分布。原式的n若另视为t，其符号必须统一为t，不能作为另一独立参数。",
+        "samples": [
+          {
+            "t": 5,
+            "p": "0.3",
+            "n": 1,
+            "difference": "0.36015",
+            "pmf": "0.36015"
+          },
+          {
+            "t": 5,
+            "p": "0.3",
+            "n": 2,
+            "difference": "0.3087",
+            "pmf": "0.3087"
+          },
+          {
+            "t": 5,
+            "p": "0.3",
+            "n": 3,
+            "difference": "0.1323",
+            "pmf": "0.1323"
+          },
+          {
+            "t": 5,
+            "p": "0.3",
+            "n": 4,
+            "difference": "0.02835",
+            "pmf": "0.02835"
+          }
+        ]
+      }
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 469,
+    "answerAtStart": "3.4.1-19",
+    "right_start": "［对于负二项分布，罗格·莱热提出了一种有趣的方法，",
+    "continuation_end": "的随机泊松偏差。］",
+    "continues_to_pdf_page": 471,
+    "answerAtEnd": "3.4.1-27",
+    "left_end": "置 $m\\leftarrow m-M$，并且如果 $b_j=1$，则置 $N\\leftarrow N+M$。",
+    "right_next_start": "**B3.**",
+    "instruction": "470 B2完整段后，471从同答B3继续；页锚点算法步骤外，不重复ans。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "79abfa46724d8d811ebd1697835aa80f05953c547df3610c9e8666ccbd0a61b5",
+    "visualReviewSha256": "a02cbf1518a20f9b511952f7157e24252810bc321bf27b5457f0968192446899",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 103,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 103,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 6,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "55c5ed9a0a067646d83b6e56feb7ba476432b9d02bb7d83194da50b47b243f31",
+  "numericalCheckQualification": "独立精确整数/有理数和高精度数值计算辅助逐原图比对；有限枚举/差分不替代一般证明。论证依据另逐项明列。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "editableTables": 1,
+  "answerExceptions": [
+    {
+      "answer": "3.4.1-24",
+      "reason": "原中英答23后直接25，研究题24无独立答项；不造答24。"
+    }
+  ]
+}

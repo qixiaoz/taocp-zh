@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 90,
+  "cnPrintedPage": 79,
+  "section": "3.3.4",
+  "enPdfPages": [
+    119,
+    120
+  ],
+  "enPrintedPages": [
+    104,
+    105
+  ],
+  "pageMarkdownSha256": "f0987c65aa20c094e859a3cd81d80432e25cb19dfd432f13d6304d80558403bf",
+  "cnPageImageSha256": "a70d6b2d7aee6715f42495fd87d797f5df0d6b90bcbf6d46c0c8498fd2492a75",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 39,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-090",
+    "p-79"
+  ],
+  "coveredRegions": [
+    "原例14次迭代q元组、最终U/V式(34)、搜索界和三维精度；E评估正文、椭球定义、式(35)(36)、全部μ2…μ6系数与标准；表1引文至续句。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "numericAudit": {
+    "method": "Exact integer dot products and original transformation(23); check each U-row congruence(28) and every entry of U·Vᵀ=mI(29) at initialization, first iteration and after all14 printed q-tuples. Source matrices and tuples read directly in CN089/090 and EN119.",
+    "all54MatrixEntriesAnd42IterationCoordinatesMatch": true,
+    "finalU": [
+      [
+        -1479,
+        616,
+        -2777
+      ],
+      [
+        -3022,
+        104,
+        918
+      ],
+      [
+        -227,
+        -983,
+        -130
+      ]
+    ],
+    "finalV": [
+      [
+        -888874,
+        601246,
+        -2994234
+      ],
+      [
+        -2809871,
+        438109,
+        1593689
+      ],
+      [
+        -854296,
+        -9749816,
+        -1707736
+      ]
+    ],
+    "searchBounds": [
+      0,
+      0,
+      1
+    ],
+    "nu2Squared": 4577114792,
+    "nu3Squared": 1034718,
+    "nu2": 67654.37747847511,
+    "nu3": 1017.2108925881594
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 91,
+    "end": "行1和行2",
+    "continuation": "的生成器问题在于乘数太小；091页首插入表1后正文续接。",
+    "tableInterposesBeforeContinuation": true
+  }
+}

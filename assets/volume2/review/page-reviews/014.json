@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "3.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "母稿尚未装订；本记录绑定单页Markdown字节和中文原页图指纹。装订后另作包含证明，不可把此哈希直接改成母稿哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接查看中英文原页图，逐段、逐式并按算法步骤、表格行和习题题号对照；不以OCR一致或解析通过替代原页校对。",
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "pageFurnitureOmitted": [
+    "重复的页眉节号、书名/小节名、印刷页码；印刷页码用隐藏锚点保留。"
+  ],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [],
+  "unverifiedPageRegions": [],
+  "untested": [
+    "尚未验证最终母稿包含关系。",
+    "尚未验证最终VitePress和Pandoc整卷页面。"
+  ],
+  "cnPdfPage": 14,
+  "cnPrintedPage": 3,
+  "enPdfPages": [
+    18,
+    19,
+    20
+  ],
+  "enPrintedPages": [
+    3,
+    4,
+    5
+  ],
+  "pageMarkdownSha256": "afc5121d1e8ee709480321e5fe847ff94131a89c2ff63095ed507bfda8127179",
+  "cnPageImage": "scans/014.jpg",
+  "cnPageImageSha256": "79f9cbd309e812341f94511a55f1cbfd7f1d5c752892e02706e820659a6ba241",
+  "pageAnchors": [
+    "pdf-014",
+    "p-3",
+    "alg-3-1-K"
+  ],
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "startsInsideAlgorithm": false,
+  "endsInsideAlgorithm": true,
+  "startsInsideExercise": false,
+  "endsInsideExercise": false,
+  "exerciseNumbers": [],
+  "recommendedExercises": [],
+  "exerciseAnswerExistence": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 20,
+    "parseErrors": 0,
+    "meaning": "仅证明语法可排版；语义核实另以原页对照为据。"
+  },
+  "markdownIntegrity": {
+    "uniqueExplicitAnchors": true,
+    "unexpectedControlCharacters": 0
+  },
+  "coveredRegions": [
+    "上页“看上去是”的续段、伪随机/准随机术语及彩票例外。",
+    "平方取中法的循环缺陷、Forsythe/Metropolis实验数值与文献。",
+    "旧生成器方法传播与1959年算法K引入。",
+    "算法K的原定义及K1–K6全部步骤、阈值、常数、取整与取模。"
+  ],
+  "numericAudit": {
+    "method": "对四位十进制平方取中，f(x)=(x*x//100)%10000。",
+    "cycleChecks": [
+      [
+        6100,
+        2100
+      ],
+      [
+        2100,
+        4100
+      ],
+      [
+        4100,
+        8100
+      ],
+      [
+        8100,
+        6100
+      ]
+    ],
+    "allFourCycleArcsRecomputed": true
+  },
+  "representationRevision": {
+    "cnPdfPage": 14,
+    "oldPageMarkdownSha256": "c5e9c829e9873eba1d5bde8df1098f556296a5372013a15d8275fc3e61b89812",
+    "newPageMarkdownSha256": "afc5121d1e8ee709480321e5fe847ff94131a89c2ff63095ed507bfda8127179",
+    "exactReplacements": [
+      [
+        "*伪随机（pseudorandom）*",
+        "<em>伪随机（pseudorandom）</em>"
+      ],
+      [
+        "*准随机（quasirandom）*",
+        "<em>准随机（quasirandom）</em>"
+      ]
+    ],
+    "allOtherBytesUnchanged": true,
+    "history": "verified-history/014-before-explicit-term-emphasis-c5e9c829e9873eba1d5bde8df1098f556296a5372013a15d8275fc3e61b89812",
+    "kind": "source-Markdown-emphasis-representation-repair",
+    "basis": "Original CN014/030/058 and corresponding EN19/39/77 have emphasized terms and no literal stars, directly viewed independently by chapter3 and factorization agents. CommonMark flanking around CJK parentheses prints6stars and emphasizes the connector incorrectly. Use explicitHTMLem in the source so ordinary offline Markdown readers and the website both render the original emphasis.",
+    "sourceEvidence": "offline-reader-experiment/term-emphasis-original-review.json",
+    "sourceEvidenceSha256": "2aa4dd2c5ff5f24976f7d40e18381da4d93aa2ab0b1db3a30f25da8cfdae8536",
+    "actualNewBrowserEvidence": {
+      "file": "proof/explicit-term-browser.json",
+      "sha256": "94b5bc38387e2c95e8635f17f13e5737f2e3912ad87f65a0af00b542e1bcd3b3",
+      "status": "passed"
+    },
+    "qualification": "Format representation only. Original words, numbers, formulas, programs and source page anchors unchanged; historical page reviews retain their original MD hashes, with new revision binding after actual render verification.",
+    "newSyntax": {
+      "page": 14,
+      "sha256": "afc5121d1e8ee709480321e5fe847ff94131a89c2ff63095ed507bfda8127179",
+      "mathExpressions": 20,
+      "display": 0,
+      "footnotes": 0,
+      "codeLines": [],
+      "errors": 0,
+      "unexpectedControlCharacters": 0
+    }
+  }
+}

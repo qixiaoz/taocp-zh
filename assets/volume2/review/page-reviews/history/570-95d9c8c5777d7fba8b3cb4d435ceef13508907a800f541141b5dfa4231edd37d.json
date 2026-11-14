@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 570,
+  "cnPrintedPage": 559,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "698055dbbbe9565caccbdfa83542e039606337cc3fde5e7d01dd2f880e271bd9",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/570.jpg",
+  "cnPageImageSha256": "743c47fa0a985351ef4ee1a874cf5d1e1fc78b30cde8b45ab8dcc77bac246d0e",
+  "enPdfPages": [
+    725,
+    726
+  ],
+  "enPrintedPages": [
+    710,
+    711
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-725.png",
+      "sha256": "96431eb435670c80ea2a7d4d8524eabef5817625978f63c0385c46b55e9bc54e"
+    },
+    {
+      "file": "verified-sources/en-726.png",
+      "sha256": "050e51ca4b9b3edb7cd09677bdfbe61e1ab8cbe44f1b16e9e10d9ef324816a24"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-570",
+    "p-559",
+    "ans-4-6-4-54",
+    "ans-4-6-4-55",
+    "ans-4-6-4-56",
+    "ans-4-6-4-57"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续53二维递归成本/8组成本表/1008和1024数值及全部参考；54原答完整恢复（OCR整项丢失）。",
+    "55最小多项式次数、56二次型与双线性型的完整张量秩证明、57 FFT多项式乘法证明及模素数方法至末p=2^35−512a+1。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末57素数列表引入公式完整，571首“其中(a,r)=…”继续列数。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.6.4-56-rank-of-symmetrization",
+      "section": "4.6.4答案56末不等式",
+      "cnPrintedPage": 559,
+      "enPdfPage": 726,
+      "enPrintedPage": 711,
+      "original": "rank(τ_ijk)+rank(τ_jik)≥rank(t_ijk)",
+      "final": "rank(τ_ijk+τ_jik)≥rank(t_ijk)",
+      "basis": "英文为rank of the sum。原文所述在对称化张量τ+τ^T实现中删A末n行及B首m行，保留的正是上右块t，故每个rank-r实现给t的rank≤r实现；得到rank(τ+τ^T)≥rank(t)。中文将和式移出rank，丢失用以衔接前一半证明的更强结论。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-6-4-54",
+      "exercise_anchor": "ex-4-6-4-54",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-55",
+      "exercise_anchor": "ex-4-6-4-55",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-56",
+      "exercise_anchor": "ex-4-6-4-56",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-57",
+      "exercise_anchor": "ex-4-6-4-57",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 570,
+    "sha256": "698055dbbbe9565caccbdfa83542e039606337cc3fde5e7d01dd2f880e271bd9",
+    "mathExpressions": 89,
+    "display": 0,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 570,
+        "width": 1280,
+        "sha256": "698055dbbbe9565caccbdfa83542e039606337cc3fde5e7d01dd2f880e271bd9",
+        "pageErrors": [],
+        "bodyText": 5118,
+        "documentWidth": 1280,
+        "expressions": 89,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 570,
+        "width": 390,
+        "sha256": "698055dbbbe9565caccbdfa83542e039606337cc3fde5e7d01dd2f880e271bd9",
+        "pageErrors": [],
+        "bodyText": 5118,
+        "documentWidth": 390,
+        "expressions": 89,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 86,
+            "max": 86,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 193,
+            "max": 193,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 341,
+            "max": 341,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 117,
+            "max": 117,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 104,
+            "max": 104,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  }
+}

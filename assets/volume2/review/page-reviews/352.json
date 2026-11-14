@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.6.2",
+  "sections": [
+    "4.6.2"
+  ],
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 352,
+  "cnPrintedPage": 341,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    454,
+    455
+  ],
+  "enPrintedPages": [
+    439,
+    440
+  ],
+  "pageMarkdownSha256": "e219e562ed1699c44b122fa0ff8c8a109e705238e6643adbde3f63ad6a675912",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/352.jpg",
+  "cnPageImageSha256": "f246b54be6a08e3d155b398cd0ad230532b9aa0947a9bc098331775d4391cb8c",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-454.png",
+      "sha256": "1e5527d8d0e3c7be748085e356d880e0b5d8d81ec3030a74d59a07a46784ca39"
+    },
+    {
+      "file": "source-audit/en-render/page-455.png",
+      "sha256": "c8510e56323ceba0b0cf0f6c664748548ffbe01edc12f17448518f373289f790"
+    }
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "pageAnchors": [
+    "pdf-352",
+    "p-341"
+  ],
+  "numberedFormulaTags": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "coveredRegions": [
+    "式2续句、导数3及平方因子处理、Frobenius5两段完整证明、6/7/8及CRT和非平凡公因子论证。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 61,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch351-numeric-check.json",
+  "numericScope": "Full source mod13 example only: all112 power-table cells,128 Q/QI cells,320 N-trajectory cells, source pivot positions, all26 B4 gcds, factor product and concrete exhaustive irreducibility, all2197 fixed-space vectors and exact split distribution. Finite checks do not prove general CRT/Frobenius/rank/probability/complexity assertions.",
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch351-proof.html",
+    "htmlSha256": "acb69e82285cd3f821aa14a1c5a3708c938fda6db95ed317730b75aafe7268d7",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume or production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright and local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch351-proof-1280-352.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch351-proof-390-352.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 457,
+    "scrollableElementCounts": {
+      "1280": 24,
+      "390": 48
+    },
+    "machineObservations": ".work/volume2/source-audit/batch351-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch351-right-390-352.png",
+    "mobileRightEndVisualReview": true
+  },
+  "startsMidParagraph": {
+    "previousCnPdfPage": 351,
+    "previousEnd": "式(2)完整闭合",
+    "start": "则其导数",
+    "afterClosedDisplay": true
+  }
+}

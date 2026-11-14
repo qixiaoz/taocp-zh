@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "section": "4.6.3",
+  "sections": [
+    "4.6.3"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 388,
+  "cnPrintedPage": 377,
+  "enPdfPages": [
+    499,
+    500
+  ],
+  "enPrintedPages": [
+    484,
+    485
+  ],
+  "pageMarkdownSha256": "722a72b5d5e791874bbc6531535c32170a9d4ef06009e40717ebd40d9a22f6a4",
+  "masterSha256": null,
+  "cnPageImage": "scans/388.jpg",
+  "cnPageImageSha256": "fe7db9ce6b78536d13cf920ca2975a9b665dd5fa22247dd6f6abd0107f7d3426",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-499.png",
+      "sha256": "be09b12c52536ffcea59f55b84cf69e71ca612fb21647208d7eb8989b1b1a381"
+    },
+    {
+      "file": "source-audit/en-render/page-500.png",
+      "sha256": "a93b47561f67c030968f5f299396d75208d3f6c58aa96358108df7d56c1aa704"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-388",
+    "p-377",
+    "ex-4-6-3-29",
+    "ex-4-6-3-30",
+    "ex-4-6-3-31",
+    "ex-4-6-3-32",
+    "ex-4-6-3-33",
+    "ex-4-6-3-34",
+    "ex-4-6-3-35",
+    "ex-4-6-3-36",
+    "ex-4-6-3-37",
+    "ex-4-6-3-38",
+    "ex-4-6-3-39",
+    "ex-4-6-3-40",
+    "ex-4-6-3-41",
+    "ex-4-6-3-42",
+    "ex-4-6-3-43"
+  ],
+  "numberedFormulaTags": [],
+  "coveredRegions": [
+    "题28(c)续式完整定义、rho与全部量化/下标、28(d)和提示；29–43全部题干/难度/36/39/40推荐、长链42全部28数字；共同历史研究问题保原。"
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "v2-4.6.3-ex39-extra-one",
+      "section": "4.6.3",
+      "cnPrintedPage": 377,
+      "cnPdfPage": 388,
+      "exercise": 39,
+      "original": "l([n1,n2,...,nm])=l(n1,n2,...,nm)+m−11",
+      "final": "l([n1,n2,...,nm])=l(n1,n2,...,nm)+m−1",
+      "minimalEdit": "末项−11删去一个多余的1，其余题干/提示保持。",
+      "enLocation": {
+        "pdfPage": 500,
+        "printedPage": 485,
+        "position": "exercise39 displayed inline formula"
+      },
+      "enFormula": "l([n1,n2,...,nm])=l(n1,n2,...,nm)+m−1",
+      "enShortExcerpt": "+m−1",
+      "basis": "英文明确为−1；同章双源图对偶成本由E−V+m对E−V+1也导出相差m−1；中文−11与合法例子的非负乘法次数矛盾。",
+      "completeHypotheses": "l([n1,...,nm])为计算单项式x1^n1...xm^nm的最少乘法数，各ni为正整数；l(n1,...,nm)按题37为包含给定正数的最短加法链长度。",
+      "exactLegalExample": {
+        "m": 2,
+        "n": [
+          1,
+          2
+        ],
+        "lSequence": 1,
+        "lMonomial": 2,
+        "originalRightSide": -8,
+        "finalRightSide": 2,
+        "proof": "一条加法链1,2长度1；独立不定元x1*x2²需两次乘法，先x2²后乘x1可达，单次乘法的总次数至多2无法得到总次数3。"
+      },
+      "cnSourceCrop": "source-audit/388-ex39-source-crop.png",
+      "cnSourceCropSha256": "85f968a8bb5fedce227803a274eea5e19d73d676721b4831fd462964bb218c1d",
+      "enSourceImageSha256": "a93b47561f67c030968f5f299396d75208d3f6c58aa96358108df7d56c1aa704"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 74,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch385-numeric-check.json",
+  "numericScope": "Finite graph identities and all labels/arcs, exact contraction/dual27-step source chain and all8 dual refinements, full underlining feasibility for that particular chain. 28(a) bitmask operations checked only x/y0..31, not the general real-number theorem or asymptotic proof. No new exercise answers added. Larger small-step records and general bounds only original-page/bilingual checked.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch385-proof.html",
+    "htmlSha256": "64f554d9a8f4dcab64333e7e48766c5fb4a3f67d02b413fb90491bdd4409aac2",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Four-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch385-proof-1280-388.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch385-proof-390-388.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 245,
+    "scrollableElementCounts": {
+      "1280": 39,
+      "390": 47
+    },
+    "machineObservations": ".work/volume2/source-audit/batch385-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch385-right-390-388.png",
+    "mobileRightEndVisualReview": true
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch385-answer-presence.json",
+    "linkedExercises": [
+      29,
+      30,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "exceptions": [
+      31,
+      43
+    ],
+    "roundTripDeferredUntilActualAnswerTranscriptionAndAssembly": true,
+    "actualMIXProgramsInTheseQuestionPages": false
+  },
+  "startsMidParagraph": {
+    "exercise": "4.6.3-28",
+    "part": "c",
+    "previousCnPdfPage": 387,
+    "previousEnd": "如果$a_i=a_j+a_k$是婴儿步，则令",
+    "start": "$B_i=B_{i-1}\\mathbin\\triangledown(B_{i-1}/2^{d_j-d_k})$."
+  },
+  "historicalResearchProblemsRetained": [
+    "29 Stolarsky不等式、31带权链、38渐近问题、43ScholzBrauer均保留底本历史研究题表述；不升级为当前研究结论。"
+  ],
+  "nextPageBoundary": {
+    "nextCnPdfPage": 389,
+    "nextPrintedPage": 378,
+    "nextSection": "4.6.4 多项式求值",
+    "currentFinalExercise": 43,
+    "currentFinalSentenceComplete": true,
+    "nextPageOriginalDirectlyViewedForBoundaryOnly": true,
+    "nextPageNotTranscribedByThisBatch": true
+  }
+}

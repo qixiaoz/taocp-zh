@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "sections": [
+    "4.5.2"
+  ],
+  "pdf_page": 276,
+  "printed_page": 265,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "18155a048d17fa9959043890909a7effd1f34b4b6c53a72f72f14ee218bd0b7c",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/scans/276.jpg",
+    "image_sha256": "c4a9e7d8b874d59fd4c38eeb1adcaa3d03ad214739a2c0796fd089c41a69f58b",
+    "scope": "Entire actual Chinese page: all prose, inline/display mathematics, original program comments/fields/timings, tables, algorithm updates and footnote where present."
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      359,
+      360
+    ],
+    "en_printed_pages": [
+      344,
+      345
+    ],
+    "scope": "Actual corresponding English page images inspected, prose and every formula/program/table field compared. This is not inferred from a fixed pagination offset or OCR agreement.",
+    "qualification": "Convergence and historical references not independently reproved; finite numerical/algorithm checks separately described."
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/batch272-proof.html",
+    "html_sha256": "26e0a0d726a45b5996d1a9be717f67c03f2e1529560bd9e5769511a0c003ba4f",
+    "math_count_in_eight_page_proof": 478,
+    "math_parse_errors": 0,
+    "desktop_visual_review": true,
+    "mobile_visual_review": false,
+    "desktop_screenshot": ".work/volume2/source-audit/batch272-proof-1040-276.png",
+    "mobile_screenshot": ".work/volume2/source-audit/batch272-proof-390-276.png",
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "document_horizontal_overflow": false,
+    "missing_images": 0,
+    "page_errors": 0,
+    "scroll_evidence": ".work/volume2/source-audit/batch272-scroll.json",
+    "all_wide_elements_initial_left_and_right_end_reachable": true,
+    "scrollable_element_counts": {
+      "1040": 35,
+      "390": 50
+    },
+    "qualification": "Independent eight-page KaTeX/footnote proof with current public math-display CSS; not final full-volume or site acceptance."
+  },
+  "substantive_corrections": [],
+  "source_discrepancies_retained": [],
+  "numeric_evidence": ".work/volume2/source-audit/batch272-numeric-check.json",
+  "next_steps": [
+    "Bind into master with anchors outside math/code/table blocks.",
+    "If binding changes page bytes, preserve this record historically and review affected changes under new master SHA."
+  ],
+  "continuation": {
+    "ends_mid_word": true,
+    "last_text": "商⌊u/v⌋几",
+    "continues_on_pdf_page": 277,
+    "next_first_text": "乎总是非常小的数",
+    "binding_requirement": "Join 几乎 across physical-page boundary."
+  }
+}

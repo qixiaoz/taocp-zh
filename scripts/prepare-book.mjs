@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Build the website from the two immutable editorial masters.
+/** Build enabled volumes from their immutable book and report masters.
  * No source PDF, OCR working file or local tool is part of the publication.
  * Run: node scripts/prepare-book.mjs
  */
@@ -8,13 +8,21 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { zipSync, unzipSync } from 'fflate';
+import { volumes, enabledVolumes, volumeManifestFile } from './book-volumes.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DOCS = path.join(ROOT, 'docs');
-const BOOK = '计算机程序设计艺术·卷1·基本算法.md';
-const REPORT = '校订报告.md';
 const sha = data => createHash('sha256').update(data).digest('hex');
-const read = name => fs.readFile(path.join(ROOT, name), 'utf8');
+const read = async name => {
+  const bytes = await fs.readFile(path.join(ROOT, name));
+  const invalid = [];
+  for (let i = 0; i < bytes.length; i++) {
+    const byte = bytes[i];
+    if (byte < 32 && byte !== 9 && byte !== 10 && !(byte === 13 && bytes[i + 1] === 10)) invalid.push({ offset: i, byte });
+  }
+  if (invalid.length) throw new Error(`Invalid editorial C0 control bytes in ${name}: ${JSON.stringify(invalid.slice(0, 10))}`);
+  return bytes.toString('utf8');
+};
 const assert = (ok, message) => { if (!ok) throw new Error(message); };
 const posix = value => value.split(path.sep).join('/');
 const write = async (name, data) => {
@@ -22,6 +30,10 @@ const write = async (name, data) => {
   await fs.mkdir(path.dirname(file), { recursive: true });
   await fs.writeFile(file, data);
 };
+async function prepareVolume(volume) {
+const BOOK = volume.book;
+const REPORT = volume.report;
+const prefix = volume.routePrefix;
 const source = await read(BOOK);
 const report = await read(REPORT);
 const sourceHash = sha(source);
@@ -57,24 +69,37 @@ function includeLeadingPageAnchors(index) {
   }
   return start;
 }
-const boundaries = [{ start: 0, route: '/volume1/frontmatter', title: '卷前', kind: 'frontmatter', section: null, anchor: 'pdf-001', headingLine: 2 }];
+const boundaries = [{ start: 0, route: `${prefix}/frontmatter`, title: '卷前', kind: 'frontmatter', section: null, anchor: 'pdf-001', headingLine: volume.frontmatterHeadingLine }];
 const sectionPattern = /^<a id="(sec-[^"]+)"><\/a>\s*$/;
 let answerStart, answerEnd;
 for (let i = 0; i < lines.length; i++) {
   const match = lines[i].trim().match(sectionPattern);
   if (!match) continue;
   const anchor = match[1];
+  // Lettered parts such as 4.3.3 A–E remain stable in-page targets. Only
+  // numbered sections and the configured book divisions create routes.
+  if (!/^sec-\d+(?:-\d+)*$/.test(anchor)
+    && ![volume.answerStartAnchor, ...volume.appendixAnchors, ...volume.indexAnchors].includes(anchor)) continue;
   let headingLine = i + 1;
   while (headingLine < lines.length && !/^#{1,6}\s+/.test(lines[headingLine])) headingLine++;
   assert(headingLine < i + 5, `No heading immediately after ${anchor}`);
   const title = lines[headingLine].replace(/^#+\s+/, '').trim().replace(/\\\*/g, '*');
-  const kind = /^sec-app-/.test(anchor) ? 'appendix' : /sec-(?:names|index)$/.test(anchor) ? 'index' : anchor === 'sec-answers' ? 'answers-index' : 'body';
+  const kind = volume.appendixAnchors.includes(anchor) ? 'appendix' : volume.indexAnchors.includes(anchor) ? 'index' : anchor === volume.answerStartAnchor ? 'answers-index' : 'body';
   const section = /^sec-\d/.test(anchor) ? anchor.slice(4).replaceAll('-', '.') : null;
-  boundaries.push({ start: includeLeadingPageAnchors(i), route: `/volume1/${anchor}`, title, kind, section, anchor, headingLine });
-  if (anchor === 'sec-answers') answerStart = i;
-  if (anchor === 'sec-app-a') answerEnd = i;
+  let start = includeLeadingPageAnchors(i);
+  const leadAnchor = volume.leadInAnchors?.[anchor];
+  if (leadAnchor) {
+    const marker = `<a id="${leadAnchor}"></a>`;
+    const positions = lines.flatMap((line, index) => line.trim() === marker ? [index] : []);
+    assert(positions.length === 1 && positions[0] < i, `Missing or misplaced section lead-in ${leadAnchor}`);
+    assert(!lines.slice(positions[0] + 1, i).some(line => sectionPattern.test(line.trim())), `Section lead-in crosses another section: ${leadAnchor}`);
+    start = includeLeadingPageAnchors(positions[0]);
+  }
+  boundaries.push({ start, route: `${prefix}/${anchor}`, title, kind, section, anchor, headingLine });
+  if (anchor === volume.answerStartAnchor) answerStart = i;
+  if (anchor === volume.answerEndAnchor) answerEnd = i;
 }
-assert(answerStart && answerEnd, 'Answer section boundaries were not found');
+assert(Number.isInteger(answerStart) && Number.isInteger(answerEnd) && answerEnd > answerStart, `Answer section boundaries were not found for ${volume.id}`);
 
 // Answer headings are inconsistent in the master. Its verified ans-* anchors
 // are authoritative; use the adjacent original heading where one exists.
@@ -95,7 +120,7 @@ for (let i = answerStart + 1; i < answerEnd; i++) {
     // Preserve that line rather than silently editing the editorial master.
     const section = sectionKey === 'intro' ? 'intro' : sectionKey.replaceAll('-', '.');
     const title = sectionKey === 'intro' ? '习题说明的答案' : `${section} 节习题答案`;
-    boundaries.push({ start: includeLeadingPageAnchors(start), route: `/volume1/answers/${sectionKey}`, title, kind: 'answers', section, anchor: `answers-${sectionKey}`, headingLine });
+    boundaries.push({ start: includeLeadingPageAnchors(start), route: `${prefix}/answers/${sectionKey}`, title, kind: 'answers', section, anchor: `answers-${sectionKey}`, headingLine });
   }
 }
 boundaries.sort((a, b) => a.start - b.start);
@@ -132,6 +157,9 @@ assert(pages.map(x => x.raw).join('') === lines.join(''), 'Source partition is n
 const anchorRoutes = {};
 const originalAnchors = [...source.matchAll(/<a\s+id="([^"]+)"[^>]*>/g)].map(x => x[1]);
 assert(new Set(originalAnchors).size === originalAnchors.length, 'The master has duplicate explicit anchors');
+const sourcePageAnchors = originalAnchors.filter(id => /^pdf-\d+$/.test(id));
+assert(sourcePageAnchors.length === volume.expectedSourcePages, `Source page anchor count differs from the confirmed count for ${volume.id}`);
+assert(Array.from({ length: volume.expectedSourcePages }, (_, index) => `pdf-${String(index + 1).padStart(3, '0')}`).every(id => sourcePageAnchors.includes(id)), `A physical source page anchor is missing from ${volume.id}`);
 for (const page of pages) {
   page.anchors = [...page.raw.matchAll(/<a\s+id="([^"]+)"[^>]*>/g)].map(x => x[1]);
   for (const anchor of page.anchors) {
@@ -195,22 +223,22 @@ function cleanReport(text, forWebsite) {
       removedReportLinks.push(href);
       return label;
     }
-    if (forWebsite && href.startsWith(BOOK + '#')) return `[${label}](${resolveAnchor(href.slice(BOOK.length + 1), '/corrections')})`;
-    // VitePress considers the unknown .jsonl suffix a page, even in public/.
-    // A native download link preserves that suffix and the project base path.
-    if (forWebsite && href.startsWith('assets/review/') && href.endsWith('.jsonl')) return `<a href="./review/${encodeURIComponent(href.slice('assets/review/'.length))}" download>${label}</a>`;
+    if (forWebsite && href.startsWith(BOOK + '#')) return `[${label}](${resolveAnchor(href.slice(BOOK.length + 1), volume.reportRoute)})`;
+    // Review Markdown is a downloadable source, and .jsonl is an unknown
+    // suffix. Native links prevent both being rewritten into page routes.
+    if (forWebsite && href.startsWith(volume.reviewRoot + '/') && /\.(?:jsonl|md)$/.test(href)) return `<a href="${assetPath(volume.reportRoute, volume.reviewPublicPrefix.slice(1) + '/' + href.slice(volume.reviewRoot.length + 1).split('/').map(encodeURIComponent).join('/'))}" download>${label}</a>`;
     return all;
   });
-  if (forWebsite) result = result.replace(/\]\((assets\/[^\s)]+)\)/g, (_, asset) => `](${asset.startsWith('assets/review/') ? '/review/' + asset.slice('assets/review/'.length) : assetPath('/corrections', asset)})`);
+  if (forWebsite) result = result.replace(/\]\((assets\/[^\s)]+)\)/g, (_, asset) => `](${asset.startsWith(volume.reviewRoot + '/') ? volume.reviewPublicPrefix + '/' + asset.slice(volume.reviewRoot.length + 1) : assetPath(volume.reportRoute, asset)})`);
   return result;
 }
 
 // Only generated paths are written. The editorial masters remain byte-for-byte
 // unchanged, and existing config, theme and hand-authored entry pages are kept.
-const previousNavigation = await fs.readFile(path.join(DOCS, '.vitepress/book-navigation.json'), 'utf8').then(JSON.parse).catch(() => null);
 const currentRoutes = new Set(pages.map(p => p.route));
-for (const old of previousNavigation?.pages ?? []) {
-  if (!currentRoutes.has(old.route) && /^\/volume1\/[a-z0-9/-]+$/.test(old.route)) await fs.rm(path.join(DOCS, old.route.slice(1) + '.md'), { force: true });
+const priorPages = previousNavigation?.volumes?.find(item => item.id === volume.id)?.pages ?? (volume.id === 'volume1' ? previousNavigation?.pages : []) ?? [];
+for (const old of priorPages) {
+  if (!currentRoutes.has(old.route) && old.route.startsWith(prefix + '/') && /^\/volume\d+\/[a-z0-9/-]+$/.test(old.route)) await fs.rm(path.join(DOCS, old.route.slice(1) + '.md'), { force: true });
 }
 for (const page of pages) {
   let body = rewriteBook(page.raw, page.route);
@@ -231,7 +259,7 @@ for (const page of pages) {
   await write(page.file, page.markdown);
 }
 const websiteReport = `---\ntitle: 校订报告\n---\n\n${cleanReport(report, true)}`;
-await write('docs/corrections.md', websiteReport);
+await write(`docs${volume.reportRoute}.md`, websiteReport);
 
 function bodyTree(chapter) {
   const group = pages.filter(p => p.kind === 'body' && (p.section === chapter || p.section.startsWith(chapter + '.')));
@@ -241,32 +269,27 @@ function bodyTree(chapter) {
     if (nodes.has(parent)) nodes.get(parent).items.push(nodes.get(page.section));
   }
   const trim = node => { if (!node.items.length) delete node.items; else { node.collapsed = true; node.items.forEach(trim); } return node; };
+  assert(nodes.has(chapter), `Configured chapter ${chapter} is missing from ${volume.id}`);
   return trim(nodes.get(chapter));
 }
 const sidebar = [
-  { text: '卷前与目录', items: [{ text: '全卷目录', link: '/volume1/' }, { text: '卷前', link: '/volume1/frontmatter' }] },
-  bodyTree('1'), bodyTree('2'),
-  { text: '习题答案', link: '/volume1/sec-answers', collapsed: true, items: pages.filter(p => p.kind === 'answers').map(p => ({ text: p.title, link: p.route })) },
+  { text: '卷前与目录', items: [{ text: '全卷目录', link: `${prefix}/` }, { text: '卷前', link: `${prefix}/frontmatter` }] },
+  ...volume.chapterRoots.map(bodyTree),
+  { text: '习题答案', link: `${prefix}/${volume.answerStartAnchor}`, collapsed: true, items: pages.filter(p => p.kind === 'answers').map(p => ({ text: p.title, link: p.route })) },
   { text: '附录与索引', items: pages.filter(p => ['appendix', 'index'].includes(p.kind)).map(p => ({ text: p.title, link: p.route })) },
 ];
 const publicPages = pages.map(({ raw, markdown, start, end, headingLine, ...meta }) => meta);
-const navigation = { version: 1, source: { file: BOOK, sha256: sourceHash }, pages: publicPages, sidebar, anchorRoutes, downloads: { bundle: '/downloads/taocp-volume1.zip' } };
-await write('docs/.vitepress/book-navigation.json', JSON.stringify(navigation, null, 2) + '\n');
+const navigation = { version: 1, id: volume.id, title: volume.title, routePrefix: prefix, reportRoute: volume.reportRoute, source: { file: BOOK, sha256: sourceHash }, pages: publicPages, sidebar, anchorRoutes, downloads: { bundle: `/downloads/${volume.zipName}` } };
 
 function directoryItems(items, depth = 0) {
-  return items.map(item => `${'  '.repeat(depth)}- ${item.link ? `[${item.text}](${item.link.endsWith('.zip') ? '.' + item.link : relativeRoute('/volume1/index', item.link === '/volume1/' ? '/volume1/index' : item.link)})` : item.text}\n${item.items ? directoryItems(item.items, depth + 1) : ''}`).join('');
+  return items.map(item => `${'  '.repeat(depth)}- ${item.link ? `[${item.text}](${item.link.endsWith('.zip') ? '.' + item.link : relativeRoute(`${prefix}/index`, item.link === prefix + '/' ? `${prefix}/index` : item.link)})` : item.text}\n${item.items ? directoryItems(item.items, depth + 1) : ''}`).join('');
 }
 // Use relative source paths in content; VitePress applies the configured base.
-let directory = '# 全卷目录\n\n[开始阅读](./frontmatter.md) · [校订报告](../corrections.md) · [下载完整 Markdown 与资源](/downloads/taocp-volume1.zip)\n\n';
-directory += directoryItems(sidebar.slice(1, 5));
-await write('docs/volume1/index.md', `---\ntitle: 全卷目录\n---\n\n${directory}`);
+let directory = `# 全卷目录\n\n[开始阅读](./frontmatter.md) · [校订报告](${relativeRoute(`${prefix}/index`, volume.reportRoute)}) · [下载完整 Markdown 与资源](/downloads/${volume.zipName})\n\n`;
+directory += directoryItems(sidebar.slice(1));
+await write(`docs${prefix}/index.md`, `---\ntitle: 全卷目录\n---\n\n${directory}`);
 
 const assetFiles = [];
-// These directories are generated copies. Recreate them so removed source
-// assets cannot survive a later local build or be exposed in the publication.
-for (const folder of ['docs/assets', 'docs/public/review', 'docs/public/linked-assets']) {
-  await fs.rm(path.join(ROOT, folder), { recursive: true, force: true });
-}
 async function collectAssets(folder) {
   for (const entry of (await fs.readdir(path.join(ROOT, folder), { withFileTypes: true })).sort((a, b) => a.name.localeCompare(b.name, 'en'))) {
     const relative = path.posix.join(folder, entry.name);
@@ -275,13 +298,13 @@ async function collectAssets(folder) {
       const data = await fs.readFile(path.join(ROOT, relative));
       assetFiles.push({ path: relative, bytes: data.length, sha256: sha(data), data });
       await write('docs/' + relative, data);
-      if (relative.startsWith('assets/review/')) await write('docs/public/review/' + relative.slice('assets/review/'.length), data);
+      if (relative.startsWith(volume.reviewRoot + '/')) await write('docs/public' + volume.reviewPublicPrefix + '/' + relative.slice(volume.reviewRoot.length + 1), data);
       if (linkedAssets.has(relative)) await write('docs/public/linked-assets/' + relative.slice('assets/'.length), data);
     }
     else assert(!entry.isSymbolicLink(), `Publication assets must not follow symlinks: ${relative}`);
   }
 }
-await collectAssets('assets');
+for (const root of volume.assetRoots) await collectAssets(root);
 const knownAssets = new Set(assetFiles.map(x => x.path));
 const referencedAssets = new Set([...source.matchAll(/(?:\]\(|src=")(assets\/[^\s)"]+)/g)].map(x => x[1]));
 const missingAssets = [...referencedAssets].filter(x => !knownAssets.has(x));
@@ -292,11 +315,11 @@ assert(!badLinks.length, `Unresolved internal links: ${JSON.stringify(badLinks)}
 const zipFiles = {
   [BOOK]: [Buffer.from(source), { mtime: new Date('2026-01-01T00:00:00Z') }],
   [REPORT]: [Buffer.from(cleanReport(report, false)), { mtime: new Date('2026-01-01T00:00:00Z') }],
-  '阅读说明.txt': [Buffer.from('请完整解压后打开《计算机程序设计艺术·卷1·基本算法.md》，并保留同层 assets 文件夹。\n原书公式使用 TeX 数学记法，需使用支持数学公式、HTML 和脚注的 Markdown 阅读器。\n校订报告中的本地扫描底本和临时校样链接已移除，来源说明及校订内容保留。\n'), { mtime: new Date('2026-01-01T00:00:00Z') }],
+  '阅读说明.txt': [Buffer.from(`请完整解压后打开《${BOOK}》，并保留同层 assets 文件夹。\n原书公式使用 TeX 数学记法，需使用支持数学公式、HTML 和脚注的 Markdown 阅读器。\n校订报告中的本地扫描底本和临时校样链接已移除，来源说明及校订内容保留。\n`), { mtime: new Date('2026-01-01T00:00:00Z') }],
 };
 for (const asset of assetFiles) zipFiles[asset.path] = [asset.data, { mtime: new Date('2026-01-01T00:00:00Z') }];
 const zipped = zipSync(zipFiles, { level: 6 });
-await write('docs/public/downloads/taocp-volume1.zip', zipped);
+await write(`docs/public/downloads/${volume.zipName}`, zipped);
 const unpacked = unzipSync(zipped);
 assert(sha(unpacked[BOOK]) === sourceHash, 'Download archive changed the book master');
 assert(assetFiles.every(x => sha(unpacked[x.path]) === x.sha256), 'Download archive changed an asset');
@@ -306,7 +329,9 @@ const footnoteDistribution = [...footnotes].map(([id, def]) => ({ id, sourceLine
 const manifest = {
   version: 1,
   source: { file: BOOK, sha256: sourceHash, bytes: Buffer.byteLength(source), lines: originalLines.length },
-  editorialReport: { file: REPORT, sha256: reportHash },
+  editorialReport: { file: REPORT, sha256: reportHash,
+    websiteFile: `docs${volume.reportRoute}.md`, websiteSha256: sha(websiteReport),
+    downloadSha256: sha(cleanReport(report, false)) },
   counts: { pages: pages.length, body: pages.filter(p => p.kind === 'body').length, answers: answerSections.size, originalExplicitAnchors: originalAnchors.length, pdfPageAnchors: originalAnchors.filter(x => x.startsWith('pdf-')).length, exerciseAnchors: originalAnchors.filter(x => x.startsWith('ex-')).length, answerAnchors: originalAnchors.filter(x => x.startsWith('ans-')).length, originalInternalLinks, crossPageLinks, samePageLinks, footnoteDefinitions: footnotes.size, footnoteReferences: footnoteDistribution.reduce((n, x) => n + x.routes.length, 0), assets: assetFiles.length, referencedBookAssets: referencedAssets.size },
   checks: { sourcePartitionLossless: true, sourceAnchorsPreserved: true, cutsOutsideCodeMathAndTables: true, badLinks, missingAssets, downloadBookIdentical: true },
   sectionRoutes: publicPages,
@@ -327,9 +352,47 @@ const manifest = {
   removedReportLinks: [...new Set(removedReportLinks)],
   assets: assetFiles.map(({ data, ...entry }) => entry),
   linkedAssets: [...linkedAssets].map(asset => ({ source: asset, publicPath: '/linked-assets/' + asset.slice('assets/'.length), sha256: assetFiles.find(x => x.path === asset).sha256 })),
-  download: { path: '/downloads/taocp-volume1.zip', bytes: zipped.length, sha256: sha(zipped), files: Object.keys(unpacked).length },
+  download: { path: `/downloads/${volume.zipName}`, bytes: zipped.length, sha256: sha(zipped), files: Object.keys(unpacked).length },
 };
 assert(sha(await read(BOOK)) === sourceHash && sha(await read(REPORT)) === reportHash, 'An editorial master changed during preparation');
-await write('.work/site/source-manifest.json', JSON.stringify(manifest, null, 2) + '\n');
-await write('docs/.vitepress/book-manifest.json', JSON.stringify({ ...manifest, removedReportLinks: { count: new Set(removedReportLinks).size } }, null, 2) + '\n');
-console.log(JSON.stringify({ ...manifest.counts, downloadBytes: zipped.length, sourceSha256: sourceHash, badLinks: badLinks.length, missingAssets: missingAssets.length }, null, 2));
+await write(`.work/site/source-manifest-${volume.id}.json`, JSON.stringify(manifest, null, 2) + '\n');
+const publicManifest = { ...manifest, volume: { id: volume.id, routePrefix: prefix, reportRoute: volume.reportRoute, expectedSourcePages: volume.expectedSourcePages }, removedReportLinks: { count: new Set(removedReportLinks).size } };
+await write(volumeManifestFile(volume), JSON.stringify(publicManifest, null, 2) + '\n');
+if (volume.id === 'volume1') {
+  await write('.work/site/source-manifest.json', JSON.stringify(manifest, null, 2) + '\n');
+  await write('docs/.vitepress/book-manifest.json', JSON.stringify(publicManifest, null, 2) + '\n');
+}
+console.log(JSON.stringify({ volume: volume.id, ...manifest.counts, downloadBytes: zipped.length, sourceSha256: sourceHash, badLinks: badLinks.length, missingAssets: missingAssets.length }, null, 2));
+return { navigation, manifest: publicManifest };
+}
+
+const selected = enabledVolumes();
+const previousNavigation = await fs.readFile(path.join(DOCS, '.vitepress/book-navigation.json'), 'utf8').then(JSON.parse).catch(() => null);
+// Configuration is authoritative even if the ignored previous navigation was
+// deleted. Also remove routes belonging to a volume removed from configuration.
+const disabledOrPrevious = new Map([
+  ...volumes.filter(volume => !volume.enabled),
+  ...(previousNavigation?.volumes ?? []).filter(previous => !selected.some(volume => volume.id === previous.id))
+].map(volume => [volume.id, volume]));
+for (const previous of disabledOrPrevious.values()) {
+  assert(/^volume\d+$/.test(previous.id) && previous.routePrefix === '/' + previous.id, 'Unsafe previous volume route');
+  assert(previous.reportRoute === '/corrections' && previous.id === 'volume1'
+    || /^\/volume\d+\/[a-z\d/-]+$/.test(previous.reportRoute ?? '') && previous.reportRoute.startsWith(previous.routePrefix + '/'), 'Unsafe previous report route');
+  await fs.rm(path.join(DOCS, previous.id), { recursive: true, force: true });
+  if (previous.reportRoute && !previous.reportRoute.startsWith(previous.routePrefix + '/')) {
+    assert(previous.id === 'volume1' && previous.reportRoute === '/corrections', 'Unsafe previous report route');
+    await fs.rm(path.join(DOCS, 'corrections.md'), { force: true });
+  }
+  await fs.rm(path.join(ROOT, volumeManifestFile(previous)), { force: true });
+}
+// Clean shared generated copies once, then accumulate the disjoint volume roots.
+for (const folder of ['docs/assets', 'docs/public/review', 'docs/public/linked-assets', 'docs/public/downloads']) {
+  await fs.rm(path.join(ROOT, folder), { recursive: true, force: true });
+}
+const built = [];
+for (const volume of selected) built.push(await prepareVolume(volume));
+const first = built.find(item => item.navigation.id === 'volume1') ?? built[0];
+const allNavigation = { ...first.navigation, version: 2, volumes: built.map(item => item.navigation),
+  sidebar: built.length === 1 ? first.navigation.sidebar : Object.fromEntries(built.flatMap(({ navigation }) => [[navigation.routePrefix + '/', navigation.sidebar], [navigation.reportRoute, navigation.sidebar]])) };
+await write('docs/.vitepress/book-navigation.json', JSON.stringify(allNavigation, null, 2) + '\n');
+await write('docs/.vitepress/books-manifest.json', JSON.stringify({ version: 2, volumes: built.map(({ navigation, manifest }) => ({ id: navigation.id, title: navigation.title, routePrefix: navigation.routePrefix, reportRoute: navigation.reportRoute, manifest: volumeManifestFile(navigation), source: manifest.source, download: manifest.download })) }, null, 2) + '\n');

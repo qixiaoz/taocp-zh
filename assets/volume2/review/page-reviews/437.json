@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 437,
+  "cnPrintedPage": 426,
+  "enPdfPages": [
+    561,
+    562
+  ],
+  "enPrintedPages": [
+    546,
+    547
+  ],
+  "pageMarkdownSha256": "8fb6e83721304db548161ade9f3a174ae46a276e8fa4ec90fb7806d532abbb05",
+  "cnPageImageSha256": "ea39c470286ae3f03eda5fe6e96290ccb9f8fbbb03afe3c829bb1ad85ea81297",
+  "enPageImageSha256": {
+    "561": "6c8ce630756c1ec46ff7aa2d1f7dbfb2c1123c30c050149ec4d296145f95e52d",
+    "562": "35dd9abbda8530e6edfdf796d61b47d755f70c00773f55ac42017b1dfae2a16c"
+  },
+  "coveredRegions": [
+    "3.2.1.1答12(c)–(e)全部续文、13全部（有符号数字/上划线/借位/两种X_n等价式）、14至完整强推广递推式；历史文献。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-437",
+    "p-426",
+    "ans-3-2-1-1-13",
+    "ans-3-2-1-1-14"
+  ],
+  "answerAnchors": [
+    "ans-3-2-1-1-13",
+    "ans-3-2-1-1-14"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 70,
+    "displayExpressions": 8,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.2.1.1答12(e)",
+      "cnPrintedPage": 426,
+      "enPdfPage": 561,
+      "enPrintedPage": 546,
+      "original": "substract-with-borrow",
+      "final": "subtract-with-borrow",
+      "basis": "英文原页拼写subtract-with-borrow，与递推减法含义相符，中文拉丁词多出s。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "continuation": {
+    "begins_from_pdf_page": 436,
+    "right_start": "定义数字 $x_n$ 和借位 $b_n$，",
+    "answerAtStart": "3.2.1.1-12(c)",
+    "continues_to_pdf_page": 438,
+    "answerAtEnd": "3.2.1.1-14",
+    "left_last_prose": "强推广：递推式",
+    "left_last_display_end": "c_{n+1}=\\left\\lfloor\\frac{a_1x_{n-1}+\\cdots+a_kx_{n-k}+c_n}{b}\\right\\rfloor",
+    "right_next_start": "等价于 $X_n=b^{-1}X_{n-1}\\bmod|m|$，",
+    "instruction": "两个跨页衔接均在完整闭合公式外；438首句紧接强推广公式。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "1a14955033b1700b1256977a587197c243973e68e5adbb2494ccd867ab6c677d",
+    "visualReviewSha256": "04e58fa4501ba0b2caba3a45ab2478bccedfe71e3d7038752183c4d4710add42",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 70,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 24,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 70,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 31,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "f23565ac5a4d9850d0f0c3203bc61ccf50a197acb791f155924afabbc94778b4",
+  "numericalCheckQualification": "所有有限枚举只辅助原页核查，不替代普遍命题/渐近证明；共同疑点保留底本。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

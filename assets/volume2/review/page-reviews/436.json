@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 436,
+  "cnPrintedPage": 425,
+  "enPdfPages": [
+    559,
+    560,
+    561
+  ],
+  "enPrintedPages": [
+    544,
+    545,
+    546
+  ],
+  "pageMarkdownSha256": "d81b36a4518b1a1f6a700d8bccfe0c210277a40bb29c1d472b347a4c1b9adb3c",
+  "cnPageImageSha256": "87c492f948ff40fb672ece7b529b181520e5ef8436c66327d67c8922b0c3a7be",
+  "enPageImageSha256": {
+    "559": "b51ec6cd30c22821e73f06f4b1fee4a83a3ba105bae588cca51d3bb77e4a08f5",
+    "560": "85042c5669ecb002863e98c10d1db55f23710732eee3ec94d7dd359f80624d10",
+    "561": "6c8ce630756c1ec46ff7aa2d1f7dbfb2c1123c30c050149ec4d296145f95e52d"
+  },
+  "coveredRegions": [
+    "3.2.1.1答8原注记、9–11完整及两套模乘数值方案、12(a)(b)(c)至完整递推式；比较/取整/数字借进位全部。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-436",
+    "p-425",
+    "ans-3-2-1-1-9",
+    "ans-3-2-1-1-10",
+    "ans-3-2-1-1-11",
+    "ans-3-2-1-1-12"
+  ],
+  "answerAnchors": [
+    "ans-3-2-1-1-9",
+    "ans-3-2-1-1-10",
+    "ans-3-2-1-1-11",
+    "ans-3-2-1-1-12"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 90,
+    "displayExpressions": 3,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuation": {
+    "answer": "3.2.1.1-12(c)",
+    "begins_with_note_for_previous_answer": "3.2.1.1-8",
+    "begins_from_pdf_page": 435,
+    "continues_to_pdf_page": 437,
+    "left_last_prose": "这样，如果我们用递推式",
+    "left_last_display": "x_n=(x_{n-10}-x_{n-3}-b_n)\\bmod10=x_{n-10}-x_{n-3}-b_n+10b_{n+1}",
+    "right_start": "定义数字 $x_n$ 和借位 $b_n$，则对 $n$ 归纳，",
+    "instruction": "完整递推式后续谓语；页锚点只放块外，不重复答12锚点。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "1a14955033b1700b1256977a587197c243973e68e5adbb2494ccd867ab6c677d",
+    "visualReviewSha256": "04e58fa4501ba0b2caba3a45ab2478bccedfe71e3d7038752183c4d4710add42",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 90,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 14,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 90,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 20,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "f23565ac5a4d9850d0f0c3203bc61ccf50a197acb791f155924afabbc94778b4",
+  "numericalCheckQualification": "所有有限枚举只辅助原页核查，不替代普遍命题/渐近证明；共同疑点保留底本。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

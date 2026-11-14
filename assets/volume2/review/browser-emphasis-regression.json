@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "masterSha256": "c8ec35b2d7d5fdcc32c8059dd7197227f387a443b96eea49b61af8e2fcfca163",
+  "privateOriginalEvidenceSha256": "72c58b57948efef71a41f15d1cab1be5426885a770a96583f89971a297f766ec",
+  "normalizationFields": [],
+  "evidence": {
+    "scope": "Actual currentc8ec production-site delta review; no ZIP test yet, olda273 UI evidence unchanged",
+    "sourceSha256": "c8ec35b2d7d5fdcc32c8059dd7197227f387a443b96eea49b61af8e2fcfca163",
+    "gate": {
+      "approvedNewBuild": true,
+      "sourceSha256": "c8ec35b2d7d5fdcc32c8059dd7197227f387a443b96eea49b61af8e2fcfca163",
+      "siteCheckSha256": "bd5c9aca18c4768def9ae1592d1df01e07ca24d602e69292f21dd9f44399c19a",
+      "distIndexSha256": "151ea685031021ed3809bfe249bdc45a6fa5ed7d7c8775c670f117deb4ffb199",
+      "rootSignal": "Explicit currentc8ec site-check passed; only three affected-term routes6cases; no ZIP until final rebuild",
+      "createdAt": "2026-11-14T19:54:18.163Z"
+    },
+    "cases": 6,
+    "passed": 6,
+    "failed": 0,
+    "requirements": {
+      "actualFourEmSpans": true,
+      "noLiteralAsteriskInAffectedParagraphs": true,
+      "allWordsPreservedInTerms": true,
+      "exactRouteMathCounts": true,
+      "noMathErrors": true,
+      "noWholePageOverflow": true,
+      "noConsoleErrors": true,
+      "representativeScreenshotsDirectlyViewed": [
+        {
+          "file": "screenshots/term-pdf-014-1280.png",
+          "sha256": "6c709dd683bf4c43c154c0cd7591fa91f864f2a71460c5bc9f7eea4acce888e9",
+          "directModelView": true
+        },
+        {
+          "file": "screenshots/term-pdf-030-390.png",
+          "sha256": "64540bcfaf6853c2972432130e7eb9f196e43930621c257442e4daeef21a5411",
+          "directModelView": true
+        },
+        {
+          "file": "screenshots/term-pdf-058-390.png",
+          "sha256": "48cc1f01423aa4a58cf547d8011be6348aee8ee64e75850090af2db2d7bc3f61",
+          "directModelView": true
+        }
+      ]
+    },
+    "rawEvidence": {
+      "file": "c8ec-terms.json",
+      "sha256": "5c4c923192e47e25fb2e20549b586890cc69f3820d6b2b1141a7fb0051745cf5"
+    },
+    "mathEvidence": {
+      "file": "math-count-crosscheck.json",
+      "sha256": "0db41183a159e75dbddcec0c7f82e2340ca5d9878e6578ae030928cfb234bfc8"
+    }
+  },
+  "qualification": "Six actual production-page cases on the three affected routes after the source representation correction; historical broader interaction evidence retains its original source hash."
+}

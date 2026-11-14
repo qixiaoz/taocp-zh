@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.4",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；最终母稿须另行证明包含、跨页合段/程序合块及允许展示转换，不仅替换本哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整页和列出的英文页图，逐段/逐式/表格单元/清单行及注释比较；语法/文本字段检查/复算独立列出。模型视觉核查，不声称人类签核。",
+  "cnPdfPage": 209,
+  "cnPrintedPage": 198,
+  "enPdfPages": [
+    273,
+    274
+  ],
+  "enPrintedPages": [
+    258,
+    259
+  ],
+  "pageMarkdownSha256": "928e3aaad001ee09db52a26b7cf27b45bef45862e1f571588a150fa4afdd2a66",
+  "cnPageImage": "scans/209.jpg",
+  "cnPageImageSha256": "9728f20d02db21b989ec7abf36900f9d9282df38fd565db6d9a5fc6db5459d6b",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-273.png",
+      "sha256": "3980ae4d866b93d789c40c2b4f381c499bc7ef8824145886b212051dd8db881a"
+    },
+    {
+      "file": "verified-sources/en-274.png",
+      "sha256": "6482063c8c27463a26ad098f8fdaf0b820faa94f556c5294f3c415aadf47d6ad"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码；物理页和印刷页隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-209",
+    "p-198",
+    "lemma-4-2-4-q"
+  ],
+  "coveredRegions": [
+    "首续式9，完整引理Q与式10不等式。",
+    "式11三行全部上下标/积分界/初值，式12指示函数。",
+    "完整归纳证明，m=1基例、两重求和、式13/14/15积分逼近及20epsilon结论。",
+    "原证明结束方块。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "not-applicable",
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuationNotes": "首续208的式9。引理Q及其证明完整止于本页，末方块保留，无跨页公式。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 46,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "仅排版语法；内容来自以上中文/英文原页实际比较。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "辅助原页核查，不当作原书答案来源或替代视觉比较。",
+    "results": {
+      "geometricSum": {
+        "identity": "sum(j=0..n−1)10^(j−n)=(1−10^(−n))/9",
+        "exactRationalCases": [
+          "1/10",
+          "11/100",
+          "111/1000",
+          "1111/10000",
+          "11111/100000",
+          "111111/1000000"
+        ]
+      }
+    }
+  },
+  "untested": [
+    "最终母稿装订包含/跨页程序合并与原题答双向链接。",
+    "最终正式VitePress/Pandoc整卷和线上。",
+    "未执行MIX程序，未以代码字段一致宣称数值实现正确。"
+  ],
+  "renderReview": {
+    "file": "verified-render/double-dom-review-207-213.json",
+    "sha256": "5d532860bad6c3f57d1c0c7bfe88441a4f54af888670ed901753f4bad05ca278",
+    "scope": "CurrentpageSHA; isolated1280/390 DOM plus explicitlylistedselectedregionsactualvisual. SharedVitePress/Pandoc notincluded."
+  }
+}

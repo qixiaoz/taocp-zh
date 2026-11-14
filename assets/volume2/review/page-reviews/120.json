@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订另作包含证明，不改历史哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 120,
+  "cnPrintedPage": 109,
+  "section": "3.4.2",
+  "enPdfPages": [
+    158,
+    159,
+    160
+  ],
+  "enPrintedPages": [
+    143,
+    144,
+    145
+  ],
+  "pageMarkdownSha256": "b951b5a98480fc3138ab0bb6a9611269cfbf1a6a251151fc2930a6f460e78dba",
+  "cnPageImageSha256": "00f1615e72a612da6e9ef374284a38b92fafbaae0c0aaa3113e839e8f178be78",
+  "enOriginalPageImages": [
+    {
+      "enPdfPage": 158,
+      "enPrintedPage": 143,
+      "renderedImageSha256": "5485e2386c52183c938f9cd0f1a55b00f1260adbeb784bb347c7b2279a3044fc"
+    },
+    {
+      "enPdfPage": 159,
+      "enPrintedPage": 144,
+      "renderedImageSha256": "748f57dd1d222e94a205c8fe9407a1b84da70b4bce8411ed5467c88ecfcc23f8"
+    },
+    {
+      "enPdfPage": 160,
+      "enPrintedPage": 145,
+      "renderedImageSha256": "aaa387c6386fa47bfb3312f4f72b1de47855b580b1958cf09929b2a4688aba82"
+    }
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 48,
+    "displayExpressions": 0,
+    "parseErrors": 0,
+    "errors": []
+  },
+  "coveredRegions": [
+    "水库引入续字录、算法R1–R6、期望规模式、独立类别抽样、跳过记录改进、组合到洗牌过渡与52牌7/14次引用。"
+  ],
+  "explicitAnchors": [
+    "pdf-120",
+    "p-109"
+  ],
+  "substantiveCorrections": [
+    {
+      "section": "3.4.2",
+      "cnPrintedPage": 109,
+      "enPrintedPage": 144,
+      "enPdfPage": 159,
+      "original": "近似等于n(1+ln(N/m))",
+      "final": "近似等于n(1+ln(N/n))",
+      "basis": "中文同段先定义m为随机水库规模，n为固定抽样数，精确期望n(1+H_N−H_n)也以n为下标；英文原图近似写N/n。按R3第t记录以n/t概率进入水库，线性求和得精确式，调和数差近似ln(N/n)。"
+    },
+    {
+      "section": "3.4.2",
+      "cnPrintedPage": 109,
+      "enPrintedPage": 144,
+      "enPdfPage": 159,
+      "original": "如果N/m=1000，则水库仅包含原文件记录的大约1/125",
+      "final": "如果N/n=1000，则水库仅包含原文件记录的大约1/125",
+      "basis": "英文同段条件为N/n=1000，与上一式含义一致；(1+ln1000)/1000≈0.0079077553，约1/126.46，原书大约1/125为粗略说明，保留其近似值。"
+    }
+  ],
+  "preservedVersionDifferences": [
+    {
+      "location": "桥牌洗牌动机段",
+      "cn": "在决定是否叫牌时",
+      "en": "when deciding whether or not to finesse",
+      "disposition": "finesse与叫牌存在术语差异；本批不凭术语记忆改写中文桥牌用语，保留底本并列为待核术语。"
+    },
+    {
+      "location": "随机交叉洗牌14次",
+      "cn": "如果使用随机洗牌，14次可确保这一结果",
+      "en": "14 random riffles are guaranteed to do so",
+      "disposition": "保留中文原写法，不把英文riffles擅加进中文正文。"
+    }
+  ],
+  "exerciseNumbers": [],
+  "recommendedExercises": [],
+  "answerExceptions": [],
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_mid_word_from_pdf_page": 119,
+    "starts_mid_paragraph": true,
+    "left_end": "只包含先前样本中出现的那些记",
+    "right_start": "录。前 $n$ 个记录总是进入该水库。",
+    "continuation_paragraph_end": "如果包含，它应该置换先前样本中的一个随机元素。",
+    "instruction": "仅首段与119页末合并；算法R为独立块，不跨页。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalSiteBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserAvailability": "Browser plugin not available; task-authorized existing bundled Playwright + isolated local Chrome fallback.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "pageCases": [
+      {
+        "width": 1280,
+        "mathExpressions": 48,
+        "documentWidth": 1280,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "brokenMathml": 0,
+        "passed": true
+      },
+      {
+        "width": 390,
+        "mathExpressions": 48,
+        "documentWidth": 390,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "brokenMathml": 0,
+        "passed": true
+      }
+    ],
+    "browserReviewSha256": "efc6b8c6900e97b9a8ffd4cc49af00374e5ebf19e914814cc9598b4b2d5e8665",
+    "directScreenshotInspectionSha256": "8ab90a1ff3322e3df266fca6452156d73f31edc4d90cf4faaf391fd26b5e0aba",
+    "qualification": "完整浏览器页面案例通过；直接视觉范围为七页桌面整页、全部长独立式/牌序两端及123窄屏整页，未将其扩大为最终网站验收。"
+  },
+  "numericalChecks": {
+    "recordSha256": "14d612bc7a97598a4facf778d3b051a4f098ba6a42b283c8b40226489102f876",
+    "method": "独立积分/变量代换，分数精确枚举和源牌序检查；辅助原图核对，不替代双语直接查看。",
+    "applicableEntries": [
+      "algorithmR",
+      "reservoirExpectedSize"
+    ]
+  },
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc、最终VitePress路由/题答往返/全站搜索/线上下载与部署不在本页记录范围，由主任务统一执行。"
+  ]
+}

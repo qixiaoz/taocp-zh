@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验；特别检查HTML表格内公式实际渲染。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 43,
+  "cnPrintedPage": 32,
+  "section": "3.3 / 3.3.1",
+  "enPdfPages": [
+    56,
+    57
+  ],
+  "enPrintedPages": [
+    41,
+    42
+  ],
+  "pageMarkdownSha256": "12a5f02e669534c86850b3aa0baa890f3cd95a0f264d17fa7ad5db8f2fb3052d",
+  "cnPageImageSha256": "e07338b27e3bf4eb1e92fb6d19ed7828fce501d19f944efcd4a2c2cd544d392a",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 11,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-043",
+    "p-32",
+    "sec-3-3",
+    "sec-3-3-1"
+  ],
+  "coveredRegions": [
+    "§3.3全部正文及π重复图式(1)；§3.3.1A开头、骰子概率式(1)和p4说明。"
+  ],
+  "numericAudit": {
+    "method": "Decimal 60位精度，Machin公式16 arctan(1/5)−4 arctan(1/239)，arctan交错幂级数；并枚举6×6骰子结果核对11概率。",
+    "printedPiDigits": "3.14159265358979323846264338327950",
+    "piDigitsMatch": true,
+    "diceSumCounts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "assets": [
+    {
+      "path": "assets/volume2/figures/p043-pi-pattern.svg",
+      "sha256": "284dc24ea0d45c601f0ac18d5c3efb1825661f6c398deaf4f2ba3b7e78403d64",
+      "kind": "editable-vector-redraw-of-number-pattern",
+      "numbering": "§3.3式(1)，非正式编号图。",
+      "pairs": {
+        "top": [
+          "26",
+          "26"
+        ],
+        "bottomFromOutsideIn": [
+          [
+            "79",
+            "79"
+          ],
+          [
+            "32",
+            "32"
+          ],
+          [
+            "38",
+            "38"
+          ]
+        ]
+      },
+      "standaloneRenderedAndCompared": true
+    }
+  ],
+  "ocrRepairs": [
+    "骰子概率式(1)的M模型出现长重复array列，全部依原图重新转录；卡方为χ²，非x²。"
+  ]
+}

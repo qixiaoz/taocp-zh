@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录只绑定单页稿，装订母稿另加包含证明，不能把历史哈希换成新哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "cnPdfPage": 146,
+  "cnPrintedPage": 135,
+  "section": "3.5",
+  "enPdfPages": [
+    193,
+    194,
+    195
+  ],
+  "enPrintedPages": [
+    178,
+    179,
+    180
+  ],
+  "pageMarkdownSha256": "6da2cdec95d9c973552c1476cb47cb5e56034b068f87387a4cf7c2152d2dfb13",
+  "cnPageImageSha256": "639ec525e80dcfcd1dd974526c5d8a308a0a2c1d7ec9ffaa381c95da81be21b2",
+  "enPageImageSha256": {
+    "193": "ee2d70f751fd9ce7f1b231a173075d9e8c153a800932a78528a167880551a2ba",
+    "194": "7b1facc325844dcc9b7fcb220b4c14351b3629330caaf3874180eea556049d4d",
+    "195": "c14fc295098c2f1e2e8ae6c4533c1c624edaa4b4d6cfa8e612f7f06a8b86ab01"
+  },
+  "coveredRegions": [
+    "“无模式性”续字、Solomonoff/Popper/Schnorr/Li/Vitányi/Blum/Micali/Yao/Levin/Goldreich/Rackoff文献与hard-core bit、其他作者/应用、原Marsaglia两行引语、习题1–6完整及推荐箭头和下概率。"
+  ],
+  "explicitAnchors": [
+    "pdf-146",
+    "p-135",
+    "ex-3-5-1",
+    "ex-3-5-2",
+    "ex-3-5-3",
+    "ex-3-5-4",
+    "ex-3-5-5",
+    "ex-3-5-6"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，源页位置用隐藏锚点保留。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 18,
+    "displayExpressions": 1,
+    "parseErrors": 0
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "Blum/Micali/Yao文献",
+      "cn": "SICOMP 13（无年份/页码）",
+      "en": "SICOMP 13 (1984), 850–864（EN194印179）",
+      "disposition": "保留中文底本缩略引文，报告保存英文完整定位；不假定两版逐段同印次而自动补入正文。"
+    }
+  ],
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_mid_word_from_pdf_page": 145,
+    "starts_mid_paragraph": true,
+    "left_end": "蔡廷和马丁-洛夫用“无",
+    "right_start": "模式性”定义了有穷随机序列。",
+    "paragraph_end": "73–88。",
+    "instruction": "合为同一段“无模式性”，页锚点保留在普通文字中。"
+  },
+  "exerciseNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "recommendedExercises": [
+    5
+  ],
+  "answerExceptions": [],
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "7116fa8981a84666930c23eb46c0ed70c0d8d22c3264bc3688011ce5072846bd",
+    "visualReviewSha256": "a3d7e62a8058b641aa69833089ecf43d22162b0e37b0b13b697a42e3acbbb11f",
+    "browserAvailability": "Browser plugin not available; task-authorized bundled Playwright + isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 18,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 18,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "a51768b650635f1c287a28730d8d4710d433ec4d0ff16acf89c283181298bfde",
+  "numericalCheckQualification": "有限真值表、GF(2)矩阵枚举和历史算术复算辅助原图核对，不把有限检查当作普遍复杂度/概率/测度论证明。",
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc/VitePress、全站题答/索引/搜索/线上下载和发布由主任务统一执行。"
+  ],
+  "answerExistenceEvidence": {
+    "cnPdfPages": [
+      474
+    ],
+    "cnPrintedPages": [
+      463
+    ],
+    "actualAnswerNumbersSeen": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "noSeparateAnswerNumbers": [],
+    "scope": "直接看中文474–479实际答区，只确认答项存在/编号与省略；未将答区整页内容计入本批内容审校，也未转录这些答案。"
+  }
+}

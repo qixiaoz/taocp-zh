@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 553,
+  "cnPrintedPage": 542,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "d0010fe0cede2ea57964beed1447ddebd5780f8babe040d044a039d5c3fcefcb",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/553.jpg",
+  "cnPageImageSha256": "9a490e1970921303c721543ef456064ec95d6315b673d84c98b25a0469e6094a",
+  "enPdfPages": [
+    703,
+    704
+  ],
+  "enPrintedPages": [
+    688,
+    689
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-703.png",
+      "sha256": "4cbc3477418f516a526cc340434dc7ce17e00360ef162fbe34a9c2032bca1523"
+    },
+    {
+      "file": "verified-sources/en-704.png",
+      "sha256": "ef29e86cd7232348f439623620f5522c9483aa1b96ded899036192233d1eb55a"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-553",
+    "p-542",
+    "ans-4-6-2-33",
+    "ans-4-6-2-34",
+    "ans-4-6-2-35",
+    "ans-4-6-2-36",
+    "ans-4-6-2-37"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续答32(c)Ψ14/15及三素数注；33/34 Yun squarefree分解全赋值/导数不变量证明和原文献；35 gcd等价性。",
+    "36特征p递归提取p次幂及简短算法原注；37计数型概率全部条件、Galois原注定义至Sitzungsberichte。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末原参考书刊名接554首Königl…；仍答37原注。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.6.2-37-multiset-exact-probability",
+      "section": "4.6.2答案37首式",
+      "cnPrintedPage": 542,
+      "enPdfPage": 704,
+      "enPrintedPage": 689,
+      "original": "∏_(j≥1)(a_jp/p^j)^k_j/k_j!",
+      "final": "p^(−n)∏_(j≥1)C(a_jp+k_j−1,k_j)",
+      "basis": "原题CN368/印357允许完全分解的重复因子，d_i正且Σd_i=n。两版共同把有限p的精确多重集计数写成近似式。UF给每种j次不可约式可重复选择，k_j个因子的多重集有C(a_jp+k_j−1,k_j)种；不同j独立相乘，再除首一n次多项式总数p^n。固定n,p→∞仍趋于原所用∏1/(j^k_j k_j!)。p2,n2,k1=2实际3/4，原1/2。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-6-2-33",
+      "exercise_anchor": "ex-4-6-2-33",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-34",
+      "exercise_anchor": "ex-4-6-2-34",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-35",
+      "exercise_anchor": "ex-4-6-2-35",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-36",
+      "exercise_anchor": "ex-4-6-2-36",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-37",
+      "exercise_anchor": "ex-4-6-2-37",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 553,
+    "sha256": "d0010fe0cede2ea57964beed1447ddebd5780f8babe040d044a039d5c3fcefcb",
+    "mathExpressions": 69,
+    "display": 2,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 553,
+        "width": 1280,
+        "sha256": "d0010fe0cede2ea57964beed1447ddebd5780f8babe040d044a039d5c3fcefcb",
+        "pageErrors": [],
+        "bodyText": 5328,
+        "documentWidth": 1280,
+        "expressions": 69,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 39,
+            "max": 39,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 73,
+            "max": 73,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 553,
+        "width": 390,
+        "sha256": "d0010fe0cede2ea57964beed1447ddebd5780f8babe040d044a039d5c3fcefcb",
+        "pageErrors": [],
+        "bodyText": 5328,
+        "documentWidth": 390,
+        "expressions": 69,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 441,
+            "max": 441,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 101,
+            "max": 101,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 23,
+            "max": 23,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 150,
+            "max": 150,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 475,
+            "max": 475,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 76,
+            "max": 76,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 173,
+            "max": 173,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 183,
+            "max": 183,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/553-d0010fe0cede2ea57964beed1447ddebd5780f8babe040d044a039d5c3fcefcb-metadata-update/553.json",
+      "pageMarkdownSha256": "d0010fe0cede2ea57964beed1447ddebd5780f8babe040d044a039d5c3fcefcb",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.6.2",
+  "numericCheck": {
+    "file": "arithmetic-final/numeric-check.json",
+    "sha256": "366d868527ea4ebadd69161aea5793d80975c4cc4a54e4cb76bdc9b410cde1df",
+    "inputPageSha256": "d0010fe0cede2ea57964beed1447ddebd5780f8babe040d044a039d5c3fcefcb",
+    "meaning": "独立复算17项及一般符号/计数证明具体范围见文件；绑定本页不代表本页全部一般证明已重证。"
+  },
+  "exerciseTargetsPending": []
+}

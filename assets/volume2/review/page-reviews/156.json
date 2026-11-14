@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "section": "3.6",
+  "pdf_page": 156,
+  "printed_page": 145,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "f95ac110a9f51a039ed302aeadeea78464d61beed46222d893627a3d651c6cde",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/source-audit/cn-render/full-156.png",
+    "scope": "all page prose, sequence and punctuation; all formulas, program specification, stage directions, quoted letter, original footnote and unnumbered illustration where present"
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      207,
+      208
+    ],
+    "en_printed_pages": [
+      192,
+      193
+    ],
+    "scope": "all corresponding prose/scripts and every mathematical expression; original Chinese translation retained except listed substantive corrections",
+    "original_english_formula_images_checked": [
+      204,
+      208
+    ]
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/chapter36-tail-proof.html",
+    "html_sha256": "b8897ed2534f2d49eb7e1d95f0c0b8b65ebe568f5a49b3793c9dd238f6e0c058",
+    "desktop_screenshot": ".work/volume2/source-audit/tail-proof-1040-156.png",
+    "mobile_screenshot": ".work/volume2/source-audit/tail-proof-390-156.png",
+    "desktop_visual_review": true,
+    "mobile_visual_review": false,
+    "source_pipeline": "current VitePress + installBookMarkdown + markdown-it-footnote; standalone proof",
+    "math_expressions_in_four_page_proof": 41,
+    "math_parse_errors": 0,
+    "missing_images": 0,
+    "page_errors": 0,
+    "document_horizontal_overflow": false,
+    "footnote_navigation_actual_test": {
+      "forward": "#fn1",
+      "back": "#fnref1"
+    },
+    "long_math_both_ends": null,
+    "qualification": "Not complete-volume binding or final website verification."
+  },
+  "exercises": [
+    {
+      "anchor": "ex-3-6-6",
+      "number": 6,
+      "difficulty": "40",
+      "recommended": true,
+      "answer_anchor": null
+    },
+    {
+      "anchor": "ex-3-6-7",
+      "number": 7,
+      "difficulty": "M40",
+      "recommended": true,
+      "answer_anchor": "ans-3-6-7"
+    },
+    {
+      "anchor": "ex-3-6-8",
+      "number": 8,
+      "difficulty": "M15",
+      "recommended": false,
+      "answer_anchor": "ans-3-6-8"
+    }
+  ],
+  "answer_exceptions": [
+    {
+      "exercise": "ex-3-6-6",
+      "reason": "No independent answer in Chinese printed468/physical479 or English printed599/physical614; original answer numbering jumps from2 to7."
+    }
+  ],
+  "substantive_corrections": [],
+  "source_discrepancies_retained": [],
+  "next_steps": [
+    "Bind into complete volume and verify complete-volume hashes, links and final rendering.",
+    "Transcribe corresponding original answers without fabricating answers3–6."
+  ],
+  "footnotes": [
+    {
+      "id": "v2-p145-1",
+      "original_marker": "①",
+      "original_content_retained": true,
+      "source": "Chinese physical156/printed145; English physical207/printed192",
+      "note": "Original CBS copyright/permission note is a book footnote and is retained, independent of omitted front copyright pages."
+    }
+  ]
+}

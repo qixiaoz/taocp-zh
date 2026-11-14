@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "母稿尚未装订；绑定单页Markdown字节和原页图。装订后另作包含与跨页合段证明，不得只改哈希冒充重新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接查看中文完整页图、对应英文页图，逐段、逐式、逐数与引文对照。存在的译文差异依底本保留并单列；核实标记表示已实际比较，非声称这些差异已经实质订正。",
+  "editorialDisposition": "source-retained-with-reported-differences",
+  "cnPdfPage": 161,
+  "cnPrintedPage": 150,
+  "enPdfPages": [
+    213,
+    214
+  ],
+  "enPrintedPages": [
+    198,
+    199
+  ],
+  "pageMarkdownSha256": "3b5383aaa14bb488b3f4d08614db94aeb3ae1e8be9a3726459e600986e1092b0",
+  "cnPageImage": "scans/161.jpg",
+  "cnPageImageSha256": "04572c2433aaaca4645030ebda8e1808841044387488520fa4394249c6d1937d",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-213.png",
+      "sha256": "31fc2e3a4788a8edc5ced00d6f6f78125b85906ea760a6399cbedb35134d377a"
+    },
+    {
+      "file": "verified-sources/en-214.png",
+      "sha256": "8cb811caf4e45df6fe51f474f06fed173d41a1a6445e0435fed93da53adc608f"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-161",
+    "p-150"
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉的节号、书名/小节名、印刷页码；页码用隐藏锚点保留。"
+  ],
+  "originalFootnotesPresent": false,
+  "addedExplanationsInBody": false,
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuationNotes": "首句接160数表说明，保留段落关系。",
+  "coveredRegions": [
+    "卡西近似与范修林35位精度。",
+    "欧洲小数的再发现、推广及三项参考资料。",
+    "成对计数、幂、音乐与参考资料。",
+    "17世纪非十进制、拉丁文引语、十二/四进制与书目。",
+    "英格兰13条容量二倍换算及页末酒商句。"
+  ],
+  "unverifiedPageRegions": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "cnText": "2 坎宁 = 1 浦式耳；2 浦式耳 = 1 小桶",
+      "enText": "2 demibushels = 1 bushel or firkin; 2 firkins = 1 kilderkin",
+      "enPdfPage": 214,
+      "kind": "terminology-omission",
+      "action": "中文单位名称及省去firkin别名依底本照录；全部13条二倍换算关系已对照。"
+    }
+  ],
+  "numberedFormulaTags": [],
+  "mathExpressions": [
+    {
+      "sourceLine": 3,
+      "display": false,
+      "tex": "\\pi",
+      "sha256": "f1cf04093d08b6dc0d58a87396405cb9093a22e9ed62a95bb95ed46e5da97097"
+    },
+    {
+      "sourceLine": 3,
+      "display": false,
+      "tex": "\\pi",
+      "sha256": "f1cf04093d08b6dc0d58a87396405cb9093a22e9ed62a95bb95ed46e5da97097"
+    },
+    {
+      "sourceLine": 5,
+      "display": false,
+      "tex": "153.5\\times16.25=2494.375",
+      "sha256": "4aa5a225cd95af6519b5875421c749b74c42eda34842c7772af8065bf49d9331"
+    }
+  ],
+  "numericalChecks": {
+    "meaning": "独立复算辅助原页检查，不替代目视或双语对照。",
+    "results": {
+      "decimalProduct": {
+        "expression": "153.5*16.25",
+        "result": "2494.375"
+      },
+      "liquidMeasureRelations": 13,
+      "allRatios": 2
+    }
+  },
+  "tables": [
+    {
+      "kind": "liquid-measure-relations",
+      "relations": 13,
+      "editableHtml": true
+    }
+  ],
+  "untested": [
+    "最终母稿的逐段包含关系与跨页合段。",
+    "正式VitePress和Pandoc整卷校样。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 3,
+    "parseErrors": 0,
+    "meaning": "仅证明样例语法可排版；内容依据另列的中英文页图逐项复核。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniquePageAnchors": true
+  }
+}

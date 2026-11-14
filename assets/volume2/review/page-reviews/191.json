@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页字节；最终母稿另作包含/原页与跨页接续证明，不仅改此处哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接查看中文完整页与列出的英文页图，逐段、逐式、逐数字及习题比较。语法与复算另列；未声称人类签核。原译者注无英文对应者单列例外。",
+  "cnPdfPage": 191,
+  "cnPrintedPage": 180,
+  "enPdfPages": [
+    250,
+    251
+  ],
+  "enPrintedPages": [
+    235,
+    236
+  ],
+  "pageMarkdownSha256": "12d02a8d9ff5a946a82262690b1f69199ea68e4142741ff47545e5e33024a9ba",
+  "cnPageImage": "scans/191.jpg",
+  "cnPageImageSha256": "eaf9a9e2685caec4c9dedb4233f2c7eac965041076a2ec0f6e0ed26c5cf19bad",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-250.png",
+      "sha256": "be70bdb03ebd18a799fb8e5a73a16ea05fec0a4e9c43997fdb2909023ecac9df"
+    },
+    {
+      "file": "verified-sources/en-251.png",
+      "sha256": "a7c24fb492b75e498b8c1689ef7b95ffd9ad76dcdf1d723a4a51480ab0102e07"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号、节名/书名及页码，隐藏页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-191",
+    "p-180",
+    "lemma-4-2-2-t",
+    "thm-4-2-2-b",
+    "thm-4-2-2-c"
+  ],
+  "coveredRegions": [
+    "引理T与定理A完整证明，modulo/等号/绝对值全部条件。",
+    "定理B及式45/46证明。",
+    "定理C及式47证明、b≤3与|u|≥|v|、中点处理独立性说明。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "45",
+    "46",
+    "47"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "not-applicable",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "首引理T及定理A证明续190；本页末完整。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 87,
+    "parseErrors": 0,
+    "meaning": "仅是排版语法检查；内容依据独立列出的中英文页图。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "独立辅助复算，不充作原书题答来源或整个证明签核。",
+    "results": {
+      "binary53ErrorFreeAdditionExample": {
+        "u": 10000000000000000,
+        "v": 1,
+        "floatingSum": 1e+16,
+        "floatingCorrection": 1.0,
+        "exactSum": 10000000000000001,
+        "reconstructionByOrdinaryExactAddition": "10000000000000001"
+      }
+    }
+  },
+  "untested": [
+    "最终母稿包含和跨页合段、原题答双向链接。",
+    "最终VitePress/Pandoc整卷；本批隔离证明的DOM/选择性视觉另列。"
+  ]
+}

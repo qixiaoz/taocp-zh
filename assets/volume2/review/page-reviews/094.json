@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 94,
+  "cnPrintedPage": 83,
+  "section": "3.3.4",
+  "enPdfPages": [
+    124,
+    125,
+    126
+  ],
+  "enPrintedPages": [
+    109,
+    110,
+    111
+  ],
+  "pageMarkdownSha256": "a8e8c0f4f91f98f30c45261973b68733d5dfd8f52b7ae76a9f3eb568c831e2db",
+  "cnPageImageSha256": "98c7c5f9a3b2ab7c7b988a864d53c0c7f98add15815f7a565d0cf3f1d6d3bb34",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 46,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-094",
+    "p-83"
+  ],
+  "coveredRegions": [
+    "Hermite界出处和2/3维最优格；F理论开头、偏差精确定义式(42)(43)、根和恒等式、向量计数与全部三角不等式推导至下页式(44)。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "startsAfterCompleteFormula": {
+    "previousCnPdfPage": 93,
+    "formula": "(41)七个常数已闭合，续接其出处和解释。"
+  },
+  "endsInsideDisplayDerivation": {
+    "nextCnPdfPage": 95,
+    "eventualEquation": "(44)",
+    "end": "D_N^(t)的两个≤链，当前未编号",
+    "continuation": "095开头=Σf(u)g(u)，并给出(44)",
+    "assemblyInstruction": "将094最后display aligned与095首display等式合成一条完整推导(44)，页锚点移到推导外；不能把pdf-095放公式中。单页源稿分别闭合以供独立校订。"
+  },
+  "preservedCommonSourceIssues": [
+    {
+      "location": "首段二维六角格的基向量长度",
+      "sourceChinese": "2/√(3m)",
+      "sourceEnglish": "2/√(3m)",
+      "enPdfPage": 124,
+      "decision": "保留两版共同原式。若这两个等长向量夹角60°且单位体积点数m，则该长度的基本面积为2/(√3m)，并非1/m；未据推测重写原式，列待定的共同底本数值疑点。"
+    }
+  ]
+}

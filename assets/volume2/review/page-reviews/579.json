@@ -1,0 +1,432 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 579,
+  "cnPrintedPage": 568,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "15b4f5b99ff7ac48a0d787f2de08f026b431796b13d0f23735dc152c61088324",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/579.jpg",
+  "cnPageImageSha256": "500c117ca50470f3fc8ee8800df2b38f513855b4727e3bdc8f84cc3b84f326e8",
+  "enPdfPages": [
+    736,
+    737
+  ],
+  "enPrintedPages": [
+    721,
+    722
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-736.png",
+      "sha256": "bdab1641afc3366f6aaacc274a3ed25aa20714e06fe999308e467f901a606515"
+    },
+    {
+      "file": "verified-sources/en-737.png",
+      "sha256": "3a6b9640fc9150f3bd307ddeaff367050f45f04780e3aa0c9ecde8a8631c341d"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-579",
+    "p-568",
+    "ans-4-7-13",
+    "ans-4-7-14",
+    "ans-4-7-15",
+    "ans-4-7-16",
+    "ans-4-7-17"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "答13全有理插值/Toeplitz原注，14 V函数唯一性和两个辅助算法全部初值/翻倍/重标定/最后P改进。",
+    "15可积微分方程与迭代，16逐系数望远镜证明，17幂多项式卷积及原历史至“其中一个结论”。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末17“论文里证明的其中一个结论”接580“是渐近公式…”同句。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.7-14-second-auxiliary-W",
+      "section": "4.7答案14第二辅助算法翻倍式",
+      "cnPrintedPage": 568,
+      "enPdfPage": 737,
+      "enPrintedPage": 722,
+      "original": "(n+hat W(z))hat U(z)+z hat U′(z)=R(z)+O(z^n)",
+      "final": "(n+W(z))hat U(z)+z hat U′(z)=R(z)+O(z^n)",
+      "basis": "两版共同从前一个辅助算法误带hat W记号。此算法给定W且仅定义hat U，代入U_low+z^n hat U至WU+zU′，修正项严格为z^n((W+n)hat U+z hat U′)。所以应使用原给定W，不能使用前一算法的hat W。"
+    },
+    {
+      "id": "v2-ans4.7-15-iteration-power",
+      "section": "4.7答案15 U^[n]分母",
+      "cnPrintedPage": 568,
+      "enPdfPage": 737,
+      "enPrintedPage": 722,
+      "original": "z/(1+cn z^(1−k))^(1/(k−1))",
+      "final": "z/(1+cn z^(k−1))^(1/(k−1))",
+      "basis": "两版共同幂符号倒置。由同段正确微分方程积分，U(z)^(1−k)=z^(1−k)+c，提取z^(1−k)得到U=z(1+c z^(k−1))^(−1/(k−1))。在迭代中平移常数c相加为nc，给修复式；原式不再以z为首项，不能是所需形式幂级数。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-7-13",
+      "exercise_anchor": "ex-4-7-13",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-7-14",
+      "exercise_anchor": "ex-4-7-14",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-7-15",
+      "exercise_anchor": "ex-4-7-15",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-7-16",
+      "exercise_anchor": "ex-4-7-16",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-7-17",
+      "exercise_anchor": "ex-4-7-17",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 579,
+    "sha256": "15b4f5b99ff7ac48a0d787f2de08f026b431796b13d0f23735dc152c61088324",
+    "mathExpressions": 66,
+    "display": 4,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 579,
+        "width": 1280,
+        "sha256": "15b4f5b99ff7ac48a0d787f2de08f026b431796b13d0f23735dc152c61088324",
+        "pageErrors": [],
+        "bodyText": 6102,
+        "documentWidth": 1280,
+        "expressions": 66,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 34,
+            "max": 34,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 579,
+        "width": 390,
+        "sha256": "15b4f5b99ff7ac48a0d787f2de08f026b431796b13d0f23735dc152c61088324",
+        "pageErrors": [],
+        "bodyText": 6102,
+        "documentWidth": 390,
+        "expressions": 66,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 24,
+            "max": 24,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 95,
+            "max": 95,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 146,
+            "max": 146,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 232,
+            "max": 232,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 378,
+            "max": 378,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 244,
+            "max": 244,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 23,
+            "max": 23,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 238,
+            "max": 238,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 84,
+            "max": 84,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 40,
+            "max": 40,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 124,
+            "max": 124,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 20,
+            "max": 20,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 436,
+            "max": 436,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 9,
+            "max": 9,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 388,
+            "max": 388,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 92,
+            "max": 92,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/579-15b4f5b99ff7ac48a0d787f2de08f026b431796b13d0f23735dc152c61088324-metadata-update/579.json",
+      "pageMarkdownSha256": "15b4f5b99ff7ac48a0d787f2de08f026b431796b13d0f23735dc152c61088324",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.7",
+  "numericCheck": {
+    "file": "arithmetic-end/numeric-check.json",
+    "sha256": "d14036eeadb4a74b6531c751fc02fd4345c06f1dcac921616478a077ddd22f5b",
+    "inputPageSha256": "15b4f5b99ff7ac48a0d787f2de08f026b431796b13d0f23735dc152c61088324",
+    "meaning": "17项有限范围/全张量系数/一般推导见文件；本页哈希绑定不代表该页全部一般定理已独立重证。"
+  },
+  "renderedHtmlSha256": "8b72f07e78087611796473630cc1daf0c5f38b7d787750acb554e7fdb192e981",
+  "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+  "renderScreenshotsDirectlyViewed": [
+    {
+      "file": "arithmetic-end/579-1280.png",
+      "sha256": "c4be4a81719f65e088e0fcaab63f80fd47629bc439a40291097a71c8311f67ef"
+    }
+  ],
+  "scrollEndpointScreenshotsDirectlyViewed": {
+    "file": "arithmetic-end/endpoints.json",
+    "sha256": "1c634b5f2d74e7875266a4d8c8fa32ae657f8e0275d0ee1ef1837ade971fe651",
+    "regions": [
+      {
+        "page": 579,
+        "kind": ".book-math-display",
+        "index": 1,
+        "side": "left",
+        "file": "endpoint-579-1-left.png",
+        "sha256": "15b4f5b99ff7ac48a0d787f2de08f026b431796b13d0f23735dc152c61088324",
+        "left": 0,
+        "clientWidth": 358,
+        "scrollWidth": 602
+      },
+      {
+        "page": 579,
+        "kind": ".book-math-display",
+        "index": 1,
+        "side": "right",
+        "file": "endpoint-579-1-right.png",
+        "sha256": "15b4f5b99ff7ac48a0d787f2de08f026b431796b13d0f23735dc152c61088324",
+        "left": 244,
+        "clientWidth": 358,
+        "scrollWidth": 602
+      }
+    ],
+    "contactSheetsDirectlyViewed": [
+      {
+        "file": "arithmetic-end/endpoints-sheet-1.png",
+        "sha256": "23487b45aab0a99075b29bd42a750b21a62dcf128274cd1226f50a718e595c1d"
+      },
+      {
+        "file": "arithmetic-end/endpoints-sheet-2.png",
+        "sha256": "75e05afade507e2cf077881ffb8823044d6e3b71590c3ada4b066f6046c49036"
+      },
+      {
+        "file": "arithmetic-end/endpoints-sheet-3.png",
+        "sha256": "503bf12e7c86eeaa6065925f7afcdf1b75424df8dfb3aabfebe72bb7d29bc60a"
+      },
+      {
+        "file": "arithmetic-end/endpoints-sheet-4.png",
+        "sha256": "e16b748f4a16c934679bdf9c725711cfcc322fd55cc267dae2d6e5b8d662ccb6"
+      },
+      {
+        "file": "arithmetic-end/endpoints-sheet-5.png",
+        "sha256": "9f11d2f40d33fac021b9bc0719a7d38004731e7517b721df592a3cedb6998010"
+      }
+    ],
+    "meaning": "所列18个关键区域左右端实际截图全部直接查看，含矩阵、表、MIX和末页链式法则；未扩写成全部公式的独立截图复核。"
+  },
+  "exerciseTargetsPending": [
+    {
+      "page": 579,
+      "answer": "ans-4-7-13",
+      "target": "ex-4-7-13",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 579,
+      "answer": "ans-4-7-14",
+      "target": "ex-4-7-14",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 579,
+      "answer": "ans-4-7-15",
+      "target": "ex-4-7-15",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 579,
+      "answer": "ans-4-7-16",
+      "target": "ex-4-7-16",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 579,
+      "answer": "ans-4-7-17",
+      "target": "ex-4-7-17",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    }
+  ]
+}

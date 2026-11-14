@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.5.4",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 322,
+  "cnPrintedPage": 311,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    417,
+    418
+  ],
+  "enPrintedPages": [
+    402,
+    403
+  ],
+  "pageMarkdownSha256": "b2a1ba8447525b12947577d5f74bc751a730a994ec1caa63a6e80edf173ff393",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/322.jpg",
+  "cnPageImageSha256": "e778e4656ec7466aae75fa5ec101d8510168a4cc1c403a0819c5df92a3e54e5d",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-417.png",
+      "sha256": "a1efd7cb619e7cdf7a4c51b0c16977329f84a72acd34b77242664842346c0ad9"
+    },
+    {
+      "file": "source-audit/en-render/page-418.png",
+      "sha256": "561acd9a6d4bf2618aeae0eeebe7efec6fb121ffc7be5e59a4f0e5b2838f844b"
+    }
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-322",
+    "p-311"
+  ],
+  "numberedFormulaTags": [
+    25
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 26,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "仅语法；原图/双语核对与独立复算分列。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终整卷母稿装订/包含证明",
+    "整卷Pandoc、正式VitePress和线上发布/下载",
+    "未把有限复算、历史性能描述或机器语法通过扩写为一般定理的证明。"
+  ],
+  "coveredRegions": [
+    "中文本页全部正文、所有行内式及无编号/编号独立式、证明推导与不等式、引文、数表每格及脚注（如存在），实际查看所列英文对应原图。",
+    "三组费马数分解的全部显式大因数、p99/p252/p564及历史残余说明。"
+  ],
+  "substantiveCorrections": [
+    {
+      "section": "4.5.4 elliptic curve estimate",
+      "cnPrintedPage": 311,
+      "enPdfPage": 417,
+      "enPrintedPage": 402,
+      "original": "可以用大约exp(√((2+ε)(lnp)(lnlnp)))次乘法",
+      "final": "启发式地估计需要大约exp(√((2+ε)(lnp)(lnlnp)))次乘法",
+      "basis": "English explicitly marks the complexity claim as heuristic and expected, not a proved deterministic runtime bound."
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "numericEvidence": ".work/volume2/source-audit/batch320-numeric-check.json",
+  "numericScope": "1528检查；460素数表项用完整n−1Lucas证书精确认证，所有被跳过候选有合数证据；大费马数只验给定因数整除与残余位数，未证大残余素性。有限RSA/同余/递推抽验不是一般定理证明。",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch320-proof.html",
+    "htmlSha256": "bb243d49027d877f592fd2df0cc21c523760755c946dcc262088c3c79094011a",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof only; not final site/whole-volume acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright and localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch320-proof-1280-322.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch320-proof-390-322.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch320-right-390-322.png",
+    "mobileRightEndVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "proofMathExpressions": 472,
+    "scrollableElementCounts": {
+      "1280": 56,
+      "390": 62
+    },
+    "machineObservations": ".work/volume2/source-audit/batch320-browser.json",
+    "footnotes": [
+      [],
+      []
+    ]
+  }
+}

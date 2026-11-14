@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.6.2",
+  "sections": [
+    "4.6.2"
+  ],
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 356,
+  "cnPrintedPage": 345,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    459,
+    460
+  ],
+  "enPrintedPages": [
+    444,
+    445
+  ],
+  "pageMarkdownSha256": "cd1373cc0166949414387dfe125c3d878375c81781b6fede88b2df854a85a43c",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/356.jpg",
+  "cnPageImageSha256": "317097e98a51c63e6c8f50d8092506da9eff55476b637c96e090c128f407a224",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-459.png",
+      "sha256": "aa6b1eae2a013f66f0aa2a59e02581755a6ef553aa8e552b6cc8231b51e00fd9"
+    },
+    {
+      "file": "source-audit/en-render/page-460.png",
+      "sha256": "ccd9abb7a99fc31706434b4f601fe68075e6a3b04f96113bcf91b76c4bb95850"
+    }
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "pageAnchors": [
+    "pdf-356",
+    "p-345"
+  ],
+  "numberedFormulaTags": [
+    18
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "coveredRegions": [
+    "N2/N3全部条件、顺序列操作、分段18；原例k=1/2/3三幅8×8矩阵每格及圈主元、0起始下标说明。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 45,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch351-numeric-check.json",
+  "numericScope": "Full source mod13 example only: all112 power-table cells,128 Q/QI cells,320 N-trajectory cells, source pivot positions, all26 B4 gcds, factor product and concrete exhaustive irreducibility, all2197 fixed-space vectors and exact split distribution. Finite checks do not prove general CRT/Frobenius/rank/probability/complexity assertions.",
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch351-proof.html",
+    "htmlSha256": "acb69e82285cd3f821aa14a1c5a3708c938fda6db95ed317730b75aafe7268d7",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume or production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright and local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch351-proof-1280-356.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch351-proof-390-356.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 457,
+    "scrollableElementCounts": {
+      "1280": 24,
+      "390": 48
+    },
+    "machineObservations": ".work/volume2/source-audit/batch351-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch351-right-390-356.png",
+    "mobileRightEndVisualReview": true
+  },
+  "startsMidAlgorithm": {
+    "algorithm": "N",
+    "previousCnPdfPage": 355,
+    "previousCompletedStep": "N1",
+    "startStep": "N2"
+  },
+  "endsDisplayGroup": {
+    "group": "AlgorithmN source example matrices k2..k5",
+    "completedMatrices": [
+      2,
+      3
+    ],
+    "nextCnPdfPage": 357,
+    "continuedMatrices": [
+      4,
+      5
+    ],
+    "allIndividualDisplaysClosed": true
+  },
+  "literalCellEvidence": ".work/volume2/source-audit/batch351-literal-cells.json",
+  "displayTransformations": {
+    "circledPivots": "原圈12以Unicode⑫置于LaTextext中，数值仍为12；实际截图确认完整圈标。",
+    "pairedMatrices": "为窄屏将原并排k矩阵纵向排列；k标签、每格数字及圈位置不变。"
+  }
+}

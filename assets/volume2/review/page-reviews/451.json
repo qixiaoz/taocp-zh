@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 451,
+  "cnPrintedPage": 440,
+  "enPdfPages": [
+    578,
+    579
+  ],
+  "enPrintedPages": [
+    563,
+    564
+  ],
+  "pageMarkdownSha256": "138079e60d18aa522618879f062afe142dbfebd57fe381e8147755cd3e5b3c2d",
+  "cnPageImageSha256": "0455fa96d43c4ba5cf2a1ab01a62e8676d9efe891e05b1c43e5e389faf585e6e",
+  "enPageImageSha256": {
+    "578": "c4cc061e40a343515e3ad3ef75e3fad2555bb3bd439ac0f2fcd1d83c3d7d9467",
+    "579": "ee32caebaf2f66b5ed7b5a077307319e96ef674383173ff4bdb9be4ca59fe0c1"
+  },
+  "coveredRegions": [
+    "3.3.2答10均值/方差续段、11游程标线、12完整R1–R5、13/14/15/16、17原(b)(c)、18/19全部代数与条件期望注记。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-451",
+    "p-440",
+    "ans-3-3-2-11",
+    "ans-3-3-2-12",
+    "ans-3-3-2-13",
+    "ans-3-3-2-14",
+    "ans-3-3-2-15",
+    "ans-3-3-2-16",
+    "ans-3-3-2-17",
+    "ans-3-3-2-18",
+    "ans-3-3-2-19"
+  ],
+  "answerAnchors": [
+    "ans-3-3-2-11",
+    "ans-3-3-2-12",
+    "ans-3-3-2-13",
+    "ans-3-3-2-14",
+    "ans-3-3-2-15",
+    "ans-3-3-2-16",
+    "ans-3-3-2-17",
+    "ans-3-3-2-18",
+    "ans-3-3-2-19"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 89,
+    "displayExpressions": 3,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 450,
+    "answer": "3.3.2-10",
+    "right_start": "利用定理1.2.10A和习题3.4.1-17，",
+    "continuation_end": "标准差 $\\sigma\\sqrt n$）。",
+    "endsInCompleteAnswer": "3.3.2-19"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "9bc85dce0d94da184c43bacc6b0c2ff1ce6562bc6ca872c3d8e2f8547ec2cea7",
+    "visualReviewSha256": "ead05adfe313353d4e0940e380af0605f53f3838c150d7e555cf845335b2f677",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 89,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 89,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 8,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "0f6f4894ea1d82239f78c74e391ed49fd57098a6fa71c5104b16362c6d6fff07",
+  "numericalCheckQualification": "逐原图/双语校订与一般代数推导为主；全部有限数值/枚举只作辅助，不充当渐近、测度或一般概率证明。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "originalSubpartOmissions": [
+    {
+      "answer": "3.3.2-17",
+      "present": [
+        "b",
+        "c"
+      ],
+      "absent": [
+        "a"
+      ],
+      "reason": "CN451/EN579原答17直接列(b)(c)，不补(a)。"
+    }
+  ]
+}

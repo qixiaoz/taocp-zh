@@ -1,0 +1,676 @@
+{
+  "587": [
+    {
+      "kind": "plain",
+      "symbol": "▮",
+      "meaning": "算法、程序或证明结束",
+      "whereDefined": "1.1"
+    },
+    {
+      "kind": "math",
+      "symbol": "A_n\\text{ 或 }A[n]",
+      "meaning": "线性数组 $A$ 的第 $n$ 个元素",
+      "whereDefined": "1.1"
+    },
+    {
+      "kind": "math",
+      "symbol": "A_{mn}\\text{ 或 }A[m,n]",
+      "meaning": "矩形数组 $A$ 的第 $m$ 行 $n$ 列元素",
+      "whereDefined": "1.1"
+    },
+    {
+      "kind": "math",
+      "symbol": "V\\leftarrow E",
+      "meaning": "将表达式 $E$ 的值赋给变量 $V$",
+      "whereDefined": "1.1"
+    },
+    {
+      "kind": "math",
+      "symbol": "U\\leftrightarrow V",
+      "meaning": "交换变量 $U$ 和 $V$ 的值",
+      "whereDefined": "1.1"
+    },
+    {
+      "kind": "math",
+      "symbol": "(R\\,?\\,a:b)",
+      "meaning": "条件表达式：关系 $R$ 为真时指向 $a$；关系 $R$ 为假时指向 $b$",
+      "whereDefined": ""
+    },
+    {
+      "kind": "math",
+      "symbol": "[R]",
+      "meaning": "关系 $R$ 的特征函数：$(R\\,?\\,1:0)$",
+      "whereDefined": "1.2.3"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\delta_{kj}",
+      "meaning": "克罗内克 $\\delta$：$[j=k]$",
+      "whereDefined": "1.2.3"
+    },
+    {
+      "kind": "math",
+      "symbol": "[z^n]g(z)",
+      "meaning": "幂级数 $g(z)$ 中 $z^n$ 的系数",
+      "whereDefined": "1.2.9"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\displaystyle\\sum_{R(k)}f(k)",
+      "meaning": "使得变量 $k$ 为整数且关系 $R(k)$ 为真的所有 $f(k)$ 之和",
+      "whereDefined": "1.2.3"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\displaystyle\\prod_{R(k)}f(k)",
+      "meaning": "使得变量 $k$ 为整数且关系 $R(k)$ 为真的所有 $f(k)$ 之积",
+      "whereDefined": "1.2.3"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\displaystyle\\min_{R(k)}f(k)",
+      "meaning": "使得变量 $k$ 为整数且关系 $R(k)$ 为真的所有 $f(k)$ 之极小值",
+      "whereDefined": "1.2.3"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\displaystyle\\max_{R(k)}f(k)",
+      "meaning": "使得变量 $k$ 为整数且关系 $R(k)$ 为真的所有 $f(k)$ 之极大值",
+      "whereDefined": "1.2.3"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\Re z",
+      "meaning": "$z$ 的实部",
+      "whereDefined": "1.2.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\Im z",
+      "meaning": "$z$ 的虚部",
+      "whereDefined": "1.2.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\bar z",
+      "meaning": "复共轭：$\\Re z-i\\Im z$",
+      "whereDefined": "1.2.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "A^T",
+      "meaning": "矩阵数组 $A$ 的转置：$A^T[j,k]=A[k,j]$",
+      "whereDefined": ""
+    },
+    {
+      "kind": "math",
+      "symbol": "x^y",
+      "meaning": "$x$ 的 $y$ 次方（$x$ 为正）",
+      "whereDefined": "1.2.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "x^k",
+      "meaning": "$x$ 的 $k$ 次方：$(k\\ge0\\,?\\,\\prod_{0\\le j<k}x:1/x^{-k})$",
+      "whereDefined": "1.2.2"
+    }
+  ],
+  "588": [
+    {
+      "kind": "math",
+      "symbol": "x^{\\overline{k}}",
+      "meaning": "$x$ 的 $k$ 次升幂：$\\Gamma(x+k)/\\Gamma(x)=(k\\ge0\\,?\\,\\prod_{0\\le j<k}(x+j):1/(x+k)^{\\overline{-k}})$",
+      "whereDefined": "1.2.5"
+    },
+    {
+      "kind": "math",
+      "symbol": "x^{\\underline{k}}",
+      "meaning": "$x$ 的 $k$ 次降幂：$x!/(x-k)!=(k\\ge0\\,?\\,\\prod_{0\\le j<k}(x-j):1/(x-k)^{\\underline{-k}})$",
+      "whereDefined": "1.2.5"
+    },
+    {
+      "kind": "math",
+      "symbol": "n!",
+      "meaning": "$n$ 的阶乘：$\\Gamma(n+1)=n^{\\underline n}$",
+      "whereDefined": "1.2.5"
+    },
+    {
+      "kind": "math",
+      "symbol": "f'(x)",
+      "meaning": "$f$ 在 $x$ 处的导数",
+      "whereDefined": "1.2.9"
+    },
+    {
+      "kind": "math",
+      "symbol": "f''(x)",
+      "meaning": "$f$ 在 $x$ 处的二阶导数",
+      "whereDefined": "1.2.10"
+    },
+    {
+      "kind": "math",
+      "symbol": "f^{(n)}(x)",
+      "meaning": "$n$ 阶导数：$(n=0\\,?\\,f(x):g^\\prime(x))$，其中 $g(x)=f^{(n-1)}(x)$",
+      "whereDefined": "1.2.11.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "f^{[n]}(x)",
+      "meaning": "第 $n$ 次迭代：$(n=0\\,?\\,x:f(f^{[n-1]}(x)))$",
+      "whereDefined": "4.7"
+    },
+    {
+      "kind": "math",
+      "symbol": "f^{\\{n\\}}(x)",
+      "meaning": "第 $n$ 次归纳函数：$f^{\\{n\\}}(x)=f(xf^{\\{n\\}}(x)^n)$",
+      "whereDefined": "4.7"
+    },
+    {
+      "kind": "math",
+      "symbol": "H_n^{(x)}",
+      "meaning": "$x$ 阶调和数：$\\displaystyle\\sum_{1\\le k\\le n}1/k^x$",
+      "whereDefined": "1.2.7"
+    },
+    {
+      "kind": "math",
+      "symbol": "H_n",
+      "meaning": "调和数：$H_n^{(1)}$",
+      "whereDefined": "1.2.7"
+    },
+    {
+      "kind": "math",
+      "symbol": "F_n",
+      "meaning": "斐波那契数：$(n\\le1\\,?\\,n:F_{n-1}+F_{n-2})$",
+      "whereDefined": "1.2.8"
+    },
+    {
+      "kind": "math",
+      "symbol": "B_n",
+      "meaning": "伯努利数：$n![z^n]z/(e^z-1)$",
+      "whereDefined": "1.2.11.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "X\\cdot Y",
+      "meaning": "向量 $X=(x_1,\\ldots,x_n)$ 和 $Y=(y_1,\\ldots,y_n)$ 的点积：$x_1y_1+\\cdots+x_ny_n$",
+      "whereDefined": "3.3.4"
+    },
+    {
+      "kind": "math",
+      "symbol": "j\\backslash k",
+      "meaning": "$j$ 整除 $k$：$k\\bmod j=0$ 且 $j>0$",
+      "whereDefined": "1.2.4"
+    },
+    {
+      "kind": "math",
+      "symbol": "S\\setminus T",
+      "meaning": "集合差：$\\{a\\mid a\\text{ 在 }S\\text{ 中且不在 }T\\text{ 中}\\}$",
+      "whereDefined": ""
+    },
+    {
+      "kind": "math",
+      "symbol": "\\oplus\\ \\ominus\\ \\otimes\\ \\oslash",
+      "meaning": "舍入或特殊运算",
+      "whereDefined": "4.2.1"
+    },
+    {
+      "kind": "math",
+      "symbol": "(\\ldots a_1a_0.a_{-1}\\ldots)_b",
+      "meaning": "$b$ 进制按位记数系统：$\\sum_k a_kb^k$",
+      "whereDefined": "4.1"
+    },
+    {
+      "kind": "math",
+      "symbol": "//x_1,x_2,\\ldots,x_n//",
+      "meaning": "连分数：$1/(x_1+1/(x_2+1/(\\cdots+1/(x_n)\\cdots)))$",
+      "whereDefined": "4.5.3"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\binom{x}{k}",
+      "meaning": "二项式系数：$(k<0\\,?\\,0:x^{\\underline k}/k!)$",
+      "whereDefined": "1.2.6"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\binom{n}{n_1,n_2,\\ldots,n_m}",
+      "meaning": "多项式系数（仅当 $n=n_1+n_2+\\cdots+n_m$ 时）",
+      "whereDefined": "1.2.6"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\begin{bmatrix}n\\\\m\\end{bmatrix}",
+      "meaning": "第一类斯特林数：$\\displaystyle\\sum_{0<k_1<k_2<\\cdots<k_{n-m}<n}k_1k_2\\cdots k_{n-m}$",
+      "whereDefined": "1.2.6"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\begin{Bmatrix}n\\\\m\\end{Bmatrix}",
+      "meaning": "第二类斯特林数：$\\displaystyle\\sum_{1\\le k_1\\le k_2\\le\\cdots\\le k_{n-m}\\le m}k_1k_2\\cdots k_{n-m}$",
+      "whereDefined": "1.2.6"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\{a\\mid R(a)\\}",
+      "meaning": "使得关系 $R(a)$ 为真的所有 $a$ 的集合",
+      "whereDefined": ""
+    },
+    {
+      "kind": "math",
+      "symbol": "\\{a_1,\\ldots,a_n\\}",
+      "meaning": "集合或多重集合 $\\{a_k\\mid1\\le k\\le n\\}$",
+      "whereDefined": ""
+    },
+    {
+      "kind": "math",
+      "symbol": "\\{x\\}",
+      "meaning": "小数部分（用于蕴涵实数值而非集合的范畴时）：$x-\\lfloor x\\rfloor$",
+      "whereDefined": "1.2.11.2"
+    }
+  ],
+  "589": [
+    {
+      "kind": "math",
+      "symbol": "[a..b]",
+      "meaning": "闭区间：$\\{x\\mid a\\le x\\le b\\}$",
+      "whereDefined": "1.2.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "(a..b)",
+      "meaning": "开区间：$\\{x\\mid a<x<b\\}$",
+      "whereDefined": "1.2.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "[a..b)",
+      "meaning": "半开区间：$\\{x\\mid a\\le x<b\\}$",
+      "whereDefined": "1.2.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "(a..b]",
+      "meaning": "半闭区间：$\\{x\\mid a<x\\le b\\}$",
+      "whereDefined": "1.2.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "|S|",
+      "meaning": "基数：集合 $S$ 的元素个数",
+      "whereDefined": ""
+    },
+    {
+      "kind": "math",
+      "symbol": "|x|",
+      "meaning": "$x$ 的绝对值：$(x\\ge0\\,?\\,x:-x)$",
+      "whereDefined": ""
+    },
+    {
+      "kind": "math",
+      "symbol": "|z|",
+      "meaning": "$z$ 的绝对值：$\\sqrt{z\\bar z}$",
+      "whereDefined": "1.2.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\lfloor x\\rfloor",
+      "meaning": "$x$ 的下整，最大整数函数：$\\max_{k\\le x}k$",
+      "whereDefined": "1.2.4"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\lceil x\\rceil",
+      "meaning": "$x$ 的上整，最小整数函数：$\\min_{k\\ge x}k$",
+      "whereDefined": "1.2.4"
+    },
+    {
+      "kind": "math",
+      "symbol": "((x))",
+      "meaning": "锯齿函数",
+      "whereDefined": "3.3.3"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\langle X_n\\rangle",
+      "meaning": "无穷序列 $X_0,X_1,X_2,\\ldots$（这里的字母 $n$ 是符号的一部分）",
+      "whereDefined": "1.2.9"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\gamma",
+      "meaning": "欧拉常数：$\\lim_{n\\to\\infty}(H_n-\\ln n)$",
+      "whereDefined": "1.2.7"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\gamma(x,y)",
+      "meaning": "不完全 $\\Gamma$ 函数：$\\int_0^y e^{-t}t^{x-1}\\,dt$",
+      "whereDefined": "1.2.11.3"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\Gamma(x)",
+      "meaning": "$\\Gamma$ 函数：$(x-1)!=\\gamma(x,\\infty)$",
+      "whereDefined": "1.2.5"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\delta(x)",
+      "meaning": "整数的特征函数",
+      "whereDefined": "3.3.3"
+    },
+    {
+      "kind": "math",
+      "symbol": "e",
+      "meaning": "自然对数的底：$\\sum_{n\\ge0}1/n!$",
+      "whereDefined": "1.2.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\zeta(x)",
+      "meaning": "$\\zeta$ 函数：$\\lim_{n\\to\\infty}H_n^{(x)}$（when $x>1$）",
+      "whereDefined": "1.2.7"
+    },
+    {
+      "kind": "math",
+      "symbol": "K_n(x_1,\\ldots,x_n)",
+      "meaning": "连续多项式",
+      "whereDefined": "4.5.3"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\ell(u)",
+      "meaning": "多项式 $u$ 的前导系数",
+      "whereDefined": "4.6"
+    },
+    {
+      "kind": "math",
+      "symbol": "l(n)",
+      "meaning": "$n$ 的最短加法链长度",
+      "whereDefined": "4.6.3"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\Lambda(n)",
+      "meaning": "曼戈尔特函数",
+      "whereDefined": "4.5.3"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\mu(n)",
+      "meaning": "莫比乌斯函数",
+      "whereDefined": "4.5.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\nu(n)",
+      "meaning": "侧向和",
+      "whereDefined": "4.6.3"
+    },
+    {
+      "kind": "math",
+      "symbol": "O(f(n))",
+      "meaning": "当变量 $n\\to\\infty$，$f(n)$ 的大 $O$",
+      "whereDefined": "1.2.11.1"
+    },
+    {
+      "kind": "math",
+      "symbol": "O(f(z))",
+      "meaning": "当变量 $z\\to0$，$f(z)$ 的大 $O$",
+      "whereDefined": "1.2.11.1"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\Omega(f(n))",
+      "meaning": "当变量 $n\\to\\infty$，$f(n)$ 的大 $\\Omega$",
+      "whereDefined": "1.2.11.1"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\Theta(f(n))",
+      "meaning": "当变量 $n\\to\\infty$，$f(n)$ 的大 $\\Theta$",
+      "whereDefined": "1.2.11.1"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\pi(x)",
+      "meaning": "素数计数：$\\sum_{n\\le x}[n\\text{ 是素数}]$",
+      "whereDefined": "4.5.4"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\pi",
+      "meaning": "圆周率：$4\\sum_{n\\ge0}(-1)^n/(2n+1)$",
+      "whereDefined": "4.3.1"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\phi",
+      "meaning": "黄金分割比：$\\tfrac12(1+\\sqrt5)$",
+      "whereDefined": "1.2.8"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\emptyset",
+      "meaning": "空集：$\\{x\\mid0=1\\}$",
+      "whereDefined": ""
+    },
+    {
+      "kind": "math",
+      "symbol": "\\varphi(n)",
+      "meaning": "欧拉函数：$\\sum_{0\\le k<n}[k\\perp n]$",
+      "whereDefined": "1.2.4"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\infty",
+      "meaning": "无穷：大于任何数",
+      "whereDefined": "4.2.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\det(A)",
+      "meaning": "方阵 $A$ 的行列式",
+      "whereDefined": "1.2.3"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\operatorname{sign}(x)",
+      "meaning": "$x$ 的符号：$(x=0\\,?\\,0:x/|x|)$",
+      "whereDefined": ""
+    },
+    {
+      "kind": "math",
+      "symbol": "\\deg(u)",
+      "meaning": "多项式 $u$ 的次数",
+      "whereDefined": "4.6"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\operatorname{cont}(u)",
+      "meaning": "多项式 $u$ 的容度",
+      "whereDefined": "4.6.1"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\operatorname{pp}(u(x))",
+      "meaning": "多项式 $u$ 的本原部分",
+      "whereDefined": "4.6.1"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\log_bx",
+      "meaning": "$x$ 的以 $b$ 为底的对数（$x>0,b>0$ 且 $b\\ne1$）：使得 $x=b^y$ 的 $y$",
+      "whereDefined": "1.2.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\ln x",
+      "meaning": "自然对数：$\\log_e x$",
+      "whereDefined": "1.2.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\lg x",
+      "meaning": "以 2 为底的对数：$\\log_2 x$",
+      "whereDefined": "1.2.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\exp x",
+      "meaning": "$x$ 的指数：$e^x$",
+      "whereDefined": "1.2.9"
+    }
+  ],
+  "590": [
+    {
+      "kind": "math",
+      "symbol": "j\\perp k",
+      "meaning": "$j$ 与 $k$ 互素：$\\gcd(j,k)=1$",
+      "whereDefined": "1.2.4"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\gcd(j,k)",
+      "meaning": "$j$ 和 $k$ 的最大公因数：$(j=k=0\\,?\\,0:\\max_{d\\backslash j,\\,d\\backslash k}d)$",
+      "whereDefined": "4.5.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\operatorname{lcm}(j,k)",
+      "meaning": "$j$ 和 $k$ 的最小公倍数：$(jk=0\\,?\\,0:\\min_{d>0,\\,j\\backslash d,\\,k\\backslash d}d)$",
+      "whereDefined": "4.5.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "x\\bmod y",
+      "meaning": "$\\bmod$ 函数：$(y=0\\,?\\,x:x-y\\lfloor x/y\\rfloor)$",
+      "whereDefined": "1.2.4"
+    },
+    {
+      "kind": "math",
+      "symbol": "u(x)\\bmod v(x)",
+      "meaning": "多项式 $u$ 除以多项式 $v$ 的余式",
+      "whereDefined": "4.6.1"
+    },
+    {
+      "kind": "math",
+      "symbol": "x\\equiv x^\\prime\\quad(\\text{modulo }y)",
+      "meaning": "同余关系：$x\\bmod y=x^\\prime\\bmod y$",
+      "whereDefined": "1.2.4"
+    },
+    {
+      "kind": "math",
+      "symbol": "x\\approx y",
+      "meaning": "$x$ 近似等于 $y$",
+      "whereDefined": "3.5, 4.2.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\Pr(S(n))",
+      "meaning": "对于随机正整数 $n$，命题 $S(n)$ 为真的概率",
+      "whereDefined": "3.5"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\Pr(S(X))",
+      "meaning": "对于 $X$ 的随机值，命题 $S(X)$ 为真的概率",
+      "whereDefined": "1.2.10"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\mathrm E X",
+      "meaning": "$X$ 的期望值：$\\sum_x x\\Pr(X=x)$",
+      "whereDefined": "1.2.10"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\operatorname{mean}(g)",
+      "meaning": "用生成函数 $g$ 表示的概率分布的均值：$g^\\prime(1)$",
+      "whereDefined": "1.2.10"
+    },
+    {
+      "kind": "math",
+      "symbol": "\\operatorname{var}(g)",
+      "meaning": "用生成函数 $g$ 表示的概率分布的方差：$g^{\\prime\\prime}(1)+g^\\prime(1)-g^\\prime(1)^2$",
+      "whereDefined": "1.2.10"
+    },
+    {
+      "kind": "math",
+      "symbol": "(\\min x_1,\\operatorname{ave}x_2,\\max x_3,\\operatorname{dev}x_4)",
+      "meaning": "具有最小值 $x_1$、平均（期望）值 $x_2$、最大值 $x_3$、标准差 $x_4$ 的随机变量",
+      "whereDefined": "1.2.10"
+    },
+    {
+      "kind": "plain",
+      "symbol": "␣",
+      "meaning": "一个空格",
+      "whereDefined": "1.3.1"
+    },
+    {
+      "kind": "code",
+      "symbol": "rA",
+      "meaning": "MIX 的寄存器 A（累加器）",
+      "whereDefined": "1.3.1"
+    },
+    {
+      "kind": "code",
+      "symbol": "rX",
+      "meaning": "MIX 的寄存器 X（扩展）",
+      "whereDefined": "1.3.1"
+    },
+    {
+      "kind": "code",
+      "symbol": "rI1,...,rI6",
+      "meaning": "MIX 的（变址）寄存器 I1，…，I6",
+      "whereDefined": "1.3.1"
+    },
+    {
+      "kind": "code",
+      "symbol": "rJ",
+      "meaning": "MIX 的（转址）寄存器",
+      "whereDefined": "1.3.1"
+    },
+    {
+      "kind": "code",
+      "symbol": "(L:R)",
+      "meaning": "MIX 字的部分字段，$0\\le L\\le R\\le5$",
+      "whereDefined": "1.3.1"
+    },
+    {
+      "kind": "code",
+      "symbol": "OP ADDRESS,I(F)",
+      "meaning": "MIX 指令的记号",
+      "whereDefined": "1.3.1, 1.3.2"
+    },
+    {
+      "kind": "math",
+      "symbol": "u",
+      "meaning": "MIX 中的时间单位",
+      "whereDefined": "1.3.1"
+    },
+    {
+      "kind": "code",
+      "symbol": "*",
+      "meaning": "MIXAL 中的“self”",
+      "whereDefined": "1.3.2"
+    },
+    {
+      "kind": "code",
+      "symbol": "0F,1F,2F,...,9F",
+      "meaning": "MIXAL 中的“forward”局部符号",
+      "whereDefined": "1.3.2"
+    },
+    {
+      "kind": "code",
+      "symbol": "0B,1B,2B,...,9B",
+      "meaning": "MIXAL 中的“backward”局部符号",
+      "whereDefined": "1.3.2"
+    },
+    {
+      "kind": "code",
+      "symbol": "0H,1H,2H,...,9H",
+      "meaning": "MIXAL 中的“here”局部符号",
+      "whereDefined": "1.3.2"
+    }
+  ]
+}

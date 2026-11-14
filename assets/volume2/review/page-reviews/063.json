@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 63,
+  "cnPrintedPage": 52,
+  "section": "3.3.2",
+  "enPdfPages": [
+    83,
+    84
+  ],
+  "enPrintedPages": [
+    68,
+    69
+  ],
+  "pageMarkdownSha256": "80c3b28eb0b623cfd4dd0f1c9fc446bb906783410a91f1e25e955b6394283f6d",
+  "cnPageImageSha256": "d504aa465d7fa89698c722b4df45d24f0daa8744c2b883fba7567e9d50ccb9b5",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 29,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-063",
+    "p-52"
+  ],
+  "coveredRegions": [
+    "承前推导、式(15)–(22)全部；均值与协方差各上下标、分支条件、求和范围及原论文引用。"
+  ],
+  "substantiveCorrections": [
+    {
+      "section": "3.3.2G",
+      "cnPrintedPage": 52,
+      "enPdfPage": 84,
+      "enPrintedPage": 69,
+      "location": "式(21)后协方差矩阵说明",
+      "source": "计算诸R′的协方差矩阵C",
+      "final": "计算诸R的协方差矩阵C",
+      "basis": "英文Form the matrix C of the covariances of the R’s（复数所有格，不是prime）；随后C13=covar(R1,R3)、C1t=covar(R1,Rt′)明确仅最后一项为累计游程，不能将所有量写成R′。式(22)及下一页72项也按R1..R5,R6′独立复算吻合。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 62,
+    "start": "满足",
+    "previousEnd": "计数所有"
+  },
+  "continuationAfterCompleteFormula": {
+    "nextCnPdfPage": 64,
+    "formula": "(22) C=nC1+C2已闭合，064给出C1/C2；不能在矩阵内插页锚点。"
+  }
+}

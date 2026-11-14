@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 414,
+  "cnPrintedPage": 403,
+  "enPdfPages": [
+    532,
+    533
+  ],
+  "enPrintedPages": [
+    517,
+    518
+  ],
+  "pageMarkdownSha256": "0e08919a42150c726add2747bd4aef855845924554d9b27992619dce60d38144",
+  "masterSha256": null,
+  "cnPageImage": "scans/414.jpg",
+  "cnPageImageSha256": "528805e7705656bb0e8b2d7cd337a65b5e12cda9b29a4526bc34144bf6c07121",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-532.png",
+      "sha256": "c841e4a6dbd6422a3cb44c83547d220efc95c8ad19fb5ab44049cfa56fe2148c"
+    },
+    {
+      "file": "source-audit/en-render/page-533.png",
+      "sha256": "1b0c3f406bb05a851dd188fa082322eb51ba2a4cf880a1cced15b722f040b032"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-414",
+    "p-403",
+    "fig-4-16",
+    "ex-4-6-4-24",
+    "ex-4-6-4-25",
+    "ex-4-6-4-26",
+    "ex-4-6-4-27",
+    "ex-4-6-4-28",
+    "ex-4-6-4-29",
+    "ex-4-6-4-30",
+    "ex-4-6-4-31",
+    "ex-4-6-4-32",
+    "ex-4-6-4-33",
+    "ex-4-6-4-34",
+    "ex-4-6-4-35",
+    "ex-4-6-4-36"
+  ],
+  "numberedFormulaTags": [],
+  "coveredRegions": [
+    "习题23(b)、正式图16四点四箭头/标题；24–36全部式/难度/推荐，25全部11步含未使用步骤/不连续alpha下标、26结果集/30界34转换条件。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 50,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch409-numeric-check.json",
+  "numericScope": "Exact coefficient realization checks for all64slots of66/68 and72slots of70, all16bilinear basis cases69, complete serialization of9source matrices. Companion73 identities and gcd/singularity checks on explicit n2..6,4examples each only; not a numerical proof of general TheoremW. Exact factorization/irreducibility certificates for displayedu5−1; theoremWrank8/7/5 only hypothesis substitution. Given exercise19/21/22/24 polynomials re-expanded exactly; no new answers in manuscript. Ex48 tiny legal index example supports bilingual typo repair.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch409-proof.html",
+    "htmlSha256": "6b6fe069ad628295114cbe0b1aef1af4357e208d7eb22a9b8063018e261f939b",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch409-proof-1280-414.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch409-proof-390-414.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 463,
+    "scrollableElementCounts": {
+      "1280": 75,
+      "390": 92
+    },
+    "machineObservations": ".work/volume2/source-audit/batch409-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch409-answer-presence.json",
+    "linkedExercises": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "allActualOriginalNumberedAnswersPresent": true,
+    "roundTripDeferredUntilAnswerTranscriptionAndAssembly": true,
+    "independentAnswerContentReviewClaimed": false
+  },
+  "startsMidExercise": {
+    "exercise": "4.6.4-23",
+    "previousCnPdfPage": 413,
+    "previousCompletedPart": "a",
+    "startPart": "b",
+    "figureFollowsCompletePartB": true
+  },
+  "figure": {
+    "number": 16,
+    "asset": "assets/volume2/figures/fig-4-16.svg",
+    "sha256": "86bf628f483df2da9d60a043b2b240c4dd6f784fdc874e3eaad7d20314a80d71",
+    "cnPdfPage": 414,
+    "cnPrintedPage": 403,
+    "enPdfPage": 532,
+    "enPrintedPage": 517,
+    "caption": "图16 伊夫定理的证明",
+    "captionSearchable": true,
+    "all4PointsAnd4ArrowDirectionsComparedWithBothOriginals": true,
+    "pointLabels": [
+      "iR",
+      "−iR",
+      "−R",
+      "0"
+    ],
+    "direction": "−iR upward along imaginaryaxis through0 to iR; leftsemicircle through−R back to−iR",
+    "whiteBackgroundForDarkMode": true,
+    "standaloneRasterVisualReview": ".work/volume2/source-audit/fig-4-16-proof.png",
+    "standaloneRasterSha256": "af5f8d85abc0952b59260ef169ea7a21ad48b6906070edc29b5106e3a775c471",
+    "actualInline1280And390Viewed": true,
+    "magnificationClickedAndBackAtBothWidths": true,
+    "allMagnificationEndsReachable": true,
+    "magnification390LeftAndRightViewed": true,
+    "browserEvidence": ".work/volume2/source-audit/batch409-figure-browser.json",
+    "literalGeometry": ".work/volume2/source-audit/batch409-figure16-literal.json"
+  }
+}

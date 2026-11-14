@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 547,
+  "cnPrintedPage": 536,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "7b7e14db9d8e4743943fbc20c2de7c58a3b3278ab4c4f1b2232f19d2ec13f06b",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/547.jpg",
+  "cnPageImageSha256": "8e141c31af771111358b06f90b8adb2d2a30bef18238dc53cc849d780cac6ce8",
+  "enPdfPages": [
+    696,
+    697
+  ],
+  "enPrintedPages": [
+    681,
+    682
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-696.png",
+      "sha256": "10719538bec46903501a5e946baf861ae522159cf973ed0197e5036646b7006b"
+    },
+    {
+      "file": "verified-sources/en-697.png",
+      "sha256": "a061e02e767dac84423fd0df7c16e2d6b708297291469c33b44bbda1f244f61a"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-547",
+    "p-536",
+    "ans-4-6-2-13",
+    "ans-4-6-2-14",
+    "ans-4-6-2-15"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "答13全部p mod8因式分解；14最小多项式的首次线性相关；15 Berlekamp/Cantor–Zassenhaus平方根过程和直接模4/8方法。",
+    "Shanks S1–S3完整所有范围/随机选择/同余不变量/同时赋值及时间次数二项式与原历史引用。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末15文献完整。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.6.2-15-trivial-gcd",
+      "section": "4.6.2答案15 p≡1(mod4)段",
+      "cnPrintedPage": 536,
+      "enPdfPage": 696,
+      "enPrintedPage": 681,
+      "original": "最大公因子是1",
+      "final": "最大公因子是1或x²−u",
+      "basis": "两版共同遗漏一种平凡情况。c=u^((p−1)/4)，在u为非零平方剩余的前提下c²=1；gcd(x²−u,c−1)在c=1时是x²−u，在c=−1时是1，均非所需一次因子。"
+    },
+    {
+      "id": "v2-ans4.6.2-15-use-condition",
+      "section": "4.6.2答案15 p≡1(mod4)段",
+      "cnPrintedPage": 536,
+      "enPdfPage": 696,
+      "enPrintedPage": 681,
+      "original": "所以只有当x^((p−1)/2) mod(x²−u)=u^((p−1)/4)时才应该使用上面的算法",
+      "final": "所以只有当p mod4=1时才应该使用上面的算法",
+      "basis": "英文明确only when p mod4=1。中文把上一句恒等式重复当成条件，丢失应采用此法的模4情形；p mod4=3已有直接幂公式。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-6-2-13",
+      "exercise_anchor": "ex-4-6-2-13",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-14",
+      "exercise_anchor": "ex-4-6-2-14",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-15",
+      "exercise_anchor": "ex-4-6-2-15",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 547,
+    "sha256": "7b7e14db9d8e4743943fbc20c2de7c58a3b3278ab4c4f1b2232f19d2ec13f06b",
+    "mathExpressions": 60,
+    "display": 1,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 547,
+        "width": 1280,
+        "sha256": "7b7e14db9d8e4743943fbc20c2de7c58a3b3278ab4c4f1b2232f19d2ec13f06b",
+        "pageErrors": [],
+        "bodyText": 4239,
+        "documentWidth": 1280,
+        "expressions": 60,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 32,
+            "max": 32,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 78,
+            "max": 78,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 547,
+        "width": 390,
+        "sha256": "7b7e14db9d8e4743943fbc20c2de7c58a3b3278ab4c4f1b2232f19d2ec13f06b",
+        "pageErrors": [],
+        "bodyText": 4239,
+        "documentWidth": 390,
+        "expressions": 60,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 434,
+            "max": 434,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 41,
+            "max": 41,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 480,
+            "max": 480,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 367,
+            "max": 367,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 107,
+            "max": 107,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/547-7b7e14db9d8e4743943fbc20c2de7c58a3b3278ab4c4f1b2232f19d2ec13f06b-metadata-update/547.json",
+      "pageMarkdownSha256": "7b7e14db9d8e4743943fbc20c2de7c58a3b3278ab4c4f1b2232f19d2ec13f06b",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.6.2",
+  "numericCheck": {
+    "file": "arithmetic-final/numeric-check.json",
+    "sha256": "366d868527ea4ebadd69161aea5793d80975c4cc4a54e4cb76bdc9b410cde1df",
+    "inputPageSha256": "7b7e14db9d8e4743943fbc20c2de7c58a3b3278ab4c4f1b2232f19d2ec13f06b",
+    "meaning": "独立复算17项及一般符号/计数证明具体范围见文件；绑定本页不代表本页全部一般证明已重证。"
+  },
+  "renderScreenshotsDirectlyViewed": [
+    {
+      "file": "arithmetic-final/547-390.png",
+      "sha256": "ba1ec624de935149b3f633085ac902837bba3567583beb544480c1282d6f49de"
+    }
+  ],
+  "exerciseTargetsPending": []
+}

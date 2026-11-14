@@ -1,0 +1,467 @@
+{
+  "schemaVersion": 2,
+  "status": "passed",
+  "masterSha256": "c8ec35b2d7d5fdcc32c8059dd7197227f387a443b96eea49b61af8e2fcfca163",
+  "offlineHtmlSha256": "57edad537dca9ce1c3959e4cf06389c63f44fe130f13b5bfd31889e0412302dc",
+  "browserReview": {
+    "privateOriginalEvidenceSha256": "b922df588efa34dbe3de4dba2a9e9cfe8c1b944b3101dc3b1b258f0e245568cc",
+    "normalizationFields": [
+      ".sourceRelation",
+      ".offlineHtml",
+      ".privateRenderer",
+      ".browser.executable",
+      ".browser.protocol",
+      ".repairs[6].actualFailureEvidence",
+      ".readerCompatibility.independentAllVisibleProseAndCode"
+    ],
+    "evidence": {
+      "schemaVersion": 1,
+      "reviewDate": "2026-11-14T19:54:37.715405+00:00",
+      "reviewer": "Model actual Chrome/Playwright execution plus direct representative screenshots; not a human signoff.",
+      "status": "passed",
+      "masterSha256": "c8ec35b2d7d5fdcc32c8059dd7197227f387a443b96eea49b61af8e2fcfca163",
+      "originalFrozenBrowserSourceSha256": "a273301d2ea5ada1ecc1c41cb836f8fc9636e1c2317dde57f2d5c9fa83e723ee",
+      "sourceRelation": "private-evidence/offline-final-review/html-57edad537dca9ce1/source-relation-c8ec-to-same-html.json",
+      "sourceRelationSha256": "433f37d1164a2facb71c82722af6622956f1938e87b0a18959e10f752376e53d",
+      "offlineHtmlSha256": "57edad537dca9ce1c3959e4cf06389c63f44fe130f13b5bfd31889e0412302dc",
+      "offlineHtml": "private-evidence/proof/volume2-offline.html",
+      "offlineStatsSha256": "13da6d32f9ce640dc3a5466096f9222db75a8c780b4287f2d48fc65fd8872f02",
+      "privateRenderer": "private-evidence/tools/render_pandoc.py",
+      "privateRendererSha256": "8447c7208315d91b7a00d8d76329b3ac864ba498cb23e22e8e05f4eb13ac834a",
+      "privateKatexHelperSha256": "f5efe7e4c789d0a89ddb6a6f698955d0111b312b8e6f281a9f1dd4d658c7c5b6",
+      "mathml": 32487,
+      "nativeMathml": 31574,
+      "exactOriginalTexKatexFallbacks": 913,
+      "fallbackReasons": {
+        "originalNativeSyntaxUnsupported": 64,
+        "nativeSilentEquationTagLoss": 849
+      },
+      "visibleEquationTags": 852,
+      "browser": {
+        "engine": "Actual local Google Chrome headless",
+        "executable": "Google Chrome.app (isolated local executable)",
+        "version": "153.0.8010.48",
+        "playwrightVersion": "1.62.1",
+        "browserPluginAvailable": false,
+        "protocol": "local-file"
+      },
+      "viewports": [
+        {
+          "width": 1280,
+          "heightForFullChecks": 1000,
+          "sections": 128,
+          "allContainers": 33568,
+          "actualOverflowContainers": 176,
+          "allBothEndsPassed": true,
+          "documentHorizontalOverflow": false,
+          "allFragmentLinksActivated": 7457,
+          "fragmentCategories": {
+            "other": 223,
+            "section": 75,
+            "answer": 884,
+            "footnoteForward": 21,
+            "exercise": 884,
+            "page": 5349,
+            "footnoteBack": 21
+          },
+          "indexLinksIncluded": 3069,
+          "footnotePointerRoundTrips": 21,
+          "imagesLoaded": 59,
+          "existingMagnificationLinksClickedAndReturned": 53,
+          "unlinkedImagesLoadedWithoutInventingZoomLinks": 6,
+          "allTables": 91,
+          "numericCellsNotSplit": 2776,
+          "allVisibleEquationTags": 852,
+          "allFallbacksWithExactSourceTexAndNoHiddenBody": 913,
+          "initialHashSamples": [
+            "ans-4-6-4-48",
+            "p-80",
+            "sec-index",
+            "fn21"
+          ],
+          "ordinaryFirstClickTargetNeverPrematerialized": true,
+          "consoleErrors": [],
+          "consoleWarnings": []
+        },
+        {
+          "width": 390,
+          "heightForFullChecks": 1000,
+          "sections": 128,
+          "allContainers": 33568,
+          "actualOverflowContainers": 1438,
+          "allBothEndsPassed": true,
+          "documentHorizontalOverflow": false,
+          "allFragmentLinksActivated": 7457,
+          "fragmentCategories": {
+            "other": 223,
+            "section": 75,
+            "answer": 884,
+            "footnoteForward": 21,
+            "exercise": 884,
+            "page": 5349,
+            "footnoteBack": 21
+          },
+          "indexLinksIncluded": 3069,
+          "footnotePointerRoundTrips": 21,
+          "imagesLoaded": 59,
+          "existingMagnificationLinksClickedAndReturned": 53,
+          "unlinkedImagesLoadedWithoutInventingZoomLinks": 6,
+          "allTables": 91,
+          "numericCellsNotSplit": 2776,
+          "allVisibleEquationTags": 852,
+          "allFallbacksWithExactSourceTexAndNoHiddenBody": 913,
+          "initialHashSamples": [
+            "ans-4-6-4-48",
+            "p-80",
+            "sec-index",
+            "fn21"
+          ],
+          "ordinaryFirstClickTargetNeverPrematerialized": true,
+          "consoleErrors": [],
+          "consoleWarnings": []
+        }
+      ],
+      "repairs": [
+        {
+          "kind": "preserve-literal-list-markers-and-ASCII-punctuation",
+          "fix": "Reader disables fancy_lists and smart; intraword_underscores staysenabled, all32487orderedMathASTand77+294codeunchanged."
+        },
+        {
+          "kind": "recognize-adjacent-source-headings",
+          "fix": "Reader disables blank_before_header;15headingsrecognized,128sectionsactual."
+        },
+        {
+          "kind": "nineteen-adjacent-difficulty-navigation-labels",
+          "fix": "Input-onlyescape19whitelistedASCIIgradelabels;originalvisiblebracketsunchanged,19answerlinksrestored,7457actualfragments."
+        },
+        {
+          "kind": "table-local-scroll",
+          "actualFailureEvidence": "history/html-753e07bb4ec904b7/spectral-pdf091-092-1280-left.png",
+          "fix": "td/th overflow-wrap:normal; table inline native/fallback max-width:none and overflow:visible; logicaltablelocalscroll."
+        },
+        {
+          "kind": "visible-equation-tags",
+          "actualFailureEvidence": "history/html-2feb97b1dbe80470/tensor52-tag-1280-right.png",
+          "fix": "All852taggeddisplayformulasrendercompleteoriginalTeXwithalreadyestablishedKaTeXpath; 849newfallbacks,noindependentlabelparser/layout."
+        },
+        {
+          "kind": "real-first-fragment-navigation",
+          "actualFailureEvidence": "html-8cbb8163d94b03de/navigation-pointer.json",
+          "fix": "PureCSS section:has(:target),section:target content-visibility:visible!important; noaddedscripts. Newlinktestdoesnotprematerializetarget.",
+          "pureCss30FrameEvidence": "css-target-test.json"
+        },
+        {
+          "kind": "single-literal-N3-step-label",
+          "actualFailureEvidence": "private-evidence/proof/page572-pandoc-before-link-repair.json",
+          "fix": {
+            "kind": "literal-algorithm-step-label-escape",
+            "original": "N3.[变换.](",
+            "pandocInput": "N3.\\[变换.\\](",
+            "replacementCount": 1,
+            "sourceSha256": "c8ec35b2d7d5fdcc32c8059dd7197227f387a443b96eea49b61af8e2fcfca163",
+            "reason": "Pandoc parses the unescaped step label plus parenthesized algorithm explanation as a Markdown link and swallows the explanation and three inline formulas into href. Escaping this exact label preserves visible original punctuation and prose; no source-mother rewrite."
+          },
+          "preparedPandocInputSha256": "e2a03319220bf141a2eb0d3b90967f5e7077a24863c12399a5248b1b8651a6eb",
+          "allUnexpectedLocalNonFragmentHrefs": 0,
+          "all3RestoredMathVerified": true
+        }
+      ],
+      "sourceMotherAndPageRecordsModifiedByThisAgent": false,
+      "readerCompatibility": {
+        "reader": "markdown+tex_math_dollars+raw_html+intraword_underscores-implicit_figures-fancy_lists-smart-blank_before_header",
+        "difficultyNavigationEscapes": [
+          {
+            "sourceLine": 10717,
+            "cnPdfPage": 226,
+            "original": "[15]",
+            "pandocInput": "\\[15\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 10719,
+            "cnPdfPage": 226,
+            "original": "[21]",
+            "pandocInput": "\\[21\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 10721,
+            "cnPdfPage": 226,
+            "original": "[M21]",
+            "pandocInput": "\\[M21\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 10723,
+            "cnPdfPage": 226,
+            "original": "[21]",
+            "pandocInput": "\\[21\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 12150,
+            "cnPdfPage": 254,
+            "original": "[22]",
+            "pandocInput": "\\[22\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 12152,
+            "cnPdfPage": 254,
+            "original": "[M22]",
+            "pandocInput": "\\[M22\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 12154,
+            "cnPdfPage": 254,
+            "original": "[M22]",
+            "pandocInput": "\\[M22\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 12156,
+            "cnPdfPage": 254,
+            "original": "[28]",
+            "pandocInput": "\\[28\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 12166,
+            "cnPdfPage": 254,
+            "original": "[M23]",
+            "pandocInput": "\\[M23\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 12168,
+            "cnPdfPage": 254,
+            "original": "[M23]",
+            "pandocInput": "\\[M23\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 12170,
+            "cnPdfPage": 254,
+            "original": "[M20]",
+            "pandocInput": "\\[M20\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 12172,
+            "cnPdfPage": 254,
+            "original": "[M15]",
+            "pandocInput": "\\[M15\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 12180,
+            "cnPdfPage": 254,
+            "original": "[M41]",
+            "pandocInput": "\\[M41\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 12200,
+            "cnPdfPage": 255,
+            "original": "[M25]",
+            "pandocInput": "\\[M25\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 12204,
+            "cnPdfPage": 255,
+            "original": "[M49]",
+            "pandocInput": "\\[M49\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 12207,
+            "cnPdfPage": 255,
+            "original": "[25]",
+            "pandocInput": "\\[25\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 12215,
+            "cnPdfPage": 255,
+            "original": "[M26]",
+            "pandocInput": "\\[M26\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 12217,
+            "cnPdfPage": 255,
+            "original": "[M30]",
+            "pandocInput": "\\[M30\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          },
+          {
+            "sourceLine": 12219,
+            "cnPdfPage": 255,
+            "original": "[M23]",
+            "pandocInput": "\\[M23\\]",
+            "reason": "Preserve literal difficulty brackets immediately adjacent to the answer link; prevent Pandoc reference-link ambiguity without inserting displayed spaces."
+          }
+        ],
+        "N3ExactEscape": [
+          {
+            "kind": "literal-algorithm-step-label-escape",
+            "original": "N3.[变换.](",
+            "pandocInput": "N3.\\[变换.\\](",
+            "replacementCount": 1,
+            "sourceSha256": "c8ec35b2d7d5fdcc32c8059dd7197227f387a443b96eea49b61af8e2fcfca163",
+            "reason": "Pandoc parses the unescaped step label plus parenthesized algorithm explanation as a Markdown link and swallows the explanation and three inline formulas into href. Escaping this exact label preserves visible original punctuation and prose; no source-mother rewrite."
+          }
+        ],
+        "independentAllVisibleProseAndCode": "private-evidence/offline-integrity-audit/57edad537dca9ce1/comparison-initial.json",
+        "independentProseCodeReviewSha256": "bff6bba8533e72c0a033415c3483409be3c7fc88c9a1b0fa3806b7e01568190c"
+      },
+      "publicFilesModifiedByThisReview": false,
+      "privateRendererOnlyChanged": true,
+      "directScreenshotReview": {
+        "htmlSha256": "57edad537dca9ce1c3959e4cf06389c63f44fe130f13b5bfd31889e0412302dc",
+        "directlyViewed": true,
+        "scope": "20newactualscreenshotsdirectlyviewedafterreadercompatibilityfix,notoldimageswithnewhash. Includesliteral(a),restoredgrade/answerlink,numberedmatrix,spectral91/92,MIXtable,crosspageprogram,N3,fig16/17,longinlinefallback,footnotes/index. Allothercontainers/links/imagescheckedthroughactualChromeautomation.",
+        "files": [
+          {
+            "file": "literal-list-marker-1280-left.png",
+            "sha256": "224c1cd462a2856d99b67a9de2abd79faf69758eab6a4d7aca185defad2c4d66"
+          },
+          {
+            "file": "difficulty-nav226-1280-left.png",
+            "sha256": "b2726fa19a4333ea106a41adc5761e3940210a45466f133961568677d52e0ea0"
+          },
+          {
+            "file": "tensor52-tag-1280-right.png",
+            "sha256": "a11c8766006d325fd3d758b01b82e0dcb7985b1f078e314f200771baf4f921b7"
+          },
+          {
+            "file": "spectral-pdf091-092-1280-left.png",
+            "sha256": "8c64a07951992f4901cc752462fc1191f49de3064da758703823d642ecce6d02"
+          },
+          {
+            "file": "spectral-pdf091-092-1280-right.png",
+            "sha256": "387396bbd74df40870bec0d3433bfdab139b9a50e07fe5a15ab99a98f60b3b24"
+          },
+          {
+            "file": "cross-page-FADD-1280-left.png",
+            "sha256": "05b5ed3836f42af7d06b2fedb38e362e6a619794edf9af8bdb04865ebd2fff8a"
+          },
+          {
+            "file": "fig16-1280-left.png",
+            "sha256": "388a9813fb18e4332ede41f4e6f37e4ef11d89973f4930d9a370a3e7d111e654"
+          },
+          {
+            "file": "fig17-1280-left.png",
+            "sha256": "e96927eda8674a4409e7a448d1f784ecf27373bb5781794002caa0b111a4c4fc"
+          },
+          {
+            "file": "literal-list-marker-390-left.png",
+            "sha256": "a0c221b30699379cf4855dee2fcb027c32712d4fa5a341dc2f263d5cb84c10f3"
+          },
+          {
+            "file": "difficulty-nav226-390-left.png",
+            "sha256": "10c832806c285389306d332f52078d84325edf629dee2db7f38d3f318f0a3c38"
+          },
+          {
+            "file": "tensor52-tag-390-right.png",
+            "sha256": "eae782f98eacf0628d747e0a4ddcd4ee6eee80e0c8933ce986e37c693f7fd54c"
+          },
+          {
+            "file": "answer572-N3-390-left.png",
+            "sha256": "a63b3d84696e5e65c843f45c8eed966cb54dac84b1b6d33bc30628cad5101e28"
+          },
+          {
+            "file": "spectral-pdf091-092-390-right.png",
+            "sha256": "91f5e612e998470aac83f1911f62e9be91e05a199b88ef82490ac760cbcddadc"
+          },
+          {
+            "file": "MIX-opcodes-390-right.png",
+            "sha256": "9f11b084630ab0bcdfe3a447b28842fcf7ebe4a41104e6154d1051eef984d772"
+          },
+          {
+            "file": "cross-page-FADD-390-right.png",
+            "sha256": "68a748459909b099ea7ceb6950640f1b983c06509cf6362c81e4e82e2b62ef8b"
+          },
+          {
+            "file": "interval-fallback-390-left.png",
+            "sha256": "68569e1aaf719d0e7c95f95675601500236dbe4738596713faff89f12914e09d"
+          },
+          {
+            "file": "interval-fallback-390-right.png",
+            "sha256": "cbf052705a484baf6a47272aac04a796d19598acddff9c35cad06d115603a1d4"
+          },
+          {
+            "file": "footnote21-390-forward.png",
+            "sha256": "d926b6066dfe728bf4244b5c8bccda3cd365cddb05987aec064fd865cc9b8a1b"
+          },
+          {
+            "file": "footnote21-390-back.png",
+            "sha256": "00aea5e1899ff613d1fe6397a56b3bf0fc88b7ebd273a3071d99e66630f611af"
+          },
+          {
+            "file": "index-390.png",
+            "sha256": "feba31bc7fdc6223e450703fe34f314bd00de18a4b14f236c119e9a4cdd9df75"
+          }
+        ]
+      },
+      "historicalRuns": "PriorHTML753e07bb,2feb97b1,8cbb8163,de5916b6,df45967d arehistory/superseded,neverrelabeledasthisfinalhash. Theearlierprematerializednavigationtestmaskedthen-fixedfirstclickissue.",
+      "scope": "Completevolumeofflineproof actualbrowserbehavior at1280and390,all128sectionsandactualoverflowcontainers/links/images. Directvisualreviewisrepresentativecategoriesinclcomplexnumberedmatrix,MIXtable,crosspageprograms,spectral91/92,fig16/17,N3restoredparagraph,footnotes/index; noteveryformulaorimagevisuallyrereadagainstCN/ENinthisbrowserphase.",
+      "notCovered": "Productionwebsite/onlineZIP/deployment acceptance performed byrootseparately; darkmode notapplicable to fixedpaper offlineproof."
+    }
+  },
+  "newSourceToIdenticalTestedOutput": {
+    "privateOriginalEvidenceSha256": "433f37d1164a2facb71c82722af6622956f1938e87b0a18959e10f752376e53d",
+    "normalizationFields": [
+      ".oldFrozenSource",
+      ".oldFrozenRenderStats",
+      ".newSourceFrozenCopy",
+      ".actualRerenderCommand[0]",
+      ".actualRerenderCommand[1]",
+      ".actualRerenderCommand[5]",
+      ".newRenderStatsSnapshot",
+      ".sourceOnlyChangesEvidence",
+      ".newSourceIndependentAllNonmathProseAndCodeReview"
+    ],
+    "evidence": {
+      "reviewDate": "2026-11-14T19:49:22.951581+00:00",
+      "oldFrozenSourceSha256": "a273301d2ea5ada1ecc1c41cb836f8fc9636e1c2317dde57f2d5c9fa83e723ee",
+      "oldFrozenSource": "private-evidence/offline-final-review/html-57edad537dca9ce1/frozen-source-a273.md",
+      "oldFrozenRenderStats": "private-evidence/offline-final-review/html-57edad537dca9ce1/frozen-render-source-a273.json",
+      "oldFrozenRenderStatsSha256": "f5f7daf9ffd218ec4303b066829d10ded84db33c66144ab966ace08cece5807c",
+      "newActualSourceSha256": "c8ec35b2d7d5fdcc32c8059dd7197227f387a443b96eea49b61af8e2fcfca163",
+      "newActualSource": "计算机程序设计艺术·卷2·半数值算法.md",
+      "newSourceFrozenCopy": "private-evidence/offline-final-review/html-57edad537dca9ce1/frozen-source-c8ec.md",
+      "newSourceBytes": 2627077,
+      "newActualPreparedInputSha256": "e2a03319220bf141a2eb0d3b90967f5e7077a24863c12399a5248b1b8651a6eb",
+      "actualRerenderCommand": [
+        "private-evidence/venv/bin/python",
+        "private-evidence/tools/render_pandoc.py",
+        "--source",
+        "计算机程序设计艺术·卷2·半数值算法.md",
+        "--out",
+        "private-evidence/proof/volume2-offline.html",
+        "--title",
+        "master-candidate·离线校样"
+      ],
+      "actualRerenderPerformed": true,
+      "entireOutputBytesEqualToFrozenBrowserTestedHtml": true,
+      "sharedHtmlSha256": "57edad537dca9ce1c3959e4cf06389c63f44fe130f13b5bfd31889e0412302dc",
+      "actualHtmlBytes": 21783389,
+      "oldBrowserHtmlSnapshotSha256": "57edad537dca9ce1c3959e4cf06389c63f44fe130f13b5bfd31889e0412302dc",
+      "newRenderStatsSnapshot": "private-evidence/offline-final-review/html-57edad537dca9ce1/actual-rerender-source-c8ec.json",
+      "newRenderStatsSha256": "13da6d32f9ce640dc3a5466096f9222db75a8c780b4287f2d48fc65fd8872f02",
+      "rendererSha256": "8447c7208315d91b7a00d8d76329b3ac864ba498cb23e22e8e05f4eb13ac834a",
+      "sourceOnlyChangesEvidence": "private-evidence/offline-reader-experiment/upstream-four-em-only.json",
+      "newSourceIndependentAllNonmathProseAndCodeReview": "private-evidence/offline-integrity-audit/57edad537dca9ce1/comparison-initial.json",
+      "independentReviewSha256": "bff6bba8533e72c0a033415c3483409be3c7fc88c9a1b0fa3806b7e01568190c",
+      "independentVisibleProseExactlyEqualWhitespaceOnly": true,
+      "all77BlockAnd294InlineCodeByteExact": true,
+      "mathAst": 32487,
+      "meaning": "Newc8ecsourcewasactuallyrecompiledwiththefinalreaderand20exactinputescapes(N3one+19difficultylabels); exactHTMLbytesareidenticaltothefrozen57edadbatch. BrowserchecksbindHTMLbytes, andthisnewsource→outputidentityproofconnectsthemwithoutrewritingolda273sourceevidence.",
+      "historicalEvidenceNotRelabeled": true
+    }
+  },
+  "qualification": "New actual recompilation of the final source produced byte-identical HTML to the browser-tested artifact. The historical browser source hash remains unchanged inside its evidence; this explicit source-to-output bridge does not relabel old checks. Local executable/protocol and private artifact paths are normalized only for publication."
+}

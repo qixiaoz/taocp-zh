@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "section": "4.6.3",
+  "sections": [
+    "4.6.3"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 384,
+  "cnPrintedPage": 373,
+  "enPdfPages": [
+    494,
+    495
+  ],
+  "enPrintedPages": [
+    479,
+    480
+  ],
+  "pageMarkdownSha256": "2e2ec28781df070a3c0874cc3e69e9dac4f33aacbd6a62abaf6c9b0e9b287b3d",
+  "masterSha256": null,
+  "cnPageImage": "scans/384.jpg",
+  "cnPageImageSha256": "e5aaa404ef871bdbaf464a45020aca629ebf0971f67e2421e369c2e80a2cb3e7",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-494.png",
+      "sha256": "b6c5812999fad56b092c8a8e4e3a3e260fe139f5cb9e24366f4ddd2436b54b3f"
+    },
+    {
+      "file": "source-audit/en-render/page-495.png",
+      "sha256": "a40aabbd54a8f2dba81d9fd0739b2ea698afaec40f998cc6e826db68985f278b"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-384",
+    "p-373"
+  ],
+  "numberedFormulaTags": [
+    51
+  ],
+  "coveredRegions": [
+    "l0定义/带下划线51全部标记、定理G完整构造证明、25项22下划线生成链、历史5784689、图表示正文与十节点十八有向弧含平行弧、跨页相关规定。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 55,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch377-numeric-check.json",
+  "numericScope": "Exact complete general addition-chain search for n1..2222 and2731; four individual minimum probes12509/16537 general/star; no general theorem derived by finite tests. c1..15 and d1..11 independently recomputed; larger historical c/d values and later record holders only source-image/bilingual verified. Whole formula48 n2..1000 exact. Huge example only exact bit identity, compressed6106-step upper witness and sourceH hypothesis substitution, not independent optimality search.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch377-proof.html",
+    "htmlSha256": "1e3af7453fa812b35f61904ded414aae8eca96ecdabbba65075285b945dc0098",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch377-proof-1280-384.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch377-proof-390-384.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 495,
+    "scrollableElementCounts": {
+      "1280": 127,
+      "390": 155
+    },
+    "machineObservations": ".work/volume2/source-audit/batch377-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch377-right-390-384.png",
+    "mobileRightEndVisualReview": true
+  },
+  "startsMidParagraph": {
+    "previousCnPdfPage": 383,
+    "previousEnd": "它介于$l$-链和$l^*$-链",
+    "start": "“之间”."
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 385,
+    "end": "但按照加法链的相关规",
+    "nextStart": "定，我们不得不将它们区分开来.",
+    "crossPageWord": "规定",
+    "nextOriginalPageDirectlyViewed": true
+  },
+  "underlinedElements": {
+    "formula51": [
+      1,
+      2,
+      4,
+      8,
+      18
+    ],
+    "theoremGExampleAllExcept": [
+      31,
+      1023,
+      4095
+    ],
+    "exampleElements": 25,
+    "exampleUnderlined": 22,
+    "allSourceMarksCompared": true
+  },
+  "figure": {
+    "numbered": false,
+    "asset": "assets/volume2/figures/addition-chain-79-full.svg",
+    "sha256": "31e9eb98a6f5d789cf0a9111806ccf6c7447bc79cc483b467110304dfb3560ac",
+    "nodeCount": 10,
+    "directedArcs": 18,
+    "parallelArcsRetained": true,
+    "allNodesArcsLabelsDirectionsComparedWithCn384En495": true,
+    "literalTopology": ".work/volume2/source-audit/batch377-directed79-literal.json",
+    "whiteBackgroundForDarkMode": true,
+    "actualInline1280And390Viewed": true,
+    "magnificationLinkClickedAtBothWidths": true,
+    "magnificationBackLinkTested": true,
+    "magnificationScrollEndsReachable": true,
+    "magnification390EndpointsViewed": true,
+    "magnificationEvidence": ".work/volume2/source-audit/batch377-figure-browser.json"
+  }
+}

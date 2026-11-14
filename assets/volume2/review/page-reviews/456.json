@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 456,
+  "cnPrintedPage": 445,
+  "enPdfPages": [
+    585,
+    586
+  ],
+  "enPrintedPages": [
+    570,
+    571
+  ],
+  "pageMarkdownSha256": "e1bd4e826f82dad9d97cf83419e64efaf8539cd64a34999d5fae638b39e7b223",
+  "cnPageImageSha256": "f8b52382ddf6679aa7850e072774ed6ffe4bbc61a92384c7fb8eb2b67cd90f0a",
+  "enPageImageSha256": {
+    "585": "1ef7542caaaf17912bf1a5b740932b6d649535f561a1cbdf01fbc17750374e26",
+    "586": "7627ad3216e4df807d59c595bb3effa28b4855635e54cb3fb939de8cdffd9e7a"
+  },
+  "coveredRegions": [
+    "3.3.2答30泊松概率续段、31全79位生成函数/系数/原注/原概率曲线/吕舍尔评述、32两点分布反例、33全鞍点近似及偶数平分原注。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-456",
+    "p-445",
+    "ans-3-3-2-31",
+    "ans-3-3-2-32",
+    "ans-3-3-2-33"
+  ],
+  "answerAnchors": [
+    "ans-3-3-2-31",
+    "ans-3-3-2-32",
+    "ans-3-3-2-33"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 60,
+    "displayExpressions": 0,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.3.2答33竖直高斯积分",
+      "cnPrintedPage": 445,
+      "enPdfPage": 586,
+      "enPrintedPage": 571,
+      "original": "(-1)^k(2k−1)!! sqrt(2pi)",
+      "final": "(-1)^k(2k−1)!! /sqrt(2pi)",
+      "basis": {
+        "cnPdfPage": 456,
+        "cnPrintedPage": 445,
+        "enPdfPage": 586,
+        "enPrintedPage": 571,
+        "original": "(-1)^k(2k−1)!! sqrt(2pi)",
+        "final": "(-1)^k(2k−1)!! /sqrt(2pi)",
+        "generalDerivation": "被积函数整，在竖直路径平移到u=it后，1/(2pi i)∫e^(u²/2)u^(2k)du =(-1)^k/(2pi)∫e^(-t²/2)t^(2k)dt =(-1)^k(2k−1)!!/sqrt(2pi)。",
+        "directK0": "0.3989422804014326779399460599343818684758586311649346576659258296704827"
+      }
+    }
+  ],
+  "preservedVersionDifferences": [
+    {
+      "location": "答33最后偶数情形系数的误差项",
+      "cnPrintedPage": 445,
+      "enPdfPage": 586,
+      "enPrintedPage": 571,
+      "cn": "O((m-3n)^(-3/2))",
+      "en": "同一减号",
+      "disposition": "保原列符号疑点；前文方差与误差均为m+3n，原条件允许m<3n，负底数幂应进一步核作者勘误；不从记忆改号。"
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 455,
+    "answer": "3.3.2-30",
+    "right_start": "由习题28，生日间隔检验发现 $R=0$ 间隔的概率为",
+    "continuation_end": "则出现更复杂的项。",
+    "endsInCompleteAnswer": "3.3.2-33"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "17fe0051e44453dfc5395d74b7da8d4a4ee291bed5aaaad0479614aa4117ad40",
+    "visualReviewSha256": "9fd358b26f3871a254abfd13afa5f256ea08f3b50750a46d081784833ec15939",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 60,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 60,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 14,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ],
+    "imageZoomCases": [
+      {
+        "viewport": 1280,
+        "images": [
+          {
+            "url": "assets/volume2/figures/ans-3-3-2-31-walk-bias.png",
+            "root": "HTML",
+            "labels": 0,
+            "images": [
+              {
+                "width": 1048,
+                "height": 176
+              }
+            ],
+            "href": "../../../assets/volume2/figures/ans-3-3-2-31-walk-bias.png"
+          }
+        ],
+        "actualOpenAndBrowserBack": true
+      },
+      {
+        "viewport": 390,
+        "images": [
+          {
+            "url": "assets/volume2/figures/ans-3-3-2-31-walk-bias.png",
+            "root": "HTML",
+            "labels": 0,
+            "images": [
+              {
+                "width": 1048,
+                "height": 176
+              }
+            ],
+            "href": "../../../assets/volume2/figures/ans-3-3-2-31-walk-bias.png"
+          }
+        ],
+        "actualOpenAndBrowserBack": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "2be701a51c3e4028b81ea2a930a49016e6d20079316b7db1b90cd0fc0561b308",
+  "numericalCheckQualification": "一般代数依据/原图双语核对为主；小规模枚举只辅助证明检查，不将有限计算充作一般/渐近证明。原文引用的巨型精确划分数未独立计算。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "assets": [
+    {
+      "path": "assets/volume2/figures/ans-3-3-2-31-walk-bias.png",
+      "sha256": "9a7cc5cb79e709423c948063ab90b86c50abf7342e2ceafe0deca397bcac67ff",
+      "kind": "clear-original-cn-diagram-crop",
+      "cnPdfPage": 456,
+      "enPdfPage": 585,
+      "visualComparedWithBothOriginals": true,
+      "axes": "y0.3,0.4,0.5,0.6,0.7；m0,256,512,768,1024,1280,1536,1792,2047",
+      "recomputationQualification": "精确m序列穷举只核选定奇长度和445约64%；保原曲线，不以选点造曲线。"
+    }
+  ],
+  "publicationSanitization": {
+    "privateOriginalReviewSha256": "bc81a946f409b4771f9cee75c72c5f97eb74f28d868e2eb49fe1492406be4397",
+    "fields": [
+      ".renderReview.imageZoomCases[0].images[0].url",
+      ".renderReview.imageZoomCases[1].images[0].url"
+    ],
+    "treatment": "Local file asset URLs are normalized to repository-relative asset paths for public delivery. The original observed URLs remain only in the private, hash-bound review record."
+  }
+}

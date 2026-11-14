@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.4",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；最终母稿须另行证明包含、跨页合段/程序合块及允许展示转换，不仅替换本哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整页和列出的英文页图，逐段/逐式/表格单元/清单行及注释比较；语法/文本字段检查/复算独立列出。模型视觉核查，不声称人类签核。",
+  "cnPdfPage": 212,
+  "cnPrintedPage": 201,
+  "enPdfPages": [
+    277,
+    278
+  ],
+  "enPrintedPages": [
+    262,
+    263
+  ],
+  "pageMarkdownSha256": "dbb3b2a8fe68163b2dfe20355f0e5f711b81aaf734fd9c99be57654af60101d9",
+  "cnPageImage": "scans/212.jpg",
+  "cnPageImageSha256": "f8ea45bb1ae91c15b2c32ce29eb701843168cecba8f046cf909c904f7e0e68de",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-277.png",
+      "sha256": "6e0bb1d5f175175e02a2d0425b4e8b225380824e612df4245ccc96760ebe9009"
+    },
+    {
+      "file": "verified-sources/en-278.png",
+      "sha256": "0dccf881053d62128cb7e9fd56655c125713874dbd2f1458fa60b1bba325c42f"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码；物理页和印刷页隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-212",
+    "p-201",
+    "ex-4-2-4-1",
+    "ex-4-2-4-2",
+    "ex-4-2-4-3",
+    "ex-4-2-4-4",
+    "ex-4-2-4-5",
+    "ex-4-2-4-6",
+    "ex-4-2-4-7",
+    "ex-4-2-4-8",
+    "ex-4-2-4-9",
+    "ex-4-2-4-10"
+  ],
+  "coveredRegions": [
+    "对数律总结、Flehinger/Raimi/Schatte等全部文献。",
+    "习题17/18与整数概率说明，实数推广与iid原语义校订。",
+    "习题1–10全部难度和5/10推荐，二进制/十六进制双层指数、恰好前导零位含义。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [
+    {
+      "id": "v2-4.2.4-p201-iid",
+      "section": "4.2.4",
+      "cnPrintedPage": 201,
+      "enPdfPage": 277,
+      "enPrintedPage": 262,
+      "sourceText": "独立的恒等分布的随机实变量",
+      "finalText": "独立同分布的随机实变量",
+      "evidence": "英文实际页图为 independent, identically distributed random real variables，恒等分布误译identically distributed；恢复独立同分布的标准含义。",
+      "kind": "substantive-translation-correction"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "answerLinkStatus": "pendingverifiedanswers",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "首总结紧接211完整证明。习题1–10各完整，本页末无跨页题干。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 31,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "仅排版语法；内容来自以上中文/英文原页实际比较。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "辅助原页核查，不当作原书答案来源或替代视觉比较。",
+    "results": {
+      "hexadecimalRangeIdentity": "16^(2^(n−p−2)) = 2^(4*2^(n−p−2)) = 2^(2^(n−p)); exact integer example n=10,p=6 gives65536both."
+    }
+  },
+  "untested": [
+    "最终母稿装订包含/跨页程序合并与原题答双向链接。",
+    "最终正式VitePress/Pandoc整卷和线上。",
+    "未执行MIX程序，未以代码字段一致宣称数值实现正确。"
+  ],
+  "renderReview": {
+    "file": "verified-render/double-dom-review-207-213.json",
+    "sha256": "5d532860bad6c3f57d1c0c7bfe88441a4f54af888670ed901753f4bad05ca278",
+    "scope": "CurrentpageSHA; isolated1280/390 DOM plus explicitlylistedselectedregionsactualvisual. SharedVitePress/Pandoc notincluded."
+  }
+}

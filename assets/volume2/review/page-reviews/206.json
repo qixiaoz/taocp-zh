@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.4",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；最终母稿须另行证明包含、跨页合段/程序合块及允许展示转换，不仅替换本哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整页和列出的英文页图，逐段/逐式/表格单元/清单行及注释比较；语法/文本字段检查/复算独立列出。模型视觉核查，不声称人类签核。",
+  "cnPdfPage": 206,
+  "cnPrintedPage": 195,
+  "enPdfPages": [
+    269,
+    270
+  ],
+  "enPrintedPages": [
+    254,
+    255
+  ],
+  "pageMarkdownSha256": "f54e9b4e8bd78e5758373a79932804fa11914cabc86e1e24b2392cfb2bf2a0e2",
+  "cnPageImage": "scans/206.jpg",
+  "cnPageImageSha256": "97ea1fc937da6960749a542e5181a08b25da04995a86f44ffa33a5d16704f50f",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-269.png",
+      "sha256": "54e4fe5f2cf5ff4299cbd0c5dbac2672c0fe1a6751e8113ba437a0816fd8e143"
+    },
+    {
+      "file": "verified-sources/en-270.png",
+      "sha256": "8539684c4c337dae5565afe7f572d9c75710e390ebe52bc22cd34ee4fa0b4b2c"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码；物理页和印刷页隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-206",
+    "p-195",
+    "tab-4-2-4-2"
+  ],
+  "coveredRegions": [
+    "正式表2全部35数据单元及四基数。",
+    "B小数部分完整各段，首位规律/物理常数/n!/2^n/F_n/两篇历史文献。",
+    "任意正数小数部分公式、式1，随机U三例与首位1/2概率，Hamming设定跨页句。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "1"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "not-applicable",
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuationNotes": "表2完整，不与表1合并。末“不同的单”接207首“位…”，正文合段且无跨页式。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 33,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "仅排版语法；内容来自以上中文/英文原页实际比较。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "辅助原页核查，不当作原书答案来源或替代视觉比较。",
+    "results": {
+      "leadingDigitOneCountsN1to100": {
+        "factorial": 30,
+        "2^n": 30,
+        "F_n": 30
+      },
+      "leadingDigit1Percent": 30.10299956639812,
+      "leadingDigit2Percent": 17.609125905568124
+    }
+  },
+  "untested": [
+    "最终母稿装订包含/跨页程序合并与原题答双向链接。",
+    "最终正式VitePress/Pandoc整卷和线上。",
+    "未执行MIX程序，未以代码字段一致宣称数值实现正确。"
+  ],
+  "renderReview": {
+    "file": "verified-render/double-dom-review-199-206.json",
+    "sha256": "6f0e4ea6e73341500b9b50022fc1392832b8c3f20e4374f322fb9dbe0ed62dff",
+    "scope": "Currentpage SHA; isolated1280/390 DOM plus explicitlylistedselectedregionsactualvisual. SharedVitePress/Pandoc not included."
+  }
+}

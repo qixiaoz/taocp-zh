@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.6.2",
+  "sections": [
+    "4.6.2"
+  ],
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 354,
+  "cnPrintedPage": 343,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    457,
+    458
+  ],
+  "enPrintedPages": [
+    442,
+    443
+  ],
+  "pageMarkdownSha256": "d4e2eb70bd4242f13e86906b8827f4d3d99ff11b58aef2cb441b390e0e661639",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/354.jpg",
+  "cnPageImageSha256": "e1d0e48d056e269f6114bb5c960a2cc0da34bd0d46b060fbdbcba3be356579ba",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-457.png",
+      "sha256": "d7d10fb2e6bcaa9ef809d9bee38e8b6216dde964bd0e05ac5e4fe0950f84cdf6"
+    },
+    {
+      "file": "source-audit/en-render/page-458.png",
+      "sha256": "d310b46250c02bd76d7f8b93273ae8c9638b4f6b9ab88899f92563fa5448ae39"
+    }
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "pageAnchors": [
+    "pdf-354",
+    "p-343"
+  ],
+  "numberedFormulaTags": [
+    15,
+    16
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "coveredRegions": [
+    "B4续述及历史注记；例式15、完整三行x^(k+1)推导、16与顺序更新赋值；末句跨355。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 47,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch351-numeric-check.json",
+  "numericScope": "Full source mod13 example only: all112 power-table cells,128 Q/QI cells,320 N-trajectory cells, source pivot positions, all26 B4 gcds, factor product and concrete exhaustive irreducibility, all2197 fixed-space vectors and exact split distribution. Finite checks do not prove general CRT/Frobenius/rank/probability/complexity assertions.",
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch351-proof.html",
+    "htmlSha256": "acb69e82285cd3f821aa14a1c5a3708c938fda6db95ed317730b75aafe7268d7",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume or production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright and local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch351-proof-1280-354.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch351-proof-390-354.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 457,
+    "scrollableElementCounts": {
+      "1280": 24,
+      "390": 48
+    },
+    "machineObservations": ".work/volume2/source-audit/batch351-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 355,
+    "end": "如下的$x^k\\bmod u(x)$",
+    "nextStart": "的系数序列："
+  }
+}

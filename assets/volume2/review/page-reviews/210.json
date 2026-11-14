@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.4",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；最终母稿须另行证明包含、跨页合段/程序合块及允许展示转换，不仅替换本哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整页和列出的英文页图，逐段/逐式/表格单元/清单行及注释比较；语法/文本字段检查/复算独立列出。模型视觉核查，不声称人类签核。",
+  "cnPdfPage": 210,
+  "cnPrintedPage": 199,
+  "enPdfPages": [
+    274,
+    275
+  ],
+  "enPrintedPages": [
+    259,
+    260
+  ],
+  "pageMarkdownSha256": "eb893d7070afb7e11d63129667b85d554d2abb5786a02e0902fcc2a13fbcb48f",
+  "cnPageImage": "scans/210.jpg",
+  "cnPageImageSha256": "b980e35ee3b9f469175ae6a37d36ab3ab8c2508acdf48f50342a4afc569a96ec",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-274.png",
+      "sha256": "6482063c8c27463a26ad098f8fdaf0b820faa94f556c5294f3c415aadf47d6ad"
+    },
+    {
+      "file": "verified-sources/en-275.png",
+      "sha256": "43364a1e5d09ae0bfcd3a90819c6e6b0c61aacc09a99fea44904c506635c04ae"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码；物理页和印刷页隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-210",
+    "p-199",
+    "fig-4-5",
+    "thm-4-2-4-f"
+  ],
+  "coveredRegions": [
+    "引理Q结论式16，Sm非常数与极限不存在。",
+    "图5三曲线、坐标轴/刻度/3标注直接对照两版原图并用原式语义SVG重绘。",
+    "完整定理F及式17/18、R_m式19与一致收敛、Q_m递推式20。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "16",
+    "17",
+    "18",
+    "19",
+    "20"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "not-applicable",
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuationNotes": "页末20式后的逗号接211首“其中”与21式，是同一Q_m推导。原页证据不改；最终用正常连续段落/式号装订。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 40,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "仅排版语法；内容来自以上中文/英文原页实际比较。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "辅助原页核查，不当作原书答案来源或替代视觉比较。",
+    "results": {
+      "figure5CalculationRecord": "verified-sources/fig-4-5-calculation.json",
+      "method": "c_m由21/23递推，Q_m22和R_m19；所有m=1..3绘图点实际对应原曲线走势，非根据OCR或模型记忆补画。"
+    }
+  },
+  "untested": [
+    "最终母稿装订包含/跨页程序合并与原题答双向链接。",
+    "最终正式VitePress/Pandoc整卷和线上。",
+    "未执行MIX程序，未以代码字段一致宣称数值实现正确。"
+  ],
+  "figureReview": {
+    "file": "assets/volume2/figures/fig-4-5.svg",
+    "sha256": "f0e52075a94f4b10ae169f418349d51667517d415c071edcc0a2e00223b15244",
+    "method": "依原11/19/20/21/22递推精确表达式数值采样m1/2/3，矢量文字/线段绘制；已实际看中文210及英文275图。",
+    "checks": [
+      "横轴s=1..10，纵轴0..0.6，刻度及Sm(s)标签齐全。",
+      "m1在s2尖峰5/9，s1/10均1/9；m2有浅谷/宽峰，m3围绕log10(2)。",
+      "三m标注对应正确曲线，原图白底黑线，图题在正文可搜索。"
+    ],
+    "auxiliaryCalculationRecord": "verified-sources/fig-4-5-calculation.json"
+  },
+  "renderReview": {
+    "file": "verified-render/double-dom-review-207-213.json",
+    "sha256": "5d532860bad6c3f57d1c0c7bfe88441a4f54af888670ed901753f4bad05ca278",
+    "scope": "CurrentpageSHA; isolated1280/390 DOM plus explicitlylistedselectedregionsactualvisual. SharedVitePress/Pandoc notincluded."
+  }
+}

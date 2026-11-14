@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.3",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订另证包含和跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型实际查看中文整页与列出的英文原页图片，逐段、逐式、表单元、算法、图线和难度推荐符号对照；不声称人类签核。",
+  "cnPdfPage": 242,
+  "cnPrintedPage": 231,
+  "enPdfPages": [
+    315,
+    316,
+    317
+  ],
+  "enPrintedPages": [
+    300,
+    301,
+    302
+  ],
+  "pageMarkdownSha256": "3f4b8df2e7cd3fe54b736f388ee8cc4e60f60fdd6d41e0ed02072f52970d6e52",
+  "cnPageImage": "scans/242.jpg",
+  "cnPageImageSha256": "f786d9b3760b1d2f5757e528805883e0ea0a783719447e2709a199c10bb94e3b",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-315.png",
+      "sha256": "ac4d59122f8d3ccf101a81e545b828d95574c88d53e5898321f5d904364d3641"
+    },
+    {
+      "file": "verified-sources/en-316.png",
+      "sha256": "f4b1f0343f3f6270264c7e5c8c94bd9c1fac2cafecdd77d8f3046f408f4f3641"
+    },
+    {
+      "file": "verified-sources/en-317.png",
+      "sha256": "537cbe5c975b5fd6843712b12cec19d54f28803d688e48d346aa6cf213a01059"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-242",
+    "p-231"
+  ],
+  "coveredRegions": [
+    "图8十节点、12内部有向边及入口/出口、k与code-1/2/3分支。",
+    "完整复杂度分解各步骤次数、递归、式20、归纳中的eta1/eta2无编号式。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "20"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pending-actual-answer-area-verification",
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuationNotes": "末eta2完整公式逗号，243首“因为当k→∞时”继续同一论证；不将锚点放数学块。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 45,
+    "parseErrors": 0,
+    "codeLines": [],
+    "meaning": "语法与机器检查只作辅助，内容依中英文实际原图。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "完整母稿装订与全部题答双链",
+    "整卷Pandoc/VitePress和线上发布验收"
+  ],
+  "figureReview": {
+    "file": "assets/volume2/figures/fig-4-8.svg",
+    "sha256": "5ad269de3d50a8af628cae34eb0cfa6f223104429313face54d200ff0b53e742",
+    "method": "可编辑SVG文本、rect和path重绘并直接对中英文图8",
+    "nodes": 10,
+    "internalDirectedTransitions": 12,
+    "entryAndExitArrows": 2,
+    "branchLabels": [
+      "k=0",
+      "k>0",
+      "code-1",
+      "code-2",
+      "code-3"
+    ]
+  }
+}

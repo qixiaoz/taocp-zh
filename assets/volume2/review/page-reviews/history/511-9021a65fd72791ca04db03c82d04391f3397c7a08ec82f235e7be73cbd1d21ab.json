@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 511,
+  "cnPrintedPage": 500,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "1c31bf7f8483f8d8832ae9776005f67aaf7fe4e53702767b45e895fd07c122eb",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/511.jpg",
+  "cnPageImageSha256": "eec4e55efa9af164319fea373d3920852dc6ecda0f593504636a7036e508ba02",
+  "enPdfPages": [
+    652,
+    653
+  ],
+  "enPrintedPages": [
+    637,
+    638
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-652.png",
+      "sha256": "671590952a79303bc5364acff94edf5368725a54b71d3e051000cf0510384248"
+    },
+    {
+      "file": "verified-sources/en-653.png",
+      "sha256": "fe6bfbef647cef314dadcc333569186b046c99652545f76dd3f04a5cce9b4c6c"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-511",
+    "p-500",
+    "ans-4-4-10",
+    "ans-4-4-11",
+    "ans-4-4-12",
+    "ans-4-4-13",
+    "ans-4-4-14"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "4.4答10全部位操作、答11/12三组竖式以等宽可搜索文本保留所有数字/点位/加减线。",
+    "答13全部MIX字段、原省略号、ALF小数点加四空格的五字符常量/注释，按完整CN页清单连排；答14首段。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末答14“我们首先用2K(n)步运算求出”接512首U1/U0及10^n。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.4-10-extract",
+      "section": "4.4答案10(ii)",
+      "cnPrintedPage": 500,
+      "enPdfPage": 652,
+      "enPrintedPage": 637,
+      "original": "将每组最左边的位去掉",
+      "final": "抽取每组最左边的位",
+      "basis": "英文Extract the left bit of each group。此位用于后续移位校正BCD折半；去掉该位与取出该位不同。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-4-10",
+      "exercise_anchor": "ex-4-4-10",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-4-11",
+      "exercise_anchor": "ex-4-4-11",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-4-12",
+      "exercise_anchor": "ex-4-4-12",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-4-13",
+      "exercise_anchor": "ex-4-4-13",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-4-14",
+      "exercise_anchor": "ex-4-4-14",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 511,
+    "sha256": "1c31bf7f8483f8d8832ae9776005f67aaf7fe4e53702767b45e895fd07c122eb",
+    "mathExpressions": 7,
+    "display": 0,
+    "footnotes": 0,
+    "codeLines": [
+      13,
+      19,
+      19
+    ],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 511,
+        "width": 1280,
+        "sha256": "1c31bf7f8483f8d8832ae9776005f67aaf7fe4e53702767b45e895fd07c122eb",
+        "pageErrors": [],
+        "bodyText": 1979,
+        "documentWidth": 1280,
+        "expressions": 7,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 511,
+        "width": 390,
+        "sha256": "1c31bf7f8483f8d8832ae9776005f67aaf7fe4e53702767b45e895fd07c122eb",
+        "pageErrors": [],
+        "bodyText": 1979,
+        "documentWidth": 390,
+        "expressions": 7,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 178,
+            "max": 178,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 41,
+            "max": 41,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/511-1c31bf7f8483f8d8832ae9776005f67aaf7fe4e53702767b45e895fd07c122eb-metadata-update/511.json",
+      "pageMarkdownSha256": "1c31bf7f8483f8d8832ae9776005f67aaf7fe4e53702767b45e895fd07c122eb",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ]
+}

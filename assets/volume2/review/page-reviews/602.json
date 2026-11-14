@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "names",
+  "reviewDate": "2026-11-14",
+  "reviewerType": "model-direct-page-image-comparison",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "b9ffac86be834d756401a06d059e1bfe09fc9b74b6f9045fa8b23a64c6ac919d",
+  "cnPdfPage": 602,
+  "cnPrintedPage": 591,
+  "enPdfPages": [
+    752,
+    753,
+    755,
+    756,
+    762,
+    763,
+    764,
+    765,
+    766,
+    770,
+    772,
+    774,
+    775,
+    776,
+    777,
+    778,
+    779
+  ],
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "entryCount": 125,
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "reviewScope": "Every entry read directly in the Chinese source image, columnwise top-to-bottom, left then right; all continuation names and page-reference tails retained. Corresponding English original index entry images viewed in labelled contact sheets. English edition page numbers are not substituted for Chinese numbers. Original Chinese abbreviated/expanded names and aliases retained unless a demonstrable spelling error is recorded.",
+  "cnEvidence": [
+    {
+      "image": "scans/602.jpg",
+      "sha256": "6466829fe0eaa96333a952b3efc599cff06a37d35b3c1a61021df65c497bc2c3",
+      "viewedDirectly": true
+    }
+  ],
+  "enEvidence": [
+    {
+      "image": "index-work/names-602-en-contact-1.png",
+      "sha256": "ad7f7295cfd623c64fc710767637cce49861d2d4da6070c65183c8716cb80887",
+      "viewedDirectly": true
+    },
+    {
+      "image": "index-work/names-602-en-contact-2.png",
+      "sha256": "fcaf8f9cd5636c3991afe461fe415cdc1be1f7845982db7059f80cc0e57d670c",
+      "viewedDirectly": true
+    }
+  ],
+  "entryCatalog": {
+    "file": "index-work/names-602-entry-catalog.json",
+    "sha256": "07dc085328e84bbf36c09913745496dee51ec1c08c8e9b73ceac8e223f115993"
+  },
+  "englishMatchCatalog": {
+    "file": "index-work/names-602-matched.json",
+    "sha256": "4c91d73c2a5c718d0ce724b1c2f9d35229df1fc79eae661c90632e6c0c6a17ca",
+    "qualification": "Machine matching is only a location aid. Page images were directly read; variant aliases are retained, not machine-canonicalized."
+  },
+  "browserEvidence": {
+    "file": "index-work/browser-598-603.json",
+    "sha256": "5d926b7863b5c35f7f6a3209ac3f788b79d758848a9512c983f7c81214bc465e",
+    "viewports": [
+      1280,
+      390
+    ],
+    "status": "passed"
+  },
+  "directReviewNotesSha256": "3a82ea566f667f2c78f8f9723b62917873dd3753e299a9f8819f7f045ddacd1f",
+  "substantiveCorrections": [],
+  "versionDifferences": [],
+  "sourceIssues": [
+    {
+      "entry": "小华莱士，Christopher Stewart Wallace,Jr.,100",
+      "finding": "English original index PDF778/printed763 names Christopher Stewart Wallace withoutJr.; Chinese has a second separately translated Jr. entry. Retain Chinese original distinction pending stronger source evidence."
+    }
+  ],
+  "pending": [
+    "Final whole-book inclusion proof",
+    "Full-book index-reference existence and routed browser jumps"
+  ],
+  "displayTreatments": [
+    {
+      "original": "otto Toeplitz",
+      "final": "Otto Toeplitz",
+      "scope": "Initial capitalization of personal name; English original index PDF777/printed762 hasOtto."
+    }
+  ]
+}

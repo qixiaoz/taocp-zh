@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "answers4.1",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 487,
+  "cnPrintedPage": 476,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "d27347d496f54dfa3b99069201335638cc8025ed1cb2c662ce0cf18651e6d6fe",
+  "masterBinding": "单页MD当前字节；整卷装订另证包含，不重写旧哈希冒充复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型直接看完整中文与列出的英文原页图，逐段/所有数学/算法/程序字段注释/原答号比较，不声称人类签核或所有一般证明独立重证。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/487.jpg",
+  "cnPageImageSha256": "460332b717420afa25a0a8c566d2dd8d85781d37983c1c62d3e1f03bd05cddae",
+  "enPdfPages": [
+    623,
+    624
+  ],
+  "enPrintedPages": [
+    608,
+    609
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-623.png",
+      "sha256": "4379ea3fce5286b811a0d54371850449e7367827c494c747faf06644f2b9e3f9"
+    },
+    {
+      "file": "verified-sources/en-624.png",
+      "sha256": "b7746e0fa1a32a1b56359d0c9a5658e2f8bf89b83a30e8d71797cf88fa2f1135"
+    }
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-487",
+    "p-476",
+    "ans-4-1-25",
+    "ans-4-1-26",
+    "ans-4-1-27",
+    "ans-4-1-28",
+    "ans-4-1-29",
+    "ans-4-1-30"
+  ],
+  "coveredRegions": [
+    "首续答24测度证明及原注。",
+    "答25–29全证明，答30(a)至页尾，所有上下标/严格不等号/幂次。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-1-25",
+      "exercise_anchor": "ex-4-1-25",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-26",
+      "exercise_anchor": "ex-4-1-26",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-27",
+      "exercise_anchor": "ex-4-1-27",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-28",
+      "exercise_anchor": "ex-4-1-28",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-29",
+      "exercise_anchor": "ex-4-1-29",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-30",
+      "exercise_anchor": "ex-4-1-30",
+      "backlink_present": true
+    }
+  ],
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "continuationNotes": "首续486答24；末答30(a)“既不属于A_j也不属于”接488首“A_k的整数”。最后一处A_k在488不是新答。",
+  "syntaxCheck": {
+    "page": 487,
+    "sha256": "d27347d496f54dfa3b99069201335638cc8025ed1cb2c662ce0cf18651e6d6fe",
+    "mathExpressions": 88,
+    "display": 0,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿装订和所有题答往返",
+    "MIX程序执行及所有一般证明的独立重证",
+    "整卷Pandoc/VitePress/线上发布"
+  ],
+  "browserCheck": {
+    "tool": "Isolated local Chrome with Playwright; Browser plugin unavailable",
+    "scope": "Private standalone page proofs, not final website/full-volume offline acceptance",
+    "viewports": [
+      1280,
+      390
+    ],
+    "report": "arithmetic-answers/browser-485-492.json",
+    "reportSha256": "30c3133172b3d0011b277a30455115683986b83460280b0f8ab5ed170e3ce698",
+    "currentPageSha256": "d27347d496f54dfa3b99069201335638cc8025ed1cb2c662ce0cf18651e6d6fe",
+    "cases": 2,
+    "noPageErrors": true,
+    "noMissingImages": true,
+    "noDocumentOverflow": true,
+    "noHiddenMathmlSwallowing": true,
+    "allMeasuredHorizontalScrollEndsReachable": true,
+    "screenshotsDirectlyInspectedWidths": [],
+    "meaning": "All24 pages observed in both browser sizes by DOM checks; selected critical original-content screenshots directly viewed. Separate endpoints cover wide code/formulas/tables."
+  },
+  "numericCheck": {
+    "report": "arithmetic-answers/numeric-check.json",
+    "reportSha256": "a7e06af050f360c280ccb5e8bed434c70d609cd5265d9e38b47b16b2465f27e0",
+    "meaning": "Exact finite checks and two explicit general algebraic derivations are individually scoped; no claim of executing MIX or independently reproving every original theorem."
+  },
+  "reviewHistory": [
+    {
+      "historyDirectory": "verified-history/answers485-508-before-final-evidence",
+      "reason": "保留此前单页MD/JSON签核；本次添加当前SHA绑定浏览器与独立复算，并将初稿误标的日期纠正为实际2026-11-14，不改变原页复核含义。"
+    }
+  ]
+}

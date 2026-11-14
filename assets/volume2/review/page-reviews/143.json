@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录只绑定单页稿，装订母稿另加包含证明，不能把历史哈希换成新哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "cnPdfPage": 143,
+  "cnPrintedPage": 132,
+  "section": "3.5",
+  "enPdfPages": [
+    189,
+    190
+  ],
+  "enPrintedPages": [
+    174,
+    175
+  ],
+  "pageMarkdownSha256": "0a6874981ede2e36c8d57d4b9b5d185c3d3dbb060ac8837d924436ab142d4269",
+  "cnPageImageSha256": "746c04ae34a615cc088608da7768a2a534cc7f64b01086ded7b42d8ca04eaefa",
+  "enPageImageSha256": {
+    "189": "35e5115345b58c71a804f5a18fb6ace8eb7414683126862a87ad1fa18131c67d",
+    "190": "74895834c9f8ce6fad2dc7e77c542a5cff9d558f76c9d3785a2df6418f54b4e0"
+  },
+  "coveredRegions": [
+    "逐对独立/Chebyshev界续证、定理G及复杂度、Blum整数的精确素数区间/差界/迭代源、定理P全部概率与复杂度界及完整证明。"
+  ],
+  "explicitAnchors": [
+    "pdf-143",
+    "p-132"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，源页位置用隐藏锚点保留。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 105,
+    "displayExpressions": 1,
+    "parseErrors": 0
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_mid_word_from_pdf_page": 142,
+    "starts_mid_paragraph": true,
+    "left_end": "因此，像切比雪夫不等",
+    "right_start": "式的证明那样，我们可以论证",
+    "paragraph_end": "是 $x(0)$ 在步骤 L3 中不为0的概率的上界。"
+  },
+  "exerciseNumbers": [],
+  "recommendedExercises": [],
+  "answerExceptions": [],
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "7116fa8981a84666930c23eb46c0ed70c0d8d22c3264bc3688011ce5072846bd",
+    "visualReviewSha256": "a3d7e62a8058b641aa69833089ecf43d22162b0e37b0b13b697a42e3acbbb11f",
+    "browserAvailability": "Browser plugin not available; task-authorized bundled Playwright + isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 105,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 105,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "a51768b650635f1c287a28730d8d4710d433ec4d0ff16acf89c283181298bfde",
+  "numericalCheckQualification": "有限真值表、GF(2)矩阵枚举和历史算术复算辅助原图核对，不把有限检查当作普遍复杂度/概率/测度论证明。",
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc/VitePress、全站题答/索引/搜索/线上下载和发布由主任务统一执行。"
+  ]
+}

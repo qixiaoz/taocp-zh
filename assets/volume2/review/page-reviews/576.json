@@ -1,0 +1,572 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 576,
+  "cnPrintedPage": 565,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "fc056f0eec0a5913b1c9c4b78e38e7a28ad36481da7f62b16c244b678b143abb",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/576.jpg",
+  "cnPageImageSha256": "982b5ae2b9cada583a0ccd7a770084a0f6a553f3859828ef73f487dd83bcc7be",
+  "enPdfPages": [
+    732,
+    733
+  ],
+  "enPrintedPages": [
+    717,
+    718
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-732.png",
+      "sha256": "0b5076766b7b1dcff1b413ecfb306aafa01f897f515ccdad97331fd653c889b7"
+    },
+    {
+      "file": "verified-sources/en-733.png",
+      "sha256": "268223ca24c8bee4d1580040c6d918408fa23ddf527b476cc5155e8c5597e335"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-576",
+    "p-565",
+    "ans-4-6-4-69",
+    "ans-4-6-4-70",
+    "ans-4-6-4-71",
+    "ans-4-6-4-72",
+    "ans-4-6-4-73",
+    "ans-4-6-4-74"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续68线性形式下界；69无除法行列式幂级数算法全次数，70特征多项式递归/快矩阵乘法注。",
+    "71反向求导全输入、逆序、乘法/除法两分支、最终求导式及二阶成本；72/73原有限算法/DFT下界记录，74(a)。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末74(a)完整；577接74(b)–(d)，勿重复ans74。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.6.4-71-reverse-derivative-index",
+      "section": "4.6.4答案71最终f′式首个p1′项",
+      "cnPrintedPage": 565,
+      "enPdfPage": 733,
+      "enPrintedPage": 718,
+      "original": "p1′ y_r",
+      "final": "p1′ y1",
+      "basis": "两版共同下标误植。反向链式法则一般给df=dp0+Σ_k(y_k dp_k+z_k dq_k)，故dp1对应y1。例g1=x*x,g2=g1*x,f=g2时，原给x+2x²而真导数3x²；改后3x²。其余全部中间步骤不变。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-6-4-69",
+      "exercise_anchor": "ex-4-6-4-69",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-70",
+      "exercise_anchor": "ex-4-6-4-70",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-71",
+      "exercise_anchor": "ex-4-6-4-71",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-72",
+      "exercise_anchor": "ex-4-6-4-72",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-73",
+      "exercise_anchor": "ex-4-6-4-73",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-74",
+      "exercise_anchor": "ex-4-6-4-74",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 576,
+    "sha256": "fc056f0eec0a5913b1c9c4b78e38e7a28ad36481da7f62b16c244b678b143abb",
+    "mathExpressions": 81,
+    "display": 2,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 576,
+        "width": 1280,
+        "sha256": "fc056f0eec0a5913b1c9c4b78e38e7a28ad36481da7f62b16c244b678b143abb",
+        "pageErrors": [],
+        "bodyText": 5000,
+        "documentWidth": 1280,
+        "expressions": 81,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 576,
+        "width": 390,
+        "sha256": "fc056f0eec0a5913b1c9c4b78e38e7a28ad36481da7f62b16c244b678b143abb",
+        "pageErrors": [],
+        "bodyText": 5000,
+        "documentWidth": 390,
+        "expressions": 81,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 35,
+            "max": 35,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 134,
+            "max": 134,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 219,
+            "max": 219,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 137,
+            "max": 137,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 159,
+            "max": 159,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 25,
+            "max": 25,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/576-fc056f0eec0a5913b1c9c4b78e38e7a28ad36481da7f62b16c244b678b143abb-metadata-update/576.json",
+      "pageMarkdownSha256": "fc056f0eec0a5913b1c9c4b78e38e7a28ad36481da7f62b16c244b678b143abb",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.6.4",
+  "numericCheck": {
+    "file": "arithmetic-end/numeric-check.json",
+    "sha256": "d14036eeadb4a74b6531c751fc02fd4345c06f1dcac921616478a077ddd22f5b",
+    "inputPageSha256": "fc056f0eec0a5913b1c9c4b78e38e7a28ad36481da7f62b16c244b678b143abb",
+    "meaning": "17项有限范围/全张量系数/一般推导见文件；本页哈希绑定不代表该页全部一般定理已独立重证。"
+  },
+  "renderedHtmlSha256": "8a31009963ee6c604b99c69f992d3a7dc32853fea51528e6cc9e8863ecc7779a",
+  "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+  "scrollEndpointScreenshotsDirectlyViewed": {
+    "file": "arithmetic-end/endpoints.json",
+    "sha256": "1c634b5f2d74e7875266a4d8c8fa32ae657f8e0275d0ee1ef1837ade971fe651",
+    "regions": [
+      {
+        "page": 576,
+        "kind": ".book-math-display",
+        "index": 0,
+        "side": "left",
+        "file": "endpoint-576-0-left.png",
+        "sha256": "fc056f0eec0a5913b1c9c4b78e38e7a28ad36481da7f62b16c244b678b143abb",
+        "left": 0,
+        "clientWidth": 358,
+        "scrollWidth": 495
+      },
+      {
+        "page": 576,
+        "kind": ".book-math-display",
+        "index": 0,
+        "side": "right",
+        "file": "endpoint-576-0-right.png",
+        "sha256": "fc056f0eec0a5913b1c9c4b78e38e7a28ad36481da7f62b16c244b678b143abb",
+        "left": 137,
+        "clientWidth": 358,
+        "scrollWidth": 495
+      }
+    ],
+    "contactSheetsDirectlyViewed": [
+      {
+        "file": "arithmetic-end/endpoints-sheet-1.png",
+        "sha256": "23487b45aab0a99075b29bd42a750b21a62dcf128274cd1226f50a718e595c1d"
+      },
+      {
+        "file": "arithmetic-end/endpoints-sheet-2.png",
+        "sha256": "75e05afade507e2cf077881ffb8823044d6e3b71590c3ada4b066f6046c49036"
+      },
+      {
+        "file": "arithmetic-end/endpoints-sheet-3.png",
+        "sha256": "503bf12e7c86eeaa6065925f7afcdf1b75424df8dfb3aabfebe72bb7d29bc60a"
+      },
+      {
+        "file": "arithmetic-end/endpoints-sheet-4.png",
+        "sha256": "e16b748f4a16c934679bdf9c725711cfcc322fd55cc267dae2d6e5b8d662ccb6"
+      },
+      {
+        "file": "arithmetic-end/endpoints-sheet-5.png",
+        "sha256": "9f11d2f40d33fac021b9bc0719a7d38004731e7517b721df592a3cedb6998010"
+      }
+    ],
+    "meaning": "所列18个关键区域左右端实际截图全部直接查看，含矩阵、表、MIX和末页链式法则；未扩写成全部公式的独立截图复核。"
+  },
+  "exerciseTargetsPending": [
+    {
+      "page": 576,
+      "answer": "ans-4-6-4-69",
+      "target": "ex-4-6-4-69",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 576,
+      "answer": "ans-4-6-4-70",
+      "target": "ex-4-6-4-70",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 576,
+      "answer": "ans-4-6-4-71",
+      "target": "ex-4-6-4-71",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 576,
+      "answer": "ans-4-6-4-72",
+      "target": "ex-4-6-4-72",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 576,
+      "answer": "ans-4-6-4-73",
+      "target": "ex-4-6-4-73",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    },
+    {
+      "page": 576,
+      "answer": "ans-4-6-4-74",
+      "target": "ex-4-6-4-74",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    }
+  ]
+}

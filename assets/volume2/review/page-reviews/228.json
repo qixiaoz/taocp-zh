@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订须另证包含与跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文整页及列出的英文页图，逐段/逐式/表格/程序字段频次注释和难度推荐符号比较。机器检查和复算另列，不声称人类签核。",
+  "cnPdfPage": 228,
+  "cnPrintedPage": 217,
+  "enPdfPages": [
+    297,
+    298,
+    299
+  ],
+  "enPrintedPages": [
+    282,
+    283,
+    284
+  ],
+  "pageMarkdownSha256": "892e0679dd7949a8a9e05a18b6be74ad1b8f6b1b5464ee5d94cd1e525b6b1103",
+  "cnPageImage": "scans/228.jpg",
+  "cnPageImageSha256": "41e69dcedc9ccdbb6291eac4931051f454ac9ea805217777974ebecfa16d05da",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-297.png",
+      "sha256": "fde5395882d1f0c5884797b082c3e3467e26c174724072bd3620f2baf8f3609c"
+    },
+    {
+      "file": "verified-sources/en-298.png",
+      "sha256": "aef4d7ff41796cf372cca2e12e6795ed65f3873fab10f6e21719850ed2cc9a18"
+    },
+    {
+      "file": "verified-sources/en-299.png",
+      "sha256": "1a2a003beb377f2ce6843b9a4e3c0aabc4b803e406d0b9eeff988fc47571206c"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-228",
+    "p-217",
+    "ex-4-3-1-25",
+    "ex-4-3-1-26",
+    "ex-4-3-1-27",
+    "ex-4-3-1-28",
+    "ex-4-3-1-29",
+    "ex-4-3-1-30",
+    "ex-4-3-1-31",
+    "ex-4-3-1-32",
+    "ex-4-3-1-33",
+    "ex-4-3-1-34",
+    "ex-4-3-1-35",
+    "ex-4-3-1-36",
+    "ex-4-3-1-37",
+    "ex-4-3-1-38",
+    "ex-4-3-1-39"
+  ],
+  "coveredRegions": [
+    "习题25–39开头完整难度/推荐，题28两步N/注记的所有公式。",
+    "平衡三进制、虚四进制、九字小数加一字指数、Salamin规范化题。",
+    "整数几何平均floor根号、BBPpi求和完整式；题39跨页文字。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "answerLinkStatus": "pendingactualanswer-area-verification",
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuationNotes": "末题39完整BBP恒等式后逗号接229首“通过O(nlogn)次…”，合为一题，保留一个ex39锚点。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 53,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "只是语法；内容核查依实际中英文原页。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终母稿装订/跨页代码合并/题答回链",
+    "正式VitePress/Pandoc整卷与线上",
+    "未执行MIX或将机器字段一致称作算法正确性证明。"
+  ],
+  "renderReview": {
+    "file": "verified-render/classical-dom-review-222-229.json",
+    "sha256": "18411f91c2491a713c87fc399036de41b8e750c7fd1b54d844a234e272d254fc",
+    "scope": "当前页SHA私有1280/390 DOM与列出复杂区域实际看图，非正式全站。"
+  }
+}

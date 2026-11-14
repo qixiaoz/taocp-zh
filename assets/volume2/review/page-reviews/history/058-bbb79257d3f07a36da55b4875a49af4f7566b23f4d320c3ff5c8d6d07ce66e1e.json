@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "substantiveCorrections": [
+    {
+      "section": "3.3.2B",
+      "cnPrintedPage": 47,
+      "enPdfPage": 77,
+      "enPrintedPage": 62,
+      "location": "序列检验第一段的数对取值范围",
+      "source": "0≤qr<d",
+      "final": "0≤q,r<d",
+      "basis": "英文为0≤q,r<d，分别限制两个整数；中文缺逗号会变成乘积限制，不能覆盖所述d²个范畴。"
+    },
+    {
+      "section": "3.3.2C",
+      "cnPrintedPage": 47,
+      "enPdfPage": 78,
+      "enPrintedPage": 63,
+      "location": "算法G后，χ²检验的计数下限",
+      "source": "使得每个COUNT[r]值都大于或等于5，最好是大于5",
+      "final": "使得每个COUNT[r]的期望值都大于或等于5，最好是大于5",
+      "basis": "英文明确each of the values of COUNT[r] is expected to be 5 or more；预设n、t约束的是np_r而非随机实测计数。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 58,
+  "cnPrintedPage": 47,
+  "section": "3.3.2",
+  "enPdfPages": [
+    76,
+    77,
+    78
+  ],
+  "enPrintedPages": [
+    61,
+    62,
+    63
+  ],
+  "pageMarkdownSha256": "3708614bd56b48901d4260ec3e527e4c7d1cac0460a124742ed1231ecf6b1865",
+  "cnPageImageSha256": "ddb99643c69ff843321a2cdd2e32ec6923f1fed3e94b206e27a360d6212c2a6a",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 72,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-058",
+    "p-47"
+  ],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "coveredRegions": [
+    "A等分布检验全文；B序列检验全文与重叠/不重叠样本说明；C间隙检验、完整算法G1–G6、概率式(4)及样本量要求。"
+  ],
+  "algorithmStepsReviewed": 6
+}

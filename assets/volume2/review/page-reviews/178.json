@@ -1,0 +1,436 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定本单页Markdown字节；母稿装订后另作包含/合段/代码合并证明，不得只替换哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "中文完整页图与实际对应英文页图已直接查看，逐段、逐式、逐代码行比较。机器token/语法检查仅是辅助。原编者注无英文对应者另列例外。",
+  "cnPdfPage": 178,
+  "cnPrintedPage": 167,
+  "enPdfPages": [
+    234,
+    235
+  ],
+  "enPrintedPages": [
+    219,
+    220
+  ],
+  "pageMarkdownSha256": "e145a143ebbc58fd100f60693675a8bc8394c1102cf69d8daa277e5f10fafb86",
+  "cnPageImage": "scans/178.jpg",
+  "cnPageImageSha256": "fe717a92871deddb7361243960cb58d5e7b204eeea3a7c7e534ee8dc0cd6cce6",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-234.png",
+      "sha256": "667c175274658d2abb6dbf16c8b6f329405b3f0f2d5979b6ef76c256da8bfdb3"
+    },
+    {
+      "file": "verified-sources/en-235.png",
+      "sha256": "e6e910fb15af1110f9294fec88264d64153bc92a2c560b1b0d72dfe0d7e79494"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号/小节名/印刷页码，页码用隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-178",
+    "p-167"
+  ],
+  "addedExplanationsInBody": false,
+  "coveredRegions": [
+    "程序A30–70行全部；与前页合计71行。",
+    "代码26–40行精度解释、58行非标准JXO说明、时间分析引用。"
+  ],
+  "unverifiedPageRegions": [],
+  "mathExpressions": [
+    {
+      "sourceLine": 49,
+      "display": false,
+      "tex": "2p+1=9",
+      "sha256": "6e151240f4bb5b1b20a73f818f033d32ad867e94579cdd49717ba196393a3578"
+    }
+  ],
+  "numberedFormulaTags": [],
+  "numberedListings": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "开头是程序A30行；原与177同一71行程序。末正文完整。",
+  "untested": [
+    "最终母稿装订包含、跨页程序合并和锚点摆放。",
+    "正式VitePress/Pandoc整卷及程序运行；本记录不宣称执行过MIX程序。"
+  ],
+  "codeReview": {
+    "program": "A",
+    "logicalGroup": "program-4-2-1-a",
+    "printedLines": [
+      30,
+      70
+    ],
+    "lineCount": 41,
+    "sourceFieldComparisonEvidence": "verified-sources/program-a-fields.json",
+    "evidenceSha256": "3a3ac8e07ced8b7711f97d87c2f7075041bd8f9b0d365c847c2d9caed87ebbce",
+    "englishTextFieldsAllMatch": true,
+    "visualLineReview": true,
+    "cnCommentsVisuallyCompared": true,
+    "codeRows": [
+      {
+        "line": 30,
+        "label": "1H",
+        "opcode": "J1P",
+        "address": "N2",
+        "cnComment": "",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 31,
+        "label": "2H",
+        "opcode": "SRC",
+        "address": "5",
+        "cnComment": "|rX| ↔ |rA|。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 32,
+        "label": "",
+        "opcode": "DECX",
+        "address": "1",
+        "cnComment": "（rX 为正。）",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 33,
+        "label": "",
+        "opcode": "STA",
+        "address": "TEMP",
+        "cnComment": "（操作数符号相反，",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 34,
+        "label": "",
+        "opcode": "STA",
+        "address": "HALF(0:0)",
+        "cnComment": " 必须在舍入和规范化之前",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 35,
+        "label": "",
+        "opcode": "LDAN",
+        "address": "TEMP",
+        "cnComment": " 调整寄存器。）",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 36,
+        "label": "",
+        "opcode": "ADD",
+        "address": "HALF",
+        "cnComment": "",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 37,
+        "label": "",
+        "opcode": "ADD",
+        "address": "HALF",
+        "cnComment": "将最低有效位取补。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 38,
+        "label": "",
+        "opcode": "SRC",
+        "address": "5",
+        "cnComment": "跳转至规范化子程序。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 39,
+        "label": "",
+        "opcode": "JMP",
+        "address": "N2",
+        "cnComment": "",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 40,
+        "label": "HALF",
+        "opcode": "CON",
+        "address": "1//2",
+        "cnComment": "字大小的一半（符号相应改变）",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 41,
+        "label": "FU",
+        "opcode": "CON",
+        "address": "0",
+        "cnComment": "小数部分 f_u",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 42,
+        "label": "FV",
+        "opcode": "CON",
+        "address": "0",
+        "cnComment": "小数部分 f_v",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 43,
+        "label": "NORM",
+        "opcode": "JAZ",
+        "address": "ZRO",
+        "cnComment": "N1. 检测 f。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 44,
+        "label": "N2",
+        "opcode": "CMPA",
+        "address": "=0=(1:1)",
+        "cnComment": "N2. f 是否已规范化？",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 45,
+        "label": "",
+        "opcode": "JNE",
+        "address": "N5",
+        "cnComment": "若前导字节非零则跳至 N5。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 46,
+        "label": "N3",
+        "opcode": "SLAX",
+        "address": "1",
+        "cnComment": "N3. 左移。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 47,
+        "label": "",
+        "opcode": "DEC2",
+        "address": "1",
+        "cnComment": "将 e 减去 1。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 48,
+        "label": "",
+        "opcode": "JMP",
+        "address": "N2",
+        "cnComment": "返回 N2。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 49,
+        "label": "N4",
+        "opcode": "ENTX",
+        "address": "1",
+        "cnComment": "N4. 右移。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 50,
+        "label": "",
+        "opcode": "SRC",
+        "address": "1",
+        "cnComment": "右移，插入带适当符号的“1”。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 51,
+        "label": "",
+        "opcode": "INC2",
+        "address": "1",
+        "cnComment": "将 e 加上 1。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 52,
+        "label": "N5",
+        "opcode": "CMPA",
+        "address": "=BYTE/2=(5:5)",
+        "cnComment": "N5. 舍入。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 53,
+        "label": "",
+        "opcode": "JL",
+        "address": "N6",
+        "cnComment": "|尾部| < ½b 吗？",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 54,
+        "label": "",
+        "opcode": "JG",
+        "address": "5F",
+        "cnComment": "",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 55,
+        "label": "",
+        "opcode": "JXNZ",
+        "address": "5F",
+        "cnComment": "|尾部| > ½b 吗？",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 56,
+        "label": "",
+        "opcode": "STA",
+        "address": "TEMP",
+        "cnComment": "|尾部| = ½b。舍入为奇数。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 57,
+        "label": "",
+        "opcode": "LDX",
+        "address": "TEMP(4:4)",
+        "cnComment": "",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 58,
+        "label": "",
+        "opcode": "JXO",
+        "address": "N6",
+        "cnComment": "当 rX 为奇数时转向 N6。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 59,
+        "label": "5H",
+        "opcode": "STA",
+        "address": "*+1(0:0)",
+        "cnComment": "保存 rA 的符号。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 60,
+        "label": "",
+        "opcode": "INCA",
+        "address": "BYTE",
+        "cnComment": "将 |f| 加上 b⁻⁴。（符号相应改变）",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 61,
+        "label": "",
+        "opcode": "JOV",
+        "address": "N4",
+        "cnComment": "检查是否发生舍入溢出。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 62,
+        "label": "N6",
+        "opcode": "J2N",
+        "address": "EXPUN",
+        "cnComment": "N6. 检查 e。若 e < 0 则发生下溢。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 63,
+        "label": "N7",
+        "opcode": "ENTX",
+        "address": "0,2",
+        "cnComment": "N7. 组合。rX ← e。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 64,
+        "label": "",
+        "opcode": "SRC",
+        "address": "1",
+        "cnComment": "",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 65,
+        "label": "ZRO",
+        "opcode": "DEC2",
+        "address": "BYTE",
+        "cnComment": "rI2 ← e − b。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 66,
+        "label": "8H",
+        "opcode": "STA",
+        "address": "ACC",
+        "cnComment": "",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 67,
+        "label": "EXITF",
+        "opcode": "J2N",
+        "address": "*",
+        "cnComment": "退出，除非 e ≥ b。",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 68,
+        "label": "EXPOV",
+        "opcode": "HLT",
+        "address": "2",
+        "cnComment": "检测到指数上溢",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 69,
+        "label": "EXPUN",
+        "opcode": "HLT",
+        "address": "1",
+        "cnComment": "检测到指数下溢",
+        "englishPdfTextFieldsMatch": true
+      },
+      {
+        "line": 70,
+        "label": "ACC",
+        "opcode": "CON",
+        "address": "0",
+        "cnComment": "浮点累加器",
+        "englishPdfTextFieldsMatch": true
+      }
+    ],
+    "layout": "原印行号与标号/操作码/地址/注释列以等宽字段排印；注释中的数学以下标文字或Unicode保留。不是可直接执行的无行号源文件。"
+  },
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 1,
+    "parseErrors": 0,
+    "footnotes": 0,
+    "codeBlocks": 1,
+    "codeLines": [
+      41
+    ],
+    "meaning": "仅验证排版语法，不能代替另外记录的原页逐项核查。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  }
+}

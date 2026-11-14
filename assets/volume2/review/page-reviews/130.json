@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "只绑定单页稿；装订母稿另作包含证明，不能修改旧证据哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "cnPdfPage": 130,
+  "cnPrintedPage": 119,
+  "section": "3.5",
+  "enPdfPages": [
+    171,
+    172,
+    173
+  ],
+  "enPrintedPages": [
+    156,
+    157,
+    158
+  ],
+  "pageMarkdownSha256": "944dfcbc4c5cbe3574573418e95a6255668b4e1a728447517968dd29407ca109",
+  "cnPageImageSha256": "2fb0dc635ea5e69a58aa6c2be94419b4fba75d9127d41b950fef1aa8332743d7",
+  "enPageImageSha256": {
+    "171": "6a17764b996af2f487c4c9c468ce269357c0b910451283c95b7da46635c1ce2f",
+    "172": "0847136a50e07e71624c8981798aa516db216655ced75b903a86889fb0c562a7",
+    "173": "2df86846ec4acc432320491e1a755fffd7c7c5acf4b30b2438e05157bd61f44b"
+  },
+  "coveredRegions": [
+    "定理C证明计对、S_N式(19)、双界(20)、极限(21)(22)、平方和与T_N式(23)、Cauchy不等式、式(24)(25)及望远镜和全部。"
+  ],
+  "explicitAnchors": [
+    "pdf-130",
+    "p-119"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码；原页定位以隐藏锚点保存。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 42,
+    "displayExpressions": 11,
+    "parseErrors": 0
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "7e08520b73c168d771f12c3af7ba95a76c8b5b3b05926e43009495f362db32ea",
+    "visualReviewSha256": "f5ab29e7886c99c98ed3ec6a498d9e354ca1abae4d872419c7f7e1cca4924b9a",
+    "browserAvailability": "Browser plugin not available; bundled Playwright + task-authorized isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 42,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingDisplayBlocks": 1,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 42,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingDisplayBlocks": 7,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "1a32ba180c35d113d6387c75f8a06d5236908247109e699902ad5b808ac8fe13",
+  "numericalCheckQualification": "仅周期16完整块计数、单项式积分值、有限求和辅助；不声称数值验证证明了定理A/B/C/F。",
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {},
+  "exerciseNumbers": [],
+  "answerExceptions": [],
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc/VitePress、全站题答/索引/搜索/线上下载和发布由主任务执行。"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.6.1",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 343,
+  "cnPrintedPage": 332,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    443,
+    444
+  ],
+  "enPrintedPages": [
+    428,
+    429
+  ],
+  "pageMarkdownSha256": "ebddc3ee8fd672d23f80807689e331807dded9fb7239ca47ee5dcdc5083108f9",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/343.jpg",
+  "cnPageImageSha256": "3c996fa8bdbf1f7d31879c3a4c3491c699b1970c62018652a82f7f7dd3e7aa6a",
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "完整Pandoc/正式VitePress/线上及ZIP",
+    "有限具体例子复算未扩大为全称代数或复杂度证明。"
+  ],
+  "sections": [
+    "4.6.1"
+  ],
+  "numericEvidence": ".work/volume2/source-audit/batch343-numeric-check.json",
+  "pageAnchors": [
+    "pdf-343",
+    "p-332"
+  ],
+  "numberedFormulaTags": [
+    15,
+    16
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "coveredRegions": [
+    "342续句；模13互素判据；子结式算法引文；C1–C4全部步骤、条件、更新先后；表15四行四列、终止值；定义及三行式16。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-443.png",
+      "sha256": "1a9a7e3141c76d499f7103dcf7adbd0d90726706e9abf3e274d4c74ad25709ba"
+    },
+    {
+      "file": "source-audit/en-render/page-444.png",
+      "sha256": "922e6c6152e92ac91f826b2eff67b0a434455d996f45c8ed4bcdddb74fc8836a"
+    }
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 45,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "语法与原图/双语/精确复算分项记录。"
+  },
+  "numericScope": "Exact source example of Algorithm C and all 375 paired minors of matrices17/18/21/22; each source subresultant coefficient and h determinant; exercise1/2/3 particular inputs; literal free-word convolution/division for exercises17/18. No finite computation is claimed as a general UFD, root bound, probability, complexity or noncommutative theorem proof.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch343-proof.html",
+    "htmlSha256": "c4f4c74916aac4899b094a91fd542a37ed7a76932da85387a4af544daad83e4e",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not whole-volume or production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright with local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch343-proof-1280-343.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch343-proof-390-343.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 914,
+    "scrollableElementCounts": {
+      "1280": 348,
+      "390": 366
+    },
+    "machineObservations": ".work/volume2/source-audit/batch343-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these eight pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch343-right-390-343.png",
+    "mobileRightEndVisualReview": true
+  },
+  "startsMidParagraph": {
+    "previousCnPdfPage": 342,
+    "previousEnd": "但两种使用有理数运算的算法都比完全使用整数运算",
+    "start": "的算法E要慢"
+  },
+  "history": [
+    {
+      "status": "historical-superseded",
+      "evidence": ".work/volume2/source-audit/history/batch343-before-image-readiness",
+      "reason": "Initial browser image-state sample preceded lazy-image loading. Rechecked with eager loading plus image decode before collecting state; no markdown change."
+    }
+  ],
+  "matrixCellEvidence": null
+}

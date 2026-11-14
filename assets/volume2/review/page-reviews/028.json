@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "习题9注记",
+      "cnText": "前者的周期长度只有后者的四分之一",
+      "enText": "the period is one-fourth as long in the case of Theorem B",
+      "action": "英文印本此处再次写Theorem B，中文按前者/后者关系保留；未把英文文字差异混入中文正文。"
+    }
+  ],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 28,
+  "cnPrintedPage": 17,
+  "section": "3.2.1.2",
+  "enPdfPages": [
+    36,
+    37
+  ],
+  "enPrintedPages": [
+    21,
+    22
+  ],
+  "pageMarkdownSha256": "b6b5f8fd7ba5ffc82f9c2d9a408c293ec189f05022840ce1e6ab88a3d17ac395",
+  "cnPageImageSha256": "f1d7c19dd03e0e6e80eaa83d0ad227b9a60041806a4a5a589cdf6527ed5f7b5e",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 78,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-028",
+    "p-17",
+    "ex-3-2-1-2-1",
+    "ex-3-2-1-2-2",
+    "ex-3-2-1-2-3",
+    "ex-3-2-1-2-4",
+    "ex-3-2-1-2-5",
+    "ex-3-2-1-2-6",
+    "ex-3-2-1-2-7",
+    "ex-3-2-1-2-8",
+    "ex-3-2-1-2-9",
+    "ex-3-2-1-2-10"
+  ],
+  "coveredRegions": [
+    "二进制/十进制周期说明，定理D含全部32个余数和式(10)；§3.2.1.2习题1–10全部。"
+  ],
+  "ocrRepairs": [
+    "习题4是X_{2^{e-1}}，习题8的幂为a^{2^{e-1}}；M模型错误把-1移出内指数，依据中英文原页字位改正。"
+  ],
+  "numericAudit": {
+    "method": "Python整数遍历1≤a<200中与10^5互素的值，逐次计算a^n mod10^5首次返回1的阶，筛选阶=5000。",
+    "testedModulus": 100000,
+    "targetPeriod": 5000,
+    "matchingValues": [
+      3,
+      11,
+      13,
+      19,
+      21,
+      27,
+      29,
+      37,
+      53,
+      59,
+      61,
+      67,
+      69,
+      77,
+      83,
+      91,
+      109,
+      117,
+      123,
+      131,
+      133,
+      139,
+      141,
+      147,
+      163,
+      171,
+      173,
+      179,
+      181,
+      187,
+      189,
+      197
+    ],
+    "all32PrintedValuesMatch": true,
+    "scope": "复核e=5时的整张32项数表；不宣称此有限枚举证明所有e≥5的定理。"
+  },
+  "answerExistenceEvidence": {
+    "section": "3.2.1.2",
+    "exercises": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "enAnswerPdfPages": [
+      562,
+      563
+    ],
+    "status": "已实看独立原答。"
+  }
+}

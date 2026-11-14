@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "answers4.3.1",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 504,
+  "cnPrintedPage": 493,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "f78a56ac2adcaad3088168eccd07c0271951e01ab4b46af23877f303ffbc7fb1",
+  "masterBinding": "单页MD当前字节；整卷装订另证包含，不重写旧哈希冒充复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型直接看完整中文与列出的英文原页图，逐段/所有数学/算法/程序字段注释/原答号比较，不声称人类签核或所有一般证明独立重证。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/504.jpg",
+  "cnPageImageSha256": "8ee36eb21ac82b692eeef99f90e36c9e9f268a25b83ec2bde75d0246e43367cf",
+  "enPdfPages": [
+    643,
+    644
+  ],
+  "enPrintedPages": [
+    628,
+    629
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-643.png",
+      "sha256": "e61796f92ce54f240f8d25b2589c0c2290fbd689a0f9c20fda47d2eff3b3cdaa"
+    },
+    {
+      "file": "verified-sources/en-644.png",
+      "sha256": "101416d24f895f39cd07becccd3d59630a4799e6e57ffefe972c8f372531bacd"
+    }
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-504",
+    "p-493",
+    "ans-4-3-1-40",
+    "ans-4-3-1-41"
+  ],
+  "coveredRegions": [
+    "答39续π/log/atan七恒等式及一般根单位公式，修正原共同错误的log展开。",
+    "答40分向两端计算论述，原求和项缺失保留列疑。",
+    "答41(a)(b)Montgomery过程、牛顿逆/不变量及跨页书目。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.3.1-39-bbp-log-expansion",
+      "section": "4.3.1答案39的pi展开",
+      "cnPrintedPage": 493,
+      "enPdfPage": 643,
+      "enPrintedPage": 628,
+      "original": "2l0−(2−2i)2l1+2l4+(2+2i)l7",
+      "final": "2l0−(2−2i)l1+2l4−(2+2i)l7",
+      "basis": "两版原式同错。对前一式DFT以Q(sqrt2,i)精确展开，l0/l1/l4/l7系数唯一为2,−2+2i,2,−2−2i，其他为0；用原给l_j主值即可化为pi。一般代数推导和100位复算见arithmetic-answers/numeric-check.json，不把英文照抄当正确。"
+    },
+    {
+      "id": "v2-ans4.3.1-41-unit-digit",
+      "section": "4.3.1答案41(a)",
+      "cnPrintedPage": 493,
+      "enPdfPage": 644,
+      "enPrintedPage": 629,
+      "original": "使数字1变为0",
+      "final": "使个位数字变为0",
+      "basis": "英文zeroes the units digit；x=u0w′ modb选取使最低位为0以除以b，非把值为1的数字变零。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-3-1-40",
+      "exercise_anchor": "ex-4-3-1-40",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-3-1-41",
+      "exercise_anchor": "ex-4-3-1-41",
+      "backlink_present": true
+    }
+  ],
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "continuationNotes": "末书目“[IEEE”接505首“Symp. Computer Arithmetic11…”同一句。",
+  "syntaxCheck": {
+    "page": 504,
+    "sha256": "f78a56ac2adcaad3088168eccd07c0271951e01ab4b46af23877f303ffbc7fb1",
+    "mathExpressions": 53,
+    "display": 13,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿装订和所有题答往返",
+    "MIX程序执行及所有一般证明的独立重证",
+    "整卷Pandoc/VitePress/线上发布"
+  ],
+  "sourceIssues": [
+    {
+      "location": "答案40首个sum_(k=1)^(n/2)约n²/8",
+      "issue": "中文504与英文644均未印出求和项；当前保留空被加项的原排。",
+      "decision": "这里看似应补k，但在未完成逐步操作计数证明前不以猜测补正文。原图文字已完整读到，非OCR漏录。"
+    }
+  ],
+  "reviewHistory": [
+    {
+      "previousPageMarkdownSha256": "bc9bf8b5c81dc15db6cb8c2b1c72fca4f03e7f061287ccc37e98822ff8b75b99",
+      "historyDirectory": "verified-history/504-bc9bf8b5c81dc15db6cb8c2b1c72fca4f03e7f061287ccc37e98822ff8b75b99-remove-unmatched-italic",
+      "change": "移除转录者在跨页书目IEEE前加入而未闭合的斜体星号；原书无该字符。其余文字/数学/代码未变。",
+      "reverification": "重新对中文504末行书目，重渲和当前MD浏览器验证随后写入。"
+    },
+    {
+      "historyDirectory": "verified-history/answers485-508-before-final-evidence",
+      "reason": "保留此前单页MD/JSON签核；本次添加当前SHA绑定浏览器与独立复算，并将初稿误标的日期纠正为实际2026-11-14，不改变原页复核含义。"
+    }
+  ],
+  "browserCheck": {
+    "tool": "Isolated local Chrome with Playwright; Browser plugin unavailable",
+    "scope": "Private standalone page proofs, not final website/full-volume offline acceptance",
+    "viewports": [
+      1280,
+      390
+    ],
+    "report": "arithmetic-answers/browser-504-504.json",
+    "reportSha256": "adb571d1c6fac3ae07bb0134ce64bc0b430a78052498906579b88e052c68d6cc",
+    "currentPageSha256": "f78a56ac2adcaad3088168eccd07c0271951e01ab4b46af23877f303ffbc7fb1",
+    "cases": 2,
+    "noPageErrors": true,
+    "noMissingImages": true,
+    "noDocumentOverflow": true,
+    "noHiddenMathmlSwallowing": true,
+    "allMeasuredHorizontalScrollEndsReachable": true,
+    "screenshotsDirectlyInspectedWidths": [
+      1280
+    ],
+    "meaning": "All24 pages observed in both browser sizes by DOM checks; selected critical original-content screenshots directly viewed. Separate endpoints cover wide code/formulas/tables."
+  },
+  "numericCheck": {
+    "report": "arithmetic-answers/numeric-check.json",
+    "reportSha256": "a7e06af050f360c280ccb5e8bed434c70d609cd5265d9e38b47b16b2465f27e0",
+    "meaning": "Exact finite checks and two explicit general algebraic derivations are individually scoped; no claim of executing MIX or independently reproving every original theorem."
+  }
+}

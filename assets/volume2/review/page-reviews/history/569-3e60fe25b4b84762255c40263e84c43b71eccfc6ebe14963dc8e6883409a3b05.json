@@ -1,0 +1,583 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 569,
+  "cnPrintedPage": 558,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "9d5f60461771af78193d606fe0d881ac3c7b001c334dbbb6f8672e7724c0def1",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/569.jpg",
+  "cnPageImageSha256": "8c57deff8e911fefa4a166380e51bacd451dc0289cfbe2bd018070ce8eeaf6fd",
+  "enPdfPages": [
+    724,
+    725
+  ],
+  "enPrintedPages": [
+    709,
+    710
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-724.png",
+      "sha256": "cbb027712cc00b2138d40626000f60efc4d829b2714119048cb655213e98a3b0"
+    },
+    {
+      "file": "verified-sources/en-725.png",
+      "sha256": "96431eb435670c80ea2a7d4d8524eabef5817625978f63c0385c46b55e9bc54e"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-569",
+    "p-558",
+    "ans-4-6-4-52",
+    "ans-4-6-4-53"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续51第二组三矩阵和全部s/m/t/w算法；52 CRT卷积乘法计数。",
+    "53(a)(b)完整素数幂重排/复数实虚拆分/p2范围/CRT二维重排、标准方案定义、5点全部步骤及其改进。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末53的5点改进完整；570接二维标准方案的成本合成。",
+  "substantiveCorrections": [],
+  "sourceIssues": [
+    {
+      "location": "4.6.4答案53(a) p=2末段的k边界",
+      "englishSame": true,
+      "original": "0≤k≤e，n′′=2^(e−k−2)，使用n′=2与n′′的卷积直积",
+      "decision": "保底本列疑。k=e−1/e时n′′为1/2或1/4，不能直接作为向量长度；通常须把小子群另作基例，原文未显式规定，未猜定整个统一范围修复。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-6-4-52",
+      "exercise_anchor": "ex-4-6-4-52",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-53",
+      "exercise_anchor": "ex-4-6-4-53",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 569,
+    "sha256": "9d5f60461771af78193d606fe0d881ac3c7b001c334dbbb6f8672e7724c0def1",
+    "mathExpressions": 92,
+    "display": 1,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 569,
+        "width": 1280,
+        "sha256": "9d5f60461771af78193d606fe0d881ac3c7b001c334dbbb6f8672e7724c0def1",
+        "pageErrors": [],
+        "bodyText": 7482,
+        "documentWidth": 1280,
+        "expressions": 92,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 152,
+            "max": 152,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 137,
+            "max": 137,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 106,
+            "max": 106,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 280,
+            "max": 280,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 281,
+            "max": 281,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 195,
+            "max": 195,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 153,
+            "max": 153,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 569,
+        "width": 390,
+        "sha256": "9d5f60461771af78193d606fe0d881ac3c7b001c334dbbb6f8672e7724c0def1",
+        "pageErrors": [],
+        "bodyText": 7482,
+        "documentWidth": 390,
+        "expressions": 92,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 245,
+            "max": 245,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 554,
+            "max": 554,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 539,
+            "max": 539,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 508,
+            "max": 508,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 94,
+            "max": 94,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 68,
+            "max": 68,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 106,
+            "max": 106,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 61,
+            "max": 61,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 682,
+            "max": 682,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 683,
+            "max": 683,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 597,
+            "max": 597,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 555,
+            "max": 555,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 237,
+            "max": 237,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 218,
+            "max": 218,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  }
+}

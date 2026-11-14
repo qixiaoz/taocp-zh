@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 417,
+  "cnPrintedPage": 406,
+  "enPdfPages": [
+    536,
+    537
+  ],
+  "enPrintedPages": [
+    521,
+    522
+  ],
+  "pageMarkdownSha256": "9e1503fb58a553932ae306e41bb8efb94d1649d1bf30b099ab8599440c17a96d",
+  "masterSha256": null,
+  "cnPageImage": "scans/417.jpg",
+  "cnPageImageSha256": "842fa328f496f918302b83fabe6730eb6c0453f3930bdb7f229b804390efef75",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-536.png",
+      "sha256": "9f72458b2146b8d8cc8945a56181b48ca21f8af7698a19df9c692a9e04ecc90c"
+    },
+    {
+      "file": "source-audit/en-render/page-537.png",
+      "sha256": "8a53d2ed37fd486ba58421f24754ee337b3df7e88e5ab1bff3bfa9e406b4519d"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-417",
+    "p-406",
+    "ex-4-6-4-60",
+    "ex-4-6-4-61",
+    "ex-4-6-4-62",
+    "ex-4-6-4-63"
+  ],
+  "numberedFormulaTags": [],
+  "coveredRegions": [
+    "59续句/完整提示；60全部三线性定义/指标/tilde对应/S及三Sigma/偶n上界/不可交换(b)；61全五项/62两片张量及下划线边界秩/63(a)(b)难度全部。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 87,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch417-numeric-check.json",
+  "numericScope": "60a general six-variable commutative identity by exact polynomial expansion; full60a coefficient identity only finite n=2,4,6. 62 all8 coefficients of displayed rank2 degeneration through order1 overQ, not arbitrary-field minimal-rank proof. SeriesL/T/N/recurrences3,9,12,16,20 exactFraction finite orders5,8,12,16×5fixedcases; not general algorithm/complexity proofs. Full422 table populated cells exact. 74d exact2linearforms withoneconstant multiplication. No claim to prove asymptotic tensor-rank theorems, open lower bounds or arbitrary-field ranks by numerical examples.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch417-proof.html",
+    "htmlSha256": "253ead63b4246bdd965b652ec72babd8c6414e51f6e087af89788dd57e36e22f",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch417-proof-1280-417.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch417-proof-390-417.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 489,
+    "scrollableElementCounts": {
+      "1280": 87,
+      "390": 119
+    },
+    "machineObservations": ".work/volume2/source-audit/batch417-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch417-right-390-417.png",
+    "mobileRightEndVisualReview": true
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch417-answer-presence.json",
+    "linkedExercises": [
+      59,
+      60,
+      61,
+      62
+    ],
+    "allActualOriginalNumberedAnswersPresent": true,
+    "59PresenceEvidence": ".work/volume2/source-audit/batch409-answer-presence.json",
+    "roundTripDeferredUntilAnswerTranscriptionAndAssembly": true,
+    "independentAnswerContentReviewClaimed": false
+  },
+  "startsMidExercise": {
+    "exercise": "4.6.4-59",
+    "previousCnPdfPage": 416,
+    "previousEnd": "你的算法应当只涉及关于整数的运算，并",
+    "start": "且最多包含$O(n\\log n)$次乘法",
+    "completeEnd": "的除法.［提示：利用(59)，我们可以将$2n$次循环卷积转化为$n$次循环卷积和负循环卷积.］ [答案](#ans-4-6-4-59)"
+  },
+  "endsMidExercise": {
+    "exercise": "4.6.4-63",
+    "nextCnPdfPage": 418,
+    "completeParts": [
+      "definition",
+      "a",
+      "b"
+    ],
+    "nextPart": "c"
+  }
+}

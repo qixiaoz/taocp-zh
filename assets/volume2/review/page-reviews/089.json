@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 89,
+  "cnPrintedPage": 78,
+  "section": "3.3.4",
+  "enPdfPages": [
+    118,
+    119
+  ],
+  "enPrintedPages": [
+    103,
+    104
+  ],
+  "pageMarkdownSha256": "c8d61b0e5285c632806c947f5ee39d37799a2b53ec52edd9c41524430813c379",
+  "cnPageImageSha256": "07588d4b1332b43b7a8f3498d9168456115e79795f9c3238d2a5f86118c74d41",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 63,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-089",
+    "p-78"
+  ],
+  "coveredRegions": [
+    "步骤S5续项k←j、S6–S10完整、式(31)取整边界；算法使用讨论；原例参数(32)、二维最短解与三维条件(33)，两组完整3×3矩阵。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "startsInsideAlgorithmStep": {
+    "algorithm": "3.3.4S",
+    "step": "S5",
+    "previousCnPdfPage": 88
+  },
+  "numericAudit": {
+    "method": "Exact integer dot products and original transformation(23); check each U-row congruence(28) and every entry of U·Vᵀ=mI(29) at initialization, first iteration and after all14 printed q-tuples. Source matrices and tuples read directly in CN089/090 and EN119.",
+    "all54MatrixEntriesAnd42IterationCoordinatesMatch": true,
+    "finalU": [
+      [
+        -1479,
+        616,
+        -2777
+      ],
+      [
+        -3022,
+        104,
+        918
+      ],
+      [
+        -227,
+        -983,
+        -130
+      ]
+    ],
+    "finalV": [
+      [
+        -888874,
+        601246,
+        -2994234
+      ],
+      [
+        -2809871,
+        438109,
+        1593689
+      ],
+      [
+        -854296,
+        -9749816,
+        -1707736
+      ]
+    ],
+    "searchBounds": [
+      0,
+      0,
+      1
+    ],
+    "nu2Squared": 4577114792,
+    "nu3Squared": 1034718,
+    "nu2": 67654.37747847511,
+    "nu3": 1017.2108925881594
+  }
+}

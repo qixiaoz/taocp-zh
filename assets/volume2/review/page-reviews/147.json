@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录只绑定单页稿，装订母稿另加包含证明，不能把历史哈希换成新哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "cnPdfPage": 147,
+  "cnPrintedPage": 136,
+  "section": "3.5",
+  "enPdfPages": [
+    195,
+    196
+  ],
+  "enPrintedPages": [
+    180,
+    181
+  ],
+  "pageMarkdownSha256": "da1daa745cf1680441e2df688717fff7438a23622b3c224369f30bc9a6b152bd",
+  "cnPageImageSha256": "a7ad9c744a258a63392737ceac37f02a8bb85ee418cba1959d8dcb97d4e3ac34",
+  "enPageImageSha256": {
+    "195": "c14fc295098c2f1e2e8ae6c4533c1c624edaa4b4d6cfa8e612f7f06a8b86ab01",
+    "196": "8422d9886992eb9ccad303b9999b786b15da2ed0713429982ab06874a1415cad"
+  },
+  "coveredRegions": [
+    "习题7–21全部题干/子题/难度/推荐箭头/提示、概率与计数条件、最大/间隙/游程/集券式、R4弱化、L上下界、Ramshaw连续泛函两性质；21(c)续下页。"
+  ],
+  "explicitAnchors": [
+    "pdf-147",
+    "p-136",
+    "ex-3-5-7",
+    "ex-3-5-8",
+    "ex-3-5-9",
+    "ex-3-5-10",
+    "ex-3-5-11",
+    "ex-3-5-12",
+    "ex-3-5-13",
+    "ex-3-5-14",
+    "ex-3-5-15",
+    "ex-3-5-16",
+    "ex-3-5-17",
+    "ex-3-5-18",
+    "ex-3-5-19",
+    "ex-3-5-20",
+    "ex-3-5-21"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，源页位置用隐藏锚点保留。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 97,
+    "displayExpressions": 5,
+    "parseErrors": 0
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "习题18的首项",
+      "cn": "V_n=⌊nU_n⌋/n，序列从V0起",
+      "en": "同样从V0起且同一公式（EN195印180）",
+      "disposition": "保留共同原式，n=0处为0/0未指定；任意补定有限首项不会改变k分布结论。未替作者补写V0值。"
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuation": {
+    "ends_mid_sentence_after_display": true,
+    "continues_to_pdf_page": 148,
+    "exercise": "3.5-21(c)",
+    "left_end": "\\text{如果 }\\sum_{j=1}^k l_j\\ge\\sum_{j=1}^k l_j',\\quad1\\le k\\le n\\quad\\text{则 }f_n(l_1,\\ldots,l_n)\\ge f_n(l_1',\\ldots,l_n').",
+    "right_start": "［例如，$nl_n^{(1)}$；$-nl_n^{(n)}$；",
+    "instruction": "两项性质独立式已闭合，148从例子和F上极限继续21(c)；不重复题21锚点。"
+  },
+  "exerciseNumbers": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "recommendedExercises": [
+    10,
+    13,
+    15,
+    18,
+    20
+  ],
+  "answerExceptions": [
+    {
+      "exercise": "3.5-17",
+      "reason": "中文原答案区实际跳过该编号，无独立答项；保留原题，不造答案或答案链接。"
+    }
+  ],
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "7116fa8981a84666930c23eb46c0ed70c0d8d22c3264bc3688011ce5072846bd",
+    "visualReviewSha256": "a3d7e62a8058b641aa69833089ecf43d22162b0e37b0b13b697a42e3acbbb11f",
+    "browserAvailability": "Browser plugin not available; task-authorized bundled Playwright + isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 97,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 97,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 5,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "a51768b650635f1c287a28730d8d4710d433ec4d0ff16acf89c283181298bfde",
+  "numericalCheckQualification": "有限真值表、GF(2)矩阵枚举和历史算术复算辅助原图核对，不把有限检查当作普遍复杂度/概率/测度论证明。",
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc/VitePress、全站题答/索引/搜索/线上下载和发布由主任务统一执行。"
+  ],
+  "answerExistenceEvidence": {
+    "cnPdfPages": [
+      474,
+      475
+    ],
+    "cnPrintedPages": [
+      463,
+      464
+    ],
+    "actualAnswerNumbersSeen": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21
+    ],
+    "noSeparateAnswerNumbers": [
+      17
+    ],
+    "scope": "直接看中文474–479实际答区，只确认答项存在/编号与省略；未将答区整页内容计入本批内容审校，也未转录这些答案。"
+  }
+}

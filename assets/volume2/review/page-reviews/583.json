@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "app-a",
+  "reviewDate": "2026-11-14",
+  "reviewerType": "model-direct-page-image-comparison",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "285ef2ceefc39de0734a3edbe3800f1b12fdd217bf7883ec0367ceb759b8e331",
+  "cnPdfPage": 583,
+  "cnPrintedPage": 572,
+  "enPdfPages": [
+    741,
+    743
+  ],
+  "enPrintedPages": [
+    726,
+    728
+  ],
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "reviewScope": "All original Chinese page text, symbols, digit groups, signs, table columns/rows or harmonic formulas directly viewed; corresponding English original table/formula images compared.",
+  "priorInputQualification": "The volume-one common-appendix transcription was used only as a starting text. This new review actually examined the volume-two Chinese/English pages and freshly recomputed its data; no old review hash is relabeled.",
+  "cnEvidence": {
+    "image": "cn-583.png",
+    "sha256": "a54a502c81d933085d02a59a51cebc9a9e03e001a2e52402bb659286e7601e57",
+    "viewedDirectly": true
+  },
+  "enEvidence": [
+    {
+      "image": "en-741.png",
+      "sha256": "94cf2c5dfa4de73b3d9ca33d5a60bbd94c09e25e4d87741b628b2ef2dac768f3",
+      "viewedDirectly": true
+    },
+    {
+      "image": "en-743.png",
+      "sha256": "85bb38aca1efa526d157374c65740261d4e3dfcadf03f2d07ef819c5445f8407",
+      "viewedDirectly": true
+    }
+  ],
+  "numericalVerification": {
+    "file": "appendix-a-numeric-check.json",
+    "sha256": "6008e7d95686fc8740678b2fc16ed5ee2f1d755ab555f08912c00229b01a89b0",
+    "freshPrecisionDecimalDigits": 150,
+    "scope": "34 constants to 40 decimal fractional places, all rounding and direction marks."
+  },
+  "rendering": {
+    "html": "proof/appendix-a-vitepress.html",
+    "htmlSha256": "53c9314657b918c2ef62d6ce8fb056b5f6bcfac924ecaa65db653abcc9c78cda",
+    "browserRecord": "proof/appendix-a-browser.json",
+    "browserRecordSha256": "9266bc51781ea1495b212a61068513278911c4edb471d296085c59f570f05845",
+    "viewports": [
+      1280,
+      390
+    ],
+    "wholeDocumentOverflow": false,
+    "pageErrors": 0,
+    "representativeScreenshotsViewedDirectly": [
+      "proof/app-a-1280-583-left.png",
+      "proof/app-a-390-584-right.png",
+      "proof/app-a-390-586-right.png"
+    ],
+    "qualification": "Four-page independent proof, not final whole-volume website acceptance. Numeric values are additionally checked from the exact page draft bytes."
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "pending": [
+    "Whole-master inclusion binding",
+    "Final full-volume Pandoc and website acceptance"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 431,
+  "cnPrintedPage": 420,
+  "enPdfPages": [
+    553,
+    554
+  ],
+  "enPrintedPages": [
+    538,
+    539
+  ],
+  "pageMarkdownSha256": "f3df37f04da7cbbe77a5ffaa9eccc0df1929a287bb68cd68b9db7ecc53fbcf54",
+  "cnPageImageSha256": "8f82525ecae9e9f988fb19cf715e4a4e57f7665cad16e63bfce4f390da5830e3",
+  "enPageImageSha256": {
+    "553": "c7ec3b611c74c0fcaec8e620dac1e9e598797a28c0ccb47aecc3f3fe1f09f4af",
+    "554": "f10cd149e58917b1b0af8fcccc8046aaf73e09d85bb5295bb0594881dfa79221"
+  },
+  "coveredRegions": [
+    "答案总标题、Peirce原引语、习题说明原答1/3/4、3.1原答1(a)–(h)、2/3/4全部；原跳号2不补。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-431",
+    "p-420",
+    "sec-answers",
+    "ans-intro-1",
+    "ans-intro-3",
+    "ans-intro-4",
+    "ans-3-1-1",
+    "ans-3-1-2",
+    "ans-3-1-3",
+    "ans-3-1-4"
+  ],
+  "answerAnchors": [
+    "ans-intro-1",
+    "ans-intro-3",
+    "ans-intro-4",
+    "ans-3-1-1",
+    "ans-3-1-2",
+    "ans-3-1-3",
+    "ans-3-1-4"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 27,
+    "displayExpressions": 0,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {},
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "1a14955033b1700b1256977a587197c243973e68e5adbb2494ccd867ab6c677d",
+    "visualReviewSha256": "04e58fa4501ba0b2caba3a45ab2478bccedfe71e3d7038752183c4d4710add42",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 27,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 3,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 27,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 5,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "f23565ac5a4d9850d0f0c3203bc61ccf50a197acb791f155924afabbc94778b4",
+  "numericalCheckQualification": "所有有限枚举只辅助原页核查，不替代普遍命题/渐近证明；共同疑点保留底本。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "answerExceptions": [
+    {
+      "answer": "intro-2",
+      "reason": "中英文原答案习题说明均仅列1/3/4，没有独立第2答；不造答项/锚点。"
+    }
+  ]
+}

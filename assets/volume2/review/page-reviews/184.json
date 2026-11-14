@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "仅绑定当前单页字节；装订后另建包含/合段证明，不仅改此哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接看中文完整页与所列英文页，按段、式、习题、字段核对。解析和复算另列，不充当原页证据。",
+  "cnPdfPage": 184,
+  "cnPrintedPage": 173,
+  "enPdfPages": [
+    241,
+    242
+  ],
+  "enPrintedPages": [
+    226,
+    227
+  ],
+  "pageMarkdownSha256": "bd17379467832d369c30fe7b64eec5cd3fe31b476ea8007df7b25b9fdafeda6d",
+  "cnPageImage": "scans/184.jpg",
+  "cnPageImageSha256": "9be5ebe928e7657c2e1fdf9832b003213d1355fa53d8bb341f8899b85167036b",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-241.png",
+      "sha256": "ff7fa2fad2bf4d4082c833193b5394d09b9a80b8da9ad902fafcc77105d8d9c4"
+    },
+    {
+      "file": "verified-sources/en-242.png",
+      "sha256": "e6e0639f0b9781b7233042847fe0037ead3fb72f8bb937f17c71e4e6936d9c30"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号、书名/节名及页码；隐藏页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-184",
+    "p-173",
+    "ex-4-2-1-1",
+    "ex-4-2-1-2",
+    "ex-4-2-1-3",
+    "ex-4-2-1-4",
+    "ex-4-2-1-5",
+    "ex-4-2-1-6",
+    "ex-4-2-1-7",
+    "ex-4-2-1-8",
+    "ex-4-2-1-9",
+    "ex-4-2-1-10"
+  ],
+  "coveredRegions": [
+    "前页书目续文、1980年代标准754历史参考文献全部。",
+    "MMIX原建设中图标及说明。",
+    "§4.2.1习题1–10全部题干、难度、两个推荐三角、等价条件五行与全部输入数字。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "exercise": 8,
+      "cnText": "0≤e<100",
+      "enText": "0≤e≤100",
+      "enPdfPage": 242,
+      "action": "按中文底本保留严格上界，列为边界差异；不擅改。"
+    }
+  ],
+  "numberedFormulaTags": [],
+  "numberedListings": [],
+  "numberedWordLayouts": [],
+  "exerciseNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "answerLinkStatus": "pendingverifiedanswers",
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuationNotes": "首续183书目；习题1–10完整。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 34,
+    "parseErrors": 0,
+    "codeLines": [],
+    "meaning": "只证明语法可排版；原页/英文比对另列。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "独立复算辅助原页核查，不作原书答案来源或全节证明。",
+    "results": {
+      "algorithmAExamplesRounded8Digits": [
+        "1.0209877",
+        "0.12346000",
+        "999.99999"
+      ],
+      "purpose": "独立复算题面例子的算术，未据此造原书答案锚点或计算证明。"
+    }
+  },
+  "untested": [
+    "最终母稿包含、题答链接及引语分节归属。",
+    "正式VitePress/Pandoc整卷；私有选择性HTML视觉验证另列。"
+  ],
+  "nonnumberedIcon": {
+    "asset": "assets/volume2/figures/construction.svg",
+    "sha256": "74e971bf72e727a5bfff5cd243d54c38c0a4c0e4731ab3b8e57b1495e9fc6ea9",
+    "reuse": "与卷一同一建设中符号，按卷复制已存在矢量；没有改变卷一文件。",
+    "sourceCnPdfPage": 184,
+    "sourceEnPdfPage": 242,
+    "meaningfulSymbolRetained": true
+  }
+}

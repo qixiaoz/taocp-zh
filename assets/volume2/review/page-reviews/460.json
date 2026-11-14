@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 460,
+  "cnPrintedPage": 449,
+  "enPdfPages": [
+    590,
+    591
+  ],
+  "enPrintedPages": [
+    575,
+    576
+  ],
+  "pageMarkdownSha256": "333cacf3e308aa81376e67ad9eedb072f5dd1e4c3d0a217d3657f00147cbd5c8",
+  "cnPageImageSha256": "8734292c0324263c627685575436986e91d6dc43498ba9bbee7f6dc180da0559",
+  "enPageImageSha256": {
+    "590": "e0ddbc034fe028ec4bcf4661e0bb32aa638e789ccdeee93d63916f8adc966530",
+    "591": "62295c3bf8a4d5e33e49e336871461134804f83c97327217e8f694ae03570c1a"
+  },
+  "coveredRegions": [
+    "3.3.3答20 S8/S9全部四行化简/原注、21分段积分/相关系数、22区间长度、23两种末端区间及全概率展开、24全t游程和平均长度/原注、25至完整概率式。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-460",
+    "p-449",
+    "ans-3-3-3-21",
+    "ans-3-3-3-22",
+    "ans-3-3-3-23",
+    "ans-3-3-3-24",
+    "ans-3-3-3-25"
+  ],
+  "answerAnchors": [
+    "ans-3-3-3-21",
+    "ans-3-3-3-22",
+    "ans-3-3-3-23",
+    "ans-3-3-3-24",
+    "ans-3-3-3-25"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 50,
+    "displayExpressions": 7,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.3.3答23末端区间",
+      "cnPrintedPage": 449,
+      "enPdfPage": 590,
+      "enPrintedPage": 575,
+      "original": "ax+theta=a 在区间中",
+      "final": "ax+theta−a 在区间中",
+      "basis": {
+        "cnPdfPage": 460,
+        "enPdfPage": 590,
+        "original": "ax+theta=a 在区间中",
+        "final": "ax+theta−a 在区间中",
+        "basis": "英文原页减a；此时x在末端区间，s(x)={ax+theta}=ax+theta−a，等号a不是可取区间内的实值。"
+      }
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 459,
+    "answerAtStart": "3.3.3-20",
+    "right_start": "$S_8=-\\sigma(a'(a'-1),m,(a')^2c)$，最后",
+    "continues_to_pdf_page": 461,
+    "answerAtEnd": "3.3.3-25",
+    "left_last_display": "(k_1-k_0)(\\beta'-\\alpha')/a+\\max(0,\\beta-(k_1+\\alpha'-\\theta)/a)-\\max(0,\\alpha-(k_0+\\alpha'-\\theta)/a).",
+    "right_next_start": "这是 $(\\beta-\\alpha)(\\beta'-\\alpha')+\\epsilon$，",
+    "instruction": "25概率式完整闭合，461首是同答的误差界解释；页锚点不进公式。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "17fe0051e44453dfc5395d74b7da8d4a4ee291bed5aaaad0479614aa4117ad40",
+    "visualReviewSha256": "9fd358b26f3871a254abfd13afa5f256ea08f3b50750a46d081784833ec15939",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 50,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 50,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 9,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "2be701a51c3e4028b81ea2a930a49016e6d20079316b7db1b90cd0fc0561b308",
+  "numericalCheckQualification": "一般代数依据/原图双语核对为主；小规模枚举只辅助证明检查，不将有限计算充作一般/渐近证明。原文引用的巨型精确划分数未独立计算。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

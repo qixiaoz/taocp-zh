@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 513,
+  "cnPrintedPage": 502,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "ac48a99d03e94fadad3a8dd95143c2453b4547fa5216431175354afefc92bcc1",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/513.jpg",
+  "cnPageImageSha256": "4aa9e5c5055de24a76f0cffc8dfd30f9613b138fff8c09246b1a83288c75a5c4",
+  "enPdfPages": [
+    654,
+    655
+  ],
+  "enPrintedPages": [
+    639,
+    640
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-654.png",
+      "sha256": "630f884f6283e9bda223fb0834a415dc539d1413a70e7d198c35591ea5e7a8e4"
+    },
+    {
+      "file": "verified-sources/en-655.png",
+      "sha256": "14d9f5cbda8e9859f5526e8e21f17680e26dacd68abe1e1f5bed3a19299a960e"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-513",
+    "p-502",
+    "ans-4-5-1-9",
+    "ans-4-5-1-11",
+    "ans-4-5-1-12",
+    "ans-4-5-1-13",
+    "ans-4-5-1-14",
+    "ans-sec-4-5-2",
+    "ans-4-5-2-1",
+    "ans-4-5-2-2",
+    "ans-4-5-2-3",
+    "ans-4-5-2-4",
+    "ans-4-5-2-5"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续4.5.1答8溢出语义，9/11–14全部有理数分辨/计数公式、64位原注。",
+    "实际4.5.2标题与答1–5(a)至三进制gcd算法跨页。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末答4.5.2–5“然后将t右移直至它不是3的倍数，”接514“并用…替换max(u,v)”。",
+  "substantiveCorrections": [],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-5-1-9",
+      "exercise_anchor": "ex-4-5-1-9",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-1-11",
+      "exercise_anchor": "ex-4-5-1-11",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-1-12",
+      "exercise_anchor": "ex-4-5-1-12",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-1-13",
+      "exercise_anchor": "ex-4-5-1-13",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-1-14",
+      "exercise_anchor": "ex-4-5-1-14",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-2-1",
+      "exercise_anchor": "ex-4-5-2-1",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-2-2",
+      "exercise_anchor": "ex-4-5-2-2",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-2-3",
+      "exercise_anchor": "ex-4-5-2-3",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-2-4",
+      "exercise_anchor": "ex-4-5-2-4",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-2-5",
+      "exercise_anchor": "ex-4-5-2-5",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 513,
+    "sha256": "ac48a99d03e94fadad3a8dd95143c2453b4547fa5216431175354afefc92bcc1",
+    "mathExpressions": 33,
+    "display": 1,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 513,
+        "width": 1280,
+        "sha256": "ac48a99d03e94fadad3a8dd95143c2453b4547fa5216431175354afefc92bcc1",
+        "pageErrors": [],
+        "bodyText": 3068,
+        "documentWidth": 1280,
+        "expressions": 33,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 513,
+        "width": 390,
+        "sha256": "ac48a99d03e94fadad3a8dd95143c2453b4547fa5216431175354afefc92bcc1",
+        "pageErrors": [],
+        "bodyText": 3068,
+        "documentWidth": 390,
+        "expressions": 33,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 26,
+            "max": 26,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 172,
+            "max": 172,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 90,
+            "max": 90,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 53,
+            "max": 53,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 156,
+            "max": 156,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/513-ac48a99d03e94fadad3a8dd95143c2453b4547fa5216431175354afefc92bcc1-metadata-update-2/513.json",
+      "pageMarkdownSha256": "ac48a99d03e94fadad3a8dd95143c2453b4547fa5216431175354afefc92bcc1",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.5.1+4.5.2",
+  "numericCheck": {
+    "file": "arithmetic-next/numeric-check.json",
+    "sha256": "9de329303f6088a80f88dba8b90ca9c70d9565b71050b39dd74a40742a099b9a",
+    "inputPageSha256": "ac48a99d03e94fadad3a8dd95143c2453b4547fa5216431175354afefc92bcc1",
+    "meaning": "独立复算的具体有限范围/一般Laurent推导见文件；本页绑定不等于本页所有一般证明已独立复证。"
+  }
+}

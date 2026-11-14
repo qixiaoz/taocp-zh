@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "section": "4.6.3",
+  "sections": [
+    "4.6.3"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 379,
+  "cnPrintedPage": 368,
+  "enPdfPages": [
+    487,
+    488,
+    489
+  ],
+  "enPrintedPages": [
+    472,
+    473,
+    474
+  ],
+  "pageMarkdownSha256": "33e67323ed465cc7a0b2c5bcb0550a5c1215c1e783bbc0af78355c63385b182a",
+  "masterSha256": null,
+  "cnPageImage": "scans/379.jpg",
+  "cnPageImageSha256": "03704693ba1e5e0a72afe4858393fbc621134e213924e45417b5c732580d99ad",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-487.png",
+      "sha256": "fb45388e0bb91547b47f930241d4a4003cf2e74bcf2bce037b93c79b453bf189"
+    },
+    {
+      "file": "source-audit/en-render/page-488.png",
+      "sha256": "3e8f916825ff54516cd27b2125575c8547bcc9f49f6e602f06036c1ddebad9e5"
+    },
+    {
+      "file": "source-audit/en-render/page-489.png",
+      "sha256": "ef8618037d7bf9d7e025c1269c2a861780c43c10cdc2d22db58e65b56c1b78ed"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-379",
+    "p-368"
+  ],
+  "numberedFormulaTags": [
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "coveredRegions": [
+    "星链结构35–39、S多重集定义(a)–(c)、最终分拆和Mij逆构造(a)–(c)，重数/移位/最大j规则全量。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 61,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch377-numeric-check.json",
+  "numericScope": "Exact complete general addition-chain search for n1..2222 and2731; four individual minimum probes12509/16537 general/star; no general theorem derived by finite tests. c1..15 and d1..11 independently recomputed; larger historical c/d values and later record holders only source-image/bilingual verified. Whole formula48 n2..1000 exact. Huge example only exact bit identity, compressed6106-step upper witness and sourceH hypothesis substitution, not independent optimality search.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch377-proof.html",
+    "htmlSha256": "1e3af7453fa812b35f61904ded414aae8eca96ecdabbba65075285b945dc0098",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch377-proof-1280-379.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch377-proof-390-379.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 495,
+    "scrollableElementCounts": {
+      "1280": 127,
+      "390": 155
+    },
+    "machineObservations": ".work/volume2/source-audit/batch377-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  }
+}

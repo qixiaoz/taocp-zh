@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 441,
+  "cnPrintedPage": 430,
+  "enPdfPages": [
+    565,
+    566,
+    567
+  ],
+  "enPrintedPages": [
+    550,
+    551,
+    552
+  ],
+  "pageMarkdownSha256": "1c92f417ac7f881018ca710c1fff050d38e2670c9cde67a73985dde39d3834d4",
+  "cnPageImageSha256": "c1b58ddb90db40d4fac2a349511635c8553b704b8b5dfa297aeec1da081a9876",
+  "enPageImageSha256": {
+    "565": "6a6ba9ac05814b81428ac62cd38270f933c81c0e1b28a7a63f239634ac03a8ac",
+    "566": "529120186517c0b129464d9202f090a9be61d77cef2f938de893e9cd5c4f175c",
+    "567": "9fc8ae25106cd1b024cab6681b526c000f4cbf45b5b6347aa85fb10d97bbf5a3"
+  },
+  "coveredRegions": [
+    "3.2.1.3答8、原二阶低势注记；3.2.2实际标题、原答1–5至续字；两HTML状态表逐格/下划线/前导0/省略号与两种输出完整。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-441",
+    "p-430",
+    "ans-3-2-1-3-8",
+    "ans-3-2-2-1",
+    "ans-3-2-2-2",
+    "ans-3-2-2-3",
+    "ans-3-2-2-4",
+    "ans-3-2-2-5"
+  ],
+  "answerAnchors": [
+    "ans-3-2-1-3-8",
+    "ans-3-2-2-1",
+    "ans-3-2-2-2",
+    "ans-3-2-2-3",
+    "ans-3-2-2-4",
+    "ans-3-2-2-5"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 27,
+    "displayExpressions": 2,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuation": {
+    "answer": "3.2.2-5",
+    "continues_to_pdf_page": 442,
+    "left_end": "或者可以通过从 $X_n$ 中间而不是从最左边抽取几位",
+    "right_start": "数字来选取 $j$。",
+    "instruction": "同一段精确续句，拼成“抽取几位数字”；表与页锚点不插入句内公式。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "5e57c9e2c0a00340abe77994e2dc1b04baa4d7622cacefa3f10e8a2541f612a5",
+    "visualReviewSha256": "b885509b55e1722edee94f0f99f54dba399e56cb2576923e57dbe1f595c4b0f3",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 27,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 27,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 5,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "28140b15279fc6b44157c9da65ad66580283c389d4ea21c90d3faf8d05fa0cbf",
+  "numericalCheckQualification": "有限复算辅助原图与逐段证明核对，不把枚举当作普遍或渐近证明；巨型素数表未独立证明素性。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "editableTableEvidence": {
+    "sourcePages": [
+      441,
+      566
+    ],
+    "tableCount": 2,
+    "transcriptionSha256": "af66f57e168ef58e4ef95b574feb905e08585538a935037652b972ad3ea826d8",
+    "independentAlgorithmCheckSha256": "775c685484e86464944de54e62533dc1ea15b0b38a679bef5ee43daed56ac774",
+    "allPrintedCellsUnderlinesAndOutputsChecked": true,
+    "note": "B输出周期起点46而完整前步状态47；不将两者混淆。"
+  }
+}

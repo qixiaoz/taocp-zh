@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 471,
+  "cnPrintedPage": 460,
+  "enPdfPages": [
+    604,
+    605
+  ],
+  "enPrintedPages": [
+    589,
+    590
+  ],
+  "pageMarkdownSha256": "2a19dc2bf009296b308e2ebfba4b63431603db975a377d179091f0d6c8f11c77",
+  "cnPageImageSha256": "11b2b5549acef599e77d4db364ebddb5b51199f64254a5020f7b03cdec6335af",
+  "enPageImageSha256": {
+    "604": "990d6e7ced6d254ad8af1ae4779eb97374a3484c0d6bbb8377e34c26ac06a45b",
+    "605": "8663df1bed4607166b500f4e4498164341efad5e70b2cd1c99de295450ec1f19"
+  },
+  "coveredRegions": [
+    "3.4.1答27 B3与完整迭代EGF/闭式/渐近原注、28椭球拒绝K两情形、29有序偏差原注、30泊松点与两种位映射、31(a)旋转积分/(b)递推/(c)2048向量再生/标量原注。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-471",
+    "p-460",
+    "ans-3-4-1-28",
+    "ans-3-4-1-29",
+    "ans-3-4-1-30",
+    "ans-3-4-1-31"
+  ],
+  "answerAnchors": [
+    "ans-3-4-1-28",
+    "ans-3-4-1-29",
+    "ans-3-4-1-30",
+    "ans-3-4-1-31"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 80,
+    "displayExpressions": 4,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.4.1答27原迭代注",
+      "cnPrintedPage": 460,
+      "enPdfPage": 604,
+      "enPrintedPage": 589,
+      "original": "A_m=1+Σ_(k≥1)binom(n,k)(−1)^(k+1)/(2^k−1)=1+V_(n+1)/(n+1)=lg n+...",
+      "final": "A_n=同右式",
+      "basis": {
+        "cnPdfPage": 471,
+        "cnPrintedPage": 460,
+        "enPdfPage": 604,
+        "enPrintedPage": 589,
+        "original": "A_m=1+Σ_(k≥1)binom(n,k)(−1)^(k+1)/(2^k−1)=1+V_(n+1)/(n+1)=lg n+...",
+        "final": "A_n=同右式",
+        "basis": "同段定义A_t为t个模拟偏差时迭代均数，递推A_0=0,A_n=1+2^(−n)Σ_k binom(n,k)A_k，EGF A(z)=ΣA_nz^n/n!。从EGF取z^n/n!系数唯一得到A_n；右式所有自变量均n。两版左端共同m误植。n≥1，A1=2,A2=8/3等直接递推与闭式同一值，有限核12个n。",
+        "values": [
+          "0",
+          "2",
+          "8/3",
+          "22/7",
+          "368/105",
+          "2470/651",
+          "7880/1953",
+          "150266/35433",
+          "13315424/3011805",
+          "2350261538/513010785",
+          "1777792792/376207909",
+          "340013628538/70008871793",
+          "203832594062416/40955189998905"
+        ]
+      }
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 470,
+    "answerAtStart": "3.4.1-27",
+    "right_start": "**B3.** ［完成否？］如果",
+    "instructionAtStart": "470 B1/B2之后同一算法，471 B3结束符及完整原注，不新建答27。",
+    "continues_to_pdf_page": 472,
+    "answerAtEnd": "3.4.1-31(c)",
+    "left_end": "是所求 $\\chi^2$ 偏差的合理近似。）",
+    "right_next_start": "参考文献：华莱士",
+    "instructionAtEnd": "472首参考是31原注的来源段，非独立答。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "fc8e03523bd20eb4601cdcf0490af5403b7d511532ddf94c03cd68c3115cbc32",
+    "visualReviewSha256": "ec1699b44942da35ecb910bafe683e79795afd9299a8729b84a4be75671b18bf",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 80,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 80,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 8,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "c9faf78f68b721b4e1a84fa9d1da4baabbfedbe80a42bc6292030a3e3162c44a",
+  "numericalCheckQualification": "精确有理数/有限组合枚举与图中32编号边逐项对应只辅助原页复核，不取代无穷序列、Fourier或一般图连通性证明。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

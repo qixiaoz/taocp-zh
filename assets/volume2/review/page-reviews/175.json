@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定本单页Markdown字节；母稿装订后另作包含/合段/代码合并证明，不得只替换哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "中文完整页图与实际对应英文页图已直接查看，逐段、逐式、逐代码行比较。机器token/语法检查仅是辅助。原编者注无英文对应者另列例外。",
+  "cnPdfPage": 175,
+  "cnPrintedPage": 164,
+  "enPdfPages": [
+    230,
+    231,
+    232
+  ],
+  "enPrintedPages": [
+    215,
+    216,
+    217
+  ],
+  "pageMarkdownSha256": "363f49a446010388156e03ee7d363aaa0dfc6e7c275c6eab93f34ea519cac313",
+  "cnPageImage": "scans/175.jpg",
+  "cnPageImageSha256": "0e3156b96a71a8b77f60bef60c1879b72bbdd1db526bcc64a3b6cdeb03f19633",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-230.png",
+      "sha256": "960cb72a7e6c0aa6f9cc5150bdb2c29455ecfd4e32885c9bb7663be8b9bcd911"
+    },
+    {
+      "file": "verified-sources/en-231.png",
+      "sha256": "4429a998a2058962570a1c7af15562d9a798ed578d08a47e63c5cbbfe11f7d40"
+    },
+    {
+      "file": "verified-sources/en-232.png",
+      "sha256": "0713e6e01afe768148f456e95ae5efb599630866aa57992d576f9aa50540a084"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号/小节名/印刷页码，页码用隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-175",
+    "p-164",
+    "alg-4-2-1-a"
+  ],
+  "addedExplanationsInBody": false,
+  "coveredRegions": [
+    "规范化零、比较、允许极小值限制、与机器无关讨论。",
+    "式6、四个圈运算符、浮点加法思路；算法A1–A7全部正文与条件。"
+  ],
+  "unverifiedPageRegions": [],
+  "mathExpressions": [
+    {
+      "sourceLine": 3,
+      "display": false,
+      "tex": "f=0",
+      "sha256": "180406a9806d4b0287b041abc5d360f237c6f438add5ba52ff3dfe98098605e9"
+    },
+    {
+      "sourceLine": 3,
+      "display": false,
+      "tex": "e",
+      "sha256": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea"
+    },
+    {
+      "sourceLine": 3,
+      "display": false,
+      "tex": "(e,f)",
+      "sha256": "d9165d22abb8c5b7ba34c3fe6443fdc089a23080b64b2a3ae9fc2c0747e9e0dd"
+    },
+    {
+      "sourceLine": 5,
+      "display": false,
+      "tex": "(0,0.0000\\ 0001)",
+      "sha256": "c3e2a4eabe6138c731180bc44f71de9941e969d3537d03bd2f15eda16990de8d"
+    },
+    {
+      "sourceLine": 13,
+      "display": true,
+      "tex": "(e_u,f_u)\\oplus(e_v,f_v)=(e_w,f_w).\\tag{6}",
+      "sha256": "d47b22eca85d417d9b0134b67a6d3712e3040286a160a36c82600b74501f28b8"
+    },
+    {
+      "sourceLine": 19,
+      "display": true,
+      "tex": "\\oplus,\\qquad\\ominus,\\qquad\\otimes,\\qquad\\oslash",
+      "sha256": "ceb84c7dd5ca10057071c6438a1dc7e2dc56c6c248a41e4db296a37fd5244138"
+    },
+    {
+      "sourceLine": 25,
+      "display": false,
+      "tex": "e_u\\ge e_v",
+      "sha256": "f37f7ec0de44d12e9fef75871a381a659fead7ca359724cf4eb5f2630cf6fe55"
+    },
+    {
+      "sourceLine": 25,
+      "display": false,
+      "tex": "e_w=e_u",
+      "sha256": "97847f43b2066d4dc756c93b733345cfdbdc18c3f6547b599c523a409d0d71e0"
+    },
+    {
+      "sourceLine": 25,
+      "display": false,
+      "tex": "f_w=f_u+f_v/b^{e_u-e_v}",
+      "sha256": "29031bc124f814f32f3e52f68f9c6934199e61dc36abeff206aefb9358271a95"
+    },
+    {
+      "sourceLine": 27,
+      "display": false,
+      "tex": "b",
+      "sha256": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d"
+    },
+    {
+      "sourceLine": 27,
+      "display": false,
+      "tex": "q",
+      "sha256": "8e35c2cd3bf6641bdb0e2050b76932cbb2e6034a0ddacc1d9bea82a6ba57f7cf"
+    },
+    {
+      "sourceLine": 27,
+      "display": false,
+      "tex": "p",
+      "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940"
+    },
+    {
+      "sourceLine": 27,
+      "display": false,
+      "tex": "u=(e_u,f_u)",
+      "sha256": "8c4ec2683bc0156ba8df004d104196c4983b3f7c2fa58159a2f2d8a55fc9a535"
+    },
+    {
+      "sourceLine": 27,
+      "display": false,
+      "tex": "v=(e_v,f_v)",
+      "sha256": "bf0ee9729c2095c4bd2528ba526f0f6804176ed6f5206efd58d19e47a655e5cd"
+    },
+    {
+      "sourceLine": 27,
+      "display": false,
+      "tex": "w=u\\oplus v",
+      "sha256": "0fd0a4593c426be676805a773371a927c2678192d8227a47555d67521e62f302"
+    },
+    {
+      "sourceLine": 27,
+      "display": false,
+      "tex": "-v",
+      "sha256": "81c36ccd44ef18baabad6e2d87038b72d606263bd6a3432b964a872023654fff"
+    },
+    {
+      "sourceLine": 27,
+      "display": false,
+      "tex": "v",
+      "sha256": "4c94485e0c21ae6c41ce1dfe7b6bfaceea5ab68e40a2476f50208e526f506080"
+    },
+    {
+      "sourceLine": 29,
+      "display": false,
+      "tex": "u",
+      "sha256": "0bfe935e70c321c7ca3afc75ce0d0ca2f98b5422e008bb31c00c6d7f1f1c0ad6"
+    },
+    {
+      "sourceLine": 29,
+      "display": false,
+      "tex": "v",
+      "sha256": "4c94485e0c21ae6c41ce1dfe7b6bfaceea5ab68e40a2476f50208e526f506080"
+    },
+    {
+      "sourceLine": 31,
+      "display": false,
+      "tex": "e_u\\ge e_v",
+      "sha256": "f37f7ec0de44d12e9fef75871a381a659fead7ca359724cf4eb5f2630cf6fe55"
+    },
+    {
+      "sourceLine": 31,
+      "display": false,
+      "tex": "e_u<e_v",
+      "sha256": "6c2296d76c996d8964a2257a9f883066b23375fe7de917db15148089fdd7c688"
+    },
+    {
+      "sourceLine": 31,
+      "display": false,
+      "tex": "u",
+      "sha256": "0bfe935e70c321c7ca3afc75ce0d0ca2f98b5422e008bb31c00c6d7f1f1c0ad6"
+    },
+    {
+      "sourceLine": 31,
+      "display": false,
+      "tex": "v",
+      "sha256": "4c94485e0c21ae6c41ce1dfe7b6bfaceea5ab68e40a2476f50208e526f506080"
+    },
+    {
+      "sourceLine": 33,
+      "display": false,
+      "tex": "e_w",
+      "sha256": "06718d7aa18063e42571cd93192cf69836783b8c91df1c8de064515d1d03cd5c"
+    },
+    {
+      "sourceLine": 33,
+      "display": false,
+      "tex": "e_w\\leftarrow e_u",
+      "sha256": "74ad9c5dc9f0cdc76e4f25c92c307de62c118ad7fa213796466249addbd775d0"
+    },
+    {
+      "sourceLine": 35,
+      "display": false,
+      "tex": "e_u-e_v",
+      "sha256": "78f954ebbbc952399363835c08b024589ff34372bb5c437914f1e660c0e03651"
+    },
+    {
+      "sourceLine": 35,
+      "display": false,
+      "tex": "e_u-e_v\\ge p+2",
+      "sha256": "d241638f9f18667ff064375d914163bcfe36afa84fbf0e8c6f8f2b025c7b234d"
+    },
+    {
+      "sourceLine": 35,
+      "display": false,
+      "tex": "f_w\\leftarrow f_u",
+      "sha256": "5202b5a1f2f5b3e265be0e83ae67c36a17143ed5854f1cdf1dbea98c461e8428"
+    },
+    {
+      "sourceLine": 35,
+      "display": false,
+      "tex": "u",
+      "sha256": "0bfe935e70c321c7ca3afc75ce0d0ca2f98b5422e008bb31c00c6d7f1f1c0ad6"
+    },
+    {
+      "sourceLine": 37,
+      "display": false,
+      "tex": "f_v",
+      "sha256": "e34327622e5e789ee50a0210d70a7f6b022460ffa6ec460f8aa60a6bc28f2546"
+    },
+    {
+      "sourceLine": 37,
+      "display": false,
+      "tex": "e_u-e_v",
+      "sha256": "78f954ebbbc952399363835c08b024589ff34372bb5c437914f1e660c0e03651"
+    },
+    {
+      "sourceLine": 37,
+      "display": false,
+      "tex": "f_v",
+      "sha256": "e34327622e5e789ee50a0210d70a7f6b022460ffa6ec460f8aa60a6bc28f2546"
+    },
+    {
+      "sourceLine": 37,
+      "display": false,
+      "tex": "b^{e_u-e_v}",
+      "sha256": "54966bccada9d0681c7c8b88dda601718a0189cd43758437b01b46e532386c2c"
+    },
+    {
+      "sourceLine": 37,
+      "display": false,
+      "tex": "f_v",
+      "sha256": "e34327622e5e789ee50a0210d70a7f6b022460ffa6ec460f8aa60a6bc28f2546"
+    },
+    {
+      "sourceLine": 37,
+      "display": false,
+      "tex": "p+1",
+      "sha256": "cb8e10e73bf6a18c107e32e2b89d56270691ff3f055a432c8b28fceccca9abd0"
+    },
+    {
+      "sourceLine": 37,
+      "display": false,
+      "tex": "f_u",
+      "sha256": "73373fd911c8ae54a07129913279c9a39d1be929c75baa1a772d00ea484c98ac"
+    },
+    {
+      "sourceLine": 37,
+      "display": false,
+      "tex": "f_v",
+      "sha256": "e34327622e5e789ee50a0210d70a7f6b022460ffa6ec460f8aa60a6bc28f2546"
+    },
+    {
+      "sourceLine": 37,
+      "display": false,
+      "tex": "2p+1",
+      "sha256": "290a91ea669c6a55f7ca7936b1d24f55989ae9ca2730fd793b478fbd74d2541e"
+    },
+    {
+      "sourceLine": 37,
+      "display": false,
+      "tex": "b",
+      "sha256": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d"
+    },
+    {
+      "sourceLine": 37,
+      "display": false,
+      "tex": "2p+1",
+      "sha256": "290a91ea669c6a55f7ca7936b1d24f55989ae9ca2730fd793b478fbd74d2541e"
+    },
+    {
+      "sourceLine": 37,
+      "display": false,
+      "tex": "p+2",
+      "sha256": "9b2f3f7ef00ca8376ecbf78a02048af785791e7c4a5662bb63aa536cf691fe01"
+    },
+    {
+      "sourceLine": 37,
+      "display": false,
+      "tex": "p+3",
+      "sha256": "b14e4bae6253d930c121b595907c5bd264f349b2723ac233217de99015cc8168"
+    },
+    {
+      "sourceLine": 39,
+      "display": false,
+      "tex": "f_w\\leftarrow f_u+f_v",
+      "sha256": "873afe18dbe4cd41c15e0fe931278fc8a98caba6b37ff9379acb8ad7f281b180"
+    },
+    {
+      "sourceLine": 41,
+      "display": false,
+      "tex": "u",
+      "sha256": "0bfe935e70c321c7ca3afc75ce0d0ca2f98b5422e008bb31c00c6d7f1f1c0ad6"
+    },
+    {
+      "sourceLine": 41,
+      "display": false,
+      "tex": "v",
+      "sha256": "4c94485e0c21ae6c41ce1dfe7b6bfaceea5ab68e40a2476f50208e526f506080"
+    },
+    {
+      "sourceLine": 41,
+      "display": false,
+      "tex": "(e_w,f_w)",
+      "sha256": "db20b433a8d68a51cfd31b80638f07e2b24d4ee898848bb30fdb727f77e15486"
+    },
+    {
+      "sourceLine": 41,
+      "display": false,
+      "tex": "|f_w|",
+      "sha256": "cad9a3ffab3daca37831db27fe753a956a18830058063db59a961b56daf0660c"
+    },
+    {
+      "sourceLine": 41,
+      "display": false,
+      "tex": "p",
+      "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940"
+    },
+    {
+      "sourceLine": 41,
+      "display": false,
+      "tex": "1/b",
+      "sha256": "daa2ba1a2c0a874a6e8e7bdf8d24144bb8194392df702ccbecb4ab927638e885"
+    },
+    {
+      "sourceLine": 41,
+      "display": false,
+      "tex": "(e_w,f_w)",
+      "sha256": "db20b433a8d68a51cfd31b80638f07e2b24d4ee898848bb30fdb727f77e15486"
+    }
+  ],
+  "numberedFormulaTags": [
+    "6"
+  ],
+  "numberedListings": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [
+    {
+      "id": "v2-4.2.1-magnitude-comparison",
+      "section": "4.2.1B",
+      "cnPrintedPage": 164,
+      "enPdfPage": 230,
+      "enPrintedPage": 215,
+      "sourceText": "要比较两个规范化的浮点数，只需要先比较其指数部分，当指数部分相等时再比较小数部分。",
+      "finalText": "要比较两个规范化的浮点数的绝对值，只需要先比较其指数部分，当指数部分相等时再比较小数部分的绝对值。",
+      "evidence": "英文明确greater magnitude；按指数优先直接比较有符号值对负数不成立。b10,q50时(51,-.1)=-1,(50,-.9)=-.9，指数更大的数反而更小；其绝对值次序才与指数次序一致。",
+      "kind": "substantive-missing-comparison-objective"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuationNotes": "首句接174规范化定义。算法A在本页完整。",
+  "untested": [
+    "最终母稿装订包含、跨页程序合并和锚点摆放。",
+    "正式VitePress/Pandoc整卷及程序运行；本记录不宣称执行过MIX程序。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 50,
+    "parseErrors": 0,
+    "footnotes": 0,
+    "codeBlocks": 0,
+    "codeLines": [],
+    "meaning": "仅验证排版语法，不能代替另外记录的原页逐项核查。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  }
+}

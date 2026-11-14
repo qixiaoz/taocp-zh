@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 391,
+  "cnPrintedPage": 380,
+  "enPdfPages": [
+    503,
+    504
+  ],
+  "enPrintedPages": [
+    488,
+    489
+  ],
+  "pageMarkdownSha256": "274d97f855719a98933a6bc6d2375acc4cd4d0261c7f550b132e918358bbf5c9",
+  "masterSha256": null,
+  "cnPageImage": "scans/391.jpg",
+  "cnPageImageSha256": "5a5236a4cfda502a1ffcd272321f15313ccdacf99d9b18e094c79d4c45b41808",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-503.png",
+      "sha256": "e5c257c2e6f8457f9bdc661e256e37cf79198025cdcdd360279a04334a41200f"
+    },
+    {
+      "file": "source-audit/en-render/page-504.png",
+      "sha256": "ca6832f8041145a5c23b0f68abac7b8aea098364a11231b1d33a1776ea9680cf"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-391",
+    "p-380"
+  ],
+  "numberedFormulaTags": [
+    5,
+    6,
+    7
+  ],
+  "coveredRegions": [
+    "Estrin五处理器三行15格含空格原表、5/6差分全部式和警告、7泰勒式、H1/H2全部上下界与内层逆序。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 56,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch389-numeric-check.json",
+  "numericScope": "Three exact general sparse polynomial identities: normalized quartic9/10; sextic12–14 under displayed cubic constraint; Pan16–19 after clearing its nonzero denominator. AlgorithmH/S/D and complex3 verified on explicitly listed finite basis ranges; finite checks do not establish arbitrary-degree algorithms/real-root TheoremE or optimality/free-dimension results. All exact rational arithmetic; no floating tolerance.",
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch389-proof.html",
+    "htmlSha256": "e8d11a2001bc275af79f42a7260c5d5cef66ba2e65802b39d1234556898aeb3d",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch389-proof-1280-391.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch389-proof-390-391.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 378,
+    "scrollableElementCounts": {
+      "1280": 83,
+      "390": 113
+    },
+    "machineObservations": ".work/volume2/source-audit/batch389-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch389-right-390-391.png",
+    "mobileRightEndVisualReview": true
+  },
+  "startsMidParagraph": {
+    "previousCnPdfPage": 390,
+    "previousEnd": "杰拉尔德·埃",
+    "start": "斯特林提出的"
+  },
+  "editableTable": {
+    "name": "Estrin n7 five processors",
+    "rows": 3,
+    "columns": 5,
+    "sourceBlanksPreserved": true,
+    "all15CellsCnAndEnReviewed": true,
+    "headerPresentation": "所有处理器标题用inline nowrap span保持单行，防止第5列中文逐字换行撑高标题行；正文数值/公式未变。",
+    "allHeaderTitlesAtBothScrollEndsViewed": true
+  },
+  "nextPageBoundary": {
+    "nextCnPdfPage": 392,
+    "completedAlgorithm": "H1/H2",
+    "nextStart": "在完成步骤H2后"
+  }
+}

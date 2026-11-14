@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验；特别检查HTML表格内公式实际渲染。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 47,
+  "cnPrintedPage": 36,
+  "section": "3.3.1",
+  "enPdfPages": [
+    61,
+    62
+  ],
+  "enPrintedPages": [
+    46,
+    47
+  ],
+  "pageMarkdownSha256": "8498da831034237101a03caaf39e981c6332d96807647d69e626816ea11456d9",
+  "cnPageImageSha256": "e850efa37fe1c6b741e528a0b72173c526faf8990cbddac953290b9d84c943cf",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 17,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-047",
+    "p-36",
+    "fig-3-2"
+  ],
+  "coveredRegions": [
+    "n300全部七个离散百分比点、n选择与三次检验规则、A–F生成器说明和B/C/D/F全部参数、图2完整90格及图例、图后结论至页末“生”。"
+  ],
+  "endsMidParagraph": true,
+  "numericAudit": {
+    "binomialPercentiles": {
+      "n": 300,
+      "quantiles": [
+        {
+          "probability": "1/100",
+          "exactValue": "0",
+          "roundedToTwoDecimals": "0.00"
+        },
+        {
+          "probability": "1/20",
+          "exactValue": "0",
+          "roundedToTwoDecimals": "0.00"
+        },
+        {
+          "probability": "1/4",
+          "exactValue": "16/225",
+          "roundedToTwoDecimals": "0.07"
+        },
+        {
+          "probability": "1/2",
+          "exactValue": "4/9",
+          "roundedToTwoDecimals": "0.44"
+        },
+        {
+          "probability": "3/4",
+          "exactValue": "36/25",
+          "roundedToTwoDecimals": "1.44"
+        },
+        {
+          "probability": "19/20",
+          "exactValue": "4",
+          "roundedToTwoDecimals": "4.00"
+        },
+        {
+          "probability": "99/100",
+          "exactValue": "1444/225",
+          "roundedToTwoDecimals": "6.42"
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "path": "assets/volume2/figures/p047-fig-3-2.svg",
+      "sha256": "d1424fc20daeea516ba970c996c97a99043900910a1605aa1f20f4c6bc2b3d65",
+      "kind": "editable-vector-redraw",
+      "formalFigure": 2,
+      "gridRows": 5,
+      "gridColumns": 18,
+      "columnGroups": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "groupColumns": 3,
+      "zeroBasedMarkedCells": [
+        {
+          "5": "O",
+          "13": "O",
+          "14": "O",
+          "16": "B",
+          "17": "B"
+        },
+        {
+          "0": "O",
+          "6": "O",
+          "12": "G",
+          "15": "G",
+          "16": "G",
+          "17": "B"
+        },
+        {
+          "2": "O",
+          "3": "G",
+          "9": "O",
+          "10": "O",
+          "13": "O",
+          "15": "B",
+          "16": "B",
+          "17": "B"
+        },
+        {
+          "3": "O",
+          "7": "B",
+          "8": "O",
+          "13": "G",
+          "15": "B",
+          "16": "B",
+          "17": "G"
+        },
+        {
+          "2": "O",
+          "12": "G",
+          "13": "O",
+          "15": "B",
+          "16": "B",
+          "17": "B"
+        }
+      ],
+      "codes": {
+        "B": "拒绝/黑",
+        "G": "可疑/灰",
+        "O": "比较可疑/空心圆"
+      },
+      "markerCounts": {
+        "B": 12,
+        "G": 7,
+        "O": 13
+      },
+      "legendCompared": true,
+      "cnEnGridCompared": true,
+      "standaloneRenderedAndVisuallyCompared": true
+    }
+  ]
+}

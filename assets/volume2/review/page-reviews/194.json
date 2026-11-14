@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页字节；最终母稿另作包含/原页与跨页接续证明，不仅改此处哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接查看中文完整页与列出的英文页图，逐段、逐式、逐数字及习题比较。语法与复算另列；未声称人类签核。原译者注无英文对应者单列例外。",
+  "cnPdfPage": 194,
+  "cnPrintedPage": 183,
+  "enPdfPages": [
+    254,
+    255
+  ],
+  "enPrintedPages": [
+    239,
+    240
+  ],
+  "pageMarkdownSha256": "f39960f5a618e0cf6a2a058746dc32ef676eafb35d39a8c8609715cf894bf03c",
+  "cnPageImage": "scans/194.jpg",
+  "cnPageImageSha256": "70a26d5dc36a7e399db2c9b65fcfb4794d1f585db07f54050a0926eebb631072",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-254.png",
+      "sha256": "06478cf756afa721225134cbe217400f55110050aeb326c56520d497d241b626"
+    },
+    {
+      "file": "verified-sources/en-255.png",
+      "sha256": "b6df4a3ce24562ce003fc42a7ccf29601bf223be4256be7949a4268ed2215088"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号、节名/书名及页码，隐藏页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-194",
+    "p-183"
+  ],
+  "coveredRegions": [
+    "绝对误差delta_u51与四个结果误差界。",
+    "非规范化加法近似结合律52及误差链、b²系数。",
+    "相关操作数x(1−x)的展开；非规范化运算文献。",
+    "C区间运算开头至下页续句。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "51",
+    "52"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "not-applicable",
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuationNotes": "末区间运算句接195首“可将它们记为…”，无跨页公式。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 31,
+    "parseErrors": 0,
+    "meaning": "仅是排版语法检查；内容依据独立列出的中英文页图。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "独立辅助复算，不充作原书题答来源或整个证明签核。",
+    "results": {
+      "correlatedOperandsIdentity": "For x=1/2+eps,y=x+delta, y(1−y)−x(1−x)=−2epsdelta−delta²; direct polynomial expansion checked.",
+      "additionBound": "b^(2−p)+b^(−p)"
+    }
+  },
+  "untested": [
+    "最终母稿包含和跨页合段、原题答双向链接。",
+    "最终VitePress/Pandoc整卷；本批隔离证明的DOM/选择性视觉另列。"
+  ]
+}

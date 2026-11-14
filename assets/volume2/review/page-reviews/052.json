@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 52,
+  "cnPrintedPage": 41,
+  "section": "3.3.1",
+  "enPdfPages": [
+    68,
+    69
+  ],
+  "enPrintedPages": [
+    53,
+    54
+  ],
+  "pageMarkdownSha256": "25fff2497db5d80dc39ae0176f746799b145bfe40d75a7d5d6a5dd2fb53acf5d",
+  "cnPageImageSha256": "0b68bfec0bdf98653f40d4cd32323496e85675bf4c849919a4401197afcb0c48",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 24,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-052",
+    "p-41",
+    "fig-3-5"
+  ],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "coveredRegions": [
+    "上页末段续文、连续/离散检验比较、两类偏差、全部对图2/图5比较的说明与图5双网格。"
+  ],
+  "startsMidParagraph": true,
+  "assets": [
+    {
+      "path": "assets/volume2/figures/p052-fig-3-5.svg",
+      "sha256": "e7fb4c3b89887055ba2fca3b9fe9a422cac3ca99b789d8468cd573b1ce5d11de",
+      "kind": "editable-vector-redraw",
+      "formalFigure": 5,
+      "panels": [
+        "K_n^+",
+        "K_n^-"
+      ],
+      "gridPerPanel": [
+        5,
+        18
+      ],
+      "zeroBasedMarkedCells": {
+        "plus": [
+          {
+            "11": "B",
+            "12": "O",
+            "15": "G",
+            "16": "G"
+          },
+          {
+            "10": "O",
+            "11": "O",
+            "12": "G",
+            "15": "G",
+            "16": "B",
+            "17": "B"
+          },
+          {
+            "4": "O",
+            "7": "G",
+            "10": "G",
+            "15": "G",
+            "16": "B",
+            "17": "B"
+          },
+          {
+            "7": "B",
+            "10": "O",
+            "17": "O"
+          },
+          {
+            "7": "O",
+            "12": "O",
+            "15": "B"
+          }
+        ],
+        "minus": [
+          {
+            "2": "O",
+            "9": "O",
+            "16": "O"
+          },
+          {
+            "1": "O",
+            "8": "O",
+            "9": "G"
+          },
+          {
+            "9": "G"
+          },
+          {
+            "6": "G",
+            "15": "B",
+            "16": "B",
+            "17": "G"
+          },
+          {
+            "6": "O",
+            "8": "O",
+            "11": "G",
+            "12": "B",
+            "15": "B",
+            "16": "B",
+            "17": "B"
+          }
+        ]
+      },
+      "codes": {
+        "B": "黑/拒绝",
+        "G": "灰/可疑",
+        "O": "空心/比较可疑"
+      },
+      "markerCounts": {
+        "plus": {
+          "B": 7,
+          "G": 7,
+          "O": 8
+        },
+        "minus": {
+          "B": 6,
+          "G": 5,
+          "O": 7
+        }
+      },
+      "cnEnEachCellCompared": true,
+      "standaloneRenderedAndCompared": true
+    }
+  ]
+}

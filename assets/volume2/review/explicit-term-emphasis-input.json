@@ -1,0 +1,52 @@
+{
+  "kind": "source-Markdown-emphasis-representation-repair",
+  "changes": [
+    {
+      "cnPdfPage": 14,
+      "oldPageMarkdownSha256": "c5e9c829e9873eba1d5bde8df1098f556296a5372013a15d8275fc3e61b89812",
+      "newPageMarkdownSha256": "afc5121d1e8ee709480321e5fe847ff94131a89c2ff63095ed507bfda8127179",
+      "exactReplacements": [
+        [
+          "*伪随机（pseudorandom）*",
+          "<em>伪随机（pseudorandom）</em>"
+        ],
+        [
+          "*准随机（quasirandom）*",
+          "<em>准随机（quasirandom）</em>"
+        ]
+      ],
+      "allOtherBytesUnchanged": true,
+      "history": "verified-history/014-before-explicit-term-emphasis-c5e9c829e9873eba1d5bde8df1098f556296a5372013a15d8275fc3e61b89812"
+    },
+    {
+      "cnPdfPage": 30,
+      "oldPageMarkdownSha256": "6253698e2bd67bd1586df6b0fe8fd40a03b16afb372f2987c99ff172dca0a0f4",
+      "newPageMarkdownSha256": "da9b963324fac2c678a06edfcbd91a9175713f698d20b7469f15715b002efd53",
+      "exactReplacements": [
+        [
+          "*势（potency）*",
+          "<em>势（potency）</em>"
+        ]
+      ],
+      "allOtherBytesUnchanged": true,
+      "history": "verified-history/030-before-explicit-term-emphasis-6253698e2bd67bd1586df6b0fe8fd40a03b16afb372f2987c99ff172dca0a0f4"
+    },
+    {
+      "cnPdfPage": 58,
+      "oldPageMarkdownSha256": "3708614bd56b48901d4260ec3e527e4c7d1cac0460a124742ed1231ecf6b1865",
+      "newPageMarkdownSha256": "fd20fae75c86b5dcb9c7ac6474e63edbdbb2546f0b3c2249810cfd3f59fc8a0b",
+      "exactReplacements": [
+        [
+          "*序列检验（serial test）*",
+          "<em>序列检验（serial test）</em>"
+        ]
+      ],
+      "allOtherBytesUnchanged": true,
+      "history": "verified-history/058-before-explicit-term-emphasis-3708614bd56b48901d4260ec3e527e4c7d1cac0460a124742ed1231ecf6b1865"
+    }
+  ],
+  "basis": "Original CN014/030/058 and corresponding EN19/39/77 have emphasized terms and no literal stars, directly viewed independently by chapter3 and factorization agents. CommonMark flanking around CJK parentheses prints6stars and emphasizes the connector incorrectly. Use explicitHTMLem in the source so ordinary offline Markdown readers and the website both render the original emphasis.",
+  "sourceEvidence": "offline-reader-experiment/term-emphasis-original-review.json",
+  "sourceEvidenceSha256": "2aa4dd2c5ff5f24976f7d40e18381da4d93aa2ab0b1db3a30f25da8cfdae8536",
+  "qualification": "Format representation only. Original words, numbers, formulas, programs and source page anchors unchanged; historical page reviews retain their original MD hashes, with new revision binding after actual render verification."
+}

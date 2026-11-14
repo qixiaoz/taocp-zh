@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1370" height="600" viewBox="0 0 1370 600" role="img" aria-labelledby="title desc">
+<title id="title">图11 简单的分解因数算法</title>
+<desc id="desc">七个步骤A1到A7。A1进入A2；A2是则退出，否则A3；A3到A4；A4是则A5后返回A2，否则A6；A6是则A7后退出，否则返回A3。</desc>
+<defs><marker id="arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="11" markerHeight="11" orient="auto"><path d="M1 1L11 6L1 11" fill="none" stroke="#111" stroke-width="1.4"/></marker></defs>
+<rect width="1370" height="600" fill="white"/>
+<g fill="none" stroke="#111" stroke-width="2" marker-end="url(#arrow)">
+<path id="entry-a1" d="M165 10V70"/>
+<path id="a1-a2" d="M165 140V240"/>
+<path id="a2-exit" d="M165 330V420"/>
+<path id="a2-a3" d="M299 275L440 205"/>
+<path id="a3-a4" d="M650 205L792 280"/>
+<path id="a4-a5" d="M811 338L650 405"/>
+<path id="a5-a2" d="M440 405L290 313"/>
+<path id="a4-a6" d="M1020 295H1110"/>
+<path id="a6-a3" d="M1225 240C1225 100 1225 100 1110 100H620C545 100 545 100 545 170"/>
+<path id="a6-a7" d="M1225 350V430"/>
+<path id="a7-exit" d="M1225 520V585"/>
+</g>
+<g fill="white" stroke="#111" stroke-width="2">
+<rect id="a1" x="60" y="70" width="210" height="70"/>
+<rect id="a2" x="30" y="240" width="270" height="90" rx="45"/>
+<rect id="a3" x="440" y="170" width="210" height="70"/>
+<rect id="a4" x="790" y="240" width="230" height="110" rx="55"/>
+<rect id="a5" x="440" y="365" width="210" height="90"/>
+<rect id="a6" x="1110" y="240" width="230" height="110" rx="55"/>
+<rect id="a7" x="1120" y="430" width="210" height="90"/>
+</g>
+<g fill="#111" font-family="Songti SC, SimSun, serif" font-size="30" text-anchor="middle">
+<text x="165" y="115">A1. 初始化</text>
+<text x="165" y="296">A2. <tspan font-style="italic">n</tspan> = 1吗？</text>
+<text x="545" y="215">A3. 做除法</text>
+<text x="905" y="283">A4. 余数</text><text x="905" y="321">是零吗？</text>
+<text x="545" y="400">A5. 找到</text><text x="545" y="437">素因数</text>
+<text x="1225" y="283">A6. 商</text><text x="1225" y="321">是否过小？</text>
+<text x="1225" y="466">A7. <tspan font-style="italic">n</tspan> 是</text><text x="1225" y="504">素数</text>
+<text x="202" y="375">是</text><text x="370" y="276">否</text>
+<text x="735" y="390">是</text><text x="1064" y="278">否</text>
+<text x="1265" y="222">否</text><text x="1265" y="396">是</text>
+</g></svg>

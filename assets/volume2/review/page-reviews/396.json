@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 396,
+  "cnPrintedPage": 385,
+  "enPdfPages": [
+    509,
+    510
+  ],
+  "enPrintedPages": [
+    494,
+    495
+  ],
+  "pageMarkdownSha256": "454c5b5656c57fc535c8be8abb4009cfe2d9f3a14a481e726e8ac45bf3623282",
+  "masterSha256": null,
+  "cnPageImage": "scans/396.jpg",
+  "cnPageImageSha256": "ad95ff3e3593160b26a61a7181d77d834e32163b75c7580150cb1b96cea43dad",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-509.png",
+      "sha256": "afde04451be2fbd375a372129095d9465a4830b12e741c3d26509230cd24f0da"
+    },
+    {
+      "file": "source-audit/en-render/page-510.png",
+      "sha256": "129fc9e7ba670677b1e0f11e1a81179e3819bbfef38f49f42909c8c857b4adcc"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-396",
+    "p-385"
+  ],
+  "numberedFormulaTags": [
+    24,
+    25,
+    26,
+    27
+  ],
+  "coveredRegions": [
+    "带星多项式链引言、24–27全部定义/量化/参数步和链步、映像集/自由度/非零多元多项式条件、例子及空间填充曲线完整段。"
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "v2-4.6.4-distinct-parameter-step",
+      "section": "4.6.4",
+      "cnPdfPage": 396,
+      "cnPrintedPage": 385,
+      "location": "式25后两类步骤的定义",
+      "original": "我们假设每个链步中使用的参数αj都是不同的.",
+      "final": "我们假设每个参数步中使用的参数αj都是不同的.",
+      "enLocation": {
+        "pdfPage": 509,
+        "printedPage": 494,
+        "position": "paragraph immediately after25"
+      },
+      "enShortExcerpt": "a different parameter αj is used in each parameter step",
+      "basis": "第一类链步仅用先前lambda，第二类参数步才使用新的alpha；英文明确为parameter step。仅恢复类型名。",
+      "cnSourceCrop": "source-audit/396-parameter-step.png",
+      "cnSourceCropSha256": "642b24db786e7dd9f1ccd08c38c1d9da2ad382e4c07e8addf079d07a2fc7aafe"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 51,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch389-numeric-check.json",
+  "numericScope": "Three exact general sparse polynomial identities: normalized quartic9/10; sextic12–14 under displayed cubic constraint; Pan16–19 after clearing its nonzero denominator. AlgorithmH/S/D and complex3 verified on explicitly listed finite basis ranges; finite checks do not establish arbitrary-degree algorithms/real-root TheoremE or optimality/free-dimension results. All exact rational arithmetic; no floating tolerance.",
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch389-proof.html",
+    "htmlSha256": "e8d11a2001bc275af79f42a7260c5d5cef66ba2e65802b39d1234556898aeb3d",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch389-proof-1280-396.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch389-proof-390-396.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 378,
+    "scrollableElementCounts": {
+      "1280": 83,
+      "390": 113
+    },
+    "machineObservations": ".work/volume2/source-audit/batch389-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "nextPageBoundary": {
+    "nextCnPdfPage": 397,
+    "nextStart": "我们接下来可以利用这个结论来证明所要寻找的结果了.",
+    "currentFinalParagraphComplete": true,
+    "nextOriginalPageDirectlyViewed": true
+  }
+}

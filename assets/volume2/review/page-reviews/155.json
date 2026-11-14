@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "section": "3.6",
+  "pdf_page": 155,
+  "printed_page": 144,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "d7c10e0114657a4dc14015d6fab174c3fdfc46d5a8c1a86c5616984f9d2b404b",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/source-audit/cn-render/full-155.png",
+    "scope": "all page prose, sequence and punctuation; all formulas, program specification, stage directions, quoted letter, original footnote and unnumbered illustration where present"
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      205,
+      206,
+      207
+    ],
+    "en_printed_pages": [
+      190,
+      191,
+      192
+    ],
+    "scope": "all corresponding prose/scripts and every mathematical expression; original Chinese translation retained except listed substantive corrections",
+    "original_english_formula_images_checked": []
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/chapter36-tail-proof.html",
+    "html_sha256": "b8897ed2534f2d49eb7e1d95f0c0b8b65ebe568f5a49b3793c9dd238f6e0c058",
+    "desktop_screenshot": ".work/volume2/source-audit/tail-proof-1040-155.png",
+    "mobile_screenshot": ".work/volume2/source-audit/tail-proof-390-155.png",
+    "desktop_visual_review": true,
+    "mobile_visual_review": false,
+    "source_pipeline": "current VitePress + installBookMarkdown + markdown-it-footnote; standalone proof",
+    "math_expressions_in_four_page_proof": 41,
+    "math_parse_errors": 0,
+    "missing_images": 0,
+    "page_errors": 0,
+    "document_horizontal_overflow": false,
+    "footnote_navigation_actual_test": null,
+    "long_math_both_ends": null,
+    "qualification": "Not complete-volume binding or final website verification."
+  },
+  "exercises": [],
+  "answer_exceptions": [],
+  "substantive_corrections": [],
+  "source_discrepancies_retained": [
+    {
+      "location": "script speaker labels and narration",
+      "source_reading": "speaker治安员 vs narration治安官",
+      "decision": "Preserve exact source role labels; no global substitution."
+    }
+  ],
+  "next_steps": [
+    "Bind into complete volume and verify complete-volume hashes, links and final rendering.",
+    "Transcribe corresponding original answers without fabricating answers3–6."
+  ],
+  "assets": [
+    {
+      "path": "assets/volume2/figures/p155-western-cartoon.png",
+      "kind": "original unnumbered cartoon",
+      "source_pdf_page": 155,
+      "embedded_source_crop_px": [
+        512,
+        270,
+        1610,
+        1030
+      ],
+      "sha256": "543a6d436a6995ed9f333dfcfe3104711edce119ff77b7996cfc9323a6cb3646"
+    }
+  ],
+  "continuation": {
+    "begins_in_exercise": 5,
+    "script_from_pdf_page": 154,
+    "script_introduction_continues_on_pdf_page": 156
+  }
+}

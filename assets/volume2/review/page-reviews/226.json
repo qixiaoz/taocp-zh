@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订须另证包含与跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文整页及列出的英文页图，逐段/逐式/表格/程序字段频次注释和难度推荐符号比较。机器检查和复算另列，不声称人类签核。",
+  "cnPdfPage": 226,
+  "cnPrintedPage": 215,
+  "enPdfPages": [
+    295,
+    296
+  ],
+  "enPrintedPages": [
+    280,
+    281
+  ],
+  "pageMarkdownSha256": "4e34bdf1db7bf7dd25e417914e13cdfa0452f1bfa2afb09ab1b76e1b02b8246b",
+  "cnPageImage": "scans/226.jpg",
+  "cnPageImageSha256": "0c34bbf69e18f2c07646ece83b9e8d4c0c59513d4ab187d5abdce48027b52979",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-295.png",
+      "sha256": "20cf7274bef5bd98eb83e558152a80f9c26cd0df31cd45ea33976a8bcb42abb5"
+    },
+    {
+      "file": "verified-sources/en-296.png",
+      "sha256": "debd8ea1ca22f2a3b5ecea56125c45f81b09a024f779d5ccf0f78edc04d606dc"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-226",
+    "p-215",
+    "ex-4-3-1-1",
+    "ex-4-3-1-2",
+    "ex-4-3-1-3",
+    "ex-4-3-1-4",
+    "ex-4-3-1-5"
+  ],
+  "coveredRegions": [
+    "首续Shanks707位历史，1945–2011计算纪录和全部耗时/位数，保留原书时态。",
+    "硬件算法及Pentiuminfamous译误，全部文献。",
+    "习题1–5开头及全部难度、m≤b条件；题5末跨页原Note。",
+    "中文原编者注：2013年12.1万亿位、94天及原numberworld链接；不冒称英文对应。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": true,
+  "originalFootnoteIds": [
+    "v2-p215-1"
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "v2-4.3.1-p215-infamous-bug",
+      "section": "4.3.1历史与参考文献",
+      "cnPrintedPage": 215,
+      "enPdfPage": 295,
+      "enPrintedPage": 280,
+      "sourceText": "一个不出名但很有教益的错误",
+      "finalText": "一个臭名昭著但很有教益的错误",
+      "evidence": "英文实际原页写An infamous but very instructive bug；infamous是声名狼藉而非不知名。",
+      "kind": "substantive-translation-correction"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "answerLinkStatus": "pendingactualanswer-area-verification",
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "continuationNotes": "末题5原注“在古代印”接227首“度和阿拉伯手稿中…”；先迁出页末原脚注v2-p215-1定义，再合为同一题/同一Note。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 9,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "只是语法；内容核查依实际中英文原页。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终母稿装订/跨页代码合并/题答回链",
+    "正式VitePress/Pandoc整卷与线上",
+    "未执行MIX或将机器字段一致称作算法正确性证明。"
+  ],
+  "bilingualExceptions": [
+    {
+      "region": "original-editor-footnote-v2-p215-1",
+      "status": "Chinese-original-page-visual-review-only",
+      "reason": "2013纪录编者注在对应英文295/296中未见；不伪造英文对应。"
+    }
+  ],
+  "renderReview": {
+    "file": "verified-render/classical-dom-review-222-229.json",
+    "sha256": "18411f91c2491a713c87fc399036de41b8e750c7fd1b54d844a234e272d254fc",
+    "scope": "当前页SHA私有1280/390 DOM与列出复杂区域实际看图，非正式全站。"
+  }
+}

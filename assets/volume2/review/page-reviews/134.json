@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "只绑定单页稿；装订母稿另作包含证明，不能修改历史哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": true,
+  "originalFootnoteKeys": [
+    "v2-p134-1"
+  ],
+  "unverifiedPageRegions": [],
+  "cnPdfPage": 134,
+  "cnPrintedPage": 123,
+  "section": "3.5",
+  "enPdfPages": [
+    177,
+    178
+  ],
+  "enPrintedPages": [
+    162,
+    163
+  ],
+  "pageMarkdownSha256": "744eae85dfd3c2fabd4a468967e948d7e6eb28835b6b5078bdb22ba5098585c2",
+  "cnPageImageSha256": "721b21e0529c6fd13f84575374589f43605b5dd0765b4efb4b55a14609e73b64",
+  "enPageImageSha256": {
+    "177": "ffb1c809411cbe0debb84f2f733a64415ef5c1cd9f54477da230c0536665b680",
+    "178": "ff09900ba32a056c80038d0e9386e7ed1dbc4844ff95ccf9747398f3ee213010"
+  },
+  "coveredRegions": [
+    "R5蕴含各阶分布的完整归纳/复合论证及共同边界原式、R6全部、原作者1966脚注、D标题和存在性动机、引理T式(29)–(31)及证明。"
+  ],
+  "explicitAnchors": [
+    "pdf-134",
+    "p-123"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，原页定位以隐藏锚点保存。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 60,
+    "displayExpressions": 3,
+    "footnotes": 1,
+    "parseErrors": 0
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "R5后按过去参数识别a1…ak的规则",
+      "cnPrintedPage": 123,
+      "enPrintedPage": 162,
+      "enPdfPage": 177,
+      "cn": "f_n(x1,…,xn)=1当且仅当n≥k−1且x_(n−k+1)=a1,…,xn=ak",
+      "en": "相同的n≥k−1与相同参数下标",
+      "disposition": "保留两版共同原式，列为边界下标疑点。声明的参数为x1,…,xn，当n=k−1时原条件涉及未定义的x0；候选n≥k使所有参数合法。未将候选改式塞入正文。",
+      "candidate": "n≥k",
+      "context": "一般定义f_n(X0,…,X_(n−1))观察恰好n个过去值，n至少为k才能识别完整k元组。"
+    },
+    {
+      "location": "作者“我认为”及1966脚注",
+      "disposition": "完整保留原作者历史立场及脚注；不按后来的随机性理论更新成整理者观点。"
+    }
+  ],
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "2df4b6478c629edfae497fe5601bf55798522310a932f6945233cf4e4bc195cd",
+    "visualReviewSha256": "c503255a8c760487c841b617e3f3b7abb7654a4b066c605123ccc6b57b012a9c",
+    "browserAvailability": "Browser plugin not available; task-authorized bundled Playwright + isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 60,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 60,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 2,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "bb5e9e541e1937a23e38c2d17b8dc7eac95c55ca59b1598914ef138e017d7aa8",
+  "numericalCheckQualification": "有限计数例和源表全枚举辅助复核，不将数值检查宣称为定理W/M的一般证明。",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {},
+  "exerciseNumbers": [],
+  "answerExceptions": [],
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc/VitePress、全站题答/索引/搜索/线上下载和部署由主任务执行。"
+  ]
+}

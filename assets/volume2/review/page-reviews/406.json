@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 406,
+  "cnPrintedPage": 395,
+  "enPdfPages": [
+    522,
+    523
+  ],
+  "enPrintedPages": [
+    507,
+    508
+  ],
+  "pageMarkdownSha256": "38b5fb8139be72ff9dc671b430416b88a89c4f74526ac15688b2e79e65079d10",
+  "masterSha256": null,
+  "cnPageImage": "scans/406.jpg",
+  "cnPageImageSha256": "283b1142bf900f475168706b78c8222b8367746f107ad911ff2feeea3274a7a5",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-522.png",
+      "sha256": "a7b13c4b3d603ea8012a035b55f773e0bed5e141bc99b2cbc002db62849147fe"
+    },
+    {
+      "file": "source-audit/en-render/page-523.png",
+      "sha256": "94a60409cf11e47f78d180caeebc5242722ec29278087fca0d3a5cc5eb783c0c"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-406",
+    "p-395"
+  ],
+  "numberedFormulaTags": [
+    52,
+    53
+  ],
+  "coveredRegions": [
+    "52原张量4片及7组秩1张量共32矩阵512格、53三4×7矩阵84格含bar1标记；全部转置对称、矩阵维度/下标分组、引理T陈述与完整证明。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 57,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch405-numeric-check.json",
+  "numericScope": "Exact integer/rational coefficient certificates for the particular source tensors52/53 and55/57: all448rank-one-summand slots,64summed slots,72convolution coefficients,36Vandermonde inverse entries; allMDmatrix serialization readback. Rank6 proof for fixed55 overQ uses exact flattening rank6 plus explicit six-term realization. CRT58/60/61/62/63/65 checked by complete monomial-pair bilinear coefficient bases of the source fixed degrees, not arbitrary-degree/general-field numerical proof; no tensor-rank complexity theorem inferred from finite samples.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch405-proof.html",
+    "htmlSha256": "a2da3015a58b9d18a6cd1c4a697e8ac618ed762f506a8f4685a54e8c6ca4e2d4",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Four-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch405-proof-1280-406.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch405-proof-390-406.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 176,
+    "scrollableElementCounts": {
+      "1280": 29,
+      "390": 41
+    },
+    "machineObservations": ".work/volume2/source-audit/batch405-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch405-right-390-406.png",
+    "mobileRightEndVisualReview": true,
+    "mobileMiddleMatrixScreenshot": ".work/volume2/source-audit/batch405-matrix53-390-middle.png",
+    "mobileMiddleMatrixVisualReview": true
+  },
+  "startsMidParagraph": {
+    "previousCnPdfPage": 405,
+    "previousEnd": "表示为7",
+    "start": "个秩为1的张量之和："
+  },
+  "tensorArrays": {
+    "literalEvidence": ".work/volume2/source-audit/batch405-tensor52-53-literal.json",
+    "formula52Matrices": 32,
+    "formula52AllCells": 512,
+    "formula52SevenSummandSlots": 448,
+    "formula53Matrices": 3,
+    "formula53AllCells": 84,
+    "allSourceCellsIncludingZerosAndSignBarsCompared": true,
+    "exactRealizationIntegerIdentity": true,
+    "allPageMatrixMarkdownReadbackMatchesLiteral": true,
+    "displayOnlyChange52": "为每个四片张量组单独一行：左式一行、七项各一行；保留八组顺序、四片次序、全部512格与式号52，不是矩阵乘积/新公式。"
+  },
+  "nextPageBoundary": {
+    "nextCnPdfPage": 407,
+    "completedProof": "LemmaT",
+    "nextStart": "作为使用引理T的一个例子",
+    "currentFinalSentenceComplete": true
+  }
+}

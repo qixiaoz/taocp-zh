@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订另作包含证明，不改历史哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 119,
+  "cnPrintedPage": 108,
+  "section": "3.4.2",
+  "enPdfPages": [
+    157,
+    158
+  ],
+  "enPrintedPages": [
+    142,
+    143
+  ],
+  "pageMarkdownSha256": "86cd7103f7204a8678911b832afbbcc55a47fd5c10dfd4abcda7bd2e1a7a10b6",
+  "cnPageImageSha256": "98a27a534845aa149442e3ce83f17540d5167fc437043221ba8fee605e133cd5",
+  "enOriginalPageImages": [
+    {
+      "enPdfPage": 157,
+      "enPrintedPage": 142,
+      "renderedImageSha256": "a3aadd23ec0ee59c6db3f2388d2bf77105e3bdbcc48b0945f86a2336c4c8d5f5"
+    },
+    {
+      "enPdfPage": 158,
+      "enPrintedPage": 143,
+      "renderedImageSha256": "5485e2386c52183c938f9cd0f1a55b00f1260adbeb784bb347c7b2279a3044fc"
+    }
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 51,
+    "displayExpressions": 1,
+    "parseErrors": 0,
+    "errors": []
+  },
+  "coveredRegions": [
+    "§3.4.2选择抽样全部正文、式(1)、算法S1–S5、两条无偏/终止声明、不同种子说明、作者/文献和未知N水库引入；页末记字续页。"
+  ],
+  "explicitAnchors": [
+    "pdf-119",
+    "p-108"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [],
+  "recommendedExercises": [],
+  "answerExceptions": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuation": {
+    "ends_mid_word": true,
+    "continues_to_pdf_page": 120,
+    "left_end": "只包含先前样本中出现的那些记",
+    "right_start": "录。前 $n$ 个记录总是进入该水库。",
+    "joined_word": "记录",
+    "instruction": "合为同一段并保留两页锚点；锚点放文字中，不进公式或算法。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalSiteBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserAvailability": "Browser plugin not available; task-authorized existing bundled Playwright + isolated local Chrome fallback.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "pageCases": [
+      {
+        "width": 1280,
+        "mathExpressions": 51,
+        "documentWidth": 1280,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "brokenMathml": 0,
+        "passed": true
+      },
+      {
+        "width": 390,
+        "mathExpressions": 51,
+        "documentWidth": 390,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "brokenMathml": 0,
+        "passed": true
+      }
+    ],
+    "browserReviewSha256": "efc6b8c6900e97b9a8ffd4cc49af00374e5ebf19e914814cc9598b4b2d5e8665",
+    "directScreenshotInspectionSha256": "8ab90a1ff3322e3df266fca6452156d73f31edc4d90cf4faaf391fd26b5e0aba",
+    "qualification": "完整浏览器页面案例通过；直接视觉范围为七页桌面整页、全部长独立式/牌序两端及123窄屏整页，未将其扩大为最终网站验收。"
+  },
+  "numericalChecks": {
+    "recordSha256": "14d612bc7a97598a4facf778d3b051a4f098ba6a42b283c8b40226489102f876",
+    "method": "独立积分/变量代换，分数精确枚举和源牌序检查；辅助原图核对，不替代双语直接查看。",
+    "applicableEntries": [
+      "algorithmS"
+    ]
+  },
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc、最终VitePress路由/题答往返/全站搜索/线上下载与部署不在本页记录范围，由主任务统一执行。"
+  ]
+}

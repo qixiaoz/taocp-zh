@@ -1,0 +1,570 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页Markdown和中英文证据图字节。整节/整卷装订后须另作逐段包含和跨页合段证明，不能仅更换哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接查看本中文完整页图与对应英文页图，按段、公式、图表、习题逐项比较。实质订正和遗留差异分别登记；解析/复算不是目视和双语签核的替代。",
+  "cnPdfPage": 172,
+  "cnPrintedPage": 161,
+  "enPdfPages": [
+    227,
+    228
+  ],
+  "enPrintedPages": [
+    212,
+    213
+  ],
+  "pageMarkdownSha256": "e2dc00a1c2851f53b45dd5f30b97e80e538bb3f3cdc93ae75297e6ce6c1b075c",
+  "cnPageImage": "scans/172.jpg",
+  "cnPageImageSha256": "60e76e04f17f036b127b5e795443341d259b4d21711600ed47fbc6e02b893a4a",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-227.png",
+      "sha256": "bd58241753d23cc747763e0aaee70f5310e7b3dd68bc174b909071b2f985ae98"
+    },
+    {
+      "file": "verified-sources/en-228.png",
+      "sha256": "3debed55404d8f8314b053992e3f0c6cf594ee5e10b535b0dbeb32adda198358"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-172",
+    "p-161",
+    "ex-4-1-30",
+    "ex-4-1-31",
+    "ex-4-1-32",
+    "ex-4-1-33"
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号、书名/节名和页码；页码用隐藏锚点保留。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [
+    {
+      "id": "v2-4.1-ex32-quinary",
+      "section": "4.1 exercise32",
+      "cnPrintedPage": 161,
+      "enPdfPage": 228,
+      "enPrintedPage": 213,
+      "sourceText": "且四进制表示中只包含0、1和2。",
+      "finalText": "且五进制表示中只包含0、1和2。",
+      "evidence": "英文同题whose quinary representation uses only0s,1s,and2s；quinary为五进制，非四进制。",
+      "classification": "substantive-radix-correction"
+    }
+  ],
+  "preservedVersionDifferences": [
+    {
+      "section": "4.1 exercise31(d)",
+      "cnText": "对于整数n，sqrt(n)是二进数当且仅当…",
+      "enText": "when n is an integer, sqrt(n) is a2-adic number iff…",
+      "action": "两本同样未排除n=0。0是二进数且平方为0，但不存在k≥0使0 mod2^(2k+3)=2^(2k)。保留两本原文并标共同疑点，待主编决定补非零限定。",
+      "independentCounterexample": {
+        "n": 0,
+        "squareRoot": 0,
+        "rightHandSideNeverZero": true
+      }
+    }
+  ],
+  "coveredRegions": [
+    "习题30全部四小问。",
+    "习题31的二进数定义、7个例子（含sqrt(-7)双值）、全部四小问。",
+    "习题32/33完整题干，32的五进制订正。",
+    "习题31推荐三角。"
+  ],
+  "unverifiedPageRegions": [],
+  "numberedFormulaTags": [],
+  "mathExpressions": [
+    {
+      "sourceLine": 5,
+      "display": true,
+      "tex": "(-2)^{e_1}+(-2)^{e_2}+\\cdots+(-2)^{e_t},\\qquad\n e_1>e_2>\\cdots>e_t\\ge0,\\qquad t\\ge0",
+      "sha256": "bd1420fd363f8c7e4534bb6b964c9f148a1064ec8e2e5e0708c76f4ff761d382"
+    },
+    {
+      "sourceLine": 12,
+      "display": false,
+      "tex": "b_0,b_1,b_2,\\ldots",
+      "sha256": "64640bcd9686eed420e799675266d1686b618c4dc6d9c61c5e10890028a55b34"
+    },
+    {
+      "sourceLine": 12,
+      "display": false,
+      "tex": "n",
+      "sha256": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9"
+    },
+    {
+      "sourceLine": 14,
+      "display": true,
+      "tex": "n=b_{e_1}+b_{e_2}+\\cdots+b_{e_t},\\qquad\n e_1>e_2>\\cdots>e_t\\ge0,\\qquad t\\ge0",
+      "sha256": "487e1c5348be9cc4858669c7cd6921f7555d52e916445a0170e92dd2c1d3b830"
+    },
+    {
+      "sourceLine": 19,
+      "display": false,
+      "tex": "\\langle b_n\\rangle",
+      "sha256": "aa8561764d6be59c115031a10f8ae8b1234db94d1c782e41191e7beff8ba7512"
+    },
+    {
+      "sourceLine": 19,
+      "display": false,
+      "tex": "j",
+      "sha256": "189f40034be7a199f1fa9891668ee3ab6049f82d38c68be70f596eab2e1857b7"
+    },
+    {
+      "sourceLine": 19,
+      "display": false,
+      "tex": "b_j",
+      "sha256": "63b99e36c4729a30235c38cb4659f214f0cbcf509ed08d1c4dd4f8367768c1bd"
+    },
+    {
+      "sourceLine": 19,
+      "display": false,
+      "tex": "k\\ne j",
+      "sha256": "bd332ded416dc6d770be75fbeaead4776fb2394c3422395c3d98db5f156d9545"
+    },
+    {
+      "sourceLine": 19,
+      "display": false,
+      "tex": "b_k",
+      "sha256": "1063fe4f772a9631fefd74ef77aa6135c30c3f7e4d34ccf7313d24df95f2df6b"
+    },
+    {
+      "sourceLine": 21,
+      "display": false,
+      "tex": "\\langle b_n\\rangle",
+      "sha256": "aa8561764d6be59c115031a10f8ae8b1234db94d1c782e41191e7beff8ba7512"
+    },
+    {
+      "sourceLine": 21,
+      "display": false,
+      "tex": "d_0,2d_1,4d_2,\\ldots=\\langle2^nd_n\\rangle",
+      "sha256": "1d040343bbd5c47085c2697ffd56dfd9731201f09325c528a33f3ea0c864ad70"
+    },
+    {
+      "sourceLine": 21,
+      "display": false,
+      "tex": "d_k",
+      "sha256": "61f0cb69c9e8e1d33e548d24aa64c2421ff0749f97d2140db83993c74aa6971c"
+    },
+    {
+      "sourceLine": 23,
+      "display": false,
+      "tex": "d_0,d_1,d_2,\\ldots",
+      "sha256": "106f1d71413a8c93389ec1a3d84c27440a50dc8c11f9d901f2a88390c38c2590"
+    },
+    {
+      "sourceLine": 23,
+      "display": false,
+      "tex": "\\pm1",
+      "sha256": "ffb2fb9e9cda798cfc45c4a0d36efba8ba14b5a8ca7f985cec7326e2a2b2e149"
+    },
+    {
+      "sourceLine": 23,
+      "display": false,
+      "tex": "\\langle b_n\\rangle",
+      "sha256": "aa8561764d6be59c115031a10f8ae8b1234db94d1c782e41191e7beff8ba7512"
+    },
+    {
+      "sourceLine": 23,
+      "display": false,
+      "tex": "d_n",
+      "sha256": "a457d6261b7d457139402542189a381e818fb963bd5bfcc4ac95f07b7057f1fb"
+    },
+    {
+      "sourceLine": 23,
+      "display": false,
+      "tex": "+1",
+      "sha256": "c59dc4e44ff99288156d4dff2168f6ac7ddee6b1fc7ccc0754656ffaa6d351ea"
+    },
+    {
+      "sourceLine": 23,
+      "display": false,
+      "tex": "-1",
+      "sha256": "1bad6b8cf97131fceab8543e81f7757195fbb1d36b376ee994ad1cf17699c464"
+    },
+    {
+      "sourceLine": 25,
+      "display": false,
+      "tex": "7,-13\\cdot2,7\\cdot2^2,-13\\cdot2^3,\\ldots,7\\cdot2^{2k},-13\\cdot2^{2k+1},\\ldots",
+      "sha256": "fe17ff0b429586f4f740bcf0456bca1a600915da52267c24dcc68e9efe93133e"
+    },
+    {
+      "sourceLine": 25,
+      "display": false,
+      "tex": "n=1",
+      "sha256": "a269f7e0d4a254365349105ee199a0ce49a424c9e6d1af17b2a25d32258c6ad5"
+    },
+    {
+      "sourceLine": 27,
+      "display": false,
+      "tex": "p",
+      "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940"
+    },
+    {
+      "sourceLine": 27,
+      "display": false,
+      "tex": "p",
+      "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940"
+    },
+    {
+      "sourceLine": 29,
+      "display": true,
+      "tex": "u=(\\ldots u_3u_2u_1u_0.u_{-1}\\ldots u_{-n})_2,",
+      "sha256": "d4af19032a326102931e1e7b9ed3120f545957259009e0d60ea509714f5b1c8d"
+    },
+    {
+      "sourceLine": 35,
+      "display": true,
+      "tex": "\\begin{aligned}\n7&=(\\ldots000000000000111)_2\n&\\frac17&=(\\ldots110110110110111)_2\\\\\n-7&=(\\ldots111111111111001)_2\n&-\\frac17&=(\\ldots001001001001001)_2\\\\\n\\frac74&=(\\ldots000000000000001.11)_2\n&\\frac1{10}&=(\\ldots110011001100110.1)_2.\n\\end{aligned}",
+      "sha256": "2230b8776d837f40b443cea0b19b21afa4c386a678df74c74560444cc6e2088c"
+    },
+    {
+      "sourceLine": 46,
+      "display": true,
+      "tex": "\\sqrt{-7}=(\\ldots100000010110101)_2\\quad\\text{或}\\quad(\\ldots011111101001011)_2.",
+      "sha256": "cb9bdff007f1cf38aa03ce96458f16c9dfa36792f652abadf95e2bb26aa3d213"
+    },
+    {
+      "sourceLine": 50,
+      "display": false,
+      "tex": "-7",
+      "sha256": "a770d3270c9dcdedf12ed9fd70444f7c8a95c26cae3cae9bd867499090a2f14b"
+    },
+    {
+      "sourceLine": 50,
+      "display": false,
+      "tex": "-7+7=(\\ldots00000)_2=0",
+      "sha256": "fff8ee1d9bd100afe209919caaf7b535cfd0c6c9789689a2e74d3480d76e12da"
+    },
+    {
+      "sourceLine": 50,
+      "display": false,
+      "tex": "\\frac17",
+      "sha256": "10700c4e5630a57764d5157015e1257a0fd70699af4d1c88f4f4cb6ecb517312"
+    },
+    {
+      "sourceLine": 50,
+      "display": false,
+      "tex": "-\\frac17",
+      "sha256": "cdbe7ca2cc0070929beea914fe8bae4b658e867303f476874ceca0f5e66c7b61"
+    },
+    {
+      "sourceLine": 50,
+      "display": false,
+      "tex": "-1",
+      "sha256": "1bad6b8cf97131fceab8543e81f7757195fbb1d36b376ee994ad1cf17699c464"
+    },
+    {
+      "sourceLine": 50,
+      "display": false,
+      "tex": "\\frac74",
+      "sha256": "8e56bbb86348c5d9bbbf0c02c454df59edd43f3c16e213db56a82892a72908a8"
+    },
+    {
+      "sourceLine": 50,
+      "display": false,
+      "tex": "\\frac1{10}",
+      "sha256": "858036e4012c5596377004033f0eac6453ca5e6a6684aeead69e6f701e4953be"
+    },
+    {
+      "sourceLine": 50,
+      "display": false,
+      "tex": "\\sqrt{-7}",
+      "sha256": "590a5430748382d51f5f6960340133be3d0db742df2f314d30b652c8337bfedc"
+    },
+    {
+      "sourceLine": 50,
+      "display": false,
+      "tex": "(\\ldots111111111111001)_2",
+      "sha256": "113e206054e98efe01eec3008d7e4b91181236040edbbc65e68c8d0bbfa8ed99"
+    },
+    {
+      "sourceLine": 52,
+      "display": false,
+      "tex": "u",
+      "sha256": "0bfe935e70c321c7ca3afc75ce0d0ca2f98b5422e008bb31c00c6d7f1f1c0ad6"
+    },
+    {
+      "sourceLine": 52,
+      "display": false,
+      "tex": "v",
+      "sha256": "4c94485e0c21ae6c41ce1dfe7b6bfaceea5ab68e40a2476f50208e526f506080"
+    },
+    {
+      "sourceLine": 52,
+      "display": false,
+      "tex": "u=vw",
+      "sha256": "1b12fdef20d9ce14b5333f1e7040ee08adb759641ad4617a67dea1573df313d1"
+    },
+    {
+      "sourceLine": 52,
+      "display": false,
+      "tex": "w",
+      "sha256": "50e721e49c013f00c62cf59f2163542a9d8df02464efeb615d31051b0fddc326"
+    },
+    {
+      "sourceLine": 54,
+      "display": false,
+      "tex": "n",
+      "sha256": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9"
+    },
+    {
+      "sourceLine": 54,
+      "display": false,
+      "tex": "-1/(2n+1)",
+      "sha256": "55f91e4e2d9d33174dda913e2f75f78ff717ad093548f52ea95a4f6062d918f3"
+    },
+    {
+      "sourceLine": 54,
+      "display": false,
+      "tex": "+1/(2n+1)",
+      "sha256": "4de09b3de9a0de0a318ac2f9071addfcbab40bf067f591ea2eaba541151cb0a7"
+    },
+    {
+      "sourceLine": 54,
+      "display": false,
+      "tex": "(0.\\alpha\\alpha\\alpha\\ldots)_2",
+      "sha256": "b76b61c0db099267878c4f9dcc5b5f6e4db44b1ce4b0d3cd889be7d64b79577d"
+    },
+    {
+      "sourceLine": 54,
+      "display": false,
+      "tex": "\\alpha",
+      "sha256": "4893e9df8b5496ebe7a0f1c2cc92a39fb6df03085030e3b97cfcc4d45136db5a"
+    },
+    {
+      "sourceLine": 54,
+      "display": false,
+      "tex": "-1/(2n+1)",
+      "sha256": "55f91e4e2d9d33174dda913e2f75f78ff717ad093548f52ea95a4f6062d918f3"
+    },
+    {
+      "sourceLine": 54,
+      "display": false,
+      "tex": "(\\ldots\\alpha\\alpha\\alpha)_2",
+      "sha256": "97d198f9ecc1e52221cd25a089be847e43f8ad0233a623af56d518677741b69a"
+    },
+    {
+      "sourceLine": 56,
+      "display": false,
+      "tex": "u",
+      "sha256": "0bfe935e70c321c7ca3afc75ce0d0ca2f98b5422e008bb31c00c6d7f1f1c0ad6"
+    },
+    {
+      "sourceLine": 56,
+      "display": false,
+      "tex": "\\lambda\\ge1",
+      "sha256": "58e0feb816d6f4f6bd4bebeffab3b66f7a519faeb4ca91989a4b42a63c98730c"
+    },
+    {
+      "sourceLine": 56,
+      "display": false,
+      "tex": "N",
+      "sha256": "8ce86a6ae65d3692e7305e2c58ac62eebd97d3d943e093f577da25c36988246b"
+    },
+    {
+      "sourceLine": 56,
+      "display": false,
+      "tex": "u_{N+\\lambda}=u_N",
+      "sha256": "f3484f3a6b6d4d8e5f5a88a2b4fd0c2602d566d5f6627db9a8e1257102f77ca2"
+    },
+    {
+      "sourceLine": 56,
+      "display": false,
+      "tex": "u",
+      "sha256": "0bfe935e70c321c7ca3afc75ce0d0ca2f98b5422e008bb31c00c6d7f1f1c0ad6"
+    },
+    {
+      "sourceLine": 56,
+      "display": false,
+      "tex": "m",
+      "sha256": "62c66a7a5dd70c3146618063c344e531e6d4b59e379808443ce962b3abd63c5a"
+    },
+    {
+      "sourceLine": 56,
+      "display": false,
+      "tex": "n",
+      "sha256": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9"
+    },
+    {
+      "sourceLine": 56,
+      "display": false,
+      "tex": "u=m/n",
+      "sha256": "8ae3da054e612ad34ba6e3503931c2cea97c2ca553058e60a342b64517f2a5fa"
+    },
+    {
+      "sourceLine": 58,
+      "display": false,
+      "tex": "n",
+      "sha256": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9"
+    },
+    {
+      "sourceLine": 58,
+      "display": false,
+      "tex": "\\sqrt n",
+      "sha256": "ccadf00762a5ba4f70f7ba96cc064865634fceafb7687b499f57e28ab37bec5b"
+    },
+    {
+      "sourceLine": 58,
+      "display": false,
+      "tex": "k",
+      "sha256": "8254c329a92850f6d539dd376f4816ee2764517da5e0235514af433164480d7a"
+    },
+    {
+      "sourceLine": 58,
+      "display": false,
+      "tex": "n\\bmod2^{2k+3}=2^{2k}",
+      "sha256": "3a6571b88fc7eca2a769c9f7fb58db5f4275e58a7ecde197cb4980865d8bdaf7"
+    },
+    {
+      "sourceLine": 58,
+      "display": false,
+      "tex": "n\\bmod8=1",
+      "sha256": "da9b79b30a7200239b6bc1399227c57c00c28f5778f10702334d1a1a449864ef"
+    },
+    {
+      "sourceLine": 58,
+      "display": false,
+      "tex": "n\\bmod32=4",
+      "sha256": "ffa5ec435834b19c55939135b59e4550010205cbdbf0e977725ae780a64fd06a"
+    },
+    {
+      "sourceLine": 62,
+      "display": false,
+      "tex": "D",
+      "sha256": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43"
+    },
+    {
+      "sourceLine": 62,
+      "display": false,
+      "tex": "b",
+      "sha256": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d"
+    },
+    {
+      "sourceLine": 62,
+      "display": false,
+      "tex": "k_n",
+      "sha256": "b35f8ec2c58ce5a06cf9ddca72fa039801cfaf48a5b2ddfdced7ef87568b2b5e"
+    },
+    {
+      "sourceLine": 62,
+      "display": false,
+      "tex": "n",
+      "sha256": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9"
+    },
+    {
+      "sourceLine": 62,
+      "display": false,
+      "tex": "b",
+      "sha256": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d"
+    },
+    {
+      "sourceLine": 62,
+      "display": false,
+      "tex": "(a_{n-1}\\ldots a_1a_0)_b",
+      "sha256": "947238e3ad0f11f3595aa055db330c07fe448999111c956f6d9e900a73af333f"
+    },
+    {
+      "sourceLine": 62,
+      "display": false,
+      "tex": "a_i",
+      "sha256": "6d7097da4387177a833fd7b776fd7c78535cb0be29b4b664f83d0db929f3e04c"
+    },
+    {
+      "sourceLine": 62,
+      "display": false,
+      "tex": "D",
+      "sha256": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43"
+    },
+    {
+      "sourceLine": 62,
+      "display": false,
+      "tex": "\\langle k_n\\rangle",
+      "sha256": "6d46f246d3f73f7dc0827ff34d632fcefb09773e46a1895a1d63d7a7fd0f435d"
+    },
+    {
+      "sourceLine": 62,
+      "display": false,
+      "tex": "\\sum_n k_nz^n",
+      "sha256": "7feb15821d040bb885af14c6e57886f3ef60f155785f3a1feb947e7160fccfd7"
+    },
+    {
+      "sourceLine": 62,
+      "display": false,
+      "tex": "b=3",
+      "sha256": "d20143f4707a3eb55e638db70075dcb5297715c5d341e84fc78df81915db0e43"
+    },
+    {
+      "sourceLine": 62,
+      "display": false,
+      "tex": "D=\\{-1,0,3\\}",
+      "sha256": "df0725cfe7e8df18458e10aac375eff7b5950b3f2fabde8dee0a0ed94618948e"
+    },
+    {
+      "sourceLine": 62,
+      "display": false,
+      "tex": "k_n",
+      "sha256": "b35f8ec2c58ce5a06cf9ddca72fa039801cfaf48a5b2ddfdced7ef87568b2b5e"
+    }
+  ],
+  "exerciseNumbers": [
+    30,
+    31,
+    32,
+    33
+  ],
+  "answerLinkStatus": "not-yet-added-awaiting-verified-answer-transcription",
+  "numericalChecks": {
+    "meaning": "独立复算辅助，不替代原页/英文视觉核查。",
+    "results": {
+      "dyadicPrefixBits": 15,
+      "reciprocal7PrefixCheck": 1,
+      "negativeReciprocal7PrefixCheck": 32767,
+      "reciprocal10PrefixCheck": "2×(1/10)=1/5；(1100110011001101)_2×5 mod2^16=1",
+      "sqrtNegative7PrefixSquares": [
+        32761,
+        32761
+      ],
+      "expectedNegative7Modulus": 32761
+    }
+  },
+  "crossPageBlocks": {
+    "unclosedCodeFences": false,
+    "unclosedDisplayMath": false,
+    "unclosedTables": false,
+    "note": "本十页没有跨页程序或逻辑表；165脚注单独分配，正文跨页接续见下。"
+  },
+  "untested": [
+    "最终母稿包含关系、跨页合段和题答链接。",
+    "正式VitePress及Pandoc整卷排版。"
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 72,
+    "parseErrors": 0,
+    "footnoteDefinitions": 0,
+    "footnoteReferences": 0,
+    "meaning": "只证明单页Markdown可排版；内容依另列的中英文页图逐项检查。"
+  },
+  "markdownIntegrity": {
+    "uniquePageAnchors": true,
+    "unexpectedControlCharacters": 0,
+    "balancedCodeFences": true
+  }
+}

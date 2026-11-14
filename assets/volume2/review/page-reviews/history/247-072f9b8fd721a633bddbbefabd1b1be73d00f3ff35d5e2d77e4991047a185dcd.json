@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.3",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订另证包含和跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型实际查看中文整页与列出的英文原页图片，逐段、逐式、表单元、算法、图线和难度推荐符号对照；不声称人类签核。",
+  "cnPdfPage": 247,
+  "cnPrintedPage": 236,
+  "enPdfPages": [
+    322,
+    323
+  ],
+  "enPrintedPages": [
+    307,
+    308
+  ],
+  "pageMarkdownSha256": "1f86395613ff7d987c4f521673644473cb2ea6f9577e571be3b2f3ec8f7fc36e",
+  "cnPageImage": "scans/247.jpg",
+  "cnPageImageSha256": "42bb181c89c70f40e3bf02b37cf50e6de372925ecc24c657c4164166656ac256",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-322.png",
+      "sha256": "a1e5df6e12b8a124b0594b659397ca298d085cda215a8651a08af7bb5b5e200b"
+    },
+    {
+      "file": "verified-sources/en-323.png",
+      "sha256": "a92dc7706330d3e6c624a33d5d06bf47581d17b39d776824fd58a50ed252e019"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-247",
+    "p-236"
+  ],
+  "coveredRegions": [
+    "位分组式42–44、缩放与幅度界、二进制长度。",
+    "FFT例5×9表全部四通道数据/共轭线、alpha/beta定义。",
+    "m位精度全部讨论和实数数据优化说明。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "42",
+    "43",
+    "44"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pending-actual-answer-area-verification",
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuationNotes": "末段完整，248首表1为独立浮动表，不跨页合表。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 91,
+    "parseErrors": 0,
+    "codeLines": [],
+    "meaning": "语法与机器检查只作辅助，内容依中英文实际原图。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "完整母稿装订与全部题答双链",
+    "整卷Pandoc/VitePress和线上发布验收"
+  ],
+  "browserCheck": {
+    "tool": "Playwright with isolated local Chrome; Browser plugin unavailable",
+    "scope": "Private independent page proof, not final website or full-volume Pandoc",
+    "viewports": [
+      1280,
+      390
+    ],
+    "report": "arithmetic-work/browser-244-255.json",
+    "reportSha256": "5d102d8af2691b4a3f31173343d2036c95f1c6c1018b721920e5b59f65679f59",
+    "currentPageSha256": "1f86395613ff7d987c4f521673644473cb2ea6f9577e571be3b2f3ec8f7fc36e",
+    "cases": 2,
+    "noPageErrors": true,
+    "noMissingImages": true,
+    "noDocumentOverflow": true,
+    "noHiddenMathmlSwallowing": true,
+    "allMeasuredHorizontalScrollEndsReachable": true,
+    "screenshotsDirectlyInspectedWidths": [
+      1280
+    ],
+    "meaning": "DOM checks executed on every page; directly inspected selected formula/table/figure/algorithm screenshots, with separate long-formula/table endpoints."
+  },
+  "numericCheck": {
+    "report": "arithmetic-work/numeric-check.json",
+    "reportSha256": "5fcbdb25d5d70651bc6a9ef3cc97d19035f14312384a3c153f6066e650a7c56a",
+    "meaning": "Finite exact/sample recomputations supplement direct CN/EN image review; all related source MD hashes recorded. Not a general proof."
+  }
+}

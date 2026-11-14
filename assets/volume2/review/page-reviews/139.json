@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "只绑定单页稿；装订母稿另作包含证明，不能修改历史哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "originalFootnoteKeys": [],
+  "unverifiedPageRegions": [],
+  "cnPdfPage": 139,
+  "cnPrintedPage": 128,
+  "section": "3.5",
+  "enPdfPages": [
+    184,
+    185
+  ],
+  "enPrintedPages": [
+    169,
+    170
+  ],
+  "pageMarkdownSha256": "def842b966f95b6ce2a4890812652b979ef85677aa9ef86eb9d366a4bd171276",
+  "cnPageImageSha256": "970055036cd79b0925f560a9d0ba9983ed36544655116d8cd31e3e6edc74ca7f",
+  "enPageImageSha256": {
+    "184": "bbcf8bc4e25bcfcbd4be626667f3f25a5ac74974460ba0ffd6764c2fc10454a3",
+    "185": "8573d170f75a00b147d3926cbeb758bc97a6d559558c624325bf604ab80c7b72"
+  },
+  "coveredRegions": [
+    "Q2四条规则的完整条件、23条8位串表和互补说明、Kolmogorov界式(37)、Q1构造/傅里叶检验引用、Martin-Löf/Chaitin/Levin历史与文献、F标题和N源定义至续字。"
+  ],
+  "explicitAnchors": [
+    "pdf-139",
+    "p-128"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，原页定位以隐藏锚点保存。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 27,
+    "displayExpressions": 1,
+    "footnotes": 0,
+    "parseErrors": 0
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "2df4b6478c629edfae497fe5601bf55798522310a932f6945233cf4e4bc195cd",
+    "visualReviewSha256": "c503255a8c760487c841b617e3f3b7abb7654a4b066c605123ccc6b57b012a9c",
+    "browserAvailability": "Browser plugin not available; task-authorized bundled Playwright + isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 27,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 27,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "bb5e9e541e1937a23e38c2d17b8dc7eac95c55ca59b1598914ef138e017d7aa8",
+  "numericalCheckQualification": "有限计数例和源表全枚举辅助复核，不将数值检查宣称为定理W/M的一般证明。",
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "continuation": {
+    "begins_mid_sentence_from_pdf_page": 138,
+    "starts_mid_paragraph": true,
+    "left_end": "随机的，如果",
+    "right_start": "由(a)，",
+    "ends_mid_word": true,
+    "continues_to_pdf_page": 140,
+    "page_end": "$S$ 的每个元素代表一个可能用作伪随机",
+    "next_start_expected": "位源的序列",
+    "instruction": "138→139首条件接续；139→140末句接“伪随机位源”，母稿可将新页锚点移入文字，勿进数学块。",
+    "next_start_verified_against_cn_pdf_page": 140
+  },
+  "exerciseNumbers": [],
+  "answerExceptions": [],
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc/VitePress、全站题答/索引/搜索/线上下载和部署由主任务执行。"
+  ],
+  "binaryTableCheck": {
+    "explicitStrings": 23,
+    "stringLength": 8,
+    "withComplements": 46,
+    "exhaustiveUniverse": 256,
+    "fourSubsequenceRulesMatchExactly": true
+  }
+}

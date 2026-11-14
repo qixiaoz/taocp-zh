@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "3.6",
+  "reviewDate": "2026-11-14",
+  "reviewerType": "model-direct-page-image-comparison",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "7ed0e118b21fbcb6e4b9f66c272fa3044c5654fab8a7a7aa60198afaeb7a9897",
+  "cnPdfPage": 150,
+  "cnPrintedPage": 139,
+  "enPdfPages": [
+    199,
+    200
+  ],
+  "enPrintedPages": [
+    184,
+    185
+  ],
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "reviewScope": "整页标题、两个开头段落、式(1)、八条原则及末段跨页起句；所有正文与行内式均直接查看中英图像比较。",
+  "pageFurnitureOmitted": [
+    "页眉节号/标题/页号"
+  ],
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuation": "末句以“通常为2^32或”衔接151页的2^64",
+  "substantiveCorrections": [
+    {
+      "section": "3.6",
+      "cnPrintedPage": 139,
+      "enPdfPage": 200,
+      "enPrintedPage": 185,
+      "original": "为了计算k−1之间的随机整数",
+      "final": "为了计算0和k−1之间的随机整数",
+      "basis": "中文原页(vi)确实缺少下界；英文同项明确between 0 and k−1。保留原句并补回有证据的“0和”。",
+      "cnEvidence": {
+        "path": "cn-150-vi.png",
+        "sha256": "8db8d8871e73b6d893e5cc702b94b4fee4b68ce2822b12aac43ce4ca3d7a5a88"
+      }
+    }
+  ],
+  "uncertainties": [],
+  "pending": [
+    "Final master inclusion proof",
+    "Final rendered whole-book layout"
+  ],
+  "cnEvidence": [
+    {
+      "path": "cn-150.png",
+      "sha256": "c3cec38c3cd147a31d0a9a79b05e4a254b2f97e34d431ca1615a39f50c173af8",
+      "viewedDirectly": true
+    },
+    {
+      "path": "cn-150-vi.png",
+      "sha256": "8db8d8871e73b6d893e5cc702b94b4fee4b68ce2822b12aac43ce4ca3d7a5a88",
+      "viewedDirectly": true
+    }
+  ],
+  "enEvidence": [
+    {
+      "path": "en-199.png",
+      "sha256": "5767abb04610d7ca18dbd293723c161deff798c3af9f0545c620d0191c6afea9",
+      "viewedDirectly": true
+    },
+    {
+      "path": "en-200.png",
+      "sha256": "52c4adbc3970fa1c99b10ad5e28e2f9b216a11299985a5ce22338854ee6b737f",
+      "viewedDirectly": true
+    }
+  ],
+  "mathSyntax": {
+    "renderer": "current VitePress and KaTeX",
+    "expressions": 60,
+    "errors": 0
+  }
+}

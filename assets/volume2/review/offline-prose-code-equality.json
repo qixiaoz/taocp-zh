@@ -1,0 +1,25 @@
+{
+  "sourceSha256": "c8ec35b2d7d5fdcc32c8059dd7197227f387a443b96eea49b61af8e2fcfca163",
+  "offlineHtmlSha256": "57edad537dca9ce1c3959e4cf06389c63f44fe130f13b5bfd31889e0412302dc",
+  "rendererSha256": "6d485e8070741ca8395c6fe76c88e5c576a77118ec4f62c7916476bced314341",
+  "method": "Use configured website markdown-it renderer with bookDirectHTML:true and replace only its math token renderers by empty placeholders. Strip exact math/UI footnote/permalink classes, compare all remaining visible text with whitespace runs normalized, and mark code positions while comparing code itself independently.",
+  "mathTokens": 32487,
+  "expectedMathShouldBe": 32487,
+  "removedMathElements": {
+    "expected": 32487,
+    "actual": 66800
+  },
+  "strictVisibleTextEqual": true,
+  "visibleTextDifference": null,
+  "code": {
+    "expectedPre": 77,
+    "actualPre": 77,
+    "strictBlocksEqual": true,
+    "blocksEqualAfterOptionalSingleTerminalLf": true,
+    "expectedInline": 294,
+    "actualInline": 294,
+    "inlineEqual": true
+  },
+  "paragraphPunctuationNormalization": "none; only whitespace runs normalized. If smart typography differs, inspect exact changes separately rather than ignoring all punctuation.",
+  "qualification": "Current frozen native offline proof only. Mathematical equivalence/render correctness and responsive UI are separate checks."
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="300" viewBox="0 0 1120 300" role="img" aria-labelledby="title desc">
+<title id="title">图6 为间隙检验收集数据</title>
+<desc id="desc">入口至G1初始化、G2置r为0、G3判断α≤U_j小于β；否至G4使r增值再回G3，是至G5记录间隙长度；G5至G6判断是否找到n个间隙，否回G2，是退出。</desc>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L10 6L1 11" fill="none" stroke="#222" stroke-width="1.5"/></marker></defs>
+<rect width="1120" height="300" fill="white"/>
+<g fill="none" stroke="#222" stroke-width="1.5" marker-end="url(#arrow)">
+<path d="M95 10V60"/><path d="M175 85H280"/><path d="M450 85H565"/>
+<path d="M795 85H900"/><path d="M975 60V10H680V60"/>
+<path d="M680 110V180"/><path d="M610 205H485"/><path d="M365 180V110"/><path d="M365 230V290"/>
+</g>
+<g stroke="#222" stroke-width="1.5" fill="white">
+<rect x="20" y="60" width="155" height="50"/><rect x="280" y="60" width="170" height="50"/>
+<rect x="565" y="60" width="230" height="50" rx="25"/>
+<rect x="900" y="60" width="150" height="50"/>
+<rect x="610" y="180" width="235" height="50"/>
+<rect x="245" y="180" width="240" height="50" rx="25"/>
+</g>
+<g font-family="'Noto Serif CJK SC','Songti SC','SimSun',serif" font-size="23" fill="#222" text-anchor="middle" dominant-baseline="middle">
+<text x="97.5" y="86">G1. 初始化</text>
+<text x="365" y="86">G2. 置 <tspan font-style="italic">r</tspan> 为0</text>
+<text x="680" y="86">G3. α ≤ <tspan font-style="italic">U</tspan><tspan baseline-shift="sub" font-size="16">j</tspan> &lt; β?</text>
+<text x="975" y="86">G4. <tspan font-style="italic">r</tspan> 增值</text>
+<text x="727.5" y="206">G5. 记录间隙长度</text>
+<text x="365" y="206">G6. 找到 <tspan font-style="italic">n</tspan> 个间隙?</text>
+<text x="816" y="70">否</text><text x="697" y="131">是</text>
+<text x="383" y="157">否</text><text x="384" y="250">是</text>
+</g></svg>

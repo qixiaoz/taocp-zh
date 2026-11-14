@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1245" height="260" viewBox="0 0 1245 260" role="img" aria-labelledby="title desc">
+<title id="title">加法链1,2,3,6,12,15,27,39,78,79的有向图</title>
+<desc id="desc">10个顶点，18条有向弧；平行弧分别保留，用来表示重复使用同一加数。</desc>
+<rect width="1245" height="260" fill="white"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#222" stroke-width="1.5"/></marker></defs>
+<g fill="none" stroke="#222" stroke-width="1.5">
+<path data-from="1" data-to="2" d="M83 215 H161" marker-end="url(#arrow)"/>
+<path data-from="1" data-to="2" d="M69 194 C91.25 125.0 153.75 125.0 175 193" marker-end="url(#arrow)"/>
+<path data-from="1" data-to="3" d="M69 194 C122.5 130.0 247.5 130.0 300 193" marker-end="url(#arrow)"/>
+<path data-from="2" data-to="3" d="M208 215 H286" marker-end="url(#arrow)"/>
+<path data-from="3" data-to="6" d="M333 215 H411" marker-end="url(#arrow)"/>
+<path data-from="3" data-to="6" d="M319 194 C341.25 125.0 403.75 125.0 425 193" marker-end="url(#arrow)"/>
+<path data-from="6" data-to="12" d="M458 215 H536" marker-end="url(#arrow)"/>
+<path data-from="6" data-to="12" d="M444 194 C466.25 125.0 528.75 125.0 550 193" marker-end="url(#arrow)"/>
+<path data-from="3" data-to="15" d="M319 194 C403.75 110.0 591.25 110.0 675 193" marker-end="url(#arrow)"/>
+<path data-from="12" data-to="15" d="M583 215 H661" marker-end="url(#arrow)"/>
+<path data-from="12" data-to="27" d="M569 194 C622.5 130.0 747.5 130.0 800 193" marker-end="url(#arrow)"/>
+<path data-from="15" data-to="27" d="M708 215 H786" marker-end="url(#arrow)"/>
+<path data-from="12" data-to="39" d="M569 194 C653.75 110.0 841.25 110.0 925 193" marker-end="url(#arrow)"/>
+<path data-from="27" data-to="39" d="M833 215 H911" marker-end="url(#arrow)"/>
+<path data-from="39" data-to="78" d="M958 215 H1036" marker-end="url(#arrow)"/>
+<path data-from="39" data-to="78" d="M944 194 C966.25 125.0 1028.75 125.0 1050 193" marker-end="url(#arrow)"/>
+<path data-from="1" data-to="79" d="M69 194 C341.25 18 903.75 18 1175 193" marker-end="url(#arrow)"/>
+<path data-from="78" data-to="79" d="M1083 215 H1161" marker-end="url(#arrow)"/>
+</g>
+<g fill="white" stroke="#222" stroke-width="1.5">
+<circle data-node="1" cx="60" cy="215" r="23"/>
+<circle data-node="2" cx="185" cy="215" r="23"/>
+<circle data-node="3" cx="310" cy="215" r="23"/>
+<circle data-node="6" cx="435" cy="215" r="23"/>
+<circle data-node="12" cx="560" cy="215" r="23"/>
+<circle data-node="15" cx="685" cy="215" r="23"/>
+<circle data-node="27" cx="810" cy="215" r="23"/>
+<circle data-node="39" cx="935" cy="215" r="23"/>
+<circle data-node="78" cx="1060" cy="215" r="23"/>
+<circle data-node="79" cx="1185" cy="215" r="23"/>
+</g>
+<g fill="#222" font-family="Times New Roman,serif" font-size="28" text-anchor="middle" dominant-baseline="central">
+<text x="60" y="215">1</text>
+<text x="185" y="215">2</text>
+<text x="310" y="215">3</text>
+<text x="435" y="215">6</text>
+<text x="560" y="215">12</text>
+<text x="685" y="215">15</text>
+<text x="810" y="215">27</text>
+<text x="935" y="215">39</text>
+<text x="1060" y="215">78</text>
+<text x="1185" y="215">79</text>
+</g>
+</svg>

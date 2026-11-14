@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "只绑定单页稿；装订母稿另作包含证明，不能修改旧证据哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "cnPdfPage": 129,
+  "cnPrintedPage": 118,
+  "section": "3.5",
+  "enPdfPages": [
+    170,
+    171
+  ],
+  "enPrintedPages": [
+    155,
+    156
+  ],
+  "pageMarkdownSha256": "a78283464ff6ac0ed6e789e07fd630a2a09a128a0d2e63fa047565538becdde4",
+  "cnPageImageSha256": "0aa88fc91d94d8025e45bc43473a9abb05eb15ef1a3d0325bce53c429d8ae296",
+  "enPageImageSha256": {
+    "170": "e9ef192bc6120571466433cbed02dc77ea7aaf0f3092d04410188ffff091e729",
+    "171": "6a17764b996af2f487c4c9c468ce269357c0b910451283c95b7da46635c1ce2f"
+  },
+  "coveredRegions": [
+    "定义E续释、性质式(12)(13)、定理C和证明、引理E式(14)、出现位置记数、式(15)–(18)全部；英文独有段不补入中文。"
+  ],
+  "explicitAnchors": [
+    "pdf-129",
+    "p-118"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码；原页定位以隐藏锚点保存。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 48,
+    "displayExpressions": 7,
+    "parseErrors": 0
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "7e08520b73c168d771f12c3af7ba95a76c8b5b3b05926e43009495f362db32ea",
+    "visualReviewSha256": "f5ab29e7886c99c98ed3ec6a498d9e354ca1abae4d872419c7f7e1cca4924b9a",
+    "browserAvailability": "Browser plugin not available; bundled Playwright + task-authorized isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 48,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingDisplayBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 48,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingDisplayBlocks": 6,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "1a32ba180c35d113d6387c75f8a06d5236908247109e699902ad5b808ac8fe13",
+  "numericalCheckQualification": "仅周期16完整块计数、单项式积分值、有限求和辅助；不声称数值验证证明了定理A/B/C/F。",
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "式(13)与“下一个定理”之间",
+      "cnPrintedPage": 118,
+      "enPdfPage": 170,
+      "enPrintedPage": 155,
+      "cnBefore": "对于m的所有因子d，(m,k)分布序列是(d,k)分布的。(13)",
+      "cnAfter": "下一个定理在许多方面都相当令人吃惊。",
+      "englishOnlyParagraph": "(See exercise 8.) We can also define the concept of an (m,k)-distributed b-ary sequence, as in Definition D; and the proof of Theorem A remains valid for (m,k)-distributed sequences.",
+      "candidateTranslation": "（见习题8。）像定义D一样，我们还可以定义(m,k)分布的b进制序列；定理A的证明对于(m,k)分布序列仍然成立。",
+      "relatedCnProof": "同页定理C证明首句“利用前述定理A的推广”呼应英文独有段；中文邻页126–130均已直接核清。",
+      "disposition": "疑似漏译或版本差异，保留中文底本，不把候选译文加入正文。中文2016第三版与英文2014数字版未被证明逐段同一印次；仅凭引用关系不足以排除删节/新增版差。待同一原印版或作者勘误等进一步证据。"
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "ends_with_complete_display": true,
+    "next_pdf_page": 130,
+    "left_end": "C(n)=\\sum_{0\\le j<m}\\binom{\\nu_j(n)-\\nu_j(n-q)}2.\\tag{18}",
+    "right_start": "这是 $x$ 在位置 $p_1$ 和 $p_2$ 出现的对偶个数",
+    "instruction": "逻辑解释续到130首段，但式(18)本身完整，不跨公式合并。"
+  },
+  "exerciseNumbers": [],
+  "answerExceptions": [],
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc/VitePress、全站题答/索引/搜索/线上下载和发布由主任务执行。"
+  ]
+}

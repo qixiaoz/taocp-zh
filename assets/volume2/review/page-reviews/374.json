@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "section": "4.6.3",
+  "sections": [
+    "4.6.3"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 374,
+  "cnPrintedPage": 363,
+  "enPdfPages": [
+    482,
+    483
+  ],
+  "enPrintedPages": [
+    467,
+    468
+  ],
+  "pageMarkdownSha256": "d24079ac3448caa22e55abb012cddbf3ffda37ab8afa816d5c7909b382ae974d",
+  "masterSha256": null,
+  "cnPageImage": "scans/374.jpg",
+  "cnPageImageSha256": "3c4d7f558153bf0b986fd9945bee05da92dd81ac9b6a84dbd136623b31377d57",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-482.png",
+      "sha256": "8562af862b652d33fd329c2226ad21802acce5f4389ce0e1a1738a908d85bfeb"
+    },
+    {
+      "file": "source-audit/en-render/page-483.png",
+      "sha256": "ed8948be736af4afb63c763da08a708d598c1655bb1dd56f62fea8ba670c900f"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-374",
+    "p-363"
+  ],
+  "numberedFormulaTags": [
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "coveredRegions": [
+    "11续证、12全部j/k择优/翻倍/星/小步定义及彼此关系、星链和13；定理A14三情形完整证明、15、推论A16及黄金比分式推导。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 71,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch369-numeric-check.json",
+  "numericScope": "Specific source figures14/15 all162 paths and finite complete minimum-search certificate n1..233; source23 table/invariant; exact BFSpower-tree/factor-method comparison of all100000targets. Bound checks on displayed finite paths do not establish general TheoremA/B/C or optimality beyond exact finite targets.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch369-proof.html",
+    "htmlSha256": "e24a22ea40a6ff98699a885a0e570ea160b00c66ba308e3fe825d8c70166798a",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch369-proof-1280-374.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch369-proof-390-374.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 466,
+    "scrollableElementCounts": {
+      "1280": 48,
+      "390": 64
+    },
+    "machineObservations": ".work/volume2/source-audit/batch369-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "startsMidParagraph": {
+    "previousCnPdfPage": 373,
+    "previousEnd": "完整式(11)闭合",
+    "start": "因为如果两个$a_j$相等",
+    "afterClosedDisplay": true
+  }
+}

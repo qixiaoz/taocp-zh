@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "section": "answers3.6 plus adjacent original-page items where present",
+  "pdf_page": 484,
+  "printed_page": 473,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "d6abced856c001535f1d1e17ef40a5662f8d725aa0873b2248835d305e288143",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound; current evidence refers to this exact page file",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/source-audit/cn-render/full-484.png",
+    "scope": "complete page: every prose paragraph, formula, program row, label, opcode/operator, comment, number and original item numbering; running page headers omitted from prose",
+    "source_image_sha256": "e7a01ee6c356c74f9e5a4028628472a7d1326f5d6eb94ddcf0113a03c4bc3a48"
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      619,
+      620
+    ],
+    "en_printed_pages": [
+      604,
+      605
+    ],
+    "evidence": "Original rendered Chinese and English pages, English text layer, program-token comparison, and listed independent numerical checks.",
+    "scope": "Every expression and corresponding paragraph/program on this page; language-specific prose retained except explicitly recorded correction.",
+    "qualification": "Independent proofs of every theorem are not claimed."
+  },
+  "answers": [
+    {
+      "anchor": "ans-3-6-15",
+      "exercise_anchor": "ex-3-6-15",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-1",
+      "exercise_anchor": "ex-4-1-1",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-2",
+      "exercise_anchor": "ex-4-1-2",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-3",
+      "exercise_anchor": "ex-4-1-3",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-4",
+      "exercise_anchor": "ex-4-1-4",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-5",
+      "exercise_anchor": "ex-4-1-5",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-6",
+      "exercise_anchor": "ex-4-1-6",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-7",
+      "exercise_anchor": "ex-4-1-7",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-8",
+      "exercise_anchor": "ex-4-1-8",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-9",
+      "exercise_anchor": "ex-4-1-9",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-10",
+      "exercise_anchor": "ex-4-1-10",
+      "backlink_present": true
+    }
+  ],
+  "original_missing_independent_answers": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "missing_answer_evidence": "Chinese printed468/physical479 and English printed599/physical614: answer numbering jumps2→7; original items3–6 not supplied or linked.",
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/chapter36-answers-proof.html",
+    "html_sha256": "841fb5930e7f933aac8b0924648d4fc803438327019daaee74124a7dc990e513",
+    "math_count_in_six_page_proof": 148,
+    "math_parse_errors": 0,
+    "standalone_proof_only": true,
+    "desktop_visual_review": true,
+    "desktop_screenshot": ".work/volume2/source-audit/answers-proof-1040-484.png",
+    "desktop_screenshot_sha256": "47410b97bedf63282652ca6304ec1cb9dfc2f27a380805dd08c35977998526ba",
+    "mobile_screenshot": ".work/volume2/source-audit/answers-proof-390-484.png",
+    "mobile_visual_review": true,
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "page_errors": 0,
+    "missing_images": 0,
+    "document_horizontal_overflow": false,
+    "wide_math_or_program_scroll": {
+      "evidence": ".work/volume2/source-audit/answers-scroll.json",
+      "all_initial_left_edges_and_right_ends_reachable": true,
+      "scrollable_elements_at_1040px": 33,
+      "scrollable_elements_at_390px": 43
+    },
+    "qualification": "Not complete-volume binding, final website validation, or all-volume offline proof."
+  },
+  "substantive_corrections": [],
+  "source_discrepancies_retained": [],
+  "ocr_or_representation_checks": [
+    {
+      "item": "answer4.1-2(c)",
+      "risk": "OCR drops overbars in balanced ternary; these denote−1 digits, not decoration.",
+      "evidence": [
+        ".work/volume2/source-audit/cn-render/484-balanced-ternary.png",
+        ".work/volume2/source-audit/en-render/620-balanced-ternary.png"
+      ],
+      "action": "Retained every overbar using explicit LaTeX bar{1}. First number negative digits at integer positions4,1,0 (powers of3). Fractional pi negative-digit positions4,8,12,16,21 independently recomputed.",
+      "numeric_check": ".work/volume2/source-audit/answers-numeric-check.json"
+    },
+    {
+      "item": "answer4.1-9",
+      "risk": "O/0 ambiguity in monospaced number sentences",
+      "action": "Used ASCII0 in AD0BE,D0,C0C0A,C0FFEE,B0B,D0D0 according to original English characters and hexadecimal context; no letterO inserted into hexadecimal digits."
+    },
+    {
+      "item": "answer4.1-10",
+      "action": "Mixed-radix bracketed paired sequences are two-row arrays without fraction bars. Kept exact subscript groupings and semicolon positions."
+    }
+  ],
+  "next_steps": [
+    "Bind original answer items by section, preserving page anchors outside code/math.",
+    "Run final complete-volume source/site/ZIP checks and test bidirectional exercise links when all body targets exist.",
+    "Retain this page SHA record as historical evidence if binding changes whitespace, fences, or anchor placement."
+  ],
+  "content_range": [
+    "answer3.6-15",
+    "answers4.1-1..10"
+  ],
+  "programs": [
+    {
+      "language": "C",
+      "logical_item": "answer3.6-15",
+      "program_token_comparison": ".work/volume2/source-audit/answers-program-check.json",
+      "tokens_match_english": true,
+      "scope": "buffer helper compared with original English; standalone helper was not independently linked to the integer generator in this page review."
+    }
+  ]
+}

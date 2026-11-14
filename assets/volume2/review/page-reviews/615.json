@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "mix-reference",
+  "reviewDate": "2026-11-14",
+  "reviewerType": "model-direct-page-image-comparison",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "f7b9f202b16e2577659e5fb61373838f1b0e3b3b86dea2a65bb01503f2fe3c3f",
+  "cnPdfPage": 615,
+  "cnPrintedPage": null,
+  "enPdfPages": [
+    781
+  ],
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "characterCodeRows": 25,
+  "opcodeRows": 32,
+  "reviewScope": "Every visible character-code value, opcode C, time t, register/operand expression, mnemonic/variant and F field, general-form definition, and register/jump legend read directly against Chinese and corresponding English original foldout images. Physical pages have no asserted printed page numbers.",
+  "cnEvidence": [
+    {
+      "image": "scans/615.jpg",
+      "sha256": "3c0114b7b88148718e95bb11f4a5bdb31f7cc409062119a6dec28c9542d8fadc",
+      "viewedDirectly": true
+    }
+  ],
+  "enEvidence": [
+    {
+      "image": "index-work/en-foldout-781.png",
+      "sha256": "c267e2ed39cdcdcf567dbc9a7d7dd423e8cb57a8f6cc8435e1878e54bcdbf025",
+      "viewedDirectly": true
+    }
+  ],
+  "catalog": {
+    "file": "index-work/mix-reference-catalog.json",
+    "sha256": "ffcbc419aee75838193caa6a7390c719c077f8a8829c157624f4307ea262acd7"
+  },
+  "browserEvidence": {
+    "file": "index-work/mix-browser.json",
+    "sha256": "9ad37daa5443aaa918cd878b964effbaeaca23fd471ebeb167c8a15fd708e171",
+    "viewports": [
+      1280,
+      390
+    ],
+    "scope": "Both original page drafts and merged candidate; all64opcode/variant strings checked in real DOM; each opcode field occupies a single line, all local scroll endpoints accessible. Direct screenshot inspection after nowrap fix."
+  },
+  "displayTreatments": [
+    "Original grid is unfolded into editable code/time/description/OP(F) rows. Both original page fragments stay separate; a separate exact-row receipt defines the final logical merge.",
+    "Opcode field cells use nowrap after direct mobile screenshot inspection found intra-field line breaks. Initial evidence retained in index-work/history/mix-before-nowrap.",
+    "Navigation heading MIX指令参考表 added; original source labels/legend content retained."
+  ],
+  "substantiveCorrections": [],
+  "versionDifferences": [
+    {
+      "location": "character codes10/20/21",
+      "finding": "Chinese original displays GreekΔΣΠ clearly. English digital foldout font displays malformed accents for these three glyphs. Chinese values retained rather than treating English font rendering as an instruction-set change."
+    }
+  ],
+  "pending": [
+    "Whole-book inclusion and final routed site acceptance"
+  ],
+  "supplementalRenderRecheck": {
+    "currentPageMarkdownSha256": "f7b9f202b16e2577659e5fb61373838f1b0e3b3b86dea2a65bb01503f2fe3c3f",
+    "previousPageReviewSha256": "30ed8e95e56a501ba0be2f957ddd970810f74d9a14d7c4220246cef39d129b8f",
+    "actualNewBrowserEvidenceSha256": "9ad37daa5443aaa918cd878b964effbaeaca23fd471ebeb167c8a15fd708e171",
+    "scope": "Re-render and realChrome inspection of both unchanged source-page615 and revised page616 at1280/390. Source descriptionC39 bracket marker rechecked against the unchanged Chinese/English original cell; only HTMLcode markup differs from previous Markdown inlinecode intent. Entire original page review remains historical and separately hash-bound.",
+    "revisionOn616Only": {
+      "old": "转移；还有下面的 `[*]`",
+      "new": "转移；还有下面的 <code>[*]</code>",
+      "exactSingleReplacementValidated": true
+    }
+  }
+}

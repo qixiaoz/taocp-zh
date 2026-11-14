@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 546,
+  "cnPrintedPage": 535,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "8e675cd05802be617378fe5280a03aabb51c98799805a41afe0cdaa9c41b28c1",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/546.jpg",
+  "cnPageImageSha256": "ded887b8a8f2f6a6e453e32fc0a2bb438f6f8facc9a1d4609b1d74710fb4f6c3",
+  "enPdfPages": [
+    695,
+    696
+  ],
+  "enPrintedPages": [
+    680,
+    681
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-695.png",
+      "sha256": "8fb9cade6a0db7c72e85f64f3c21bec6d251333eb0be5a6f3b3b839f17c61d6d"
+    },
+    {
+      "file": "verified-sources/en-696.png",
+      "sha256": "10719538bec46903501a5e946baf861ae522159cf973ed0197e5036646b7006b"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-546",
+    "p-535",
+    "ans-4-6-2-5",
+    "ans-4-6-2-6",
+    "ans-4-6-2-7",
+    "ans-4-6-2-8",
+    "ans-4-6-2-9",
+    "ans-4-6-2-10",
+    "ans-4-6-2-11",
+    "ans-4-6-2-12"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "答5完整二变量生成函数/均值/二阶矩，错置变量由一般Euler积唯一修复。6–9有限域恒等式/Stirling两类括号/100步逆元算法。",
+    "10/11完整8×8和7×7矩阵（原双栏浮动同页）、全部核向量与分解；12三个4×4矩阵、秩和Swinnerton-Dyer原例/历史。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末12原注完整；547从答13开始。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.6.2-5-euler-product-variables",
+      "section": "4.6.2答案5第二个exp",
+      "cnPrintedPage": 535,
+      "enPdfPage": 695,
+      "enPrintedPage": 680,
+      "original": "exp(Σ_(m≥1) a_mw ln(1/(1−p z^(−m))))",
+      "final": "exp(Σ_(m≥1) a_mp ln(1/(1−w z^m)))",
+      "basis": "两版共同变量/指数错置。由前一个正确exp：Σ_k G_p(z^k)w^k/k=Σ_m a_mp Σ_k(wz^m)^k/k=Σ_m a_mp ln(1/(1−wz^m))，逐系数有限交换合法；等价Euler积∏_m(1−wz^m)^(−a_mp)。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-6-2-5",
+      "exercise_anchor": "ex-4-6-2-5",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-6",
+      "exercise_anchor": "ex-4-6-2-6",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-7",
+      "exercise_anchor": "ex-4-6-2-7",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-8",
+      "exercise_anchor": "ex-4-6-2-8",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-9",
+      "exercise_anchor": "ex-4-6-2-9",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-10",
+      "exercise_anchor": "ex-4-6-2-10",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-11",
+      "exercise_anchor": "ex-4-6-2-11",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-12",
+      "exercise_anchor": "ex-4-6-2-12",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 546,
+    "sha256": "8e675cd05802be617378fe5280a03aabb51c98799805a41afe0cdaa9c41b28c1",
+    "mathExpressions": 47,
+    "display": 9,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 546,
+        "width": 1280,
+        "sha256": "8e675cd05802be617378fe5280a03aabb51c98799805a41afe0cdaa9c41b28c1",
+        "pageErrors": [],
+        "bodyText": 4115,
+        "documentWidth": 1280,
+        "expressions": 47,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 72,
+            "max": 72,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 11,
+            "max": 11,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 546,
+        "width": 390,
+        "sha256": "8e675cd05802be617378fe5280a03aabb51c98799805a41afe0cdaa9c41b28c1",
+        "pageErrors": [],
+        "bodyText": 4115,
+        "documentWidth": 390,
+        "expressions": 47,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 474,
+            "max": 474,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 413,
+            "max": 413,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 7,
+            "max": 7,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 111,
+            "max": 111,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 96,
+            "max": 96,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 64,
+            "max": 64,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 66,
+            "max": 66,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 66,
+            "max": 66,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 49,
+            "max": 49,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 66,
+            "max": 66,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/546-8e675cd05802be617378fe5280a03aabb51c98799805a41afe0cdaa9c41b28c1-metadata-update/546.json",
+      "pageMarkdownSha256": "8e675cd05802be617378fe5280a03aabb51c98799805a41afe0cdaa9c41b28c1",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.6.2",
+  "numericCheck": {
+    "file": "arithmetic-final/numeric-check.json",
+    "sha256": "366d868527ea4ebadd69161aea5793d80975c4cc4a54e4cb76bdc9b410cde1df",
+    "inputPageSha256": "8e675cd05802be617378fe5280a03aabb51c98799805a41afe0cdaa9c41b28c1",
+    "meaning": "独立复算17项及一般符号/计数证明具体范围见文件；绑定本页不代表本页全部一般证明已重证。"
+  },
+  "renderScreenshotsDirectlyViewed": [
+    {
+      "file": "arithmetic-final/546-1280.png",
+      "sha256": "8fdb24a75517cf1cf863013ada1517bfacbf3efcd800dbdf3ff8c6392e289ca4"
+    }
+  ],
+  "scrollEndpointScreenshotsDirectlyViewed": {
+    "file": "arithmetic-final/endpoints.json",
+    "sha256": "4d78e7bd85e9ae6d2bb28896ca416beebf0a7a729ec335baa86829539ac3b558",
+    "regions": [
+      {
+        "page": 546,
+        "kind": ".book-math-display",
+        "index": 3,
+        "side": "left",
+        "file": "endpoint-546-3-left.png",
+        "sha256": "8e675cd05802be617378fe5280a03aabb51c98799805a41afe0cdaa9c41b28c1",
+        "left": 0,
+        "clientWidth": 358,
+        "scrollWidth": 454
+      },
+      {
+        "page": 546,
+        "kind": ".book-math-display",
+        "index": 3,
+        "side": "right",
+        "file": "endpoint-546-3-right.png",
+        "sha256": "8e675cd05802be617378fe5280a03aabb51c98799805a41afe0cdaa9c41b28c1",
+        "left": 96,
+        "clientWidth": 358,
+        "scrollWidth": 454
+      },
+      {
+        "page": 546,
+        "kind": ".book-math-display",
+        "index": 4,
+        "side": "left",
+        "file": "endpoint-546-4-left.png",
+        "sha256": "8e675cd05802be617378fe5280a03aabb51c98799805a41afe0cdaa9c41b28c1",
+        "left": 0,
+        "clientWidth": 358,
+        "scrollWidth": 422
+      },
+      {
+        "page": 546,
+        "kind": ".book-math-display",
+        "index": 4,
+        "side": "right",
+        "file": "endpoint-546-4-right.png",
+        "sha256": "8e675cd05802be617378fe5280a03aabb51c98799805a41afe0cdaa9c41b28c1",
+        "left": 64,
+        "clientWidth": 358,
+        "scrollWidth": 422
+      }
+    ],
+    "contactSheetsDirectlyViewed": [
+      {
+        "file": "arithmetic-final/endpoints-sheet-1.png",
+        "sha256": "4c18d73f9f3b6ff3f1ee127c875bc3fe89c2abc4d7ba985fd0352005742ecf22"
+      },
+      {
+        "file": "arithmetic-final/endpoints-sheet-2.png",
+        "sha256": "60e62abbff9aeea3d1bffe734ac4dcb3c7654d13fca0b8b14107e9a7e8f83b0f"
+      },
+      {
+        "file": "arithmetic-final/endpoints-sheet-3.png",
+        "sha256": "1a9b2993b12dbdab9057dba133dda3bdfcf382b1461a2e2d2d3f57ca3d7cc8de"
+      },
+      {
+        "file": "arithmetic-final/endpoints-sheet-4.png",
+        "sha256": "f945212aaf4cf906a543a940fba514aaf384b0945ffa2deb8df587b002ba4b26"
+      }
+    ],
+    "meaning": "所列关键式/矩阵/表/程序的390屏左右端图已直接查看；页面全体DOM滚动另列，未称全部式均有独立截图视觉签核。"
+  },
+  "exerciseTargetsPending": []
+}

@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 535,
+  "cnPrintedPage": 524,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "9ee1fc573d3cbb81a97e91765b7abe51a4c87a8ae95b06dc34dc94fa1264fb19",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/535.jpg",
+  "cnPageImageSha256": "81b26545d7c1987c5ee066ba6583d51e6cc711ceec683248949bf65da038a5a7",
+  "enPdfPages": [
+    681,
+    682
+  ],
+  "enPrintedPages": [
+    666,
+    667
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-681.png",
+      "sha256": "2bef3b381482daab29fa246d9c7fff8e83df4fbd716d6b552079c45536ed62c4"
+    },
+    {
+      "file": "verified-sources/en-682.png",
+      "sha256": "b2290ea835181a00d02c9e8a0492c9e730fb353c0b295c105d71b3f6e2901bea"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-535",
+    "p-524",
+    "ans-4-5-4-40",
+    "ans-4-5-4-41"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续答39素数链及12项条件；40(a)/(b)完整单位代价算法、阶乘/二项式/Fibonacci有限寄存器每次赋值与停止条件。",
+    "41(a)–(d)全计数公式和N=10的两个求和、分段筛数组及复杂度；OCR巨损公式逐原图重录。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末答41(d)复杂度式完整；536首存储分段及文献是答41续段。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.5.4-40-choose-gcd",
+      "section": "4.5.4答案40(b)",
+      "cnPrintedPage": 524,
+      "enPdfPage": 681,
+      "enPrintedPage": 666,
+      "original": "取gcd(2m+1,n)或gcd(2m+2,n)（两者都不等于1）",
+      "final": "取gcd(2m+1,n)或gcd(2m+2,n)（取其中不等于1者）",
+      "basis": "英文whichever is≠1。取n=35、m=3时gcd(7,35)=7而gcd(8,35)=1，选择非1者才符合终止条件。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-5-4-40",
+      "exercise_anchor": "ex-4-5-4-40",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-4-41",
+      "exercise_anchor": "ex-4-5-4-41",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 535,
+    "sha256": "9ee1fc573d3cbb81a97e91765b7abe51a4c87a8ae95b06dc34dc94fa1264fb19",
+    "mathExpressions": 102,
+    "display": 1,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 535,
+        "width": 1280,
+        "sha256": "9ee1fc573d3cbb81a97e91765b7abe51a4c87a8ae95b06dc34dc94fa1264fb19",
+        "pageErrors": [],
+        "bodyText": 6077,
+        "documentWidth": 1280,
+        "expressions": 102,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 178,
+            "max": 178,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 259,
+            "max": 259,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 929,
+            "max": 929,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 53,
+            "max": 53,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 163,
+            "max": 163,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 535,
+        "width": 390,
+        "sha256": "9ee1fc573d3cbb81a97e91765b7abe51a4c87a8ae95b06dc34dc94fa1264fb19",
+        "pageErrors": [],
+        "bodyText": 6077,
+        "documentWidth": 390,
+        "expressions": 102,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 117,
+            "max": 117,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 148,
+            "max": 148,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 580,
+            "max": 580,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 37,
+            "max": 37,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 269,
+            "max": 269,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 661,
+            "max": 661,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 1331,
+            "max": 1331,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 455,
+            "max": 455,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 45,
+            "max": 45,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 565,
+            "max": 565,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/535-9ee1fc573d3cbb81a97e91765b7abe51a4c87a8ae95b06dc34dc94fa1264fb19-metadata-update/535.json",
+      "pageMarkdownSha256": "9ee1fc573d3cbb81a97e91765b7abe51a4c87a8ae95b06dc34dc94fa1264fb19",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.5.4",
+  "numericCheck": {
+    "file": "arithmetic-final/numeric-check.json",
+    "sha256": "366d868527ea4ebadd69161aea5793d80975c4cc4a54e4cb76bdc9b410cde1df",
+    "inputPageSha256": "9ee1fc573d3cbb81a97e91765b7abe51a4c87a8ae95b06dc34dc94fa1264fb19",
+    "meaning": "独立复算17项及一般符号/计数证明具体范围见文件；绑定本页不代表本页全部一般证明已重证。"
+  },
+  "renderScreenshotsDirectlyViewed": [
+    {
+      "file": "arithmetic-final/535-390.png",
+      "sha256": "cea751521bac642a142af295ce27456be10ab532ed0b217055128c0e226dde48"
+    }
+  ],
+  "scrollEndpointScreenshotsDirectlyViewed": {
+    "file": "arithmetic-final/endpoints.json",
+    "sha256": "4d78e7bd85e9ae6d2bb28896ca416beebf0a7a729ec335baa86829539ac3b558",
+    "regions": [
+      {
+        "page": 535,
+        "kind": ".book-math-display",
+        "index": 0,
+        "side": "left",
+        "file": "endpoint-535-0-left.png",
+        "sha256": "9ee1fc573d3cbb81a97e91765b7abe51a4c87a8ae95b06dc34dc94fa1264fb19",
+        "left": 0,
+        "clientWidth": 358,
+        "scrollWidth": 813
+      },
+      {
+        "page": 535,
+        "kind": ".book-math-display",
+        "index": 0,
+        "side": "right",
+        "file": "endpoint-535-0-right.png",
+        "sha256": "9ee1fc573d3cbb81a97e91765b7abe51a4c87a8ae95b06dc34dc94fa1264fb19",
+        "left": 455,
+        "clientWidth": 358,
+        "scrollWidth": 813
+      }
+    ],
+    "contactSheetsDirectlyViewed": [
+      {
+        "file": "arithmetic-final/endpoints-sheet-1.png",
+        "sha256": "4c18d73f9f3b6ff3f1ee127c875bc3fe89c2abc4d7ba985fd0352005742ecf22"
+      },
+      {
+        "file": "arithmetic-final/endpoints-sheet-2.png",
+        "sha256": "60e62abbff9aeea3d1bffe734ac4dcb3c7654d13fca0b8b14107e9a7e8f83b0f"
+      },
+      {
+        "file": "arithmetic-final/endpoints-sheet-3.png",
+        "sha256": "1a9b2993b12dbdab9057dba133dda3bdfcf382b1461a2e2d2d3f57ca3d7cc8de"
+      },
+      {
+        "file": "arithmetic-final/endpoints-sheet-4.png",
+        "sha256": "f945212aaf4cf906a543a940fba514aaf384b0945ffa2deb8df587b002ba4b26"
+      }
+    ],
+    "meaning": "所列关键式/矩阵/表/程序的390屏左右端图已直接查看；页面全体DOM滚动另列，未称全部式均有独立截图视觉签核。"
+  },
+  "exerciseTargetsPending": []
+}

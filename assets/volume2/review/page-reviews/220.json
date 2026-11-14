@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订须另证包含与跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文整页及列出的英文页图，逐段/逐式/表格/程序字段频次注释和难度推荐符号比较。机器检查和复算另列，不声称人类签核。",
+  "cnPdfPage": 220,
+  "cnPrintedPage": 209,
+  "enPdfPages": [
+    287,
+    288
+  ],
+  "enPrintedPages": [
+    272,
+    273
+  ],
+  "pageMarkdownSha256": "a90c961f3c517951161bdfce52f44fcc2117f44ce8357931d46370e1d4997fe7",
+  "cnPageImage": "scans/220.jpg",
+  "cnPageImageSha256": "ec91badfb07446e74b270557de8c34c87115534d921e61ba0f1f377402fec2ef",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-287.png",
+      "sha256": "3ac65cf6418704cd499e920d4d39b62056b997306a4601e5fc273ec15dd530c9"
+    },
+    {
+      "file": "verified-sources/en-288.png",
+      "sha256": "ede0deab77131a3a34914eeda2d4dc6da82d6055793f1f125db83ea6e956554c"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-220",
+    "p-209",
+    "fig-4-7",
+    "prog-4-3-1-d"
+  ],
+  "coveredRegions": [
+    "算法D的D2–D8所有公式/条件/文字/引用及结束方块。",
+    "图7八节点、分支、回边与入口出口；中文英文实际原图对照。",
+    "程序D约定、001与039–040，原002–038用省略号不补造。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "D4无编号减法式",
+      "cnText": "qhat乘(v_(n−1)…v0)_b",
+      "enText": "qhat乘(0v_(n−1)…v0)_b",
+      "decision": "中文省前导零不改变数值，保留中文版字面。"
+    }
+  ],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pendingactualanswer-area-verification",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "D2–D8结束后图7完整再引程序D。D001/039/040接221首041–087，随后222续088起，最终合一围栏。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 42,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [
+      4
+    ],
+    "meaning": "只是语法；内容核查依实际中英文原页。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终母稿装订/跨页代码合并/题答回链",
+    "正式VitePress/Pandoc整卷与线上",
+    "未执行MIX或将机器字段一致称作算法正确性证明。"
+  ],
+  "figureReview": {
+    "file": "assets/volume2/figures/fig-4-7.svg",
+    "sha256": "9f9e2bff66766c26cead5680238add63ba95636368c09e2f1b478eb1344ff64d",
+    "method": "可编辑SVG文本和线段语义重绘；实际对照中文/英文原图，输出视觉检查另列。",
+    "checks": [
+      "全部标签、线段端点、方向、分支和数字列归属按源图。"
+    ],
+    "currentOutputEvidence": "verified-render/classical-figure-review.json"
+  },
+  "renderReview": {
+    "file": "verified-render/classical-dom-review-214-221.json",
+    "sha256": "357953879ea66bc509052393306e2caf7a7030233bc456ecfaa32ccb21f46986",
+    "scope": "私有1280/390；源图内容独立复核。217旧表和图6/7旧输出已被当前专项复验替代。"
+  }
+}

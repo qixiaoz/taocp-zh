@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "section": "4.6.3",
+  "sections": [
+    "4.6.3"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 385,
+  "cnPrintedPage": 374,
+  "enPdfPages": [
+    495,
+    496
+  ],
+  "enPrintedPages": [
+    480,
+    481
+  ],
+  "pageMarkdownSha256": "96593770a256f31e3bea003d0deaf6e67fdbc1b817623c077caab6946b1119be",
+  "masterSha256": null,
+  "cnPageImage": "scans/385.jpg",
+  "cnPageImageSha256": "27c3a9a8f407353b476912ab83323f8ece1c731a4a8609e552dc9395b5069e91",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-495.png",
+      "sha256": "a40aabbd54a8f2dba81d9fd0739b2ea698afaec40f998cc6e826db68985f278b"
+    },
+    {
+      "file": "source-audit/en-render/page-496.png",
+      "sha256": "0252cc5f66776b5f2eaeb4aa90a220bc525c7db93cd1bc251c20d001b4d84a77"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-385",
+    "p-374",
+    "ex-4-6-3-1",
+    "ex-4-6-3-2",
+    "ex-4-6-3-3",
+    "ex-4-6-3-4"
+  ],
+  "numberedFormulaTags": [
+    53
+  ],
+  "coveredRegions": [
+    "图表示正文续接相关规定；52/54全部6节点14有向弧及平行弧、53公式、等价性/拓扑/路径计数/对偶全部正文；习题1–4全部题号难度及3推荐。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 19,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch385-numeric-check.json",
+  "numericScope": "Finite graph identities and all labels/arcs, exact contraction/dual27-step source chain and all8 dual refinements, full underlining feasibility for that particular chain. 28(a) bitmask operations checked only x/y0..31, not the general real-number theorem or asymptotic proof. No new exercise answers added. Larger small-step records and general bounds only original-page/bilingual checked.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch385-proof.html",
+    "htmlSha256": "64f554d9a8f4dcab64333e7e48766c5fb4a3f67d02b413fb90491bdd4409aac2",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Four-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch385-proof-1280-385.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch385-proof-390-385.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 245,
+    "scrollableElementCounts": {
+      "1280": 39,
+      "390": 47
+    },
+    "machineObservations": ".work/volume2/source-audit/batch385-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch385-answer-presence.json",
+    "linkedExercises": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exceptions": [],
+    "roundTripDeferredUntilActualAnswerTranscriptionAndAssembly": true,
+    "actualMIXProgramsInTheseQuestionPages": false
+  },
+  "figures": [
+    {
+      "asset": "assets/volume2/figures/addition-chain-79-reduced.svg",
+      "sha256": "b3a8c37ad54bb97657faa85f185e28193fd98c0c6b4dcc83cb94fb612c3e8a14",
+      "numberedFigure": false,
+      "equationNumber": 52,
+      "nodeCount": 6,
+      "arcsOrEdges": 14,
+      "directed": true,
+      "parallelArcsRetained": true,
+      "cnSourcePage": 385,
+      "enSourcePage": 495,
+      "allSourceNodesEdgesDirectionsAndLabelsCompared": true,
+      "whiteBackgroundForDarkMode": true,
+      "captionSearchable": "source has only equation number or exercise reference; retained as prose and alt text",
+      "inlineAndStandaloneRasterVisualReview": true,
+      "standaloneRasterReview": ".work/volume2/source-audit/addition-chain-79-reduced-proof.png",
+      "actual1280And390Viewed": true,
+      "magnificationLinkClickedAtBothWidths": true,
+      "magnificationBackLinkTested": true,
+      "magnificationScrollEndsReachable": true,
+      "magnification390EndpointsViewed": true,
+      "magnificationEvidence": ".work/volume2/source-audit/batch385-figure-browser.json"
+    },
+    {
+      "asset": "assets/volume2/figures/addition-chain-79-dual.svg",
+      "sha256": "62238263ae3692c2b44a72c6b73482fab1cdf765b39982de34bbc330b57c340a",
+      "numberedFigure": false,
+      "equationNumber": 54,
+      "nodeCount": 6,
+      "arcsOrEdges": 14,
+      "directed": true,
+      "parallelArcsRetained": true,
+      "cnSourcePage": 385,
+      "enSourcePage": 496,
+      "allSourceNodesEdgesDirectionsAndLabelsCompared": true,
+      "whiteBackgroundForDarkMode": true,
+      "captionSearchable": "source has only equation number or exercise reference; retained as prose and alt text",
+      "inlineAndStandaloneRasterVisualReview": true,
+      "standaloneRasterReview": ".work/volume2/source-audit/addition-chain-79-dual-proof.png",
+      "actual1280And390Viewed": true,
+      "magnificationLinkClickedAtBothWidths": true,
+      "magnificationBackLinkTested": true,
+      "magnificationScrollEndsReachable": true,
+      "magnification390EndpointsViewed": true,
+      "magnificationEvidence": ".work/volume2/source-audit/batch385-figure-browser.json"
+    }
+  ],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 384,
+    "previousEnd": "但按照加法链的相关规",
+    "start": "定，我们不得不将它们区分开来.",
+    "crossPageWord": "规定"
+  },
+  "diagramEquationNumbers": [
+    52,
+    54
+  ],
+  "diagramEquationPresentation": "原图式号以可搜索正文（52）/（54）放在对应SVG后，页锚点和数字不进入SVG/数学块。"
+}

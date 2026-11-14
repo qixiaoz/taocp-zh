@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验；特别检查HTML表格内公式实际渲染。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 49,
+  "cnPrintedPage": 38,
+  "section": "3.3.1",
+  "enPdfPages": [
+    64,
+    65
+  ],
+  "enPrintedPages": [
+    49,
+    50
+  ],
+  "pageMarkdownSha256": "8f3301d2f3e5ba4bb0df6579234a1a7244ed5b028d27b696e6fa8bd625c18f37",
+  "cnPageImageSha256": "1d988745c0ae49a753f8c408ee2f6aaedee1696da0a313738e0048bbc98341f1",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 32,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-049",
+    "p-38",
+    "fig-3-4"
+  ],
+  "coveredRegions": [
+    "图4(a)(b)(c)完整、图题、KS偏差解释、式(11)(12)和√n注记、KS表精确性说明。"
+  ],
+  "assets": [
+    {
+      "path": "assets/volume2/figures/p049-fig-3-4-a.png",
+      "sha256": "f1ebbc11d985f04215358bbdece83f70fa758d1ea824c54ae8adf386f41a6647",
+      "kind": "native-resolution-source-crop",
+      "formalFigure": 4,
+      "panel": "a",
+      "sourcePixels": [
+        2072,
+        2953
+      ],
+      "sourcePixelBbox": [
+        1107,
+        279,
+        1621,
+        650
+      ],
+      "pdfBoxBeforeTwoPointPadding": [
+        320.05,
+        82.15,
+        463.35,
+        184.46
+      ],
+      "visualReview": "已查看每个裁图与中文整页/英文对应图；曲线、坐标/百分比标签完整，未造数据或拟合替换。",
+      "captionSearchableInMarkdown": true
+    },
+    {
+      "path": "assets/volume2/figures/p049-fig-3-4-b.png",
+      "sha256": "02ac1dc069dae0ca1fdce24b4beb04e0cbd248e34e4c460c153b2f0e3216ae5e",
+      "kind": "native-resolution-source-crop",
+      "formalFigure": 4,
+      "panel": "b",
+      "sourcePixels": [
+        2072,
+        2953
+      ],
+      "sourcePixelBbox": [
+        1112,
+        688,
+        1621,
+        1057
+      ],
+      "pdfBoxBeforeTwoPointPadding": [
+        321.33,
+        199.75,
+        463.46,
+        301.41
+      ],
+      "visualReview": "已查看每个裁图与中文整页/英文对应图；曲线、坐标/百分比标签完整，未造数据或拟合替换。",
+      "captionSearchableInMarkdown": true
+    },
+    {
+      "path": "assets/volume2/figures/p049-fig-3-4-c.png",
+      "sha256": "b4e86676206fb6df41433a9c48ae803df01afb17de7429db20bbba38fcec0784",
+      "kind": "native-resolution-source-crop",
+      "formalFigure": 4,
+      "panel": "c",
+      "sourcePixels": [
+        2072,
+        2953
+      ],
+      "sourcePixelBbox": [
+        1112,
+        1093,
+        1622,
+        1462
+      ],
+      "pdfBoxBeforeTwoPointPadding": [
+        321.35,
+        315.9,
+        463.52,
+        417.62
+      ],
+      "visualReview": "已查看每个裁图与中文整页/英文对应图；曲线、坐标/百分比标签完整，未造数据或拟合替换。",
+      "captionSearchableInMarkdown": true
+    }
+  ],
+  "layoutChanges": [
+    "各子图依(a)(b)(c)顺序分列呈现，正式图号仅在合并图题出现；原曲线保持，子图标签保留文字。"
+  ]
+}

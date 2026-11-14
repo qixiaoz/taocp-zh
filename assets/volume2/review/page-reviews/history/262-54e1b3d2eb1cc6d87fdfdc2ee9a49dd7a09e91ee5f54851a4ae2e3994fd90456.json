@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "section": "4.4",
+  "pdf_page": 262,
+  "printed_page": 251,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "89791933ca543befe54835a7445bbec3fca42cb8a58f8dd804182e2675e13d5c",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/scans/262.jpg",
+    "image_sha256": "a4f60522c373db2d371c43d8377462ea7a1b4a22013332267f11ab457560f9cc",
+    "scope": "entire page prose, all inline/display math, code rows, table cells, hand-calculation traces, exercise numbering/difficulty/recommendation and original footnote where present"
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      341,
+      342
+    ],
+    "en_printed_pages": [
+      326,
+      327
+    ],
+    "evidence": "Actual rendered Chinese and English pages, English PDF text layer, program field comparison and independent exact numerical checks.",
+    "scope": "all corresponding prose and formulas/programs/tables/exercises; no independent proof of every exercise is claimed"
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/batch256-proof.html",
+    "html_sha256": "cec9292019121a240dd23a12e57869bcd7b4d01b4f8d7707bda8881a931e4a3f",
+    "math_count_in_eight_page_proof": 261,
+    "math_parse_errors": 0,
+    "desktop_visual_review": true,
+    "mobile_visual_review": false,
+    "desktop_screenshot": ".work/volume2/source-audit/batch256-proof-1040-262.png",
+    "mobile_screenshot": ".work/volume2/source-audit/batch256-proof-390-262.png",
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "missing_images": 0,
+    "page_errors": 0,
+    "document_horizontal_overflow": false,
+    "wide_math_code_table_scroll": {
+      "evidence": ".work/volume2/source-audit/batch256-scroll.json",
+      "initial_left_edges_and_right_ends_reachable": true,
+      "scrollable_elements_at_1040px": 32,
+      "scrollable_elements_at_390px": 39
+    },
+    "qualification": "Standalone eight-page proof, not full-volume/site acceptance."
+  },
+  "exercises": [
+    {
+      "anchor": "ex-4-4-1",
+      "number": 1,
+      "difficulty": "25",
+      "recommended": true,
+      "answer_anchor": "ans-4-4-1"
+    }
+  ],
+  "answer_exceptions": [],
+  "substantive_corrections": [],
+  "source_discrepancies_retained": [],
+  "numeric_evidence": ".work/volume2/source-audit/batch256-numeric-check.json",
+  "program_evidence": ".work/volume2/source-audit/batch256-program-check.json",
+  "next_steps": [
+    "Bind into whole volume; retain page anchors outside formulas/code/tables.",
+    "Verify complete-volume exercise/answer links and hashes after binding.",
+    "Retain this original page-file hash record if binding changes bytes."
+  ],
+  "continuation": {
+    "begins_with_subitems": [
+      "c",
+      "d"
+    ],
+    "from_pdf_page": 261
+  },
+  "footnotes": [
+    {
+      "id": "v2-p251-1",
+      "original_marker": "①",
+      "content": "1磅=16盎司.——编者注",
+      "status": "original editorial footnote retained; actual forward/back browser test passed"
+    }
+  ]
+}

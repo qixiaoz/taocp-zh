@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "sections": [
+    "4.5",
+    "4.5.1"
+  ],
+  "pdf_page": 265,
+  "printed_page": 254,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "fa46e71bd330e3cc7171ecf8c45ec0e0a53b4c08cd8df20eb72ca54c32df1fc9",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/scans/265.jpg",
+    "image_sha256": "68f5879d73593962206796b26ff9141a1e28fb58a3d639a90f267740655ed666",
+    "scope": "complete page prose; every displayed and inline expression, program field/timing/comment, algorithm step/branch, figure/table entry, exercise number/difficulty/recommendation where present"
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      345,
+      346
+    ],
+    "en_printed_pages": [
+      330,
+      331
+    ],
+    "scope": "all corresponding actual English page regions and text-layer/program fields; all primes, subscripts, signs and bounds checked; original Chinese order retained for floated figure9",
+    "qualification": "Independent theorem proofs are not claimed beyond listed finite numerical and instruction checks"
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/batch264-proof.html",
+    "html_sha256": "4ceb95741c33fcbf2ad7a4782bd374d02e2ee178b4906d756dcdc707798f68df",
+    "math_count_in_eight_page_proof": 395,
+    "math_parse_errors": 0,
+    "desktop_visual_review": true,
+    "mobile_visual_review": false,
+    "desktop_screenshot": ".work/volume2/source-audit/batch264-proof-1040-265.png",
+    "mobile_screenshot": ".work/volume2/source-audit/batch264-proof-390-265.png",
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "missing_images": 0,
+    "page_errors": 0,
+    "document_horizontal_overflow": false,
+    "scroll_evidence": ".work/volume2/source-audit/batch264-scroll.json",
+    "all_wide_elements_initial_left_and_right_end_reachable": true,
+    "scrollable_element_counts": {
+      "1040": 14,
+      "390": 24
+    },
+    "display_math_styles": "Matches current site max-content display width, nowrap and numbered-equation padding; avoids centred left clipping/number overlap.",
+    "qualification": "Standalone eight-page proof, not complete-volume/final website acceptance."
+  },
+  "substantive_corrections": [],
+  "source_discrepancies_retained": [
+    {
+      "location": "single-precision addition discussion",
+      "cn_printed_page": 254,
+      "en_printed_page": 331,
+      "cn_reading": "如果u和v都是单精度数",
+      "en_reading": "If single-precision numbers are being used",
+      "decision": "Retain Chinese wording; English wording more broadly assumes single-precision inputs, including denominators. Scope of the Chinese shorthand remains a reported wording question, not silently expanded."
+    }
+  ],
+  "exercises": [],
+  "answer_exceptions": [],
+  "numeric_evidence": ".work/volume2/source-audit/batch264-numeric-check.json",
+  "program_evidence": ".work/volume2/source-audit/batch264-program-check.json",
+  "next_steps": [
+    "Bind into complete master and recheck source/master hashes, source-page anchors and links.",
+    "Preserve this page hash record historically if binding edits bytes."
+  ]
+}

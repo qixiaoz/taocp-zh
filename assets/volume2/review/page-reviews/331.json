@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.5.4",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 331,
+  "cnPrintedPage": 320,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    428,
+    429,
+    430
+  ],
+  "enPrintedPages": [
+    413,
+    414,
+    415
+  ],
+  "pageMarkdownSha256": "ef1dd1e08055d855d447ee17d29a30acdc3167458a81d68630ac62283e99b8f3",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/331.jpg",
+  "cnPageImageSha256": "696114ea377505ddafd9c6cb8b4e9233f251438bc6504ff37379080e9c27a4fc",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-428.png",
+      "sha256": "306e7e5cbcb73f283b298502ee1403315f54b1093d3c10cdf725ae8ea2d3591e"
+    },
+    {
+      "file": "source-audit/en-render/page-429.png",
+      "sha256": "8dff46d53727c5c26098b1fa263805e32320a80ab4161b34fe07ce9e116d1bfb"
+    },
+    {
+      "file": "source-audit/en-render/page-430.png",
+      "sha256": "d53518293961026cbe4b11d4a890a22de8b3f25717d3fcd417a853286d1c4ef0"
+    }
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-331",
+    "p-320",
+    "ex-4-5-4-20",
+    "ex-4-5-4-21",
+    "ex-4-5-4-22",
+    "ex-4-5-4-23",
+    "ex-4-5-4-24",
+    "ex-4-5-4-25",
+    "ex-4-5-4-26",
+    "ex-4-5-4-27",
+    "ex-4-5-4-28",
+    "ex-4-5-4-29",
+    "ex-4-5-4-30"
+  ],
+  "numberedFormulaTags": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 121,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "语法只证明可解析；原图/双语、精确代数和有限样本另列。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿包含关系/装订后的题答导航",
+    "完整Pandoc及正式VitePress/线上网站与下载包",
+    "非本页的答案内容未借存在性检查冒充双语校订。"
+  ],
+  "coveredRegions": [
+    "题19续、习题20–30全部正文/提示与无编号式、雅可比所有规则、概率界、指标和阶/素性条件。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "exercise30 domain",
+      "Chinese": "0<X<N",
+      "English": "0≤X<N",
+      "handling": "保中文原范围；此处不借边界等价性改原题。"
+    }
+  ],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 330,
+    "previousEnd": "给定的很大的数",
+    "start": "$N$ 的素因数 $p$"
+  },
+  "endsMidParagraph": false,
+  "numericEvidence": ".work/volume2/source-audit/batch328-numeric-check.json",
+  "numericScope": "20904项复核包含有限递推/模幂/幻秩/LL/题目例子；范数正号有完整精确多项式展开；题47九行数据匹配原本。有限检查不等于所有定理或习题一般证明。",
+  "exercises": [
+    {
+      "number": 20,
+      "difficulty": "M40",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-20"
+    },
+    {
+      "number": 21,
+      "difficulty": "M49",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-21"
+    },
+    {
+      "number": 22,
+      "difficulty": "M30",
+      "recommended": true,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-22"
+    },
+    {
+      "number": 23,
+      "difficulty": "M35",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-23"
+    },
+    {
+      "number": 24,
+      "difficulty": "M25",
+      "recommended": true,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-24"
+    },
+    {
+      "number": 25,
+      "difficulty": "HM41",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-25"
+    },
+    {
+      "number": 26,
+      "difficulty": "M25",
+      "recommended": true,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-26"
+    },
+    {
+      "number": 27,
+      "difficulty": "M30",
+      "recommended": true,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-27"
+    },
+    {
+      "number": 28,
+      "difficulty": "M27",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-28"
+    },
+    {
+      "number": 29,
+      "difficulty": "M25",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-29"
+    },
+    {
+      "number": 30,
+      "difficulty": "HM35",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-30"
+    }
+  ],
+  "answerPresenceEvidence": ".work/volume2/source-audit/batch328-answer-presence.json",
+  "answerLinkStatus": "只为已在原中文答区确认存在的独立编号答项建链；最终母稿端点/往返另验。",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch328-proof.html",
+    "htmlSha256": "28ff426ba8f5e05c904a2657a79b6e5846ee75e9fdf81dc75d0ad9c129f32665",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Seven-page standalone proof only; not final site/whole-volume acceptance.",
+    "browserPath": "Browser plugin absent; bundledPlaywright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch328-proof-1280-331.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch328-proof-390-331.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch328-right-390-331.png",
+    "mobileRightEndVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "proofMathExpressions": 544,
+    "scrollableElementCounts": {
+      "1280": 62,
+      "390": 77
+    },
+    "machineObservations": ".work/volume2/source-audit/batch328-browser.json",
+    "originalFootnoteForwardBack": [
+      [],
+      []
+    ]
+  },
+  "continuationExercise": 19
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.7",
+  "sections": [
+    "4.7"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 428,
+  "cnPrintedPage": 417,
+  "enPdfPages": [
+    549,
+    550
+  ],
+  "enPrintedPages": [
+    534,
+    535
+  ],
+  "pageMarkdownSha256": "a06ad2cf98decc16ad16c7d0b6466eb58fe7f1cbbc22ce45987c0cb5961755a2",
+  "masterSha256": null,
+  "cnPageImage": "scans/428.jpg",
+  "cnPageImageSha256": "b6f8f8863d6f476dc7f08698472f1592f6ee032005f24a90e9fce8badd728b2b",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-549.png",
+      "sha256": "0c7e8436861b52d1697e309b116f4f5f651790bd7c5089dcca651326df244961"
+    },
+    {
+      "file": "source-audit/en-render/page-550.png",
+      "sha256": "abc889d146231f2eef494ed36bb9c3bceda33e87a3462ee235b1b3a107ac4a6d"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-428",
+    "p-417",
+    "ex-4-7-17",
+    "ex-4-7-18",
+    "ex-4-7-19",
+    "ex-4-7-20",
+    "ex-4-7-21",
+    "ex-4-7-22"
+  ],
+  "numberedFormulaTags": [],
+  "coveredRegions": [
+    "16跨页证明式完整/17幂矩阵定义及斯特林两类括号/18–21全部式/17,21,22推荐/22定义及a–c完整，22d续下页。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 63,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch425-numeric-check.json",
+  "numericScope": "Exact recurrence26 closedform by algebra and finite dyadic checks, conditionedonkeepingprintedT(2n)=2T(n)+C(n),C(n)=cn³,targetT(n). Recursion22–25 exactFraction testedorders2,4,8,16×5nonresonantcases; not general algorithm proof. All20 Padeexamplecoefficients. FussCatalan7 m2..7,n1..12. Full finite power-matrix products20/inverses21 andnegative-index21b orders4,7,10×4cases,17/18 at2rational(x,y) each. GeneralizedLagrange8 finitecompletecoefficients,not allseries proof. No numerical checks asserted asproof of arbitraryformalfield conditions/complexiteration/asymptotic complexity.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch425-proof.html",
+    "htmlSha256": "095973c58e5ce5373ee273fb2fd54ee80e97df43f3c4d35dd0be5287e14100a9",
+    "rendererSha256": "18a14b4f17127544b79760e76d475ed046baa4590ef5d1098c14e6e2c536e885",
+    "scope": "Four-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch425-proof-1280-428.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch425-proof-390-428.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 248,
+    "scrollableElementCounts": {
+      "1280": 25,
+      "390": 39
+    },
+    "machineObservations": ".work/volume2/source-audit/batch425-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch425-right-390-428.png",
+    "mobileRightEndVisualReview": true
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch425-answer-presence.json",
+    "linkedExercises": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "allActualOriginalNumberedAnswersPresent": true,
+    "roundTripDeferredUntilAnswerTranscriptionAndAssembly": true,
+    "independentAnswerContentReviewClaimed": false
+  },
+  "startsMidExercise": {
+    "exercise": "4.7-16",
+    "previousCnPdfPage": 427,
+    "previousEnd": "关系式...=R_n(t)成立.",
+    "start": "通过验证下面的等式来证明习题8中的拉格朗日公式",
+    "answerLinkAfterCompleteProofFormula": true
+  },
+  "endsMidExercise": {
+    "exercise": "4.7-22",
+    "nextCnPdfPage": 429,
+    "completeParts": [
+      "definition",
+      "a",
+      "b",
+      "c"
+    ],
+    "nextPart": "d",
+    "end": "(W^{[-1]}(z)/z)^{1/\\alpha}$.",
+    "nextStart": "(d) 因此，任意幂多项式$V_n(x)$"
+  }
+}

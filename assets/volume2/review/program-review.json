@@ -1,0 +1,137 @@
+{
+  "recordVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "masterSha256": null,
+  "masterBinding": "尚未装订卷二母稿。本记录绑定样例文件字节；装订后应另作逐段包含证明，不得仅替换本记录哈希冒充母稿复核。",
+  "sources": {
+    "cn": {
+      "fileSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+      "edition": "中文第三版"
+    },
+    "en": {
+      "fileSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+      "edition": "Third Edition, first digital release March 2014"
+    }
+  },
+  "verificationMeaning": "originalPageVisualReview 与 bilingualVerification 均指本记录明确列出的区域，由模型直接查看页图并逐项比较；不表示全页或整节已校订。",
+  "sample": "program",
+  "sampleFile": "program.md",
+  "sampleSha256": "749f48a932ac2b9b6269e13d186c8101a327e0132a8b532a5f62bcc77ad4731c",
+  "scope": {
+    "section": "3.6",
+    "cnPdfPages": [
+      151,
+      152,
+      153
+    ],
+    "cnPrintedPages": [
+      140,
+      141,
+      142
+    ],
+    "enPdfPages": [
+      200,
+      201,
+      202,
+      203
+    ],
+    "enPrintedPages": [
+      185,
+      186,
+      187,
+      188
+    ],
+    "completePages": false,
+    "included": "五组C清单：线性同余、组合线性同余、ran_array（宏定义与函数按中文页界分成两个代码块）、ran_start、main基本检验；另转录紧邻的若干原文段落及式(2)。",
+    "omitted": "中文151页首部到第一个#define之前的正文；153页最初三段和基本检验之后的正文；未转录部分不能由本记录签核。"
+  },
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "codeBlocks": {
+    "markdownFences": 6,
+    "physicalLinesIncludingBlankLines": 65,
+    "nonblankCodeLines": 61,
+    "programTokensComparedIgnoringCommentsAndWhitespace": [
+      {
+        "block": "linear-congruential",
+        "cnCodeTokensSha256": "1f0d32fcbffc9b0051ce675232d96e1200dc13a3826e4e6e435f467ce56a879b",
+        "enCodeTokensSha256": "1f0d32fcbffc9b0051ce675232d96e1200dc13a3826e4e6e435f467ce56a879b",
+        "codeTokensMatch": true
+      },
+      {
+        "block": "combined-linear-congruential",
+        "cnCodeTokensSha256": "b0757852ec7ab6cb92967fad6eb286a5c9bcb032834814cd432f97ca4cf8883d",
+        "enCodeTokensSha256": "b0757852ec7ab6cb92967fad6eb286a5c9bcb032834814cd432f97ca4cf8883d",
+        "codeTokensMatch": true
+      },
+      {
+        "block": "ran_array",
+        "cnCodeTokensSha256": "67ce530777cd67345c5c2f50f6fdf179a5f8a15c1f1c7ea9db0c75bef4c34eed",
+        "enCodeTokensSha256": "67ce530777cd67345c5c2f50f6fdf179a5f8a15c1f1c7ea9db0c75bef4c34eed",
+        "codeTokensMatch": true
+      },
+      {
+        "block": "ran_start",
+        "cnCodeTokensSha256": "4881ee14e1058f5e04b453df8fe5adf2137eb9a255b04f2f5d41d2a5cddf62d3",
+        "enCodeTokensSha256": "4881ee14e1058f5e04b453df8fe5adf2137eb9a255b04f2f5d41d2a5cddf62d3",
+        "codeTokensMatch": true
+      },
+      {
+        "block": "main",
+        "cnCodeTokensSha256": "b68c75d2ac0feacc2a244f03da632ff7aa0867d9177a63701da12c12e96041d1",
+        "enCodeTokensSha256": "b68c75d2ac0feacc2a244f03da632ff7aa0867d9177a63701da12c12e96041d1",
+        "codeTokensMatch": true
+      }
+    ]
+  },
+  "executionCheck": {
+    "exitCode": 0,
+    "stdout": "995235265\n995235265\n",
+    "compileWarnings": "",
+    "compiler": "clang -std=c99 -Wall -Wextra -O2",
+    "addedHarness": "#include <stdio.h>",
+    "sourceBlocks": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "preservedDifferences": [
+    {
+      "cnPrintedPage": 140,
+      "cnText": "格奥尔基·拉列斯库",
+      "enPrintedPage": 186,
+      "enText": "Liviu Lalescu",
+      "action": "依中文底本照录，列为姓名差异待核实。"
+    },
+    {
+      "cnPrintedPage": 140,
+      "cnText": "/* MMM % AAA; 同样注意 QQQ */",
+      "enPrintedPage": 186,
+      "enText": "/* MMM % AAA; again less than QQQ */",
+      "action": "注释按中文底本保留；RRR=3791小于QQQ=52774由代码可证，但不擅补中文印本未写出的词。"
+    },
+    {
+      "cnPrintedPage": 142,
+      "cnText": "布伦特和佩德罗·弗尔迪亚",
+      "enPrintedPage": 187,
+      "enText": "Richard Brent and Pedro Gimeno",
+      "action": "该段不在样例转录范围；登记姓名差异供整节复核，未改母稿。"
+    }
+  ],
+  "layoutNotes": [
+    "代码中的#、% 、&、<<、>>、分号、逗号与下划线均逐行对照。",
+    "代码采用等宽C围栏；原物理页151/152之间的锚点置于两个代码块之间，不置于程序行内。",
+    "代码注释空格为等宽对齐展示调整；可执行token与英文版逐项一致。"
+  ],
+  "pending": [
+    "完整§3.6正文与习题需另行转录、校订。",
+    "尚未在VitePress桌面/手机实际页面验证；代码执行只验证选定程序清单。"
+  ]
+}

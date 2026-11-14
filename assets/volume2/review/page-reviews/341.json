@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.6.1",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 341,
+  "cnPrintedPage": 330,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    440,
+    441,
+    442
+  ],
+  "enPrintedPages": [
+    425,
+    426,
+    427
+  ],
+  "pageMarkdownSha256": "18b698f20007cee6e76edda9768ddc45632514847e81ee6aaa1c50eb42f4aa99",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/341.jpg",
+  "cnPageImageSha256": "417b53c4ce628d244b943eeecf54ab0e0524864b02a6c3aba9b3c933501fa76c",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-440.png",
+      "sha256": "101a661035543be986016c6126b3d57d05f9114d00a283ae90e057998ad1579d"
+    },
+    {
+      "file": "source-audit/en-render/page-441.png",
+      "sha256": "a441e1894c7bd0cb81648ec23adfd904ff10a7149c2ca5958ed82a71ce87f610"
+    },
+    {
+      "file": "source-audit/en-render/page-442.png",
+      "sha256": "69ac16ac448f8b4623b3c0fc0c9b80eb4d4748aaca42d22ee208adace1249696"
+    }
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-341",
+    "p-330",
+    "alg-4-6-1-e"
+  ],
+  "numberedFormulaTags": [
+    9
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 82,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "语法与实际原图/双语、数值复算分别记录。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "完整Pandoc/正式VitePress/线上及ZIP",
+    "有限具体例子复算未扩大为全称代数或复杂度证明。"
+  ],
+  "sections": [
+    "4.6.1"
+  ],
+  "coveredRegions": [
+    "算法R续输入、R1–R2全部范围/赋值；广义欧几里得证明（本原v订正）；算法E完整E1–E4、例子式9。"
+  ],
+  "substantiveCorrections": [
+    {
+      "section": "4.6.1 generalized Euclidean proof",
+      "cnPrintedPage": 330,
+      "enPdfPage": 441,
+      "enPrintedPage": 426,
+      "original": "如果r(x)≠0，则由于r(x)是本原多项式",
+      "final": "如果r(x)≠0，则由于v(x)是本原多项式",
+      "basis": "English correctly usesv(x)as the primitive polynomial. Pseudo-remainderr(x)need not be primitive (next example−15x^4+3x^2−9 has content−3). It isv’s primitive property that allows replacingrbypp(r)in the gcd.",
+      "cnCrop": ".work/volume2/source-audit/341-correction-crop.png"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 340,
+    "previousEnd": "算法R输入的完整独立式",
+    "start": "其中 $v_n\\ne0$",
+    "afterClosedDisplay": true
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 342,
+    "end": "式(9)完整闭合",
+    "nextStart": "的最大公因子.",
+    "afterClosedDisplay": true
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch335-numeric-check.json",
+  "numericScope": "49组精确整数/Fraction/mod13核对；含两长除法每格与空位、4次整数伪余式、4次原有理余式、5行首一序列、二进制/多项式乘法和多元因子展开。只是本书具体例子，不是所有环/域定理的一般证明。",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch335-proof.html",
+    "htmlSha256": "c1cc832569000196cf0192d2a73af2b177efb366fe7114456e3de672527a311a",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof; not whole-volume/final-site acceptance.",
+    "browserPath": "Browser plugin absent; bundledPlaywright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch335-proof-1280-341.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch335-proof-390-341.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch335-right-390-341.png",
+    "mobileRightEndVisualReview": false,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "proofMathExpressions": 453,
+    "scrollableElementCounts": {
+      "1280": 48,
+      "390": 71
+    },
+    "machineObservations": ".work/volume2/source-audit/batch335-browser.json"
+  }
+}

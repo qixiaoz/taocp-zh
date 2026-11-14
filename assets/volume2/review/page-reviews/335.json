@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.6",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 335,
+  "cnPrintedPage": 324,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    433,
+    434
+  ],
+  "enPrintedPages": [
+    418,
+    419
+  ],
+  "pageMarkdownSha256": "01d462ba34d16529d055948b53a45716e9ce38198c76ecad183c1aadc1066b00",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/335.jpg",
+  "cnPageImageSha256": "506f295517787c8507cb824ba5dc82241e8647943a4ec227b730f1e79272833c",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-433.png",
+      "sha256": "bcc65a22bf03dd3f8b7b9e9c8b674c162f3908fee00491e2aeed5e478ff4cd9c"
+    },
+    {
+      "file": "source-audit/en-render/page-434.png",
+      "sha256": "2bcd0b249aa513f1515c83c5024e9d9c1b09fec076abde2dfb0c65ce9dbd4c65"
+    }
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-335",
+    "p-324",
+    "sec-4-6"
+  ],
+  "numberedFormulaTags": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 54,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "语法与实际原图/双语、数值复算分别记录。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "完整Pandoc/正式VitePress/线上及ZIP",
+    "有限具体例子复算未扩大为全称代数或复杂度证明。"
+  ],
+  "sections": [
+    "4.6"
+  ],
+  "coveredRegions": [
+    "4.6节标题、环/单位/零多项式/首一/次数定义、式1–4和全部行内式；完整末段到双列乘法前冒号。"
+  ],
+  "substantiveCorrections": [
+    {
+      "section": "4.6 coefficient-neighbour comparison",
+      "cnPrintedPage": 324,
+      "enPdfPage": 434,
+      "enPrintedPage": 419,
+      "original": "x_k的系数u_k",
+      "final": "x^k的系数u_k",
+      "basis": "English explicitly says coefficientu_kofx^k; polynomial indeterminate raised tok has coefficientu_k. Chinese source crop confirms subscriptk instead of exponent.",
+      "cnCrop": ".work/volume2/source-audit/335-correction-crop.png"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "numericEvidence": ".work/volume2/source-audit/batch335-numeric-check.json",
+  "numericScope": "49组精确整数/Fraction/mod13核对；含两长除法每格与空位、4次整数伪余式、4次原有理余式、5行首一序列、二进制/多项式乘法和多元因子展开。只是本书具体例子，不是所有环/域定理的一般证明。",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch335-proof.html",
+    "htmlSha256": "c1cc832569000196cf0192d2a73af2b177efb366fe7114456e3de672527a311a",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof; not whole-volume/final-site acceptance.",
+    "browserPath": "Browser plugin absent; bundledPlaywright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch335-proof-1280-335.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch335-proof-390-335.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch335-right-390-335.png",
+    "mobileRightEndVisualReview": false,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "proofMathExpressions": 453,
+    "scrollableElementCounts": {
+      "1280": 48,
+      "390": 71
+    },
+    "machineObservations": ".work/volume2/source-audit/batch335-browser.json"
+  }
+}

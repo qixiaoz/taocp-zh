@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 476,
+  "cnPrintedPage": 465,
+  "enPdfPages": [
+    610,
+    611
+  ],
+  "enPrintedPages": [
+    595,
+    596
+  ],
+  "pageMarkdownSha256": "4c57f49e2e4538cf7dcc20e7a9f1440e2ec5ca990010d918ee3e93dbf08f28ca",
+  "cnPageImageSha256": "1b22fe93cbed064770f297d88df9f901bbcf0b5609a62c7bf83357b9148dfe5c",
+  "enPageImageSha256": {
+    "610": "8450a918fd0f30fec7a4b4429f882cd2ad7147bae903e4214e09324d893afd0c",
+    "611": "70f180b2676948cfa40916a122d8e4c8aa6dc147e364a9693f14e4fc04d50f7a"
+  },
+  "coveredRegions": [
+    "3.5答22 Fourier绝对收敛/积分/光滑逼近续段、23、24完整Weyl差分/Cauchy多行推导/多项式原注、25/26白序列原注/28、29奇偶模式计数至加法恒等式。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-476",
+    "p-465",
+    "ans-3-5-23",
+    "ans-3-5-24",
+    "ans-3-5-25",
+    "ans-3-5-26",
+    "ans-3-5-28",
+    "ans-3-5-29"
+  ],
+  "answerAnchors": [
+    "ans-3-5-23",
+    "ans-3-5-24",
+    "ans-3-5-25",
+    "ans-3-5-26",
+    "ans-3-5-28",
+    "ans-3-5-29"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 52,
+    "displayExpressions": 6,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.5答29奇偶模式计数恒等式",
+      "cnPrintedPage": 465,
+      "enPdfPage": 611,
+      "enPrintedPage": 596,
+      "original": "两个1/n求和项之间无运算符，按常规连写变为乘积",
+      "final": "在第一括号后、第二个1/n前补+",
+      "basis": {
+        "cnPdfPage": 476,
+        "cnPrintedPage": 465,
+        "enPdfPage": 611,
+        "enPrintedPage": 596,
+        "original": "两个1/n求和项之间无运算符，按常规连写变为乘积",
+        "final": "在第一括号后、第二个1/n前补+",
+        "fullDefinition": "ν_x^E和ν_x^O为偶/奇起始位置模式x计数，ν_x=ν_x^E+ν_x^O；r(x)/s(x)是x的奇/偶位零数。第一括号仅在第2,4,...,2k位固定0的k个和。",
+        "analyticIdentity": "Σ_x[r(x)ν_x^E+s(x)ν_x^O]=Σ_x s(x)ν_x+Σ_x(r(x)−s(x))ν_x^E。左侧由前一行2k个端点移位恒等式为2kν_0^E+O(1)。这正是两项相加，系数及后页首项极限k/2均唯一吻合。与数值样例无关的逐模式代数恒等式支持补+。",
+        "finiteCyclicCheck": {
+          "sourceCycle": "00001000110010101001101110111110",
+          "n": 32,
+          "evenZeroCount": 11,
+          "left": 44,
+          "firstRawCount": 32,
+          "secondRawCount": 12,
+          "sum": 44,
+          "product": 384,
+          "qualification": "循环计数无端点误差；一般线性前缀只差原文O(1)，不据此抹去原文误差项。"
+        }
+      }
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "continuation": {
+    "begins_from_pdf_page": 475,
+    "answerAtStart": "3.5-22",
+    "right_start": "则我们有 $\\lim_{N\\to\\infty}",
+    "continuation_end": "接下来只剩下证明式(9)中的函数可以被光滑函数逼近到任意精度。",
+    "continues_to_pdf_page": 477,
+    "answerAtEnd": "3.5-29",
+    "left_last_display": "\\frac1n2k\\nu_0^E(n)=\\frac1n\\left(\\sum\\nu_{*0*\\ldots*}(n)+\\cdots+\\sum\\nu_{***\\ldots0}(n)\\right)+\\frac1n\\sum_x(r(x)-s(x))\\nu_x^E(n)+O\\left(\\frac1n\\right),",
+    "right_next_start": "其中 $x=x_1\\ldots x_{2k}$ 在奇数位置上包含 $r(x)$ 个0，",
+    "instruction": "476式内r/s的定义在477首接续，完整式块不得切开。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "fc8e03523bd20eb4601cdcf0490af5403b7d511532ddf94c03cd68c3115cbc32",
+    "visualReviewSha256": "ec1699b44942da35ecb910bafe683e79795afd9299a8729b84a4be75671b18bf",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 52,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 52,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 6,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "c9faf78f68b721b4e1a84fa9d1da4baabbfedbe80a42bc6292030a3e3162c44a",
+  "numericalCheckQualification": "精确有理数/有限组合枚举与图中32编号边逐项对应只辅助原页复核，不取代无穷序列、Fourier或一般图连通性证明。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "answerExceptions": [
+    {
+      "answer": "3.5-27",
+      "reason": "原中英答案26后直接28，无独立答27。"
+    }
+  ]
+}

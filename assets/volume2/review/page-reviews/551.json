@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 551,
+  "cnPrintedPage": 540,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "af6b251f0652e635186b7fdf1380cb4f7b6cda19058380dbead9492cdb2b02cd",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/551.jpg",
+  "cnPageImageSha256": "ef2639b66c794214c59df9dd8059484adeca9f684d197a497c4c26374dc9579d",
+  "enPdfPages": [
+    701,
+    702
+  ],
+  "enPrintedPages": [
+    686,
+    687
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-701.png",
+      "sha256": "7232372fb3752395144ce477c060477aa9049d2e0a4bc9ff460cd592865ff0f5"
+    },
+    {
+      "file": "verified-sources/en-702.png",
+      "sha256": "60171e0258c1d731d37bffa97512a2447f5fa2f4f75212a7a3724adb2a034f31"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-551",
+    "p-540",
+    "ans-4-6-2-23",
+    "ans-4-6-2-24",
+    "ans-4-6-2-25",
+    "ans-4-6-2-26",
+    "ans-4-6-2-27",
+    "ans-4-6-2-28",
+    "ans-4-6-2-29",
+    "ans-4-6-2-30"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续答22多元推广/原引用；答23判别式及例、24本原化、25各模分解、26 bitset、27概率原注。",
+    "28完整两组各10个精确概率及生成函数/渐近值；29 CRT两独立余式及检索树费用原注；30迹基本证明。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末答30首段完整，552接“由此得出…”新段。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.6.2-23-multiple-factors",
+      "section": "4.6.2答案23首句",
+      "cnPrintedPage": 540,
+      "enPdfPage": 701,
+      "enPrintedPage": 686,
+      "original": "它有多个模p因子",
+      "final": "它模p有重因子",
+      "basis": "英文multiple factors在判别式语境中指重因子；p整除非零判别式当且仅当模p多项式有重根/重因子，并不要求仅一个不可约因子。"
+    },
+    {
+      "id": "v2-ans4.6.2-29-second-modulus",
+      "section": "4.6.2答案29首段第二个余式",
+      "cnPrintedPage": 540,
+      "enPdfPage": 701,
+      "enPrintedPage": 686,
+      "original": "t2(x)^((p^d−1)/2) mod q1(x) ≠1",
+      "final": "t2(x)^((p^d−1)/2) mod q2(x) ≠1",
+      "basis": "两版共同下标错误。CRT给ti=t mod qi，因此第二个独立域判据必须在q2下。F3,d2,q1=x²+1,q2=x²+x+2,t1=1,t2=x时，x⁴模q1=1而模q2=2，唯一修复为第二模数q2。"
+    }
+  ],
+  "sourceIssues": [
+    {
+      "location": "4.6.2答案29注记，成功概率1/2及deg t<rd时假设严格成立",
+      "englishSame": true,
+      "original": "每个qi整除t^((p^d−1)/2)−1的概率1/2；deg t<rd时上述假设严格成立",
+      "decision": "保底本列疑。包含零的均匀F_(p^d)余式的该概率精确为(p^d−1)/(2p^d)，不是1/2；CRT确立独立性，但不自动把有零余式的概率改成1/2。未改整个随机trie成本近似论述。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-6-2-23",
+      "exercise_anchor": "ex-4-6-2-23",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-24",
+      "exercise_anchor": "ex-4-6-2-24",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-25",
+      "exercise_anchor": "ex-4-6-2-25",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-26",
+      "exercise_anchor": "ex-4-6-2-26",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-27",
+      "exercise_anchor": "ex-4-6-2-27",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-28",
+      "exercise_anchor": "ex-4-6-2-28",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-29",
+      "exercise_anchor": "ex-4-6-2-29",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-30",
+      "exercise_anchor": "ex-4-6-2-30",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 551,
+    "sha256": "af6b251f0652e635186b7fdf1380cb4f7b6cda19058380dbead9492cdb2b02cd",
+    "mathExpressions": 69,
+    "display": 1,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 551,
+        "width": 1280,
+        "sha256": "af6b251f0652e635186b7fdf1380cb4f7b6cda19058380dbead9492cdb2b02cd",
+        "pageErrors": [],
+        "bodyText": 4925,
+        "documentWidth": 1280,
+        "expressions": 69,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 551,
+        "width": 390,
+        "sha256": "af6b251f0652e635186b7fdf1380cb4f7b6cda19058380dbead9492cdb2b02cd",
+        "pageErrors": [],
+        "bodyText": 4925,
+        "documentWidth": 390,
+        "expressions": 69,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 83,
+            "max": 83,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 151,
+            "max": 151,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 50,
+            "max": 50,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 31,
+            "max": 31,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 42,
+            "max": 42,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 12,
+            "max": 12,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/551-af6b251f0652e635186b7fdf1380cb4f7b6cda19058380dbead9492cdb2b02cd-metadata-update/551.json",
+      "pageMarkdownSha256": "af6b251f0652e635186b7fdf1380cb4f7b6cda19058380dbead9492cdb2b02cd",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.6.2",
+  "numericCheck": {
+    "file": "arithmetic-final/numeric-check.json",
+    "sha256": "366d868527ea4ebadd69161aea5793d80975c4cc4a54e4cb76bdc9b410cde1df",
+    "inputPageSha256": "af6b251f0652e635186b7fdf1380cb4f7b6cda19058380dbead9492cdb2b02cd",
+    "meaning": "独立复算17项及一般符号/计数证明具体范围见文件；绑定本页不代表本页全部一般证明已重证。"
+  },
+  "exerciseTargetsPending": []
+}

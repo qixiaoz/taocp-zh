@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.6.2",
+  "sections": [
+    "4.6.2"
+  ],
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 353,
+  "cnPrintedPage": 342,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    455,
+    456
+  ],
+  "enPrintedPages": [
+    440,
+    441
+  ],
+  "pageMarkdownSha256": "6af11d7c24c8369f6b826350c466a7da9319d43d24cc20206023c126b64ffa21",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/353.jpg",
+  "cnPageImageSha256": "28beac5900d45177228ee0ea1f7ec39bb3cf0bb728e05536ed06e3cbdf378025",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-455.png",
+      "sha256": "c8510e56323ceba0b0cf0f6c664748548ffbe01edc12f17448518f373289f790"
+    },
+    {
+      "file": "source-audit/en-render/page-456.png",
+      "sha256": "934ba97cea36d56713b3133c2b250bdb273566dc9175897efa636a2bf317e82f"
+    }
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "pageAnchors": [
+    "pdf-353",
+    "p-342"
+  ],
+  "numberedFormulaTags": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "coveredRegions": [
+    "恒等式9/10、解数p^r论证、完整符号矩阵11和12/13、全部无编号推导、算法B1–B4至式14。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 55,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch351-numeric-check.json",
+  "numericScope": "Full source mod13 example only: all112 power-table cells,128 Q/QI cells,320 N-trajectory cells, source pivot positions, all26 B4 gcds, factor product and concrete exhaustive irreducibility, all2197 fixed-space vectors and exact split distribution. Finite checks do not prove general CRT/Frobenius/rank/probability/complexity assertions.",
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch351-proof.html",
+    "htmlSha256": "acb69e82285cd3f821aa14a1c5a3708c938fda6db95ed317730b75aafe7268d7",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume or production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright and local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch351-proof-1280-353.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch351-proof-390-353.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 457,
+    "scrollableElementCounts": {
+      "1280": 24,
+      "390": 48
+    },
+    "machineObservations": ".work/volume2/source-audit/batch351-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  }
+}

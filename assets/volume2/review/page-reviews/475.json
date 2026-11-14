@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 475,
+  "cnPrintedPage": 464,
+  "enPdfPages": [
+    609,
+    610
+  ],
+  "enPrintedPages": [
+    594,
+    595
+  ],
+  "pageMarkdownSha256": "b1142629e5a7f0eb912636a7f7ed18268be54d2098fe6cc651a06f5f878bd254",
+  "cnPageImageSha256": "0d1e09b7319af3839884ee0789df3f8a612eae2e23aceedc91f658f0a55f412c",
+  "enPageImageSha256": {
+    "609": "e696b60648f303e9606ee95d734ae560259e916f35a692a3bc4c3a4b8bbd2a96",
+    "610": "8450a918fd0f30fec7a4b4429f882cd2ad7147bae903e4214e09324d893afd0c"
+  },
+  "coveredRegions": [
+    "3.5答13事件计数转换续段与原注、14游程概率、15二类集券全证明、16一般奖券、原跳17、18/19、20(a)–(d)区间界、21(a)(b,c)、22傅里叶展开开段。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-475",
+    "p-464",
+    "ans-3-5-14",
+    "ans-3-5-15",
+    "ans-3-5-16",
+    "ans-3-5-18",
+    "ans-3-5-19",
+    "ans-3-5-20",
+    "ans-3-5-21",
+    "ans-3-5-22"
+  ],
+  "answerAnchors": [
+    "ans-3-5-14",
+    "ans-3-5-15",
+    "ans-3-5-16",
+    "ans-3-5-18",
+    "ans-3-5-19",
+    "ans-3-5-20",
+    "ans-3-5-21",
+    "ans-3-5-22"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 60,
+    "displayExpressions": 5,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuation": {
+    "begins_from_pdf_page": 474,
+    "answerAtStart": "3.5-13",
+    "right_start": "只需把它转换成 $f(n)-f(n-1)=k$ 的概率。",
+    "continuation_end": "［我们仅使用了该序列是 $(k+1)$ 分布的这一事实。］",
+    "continues_to_pdf_page": 476,
+    "answerAtEnd": "3.5-22",
+    "left_intro": "反之，注意，如果 $f(x_1,\\ldots,x_k)$ 有绝对收敛的傅里叶级数",
+    "left_last_display": "f(x_1,\\ldots,x_k)=\\sum_{-\\infty<c_1,\\ldots,c_k<\\infty}a(c_1,\\ldots,c_k)\\exp(2\\pi i(c_1x_1+\\cdots+c_kx_k)),",
+    "right_next_start": "则我们有 $\\lim_{N\\to\\infty}",
+    "instruction": "同一个如果/则条件句跨页，中间显示式完整留475；页锚点公式块外。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "fc8e03523bd20eb4601cdcf0490af5403b7d511532ddf94c03cd68c3115cbc32",
+    "visualReviewSha256": "ec1699b44942da35ecb910bafe683e79795afd9299a8729b84a4be75671b18bf",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 60,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 2,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 60,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 14,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "c9faf78f68b721b4e1a84fa9d1da4baabbfedbe80a42bc6292030a3e3162c44a",
+  "numericalCheckQualification": "精确有理数/有限组合枚举与图中32编号边逐项对应只辅助原页复核，不取代无穷序列、Fourier或一般图连通性证明。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "answerExceptions": [
+    {
+      "answer": "3.5-17",
+      "reason": "原中英答案16后直接18；研究题17无独立答，不造答项。"
+    }
+  ]
+}

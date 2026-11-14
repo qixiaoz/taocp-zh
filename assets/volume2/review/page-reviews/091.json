@@ -1,0 +1,2564 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 91,
+  "cnPrintedPage": 80,
+  "section": "3.3.4",
+  "enPdfPages": [
+    120,
+    121,
+    122
+  ],
+  "enPrintedPages": [
+    105,
+    106,
+    107
+  ],
+  "pageMarkdownSha256": "9824f3f16f7a23f4aa0267403da31dccaba5b88cb2d01918b37bc2bda99f52ee",
+  "cnPageImageSha256": "eec057c90f30bdb6ee21b67e8cd3f26cc72c50ab5440216a9a9c00d1c8cde76e",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 102,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-091",
+    "p-80"
+  ],
+  "coveredRegions": [
+    "正式表1左半全部29行，a/m和五个νt²，科学记数/见式引用/表头完整；对应原生成器1–12全部说明至RANDU续句。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "tableContinuation": {
+    "logicalTable": "3.3.4-1",
+    "cnPdfPages": [
+      91,
+      92
+    ],
+    "kind": "horizontal-columns-by-row-key",
+    "rowKeys": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "ownColumns": [
+      "行",
+      "a",
+      "m",
+      "ν2²",
+      "ν3²",
+      "ν4²",
+      "ν5²",
+      "ν6²"
+    ],
+    "mergedCandidate": ".work/volume2/sections/table-3-3-4-1.md",
+    "mappingProof": ".work/volume2/sections/table-3-3-4-1.json",
+    "assemblyInstruction": "横向逐行合成18列逻辑表；重复行号/表头按候选显示处理；两页锚点放表外，原页独立稿不回改。"
+  },
+  "numericAudit": {
+    "method": "Independent integer implementation of original AlgorithmS1–S10; all dot products and rounded rational quotients use exact integers, search uses integer sqrt floor, full U·Vᵀ=mI invariants checked after reduction. Compare exact source integers or last printed scientific digit tolerance, after separate direct CN/EN table review.",
+    "rows": [
+      {
+        "row": 1,
+        "a": 23,
+        "m": 100000001,
+        "nuSquaredCalculated": [
+          530,
+          530,
+          530,
+          530,
+          447
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 7,
+            "searchBounds": [
+              1,
+              0,
+              1
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 530,
+            "s": 530
+          },
+          {
+            "t": 4,
+            "transformIterations": 8,
+            "searchBounds": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 530,
+            "s": 530
+          },
+          {
+            "t": 5,
+            "transformIterations": 6,
+            "searchBounds": [
+              1,
+              0,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 40,
+            "sBeforeSearch": 530,
+            "s": 530
+          },
+          {
+            "t": 6,
+            "transformIterations": 12,
+            "searchBounds": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              1
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 447,
+            "s": 447
+          }
+        ]
+      },
+      {
+        "row": 2,
+        "a": 129,
+        "m": 34359738368,
+        "nuSquaredCalculated": [
+          16642,
+          16642,
+          16642,
+          15602,
+          252
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 7,
+            "searchBounds": [
+              1,
+              0,
+              1
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 16642,
+            "s": 16642
+          },
+          {
+            "t": 4,
+            "transformIterations": 8,
+            "searchBounds": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 16642,
+            "s": 16642
+          },
+          {
+            "t": 5,
+            "transformIterations": 10,
+            "searchBounds": [
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 15602,
+            "s": 15602
+          },
+          {
+            "t": 6,
+            "transformIterations": 18,
+            "searchBounds": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 252,
+            "s": 252
+          }
+        ]
+      },
+      {
+        "row": 3,
+        "a": 262145,
+        "m": 34359738368,
+        "nuSquaredCalculated": [
+          34359738368,
+          6,
+          4,
+          4,
+          4
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 6,
+            "searchBounds": [
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 6,
+            "s": 6
+          },
+          {
+            "t": 4,
+            "transformIterations": 9,
+            "searchBounds": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 4,
+            "s": 4
+          },
+          {
+            "t": 5,
+            "transformIterations": 10,
+            "searchBounds": [
+              0,
+              0,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 4,
+            "s": 4
+          },
+          {
+            "t": 6,
+            "transformIterations": 16,
+            "searchBounds": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 40,
+            "sBeforeSearch": 4,
+            "s": 4
+          }
+        ]
+      },
+      {
+        "row": 4,
+        "a": 3141592653,
+        "m": 34359738368,
+        "nuSquaredCalculated": [
+          2997222016,
+          1026050,
+          27822,
+          1118,
+          1118
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 15,
+            "searchBounds": [
+              0,
+              1,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 1026050,
+            "s": 1026050
+          },
+          {
+            "t": 4,
+            "transformIterations": 17,
+            "searchBounds": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 27822,
+            "s": 27822
+          },
+          {
+            "t": 5,
+            "transformIterations": 21,
+            "searchBounds": [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 1118,
+            "s": 1118
+          },
+          {
+            "t": 6,
+            "transformIterations": 17,
+            "searchBounds": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 1118,
+            "s": 1118
+          }
+        ]
+      },
+      {
+        "row": 5,
+        "a": 137,
+        "m": 256,
+        "nuSquaredCalculated": [
+          274,
+          30,
+          14,
+          6,
+          4
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 6,
+            "searchBounds": [
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 30,
+            "s": 30
+          },
+          {
+            "t": 4,
+            "transformIterations": 7,
+            "searchBounds": [
+              1,
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 14,
+            "s": 14
+          },
+          {
+            "t": 5,
+            "transformIterations": 10,
+            "searchBounds": [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 6,
+            "s": 6
+          },
+          {
+            "t": 6,
+            "transformIterations": 12,
+            "searchBounds": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 4,
+            "s": 4
+          }
+        ]
+      },
+      {
+        "row": 6,
+        "a": 3141592621,
+        "m": 10000000000,
+        "nuSquaredCalculated": [
+          4577114792,
+          1034718,
+          62454,
+          1776,
+          542
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 15,
+            "searchBounds": [
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 1034718,
+            "s": 1034718
+          },
+          {
+            "t": 4,
+            "transformIterations": 15,
+            "searchBounds": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 62454,
+            "s": 62454
+          },
+          {
+            "t": 5,
+            "transformIterations": 14,
+            "searchBounds": [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 1776,
+            "s": 1776
+          },
+          {
+            "t": 6,
+            "transformIterations": 12,
+            "searchBounds": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 542,
+            "s": 542
+          }
+        ]
+      },
+      {
+        "row": 7,
+        "a": 3141592221,
+        "m": 10000000000,
+        "nuSquaredCalculated": [
+          4293881050,
+          276266,
+          97450,
+          3366,
+          2382
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 11,
+            "searchBounds": [
+              0,
+              1,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 276266,
+            "s": 276266
+          },
+          {
+            "t": 4,
+            "transformIterations": 19,
+            "searchBounds": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 97450,
+            "s": 97450
+          },
+          {
+            "t": 5,
+            "transformIterations": 18,
+            "searchBounds": [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 3366,
+            "s": 3366
+          },
+          {
+            "t": 6,
+            "transformIterations": 18,
+            "searchBounds": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 364,
+            "sBeforeSearch": 2382,
+            "s": 2382
+          }
+        ]
+      },
+      {
+        "row": 8,
+        "a": 4219755981,
+        "m": 10000000000,
+        "nuSquaredCalculated": [
+          10721093248,
+          2595578,
+          49362,
+          5868,
+          820
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 11,
+            "searchBounds": [
+              0,
+              1,
+              1
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 2595578,
+            "s": 2595578
+          },
+          {
+            "t": 4,
+            "transformIterations": 13,
+            "searchBounds": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 49362,
+            "s": 49362
+          },
+          {
+            "t": 5,
+            "transformIterations": 12,
+            "searchBounds": [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 5868,
+            "s": 5868
+          },
+          {
+            "t": 6,
+            "transformIterations": 16,
+            "searchBounds": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 820,
+            "s": 820
+          }
+        ]
+      },
+      {
+        "row": 9,
+        "a": 4160984121,
+        "m": 10000000000,
+        "nuSquaredCalculated": [
+          9183801602,
+          4615650,
+          16686,
+          6840,
+          1344
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 10,
+            "searchBounds": [
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 4615650,
+            "s": 4615650
+          },
+          {
+            "t": 4,
+            "transformIterations": 13,
+            "searchBounds": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 16686,
+            "s": 16686
+          },
+          {
+            "t": 5,
+            "transformIterations": 20,
+            "searchBounds": [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 6840,
+            "s": 6840
+          },
+          {
+            "t": 6,
+            "transformIterations": 19,
+            "searchBounds": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 1344,
+            "s": 1344
+          }
+        ]
+      },
+      {
+        "row": 10,
+        "a": 16785413,
+        "m": 34359738368,
+        "nuSquaredCalculated": [
+          8364058,
+          8364058,
+          21476,
+          16712,
+          1496
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 21,
+            "searchBounds": [
+              1,
+              0,
+              1
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 8364058,
+            "s": 8364058
+          },
+          {
+            "t": 4,
+            "transformIterations": 10,
+            "searchBounds": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 21476,
+            "s": 21476
+          },
+          {
+            "t": 5,
+            "transformIterations": 14,
+            "searchBounds": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 121,
+            "sBeforeSearch": 16712,
+            "s": 16712
+          },
+          {
+            "t": 6,
+            "transformIterations": 20,
+            "searchBounds": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 1496,
+            "s": 1496
+          }
+        ]
+      },
+      {
+        "row": 11,
+        "a": 1220703125,
+        "m": 34359738368,
+        "nuSquaredCalculated": [
+          33161885770,
+          2925242,
+          113374,
+          13070,
+          2256
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 11,
+            "searchBounds": [
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 2925242,
+            "s": 2925242
+          },
+          {
+            "t": 4,
+            "transformIterations": 12,
+            "searchBounds": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 113374,
+            "s": 113374
+          },
+          {
+            "t": 5,
+            "transformIterations": 13,
+            "searchBounds": [
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 13070,
+            "s": 13070
+          },
+          {
+            "t": 6,
+            "transformIterations": 22,
+            "searchBounds": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 2256,
+            "s": 2256
+          }
+        ]
+      },
+      {
+        "row": 12,
+        "a": 65539,
+        "m": 536870912,
+        "nuSquaredCalculated": [
+          536936458,
+          118,
+          116,
+          116,
+          116
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 6,
+            "searchBounds": [
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 118,
+            "s": 118
+          },
+          {
+            "t": 4,
+            "transformIterations": 16,
+            "searchBounds": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 116,
+            "s": 116
+          },
+          {
+            "t": 5,
+            "transformIterations": 20,
+            "searchBounds": [
+              0,
+              0,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 116,
+            "s": 116
+          },
+          {
+            "t": 6,
+            "transformIterations": 7,
+            "searchBounds": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 40,
+            "sBeforeSearch": 116,
+            "s": 116
+          }
+        ]
+      },
+      {
+        "row": 13,
+        "a": 1812433253,
+        "m": 4294967296,
+        "nuSquaredCalculated": [
+          4326934538,
+          1462856,
+          15082,
+          4866,
+          906
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 9,
+            "searchBounds": [
+              1,
+              0,
+              1
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 1462856,
+            "s": 1462856
+          },
+          {
+            "t": 4,
+            "transformIterations": 14,
+            "searchBounds": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 15082,
+            "s": 15082
+          },
+          {
+            "t": 5,
+            "transformIterations": 20,
+            "searchBounds": [
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 4866,
+            "s": 4866
+          },
+          {
+            "t": 6,
+            "transformIterations": 17,
+            "searchBounds": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 906,
+            "s": 906
+          }
+        ]
+      },
+      {
+        "row": 14,
+        "a": 1566083941,
+        "m": 4294967296,
+        "nuSquaredCalculated": [
+          4659748970,
+          2079590,
+          44902,
+          4652,
+          662
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 11,
+            "searchBounds": [
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 2079590,
+            "s": 2079590
+          },
+          {
+            "t": 4,
+            "transformIterations": 10,
+            "searchBounds": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 44902,
+            "s": 44902
+          },
+          {
+            "t": 5,
+            "transformIterations": 13,
+            "searchBounds": [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 4652,
+            "s": 4652
+          },
+          {
+            "t": 6,
+            "transformIterations": 20,
+            "searchBounds": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 662,
+            "s": 662
+          }
+        ]
+      },
+      {
+        "row": 15,
+        "a": 69069,
+        "m": 4294967296,
+        "nuSquaredCalculated": [
+          4243209856,
+          2072544,
+          52804,
+          6990,
+          242
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 9,
+            "searchBounds": [
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 2072544,
+            "s": 2072544
+          },
+          {
+            "t": 4,
+            "transformIterations": 13,
+            "searchBounds": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 52804,
+            "s": 52804
+          },
+          {
+            "t": 5,
+            "transformIterations": 13,
+            "searchBounds": [
+              1,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vectorsSearched": 40,
+            "sBeforeSearch": 6990,
+            "s": 6990
+          },
+          {
+            "t": 6,
+            "transformIterations": 17,
+            "searchBounds": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 242,
+            "s": 242
+          }
+        ]
+      },
+      {
+        "row": 16,
+        "a": 2650845021,
+        "m": 4294967296,
+        "nuSquaredCalculated": [
+          4938969760,
+          2646962,
+          68342,
+          8778,
+          1506
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 8,
+            "searchBounds": [
+              0,
+              1,
+              1
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 2646962,
+            "s": 2646962
+          },
+          {
+            "t": 4,
+            "transformIterations": 14,
+            "searchBounds": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 68342,
+            "s": 68342
+          },
+          {
+            "t": 5,
+            "transformIterations": 13,
+            "searchBounds": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 121,
+            "sBeforeSearch": 8778,
+            "s": 8778
+          },
+          {
+            "t": 6,
+            "transformIterations": 21,
+            "searchBounds": [
+              1,
+              1,
+              1,
+              0,
+              1,
+              0
+            ],
+            "vectorsSearched": 40,
+            "sBeforeSearch": 1506,
+            "s": 1506
+          }
+        ]
+      },
+      {
+        "row": 17,
+        "a": 314159269,
+        "m": 2147483647,
+        "nuSquaredCalculated": [
+          1432232969,
+          899290,
+          36985,
+          3427,
+          1144
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 11,
+            "searchBounds": [
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 899290,
+            "s": 899290
+          },
+          {
+            "t": 4,
+            "transformIterations": 14,
+            "searchBounds": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 36985,
+            "s": 36985
+          },
+          {
+            "t": 5,
+            "transformIterations": 15,
+            "searchBounds": [
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 3427,
+            "s": 3427
+          },
+          {
+            "t": 6,
+            "transformIterations": 19,
+            "searchBounds": [
+              0,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 1144,
+            "s": 1144
+          }
+        ]
+      },
+      {
+        "row": 18,
+        "a": 62089911,
+        "m": 2147483647,
+        "nuSquaredCalculated": [
+          1977289717,
+          1662317,
+          48191,
+          6101,
+          1462
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 13,
+            "searchBounds": [
+              0,
+              1,
+              1
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 1662317,
+            "s": 1662317
+          },
+          {
+            "t": 4,
+            "transformIterations": 11,
+            "searchBounds": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 48191,
+            "s": 48191
+          },
+          {
+            "t": 5,
+            "transformIterations": 12,
+            "searchBounds": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 121,
+            "sBeforeSearch": 6101,
+            "s": 6101
+          },
+          {
+            "t": 6,
+            "transformIterations": 15,
+            "searchBounds": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 364,
+            "sBeforeSearch": 1462,
+            "s": 1462
+          }
+        ]
+      },
+      {
+        "row": 19,
+        "a": 16807,
+        "m": 2147483647,
+        "nuSquaredCalculated": [
+          282475250,
+          408197,
+          21682,
+          4439,
+          895
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 16,
+            "searchBounds": [
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 408197,
+            "s": 408197
+          },
+          {
+            "t": 4,
+            "transformIterations": 10,
+            "searchBounds": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 21682,
+            "s": 21682
+          },
+          {
+            "t": 5,
+            "transformIterations": 12,
+            "searchBounds": [
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 4439,
+            "s": 4439
+          },
+          {
+            "t": 6,
+            "transformIterations": 16,
+            "searchBounds": [
+              0,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 895,
+            "s": 895
+          }
+        ]
+      },
+      {
+        "row": 20,
+        "a": 48271,
+        "m": 2147483647,
+        "nuSquaredCalculated": [
+          1990735345,
+          1433881,
+          47418,
+          4404,
+          1402
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 8,
+            "searchBounds": [
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 1433881,
+            "s": 1433881
+          },
+          {
+            "t": 4,
+            "transformIterations": 10,
+            "searchBounds": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 40,
+            "sBeforeSearch": 47418,
+            "s": 47418
+          },
+          {
+            "t": 5,
+            "transformIterations": 12,
+            "searchBounds": [
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 4404,
+            "s": 4404
+          },
+          {
+            "t": 6,
+            "transformIterations": 21,
+            "searchBounds": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 364,
+            "sBeforeSearch": 1402,
+            "s": 1402
+          }
+        ]
+      },
+      {
+        "row": 21,
+        "a": 40692,
+        "m": 2147483399,
+        "nuSquaredCalculated": [
+          1655838865,
+          1403422,
+          42475,
+          6507,
+          1438
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 19,
+            "searchBounds": [
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 1403422,
+            "s": 1403422
+          },
+          {
+            "t": 4,
+            "transformIterations": 11,
+            "searchBounds": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 42475,
+            "s": 42475
+          },
+          {
+            "t": 5,
+            "transformIterations": 11,
+            "searchBounds": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 121,
+            "sBeforeSearch": 6507,
+            "s": 6507
+          },
+          {
+            "t": 6,
+            "transformIterations": 14,
+            "searchBounds": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 364,
+            "sBeforeSearch": 1501,
+            "s": 1438
+          }
+        ]
+      },
+      {
+        "row": 22,
+        "a": 44485709377909,
+        "m": 70368744177664,
+        "nuSquaredCalculated": [
+          55553019728410,
+          1180915002,
+          1882426,
+          279928,
+          26230
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 15,
+            "searchBounds": [
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 1180915002,
+            "s": 1180915002
+          },
+          {
+            "t": 4,
+            "transformIterations": 12,
+            "searchBounds": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 1882426,
+            "s": 1882426
+          },
+          {
+            "t": 5,
+            "transformIterations": 15,
+            "searchBounds": [
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 40,
+            "sBeforeSearch": 279928,
+            "s": 279928
+          },
+          {
+            "t": 6,
+            "transformIterations": 19,
+            "searchBounds": [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 26230,
+            "s": 26230
+          }
+        ]
+      },
+      {
+        "row": 23,
+        "a": 31167285,
+        "m": 281474976710656,
+        "nuSquaredCalculated": [
+          322492826755072,
+          4111841446,
+          17341510,
+          306326,
+          59278
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 12,
+            "searchBounds": [
+              1,
+              1,
+              0
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 4111841446,
+            "s": 4111841446
+          },
+          {
+            "t": 4,
+            "transformIterations": 14,
+            "searchBounds": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 40,
+            "sBeforeSearch": 17341510,
+            "s": 17341510
+          },
+          {
+            "t": 5,
+            "transformIterations": 15,
+            "searchBounds": [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 306326,
+            "s": 306326
+          },
+          {
+            "t": 6,
+            "transformIterations": 26,
+            "searchBounds": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 40,
+            "sBeforeSearch": 59278,
+            "s": 59278
+          }
+        ]
+      },
+      {
+        "row": 24,
+        "a": 1431853894371298687,
+        "m": 4611685481556476153,
+        "nuSquaredCalculated": [
+          2426115408329392973,
+          472451795017,
+          1903556295,
+          3194548,
+          1611610
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 11,
+            "searchBounds": [
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 472451795017,
+            "s": 472451795017
+          },
+          {
+            "t": 4,
+            "transformIterations": 15,
+            "searchBounds": [
+              1,
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 1903556295,
+            "s": 1903556295
+          },
+          {
+            "t": 5,
+            "transformIterations": 26,
+            "searchBounds": [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 3194548,
+            "s": 3194548
+          },
+          {
+            "t": 6,
+            "transformIterations": 29,
+            "searchBounds": [
+              1,
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            "vectorsSearched": 121,
+            "sBeforeSearch": 1611610,
+            "s": 1611610
+          }
+        ]
+      },
+      {
+        "row": 26,
+        "a": 6364136223846793005,
+        "m": 18446744073709551616,
+        "nuSquaredCalculated": [
+          8810664174654508192,
+          6398304806574,
+          4112636266,
+          45662836,
+          1846368
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 11,
+            "searchBounds": [
+              1,
+              1,
+              0
+            ],
+            "vectorsSearched": 4,
+            "sBeforeSearch": 6398304806574,
+            "s": 6398304806574
+          },
+          {
+            "t": 4,
+            "transformIterations": 12,
+            "searchBounds": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 4204319378,
+            "s": 4112636266
+          },
+          {
+            "t": 5,
+            "transformIterations": 24,
+            "searchBounds": [
+              1,
+              0,
+              0,
+              1,
+              1
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 45662836,
+            "s": 45662836
+          },
+          {
+            "t": 6,
+            "transformIterations": 37,
+            "searchBounds": [
+              1,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 1846368,
+            "s": 1846368
+          }
+        ]
+      },
+      {
+        "row": 27,
+        "a": 140509855088641,
+        "m": 301742616185706138042367,
+        "nuSquaredCalculated": [
+          4611686018427387905,
+          4281084902,
+          2185998007,
+          1848771940,
+          1862407
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 4,
+            "searchBounds": [
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 4281084902,
+            "s": 4281084902
+          },
+          {
+            "t": 4,
+            "transformIterations": 5,
+            "searchBounds": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 2185998007,
+            "s": 2185998007
+          },
+          {
+            "t": 5,
+            "transformIterations": 6,
+            "searchBounds": [
+              1,
+              1,
+              0,
+              0,
+              1
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 1848771940,
+            "s": 1848771940
+          },
+          {
+            "t": 6,
+            "transformIterations": 26,
+            "searchBounds": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 1862407,
+            "s": 1862407
+          }
+        ]
+      },
+      {
+        "row": 28,
+        "a": 13466913167672728516604865138692990110510031083808220863503674023048322712367437209807820106400224357199988099276238581755500657647589352869413048388303361273250983962476544,
+        "m": 247330401473104534060502521019647190035131349101211839914063056092897225106531867170316401061243044987830824361237755009768067533563832694140062258226274209795000570856079361,
+        "nuSquaredCalculated": [
+          178724164058061142313325290539715259453419506797017228049277372717046167041668226890795455414901216013190332341389914788823807519498836333288828052115717837506485286699970025,
+          34674487883830766962710280204860590260114401163452879625062056383447923345958541855991094969609012750098526680177134,
+          443523449508367759591312884110356319589362286611865272638698256686383813433576265473090,
+          1688315138896863818580536378140050012715643820062338352244326181968173,
+          5222794236127321195883764280591910159654702819034011040023
+        ],
+        "allPrintedValuesMatch": true,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 98,
+            "searchBounds": [
+              0,
+              1,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 34674487883830766962710280204860590260114401163452879625062056383447923345958541855991094969609012750098526680177134,
+            "s": 34674487883830766962710280204860590260114401163452879625062056383447923345958541855991094969609012750098526680177134
+          },
+          {
+            "t": 4,
+            "transformIterations": 86,
+            "searchBounds": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 443523449508367759591312884110356319589362286611865272638698256686383813433576265473090,
+            "s": 443523449508367759591312884110356319589362286611865272638698256686383813433576265473090
+          },
+          {
+            "t": 5,
+            "transformIterations": 89,
+            "searchBounds": [
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vectorsSearched": 13,
+            "sBeforeSearch": 1688315138896863818580536378140050012715643820062338352244326181968173,
+            "s": 1688315138896863818580536378140050012715643820062338352244326181968173
+          },
+          {
+            "t": 6,
+            "transformIterations": 82,
+            "searchBounds": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              1
+            ],
+            "vectorsSearched": 40,
+            "sBeforeSearch": 5222794236127321195883764280591910159654702819034011040023,
+            "s": 5222794236127321195883764280591910159654702819034011040023
+          }
+        ]
+      },
+      {
+        "row": 29,
+        "a": 1649202604155873363545637021910105268514984602819186142468116083760642041939675468072792790995878882166831375393590044686353268063205246535253371256669521255074305355740453789145988924760149608363016477430789396234293704590879402888492301673552898588199336822011207043419795525645217415625149485810892902805209664348737680361688612017891691236683991439685722323694577718788745344912640762872265031711313386919558441,
+        "m": 1649202604155873363545637021910105268519831173683938018987339666173005098924891699074976704525842317971512652051259326692252586121606523435025523836089358046687084681673200767558599952024133408196431998284492233373552757123647664916299169633925922100751474113328769892346542724833243014047090340818420271798022578081345301163315812799376636701164875521103478461393163174750909665509116005257294029356954203017987291,
+        "nuSquaredCalculated": [
+          1626105374227558119308489529022600315152160533049319621022321916765895517859300989012831815946918831683359363156604379676941847404075104262297847037416600973203531977126733637149043889307991751940300475169045784534190811293764548979669546434149470076984048582223675756696180108755579963813491116152841777640064141660466572861159998919563825876566945550168758738150048275628518286226993622456300335508187824455693217,
+          863050063495983710225695041631509899409158855921720735321178148774914677474748168398779235603407242269480506247073245956916548933433886945875265546075018451533833103621267650219174362545482759979585679240208543794311200090289747611893802146841187132796572401885440975134574010,
+          976068330887046135070790611922147184158390233072315349061688166518458411589860848481391478014201230655982251154499115851084310084803432258723957592338718296025453373690585902400539119351036742776350683142983,
+          2650338574583317554830205345640433195683759682796663670613953105297964215213286190434529218253578695821096398270380015338444716211887085587205703440376890895250050317,
+          752163213836203206716139216961804099041408970806423124684897117491547343680518109345599252412077346566053064030766266194703066512466654945
+        ],
+        "allPrintedValuesMatch": false,
+        "searches": [
+          {
+            "t": 3,
+            "transformIterations": 221,
+            "searchBounds": [
+              0,
+              1,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 863050063495983710225695041631509899409158855921720735321178148774914677474748168398779235603407242269480506247073245956916548933433886945875265546075018451533833103621267650219174362545482759979585679240208543794311200090289747611893802146841187132796572401885440975134574010,
+            "s": 863050063495983710225695041631509899409158855921720735321178148774914677474748168398779235603407242269480506247073245956916548933433886945875265546075018451533833103621267650219174362545482759979585679240208543794311200090289747611893802146841187132796572401885440975134574010
+          },
+          {
+            "t": 4,
+            "transformIterations": 200,
+            "searchBounds": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 976068330887046135070790611922147184158390233072315349061688166518458411589860848481391478014201230655982251154499115851084310084803432258723957592338718296025453373690585902400539119351036742776350683142983,
+            "s": 976068330887046135070790611922147184158390233072315349061688166518458411589860848481391478014201230655982251154499115851084310084803432258723957592338718296025453373690585902400539119351036742776350683142983
+          },
+          {
+            "t": 5,
+            "transformIterations": 210,
+            "searchBounds": [
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "vectorsSearched": 1,
+            "sBeforeSearch": 2650338574583317554830205345640433195683759682796663670613953105297964215213286190434529218253578695821096398270380015338444716211887085587205703440376890895250050317,
+            "s": 2650338574583317554830205345640433195683759682796663670613953105297964215213286190434529218253578695821096398270380015338444716211887085587205703440376890895250050317
+          },
+          {
+            "t": 6,
+            "transformIterations": 202,
+            "searchBounds": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "vectorsSearched": 364,
+            "sBeforeSearch": 1461753589787787334061469398631249611448296058911988746176452616947234036735218936206569107735694912736608622686593916100894093028892337153,
+            "s": 752163213836203206716139216961804099041408970806423124684897117491547343680518109345599252412077346566053064030766266194703066512466654945
+          }
+        ]
+      }
+    ],
+    "derivedMethod": "mpmath1.3.0,100decimaldigits; compute lgν=log2(ν²)/2, μ=π^(t/2)(ν²)^(t/2)/(Γ(t/2+1)m), compare fixed decimal half-unit and epsilon shorthand one-significant-digit half-unit.",
+    "derivedRows": [
+      {
+        "row": 1,
+        "lgNuCalculated": [
+          "4.52492427472528076",
+          "4.52492427472528076",
+          "4.52492427472528076",
+          "4.52492427472528076",
+          "4.40206551059165888"
+        ],
+        "muCalculated": [
+          "0.0000166504408975214952",
+          "0.000511095914465957749",
+          "0.0138618592427114118",
+          "0.340398896075194162",
+          "4.61552314106921853"
+        ]
+      },
+      {
+        "row": 2,
+        "lgNuCalculated": [
+          "7.01127060172741309",
+          "7.01127060172741309",
+          "7.01127060172741309",
+          "6.96472167884209813",
+          "3.98863996174995824"
+        ],
+        "muCalculated": [
+          "1.52161766719775446e-6",
+          "0.000261726102297075349",
+          "0.0397769003047611649",
+          "4.65799812090186687",
+          "0.00240685618950641687"
+        ]
+      },
+      {
+        "row": 3,
+        "lgNuCalculated": [
+          "17.5",
+          "1.29248125036057809",
+          "1.0",
+          "1.0",
+          "1.0"
+        ],
+        "muCalculated": [
+          "3.14159265358979324",
+          "1.79170141484848796e-9",
+          "2.29794634531469983e-9",
+          "4.90228553667135965e-9",
+          "9.62561514237890025e-9"
+        ]
+      },
+      {
+        "row": 4,
+        "lgNuCalculated": [
+          "15.7404894039403816",
+          "9.98433480266597023",
+          "7.38196925604784089",
+          "5.06335223642159505",
+          "5.06335223642159505"
+        ],
+        "muCalculated": [
+          "0.274043142173997759",
+          "0.126704356662194241",
+          "0.111172300855539543",
+          "0.0064025522885125477",
+          "0.210171551440735866"
+        ]
+      },
+      {
+        "row": 5,
+        "lgNuCalculated": [
+          "4.04901604148026336",
+          "2.45344529780425926",
+          "1.90367746102880205",
+          "1.29248125036057809",
+          "1.0"
+        ],
+        "muCalculated": [
+          "3.36248588704532558",
+          "2.68862681697444208",
+          "3.7782079347920201",
+          "1.81316210593470717",
+          "1.29192819501249251"
+        ]
+      },
+      {
+        "row": 6,
+        "lgNuCalculated": [
+          "16.0458956642637513",
+          "9.99040310068082204",
+          "7.96525317741558948",
+          "5.39720793317505298",
+          "4.54107452067693578"
+        ],
+        "muCalculated": [
+          "1.43794302051843745",
+          "0.440881235987043226",
+          "1.9248206425265978",
+          "0.0699690338217688269",
+          "0.0822803683598280872"
+        ]
+      },
+      {
+        "row": 7,
+        "lgNuCalculated": [
+          "15.9998175399468462",
+          "9.03784924766448495",
+          "8.28618728251630733",
+          "5.85840973066497451",
+          "5.60897884893205698"
+        ],
+        "muCalculated": [
+          "1.34896251620684277",
+          "0.0608246710414469575",
+          "4.68633614344780484",
+          "0.346006097659221903",
+          "6.98431211905764103"
+        ]
+      },
+      {
+        "row": 8,
+        "lgNuCalculated": [
+          "16.6598664881112056",
+          "10.6538122061463651",
+          "7.79555661444573329",
+          "6.25932657783669496",
+          "4.83974004975272302"
+        ],
+        "muCalculated": [
+          "3.36813077863679353",
+          "1.75161935726989264",
+          "1.20241738025938662",
+          "1.38842919209394961",
+          "0.284931146011059188"
+        ]
+      },
+      {
+        "row": 9,
+        "lgNuCalculated": [
+          "16.548222164871534",
+          "11.0690511996857939",
+          "7.01317526503392155",
+          "6.3698903048866301",
+          "5.19615871138938014"
+        ],
+        "muCalculated": [
+          "2.88517636448693742",
+          "4.15372665300706587",
+          "0.137396043942216223",
+          "2.03675470218669923",
+          "1.25457368497632765"
+        ]
+      },
+      {
+        "row": 10,
+        "lgNuCalculated": [
+          "11.4978858177792434",
+          "11.4978858177792434",
+          "7.19521884478026876",
+          "7.01429838853355412",
+          "5.27344722994381833"
+        ],
+        "muCalculated": [
+          "0.000764745729014945067",
+          "2.94892898849719966",
+          "0.0662409713194031331",
+          "5.53120420694449344",
+          "0.503550811327116253"
+        ]
+      },
+      {
+        "row": 11,
+        "lgNuCalculated": [
+          "17.4744034988679949",
+          "10.7400622752593317",
+          "8.39536515007533377",
+          "6.83698576034139778",
+          "5.56977567619939678"
+        ],
+        "muCalculated": [
+          "3.03207013972033467",
+          "0.609932059495373294",
+          "1.84606437048486119",
+          "2.99183469390913795",
+          "1.72689449632220948"
+        ]
+      },
+      {
+        "row": 12,
+        "lgNuCalculated": [
+          "14.5000880631777258",
+          "3.44132152468092063",
+          "3.42899049756378606",
+          "3.42899049756378606",
+          "3.42899049756378606"
+        ],
+        "muCalculated": [
+          "3.14197620730348782",
+          "0.000010000961283515266",
+          "0.000123684664090218404",
+          "0.00142093290718058007",
+          "0.0150245841732786559"
+        ]
+      },
+      {
+        "row": 13,
+        "lgNuCalculated": [
+          "16.0053490742210607",
+          "10.2401781651929522",
+          "6.94027006716686706",
+          "6.12426030246921459",
+          "4.91168362002311754"
+        ],
+        "muCalculated": [
+          "3.16497538172284748",
+          "1.72556416862476383",
+          "0.26135316354825376",
+          "2.02427202625282337",
+          "0.894794074561851579"
+        ]
+      },
+      {
+        "row": 14,
+        "lgNuCalculated": [
+          "16.058802545045454",
+          "10.4939338461357056",
+          "7.72724604283500821",
+          "6.09181769073660919",
+          "4.68534370340360885"
+        ],
+        "muCalculated": [
+          "3.40841550652976284",
+          "2.92479430658950825",
+          "2.31654776598664596",
+          "1.80899712738518396",
+          "0.349069958823291823"
+        ]
+      },
+      {
+        "row": 15,
+        "lgNuCalculated": [
+          "15.991254442800931",
+          "10.4914856498550416",
+          "7.84417980003613866",
+          "6.38553837013139938",
+          "3.95943161863729726"
+        ],
+        "muCalculated": [
+          "3.10373420623350061",
+          "2.90994236349857376",
+          "3.20363871431276762",
+          "5.0064692314577301",
+          "0.0170523643872479069"
+        ]
+      },
+      {
+        "row": 16,
+        "lgNuCalculated": [
+          "16.1007814947455595",
+          "10.6679530264298819",
+          "8.030242423900205",
+          "6.54983827742982152",
+          "5.27825302733596409"
+        ],
+        "muCalculated": [
+          "3.61265407742889231",
+          "4.20000984036386941",
+          "5.36642737907239137",
+          "8.84764224011064004",
+          "4.10973124344763374"
+        ]
+      },
+      {
+        "row": 17,
+        "lgNuCalculated": [
+          "15.2078095182257763",
+          "9.88921345031377844",
+          "7.58732632766751821",
+          "5.87136523825958722",
+          "5.07993566838919471"
+        ],
+        "muCalculated": [
+          "2.09523950504825338",
+          "1.66344478611349088",
+          "3.14333834479418343",
+          "1.68520938481659453",
+          "3.60285327254495752"
+        ]
+      },
+      {
+        "row": 18,
+        "lgNuCalculated": [
+          "15.4404385637549324",
+          "10.3323820481346548",
+          "7.77823805898012394",
+          "6.28741500766881527",
+          "5.25686379797621867"
+        ],
+        "muCalculated": [
+          "2.89261287629532357",
+          "4.18051237512918904",
+          "5.33668735765847089",
+          "7.12641600008654795",
+          "7.51987497648913614"
+        ]
+      },
+      {
+        "row": 19,
+        "lgNuCalculated": [
+          "14.0367746128416868",
+          "9.31945302695709402",
+          "7.20210511002559883",
+          "6.05800949666254665",
+          "4.90287193607580939"
+        ],
+        "muCalculated": [
+          "0.413238150362939757",
+          "0.508702013718588752",
+          "1.0802855438979422",
+          "3.21796614327405611",
+          "1.72519268596198855"
+        ]
+      },
+      {
+        "row": 20,
+        "lgNuCalculated": [
+          "15.445327145549737",
+          "10.2257469334205969",
+          "7.76657359677588057",
+          "6.05229937678218448",
+          "5.22663531700531159"
+        ],
+        "muCalculated": [
+          "2.9122827285927838",
+          "3.34910226547481734",
+          "5.16685589338352065",
+          "3.1549093392132593",
+          "6.63151174611338611"
+        ]
+      },
+      {
+        "row": 21,
+        "lgNuCalculated": [
+          "15.3124575701822258",
+          "10.2102587263342747",
+          "7.68716316347947261",
+          "6.33388841919671508",
+          "5.2449239802196489"
+        ],
+        "muCalculated": [
+          "2.42235689283317315",
+          "3.24295718102703293",
+          "4.1457843671596387",
+          "8.37183528270037245",
+          "7.15558608108038605"
+        ]
+      },
+      {
+        "row": 22,
+        "lgNuCalculated": [
+          "22.8294652843553637",
+          "15.0686289912378566",
+          "10.422080860794246",
+          "9.04734813758840531",
+          "7.33946509357617328"
+        ],
+        "muCalculated": [
+          "2.48014883174365802",
+          "2.41566534197770962",
+          "0.248499646070653612",
+          "3.10123392335842812",
+          "1.32529768369691991"
+        ]
+      },
+      {
+        "row": 23,
+        "lgNuCalculated": [
+          "24.0981301996423061",
+          "15.9685687443903855",
+          "12.0238630949572865",
+          "9.11235414902368231",
+          "7.92760457622516764"
+        ],
+        "muCalculated": [
+          "3.59940022807286693",
+          "3.92376832593822202",
+          "5.27234449372503547",
+          "0.971221597177158158",
+          "3.82418772431329878"
+        ]
+      },
+      {
+        "row": 24,
+        "lgNuCalculated": [
+          "30.53667694394431",
+          "19.3906880901053419",
+          "15.413025045096983",
+          "10.8035901932389359",
+          "10.3100356159189864"
+        ],
+        "muCalculated": [
+          "1.65272900202122829",
+          "0.294961398520062365",
+          "3.87740815243514542",
+          "0.0208191185334567892",
+          "4.69049359895492907"
+        ]
+      },
+      {
+        "row": 26,
+        "lgNuCalculated": [
+          "31.4669782429781388",
+          "21.2704134303882756",
+          "15.968708167575191",
+          "12.7222585642970365",
+          "10.4081293474116398"
+        ],
+        "muCalculated": [
+          "1.50050966900931064",
+          "3.67507557955548883",
+          "4.52470874556623588",
+          "4.02055449591253741",
+          "1.76332936169601315"
+        ]
+      },
+      {
+        "row": 27,
+        "lgNuCalculated": [
+          "31.0",
+          "15.9976646505862619",
+          "15.5128224698373515",
+          "15.391960061180354",
+          "10.4143684775867544"
+        ],
+        "muCalculated": [
+          "0.0000480145598898023977",
+          "3.88850551314425347e-9",
+          "0.0000781506548711528117",
+          "2.56371753744874325",
+          "0.000110633207095901089"
+        ]
+      },
+      {
+        "row": 28,
+        "lgNuCalculated": [
+          "287.765647559949187",
+          "191.907802743614809",
+          "143.917413271760328",
+          "114.984311384075207",
+          "95.8673616375764398"
+        ],
+        "muCalculated": [
+          "2.27015570055118658",
+          "3.45800956513104029",
+          "3.92487129578862431",
+          "2.49261243768266007",
+          "2.97666261962906002"
+        ]
+      },
+      {
+        "row": 29,
+        "lgNuCalculated": [
+          "687.989826016377489",
+          "458.31983517159422",
+          "343.80208484789751",
+          "274.762156164398367",
+          "229.007597374780235"
+        ],
+        "muCalculated": [
+          "3.09759436758283559",
+          "2.03642575348965317",
+          "2.85073062911231418",
+          "1.15419145684654561",
+          "1.33340053270471957"
+        ]
+      }
+    ],
+    "derivedDiscrepancies": [
+      [
+        16,
+        5,
+        "log",
+        "6.6",
+        "6.54983827742982152"
+      ]
+    ],
+    "sourceReviewScope": "原中英两页所有29行的a/m/ν²/lgν/μ、ε与上界均已逐格读图。独立算法重算仅第1–24及26–29行140个ν²和280个派生值；第25行未重导，不能宣称全表独立复算。"
+  },
+  "preservedNumericDiscrepancies": [
+    {
+      "tableRow": 16,
+      "column": "lgν5",
+      "sourceChinese": "6.6",
+      "sourceEnglish": "6.6",
+      "calculated": "log2(sqrt(8778))=6.54983827742982152",
+      "decision": "保留共同原表6.6，列数值疑点；按最接近一位小数会是6.5。ν5²=8778已由整数算法独立确认。"
+    },
+    {
+      "tableRow": 29,
+      "column": "ν5²",
+      "sourceChinese": "约2×10^165",
+      "sourceEnglish": "about2×10^165",
+      "calculated": "2.65033857458331755…×10^165",
+      "decision": "保留两版粗略表值；独立值不符合最近一位有效数舍入，但代回μ公式得到1.15419145684654561，和原μ5=1.15相符，不擅改原表。"
+    }
+  ],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 90,
+    "start": "的生成器问题",
+    "tableBeforeContinuation": true
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 92,
+    "end": "实际",
+    "continuation": "的生成器由下式定义",
+    "tableBeforeContinuation": true
+  }
+}

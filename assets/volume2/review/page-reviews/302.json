@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "sections": [
+    "4.5.3"
+  ],
+  "pdf_page": 302,
+  "printed_page": 291,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "e718e732a3b0b07ea845d1072283886802cc7101301fb28731fee2b3d01c15b6",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/scans/302.jpg",
+    "image_sha256": "2d8623c851840d4a3936e785c864cb523c8f7bbfab5662c06b50081a3ccdeca7",
+    "scope": "Entire actual Chinese page: every exercise prose clause, subpart, inline/display formula, bound, continued-fraction double slash, overbar repeated pattern, prime/subscript, Morse dot/dash sequence, difficulty and recommended arrow."
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      392,
+      393
+    ],
+    "en_printed_pages": [
+      377,
+      378
+    ],
+    "scope": "Corresponding actual English page images inspected; complete matching exercise/formula/prose compared; qualifications and source discrepancies explicitly listed.",
+    "qualification": "Books ask for proofs and programs; these requests are transcribed. Only listed independent finite numerical checks have been carried out; they are not a claim to solve/prove all exercises."
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/batch301-proof.html",
+    "html_sha256": "76ea27eda00518e1f3ec115976636436747b83b48e36173e6aaacb22011728f1",
+    "math_count_in_three_page_proof": 204,
+    "math_parse_errors": 0,
+    "desktop_visual_review": true,
+    "mobile_visual_review": true,
+    "desktop_screenshot": ".work/volume2/source-audit/batch301-proof-1040-302.png",
+    "mobile_screenshot": ".work/volume2/source-audit/batch301-proof-390-302.png",
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "document_horizontal_overflow": false,
+    "missing_images": 0,
+    "page_errors": 0,
+    "inline_katex_nowrap": true,
+    "all_wide_elements_initial_left_and_right_end_reachable": true,
+    "scroll_evidence": ".work/volume2/source-audit/batch301-scroll.json",
+    "scrollable_element_counts": {
+      "1040": 19,
+      "390": 27
+    },
+    "qualification": "Standalone three-page proof using current renderer/math CSS, not whole-volume/site acceptance."
+  },
+  "exercises": [
+    {
+      "anchor": "ex-4-5-3-32",
+      "difficulty": "20",
+      "recommended": false,
+      "answer_anchor": "ans-4-5-3-32",
+      "complete_exercise_text_on_this_page": true
+    },
+    {
+      "anchor": "ex-4-5-3-33",
+      "difficulty": "M32",
+      "recommended": false,
+      "answer_anchor": "ans-4-5-3-33",
+      "complete_exercise_text_on_this_page": true
+    },
+    {
+      "anchor": "ex-4-5-3-34",
+      "difficulty": "HM40",
+      "recommended": false,
+      "answer_anchor": "ans-4-5-3-34",
+      "complete_exercise_text_on_this_page": true
+    },
+    {
+      "anchor": "ex-4-5-3-35",
+      "difficulty": "HM41",
+      "recommended": false,
+      "answer_anchor": "ans-4-5-3-35",
+      "complete_exercise_text_on_this_page": true
+    }
+  ],
+  "substantive_corrections": [
+    {
+      "section": "4.5.3 exercise33(d)",
+      "cn_printed_page": 291,
+      "en_pdf_page": 392,
+      "en_printed_page": 377,
+      "source_reading": "并且x1≥2,x_{m+k}≥2和d都是n的因数",
+      "final_reading": "并且x1≥2、x_{m+k}≥2，且d是n的因数",
+      "english_basis": "with x1≥2,x_{m+k}≥2,andd is a divisor ofn",
+      "reason": "The factor condition belongs tod only; original Chinese makes inequalities andd jointly into divisors.",
+      "source_closeup": ".work/volume2/source-audit/cn-render/302-ex33d.png"
+    },
+    {
+      "section": "4.5.3 exercise34(c)",
+      "cn_printed_page": 291,
+      "en_pdf_page": 392,
+      "en_printed_page": 377,
+      "source_reading": "其中求和是对0<t≤y范围内的满足t⊥y的t和y进行",
+      "final_reading": "其中求和是对0<t≤y范围内的满足t⊥y的t进行",
+      "english_basis": "the sum is over the range0<t≤y,t⊥y",
+      "reason": "y is a fixed argument on both sides; onlyt is summed, not both t andy."
+    },
+    {
+      "section": "4.5.3 exercise35",
+      "cn_printed_page": 291,
+      "en_pdf_page": 393,
+      "en_printed_page": 378,
+      "source_reading": "证明对于1≤m<n，部分商m/n的和等于",
+      "final_reading": "证明对于1≤m<n，分数m/n的所有部分商的和等于",
+      "english_basis": "the sum of all partial quotients for the fractionsm/n,for1≤m<n",
+      "reason": "m/n denotes each fraction; the summands are all of its partial quotients, aggregated overm. Exact enumerationn1..80 independently verifies stated identity."
+    }
+  ],
+  "source_discrepancies_retained": [],
+  "answer_exceptions": [],
+  "numeric_evidence": ".work/volume2/source-audit/batch301-numeric-check.json",
+  "next_steps": [
+    "Bind complete pages with anchors outside math/table/code blocks.",
+    "Retain this page-SHA record historically if binding changes bytes."
+  ],
+  "answer_link_presence_evidence": {
+    "actual_cn_pdf_pages": [
+      524,
+      525
+    ],
+    "en_answer_text_pdf_pages": [
+      668
+    ],
+    "scope": "Original numbered-answer existence only."
+  },
+  "finite_checks": {
+    "exercises33a_33c_33e_and35": "Direct exact representations and total quotient sums for every n1..80",
+    "exercise34d": "Exact rational identityn1..100",
+    "morse_code": "All5original length4 sequences retained, with two distinct dashes in final sequence."
+  }
+}

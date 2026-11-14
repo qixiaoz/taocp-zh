@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 432,
+  "cnPrintedPage": 421,
+  "enPdfPages": [
+    554,
+    555
+  ],
+  "enPrintedPages": [
+    539,
+    540
+  ],
+  "pageMarkdownSha256": "e9cfa016c3d5db01feda5bc681a1b56023a24e8d14ae384e5c4c90d9fa925e06",
+  "cnPageImageSha256": "5e4595131efbbe785baa8eeb7554634f98a13af1b78b8ea1fb5c0568621e9d28",
+  "enPageImageSha256": {
+    "554": "f10cd149e58917b1b0af8fcccc8046aaf73e09d85bb5295bb0594881dfa79221",
+    "555": "204509e6f69297df8c80f3e66d12735f27c243460e8fcc82a8c7147b436fa9b6"
+  },
+  "coveredRegions": [
+    "3.1答5–9全部；循环论证与6(c)算法、Brent/Floyd/Gosper/Sedgewick-Szymanski-Yao全部注记/界/引文，两位平方取中清单保留前导0。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-432",
+    "p-421",
+    "ans-3-1-5",
+    "ans-3-1-6",
+    "ans-3-1-7",
+    "ans-3-1-8",
+    "ans-3-1-9"
+  ],
+  "answerAnchors": [
+    "ans-3-1-5",
+    "ans-3-1-6",
+    "ans-3-1-7",
+    "ans-3-1-8",
+    "ans-3-1-9"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 126,
+    "displayExpressions": 0,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "3.1答6(c)末段",
+      "cnPrintedPage": 421,
+      "enPdfPage": 554,
+      "enPrintedPage": 539,
+      "original": "0<i<mu",
+      "disposition": "保留共同原区间；使用最小Floyd相遇n时正确，若允许任意符合6(b)的n则可能失效。需补充最小n约定或采用0<i<n，暂不改正文。",
+      "evidence": {
+        "source": "CN432印421/EN554印539均写0<i<mu",
+        "counterexample": "f=(1,0), X0=0, mu=0, lambda=2。习题6(b)允许n=4且X4=X8；0<i<mu为空，原法错误给lambda=4。若坚持最小n，取f=(1,0,0),X0=2，mu=1,lambda=2,n=2不会错；另一例mu=0,lambda=2最小n=2恰好通过。",
+        "qualification": "完整题干允许任一符合(b)的n，但实现可选最小n；拟改区间0<i<n有充分算法依据，暂保两版共同文字列疑。"
+      }
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {},
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "1a14955033b1700b1256977a587197c243973e68e5adbb2494ccd867ab6c677d",
+    "visualReviewSha256": "04e58fa4501ba0b2caba3a45ab2478bccedfe71e3d7038752183c4d4710add42",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 126,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 31,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 126,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 32,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "f23565ac5a4d9850d0f0c3203bc61ccf50a197acb791f155924afabbc94778b4",
+  "numericalCheckQualification": "所有有限枚举只辅助原页核查，不替代普遍命题/渐近证明；共同疑点保留底本。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

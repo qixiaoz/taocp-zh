@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 562,
+  "cnPrintedPage": 551,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "83819411d5885ec8e1e91ea7f3188000977d9980e5a8340a50842c4da6525d82",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/562.jpg",
+  "cnPageImageSha256": "b64d8eef9d485f1b3292bedac7c80d2da459cbb195e5e36301dee018901b2bea",
+  "enPdfPages": [
+    714,
+    715,
+    716
+  ],
+  "enPrintedPages": [
+    699,
+    700,
+    701
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-714.png",
+      "sha256": "1408fdd7c4ac8c4dceb5649d9897052c16be91be38a9fbe5e7d5220bdd01ab90"
+    },
+    {
+      "file": "verified-sources/en-715.png",
+      "sha256": "8a7142b5586aeb29be8be3f763cf3bcb74095c7a0d979018734815160fec302e"
+    },
+    {
+      "file": "verified-sources/en-716.png",
+      "sha256": "311036bf839545a816f73ed21aafabcff9f4a928b33c9c26315829ba858ef56b"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-562",
+    "p-551",
+    "ans-4-6-4-13",
+    "ans-4-6-4-14"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续12全部矩阵/张量历史及上下界；13完整逆DFT、单位根/插值注，指数错置f因子由一般线性逆变换唯一修复。",
+    "14全部位逆序/FFT蝴蝶/四元合并/复乘法计数/实数对称情形和原历史引用。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末14原参考完整，563从15开始。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.6.4-13-inverse-dft-parenthesis",
+      "section": "4.6.4答案13首式",
+      "cnPrintedPage": 551,
+      "enPdfPage": 715,
+      "enPrintedPage": 700,
+      "original": "Σ exp(−2πi(Σ s_j t_j/m_j) f(s1,…,sn))/(m1…mn)",
+      "final": "Σ exp(−2πi(Σ s_j t_j/m_j)) f(s1,…,sn)/(m1…mn)",
+      "basis": "中英共同将f误放进exp的括号内。按多维DFT定义代入，根的几何级数正交：1/m_j Σ_s exp(2πi s(t−t′)/m_j)=δ_(t,t′)，所以逆变换必须是线性和Σ kernel*f。所有f=0时原式输出1，正确线性逆变换应为0；修复只将闭括号提前至乘f之前。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-6-4-13",
+      "exercise_anchor": "ex-4-6-4-13",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-4-14",
+      "exercise_anchor": "ex-4-6-4-14",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 562,
+    "sha256": "83819411d5885ec8e1e91ea7f3188000977d9980e5a8340a50842c4da6525d82",
+    "mathExpressions": 56,
+    "display": 2,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 562,
+        "width": 1280,
+        "sha256": "83819411d5885ec8e1e91ea7f3188000977d9980e5a8340a50842c4da6525d82",
+        "pageErrors": [],
+        "bodyText": 4774,
+        "documentWidth": 1280,
+        "expressions": 56,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 61,
+            "max": 61,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 562,
+        "width": 390,
+        "sha256": "83819411d5885ec8e1e91ea7f3188000977d9980e5a8340a50842c4da6525d82",
+        "pageErrors": [],
+        "bodyText": 4774,
+        "documentWidth": 390,
+        "expressions": 56,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 260,
+            "max": 260,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 396,
+            "max": 396,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 259,
+            "max": 259,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 463,
+            "max": 463,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/562-83819411d5885ec8e1e91ea7f3188000977d9980e5a8340a50842c4da6525d82-metadata-update/562.json",
+      "pageMarkdownSha256": "83819411d5885ec8e1e91ea7f3188000977d9980e5a8340a50842c4da6525d82",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ]
+}

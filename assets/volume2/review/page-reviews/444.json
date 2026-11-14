@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 444,
+  "cnPrintedPage": 433,
+  "enPdfPages": [
+    569,
+    570,
+    571
+  ],
+  "enPrintedPages": [
+    554,
+    555,
+    556
+  ],
+  "pageMarkdownSha256": "20292a271afd62b72881510d91b928c10dddaeaaa5e3af74b28738d6ceb6c317",
+  "cnPageImageSha256": "e94d4bab10c2774af024972603c40e05c76e68839c4f1dc8073bb20973b89a8b",
+  "enPageImageSha256": {
+    "569": "3035ccadc81b58302ef86b49c81958985713ac9d5bd8a8650d4d9e347d8eb68e",
+    "570": "fad5f37562eff92c5803373c6890f2a1daa63e129a02915eedc1137e088b02bb",
+    "571": "9f2ff6a093aaff6b001930d23c63de0df37309aa87132cf0d464ce18b67e8e33"
+  },
+  "coveredRegions": [
+    "3.2.2答15续证明与原注、16两种完整证明、17全证明与有向子树说明、18原注、20十六进制常数、21至本页结尾；原跳19保留。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-444",
+    "p-433",
+    "ans-3-2-2-16",
+    "ans-3-2-2-17",
+    "ans-3-2-2-18",
+    "ans-3-2-2-20",
+    "ans-3-2-2-21"
+  ],
+  "answerAnchors": [
+    "ans-3-2-2-16",
+    "ans-3-2-2-17",
+    "ans-3-2-2-18",
+    "ans-3-2-2-20",
+    "ans-3-2-2-21"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 98,
+    "displayExpressions": 2,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 443,
+    "answerAtStart": "3.2.2-15",
+    "right_start": "由于诸 $X$ 不同，因此对于所有大的 $n$，",
+    "continuation_end": "最多为 $2^{e-2}$。",
+    "continues_to_pdf_page": 445,
+    "answerAtEnd": "3.2.2-21",
+    "left_end": "因此，对于所有这样的 $p$ 和 $k$，B类 $(p,k)$ 序列也都存在。",
+    "right_next_start": "为了得到一个B类 $(p^e,k)$ 序列，",
+    "instruction": "答21下一段续页；字串/公式均完整闭合，无新答锚点。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "5e57c9e2c0a00340abe77994e2dc1b04baa4d7622cacefa3f10e8a2541f612a5",
+    "visualReviewSha256": "b885509b55e1722edee94f0f99f54dba399e56cb2576923e57dbe1f595c4b0f3",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 98,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 98,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 6,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "28140b15279fc6b44157c9da65ad66580283c389d4ea21c90d3faf8d05fa0cbf",
+  "numericalCheckQualification": "有限复算辅助原图与逐段证明核对，不把枚举当作普遍或渐近证明；巨型素数表未独立证明素性。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "answerExceptions": [
+    {
+      "answer": "3.2.2-19",
+      "reason": "CN444与EN570原答区18后直接20；无独立第19答，不造答项。"
+    }
+  ]
+}

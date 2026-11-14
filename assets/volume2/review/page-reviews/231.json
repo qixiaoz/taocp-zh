@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订须另证包含与跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文整页及列出的英文页图，逐段/逐式/表格/程序字段频次注释和难度推荐符号比较。机器检查和复算另列，不声称人类签核。",
+  "cnPdfPage": 231,
+  "cnPrintedPage": 220,
+  "enPdfPages": [
+    302,
+    303
+  ],
+  "enPrintedPages": [
+    287,
+    288
+  ],
+  "pageMarkdownSha256": "ef3ad9b460f53c2f5c78477061435f94731377ba7a911cd6e877b77674adbbb8",
+  "cnPageImage": "scans/231.jpg",
+  "cnPageImageSha256": "861789fafe09cbffa9dd2ad069cd022e1eb2519deb40a4b8693d1f3e27655dd0",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-302.png",
+      "sha256": "367e33903fbfa92edf19d3be940c5d1a0c67fa584fd05c2284d77e080901d746"
+    },
+    {
+      "file": "verified-sources/en-303.png",
+      "sha256": "cf64e469bb9ea827f08a6a368a4290394e6ad666d30c5dcf6ebed40df9c6a93d"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-231",
+    "p-220"
+  ],
+  "coveredRegions": [
+    "首续构造解9完成及原结束方块。",
+    "孙子/秦九韶/库塔卡全部历史文献及两中文编者脚注。",
+    "对称范围10、模加减Iverson公式11/12。",
+    "六个两位模数13、Mersenne选择14及末跨页句。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": true,
+  "originalFootnoteIds": [
+    "v2-p220-1",
+    "v2-p220-2"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "10",
+    "11",
+    "12",
+    "13",
+    "14"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pendingactualanswer-area-verification",
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "continuationNotes": "末“按”接232首“照这个原则来选取模数…”。原编者脚注v2-p220-1/2定义需先提取到脚注区再连词，勿穿插正文。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 30,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "只是语法；内容核查依实际中英文原页。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终母稿装订/跨页代码合并/题答回链",
+    "正式VitePress/Pandoc整卷与线上",
+    "未执行MIX或将机器字段一致称作算法正确性证明。"
+  ],
+  "bilingualExceptions": [
+    {
+      "region": "original-editor-footnotes-v2-p220-1-and-2",
+      "status": "Chinese-original-page-visual-review-only",
+      "reason": "中文书目说明和截至2014年14册出版情况为编者注，英文302/303未见，不声称双语逐字对应。"
+    }
+  ]
+}

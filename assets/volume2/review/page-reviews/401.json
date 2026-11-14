@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 401,
+  "cnPrintedPage": 390,
+  "enPdfPages": [
+    516,
+    517
+  ],
+  "enPrintedPages": [
+    501,
+    502
+  ],
+  "pageMarkdownSha256": "7dfed4f16b014d8e53f66e032af09fbc4cb04e6b439b5e2baf3a81e852a46120",
+  "masterSha256": null,
+  "cnPageImage": "scans/401.jpg",
+  "cnPageImageSha256": "51e2ccf0de0e1b24ed5799b1c927ecf330cefb0b65635258a48d877584c69c56",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-516.png",
+      "sha256": "bc1a5b2cbac14a8a86f9534f01ec89d8e216644b143212cfcc6369aa2670daa9"
+    },
+    {
+      "file": "source-audit/en-render/page-517.png",
+      "sha256": "66e8c442e4a5ffca3722a473f8d807d506fe011c7e57fcd19e9a1cc577ca7650"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-401",
+    "p-390"
+  ],
+  "numberedFormulaTags": [
+    37,
+    38
+  ],
+  "coveredRegions": [
+    "Brent历史续引文与所有数字、37/38傅里叶定义及边界、耶茨可编辑32格表所有符号/下标与空格、每步运算、沃尔什符号变化序列。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 63,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch397-numeric-check.json",
+  "numericScope": "Exact free noncommutative algebra proves all4 entries of source36 and15-add7-product schedule; 35 scalar-pair cancellation separately uses commutativity. Determinants31/32 finite rational matrices n2..5 (16each) and exact operation-count sums n2..40; literalYates32cells/256coefficients plus integer inverse/sign changes; causal39/40 finite2x3x2data. Interpolation41–46 finite explicit rational basis/ranges; no numeric proof of general dimension/complexity/stability or research historical claims. Shamir only full finite example n2,p7.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch397-proof.html",
+    "htmlSha256": "65b436b19f90926cb42417ed2fcfe4090c9b5db5c42755fad3caa9456fa24e5a",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch397-proof-1280-401.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch397-proof-390-401.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 405,
+    "scrollableElementCounts": {
+      "1280": 118,
+      "390": 130
+    },
+    "machineObservations": ".work/volume2/source-audit/batch397-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch397-right-390-401.png",
+    "mobileRightEndVisualReview": true
+  },
+  "startsMidParagraph": {
+    "previousCnPdfPage": 400,
+    "previousEnd": "［Stanford Computer Science report",
+    "start": "CS157（1970年3月），也见",
+    "crossPageBibliography": true
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 402,
+    "end": "0,7,3,4,1,6,2,5,\n$$",
+    "nextStart": "这是数$\\{0,1,2,3,4,5,6,7\\}$的一个排列.",
+    "afterClosedDisplay": true
+  },
+  "editableYatesTable": {
+    "rows": 8,
+    "columns": 4,
+    "sourceMathCells": 32,
+    "allCoefficientSlots": 256,
+    "literalMatrix": ".work/volume2/source-audit/batch397-yates-literal.json",
+    "allCellsOriginalCnAndEnCompared": true,
+    "independentRepeatedButterflyCheck": true,
+    "mobileColumnStartViews": [
+      ".work/volume2/source-audit/batch397-yates-col0-390.png",
+      ".work/volume2/source-audit/batch397-yates-col1-390.png",
+      ".work/volume2/source-audit/batch397-yates-col2-390.png",
+      ".work/volume2/source-audit/batch397-yates-col3-390.png"
+    ],
+    "allMiddleColumnViewsActuallyReviewed": true
+  }
+}

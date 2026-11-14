@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="440" viewBox="0 0 360 440" role="img" aria-labelledby="title desc">
+<title id="title">图16 伊夫定理的证明</title>
+<desc id="desc">左半圆路径：从负iR沿虚轴向上经过0到iR，再沿左半圆经负R返回负iR。四个标记点，虚轴和半圆各有两个方向箭头。</desc>
+<rect width="360" height="440" fill="white"/>
+<g fill="none" stroke="#222" stroke-width="1.7">
+<path data-contour="semicircle" d="M245 40 A170 170 0 0 0 245 380"/>
+<path data-contour="imaginary-axis" d="M245 380 V40"/>
+<path data-arrow="axis-up-upper" d="M252.000 139.000 L245.000 125.000 L238.000 139.000"/>
+<path data-arrow="axis-up-lower" d="M252.000 319.000 L245.000 305.000 L238.000 319.000"/>
+<path data-arrow="arc-upper-down-left" d="M129.742 74.943 L124.792 89.792 L139.641 84.842"/>
+<path data-arrow="arc-lower-down-right" d="M109.943 325.258 L124.792 330.208 L119.842 315.359"/>
+</g>
+<g fill="#222">
+<circle data-point="iR" cx="245" cy="40" r="3.5"/>
+<circle data-point="0" cx="245" cy="210" r="3.5"/>
+<circle data-point="-iR" cx="245" cy="380" r="3.5"/>
+<circle data-point="-R" cx="75" cy="210" r="3.5"/>
+</g>
+<g fill="#222" font-family="Times New Roman,serif" font-size="28" font-style="italic">
+<text data-label="iR" x="257" y="47">iR</text>
+<text data-label="-iR" x="257" y="388">−iR</text>
+<text data-label="-R" x="66" y="219" text-anchor="end">−R</text>
+<text data-label="0" x="257" y="219" font-style="normal">0</text>
+</g></svg>

@@ -1,0 +1,417 @@
+{
+  "recordVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "sampleFile": "formulas.md",
+  "sampleSha256": "e998c1b0a279d19393a352a549afa508de017e8d54777c3247be3a161fbdfbb3",
+  "htmlSha256": "2b74c02e627e3f38fc10a9393b41b0026eeef2f350fc3fc3deb9f047e67f58fa",
+  "priorContentReview": "formulas-review.json",
+  "priorContentReviewSha256": "a172b2865d948c1b04b51bfc6ec7de9809a6e65364f7988ab7950a4b35038e99",
+  "method": "Separate headless Chrome process using existing local Playwright library; playwright-cli wrapper was unavailable offline. Original content review preserved. Direct geometry checks and left/right screenshots.",
+  "cssRule": ".book-math-display>.katex-display>.katex>.katex-html:has(>.katex-tag){padding-inline:2.5em}",
+  "scope": "Standalone sample HTML only; formal VitePress site and other formulas are outside this check.",
+  "artifacts": [
+    {
+      "file": ".work/volume2/samples/formulas-independent-1280-left.png",
+      "sha256": "9864f821c0b46a545d44d7d9b681f2ba0ebc4b8c70e383d18fd905d592c899ad"
+    },
+    {
+      "file": ".work/volume2/samples/formulas-independent-1280-right.png",
+      "sha256": "7e8f68fb1b1975fd1c02f702daadf30bd93116f6628c5829be639991702bf351"
+    },
+    {
+      "file": ".work/volume2/samples/formulas-independent-390-left.png",
+      "sha256": "c07e5bce37211390ca5efea83ecfc63ad3ecef8db3d8005dd0aaee2730f9ba3c"
+    },
+    {
+      "file": ".work/volume2/samples/formulas-independent-390-right.png",
+      "sha256": "9a21d4424f0f40a9524647935a2262531547808563422526b1d9b65a831c8bc5"
+    }
+  ],
+  "cases": [
+    {
+      "width": 1280,
+      "documentWidth": 1280,
+      "errors": [],
+      "geometry": [
+        {
+          "tag": "(11)",
+          "width": 760,
+          "scrollWidth": 760,
+          "initialScrollLeft": 0,
+          "tagBox": {
+            "left": 981.25,
+            "right": 1020,
+            "top": 142.578125,
+            "bottom": 168.703125
+          },
+          "baseMaxRight": 815.25,
+          "gap": 166,
+          "tagIntersectsBase": false
+        },
+        {
+          "tag": "(12)",
+          "width": 760,
+          "scrollWidth": 760,
+          "initialScrollLeft": 0,
+          "tagBox": {
+            "left": 981.25,
+            "right": 1020,
+            "top": 343.453125,
+            "bottom": 395.71875
+          },
+          "baseMaxRight": 888.5,
+          "gap": 92.75,
+          "tagIntersectsBase": false
+        },
+        {
+          "tag": "(13)",
+          "width": 760,
+          "scrollWidth": 760,
+          "initialScrollLeft": 0,
+          "tagBox": {
+            "left": 981.25,
+            "right": 1020,
+            "top": 464.109375,
+            "bottom": 490.234375
+          },
+          "baseMaxRight": 888.0625,
+          "gap": 93.1875,
+          "tagIntersectsBase": false
+        },
+        {
+          "tag": "(14)",
+          "width": 760,
+          "scrollWidth": 760,
+          "initialScrollLeft": 0,
+          "tagBox": {
+            "left": 981.25,
+            "right": 1020,
+            "top": 562.421875,
+            "bottom": 602.484375
+          },
+          "baseMaxRight": 789.65625,
+          "gap": 191.59375,
+          "tagIntersectsBase": false
+        },
+        {
+          "tag": "(15)",
+          "width": 760,
+          "scrollWidth": 760,
+          "initialScrollLeft": 0,
+          "tagBox": {
+            "left": 981.25,
+            "right": 1020,
+            "top": 859.8125,
+            "bottom": 885.9375
+          },
+          "baseMaxRight": 837.703125,
+          "gap": 143.546875,
+          "tagIntersectsBase": false
+        },
+        {
+          "tag": "(16)",
+          "width": 760,
+          "scrollWidth": 850,
+          "initialScrollLeft": 0,
+          "tagBox": {
+            "left": 1071.4375,
+            "right": 1110.1875,
+            "top": 1026.5,
+            "bottom": 1112.75
+          },
+          "baseMaxRight": 1055.75,
+          "gap": 15.6875,
+          "tagIntersectsBase": false
+        },
+        {
+          "tag": "(17)",
+          "width": 760,
+          "scrollWidth": 760,
+          "initialScrollLeft": 0,
+          "tagBox": {
+            "left": 981.25,
+            "right": 1020,
+            "top": 1332.296875,
+            "bottom": 1358.421875
+          },
+          "baseMaxRight": 951.296875,
+          "gap": 29.953125,
+          "tagIntersectsBase": false
+        },
+        {
+          "tag": "(18)",
+          "width": 760,
+          "scrollWidth": 760,
+          "initialScrollLeft": 0,
+          "tagBox": {
+            "left": 981.25,
+            "right": 1020,
+            "top": 1547.578125,
+            "bottom": 1573.703125
+          },
+          "baseMaxRight": 905.8125,
+          "gap": 75.4375,
+          "tagIntersectsBase": false
+        }
+      ],
+      "right": [
+        {
+          "scrollLeft": 0,
+          "rightLimit": 0,
+          "tagVisibleAtRight": true,
+          "containerRight": 1020,
+          "tagRight": 1020
+        },
+        {
+          "scrollLeft": 0,
+          "rightLimit": 0,
+          "tagVisibleAtRight": true,
+          "containerRight": 1020,
+          "tagRight": 1020
+        },
+        {
+          "scrollLeft": 0,
+          "rightLimit": 0,
+          "tagVisibleAtRight": true,
+          "containerRight": 1020,
+          "tagRight": 1020
+        },
+        {
+          "scrollLeft": 0,
+          "rightLimit": 0,
+          "tagVisibleAtRight": true,
+          "containerRight": 1020,
+          "tagRight": 1020
+        },
+        {
+          "scrollLeft": 0,
+          "rightLimit": 0,
+          "tagVisibleAtRight": true,
+          "containerRight": 1020,
+          "tagRight": 1020
+        },
+        {
+          "scrollLeft": 90,
+          "rightLimit": 90,
+          "tagVisibleAtRight": true,
+          "containerRight": 1020,
+          "tagRight": 1020.1875
+        },
+        {
+          "scrollLeft": 0,
+          "rightLimit": 0,
+          "tagVisibleAtRight": true,
+          "containerRight": 1020,
+          "tagRight": 1020
+        },
+        {
+          "scrollLeft": 0,
+          "rightLimit": 0,
+          "tagVisibleAtRight": true,
+          "containerRight": 1020,
+          "tagRight": 1020
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "errors": [],
+      "geometry": [
+        {
+          "tag": "(11)",
+          "width": 358,
+          "scrollWidth": 459,
+          "initialScrollLeft": 0,
+          "tagBox": {
+            "left": 436.625,
+            "right": 475.375,
+            "top": 176.765625,
+            "bottom": 202.890625
+          },
+          "baseMaxRight": 420.9375,
+          "gap": 15.6875,
+          "tagIntersectsBase": false
+        },
+        {
+          "tag": "(12)",
+          "width": 358,
+          "scrollWidth": 606,
+          "initialScrollLeft": 0,
+          "tagBox": {
+            "left": 583.140625,
+            "right": 621.890625,
+            "top": 544.984375,
+            "bottom": 597.25
+          },
+          "baseMaxRight": 567.453125,
+          "gap": 15.6875,
+          "tagIntersectsBase": false
+        },
+        {
+          "tag": "(13)",
+          "width": 358,
+          "scrollWidth": 605,
+          "initialScrollLeft": 0,
+          "tagBox": {
+            "left": 582.25,
+            "right": 621,
+            "top": 665.640625,
+            "bottom": 691.765625
+          },
+          "baseMaxRight": 566.5625,
+          "gap": 15.6875,
+          "tagIntersectsBase": false
+        },
+        {
+          "tag": "(14)",
+          "width": 358,
+          "scrollWidth": 408,
+          "initialScrollLeft": 0,
+          "tagBox": {
+            "left": 385.4375,
+            "right": 424.1875,
+            "top": 828.734375,
+            "bottom": 868.796875
+          },
+          "baseMaxRight": 369.75,
+          "gap": 15.6875,
+          "tagIntersectsBase": false
+        },
+        {
+          "tag": "(15)",
+          "width": 358,
+          "scrollWidth": 504,
+          "initialScrollLeft": 0,
+          "tagBox": {
+            "left": 481.546875,
+            "right": 520.296875,
+            "top": 1325.859375,
+            "bottom": 1351.984375
+          },
+          "baseMaxRight": 465.859375,
+          "gap": 15.6875,
+          "tagIntersectsBase": false
+        },
+        {
+          "tag": "(16)",
+          "width": 358,
+          "scrollWidth": 850,
+          "initialScrollLeft": 0,
+          "tagBox": {
+            "left": 827.4375,
+            "right": 866.1875,
+            "top": 1591.515625,
+            "bottom": 1677.765625
+          },
+          "baseMaxRight": 811.75,
+          "gap": 15.6875,
+          "tagIntersectsBase": false
+        },
+        {
+          "tag": "(17)",
+          "width": 358,
+          "scrollWidth": 731,
+          "initialScrollLeft": 0,
+          "tagBox": {
+            "left": 708.71875,
+            "right": 747.46875,
+            "top": 2028.671875,
+            "bottom": 2054.796875
+          },
+          "baseMaxRight": 693.03125,
+          "gap": 15.6875,
+          "tagIntersectsBase": false
+        },
+        {
+          "tag": "(18)",
+          "width": 358,
+          "scrollWidth": 641,
+          "initialScrollLeft": 0,
+          "tagBox": {
+            "left": 617.765625,
+            "right": 656.515625,
+            "top": 2314.125,
+            "bottom": 2340.25
+          },
+          "baseMaxRight": 602.078125,
+          "gap": 15.6875,
+          "tagIntersectsBase": false
+        }
+      ],
+      "right": [
+        {
+          "scrollLeft": 101,
+          "rightLimit": 101,
+          "tagVisibleAtRight": true,
+          "containerRight": 374,
+          "tagRight": 374.375
+        },
+        {
+          "scrollLeft": 248,
+          "rightLimit": 248,
+          "tagVisibleAtRight": true,
+          "containerRight": 374,
+          "tagRight": 373.890625
+        },
+        {
+          "scrollLeft": 247,
+          "rightLimit": 247,
+          "tagVisibleAtRight": true,
+          "containerRight": 374,
+          "tagRight": 374
+        },
+        {
+          "scrollLeft": 50,
+          "rightLimit": 50,
+          "tagVisibleAtRight": true,
+          "containerRight": 374,
+          "tagRight": 374.1875
+        },
+        {
+          "scrollLeft": 146,
+          "rightLimit": 146,
+          "tagVisibleAtRight": true,
+          "containerRight": 374,
+          "tagRight": 374.296875
+        },
+        {
+          "scrollLeft": 492,
+          "rightLimit": 492,
+          "tagVisibleAtRight": true,
+          "containerRight": 374,
+          "tagRight": 374.1875
+        },
+        {
+          "scrollLeft": 373,
+          "rightLimit": 373,
+          "tagVisibleAtRight": true,
+          "containerRight": 374,
+          "tagRight": 374.46875
+        },
+        {
+          "scrollLeft": 283,
+          "rightLimit": 283,
+          "tagVisibleAtRight": true,
+          "containerRight": 374,
+          "tagRight": 373.515625
+        }
+      ]
+    }
+  ],
+  "status": "passed",
+  "visualReview": {
+    "reviewer": "independent model agent",
+    "directlyViewed": [
+      "formulas-1280.png",
+      "formulas-390.png",
+      "formulas-independent-1280-right.png",
+      "formulas-independent-390-right.png"
+    ],
+    "leftAndRightFormulaEndsReachable": true,
+    "allEightNumbersSeparatedFromFormulaBodies": true,
+    "minimumMeasuredTagGapPx": 15.6875,
+    "notes": "桌面式16现在局部横向滚动，左侧ν_t²与两行下界、右侧modulo及末项和编号均可分别看到；窄屏8式右端截图均见编号且不与公式内容重叠。此结论限于样例HTML，不扩展为整卷或正式VitePress验收。"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.4",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；最终母稿须另行证明包含、跨页合段/程序合块及允许展示转换，不仅替换本哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整页和列出的英文页图，逐段/逐式/表格单元/清单行及注释比较；语法/文本字段检查/复算独立列出。模型视觉核查，不声称人类签核。",
+  "cnPdfPage": 213,
+  "cnPrintedPage": 202,
+  "enPdfPages": [
+    278,
+    279
+  ],
+  "enPrintedPages": [
+    263,
+    264
+  ],
+  "pageMarkdownSha256": "cc84b93a47f0f269f4a1520970117fdbdc20d1cd18e89be177c96a35f71bbcd7",
+  "cnPageImage": "scans/213.jpg",
+  "cnPageImageSha256": "9571620f7e8e51e02c8c7cb9a2f3f643bc37f94c8b925c02999e3ca78c618077",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-278.png",
+      "sha256": "0dccf881053d62128cb7e9fd56655c125713874dbd2f1458fa60b1bba325c42f"
+    },
+    {
+      "file": "verified-sources/en-279.png",
+      "sha256": "2f314a8a510516310aaaff5fa3ead757603936b44f5810453c16973b4326f761"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码；物理页和印刷页隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-213",
+    "p-202",
+    "ex-4-2-4-11",
+    "ex-4-2-4-12",
+    "ex-4-2-4-13",
+    "ex-4-2-4-14",
+    "ex-4-2-4-15",
+    "ex-4-2-4-16",
+    "ex-4-2-4-17",
+    "ex-4-2-4-18",
+    "ex-4-2-4-19",
+    "ex-4-2-4-20"
+  ],
+  "coveredRegions": [
+    "习题11–20完整及全部难度/13/14/17/18推荐箭头。",
+    "习题12双重积分密度/变形度最大值和上界，未舍入乘积。",
+    "习题14漏掉的logarithmic law与习题11歧义按英文实际原页订正。",
+    "习题16提示、17调和概率求和/极限、18五公理和L_a集合/负m示例全部数学。",
+    "最后19斐波那契f_(F_n)嵌套下标、20渐近问题。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [
+    {
+      "id": "v2-4.2.4-ex11-log-law-not-entire-distribution",
+      "section": "4.2.4习题11",
+      "cnPrintedPage": 202,
+      "enPdfPage": 278,
+      "enPrintedPage": 263,
+      "sourceText": "证明1/U的分布与U相同。",
+      "finalText": "证明1/U也按照对数律分布。",
+      "evidence": "英文实际页图：Given that U is a random variable distributed according to the logarithmic law, prove that 1/U is also；also指对数律，不要求整个随机变量分布相同，互反的支持可不同。",
+      "kind": "substantive-translation-correction"
+    },
+    {
+      "id": "v2-4.2.4-ex14-log-law-assumption",
+      "section": "4.2.4习题14",
+      "cnPrintedPage": 202,
+      "enPdfPage": 279,
+      "enPrintedPage": 264,
+      "sourceText": "其小数部分满足相互独立的分布",
+      "finalText": "其小数部分按照对数律满足相互独立的分布",
+      "evidence": "英文实际页图明确：whose fraction parts are independently distributed according to the logarithmic law。中文遗漏对数律，无法仅用基数和指数差概率确定溢出概率。",
+      "kind": "substantive-omitted-hypothesis"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "answerLinkStatus": "pendingverifiedanswers",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "习题11–20各完整，实际为§4.2.4末页。下一页214/印203为§4.3，未在本批转录；无跨页表、程序、题或脚注。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 75,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "仅排版语法；内容来自以上中文/英文原页实际比较。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "辅助原页核查，不当作原书答案来源或替代视觉比较。",
+    "results": {
+      "exercise11ScopeCounterexample": "If U has logarithmic fraction law with support[.1,1),1/U has support(1,10]; ordinary whole-variable distributions differ though fraction parts both obeyloglaw. Supports the English-based correction, not offered as sourceanswer."
+    }
+  },
+  "untested": [
+    "最终母稿装订包含/跨页程序合并与原题答双向链接。",
+    "最终正式VitePress/Pandoc整卷和线上。",
+    "未执行MIX程序，未以代码字段一致宣称数值实现正确。"
+  ],
+  "renderReview": {
+    "file": "verified-render/double-dom-review-207-213.json",
+    "sha256": "5d532860bad6c3f57d1c0c7bfe88441a4f54af888670ed901753f4bad05ca278",
+    "scope": "CurrentpageSHA; isolated1280/390 DOM plus explicitlylistedselectedregionsactualvisual. SharedVitePress/Pandoc notincluded."
+  }
+}

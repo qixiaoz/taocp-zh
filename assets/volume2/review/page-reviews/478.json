@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 478,
+  "cnPrintedPage": 467,
+  "enPdfPages": [
+    612,
+    613,
+    614
+  ],
+  "enPrintedPages": [
+    597,
+    598,
+    599
+  ],
+  "pageMarkdownSha256": "11147c6deb056853d3445e36d9710994d8977522ac935d51dde57fda51674bde",
+  "cnPageImageSha256": "244772c7e7f97b1f799e69de8ec191e170e75cfea76a660d149febe1d9884ddd",
+  "enPageImageSha256": {
+    "612": "8c8077e22a8270706201559b1ab445afe19fb1d026fd162ebb545895c5ecf3c5",
+    "613": "2534e822421b71eb12f2c4a84a7ef90051ec7f7db0b89c446e623b61eb3179af",
+    "614": "9eae16663edb8f84e4e12130f5869974fba6a2b737ff5cf2ceb90268f0e304e8"
+  },
+  "coveredRegions": [
+    "3.5答31–37/39–42(c)全部实际原答/子序列规则复合/合并证明/编码/抽样/原注/预测检验条件概率五行/总概率/引理P2/方差与Chebyshev/随机二元矩阵和算法L。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-478",
+    "p-467",
+    "ans-3-5-31",
+    "ans-3-5-32",
+    "ans-3-5-33",
+    "ans-3-5-34",
+    "ans-3-5-35",
+    "ans-3-5-36",
+    "ans-3-5-37",
+    "ans-3-5-39",
+    "ans-3-5-40",
+    "ans-3-5-41",
+    "ans-3-5-42"
+  ],
+  "answerAnchors": [
+    "ans-3-5-31",
+    "ans-3-5-32",
+    "ans-3-5-33",
+    "ans-3-5-34",
+    "ans-3-5-35",
+    "ans-3-5-36",
+    "ans-3-5-37",
+    "ans-3-5-39",
+    "ans-3-5-40",
+    "ans-3-5-41",
+    "ans-3-5-42"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 112,
+    "displayExpressions": 3,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "cnPdfPage": 478,
+      "enPdfPage": 613,
+      "section": "3.5答33",
+      "original": "N>N1只保证t_N来自某一支M>N0，但最后直接用N_r,N_s都满足N0的频率界",
+      "analysis": "原题两个子序列各无限（CN149印138对应题33），可取N1足够大使两支累计计数皆>N0，补此条件可完整；两版原句仅写某M。保原列证明中量词略写疑点，未把新增证明条件混入正文。"
+    },
+    {
+      "cnPdfPage": 478,
+      "enPdfPage": 613,
+      "section": "3.5答36",
+      "original": "U_s=(0.X_t...X_(t+s))_2 截断串直接称U_s",
+      "analysis": "两版均如此，原算法可按决定Y_s所需前缀读取，二进制边界情形及S/R有穷查询解释未展开；保原而不替作者改证明。"
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {},
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "fc8e03523bd20eb4601cdcf0490af5403b7d511532ddf94c03cd68c3115cbc32",
+    "visualReviewSha256": "ec1699b44942da35ecb910bafe683e79795afd9299a8729b84a4be75671b18bf",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 112,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 2,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 112,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 7,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "c9faf78f68b721b4e1a84fa9d1da4baabbfedbe80a42bc6292030a3e3162c44a",
+  "numericalCheckQualification": "精确有理数/有限组合枚举与图中32编号边逐项对应只辅助原页复核，不取代无穷序列、Fourier或一般图连通性证明。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "answerExceptions": [
+    {
+      "answer": "3.5-38",
+      "reason": "原中英答案37后直接39，研究题38无独立答；不造链接。"
+    }
+  ],
+  "notationAudit": "答40真正随机源符号为美元号$_N，已对CN478放大原图、CN140/141正文定义和英文613核实；初稿误识fraktur S已归档，重新渲染并直接看当前美元号。",
+  "nextPageHandoff": {
+    "nextCnPdfPage": 479,
+    "nextCnPrintedPage": 468,
+    "currentLastAnswer": "3.5-42(c)",
+    "left_end": "由(a)，这最多为 $\\sigma^2/(n\\mu^2)$。",
+    "endsInCompleteAnswer": true,
+    "next": "479原答43、44然后3.6；本任务不修改479及以后所有权。"
+  }
+}

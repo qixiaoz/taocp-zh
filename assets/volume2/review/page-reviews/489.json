@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "answers4.1+4.2.1",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 489,
+  "cnPrintedPage": 478,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "70efb5fbe33c09eaa021b2d011d870d241a7f3190281d804a78958c1238b2d6f",
+  "masterBinding": "单页MD当前字节；整卷装订另证包含，不重写旧哈希冒充复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型直接看完整中文与列出的英文原页图，逐段/所有数学/算法/程序字段注释/原答号比较，不声称人类签核或所有一般证明独立重证。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/489.jpg",
+  "cnPageImageSha256": "bf283141fa4951db9fcc0e62446880789cb70bbf1e8cce4384b283f414ef12ce",
+  "enPdfPages": [
+    625,
+    626
+  ],
+  "enPrintedPages": [
+    610,
+    611
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-625.png",
+      "sha256": "ee9d7b0a60922f900eb93236bfc842d8cd7742acbe95dfb5725f68455912926c"
+    },
+    {
+      "file": "verified-sources/en-626.png",
+      "sha256": "f42cf9e0950c92a9b85de0ddf1ffcef6435af071801b5416687207808aa15f74"
+    }
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-489",
+    "p-478",
+    "ans-4-1-34",
+    "ans-sec-4-2-1",
+    "ans-4-2-1-1",
+    "ans-4-2-1-2",
+    "ans-4-2-1-3",
+    "ans-4-2-1-4",
+    "ans-4-2-1-5"
+  ],
+  "coveredRegions": [
+    "首续答33，集合族并/容斥/系数递推和4组例列、生成函数。",
+    "答34带符号位全部上横线、四重写规则和非零位数。",
+    "实际4.2.1节标题及答1–5首段，未按页批假定节界。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.2.1-4-b-half-parity",
+      "section": "4.2.1答案4",
+      "cnPrintedPage": 478,
+      "enPdfPage": 626,
+      "enPrintedPage": 611,
+      "original": "这是因为b/2是奇数",
+      "final": "这是因为b/2是偶数",
+      "basis": "英文原页明确b/2 is even；该MIX实例b=100，b/2=50为偶数，决定中点舍入。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-1-34",
+      "exercise_anchor": "ex-4-1-34",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-2-1-1",
+      "exercise_anchor": "ex-4-2-1-1",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-2-1-2",
+      "exercise_anchor": "ex-4-2-1-2",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-2-1-3",
+      "exercise_anchor": "ex-4-2-1-3",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-2-1-4",
+      "exercise_anchor": "ex-4-2-1-4",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-2-1-5",
+      "exercise_anchor": "ex-4-2-1-5",
+      "backlink_present": true
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuationNotes": "末答4.2.1–5“因此f_u+f_v的首”接490首“位非零数字…”，合为“首位非零数字”；锚点不进公式。",
+  "syntaxCheck": {
+    "page": 489,
+    "sha256": "70efb5fbe33c09eaa021b2d011d870d241a7f3190281d804a78958c1238b2d6f",
+    "mathExpressions": 70,
+    "display": 5,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿装订和所有题答往返",
+    "MIX程序执行及所有一般证明的独立重证",
+    "整卷Pandoc/VitePress/线上发布"
+  ],
+  "browserCheck": {
+    "tool": "Isolated local Chrome with Playwright; Browser plugin unavailable",
+    "scope": "Private standalone page proofs, not final website/full-volume offline acceptance",
+    "viewports": [
+      1280,
+      390
+    ],
+    "report": "arithmetic-answers/browser-485-492.json",
+    "reportSha256": "30c3133172b3d0011b277a30455115683986b83460280b0f8ab5ed170e3ce698",
+    "currentPageSha256": "70efb5fbe33c09eaa021b2d011d870d241a7f3190281d804a78958c1238b2d6f",
+    "cases": 2,
+    "noPageErrors": true,
+    "noMissingImages": true,
+    "noDocumentOverflow": true,
+    "noHiddenMathmlSwallowing": true,
+    "allMeasuredHorizontalScrollEndsReachable": true,
+    "screenshotsDirectlyInspectedWidths": [],
+    "meaning": "All24 pages observed in both browser sizes by DOM checks; selected critical original-content screenshots directly viewed. Separate endpoints cover wide code/formulas/tables."
+  },
+  "numericCheck": {
+    "report": "arithmetic-answers/numeric-check.json",
+    "reportSha256": "a7e06af050f360c280ccb5e8bed434c70d609cd5265d9e38b47b16b2465f27e0",
+    "meaning": "Exact finite checks and two explicit general algebraic derivations are individually scoped; no claim of executing MIX or independently reproving every original theorem."
+  },
+  "reviewHistory": [
+    {
+      "historyDirectory": "verified-history/answers485-508-before-final-evidence",
+      "reason": "保留此前单页MD/JSON签核；本次添加当前SHA绑定浏览器与独立复算，并将初稿误标的日期纠正为实际2026-11-14，不改变原页复核含义。"
+    }
+  ]
+}

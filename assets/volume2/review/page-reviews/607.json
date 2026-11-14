@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "index",
+  "reviewDate": "2026-11-15",
+  "reviewerType": "model-direct-original-Chinese-and-English-image-comparison-not-human-signoff",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "f33e96dbe3092c70cbccfe9ccb74255588706bbc24a8b6e614a616b9fb0befe6",
+  "cnPdfPage": 607,
+  "cnPrintedPage": 596,
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "entryCount": 135,
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "reviewScope": "All original Chinese index subjects were compared with the recorded original English index crops, notation tables or body images by models. Two entries on614 remain exact English-subject correspondence questions; comparison complete does not mean all entries are proven identical across editions. Original Chinese references and order retained; no fixed page offset.",
+  "cnEvidence": [
+    {
+      "image": "scans/607.jpg",
+      "sha256": "0cf6ce636f3ccafa62d7350b32383b5371f6fb885fe0143149ed215327d42c2b",
+      "viewedDirectly": true
+    }
+  ],
+  "entryCatalog": {
+    "file": "index-work/general-607-entry-catalog.json",
+    "sha256": "3874ab0a7d1380f2342a39ac3623e8de450ac67521198a7760879a56aed1b930"
+  },
+  "browserEvidence": {
+    "file": "index-work/browser-604-614.json",
+    "sha256": "c5b249788f7ecbe90b441fe3911115cc794bd076b0401d8e407f63c46dbad39c",
+    "status": "passed",
+    "viewports": [
+      1280,
+      390
+    ]
+  },
+  "substantiveCorrections": [],
+  "sourceIssues": [
+    {
+      "id": "index-607-13-preserved-English-question",
+      "cnPrintedPage": 596,
+      "original": "非标准",
+      "disposition": "Preserve Chinese original subject and page labels; exact qualification remains in the sealed English audit.",
+      "details": [
+        "英文原文及索引均为subnormal，CN为“非标准”。IEEE标准语境下可能引起“非标准数”的歧义；没有唯一必须改写的底本数学错误，保中文术语列疑，不按常用译名自动改。原第四版预告不更新。"
+      ],
+      "auditRow": 13,
+      "englishAuditSha256": "1b1ca7ecff15fabfa8f2e1c5f5537ba580397fa3fd108bfed754cca9639f5876"
+    }
+  ],
+  "pending": [
+    "Whole-book inclusion proof",
+    "All original reference targets and actual routed jumps"
+  ],
+  "indexDisplayRevision": {
+    "previousChineseReviewSha256": "dcafe2b914892d7940547fde8a6f2978a298dca58a024790548b48c9a908a448",
+    "treatment": "Normalize spacing after page-reference commas, keeping all labels/row order/13see-targets. On610 restore Euler totient varphi, distinct from golden-ratio phi, as in actual original and appendixB589. English subject comparison still pending.",
+    "actualNewBrowserEvidenceSha256": "c5b249788f7ecbe90b441fe3911115cc794bd076b0401d8e407f63c46dbad39c",
+    "seeClicksEvidenceSha256": "cda4911fe2fd9fe69dbfb0408ad19020fa70a65a7c7656cf9c6eb17083e25cb1",
+    "viewports": [
+      1280,
+      390
+    ],
+    "status": "passed",
+    "historicalQualification": "This earlier display-only revision preceded English comparison. Current English coverage is recorded separately in englishSubjectReview."
+  },
+  "englishSubjectReview": {
+    "cnPdfPage": 607,
+    "entryCount": 135,
+    "currentPageMarkdownSha256": "f33e96dbe3092c70cbccfe9ccb74255588706bbc24a8b6e614a616b9fb0befe6",
+    "frozenEnglishAuditPageMarkdownSha256": "f33e96dbe3092c70cbccfe9ccb74255588706bbc24a8b6e614a616b9fb0befe6",
+    "englishAudit": {
+      "file": "assets/volume2/review/index-english-604-609.jsonl",
+      "sha256": "1b1ca7ecff15fabfa8f2e1c5f5537ba580397fa3fd108bfed754cca9639f5876",
+      "rows": 784,
+      "qualification": "Sealed historical source-image comparison; pageMarkdownSha256 remains the actual frozen input, never relabelled as a later revision."
+    },
+    "rows": [
+      1,
+      135
+    ],
+    "results": {
+      "matched-entry": 49,
+      "matched-parent-or-alias": 84,
+      "matched-with-terminology-question": 1,
+      "matched-body-no-independent-index-entry": 1
+    },
+    "currentRevision": {
+      "exactSubjectReplacements": [],
+      "allOtherBytesUnchanged": true,
+      "browserEvidence": null
+    },
+    "scope": "All original Chinese index subjects were compared with the recorded original English index crops, notation tables or body images by models. Two entries on614 remain exact English-subject correspondence questions; comparison complete does not mean all entries are proven identical across editions. Original Chinese references and order retained; no fixed page offset."
+  }
+}

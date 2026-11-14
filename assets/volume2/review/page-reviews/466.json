@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 466,
+  "cnPrintedPage": 455,
+  "enPdfPages": [
+    597,
+    598
+  ],
+  "enPrintedPages": [
+    582,
+    583
+  ],
+  "pageMarkdownSha256": "30dcfb359de20e0fdbd5fef3c817f59c5f5a7d1da707fbbe0bf60233695d52b4",
+  "cnPageImageSha256": "9b5f3adcc5343e827e3c4b51be5f56520a1d6c2bb4cddf5be53be6374b98479e",
+  "enPageImageSha256": {
+    "597": "1ac01e2a2b63c404c88ba3585504078c5f68fc6649a6339423973a59dd90431d",
+    "598": "b6f503fb8bbc0fdf14e948a69ccc38d18984e19b8b929961183be9acd7932cb5"
+  },
+  "coveredRegions": [
+    "答25原括注续段；26整除参数、27全部rho/trunc/L/l定义/分类/截断论证/二进制例、28完整特征和/偏差/平均原根/原注、29完整范数界。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-466",
+    "p-455",
+    "ans-3-3-4-26",
+    "ans-3-3-4-27",
+    "ans-3-3-4-28",
+    "ans-3-3-4-29"
+  ],
+  "answerAnchors": [
+    "ans-3-3-4-26",
+    "ans-3-3-4-27",
+    "ans-3-3-4-28",
+    "ans-3-3-4-29"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 118,
+    "displayExpressions": 2,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.3.4答29最后范数条件",
+      "cnPrintedPage": 455,
+      "enPdfPage": 598,
+      "enPrintedPage": 583,
+      "original": "ν≥k≥2",
+      "final": "ν²≥k≥2",
+      "basis": {
+        "original": "ν≥k≥2",
+        "final": "ν²≥k≥2",
+        "basis": "Exactly k nonzero coordinates with |u_j|≥1 imply ν²=Σu_j²≥k. Squaring desired bound gives4^k(ν²−k+1)≥8ν². Forν²≥k andk≥2 the difference is increasing inν² and atν²=k reduces4^k≥8k, true at2 with equality and increases thereafter. Thus no need for false ν≥k.",
+        "equalityExample": {
+          "u": [
+            1,
+            1
+          ],
+          "nuSquared": 2,
+          "k": 2,
+          "originalConditionFalse": true
+        }
+      }
+    }
+  ],
+  "preservedVersionDifferences": [
+    {
+      "pages": [
+        465,
+        466
+      ],
+      "section": "3.3.4答25",
+      "original": "f(m)=m^-1∫_1^(m/2)csc(πx/m)dx+O(1/m); 下一页ln(2e/π)",
+      "english": "EN597 printed582同样的积分误差与e",
+      "observation": "直接原图放大确认是e而非e^γ；差分极限应为γ/π，原积分替换缺一个常数。保原列疑，未用有限数值改整段证明。",
+      "samples": [
+        {
+          "m": 100,
+          "sumMinusIntegral": "0.188755270771551211399242",
+          "gammaOverPi": "0.183733452598307980759284"
+        },
+        {
+          "m": 1000,
+          "sumMinusIntegral": "0.18423367076462022927385",
+          "gammaOverPi": "0.183733452598307980759284"
+        },
+        {
+          "m": 10000,
+          "sumMinusIntegral": "0.183783454779969561327109",
+          "gammaOverPi": "0.183733452598307980759284"
+        }
+      ]
+    },
+    {
+      "pages": [
+        466
+      ],
+      "section": "3.3.4答28",
+      "original": "|S_k0|=√m",
+      "english": "EN598 printed583同样",
+      "observation": "若k=0，a为模素数原根，则x_j遍历非零剩余类，S_00=Σ_(x=1)^(m−1) exp(2πix/m)=−1；非平凡乘性特征k≠0才为√m。后续O界不变；保底本并列索引范围疑问。"
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 465,
+    "answer": "3.3.4-25",
+    "right_start": "［当 $d=1$ 时，我们有",
+    "continuation_end": "+O(1/m)$。］"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "79abfa46724d8d811ebd1697835aa80f05953c547df3610c9e8666ccbd0a61b5",
+    "visualReviewSha256": "a02cbf1518a20f9b511952f7157e24252810bc321bf27b5457f0968192446899",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 118,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 118,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 6,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "55c5ed9a0a067646d83b6e56feb7ba476432b9d02bb7d83194da50b47b243f31",
+  "numericalCheckQualification": "独立精确整数/有理数和高精度数值计算辅助逐原图比对；有限枚举/差分不替代一般证明。论证依据另逐项明列。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "punctuationSourceNote": "答27原中文在“这个操作本质上就是丢弃…”前开括号后无对应闭括号；保原断句，英文EN597该插句有闭括号。未把括号插句扩到整个证明。"
+}

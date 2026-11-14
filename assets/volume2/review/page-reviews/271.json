@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "sections": [
+    "4.5.2"
+  ],
+  "pdf_page": 271,
+  "printed_page": 260,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "2585feacbf253e92e52937afb10311b5ff88b4ae866ef2a3644e140ac77c842e",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/scans/271.jpg",
+    "image_sha256": "3fb45fb071713c08bd53c1b7eaa53fd367f38334928e82f85c5bd383c5dccd82",
+    "scope": "complete page prose; every displayed and inline expression, program field/timing/comment, algorithm step/branch, figure/table entry, exercise number/difficulty/recommendation where present"
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      353,
+      354
+    ],
+    "en_printed_pages": [
+      338,
+      339
+    ],
+    "scope": "all corresponding actual English page regions and text-layer/program fields; all primes, subscripts, signs and bounds checked; original Chinese order retained for floated figure9",
+    "qualification": "Independent theorem proofs are not claimed beyond listed finite numerical and instruction checks"
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/batch264-proof.html",
+    "html_sha256": "4ceb95741c33fcbf2ad7a4782bd374d02e2ee178b4906d756dcdc707798f68df",
+    "math_count_in_eight_page_proof": 395,
+    "math_parse_errors": 0,
+    "desktop_visual_review": true,
+    "mobile_visual_review": true,
+    "desktop_screenshot": ".work/volume2/source-audit/batch264-proof-1040-271.png",
+    "mobile_screenshot": ".work/volume2/source-audit/batch264-proof-390-271.png",
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "missing_images": 0,
+    "page_errors": 0,
+    "document_horizontal_overflow": false,
+    "scroll_evidence": ".work/volume2/source-audit/batch264-scroll.json",
+    "all_wide_elements_initial_left_and_right_end_reachable": true,
+    "scrollable_element_counts": {
+      "1040": 14,
+      "390": 24
+    },
+    "display_math_styles": "Matches current site max-content display width, nowrap and numbered-equation padding; avoids centred left clipping/number overlap.",
+    "qualification": "Standalone eight-page proof, not complete-volume/final website acceptance."
+  },
+  "substantive_corrections": [],
+  "source_discrepancies_retained": [],
+  "exercises": [],
+  "answer_exceptions": [],
+  "numeric_evidence": ".work/volume2/source-audit/batch264-numeric-check.json",
+  "program_evidence": ".work/volume2/source-audit/batch264-program-check.json",
+  "next_steps": [
+    "Bind into complete master and recheck source/master hashes, source-page anchors and links.",
+    "Preserve this page hash record historically if binding edits bytes."
+  ],
+  "algorithms": [
+    "B"
+  ],
+  "tables": [
+    {
+      "kind": "original numeric trace",
+      "rows": 7,
+      "columns": 3,
+      "status": "all signs, halvings, updates and final34 independently verified against transcribed cells"
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/volume2/figures/fig-4-9.svg",
+      "sha256": "af0b50f9b21f773b78c379fc517be08797c37dc053f7ece02e23a18266b3d785",
+      "source_cn_printed_page": 260,
+      "source_en_printed_page": 339,
+      "caption": "图9求最大公因数的二进制算法",
+      "native_svg": true,
+      "nodes": 6,
+      "directed_paths_including_entry_exit": 10,
+      "node_labels_arrows_endpoints_and_branch_text_compared": true,
+      "evidence": ".work/volume2/source-audit/fig49-check.json",
+      "original_figure_click_test": "Passed1040px and390px; target is actual SVG with6nodes and10paths. Browser screenshot of standalone SVG timed out, so visual capture uses actual embedded SVG in reading-page proof; direct target title/DOM verified."
+    }
+  ]
+}

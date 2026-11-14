@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "substantiveCorrections": [
+    {
+      "section": "3.3.1A",
+      "cnPrintedPage": 35,
+      "enPdfPage": 61,
+      "enPrintedPage": 46,
+      "location": "离散分布百分比点的定义",
+      "source": "V大于x的概率则大于等于1−p",
+      "final": "V大于x的概率则小于等于1−p",
+      "basis": "英文明确P(V>x)≤1−p；与前半句P(V<x)≤p共同刻画分位点x=V_j。原中文把第二个界的方向译反。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验；特别检查HTML表格内公式实际渲染。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 46,
+  "cnPrintedPage": 35,
+  "section": "3.3.1",
+  "enPdfPages": [
+    60,
+    61
+  ],
+  "enPrintedPages": [
+    45,
+    46
+  ],
+  "pageMarkdownSha256": "286167ee373483f81d2a126083075d12c455c655c08ce94460176d2651a4a30f",
+  "cnPageImageSha256": "3b3a6d527fac381e5964caa0aa71e48fe39dce3db62d82518512dcc2544d3ee4",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 66,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-046",
+    "p-35"
+  ],
+  "coveredRegions": [
+    "式(9)全部实验数、V1/V2与尾概率解释、近似适用性、离散百分比点定义、n20/21/50全部21个百分比点。"
+  ],
+  "numericAudit": {
+    "diceStatistics": {
+      "expected": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        20,
+        16,
+        12,
+        8,
+        4
+      ],
+      "observed": [
+        [
+          2,
+          4,
+          10,
+          12,
+          22,
+          29,
+          21,
+          15,
+          14,
+          9,
+          6
+        ],
+        [
+          4,
+          10,
+          10,
+          13,
+          20,
+          18,
+          18,
+          11,
+          13,
+          14,
+          13
+        ],
+        [
+          3,
+          7,
+          11,
+          15,
+          19,
+          24,
+          21,
+          17,
+          13,
+          9,
+          5
+        ]
+      ],
+      "observedSums": [
+        144,
+        144,
+        144
+      ],
+      "chiSquareExactValues": [
+        "343/48",
+        "3539/120",
+        "137/120"
+      ]
+    },
+    "binomialPercentiles": {
+      "method": "Y~Binomial(n,1/4)，V=(4Y-n)^2/(3n)；按有理数精确合并相同V概率，再求CDF首次跨过p的值。",
+      "records": [
+        {
+          "n": 20,
+          "quantiles": [
+            {
+              "probability": "1/100",
+              "exactValue": "0",
+              "roundedToTwoDecimals": "0.00"
+            },
+            {
+              "probability": "1/20",
+              "exactValue": "0",
+              "roundedToTwoDecimals": "0.00"
+            },
+            {
+              "probability": "1/4",
+              "exactValue": "4/15",
+              "roundedToTwoDecimals": "0.27"
+            },
+            {
+              "probability": "1/2",
+              "exactValue": "4/15",
+              "roundedToTwoDecimals": "0.27"
+            },
+            {
+              "probability": "3/4",
+              "exactValue": "16/15",
+              "roundedToTwoDecimals": "1.07"
+            },
+            {
+              "probability": "19/20",
+              "exactValue": "64/15",
+              "roundedToTwoDecimals": "4.27"
+            },
+            {
+              "probability": "99/100",
+              "exactValue": "20/3",
+              "roundedToTwoDecimals": "6.67"
+            }
+          ]
+        },
+        {
+          "n": 21,
+          "quantiles": [
+            {
+              "probability": "1/100",
+              "exactValue": "1/63",
+              "roundedToTwoDecimals": "0.02"
+            },
+            {
+              "probability": "1/20",
+              "exactValue": "1/63",
+              "roundedToTwoDecimals": "0.02"
+            },
+            {
+              "probability": "1/4",
+              "exactValue": "1/7",
+              "roundedToTwoDecimals": "0.14"
+            },
+            {
+              "probability": "1/2",
+              "exactValue": "25/63",
+              "roundedToTwoDecimals": "0.40"
+            },
+            {
+              "probability": "3/4",
+              "exactValue": "9/7",
+              "roundedToTwoDecimals": "1.29"
+            },
+            {
+              "probability": "19/20",
+              "exactValue": "25/7",
+              "roundedToTwoDecimals": "3.57"
+            },
+            {
+              "probability": "99/100",
+              "exactValue": "361/63",
+              "roundedToTwoDecimals": "5.73"
+            }
+          ]
+        },
+        {
+          "n": 50,
+          "quantiles": [
+            {
+              "probability": "1/100",
+              "exactValue": "2/75",
+              "roundedToTwoDecimals": "0.03"
+            },
+            {
+              "probability": "1/20",
+              "exactValue": "2/75",
+              "roundedToTwoDecimals": "0.03"
+            },
+            {
+              "probability": "1/4",
+              "exactValue": "2/75",
+              "roundedToTwoDecimals": "0.03"
+            },
+            {
+              "probability": "1/2",
+              "exactValue": "2/3",
+              "roundedToTwoDecimals": "0.67"
+            },
+            {
+              "probability": "3/4",
+              "exactValue": "98/75",
+              "roundedToTwoDecimals": "1.31"
+            },
+            {
+              "probability": "19/20",
+              "exactValue": "242/75",
+              "roundedToTwoDecimals": "3.23"
+            },
+            {
+              "probability": "99/100",
+              "exactValue": "6",
+              "roundedToTwoDecimals": "6.00"
+            }
+          ]
+        }
+      ]
+    },
+    "sourceDataMatch": "n20/21/50七列各数四舍五入与原页一致。"
+  }
+}

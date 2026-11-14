@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "answers4.2.1",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 490,
+  "cnPrintedPage": 479,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "2749e010c352d2e29848dbbdd42bf27a673e6e89b599428a65d8d4aab2abcb3d",
+  "masterBinding": "单页MD当前字节；整卷装订另证包含，不重写旧哈希冒充复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型直接看完整中文与列出的英文原页图，逐段/所有数学/算法/程序字段注释/原答号比较，不声称人类签核或所有一般证明独立重证。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/490.jpg",
+  "cnPageImageSha256": "e271756b634e18e51760aae1d50f1b4b6374699935980d1fc8fa26e49d9d0014",
+  "enPdfPages": [
+    627,
+    628
+  ],
+  "enPrintedPages": [
+    612,
+    613
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-627.png",
+      "sha256": "a1fdad55af33f88f3d7b047f5b5a6ab22d44ee34e02c24d8e94736d6427d30c4"
+    },
+    {
+      "file": "verified-sources/en-628.png",
+      "sha256": "1c4acae70b97304c8b7b12e2cff0fa027cdf84dbb45b72fc439ac84774a630e7"
+    }
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-490",
+    "p-479",
+    "ans-4-2-1-6",
+    "ans-4-2-1-7",
+    "ans-4-2-1-8",
+    "ans-4-2-1-9",
+    "ans-4-2-1-10",
+    "ans-4-2-1-11",
+    "ans-4-2-1-12",
+    "ans-4-2-1-13",
+    "ans-4-2-1-14",
+    "ans-4-2-1-15"
+  ],
+  "coveredRegions": [
+    "首续答5第一位非零数字的“位”与完整证明。",
+    "答6–13完整浮点例、保留8位与前导零。",
+    "答14FIX19行所有标签/操作码/地址/注释；答15FP首5行续491。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-2-1-6",
+      "exercise_anchor": "ex-4-2-1-6",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-2-1-7",
+      "exercise_anchor": "ex-4-2-1-7",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-2-1-8",
+      "exercise_anchor": "ex-4-2-1-8",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-2-1-9",
+      "exercise_anchor": "ex-4-2-1-9",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-2-1-10",
+      "exercise_anchor": "ex-4-2-1-10",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-2-1-11",
+      "exercise_anchor": "ex-4-2-1-11",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-2-1-12",
+      "exercise_anchor": "ex-4-2-1-12",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-2-1-13",
+      "exercise_anchor": "ex-4-2-1-13",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-2-1-14",
+      "exercise_anchor": "ex-4-2-1-14",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-2-1-15",
+      "exercise_anchor": "ex-4-2-1-15",
+      "backlink_present": true
+    }
+  ],
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuationNotes": "末FP清单首5行，491首LD2…继续同一mixal块；总22行，页锚点合并时移块外保留原行页映射。",
+  "syntaxCheck": {
+    "page": 490,
+    "sha256": "2749e010c352d2e29848dbbdd42bf27a673e6e89b599428a65d8d4aab2abcb3d",
+    "mathExpressions": 30,
+    "display": 0,
+    "footnotes": 0,
+    "codeLines": [
+      19,
+      5
+    ],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿装订和所有题答往返",
+    "MIX程序执行及所有一般证明的独立重证",
+    "整卷Pandoc/VitePress/线上发布"
+  ]
+}

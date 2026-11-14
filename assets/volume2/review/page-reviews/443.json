@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 443,
+  "cnPrintedPage": 432,
+  "enPdfPages": [
+    568,
+    569
+  ],
+  "enPrintedPages": [
+    553,
+    554
+  ],
+  "pageMarkdownSha256": "8098f83385c4100116630d6c10c58377ff9cb8120a26ddafe436f278265ad397",
+  "cnPageImageSha256": "81961bff8a8a751ccd68bd8e2778a497a23653c88882ef2f2699531140381613",
+  "enPageImageSha256": {
+    "568": "8911f900829511a3dd48b38c5dee8b4782b660494b1b5c75ea015e0802c06e05",
+    "569": "3035ccadc81b58302ef86b49c81958985713ac9d5bd8a8650d4d9e347d8eb68e"
+  },
+  "coveredRegions": [
+    "3.2.2答10文献续段、11(a)–(e)全部与初等证明原注、12、联合13/14、15至续段。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-443",
+    "p-432",
+    "ans-3-2-2-11",
+    "ans-3-2-2-12",
+    "ans-3-2-2-13",
+    "ans-3-2-2-14",
+    "ans-3-2-2-15"
+  ],
+  "answerAnchors": [
+    "ans-3-2-2-11",
+    "ans-3-2-2-12",
+    "ans-3-2-2-13",
+    "ans-3-2-2-14",
+    "ans-3-2-2-15"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 131,
+    "displayExpressions": 2,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.2.2答11初等证明原注",
+      "cnPrintedPage": 432,
+      "enPdfPage": 569,
+      "enPrintedPage": 554,
+      "original": "A_{n+p}",
+      "final": "A_{n+p\\lambda}",
+      "basis": {
+        "cnPdfPage": 443,
+        "cnPrintedPage": 432,
+        "enPdfPage": 569,
+        "enPrintedPage": 554,
+        "sourceBoth": "A_(n+p)",
+        "corrected": "A_(n+p lambda)",
+        "derivation": "由A_(n+lambda)=A_n+p B_n, B_(n+lambda)=B_n+p C_n, C_(n+lambda)=C_n (mod p)，求p个lambda步得A_(n+p lambda)=A_n+p^2 B_n+p^2 binom(p,2) C_n (mod p^3)。原文紧前已按n+j lambda求和，取j=p也必得此下标。",
+        "counterexample": {
+          "A_n": "2^n, f(z)=1-2z",
+          "p": 3,
+          "lambdaMod3": 2,
+          "lambdaMod9": 6,
+          "n": 0,
+          "printedLeftMod27": 8,
+          "rightMod27": 10,
+          "correctedLeftMod27": 10
+        }
+      },
+      "qualification": "用原证明相邻lambda步累加恒等式推出；反例只检验漏下标，推导本身为一般代数。"
+    }
+  ],
+  "preservedVersionDifferences": [
+    {
+      "location": "3.2.2答11(c)注记递推系数",
+      "cn": "a1=4,a2=-1",
+      "en": "EN569印554写a1=4,a0=-1",
+      "disposition": "保中文a2，它与k=2递推式和1,4,15,56,209,780数列一致；不以英文明显下标误写覆盖中文。"
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 442,
+    "answerAtStart": "3.2.2-10",
+    "firstParagraphEnd": "Section 3C1］。",
+    "continues_to_pdf_page": 444,
+    "answerAtEnd": "3.2.2-15",
+    "left_end": "（这些推导归功于沃特曼。）",
+    "right_start": "由于诸 $X$ 不同，因此对于所有大的 $n$，",
+    "instruction": "444首段接同一答15论证，不重复答锚点；联合答13/14各有实际锚点及各自回链。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "5e57c9e2c0a00340abe77994e2dc1b04baa4d7622cacefa3f10e8a2541f612a5",
+    "visualReviewSha256": "b885509b55e1722edee94f0f99f54dba399e56cb2576923e57dbe1f595c4b0f3",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 131,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 131,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 6,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "28140b15279fc6b44157c9da65ad66580283c389d4ea21c90d3faf8d05fa0cbf",
+  "numericalCheckQualification": "有限复算辅助原图与逐段证明核对，不把枚举当作普遍或渐近证明；巨型素数表未独立证明素性。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

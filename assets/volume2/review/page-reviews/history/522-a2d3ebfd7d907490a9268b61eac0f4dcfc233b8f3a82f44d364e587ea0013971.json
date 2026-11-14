@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 522,
+  "cnPrintedPage": 511,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "8925578a115ec80899bcda79461a47eae4266337df19350674b1d1478d00d66f",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/522.jpg",
+  "cnPageImageSha256": "8b7c9b2d8100a2495cd0509fd5517dbda848280f65c871c342eb770e9962843e",
+  "enPdfPages": [
+    664,
+    665
+  ],
+  "enPrintedPages": [
+    649,
+    650
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-664.png",
+      "sha256": "7b3534c0e9f56b0ff7cfdf2760b7c95abb1e627e052a9a04ab1ac8f75b4b862a"
+    },
+    {
+      "file": "verified-sources/en-665.png",
+      "sha256": "fb0b92ca9c1ecf0cf16cd8f9e79c2fadeb7c2b5fff402602d380af6b3471f460"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-522",
+    "p-511",
+    "ans-4-5-3-16"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续答15 Gosper双输入推广/文献。答16全两种收敛证明，完整系数等式/阶乘/超几何/多项式/continuant/余项。",
+    "恢复OCR破损的双斜线连分数记号，原式每个参数/求和界逐图核。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末答16 R_n完整display，523接“进而…”。",
+  "substantiveCorrections": [],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "4.5.3答案16目标极限",
+      "cn": "这个比值趋近于tanh z",
+      "en": "this ratio approaches z",
+      "decision": "保留正确中文；前后文与下一页精确余项公式共同给出tanh z。"
+    }
+  ],
+  "answers": [
+    {
+      "anchor": "ans-4-5-3-16",
+      "exercise_anchor": "ex-4-5-3-16",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 522,
+    "sha256": "8925578a115ec80899bcda79461a47eae4266337df19350674b1d1478d00d66f",
+    "mathExpressions": 29,
+    "display": 9,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 522,
+        "width": 1280,
+        "sha256": "8925578a115ec80899bcda79461a47eae4266337df19350674b1d1478d00d66f",
+        "pageErrors": [],
+        "bodyText": 3928,
+        "documentWidth": 1280,
+        "expressions": 29,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 49,
+            "max": 49,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 522,
+        "width": 390,
+        "sha256": "8925578a115ec80899bcda79461a47eae4266337df19350674b1d1478d00d66f",
+        "pageErrors": [],
+        "bodyText": 3928,
+        "documentWidth": 390,
+        "expressions": 29,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 54,
+            "max": 54,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 339,
+            "max": 339,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 79,
+            "max": 79,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 451,
+            "max": 451,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 369,
+            "max": 369,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 350,
+            "max": 350,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 273,
+            "max": 273,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 79,
+            "max": 79,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 72,
+            "max": 72,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 143,
+            "max": 143,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 354,
+            "max": 354,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 226,
+            "max": 226,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/522-8925578a115ec80899bcda79461a47eae4266337df19350674b1d1478d00d66f-metadata-update/522.json",
+      "pageMarkdownSha256": "8925578a115ec80899bcda79461a47eae4266337df19350674b1d1478d00d66f",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ]
+}

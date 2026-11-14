@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 393,
+  "cnPrintedPage": 382,
+  "enPdfPages": [
+    505,
+    506
+  ],
+  "enPrintedPages": [
+    490,
+    491
+  ],
+  "pageMarkdownSha256": "de74e679dbad47a7760e109ae15c567a5c980d773562f08020ddbaaeb84d8020",
+  "masterSha256": null,
+  "cnPageImage": "scans/393.jpg",
+  "cnPageImageSha256": "9d1b5caed8f4a2028af9d46317bbead2133005eeb018831931e5ce353ed94437",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-505.png",
+      "sha256": "f81ee580632d13d78eaa51754e223cbf758d4566a2b2f9ad9132b409fbb032bd"
+    },
+    {
+      "file": "source-audit/en-render/page-506.png",
+      "sha256": "e615208e8e70057f0567239d6e8c24c14989a8084c9832714ccc3445a3544ec6"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-393",
+    "p-382"
+  ],
+  "numberedFormulaTags": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "coveredRegions": [
+    "9续句成本和稳定性、10全部归一化系数、五次11、完整寄存器/存储讨论、六次12及beta定义、三次13和beta7/8。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 26,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch389-numeric-check.json",
+  "numericScope": "Three exact general sparse polynomial identities: normalized quartic9/10; sextic12–14 under displayed cubic constraint; Pan16–19 after clearing its nonzero denominator. AlgorithmH/S/D and complex3 verified on explicitly listed finite basis ranges; finite checks do not establish arbitrary-degree algorithms/real-root TheoremE or optimality/free-dimension results. All exact rational arithmetic; no floating tolerance.",
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch389-proof.html",
+    "htmlSha256": "e8d11a2001bc275af79f42a7260c5d5cef66ba2e65802b39d1234556898aeb3d",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch389-proof-1280-393.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch389-proof-390-393.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 378,
+    "scrollableElementCounts": {
+      "1280": 83,
+      "390": 113
+    },
+    "machineObservations": ".work/volume2/source-audit/batch389-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "startsMidParagraph": {
+    "previousCnPdfPage": 392,
+    "previousEnd": "指令. 与",
+    "start": "霍纳算法相比"
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 394,
+    "end": "\\beta_7=\\beta_6^2+\\beta_4\\beta_6+\\beta_5,\\qquad\\beta_8=\\beta_3-\\beta_6-\\beta_7,\n$$",
+    "nextStart": "则最终得到",
+    "afterClosedDisplay": true
+  }
+}

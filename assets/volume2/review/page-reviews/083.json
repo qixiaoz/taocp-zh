@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 83,
+  "cnPrintedPage": 72,
+  "section": "3.3.4",
+  "enPdfPages": [
+    109,
+    110,
+    111
+  ],
+  "enPrintedPages": [
+    94,
+    95,
+    96
+  ],
+  "pageMarkdownSha256": "82a79341ce9a8f315a735ae5d27081e70483f2ecde999df0532b53fc7e08e936",
+  "cnPageImageSha256": "baceca6f74a91372302c5d7889e89b6537a056e37eb31925a405216dd16b86f9",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 46,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-083",
+    "p-72"
+  ],
+  "coveredRegions": [
+    "三维点集续文；精度ν2/ν3/νt的完整定义、t维与周期关系、各向检验讨论和反例；所有正文/行内式，无遗漏编号式。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "首段引言人物",
+      "sourceChinese": "詹姆斯·吉文斯（小）",
+      "sourceEnglish": "Wallace Givens",
+      "enPdfPage": 109,
+      "decision": "保留中文底本姓名，未用外部资料定名。"
+    },
+    {
+      "location": "周期长度m后的概述上界",
+      "sourceChinese": "t维精度不可能比m^(1/t)更高",
+      "sourceEnglish": "cannot achieve...more than about m^(1/t)",
+      "enPdfPage": 110,
+      "decision": "保留中文原句，记录英文有about近似限定；本页末明确并非总有νt≤m^(1/t)，未把概述写成严格数学上界的校注。"
+    }
+  ],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 82,
+    "start": "制成实体模型"
+  }
+}

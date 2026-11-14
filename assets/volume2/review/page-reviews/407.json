@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 407,
+  "cnPrintedPage": 396,
+  "enPdfPages": [
+    523,
+    524
+  ],
+  "enPrintedPages": [
+    508,
+    509
+  ],
+  "pageMarkdownSha256": "e2a785ec4f90e0b02420d1b126756be398d557cba0c190feae482a62dabe5918",
+  "masterSha256": null,
+  "cnPageImage": "scans/407.jpg",
+  "cnPageImageSha256": "99c03608ec054a17438de409712eddf6b86101a79322f81668ec31179fc4d2c0",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-523.png",
+      "sha256": "94a60409cf11e47f78d180caeebc5242722ec29278087fca0d3a5cc5eb783c0c"
+    },
+    {
+      "file": "source-audit/en-render/page-524.png",
+      "sha256": "8cbd8dcb4562535489ee7c45bf5e4bbec31295f2f58ea09f7d16eaba96dd4ad1"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-407",
+    "p-396"
+  ],
+  "numberedFormulaTags": [
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+  ],
+  "coveredRegions": [
+    "54–60完整式、55六3×4矩阵72格、56六次求值、57三矩阵78格（A18/B24/C36）与1/120、秩/插值说明、首一余式/二因子CRT/先模再乘全部条件。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 33,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch405-numeric-check.json",
+  "numericScope": "Exact integer/rational coefficient certificates for the particular source tensors52/53 and55/57: all448rank-one-summand slots,64summed slots,72convolution coefficients,36Vandermonde inverse entries; allMDmatrix serialization readback. Rank6 proof for fixed55 overQ uses exact flattening rank6 plus explicit six-term realization. CRT58/60/61/62/63/65 checked by complete monomial-pair bilinear coefficient bases of the source fixed degrees, not arbitrary-degree/general-field numerical proof; no tensor-rank complexity theorem inferred from finite samples.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch405-proof.html",
+    "htmlSha256": "a2da3015a58b9d18a6cd1c4a697e8ac618ed762f506a8f4685a54e8c6ca4e2d4",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Four-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch405-proof-1280-407.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch405-proof-390-407.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 176,
+    "scrollableElementCounts": {
+      "1280": 29,
+      "390": 41
+    },
+    "machineObservations": ".work/volume2/source-audit/batch405-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch405-right-390-407.png",
+    "mobileRightEndVisualReview": true,
+    "mobileMiddleMatrixScreenshot": ".work/volume2/source-audit/batch405-matrix57-390-middle.png",
+    "mobileMiddleMatrixVisualReview": true
+  },
+  "tensorArrays": {
+    "literalEvidence": ".work/volume2/source-audit/batch405-tensor55-57-63-literal.json",
+    "formula55Cells": 72,
+    "formula57Cells": 78,
+    "allSourceCellsAnd1over120ScaleCompared": true,
+    "exactCoefficientCertificate": "fixed tensor55 rank6 overQ from flatteningrank6 and explicit57six-term realization; no claim for arbitraryfield",
+    "VandermondeInverseEntries": 36,
+    "allPageMatrixMarkdownReadbackMatchesLiteral": true
+  },
+  "fieldScope": "Q/characteristic0 for57 with1/120 and65 with1/4,1/2; no verification for fields where denominators vanish. Source text kept; no added field guard in body.",
+  "sourceReadback": {
+    "formula54": "z4 is already printed in source, not an x4 correction",
+    "sourceCrop": "source-audit/407-coefficient54-crop.png",
+    "sourceCropSha256": "4c848506f093c4e69f16f03e62f7d6a8738a3385cf89c3f9b77c6201ccf1dabd"
+  }
+}

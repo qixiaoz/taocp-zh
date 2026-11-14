@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.7",
+  "sections": [
+    "4.7"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 425,
+  "cnPrintedPage": 414,
+  "enPdfPages": [
+    546,
+    547
+  ],
+  "enPrintedPages": [
+    531,
+    532
+  ],
+  "pageMarkdownSha256": "b614ffdaaddc9cf69a16b14c419ec44f7b4a70d35228a10a33218d1503522686",
+  "masterSha256": null,
+  "cnPageImage": "scans/425.jpg",
+  "cnPageImageSha256": "2f9547067b89fc2fc0049ff4029fa49cbce2ce56633ce4a93460eed56c083c55",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-546.png",
+      "sha256": "6e0feec7c3122cd76fd95f8ab470dc53beea6906f9ba3e33e8601b596db730ad"
+    },
+    {
+      "file": "source-audit/en-render/page-547.png",
+      "sha256": "a9cd185eac8b9f6349526cb09fb641665d61d71c2f95237310409d7f5f4f74c4"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-425",
+    "p-414"
+  ],
+  "numberedFormulaTags": [
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "coveredRegions": [
+    "施罗德系数前三式全部/根条件/22–26完整递归定义与例外/运行时间讨论/保现印递推和C定义仅4over3→1over6；末段j条件。"
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "v2-4.7-recurrence26-leading-coefficient",
+      "classification": "中英两版共有数学不一致；不是OCR/中文独有错误。",
+      "section": "4.7",
+      "cnPdfPage": 425,
+      "cnPrintedPage": 414,
+      "location": "式26后C(n)=cn³的例子",
+      "original": "T(n)≈(4/3)cn³",
+      "final": "T(n)≈(1/6)cn³",
+      "minimalEdit": "只把4/3改1/6；保留T(2n)=2T(n)+C(n)、C(n)=cn³、目标T(n)。",
+      "completePrintedPremises": {
+        "domain": "n=2^k,k≥0",
+        "recurrence": "T(2n)=2T(n)+C(n)",
+        "CDefinition": "从n到2n的一步中计算R、W-hat、S-hat的附加时间，主要为模z^(2n)复合时间。",
+        "example": "C(n)=cn³，c未重定义。",
+        "initialValue": "T(1)=tau",
+        "asymptoticNondegenerateCondition": "固定c>0，有限tau≥0"
+      },
+      "exactSolution": "T(n)=n tau+(c/6)(n³−n)",
+      "generalProof": "展开为n tau+Σ(j=0..k−1)2^(k−1−j)C(2^j)，用几何和；或设An³+Bn代回，8A=2A+c迫出A=c/6，初值给B=tau−c/6。",
+      "finiteExample": {
+        "c": 1,
+        "T1": 0,
+        "T2": 1,
+        "T4": 10,
+        "T8": 84,
+        "formulaAt8": "(512−8)/6=84",
+        "originalLeadingExpressionAt8": "2048/3"
+      },
+      "enLocation": {
+        "recurrencePdfPage": 546,
+        "recurrencePrintedPage": 531,
+        "definitionAndClaimPdfPage": 547,
+        "definitionAndClaimPrintedPage": 532,
+        "original": "both print same26,C(n)=cn³ and4/3 claim"
+      },
+      "uniqueRepairQualification": "仅在保留现印递推、C定义及目标T(n)三个前提时，主项系数唯一为1/6。若原稿本想写T(2n)，4/3也一致；本批不能证明作者本意改哪一字，未称有作者勘误。",
+      "primaryReviewerFullContextActuallyViewed": {
+        "cn": [
+          424,
+          425,
+          426
+        ],
+        "en": [
+          545,
+          546,
+          547,
+          548
+        ]
+      },
+      "sourceEvidence": {
+        "cnCrop": "source-audit/425-recurrence26-crop.png",
+        "cnCropSha256": "a494b4f22d86f97e12a9e30b0f70b7eaf61b3a72003e87c1b8c657247bdee6e8",
+        "cnFullImageSha256": "2f9547067b89fc2fc0049ff4029fa49cbce2ce56633ce4a93460eed56c083c55",
+        "en546ImageSha256": "6e0feec7c3122cd76fd95f8ab470dc53beea6906f9ba3e33e8601b596db730ad",
+        "en547ImageSha256": "a9cd185eac8b9f6349526cb09fb641665d61d71c2f95237310409d7f5f4f74c4"
+      },
+      "independentReview": {
+        "reviewer": "separatechapter3agent; independentlyrerenderedEN144dpi anddirectlyreadfullCN424–426/EN545–548",
+        "record": ".work/volume2/integrity-audit/recurrence-425-review/independent-review.json",
+        "recordSha256": "6dc1cdad36976cac7e36d0b525e89ba49e138eb552811ba419600c8fd9b684f7",
+        "imageEvidence": ".work/volume2/integrity-audit/recurrence-425-review/image-evidence.json",
+        "imageEvidenceSha256": "e35f3ed2dd4c6528f4b60ef0de3b86fa358bd3bd4ccb2ca3079b848c5c2020b5",
+        "agreement": "sameexactgeneralsolutionandconditionalminimalcoefficientrepair"
+      },
+      "adoption": "root accepted after independent review; no additional explanation inserted into body."
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 61,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch425-numeric-check.json",
+  "numericScope": "Exact recurrence26 closedform by algebra and finite dyadic checks, conditionedonkeepingprintedT(2n)=2T(n)+C(n),C(n)=cn³,targetT(n). Recursion22–25 exactFraction testedorders2,4,8,16×5nonresonantcases; not general algorithm proof. All20 Padeexamplecoefficients. FussCatalan7 m2..7,n1..12. Full finite power-matrix products20/inverses21 andnegative-index21b orders4,7,10×4cases,17/18 at2rational(x,y) each. GeneralizedLagrange8 finitecompletecoefficients,not allseries proof. No numerical checks asserted asproof of arbitraryformalfield conditions/complexiteration/asymptotic complexity.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch425-proof.html",
+    "htmlSha256": "095973c58e5ce5373ee273fb2fd54ee80e97df43f3c4d35dd0be5287e14100a9",
+    "rendererSha256": "18a14b4f17127544b79760e76d475ed046baa4590ef5d1098c14e6e2c536e885",
+    "scope": "Four-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch425-proof-1280-425.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch425-proof-390-425.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 248,
+    "scrollableElementCounts": {
+      "1280": 25,
+      "390": 39
+    },
+    "machineObservations": ".work/volume2/source-audit/batch425-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch425-answer-presence.json",
+    "linkedExercises": [],
+    "allActualOriginalNumberedAnswersPresent": true,
+    "roundTripDeferredUntilAnswerTranscriptionAndAssembly": true,
+    "independentAnswerContentReviewClaimed": false
+  }
+}

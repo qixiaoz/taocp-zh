@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "section": "4.6.3",
+  "sections": [
+    "4.6.3"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 377,
+  "cnPrintedPage": 366,
+  "enPdfPages": [
+    485,
+    486
+  ],
+  "enPrintedPages": [
+    470,
+    471
+  ],
+  "pageMarkdownSha256": "d80284f6bbf56c2cafa8da3c915d6be2055430b3a016137b22b219200408c528",
+  "masterSha256": null,
+  "cnPageImage": "scans/377.jpg",
+  "cnPageImageSha256": "fe796fde5cba02fc0bdf487d1d3e3ecf81589320e326fb9777961e090fd765db",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-485.png",
+      "sha256": "b4f1cd5df0fb77e60b1ceaf389de997b14cd7be59ad906227e89e32bc377509c"
+    },
+    {
+      "file": "source-audit/en-render/page-486.png",
+      "sha256": "31b44e9c078ec5fd5c893c4d3c8d53fd31ab93e649c5774dd898a09493b9827a"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-377",
+    "p-366"
+  ],
+  "numberedFormulaTags": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "coveredRegions": [
+    "定理D及全部证明23–25、定理E陈述26、引理P27及完整区间覆盖28证明，所有行内指数/条件。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 49,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch377-numeric-check.json",
+  "numericScope": "Exact complete general addition-chain search for n1..2222 and2731; four individual minimum probes12509/16537 general/star; no general theorem derived by finite tests. c1..15 and d1..11 independently recomputed; larger historical c/d values and later record holders only source-image/bilingual verified. Whole formula48 n2..1000 exact. Huge example only exact bit identity, compressed6106-step upper witness and sourceH hypothesis substitution, not independent optimality search.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch377-proof.html",
+    "htmlSha256": "1e3af7453fa812b35f61904ded414aae8eca96ecdabbba65075285b945dc0098",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch377-proof-1280-377.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch377-proof-390-377.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 495,
+    "scrollableElementCounts": {
+      "1280": 127,
+      "390": 155
+    },
+    "machineObservations": ".work/volume2/source-audit/batch377-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 394,
+  "cnPrintedPage": 383,
+  "enPdfPages": [
+    506,
+    507
+  ],
+  "enPrintedPages": [
+    491,
+    492
+  ],
+  "pageMarkdownSha256": "a223d87cf125224fd8ae521f16ff884f9297339e10235390b41fd240a02f1bc1",
+  "masterSha256": null,
+  "cnPageImage": "scans/394.jpg",
+  "cnPageImageSha256": "d0bc5b9a7ba290a1d3b9f0de8028dddbdaac3fb3e50540042e49e2efe447d590",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-506.png",
+      "sha256": "e615208e8e70057f0567239d6e8c24c14989a8084c9832714ccc3445a3544ec6"
+    },
+    {
+      "file": "source-audit/en-render/page-507.png",
+      "sha256": "2db4bf7ca9491e63ab9019320d6fd0574f26dfb9865dc9554d0582dcdc244f05"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-394",
+    "p-383"
+  ],
+  "numberedFormulaTags": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "coveredRegions": [
+    "14全部alpha式、原例全部系数和beta/alpha数值、15三次方程、特例三乘六加、Pan16–19全部分母/条件/系数式、通用上界引言。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 29,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch389-numeric-check.json",
+  "numericScope": "Three exact general sparse polynomial identities: normalized quartic9/10; sextic12–14 under displayed cubic constraint; Pan16–19 after clearing its nonzero denominator. AlgorithmH/S/D and complex3 verified on explicitly listed finite basis ranges; finite checks do not establish arbitrary-degree algorithms/real-root TheoremE or optimality/free-dimension results. All exact rational arithmetic; no floating tolerance.",
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch389-proof.html",
+    "htmlSha256": "e8d11a2001bc275af79f42a7260c5d5cef66ba2e65802b39d1234556898aeb3d",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch389-proof-1280-394.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch389-proof-390-394.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 378,
+    "scrollableElementCounts": {
+      "1280": 83,
+      "390": 113
+    },
+    "machineObservations": ".work/volume2/source-audit/batch389-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "startsMidParagraph": {
+    "previousCnPdfPage": 393,
+    "previousEnd": "完整beta7/8无编号显示式闭合",
+    "start": "则最终得到",
+    "afterClosedDisplay": true
+  }
+}

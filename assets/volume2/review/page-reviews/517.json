@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 517,
+  "cnPrintedPage": 506,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "632aede5899c0e5a35dd152b855b7024582c6441a9ad274ed97ea224de5955f9",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/517.jpg",
+  "cnPageImageSha256": "a9013df651bd6f13412adb3bc7cb1a1abe386c49f71e3fa21640b3cdecce1f75",
+  "enPdfPages": [
+    659
+  ],
+  "enPrintedPages": [
+    644
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-659.png",
+      "sha256": "b9a5d5adc9d52a71292598ab171cb4f13c12f022d3678c01a5f785012b2740d7"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-517",
+    "p-506",
+    "ans-4-5-2-29",
+    "ans-4-5-2-30"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续4.5.2答28全部复极点/实部/周期函数。答29 Mellin变换、正反向幂级数/周期项及原评语；答30双重和与Mellin、a/b展开式。",
+    "两处共同原排导数取值点经双极点Laurent展开唯一修复，依据另存。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "首续516答28；末答30两条完整展开式，518接其另两条展开及周期项。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.5.2-30-derivative-location",
+      "section": "4.5.2答案30",
+      "cnPrintedPage": 506,
+      "enPdfPage": 659,
+      "enPrintedPage": 644,
+      "original": "−a′(1)x/ln2；−b′(1)x/ln2",
+      "final": "−a′(−1)x/ln2；−b′(−1)x/ln2",
+      "basis": "两版共同错误。原Mellin核π h(s)x^(−s)/((2^(s+1)−1)sinπs)在s=−1有二重极点，置s=−1+ε，留数唯一为x(h(−1)lgx+h(−1)/2−h′(−1)/ln2)。a,b均在−1解析，b在1反而发散；详见numeric-check.json一般Laurent推导。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-5-2-29",
+      "exercise_anchor": "ex-4-5-2-29",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-2-30",
+      "exercise_anchor": "ex-4-5-2-30",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 517,
+    "sha256": "632aede5899c0e5a35dd152b855b7024582c6441a9ad274ed97ea224de5955f9",
+    "mathExpressions": 40,
+    "display": 9,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 517,
+        "width": 1280,
+        "sha256": "632aede5899c0e5a35dd152b855b7024582c6441a9ad274ed97ea224de5955f9",
+        "pageErrors": [],
+        "bodyText": 4054,
+        "documentWidth": 1280,
+        "expressions": 40,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 68,
+            "max": 68,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 61,
+            "max": 61,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 517,
+        "width": 390,
+        "sha256": "632aede5899c0e5a35dd152b855b7024582c6441a9ad274ed97ea224de5955f9",
+        "pageErrors": [],
+        "bodyText": 4054,
+        "documentWidth": 390,
+        "expressions": 40,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 311,
+            "max": 311,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 73,
+            "max": 73,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 163,
+            "max": 163,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 332,
+            "max": 332,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 65,
+            "max": 65,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 282,
+            "max": 282,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 226,
+            "max": 226,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 93,
+            "max": 93,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 90,
+            "max": 90,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 470,
+            "max": 470,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 463,
+            "max": 463,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/517-632aede5899c0e5a35dd152b855b7024582c6441a9ad274ed97ea224de5955f9-metadata-update-2/517.json",
+      "pageMarkdownSha256": "632aede5899c0e5a35dd152b855b7024582c6441a9ad274ed97ea224de5955f9",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.5.2",
+  "numericCheck": {
+    "file": "arithmetic-next/numeric-check.json",
+    "sha256": "9de329303f6088a80f88dba8b90ca9c70d9565b71050b39dd74a40742a099b9a",
+    "inputPageSha256": "632aede5899c0e5a35dd152b855b7024582c6441a9ad274ed97ea224de5955f9",
+    "meaning": "独立复算的具体有限范围/一般Laurent推导见文件；本页绑定不等于本页所有一般证明已独立复证。"
+  },
+  "renderScreenshotsDirectlyViewed": [
+    {
+      "file": "arithmetic-next/517-1280.png",
+      "sha256": "312b5752b0cd78042941bccec35202fa7c7ccc4ad587beac4d46805e5670c18a"
+    }
+  ],
+  "scrollEndpointScreenshotsDirectlyViewed": {
+    "file": "arithmetic-next/endpoints.json",
+    "sha256": "47742b989c58ea5ba32c8ad8d571535649b7c8087f07ee868950dbd60106c4bd",
+    "regions": [
+      {
+        "page": 517,
+        "kind": ".book-math-display",
+        "index": 7,
+        "side": "left",
+        "sha256": "632aede5899c0e5a35dd152b855b7024582c6441a9ad274ed97ea224de5955f9",
+        "left": 0,
+        "clientWidth": 358,
+        "scrollWidth": 828
+      },
+      {
+        "page": 517,
+        "kind": ".book-math-display",
+        "index": 7,
+        "side": "right",
+        "sha256": "632aede5899c0e5a35dd152b855b7024582c6441a9ad274ed97ea224de5955f9",
+        "left": 470,
+        "clientWidth": 358,
+        "scrollWidth": 828
+      },
+      {
+        "page": 517,
+        "kind": ".book-math-display",
+        "index": 8,
+        "side": "left",
+        "sha256": "632aede5899c0e5a35dd152b855b7024582c6441a9ad274ed97ea224de5955f9",
+        "left": 0,
+        "clientWidth": 358,
+        "scrollWidth": 821
+      },
+      {
+        "page": 517,
+        "kind": ".book-math-display",
+        "index": 8,
+        "side": "right",
+        "sha256": "632aede5899c0e5a35dd152b855b7024582c6441a9ad274ed97ea224de5955f9",
+        "left": 463,
+        "clientWidth": 358,
+        "scrollWidth": 821
+      }
+    ],
+    "meaning": "模型实际查看所列关键式/程序/竖式/表在390屏左右端截图；全页DOM检查另列，不扩写成全式视觉截图覆盖。"
+  }
+}

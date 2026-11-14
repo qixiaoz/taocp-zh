@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 84,
+  "cnPrintedPage": 73,
+  "section": "3.3.4",
+  "enPdfPages": [
+    111,
+    112
+  ],
+  "enPrintedPages": [
+    96,
+    97
+  ],
+  "pageMarkdownSha256": "21a0ba060cbfc8c72c6578ef9b4c0413a1c9f715f7b8da251dda20fb6cc369da",
+  "cnPageImageSha256": "87067d323babcd2fbf527c9d17c90944cdedb03cdb84277aef95b30e5c50ac1f",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 42,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-084",
+    "p-73"
+  ],
+  "coveredRegions": [
+    "谱检验最小平面数与最大间距说明；B理论完整开头；式(5)–(10)、L的两行集合及V0…Vt全部向量与变换。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "numericAudit": {
+    "method": "Example4: exact integer Euclidean division, odd/even partial quotient sums in(41). Figure8/precision: enumerate all256 integer points(x,(137x+187)mod256), compute distinct dot products for each cited normal; exhaustive search of all nonzero normal coordinates[-256,256] subject to u1+137u2≡0mod256. Minimum274 found, bounds ample because a vector of length√274 exists. Supplements direct CN/EN images.",
+    "partialQuotients": [
+      10,
+      1,
+      14,
+      1,
+      7,
+      1,
+      1,
+      1,
+      3,
+      3,
+      3,
+      5,
+      2,
+      1,
+      8,
+      7,
+      1,
+      4,
+      1,
+      2,
+      4,
+      2
+    ],
+    "oddSum": 54,
+    "evenSum": 28,
+    "sigmaBounds": [
+      "-55",
+      "135/2"
+    ],
+    "sourceBoundsMatch": true,
+    "twoDimensionalMinimumNormSquared": 274,
+    "minimizingVector": [
+      -7,
+      15
+    ],
+    "lineFamilies": [
+      {
+        "normal": [
+          18,
+          -2
+        ],
+        "normSquared": 328,
+        "parallelLineCount": 20,
+        "all256PointsCovered": true
+      },
+      {
+        "normal": [
+          -7,
+          15
+        ],
+        "normSquared": 274,
+        "parallelLineCount": 21,
+        "all256PointsCovered": true
+      },
+      {
+        "normal": [
+          11,
+          13
+        ],
+        "normSquared": 290,
+        "parallelLineCount": 24,
+        "all256PointsCovered": true
+      }
+    ]
+  }
+}

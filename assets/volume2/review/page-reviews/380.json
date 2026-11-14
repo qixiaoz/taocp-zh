@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "section": "4.6.3",
+  "sections": [
+    "4.6.3"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 380,
+  "cnPrintedPage": 369,
+  "enPdfPages": [
+    489,
+    490
+  ],
+  "enPrintedPages": [
+    474,
+    475
+  ],
+  "pageMarkdownSha256": "856f5342147b41424a4935ea4e288f782c9454c420972c7a8d7d4400696471ab",
+  "masterSha256": null,
+  "cnPageImage": "scans/380.jpg",
+  "cnPageImageSha256": "a95dc0b535f604fade99ab84ab243863f645658d18a28a65362a8bc30b4e250b",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-489.png",
+      "sha256": "ef8618037d7bf9d7e025c1269c2a861780c43c10cdc2d22db58e65b56c1b78ed"
+    },
+    {
+      "file": "source-audit/en-render/page-490.png",
+      "sha256": "67c27a0af8c523f5097ec4356867818bac00efd4b5512d2c790d8dfae184d460"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-380",
+    "p-369"
+  ],
+  "numberedFormulaTags": [
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "coveredRegions": [
+    "40–44全部公式、49数据/空格的多重集可编辑阵列、引理K及说明、定理H完整假设和证明前半。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 65,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch377-numeric-check.json",
+  "numericScope": "Exact complete general addition-chain search for n1..2222 and2731; four individual minimum probes12509/16537 general/star; no general theorem derived by finite tests. c1..15 and d1..11 independently recomputed; larger historical c/d values and later record holders only source-image/bilingual verified. Whole formula48 n2..1000 exact. Huge example only exact bit identity, compressed6106-step upper witness and sourceH hypothesis substitution, not independent optimality search.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch377-proof.html",
+    "htmlSha256": "1e3af7453fa812b35f61904ded414aae8eca96ecdabbba65075285b945dc0098",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch377-proof-1280-380.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch377-proof-390-380.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 495,
+    "scrollableElementCounts": {
+      "1280": 127,
+      "390": 155
+    },
+    "machineObservations": ".work/volume2/source-audit/batch377-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch377-right-390-380.png",
+    "mobileRightEndVisualReview": true
+  },
+  "startsContinuationOfProof": {
+    "previousCnPdfPage": 379,
+    "previousEnd": "Mij逆构造(c)完整规则",
+    "start": "由以上定义得"
+  },
+  "endsMidProof": {
+    "theorem": "4.6.3-H",
+    "nextCnPdfPage": 381,
+    "end": "完整式(44)闭合",
+    "nextStart": "为证明定理H",
+    "mathBlockClosed": true
+  },
+  "editableTable": {
+    "dataAndBlankCells": 49,
+    "literalEvidence": ".work/volume2/source-audit/batch377-multiset-table-literal.json",
+    "allCellsComparedWithCnAndEn": true,
+    "numericForwardBackwardReconstruction": true
+  }
+}

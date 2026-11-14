@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "app-b",
+  "reviewDate": "2026-11-14",
+  "reviewerType": "model-direct-page-image-comparison",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "9694103213c1b7c1ff90f382e6c7d8141a31e50e77b6a9327465323d1eff166e",
+  "cnPdfPage": 587,
+  "cnPrintedPage": 576,
+  "enPdfPages": [
+    745,
+    746
+  ],
+  "enPrintedPages": [
+    730,
+    731
+  ],
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "notationRows": 19,
+  "introductoryLetterRows": 6,
+  "mathExpressions": 66,
+  "reviewScope": "All formal symbols, formulas, Chinese definitions, row order and where-defined fields directly read against the current Chinese page and corresponding English original table images. This is a fresh volume-two transcription, not the different volume-one selection of symbols.",
+  "cnEvidence": {
+    "image": "cn-587.png",
+    "sha256": "0d9a2e7d021d3c9f109da7a0eb44c86f5174aa96cc7f53211f421582f54c7898",
+    "viewedDirectly": true
+  },
+  "enEvidence": [
+    {
+      "image": "en-745.png",
+      "sha256": "7edfc8209667f05a977f1406e8c829ed6a3ec38f2bc36a2a929015291fc7d8e9",
+      "viewedDirectly": true
+    },
+    {
+      "image": "en-746.png",
+      "sha256": "36fa999b1fd9fc098449c3ba6397c4b825d2e0cdc2ecef5aadfb815d7a5b80fe",
+      "viewedDirectly": true
+    }
+  ],
+  "formatting": {
+    "editableMarkdownTable": true,
+    "tableHeadersNoWrap": true,
+    "operatorBounds": "Display style retained for sums/products/extrema/limits/integrals where the original printed table places bounds under the operator.",
+    "sourceRowOrigin": "Each current page table is preserved in this file; final binding merges the four formal-symbol tables as one logical table, retaining only one repeated header. Page anchors remain outside cells.",
+    "verticalTableContinuationPages": [
+      587,
+      588,
+      589,
+      590
+    ]
+  },
+  "rendering": {
+    "html": "proof/appendix-b-vitepress.html",
+    "htmlSha256": "8c55bb3fd5dc8006cb6f1c1a05d87391924b546522831930a646ae4ccf76bcc8",
+    "browserRecord": "proof/appendix-b-browser.json",
+    "browserRecordSha256": "3b40034172999d52b80789529d4145b516610bad7317d9ff4bde45ca27211d1b",
+    "viewports": [
+      1280,
+      390
+    ],
+    "mathWrappersAcrossFourPages": 280,
+    "hiddenBodyNodesInMathml": 0,
+    "documentOverflow": false,
+    "pageErrors": 0,
+    "representativeScreenshotsReviewed": [
+      "proof/app-b-1280-588-left.png",
+      "proof/app-b-390-589-right.png",
+      "proof/app-b-390-590-left.png"
+    ],
+    "qualification": "Standalone four-page proof only. Final merged-table whole-book/page acceptance remains pending."
+  },
+  "whereDefinedLinks": {
+    "volume1": "Only existing source-verified volume-one routes are linked, using the published same-site URL so the isolated volume-two download remains usable.",
+    "volume2": "Internal section targets will be required to exist at full-master binding/build; a partial proof can have unresolved section fragments."
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "pending": [
+    "Final mother inclusion proof",
+    "Merged formal-symbol table verification",
+    "Whole-volume Pandoc/site/online acceptance"
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 464,
+  "cnPrintedPage": 453,
+  "enPdfPages": [
+    595,
+    596
+  ],
+  "enPrintedPages": [
+    580,
+    581
+  ],
+  "pageMarkdownSha256": "2d8e48ac5a2fd21bbbb4d3a2a55b600b13cd68490880c00a0e22af3ff8df568d",
+  "cnPageImageSha256": "2ae23f24bfd9787e1ecec988add65dca41b6a54d5b537738f1e0e17465ae898d",
+  "enPageImageSha256": {
+    "595": "0793018627239cb73d1ef3d2a1d846ec1743f9ccd03bd2ef1d73fb717803e2f3",
+    "596": "2c3def44f3660d366e632642e6b2acf6b4b2ece7cbf8120175fcb43143945dc6"
+  },
+  "coveredRegions": [
+    "答11十进制和2^32高斯因子/五组平方和/乘数原注续段；答12–17全偏导/无理反例/矩阵步骤/超平面计数/绝对值算法与最短向量输出。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-464",
+    "p-453",
+    "ans-3-3-4-12",
+    "ans-3-3-4-13",
+    "ans-3-3-4-14",
+    "ans-3-3-4-15",
+    "ans-3-3-4-16",
+    "ans-3-3-4-17"
+  ],
+  "answerAnchors": [
+    "ans-3-3-4-12",
+    "ans-3-3-4-13",
+    "ans-3-3-4-14",
+    "ans-3-3-4-15",
+    "ans-3-3-4-16",
+    "ans-3-3-4-17"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 82,
+    "displayExpressions": 2,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.3.4答11十进制乘积例",
+      "cnPrintedPage": 453,
+      "enPdfPage": 595,
+      "enPrintedPage": 580,
+      "original": "前者给出|x1|=67008（不好）；后者|x1|=75820,|x2|=4983（可用）",
+      "final": "前者给出|x1|=75820,|x2|=4983（可用）；后者|x1|=67008（不好）",
+      "basis": {
+        "products": [
+          "(-4983+75820j)",
+          "(35825-67008j)"
+        ],
+        "basis": "直接分配相乘：第一乘积=-4983+75820i，第二=35825−67008i；故原前/后对应反了，第一可使x1为10的倍数。保持原乘积次序，改相应数值/可用判断。",
+        "factors": [
+          5773502689,
+          2479700521
+        ],
+        "multipliers": [
+          {
+            "x1": 4364,
+            "x2": 49605,
+            "norm": 2479700521,
+            "a": 2974037721
+          },
+          {
+            "x1": 26364,
+            "x2": 42245,
+            "norm": 2479700521,
+            "a": 2254986297
+          },
+          {
+            "x1": 38640,
+            "x2": 31411,
+            "norm": 2479700521,
+            "a": 4246248609
+          },
+          {
+            "x1": 11960,
+            "x2": 48339,
+            "norm": 2479700521,
+            "a": 956772177
+          },
+          {
+            "x1": 45088,
+            "x2": 21137,
+            "norm": 2479700513,
+            "a": 3825140801
+          }
+        ]
+      }
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 463,
+    "answer": "3.3.4-11",
+    "right_start": "*注记：* 当 $m=10^e$ 时，可以使用类似的过程，",
+    "continuation_end": "它是从 $N-68$ 得到的4个乘数中的一个。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "79abfa46724d8d811ebd1697835aa80f05953c547df3610c9e8666ccbd0a61b5",
+    "visualReviewSha256": "a02cbf1518a20f9b511952f7157e24252810bc321bf27b5457f0968192446899",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 82,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 82,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 7,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "55c5ed9a0a067646d83b6e56feb7ba476432b9d02bb7d83194da50b47b243f31",
+  "numericalCheckQualification": "独立精确整数/有理数和高精度数值计算辅助逐原图比对；有限枚举/差分不替代一般证明。论证依据另逐项明列。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "notationAudit": "答16前半不等式引用正文CN086印75的未缩放对偶U_i·V_j=δij，故不缺1/m；后半算法V已乘m，S7中/sm尺度另有/m。已核明不是共同错误，保原。"
+}

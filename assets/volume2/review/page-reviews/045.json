@@ -1,0 +1,1074 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验；特别检查HTML表格内公式实际渲染。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 45,
+  "cnPrintedPage": 34,
+  "section": "3.3.1",
+  "enPdfPages": [
+    58,
+    59
+  ],
+  "enPrintedPages": [
+    43,
+    44
+  ],
+  "pageMarkdownSha256": "e5eab008d3aa73cc8e5a19e58d9d197e3cde5bf0a7b74e9b65efa8feb2ac1da3",
+  "cnPageImageSha256": "bb13b51ffdfd3e37b11082343ee8b472db5066dcabfa807b42965ac85fc29cec",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 47,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-045",
+    "p-34",
+    "table-3-3-1-1"
+  ],
+  "coveredRegions": [
+    "式(7)(8)与自由度解释；表1的112个有限ν临界值、7个x_p、渐近公式与原书文献说明；表意解释。"
+  ],
+  "numericAudit": {
+    "method": "按整数/半整数不完全Gamma递推计算卡方CDF，用二分反解概率点。",
+    "cells": 112,
+    "allCellsWithinRounding": true,
+    "records": [
+      {
+        "parameter": 1,
+        "probability": 0.01,
+        "printed": "0.00016",
+        "calculated": 0.00015708785790970197,
+        "absoluteError": 2.912142090298039e-06,
+        "roundingTolerance": 5e-06,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 1,
+        "probability": 0.05,
+        "printed": "0.00393",
+        "calculated": 0.003932140000019523,
+        "absoluteError": 2.1400000195228794e-06,
+        "roundingTolerance": 5e-06,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 1,
+        "probability": 0.25,
+        "printed": "0.1015",
+        "calculated": 0.10153104426762155,
+        "absoluteError": 3.1044267621543886e-05,
+        "roundingTolerance": 5e-05,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 1,
+        "probability": 0.5,
+        "printed": "0.4549",
+        "calculated": 0.4549364231195726,
+        "absoluteError": 3.642311957258171e-05,
+        "roundingTolerance": 5e-05,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 1,
+        "probability": 0.75,
+        "printed": "1.323",
+        "calculated": 1.3233036969314655,
+        "absoluteError": 0.0003036969314655913,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 1,
+        "probability": 0.95,
+        "printed": "3.841",
+        "calculated": 3.841458820694122,
+        "absoluteError": 0.00045882069412161997,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 1,
+        "probability": 0.99,
+        "printed": "6.635",
+        "calculated": 6.6348966010212,
+        "absoluteError": 0.0001033989787995182,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 2,
+        "probability": 0.01,
+        "printed": "0.02010",
+        "calculated": 0.02010067170700279,
+        "absoluteError": 6.717070027903449e-07,
+        "roundingTolerance": 5e-06,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 2,
+        "probability": 0.05,
+        "printed": "0.1026",
+        "calculated": 0.10258658877510105,
+        "absoluteError": 1.3411224898951524e-05,
+        "roundingTolerance": 5e-05,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 2,
+        "probability": 0.25,
+        "printed": "0.5754",
+        "calculated": 0.5753641449035618,
+        "absoluteError": 3.5855096438219825e-05,
+        "roundingTolerance": 5e-05,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 2,
+        "probability": 0.5,
+        "printed": "1.386",
+        "calculated": 1.3862943611198904,
+        "absoluteError": 0.00029436111989045166,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 2,
+        "probability": 0.75,
+        "printed": "2.773",
+        "calculated": 2.7725887222397807,
+        "absoluteError": 0.00041127776021943063,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 2,
+        "probability": 0.95,
+        "printed": "5.991",
+        "calculated": 5.991464547107977,
+        "absoluteError": 0.0004645471079776087,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 2,
+        "probability": 0.99,
+        "printed": "9.210",
+        "calculated": 9.21034037197617,
+        "absoluteError": 0.00034037197616854087,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 3,
+        "probability": 0.01,
+        "printed": "0.1148",
+        "calculated": 0.11483180189911754,
+        "absoluteError": 3.1801899117542276e-05,
+        "roundingTolerance": 5e-05,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 3,
+        "probability": 0.05,
+        "printed": "0.3518",
+        "calculated": 0.351846317749272,
+        "absoluteError": 4.631774927199572e-05,
+        "roundingTolerance": 5e-05,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 3,
+        "probability": 0.25,
+        "printed": "1.213",
+        "calculated": 1.2125329030456684,
+        "absoluteError": 0.0004670969543316694,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 3,
+        "probability": 0.5,
+        "printed": "2.366",
+        "calculated": 2.3659738843753377,
+        "absoluteError": 2.6115624662370607e-05,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 3,
+        "probability": 0.75,
+        "printed": "4.108",
+        "calculated": 4.108344935632317,
+        "absoluteError": 0.00034493563231752233,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 3,
+        "probability": 0.95,
+        "printed": "7.815",
+        "calculated": 7.814727903251173,
+        "absoluteError": 0.00027209674882744395,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 3,
+        "probability": 0.99,
+        "printed": "11.34",
+        "calculated": 11.344866730144357,
+        "absoluteError": 0.004866730144357234,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 4,
+        "probability": 0.01,
+        "printed": "0.2971",
+        "calculated": 0.2971094805065305,
+        "absoluteError": 9.480506530545885e-06,
+        "roundingTolerance": 5e-05,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 4,
+        "probability": 0.05,
+        "printed": "0.7107",
+        "calculated": 0.7107230213973237,
+        "absoluteError": 2.302139732368591e-05,
+        "roundingTolerance": 5e-05,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 4,
+        "probability": 0.25,
+        "printed": "1.923",
+        "calculated": 1.9225575262295536,
+        "absoluteError": 0.00044247377044648317,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 4,
+        "probability": 0.5,
+        "printed": "3.357",
+        "calculated": 3.356693980033321,
+        "absoluteError": 0.00030601996667911635,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 4,
+        "probability": 0.75,
+        "printed": "5.385",
+        "calculated": 5.385269057779391,
+        "absoluteError": 0.00026905777939134623,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 4,
+        "probability": 0.95,
+        "printed": "9.488",
+        "calculated": 9.48772903678115,
+        "absoluteError": 0.00027096321884911845,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 4,
+        "probability": 0.99,
+        "printed": "13.28",
+        "calculated": 13.276704135987611,
+        "absoluteError": 0.00329586401238835,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 5,
+        "probability": 0.01,
+        "printed": "0.5543",
+        "calculated": 0.5542980767282766,
+        "absoluteError": 1.923271723436315e-06,
+        "roundingTolerance": 5e-05,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 5,
+        "probability": 0.05,
+        "printed": "1.1455",
+        "calculated": 1.1454762260617688,
+        "absoluteError": 2.3773938231164138e-05,
+        "roundingTolerance": 5e-05,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 5,
+        "probability": 0.25,
+        "printed": "2.675",
+        "calculated": 2.6746028094321623,
+        "absoluteError": 0.00039719056783749096,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 5,
+        "probability": 0.5,
+        "printed": "4.351",
+        "calculated": 4.351460191095526,
+        "absoluteError": 0.0004601910955264188,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 5,
+        "probability": 0.75,
+        "printed": "6.626",
+        "calculated": 6.625679763829249,
+        "absoluteError": 0.00032023617075171984,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 5,
+        "probability": 0.95,
+        "printed": "11.07",
+        "calculated": 11.070497693516348,
+        "absoluteError": 0.0004976935163476526,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 5,
+        "probability": 0.99,
+        "printed": "15.09",
+        "calculated": 15.086272469388987,
+        "absoluteError": 0.0037275306110124973,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 6,
+        "probability": 0.01,
+        "printed": "0.8721",
+        "calculated": 0.8720903301565839,
+        "absoluteError": 9.669843416104662e-06,
+        "roundingTolerance": 5e-05,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 6,
+        "probability": 0.05,
+        "printed": "1.635",
+        "calculated": 1.6353828943279063,
+        "absoluteError": 0.0003828943279062802,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 6,
+        "probability": 0.25,
+        "printed": "3.455",
+        "calculated": 3.454598835721038,
+        "absoluteError": 0.00040116427896208506,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 6,
+        "probability": 0.5,
+        "printed": "5.348",
+        "calculated": 5.34812062744712,
+        "absoluteError": 0.00012062744711993645,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 6,
+        "probability": 0.75,
+        "printed": "7.841",
+        "calculated": 7.840804120585119,
+        "absoluteError": 0.00019587941488108385,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 6,
+        "probability": 0.95,
+        "printed": "12.59",
+        "calculated": 12.591587243743973,
+        "absoluteError": 0.0015872437439732323,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 6,
+        "probability": 0.99,
+        "printed": "16.81",
+        "calculated": 16.811893829770916,
+        "absoluteError": 0.0018938297709176766,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 7,
+        "probability": 0.01,
+        "printed": "1.239",
+        "calculated": 1.2390423055679336,
+        "absoluteError": 4.230556793349827e-05,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 7,
+        "probability": 0.05,
+        "printed": "2.167",
+        "calculated": 2.167349909298059,
+        "absoluteError": 0.0003499092980590035,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 7,
+        "probability": 0.25,
+        "printed": "4.255",
+        "calculated": 4.254852183546516,
+        "absoluteError": 0.00014781645348360684,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 7,
+        "probability": 0.5,
+        "printed": "6.346",
+        "calculated": 6.345811195521517,
+        "absoluteError": 0.00018880447848346193,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 7,
+        "probability": 0.75,
+        "printed": "9.037",
+        "calculated": 9.037147547908138,
+        "absoluteError": 0.0001475479081367581,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 7,
+        "probability": 0.95,
+        "printed": "14.07",
+        "calculated": 14.067140449340165,
+        "absoluteError": 0.0028595506598350084,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 7,
+        "probability": 0.99,
+        "printed": "18.48",
+        "calculated": 18.475306906582354,
+        "absoluteError": 0.0046930934176465655,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 8,
+        "probability": 0.01,
+        "printed": "1.646",
+        "calculated": 1.64649737269077,
+        "absoluteError": 0.0004973726907699927,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 8,
+        "probability": 0.05,
+        "printed": "2.733",
+        "calculated": 2.732636793499662,
+        "absoluteError": 0.0003632065003382756,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 8,
+        "probability": 0.25,
+        "printed": "5.071",
+        "calculated": 5.070640423800185,
+        "absoluteError": 0.0003595761998145264,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 8,
+        "probability": 0.5,
+        "printed": "7.344",
+        "calculated": 7.344121497701792,
+        "absoluteError": 0.00012149770179181729,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 8,
+        "probability": 0.75,
+        "printed": "10.22",
+        "calculated": 10.21885497024676,
+        "absoluteError": 0.0011450297532409337,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 8,
+        "probability": 0.95,
+        "printed": "15.51",
+        "calculated": 15.507313055865449,
+        "absoluteError": 0.0026869441345507283,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 8,
+        "probability": 0.99,
+        "printed": "20.09",
+        "calculated": 20.090235029663212,
+        "absoluteError": 0.0002350296632123161,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 9,
+        "probability": 0.01,
+        "printed": "2.088",
+        "calculated": 2.0879007358707273,
+        "absoluteError": 9.926412927274697e-05,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 9,
+        "probability": 0.05,
+        "printed": "3.325",
+        "calculated": 3.3251128430668118,
+        "absoluteError": 0.0001128430668115854,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 9,
+        "probability": 0.25,
+        "printed": "5.899",
+        "calculated": 5.898825882969971,
+        "absoluteError": 0.0001741170300286754,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 9,
+        "probability": 0.5,
+        "printed": "8.343",
+        "calculated": 8.342832692252951,
+        "absoluteError": 0.00016730774704853957,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 9,
+        "probability": 0.75,
+        "printed": "11.39",
+        "calculated": 11.388751440470365,
+        "absoluteError": 0.001248559529635429,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 9,
+        "probability": 0.95,
+        "printed": "16.92",
+        "calculated": 16.918977604620444,
+        "absoluteError": 0.0010223953795573948,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 9,
+        "probability": 0.99,
+        "printed": "21.67",
+        "calculated": 21.665994333461917,
+        "absoluteError": 0.00400566653808454,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 10,
+        "probability": 0.01,
+        "printed": "2.558",
+        "calculated": 2.558212160187205,
+        "absoluteError": 0.00021216018720515706,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 10,
+        "probability": 0.05,
+        "printed": "3.940",
+        "calculated": 3.9402991361190605,
+        "absoluteError": 0.00029913611906051685,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 10,
+        "probability": 0.25,
+        "printed": "6.737",
+        "calculated": 6.737200771954644,
+        "absoluteError": 0.00020077195464374142,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 10,
+        "probability": 0.5,
+        "printed": "9.342",
+        "calculated": 9.341817765591966,
+        "absoluteError": 0.000182234408034887,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 10,
+        "probability": 0.75,
+        "printed": "12.55",
+        "calculated": 12.548861396889375,
+        "absoluteError": 0.0011386031106255246,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 10,
+        "probability": 0.95,
+        "printed": "18.31",
+        "calculated": 18.307038053275143,
+        "absoluteError": 0.002961946724855835,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 10,
+        "probability": 0.99,
+        "printed": "23.21",
+        "calculated": 23.209251158954338,
+        "absoluteError": 0.0007488410456630845,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 11,
+        "probability": 0.01,
+        "printed": "3.053",
+        "calculated": 3.053484106640674,
+        "absoluteError": 0.00048410664067422005,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 11,
+        "probability": 0.05,
+        "printed": "4.575",
+        "calculated": 4.574813079322217,
+        "absoluteError": 0.00018692067778314225,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 11,
+        "probability": 0.25,
+        "printed": "7.584",
+        "calculated": 7.584142785441282,
+        "absoluteError": 0.00014278544128210058,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 11,
+        "probability": 0.5,
+        "printed": "10.34",
+        "calculated": 10.34099807439182,
+        "absoluteError": 0.0009980743918198698,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 11,
+        "probability": 0.75,
+        "printed": "13.70",
+        "calculated": 13.700692746011509,
+        "absoluteError": 0.0006927460115093709,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 11,
+        "probability": 0.95,
+        "printed": "19.68",
+        "calculated": 19.675137572682488,
+        "absoluteError": 0.004862427317512186,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 11,
+        "probability": 0.99,
+        "printed": "24.72",
+        "calculated": 24.7249703113183,
+        "absoluteError": 0.004970311318302834,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 12,
+        "probability": 0.01,
+        "printed": "3.571",
+        "calculated": 3.5705689706043806,
+        "absoluteError": 0.0004310293956195643,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 12,
+        "probability": 0.05,
+        "printed": "5.226",
+        "calculated": 5.226029488392642,
+        "absoluteError": 2.948839264238501e-05,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 12,
+        "probability": 0.25,
+        "printed": "8.438",
+        "calculated": 8.438418766135793,
+        "absoluteError": 0.0004187661357928363,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 12,
+        "probability": 0.5,
+        "printed": "11.34",
+        "calculated": 11.34032237742414,
+        "absoluteError": 0.0003223774241405408,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 12,
+        "probability": 0.75,
+        "printed": "14.85",
+        "calculated": 14.845403671040177,
+        "absoluteError": 0.004596328959822316,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 12,
+        "probability": 0.95,
+        "printed": "21.03",
+        "calculated": 21.026069817483055,
+        "absoluteError": 0.00393018251694599,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 12,
+        "probability": 0.99,
+        "printed": "26.22",
+        "calculated": 26.21696730553583,
+        "absoluteError": 0.003032694464167207,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 15,
+        "probability": 0.01,
+        "printed": "5.229",
+        "calculated": 5.229348884098945,
+        "absoluteError": 0.0003488840989449571,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 15,
+        "probability": 0.05,
+        "printed": "7.261",
+        "calculated": 7.2609439276700325,
+        "absoluteError": 5.60723299676269e-05,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 15,
+        "probability": 0.25,
+        "printed": "11.04",
+        "calculated": 11.036537659091007,
+        "absoluteError": 0.003462340908992445,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 15,
+        "probability": 0.5,
+        "printed": "14.34",
+        "calculated": 14.338859510956645,
+        "absoluteError": 0.00114048904335462,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 15,
+        "probability": 0.75,
+        "printed": "18.25",
+        "calculated": 18.24508560241513,
+        "absoluteError": 0.004914397584869334,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 15,
+        "probability": 0.95,
+        "printed": "25.00",
+        "calculated": 24.995790139728626,
+        "absoluteError": 0.0042098602713736,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 15,
+        "probability": 0.99,
+        "printed": "30.58",
+        "calculated": 30.577914166892477,
+        "absoluteError": 0.0020858331075217507,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 20,
+        "probability": 0.01,
+        "printed": "8.260",
+        "calculated": 8.260398332546416,
+        "absoluteError": 0.00039833254641585825,
+        "roundingTolerance": 0.0005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 20,
+        "probability": 0.05,
+        "printed": "10.85",
+        "calculated": 10.850811394182582,
+        "absoluteError": 0.0008113941825822479,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 20,
+        "probability": 0.25,
+        "printed": "15.45",
+        "calculated": 15.451773539047725,
+        "absoluteError": 0.001773539047725592,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 20,
+        "probability": 0.5,
+        "printed": "19.34",
+        "calculated": 19.33742922942826,
+        "absoluteError": 0.0025707705717401552,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 20,
+        "probability": 0.75,
+        "printed": "23.83",
+        "calculated": 23.827692043030858,
+        "absoluteError": 0.0023079569691404345,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 20,
+        "probability": 0.95,
+        "printed": "31.41",
+        "calculated": 31.410432844230918,
+        "absoluteError": 0.00043284423091805024,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 20,
+        "probability": 0.99,
+        "printed": "37.57",
+        "calculated": 37.56623478662503,
+        "absoluteError": 0.0037652133749688232,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 30,
+        "probability": 0.01,
+        "printed": "14.95",
+        "calculated": 14.953456528455394,
+        "absoluteError": 0.0034565284553949027,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 30,
+        "probability": 0.05,
+        "printed": "18.49",
+        "calculated": 18.49266098195347,
+        "absoluteError": 0.0026609819534719747,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 30,
+        "probability": 0.25,
+        "printed": "24.48",
+        "calculated": 24.477607664886264,
+        "absoluteError": 0.002392335113736266,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 30,
+        "probability": 0.5,
+        "printed": "29.34",
+        "calculated": 29.336031516661585,
+        "absoluteError": 0.003968483338415041,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 30,
+        "probability": 0.75,
+        "printed": "34.80",
+        "calculated": 34.79974251914092,
+        "absoluteError": 0.00025748085907650875,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 30,
+        "probability": 0.95,
+        "printed": "43.77",
+        "calculated": 43.772971825742175,
+        "absoluteError": 0.0029718257421720295,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 30,
+        "probability": 0.99,
+        "printed": "50.89",
+        "calculated": 50.892181311517064,
+        "absoluteError": 0.0021813115170630226,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 50,
+        "probability": 0.01,
+        "printed": "29.71",
+        "calculated": 29.7066826988413,
+        "absoluteError": 0.003317301158702435,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 50,
+        "probability": 0.05,
+        "printed": "34.76",
+        "calculated": 34.764251683501755,
+        "absoluteError": 0.004251683501756531,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 50,
+        "probability": 0.25,
+        "printed": "42.94",
+        "calculated": 42.94208381090594,
+        "absoluteError": 0.0020838109059440058,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 50,
+        "probability": 0.5,
+        "printed": "49.33",
+        "calculated": 49.33493673397683,
+        "absoluteError": 0.004936733976833807,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 50,
+        "probability": 0.75,
+        "printed": "56.33",
+        "calculated": 56.33360492213238,
+        "absoluteError": 0.003604922132382171,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 50,
+        "probability": 0.95,
+        "printed": "67.50",
+        "calculated": 67.5048065495412,
+        "absoluteError": 0.004806549541200411,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      },
+      {
+        "parameter": 50,
+        "probability": 0.99,
+        "printed": "76.15",
+        "calculated": 76.15389124901267,
+        "absoluteError": 0.0038912490126676857,
+        "roundingTolerance": 0.005,
+        "withinLastPrintedDigitRounding": true
+      }
+    ],
+    "methodCode": "def chi_cdf(x,nu):\n if x<=0:return 0.\n t=x/2\n if nu%2==0:\n  term=1.;acc=1.\n  for j in range(1,nu//2):term*=t/j;acc+=term\n  return max(0.,min(1.,1.-math.exp(-t)*acc))\n ans=math.erf(math.sqrt(t));s=.5\n for _ in range((nu-1)//2):ans-=math.exp(-t+s*math.log(t)-math.lgamma(s+1));s+=1\n return max(0.,min(1.,ans))\ndef inv(func,p,hi):\n lo=0.\n for _ in range(100):\n  mid=(lo+hi)/2\n  if func(mid)<p:lo=mid\n  else:hi=mid\n return (lo+hi)/2\n",
+    "normalQuantilesNote": "末行x_p是原书给出的近似正态分位点，照录；本次112项复算针对16×7卡方临界值。"
+  },
+  "tableNumericCellsReviewed": 112,
+  "ocrRepairs": [
+    "百分比表头是等号，无p横线；所有小数及尾零按原页逐项核对，保留ν=5、p=5%的1.1455。"
+  ]
+}

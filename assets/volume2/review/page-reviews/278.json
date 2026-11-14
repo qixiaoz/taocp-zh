@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "sections": [
+    "4.5.2"
+  ],
+  "pdf_page": 278,
+  "printed_page": 267,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "1a7054eff6633da1d62f76357c9a26da5d9b26f0be10db3d5eb636dbe2eb46c4",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/scans/278.jpg",
+    "image_sha256": "ba9d2d350038d089644b14627e9122bcbeff3cef2542af48b554f55229a2ad1b",
+    "scope": "Entire actual Chinese page: all prose, inline/display mathematics, original program comments/fields/timings, tables, algorithm updates and footnote where present."
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      361,
+      362,
+      363
+    ],
+    "en_printed_pages": [
+      346,
+      347,
+      348
+    ],
+    "scope": "Actual corresponding English page images inspected, prose and every formula/program/table field compared. This is not inferred from a fixed pagination offset or OCR agreement.",
+    "qualification": "Convergence and historical references not independently reproved; finite numerical/algorithm checks separately described."
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/batch272-proof.html",
+    "html_sha256": "26e0a0d726a45b5996d1a9be717f67c03f2e1529560bd9e5769511a0c003ba4f",
+    "math_count_in_eight_page_proof": 478,
+    "math_parse_errors": 0,
+    "desktop_visual_review": true,
+    "mobile_visual_review": true,
+    "desktop_screenshot": ".work/volume2/source-audit/batch272-proof-1040-278.png",
+    "mobile_screenshot": ".work/volume2/source-audit/batch272-proof-390-278.png",
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "document_horizontal_overflow": false,
+    "missing_images": 0,
+    "page_errors": 0,
+    "scroll_evidence": ".work/volume2/source-audit/batch272-scroll.json",
+    "all_wide_elements_initial_left_and_right_end_reachable": true,
+    "scrollable_element_counts": {
+      "1040": 35,
+      "390": 50
+    },
+    "qualification": "Independent eight-page KaTeX/footnote proof with current public math-display CSS; not final full-volume or site acceptance."
+  },
+  "substantive_corrections": [],
+  "source_discrepancies_retained": [],
+  "numeric_evidence": ".work/volume2/source-audit/batch272-numeric-check.json",
+  "next_steps": [
+    "Bind into master with anchors outside math/code/table blocks.",
+    "If binding changes page bytes, preserve this record historically and review affected changes under new master SHA."
+  ],
+  "continuation": {
+    "begins_mid_sentence_from_pdf_page": 277,
+    "first_text": "次循环"
+  },
+  "algorithms": [
+    "L"
+  ],
+  "inequality_closeup": ".work/volume2/source-audit/cn-render/278-eq31.png"
+}

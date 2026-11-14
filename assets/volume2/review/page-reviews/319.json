@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.5.4",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 319,
+  "cnPrintedPage": 308,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    413,
+    414
+  ],
+  "enPrintedPages": [
+    398,
+    399
+  ],
+  "pageMarkdownSha256": "50ab1eb627d395e4fcf538ac341b1268f83cad91799af9e272439cd5420e871c",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/319.jpg",
+  "cnPageImageSha256": "9952254535c53ec6cac1e407de78c9caf4e48b6fb445f1880c7500c14d75ce11",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-413.png",
+      "sha256": "b7f716a7d72c8c102ef34a6a7ce74c7411efde07ff917c26c838e8599932c0c6"
+    },
+    {
+      "file": "source-audit/en-render/page-414.png",
+      "sha256": "5135e21bf80b4eb31b18edf9a7dee4638340ffe30ef88a84ab9cf082ff24a048"
+    }
+  ],
+  "coveredRegions": [
+    "浮动表1完整标题、参数、12行×8列的标签/数字/三个同余输出。",
+    "前页续句、平凡解197197≡−12、两解组合/gcd/分解。",
+    "启发式复杂度论证每个行内式、式(22)及其渐近简化、ε(N)和两组α例子。",
+    "页尾表→320达式续字。"
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-319",
+    "p-308",
+    "tab-4-5-4-1"
+  ],
+  "numberedFormulaTags": [
+    22
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": {
+    "nextCnPdfPage": 320,
+    "end": "但只要 $N$ 的数值不是极其庞大，这三个表",
+    "nextStart": "达式的值都是差不多大小的."
+  },
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via actual repository book-markdown.mjs",
+    "mathExpressions": 56,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "仅语法；原图/双语核对与有限复算分列。"
+  },
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch312-proof.html",
+    "htmlSha256": "650934f8eed2449a7f566b8f1a67f3ac2e9586dcab371914f33701094e6f5162",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof only, not whole-volume/offline/final-site/online acceptance.",
+    "browserPath": "Browser plugin not available; bundled Playwright plus local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch312-proof-1280-319.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch312-proof-390-319.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch312-right-390-319.png",
+    "mobileRightEndVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "mathmlBodyLeak": 0,
+    "mathParseErrors": 0,
+    "proofMathExpressions": 471,
+    "machineObservations": ".work/volume2/source-audit/batch312-browser.json",
+    "scrollableElementCounts": {
+      "1280": 44,
+      "390": 64
+    }
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch312-numeric-check.json",
+  "numericScope": "685 exact/numeric checks include actual sample data, primality certificates and finite algorithm replay; finite AlgorithmP exhaustion does not prove its general bound. Historical performance timings and6432966-iteration claim not rerun.",
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终整卷母稿装订/包含证明",
+    "整卷Pandoc、正式VitePress和线上发布/下载",
+    "未把有限复算、历史性能描述或机器语法通过扩写为一般定理的证明。"
+  ],
+  "startsMidParagraphAfterFloats": {
+    "previousCnPdfPage": 318,
+    "previousEnd": "再继续做 $14$ 次迭代，",
+    "start": "我们将得到",
+    "floatStart": "<a id=\"tab-4-5-4-1\"></a>",
+    "floatEnd": "| E4 之后： | 490 | 477 | 1 | 93755 | 0 | 53 | |",
+    "floatMarkdown": "<a id=\"tab-4-5-4-1\"></a>\n\n**表 1　算法 E 的一个算例**\n\n$N=197209$，$k=1$，$m=3$，$p_1=2$，$p_2=3$，$p_3=5$\n\n| | $U$ | $V$ | $A$ | $P$ | $S$ | $T$ | 输出 |\n|---|---:|---:|---:|---:|---:|---:|---|\n| E1 之后： | 876 | 73 | 12 | 5329 | 1 | — | |\n| E4 之后： | 882 | 145 | 6 | 5329 | 0 | 29 | |\n| E4 之后： | 857 | 37 | 23 | 32418 | 1 | 37 | |\n| E4 之后： | 751 | 720 | 1 | 159316 | 0 | 1 | $159316^2\\equiv+2^4\\cdot3^2\\cdot5^1$ |\n| E4 之后： | 852 | 143 | 5 | 191734 | 1 | 143 | |\n| E4 之后： | 681 | 215 | 3 | 131941 | 0 | 43 | |\n| E4 之后： | 863 | 656 | 1 | 193139 | 1 | 41 | |\n| E4 之后： | 883 | 33 | 26 | 127871 | 0 | 11 | |\n| E4 之后： | 821 | 136 | 6 | 165232 | 1 | 17 | |\n| E4 之后： | 877 | 405 | 2 | 133218 | 0 | 1 | $133218^2\\equiv+2^0\\cdot3^4\\cdot5^1$ |\n| E4 之后： | 875 | 24 | 36 | 37250 | 1 | 1 | $37250^2\\equiv-2^3\\cdot3^1\\cdot5^0$ |\n| E4 之后： | 490 | 477 | 1 | 93755 | 0 | 53 | |",
+    "floatMarkdownSha256": "a25ba20f76c5f9ce74894311a79b0d73af2ca88a5644e216e0cb83eeefce7d4a",
+    "bindingRequirement": "先提取脚注；接上318的原正文句，使整个我们将得到段保持原顺序；把完整浮动表放在该段后。页锚点置表外，并新增浮动展示位移证明。"
+  },
+  "tables": [
+    {
+      "anchor": "tab-4-5-4-1",
+      "caption": "表1 算法E的一个算例",
+      "dataRows": 12,
+      "columns": 8,
+      "numericAndDashStateFields": 72,
+      "equationOutputs": 3,
+      "allStateFieldsRecomputed": true,
+      "allEquationOutputsRecomputed": true,
+      "representation": "EditableMarkdown; local horizontal scroll in proof.",
+      "placement": "Original source float before continuation from318; root binding may move float after completed paragraph with evidence."
+    }
+  ]
+}

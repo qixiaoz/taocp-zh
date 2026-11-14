@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 415,
+  "cnPrintedPage": 404,
+  "enPdfPages": [
+    533,
+    534,
+    535
+  ],
+  "enPrintedPages": [
+    518,
+    519,
+    520
+  ],
+  "pageMarkdownSha256": "d45c67db244b36e63e7e7f59eb669ad7080d9b32923cc4c5f902b3710b98277b",
+  "masterSha256": null,
+  "cnPageImage": "scans/415.jpg",
+  "cnPageImageSha256": "39d7c7352b68f653c70c65e62d24183b01dd774108b12bfca2ecded0f773f343",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-533.png",
+      "sha256": "1b0c3f406bb05a851dd188fa082322eb51ba2a4cf880a1cced15b722f040b032"
+    },
+    {
+      "file": "source-audit/en-render/page-534.png",
+      "sha256": "3d7fe1f8bcf1f813905bba89be465574a0b0b027d43b9450c309dceeab9b2a19"
+    },
+    {
+      "file": "source-audit/en-render/page-535.png",
+      "sha256": "759ec4bf184407ee607bd79a9a100d5691ab345c23929a48d823ae3c1042fe13"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-415",
+    "p-404",
+    "ex-4-6-4-37",
+    "ex-4-6-4-38",
+    "ex-4-6-4-39",
+    "ex-4-6-4-40",
+    "ex-4-6-4-41",
+    "ex-4-6-4-42",
+    "ex-4-6-4-43",
+    "ex-4-6-4-44",
+    "ex-4-6-4-45"
+  ],
+  "numberedFormulaTags": [],
+  "coveredRegions": [
+    "习题37–45全部有理式/域S/37几乎所有定义、38完整矩阵秩与参数说明、39整数gamma/delta、42取整、45三重求和；CN45推荐保源。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "exercise": 45,
+      "cnOriginalAndFinal": "有推荐箭头",
+      "enOriginal": "EN535题45无推荐箭头",
+      "meaning": "保留中文版的推荐标记，不用英文覆盖中文等级/推荐。",
+      "cnPdfPage": 415,
+      "enPdfPage": 535
+    }
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 81,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch409-numeric-check.json",
+  "numericScope": "Exact coefficient realization checks for all64slots of66/68 and72slots of70, all16bilinear basis cases69, complete serialization of9source matrices. Companion73 identities and gcd/singularity checks on explicit n2..6,4examples each only; not a numerical proof of general TheoremW. Exact factorization/irreducibility certificates for displayedu5−1; theoremWrank8/7/5 only hypothesis substitution. Given exercise19/21/22/24 polynomials re-expanded exactly; no new answers in manuscript. Ex48 tiny legal index example supports bilingual typo repair.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch409-proof.html",
+    "htmlSha256": "6b6fe069ad628295114cbe0b1aef1af4357e208d7eb22a9b8063018e261f939b",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch409-proof-1280-415.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch409-proof-390-415.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 463,
+    "scrollableElementCounts": {
+      "1280": 75,
+      "390": 92
+    },
+    "machineObservations": ".work/volume2/source-audit/batch409-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch409-answer-presence.json",
+    "linkedExercises": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "allActualOriginalNumberedAnswersPresent": true,
+    "roundTripDeferredUntilAnswerTranscriptionAndAssembly": true,
+    "independentAnswerContentReviewClaimed": false
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页字节；最终母稿另作包含/原页与跨页接续证明，不仅改此处哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接查看中文完整页与列出的英文页图，逐段、逐式、逐数字及习题比较。语法与复算另列；未声称人类签核。原译者注无英文对应者单列例外。",
+  "cnPdfPage": 196,
+  "cnPrintedPage": 185,
+  "enPdfPages": [
+    257,
+    258
+  ],
+  "enPrintedPages": [
+    242,
+    243
+  ],
+  "pageMarkdownSha256": "6a2899eb6823850224c351b774f9157b792af2561c79d09f2fe12e5bd0daff75",
+  "cnPageImage": "scans/196.jpg",
+  "cnPageImageSha256": "4a4beb5a572803b3657070d2f54be594fa9ef30311eff6f21adbec9c20a636fd",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-257.png",
+      "sha256": "9d861be3621f980d87766e35a132c7e82ef6719a3eaa339b377afe6833e4ed11"
+    },
+    {
+      "file": "verified-sources/en-258.png",
+      "sha256": "c4ee82700656fe2813ad25512d2263f6478790cd9ba19bd8122ddcbe41b873e6"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号、节名/书名及页码，隐藏页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-196",
+    "p-185",
+    "ex-4-2-2-1",
+    "ex-4-2-2-2",
+    "ex-4-2-2-3",
+    "ex-4-2-2-4",
+    "ex-4-2-2-5",
+    "ex-4-2-2-6",
+    "ex-4-2-2-7",
+    "ex-4-2-2-8"
+  ],
+  "coveredRegions": [
+    "前页卡亨文稿续句，定理D证明文献。",
+    "非规范化/区间运算/Pascal-SC/浮点体系/Higham所有参考文献。",
+    "习题总假设与习题1–8开头，8(a)。",
+    "浮点平方用圈2上标，与普通平方严格区分。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "answerLinkStatus": "pendingverifiedanswers",
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuationNotes": "首接195。末习题8仅a项，197首b–e为同一题，最终合并题干/各项但不重复ex锚点。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 26,
+    "parseErrors": 0,
+    "meaning": "仅是排版语法检查；内容依据独立列出的中英文页图。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "独立辅助复算，不充作原书题答来源或整个证明签核。",
+    "results": {
+      "circledSquareNotation": "u⊗u, not exact u²"
+    }
+  },
+  "untested": [
+    "最终母稿包含和跨页合段、原题答双向链接。",
+    "最终VitePress/Pandoc整卷；本批隔离证明的DOM/选择性视觉另列。"
+  ]
+}

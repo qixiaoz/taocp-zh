@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订须另证包含与跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文整页及列出的英文页图，逐段/逐式/表格/程序字段频次注释和难度推荐符号比较。机器检查和复算另列，不声称人类签核。",
+  "cnPdfPage": 221,
+  "cnPrintedPage": 210,
+  "enPdfPages": [
+    288,
+    289
+  ],
+  "enPrintedPages": [
+    273,
+    274
+  ],
+  "pageMarkdownSha256": "9a5720484548bf61ff1c8218c23a3f4ed059af8b6ac16ba53761522774d6409f",
+  "cnPageImage": "scans/221.jpg",
+  "cnPageImageSha256": "33b3e7e12b9930636eb802491a5587e153ce169bc38f7e59cb6bf54a41762c7b",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-288.png",
+      "sha256": "ede0deab77131a3a34914eeda2d4dc6da82d6055793f1f125db83ea6e956554c"
+    },
+    {
+      "file": "verified-sources/en-289.png",
+      "sha256": "e8687f697802a09a943e246043075104fd05b2ef3d92f441d91d380fdb646991"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-221",
+    "p-210"
+  ],
+  "coveredRegions": [
+    "程序D041–087共47行全部标号、操作码、地址、频次（含空白频次）和中文注释。",
+    "QHAT/RHAT、E、K/Kprime、b负号、i范围、跨行rhat表达式。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pendingactualanswer-area-verification",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "整页程序D041–087，首续220末040，尾接222首088。页锚点最终均放代码块外，保留行号到物理页映射。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 0,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [
+      47
+    ],
+    "meaning": "只是语法；内容核查依实际中英文原页。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终母稿装订/跨页代码合并/题答回链",
+    "正式VitePress/Pandoc整卷与线上",
+    "未执行MIX或将机器字段一致称作算法正确性证明。"
+  ],
+  "renderReview": {
+    "file": "verified-render/classical-dom-review-214-221.json",
+    "sha256": "357953879ea66bc509052393306e2caf7a7030233bc456ecfaa32ccb21f46986",
+    "scope": "私有1280/390；源图内容独立复核。217旧表和图6/7旧输出已被当前专项复验替代。"
+  }
+}

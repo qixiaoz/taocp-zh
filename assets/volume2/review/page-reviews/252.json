@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.3",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订另证包含和跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型实际查看中文整页与列出的英文原页图片，逐段、逐式、表单元、算法、图线和难度推荐符号对照；不声称人类签核。",
+  "cnPdfPage": 252,
+  "cnPrintedPage": 241,
+  "enPdfPages": [
+    328,
+    329,
+    330
+  ],
+  "enPrintedPages": [
+    313,
+    314,
+    315
+  ],
+  "pageMarkdownSha256": "041afa525da4a16aad76dc741422d0474b47555106e0d7668fe411e51a4e0089",
+  "cnPageImage": "scans/252.jpg",
+  "cnPageImageSha256": "a11a0b5eb480ae051b33ce4eb61aaf55f56f06ea5f6e0875ee2024ce2ba8ef37",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-328.png",
+      "sha256": "08bf1af8ee77010f15055991ad67a33c9c96a9e0d8c648ff6ad57594df8664a6"
+    },
+    {
+      "file": "verified-sources/en-329.png",
+      "sha256": "a3a9265af1d639324bd699aecb1665d499d0d89aa372bf0da0906a41952465a1"
+    },
+    {
+      "file": "verified-sources/en-330.png",
+      "sha256": "fefd65a7d0d5ae2d904344ccfceff002ceee37b0ca99b68b0b69cd74843fbcdb"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-252",
+    "p-241"
+  ],
+  "coveredRegions": [
+    "线性迭代队列的三组输入/输出时序、全部状态定义和左右邻居上标。",
+    "式57四行条件和58四分支、输入23/23/11例及输出540。",
+    "末并行电路句须跨253浮动整表接254。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "57",
+    "58"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pending-actual-answer-area-verification",
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuationNotes": "末“它可以在数据输入后”暂停；253整页是独立浮动表2，原句续在254首“O(logn)的时间就得到…”。最终须将253表移到完整段前/后，不能把表文本夹进一句。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 52,
+    "parseErrors": 0,
+    "codeLines": [],
+    "meaning": "语法与机器检查只作辅助，内容依中英文实际原图。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "完整母稿装订与全部题答双链",
+    "整卷Pandoc/VitePress和线上发布验收"
+  ],
+  "browserCheck": {
+    "tool": "Playwright with isolated local Chrome; Browser plugin unavailable",
+    "scope": "Private independent page proof, not final website or full-volume Pandoc",
+    "viewports": [
+      1280,
+      390
+    ],
+    "report": "arithmetic-work/browser-244-255.json",
+    "reportSha256": "5d102d8af2691b4a3f31173343d2036c95f1c6c1018b721920e5b59f65679f59",
+    "currentPageSha256": "041afa525da4a16aad76dc741422d0474b47555106e0d7668fe411e51a4e0089",
+    "cases": 2,
+    "noPageErrors": true,
+    "noMissingImages": true,
+    "noDocumentOverflow": true,
+    "noHiddenMathmlSwallowing": true,
+    "allMeasuredHorizontalScrollEndsReachable": true,
+    "screenshotsDirectlyInspectedWidths": [
+      1280
+    ],
+    "meaning": "DOM checks executed on every page; directly inspected selected formula/table/figure/algorithm screenshots, with separate long-formula/table endpoints."
+  },
+  "numericCheck": {
+    "report": "arithmetic-work/numeric-check.json",
+    "reportSha256": "5fcbdb25d5d70651bc6a9ef3cc97d19035f14312384a3c153f6066e650a7c56a",
+    "meaning": "Finite exact/sample recomputations supplement direct CN/EN image review; all related source MD hashes recorded. Not a general proof."
+  }
+}

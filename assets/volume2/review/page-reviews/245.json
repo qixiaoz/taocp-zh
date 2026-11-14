@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.3",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订另证包含和跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型实际查看中文整页与列出的英文原页图片，逐段、逐式、表单元、算法、图线和难度推荐符号对照；不声称人类签核。",
+  "cnPdfPage": 245,
+  "cnPrintedPage": 234,
+  "enPdfPages": [
+    319,
+    320
+  ],
+  "enPrintedPages": [
+    304,
+    305
+  ],
+  "pageMarkdownSha256": "d7c0e4e8e60e18ec5d3102d5e86c7410b8a8fd1c715a8e95eed3f24a71e8b1be",
+  "cnPageImage": "scans/245.jpg",
+  "cnPageImageSha256": "e6f77cc703f99e1882c0281bd163eaf5649dfb674d3691543a17690009a8a55f",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-319.png",
+      "sha256": "4689f71121e9631401423f82a3495f72abe44f6dd9f35adc6df0c39af64f35a6"
+    },
+    {
+      "file": "verified-sources/en-320.png",
+      "sha256": "589efb032193ed9027ef85d543c2e7e96bebc5b24bb138e096c88a9eb95033b3"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-245",
+    "p-234",
+    "sec-4-3-3-C"
+  ],
+  "coveredRegions": [
+    "首接244“满足”及式31求逆。",
+    "式32/33四序列全部初值与递推、v_s结果与复杂度。",
+    "C离散傅里叶变换标题、式34–36、所有帽符号及循环模求和。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pending-actual-answer-area-verification",
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "continuationNotes": "首续244“满足”。末36完整，246首“当K≥2n−1且…”续解释；不切开求和式。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 37,
+    "parseErrors": 0,
+    "codeLines": [],
+    "meaning": "语法与机器检查只作辅助，内容依中英文实际原图。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "完整母稿装订与全部题答双链",
+    "整卷Pandoc/VitePress和线上发布验收"
+  ],
+  "browserCheck": {
+    "tool": "Playwright with isolated local Chrome; Browser plugin unavailable",
+    "scope": "Private independent page proof, not final website or full-volume Pandoc",
+    "viewports": [
+      1280,
+      390
+    ],
+    "report": "arithmetic-work/browser-244-255.json",
+    "reportSha256": "5d102d8af2691b4a3f31173343d2036c95f1c6c1018b721920e5b59f65679f59",
+    "currentPageSha256": "d7c0e4e8e60e18ec5d3102d5e86c7410b8a8fd1c715a8e95eed3f24a71e8b1be",
+    "cases": 2,
+    "noPageErrors": true,
+    "noMissingImages": true,
+    "noDocumentOverflow": true,
+    "noHiddenMathmlSwallowing": true,
+    "allMeasuredHorizontalScrollEndsReachable": true,
+    "screenshotsDirectlyInspectedWidths": [
+      390
+    ],
+    "meaning": "DOM checks executed on every page; directly inspected selected formula/table/figure/algorithm screenshots, with separate long-formula/table endpoints."
+  },
+  "numericCheck": {
+    "report": "arithmetic-work/numeric-check.json",
+    "reportSha256": "5fcbdb25d5d70651bc6a9ef3cc97d19035f14312384a3c153f6066e650a7c56a",
+    "meaning": "Finite exact/sample recomputations supplement direct CN/EN image review; all related source MD hashes recorded. Not a general proof."
+  },
+  "sourceIssues": [
+    {
+      "location": "式32初值与“v_s就是…mod…”的取零边界",
+      "cnPrintedPage": 234,
+      "enPdfPage": 320,
+      "enPrintedPage": 305,
+      "sourceStatement": "v_0=b_0u，最后v_s=(c[b]u) mod(2^f−1)",
+      "counterexample": "e=1,f=2,b=1,u=3时无递推步，v_s=3而规范余数为0。",
+      "decision": "中英文共同原写保留；按此前ones-complement重复零的约定，同余值正确，但若要求规范mod值，需末尾将2^f−1正规化为0。未在正文加入解释或擅改原算法。"
+    }
+  ]
+}

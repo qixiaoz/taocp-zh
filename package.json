@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "《计算机程序设计艺术》卷一中文阅读网站",
+  "description": "《计算机程序设计艺术》卷一、卷二中文阅读网站",
   "engines": {
     "node": ">=22.0.0"
   },
   "scripts": {
     "book:prepare": "node scripts/prepare-book.mjs",
     "docs:dev": "npm run book:prepare && vitepress dev docs --host 127.0.0.1",
-    "docs:build": "npm run book:prepare && vitepress build docs && npm run site:check",
+    "docs:build": "npm run book:prepare && node --max-old-space-size=8192 node_modules/vitepress/bin/vitepress.js build docs && npm run site:check",
     "docs:preview": "vitepress preview docs --host 127.0.0.1",
     "site:check": "node scripts/check-site.mjs"
   },

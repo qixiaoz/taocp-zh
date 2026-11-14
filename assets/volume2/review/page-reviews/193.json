@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页字节；最终母稿另作包含/原页与跨页接续证明，不仅改此处哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接查看中文完整页与列出的英文页图，逐段、逐式、逐数字及习题比较。语法与复算另列；未声称人类签核。原译者注无英文对应者单列例外。",
+  "cnPdfPage": 193,
+  "cnPrintedPage": 182,
+  "enPdfPages": [
+    253,
+    254
+  ],
+  "enPrintedPages": [
+    238,
+    239
+  ],
+  "pageMarkdownSha256": "379b81746fdad3f673d1ae6bbb3eb4b5833f7ba16f2465ffa850f2f40f7ea38c",
+  "cnPageImage": "scans/193.jpg",
+  "cnPageImageSha256": "976ec9113ff14c6f7dd49288ad9a5a10bb9fa20e1dc8941e2175f30f60c50fe3",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-253.png",
+      "sha256": "d16b7f9b4adc64267f5a9f47912a551dad83b5254cb003cddbc419e342609ddf"
+    },
+    {
+      "file": "verified-sources/en-254.png",
+      "sha256": "06478cf756afa721225134cbe217400f55110050aeb326c56520d497d241b626"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号、节名/书名及页码，隐藏页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-193",
+    "p-182"
+  ],
+  "coveredRegions": [
+    "数学规则与5%/25%程序开销论述。",
+    "B非规范化运算、22/7与π近似差、两常数及乘积/和。",
+    "l_u定义、结果指数48–50、量级零。",
+    "中文原译者脚注说明填充的三零不是有效数字。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": true,
+  "originalFootnoteIds": [
+    "v2-p182-1"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "48",
+    "49",
+    "50"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "not-applicable",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "原译者脚注v2-p182-1独立保留；本页末完整。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 20,
+    "parseErrors": 0,
+    "meaning": "仅是排版语法检查；内容依据独立列出的中英文页图。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "独立辅助复算，不充作原书题答来源或整个证明签核。",
+    "results": {
+      "normalizedDifference": "0.00126440",
+      "unnormalizedSameValue": "0.00126440",
+      "constantProductRounded5Significant": "0.003990303681000000000000000000"
+    }
+  },
+  "untested": [
+    "最终母稿包含和跨页合段、原题答双向链接。",
+    "最终VitePress/Pandoc整卷；本批隔离证明的DOM/选择性视觉另列。"
+  ],
+  "bilingualExceptions": [
+    {
+      "region": "original-translator-footnote-v2-p182-1",
+      "status": "Chinese-original-page-visual-review-only",
+      "reason": "解释填充零的译者注未在对应英文253–254见到；未声称有英文逐字对应。"
+    }
+  ]
+}

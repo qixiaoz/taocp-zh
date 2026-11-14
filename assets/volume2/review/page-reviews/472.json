@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 472,
+  "cnPrintedPage": 461,
+  "enPdfPages": [
+    605,
+    606
+  ],
+  "enPrintedPages": [
+    590,
+    591
+  ],
+  "pageMarkdownSha256": "6cd11482b68d219caea07c768ca8125ded3b844af4c148e5704158e3960a1e38",
+  "cnPageImageSha256": "a56c67e4c3b1d059b138acd49b0dbf94cf89af78efa511e6bc2c13e7009a0dbb",
+  "enPageImageSha256": {
+    "605": "8663df1bed4607166b500f4e4498164341efad5e70b2cd1c99de295450ec1f19",
+    "606": "09d761b4617dd7e07b33803af47d2223707827b9b89b6e6e1dc38db4bd14407f"
+  },
+  "coveredRegions": [
+    "答31华莱士/布伦特参考续段、32(a)(b)(c)完整映射/雅可比/位交换、33；实际3.4.2标题；答1–8(c)全部条件概率/递推/停止矩/概率积/跳过公式。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-472",
+    "p-461",
+    "ans-3-4-1-32",
+    "ans-3-4-1-33",
+    "ans-sec-3-4-2",
+    "ans-3-4-2-1",
+    "ans-3-4-2-2",
+    "ans-3-4-2-3",
+    "ans-3-4-2-4",
+    "ans-3-4-2-5",
+    "ans-3-4-2-6",
+    "ans-3-4-2-7",
+    "ans-3-4-2-8"
+  ],
+  "answerAnchors": [
+    "ans-3-4-1-32",
+    "ans-3-4-1-33",
+    "ans-3-4-2-1",
+    "ans-3-4-2-2",
+    "ans-3-4-2-3",
+    "ans-3-4-2-4",
+    "ans-3-4-2-5",
+    "ans-3-4-2-6",
+    "ans-3-4-2-7",
+    "ans-3-4-2-8"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 84,
+    "displayExpressions": 4,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 471,
+    "answerAtStart": "3.4.1-31(c)",
+    "right_start": "参考文献：华莱士",
+    "continuation_end": "(1998), 1–20］。",
+    "continues_to_pdf_page": 473,
+    "answerAtEnd": "3.4.2-8",
+    "left_end": "（这种方法有时很好，比如说 $n\\le5$ 时。）",
+    "right_next_start": "(d)（见习题3.4.1-29。）",
+    "instruction": "473首为同答8子项d，不重复ans8锚点。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "fc8e03523bd20eb4601cdcf0490af5403b7d511532ddf94c03cd68c3115cbc32",
+    "visualReviewSha256": "ec1699b44942da35ecb910bafe683e79795afd9299a8729b84a4be75671b18bf",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 84,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 84,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 6,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "c9faf78f68b721b4e1a84fa9d1da4baabbfedbe80a42bc6292030a3e3162c44a",
+  "numericalCheckQualification": "精确有理数/有限组合枚举与图中32编号边逐项对应只辅助原页复核，不取代无穷序列、Fourier或一般图连通性证明。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

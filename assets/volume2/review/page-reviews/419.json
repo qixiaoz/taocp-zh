@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 419,
+  "cnPrintedPage": 408,
+  "enPdfPages": [
+    539
+  ],
+  "enPrintedPages": [
+    524
+  ],
+  "pageMarkdownSha256": "fe8f983a736efbfd73e05f5ee2ec4bf19ccbaa1605a2f4c89244e4424960f760",
+  "masterSha256": null,
+  "cnPageImage": "scans/419.jpg",
+  "cnPageImageSha256": "faf8e5ba928aae68b367564a86c54f2f8490ffd7736f4a692238158b5107e227",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-539.png",
+      "sha256": "728fe49679b471e4d6ad9f4bf7c6dea569ebdc9ca4ddf098dfcfd8792d4d8085"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-419",
+    "p-408",
+    "ex-4-6-4-70",
+    "ex-4-6-4-71",
+    "ex-4-6-4-72",
+    "ex-4-6-4-73",
+    "ex-4-6-4-74"
+  ],
+  "numberedFormulaTags": [],
+  "coveredRegions": [
+    "70–74全部题目及70,71推荐；70全部块尺寸/逆矩阵/特征式负号；71分列两种运算界保中文；73复参数绝对值界；74完整Z相关定义/幺模条件/两个数对。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "exercise": 71,
+      "cnOriginalAndFinal": "至多3m+d链乘法和2d除法",
+      "enOriginal": "at most3m+d chain multiplications and divisions (combined)",
+      "enPdfPage": 539,
+      "meaning": "保留中文较宽的分列界；CN576原答也明确分列9m+3d/4d二阶界。未按英文合并界改写中文。",
+      "cnCrop": "source-audit/419-ex71-crop.png",
+      "cnCropSha256": "4a0534787d28c1b9721b5db0f9e6f42324c383d31d882bcabbd72be7b243d29e"
+    }
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 75,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch417-numeric-check.json",
+  "numericScope": "60a general six-variable commutative identity by exact polynomial expansion; full60a coefficient identity only finite n=2,4,6. 62 all8 coefficients of displayed rank2 degeneration through order1 overQ, not arbitrary-field minimal-rank proof. SeriesL/T/N/recurrences3,9,12,16,20 exactFraction finite orders5,8,12,16×5fixedcases; not general algorithm/complexity proofs. Full422 table populated cells exact. 74d exact2linearforms withoneconstant multiplication. No claim to prove asymptotic tensor-rank theorems, open lower bounds or arbitrary-field ranks by numerical examples.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch417-proof.html",
+    "htmlSha256": "253ead63b4246bdd965b652ec72babd8c6414e51f6e087af89788dd57e36e22f",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch417-proof-1280-419.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch417-proof-390-419.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 489,
+    "scrollableElementCounts": {
+      "1280": 87,
+      "390": 119
+    },
+    "machineObservations": ".work/volume2/source-audit/batch417-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch417-answer-presence.json",
+    "linkedExercises": [
+      70,
+      71,
+      72,
+      73,
+      74
+    ],
+    "allActualOriginalNumberedAnswersPresent": true,
+    "59PresenceEvidence": null,
+    "roundTripDeferredUntilAnswerTranscriptionAndAssembly": true,
+    "independentAnswerContentReviewClaimed": false
+  },
+  "sectionBoundary": {
+    "sectionEndsOnThisPage": "4.6.4",
+    "lastExercise": 74,
+    "nextSection": "4.7",
+    "nextCnPdfPage": 420,
+    "nextPrintedPage": 409,
+    "nextEnPdfPage": 540,
+    "nextTitle": "*4.7 对幂级数的操作"
+  }
+}

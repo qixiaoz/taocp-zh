@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 115,
+  "cnPrintedPage": 104,
+  "section": "3.4.1",
+  "enPdfPages": [
+    152,
+    153
+  ],
+  "enPrintedPages": [
+    137,
+    138
+  ],
+  "pageMarkdownSha256": "17edfbf53c51160ceb709a7fdc0faedd00abb5c16a53e185c3464a3f4f35c041",
+  "cnPageImageSha256": "5c1d8d117c92464aea660784c380149ea80cd54a73f1f530a6da1a268fdb9380",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 59,
+    "parseErrors": 0,
+    "errors": []
+  },
+  "coveredRegions": [
+    "泊松分布全部、概率式(40)、乘积与大均值算法、归约原理的条件概率两组积分；G读物与拒绝法风险全部。"
+  ],
+  "explicitAnchors": [
+    "pdf-115",
+    "p-104"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "条件概率多重积分中的指数核",
+      "cn": "每因子μe^(−t/μ)",
+      "en": "同为μe^(−t/μ)",
+      "disposition": "保留共同原值；该积分只用于比率，公共常数会消去。未把其宣称为规范化指数密度。"
+    },
+    {
+      "location": "式(40)范围",
+      "cn": "n≥0而左侧含(n−1)!",
+      "en": "同为n≥0且含(n−1)!",
+      "disposition": "保留共同原写法；n=0需单独解释，未加入原文。"
+    }
+  ],
+  "exerciseNumbers": [],
+  "answerExceptions": [],
+  "untested": [
+    "最终母稿包含证明、整卷VitePress/Pandoc及整站浏览器验收由主任务执行。",
+    "本批长式关键渲染将在续批单独留证；当前只声明KaTeX解析与双语原页校对，不声明全部实际浏览器式视觉验收。"
+  ]
+}

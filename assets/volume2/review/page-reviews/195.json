@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页字节；最终母稿另作包含/原页与跨页接续证明，不仅改此处哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接查看中文完整页与列出的英文页图，逐段、逐式、逐数字及习题比较。语法与复算另列；未声称人类签核。原译者注无英文对应者单列例外。",
+  "cnPdfPage": 195,
+  "cnPrintedPage": 184,
+  "enPdfPages": [
+    255,
+    256,
+    257
+  ],
+  "enPrintedPages": [
+    240,
+    241,
+    242
+  ],
+  "pageMarkdownSha256": "f0cacf5c80529e0e562d62831c77ce952477908cc4911a421406b342fc19e517",
+  "cnPageImage": "scans/195.jpg",
+  "cnPageImageSha256": "d1ce5499327b52df5f7782530947345f33b00185175a4d412ec4f937d8f320d0",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-255.png",
+      "sha256": "b6df4a3ce24562ce003fc42a7ccf29601bf223be4256be7949a4268ed2215088"
+    },
+    {
+      "file": "verified-sources/en-256.png",
+      "sha256": "6874e13755b912a31b98be67fb1fe903f2d5177f378309fc2616b997c00001fb"
+    },
+    {
+      "file": "verified-sources/en-257.png",
+      "sha256": "9d861be3621f980d87766e35a132c7e82ef6719a3eaa339b377afe6833e4ed11"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号、节名/书名及页码，隐藏页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-195",
+    "p-184"
+  ],
+  "coveredRegions": [
+    "区间加减乘除8个三角圈运算符、端点次序与正区间假设。",
+    "N/h输入区间及和/积四组全部数值。",
+    "零作除数、溢出处理、代价/相关性讨论。",
+    "D舍入历史、早期误差分析、四关系和定理A/B/C出处，本页末续句。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "not-applicable",
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "continuationNotes": "末“未发表的文”接196首“稿”。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 18,
+    "parseErrors": 0,
+    "meaning": "仅是排版语法检查；内容依据独立列出的中英文页图。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "独立辅助复算，不充作原书题答来源或整个证明签核。",
+    "results": {
+      "outwardRounding": {
+        "sumLower": "6.0221331E+23",
+        "sumUpper": "6.0221404E+23",
+        "productLower": "0.0039903084",
+        "productUpper": "0.0039903181"
+      },
+      "precision": 8,
+      "arithmeticContextDecimalDigits": 100,
+      "directions": [
+        "floor",
+        "ceiling"
+      ]
+    }
+  },
+  "untested": [
+    "最终母稿包含和跨页合段、原题答双向链接。",
+    "最终VitePress/Pandoc整卷；本批隔离证明的DOM/选择性视觉另列。"
+  ],
+  "compoundSymbols": "区间三角运算符与带圈mod采用已实际浏览器检查过的安全TeX构造，无复合mathbin外包导致的MathML空mspace嵌套。"
+}

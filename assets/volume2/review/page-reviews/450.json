@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 450,
+  "cnPrintedPage": 439,
+  "enPdfPages": [
+    577,
+    578
+  ],
+  "enPrintedPages": [
+    562,
+    563
+  ],
+  "pageMarkdownSha256": "ac71b8056bbe0f4cf40bf7c9440c1b6b20511bb8ee9e6f3fdca0f0d79ea4d386",
+  "cnPageImageSha256": "e30120bad97c37b4f71a7b75af9764da3d1ec8030f2277144d74e49009d69f4a",
+  "enPageImageSha256": {
+    "577": "81ae6557f13a7eb021d209221039c4247a87faba41c99cae2dc603d31e84b6ce",
+    "578": "c4cc061e40a343515e3ad3ef75e3fad2555bb3bd439ac0f2fcd1d83c3d7d9467"
+  },
+  "coveredRegions": [
+    "3.3.1答25(a)(b)协方差/SVD全证明；3.3.2实际标题及原答1–5/7/8/9和10至完整生成函数式；计数/正负/阶乘/Stirling括号完整。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-450",
+    "p-439",
+    "ans-3-3-1-25",
+    "ans-3-3-2-1",
+    "ans-3-3-2-2",
+    "ans-3-3-2-3",
+    "ans-3-3-2-4",
+    "ans-3-3-2-5",
+    "ans-3-3-2-7",
+    "ans-3-3-2-8",
+    "ans-3-3-2-9",
+    "ans-3-3-2-10"
+  ],
+  "answerAnchors": [
+    "ans-3-3-1-25",
+    "ans-3-3-2-1",
+    "ans-3-3-2-2",
+    "ans-3-3-2-3",
+    "ans-3-3-2-4",
+    "ans-3-3-2-5",
+    "ans-3-3-2-7",
+    "ans-3-3-2-8",
+    "ans-3-3-2-9",
+    "ans-3-3-2-10"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 68,
+    "displayExpressions": 5,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "answer": "3.3.2-10",
+    "continues_to_pdf_page": 451,
+    "left_last_prose": "优惠券集合长度为 $r$ 的概率的生成函数为",
+    "left_last_display_end": "=z^w\\left(\\frac{d-1}{d-z}\\right)\\cdots\\left(\\frac{d-w+1}{d-(w-1)z}\\right),",
+    "right_start": "利用定理1.2.10A和习题3.4.1-17，",
+    "instruction": "生成函数整块在450闭合，451均值方差仍为答10，不插入公式或重新造答。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "9bc85dce0d94da184c43bacc6b0c2ff1ce6562bc6ca872c3d8e2f8547ec2cea7",
+    "visualReviewSha256": "ead05adfe313353d4e0940e380af0605f53f3838c150d7e555cf845335b2f677",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 68,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 68,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 5,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "0f6f4894ea1d82239f78c74e391ed49fd57098a6fa71c5104b16362c6d6fff07",
+  "numericalCheckQualification": "逐原图/双语校订与一般代数推导为主；全部有限数值/枚举只作辅助，不充当渐近、测度或一般概率证明。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "answerExceptions": [
+    {
+      "answer": "3.3.2-6",
+      "reason": "CN450与EN578原答5后7；无独立第6答。"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.7",
+  "sections": [
+    "4.7"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 424,
+  "cnPrintedPage": 413,
+  "enPdfPages": [
+    544,
+    545,
+    546
+  ],
+  "enPrintedPages": [
+    529,
+    530,
+    531
+  ],
+  "pageMarkdownSha256": "d4927c4ac268a9b3ffb822b6d6a22d7c0966913bda93f878c4f686b04fc6a5b0",
+  "masterSha256": null,
+  "cnPageImage": "scans/424.jpg",
+  "cnPageImageSha256": "069c736a5c74e59fc61c2e3039dddf1d3030b81ea0c5da69122600905935d750",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-544.png",
+      "sha256": "26dbd746fccdacd3e2cb49a45879ceffecc094897dcbb68e9ecf69a99de19701"
+    },
+    {
+      "file": "source-audit/en-render/page-545.png",
+      "sha256": "a771850743dbbcdb0019db3c7fab928648b73d4a0bf279627db275ca51e3e0b8"
+    },
+    {
+      "file": "source-audit/en-render/page-546.png",
+      "sha256": "6e0feec7c3122cd76fd95f8ab470dc53beea6906f9ba3e33e8601b596db730ad"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-424",
+    "p-413"
+  ],
+  "numberedFormulaTags": [
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "coveredRegions": [
+    "N4两闭合式后续句/完整分子分母/算法终止符/17–21、半次迭代两分支/历史注记/施罗德函数与u=U1。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "position": "Schroeder name in paragraph after21",
+      "cnOriginalAndFinal": "弗里德里希·施罗德",
+      "enOriginal": "Ernst Schröder",
+      "enPdfPage": 546,
+      "meaning": "姓名不一致保中文列疑；本批未取作者外部传记或原论文核定名字，不默改历史记载。"
+    }
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 67,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch417-numeric-check.json",
+  "numericScope": "60a general six-variable commutative identity by exact polynomial expansion; full60a coefficient identity only finite n=2,4,6. 62 all8 coefficients of displayed rank2 degeneration through order1 overQ, not arbitrary-field minimal-rank proof. SeriesL/T/N/recurrences3,9,12,16,20 exactFraction finite orders5,8,12,16×5fixedcases; not general algorithm/complexity proofs. Full422 table populated cells exact. 74d exact2linearforms withoneconstant multiplication. No claim to prove asymptotic tensor-rank theorems, open lower bounds or arbitrary-field ranks by numerical examples.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch417-proof.html",
+    "htmlSha256": "253ead63b4246bdd965b652ec72babd8c6414e51f6e087af89788dd57e36e22f",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch417-proof-1280-424.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch417-proof-390-424.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 489,
+    "scrollableElementCounts": {
+      "1280": 87,
+      "390": 119
+    },
+    "machineObservations": ".work/volume2/source-audit/batch417-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "startsMidAlgorithmStep": {
+    "algorithm": "4.7-N",
+    "step": "N4",
+    "previousCnPdfPage": 423,
+    "previousEnd": "N4两条完整闭合公式",
+    "start": "的系数$Q_j$和$R_j$（$0\\le j<N$）",
+    "afterTwoClosedDisplays": true
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.5.4",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 330,
+  "cnPrintedPage": 319,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    427,
+    428
+  ],
+  "enPrintedPages": [
+    412,
+    413
+  ],
+  "pageMarkdownSha256": "6603096ce43e383018b332ed910460b3ced0dc2a1c0d539971ddf905afd9823d",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/330.jpg",
+  "cnPageImageSha256": "16c712bcacf298ece56c4d6b08e554650b7a82ff319c34bcf8df154026314784",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-427.png",
+      "sha256": "a61802bda911e38416408754ef7c8d3c98bf5444d83799b444a9bf61f6db6ccf"
+    },
+    {
+      "file": "source-audit/en-render/page-428.png",
+      "sha256": "306e7e5cbcb73f283b298502ee1403315f54b1093d3c10cdf725ae8ea2d3591e"
+    }
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-330",
+    "p-319",
+    "ex-4-5-4-6",
+    "ex-4-5-4-7",
+    "ex-4-5-4-8",
+    "ex-4-5-4-9",
+    "ex-4-5-4-10",
+    "ex-4-5-4-11",
+    "ex-4-5-4-12",
+    "ex-4-5-4-13",
+    "ex-4-5-4-14",
+    "ex-4-5-4-15",
+    "ex-4-5-4-16",
+    "ex-4-5-4-17",
+    "ex-4-5-4-18",
+    "ex-4-5-4-19"
+  ],
+  "numberedFormulaTags": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 91,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "语法只证明可解析；原图/双语、精确代数和有限样本另列。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿包含关系/装订后的题答导航",
+    "完整Pandoc及正式VitePress/线上网站与下载包",
+    "非本页的答案内容未借存在性检查冒充双语校订。"
+  ],
+  "coveredRegions": [
+    "习题6–19全部题干、难度、推荐符号及提示；题17证书树13结点12线；题19在331续。"
+  ],
+  "substantiveCorrections": [
+    {
+      "section": "4.5.4 exercise12 input/output task",
+      "cnPrintedPage": 319,
+      "enPdfPage": 427,
+      "enPrintedPage": 412,
+      "original": "假设我们已经使用算法E得到足够多的输出从而给出(18)的一个解，设计一个算法利用这个结果寻找N的一个真因数",
+      "final": "设计一个算法利用算法E的输出寻找N的一个真因数，假设算法E已经给出足够多的输出以导出(18)的一个解",
+      "basis": "English asks for an algorithm usingE outputs, conditional on having enough to deduce(18). Chinese implies the desired(18)solution is already supplied, reducing intended exponent-combination task to a gcd. Retain premise as enough raw outputs, not an already-provided solution."
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": {
+    "nextCnPdfPage": 331,
+    "end": "给定的很大的数",
+    "nextStart": "$N$ 的素因数 $p$"
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch328-numeric-check.json",
+  "numericScope": "20904项复核包含有限递推/模幂/幻秩/LL/题目例子；范数正号有完整精确多项式展开；题47九行数据匹配原本。有限检查不等于所有定理或习题一般证明。",
+  "exercises": [
+    {
+      "number": 6,
+      "difficulty": "M24",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-6"
+    },
+    {
+      "number": 7,
+      "difficulty": "25",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-7"
+    },
+    {
+      "number": 8,
+      "difficulty": "23",
+      "recommended": true,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-8"
+    },
+    {
+      "number": 9,
+      "difficulty": "M25",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-9"
+    },
+    {
+      "number": 10,
+      "difficulty": "M26",
+      "recommended": true,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-10"
+    },
+    {
+      "number": 11,
+      "difficulty": "M20",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-11"
+    },
+    {
+      "number": 12,
+      "difficulty": "M28",
+      "recommended": true,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-12"
+    },
+    {
+      "number": 13,
+      "difficulty": "HM25",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-13"
+    },
+    {
+      "number": 14,
+      "difficulty": "M20",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-14"
+    },
+    {
+      "number": 15,
+      "difficulty": "M34",
+      "recommended": true,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-15"
+    },
+    {
+      "number": 16,
+      "difficulty": "M50",
+      "recommended": false,
+      "actualOriginalAnswerExists": false,
+      "answerAnchor": null
+    },
+    {
+      "number": 17,
+      "difficulty": "M25",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-17"
+    },
+    {
+      "number": 18,
+      "difficulty": "HM23",
+      "recommended": true,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-18"
+    },
+    {
+      "number": 19,
+      "difficulty": "M25",
+      "recommended": true,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-19"
+    }
+  ],
+  "answerPresenceEvidence": ".work/volume2/source-audit/batch328-answer-presence.json",
+  "answerLinkStatus": "只为已在原中文答区确认存在的独立编号答项建链；最终母稿端点/往返另验。",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch328-proof.html",
+    "htmlSha256": "28ff426ba8f5e05c904a2657a79b6e5846ee75e9fdf81dc75d0ad9c129f32665",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Seven-page standalone proof only; not final site/whole-volume acceptance.",
+    "browserPath": "Browser plugin absent; bundledPlaywright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch328-proof-1280-330.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch328-proof-390-330.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch328-right-390-330.png",
+    "mobileRightEndVisualReview": false,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "proofMathExpressions": 544,
+    "scrollableElementCounts": {
+      "1280": 62,
+      "390": 77
+    },
+    "machineObservations": ".work/volume2/source-audit/batch328-browser.json",
+    "originalFootnoteForwardBack": [
+      [],
+      []
+    ]
+  },
+  "assets": [
+    {
+      "path": "assets/volume2/figures/ex-4-5-4-17-pratt-tree.svg",
+      "sha256": "f47f7d0e892d9eef370ccac9ec72c138cae3c311d2c7f769213c5ce24cd00b22",
+      "kind": "redrawnSVG of original unnumbered exercise17 tree",
+      "sourceCnPdfPage": 330,
+      "sourceEnPdfPage": 428,
+      "nodes": 13,
+      "parentChildLines": 12,
+      "directedArrowheads": 0,
+      "allLabelsAndHierarchyCompared": true,
+      "allNodePrattConditionsChecked": true,
+      "browserOriginalLink": [
+        {
+          "url": "assets/volume2/figures/ex-4-5-4-17-pratt-tree.svg",
+          "nodeLabels": 13,
+          "edges": 12
+        },
+        {
+          "url": "assets/volume2/figures/ex-4-5-4-17-pratt-tree.svg",
+          "nodeLabels": 13,
+          "edges": 12
+        }
+      ],
+      "renderedImageScreenshots": [
+        ".work/volume2/source-audit/batch328-tree-1280.png",
+        ".work/volume2/source-audit/batch328-tree-390.png"
+      ],
+      "standaloneSvgScreenshot": "ChromeSVGfullPage screenshot timed out; source link identity and13text/12path DOM checked, rendered HTML inline image separately captured and visually inspected.",
+      "evidence": ".work/volume2/source-audit/batch328-tree-review.json"
+    }
+  ],
+  "answerLinkExceptions": [
+    {
+      "number": 16,
+      "reason": "无独立原答项，见presence。"
+    }
+  ],
+  "publicationSanitization": {
+    "privateOriginalReviewSha256": "0c9c3558c2d9478d41a27ea98c1309631ca61af3b3cb09abc4684001b345acbb",
+    "fields": [
+      ".assets[0].browserOriginalLink[0].url",
+      ".assets[0].browserOriginalLink[1].url"
+    ],
+    "treatment": "Local file asset URLs are normalized to repository-relative asset paths for public delivery. The original observed URLs remain only in the private, hash-bound review record."
+  }
+}

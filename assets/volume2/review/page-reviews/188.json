@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "仅绑定当前单页字节；装订后另建包含/合段证明，不仅改此哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接看中文完整页与所列英文页，按段、式、习题、字段核对。解析和复算另列，不充当原页证据。",
+  "cnPdfPage": 188,
+  "cnPrintedPage": 177,
+  "enPdfPages": [
+    246,
+    247,
+    248
+  ],
+  "enPrintedPages": [
+    231,
+    232,
+    233
+  ],
+  "pageMarkdownSha256": "83fbc4a13ed4820e1f4450324f5797cb0d550c81b3d70e28787b693483f29218",
+  "cnPageImage": "scans/188.jpg",
+  "cnPageImageSha256": "8a68dbde82206a4d126f6f9ba154550ea5a7d5d656c4fbc49882b6120852bfac",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-246.png",
+      "sha256": "e1a57121dd54a87384fd36512b939a2098b954fa1b068648d4bbd7bb7059adc6"
+    },
+    {
+      "file": "verified-sources/en-247.png",
+      "sha256": "5e09f41e1a2b739bbf5cea82bf505d518add054a4091b81e1d79cc66e2dd19a6"
+    },
+    {
+      "file": "verified-sources/en-248.png",
+      "sha256": "1f41f2c00760dac66846ffc8adbfabf0db1b6ca307eaa142041f83e35c8cc7ec"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号、书名/节名及页码；隐藏页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-188",
+    "p-177"
+  ],
+  "coveredRegions": [
+    "柯西续文、标准差式14，均值/平方和递推15/16及边界。",
+    "round误差模型17，rho/delta不等式链18每项正负号/指数。",
+    "乘法两种结合的四delta展开、比值与上界19。",
+    "ulp定义及误差说明。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19"
+  ],
+  "numberedListings": [],
+  "numberedWordLayouts": [],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "not-applicable",
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuationNotes": "首句续187柯西式；本页末段完整。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 27,
+    "parseErrors": 0,
+    "codeLines": [],
+    "meaning": "只证明语法可排版；原页/英文比对另列。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "独立复算辅助原页核查，不作原书答案来源或全节证明。",
+    "results": {
+      "exactVarianceExample": {
+        "values": [
+          4,
+          7,
+          13
+        ],
+        "mean": 8,
+        "S_n": 42,
+        "sampleVariance": 21,
+        "directVariance": "21"
+      },
+      "relativeAssociativityBoundForB10P8": "2.000000200000015000001000000E-7"
+    }
+  },
+  "untested": [
+    "最终母稿包含、题答链接及引语分节归属。",
+    "正式VitePress/Pandoc整卷；私有选择性HTML视觉验证另列。"
+  ]
+}

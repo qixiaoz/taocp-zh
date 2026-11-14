@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订另作包含证明，不改历史哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 123,
+  "cnPrintedPage": 112,
+  "section": "3.4.2",
+  "enPdfPages": [
+    163
+  ],
+  "enPrintedPages": [
+    148
+  ],
+  "pageMarkdownSha256": "ee58d889025b4c7385ddc22976d3ef2248b260373cef3f7cb14f7b1ef866f0e4",
+  "cnPageImageSha256": "5b5f2eca046d717f0a9a8b7fef799313de4ee22a0860eec9c38564b17053b223",
+  "enOriginalPageImages": [
+    {
+      "enPdfPage": 163,
+      "enPrintedPage": 148,
+      "renderedImageSha256": "244b695375c056c001dcb2638d8a851963d78f2ec16093c9fdb456ac1b947f08"
+    }
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 67,
+    "displayExpressions": 3,
+    "parseErrors": 0,
+    "errors": []
+  },
+  "coveredRegions": [
+    "§3.4.2习题15–19全部题干、难度/四枚推荐箭头、Floyd集合更新、错误洗牌索引条件、有向图题、优先抽样两组分段定义及(a)–(d)全部公式；塞万提斯两行原引语和署名。"
+  ],
+  "explicitAnchors": [
+    "pdf-123",
+    "p-112",
+    "ex-3-4-2-15",
+    "ex-3-4-2-16",
+    "ex-3-4-2-17",
+    "ex-3-4-2-18",
+    "ex-3-4-2-19"
+  ],
+  "substantiveCorrections": [
+    {
+      "section": "3.4.2-18",
+      "cnPrintedPage": 112,
+      "enPrintedPage": 148,
+      "enPdfPage": 163,
+      "original": "下标kj是独立的、在0和n之间均匀随机的",
+      "final": "下标kj是独立的、在1和n之间均匀随机的",
+      "basis": "英文原图明确between 1 and n，且原题对象是X1,…,Xn、图顶点{1,…,n}，不含X0或顶点0；中文0与完整题干的索引域矛盾。"
+    }
+  ],
+  "preservedVersionDifferences": [
+    {
+      "location": "优先抽样题19的r范围",
+      "cn": "如果r是任意实数",
+      "en": "If r is any real number",
+      "disposition": "保留共同原写法。后续题使用正权重的顺序统计量r>0；r≤0时分段为零，不能将未选分支1/r当作实际计算。未自行扩大题意。"
+    }
+  ],
+  "exerciseNumbers": [
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "recommendedExercises": [
+    15,
+    16,
+    18,
+    19
+  ],
+  "answerExceptions": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {},
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalSiteBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserAvailability": "Browser plugin not available; task-authorized existing bundled Playwright + isolated local Chrome fallback.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "pageCases": [
+      {
+        "width": 1280,
+        "mathExpressions": 67,
+        "documentWidth": 1280,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "brokenMathml": 0,
+        "passed": true
+      },
+      {
+        "width": 390,
+        "mathExpressions": 67,
+        "documentWidth": 390,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "overflowingBlocks": 2,
+        "bothEndsReachable": true,
+        "brokenMathml": 0,
+        "passed": true
+      }
+    ],
+    "browserReviewSha256": "efc6b8c6900e97b9a8ffd4cc49af00374e5ebf19e914814cc9598b4b2d5e8665",
+    "directScreenshotInspectionSha256": "8ab90a1ff3322e3df266fca6452156d73f31edc4d90cf4faaf391fd26b5e0aba",
+    "qualification": "完整浏览器页面案例通过；直接视觉范围为七页桌面整页、全部长独立式/牌序两端及123窄屏整页，未将其扩大为最终网站验收。"
+  },
+  "numericalChecks": {
+    "recordSha256": "14d612bc7a97598a4facf778d3b051a4f098ba6a42b283c8b40226489102f876",
+    "method": "独立积分/变量代换，分数精确枚举和源牌序检查；辅助原图核对，不替代双语直接查看。",
+    "applicableEntries": [
+      "floydExercise17"
+    ]
+  },
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc、最终VitePress路由/题答往返/全站搜索/线上下载与部署不在本页记录范围，由主任务统一执行。"
+  ],
+  "answerExistenceEvidence": {
+    "cnPdfPages": [
+      473,
+      474
+    ],
+    "cnPrintedPages": [
+      462,
+      463
+    ],
+    "enPdfPages": [
+      607
+    ],
+    "enPrintedPages": [
+      592
+    ],
+    "actualAnswerNumbersSeen": [
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "scope": "只核实原答项存在、节界和题号，不把答案原页其余内容算本批审校完成。中文题19的原答实际在474页；题24两语无答。"
+  },
+  "nextPageHandoff": {
+    "nextCnPdfPage": 124,
+    "nextCnPrintedPage": 113,
+    "nextSection": "*3.5 什么是随机序列？",
+    "currentLastText": "——米格尔·德·塞万提斯·萨维德拉，El Ingenioso Hidalgo Don Quixote de la Mancha (1605)",
+    "continuationToNextPage": false,
+    "instruction": "123末引语属于3.4.2结尾；124从实际3.5标题开始，无词/句/式/表/程序跨页。"
+  }
+}

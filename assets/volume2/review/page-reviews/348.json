@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.6.1",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 348,
+  "cnPrintedPage": 337,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    449,
+    450
+  ],
+  "enPrintedPages": [
+    434,
+    435
+  ],
+  "pageMarkdownSha256": "00b3bda5fdc7255c3d3ce885013e670f25d83e849cc330a5288bbaa5b3167a3d",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/348.jpg",
+  "cnPageImageSha256": "632d3d7db8c7e23f447a7a3b5f7790532cfbd21f4d66920fd83ab76bd3d3e09c",
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "完整Pandoc/正式VitePress/线上及ZIP",
+    "有限具体例子复算未扩大为全称代数或复杂度证明。"
+  ],
+  "sections": [
+    "4.6.1"
+  ],
+  "numericEvidence": ".work/volume2/source-audit/batch343-numeric-check.json",
+  "pageAnchors": [
+    "pdf-348",
+    "p-337",
+    "ex-4-6-1-1",
+    "ex-4-6-1-2",
+    "ex-4-6-1-3"
+  ],
+  "numberedFormulaTags": [
+    28,
+    29
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "coveredRegions": [
+    "式28及首项系数定义；Sturm的全部条件、三行式29、变差与零处理、开闭端点；其他方法及原作者第四版计划全文、原施工标记；习题1–3全部及推荐/难度。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-449.png",
+      "sha256": "e468627bae6a4cf2929add095c3967de72f3fe90cbe504bb59f17fe1fb8c33da"
+    },
+    {
+      "file": "source-audit/en-render/page-450.png",
+      "sha256": "1546c10e16f7ee9146963fe2f903d8bcb920676fd708ca2dd84331492986880d"
+    }
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 47,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "语法与原图/双语/精确复算分项记录。"
+  },
+  "numericScope": "Exact source example of Algorithm C and all 375 paired minors of matrices17/18/21/22; each source subresultant coefficient and h determinant; exercise1/2/3 particular inputs; literal free-word convolution/division for exercises17/18. No finite computation is claimed as a general UFD, root bound, probability, complexity or noncommutative theorem proof.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch343-proof.html",
+    "htmlSha256": "c4f4c74916aac4899b094a91fd542a37ed7a76932da85387a4af544daad83e4e",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not whole-volume or production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright with local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch343-proof-1280-348.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch343-proof-390-348.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 914,
+    "scrollableElementCounts": {
+      "1280": 348,
+      "390": 366
+    },
+    "machineObservations": ".work/volume2/source-audit/batch343-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these eight pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch343-right-390-348.png",
+    "mobileRightEndVisualReview": true
+  },
+  "startsMidParagraph": {
+    "previousCnPdfPage": 347,
+    "previousEnd": "则对$u(x)=w(x)u_1(x)$和",
+    "start": "$v(x)=w(x)u_2(x)$使用算法C得到的多项式序列为"
+  },
+  "originalConstructionMarker": {
+    "path": "assets/volume2/figures/construction.svg",
+    "sha256": "74e971bf72e727a5bfff5cd243d54c38c0a4c0e4731ab3b8e57b1495e9fc6ea9",
+    "existingAssetReused": true,
+    "sourceMatch": "CN348/EN450 same original construction sign, actual rendered image viewed at both widths; no alteration of historical fourth-edition note."
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch343-answer-presence.json",
+    "linkedExercises": [
+      1,
+      2,
+      3
+    ],
+    "allOriginalNumberedAnswersPresent": true,
+    "roundTripDeferredUntilActualAnswerTranscriptionAndAssembly": true,
+    "noFabricatedAnswerContent": true
+  },
+  "history": [
+    {
+      "status": "historical-superseded",
+      "evidence": ".work/volume2/source-audit/history/batch343-before-image-readiness",
+      "reason": "Initial browser image-state sample preceded lazy-image loading. Rechecked with eager loading plus image decode before collecting state; no markdown change."
+    }
+  ],
+  "matrixCellEvidence": null
+}

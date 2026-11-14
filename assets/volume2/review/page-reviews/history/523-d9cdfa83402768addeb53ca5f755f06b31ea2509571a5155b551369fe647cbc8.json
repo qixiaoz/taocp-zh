@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 523,
+  "cnPrintedPage": 512,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "4ec6c0842016cbcad950df64697808e845b168bf79b51f1c5c035eede0aeaecb",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/523.jpg",
+  "cnPageImageSha256": "04cb0d3a466de2ecae85711e908b8845660625dedb9e053d8eff3129aa7b0086",
+  "enPdfPages": [
+    666,
+    667
+  ],
+  "enPrintedPages": [
+    651,
+    652
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-666.png",
+      "sha256": "e347eae54481d4edac09f4a67bb63b79f58b9a63b49d8ff9f71013a23d5ea8f2"
+    },
+    {
+      "file": "verified-sources/en-667.png",
+      "sha256": "1ed320846a8d968e6374fdc4e9d284932395403e90ff7bbe23942529479d769f"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-523",
+    "p-512",
+    "ans-4-5-3-17",
+    "ans-4-5-3-18",
+    "ans-4-5-3-19",
+    "ans-4-5-3-20",
+    "ans-4-5-3-21",
+    "ans-4-5-3-23"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续答16精确差/复收敛下界/指数CF/全部历史。答17(b)(c)及两个continuant恒等式，原无(a)独立正文。",
+    "答18–21/23全部转换/概率/微分插值公式；原无答22，不造。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "首续522答16，末答23完整。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.5.3-16-away-from-zero",
+      "section": "4.5.3答案16",
+      "cnPrintedPage": 512,
+      "enPdfPage": 666,
+      "enPrintedPage": 651,
+      "original": "因子e^(2z)+1与0的距离有界",
+      "final": "因子e^(2z)+1与0的距离有正下界",
+      "basis": "英文bounded away from zero。该条件确保分母不接近0，单纯有界不够；|2z|≤1时Re(e^(2z))>0，确有正下界。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-5-3-17",
+      "exercise_anchor": "ex-4-5-3-17",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-18",
+      "exercise_anchor": "ex-4-5-3-18",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-19",
+      "exercise_anchor": "ex-4-5-3-19",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-20",
+      "exercise_anchor": "ex-4-5-3-20",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-21",
+      "exercise_anchor": "ex-4-5-3-21",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-23",
+      "exercise_anchor": "ex-4-5-3-23",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 523,
+    "sha256": "4ec6c0842016cbcad950df64697808e845b168bf79b51f1c5c035eede0aeaecb",
+    "mathExpressions": 47,
+    "display": 5,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 523,
+        "width": 1280,
+        "sha256": "4ec6c0842016cbcad950df64697808e845b168bf79b51f1c5c035eede0aeaecb",
+        "pageErrors": [],
+        "bodyText": 5711,
+        "documentWidth": 1280,
+        "expressions": 47,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 72,
+            "max": 72,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 79,
+            "max": 79,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 177,
+            "max": 177,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 523,
+        "width": 390,
+        "sha256": "4ec6c0842016cbcad950df64697808e845b168bf79b51f1c5c035eede0aeaecb",
+        "pageErrors": [],
+        "bodyText": 5711,
+        "documentWidth": 390,
+        "expressions": 47,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 320,
+            "max": 320,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 326,
+            "max": 326,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 399,
+            "max": 399,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 352,
+            "max": 352,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 197,
+            "max": 197,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 474,
+            "max": 474,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 481,
+            "max": 481,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 74,
+            "max": 74,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 227,
+            "max": 227,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 127,
+            "max": 127,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 579,
+            "max": 579,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 298,
+            "max": 298,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 228,
+            "max": 228,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 167,
+            "max": 167,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 172,
+            "max": 172,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 285,
+            "max": 285,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 54,
+            "max": 54,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/523-4ec6c0842016cbcad950df64697808e845b168bf79b51f1c5c035eede0aeaecb-metadata-update/523.json",
+      "pageMarkdownSha256": "4ec6c0842016cbcad950df64697808e845b168bf79b51f1c5c035eede0aeaecb",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ]
+}

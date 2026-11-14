@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 105,
+  "cnPrintedPage": 94,
+  "section": "3.4.1",
+  "enPdfPages": [
+    139,
+    140
+  ],
+  "enPrintedPages": [
+    124,
+    125
+  ],
+  "pageMarkdownSha256": "5000c1c915fecc2726522e39a6130d4cda132cb098b1381735e804e1db9215ab",
+  "cnPageImageSha256": "65f674126b3d633f94c04ac504c9e72fc3c4b4d194cca239c4cc4fc6f65efe0f",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 22,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-105",
+    "p-94"
+  ],
+  "coveredRegions": [
+    "图9/10完整原图与可搜索图题；矩形概率式(15)与采样式(16)、92%数值；楔形与拒绝法正文、式(17)。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "assets": [
+    {
+      "figure": 9,
+      "sourceCnPdfPage": 105,
+      "path": "assets/volume2/figures/fig-3-9.png",
+      "kind": "native-source-density-plot-crop",
+      "bboxPdfUnits": [
+        167.25,
+        82.27,
+        454.57,
+        243.97
+      ],
+      "paddingPdfUnits": 2,
+      "bboxPixels": [
+        575,
+        279,
+        1590,
+        857
+      ],
+      "sourceImageSize": [
+        2072,
+        2953
+      ],
+      "outputSize": [
+        1015,
+        578
+      ],
+      "sha256": "1508e40aab382c5c7174a15ca5825304849a573eb20257f430ea73f3f591edaf",
+      "sourceImageSha256": "65f674126b3d633f94c04ac504c9e72fc3c4b4d194cca239c4cc4fc6f65efe0f",
+      "review": "最终原生裁图已直接看图与中英原页比较；图9完整曲线/15矩形/尾/原f标签及轴0…4、0.0…0.9；图10两幅凹凸曲线、全部两条虚线界/轴/0/a/b/s/s+h保留，未用拟合曲线替代原图。"
+    },
+    {
+      "figure": 10,
+      "sourceCnPdfPage": 105,
+      "path": "assets/volume2/figures/fig-3-10.png",
+      "kind": "native-source-density-plot-crop",
+      "bboxPdfUnits": [
+        180.42,
+        509.21,
+        440.73,
+        654.55
+      ],
+      "paddingPdfUnits": 2,
+      "bboxPixels": [
+        621,
+        1766,
+        1542,
+        2287
+      ],
+      "sourceImageSize": [
+        2072,
+        2953
+      ],
+      "outputSize": [
+        921,
+        521
+      ],
+      "sha256": "de7688c8c5081362e9a580644bf86c57629eb821f01a2936f46c06f4c0eb9766",
+      "sourceImageSha256": "65f674126b3d633f94c04ac504c9e72fc3c4b4d194cca239c4cc4fc6f65efe0f",
+      "review": "最终原生裁图已直接看图与中英原页比较；图9完整曲线/15矩形/尾/原f标签及轴0…4、0.0…0.9；图10两幅凹凸曲线、全部两条虚线界/轴/0/a/b/s/s+h保留，未用拟合曲线替代原图。"
+    }
+  ],
+  "numericAudit": {
+    "method": "Python exact Fraction recomputes all16 alias outcomes from source P/Y and checks dice probabilities. mpmath1.3.0,80digits integrates/derives half-normal rectangle masses and rejection probabilities. D/E table checked directly from algorithmM6: for interval s=(j−1)/5,t=j/5 define g(u)=exp((t²−(s+u/5)²)/2)−1; choose b=t/5 for j≤5 or g(0) for j≥6, E=1/b, D=min_0≤u≤1(u+Eg(u)); interior derivative solved by300-step bisection. Finite numerical evaluation supplements direct source images, not a proof of all distributions.",
+    "aliasAll16ProbabilitiesExact": [
+      "0",
+      "0",
+      "1/36",
+      "1/18",
+      "1/12",
+      "1/9",
+      "5/36",
+      "1/6",
+      "5/36",
+      "1/9",
+      "1/12",
+      "1/18",
+      "1/36",
+      "0",
+      "0",
+      "0"
+    ],
+    "rectangularMassSum": "0.918309834773351354996851547431",
+    "sourceRectangularMass": "0.9183",
+    "tailProbability": "0.00269979606326018905330362953519",
+    "tailReciprocal": "370.39834734495884946",
+    "sourceTailRate": "about1/370",
+    "polarLoopMean": "1.2732395447351626862",
+    "polarLoopSd": "0.58982997002716101129",
+    "sourcePolarMeanSd": [
+      1.27,
+      0.59
+    ],
+    "tailRejectionProbability": "0.086229103869690112799",
+    "sourceTailRejection": "about1/12",
+    "DandE30Values": [
+      {
+        "j": 1,
+        "DComputed": "0.505033500668895254",
+        "DSource": "0.505",
+        "EComputed": "25.0",
+        "ESource": "25.00",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 2,
+        "DComputed": "0.77295683181699527781",
+        "DSource": "0.773",
+        "EComputed": "12.5",
+        "ESource": "12.50",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 3,
+        "DComputed": "0.8764243172970635401",
+        "DSource": "0.876",
+        "EComputed": "8.3333333333333333333",
+        "ESource": "8.33",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 4,
+        "DComputed": "0.93921124285767042577",
+        "DSource": "0.939",
+        "EComputed": "6.25",
+        "ESource": "6.25",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 5,
+        "DComputed": "0.98608681560905082438",
+        "DSource": "0.986",
+        "EComputed": "5.0",
+        "ESource": "5.00",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 6,
+        "DComputed": "0.99515450131765087511",
+        "DSource": "0.995",
+        "EComputed": "4.0637731069208275895",
+        "ESource": "4.06",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 7,
+        "DComputed": "0.98674801424351728794",
+        "DSource": "0.987",
+        "EComputed": "3.3677961409333788694",
+        "ESource": "3.37",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 8,
+        "DComputed": "0.97921135862257027451",
+        "DSource": "0.979",
+        "EComputed": "2.8582959135100826023",
+        "ESource": "2.86",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 9,
+        "DComputed": "0.97227391617336222687",
+        "DSource": "0.972",
+        "EComputed": "2.4694553648491407858",
+        "ESource": "2.47",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 10,
+        "DComputed": "0.96575234004516275789",
+        "DSource": "0.966",
+        "EComputed": "2.1631696640025754049",
+        "ESource": "2.16",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 11,
+        "DComputed": "0.95953097292159962762",
+        "DSource": "0.960",
+        "EComputed": "1.9158499112349193935",
+        "ESource": "1.92",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 12,
+        "DComputed": "0.95353409608023243335",
+        "DSource": "0.954",
+        "EComputed": "1.7121118654333625538",
+        "ESource": "1.71",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 13,
+        "DComputed": "0.94771026493740711815",
+        "DSource": "0.948",
+        "EComputed": "1.5414940825367982841",
+        "ESource": "1.54",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 14,
+        "DComputed": "0.94202340198951306313",
+        "DSource": "0.942",
+        "EComputed": "1.3966346592664642194",
+        "ESource": "1.40",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 15,
+        "DComputed": "0.93644752494983365864",
+        "DSource": "0.936",
+        "EComputed": "1.2722024278708037494",
+        "ESource": "1.27",
+        "withinSourceRounding": true
+      }
+    ],
+    "S16Exact": true,
+    "P_Q15RoundingIntervalChecks": [
+      {
+        "j": 1,
+        "printedP": "0.849",
+        "printedQ": "0.236",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 2,
+        "printedP": "0.970",
+        "printedQ": "0.206",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 3,
+        "printedP": "0.855",
+        "printedQ": "0.234",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 4,
+        "printedP": "0.994",
+        "printedQ": "0.201",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 5,
+        "printedP": "0.995",
+        "printedQ": "0.201",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 6,
+        "printedP": "0.933",
+        "printedQ": "0.214",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 7,
+        "printedP": "0.923",
+        "printedQ": "0.217",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 8,
+        "printedP": "0.727",
+        "printedQ": "0.275",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 9,
+        "printedP": "1.000",
+        "printedQ": "0.200",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 10,
+        "printedP": "0.691",
+        "printedQ": "0.289",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 11,
+        "printedP": "0.454",
+        "printedQ": "0.440",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 12,
+        "printedP": "0.287",
+        "printedQ": "0.698",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 13,
+        "printedP": "0.174",
+        "printedQ": "1.150",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 14,
+        "printedP": "0.101",
+        "printedQ": "1.974",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 15,
+        "printedP": "0.057",
+        "printedQ": "3.526",
+        "productIntervalContains1over5": true
+      }
+    ],
+    "notIndependentlyReconstructed": [
+      "表1中P/Y/Z别名方案的所有参数并未重构；均已逐格中英原图读取。Q仅作P×Q=1/5舍入区间检查。"
+    ]
+  },
+  "continuationAfterCompleteFormula": {
+    "nextCnPdfPage": 106,
+    "formula": "(17)已闭合，下页接c是常量。"
+  }
+}

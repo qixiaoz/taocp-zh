@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.6.2",
+  "sections": [
+    "4.6.2"
+  ],
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 355,
+  "cnPrintedPage": 344,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    458,
+    459
+  ],
+  "enPrintedPages": [
+    443,
+    444
+  ],
+  "pageMarkdownSha256": "c8e9b32f5f8c4a39f90a65a36c412f345c038545436aa764721358ec0675cd5a",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/355.jpg",
+  "cnPageImageSha256": "5b475bdfeebfc5bd5cf60a5b390ef8f2868a7283e65d5e8d5c3162520737dd83",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-458.png",
+      "sha256": "d310b46250c02bd76d7f8b93273ae8c9638b4f6b9ab88899f92563fa5448ae39"
+    },
+    {
+      "file": "source-audit/en-render/page-459.png",
+      "sha256": "aa6b1eae2a013f66f0aa2a59e02581755a6ef553aa8e552b6cc8231b51e00fd9"
+    }
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "pageAnchors": [
+    "pdf-355",
+    "p-344"
+  ],
+  "numberedFormulaTags": [
+    17
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "coveredRegions": [
+    "14×8模13系数表每格及表头；完整Q和Q−I两8×8矩阵17；零空间、列操作不变性、算法N输入与N1。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 39,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch351-numeric-check.json",
+  "numericScope": "Full source mod13 example only: all112 power-table cells,128 Q/QI cells,320 N-trajectory cells, source pivot positions, all26 B4 gcds, factor product and concrete exhaustive irreducibility, all2197 fixed-space vectors and exact split distribution. Finite checks do not prove general CRT/Frobenius/rank/probability/complexity assertions.",
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch351-proof.html",
+    "htmlSha256": "acb69e82285cd3f821aa14a1c5a3708c938fda6db95ed317730b75aafe7268d7",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume or production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright and local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch351-proof-1280-355.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch351-proof-390-355.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 457,
+    "scrollableElementCounts": {
+      "1280": 24,
+      "390": 48
+    },
+    "machineObservations": ".work/volume2/source-audit/batch351-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch351-right-390-355.png",
+    "mobileRightEndVisualReview": true
+  },
+  "startsMidParagraph": {
+    "previousCnPdfPage": 354,
+    "previousEnd": "如下的$x^k\\bmod u(x)$",
+    "start": "的系数序列："
+  },
+  "sourceReadingClarification": {
+    "original": "都不会改变它的秩以及向量",
+    "sourceCrop": "source-audit/355-invariant-prose.png",
+    "sourceCropSha256": "dd24c796a929bf15ad994f340f9eb2b125579045fa3736faf3c43444f6cbe060",
+    "meaning": "缩图曾漏读不字，放大确认源书本来正确，非实质订正。"
+  },
+  "endsMidAlgorithm": {
+    "algorithm": "N",
+    "completedStep": "N1",
+    "nextCnPdfPage": 356,
+    "nextStep": "N2"
+  },
+  "literalCellEvidence": ".work/volume2/source-audit/batch351-literal-cells.json"
+}

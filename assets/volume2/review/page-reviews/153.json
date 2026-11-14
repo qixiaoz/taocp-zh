@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "3.6",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "母稿尚未装订；本记录绑定单页Markdown字节和中文原页图指纹。装订后另作包含证明，不可把此哈希直接改成母稿哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "原页视觉复核与双语核实均为直接查看中英文原页图并对照相应段落、行内式、代码与编号式；不是两次OCR一致或解析通过代替校对。",
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复的页眉节号、书名/小节名、印刷页码；印刷页码用隐藏锚点保留。"
+  ],
+  "originalFootnotesPresent": false,
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [],
+  "untested": [
+    "尚未验证最终母稿包含关系。",
+    "尚未验证最终VitePress和Pandoc整卷页面。"
+  ],
+  "codeReviewReuse": {
+    "sampleFile": "samples/program.md",
+    "sampleSha256": "749f48a932ac2b9b6269e13d186c8101a327e0132a8b532a5f62bcc77ad4731c",
+    "tokenComparison": [
+      {
+        "block": "linear-congruential",
+        "cnCodeTokensSha256": "1f0d32fcbffc9b0051ce675232d96e1200dc13a3826e4e6e435f467ce56a879b",
+        "enCodeTokensSha256": "1f0d32fcbffc9b0051ce675232d96e1200dc13a3826e4e6e435f467ce56a879b",
+        "codeTokensMatch": true
+      },
+      {
+        "block": "combined-linear-congruential",
+        "cnCodeTokensSha256": "b0757852ec7ab6cb92967fad6eb286a5c9bcb032834814cd432f97ca4cf8883d",
+        "enCodeTokensSha256": "b0757852ec7ab6cb92967fad6eb286a5c9bcb032834814cd432f97ca4cf8883d",
+        "codeTokensMatch": true
+      },
+      {
+        "block": "ran_array",
+        "cnCodeTokensSha256": "67ce530777cd67345c5c2f50f6fdf179a5f8a15c1f1c7ea9db0c75bef4c34eed",
+        "enCodeTokensSha256": "67ce530777cd67345c5c2f50f6fdf179a5f8a15c1f1c7ea9db0c75bef4c34eed",
+        "codeTokensMatch": true
+      },
+      {
+        "block": "ran_start",
+        "cnCodeTokensSha256": "4881ee14e1058f5e04b453df8fe5adf2137eb9a255b04f2f5d41d2a5cddf62d3",
+        "enCodeTokensSha256": "4881ee14e1058f5e04b453df8fe5adf2137eb9a255b04f2f5d41d2a5cddf62d3",
+        "codeTokensMatch": true
+      },
+      {
+        "block": "main",
+        "cnCodeTokensSha256": "b68c75d2ac0feacc2a244f03da632ff7aa0867d9177a63701da12c12e96041d1",
+        "enCodeTokensSha256": "b68c75d2ac0feacc2a244f03da632ff7aa0867d9177a63701da12c12e96041d1",
+        "codeTokensMatch": true
+      }
+    ],
+    "executionCheck": {
+      "exitCode": 0,
+      "stdout": "995235265\n995235265\n",
+      "compileWarnings": "",
+      "compiler": "clang -std=c99 -Wall -Wextra -O2",
+      "addedHarness": "#include <stdio.h>",
+      "sourceBlocks": [
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  "cnPdfPage": 153,
+  "cnPrintedPage": 142,
+  "enPdfPages": [
+    202,
+    203,
+    204
+  ],
+  "enPrintedPages": [
+    187,
+    188,
+    189
+  ],
+  "pageMarkdownSha256": "9b1670f5a48e7a079ecd3aa2d5f8729155400a99d5380c5a65cc5eadcca72b03",
+  "cnPageImage": "scans/153.jpg",
+  "cnPageImageSha256": "5e0399679126835bdb2083faac6c606488998993caa98ef94120f7e8248ed0bf",
+  "pageAnchors": [
+    "pdf-153",
+    "p-142"
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "codeFenceCount": 1,
+  "codeLinesIncludingBlankLines": 8,
+  "preservedVersionDifferences": [
+    {
+      "cnText": "布伦特和佩德罗·弗尔迪亚",
+      "enText": "Richard Brent and Pedro Gimeno",
+      "action": "中文底本照录，姓名差异列疑，未补写或改译。",
+      "cnPrintedPage": 142,
+      "enPrintedPage": 187
+    }
+  ],
+  "unverifiedPageRegions": [],
+  "coveredRegions": [
+    "ran_start改进者、2001年11月说明。",
+    "不同种子输出块、n<2^70与一年<2^55纳秒、并行过程说明。",
+    "按位与/补码/30位整数/52位小数可移植性说明。",
+    "main基本检验代码及995235265两次输出。",
+    "生日间隔检验的缺陷与只取100/1009的建议。",
+    "线性同余与滞后斐波那契已知性质比较。",
+    "RANDU、Alan M. Ferrenberg文献、二维/三维检验及16807线性同余例子，至本页末续句。"
+  ],
+  "numericalChecks": {
+    "gregorianMeanYearNanoseconds": 3.1556952e+16,
+    "2^55": 36028797018963968,
+    "yearLessThan2^55Nanoseconds": true
+  },
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 14,
+    "parseErrors": 0,
+    "meaning": "仅证明语法可排版；语义依据另外的中英文页图逐项核实。"
+  },
+  "markdownIntegrity": {
+    "balancedCCodeFences": true,
+    "pageAnchorsOutsideFences": true,
+    "unexpectedControlCharacters": 0
+  }
+}

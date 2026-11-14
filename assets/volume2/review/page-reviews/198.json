@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页字节；最终母稿另作包含/原页与跨页接续证明，不仅改此处哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接查看中文完整页与列出的英文页图，逐段、逐式、逐数字及习题比较。语法与复算另列；未声称人类签核。原译者注无英文对应者单列例外。",
+  "cnPdfPage": 198,
+  "cnPrintedPage": 187,
+  "enPdfPages": [
+    259,
+    260
+  ],
+  "enPrintedPages": [
+    244,
+    245
+  ],
+  "pageMarkdownSha256": "f20b4e404e7f657d965f4f7ca03f31f2baac895a98355e4c3cdc2b390e1d94c7",
+  "cnPageImage": "scans/198.jpg",
+  "cnPageImageSha256": "ba89d48de8ca988201253677ee18c8c9db3a8e5ae52bd35ccfa64eedbcdc1c68",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-259.png",
+      "sha256": "fa2cfa9fa435af1294a6bcfa9b1556d1cc57b8661af201ad07aff2d224e692c6"
+    },
+    {
+      "file": "verified-sources/en-260.png",
+      "sha256": "e741f8656ca5bfe969fee9a31013727c2f95e0f56aea4a43282813e59395e593"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉节号、节名/书名及页码，隐藏页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-198",
+    "p-187",
+    "ex-4-2-2-20",
+    "ex-4-2-2-21",
+    "ex-4-2-2-22",
+    "ex-4-2-2-23",
+    "ex-4-2-2-24",
+    "ex-4-2-2-25",
+    "ex-4-2-2-26",
+    "ex-4-2-2-27",
+    "ex-4-2-2-28",
+    "ex-4-2-2-29",
+    "ex-4-2-2-30",
+    "ex-4-2-2-31",
+    "ex-4-2-2-32"
+  ],
+  "coveredRegions": [
+    "习题20–32全部题干及23/25/29/30推荐三角。",
+    "特殊区间端点-0/0/+0次序与所有开闭约定。",
+    "嵌套h稳定条件、几何级数g的小参数展开全部系数。",
+    "Kulisch53位反例全部整数、两种多项式及近似结果；round-to-even的floor/ceil。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "answerLinkStatus": "pendingverifiedanswers",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "本页习题20–32完整，§4.2.2结束。下一物理199/印188为§4.2.3，不在本任务处理范围。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 96,
+    "parseErrors": 0,
+    "meaning": "仅是排版语法检查；内容依据独立列出的中英文页图。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "独立辅助复算，不充作原书题答来源或整个证明签核。",
+    "results": {
+      "gExpansionCoefficients": {
+        "epsilon²": "-209827/20",
+        "epsilon⁴": "52779997/80",
+        "epsilon⁶": "-24113109013/800",
+        "exactDecimal": {
+          "epsilon²": "-10491.35",
+          "epsilon⁴": "659749.9625",
+          "epsilon⁶": "-30141386.26625"
+        }
+      },
+      "gReferenceValues": [
+        {
+          "y": "1e-3",
+          "gHighPrecision": "106.9895093097198221785084127042583038136458809903432822137411408909308112453397448903881396503083640",
+          "closedFormDifference": "-1.84E-95"
+        },
+        {
+          "y": "1e-4",
+          "gHighPrecision": "106.9998950865659749661086243817957487805818918912702183555412258858600429716957135092972751776331515",
+          "closedFormDifference": "-1.4471E-93"
+        },
+        {
+          "y": "1e-5",
+          "gHighPrecision": "106.9999989508650065974995948586138402304874006784507976338996473760509397452019712756777421271605535",
+          "closedFormDifference": "1.923481E-91"
+        },
+        {
+          "y": "1e-6",
+          "gHighPrecision": "106.9999999895086500006597499624698586137348148048769980724700098718210697642728539689751633845156174",
+          "closedFormDifference": "4.0793813E-90"
+        }
+      ],
+      "KulischExample": {
+        "x": 408855776,
+        "y": 708158977,
+        "y²−3x²": 1,
+        "exactPolynomial": 1,
+        "binaryMantissaBits": 53,
+        "binary53FirstExpression": -3.6893488147419103e+19,
+        "binary53SecondExpression": 1.002978273411373e+18,
+        "evaluationOrder": "Repeated squaring for fourth powers, ordinary Pythonbinary53 elementaryoperations; no FMA."
+      }
+    }
+  },
+  "untested": [
+    "最终母稿包含和跨页合段、原题答双向链接。",
+    "最终VitePress/Pandoc整卷；本批隔离证明的DOM/选择性视觉另列。"
+  ],
+  "compoundSymbols": "区间三角运算符与带圈mod采用已实际浏览器检查过的安全TeX构造，无复合mathbin外包导致的MathML空mspace嵌套。"
+}

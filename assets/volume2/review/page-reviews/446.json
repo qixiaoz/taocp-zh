@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 446,
+  "cnPrintedPage": 435,
+  "enPdfPages": [
+    572,
+    573
+  ],
+  "enPrintedPages": [
+    557,
+    558
+  ],
+  "pageMarkdownSha256": "2ae66f8221f4092c47e15b4f85281988ef49f61755c1ca6db1bade740bc5af04",
+  "cnPageImageSha256": "8ef4ec8483bd01771d9f4ae692b66da9ca85eaf0493f04ede8ef226f2dc8854a",
+  "enPageImageSha256": {
+    "572": "26f200bf6a13025dcee80921521caf7b58ccf8e859928950ddba4901d8449bb5",
+    "573": "f9408456309c5fd5547ef1aa942a454bf9e902ea2a3743779e5ae4210bd1f306"
+  },
+  "coveredRegions": [
+    "3.2.2答27推论与原作者界、29完整X1–X3/Y1–Y3及历史注、30(a)(b)全推导、31、32两降采样递推、33全部20项多项式和165项对比原注；原跳28保留。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-446",
+    "p-435",
+    "ans-3-2-2-29",
+    "ans-3-2-2-30",
+    "ans-3-2-2-31",
+    "ans-3-2-2-32",
+    "ans-3-2-2-33"
+  ],
+  "answerAnchors": [
+    "ans-3-2-2-29",
+    "ans-3-2-2-30",
+    "ans-3-2-2-31",
+    "ans-3-2-2-32",
+    "ans-3-2-2-33"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 90,
+    "displayExpressions": 0,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.2.2答32",
+      "cnPrintedPage": 435,
+      "enPdfPage": 573,
+      "enPrintedPage": 558,
+      "original": "是可以被(1-z^{24}-z^{55})(1-z^{24}+z^{55})整除的多项式",
+      "final": "是一个多项式除以(1-z^{24}-z^{55})(1-z^{24}+z^{55})所得的商",
+      "basis": "英文原图is a polynomial divided by；前文g(z)是1/D的多项式倍，取偶部后分母相乘，原中文把除法方向倒置。后面的分母系数/递推已精确复算。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 445,
+    "answer": "3.2.2-27",
+    "right_start": "**推论。** 令 $l=(k^2+7k-2)/2$。",
+    "continuation_end": "较小的界是可能的。）",
+    "endsInCompleteAnswer": "3.2.2-33",
+    "nextPage": 447
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "5e57c9e2c0a00340abe77994e2dc1b04baa4d7622cacefa3f10e8a2541f612a5",
+    "visualReviewSha256": "b885509b55e1722edee94f0f99f54dba399e56cb2576923e57dbe1f595c4b0f3",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 90,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 90,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 7,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "28140b15279fc6b44157c9da65ad66580283c389d4ea21c90d3faf8d05fa0cbf",
+  "numericalCheckQualification": "有限复算辅助原图与逐段证明核对，不把枚举当作普遍或渐近证明；巨型素数表未独立证明素性。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "answerExceptions": [
+    {
+      "answer": "3.2.2-28",
+      "reason": "CN446与EN572原答区27后直接29；无独立第28答，不造答项。"
+    }
+  ]
+}

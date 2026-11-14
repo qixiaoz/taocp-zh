@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.4",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；最终母稿须另行证明包含、跨页合段/程序合块及允许展示转换，不仅替换本哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整页和列出的英文页图，逐段/逐式/表格单元/清单行及注释比较；语法/文本字段检查/复算独立列出。模型视觉核查，不声称人类签核。",
+  "cnPdfPage": 208,
+  "cnPrintedPage": 197,
+  "enPdfPages": [
+    272,
+    273
+  ],
+  "enPrintedPages": [
+    257,
+    258
+  ],
+  "pageMarkdownSha256": "88b5cd5118f4ac7f6f41aa12ed4860250672bd0e555648df7b8113aa5b3a7fa5",
+  "cnPageImage": "scans/208.jpg",
+  "cnPageImageSha256": "3660df039dbd8054936bcb7c242217f8a5bb83589666ec34759ca624369381d9",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-272.png",
+      "sha256": "d2e5c90729017fefb7eb8e9156ba559069c7809cbfb56c1e279df687f87787e7"
+    },
+    {
+      "file": "verified-sources/en-273.png",
+      "sha256": "3980ae4d866b93d789c40c2b4f381c499bc7ef8824145886b212051dd8db881a"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码；物理页和印刷页隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-208",
+    "p-197"
+  ],
+  "coveredRegions": [
+    "首续Raimi文献与概率观点。",
+    "正整数严格分析设定，Iverson括号式6、均值式7。",
+    "实数s子序列、式8三行ceil/floor及1/9、两个分段极限、Franel文献。",
+    "序列不收敛与再次平均式9，末续209解释。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "式8，s=r整数边界",
+      "bothSourceText": "两版均写s≤r，并保留floor(10^ns)+1末项",
+      "finding": "r=s=2时端点10^nr不满足P0严格<r，但原精确计数多1；s=10原s>r替换式少1（遗漏下一十进制段端点）。n1..4整数直接计数共16例确认。渐近O(n)与极限不受影响。",
+      "decision": "保留两版共同写法，在独立记录列疑；不把原证明改写成另一推导。"
+    }
+  ],
+  "numberedFormulaTags": [
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "not-applicable",
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "continuationNotes": "首续207。页末式9后的逗号接209首“则P_(m+1)(n)…”，合段但9式保持完整。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 43,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "仅排版语法；内容来自以上中文/英文原页实际比较。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "辅助原页核查，不当作原书答案来源或替代视觉比较。",
+    "results": {
+      "auxiliaryCheck": "Direct count of leading decimal digits compared against exact ceil/floor formula8 for integer boundary r=2,s=1,2,5,10 and n=1..4; error bounded by O(n), no claim to replace proof.",
+      "checkedCases": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          10
+        ]
+      ],
+      "actualRecord": "verified-sources/double-numerical-checks.json"
+    }
+  },
+  "untested": [
+    "最终母稿装订包含/跨页程序合并与原题答双向链接。",
+    "最终正式VitePress/Pandoc整卷和线上。",
+    "未执行MIX程序，未以代码字段一致宣称数值实现正确。"
+  ],
+  "renderReview": {
+    "file": "verified-render/double-dom-review-207-213.json",
+    "sha256": "5d532860bad6c3f57d1c0c7bfe88441a4f54af888670ed901753f4bad05ca278",
+    "scope": "CurrentpageSHA; isolated1280/390 DOM plus explicitlylistedselectedregionsactualvisual. SharedVitePress/Pandoc notincluded."
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "answers4.3.1",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 500,
+  "cnPrintedPage": 489,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "8999601b4f56f671db4357c9251a98d97bd791b01fea49f5489bb7b99d0c9575",
+  "masterBinding": "单页MD当前字节；整卷装订另证包含，不重写旧哈希冒充复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型直接看完整中文与列出的英文原页图，逐段/所有数学/算法/程序字段注释/原答号比较，不声称人类签核或所有一般证明独立重证。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/500.jpg",
+  "cnPageImageSha256": "27c06decb2f6cc1225e1ed462901652429453f7fa62eebc3c19247a38ac35f1a",
+  "enPdfPages": [
+    638,
+    639,
+    640
+  ],
+  "enPrintedPages": [
+    623,
+    624,
+    625
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-638.png",
+      "sha256": "c2c8a29e30fdad82ef6840eb39d5306b38d6dfd5f88c1c1f251ad9cc0160b3e0"
+    },
+    {
+      "file": "verified-sources/en-639.png",
+      "sha256": "647f548dd9ddc138d47219fb8c3ade98e004133b758c0476ac6da48eaa4d0145"
+    },
+    {
+      "file": "verified-sources/en-640.png",
+      "sha256": "0839a2e325e7424ba6ade7366d4b1376bf7ec05f3d89307f5809a2f78a8c2403"
+    }
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-500",
+    "p-489",
+    "ans-4-3-1-6",
+    "ans-4-3-1-7",
+    "ans-4-3-1-8",
+    "ans-4-3-1-9",
+    "ans-4-3-1-10",
+    "ans-4-3-1-11",
+    "ans-4-3-1-12",
+    "ans-4-3-1-13"
+  ],
+  "coveredRegions": [
+    "首B3/B4续499，答6C1–C3、答7进位m_k及均值。",
+    "答8MIX15行由原两栏展开、答13MIX14行由原三栏展开，字段频次不交错。",
+    "答9变量基数替换方向订正、答10–12全部文字。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.3.1-9-radix-replacement",
+      "section": "4.3.1答案9",
+      "cnPrintedPage": 489,
+      "enPdfPage": 639,
+      "enPrintedPage": 624,
+      "original": "将步骤A2中所有b_j都替换为b",
+      "final": "将步骤A2中所有的b都替换为b_j",
+      "basis": "英文639明确Replace b by b_j everywhere in stepA2；题目是混合进制各位基数为b_j的推广，方向相反。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-3-1-6",
+      "exercise_anchor": "ex-4-3-1-6",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-3-1-7",
+      "exercise_anchor": "ex-4-3-1-7",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-3-1-8",
+      "exercise_anchor": "ex-4-3-1-8",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-3-1-9",
+      "exercise_anchor": "ex-4-3-1-9",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-3-1-10",
+      "exercise_anchor": "ex-4-3-1-10",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-3-1-11",
+      "exercise_anchor": "ex-4-3-1-11",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-3-1-12",
+      "exercise_anchor": "ex-4-3-1-12",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-3-1-13",
+      "exercise_anchor": "ex-4-3-1-13",
+      "backlink_present": true
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "末答13运行时间完整，501首答14。原程序8/13多栏按左栏完再下一栏展开为逻辑代码。",
+  "syntaxCheck": {
+    "page": 500,
+    "sha256": "8999601b4f56f671db4357c9251a98d97bd791b01fea49f5489bb7b99d0c9575",
+    "mathExpressions": 43,
+    "display": 2,
+    "footnotes": 0,
+    "codeLines": [
+      15,
+      14
+    ],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿装订和所有题答往返",
+    "MIX程序执行及所有一般证明的独立重证",
+    "整卷Pandoc/VitePress/线上发布"
+  ],
+  "browserCheck": {
+    "tool": "Isolated local Chrome with Playwright; Browser plugin unavailable",
+    "scope": "Private standalone page proofs, not final website/full-volume offline acceptance",
+    "viewports": [
+      1280,
+      390
+    ],
+    "report": "arithmetic-answers/browser-493-500.json",
+    "reportSha256": "590df6ab21539bae1e6143d7dbd2a2a02f6ce77df5d4b39165f3ef2fdbba8953",
+    "currentPageSha256": "8999601b4f56f671db4357c9251a98d97bd791b01fea49f5489bb7b99d0c9575",
+    "cases": 2,
+    "noPageErrors": true,
+    "noMissingImages": true,
+    "noDocumentOverflow": true,
+    "noHiddenMathmlSwallowing": true,
+    "allMeasuredHorizontalScrollEndsReachable": true,
+    "screenshotsDirectlyInspectedWidths": [],
+    "meaning": "All24 pages observed in both browser sizes by DOM checks; selected critical original-content screenshots directly viewed. Separate endpoints cover wide code/formulas/tables."
+  },
+  "numericCheck": {
+    "report": "arithmetic-answers/numeric-check.json",
+    "reportSha256": "a7e06af050f360c280ccb5e8bed434c70d609cd5265d9e38b47b16b2465f27e0",
+    "meaning": "Exact finite checks and two explicit general algebraic derivations are individually scoped; no claim of executing MIX or independently reproving every original theorem."
+  },
+  "reviewHistory": [
+    {
+      "historyDirectory": "verified-history/answers485-508-before-final-evidence",
+      "reason": "保留此前单页MD/JSON签核；本次添加当前SHA绑定浏览器与独立复算，并将初稿误标的日期纠正为实际2026-11-14，不改变原页复核含义。"
+    }
+  ]
+}

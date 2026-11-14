@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 24,
+  "cnPrintedPage": 13,
+  "section": "3.2.1.1 / 3.2.1.2",
+  "enPdfPages": [
+    31,
+    32
+  ],
+  "enPrintedPages": [
+    16,
+    17
+  ],
+  "pageMarkdownSha256": "af0d2ed6a450294a9ea617a67062870f6fe06222d278345fd83bb3df25690a90",
+  "cnPageImageSha256": "e03b25b91cbda18db7360240e71da61017a7ae48092d0c63b6cc719d34b80122",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 52,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-024",
+    "p-13",
+    "ex-3-2-1-1-10",
+    "ex-3-2-1-1-11",
+    "ex-3-2-1-1-12",
+    "ex-3-2-1-1-13",
+    "ex-3-2-1-1-14",
+    "sec-3-2-1-2"
+  ],
+  "substantiveCorrections": [
+    {
+      "section": "3.2.1.1",
+      "location": "习题11(iii)",
+      "cnPrintedPage": 13,
+      "enPdfPage": 31,
+      "enPrintedPage": 16,
+      "source": "0≤uv<m",
+      "final": "0≤u,v<m",
+      "basis": "英文同位置印作0≤u,v<m；这里限制两个操作数u和v，而非其乘积；原中文漏逗号。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "coveredRegions": [
+    "§3.2.1.1习题9(a)(b)及10–14；§3.2.1.2引言、定理A全部条件及证明首段。"
+  ],
+  "startsInsideExercise": 9,
+  "ocrRepairs": [
+    "习题9(a)末项是m mod a，不是m mod q；习题12(c)保留乘数的n次幂。"
+  ],
+  "answerExistenceEvidence": {
+    "section": "3.2.1.1",
+    "exercises": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "enAnswerPdfPages": [
+      559,
+      560,
+      561
+    ],
+    "status": "已实看独立原答；第14题答项待后页核实，暂不加答案链接。"
+  }
+}

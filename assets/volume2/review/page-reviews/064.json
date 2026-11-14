@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 64,
+  "cnPrintedPage": 53,
+  "section": "3.3.2",
+  "enPdfPages": [
+    84,
+    85
+  ],
+  "enPrintedPages": [
+    69,
+    70
+  ],
+  "pageMarkdownSha256": "e8da90470d8d952a5f7913339cf7027032d748f070df70dcc62357a570c16220",
+  "cnPageImageSha256": "546ed02495d6a71df566df8551a61413dff93e00771fe5478a5eea365c347994",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 48,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-064",
+    "p-53"
+  ],
+  "coveredRegions": [
+    "完整6×6矩阵C1及C2全部72分数；矩阵求逆与渐近式；H最大检验；I碰撞检验前半全部及期望碰撞数。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "numericAudit": {
+    "method": "Python Fraction exact arithmetic; use source equations17–20 to form covariance for R1..R5,R6prime at n12/13, recover slope/intercept, compare all72 rational entries; invert C1 with exact Gaussian elimination and compare all36 entries of A to printed last-digit rounding; B from mean slopes. This supplements direct CN/EN image comparison.",
+    "entries": [
+      {
+        "i": 1,
+        "j": 1,
+        "C1": "23/180",
+        "C2": "83/180",
+        "matchesSource": true
+      },
+      {
+        "i": 1,
+        "j": 2,
+        "C1": "-7/360",
+        "C2": "-29/180",
+        "matchesSource": true
+      },
+      {
+        "i": 1,
+        "j": 3,
+        "C1": "-5/336",
+        "C2": "-11/210",
+        "matchesSource": true
+      },
+      {
+        "i": 1,
+        "j": 4,
+        "C1": "-433/60480",
+        "C2": "-41/12096",
+        "matchesSource": true
+      },
+      {
+        "i": 1,
+        "j": 5,
+        "C1": "-13/5670",
+        "C2": "91/25920",
+        "matchesSource": true
+      },
+      {
+        "i": 1,
+        "j": 6,
+        "C1": "-121/181440",
+        "C2": "41/18144",
+        "matchesSource": true
+      },
+      {
+        "i": 2,
+        "j": 1,
+        "C1": "-7/360",
+        "C2": "-29/180",
+        "matchesSource": true
+      },
+      {
+        "i": 2,
+        "j": 2,
+        "C1": "2843/20160",
+        "C2": "-305/4032",
+        "matchesSource": true
+      },
+      {
+        "i": 2,
+        "j": 3,
+        "C1": "-989/20160",
+        "C2": "319/20160",
+        "matchesSource": true
+      },
+      {
+        "i": 2,
+        "j": 4,
+        "C1": "-7159/362880",
+        "C2": "2557/72576",
+        "matchesSource": true
+      },
+      {
+        "i": 2,
+        "j": 5,
+        "C1": "-10019/1814400",
+        "C2": "10177/604800",
+        "matchesSource": true
+      },
+      {
+        "i": 2,
+        "j": 6,
+        "C1": "-1303/907200",
+        "C2": "413/64800",
+        "matchesSource": true
+      },
+      {
+        "i": 3,
+        "j": 1,
+        "C1": "-5/336",
+        "C2": "-11/210",
+        "matchesSource": true
+      },
+      {
+        "i": 3,
+        "j": 2,
+        "C1": "-989/20160",
+        "C2": "319/20160",
+        "matchesSource": true
+      },
+      {
+        "i": 3,
+        "j": 3,
+        "C1": "54563/907200",
+        "C2": "-58747/907200",
+        "matchesSource": true
+      },
+      {
+        "i": 3,
+        "j": 4,
+        "C1": "-21311/1814400",
+        "C2": "19703/604800",
+        "matchesSource": true
+      },
+      {
+        "i": 3,
+        "j": 5,
+        "C1": "-62369/19958400",
+        "C2": "239471/19958400",
+        "matchesSource": true
+      },
+      {
+        "i": 3,
+        "j": 6,
+        "C1": "-7783/9979200",
+        "C2": "39517/9979200",
+        "matchesSource": true
+      },
+      {
+        "i": 4,
+        "j": 1,
+        "C1": "-433/60480",
+        "C2": "-41/12096",
+        "matchesSource": true
+      },
+      {
+        "i": 4,
+        "j": 2,
+        "C1": "-7159/362880",
+        "C2": "2557/72576",
+        "matchesSource": true
+      },
+      {
+        "i": 4,
+        "j": 3,
+        "C1": "-21311/1814400",
+        "C2": "19703/604800",
+        "matchesSource": true
+      },
+      {
+        "i": 4,
+        "j": 4,
+        "C1": "886657/39916800",
+        "C2": "-220837/4435200",
+        "matchesSource": true
+      },
+      {
+        "i": 4,
+        "j": 5,
+        "C1": "-257699/239500800",
+        "C2": "1196401/239500800",
+        "matchesSource": true
+      },
+      {
+        "i": 4,
+        "j": 6,
+        "C1": "-62611/239500800",
+        "C2": "360989/239500800",
+        "matchesSource": true
+      },
+      {
+        "i": 5,
+        "j": 1,
+        "C1": "-13/5670",
+        "C2": "91/25920",
+        "matchesSource": true
+      },
+      {
+        "i": 5,
+        "j": 2,
+        "C1": "-10019/1814400",
+        "C2": "10177/604800",
+        "matchesSource": true
+      },
+      {
+        "i": 5,
+        "j": 3,
+        "C1": "-62369/19958400",
+        "C2": "239471/19958400",
+        "matchesSource": true
+      },
+      {
+        "i": 5,
+        "j": 4,
+        "C1": "-257699/239500800",
+        "C2": "1196401/239500800",
+        "matchesSource": true
+      },
+      {
+        "i": 5,
+        "j": 5,
+        "C1": "29874811/5448643200",
+        "C2": "-139126639/7264857600",
+        "matchesSource": true
+      },
+      {
+        "i": 5,
+        "j": 6,
+        "C1": "-1407179/21794572800",
+        "C2": "4577641/10897286400",
+        "matchesSource": true
+      },
+      {
+        "i": 6,
+        "j": 1,
+        "C1": "-121/181440",
+        "C2": "41/18144",
+        "matchesSource": true
+      },
+      {
+        "i": 6,
+        "j": 2,
+        "C1": "-1303/907200",
+        "C2": "413/64800",
+        "matchesSource": true
+      },
+      {
+        "i": 6,
+        "j": 3,
+        "C1": "-7783/9979200",
+        "C2": "39517/9979200",
+        "matchesSource": true
+      },
+      {
+        "i": 6,
+        "j": 4,
+        "C1": "-62611/239500800",
+        "C2": "360989/239500800",
+        "matchesSource": true
+      },
+      {
+        "i": 6,
+        "j": 5,
+        "C1": "-1407179/21794572800",
+        "C2": "4577641/10897286400",
+        "matchesSource": true
+      },
+      {
+        "i": 6,
+        "j": 6,
+        "C1": "2134697/1816214400",
+        "C2": "-122953057/21794572800",
+        "matchesSource": true
+      }
+    ],
+    "A36PrintedRoundingMatch": true,
+    "B6ExactMatch": true
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 65,
+    "end": "检验随机数生成器的",
+    "continuation": "20维随机性。"
+  }
+}

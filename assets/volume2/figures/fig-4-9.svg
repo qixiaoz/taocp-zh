@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="390" viewBox="0 0 1240 390" role="img" aria-labelledby="title desc">
+  <title id="title">图9 求最大公因数的二进制算法</title>
+  <desc id="desc">B1求2的幂后进入B2初始化。B2可进入B3将t折半或直接进入B4。B4判断t是否为偶数：是则返回B3，否则进入B5重置max(u,v)。B5进入B6相减；u不等于v时返回B3，u等于v时退出。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L9 4 L0 8" fill="none" stroke="#222" stroke-width="1.8"/>
+    </marker>
+  </defs>
+  <rect width="1240" height="390" fill="white"/>
+  <g fill="none" stroke="#222" stroke-width="1.8" marker-end="url(#arrow)">
+    <path id="entry-B1" d="M220 8 V45"/>
+    <path id="B1-B2" d="M220 97 V155"/>
+    <path id="B2-B3" d="M315 182 H365"/>
+    <path id="B3-B4" d="M565 182 H615"/>
+    <path id="B2-B4" d="M315 209 C405 340 565 340 665 209"/>
+    <path id="B4-yes-B3" d="M755 155 C690 40 545 45 465 155"/>
+    <path id="B4-no-B5" d="M855 182 H910"/>
+    <path id="B5-B6" d="M1185 182 C1250 182 1250 302 1115 302"/>
+    <path id="B6-not-equal-B3" d="M965 302 C810 302 580 365 465 209"/>
+    <path id="B6-equal-exit" d="M1040 329 V375"/>
+  </g>
+  <g fill="white" stroke="#222" stroke-width="1.8">
+    <rect id="B1" x="115" y="45" width="210" height="52"/>
+    <rect id="B2" x="125" y="155" width="190" height="54"/>
+    <rect id="B3" x="365" y="155" width="200" height="54"/>
+    <rect id="B4" x="615" y="155" width="240" height="54" rx="27"/>
+    <rect id="B5" x="910" y="155" width="275" height="54"/>
+    <rect id="B6" x="965" y="275" width="150" height="54"/>
+  </g>
+  <g fill="#111" font-family="Songti SC,Noto Serif CJK SC,serif" font-size="25" text-anchor="middle">
+    <text x="220" y="79">B1. 求 2 的幂</text>
+    <text x="220" y="191">B2. 初始化</text>
+    <text x="465" y="191">B3. 将 <tspan font-style="italic">t</tspan> 折半</text>
+    <text x="735" y="191">B4. <tspan font-style="italic">t</tspan> 是偶数吗？</text>
+    <text x="1048" y="191">B5. 重置 max(<tspan font-style="italic">u,v</tspan>)</text>
+    <text x="1040" y="311">B6. 相减</text>
+    <text x="771" y="141">是</text>
+    <text x="882" y="168">否</text>
+    <text x="905" y="281" font-style="italic">u ≠ v</text>
+    <text x="1091" y="358" font-style="italic">u = v</text>
+  </g>
+</svg>

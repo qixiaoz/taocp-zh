@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "index",
+  "reviewDate": "2026-11-15",
+  "reviewerType": "model-direct-original-Chinese-and-English-image-comparison-not-human-signoff",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "896827b9a82d7fd85cf05c6f28234f9f7d25da78fefee68fc8b27ec5936f997b",
+  "cnPdfPage": 609,
+  "cnPrintedPage": 598,
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "entryCount": 132,
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "reviewScope": "All original Chinese index subjects were compared with the recorded original English index crops, notation tables or body images by models. Two entries on614 remain exact English-subject correspondence questions; comparison complete does not mean all entries are proven identical across editions. Original Chinese references and order retained; no fixed page offset.",
+  "cnEvidence": [
+    {
+      "image": "scans/609.jpg",
+      "sha256": "705e86a80a8c9fd2f6c15a357dde32fafbb84ff735887232dab6c065cacf7ec1",
+      "viewedDirectly": true
+    }
+  ],
+  "entryCatalog": {
+    "file": "index-work/general-609-entry-catalog.json",
+    "sha256": "4fcee3c2f48c49f01dff20ca5798f32c768161a7463f7db39be6f874364a7d9e"
+  },
+  "browserEvidence": {
+    "file": "index-work/browser-604-614.json",
+    "sha256": "c5b249788f7ecbe90b441fe3911115cc794bd076b0401d8e407f63c46dbad39c",
+    "status": "passed",
+    "viewports": [
+      1280,
+      390
+    ]
+  },
+  "substantiveCorrections": [
+    {
+      "id": "index-609-111-source-confirmed-subject",
+      "section": "索引",
+      "cnPrintedPage": 598,
+      "enPdfPage": 615,
+      "enPrintedPage": 600,
+      "original": "美国国家标准局",
+      "final": "美国国家标准学会",
+      "basis": "同一FORTRAN答案英文明确为American National Standards Institute，索引全称及ANSI别名一致；仅改机构译名，不追加括注。正文480已另行核订。",
+      "sourceAuditRow": 111,
+      "sealedEnglishAuditSha256": "1b1ca7ecff15fabfa8f2e1c5f5537ba580397fa3fd108bfed754cca9639f5876",
+      "allReferenceLabelsAndRowOrderUnchanged": true
+    }
+  ],
+  "sourceIssues": [],
+  "pending": [
+    "Whole-book inclusion proof",
+    "All original reference targets and actual routed jumps"
+  ],
+  "indexDisplayRevision": {
+    "previousChineseReviewSha256": "464653d3aa5d52e938ec75ba814bb0ad9edd62e9ceff781057a2a7c0c4d4e8f9",
+    "treatment": "Normalize spacing after page-reference commas, keeping all labels/row order/13see-targets. On610 restore Euler totient varphi, distinct from golden-ratio phi, as in actual original and appendixB589. English subject comparison still pending.",
+    "actualNewBrowserEvidenceSha256": "c5b249788f7ecbe90b441fe3911115cc794bd076b0401d8e407f63c46dbad39c",
+    "seeClicksEvidenceSha256": "cda4911fe2fd9fe69dbfb0408ad19020fa70a65a7c7656cf9c6eb17083e25cb1",
+    "viewports": [
+      1280,
+      390
+    ],
+    "status": "passed",
+    "historicalQualification": "This earlier display-only revision preceded English comparison. Current English coverage is recorded separately in englishSubjectReview."
+  },
+  "englishSubjectReview": {
+    "cnPdfPage": 609,
+    "entryCount": 132,
+    "currentPageMarkdownSha256": "896827b9a82d7fd85cf05c6f28234f9f7d25da78fefee68fc8b27ec5936f997b",
+    "frozenEnglishAuditPageMarkdownSha256": "7635b69175946320a2a4a35b5878616c4b8519ef134ab5641eab2aeea2b4c1bd",
+    "englishAudit": {
+      "file": "assets/volume2/review/index-english-604-609.jsonl",
+      "sha256": "1b1ca7ecff15fabfa8f2e1c5f5537ba580397fa3fd108bfed754cca9639f5876",
+      "rows": 784,
+      "qualification": "Sealed historical source-image comparison; pageMarkdownSha256 remains the actual frozen input, never relabelled as a later revision."
+    },
+    "rows": [
+      1,
+      132
+    ],
+    "results": {
+      "matched-parent-or-alias": 86,
+      "matched-entry": 44,
+      "matched-notation-table": 1,
+      "institution-name-conflict-proposed-correction": 1
+    },
+    "currentRevision": {
+      "exactSubjectReplacements": [
+        [
+          "美国国家标准局",
+          "美国国家标准学会"
+        ]
+      ],
+      "allOtherBytesUnchanged": true,
+      "browserEvidence": {
+        "file": "proof/index-term-fixes-browser.json",
+        "sha256": "03dcc7972972fb655447966fcf85cd16990cd79ae5dfd3841bf25a2ba301b08c",
+        "status": "passed"
+      }
+    },
+    "scope": "All original Chinese index subjects were compared with the recorded original English index crops, notation tables or body images by models. Two entries on614 remain exact English-subject correspondence questions; comparison complete does not mean all entries are proven identical across editions. Original Chinese references and order retained; no fixed page offset."
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 463,
+  "cnPrintedPage": 452,
+  "enPdfPages": [
+    593,
+    594,
+    595
+  ],
+  "enPrintedPages": [
+    578,
+    579,
+    580
+  ],
+  "pageMarkdownSha256": "c79ac1a354c4a2a339f6879e0a335f0bb2210ba887d3ee95604609b18d5acc59",
+  "cnPageImageSha256": "3ba67965bd4a311a35192b282dbeb7e66e31da63ed58f96e99dace32bc31cb6f",
+  "enPageImageSha256": {
+    "593": "8aa658aa88386f3d796094d7b11bcde4939705fa373be4da7877a4c362ce9b60",
+    "594": "eba89c33e397c2c0143b6c0f6ee8008ea5becc9a9d4d3a734604707be2edea1a",
+    "595": "0793018627239cb73d1ef3d2a1d846ec1743f9ccd03bd2ef1d73fb717803e2f3"
+  },
+  "coveredRegions": [
+    "3.3.4答9完整等价二次型/正交矩阵/归纳/原注；答10二向量推导、答11全部高斯整数分解与枚举原注，均逐行内式核。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-463",
+    "p-452",
+    "ans-3-3-4-9",
+    "ans-3-3-4-10",
+    "ans-3-3-4-11"
+  ],
+  "answerAnchors": [
+    "ans-3-3-4-9",
+    "ans-3-3-4-10",
+    "ans-3-3-4-11"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 113,
+    "displayExpressions": 3,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.3.4答9原闵可夫斯基注",
+      "cnPrintedPage": 452,
+      "enPdfPage": 594,
+      "enPrintedPage": 579,
+      "original": "体积≥2^t",
+      "final": "体积>2^t",
+      "basis": {
+        "cnOriginal": "体积≥2^t",
+        "english": "volume>2^t, EN594 printed579",
+        "final": "体积>2^t",
+        "basis": "开放凸集(−1,1)^t关于原点对称、体积2^t，唯一整数点为原点；因此无闭性假设的一般凸集不能用≥。英文严格>与定理反例一致。",
+        "exerciseCnPdfPage": 98,
+        "exerciseCnPrintedPage": 87,
+        "exerciseFullMarkdown": "**9.** ［*HM32*］ [答案](#ans-3-3-4-9) （夏尔·埃尔米特，1846）设 $f(x_1,\\ldots,x_t)$ 是正定二次型，由（17）的矩阵 $U$ 定义，并设 $\\theta$ 是 $f$ 在所有非零整数点上的最小值。证明 $\\theta\\le(\\frac43)^{(t-1)/2}|\\det U|^{2/t}$。［提示：如果 $W$ 是行列式为 1 的任意整数矩阵，则矩阵 $WU$ 定义了一个等价于 $f$ 的二次型；如果 $S$ 是任意的正交矩阵（即，如果 $S^{-1}=S^T$），则矩阵 $US$ 定义了一个等价于 $f$ 的二次型。证明存在一个等价的二次型 $g$，它的最小值 $\\theta$ 出现在 $(1,0,\\ldots,0)$ 处。然后，记 $g(x_1,\\ldots,x_t)=\\theta(x_1+\\beta_2x_2+\\cdots+\\beta_tx_t)^2+h(x_2,\\ldots,x_t)$，其中 $h$ 是 $t-1$ 个变量的正定二次型，通过对 $t$ 归纳证明一般结果。］",
+        "exerciseSourceImageSha256": "6a8df9265f235a247d7fccf9a6b3580e0a959a967aff217cfc9b1f475c27ab14",
+        "originalIndependentNote": "每个关于原点对称、体积≥2^t的t维凸集都包含一个非零整数点",
+        "conditionAudit": "原题仅正定二次型/非零整数点最小值，没有凸区域闭性条件；原答案独立泛称凸集引用也无闭/紧要求。闭凸体确可用≥，但那是额外假设，不能挪来解释本处没有限定的一般命题。"
+      }
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "continues_to_pdf_page": 464,
+    "answer": "3.3.4-11",
+    "left_end": "并且这些正是所有这样的解。",
+    "right_start": "*注记：* 当 $m=10^e$ 时，可以使用类似的过程，",
+    "instruction": "464首是同答11原注，非新的答案；463末高斯枚举段完整闭合。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "79abfa46724d8d811ebd1697835aa80f05953c547df3610c9e8666ccbd0a61b5",
+    "visualReviewSha256": "a02cbf1518a20f9b511952f7157e24252810bc321bf27b5457f0968192446899",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 113,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 113,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 7,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "55c5ed9a0a067646d83b6e56feb7ba476432b9d02bb7d83194da50b47b243f31",
+  "numericalCheckQualification": "独立精确整数/有理数和高精度数值计算辅助逐原图比对；有限枚举/差分不替代一般证明。论证依据另逐项明列。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

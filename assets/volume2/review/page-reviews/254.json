@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.3",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订另证包含和跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型实际查看中文整页与列出的英文原页图片，逐段、逐式、表单元、算法、图线和难度推荐符号对照；不声称人类签核。",
+  "cnPdfPage": 254,
+  "cnPrintedPage": 243,
+  "enPdfPages": [
+    331,
+    332
+  ],
+  "enPrintedPages": [
+    316,
+    317
+  ],
+  "pageMarkdownSha256": "3700b1cd9966fb549858146ec7e98fdbfea7312e4d1db3555ce9090d26b75ac1",
+  "cnPageImage": "scans/254.jpg",
+  "cnPageImageSha256": "e056113e60bff2c8c310643c938d2154592d41a72644dc56537afaed6c7193cd",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-331.png",
+      "sha256": "dc35078044fd7249dd41602caa1d8e4ea1317c355ba81f3cc677ec68fe7ab4de"
+    },
+    {
+      "file": "verified-sources/en-332.png",
+      "sha256": "da892eef7e9b27cecd1daf50ad1a29d02e1573bc9ba65951a8e2da2ac0e4ee17"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-254",
+    "p-243",
+    "ex-4-3-3-1",
+    "ex-4-3-3-2",
+    "ex-4-3-3-3",
+    "ex-4-3-3-4",
+    "ex-4-3-3-5",
+    "ex-4-3-3-6",
+    "ex-4-3-3-7",
+    "ex-4-3-3-8",
+    "ex-4-3-3-9",
+    "ex-4-3-3-10",
+    "ex-4-3-3-11",
+    "ex-4-3-3-12"
+  ],
+  "coveredRegions": [
+    "首接252跨页段，全部电路文献和原中文引语。",
+    "习题1–12开头的全部难度/推荐与行内数学，题4/5长公式，题10双帽。",
+    "题12机器操作i–v，续255vi/vii，保留一个ex12。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "answerLinkStatus": "pending-actual-answer-area-verification",
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "continuationNotes": "首“O(logn)的时间…”续252尾（中间253浮动表）。末题12(v)完整，255首(vi)/(vii)续同一题；不再建ex12。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "page": 254,
+    "sha256": "3700b1cd9966fb549858146ec7e98fdbfea7312e4d1db3555ce9090d26b75ac1",
+    "mathExpressions": 35,
+    "display": 1,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "完整母稿装订与全部题答双链",
+    "整卷Pandoc/VitePress和线上发布验收"
+  ],
+  "browserCheck": {
+    "tool": "Isolated local Chrome via Playwright; Browser plugin unavailable",
+    "scope": "254独立私有校样；非整站验收",
+    "viewports": [
+      1280,
+      390
+    ],
+    "report": "arithmetic-answers/browser-254-254.json",
+    "reportSha256": "afd17fc71652a02e14545bf254c7a1c7226a441a136c7c19559048d45a28b255",
+    "currentPageSha256": "3700b1cd9966fb549858146ec7e98fdbfea7312e4d1db3555ce9090d26b75ac1",
+    "screenshotsDirectlyInspectedWidths": [
+      1280,
+      390
+    ],
+    "noPageErrors": true,
+    "noMissingImages": true,
+    "noDocumentOverflow": true,
+    "noHiddenMathmlSwallowing": true,
+    "allMeasuredHorizontalScrollEndsReachable": true
+  },
+  "transcriptionCorrections": [
+    {
+      "kind": "correction-of-previous-model-transcription",
+      "location": "4.3.3习题5的新R赋值",
+      "previousMarkdownTex": "R\\leftarrow\\lfloor\\sqrt{2Q}\\rfloor+1",
+      "sourceAndCorrectedTex": "R\\leftarrow\\lceil\\sqrt{2Q}\\rceil+1",
+      "basis": "重新直接看CN254上取整原图及EN331相同位置；508答5的ceil递推亦一致。它是此前转录错误，非原书订正。",
+      "cnPdfPage": 254,
+      "cnPrintedPage": 243,
+      "enPdfPage": 331,
+      "enPrintedPage": 316,
+      "sourceEvidence": [
+        "arithmetic-answers/cn254-ex5.png",
+        "arithmetic-answers/en331-ex5-correct.png"
+      ],
+      "historyDirectory": "verified-history/254-c8a812c7ccc1e651cb0941bcc10283e0e2abe183338c20c60c9c391bafd79f5e-ceil-transcription-repair"
+    }
+  ],
+  "reviewHistory": [
+    {
+      "previousPageMarkdownSha256": "c8a812c7ccc1e651cb0941bcc10283e0e2abe183338c20c60c9c391bafd79f5e",
+      "historyDirectory": "verified-history/254-c8a812c7ccc1e651cb0941bcc10283e0e2abe183338c20c60c9c391bafd79f5e-ceil-transcription-repair",
+      "reason": "保留错误floor页稿、原JSON、原HTML/语法报告/截图/浏览器记录和旧HANDOFF；新ceil实际重渲重检。"
+    }
+  ],
+  "previousNumericEvidence": {
+    "report": "arithmetic-work/numeric-check.json",
+    "reportSha256": "5fcbdb25d5d70651bc6a9ef3cc97d19035f14312384a3c153f6066e650a7c56a",
+    "meaning": "这是旧254MD指纹绑定的历史批次复算；不重新标为当前254的复算。当前ceil直接依双语源图。"
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 527,
+  "cnPrintedPage": 516,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "994b69d33dd878b69ac1ccefec41da67055f330349908157204d502a25649984",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/527.jpg",
+  "cnPageImageSha256": "e9f2f7ab6b6dfee8f0bd2cecae06be51682e97993a7932af7ea60497d98decce",
+  "enPdfPages": [
+    671,
+    672
+  ],
+  "enPrintedPages": [
+    656,
+    657
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-671.png",
+      "sha256": "fd8d0df1a0d3f7f3321c46cede1fcf445804a1646b025c3b4d5c8ac28200b3e5"
+    },
+    {
+      "file": "verified-sources/en-672.png",
+      "sha256": "544b23ae21aa4b3628e5b924f619c44e9ad5c8295819e7115767b18a19728c50"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-527",
+    "p-516",
+    "ans-4-5-3-42",
+    "ans-4-5-3-43",
+    "ans-4-5-3-44",
+    "ans-4-5-3-45",
+    "ans-4-5-3-46",
+    "ans-4-5-3-48",
+    "ans-4-5-3-49",
+    "ans-4-5-3-50",
+    "ans-4-5-3-51"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "4.5.3答42–46全部逼近/祖先树/反例/复杂度；原无47，48全三元continuant。",
+    "答49全部不等式与50递归ceil，答51树路径/符号/界及两候选点至末“尽”。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末答51“尽”接528“可能小的数”；同一段，精确续文见最终handoff。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.5.3-43-right-descendants",
+      "section": "4.5.3答案43",
+      "cnPrintedPage": 516,
+      "enPdfPage": 671,
+      "enPrintedPage": 656,
+      "original": "v/v′是中间值的所有左后代的其中一个p_i/q_i",
+      "final": "v/v′是中间值的所有右后代的其中一个p_i/q_i",
+      "basis": "英文all of the mediant’s right descendants；u/u′在左侧、v/v′在右侧，两个祖先分居中间分数的左右。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-5-3-42",
+      "exercise_anchor": "ex-4-5-3-42",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-43",
+      "exercise_anchor": "ex-4-5-3-43",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-44",
+      "exercise_anchor": "ex-4-5-3-44",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-45",
+      "exercise_anchor": "ex-4-5-3-45",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-46",
+      "exercise_anchor": "ex-4-5-3-46",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-48",
+      "exercise_anchor": "ex-4-5-3-48",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-49",
+      "exercise_anchor": "ex-4-5-3-49",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-50",
+      "exercise_anchor": "ex-4-5-3-50",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-51",
+      "exercise_anchor": "ex-4-5-3-51",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 527,
+    "sha256": "994b69d33dd878b69ac1ccefec41da67055f330349908157204d502a25649984",
+    "mathExpressions": 77,
+    "display": 2,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 527,
+        "width": 1280,
+        "sha256": "994b69d33dd878b69ac1ccefec41da67055f330349908157204d502a25649984",
+        "pageErrors": [],
+        "bodyText": 5338,
+        "documentWidth": 1280,
+        "expressions": 77,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 527,
+        "width": 390,
+        "sha256": "994b69d33dd878b69ac1ccefec41da67055f330349908157204d502a25649984",
+        "pageErrors": [],
+        "bodyText": 5338,
+        "documentWidth": 390,
+        "expressions": 77,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 390,
+            "max": 390,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 249,
+            "max": 249,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 358,
+            "max": 358,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 78,
+            "max": 78,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 202,
+            "max": 202,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/527-994b69d33dd878b69ac1ccefec41da67055f330349908157204d502a25649984-metadata-update/527.json",
+      "pageMarkdownSha256": "994b69d33dd878b69ac1ccefec41da67055f330349908157204d502a25649984",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.5.3",
+  "numericCheck": {
+    "file": "arithmetic-next/numeric-check.json",
+    "sha256": "9de329303f6088a80f88dba8b90ca9c70d9565b71050b39dd74a40742a099b9a",
+    "inputPageSha256": "994b69d33dd878b69ac1ccefec41da67055f330349908157204d502a25649984",
+    "meaning": "独立复算的具体有限范围/一般Laurent推导见文件；本页绑定不等于本页所有一般证明已独立复证。"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 67,
+  "cnPrintedPage": 56,
+  "section": "3.3.2",
+  "enPdfPages": [
+    88,
+    89
+  ],
+  "enPrintedPages": [
+    73,
+    74
+  ],
+  "pageMarkdownSha256": "75d329688b98c334471786d3b93a8ec6d503b852c5046c2c701d06fc24bdd90c",
+  "cnPageImageSha256": "89ed1b9b9b1de42f486be498db738514b1da7cc2e1bc1e79daf4aea84f81d09e",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 19,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-067",
+    "p-56"
+  ],
+  "coveredRegions": [
+    "K续页相关系数计算复杂度及FFT引用；L子序列检验全部；M历史评述前半全部，原作者、刊名、页码与引文。"
+  ],
+  "substantiveCorrections": [
+    {
+      "section": "3.3.2K",
+      "cnPrintedPage": 56,
+      "enPdfPage": 88,
+      "enPrintedPage": 73,
+      "location": "快速傅里叶变换交叉引用",
+      "source": "见4.6.1节",
+      "final": "见4.6.4节",
+      "basis": "英文实页明确See Section4.6.4；卷二目录4.6.4为多项式求值（包含FFT），不是4.6.1多项式除法。"
+    },
+    {
+      "section": "3.3.2M",
+      "cnPrintedPage": 56,
+      "enPdfPage": 89,
+      "enPrintedPage": 74,
+      "location": "倒数第二段，最弱的两种检验",
+      "source": "频率检验和序列检验",
+      "final": "频率检验和序列相关检验",
+      "basis": "英文实页明确frequency test and serial-correlation test，对应A和K；serial test（B）是不同检验，原中文漏译correlation。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 66,
+    "start": "的相关系数。",
+    "previousEnd": "之间"
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 68,
+    "end": "Tech. Univ.",
+    "continuation": "Denmark（October1975）..."
+  }
+}

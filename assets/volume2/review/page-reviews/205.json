@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.3+4.2.4",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；最终母稿须另行证明包含、跨页合段/程序合块及允许展示转换，不仅替换本哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整页和列出的英文页图，逐段/逐式/表格单元/清单行及注释比较；语法/文本字段检查/复算独立列出。模型视觉核查，不声称人类签核。",
+  "cnPdfPage": 205,
+  "cnPrintedPage": 194,
+  "enPdfPages": [
+    268,
+    269
+  ],
+  "enPrintedPages": [
+    253,
+    254
+  ],
+  "pageMarkdownSha256": "4c369a81d7436c96735961d063e1a22ae7eb011a9288d87449229b0ee25ddd72",
+  "cnPageImage": "scans/205.jpg",
+  "cnPageImageSha256": "cd32886e38312973437b14a94076a4a2c6d2eb950c2a2330b68aeb6f3e1ee6ff",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-268.png",
+      "sha256": "214d4970921e7e0f828e48d0bdee2dabe7192ef5bf2cb879a3570d1bacafcff6"
+    },
+    {
+      "file": "verified-sources/en-269.png",
+      "sha256": "54e4fe5f2cf5ff4299cbd0c5dbac2672c0fe1a6751e8113ba437a0816fd8e143"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码；物理页和印刷页隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-205",
+    "p-194",
+    "ex-4-2-3-8",
+    "ex-4-2-3-9",
+    "sec-4-2-4",
+    "tab-4-2-4-1"
+  ],
+  "coveredRegions": [
+    "习题7续句、8/9完整及Dekker所有变量/界/返回数对。",
+    "§4.2.4标题和A小节全部文字，250000/9%/91%/1.4%。",
+    "正式表1全部40数据单元，底行平均与>5解释，规范化左/右移段。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [
+    8,
+    9
+  ],
+  "answerLinkStatus": "pendingverifiedanswers",
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuationNotes": "首页续4.2.3习题7；习题9后实际§4.2.4标题，无额外引语。表1完整；页末段引用下一页完整表2。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 35,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "仅排版语法；内容来自以上中文/英文原页实际比较。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "辅助原页核查，不当作原书答案来源或替代视觉比较。",
+    "results": {}
+  },
+  "untested": [
+    "最终母稿装订包含/跨页程序合并与原题答双向链接。",
+    "最终正式VitePress/Pandoc整卷和线上。",
+    "未执行MIX程序，未以代码字段一致宣称数值实现正确。"
+  ],
+  "renderReview": {
+    "file": "verified-render/double-dom-review-199-206.json",
+    "sha256": "6f0e4ea6e73341500b9b50022fc1392832b8c3f20e4374f322fb9dbe0ed62dff",
+    "scope": "Currentpage SHA; isolated1280/390 DOM plus explicitlylistedselectedregionsactualvisual. SharedVitePress/Pandoc not included."
+  }
+}

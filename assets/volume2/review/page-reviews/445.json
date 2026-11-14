@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 445,
+  "cnPrintedPage": 434,
+  "enPdfPages": [
+    571,
+    572
+  ],
+  "enPrintedPages": [
+    556,
+    557
+  ],
+  "pageMarkdownSha256": "b7263080a403a949d1548ae13fff5469694af55b1d526d941a8d977d03a81883",
+  "cnPageImageSha256": "25154dafd3c2a94accc689ba578eba9bf6a36d59602dffe2a8ff962dbe2d2b93",
+  "enPageImageSha256": {
+    "571": "9f2ff6a093aaff6b001930d23c63de0df37309aa87132cf0d464ce18b67e8e33",
+    "572": "26f200bf6a13025dcee80921521caf7b58ccf8e859928950ddba4901d8449bb5"
+  },
+  "coveredRegions": [
+    "3.2.2答21全部续证、22/23/24/25完整，MIX原清单/括号程序A/并排顺序/调用三指令及单位时间，27引理全证明；原跳26保留。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-445",
+    "p-434",
+    "ans-3-2-2-22",
+    "ans-3-2-2-23",
+    "ans-3-2-2-24",
+    "ans-3-2-2-25",
+    "ans-3-2-2-27"
+  ],
+  "answerAnchors": [
+    "ans-3-2-2-22",
+    "ans-3-2-2-23",
+    "ans-3-2-2-24",
+    "ans-3-2-2-25",
+    "ans-3-2-2-27"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 75,
+    "displayExpressions": 1,
+    "parseErrors": 0,
+    "codeBlockLineCounts": [
+      5,
+      8,
+      1
+    ]
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 444,
+    "answerAtStart": "3.2.2-21",
+    "right_start": "为了得到一个B类 $(p^e,k)$ 序列，",
+    "continuation_end": "1204–1209］。",
+    "continues_to_pdf_page": 446,
+    "answerAtEnd": "3.2.2-27",
+    "left_end": "以此类推。",
+    "right_next_start": "**推论。** 令 $l=(k^2+7k-2)/2$。",
+    "instruction": "446推论仍属原答27；445所有代码围栏完整，不把页锚点置入程序。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "5e57c9e2c0a00340abe77994e2dc1b04baa4d7622cacefa3f10e8a2541f612a5",
+    "visualReviewSha256": "b885509b55e1722edee94f0f99f54dba399e56cb2576923e57dbe1f595c4b0f3",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 75,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 75,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 3,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "28140b15279fc6b44157c9da65ad66580283c389d4ea21c90d3faf8d05fa0cbf",
+  "numericalCheckQualification": "有限复算辅助原图与逐段证明核对，不把枚举当作普遍或渐近证明；巨型素数表未独立证明素性。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "answerExceptions": [
+    {
+      "answer": "3.2.2-26",
+      "reason": "CN445与EN571–572原答区25后直接27；无独立第26答，不造答项。"
+    }
+  ]
+}

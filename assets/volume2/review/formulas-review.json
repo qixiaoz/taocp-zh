@@ -1,0 +1,913 @@
+{
+  "recordVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "reviewer": "independent model agent; direct visual comparison",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定样例字节，尚不绑定整卷母稿。装订后须另作逐段包含证明；不能仅替换哈希，或把此单页范围扩大为全节、全卷。",
+  "sample": "formulas",
+  "sampleFile": "formulas.md",
+  "sampleSha256": "e998c1b0a279d19393a352a549afa508de017e8d54777c3247be3a161fbdfbb3",
+  "sources": {
+    "cn": {
+      "file": "source_cn/计算机程序设计艺术 卷2 半数值算法=THE ART OF COMPUTER PROGARMMING VOL2 SEMINUMERICAL ALGORITHMS (（美）高德纳（DONALD E. KUNTH）著, (美) 克努特, (Knuth etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "fileSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3"
+    },
+    "en": {
+      "file": "source_en/The Art of Computer Programming Semi-Numerical Algorithms (Donald Ervin Knuth) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "fileSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739"
+    }
+  },
+  "sourceImages": [
+    {
+      "file": ".work/volume2/cn-085.png",
+      "sha256": "7880564471c4d7f2b3e7b9e1f0e08e3129c5bc0738263f625123d40ced42eb98",
+      "viewedDirectly": true
+    },
+    {
+      "file": ".work/volume2/en-112.png",
+      "sha256": "e7285efc027673b4e8d0f7f7a7048239ab42efd11089e9a62fdd3297e7249bdf",
+      "viewedDirectly": true
+    },
+    {
+      "file": ".work/volume2/en-113.png",
+      "sha256": "68ad9cf1d3441735b4bb6a28ad00e57bceacfb738d97edd57005c3a5b4ae70e9",
+      "viewedDirectly": true
+    }
+  ],
+  "verificationMeaning": "originalPageVisualReview及bilingualVerification表示模型直接查看中英页图，对下列全部正文段落、8编号式及39行内式逐项比较；不宣称人类签核，语法或数值复算均不是这些标记的替代依据。",
+  "scope": {
+    "section": "3.3.4",
+    "cnPdfPage": 85,
+    "cnPrintedPage": 74,
+    "enPdfPages": [
+      112,
+      113
+    ],
+    "enPrintedPages": [
+      97,
+      98
+    ],
+    "completeChinesePageBody": true,
+    "completeSection": false,
+    "included": "中文印刷74页从首句“一族平行的…”到末式(18)的全部正文，含小标题C、11个正文单元、式(11)–(18)及全部39行内数学表达。",
+    "excluded": "运行页眉“74／随机数／3.3.4”仅用于定位，不收入正文。英文页式(6)–(10)、式(19)及其他超出中文本页对应范围的文字不计覆盖。",
+    "footnotesOnThisChinesePage": 0
+  },
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true,
+    "contentReview": "passed",
+    "renderReview": "requires-rerender-after-tag-layout-fix"
+  },
+  "counts": {
+    "proseUnits": 11,
+    "numberedDisplayFormulas": 8,
+    "inlineMathOccurrences": 39,
+    "totalMathOccurrences": 47
+  },
+  "paragraphs": [
+    {
+      "id": "P01",
+      "sampleLine": 3,
+      "cnPdfPage": 85,
+      "enPdfPage": 112,
+      "incipit": "一族平行的 $(t-1)$ 维超平面可以用一个垂直于它们的非零向量 $U=(u_1,\\ldots,u_t)$ ",
+      "finding": "平行超平面的非零法向量定义与式11点集。",
+      "inlineCount": 2,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "P02",
+      "sampleLine": 9,
+      "cnPdfPage": 85,
+      "enPdfPage": 112,
+      "incipit": "其中，对于超平面族中的每个超平面，$q$ 是一个不同的常量。换言之，每个超平面都是使得点积 $X\\cdot U",
+      "finding": "q随平面改变；点积定义、包含原点、整数q标号和到q=1平面的最短距离。",
+      "inlineCount": 9,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "P03",
+      "sampleLine": 15,
+      "cnPdfPage": 85,
+      "enPdfPage": 112,
+      "incipit": "",
+      "finding": "柯西不等式名称及习题号1.2.3-30。",
+      "inlineCount": 0,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "P04",
+      "sampleLine": 22,
+      "cnPdfPage": 85,
+      "enPdfPage": 112,
+      "incipit": "因此，当每个 $x_j=u_j/(u_1^2+\\cdots+u_t^2)$ 时，式 (12) 取最小值。相邻超",
+      "finding": "等号成立条件x_j=u_j/Σu_i²及相邻平面距离。",
+      "inlineCount": 1,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "P05",
+      "sampleLine": 28,
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "incipit": "换言之，我们要找的量 $\\nu_t$ 恰为定义包含 $L_0$ 中所有元素的超平面族 $\\{X\\cdot U=",
+      "finding": "ν_t是包含L_0全部元素的整数q平面族的最短法向量长度。",
+      "inlineCount": 4,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "P06",
+      "sampleLine": 30,
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "incipit": "这样的向量 $U=(u_1,\\ldots,u_t)$ 必须是非零向量，并且对于 $L_0$ 中的所有 $V$，",
+      "finding": "非零U、所有V的整数点积、t个单位点、整数u_j、V_1及1/m项。",
+      "inlineCount": 10,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "P07",
+      "sampleLine": 36,
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "incipit": "反过来，满足式 (15) 的任意非零整数向量 $U=(u_1,\\ldots,u_t)$ 都定义了一个满足所要求",
+      "finding": "逆命题、非零整数U、任意整数y_j的线性组合点积均为整数。",
+      "inlineCount": 4,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "P08",
+      "sampleLine": 48,
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "incipit": "**C. 推导计算方法。** 现在，我们已经把谱检验归结为求最小值 (16) 的问题。但是，究竟如何才能在合理",
+      "finding": "小标题C、式16归约、合理时间问题、因m大而排除穷举。",
+      "inlineCount": 1,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "P09",
+      "sampleLine": 50,
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "incipit": "既有趣、可能也更有用的做法是，开发一种计算方法，求解更一般的问题：给定非奇异的系数矩阵 $U=(u_{ij})",
+      "finding": "推广问题、非奇异矩阵U=(u_ij)、所有非零整数向量的最小化范围。",
+      "inlineCount": 2,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "P10",
+      "sampleLine": 56,
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "incipit": "的最小值。表达式 (17) 称作 $t$ 个变量的“正定二次型”。由于 $U$ 是非奇异的，因此除非诸 $x_",
+      "finding": "t变量正定二次型；U非奇异蕴含非零x使f非零。",
+      "inlineCount": 3,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "P11",
+      "sampleLine": 58,
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "incipit": "我们用 $U_1,\\ldots,U_t$ 表示 $U$ 的行。于是，式 (17) 可以写成向量 $x_1U_1",
+      "finding": "U_i是U的行，式18为线性组合的长度平方；英文对应句跨式18前后。",
+      "inlineCount": 3,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    }
+  ],
+  "numberedFormulas": [
+    {
+      "number": 11,
+      "section": "3.3.4",
+      "sampleStartLine": 5,
+      "sampleEndLine": 7,
+      "tex": "\\{(x_1,\\ldots,x_t)\\mid x_1u_1+\\cdots+x_tu_t=q\\},\\tag{11}",
+      "texSha256": "72e7346c011718e61d49293c1e749308f966b3b0cf1769d3f4dfadd376d55a05",
+      "cnPdfPage": 85,
+      "cnPrintedPage": 74,
+      "enPdfPage": 112,
+      "enPrintedPage": 97,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true,
+      "finding": "x_1…x_t与u_1…u_t的配对、点积等于q、集合界定均正确。"
+    },
+    {
+      "number": 12,
+      "section": "3.3.4",
+      "sampleStartLine": 11,
+      "sampleEndLine": 14,
+      "tex": "\\min_{\\text{实数 }x_1,\\ldots,x_t}\n\\left\\{\\sqrt{x_1^2+\\cdots+x_t^2}\\;\\middle|\\;x_1u_1+\\cdots+x_tu_t=1\\right\\}.\\tag{12}",
+      "texSha256": "128cd6635fe387d172ee00a2c66df5e1c789ef77ac3481146b95c8889bc3e999",
+      "cnPdfPage": 85,
+      "cnPrintedPage": 74,
+      "enPdfPage": 112,
+      "enPrintedPage": 97,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true,
+      "finding": "求最小值的变量为实数x_1…x_t；根号覆盖全部平方和；条件为Σx_iu_i=1。"
+    },
+    {
+      "number": 13,
+      "section": "3.3.4",
+      "sampleStartLine": 18,
+      "sampleEndLine": 20,
+      "tex": "(x_1u_1+\\cdots+x_tu_t)^2\\le(x_1^2+\\cdots+x_t^2)(u_1^2+\\cdots+u_t^2),\\tag{13}",
+      "texSha256": "726ac16d2d8c4ca512af87a6f398c3989c031ceb7a597ffa763e7a494d4330db",
+      "cnPdfPage": 85,
+      "cnPrintedPage": 74,
+      "enPdfPage": 112,
+      "enPrintedPage": 97,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true,
+      "finding": "左端整体平方；右端两组平方和相乘；方向≤及下标端点正确。"
+    },
+    {
+      "number": 14,
+      "section": "3.3.4",
+      "sampleStartLine": 24,
+      "sampleEndLine": 26,
+      "tex": "1/\\sqrt{u_1^2+\\cdots+u_t^2}=1/\\text{长度}(U).\\tag{14}",
+      "texSha256": "8c9fdf17ef7c71f05a7acca75c64560bc263ccb904e4c03b9973a7a5c5f37ee4",
+      "cnPdfPage": 85,
+      "cnPrintedPage": 74,
+      "enPdfPage": 112,
+      "enPrintedPage": 97,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true,
+      "finding": "距离为1/√Σu_i²=1/长度(U)，无倒数或根号归属错误。"
+    },
+    {
+      "number": 15,
+      "section": "3.3.4",
+      "sampleStartLine": 32,
+      "sampleEndLine": 34,
+      "tex": "u_1+au_2+\\cdots+a^{t-1}u_t\\equiv0\\quad(\\text{modulo }m).\\tag{15}",
+      "texSha256": "b4604cecd379fce674c469c698906f037ffafeb6298e7e47d69128f309622da1",
+      "cnPdfPage": 85,
+      "cnPrintedPage": 74,
+      "enPdfPage": 113,
+      "enPrintedPage": 98,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true,
+      "finding": "u_1+a u_2+…+a^(t−1)u_t≡0，模数m；现已保留原页modulo。"
+    },
+    {
+      "number": 16,
+      "section": "3.3.4",
+      "sampleStartLine": 38,
+      "sampleEndLine": 46,
+      "tex": "\\begin{aligned}\n\\nu_t^2\n&=\\min_{(u_1,\\ldots,u_t)\\ne(0,\\ldots,0)}\n\\left\\{u_1^2+\\cdots+u_t^2\\;\\middle|\\;u_1+au_2+\\cdots+a^{t-1}u_t\\equiv0\\quad(\\text{modulo }m)\\right\\}\\\\\n&=\\min_{(x_1,\\ldots,x_t)\\ne(0,\\ldots,0)}\n\\left((mx_1-ax_2-a^2x_3-\\cdots-a^{t-1}x_t)^2+x_2^2+x_3^2+\\cdots+x_t^2\\right).\n\\end{aligned}\\tag{16}",
+      "texSha256": "3fdcc9cb801ed151c52476986f483c1a8d64e172914c82d93f370c122201d88a",
+      "cnPdfPage": 85,
+      "cnPrintedPage": 74,
+      "enPdfPage": 113,
+      "enPrintedPage": 98,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true,
+      "finding": "第一行域为(u_1,…,u_t)≠0，目标Σu_i²且满足式15；第二行域为(x_1,…,x_t)≠0，首平方为(mx_1−a x_2−a²x_3−…−a^(t−1)x_t)²，再加x_2²+x_3²+…+x_t²。首项正、其余负，幂次1至t−1，两行都只排除全零。域、第一平方的两端、展开项及式号均与中英文原页核对。"
+    },
+    {
+      "number": 17,
+      "section": "3.3.4",
+      "sampleStartLine": 52,
+      "sampleEndLine": 54,
+      "tex": "f(x_1,\\ldots,x_t)=(u_{11}x_1+\\cdots+u_{t1}x_t)^2+\\cdots+(u_{1t}x_1+\\cdots+u_{tt}x_t)^2\\tag{17}",
+      "texSha256": "f926335ec5c8afbce3a4df47daaa3cacd5fcf05d5e148d19e47c65fc24c39231",
+      "cnPdfPage": 85,
+      "cnPrintedPage": 74,
+      "enPdfPage": 113,
+      "enPrintedPage": 98,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true,
+      "finding": "第一平方是u_{11}x_1+…+u_{t1}x_t；末平方是u_{1t}x_1+…+u_{tt}x_t。下标第一位随行变化、第二位固定于相应列；未误转置，与U_i为行一致。"
+    },
+    {
+      "number": 18,
+      "section": "3.3.4",
+      "sampleStartLine": 60,
+      "sampleEndLine": 62,
+      "tex": "f(x_1,\\ldots,x_t)=(x_1U_1+\\cdots+x_tU_t)\\cdot(x_1U_1+\\cdots+x_tU_t).\\tag{18}",
+      "texSha256": "a79476350569b1a54bd7746470e98fa039c72ea9208bfd28eea359042b39bba7",
+      "cnPdfPage": 85,
+      "cnPrintedPage": 74,
+      "enPdfPage": 113,
+      "enPrintedPage": 98,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true,
+      "finding": "同一向量x_1U_1+…+x_tU_t与自身点乘，等于其长度平方，左右两因子的项和下标一致。"
+    }
+  ],
+  "inlineMath": [
+    {
+      "id": "I01",
+      "paragraphId": "P01",
+      "sampleLine": 3,
+      "tex": "(t-1)",
+      "texSha256": "20d1c534b76dba93ee87aa0f3b8b6576b70158bf63a718b759b195025a97991e",
+      "cnPdfPage": 85,
+      "enPdfPage": 112,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I02",
+      "paragraphId": "P01",
+      "sampleLine": 3,
+      "tex": "U=(u_1,\\ldots,u_t)",
+      "texSha256": "f3ea3776d035202ae0fb3a4cd3cb0088ae247c8bbb8a0785a10f028a0d368c64",
+      "cnPdfPage": 85,
+      "enPdfPage": 112,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I03",
+      "paragraphId": "P02",
+      "sampleLine": 9,
+      "tex": "q",
+      "texSha256": "8e35c2cd3bf6641bdb0e2050b76932cbb2e6034a0ddacc1d9bea82a6ba57f7cf",
+      "cnPdfPage": 85,
+      "enPdfPage": 112,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I04",
+      "paragraphId": "P02",
+      "sampleLine": 9,
+      "tex": "X\\cdot U",
+      "texSha256": "1d94bed39d8f1daa7d9073fac78035fd117172edfee31100523dd06c5dfff5f4",
+      "cnPdfPage": 85,
+      "enPdfPage": 112,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I05",
+      "paragraphId": "P02",
+      "sampleLine": 9,
+      "tex": "q",
+      "texSha256": "8e35c2cd3bf6641bdb0e2050b76932cbb2e6034a0ddacc1d9bea82a6ba57f7cf",
+      "cnPdfPage": 85,
+      "enPdfPage": 112,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I06",
+      "paragraphId": "P02",
+      "sampleLine": 9,
+      "tex": "X",
+      "texSha256": "4b68ab3847feda7d6c62c1fbcbeebfa35eab7351ed5e78f4ddadea5df64b8015",
+      "cnPdfPage": 85,
+      "enPdfPage": 112,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I07",
+      "paragraphId": "P02",
+      "sampleLine": 9,
+      "tex": "(0,0,\\ldots,0)",
+      "texSha256": "ef451ed18395624fffa2bb66347ccdb151cbaba038046d2e1c9581e6f7160cdd",
+      "cnPdfPage": 85,
+      "enPdfPage": 112,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I08",
+      "paragraphId": "P02",
+      "sampleLine": 9,
+      "tex": "U",
+      "texSha256": "a25513c7e0f6eaa80a3337ee18081b9e2ed09e00af8531c8f7bb2542764027e7",
+      "cnPdfPage": 85,
+      "enPdfPage": 112,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I09",
+      "paragraphId": "P02",
+      "sampleLine": 9,
+      "tex": "q",
+      "texSha256": "8e35c2cd3bf6641bdb0e2050b76932cbb2e6034a0ddacc1d9bea82a6ba57f7cf",
+      "cnPdfPage": 85,
+      "enPdfPage": 112,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I10",
+      "paragraphId": "P02",
+      "sampleLine": 9,
+      "tex": "(0,0,\\ldots,0)",
+      "texSha256": "ef451ed18395624fffa2bb66347ccdb151cbaba038046d2e1c9581e6f7160cdd",
+      "cnPdfPage": 85,
+      "enPdfPage": 112,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I11",
+      "paragraphId": "P02",
+      "sampleLine": 9,
+      "tex": "q=1",
+      "texSha256": "02f5e6e36c0369d5dbc9195fb0cf6d5eb415a620d0b80b8bc080039186e26925",
+      "cnPdfPage": 85,
+      "enPdfPage": 112,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I12",
+      "paragraphId": "P04",
+      "sampleLine": 22,
+      "tex": "x_j=u_j/(u_1^2+\\cdots+u_t^2)",
+      "texSha256": "519778512b73b93fbdd7575992645ae9ce47a100394ef1b6bc1b8956a711cc71",
+      "cnPdfPage": 85,
+      "enPdfPage": 112,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I13",
+      "paragraphId": "P05",
+      "sampleLine": 28,
+      "tex": "\\nu_t",
+      "texSha256": "1e59a35d95d7bb678c43fcd5ce0ec0be591b096902fbdd5a1cd01d2d61c76cce",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I14",
+      "paragraphId": "P05",
+      "sampleLine": 28,
+      "tex": "L_0",
+      "texSha256": "64a393c37e7bfedd823eb6ea80da15120104840358bd7b5240e79f62dc62faee",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I15",
+      "paragraphId": "P05",
+      "sampleLine": 28,
+      "tex": "\\{X\\cdot U=q\\mid\\text{整数 }q\\}",
+      "texSha256": "3cee37a3b556be7a9a5c2c7bde2e914055c74cab2436aa688fc55c1e901624ea",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I16",
+      "paragraphId": "P05",
+      "sampleLine": 28,
+      "tex": "U",
+      "texSha256": "a25513c7e0f6eaa80a3337ee18081b9e2ed09e00af8531c8f7bb2542764027e7",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I17",
+      "paragraphId": "P06",
+      "sampleLine": 30,
+      "tex": "U=(u_1,\\ldots,u_t)",
+      "texSha256": "f3ea3776d035202ae0fb3a4cd3cb0088ae247c8bbb8a0785a10f028a0d368c64",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I18",
+      "paragraphId": "P06",
+      "sampleLine": 30,
+      "tex": "L_0",
+      "texSha256": "64a393c37e7bfedd823eb6ea80da15120104840358bd7b5240e79f62dc62faee",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I19",
+      "paragraphId": "P06",
+      "sampleLine": 30,
+      "tex": "V",
+      "texSha256": "de5a6f78116eca62d7fc5ce159d23ae6b889b365a1739ad2cf36f925a140d0cc",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I20",
+      "paragraphId": "P06",
+      "sampleLine": 30,
+      "tex": "V\\cdot U",
+      "texSha256": "dcd25ec287570a3d2bc4193a7b11af0e0caf97fa0694a66628c37aa3e142f7d2",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I21",
+      "paragraphId": "P06",
+      "sampleLine": 30,
+      "tex": "(1,0,\\ldots,0),(0,1,\\ldots,0),\\ldots,(0,0,\\ldots,1)",
+      "texSha256": "39afe13e587e2fb2ba3e349b04d6b084c6f9f815c5e028a9e24d0f7268d7a85a",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I22",
+      "paragraphId": "P06",
+      "sampleLine": 30,
+      "tex": "L_0",
+      "texSha256": "64a393c37e7bfedd823eb6ea80da15120104840358bd7b5240e79f62dc62faee",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I23",
+      "paragraphId": "P06",
+      "sampleLine": 30,
+      "tex": "u_j",
+      "texSha256": "8a3e27ecb912ad7503137ef9bd09a10f826699142a35050d426f6048113a3220",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I24",
+      "paragraphId": "P06",
+      "sampleLine": 30,
+      "tex": "V_1",
+      "texSha256": "af5dd21930308f179056a79f6d42873168374ecd4663817ef11c3d689ed8482f",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I25",
+      "paragraphId": "P06",
+      "sampleLine": 30,
+      "tex": "L_0",
+      "texSha256": "64a393c37e7bfedd823eb6ea80da15120104840358bd7b5240e79f62dc62faee",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I26",
+      "paragraphId": "P06",
+      "sampleLine": 30,
+      "tex": "\\frac1m(u_1+au_2+\\cdots+a^{t-1}u_t)",
+      "texSha256": "05d05b31219056309043b4618c335e4db93e2822d86b52bd393379050dadf230",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I27",
+      "paragraphId": "P07",
+      "sampleLine": 36,
+      "tex": "U=(u_1,\\ldots,u_t)",
+      "texSha256": "f3ea3776d035202ae0fb3a4cd3cb0088ae247c8bbb8a0785a10f028a0d368c64",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I28",
+      "paragraphId": "P07",
+      "sampleLine": 36,
+      "tex": "L_0",
+      "texSha256": "64a393c37e7bfedd823eb6ea80da15120104840358bd7b5240e79f62dc62faee",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I29",
+      "paragraphId": "P07",
+      "sampleLine": 36,
+      "tex": "y_1,\\ldots,y_t",
+      "texSha256": "2c0bd405e619edb659af5fce071ede2f6c48bad97a00fc33dd7bbf2c6d0b52a8",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I30",
+      "paragraphId": "P07",
+      "sampleLine": 36,
+      "tex": "(y_1V_1+\\cdots+y_tV_t)\\cdot U",
+      "texSha256": "41c34d2037f71e811e8460540f30342ef8daa46479ec5f52eae20d3f6af2430d",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I31",
+      "paragraphId": "P08",
+      "sampleLine": 48,
+      "tex": "m",
+      "texSha256": "62c66a7a5dd70c3146618063c344e531e6d4b59e379808443ce962b3abd63c5a",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I32",
+      "paragraphId": "P09",
+      "sampleLine": 50,
+      "tex": "U=(u_{ij})",
+      "texSha256": "10a5cc8207fab2563f67da7b58522d1605090f0f0a9a472451cb53b21c68f9ee",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I33",
+      "paragraphId": "P09",
+      "sampleLine": 50,
+      "tex": "(x_1,\\ldots,x_t)",
+      "texSha256": "cd8f8a552a501da50431fac7ca20a79d30ffddd1542ed6341f56351432809433",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I34",
+      "paragraphId": "P10",
+      "sampleLine": 56,
+      "tex": "t",
+      "texSha256": "e3b98a4da31a127d4bde6e43033f66ba274cab0eb7eb1c70ec41402bf6273dd8",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I35",
+      "paragraphId": "P10",
+      "sampleLine": 56,
+      "tex": "U",
+      "texSha256": "a25513c7e0f6eaa80a3337ee18081b9e2ed09e00af8531c8f7bb2542764027e7",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I36",
+      "paragraphId": "P10",
+      "sampleLine": 56,
+      "tex": "x_j",
+      "texSha256": "aab9db6e286302fce09f7601593a6cad14bb51913fd64e0a1e0bca1290b20f71",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I37",
+      "paragraphId": "P11",
+      "sampleLine": 58,
+      "tex": "U_1,\\ldots,U_t",
+      "texSha256": "4761ef0125e77ad713cc28c0bcfc19b3ed58e8b1396284bb9e1fda15c8e92592",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I38",
+      "paragraphId": "P11",
+      "sampleLine": 58,
+      "tex": "U",
+      "texSha256": "a25513c7e0f6eaa80a3337ee18081b9e2ed09e00af8531c8f7bb2542764027e7",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    {
+      "id": "I39",
+      "paragraphId": "P11",
+      "sampleLine": 58,
+      "tex": "x_1U_1+\\cdots+x_tU_t",
+      "texSha256": "2c7b1530ec5d5dcffed5afa54c42f29fe5b97d50f2d341aa8fc04ab0d99af366",
+      "cnPdfPage": 85,
+      "enPdfPage": 113,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    }
+  ],
+  "changesDuringReview": [
+    {
+      "kind": "presentation-fidelity",
+      "formulaNumbers": [
+        15,
+        16
+      ],
+      "priorSampleSha256": "1d38bcee1c54539b589d2d11e4b19cdd0e3405d498095b3595d585291ffbfa23",
+      "originalAndEnglish": "(modulo m)",
+      "priorTranscription": "\\pmod m",
+      "currentTranscription": "\\quad(\\text{modulo }m)",
+      "finding": "原转写的mod缩写与原页字面不同，数学含义相同；主任务已恢复modulo，独立检查确认仅两处展示转写变化。"
+    }
+  ],
+  "substantiveCorrections": [],
+  "unresolvedContentDifferences": [],
+  "auxiliaryArithmeticCheck": {
+    "formula": 16,
+    "purpose": "辅助检查两行参数化、负号和幂次；不作为原页或双语核实依据。",
+    "method": "给定可实现上界B，更优u各坐标绝对值≤R=floor(sqrt(B))。第二行若目标≤B，则j≥2的|x_j|≤R，且|m x_1|≤R+Σ_{j=1}^{t−1}|a|^j R。按记录的有限界逐一枚举非零整数向量取最小值，界外不可能更优。",
+    "mapping": "u_j=x_j (j≥2), u_1=m x_1−Σ_{j=1}^{t−1}a^j x_{j+1}；逆映射x_1=(u_1+a u_2+…+a^(t−1)u_t)/m。",
+    "cases": [
+      {
+        "m": 7,
+        "a": 3,
+        "t": 2,
+        "candidateUpperBound": 5,
+        "uCoordinateBound": 2,
+        "x1CoordinateBound": 2,
+        "otherXCoordinateBound": 2,
+        "firstLineMinimum": 5,
+        "firstLineMinimizers": [
+          [
+            -1,
+            -2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "secondLineMinimum": 5,
+        "secondLineMinimizers": [
+          [
+            -1,
+            -2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "matches": true
+      },
+      {
+        "m": 7,
+        "a": 3,
+        "t": 3,
+        "candidateUpperBound": 3,
+        "uCoordinateBound": 1,
+        "x1CoordinateBound": 2,
+        "otherXCoordinateBound": 1,
+        "firstLineMinimum": 3,
+        "firstLineMinimizers": [
+          [
+            -1,
+            1,
+            -1
+          ],
+          [
+            1,
+            -1,
+            1
+          ]
+        ],
+        "secondLineMinimum": 3,
+        "secondLineMinimizers": [
+          [
+            -1,
+            1,
+            -1
+          ],
+          [
+            1,
+            -1,
+            1
+          ]
+        ],
+        "matches": true
+      },
+      {
+        "m": 5,
+        "a": 2,
+        "t": 3,
+        "candidateUpperBound": 2,
+        "uCoordinateBound": 1,
+        "x1CoordinateBound": 2,
+        "otherXCoordinateBound": 1,
+        "firstLineMinimum": 2,
+        "firstLineMinimizers": [
+          [
+            -1,
+            0,
+            -1
+          ],
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        "secondLineMinimum": 2,
+        "secondLineMinimizers": [
+          [
+            -1,
+            0,
+            -1
+          ],
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        "matches": true
+      }
+    ]
+  },
+  "renderInspection": {
+    "sampleSha256ForViewedScreenshots": "1d38bcee1c54539b589d2d11e4b19cdd0e3405d498095b3595d585291ffbfa23",
+    "screenshots": [
+      {
+        "file": ".work/volume2/samples/formulas-1280.png",
+        "sha256": "9864f821c0b46a545d44d7d9b681f2ba0ebc4b8c70e383d18fd905d592c899ad",
+        "viewedDirectly": true
+      },
+      {
+        "file": ".work/volume2/samples/formulas-390.png",
+        "sha256": "c07e5bce37211390ca5efea83ecfc63ad3ecef8db3d8005dd0aaee2730f9ba3c",
+        "viewedDirectly": true
+      }
+    ],
+    "findings": [
+      {
+        "width": 1280,
+        "formulaNumbers": [
+          16
+        ],
+        "issue": "编号(16)与第二行最右项邻接或重叠，需修编号占位。"
+      },
+      {
+        "width": 390,
+        "formulaNumbers": [
+          11,
+          14,
+          15
+        ],
+        "issue": "若干编号压在公式右端。无解析错误、无整页溢出和可横向滚动均不能否定此视觉缺陷。"
+      }
+    ],
+    "scope": "已查看旧样例独立HTML截图；恢复modulo后的重新排版和正式VitePress页面待主任务验证。"
+  },
+  "pending": [
+    "主任务修复KaTeX编号占位后需重渲染当前样例，目视检查公式两端、编号及390px横向滚动。",
+    "整卷装订、正式VitePress主题及离线整卷校样需另行验证；本记录不表示这些工作完成。"
+  ]
+}

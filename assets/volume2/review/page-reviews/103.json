@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 103,
+  "cnPrintedPage": 92,
+  "section": "3.4.1",
+  "enPdfPages": [
+    136,
+    137,
+    138
+  ],
+  "enPrintedPages": [
+    121,
+    122,
+    123
+  ],
+  "pageMarkdownSha256": "487b465e0dbf9cfa497298d5dc5dcb2e3f6d5434de2ea41925a04aca8a037db0",
+  "cnPageImageSha256": "8c28d0f3055e4dcd8d9b325fb959f15be6642afce22a0bd3d6ad6a5958c1319f",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 48,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-103",
+    "p-92"
+  ],
+  "coveredRegions": [
+    "逆变换续文、最大/最小分布式(8)(9)；C正态式(10)、极方法全部算法P1–P4及式(11)，证明开头。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 102,
+    "start": "计算具有分布F(x)的随机量X"
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 104,
+    "end": "变换成极坐标",
+    "continuation": "V1=RcosΘ，V2=RsinΘ，有"
+  },
+  "algorithmStepsReviewed": 4,
+  "numericAudit": {
+    "method": "Python exact Fraction recomputes all16 alias outcomes from source P/Y and checks dice probabilities. mpmath1.3.0,80digits integrates/derives half-normal rectangle masses and rejection probabilities. D/E table checked directly from algorithmM6: for interval s=(j−1)/5,t=j/5 define g(u)=exp((t²−(s+u/5)²)/2)−1; choose b=t/5 for j≤5 or g(0) for j≥6, E=1/b, D=min_0≤u≤1(u+Eg(u)); interior derivative solved by300-step bisection. Finite numerical evaluation supplements direct source images, not a proof of all distributions.",
+    "aliasAll16ProbabilitiesExact": [
+      "0",
+      "0",
+      "1/36",
+      "1/18",
+      "1/12",
+      "1/9",
+      "5/36",
+      "1/6",
+      "5/36",
+      "1/9",
+      "1/12",
+      "1/18",
+      "1/36",
+      "0",
+      "0",
+      "0"
+    ],
+    "rectangularMassSum": "0.918309834773351354996851547431",
+    "sourceRectangularMass": "0.9183",
+    "tailProbability": "0.00269979606326018905330362953519",
+    "tailReciprocal": "370.39834734495884946",
+    "sourceTailRate": "about1/370",
+    "polarLoopMean": "1.2732395447351626862",
+    "polarLoopSd": "0.58982997002716101129",
+    "sourcePolarMeanSd": [
+      1.27,
+      0.59
+    ],
+    "tailRejectionProbability": "0.086229103869690112799",
+    "sourceTailRejection": "about1/12",
+    "DandE30Values": [
+      {
+        "j": 1,
+        "DComputed": "0.505033500668895254",
+        "DSource": "0.505",
+        "EComputed": "25.0",
+        "ESource": "25.00",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 2,
+        "DComputed": "0.77295683181699527781",
+        "DSource": "0.773",
+        "EComputed": "12.5",
+        "ESource": "12.50",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 3,
+        "DComputed": "0.8764243172970635401",
+        "DSource": "0.876",
+        "EComputed": "8.3333333333333333333",
+        "ESource": "8.33",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 4,
+        "DComputed": "0.93921124285767042577",
+        "DSource": "0.939",
+        "EComputed": "6.25",
+        "ESource": "6.25",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 5,
+        "DComputed": "0.98608681560905082438",
+        "DSource": "0.986",
+        "EComputed": "5.0",
+        "ESource": "5.00",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 6,
+        "DComputed": "0.99515450131765087511",
+        "DSource": "0.995",
+        "EComputed": "4.0637731069208275895",
+        "ESource": "4.06",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 7,
+        "DComputed": "0.98674801424351728794",
+        "DSource": "0.987",
+        "EComputed": "3.3677961409333788694",
+        "ESource": "3.37",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 8,
+        "DComputed": "0.97921135862257027451",
+        "DSource": "0.979",
+        "EComputed": "2.8582959135100826023",
+        "ESource": "2.86",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 9,
+        "DComputed": "0.97227391617336222687",
+        "DSource": "0.972",
+        "EComputed": "2.4694553648491407858",
+        "ESource": "2.47",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 10,
+        "DComputed": "0.96575234004516275789",
+        "DSource": "0.966",
+        "EComputed": "2.1631696640025754049",
+        "ESource": "2.16",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 11,
+        "DComputed": "0.95953097292159962762",
+        "DSource": "0.960",
+        "EComputed": "1.9158499112349193935",
+        "ESource": "1.92",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 12,
+        "DComputed": "0.95353409608023243335",
+        "DSource": "0.954",
+        "EComputed": "1.7121118654333625538",
+        "ESource": "1.71",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 13,
+        "DComputed": "0.94771026493740711815",
+        "DSource": "0.948",
+        "EComputed": "1.5414940825367982841",
+        "ESource": "1.54",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 14,
+        "DComputed": "0.94202340198951306313",
+        "DSource": "0.942",
+        "EComputed": "1.3966346592664642194",
+        "ESource": "1.40",
+        "withinSourceRounding": true
+      },
+      {
+        "j": 15,
+        "DComputed": "0.93644752494983365864",
+        "DSource": "0.936",
+        "EComputed": "1.2722024278708037494",
+        "ESource": "1.27",
+        "withinSourceRounding": true
+      }
+    ],
+    "S16Exact": true,
+    "P_Q15RoundingIntervalChecks": [
+      {
+        "j": 1,
+        "printedP": "0.849",
+        "printedQ": "0.236",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 2,
+        "printedP": "0.970",
+        "printedQ": "0.206",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 3,
+        "printedP": "0.855",
+        "printedQ": "0.234",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 4,
+        "printedP": "0.994",
+        "printedQ": "0.201",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 5,
+        "printedP": "0.995",
+        "printedQ": "0.201",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 6,
+        "printedP": "0.933",
+        "printedQ": "0.214",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 7,
+        "printedP": "0.923",
+        "printedQ": "0.217",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 8,
+        "printedP": "0.727",
+        "printedQ": "0.275",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 9,
+        "printedP": "1.000",
+        "printedQ": "0.200",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 10,
+        "printedP": "0.691",
+        "printedQ": "0.289",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 11,
+        "printedP": "0.454",
+        "printedQ": "0.440",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 12,
+        "printedP": "0.287",
+        "printedQ": "0.698",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 13,
+        "printedP": "0.174",
+        "printedQ": "1.150",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 14,
+        "printedP": "0.101",
+        "printedQ": "1.974",
+        "productIntervalContains1over5": true
+      },
+      {
+        "j": 15,
+        "printedP": "0.057",
+        "printedQ": "3.526",
+        "productIntervalContains1over5": true
+      }
+    ],
+    "notIndependentlyReconstructed": [
+      "表1中P/Y/Z别名方案的所有参数并未重构；均已逐格中英原图读取。Q仅作P×Q=1/5舍入区间检查。"
+    ]
+  }
+}

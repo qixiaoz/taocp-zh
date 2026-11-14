@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 439,
+  "cnPrintedPage": 428,
+  "enPdfPages": [
+    563,
+    564
+  ],
+  "enPrintedPages": [
+    548,
+    549
+  ],
+  "pageMarkdownSha256": "64ad10d70956cae37311998c46c9d6aecf02431473029aa96bf924290573a45f",
+  "cnPageImageSha256": "2c7b9d37ccd30469df8ad68711bc3fa0c864f1675ebd6c9ed340fcf6b188cf76",
+  "enPageImageSha256": {
+    "563": "02333aa5a1a641d68075bc03f432d69b80ba51bfda1be6ac75d59dd402cb968f",
+    "564": "d69e28fcc8cd8b98d2311d5967ffbae175d17390368a638ef59dc145a6cd49f3"
+  },
+  "coveredRegions": [
+    "3.2.1.2原答11–19全项/子题/数论证明、阶和CRT列表、文献。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-439",
+    "p-428",
+    "ans-3-2-1-2-11",
+    "ans-3-2-1-2-12",
+    "ans-3-2-1-2-13",
+    "ans-3-2-1-2-14",
+    "ans-3-2-1-2-15",
+    "ans-3-2-1-2-16",
+    "ans-3-2-1-2-17",
+    "ans-3-2-1-2-18",
+    "ans-3-2-1-2-19"
+  ],
+  "answerAnchors": [
+    "ans-3-2-1-2-11",
+    "ans-3-2-1-2-12",
+    "ans-3-2-1-2-13",
+    "ans-3-2-1-2-14",
+    "ans-3-2-1-2-15",
+    "ans-3-2-1-2-16",
+    "ans-3-2-1-2-17",
+    "ans-3-2-1-2-18",
+    "ans-3-2-1-2-19"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 137,
+    "displayExpressions": 2,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {},
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "5e57c9e2c0a00340abe77994e2dc1b04baa4d7622cacefa3f10e8a2541f612a5",
+    "visualReviewSha256": "b885509b55e1722edee94f0f99f54dba399e56cb2576923e57dbe1f595c4b0f3",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 137,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 137,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 3,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "28140b15279fc6b44157c9da65ad66580283c389d4ea21c90d3faf8d05fa0cbf",
+  "numericalCheckQualification": "有限复算辅助原图与逐段证明核对，不把枚举当作普遍或渐近证明；巨型素数表未独立证明素性。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

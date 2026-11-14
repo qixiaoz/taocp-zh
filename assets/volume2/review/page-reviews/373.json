@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "section": "4.6.3",
+  "sections": [
+    "4.6.3"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 373,
+  "cnPrintedPage": 362,
+  "enPdfPages": [
+    480,
+    481,
+    482
+  ],
+  "enPrintedPages": [
+    465,
+    466,
+    467
+  ],
+  "pageMarkdownSha256": "287f523bbb60206a7943e9dbca1b6197a47360377fe8c0b53c001ed697826e62",
+  "masterSha256": null,
+  "cnPageImage": "scans/373.jpg",
+  "cnPageImageSha256": "ef78767f62b90049cf3b9da380bd53de51b82da1eeed00c069e82c8996a034bf",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-480.png",
+      "sha256": "86e36f9bf7bf8453cb475245dcab4ef470b5d392bf469e63c70096ee2d120870"
+    },
+    {
+      "file": "source-audit/en-render/page-481.png",
+      "sha256": "57412d9d279ed05d5e6198e6c920e8719b9db83a02aa1987b6381b187e1e9066"
+    },
+    {
+      "file": "source-audit/en-render/page-482.png",
+      "sha256": "8562af862b652d33fd329c2226ad21802acce5f4389ce0e1a1738a908d85bfeb"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-373",
+    "p-362",
+    "fig-4-15"
+  ],
+  "numberedFormulaTags": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "coveredRegions": [
+    "图15全100节点99条无向连线；式4续句及所有删项限定；5–11全部式与参数/定义、特殊类型引言。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 26,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch369-numeric-check.json",
+  "numericScope": "Specific source figures14/15 all162 paths and finite complete minimum-search certificate n1..233; source23 table/invariant; exact BFSpower-tree/factor-method comparison of all100000targets. Bound checks on displayed finite paths do not establish general TheoremA/B/C or optimality beyond exact finite targets.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch369-proof.html",
+    "htmlSha256": "e24a22ea40a6ff98699a885a0e570ea160b00c66ba308e3fe825d8c70166798a",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch369-proof-1280-373.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch369-proof-390-373.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 466,
+    "scrollableElementCounts": {
+      "1280": 48,
+      "390": 64
+    },
+    "machineObservations": ".work/volume2/source-audit/batch369-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch369-right-390-373.png",
+    "mobileRightEndVisualReview": true
+  },
+  "startsMidParagraphAfterFloats": {
+    "previousCnPdfPage": 372,
+    "previousEnd": "\\end{gathered}\\tag{4}\n$$",
+    "start": "这条链的长度为$m-2+(k+1)t$.",
+    "floatStart": "<a id=\"fig-4-15\"></a>",
+    "floatEnd": "图15　对$n\\le100$可达到最少乘法次数的树",
+    "afterClosedDisplay": true,
+    "anchorsOutsideFloatAndMath": true
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 374,
+    "end": "完整式(11)闭合",
+    "nextStart": "因为如果两个$a_j$相等",
+    "afterClosedDisplay": true
+  },
+  "figure": {
+    "number": 15,
+    "asset": "assets/volume2/figures/fig-4-15.svg",
+    "sha256": "14a5d6cac2d9c059b45e852dd7330043a6bd01d590066754e79554985a4a4667",
+    "format": "semantic SVG; no embedded raster",
+    "captionSearchable": true,
+    "whiteBackgroundForDarkMode": true,
+    "allSourceNodesEdgesAndLabelsCompared": true,
+    "cnSourcePage": 373,
+    "enSourcePage": 480,
+    "actualInline1280And390Viewed": true,
+    "magnificationLinkClickedAtBothWidths": true,
+    "magnificationBackLinkTested": true,
+    "magnificationScrollEndsReachable": true,
+    "magnificationEvidence": ".work/volume2/source-audit/batch369-figure-browser.json",
+    "magnification390EndpointsViewed": true,
+    "nodeCount": 100,
+    "undirectedEdges": 99,
+    "literalTopologyEvidence": ".work/volume2/source-audit/batch369-trees.json",
+    "nodeArithmeticAndParticularMinimumCertificate": ".work/volume2/source-audit/batch369-numeric-check.json",
+    "standaloneRasterReview": ".work/volume2/source-audit/fig-4-15-proof.png",
+    "standaloneRasterSha256": "9b4bb147bfa44bc7fd4b754fc1810c369ea38141f1e3c37da7131fe8142010d2",
+    "standaloneRasterDirectVisualReview": true,
+    "sourceTreeCrop": "source-audit/373-tree-source.png",
+    "sourceTreeCropSha256": "a2d7ebefffa4a71af396f227578bd1c8afdce1a35e1d715d57ae1cc0bb323229",
+    "nodeFontMeaning": "EN原页全部数字为CMR8regular；扫描中局部笔画粗细不当作独立数学标记。"
+  }
+}

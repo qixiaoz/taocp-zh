@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "有限实例复算未扩大为一般CRT/Frobenius/复杂度证明"
+  ],
+  "section": "4.6.2",
+  "sections": [
+    "4.6.2"
+  ],
+  "cnPdfPage": 365,
+  "cnPrintedPage": 354,
+  "enPdfPages": [
+    470,
+    471
+  ],
+  "enPrintedPages": [
+    455,
+    456
+  ],
+  "pageMarkdownSha256": "622b71ed11ab20ddb7af61be1a678db450e5752c8870ae4cbe11c0ec8e89f695",
+  "masterSha256": null,
+  "cnPageImage": "scans/365.jpg",
+  "cnPageImageSha256": "8a30753f29aec4828a2fc89fc6c924e6de83b734589a5ed35dcbe9ae25a9febf",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-470.png",
+      "sha256": "7ef97df82668ff50c0e26cffd24576173578e305692bc9b0e6f31dd788eb3f79"
+    },
+    {
+      "file": "source-audit/en-render/page-471.png",
+      "sha256": "f25058411048bc882f9ca99f4d64b6aa65726c9597fb73ee2cc393f9cf5dab9c"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-365",
+    "p-354",
+    "ex-4-6-2-1",
+    "ex-4-6-2-2",
+    "ex-4-6-2-3",
+    "ex-4-6-2-4",
+    "ex-4-6-2-5",
+    "ex-4-6-2-6",
+    "ex-4-6-2-7",
+    "ex-4-6-2-8",
+    "ex-4-6-2-9",
+    "ex-4-6-2-10",
+    "ex-4-6-2-11",
+    "ex-4-6-2-12",
+    "ex-4-6-2-13"
+  ],
+  "numberedFormulaTags": [],
+  "coveredRegions": [
+    "多元提升续句、所有模数与次数符号、历史引文及原作者引语；习题1–13全部题干/难度/推荐/提示/式。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "id": "v2-4.6.2-ex2-squarefree-variable",
+      "cnOriginalAndFinal": "u=v^2w，其中w无平方因子，v和w首一",
+      "enOriginal": "u=v^2w, where v(x) is squarefree",
+      "enLocation": {
+        "pdfPage": 471,
+        "printedPage": 456,
+        "exercise": "2(a)"
+      },
+      "cnRetained": true,
+      "meaning": "本题中文w正确；英文对应版将w误作v，不依英文覆盖中文。",
+      "basis": "完整唯一分解按每一素因子指数e给v指数floor(e/2)、w指数e mod2；中文答案545实际也是此式。若英文v-squarefree按字面，则u=x^4同时有v=1,w=x^4和v=x,w=x^2两个首一解，v均无平方因子，破坏唯一性。",
+      "sourceCrop": "source-audit/365-squarefree-w-crop.png",
+      "sourceCropSha256": "bb44bfb0d43804a2bd800aa87cbda89c5f6db4f8dbc46b9f5f748b43dc5d7790"
+    }
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 71,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch359-numeric-check.json",
+  "numericScope": "Specific source examples only: complete mod3 cubic list and24gcdcells, algorithmD mod13 trace, full mod2/mod5/mod71 factorizations with exhaustive divisor certificates, mod2/mod13 degree-set irreducibility certificate for22, exact coefficient bound34, all8 lowdegree mod71 candidates, mod169 product/reductions/constant tests, all100 inversesmod101, particular norm example. No finite computation is presented as a general factorization/LLL/finite-field/norm theorem proof.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch359-proof.html",
+    "htmlSha256": "a8a865d167eba71d698a111e4d02403c13726e02d7f2186369125085813e8066",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume or production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch359-proof-1280-365.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch359-proof-390-365.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 524,
+    "scrollableElementCounts": {
+      "1280": 34,
+      "390": 40
+    },
+    "machineObservations": ".work/volume2/source-audit/batch359-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "startsMidParagraph": {
+    "previousCnPdfPage": 364,
+    "previousEnd": "通过适当推广亨泽尔的构造方法，将",
+    "start": "这个一元多项式的无平方因子分解"
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch359-answer-presence.json",
+    "linkedExercises": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "allOriginalNumberedAnswersPresent": true,
+    "roundTripDeferredUntilAnswerTranscriptionAndAssembly": true
+  },
+  "history": [
+    {
+      "status": "historical-superseded",
+      "evidence": ".work/volume2/source-audit/history/batch359-before-boundary-fix",
+      "reason": "Removed draft duplicate望at end362after sourcecrop confirms362ends希and363starts望. Actual changedpage rerendered; source mathematical content unchanged."
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "candidateSha256": "c8ec35b2d7d5fdcc32c8059dd7197227f387a443b96eea49b61af8e2fcfca163",
+  "scope": "Frozen full610-page source-to-master integrity plus explicit index/target checks. Asset bytes read from current workspace and compared against frozen declarations where available; semantic and renderer acceptance are separate.",
+  "totalChecks": 33,
+  "passed": 33,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "all-internal-markdown-and-native-html-targets-resolve",
+      "passed": true,
+      "linkOccurrences": 7206,
+      "uniqueTargets": 2394,
+      "unresolved": {}
+    },
+    {
+      "check": "all-numbered-answer-targets-have-original-exercise-target",
+      "passed": true,
+      "exerciseTargets": 927,
+      "numberedAnswerTargets": 884,
+      "answerSectionTargets": 21,
+      "withoutSameNumberAnswer": [
+        "ex-3-2-2-19",
+        "ex-3-2-2-26",
+        "ex-3-2-2-28",
+        "ex-3-3-1-19",
+        "ex-3-3-1-21",
+        "ex-3-3-1-22",
+        "ex-3-3-1-24",
+        "ex-3-3-2-6",
+        "ex-3-3-4-22",
+        "ex-3-3-4-23",
+        "ex-3-4-1-24",
+        "ex-3-5-17",
+        "ex-3-5-27",
+        "ex-3-5-38",
+        "ex-3-6-3",
+        "ex-3-6-4",
+        "ex-3-6-5",
+        "ex-3-6-6",
+        "ex-4-2-2-18",
+        "ex-4-2-2-30",
+        "ex-4-2-3-9",
+        "ex-4-2-4-2",
+        "ex-4-2-4-20",
+        "ex-4-3-1-1",
+        "ex-4-3-1-33",
+        "ex-4-3-1-35",
+        "ex-4-3-3-14",
+        "ex-4-4-15",
+        "ex-4-4-16",
+        "ex-4-4-6",
+        "ex-4-5-1-10",
+        "ex-4-5-1-15",
+        "ex-4-5-1-16",
+        "ex-4-5-2-31",
+        "ex-4-5-2-33",
+        "ex-4-5-3-13",
+        "ex-4-5-3-22",
+        "ex-4-5-3-47",
+        "ex-4-5-4-16",
+        "ex-4-5-4-33",
+        "ex-4-6-3-31",
+        "ex-4-6-3-43",
+        "ex-intro-2"
+      ]
+    },
+    {
+      "check": "every-exercise-with-same-number-original-answer-has-forward-link",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "check": "original-single-and-combined-answer-groups-have-return-links",
+      "passed": true,
+      "missing": [],
+      "answerGroups": 883
+    },
+    {
+      "check": "no-links-to-the-three-removed-ghost-answers",
+      "passed": true
+    },
+    {
+      "check": "general-index-page-604-all-row-numbers-and-count",
+      "passed": true,
+      "actual": 110,
+      "declared": 110
+    },
+    {
+      "check": "general-index-page-605-all-row-numbers-and-count",
+      "passed": true,
+      "actual": 134,
+      "declared": 134
+    },
+    {
+      "check": "general-index-page-606-all-row-numbers-and-count",
+      "passed": true,
+      "actual": 137,
+      "declared": 137
+    },
+    {
+      "check": "general-index-page-607-all-row-numbers-and-count",
+      "passed": true,
+      "actual": 135,
+      "declared": 135
+    },
+    {
+      "check": "general-index-page-608-all-row-numbers-and-count",
+      "passed": true,
+      "actual": 136,
+      "declared": 136
+    },
+    {
+      "check": "general-index-page-609-all-row-numbers-and-count",
+      "passed": true,
+      "actual": 132,
+      "declared": 132
+    },
+    {
+      "check": "general-index-page-610-all-row-numbers-and-count",
+      "passed": true,
+      "actual": 131,
+      "declared": 131
+    },
+    {
+      "check": "general-index-page-611-all-row-numbers-and-count",
+      "passed": true,
+      "actual": 134,
+      "declared": 134
+    },
+    {
+      "check": "general-index-page-612-all-row-numbers-and-count",
+      "passed": true,
+      "actual": 135,
+      "declared": 135
+    },
+    {
+      "check": "general-index-page-613-all-row-numbers-and-count",
+      "passed": true,
+      "actual": 136,
+      "declared": 136
+    },
+    {
+      "check": "general-index-page-614-all-row-numbers-and-count",
+      "passed": true,
+      "actual": 78,
+      "declared": 78
+    },
+    {
+      "check": "all-1398-general-index-entries-exact-in-order",
+      "passed": true,
+      "sourceEntries": 1398,
+      "outputEntries": 1398,
+      "perPage": [
+        {
+          "page": 604,
+          "actualEntries": 110,
+          "declaredEntries": 110
+        },
+        {
+          "page": 605,
+          "actualEntries": 134,
+          "declaredEntries": 134
+        },
+        {
+          "page": 606,
+          "actualEntries": 137,
+          "declaredEntries": 137
+        },
+        {
+          "page": 607,
+          "actualEntries": 135,
+          "declaredEntries": 135
+        },
+        {
+          "page": 608,
+          "actualEntries": 136,
+          "declaredEntries": 136
+        },
+        {
+          "page": 609,
+          "actualEntries": 132,
+          "declaredEntries": 132
+        },
+        {
+          "page": 610,
+          "actualEntries": 131,
+          "declaredEntries": 131
+        },
+        {
+          "page": 611,
+          "actualEntries": 134,
+          "declaredEntries": 134
+        },
+        {
+          "page": 612,
+          "actualEntries": 135,
+          "declaredEntries": 135
+        },
+        {
+          "page": 613,
+          "actualEntries": 136,
+          "declaredEntries": 136
+        },
+        {
+          "page": 614,
+          "actualEntries": 78,
+          "declaredEntries": 78
+        }
+      ],
+      "badRows": []
+    },
+    {
+      "check": "general-index-all-see-links-retained-and-resolve",
+      "passed": true,
+      "seeLinkCount": 13,
+      "links": [
+        {
+          "source": "idx-605-069",
+          "target": "idx-614-038"
+        },
+        {
+          "source": "idx-606-087",
+          "target": "idx-607-127"
+        },
+        {
+          "source": "idx-606-133",
+          "target": "idx-609-037"
+        },
+        {
+          "source": "idx-607-104",
+          "target": "idx-606-087"
+        },
+        {
+          "source": "idx-607-116",
+          "target": "idx-606-024"
+        },
+        {
+          "source": "idx-607-133",
+          "target": "idx-607-102"
+        },
+        {
+          "source": "idx-608-055",
+          "target": "idx-607-092"
+        },
+        {
+          "source": "idx-608-062",
+          "target": "idx-613-082"
+        },
+        {
+          "source": "idx-608-131",
+          "target": "idx-609-015"
+        },
+        {
+          "source": "idx-609-021",
+          "target": "idx-609-028"
+        },
+        {
+          "source": "idx-610-079",
+          "target": "idx-609-015"
+        },
+        {
+          "source": "idx-612-013",
+          "target": "idx-605-045"
+        },
+        {
+          "source": "idx-612-028",
+          "target": "idx-610-029"
+        }
+      ]
+    },
+    {
+      "check": "names-index-page-594-actual-paragraph-count",
+      "passed": true,
+      "actual": 114,
+      "declared": 114
+    },
+    {
+      "check": "names-index-page-595-actual-paragraph-count",
+      "passed": true,
+      "actual": 119,
+      "declared": 119
+    },
+    {
+      "check": "names-index-page-596-actual-paragraph-count",
+      "passed": true,
+      "actual": 120,
+      "declared": 120
+    },
+    {
+      "check": "names-index-page-597-actual-paragraph-count",
+      "passed": true,
+      "actual": 125,
+      "declared": 125
+    },
+    {
+      "check": "names-index-page-598-actual-paragraph-count",
+      "passed": true,
+      "actual": 123,
+      "declared": 123
+    },
+    {
+      "check": "names-index-page-599-actual-paragraph-count",
+      "passed": true,
+      "actual": 124,
+      "declared": 124
+    },
+    {
+      "check": "names-index-page-600-actual-paragraph-count",
+      "passed": true,
+      "actual": 120,
+      "declared": 120
+    },
+    {
+      "check": "names-index-page-601-actual-paragraph-count",
+      "passed": true,
+      "actual": 126,
+      "declared": 126
+    },
+    {
+      "check": "names-index-page-602-actual-paragraph-count",
+      "passed": true,
+      "actual": 125,
+      "declared": 125
+    },
+    {
+      "check": "names-index-page-603-actual-paragraph-count",
+      "passed": true,
+      "actual": 33,
+      "declared": 33
+    },
+    {
+      "check": "all-1129-name-index-entries-exact-in-order",
+      "passed": true,
+      "sourceEntries": 1129,
+      "outputEntries": 1129,
+      "perPage": [
+        {
+          "page": 594,
+          "actualEntries": 114,
+          "declaredEntries": 114
+        },
+        {
+          "page": 595,
+          "actualEntries": 119,
+          "declaredEntries": 119
+        },
+        {
+          "page": 596,
+          "actualEntries": 120,
+          "declaredEntries": 120
+        },
+        {
+          "page": 597,
+          "actualEntries": 125,
+          "declaredEntries": 125
+        },
+        {
+          "page": 598,
+          "actualEntries": 123,
+          "declaredEntries": 123
+        },
+        {
+          "page": 599,
+          "actualEntries": 124,
+          "declaredEntries": 124
+        },
+        {
+          "page": 600,
+          "actualEntries": 120,
+          "declaredEntries": 120
+        },
+        {
+          "page": 601,
+          "actualEntries": 126,
+          "declaredEntries": 126
+        },
+        {
+          "page": 602,
+          "actualEntries": 125,
+          "declaredEntries": 125
+        },
+        {
+          "page": 603,
+          "actualEntries": 33,
+          "declaredEntries": 33
+        }
+      ]
+    },
+    {
+      "check": "all-original-html-img-tags-and-attributes-exact-in-order",
+      "passed": true,
+      "sourceOccurrences": 3,
+      "outputOccurrences": 3,
+      "tags": [
+        "<img src=\"assets/volume2/figures/p007-construction.png\" alt=\"建设中\" width=\"36\" height=\"46\">",
+        "<img src=\"assets/volume2/figures/p100-construction.png\" alt=\"原书施工标记\" width=\"35\" />",
+        "<img src=\"assets/volume2/figures/construction.svg\" alt=\"原书施工标记\" width=\"35\" />"
+      ]
+    },
+    {
+      "check": "all-57-current-relative-assets-exist-and-match-declared-frozen-hashes",
+      "passed": true,
+      "uniqueAssets": 57,
+      "receiptCount": 57,
+      "withoutFrozenAssetHash": [],
+      "failedAssets": []
+    },
+    {
+      "check": "all-37-formal-figure-targets-once-and-source-md-bindings-current",
+      "passed": true,
+      "formalFigures": 37,
+      "ids": [
+        "fig-3-1",
+        "fig-3-2",
+        "fig-3-3",
+        "fig-3-4",
+        "fig-3-5",
+        "fig-3-6",
+        "fig-3-7",
+        "fig-3-8",
+        "fig-3-9",
+        "fig-3-10",
+        "fig-3-11",
+        "fig-3-12",
+        "fig-3-13",
+        "fig-4-1",
+        "fig-4-2",
+        "fig-4-3",
+        "fig-4-4",
+        "fig-4-5",
+        "fig-4-6",
+        "fig-4-7",
+        "fig-4-8",
+        "fig-4-9",
+        "fig-4-10",
+        "fig-4-11",
+        "fig-4-12",
+        "fig-4-13",
+        "fig-4-14",
+        "fig-4-15",
+        "fig-4-16",
+        "fig-4-17",
+        "fig-A-1",
+        "fig-A-2",
+        "fig-A-3",
+        "fig-A-4",
+        "fig-A-5",
+        "fig-A-6",
+        "fig-A-7"
+      ]
+    },
+    {
+      "check": "all-20-formal-table-targets-once-and-source-md-bindings-current",
+      "passed": true,
+      "formalTables": 20,
+      "ids": [
+        "table-3-1",
+        "table-3-2-1-1-1",
+        "table-3-2-2-1",
+        "table-3-3-1-1",
+        "table-3-3-1-2",
+        "tab-3-3-4-1",
+        "tab-3-4-1-1",
+        "tab-4-2-4-1",
+        "tab-4-2-4-2",
+        "tab-4-3-1-1",
+        "tab-4-3-3-1",
+        "tab-4-3-3-2",
+        "table-4-1",
+        "tab-4-5-4-1",
+        "tab-4-5-4-2",
+        "tab-4-6-1-1",
+        "tab-4-6-3-1",
+        "tab-app-a-1",
+        "tab-app-a-2",
+        "tab-app-a-3"
+      ]
+    }
+  ],
+  "publicationSanitization": {
+    "privateOriginalEvidenceSha256": "ce47fd981b0bec32e42733acc2b61fd582ca0c474c10c345b2bed46dda7d329c",
+    "fields": [],
+    "treatment": "Private frozen evidence paths are normalized to private-evidence locators; source hashes, comparison results and scopes unchanged."
+  }
+}

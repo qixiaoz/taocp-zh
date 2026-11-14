@@ -1,0 +1,572 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 519,
+  "cnPrintedPage": 508,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "dd5a669e8f76b5dd802c0826b7c2afa636363d8674290a0d1e75a80895cfb682",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/519.jpg",
+  "cnPageImageSha256": "913b15822c246c3155a925679074e753a8b5cd6d5d93ec7636a63800a2e0f408",
+  "enPdfPages": [
+    661,
+    662
+  ],
+  "enPrintedPages": [
+    646,
+    647
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-661.png",
+      "sha256": "bc1150675c3067ea91ddecc92e8e52e5b0e7c6be3a68f8141831c57feb084115"
+    },
+    {
+      "file": "verified-sources/en-662.png",
+      "sha256": "a1955f0221a8278fa8a3be6d39258281684e1afdf9d93b3fa2b649e49575e50d"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-519",
+    "p-508",
+    "ans-4-5-2-40",
+    "ans-4-5-2-41",
+    "ans-4-5-2-42",
+    "ans-sec-4-5-3",
+    "ans-4-5-3-1",
+    "ans-4-5-3-2",
+    "ans-4-5-3-3",
+    "ans-4-5-3-4",
+    "ans-4-5-3-5",
+    "ans-4-5-3-6",
+    "ans-4-5-3-7",
+    "ans-4-5-3-8"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首算法Y3–Y6及不变量/原注/文献。答40全界及OCR整段漏掉的notes迭代序列。",
+    "答41/42全部幂gcd/Smith行列式。实际4.5.3标题及答1–8全部矩阵、证明与continuant式。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "首续518答39；末4.5.3答8第一display完整，520接“再由(6)…”。",
+  "substantiveCorrections": [],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-5-2-40",
+      "exercise_anchor": "ex-4-5-2-40",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-2-41",
+      "exercise_anchor": "ex-4-5-2-41",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-2-42",
+      "exercise_anchor": "ex-4-5-2-42",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-1",
+      "exercise_anchor": "ex-4-5-3-1",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-2",
+      "exercise_anchor": "ex-4-5-3-2",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-3",
+      "exercise_anchor": "ex-4-5-3-3",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-4",
+      "exercise_anchor": "ex-4-5-3-4",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-5",
+      "exercise_anchor": "ex-4-5-3-5",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-6",
+      "exercise_anchor": "ex-4-5-3-6",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-7",
+      "exercise_anchor": "ex-4-5-3-7",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-5-3-8",
+      "exercise_anchor": "ex-4-5-3-8",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 519,
+    "sha256": "dd5a669e8f76b5dd802c0826b7c2afa636363d8674290a0d1e75a80895cfb682",
+    "mathExpressions": 90,
+    "display": 2,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 519,
+        "width": 1280,
+        "sha256": "dd5a669e8f76b5dd802c0826b7c2afa636363d8674290a0d1e75a80895cfb682",
+        "pageErrors": [],
+        "bodyText": 5085,
+        "documentWidth": 1280,
+        "expressions": 90,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 519,
+        "width": 390,
+        "sha256": "dd5a669e8f76b5dd802c0826b7c2afa636363d8674290a0d1e75a80895cfb682",
+        "pageErrors": [],
+        "bodyText": 5085,
+        "documentWidth": 390,
+        "expressions": 90,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 88,
+            "max": 88,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 39,
+            "max": 39,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 134,
+            "max": 134,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 149,
+            "max": 149,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/519-dd5a669e8f76b5dd802c0826b7c2afa636363d8674290a0d1e75a80895cfb682-metadata-update/519.json",
+      "pageMarkdownSha256": "dd5a669e8f76b5dd802c0826b7c2afa636363d8674290a0d1e75a80895cfb682",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ]
+}

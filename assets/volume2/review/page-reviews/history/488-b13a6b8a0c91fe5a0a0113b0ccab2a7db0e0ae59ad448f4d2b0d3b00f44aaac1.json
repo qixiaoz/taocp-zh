@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "answers4.1",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 488,
+  "cnPrintedPage": 477,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "94e17fee826caf388a017c34351970334e49f04f0796ddaa5106f018c2c22f84",
+  "masterBinding": "单页MD当前字节；整卷装订另证包含，不重写旧哈希冒充复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型直接看完整中文与列出的英文原页图，逐段/所有数学/算法/程序字段注释/原答号比较，不声称人类签核或所有一般证明独立重证。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/488.jpg",
+  "cnPageImageSha256": "208ceb31d7d550519365975934f537c4b2cf6aa1984c842108ed771c1d1209dc",
+  "enPdfPages": [
+    624,
+    625
+  ],
+  "enPrintedPages": [
+    609,
+    610
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-624.png",
+      "sha256": "b7746e0fa1a32a1b56359d0c9a5658e2f8bf89b83a30e8d71797cf88fa2f1135"
+    },
+    {
+      "file": "verified-sources/en-625.png",
+      "sha256": "ee9d7b0a60922f900eb93236bfc842d8cd7742acbe95dfb5725f68455912926c"
+    }
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-488",
+    "p-477",
+    "ans-4-1-31",
+    "ans-4-1-32",
+    "ans-4-1-33"
+  ],
+  "coveredRegions": [
+    "首续答30(a)，b/c/d与S1–S4，原d序列按中文版保留。",
+    "答31四小问与H1–H3无穷2进平方根算法，答32文献、33定义。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.1-30-choice",
+      "section": "4.1答案30(c)",
+      "cnPrintedPage": 477,
+      "enPdfPage": 624,
+      "enPrintedPage": 609,
+      "original": "k每次加1次都要进行选取",
+      "final": "每一步的选取都是唯一确定的",
+      "basis": "英文At each step the choice is forced；该句说明表示的唯一性，非仅叙述每次增k有选取操作。"
+    }
+  ],
+  "preservedVersionDifferences": [
+    {
+      "location": "答案30(d)后Note",
+      "cnText": "5,−3,3,5,−3,3,…",
+      "enText": "5,−3,5,−3,…",
+      "decision": "保留中文底本序列，未把不同例子擅改成英文；是否为另一有效基底未在本页认定一般结论。"
+    }
+  ],
+  "answers": [
+    {
+      "anchor": "ans-4-1-31",
+      "exercise_anchor": "ex-4-1-31",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-32",
+      "exercise_anchor": "ex-4-1-32",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-33",
+      "exercise_anchor": "ex-4-1-33",
+      "backlink_present": true
+    }
+  ],
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuationNotes": "首续487答30(a)；末33定义完整，489首“当n≥1且S=…”是后续段。",
+  "syntaxCheck": {
+    "page": 488,
+    "sha256": "94e17fee826caf388a017c34351970334e49f04f0796ddaa5106f018c2c22f84",
+    "mathExpressions": 75,
+    "display": 0,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿装订和所有题答往返",
+    "MIX程序执行及所有一般证明的独立重证",
+    "整卷Pandoc/VitePress/线上发布"
+  ]
+}

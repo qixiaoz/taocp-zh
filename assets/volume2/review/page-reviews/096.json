@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 96,
+  "cnPrintedPage": 85,
+  "section": "3.3.4",
+  "enPdfPages": [
+    127,
+    128
+  ],
+  "enPrintedPages": [
+    112,
+    113
+  ],
+  "pageMarkdownSha256": "3e99a5b7e991887a0e8a8b68e901eef5ed85a21b5c3d408bea662c776e8800e0",
+  "cnPageImageSha256": "46518bae9fef930d4657c1217b2a80c9495726620219e08ce6491e5d4235f26b",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 36,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-096",
+    "p-85"
+  ],
+  "coveredRegions": [
+    "q非倍数的续文；完整四行S_k0平方推导，所有指标/指数/界；式(49)–(53)全部；下页非零向量续句。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 95,
+    "start": "不是m的倍数时"
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 97,
+    "end": "对满足式(15)的所有非零向量",
+    "continuation": "(u1,…,ut)求和时"
+  },
+  "numericAudit": {
+    "method": "mpmath1.3.0,80decimaldigits; explicitly generate eight full-period LCGs, directly sum all discrete roots for S_k0, compare piecewise amplitude(51) for every k and Fourier identity(49) for N1,floor(m/2),m−1,m. Geometric a=1 case uses sum_{j=0}^{s−1}a^j instead of division by a−1. Finite numerical checks supplement original-page comparison; not a general proof.",
+    "records": [
+      {
+        "m": 8,
+        "a": 5,
+        "c": 1,
+        "s": 2,
+        "sPrime": 6,
+        "qPrime": 3,
+        "allKChecked": 8,
+        "partialN": [
+          1,
+          4,
+          7,
+          8
+        ],
+        "maxFormula49Error": "1.90052e-80",
+        "maxFormula51Error": "4.8285e-80"
+      },
+      {
+        "m": 16,
+        "a": 5,
+        "c": 1,
+        "s": 4,
+        "sPrime": 12,
+        "qPrime": 3,
+        "allKChecked": 16,
+        "partialN": [
+          1,
+          8,
+          15,
+          16
+        ],
+        "maxFormula49Error": "4.90103e-80",
+        "maxFormula51Error": "2.86748e-79"
+      },
+      {
+        "m": 9,
+        "a": 4,
+        "c": 1,
+        "s": 3,
+        "sPrime": 3,
+        "qPrime": 1,
+        "allKChecked": 9,
+        "partialN": [
+          1,
+          4,
+          8,
+          9
+        ],
+        "maxFormula49Error": "7.53508e-81",
+        "maxFormula51Error": "1.68675e-80"
+      },
+      {
+        "m": 10,
+        "a": 1,
+        "c": 3,
+        "s": 1,
+        "sPrime": 3,
+        "qPrime": 3,
+        "allKChecked": 10,
+        "partialN": [
+          1,
+          5,
+          9,
+          10
+        ],
+        "maxFormula49Error": "4.47547e-80",
+        "maxFormula51Error": "1.27382e-79"
+      },
+      {
+        "m": 12,
+        "a": 1,
+        "c": 5,
+        "s": 1,
+        "sPrime": 5,
+        "qPrime": 5,
+        "allKChecked": 12,
+        "partialN": [
+          1,
+          6,
+          11,
+          12
+        ],
+        "maxFormula49Error": "1.13543e-80",
+        "maxFormula51Error": "1.18073e-79"
+      },
+      {
+        "m": 25,
+        "a": 6,
+        "c": 1,
+        "s": 5,
+        "sPrime": 5,
+        "qPrime": 1,
+        "allKChecked": 25,
+        "partialN": [
+          1,
+          12,
+          24,
+          25
+        ],
+        "maxFormula49Error": "3.93423e-79",
+        "maxFormula51Error": "1.09639e-78"
+      },
+      {
+        "m": 27,
+        "a": 4,
+        "c": 1,
+        "s": 9,
+        "sPrime": 9,
+        "qPrime": 1,
+        "allKChecked": 27,
+        "partialN": [
+          1,
+          13,
+          26,
+          27
+        ],
+        "maxFormula49Error": "3.86343e-79",
+        "maxFormula51Error": "6.07231e-79"
+      },
+      {
+        "m": 32,
+        "a": 13,
+        "c": 1,
+        "s": 8,
+        "sPrime": 24,
+        "qPrime": 3,
+        "allKChecked": 32,
+        "partialN": [
+          1,
+          16,
+          31,
+          32
+        ],
+        "maxFormula49Error": "1.77992e-79",
+        "maxFormula51Error": "1.51808e-78"
+      }
+    ],
+    "allWithin1eMinus70": true
+  }
+}

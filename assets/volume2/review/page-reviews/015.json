@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "3.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "母稿尚未装订；本记录绑定单页Markdown字节和中文原页图指纹。装订后另作包含证明，不可把此哈希直接改成母稿哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接查看中英文原页图，逐段、逐式并按算法步骤、表格行和习题题号对照；不以OCR一致或解析通过替代原页校对。",
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "pageFurnitureOmitted": [
+    "重复的页眉节号、书名/小节名、印刷页码；印刷页码用隐藏锚点保留。"
+  ],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [],
+  "unverifiedPageRegions": [],
+  "untested": [
+    "尚未验证最终母稿包含关系。",
+    "尚未验证最终VitePress和Pandoc整卷页面。"
+  ],
+  "cnPdfPage": 15,
+  "cnPrintedPage": 4,
+  "enPdfPages": [
+    20,
+    21
+  ],
+  "enPrintedPages": [
+    5,
+    6
+  ],
+  "pageMarkdownSha256": "9cefca9578bbd57890d0787fb906afa0511f409f20e70b05755cdcaf2a89722a",
+  "cnPageImage": "scans/015.jpg",
+  "cnPageImageSha256": "6a75fb130d51dafda2893fcede5ebcc4bde3d80b40e6f3448bff8157549679cd",
+  "pageAnchors": [
+    "pdf-015",
+    "p-4",
+    "table-3-1"
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "startsInsideAlgorithm": true,
+  "endsInsideAlgorithm": false,
+  "startsInsideExercise": false,
+  "endsInsideExercise": false,
+  "exerciseNumbers": [],
+  "recommendedExercises": [],
+  "exerciseAnswerExistence": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 25,
+    "parseErrors": 0,
+    "meaning": "仅证明语法可排版；语义核实另以原页对照为据。"
+  },
+  "markdownIntegrity": {
+    "uniqueExplicitAnchors": true,
+    "unexpectedControlCharacters": 0
+  },
+  "coveredRegions": [
+    "算法K的K7–K13全部步骤与结束符。",
+    "机器语言程序复杂性的括注、不动点及7401/3178循环的原文说明。",
+    "表1全部45行数字（含前导零）、步骤名及7个Y值。"
+  ],
+  "layoutChanges": [
+    "原表左右并排的两个纵栏依原阅读次序合成一张45行逻辑表；所有数值保持十位字符串，Y值另列。"
+  ],
+  "numericAudit": {
+    "methodLanguage": "Python任意精度整数",
+    "methodCode": "def algorithm_k(x):\n    y=x//10**9; trace=[('K1',f'{x:010}',None)]\n    while True:\n        z=(x//10**8)%10\n        for step in range(3+z,13):\n            if step==3:\n                if x<5000000000: x+=5000000000\n            elif step==4: x=(x*x//10**5)%10**10\n            elif step in [5,8]: x=(1001001001*x)%10**10\n            elif step==6: x=x+9814055677 if x<100000000 else 10**10-x\n            elif step==7: x=10**5*(x%10**5)+x//10**5\n            elif step==9: x=int(''.join(str(max(int(c)-1,0)) for c in f'{x:010}'))\n            elif step==10: x=x*x+99999 if x<10**5 else x-99999\n            elif step==11:\n                assert x>0\n                while x<10**9: x*=10\n            elif step==12: x=(x*(x-1)//10**5)%10**10\n            trace.append((f'K{step}',f'{x:010}',y if step==12 else None))\n        if y==0: return x,trace\n        y-=1\n",
+    "input": 6065038420,
+    "output": 6065038420,
+    "fixedPointConfirmed": true,
+    "tableRows": 45,
+    "allRowsMatch": true,
+    "trace": [
+      {
+        "step": "K1",
+        "X": "6065038420",
+        "Y": null
+      },
+      {
+        "step": "K3",
+        "X": "6065038420",
+        "Y": null
+      },
+      {
+        "step": "K4",
+        "X": "6910360760",
+        "Y": null
+      },
+      {
+        "step": "K5",
+        "X": "8031120760",
+        "Y": null
+      },
+      {
+        "step": "K6",
+        "X": "1968879240",
+        "Y": null
+      },
+      {
+        "step": "K7",
+        "X": "7924019688",
+        "Y": null
+      },
+      {
+        "step": "K8",
+        "X": "9631707688",
+        "Y": null
+      },
+      {
+        "step": "K9",
+        "X": "8520606577",
+        "Y": null
+      },
+      {
+        "step": "K10",
+        "X": "8520506578",
+        "Y": null
+      },
+      {
+        "step": "K11",
+        "X": "8520506578",
+        "Y": null
+      },
+      {
+        "step": "K12",
+        "X": "0323372207",
+        "Y": 6
+      },
+      {
+        "step": "K6",
+        "X": "9676627793",
+        "Y": null
+      },
+      {
+        "step": "K7",
+        "X": "2779396766",
+        "Y": null
+      },
+      {
+        "step": "K8",
+        "X": "4942162766",
+        "Y": null
+      },
+      {
+        "step": "K9",
+        "X": "3831051655",
+        "Y": null
+      },
+      {
+        "step": "K10",
+        "X": "3830951656",
+        "Y": null
+      },
+      {
+        "step": "K11",
+        "X": "3830951656",
+        "Y": null
+      },
+      {
+        "step": "K12",
+        "X": "1905867781",
+        "Y": 5
+      },
+      {
+        "step": "K12",
+        "X": "3319967479",
+        "Y": 4
+      },
+      {
+        "step": "K6",
+        "X": "6680032521",
+        "Y": null
+      },
+      {
+        "step": "K7",
+        "X": "3252166800",
+        "Y": null
+      },
+      {
+        "step": "K8",
+        "X": "2218966800",
+        "Y": null
+      },
+      {
+        "step": "K9",
+        "X": "1107855700",
+        "Y": null
+      },
+      {
+        "step": "K10",
+        "X": "1107755701",
+        "Y": null
+      },
+      {
+        "step": "K11",
+        "X": "1107755701",
+        "Y": null
+      },
+      {
+        "step": "K12",
+        "X": "1226919902",
+        "Y": 3
+      },
+      {
+        "step": "K5",
+        "X": "0048821902",
+        "Y": null
+      },
+      {
+        "step": "K6",
+        "X": "9862877579",
+        "Y": null
+      },
+      {
+        "step": "K7",
+        "X": "7757998628",
+        "Y": null
+      },
+      {
+        "step": "K8",
+        "X": "2384626628",
+        "Y": null
+      },
+      {
+        "step": "K9",
+        "X": "1273515517",
+        "Y": null
+      },
+      {
+        "step": "K10",
+        "X": "1273415518",
+        "Y": null
+      },
+      {
+        "step": "K11",
+        "X": "1273415518",
+        "Y": null
+      },
+      {
+        "step": "K12",
+        "X": "5870802097",
+        "Y": 2
+      },
+      {
+        "step": "K11",
+        "X": "5870802097",
+        "Y": null
+      },
+      {
+        "step": "K12",
+        "X": "3172562687",
+        "Y": 1
+      },
+      {
+        "step": "K4",
+        "X": "1540029446",
+        "Y": null
+      },
+      {
+        "step": "K5",
+        "X": "7015475446",
+        "Y": null
+      },
+      {
+        "step": "K6",
+        "X": "2984524554",
+        "Y": null
+      },
+      {
+        "step": "K7",
+        "X": "2455429845",
+        "Y": null
+      },
+      {
+        "step": "K8",
+        "X": "2730274845",
+        "Y": null
+      },
+      {
+        "step": "K9",
+        "X": "1620163734",
+        "Y": null
+      },
+      {
+        "step": "K10",
+        "X": "1620063735",
+        "Y": null
+      },
+      {
+        "step": "K11",
+        "X": "1620063735",
+        "Y": null
+      },
+      {
+        "step": "K12",
+        "X": "6065038420",
+        "Y": 0
+      }
+    ],
+    "boundary": "复算辅助中英原表逐行核对，不替代原页校对；未重演另一个初值的7401/3178历史实验。"
+  }
+}

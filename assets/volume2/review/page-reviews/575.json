@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 575,
+  "cnPrintedPage": 564,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "55bad180251d545f7747ac18e15156649207f238ed8921b25c8c96cbc9af1c2b",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/575.jpg",
+  "cnPageImageSha256": "d4e87df8a161f379025c0b77fd5ea2cd460a4b6775e4a69630be482b89d780de",
+  "enPdfPages": [
+    731,
+    732
+  ],
+  "enPrintedPages": [
+    716,
+    717
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-731.png",
+      "sha256": "0ddbe3cf8ac8793f251a2543b3c8909f334d4fdc58cd93c9f708ba19de884f8f"
+    },
+    {
+      "file": "verified-sources/en-732.png",
+      "sha256": "0b5076766b7b1dcff1b413ecfb306aafa01f897f515ccdad97331fd653c889b7"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-575",
+    "p-564",
+    "ans-4-6-4-68"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续67(c) W/V构造及权阵、(d)标准外积实现、(e)参数扩展/可改进性完整求和。",
+    "67(f)(g)(h)(i)(j)所有边界秩/消去/任意域/迭代平方/数值及原2014文献；68首段至多项式形式。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末68“在计算形如…的多项式时”句在576继续。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.6.4-67c-W-label",
+      "section": "4.6.4答案67(c)首段末",
+      "cnPrintedPage": 564,
+      "enPdfPage": 731,
+      "enPrintedPage": 716,
+      "original": "UDV^T=D2",
+      "final": "WDV^T=D2",
+      "basis": "两版共同用了未定义U。此段刚定义W=(W1 I O)、V=(O I V3)，按D分块直接相乘WDV^T=D2；仅W的中间I块与V的I块相交。"
+    },
+    {
+      "id": "v2-ans4.6.4-67d-one-based-indexing",
+      "section": "4.6.4答案67(d)实现的3个系数",
+      "cnPrintedPage": 564,
+      "enPdfPage": 731,
+      "enPrintedPage": 716,
+      "original": "a_il=[floor(l/n)=i−1],b_jl=[l mod n=j],b_<ij>l=[l=(i−1)n+j]",
+      "final": "a_il=[floor((l−1)/n)=i−1],b_jl=[(l−1) mod n=j−1],c_<ij>l=[l=(i−1)n+j]",
+      "basis": "两版共同把l的1起始编号错误地当作0起始，并把第三矩阵误标为b。按第三式给定l=(i−1)n+j（1≤i≤m,1≤j≤n,1≤l≤mn），前两式必须选出唯一外积x_i y_j，第三项属于C。原m=n=1时两个输入系数均0不能产生x1y1；改后为标准mn项外积实现，追加第r项C全0不改变张量。"
+    }
+  ],
+  "sourceIssues": [
+    {
+      "location": "4.6.4答案67(g)改定义后的u阶数",
+      "englishSame": true,
+      "original": "A_lower/B_lower乘u^(d+1)，C_upper乘u^(d+e+2)，却声称输出u^(d+e+2)t+O(u^(d+e+3))",
+      "decision": "保底本列疑。若原边界实现本身从u^d t开始，直接代入上半输出从u^(2d+e+2)开始；下半以fg=p u^e+O(u^(e+1))也一般产生该阶及余项。需要连同整段约定/归一化作完整重推，未猜改某个单一u幂。"
+    }
+  ],
+  "preservedVersionDifferences": [
+    {
+      "location": "4.6.4答案67(j)末原研究历史注",
+      "chinese": "CN2016收录ω<2.3729以及Ambainis/Filmus/Le Gall arXiv1411.5414(2014)方法障碍2.3078",
+      "english": "EN数字版印717仍为ω<2.3727及Vassilevska Williams STOC44(2012)引用",
+      "decision": "保留中文底本2014原注，不将任一原作者历史叙述更新为当前数值。"
+    }
+  ],
+  "answers": [
+    {
+      "anchor": "ans-4-6-4-68",
+      "exercise_anchor": "ex-4-6-4-68",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 575,
+    "sha256": "55bad180251d545f7747ac18e15156649207f238ed8921b25c8c96cbc9af1c2b",
+    "mathExpressions": 75,
+    "display": 4,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 575,
+        "width": 1280,
+        "sha256": "55bad180251d545f7747ac18e15156649207f238ed8921b25c8c96cbc9af1c2b",
+        "pageErrors": [],
+        "bodyText": 5811,
+        "documentWidth": 1280,
+        "expressions": 75,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 378,
+            "max": 378,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 3,
+            "max": 3,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 189,
+            "max": 189,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 575,
+        "width": 390,
+        "sha256": "55bad180251d545f7747ac18e15156649207f238ed8921b25c8c96cbc9af1c2b",
+        "pageErrors": [],
+        "bodyText": 5811,
+        "documentWidth": 390,
+        "expressions": 75,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 780,
+            "max": 780,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 269,
+            "max": 269,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 405,
+            "max": 405,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 369,
+            "max": 369,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 212,
+            "max": 212,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 10,
+            "max": 10,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 330,
+            "max": 330,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 591,
+            "max": 591,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/575-55bad180251d545f7747ac18e15156649207f238ed8921b25c8c96cbc9af1c2b-metadata-update/575.json",
+      "pageMarkdownSha256": "55bad180251d545f7747ac18e15156649207f238ed8921b25c8c96cbc9af1c2b",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.6.4",
+  "numericCheck": {
+    "file": "arithmetic-end/numeric-check.json",
+    "sha256": "d14036eeadb4a74b6531c751fc02fd4345c06f1dcac921616478a077ddd22f5b",
+    "inputPageSha256": "55bad180251d545f7747ac18e15156649207f238ed8921b25c8c96cbc9af1c2b",
+    "meaning": "17项有限范围/全张量系数/一般推导见文件；本页哈希绑定不代表该页全部一般定理已独立重证。"
+  },
+  "renderedHtmlSha256": "3626474a25048c17b7dffd8c01761fae49d23b906d766edbf4b79adbaee0bef8",
+  "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+  "exerciseTargetsPending": [
+    {
+      "page": 575,
+      "answer": "ans-4-6-4-68",
+      "target": "ex-4-6-4-68",
+      "reason": "目标正文任务尚未落盘，待根任务整卷题答核验；不造习题锚点。"
+    }
+  ]
+}

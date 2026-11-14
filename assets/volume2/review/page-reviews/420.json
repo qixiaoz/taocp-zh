@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.7",
+  "sections": [
+    "4.7"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 420,
+  "cnPrintedPage": 409,
+  "enPdfPages": [
+    540,
+    541
+  ],
+  "enPrintedPages": [
+    525,
+    526
+  ],
+  "pageMarkdownSha256": "632e0d926d549d2c3b8c77072ca080a1fadb30a1b825ceae1600c4103449d2dc",
+  "masterSha256": null,
+  "cnPageImage": "scans/420.jpg",
+  "cnPageImageSha256": "b50b6f9df11f13094089e892e8bf1d620aaf7593968fe527e3f0d2992d8394de",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-540.png",
+      "sha256": "6b6e871d6024e6ee1c69baf9055031ba2c96d43c2318bb3ac5683dacbfcae591"
+    },
+    {
+      "file": "source-audit/en-render/page-541.png",
+      "sha256": "422a2cb1d28bc7ff062b4278df08da5c3a5b3926c7a65cdfe989eb96dbaff07b"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-420",
+    "p-409",
+    "sec-4-7"
+  ],
+  "numberedFormulaTags": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "coveredRegions": [
+    "§4.7实际起点/全正文与行内式/1–5；形式域/精确运算/模zN/在线定义/输入时序/首非零项和幂分支保源。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 39,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch417-numeric-check.json",
+  "numericScope": "60a general six-variable commutative identity by exact polynomial expansion; full60a coefficient identity only finite n=2,4,6. 62 all8 coefficients of displayed rank2 degeneration through order1 overQ, not arbitrary-field minimal-rank proof. SeriesL/T/N/recurrences3,9,12,16,20 exactFraction finite orders5,8,12,16×5fixedcases; not general algorithm/complexity proofs. Full422 table populated cells exact. 74d exact2linearforms withoneconstant multiplication. No claim to prove asymptotic tensor-rank theorems, open lower bounds or arbitrary-field ranks by numerical examples.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch417-proof.html",
+    "htmlSha256": "253ead63b4246bdd965b652ec72babd8c6414e51f6e087af89788dd57e36e22f",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch417-proof-1280-420.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch417-proof-390-420.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 489,
+    "scrollableElementCounts": {
+      "1280": 87,
+      "390": 119
+    },
+    "machineObservations": ".work/volume2/source-audit/batch417-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch417-right-390-420.png",
+    "mobileRightEndVisualReview": true
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 421,
+    "end": "W(z)=(1+V_1z+V_2z^2+V_3z^3+\\cdots)^\\alpha\\tag{5}\n$$",
+    "nextStart": "的系数. 显然$W_0=1^\\alpha=1$.",
+    "afterClosedDisplay": true
+  }
+}

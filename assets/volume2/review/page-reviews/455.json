@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 455,
+  "cnPrintedPage": 444,
+  "enPdfPages": [
+    583,
+    584,
+    585
+  ],
+  "enPrintedPages": [
+    568,
+    569,
+    570
+  ],
+  "pageMarkdownSha256": "68fa84c13688f10b48ac4d9420b8fc01546f4eb467f2bd9deb38c51972efa6c2",
+  "cnPageImageSha256": "85af4b9e0a05e33a9c04a89ec6315b2c8421e6842d07e9888f3b4986e5a25440",
+  "enPageImageSha256": {
+    "583": "009547b1eafe7ba03aa0d05744d23c9bab260a49f4f1092ee6fdb2b4937af210",
+    "584": "158c89349f77502f37f0c3eb92b2e1d196ee564a7d5cfa177f92c73da2cff3d1",
+    "585": "1ef7542caaaf17912bf1a5b740932b6d649535f561a1cbdf01fbc17750374e26"
+  },
+  "coveredRegions": [
+    "3.3.2答29一般b_nr生成函数续段、30完整鞍点推导/算子/泰勒/伯努利/级数/尾项/对偶/历史引文/512例全部。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-455",
+    "p-444",
+    "ans-3-3-2-30"
+  ],
+  "answerAnchors": [
+    "ans-3-3-2-30"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 58,
+    "displayExpressions": 7,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "CN455/EN584 θ^j f式",
+      "source": "j!n/rho^j",
+      "analysis": "ϑ=-d/dρ，f(e^-ρ)=mρ−n lnρ−ln n!−Σ B_l k^l ρ^l/(l l!)，故j≥1的对数主项应为(j−1)!n/rho^j；j2源式是正确系数的2倍。",
+      "disposition": "保两版共同原式列疑，未把候选改式冒充整段鞍点证明。"
+    },
+    {
+      "location": "同页c_j阶",
+      "source": "c_j=O(n^-3), j≥3",
+      "analysis": "由−n lnρ泰勒项，c3主项n δ^3/(3ρ^3)=1/(3sqrt n)，因此原统一n^-3阶不一致。",
+      "disposition": "保原列疑。"
+    },
+    {
+      "location": "同页R_n与负参量对偶",
+      "source": "R_n(z)=Σ_m r_n(z^m)，q_n(m)=p_n(-m)",
+      "analysis": "系数式通常应Σ r_n(m)z^m；由原紧前r_n(-m)=(-1)^(n−1)r_n(m)，q/p应带同一奇偶号。n2的准多项式p2(m)=m/2+3/4+(-1)^m/4直接给p2(-m)=-q2(m)。",
+      "disposition": "两版共同原式保留，列生成函数记号与奇偶号疑点。"
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "begins_from_pdf_page": 454,
+    "answerAtStart": "3.3.2-29",
+    "right_start": "对于一般的 $r$，我们可以由下面的公式得到 $b_{nr}(z)$：",
+    "continuation_end": "左端的和等于 $(1-z)^{-n}/n!$。）",
+    "continues_to_pdf_page": 456,
+    "answerAtEnd": "3.3.2-30",
+    "left_end": "我们的近似值给出估计 $7.080693501\\times10^{1514}$。",
+    "right_next_start": "由习题28，生日间隔检验发现 $R=0$ 间隔的概率为",
+    "instruction": "455起为同答29下一段，30之后另有实际锚点；456首段同答30续段，不新造答号。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "17fe0051e44453dfc5395d74b7da8d4a4ee291bed5aaaad0479614aa4117ad40",
+    "visualReviewSha256": "9fd358b26f3871a254abfd13afa5f256ea08f3b50750a46d081784833ec15939",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 58,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 2,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 58,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 11,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "2be701a51c3e4028b81ea2a930a49016e6d20079316b7db1b90cd0fc0561b308",
+  "numericalCheckQualification": "一般代数依据/原图双语核对为主；小规模枚举只辅助证明检查，不将有限计算充作一般/渐近证明。原文引用的巨型精确划分数未独立计算。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ]
+}

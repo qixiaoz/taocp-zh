@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订须另证包含与跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文整页及列出的英文页图，逐段/逐式/表格/程序字段频次注释和难度推荐符号比较。机器检查和复算另列，不声称人类签核。",
+  "cnPdfPage": 225,
+  "cnPrintedPage": 214,
+  "enPdfPages": [
+    293,
+    294
+  ],
+  "enPrintedPages": [
+    278,
+    279
+  ],
+  "pageMarkdownSha256": "91ae60edb47ee52e5cc5d42fe14b49699968760512eba684879c86094e013151",
+  "cnPageImage": "scans/225.jpg",
+  "cnPageImageSha256": "9dce2c5bfcb064826b7ea06bc1a30652c643c2c1e88c7b4a35a222ca66a64fb9",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-293.png",
+      "sha256": "e8e0fb28e35e8216763fbdd9cd12a7040dde7395d1c2e84da051a5609f4ec027"
+    },
+    {
+      "file": "verified-sources/en-294.png",
+      "sha256": "d5ece1bf24bed0a5caa8dd67abe5655e17fac59aefb57bfb00e3751f2f24837e"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-225",
+    "p-214"
+  ],
+  "coveredRegions": [
+    "首续定理B改进、几种估商方法及文献。",
+    "傅里叶除法、Newton二阶/三阶迭代全部公式与几何展开方法。",
+    "早期多精度程序全部文献，pi计算历史至Shanks707位跨页句。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "Dase首名",
+      "cnText": "约翰·达泽",
+      "enText": "Zacharias Dase",
+      "decision": "按中文底本保留，未凭姓名差异自作更名。"
+    }
+  ],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pendingactualanswer-area-verification",
+  "startsMidParagraph": true,
+  "endsMidParagraph": true,
+  "continuationNotes": "首续224。末“尚克斯的707位数字”接226首“在很多年里…”，合段。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 18,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "只是语法；内容核查依实际中英文原页。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终母稿装订/跨页代码合并/题答回链",
+    "正式VitePress/Pandoc整卷与线上",
+    "未执行MIX或将机器字段一致称作算法正确性证明。"
+  ],
+  "renderReview": {
+    "file": "verified-render/classical-dom-review-222-229.json",
+    "sha256": "18411f91c2491a713c87fc399036de41b8e750c7fd1b54d844a234e272d254fc",
+    "scope": "当前页SHA私有1280/390 DOM与列出复杂区域实际看图，非正式全站。"
+  }
+}

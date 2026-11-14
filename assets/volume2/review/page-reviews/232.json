@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订须另证包含与跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文整页及列出的英文页图，逐段/逐式/表格/程序字段频次注释和难度推荐符号比较。机器检查和复算另列，不声称人类签核。",
+  "cnPdfPage": 232,
+  "cnPrintedPage": 221,
+  "enPdfPages": [
+    303,
+    304
+  ],
+  "enPrintedPages": [
+    288,
+    289
+  ],
+  "pageMarkdownSha256": "bcdf089855dcadd89bc476a30c317a978909206a768a33d6f0809fbc4b103a38",
+  "cnPageImage": "scans/232.jpg",
+  "cnPageImageSha256": "5d0fe25a2ad478bb7a30c29b65d588ede19900af84ab617528164fba56df2bd5",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-303.png",
+      "sha256": "cf64e469bb9ea827f08a6a368a4290394e6ad666d30c5dcf6ebed40df9c6a93d"
+    },
+    {
+      "file": "verified-sources/en-304.png",
+      "sha256": "e0c1440e375ae38b74214de3eba2864bb7d7369a51e972dbf82500c64d3f11a8"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-232",
+    "p-221"
+  ],
+  "coveredRegions": [
+    "首续231“按照”选模原则，条件15的双零代表。",
+    "ones-complement三运算16/17/18全部符号/指数/indicator。",
+    "Mersennegcd19与余数指数20、5模数乘积>2^143。",
+    "模表示转换的Horner多项式、二进制分块21/22及去九说明。",
+    "末转换反向和定理C证明评价引入，下一页i/ii。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pendingactualanswer-area-verification",
+  "startsMidParagraph": true,
+  "endsMidParagraph": false,
+  "continuationNotes": "首续231“按照”。末“基本结论：”后233首i/ii是同一引入列表。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 55,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "只是语法；内容核查依实际中英文原页。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终母稿装订/跨页代码合并/题答回链",
+    "正式VitePress/Pandoc整卷与线上",
+    "未执行MIX或将机器字段一致称作算法正确性证明。"
+  ]
+}

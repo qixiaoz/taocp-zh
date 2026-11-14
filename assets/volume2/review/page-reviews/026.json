@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 26,
+  "cnPrintedPage": 15,
+  "section": "3.2.1.2",
+  "enPdfPages": [
+    33,
+    34,
+    35
+  ],
+  "enPrintedPages": [
+    18,
+    19,
+    20
+  ],
+  "pageMarkdownSha256": "5ed1ef9a8c5c49b923aa80315b7da57f7619edd3c346828e8eb39d3915fa1e46",
+  "cnPageImageSha256": "7e07779ef519cd0b0be8c6822721c9998e45180e3677434941f9215898ac67c7",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 65,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-026",
+    "p-15"
+  ],
+  "substantiveCorrections": [
+    {
+      "section": "3.2.1.2",
+      "location": "引理R证明，式(6)之后",
+      "cnPrintedPage": 15,
+      "enPdfPage": 34,
+      "enPrintedPage": 19,
+      "source": "它的周期为λ（即X_n=0）当且仅当n是λ的倍数。",
+      "final": "它的周期为λ（即X_n=0当且仅当n是λ的倍数）。",
+      "basis": "英文原句把that is从句涵盖X_n=0 iff n is a multiple of λ；中文括号早闭合会把“周期为λ”错接成依赖n的命题。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "coveredRegions": [
+    "定理A续证、引理R完整陈述/证明、式(5)(6)(7)、纯乘法生成器和φ(m)说明。"
+  ],
+  "startsMidParagraph": true
+}

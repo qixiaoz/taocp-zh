@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.3",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；最终母稿须另行证明包含、跨页合段/程序合块及允许展示转换，不仅替换本哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整页和列出的英文页图，逐段/逐式/表格单元/清单行及注释比较；语法/文本字段检查/复算独立列出。模型视觉核查，不声称人类签核。",
+  "cnPdfPage": 203,
+  "cnPrintedPage": 192,
+  "enPdfPages": [
+    265,
+    266
+  ],
+  "enPrintedPages": [
+    250,
+    251
+  ],
+  "pageMarkdownSha256": "2f5713179006cfeba6e5ffc4682e4a90775cae1b68d351af95d2a80f036c4514",
+  "cnPageImage": "scans/203.jpg",
+  "cnPageImageSha256": "f5a1de82953783b946853a271b15e92be36edbebed332ab84c326ca3e4606259",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-265.png",
+      "sha256": "3f2aab1d70e7d077ad4985d96f127aef7001b4c4a40ad91590af1661cb2b41a4"
+    },
+    {
+      "file": "verified-sources/en-266.png",
+      "sha256": "81af2df607cc79b8c31e88585590855ef49af77e2ba2c7b4d5a7f4ecdc8139e2"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码；物理页和印刷页隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-203",
+    "p-192",
+    "prog-4-2-3-d"
+  ],
+  "coveredRegions": [
+    "程序M29–33及结束方块，精度/指数寄存器解释。",
+    "双精度除法几何展开式2，epsilon定义与逐项误差说明。",
+    "程序D设定及01–21所有字段和中文注释。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "程序D14注释",
+      "bothSourceText": "See Algorithm4.2.1M / 见算法4.2.1M",
+      "decision": "两版都写M，照录，不凭猜测改成D。"
+    }
+  ],
+  "numberedFormulaTags": [
+    "2"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "not-applicable",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "首M29–33续202，随后是完整正文；D01–21接204首22–39，同一程序最终合一代码块。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 11,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [
+      5,
+      21
+    ],
+    "meaning": "仅排版语法；内容来自以上中文/英文原页实际比较。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "辅助原页核查，不当作原书答案来源或替代视觉比较。",
+    "results": {}
+  },
+  "untested": [
+    "最终母稿装订包含/跨页程序合并与原题答双向链接。",
+    "最终正式VitePress/Pandoc整卷和线上。",
+    "未执行MIX程序，未以代码字段一致宣称数值实现正确。"
+  ],
+  "renderReview": {
+    "file": "verified-render/double-dom-review-199-206.json",
+    "sha256": "6f0e4ea6e73341500b9b50022fc1392832b8c3f20e4374f322fb9dbe0ed62dff",
+    "scope": "Currentpage SHA; isolated1280/390 DOM plus explicitlylistedselectedregionsactualvisual. SharedVitePress/Pandoc not included."
+  }
+}

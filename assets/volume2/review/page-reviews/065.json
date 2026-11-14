@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 65,
+  "cnPrintedPage": 54,
+  "section": "3.3.2",
+  "enPdfPages": [
+    85,
+    86,
+    87
+  ],
+  "enPrintedPages": [
+    70,
+    71,
+    72
+  ],
+  "pageMarkdownSha256": "214ec7e6309390b3e7cfcd622758adea71f773d2afa02e85b942f3f96d886871",
+  "cnPageImageSha256": "a400fe7fb57573f2d0e387ed8f4ea3832dd43dd7ffaad99e9acc6819b478b5eb",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 73,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-065",
+    "p-54"
+  ],
+  "coveredRegions": [
+    "碰撞检验续文、7项概率表；原斯特林概率式；算法S1–S3全部；J生日间隔检验、4项概率表及失败现象续段。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 64,
+    "start": "20维随机性。"
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 66,
+    "end": "马尔萨利亚、阿里夫·扎曼和",
+    "continuation": "曾衛寰，Stat. and Prob. Letters..."
+  },
+  "algorithmStepsReviewed": 3,
+  "numericAudit": {
+    "method": "Independent forward recurrence on collision count, P_{i+1}(c)=P_i(c)(1-(i-c)/m)+P_i(c-1)(i-c+1)/m, starting P_0(0)=1; retain0..300 collisions; m2^20,n2^14. Source table read directly in both languages before computing.",
+    "records": [
+      {
+        "collisionsLe": 101,
+        "sourceProbability": 0.009,
+        "calculatedProbability": 0.008611382310478121,
+        "matchesPrintedRounding": true
+      },
+      {
+        "collisionsLe": 108,
+        "sourceProbability": 0.043,
+        "calculatedProbability": 0.043194299802245116,
+        "matchesPrintedRounding": true
+      },
+      {
+        "collisionsLe": 119,
+        "sourceProbability": 0.244,
+        "calculatedProbability": 0.24392003703056586,
+        "matchesPrintedRounding": true
+      },
+      {
+        "collisionsLe": 126,
+        "sourceProbability": 0.476,
+        "calculatedProbability": 0.4761159527693195,
+        "matchesPrintedRounding": true
+      },
+      {
+        "collisionsLe": 134,
+        "sourceProbability": 0.742,
+        "calculatedProbability": 0.7423622969136492,
+        "matchesPrintedRounding": true
+      },
+      {
+        "collisionsLe": 145,
+        "sourceProbability": 0.946,
+        "calculatedProbability": 0.9458031074940866,
+        "matchesPrintedRounding": true
+      },
+      {
+        "collisionsLe": 153,
+        "sourceProbability": 0.989,
+        "calculatedProbability": 0.9888429044406113,
+        "matchesPrintedRounding": true
+      }
+    ],
+    "retainedProbabilitySum": 1.0000000000000033,
+    "meanCollisions": 127.3282379998509,
+    "sourceMean": 127.33,
+    "birthdayTableProbabilitySum": 0.999999999,
+    "birthdayTableIndependentDistributionRecalculation": false,
+    "birthdayTableReview": "全部4项已逐项读中英原页并一致；仅独立校验和，不声称重新导出有限m,n的精确生日间隔分布。"
+  }
+}

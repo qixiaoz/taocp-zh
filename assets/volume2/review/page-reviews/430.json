@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": true,
+  "originalFootnoteIds": [
+    "v2-p419-series"
+  ],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.7",
+  "sections": [
+    "4.7"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 430,
+  "cnPrintedPage": 419,
+  "enPdfPages": [
+    552
+  ],
+  "enPrintedPages": [
+    537
+  ],
+  "pageMarkdownSha256": "f3e133f83d123c68e13ab7ccdc0c420d00629f19363e482a64973661b2fbc4f4",
+  "masterSha256": null,
+  "cnPageImage": "scans/430.jpg",
+  "cnPageImageSha256": "e0dda24092209f65cebe2367bfb0810651733d255b7a1c6af59e856777b45580",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-552.png",
+      "sha256": "9591fbd6135aef3693a28cb4d236f0a31fae1d8a54ae528a26233a9c17fd5722"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-430",
+    "p-419"
+  ],
+  "numberedFormulaTags": [],
+  "coveredRegions": [
+    "28续段普通系列特例/无限变量/三种运算条件/完整delta提示及原答案链接；三段题后引语、出处、连绵不绝台阶双关原编者脚注；正文最终边界。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 18,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch429-numeric-check.json",
+  "numericScope": "ExactFraction finite fullpower-matrix log/exponential23a,b,d,e orders5,8,11×4series includingallcompositiontuples23e; not arbitrarycomplexiteration proof. GF2 splitcomposition26 N1..33×5cases againstdirectcomposition. qproduct27 N4,8,12×q0,2,−2,1/2×m1..6. Dirichlet28 fullcoefficients1..96×4cases,deltaLeibniz/power6exponents/exp/log exact; finite truncations not general rank,asymptoticcomplexity or authorial-intent proofs.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch429-proof.html",
+    "htmlSha256": "bb0ef5df543fb11405a96956dfde461c5623693ffc4c2ef03a4aede86191f632",
+    "rendererSha256": "517d51952f8f8b8f8d7b6c7266d490c25b1ab65332cbb6e18476809abe7a425a",
+    "scope": "Two-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch429-proof-1280-430.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch429-proof-390-430.png",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch429-right-390-430.png",
+    "mobileRightEndVisualReview": true,
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 83,
+    "scrollableElementCounts": {
+      "1280": 8,
+      "390": 15
+    },
+    "machineObservations": ".work/volume2/source-audit/batch429-browser.json",
+    "footnoteRoundTrip": "430 originaleditorfootnote clickedandbackat1280and390; targetexists andfulltextobserved."
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch425-answer-presence.json",
+    "linkedExercises": [
+      28
+    ],
+    "allActualOriginalNumberedAnswersPresent": true,
+    "roundTripDeferredUntilAnswerTranscriptionAndAssembly": true,
+    "independentAnswerContentReviewClaimed": false
+  },
+  "startsMidExercise": {
+    "exercise": "4.7-28",
+    "previousCnPdfPage": 429,
+    "previousEnd": "完整狄利克雷卷积式闭合",
+    "start": "普通的幂级数可看作狄利克雷级数的特例",
+    "afterClosedDisplay": true
+  },
+  "originalFootnote": {
+    "marker": "①",
+    "finalId": "v2-p419-series",
+    "referenceText": "这连绵不绝的台阶",
+    "text": "“连绵不绝的台阶”的英文是infinite series，作者在这里使用了双关语. ——编者注",
+    "englishOriginalHasNoChineseEditorNote": true
+  },
+  "bodyEndBoundary": {
+    "bodySection": "4.7",
+    "lastExercise": 28,
+    "lastBodyText": "三段题后引语与最后原编者脚注完整保留。",
+    "nextCnPdfPage": 431,
+    "nextPrintedPage": 420,
+    "nextTitle": "习题答案",
+    "nextStartsWith": "查尔斯·皮尔士引语、习题说明、3.1节答案",
+    "nextOriginalPageDirectlyViewed": true,
+    "nextCnPageImageSha256": "8f82525ecae9e9f988fb19cf715e4a4e57f7665cad16e63bfce4f390da5830e3",
+    "enNextPdfPage": 553,
+    "enNextPrintedPage": 538,
+    "enNextTitle": "ANSWERS TO EXERCISES",
+    "enNextOriginalPageDirectlyViewed": true,
+    "enNextPageImageSha256": "ad1cd84620f5aed432429bbdef8475dc3b5f4cdc4ea2abb05207c7bf3626be9c",
+    "noBodyTextContinuesIntoAnswerPage": true,
+    "scopeStop": 430
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-14T19:25:06.359793+00:00",
+  "reviewer": "Model actual Chrome/Playwright execution plus direct representative screenshots; not a human signoff.",
+  "status": "passed",
+  "masterSha256": "a273301d2ea5ada1ecc1c41cb836f8fc9636e1c2317dde57f2d5c9fa83e723ee",
+  "offlineHtmlSha256": "df45967d94fd0550ad7db7efd9ddb70e1c0dcd6ee8f2602f48e8771d229cada6",
+  "offlineHtml": "private-evidence/proof/volume2-offline.html",
+  "offlineStatsSha256": "901d4bd46ef1440fb7e7c99fca966748ee8969c5b56802ba8357a1c4a96dd04d",
+  "privateRenderer": "private-evidence/tools/render_pandoc.py",
+  "privateRendererSha256": "24c8a44a14003d9561ea87a79aff6807fb7af3e554d379b80df5f5b75c942608",
+  "privateKatexHelperSha256": "f5efe7e4c789d0a89ddb6a6f698955d0111b312b8e6f281a9f1dd4d658c7c5b6",
+  "mathml": 32487,
+  "nativeMathml": 31574,
+  "exactOriginalTexKatexFallbacks": 913,
+  "fallbackReasons": {
+    "originalNativeSyntaxUnsupported": 64,
+    "nativeSilentEquationTagLoss": 849
+  },
+  "visibleEquationTags": 852,
+  "browser": {
+    "engine": "Actual local Google Chrome headless",
+    "executable": "Google Chrome.app (isolated local executable)",
+    "version": "153.0.8010.48",
+    "playwrightVersion": "1.62.1",
+    "browserPluginAvailable": false,
+    "protocol": "local-file"
+  },
+  "viewports": [
+    {
+      "width": 1280,
+      "heightForFullChecks": 1000,
+      "sections": 113,
+      "allContainers": 33568,
+      "actualOverflowContainers": 179,
+      "allBothEndsPassed": true,
+      "documentHorizontalOverflow": false,
+      "allFragmentLinksActivated": 7438,
+      "fragmentCategories": {
+        "other": 223,
+        "section": 75,
+        "answer": 865,
+        "footnoteForward": 21,
+        "exercise": 884,
+        "page": 5349,
+        "footnoteBack": 21
+      },
+      "indexLinksIncluded": 3069,
+      "footnotePointerRoundTrips": 21,
+      "imagesLoaded": 59,
+      "existingMagnificationLinksClickedAndReturned": 53,
+      "unlinkedImagesLoadedWithoutInventingZoomLinks": 6,
+      "allTables": 91,
+      "numericCellsNotSplit": 2776,
+      "allVisibleEquationTags": 852,
+      "allFallbacksWithExactSourceTexAndNoHiddenBody": 913,
+      "initialHashSamples": [
+        "ans-4-6-4-48",
+        "p-80",
+        "sec-index",
+        "fn21"
+      ],
+      "ordinaryFirstClickTargetNeverPrematerialized": true,
+      "consoleErrors": [],
+      "consoleWarnings": []
+    },
+    {
+      "width": 390,
+      "heightForFullChecks": 1000,
+      "sections": 113,
+      "allContainers": 33568,
+      "actualOverflowContainers": 1452,
+      "allBothEndsPassed": true,
+      "documentHorizontalOverflow": false,
+      "allFragmentLinksActivated": 7438,
+      "fragmentCategories": {
+        "other": 223,
+        "section": 75,
+        "answer": 865,
+        "footnoteForward": 21,
+        "exercise": 884,
+        "page": 5349,
+        "footnoteBack": 21
+      },
+      "indexLinksIncluded": 3069,
+      "footnotePointerRoundTrips": 21,
+      "imagesLoaded": 59,
+      "existingMagnificationLinksClickedAndReturned": 53,
+      "unlinkedImagesLoadedWithoutInventingZoomLinks": 6,
+      "allTables": 91,
+      "numericCellsNotSplit": 2776,
+      "allVisibleEquationTags": 852,
+      "allFallbacksWithExactSourceTexAndNoHiddenBody": 913,
+      "initialHashSamples": [
+        "ans-4-6-4-48",
+        "p-80",
+        "sec-index",
+        "fn21"
+      ],
+      "ordinaryFirstClickTargetNeverPrematerialized": true,
+      "consoleErrors": [],
+      "consoleWarnings": []
+    }
+  ],
+  "repairs": [
+    {
+      "kind": "table-local-scroll",
+      "actualFailureEvidence": "history/html-753e07bb4ec904b7/spectral-pdf091-092-1280-left.png",
+      "fix": "td/th overflow-wrap:normal; table inline native/fallback max-width:none and overflow:visible; logicaltablelocalscroll."
+    },
+    {
+      "kind": "visible-equation-tags",
+      "actualFailureEvidence": "history/html-2feb97b1dbe80470/tensor52-tag-1280-right.png",
+      "fix": "All852taggeddisplayformulasrendercompleteoriginalTeXwithalreadyestablishedKaTeXpath; 849newfallbacks,noindependentlabelparser/layout."
+    },
+    {
+      "kind": "real-first-fragment-navigation",
+      "actualFailureEvidence": "html-8cbb8163d94b03de/navigation-pointer.json",
+      "fix": "PureCSS section:has(:target),section:target content-visibility:visible!important; noaddedscripts. Newlinktestdoesnotprematerializetarget.",
+      "pureCss30FrameEvidence": "css-target-test.json"
+    },
+    {
+      "kind": "single-literal-N3-step-label",
+      "actualFailureEvidence": "private-evidence/proof/page572-pandoc-before-link-repair.json",
+      "fix": {
+        "kind": "literal-algorithm-step-label-escape",
+        "original": "N3.[变换.](",
+        "pandocInput": "N3.\\[变换.\\](",
+        "replacementCount": 1,
+        "sourceSha256": "a273301d2ea5ada1ecc1c41cb836f8fc9636e1c2317dde57f2d5c9fa83e723ee",
+        "reason": "Pandoc parses the unescaped step label plus parenthesized algorithm explanation as a Markdown link and swallows the explanation and three inline formulas into href. Escaping this exact label preserves visible original punctuation and prose; no source-mother rewrite."
+      },
+      "preparedPandocInputSha256": "bb78c70940b696383935f99701b93e3591d3b6ced08a055f34d9ecfa6598ea92",
+      "allUnexpectedLocalNonFragmentHrefs": 0,
+      "all3RestoredMathVerified": true
+    }
+  ],
+  "sourceMotherAndPageRecordsModified": false,
+  "publicFilesModifiedByThisReview": false,
+  "privateRendererOnlyChanged": true,
+  "directScreenshotReview": {
+    "htmlSha256": "df45967d94fd0550ad7db7efd9ddb70e1c0dcd6ee8f2602f48e8771d229cada6",
+    "directlyViewed": true,
+    "scope": "Representativeactualrenderedscreenshotsdirectlyopenedbyview_image; otherallcontainer/link/imagecoverageisprogrammaticactualChromeexecution.",
+    "artifactLabelNote": "cross-page-FCMP is a test filename; the actual chosen pre25 is the double-precision FSUB/DFADD program shown in the screenshot, not an assertion that it is the FCMP subroutine.",
+    "files": [
+      {
+        "file": "tensor52-tag-1280-left.png",
+        "sha256": "dfc2add5bfa50dcee79608cd5391ac4d94e7d486a48dc8955694df32ef3055c7"
+      },
+      {
+        "file": "tensor52-tag-1280-right.png",
+        "sha256": "1279fd8891f0a0224034c9525dc4cd5a92f6f0b5a6a539f51f37fd0663ed12ec"
+      },
+      {
+        "file": "answer572-N3-1280-left.png",
+        "sha256": "41e290c943eb4e02391ee72a9bcef2d7717a8c94003c5c4f186cd7a9aa850894"
+      },
+      {
+        "file": "spectral-pdf091-092-1280-left.png",
+        "sha256": "8c64a07951992f4901cc752462fc1191f49de3064da758703823d642ecce6d02"
+      },
+      {
+        "file": "spectral-pdf091-092-1280-right.png",
+        "sha256": "387396bbd74df40870bec0d3433bfdab139b9a50e07fe5a15ab99a98f60b3b24"
+      },
+      {
+        "file": "cross-page-FADD-1280-left.png",
+        "sha256": "e3eb3232100c7839222497bb2af958389df1d925bba525d633bfcb2e4878c590"
+      },
+      {
+        "file": "cross-page-FCMP-1280-left.png",
+        "sha256": "44609f95e46937cdcf17251a22b65bd0353c29386c8a90eececf4cb560c50611"
+      },
+      {
+        "file": "interval-fallback-1280-left.png",
+        "sha256": "00bf3378108df2dce82f68c90c5b66d33ff86cddefc013d082f2d674eee4fa59"
+      },
+      {
+        "file": "interval-fallback-1280-right.png",
+        "sha256": "6a09cef3a88bb6f84b77ea4b2c23238dac1dfe6f6e8ddc395da63638c5d54216"
+      },
+      {
+        "file": "fig16-1280-left.png",
+        "sha256": "499ac1dc3699a6f29aff74028aaffe127945e08cb25933dbfc87661cd8906ff0"
+      },
+      {
+        "file": "fig17-1280-left.png",
+        "sha256": "c4c42331677cb3d9400b05372ec36cf404080f79299e75e72f9cd31eea0540f0"
+      },
+      {
+        "file": "tensor52-tag-390-left.png",
+        "sha256": "7ac9e105df55e382d620a4d0757ab6cd8dce4330057ec6dfa89ea48979194a4d"
+      },
+      {
+        "file": "tensor52-tag-390-right.png",
+        "sha256": "38ec7845938866aa149a7323fb1e7b3e1bd51fd3c0472347b498203b98855ea5"
+      },
+      {
+        "file": "answer572-N3-390-left.png",
+        "sha256": "b521c60108e57aeb98c7f680ee7fda20da44867bf1c82fd5b167d9e49c545bc5"
+      },
+      {
+        "file": "fig16-390-left.png",
+        "sha256": "b4064a595137c399c1127b0177d335d81fcac5a96ea6bba6c30d3299006be446"
+      },
+      {
+        "file": "fig17-390-left.png",
+        "sha256": "cd071048afa39b0726ff1cb830f3e949fd7acd47ded3ff09a96a475242b4ac9a"
+      },
+      {
+        "file": "spectral-pdf091-092-390-left.png",
+        "sha256": "a37d4f5d0c71dfbdaae0834c5348f7877f592b67eb54eb375b6b0f94d61d7085"
+      },
+      {
+        "file": "spectral-pdf091-092-390-right.png",
+        "sha256": "91f5e612e998470aac83f1911f62e9be91e05a199b88ef82490ac760cbcddadc"
+      },
+      {
+        "file": "cross-page-FADD-390-right.png",
+        "sha256": "6d4d9bac721257915de170aab10d9534a1f96d3d5aeeb3d88e0cc0223ce516b0"
+      },
+      {
+        "file": "cross-page-FCMP-390-left.png",
+        "sha256": "4946248c2267718befc93163a7ac28f42545e9bd375be2f5a1a26f0cc49d0701"
+      },
+      {
+        "file": "MIX-opcodes-1280-left.png",
+        "sha256": "441c66feb135ed6d1e55b5c21f016085024ac1aafebb5eb1fcc7bea46e559cba"
+      },
+      {
+        "file": "MIX-opcodes-390-right.png",
+        "sha256": "e3a68149e6276b278c9d1fb43cd81ccd409b1ed148fb596e6904232c3aa32d97"
+      },
+      {
+        "file": "footnote21-390-forward.png",
+        "sha256": "3f96dffc05439f38c776a92394c9a2d248eee7364016fa1983c86dca49b00048"
+      },
+      {
+        "file": "footnote21-390-back.png",
+        "sha256": "e16d376d1c139ebbe5c8f1b161b7af3b5505bd6852720265a09e1910bc00c097"
+      },
+      {
+        "file": "image-390-fig-4-17.svg-left-top.png",
+        "sha256": "3b597aa1999c8cbcf851f20e8612ffe4f4bf2d83d19a229fafc0c0a6a4970f56"
+      },
+      {
+        "file": "image-390-fig-4-17.svg-right-bottom.png",
+        "sha256": "e24a0ff274328f18a9576eb7fa02847622306382f03ee1d31dbceba2772b2647"
+      },
+      {
+        "file": "index-390.png",
+        "sha256": "feba31bc7fdc6223e450703fe34f314bd00de18a4b14f236c119e9a4cdd9df75"
+      }
+    ]
+  },
+  "historicalRuns": "PriorHTML753e07bb,2feb97b1,8cbb8163,de5916b6 arehistory/superseded,neverrelabeledasthisfinalhash. Theearlierprematerializednavigationtestmaskedthen-fixedfirstclickissue.",
+  "scope": "Completevolumeofflineproof actualbrowserbehavior at1280and390,all113sectionsandactualoverflowcontainers/links/images. Directvisualreviewisrepresentativecategoriesinclcomplexnumberedmatrix,MIXtable,crosspageprograms,spectral91/92,fig16/17,N3restoredparagraph,footnotes/index; noteveryformulaorimagevisuallyrereadagainstCN/ENinthisbrowserphase.",
+  "notCovered": "Productionwebsite/onlineZIP/deployment acceptance performed byrootseparately; darkmode notapplicable to fixedpaper offlineproof.",
+  "publicationSanitization": {
+    "privateOriginalEvidenceSha256": "292058885f4523a3c993b5bb7faafd29c7c8c86bacac50c440cd2c19ff11b989",
+    "fields": [
+      ".offlineHtml",
+      ".privateRenderer",
+      ".browser.executable",
+      ".browser.protocol",
+      ".repairs[3].actualFailureEvidence"
+    ],
+    "treatment": "Private work-file locators are marked private-evidence; local executable path and file-protocol notation normalized for public metadata. Original source/render hashes, test counts and limitations unchanged. Screenshots and working tools remain private; this public summary preserves their evidence hashes."
+  }
+}

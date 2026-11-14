@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 554,
+  "cnPrintedPage": 543,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "defb7f61ca9b9e50ea077550f78e203bc25ef1d20eb822dfbbf14e0eeddc9fa6",
+  "masterBinding": "单页当前MD；整卷装订另行验证，不替换旧检查哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "reviewMeaning": "直接看完整CN页与实际对应EN页图，逐段全部数学/原注/程序与表复核；非人类签核，未声称独立证明全部原定理。",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/554.jpg",
+  "cnPageImageSha256": "3bb4f77927363d452b34fc8f8dc47f7a2564af4724f6dd8021a7c8397b98c1f3",
+  "enPdfPages": [
+    704,
+    705,
+    706
+  ],
+  "enPrintedPages": [
+    689,
+    690,
+    691
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-704.png",
+      "sha256": "ef29e86cd7232348f439623620f5522c9483aa1b96ded899036192233d1eb55a"
+    },
+    {
+      "file": "verified-sources/en-705.png",
+      "sha256": "4483fd7c79d77d921fb8c8e6de0078e9c42d7370e97886b20bc9a8eaebb9e272"
+    },
+    {
+      "file": "verified-sources/en-706.png",
+      "sha256": "9e24ac8f0a8ba72aebe339b3b48fc9e697b4424deb89217854c48fdde2fd4c4c"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-554",
+    "p-543",
+    "ans-4-6-2-38",
+    "ans-4-6-2-39",
+    "ans-4-6-2-40",
+    "ans-4-6-2-41",
+    "ans-sec-4-6-3",
+    "ans-4-6-3-1",
+    "ans-4-6-3-2"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，保留页锚点。"
+  ],
+  "coveredRegions": [
+    "首续答37原历史；38 Rouché根界全证明；39 resultant/不可约见证/线性型鸽巢全构造；40有理重构、41 Boyd例。",
+    "实际4.6.3标题，答1、2说明及MIX清单01–03完整字段/频率/注释。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "continuationNotes": "末MIX01–03续555的04–22，必须合为一个22行清单，页锚点块外。",
+  "substantiveCorrections": [
+    {
+      "id": "v2-ans4.6.2-39-linear-bound-indices",
+      "section": "4.6.2答案39 B及紧随其后的S_j参数",
+      "cnPrintedPage": 543,
+      "enPdfPage": 705,
+      "enPrintedPage": 690,
+      "original": "B=ceil max_(1≤j<n) Σ_(i=0)^(n−1)|α_i|^j；S_j(a1,…,a_(n−1))",
+      "final": "B=ceil max_(1≤j<n) Σ_(i=0)^(n−1)|α_j|^i；S_j(a0,…,a_(n−1))",
+      "basis": "两版共同指标交换，α0亦未定义。此前线性型明确为Re/Im Σ_i a_i α_j^i；0≤a_i<b时三角不等式逐j给|S_j|<bΣ_i|α_j|^i≤bB，参数亦必须包含a0。只修此唯一与原定义相符的界，后续鸽巢证明保留。"
+    },
+    {
+      "id": "v2-ans4.6.2-39-divisibility-direction",
+      "section": "4.6.2答案39末句",
+      "cnPrintedPage": 543,
+      "enPdfPage": 705,
+      "enPrintedPage": 690,
+      "original": "否则的话t(x)就会整除u(x)",
+      "final": "否则的话u(x)就会整除t(x)",
+      "basis": "两版共同整除方向倒置。u在Q[x]不可约且α_j为其根，t(α_j)=0意味着最小多项式u整除t；t非零且deg t<n=deg u，故矛盾，得到β_j≠0。"
+    }
+  ],
+  "sourceIssues": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-6-2-38",
+      "exercise_anchor": "ex-4-6-2-38",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-39",
+      "exercise_anchor": "ex-4-6-2-39",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-40",
+      "exercise_anchor": "ex-4-6-2-40",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-2-41",
+      "exercise_anchor": "ex-4-6-2-41",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-3-1",
+      "exercise_anchor": "ex-4-6-3-1",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-6-3-2",
+      "exercise_anchor": "ex-4-6-3-2",
+      "backlink_present": true
+    }
+  ],
+  "syntaxCheck": {
+    "page": 554,
+    "sha256": "defb7f61ca9b9e50ea077550f78e203bc25ef1d20eb822dfbbf14e0eeddc9fa6",
+    "mathExpressions": 72,
+    "display": 0,
+    "footnotes": 0,
+    "codeLines": [
+      3
+    ],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿/题答往返",
+    "所有一般证明的独立重证及MIX执行",
+    "整卷Pandoc/VitePress/线上"
+  ],
+  "browserCheck": {
+    "widths": [
+      1280,
+      390
+    ],
+    "results": [
+      {
+        "page": 554,
+        "width": 1280,
+        "sha256": "defb7f61ca9b9e50ea077550f78e203bc25ef1d20eb822dfbbf14e0eeddc9fa6",
+        "pageErrors": [],
+        "bodyText": 4847,
+        "documentWidth": 1280,
+        "expressions": 72,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 11,
+            "max": 11,
+            "reachable": true
+          }
+        ]
+      },
+      {
+        "page": 554,
+        "width": 390,
+        "sha256": "defb7f61ca9b9e50ea077550f78e203bc25ef1d20eb822dfbbf14e0eeddc9fa6",
+        "pageErrors": [],
+        "bodyText": 4847,
+        "documentWidth": 390,
+        "expressions": 72,
+        "errors": 0,
+        "swallowed": 0,
+        "missing": [],
+        "scroll": [
+          {
+            "left": 0,
+            "right": 130,
+            "max": 130,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 118,
+            "max": 118,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 320,
+            "max": 320,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 8,
+            "max": 8,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 24,
+            "max": 24,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 55,
+            "max": 55,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 39,
+            "max": 39,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 2,
+            "max": 2,
+            "reachable": true
+          },
+          {
+            "left": 0,
+            "right": 413,
+            "max": 413,
+            "reachable": true
+          }
+        ]
+      }
+    ],
+    "meaning": "隔离Chrome实际打开当前页，两端滚动DOM测量；仅另列截图是模型直接查看范围。"
+  },
+  "history": [
+    {
+      "file": "verified-history/554-defb7f61ca9b9e50ea077550f78e203bc25ef1d20eb822dfbbf14e0eeddc9fa6-metadata-update/554.json",
+      "pageMarkdownSha256": "defb7f61ca9b9e50ea077550f78e203bc25ef1d20eb822dfbbf14e0eeddc9fa6",
+      "note": "保留此前证据；本次当前字节重新检查。"
+    }
+  ],
+  "section": "answers4.6.2+4.6.3",
+  "numericCheck": {
+    "file": "arithmetic-final/numeric-check.json",
+    "sha256": "366d868527ea4ebadd69161aea5793d80975c4cc4a54e4cb76bdc9b410cde1df",
+    "inputPageSha256": "defb7f61ca9b9e50ea077550f78e203bc25ef1d20eb822dfbbf14e0eeddc9fa6",
+    "meaning": "独立复算17项及一般符号/计数证明具体范围见文件；绑定本页不代表本页全部一般证明已重证。"
+  },
+  "scrollEndpointScreenshotsDirectlyViewed": {
+    "file": "arithmetic-final/endpoints.json",
+    "sha256": "4d78e7bd85e9ae6d2bb28896ca416beebf0a7a729ec335baa86829539ac3b558",
+    "regions": [
+      {
+        "page": 554,
+        "kind": "pre",
+        "index": 0,
+        "side": "left",
+        "file": "endpoint-554-0-left.png",
+        "sha256": "defb7f61ca9b9e50ea077550f78e203bc25ef1d20eb822dfbbf14e0eeddc9fa6",
+        "left": 0,
+        "clientWidth": 358,
+        "scrollWidth": 358
+      },
+      {
+        "page": 554,
+        "kind": "pre",
+        "index": 0,
+        "side": "right",
+        "file": "endpoint-554-0-right.png",
+        "sha256": "defb7f61ca9b9e50ea077550f78e203bc25ef1d20eb822dfbbf14e0eeddc9fa6",
+        "left": 0,
+        "clientWidth": 358,
+        "scrollWidth": 358
+      }
+    ],
+    "contactSheetsDirectlyViewed": [
+      {
+        "file": "arithmetic-final/endpoints-sheet-1.png",
+        "sha256": "4c18d73f9f3b6ff3f1ee127c875bc3fe89c2abc4d7ba985fd0352005742ecf22"
+      },
+      {
+        "file": "arithmetic-final/endpoints-sheet-2.png",
+        "sha256": "60e62abbff9aeea3d1bffe734ac4dcb3c7654d13fca0b8b14107e9a7e8f83b0f"
+      },
+      {
+        "file": "arithmetic-final/endpoints-sheet-3.png",
+        "sha256": "1a9b2993b12dbdab9057dba133dda3bdfcf382b1461a2e2d2d3f57ca3d7cc8de"
+      },
+      {
+        "file": "arithmetic-final/endpoints-sheet-4.png",
+        "sha256": "f945212aaf4cf906a543a940fba514aaf384b0945ffa2deb8df587b002ba4b26"
+      }
+    ],
+    "meaning": "所列关键式/矩阵/表/程序的390屏左右端图已直接查看；页面全体DOM滚动另列，未称全部式均有独立截图视觉签核。"
+  },
+  "exerciseTargetsPending": [
+    {
+      "page": 554,
+      "answer": "ans-4-6-3-1",
+      "target": "ex-4-6-3-1",
+      "reason": "当前独立正文任务尚未写入目标习题锚点；答案原号及回链真实，待整卷装订复核。"
+    },
+    {
+      "page": 554,
+      "answer": "ans-4-6-3-2",
+      "target": "ex-4-6-3-2",
+      "reason": "当前独立正文任务尚未写入目标习题锚点；答案原号及回链真实，待整卷装订复核。"
+    }
+  ]
+}

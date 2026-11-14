@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.5.4",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 332,
+  "cnPrintedPage": 321,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    430,
+    431
+  ],
+  "enPrintedPages": [
+    415,
+    416
+  ],
+  "pageMarkdownSha256": "71fd7a88a1b1e02f645ca04e537196be6b2e1c894fd9ed92622e4302ff6ff561",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/332.jpg",
+  "cnPageImageSha256": "8303b26958d09f865cd6506e7885d0bab9fa15afc3cf7751dce1153959619755",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-430.png",
+      "sha256": "d53518293961026cbe4b11d4a890a22de8b3f25717d3fcd417a853286d1c4ef0"
+    },
+    {
+      "file": "source-audit/en-render/page-431.png",
+      "sha256": "28ecd42cea166b969ad8fb3e34111c8c0bf48e9dacf3c6e653b0b3de9f500c9e"
+    }
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-332",
+    "p-321",
+    "ex-4-5-4-31",
+    "ex-4-5-4-32",
+    "ex-4-5-4-33",
+    "ex-4-5-4-34",
+    "ex-4-5-4-35",
+    "ex-4-5-4-36",
+    "ex-4-5-4-37",
+    "ex-4-5-4-38",
+    "ex-4-5-4-39",
+    "ex-4-5-4-40"
+  ],
+  "numberedFormulaTags": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 82,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "语法只证明可解析；原图/双语、精确代数和有限样本另列。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿包含关系/装订后的题答导航",
+    "完整Pandoc及正式VitePress/线上网站与下载包",
+    "非本页的答案内容未借存在性检查冒充双语校订。"
+  ],
+  "coveredRegions": [
+    "习题31–40全部正文、模型运算/复杂度、回文连分数、完整可见素数链和省略说明。"
+  ],
+  "substantiveCorrections": [
+    {
+      "section": "4.5.4 exercise34 success fraction",
+      "cnPrintedPage": 321,
+      "enPdfPage": 430,
+      "enPrintedPage": 415,
+      "original": "对所有正整数中10^−12的x成立",
+      "final": "对所有正整数中至少10^−12的x成立",
+      "basis": "English assumption isatleast10^−12 of all positive integers. Restore the omitted lower-bound qualifier; not an exact fraction requirement."
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "numericEvidence": ".work/volume2/source-audit/batch328-numeric-check.json",
+  "numericScope": "20904项复核包含有限递推/模幂/幻秩/LL/题目例子；范数正号有完整精确多项式展开；题47九行数据匹配原本。有限检查不等于所有定理或习题一般证明。",
+  "exercises": [
+    {
+      "number": 31,
+      "difficulty": "M20",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-31"
+    },
+    {
+      "number": 32,
+      "difficulty": "M21",
+      "recommended": true,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-32"
+    },
+    {
+      "number": 33,
+      "difficulty": "M50",
+      "recommended": false,
+      "actualOriginalAnswerExists": false,
+      "answerAnchor": null
+    },
+    {
+      "number": 34,
+      "difficulty": "M30",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-34"
+    },
+    {
+      "number": 35,
+      "difficulty": "M25",
+      "recommended": true,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-35"
+    },
+    {
+      "number": 36,
+      "difficulty": "HM24",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-36"
+    },
+    {
+      "number": 37,
+      "difficulty": "M27",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-37"
+    },
+    {
+      "number": 38,
+      "difficulty": "25",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-38"
+    },
+    {
+      "number": 39,
+      "difficulty": "40",
+      "recommended": false,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-39"
+    },
+    {
+      "number": 40,
+      "difficulty": "M36",
+      "recommended": true,
+      "actualOriginalAnswerExists": true,
+      "answerAnchor": "ans-4-5-4-40"
+    }
+  ],
+  "answerPresenceEvidence": ".work/volume2/source-audit/batch328-answer-presence.json",
+  "answerLinkStatus": "只为已在原中文答区确认存在的独立编号答项建链；最终母稿端点/往返另验。",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch328-proof.html",
+    "htmlSha256": "28ff426ba8f5e05c904a2657a79b6e5846ee75e9fdf81dc75d0ad9c129f32665",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Seven-page standalone proof only; not final site/whole-volume acceptance.",
+    "browserPath": "Browser plugin absent; bundledPlaywright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch328-proof-1280-332.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch328-proof-390-332.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch328-right-390-332.png",
+    "mobileRightEndVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "proofMathExpressions": 544,
+    "scrollableElementCounts": {
+      "1280": 62,
+      "390": 77
+    },
+    "machineObservations": ".work/volume2/source-audit/batch328-browser.json",
+    "originalFootnoteForwardBack": [
+      [],
+      []
+    ]
+  },
+  "answerLinkExceptions": [
+    {
+      "number": 33,
+      "reason": "无独立原答项，见presence。"
+    }
+  ]
+}

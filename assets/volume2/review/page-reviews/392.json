@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 392,
+  "cnPrintedPage": 381,
+  "enPdfPages": [
+    504,
+    505
+  ],
+  "enPrintedPages": [
+    489,
+    490
+  ],
+  "pageMarkdownSha256": "07e6958db8ec4bf0afa169958edd31465cc1992b2f7cb49c14819864aa3a5f84",
+  "masterSha256": null,
+  "cnPageImage": "scans/392.jpg",
+  "cnPageImageSha256": "573288ecdaff38c7d81f2db5a7d8822e595b5b60800bb02bd22f429857beb4e0",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-504.png",
+      "sha256": "ca6832f8041145a5c23b0f68abac7b8aea098364a11231b1d33a1776ea9680cf"
+    },
+    {
+      "file": "source-audit/en-render/page-505.png",
+      "sha256": "f81ee580632d13d78eaa51754e223cbf758d4566a2b2f9ad9132b409fbb032bd"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-392",
+    "p-381"
+  ],
+  "numberedFormulaTags": [
+    8,
+    9
+  ],
+  "coveredRegions": [
+    "H算法续证；S1–S4、D1–D4所有幂/取整/模条件/循环顺序；调整系数引言、8/9完整式及次数、页尾续句。"
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "v2-4.6.4-D-approximate-count",
+      "section": "4.6.4",
+      "cnPdfPage": 392,
+      "cnPrintedPage": 381,
+      "location": "D1前导数算法运算次数句",
+      "original": "用2n−1次加法和n+sqrt(2n)次乘法/除法来完成计算",
+      "final": "用2n−1次加法和大约n+sqrt(2n)次乘法/除法来完成计算",
+      "enLocation": {
+        "pdfPage": 504,
+        "printedPage": 489,
+        "position": "paragraph immediately beforeD1"
+      },
+      "enShortExcerpt": "about n+sqrt(2n) multiplications/divisions",
+      "basis": "恢复英文原文明确的about限定，不能把有取整/端点开销的近似次数误作精确计数。其余数字、算法与条件保持。",
+      "cnSourceCrop": "source-audit/392-approximate-operations.png",
+      "cnSourceCropSha256": "ee14638ca5d8365debb4ac0aca3946df34c31af4ab5e68d17ce20aaa0c9ee48e"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 50,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch389-numeric-check.json",
+  "numericScope": "Three exact general sparse polynomial identities: normalized quartic9/10; sextic12–14 under displayed cubic constraint; Pan16–19 after clearing its nonzero denominator. AlgorithmH/S/D and complex3 verified on explicitly listed finite basis ranges; finite checks do not establish arbitrary-degree algorithms/real-root TheoremE or optimality/free-dimension results. All exact rational arithmetic; no floating tolerance.",
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch389-proof.html",
+    "htmlSha256": "e8d11a2001bc275af79f42a7260c5d5cef66ba2e65802b39d1234556898aeb3d",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch389-proof-1280-392.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch389-proof-390-392.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 378,
+    "scrollableElementCounts": {
+      "1280": 83,
+      "390": 113
+    },
+    "machineObservations": ".work/volume2/source-audit/batch389-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "sourceDomainObservations": [
+    {
+      "algorithm": "S",
+      "literalDivision": "v_j/x0^j inS4",
+      "implicitRequirement": "x0 nonzero; x0=0 is immediately handled by H. Original text has no explicit guard; source retained, no extra explanation added to body."
+    },
+    {
+      "algorithm": "D",
+      "literalPowers": "negative f(j) and final division byx^f",
+      "implicitRequirement": "x nonzero; x=0 needs direct u0/u1 handling. Original source retained."
+    }
+  ],
+  "endsMidParagraph": {
+    "nextCnPdfPage": 393,
+    "end": "一个将中间结果$y$保存到临时存储空间的指令. 与",
+    "nextStart": "霍纳算法相比"
+  }
+}

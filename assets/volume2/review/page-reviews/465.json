@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-15",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "单页稿绑定；装订母稿另加包含证明。旧证据不得换哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "cnPdfPage": 465,
+  "cnPrintedPage": 454,
+  "enPdfPages": [
+    596,
+    597
+  ],
+  "enPrintedPages": [
+    581,
+    582
+  ],
+  "pageMarkdownSha256": "d6da4a3b1234f6965b9cb49d4407a9c2034689937571abf260239f88ed56270d",
+  "cnPageImageSha256": "70a28ae032efbd9460362542296b9f634855eb99c178f014974a5cc4df927623",
+  "enPageImageSha256": {
+    "596": "2c3def44f3660d366e632642e6b2acf6b4b2ece7cbf8120175fcb43143945dc6",
+    "597": "1ac01e2a2b63c404c88ba3585504078c5f68fc6649a6339423973a59dd90431d"
+  },
+  "coveredRegions": [
+    "3.3.4答18(a)(b)四矩阵、19原注、20两模8情形、21抽样格、原跳22/23、24广义谱检验S4′全部更新、25求和积分至完整式。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalNotesPreserved": true,
+  "pageFurnitureOmitted": [
+    "重复页眉/页码用隐藏锚点保留位置。"
+  ],
+  "explicitAnchors": [
+    "pdf-465",
+    "p-454",
+    "ans-3-3-4-18",
+    "ans-3-3-4-19",
+    "ans-3-3-4-20",
+    "ans-3-3-4-21",
+    "ans-3-3-4-24",
+    "ans-3-3-4-25"
+  ],
+  "answerAnchors": [
+    "ans-3-3-4-18",
+    "ans-3-3-4-19",
+    "ans-3-3-4-20",
+    "ans-3-3-4-21",
+    "ans-3-3-4-24",
+    "ans-3-3-4-25"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 72,
+    "displayExpressions": 4,
+    "parseErrors": 0,
+    "codeBlockLineCounts": []
+  },
+  "substantiveCorrections": [
+    {
+      "section": "3.3.4答18(a)非对角内积",
+      "cnPrintedPage": 454,
+      "enPdfPage": 596,
+      "enPrintedPage": 581,
+      "original": "V_j·V_k=+(m²−1)/3 (j≠k)",
+      "final": "V_j·V_k=−(m²−1)/3",
+      "basis": {
+        "original": "V_j·V_k=+(m²−1)/3 (j≠k)",
+        "final": "V_j·V_k=−(m²−1)/3",
+        "directDot": -1365,
+        "algebra": "For rows v_ij=y+mδij and distinct j,k, dot=3y²+2my=(1−m²)/3 with y=(1−m)/3. Norm square=3y²+2my+m²=(2m²+1)/3."
+      }
+    }
+  ],
+  "preservedVersionDifferences": [
+    {
+      "pages": [
+        465,
+        466
+      ],
+      "section": "3.3.4答25",
+      "original": "f(m)=m^-1∫_1^(m/2)csc(πx/m)dx+O(1/m); 下一页ln(2e/π)",
+      "english": "EN597 printed582同样的积分误差与e",
+      "observation": "直接原图放大确认是e而非e^γ；差分极限应为γ/π，原积分替换缺一个常数。保原列疑，未用有限数值改整段证明。",
+      "samples": [
+        {
+          "m": 100,
+          "sumMinusIntegral": "0.188755270771551211399242",
+          "gammaOverPi": "0.183733452598307980759284"
+        },
+        {
+          "m": 1000,
+          "sumMinusIntegral": "0.18423367076462022927385",
+          "gammaOverPi": "0.183733452598307980759284"
+        },
+        {
+          "m": 10000,
+          "sumMinusIntegral": "0.183783454779969561327109",
+          "gammaOverPi": "0.183733452598307980759284"
+        }
+      ]
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {
+    "continues_to_pdf_page": 466,
+    "answer": "3.3.4-25",
+    "left_end": "=\\frac1\\pi\\left.\\ln\\tan\\left(\\frac\\pi{2m}x\\right)\\right|_1^{m/2}+O\\left(\\frac1m\\right).",
+    "right_start": "［当 $d=1$ 时，我们有",
+    "instruction": "465完整公式块后接466原注，页锚点块外。"
+  },
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "79abfa46724d8d811ebd1697835aa80f05953c547df3610c9e8666ccbd0a61b5",
+    "visualReviewSha256": "a02cbf1518a20f9b511952f7157e24252810bc321bf27b5457f0968192446899",
+    "browserAvailability": "Browser plugin unavailable; task-authorized bundled Playwright with isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 72,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 72,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 6,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "55c5ed9a0a067646d83b6e56feb7ba476432b9d02bb7d83194da50b47b243f31",
+  "numericalCheckQualification": "独立精确整数/有理数和高精度数值计算辅助逐原图比对；有限枚举/差分不替代一般证明。论证依据另逐项明列。",
+  "untested": [
+    "最终母稿装订与包含证明、整卷离线/VitePress、全站题答往返/搜索/下载/线上验收由主任务统一执行。"
+  ],
+  "answerExceptions": [
+    {
+      "answers": "3.3.4-22/23",
+      "reason": "中英原答21后直接24，原书无独立22/23答项；不造锚点或链接。"
+    }
+  ]
+}

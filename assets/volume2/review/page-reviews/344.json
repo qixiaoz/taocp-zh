@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.6.1",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 344,
+  "cnPrintedPage": 333,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    444,
+    446
+  ],
+  "enPrintedPages": [
+    429,
+    431
+  ],
+  "pageMarkdownSha256": "36feec3aa509aecad4e1ae120108ecafd7ee11803bebce5477b4749e10f5d4d7",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/344.jpg",
+  "cnPageImageSha256": "51f72675a78c61a47a263193e09461fbe02c4250ed175152fb20826d04e1129a",
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "完整Pandoc/正式VitePress/线上及ZIP",
+    "有限具体例子复算未扩大为全称代数或复杂度证明。"
+  ],
+  "sections": [
+    "4.6.1"
+  ],
+  "numericEvidence": ".work/volume2/source-audit/batch343-numeric-check.json",
+  "pageAnchors": [
+    "pdf-344",
+    "p-333",
+    "tab-4-6-1-1"
+  ],
+  "numberedFormulaTags": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "coveredRegions": [
+    "式16续句及系数整除目标；全部n/δ/g/h/a..f定义；行运算说明；表1 27行、14系数列全部378格（包括每个0）、行名、乘子、替换行。"
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "v2-4.6.1-table1-D0-e1",
+      "classification": "both-editions-common-local-index-error",
+      "cnPrintedPage": 333,
+      "location": "表1 D0行“乘以”列",
+      "enLocation": {
+        "pdfPage": 446,
+        "printedPage": 431,
+        "table": "1",
+        "row": "D0"
+      },
+      "original": "e_2^2 c_4^2/(d_2^3 b_6^2)",
+      "final": "e_1^2 c_4^2/(d_2^3 b_6^2)",
+      "englishHasSameError": true,
+      "basis": {
+        "cnPdfPage": 344,
+        "cnPrintedPage": 333,
+        "enPdfPage": 446,
+        "enPrintedPage": 431,
+        "bothOriginals": "e_2^2 c_4^2/(d_2^3 b_6^2)",
+        "final": "e_1^2 c_4^2/(d_2^3 b_6^2)",
+        "definitions": {
+          "u5": "e1*x+e0",
+          "u6": "f0",
+          "delta4": 1,
+          "g4": "d2",
+          "g5": "e1",
+          "h4": "d2^2*b6^2/c4^2"
+        },
+        "generalDerivation": [
+          "The step dividing u4 by degree-one u5 has numerator lc(u5)^(delta4+1)=e1^2.",
+          "Its C3 divisor is g4*h4^delta4=d2^3*b6^2/c4^2.",
+          "Thus D0 row multiplier is e1^2*c4^2/(d2^3*b6^2).",
+          "No e2 is defined anywhere in this full table, preceding coefficient definitions or recurrences. Its u5 polynomial has degree one."
+        ],
+        "exactSample": {
+          "uAscending": [
+            -245,
+            125,
+            65
+          ],
+          "vAscending": [
+            12300,
+            -9326
+          ],
+          "g": 65,
+          "h": 169,
+          "delta": 1,
+          "pseudoQuotientAscending": [
+            -1965250,
+            -606190
+          ],
+          "rawPseudoRemainderAscending": [
+            2863877380
+          ],
+          "divisor": 10985,
+          "scaledRemainderAscending": [
+            "260708"
+          ]
+        },
+        "sourceImages": [
+          "344-table-scale.png",
+          "en-render/page-446-hi.png"
+        ],
+        "proofScope": "Algebraic substitution of complete source definitions uniquely resolves local index. The concrete example confirms rather than proves the general identity."
+      },
+      "sourceEvidence": {
+        "cnImage": "scans/344.jpg",
+        "cnCrop": "source-audit/344-table-scale.png",
+        "cnCropSha256": "e7151312b58585bf2724a1b866c9e4ba308852d13da218fff333c05c0901acaf",
+        "enImage": "source-audit/en-render/page-446-hi.png",
+        "enImageSha256": "46086c9ff37480004f1bade802072d1773b16ee3a14e6543dbe3ab61474b0666"
+      },
+      "scope": "只改e的下标2为1；其余乘子/表格/算法不改。一般代数代入给出唯一局部修复；原始输入的整数精确复算仅辅助。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-444.png",
+      "sha256": "922e6c6152e92ac91f826b2eff67b0a434455d996f45c8ed4bcdddb74fc8836a"
+    },
+    {
+      "file": "source-audit/en-render/page-446.png",
+      "sha256": "9c4b7218ba60795b7f76d6da435735f6bfdb7e02358cf855690700f817efbe85"
+    },
+    {
+      "file": "source-audit/en-render/page-446-hi.png",
+      "sha256": "46086c9ff37480004f1bade802072d1773b16ee3a14e6543dbe3ab61474b0666",
+      "purpose": "3× original-page image confirms D0 e2 subscript and full table"
+    }
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 476,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "语法与原图/双语/精确复算分项记录。"
+  },
+  "numericScope": "Exact source example of Algorithm C and all 375 paired minors of matrices17/18/21/22; each source subresultant coefficient and h determinant; exercise1/2/3 particular inputs; literal free-word convolution/division for exercises17/18. No finite computation is claimed as a general UFD, root bound, probability, complexity or noncommutative theorem proof.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch343-proof.html",
+    "htmlSha256": "c4f4c74916aac4899b094a91fd542a37ed7a76932da85387a4af544daad83e4e",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not whole-volume or production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright with local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch343-proof-1280-344.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch343-proof-390-344.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 914,
+    "scrollableElementCounts": {
+      "1280": 348,
+      "390": 366
+    },
+    "machineObservations": ".work/volume2/source-audit/batch343-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these eight pages",
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch343-right-390-344.png",
+    "mobileRightEndVisualReview": true
+  },
+  "startsMidParagraph": {
+    "previousCnPdfPage": 343,
+    "previousEnd": "式(16)三行独立式已经闭合",
+    "start": "等等.",
+    "afterClosedDisplay": true
+  },
+  "tableCellEvidence": ".work/volume2/source-audit/batch343-table1-cells.json",
+  "tableDisplayTransformation": {
+    "editableHtml": true,
+    "coefficientCells": 378,
+    "coefficientRows": 27,
+    "coefficientColumns": 14,
+    "headerColspan": 14,
+    "zeroCellsPreserved": true,
+    "rowNamesAndFactorsAndReplacementsPreservedExceptRegisteredEIndex": true,
+    "captionSearchable": true
+  },
+  "history": [
+    {
+      "status": "historical-superseded",
+      "evidence": ".work/volume2/source-audit/history/batch343-before-image-readiness",
+      "reason": "Initial browser image-state sample preceded lazy-image loading. Rechecked with eager loading plus image decode before collecting state; no markdown change."
+    }
+  ],
+  "matrixCellEvidence": null
+}

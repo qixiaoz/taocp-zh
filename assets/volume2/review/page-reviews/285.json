@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "sections": [
+    "4.5.2",
+    "4.5.3"
+  ],
+  "pdf_page": 285,
+  "printed_page": 274,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "d191028ff8e31dfaeb93cb5b742271492e09a328af0208a52c7f0008986b8319",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/scans/285.jpg",
+    "image_sha256": "54a646d0bf776f1508e1a926cb89c29afc11a167e8ade94ce89d96b7020055e5",
+    "scope": "Entire actual Chinese page: prose and proof, every inline/display expression, nested continued fractions, partial quotient sequences, operator bounds, algorithm steps, footnote and exercise symbols where present."
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      370,
+      371,
+      372
+    ],
+    "en_printed_pages": [
+      355,
+      356,
+      357
+    ],
+    "scope": "Actual corresponding English source images inspected, every matching formula, prime, subscript, bound, sequence entry, prose/proof passage and footnote compared; not inferred from pagination offset or OCR agreement.",
+    "qualification": "Original general proofs transcribed; separately described finite and numerical computations do not replace those proofs."
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/batch285-proof.html",
+    "html_sha256": "ed9bae0b7da66a81d1f6eafde496722cdf40b587cd78ebe5068aa6e64f75c535",
+    "math_count_in_eight_page_proof": 364,
+    "math_parse_errors": 0,
+    "desktop_visual_review": true,
+    "mobile_visual_review": true,
+    "desktop_screenshot": ".work/volume2/source-audit/batch285-proof-1040-285.png",
+    "mobile_screenshot": ".work/volume2/source-audit/batch285-proof-390-285.png",
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "document_horizontal_overflow": false,
+    "missing_images": 0,
+    "page_errors": 0,
+    "all_wide_elements_initial_left_and_right_end_reachable": true,
+    "scroll_evidence": ".work/volume2/source-audit/batch285-scroll.json",
+    "scrollable_element_counts": {
+      "1040": 48,
+      "390": 80
+    },
+    "inline_katex_nowrap": "Current book-markdown renderer and actual KaTeX stylesheet; each inline math expression remains unbroken and locally scrollable.",
+    "qualification": "Standalone eight-page proof, not full-volume/final site acceptance.",
+    "historical_render_before_explicit_inline_nowrap": ".work/volume2/source-audit/history/batch285-before-inline-nowrap/"
+  },
+  "substantive_corrections": [],
+  "source_discrepancies_retained": [],
+  "numeric_evidence": ".work/volume2/source-audit/batch285-numeric-check.json",
+  "next_steps": [
+    "Parent binds page drafts; page anchors must stay outside formula/table/code blocks.",
+    "Preserve this record historically if subsequent binding changes bytes."
+  ],
+  "exercises": [
+    {
+      "anchor": "ex-4-5-2-37",
+      "difficulty": "M32",
+      "recommended": false,
+      "answer_anchor": "ans-4-5-2-37"
+    },
+    {
+      "anchor": "ex-4-5-2-38",
+      "difficulty": "M32",
+      "recommended": true,
+      "answer_anchor": "ans-4-5-2-38"
+    },
+    {
+      "anchor": "ex-4-5-2-39",
+      "difficulty": "M28",
+      "recommended": true,
+      "answer_anchor": "ans-4-5-2-39"
+    },
+    {
+      "anchor": "ex-4-5-2-40",
+      "difficulty": "M25",
+      "recommended": true,
+      "answer_anchor": "ans-4-5-2-40"
+    },
+    {
+      "anchor": "ex-4-5-2-41",
+      "difficulty": "M22",
+      "recommended": false,
+      "answer_anchor": "ans-4-5-2-41"
+    },
+    {
+      "anchor": "ex-4-5-2-42",
+      "difficulty": "M30",
+      "recommended": false,
+      "answer_anchor": "ans-4-5-2-42"
+    }
+  ],
+  "answer_link_presence_evidence": {
+    "actual_cn_pdf_pages": [
+      518,
+      519
+    ],
+    "en_answer_text_pdf_pages": [
+      660,
+      661
+    ],
+    "scope": "Numbered original answer existence only; not answer-text transcription/proofreading."
+  },
+  "section_boundary": {
+    "before_sec_4_5_3": "4.5.2 exercises37–42",
+    "after_sec_4_5_3": "4.5.3 prose and equations1,2",
+    "binding_requirement": "Split by actual sec-4-5-3 anchor within this physical page; do not move pdf285 anchor into a formula."
+  },
+  "algorithms": [
+    {
+      "kind": "exercise40 stepsK1–K5",
+      "finite_signed_execution_pairs": 32896,
+      "result_and_K2_count_bound_match": true
+    }
+  ]
+}

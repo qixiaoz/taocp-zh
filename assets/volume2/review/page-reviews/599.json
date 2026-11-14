@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "names",
+  "reviewDate": "2026-11-14",
+  "reviewerType": "model-direct-page-image-comparison",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "0ab24d9794e5a4eebcab79fbb1a0dc2eaba5201724c975f94ea93213bf98a8a2",
+  "cnPdfPage": 599,
+  "cnPrintedPage": 588,
+  "enPdfPages": [
+    755,
+    765,
+    766,
+    767,
+    768,
+    769,
+    773,
+    774,
+    778
+  ],
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "entryCount": 124,
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "reviewScope": "Every entry read directly in the Chinese source image, columnwise top-to-bottom, left then right; all continuation names and page-reference tails retained. Corresponding English original index entry images viewed in labelled contact sheets. English edition page numbers are not substituted for Chinese numbers. Original Chinese abbreviated/expanded names and aliases retained unless a demonstrable spelling error is recorded.",
+  "cnEvidence": [
+    {
+      "image": "scans/599.jpg",
+      "sha256": "41467ceb7462178de7c60c2fdf79f9cfdb2b6cf0ddcfbc86f35b575b39f6833e",
+      "viewedDirectly": true
+    },
+    {
+      "image": "scans/009.jpg",
+      "sha256": "b763b01e4bb3254b22a69f97d2635cc04b2942ae225e9f64b727ee35dccba036",
+      "viewedDirectly": true
+    }
+  ],
+  "enEvidence": [
+    {
+      "image": "index-work/names-599-en-contact-1.png",
+      "sha256": "7ae933f38becc66ebc9833d642c9ecb767a7da7af02df6ad2fc5f3f49da330fa",
+      "viewedDirectly": true
+    },
+    {
+      "image": "index-work/names-599-en-contact-2.png",
+      "sha256": "fd0d554367084cf6480b7d8f3f9a9c8587159e75cacc4e7d9eac8107f8c6efe9",
+      "viewedDirectly": true
+    },
+    {
+      "image": "index-work/en-recorde-12.png",
+      "sha256": "b1ba8a25f361159569a71185bea8cfb38e0204a8ff5b27c1aad39f0a629433dc",
+      "viewedDirectly": true
+    }
+  ],
+  "entryCatalog": {
+    "file": "index-work/names-599-entry-catalog.json",
+    "sha256": "f69d0430ffac1bc48157a3d4f1ea375564934409130d96dcdbcf1834a65b5616"
+  },
+  "englishMatchCatalog": {
+    "file": "index-work/names-599-matched.json",
+    "sha256": "dd6cea537d050d76e24d14a927289444c9c922cda828f57464c417afb7053013",
+    "qualification": "Machine matching is only a location aid. Page images were directly read; variant aliases are retained, not machine-canonicalized."
+  },
+  "browserEvidence": {
+    "file": "index-work/browser-598-603.json",
+    "sha256": "5d926b7863b5c35f7f6a3209ac3f788b79d758848a9512c983f7c81214bc465e",
+    "viewports": [
+      1280,
+      390
+    ],
+    "status": "passed"
+  },
+  "directReviewNotesSha256": "b23258fec4dde4fdae15d2f63a7e63b7d9877e97adbe253d787ae7d4f2974e96",
+  "substantiveCorrections": [
+    {
+      "section": "人名索引／雷科德",
+      "cnPrintedPage": 588,
+      "enPdfPage": 773,
+      "enPrintedPage": 758,
+      "original": "雷科德，Robert Recorde,xi,215–216.",
+      "final": "雷科德，Robert Recorde,vii,215–216.",
+      "basis": "中文原索引此条沿用英文xi；实际中文物理009实印vii页末含同一The Whetstone of Witte(1557)名言，英文物理012实印xi页末为同一句。中文前一页索引也列vii。只据同名言原页修目标，不按固定中英页偏移推算。"
+    }
+  ],
+  "versionDifferences": [],
+  "sourceIssues": [
+    {
+      "candidates": [
+        "Miller given name",
+        "Vitter given name on602"
+      ],
+      "finding": "Thumbnail ff ligatures resembled rr. Direct enlarged original crops show Jeffrey correctly; no original-book correction registered."
+    }
+  ],
+  "pending": [
+    "Final whole-book inclusion proof",
+    "Full-book index-reference existence and routed browser jumps"
+  ],
+  "displayTreatments": []
+}

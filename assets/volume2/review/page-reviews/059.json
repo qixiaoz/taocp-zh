@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 59,
+  "cnPrintedPage": 48,
+  "section": "3.3.2",
+  "enPdfPages": [
+    78,
+    79
+  ],
+  "enPrintedPages": [
+    63,
+    64
+  ],
+  "pageMarkdownSha256": "132d19e94e2eec2158e1c2802b2a5bd5d2e7043c58ca1645e98b308dc915389a",
+  "cnPageImageSha256": "7c8c75e5bb073d9b3f13c32d8b616826f38667072265374661d384fd5711dc5b",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 27,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-059",
+    "p-48"
+  ],
+  "coveredRegions": [
+    "正式图6及完整图题；间隙检验末两段；D纸牌/划分检验全部说明、7种牌型、5类合并、概率式(5)。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "assets": [
+    {
+      "path": "assets/volume2/figures/p059-fig-3-6.svg",
+      "sha256": "bb2e57543242c92bc70efc95edd5cc9954836fe8c17b75edb4afa1120dd14b88",
+      "kind": "editable-svg-redraw",
+      "sourceFigure": 6,
+      "review": "中文物理059/印48与英文物理078/印63实页；6节点、9有向连线（含入口/出口）、4是/否标签逐一比较；sharp实际渲染图已直接看图核查。",
+      "nodes": [
+        "G1. 初始化",
+        "G2. 置r为0",
+        "G3. α≤U_j<β?",
+        "G4. r增值",
+        "G5. 记录间隙长度",
+        "G6. 找到n个间隙?"
+      ],
+      "directedEdges": [
+        [
+          "entry",
+          "G1"
+        ],
+        [
+          "G1",
+          "G2"
+        ],
+        [
+          "G2",
+          "G3"
+        ],
+        [
+          "G3",
+          "G4",
+          "否"
+        ],
+        [
+          "G4",
+          "G3"
+        ],
+        [
+          "G3",
+          "G5",
+          "是"
+        ],
+        [
+          "G5",
+          "G6"
+        ],
+        [
+          "G6",
+          "G2",
+          "否"
+        ],
+        [
+          "G6",
+          "exit",
+          "是"
+        ]
+      ]
+    }
+  ]
+}

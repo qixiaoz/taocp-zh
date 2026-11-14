@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "app-c",
+  "reviewDate": "2026-11-14",
+  "reviewerType": "model-direct-page-image-comparison",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "9eddca783d0e07b025304d266e4703b0ea06ed411d088257b1cf4b4df99ca29a",
+  "cnPdfPage": 591,
+  "cnPrintedPage": 580,
+  "enPdfPages": [
+    750
+  ],
+  "enPrintedPages": [
+    735
+  ],
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "reviewScope": "Every entry type, section/label and Chinese page reference read against the Chinese index image. Corresponding English original index entry identities and order compared. No fixed page offset assumed.",
+  "entryCount": 114,
+  "columnOrder": "Read each original column top-to-bottom, left then middle then right; unfold into one editable list in that order.",
+  "indexLabelComparison": {
+    "file": "appendix-c-label-comparison.json",
+    "sha256": "1334730d314cac21fb6033c6590cfaf3cbd3cad6f6f398e7a74155b6c8ef351c",
+    "cnEntries": 191,
+    "enEntries": 191,
+    "differences": 0,
+    "qualification": "Kind/section/label identities only, not equality of Chinese and English page numbers."
+  },
+  "cnEvidence": [
+    {
+      "image": "cn-591.png",
+      "sha256": "3bc52c32aaa87671b895497b6b969d79b94937a0a7c47e88e487288a841bb4ac",
+      "viewedDirectly": true
+    },
+    {
+      "image": "cn-135-index-check.png",
+      "sha256": "c5414bf90687f1ac0fa866af3d8826bdcbb57f1c942482284c49ec4570cc13a3",
+      "viewedDirectly": true
+    },
+    {
+      "image": "cn-136-index-check.png",
+      "sha256": "241cae2d73e1d54962527e74994c71b194ec2f1ec6c65c482087e825cd188fd8",
+      "viewedDirectly": true
+    },
+    {
+      "image": "cn-501-index-check.png",
+      "sha256": "f2d5fbc12407a272a86f2ee5da574914382ce153f7dfefbae5cc39b030fbaf8d",
+      "viewedDirectly": true
+    },
+    {
+      "image": "cn-502-index-check.png",
+      "sha256": "cbc677eed1eb42b308d7d0666dd90c9f5bb6b30eeccab187e3569d3b73413b0f",
+      "viewedDirectly": true
+    }
+  ],
+  "enEvidence": [
+    {
+      "image": "en-750.png",
+      "sha256": "05b437cf2184ea44f70277a865037daac10ad915a11077bb9d76d54c29ae22e0",
+      "viewedDirectly": true
+    }
+  ],
+  "substantiveCorrections": [
+    {
+      "section": "附录C／3.5W",
+      "cnPrintedPage": 580,
+      "enPdfPage": 750,
+      "enPrintedPage": 735,
+      "original": "定理3.5W,124–155.",
+      "final": "定理3.5W,124–125.",
+      "basis": "中文正文物理135–136（印124–125）实际载定理W及证明，125页证明结束后进入下一段及定理M；英文索引列164–165，支持同一条目。155页不属于§3.5。"
+    }
+  ],
+  "sourceRestorations": [
+    {
+      "entry": "程序4.3.1D",
+      "originalVisible": "209–211,490–49…（右缘截断）",
+      "final": "209–211,490–491",
+      "basis": "源页591嵌入图像和PDF页框同宽，末尾已经在源图截断。中文正文物理501–502（印490–491）实际包含该除法程序补充清单至结束。未按固定偏移或模型记忆补写。",
+      "targetEvidence": [
+        {
+          "image": "cn-501-index-check.png",
+          "sha256": "f2d5fbc12407a272a86f2ee5da574914382ce153f7dfefbae5cc39b030fbaf8d"
+        },
+        {
+          "image": "cn-502-index-check.png",
+          "sha256": "cbc677eed1eb42b308d7d0666dd90c9f5bb6b30eeccab187e3569d3b73413b0f"
+        }
+      ]
+    }
+  ],
+  "pending": [
+    "Final mother inclusion proof",
+    "Complete-book index target existence and actual browser jumps",
+    "Final rendered site acceptance"
+  ]
+}

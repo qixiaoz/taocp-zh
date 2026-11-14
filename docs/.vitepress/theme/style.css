@@ -214,8 +214,14 @@ html.dark {
   text-align: center;
 }
 
-.vp-doc .book-math-display .katex {
+.vp-doc .book-math .katex {
   white-space: nowrap;
+}
+
+/* KaTeX positions equation numbers absolutely inside katex-html. Include
+   space for the number in the scrollable width so it cannot cover the formula. */
+.vp-doc .book-math-display > .katex-display > .katex > .katex-html:has(> .katex-tag) {
+  padding-inline: 2.5em;
 }
 
 .vp-doc table {

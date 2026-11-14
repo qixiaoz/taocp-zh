@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "volume": "volume2",
+  "sections": [
+    "4.5.2"
+  ],
+  "pdf_page": 269,
+  "printed_page": 258,
+  "source_cn_sha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "source_en_sha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "page_markdown_sha256": "4004916289eacdf0a05e544ea752a37486e3708c437607a0d87119c2d8251a69",
+  "master_sha256": null,
+  "master_binding_status": "not_yet_bound",
+  "transcription_status": "complete",
+  "original_page_visual_review": {
+    "status": "completed_for_page_text_and_math",
+    "image": ".work/volume2/scans/269.jpg",
+    "image_sha256": "3a16465ef5154d0edead72b30b28e343f0091178685a1b30333935e9f4dfed63",
+    "scope": "complete page prose; every displayed and inline expression, program field/timing/comment, algorithm step/branch, figure/table entry, exercise number/difficulty/recommendation where present"
+  },
+  "bilingual_review": {
+    "status": "completed_for_this_page",
+    "en_pdf_pages": [
+      350,
+      351
+    ],
+    "en_printed_pages": [
+      335,
+      336
+    ],
+    "scope": "all corresponding actual English page regions and text-layer/program fields; all primes, subscripts, signs and bounds checked; original Chinese order retained for floated figure9",
+    "qualification": "Independent theorem proofs are not claimed beyond listed finite numerical and instruction checks"
+  },
+  "rendered_proof": {
+    "html": ".work/volume2/source-audit/batch264-proof.html",
+    "html_sha256": "4ceb95741c33fcbf2ad7a4782bd374d02e2ee178b4906d756dcdc707798f68df",
+    "math_count_in_eight_page_proof": 395,
+    "math_parse_errors": 0,
+    "desktop_visual_review": true,
+    "mobile_visual_review": false,
+    "desktop_screenshot": ".work/volume2/source-audit/batch264-proof-1040-269.png",
+    "mobile_screenshot": ".work/volume2/source-audit/batch264-proof-390-269.png",
+    "machine_viewports": [
+      1040,
+      390
+    ],
+    "missing_images": 0,
+    "page_errors": 0,
+    "document_horizontal_overflow": false,
+    "scroll_evidence": ".work/volume2/source-audit/batch264-scroll.json",
+    "all_wide_elements_initial_left_and_right_end_reachable": true,
+    "scrollable_element_counts": {
+      "1040": 14,
+      "390": 24
+    },
+    "display_math_styles": "Matches current site max-content display width, nowrap and numbered-equation padding; avoids centred left clipping/number overlap.",
+    "qualification": "Standalone eight-page proof, not complete-volume/final website acceptance."
+  },
+  "substantive_corrections": [],
+  "source_discrepancies_retained": [],
+  "exercises": [],
+  "answer_exceptions": [],
+  "numeric_evidence": ".work/volume2/source-audit/batch264-numeric-check.json",
+  "program_evidence": ".work/volume2/source-audit/batch264-program-check.json",
+  "next_steps": [
+    "Bind into complete master and recheck source/master hashes, source-page anchors and links.",
+    "Preserve this page hash record historically if binding edits bytes."
+  ],
+  "continuation": {
+    "begins_mid_word_from_pdf_page": 268,
+    "first_text": "得早1500年",
+    "ends_mid_sentence": true,
+    "last_text": "但归纳法作为一种证明",
+    "continues_on_pdf_page": 270,
+    "next_first_text": "手段直到很多个世纪以后才被提出来"
+  },
+  "ocr_repairs": [
+    {
+      "ocr_reading": "但E显然整除自身",
+      "original_image_reading": "但F显然整除自身",
+      "evidence": ".work/volume2/source-audit/cn-render/269-letters-14.png"
+    },
+    {
+      "ocr_reading": "G整除余数E",
+      "original_image_reading": "G整除余数F",
+      "evidence": ".work/volume2/source-audit/cn-render/269-letters-20.png"
+    }
+  ]
+}

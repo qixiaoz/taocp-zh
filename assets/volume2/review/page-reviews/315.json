@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.5.4",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 315,
+  "cnPrintedPage": 304,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    408,
+    409
+  ],
+  "enPrintedPages": [
+    393,
+    394
+  ],
+  "pageMarkdownSha256": "d44b688affde7913f7e87f77a8e8e63c5652296bddabf6538a1c29e3ebd3a851",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/315.jpg",
+  "cnPageImageSha256": "e41e65d3f8277e4b33b6f8d21646142a3bc68261405ba0ba9a2c4b6ecb440f80",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-408.png",
+      "sha256": "4a7cadcb09f9e05e5185d522db76645e79b93c7a470a8a7194f50b5669c85275"
+    },
+    {
+      "file": "source-audit/en-render/page-409.png",
+      "sha256": "bea217b891098d116ed7b85c449902be3df9e06617402b3f47c758c31106e8f4"
+    }
+  ],
+  "coveredRegions": [
+    "314续句、n5/n6分解/全部大整数、最终2^214+1分解。",
+    "原书中文编者prime-time脚注完整保留。",
+    "不完全分解素性检测的三个条件、f±/r±/b³乘积/所有引文。",
+    "伪素数例与跨页另一→方面。"
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-315",
+    "p-304"
+  ],
+  "numberedFormulaTags": [],
+  "originalFootnotesPresent": true,
+  "originalFootnoteIds": [
+    "v2-p304-1"
+  ],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [
+    {
+      "section": "4.5.4 large-factorization example",
+      "cnPrintedPage": 304,
+      "enPdfPage": 408,
+      "enPrintedPage": 393,
+      "original": "但并没有用光我们的时间",
+      "final": "但并没有超出我们的预算",
+      "basis": "English distinguishes exhausting patience from exhausting the budget; the following weekend/prime-time remark explains cheaper computer time, not a claim that no time was used up. Original Chinese editor footnote retained."
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 314,
+    "previousEnd": "我们马上就会发现取",
+    "start": "$x=5$ 不可能"
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 316,
+    "end": "另一",
+    "nextStart": "方面，",
+    "extractFootnotesFirst": [
+      "v2-p304-1"
+    ]
+  },
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via actual repository book-markdown.mjs",
+    "mathExpressions": 56,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "仅语法；原图/双语核对与有限复算分列。"
+  },
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch312-proof.html",
+    "htmlSha256": "650934f8eed2449a7f566b8f1a67f3ac2e9586dcab371914f33701094e6f5162",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof only, not whole-volume/offline/final-site/online acceptance.",
+    "browserPath": "Browser plugin not available; bundled Playwright plus local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch312-proof-1280-315.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch312-proof-390-315.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch312-right-390-315.png",
+    "mobileRightEndVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "mathmlBodyLeak": 0,
+    "mathParseErrors": 0,
+    "proofMathExpressions": 471,
+    "machineObservations": ".work/volume2/source-audit/batch312-browser.json",
+    "scrollableElementCounts": {
+      "1280": 44,
+      "390": 64
+    }
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch312-numeric-check.json",
+  "numericScope": "685 exact/numeric checks include actual sample data, primality certificates and finite algorithm replay; finite AlgorithmP exhaustion does not prove its general bound. Historical performance timings and6432966-iteration claim not rerun.",
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终整卷母稿装订/包含证明",
+    "整卷Pandoc、正式VitePress和线上发布/下载",
+    "未把有限复算、历史性能描述或机器语法通过扩写为一般定理的证明。"
+  ],
+  "originalFootnoteReview": {
+    "id": "v2-p304-1",
+    "kind": "原中文版编者注；英文无此脚注",
+    "actualReferenceAndDefinitionCompared": true,
+    "forwardAndBackBrowserChecks": [
+      {
+        "width": 1280,
+        "footnoteHash": "#fn1",
+        "backHash": "#fnref1",
+        "targetPresent": true
+      },
+      {
+        "width": 390,
+        "footnoteHash": "#fn1",
+        "backHash": "#fnref1",
+        "targetPresent": true
+      }
+    ]
+  }
+}

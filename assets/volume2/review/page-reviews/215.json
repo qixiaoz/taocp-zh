@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订须另证包含与跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文整页及列出的英文页图，逐段/逐式/表格/程序字段频次注释和难度推荐符号比较。机器检查和复算另列，不声称人类签核。",
+  "cnPdfPage": 215,
+  "cnPrintedPage": 204,
+  "enPdfPages": [
+    281,
+    282
+  ],
+  "enPrintedPages": [
+    266,
+    267
+  ],
+  "pageMarkdownSha256": "15e9a02433af40b0c7ca9c6e2dcf490e5309a087c87384953535f31ad4c23541",
+  "cnPageImage": "scans/215.jpg",
+  "cnPageImageSha256": "7b1d8be08cef1e993682cd6aa094189add444b5b0c5bb4b4a195a394183e7ec3",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-281.png",
+      "sha256": "31092079d369ea240357012d4b9fbf1c9b0b731eab9fded6ff732722c07c8850"
+    },
+    {
+      "file": "verified-sources/en-282.png",
+      "sha256": "0ca4e0cb70623867616134232fa47ae343f125e026bc8962a540b25642a2e1f5"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-215",
+    "p-204",
+    "alg-4-3-1-a",
+    "prog-4-3-1-a",
+    "alg-4-3-1-s"
+  ],
+  "coveredRegions": [
+    "算法A输入输出、A1–A3和进位界；程序A12行代码/频次/中文注释。",
+    "加法时间10N+6与推广段。",
+    "算法S输入限制、S1–S3完整及借位界。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pendingactualanswer-area-verification",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "页末算法S完整结束，无跨页块。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 49,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [
+      12
+    ],
+    "meaning": "只是语法；内容核查依实际中英文原页。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终母稿装订/跨页代码合并/题答回链",
+    "正式VitePress/Pandoc整卷与线上",
+    "未执行MIX或将机器字段一致称作算法正确性证明。"
+  ],
+  "renderReview": {
+    "file": "verified-render/classical-dom-review-214-221.json",
+    "sha256": "357953879ea66bc509052393306e2caf7a7030233bc456ecfaa32ccb21f46986",
+    "scope": "私有1280/390；源图内容独立复核。217旧表和图6/7旧输出已被当前专项复验替代。"
+  }
+}

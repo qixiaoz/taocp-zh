@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "names",
+  "reviewDate": "2026-11-14",
+  "reviewerType": "model-direct-page-image-comparison",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "e1adcf42958b04e1ba711f2903802d95c4a61408788cfea092b485836dd0c7a2",
+  "cnPdfPage": 596,
+  "cnPrintedPage": 585,
+  "enPdfPages": [
+    757,
+    759,
+    760,
+    761,
+    762,
+    765,
+    771,
+    777,
+    778,
+    779
+  ],
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "entryCount": 120,
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "reviewScope": "Every entry read directly in the Chinese source image, columnwise top-to-bottom, left then right; all continuation names and page-reference tails retained. Corresponding English original index entry images viewed in labelled contact sheets. English edition page numbers are not substituted for Chinese numbers. Original Chinese abbreviated/expanded names and aliases retained unless a demonstrable spelling error is recorded.",
+  "cnEvidence": [
+    {
+      "image": "scans/596.jpg",
+      "sha256": "7631827f6c7c0232752fb18b2e8cfcddb705a2d6edb2e5c1697fba40c532b689",
+      "viewedDirectly": true
+    }
+  ],
+  "enEvidence": [
+    {
+      "image": "index-work/names-596-en-contact-1.png",
+      "sha256": "acf27ee133247a3de8200be4f6a71bd8c3f30a6c74c8f79774c2924eb3116510",
+      "viewedDirectly": true
+    },
+    {
+      "image": "index-work/names-596-en-contact-2.png",
+      "sha256": "e2bb604fb27878ca9803520b486af9df5bd01534c929f94aee7aef3ac5e6046d",
+      "viewedDirectly": true
+    }
+  ],
+  "entryCatalog": {
+    "file": "index-work/names-596-entry-catalog.json",
+    "sha256": "9dccbb01893a47a6c7148e6b5ab3b39e85bdc12690f3481da257894b18bdeba3"
+  },
+  "englishMatchCatalog": {
+    "file": "index-work/names-596-matched.json",
+    "sha256": "7380ae61b2e21b00a1ef7d1d37d728d549d778eb6b6c1de4aaf7daa4cdd747cd",
+    "qualification": "Machine matching is only a location aid. Page images were directly read; variant aliases are retained, not machine-canonicalized."
+  },
+  "browserEvidence": {
+    "file": "index-work/browser-596-597.json",
+    "sha256": "5712373715f27099dccfee05f18dc3647a874808491da524409e17009da791d9",
+    "viewports": [
+      1280,
+      390
+    ],
+    "status": "passed"
+  },
+  "directReviewNotesSha256": "526509d098ceea526b140d640af45b30e37620fb5e85ecdea21e09fc03177d71",
+  "substantiveCorrections": [],
+  "versionDifferences": [
+    {
+      "entry": "菲尔穆斯，Yuval Filmus,564",
+      "finding": "Absent from English 2014 index/text; retain Chinese 2016 entry without inventing a location."
+    }
+  ],
+  "sourceIssues": [
+    {
+      "entries": [
+        "高小强，John Martin Knuth,x",
+        "高小珍，Jennifer Sierra Knuth,x"
+      ],
+      "finding": "Chinese index prints x. Chinese scanned source has no printed page x; physical011 is ix then012 is1. English original index PDF765 lists xiv. Preserve Chinese x as plain text without inventing a target or silently substituting an English number."
+    }
+  ],
+  "pending": [
+    "Final whole-book inclusion proof",
+    "Full-book index-reference existence and routed browser jumps"
+  ]
+}

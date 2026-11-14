@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "answers4.1",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 485,
+  "cnPrintedPage": 474,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "3f25e8e646094eb579649b0e6f9e7a94da7cd48f7a07448eae3aeadb3ba4b821",
+  "masterBinding": "单页MD当前字节；整卷装订另证包含，不重写旧哈希冒充复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型直接看完整中文与列出的英文原页图，逐段/所有数学/算法/程序字段注释/原答号比较，不声称人类签核或所有一般证明独立重证。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/485.jpg",
+  "cnPageImageSha256": "3d19351e52e45b23e77afa315a798e45d1112de8915274c955c60c11defdddf3",
+  "enPdfPages": [
+    620,
+    621,
+    622
+  ],
+  "enPrintedPages": [
+    605,
+    606,
+    607
+  ],
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-620.png",
+      "sha256": "cbf50154421413c37d0557d0d72c4e92fd2f6b17798b6b69985430add1154bad"
+    },
+    {
+      "file": "verified-sources/en-621.png",
+      "sha256": "aa0bca21651c1666d32e9cd9ace667184c8419b8fee055a953d3fd844a063d1a"
+    },
+    {
+      "file": "verified-sources/en-622.png",
+      "sha256": "d996b8c003ec6b5e237dcf60eac6403ac1a575d304253b65a30340e3b62562c8"
+    }
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，页锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-485",
+    "p-474",
+    "ans-4-1-11",
+    "ans-4-1-12",
+    "ans-4-1-13",
+    "ans-4-1-14",
+    "ans-4-1-15",
+    "ans-4-1-16",
+    "ans-4-1-17",
+    "ans-4-1-18"
+  ],
+  "coveredRegions": [
+    "4.1答11–18全部正文、算法与公式，答13原OCR漏项已据原图恢复。",
+    "答14九列虚四进制长乘法所有中间行；图A-6四分数顶点/轴/矩形重绘SVG。",
+    "答15区间、答16八条P/Q重写规则、答18闭集/邻域证明及全部文献。"
+  ],
+  "unverifiedPageRegions": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "answers": [
+    {
+      "anchor": "ans-4-1-11",
+      "exercise_anchor": "ex-4-1-11",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-12",
+      "exercise_anchor": "ex-4-1-12",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-13",
+      "exercise_anchor": "ex-4-1-13",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-14",
+      "exercise_anchor": "ex-4-1-14",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-15",
+      "exercise_anchor": "ex-4-1-15",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-16",
+      "exercise_anchor": "ex-4-1-16",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-17",
+      "exercise_anchor": "ex-4-1-17",
+      "backlink_present": true
+    },
+    {
+      "anchor": "ans-4-1-18",
+      "exercise_anchor": "ex-4-1-18",
+      "backlink_present": true
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "首是新答11；末答18的参考文献续486。",
+  "syntaxCheck": {
+    "page": 485,
+    "sha256": "3f25e8e646094eb579649b0e6f9e7a94da7cd48f7a07448eae3aeadb3ba4b821",
+    "mathExpressions": 47,
+    "display": 2,
+    "footnotes": 0,
+    "codeLines": [],
+    "errors": 0,
+    "unexpectedControlCharacters": 0
+  },
+  "untested": [
+    "整卷母稿装订和所有题答往返",
+    "MIX程序执行及所有一般证明的独立重证",
+    "整卷Pandoc/VitePress/线上发布"
+  ],
+  "figureReview": {
+    "file": "assets/volume2/figures/fig-a-6.svg",
+    "sha256": "f53b00fb11e1ddd4eb53b9c3ac9a15bb048bc56b024eeb4a3be11c4bca408fcd",
+    "method": "原四顶点分数/两坐标轴/1:2矩形比例/实心顶点逐项双语核后SVG重绘。"
+  },
+  "browserCheck": {
+    "tool": "Isolated local Chrome with Playwright; Browser plugin unavailable",
+    "scope": "Private standalone page proofs, not final website/full-volume offline acceptance",
+    "viewports": [
+      1280,
+      390
+    ],
+    "report": "arithmetic-answers/browser-485-492.json",
+    "reportSha256": "30c3133172b3d0011b277a30455115683986b83460280b0f8ab5ed170e3ce698",
+    "currentPageSha256": "3f25e8e646094eb579649b0e6f9e7a94da7cd48f7a07448eae3aeadb3ba4b821",
+    "cases": 2,
+    "noPageErrors": true,
+    "noMissingImages": true,
+    "noDocumentOverflow": true,
+    "noHiddenMathmlSwallowing": true,
+    "allMeasuredHorizontalScrollEndsReachable": true,
+    "screenshotsDirectlyInspectedWidths": [
+      1280
+    ],
+    "meaning": "All24 pages observed in both browser sizes by DOM checks; selected critical original-content screenshots directly viewed. Separate endpoints cover wide code/formulas/tables."
+  },
+  "numericCheck": {
+    "report": "arithmetic-answers/numeric-check.json",
+    "reportSha256": "a7e06af050f360c280ccb5e8bed434c70d609cd5265d9e38b47b16b2465f27e0",
+    "meaning": "Exact finite checks and two explicit general algebraic derivations are individually scoped; no claim of executing MIX or independently reproving every original theorem."
+  },
+  "reviewHistory": [
+    {
+      "historyDirectory": "verified-history/answers485-508-before-final-evidence",
+      "reason": "保留此前单页MD/JSON签核；本次添加当前SHA绑定浏览器与独立复算，并将初稿误标的日期纠正为实际2026-11-14，不改变原页复核含义。"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录只绑定单页稿，装订母稿另加包含证明，不能把历史哈希换成新哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "cnPdfPage": 144,
+  "cnPrintedPage": 133,
+  "section": "3.5",
+  "enPdfPages": [
+    190,
+    191,
+    192
+  ],
+  "enPrintedPages": [
+    175,
+    176,
+    177
+  ],
+  "pageMarkdownSha256": "238fdb0a243bf6fb371839b8f3460b1ca787d01e6a256f3e403dd7b752358ed9",
+  "cnPageImageSha256": "b7442ae78954e54b1673073749d3d30bc38cebe5a358fa1ef895715b3d081894",
+  "enPageImageSha256": {
+    "190": "74895834c9f8ce6fad2dc7e77c542a5cff9d558f76c9d3785a2df6418f54b4e0",
+    "191": "08c52346427b047488465bd689023f17d8084e1b9572b1f5665750355aa02a70",
+    "192": "172d9d69239f7aa2873ed9a4e201d3c4f0f05b3dd97afcf53c534a3029a90126"
+  },
+  "coveredRegions": [
+    "定理P的实际意义与历史条件、MIP年常数、50000/200000/333333位三组假定计算、简单平方方法复杂度比较、因子分解原作者猜想、G标题与Borel历史首段。"
+  ],
+  "explicitAnchors": [
+    "pdf-144",
+    "p-133"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉/页码，源页位置用隐藏锚点保留。"
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 49,
+    "displayExpressions": 1,
+    "parseErrors": 0
+  },
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [
+    {
+      "location": "1995性能实例、因子分解猜想与“每个人都相信”",
+      "disposition": "保留原作者假设、时间范围及未来评述，不按当前硬件/算法/量子模型改写原书。复算仅核对所印假定公式的算术，不作当代安全建议。"
+    }
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuation": {},
+  "exerciseNumbers": [],
+  "recommendedExercises": [],
+  "answerExceptions": [],
+  "renderReview": {
+    "standalonePageProof": true,
+    "finalVitePressBuild": false,
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "browserReviewSha256": "7116fa8981a84666930c23eb46c0ed70c0d8d22c3264bc3688011ce5072846bd",
+    "visualReviewSha256": "a3d7e62a8058b641aa69833089ecf43d22162b0e37b0b13b697a42e3acbbb11f",
+    "browserAvailability": "Browser plugin not available; task-authorized bundled Playwright + isolated local Chrome.",
+    "cases": [
+      {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "mathExpressions": 49,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 0,
+        "bothEndsReachable": true,
+        "passed": true
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "mathExpressions": 49,
+        "pageErrors": [],
+        "consoleErrors": [],
+        "brokenMathml": 0,
+        "overflowingBlocks": 1,
+        "bothEndsReachable": true,
+        "passed": true
+      }
+    ]
+  },
+  "numericalCheckSha256": "a51768b650635f1c287a28730d8d4710d433ec4d0ff16acf89c283181298bfde",
+  "numericalCheckQualification": "有限真值表、GF(2)矩阵枚举和历史算术复算辅助原图核对，不把有限检查当作普遍复杂度/概率/测度论证明。",
+  "untested": [
+    "最终母稿包含证明、整卷Pandoc/VitePress、全站题答/索引/搜索/线上下载和发布由主任务统一执行。"
+  ]
+}

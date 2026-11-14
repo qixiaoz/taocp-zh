@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订须另证包含与跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文整页及列出的英文页图，逐段/逐式/表格/程序字段频次注释和难度推荐符号比较。机器检查和复算另列，不声称人类签核。",
+  "cnPdfPage": 218,
+  "cnPrintedPage": 207,
+  "enPdfPages": [
+    285,
+    286
+  ],
+  "enPrintedPages": [
+    270,
+    271
+  ],
+  "pageMarkdownSha256": "855c0938c6c60ccb7007f754d3e61b0f26f77d9ea7759c25b6e7e297e9dbff78",
+  "cnPageImage": "scans/218.jpg",
+  "cnPageImageSha256": "a6082a362b4aedf37d0e75b9a7855aa9a1b527bbc5685562aa3e3c23a6ad7c23",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-285.png",
+      "sha256": "8d7f41423d3a4085d7269293658f7567de4589f35d37d4ad1749ccd69e85ea36"
+    },
+    {
+      "file": "verified-sources/en-286.png",
+      "sha256": "147d373d7f30229ed63f180d3c0a622e67d8a7b6e50038a1ad4928e5fc7465ab"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-218",
+    "p-207",
+    "fig-4-6"
+  ],
+  "coveredRegions": [
+    "程序M23–28及结束方块。",
+    "运行时间全部参数/Kprime/阈值，简单乘法与快速算法说明。",
+    "长除例3142÷53、n+1/n归约、q/r唯一性。",
+    "图6长除布局全部标签/两箭头、式2帽q估商。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [
+    "2"
+  ],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "pendingactualanswer-area-verification",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "首M23–28续217。末式2完整，219首“这个公式告诉我们…”承上解释，不分割公式。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 48,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [
+      6
+    ],
+    "meaning": "只是语法；内容核查依实际中英文原页。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终母稿装订/跨页代码合并/题答回链",
+    "正式VitePress/Pandoc整卷与线上",
+    "未执行MIX或将机器字段一致称作算法正确性证明。"
+  ],
+  "figureReview": {
+    "file": "assets/volume2/figures/fig-4-6.svg",
+    "sha256": "6547da296dad785c574518ee3e90f7f6494f0743ab8b31d416137309796d98fb",
+    "method": "可编辑SVG文本和线段语义重绘；实际对照中文/英文原图，输出视觉检查另列。",
+    "checks": [
+      "全部标签、线段端点、方向、分支和数字列归属按源图。"
+    ],
+    "currentOutputEvidence": "verified-render/classical-figure-review.json"
+  },
+  "renderReview": {
+    "file": "verified-render/classical-dom-review-214-221.json",
+    "sha256": "357953879ea66bc509052393306e2caf7a7030233bc456ecfaa32ccb21f46986",
+    "scope": "私有1280/390；源图内容独立复核。217旧表和图6/7旧输出已被当前专项复验替代。"
+  }
+}

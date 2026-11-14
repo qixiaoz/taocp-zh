@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "3.2.2",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "本记录绑定单页稿字节；母稿装订后另作包含证明，不改旧哈希冒充新复核。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "unverifiedPageRegions": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "untested": [
+    "最终母稿包含关系及VitePress/Pandoc整卷页面待主任务核验。"
+  ],
+  "pageFurnitureOmitted": [
+    "重复页眉和印刷页码；页码由隐藏锚点保留。"
+  ],
+  "cnPdfPage": 35,
+  "cnPrintedPage": 24,
+  "enPdfPages": [
+    45,
+    46,
+    47
+  ],
+  "enPrintedPages": [
+    30,
+    31,
+    32
+  ],
+  "pageMarkdownSha256": "6fb4ee3843d6c9a84d57c518972c97b8fc2f48642e0903898690525bf8306739",
+  "cnPageImageSha256": "fc96651857770db13014518b64952f94875e10d1ed574f069d4129421907d031",
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 20,
+    "parseErrors": 0
+  },
+  "explicitAnchors": [
+    "pdf-035",
+    "p-24",
+    "fig-3-1"
+  ],
+  "exerciseNumbers": [],
+  "answerExistenceEvidence": [],
+  "answerExceptions": [],
+  "coveredRegions": [
+    "前页句中续文、二进制MIX程序(10)完整5行、异或解释、图1全部16个字、位序列和相邻组讨论、35位掩码、整字小数警示、Lewis/Payne变体。"
+  ],
+  "startsMidParagraph": true,
+  "codeLinesReviewed": 5,
+  "assets": [
+    {
+      "path": "assets/volume2/figures/p035-fig-3-1.svg",
+      "sha256": "d9b5da922622180cf1ad61e0a92134831040e5b37de39b978fbfe75714f6d5b4",
+      "type": "editable-vector-redraw",
+      "originalFigure": 1,
+      "states": [
+        "1011",
+        "0101",
+        "1010",
+        "0111",
+        "1110",
+        "1111",
+        "1101",
+        "1001",
+        "0001",
+        "0010",
+        "0100",
+        "1000",
+        "0011",
+        "0110",
+        "1100",
+        "1011"
+      ],
+      "standaloneRenderedAndVisuallyCompared": true,
+      "renderer": "sharp/libvips 144dpi",
+      "captionInMarkdown": true,
+      "whiteBackground": true
+    }
+  ],
+  "numericAudit": {
+    "method": "四位字左移并在原高位为1时异或0011；对全部15条转移复算。",
+    "all15TransitionsMatch": true,
+    "uniqueStatesBeforeRepeat": 15,
+    "lsbPeriod": "110101111000100",
+    "fourBitWindows": [
+      "1101",
+      "1010",
+      "0101",
+      "1011",
+      "0111",
+      "1111",
+      "1110",
+      "1100",
+      "1000",
+      "0001",
+      "0010",
+      "0100",
+      "1001",
+      "0011",
+      "0110"
+    ],
+    "all15NonzeroWindows": true
+  },
+  "ocrRepairs": [
+    "2^k-1不可误识成2^k=1；CONTENTS(A)的k=35掩码是32个0加101，M模型多读0，不照搬；图中字序逐行保留并重绘。"
+  ]
+}

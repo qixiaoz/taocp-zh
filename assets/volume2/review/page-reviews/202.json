@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.2.3",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；最终母稿须另行证明包含、跨页合段/程序合块及允许展示转换，不仅替换本哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整页和列出的英文页图，逐段/逐式/表格单元/清单行及注释比较；语法/文本字段检查/复算独立列出。模型视觉核查，不声称人类签核。",
+  "cnPdfPage": 202,
+  "cnPrintedPage": 191,
+  "enPdfPages": [
+    264,
+    265
+  ],
+  "enPrintedPages": [
+    249,
+    250
+  ],
+  "pageMarkdownSha256": "1ee8976613edb7ac5d6ac6d0d117523132f669110ec4d586443483d55724d3c4",
+  "cnPageImage": "scans/202.jpg",
+  "cnPageImageSha256": "2884ca15d1a9f85d317625dc36f659bdb21b5191f95736b6f8b33c07a8cb6550",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-264.png",
+      "sha256": "4a29d9f64698dc6284ce2dd1d60aa304071c75b68df103e3a898e099b7f00b9a"
+    },
+    {
+      "file": "verified-sources/en-265.png",
+      "sha256": "3f2aab1d70e7d077ad4985d96f127aef7001b4c4a40ad91590af1661cb2b41a4"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉、节号/节名/书名及页码；物理页和印刷页隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-202",
+    "p-191",
+    "fig-4-4",
+    "prog-4-2-3-m"
+  ],
+  "coveredRegions": [
+    "40行后符号、39/40不可交换解释。",
+    "四个部分积截断图4，双语数字列/各项/竖线逐一比较并SVG重绘。",
+    "程序M约定及01–28所有字段和中文注释。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [],
+  "answerLinkStatus": "not-applicable",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "程序M本页01–28接203首29–33，最终合一个mixal块；203锚点移块外并记录行号对应。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 0,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [
+      28
+    ],
+    "meaning": "仅排版语法；内容来自以上中文/英文原页实际比较。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "numericalChecks": {
+    "meaning": "辅助原页核查，不当作原书答案来源或替代视觉比较。",
+    "results": {}
+  },
+  "untested": [
+    "最终母稿装订包含/跨页程序合并与原题答双向链接。",
+    "最终正式VitePress/Pandoc整卷和线上。",
+    "未执行MIX程序，未以代码字段一致宣称数值实现正确。"
+  ],
+  "figureReview": {
+    "file": "assets/volume2/figures/fig-4-4.svg",
+    "sha256": "55860ab65cc0748cd7f4b6a575375a6e16e4beda7001deb210620ac0b684ee2a",
+    "method": "SVG文本/线段语义重绘；双语原图每行列数及位置比较。",
+    "checks": [
+      "u/v各8字母+2零，分5列一组，共10列；两小数低半部分积6x+4零。",
+      "两个交叉积各8x+2零，左移5列；高半部分积10x再左移5列。",
+      "结果16w+4零，原截断竖线在第二五位组第4/5位之间；未依据文字擅自移动竖线。",
+      "四部分积右侧um/ul/vm/vl和epsilon/epsilon²完整；两水平线保留。"
+    ]
+  },
+  "renderReview": {
+    "file": "verified-render/double-dom-review-199-206.json",
+    "sha256": "6f0e4ea6e73341500b9b50022fc1392832b8c3f20e4374f322fb9dbe0ed62dff",
+    "scope": "Currentpage SHA; isolated1280/390 DOM plus explicitlylistedselectedregionsactualvisual. SharedVitePress/Pandoc not included."
+  }
+}

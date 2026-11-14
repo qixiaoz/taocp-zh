@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.6.1",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 338,
+  "cnPrintedPage": 327,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    437,
+    438
+  ],
+  "enPrintedPages": [
+    422,
+    423
+  ],
+  "pageMarkdownSha256": "655e18b38fc163497db950b0f8045e83b50df62aa654d62292f2a14e378cdba9",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/338.jpg",
+  "cnPageImageSha256": "4bc5d004775fc5a6bef4ddcd9e45469e8cb4b03ec3eaf429b38cd7ff1ed80ba2",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-437.png",
+      "sha256": "d563540d1193235d13dc6be6e00a31ab54351363d2ed58eb291aa2151ee04b8c"
+    },
+    {
+      "file": "source-audit/en-render/page-438.png",
+      "sha256": "1dc46d2063823a0ad2882296fdf8bc61b6db46913fa84d4aa01356b5dca66300"
+    }
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-338",
+    "p-327",
+    "lem-4-6-1-g",
+    "lem-4-6-1-h"
+  ],
+  "numberedFormulaTags": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 83,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "语法与实际原图/双语、数值复算分别记录。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "完整Pandoc/正式VitePress/线上及ZIP",
+    "有限具体例子复算未扩大为全称代数或复杂度证明。"
+  ],
+  "sections": [
+    "4.6.1"
+  ],
+  "coveredRegions": [
+    "置换续句；整环/多元分解全部因子；倍元/本原定义；高斯引理G完整证明和引理H命题。"
+  ],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 337,
+    "previousEnd": "则 $s=t$ 且存在",
+    "start": "$\\{1,\\ldots,t\\}$ 的排列"
+  },
+  "endsMidParagraph": false,
+  "numericEvidence": ".work/volume2/source-audit/batch335-numeric-check.json",
+  "numericScope": "49组精确整数/Fraction/mod13核对；含两长除法每格与空位、4次整数伪余式、4次原有理余式、5行首一序列、二进制/多项式乘法和多元因子展开。只是本书具体例子，不是所有环/域定理的一般证明。",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch335-proof.html",
+    "htmlSha256": "c1cc832569000196cf0192d2a73af2b177efb366fe7114456e3de672527a311a",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof; not whole-volume/final-site acceptance.",
+    "browserPath": "Browser plugin absent; bundledPlaywright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch335-proof-1280-338.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch335-proof-390-338.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch335-right-390-338.png",
+    "mobileRightEndVisualReview": false,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "proofMathExpressions": 453,
+    "scrollableElementCounts": {
+      "1280": 48,
+      "390": 71
+    },
+    "machineObservations": ".work/volume2/source-audit/batch335-browser.json"
+  },
+  "sourceReadingClarification": {
+    "note": "先前缩图对m/n有疑问，放大后确认原图本来就是n，当前转录忠实，不记实质订正。",
+    "image": ".work/volume2/source-audit/338-correction-crop.png"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.3.3",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "绑定当前单页MD字节；母稿装订另证包含和跨页连接，不改旧哈希冒充重验。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "模型实际查看中文整页与列出的英文原页图片，逐段、逐式、表单元、算法、图线和难度推荐符号对照；不声称人类签核。",
+  "cnPdfPage": 255,
+  "cnPrintedPage": 244,
+  "enPdfPages": [
+    332,
+    333
+  ],
+  "enPrintedPages": [
+    317,
+    318
+  ],
+  "pageMarkdownSha256": "967677b4238973e8f634af0a1611eb6e7fa9247f4971b711a343fe82d8a63c30",
+  "cnPageImage": "scans/255.jpg",
+  "cnPageImageSha256": "5ba4b86952a5072f090f41ae905c137f0332a666586c0095660bb97bdeb92cfa",
+  "enPageImages": [
+    {
+      "file": "verified-sources/en-332.png",
+      "sha256": "da892eef7e9b27cecd1daf50ad1a29d02e1573bc9ba65951a8e2da2ac0e4ee17"
+    },
+    {
+      "file": "verified-sources/en-333.png",
+      "sha256": "5c778ff4c18c10ba2190bf1806c46db4769b36716f1c3749c6041ea055fa7fe3"
+    }
+  ],
+  "fullPageContentTranscribed": true,
+  "pageFurnitureOmitted": [
+    "重复页眉及页码，隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-255",
+    "p-244",
+    "ex-4-3-3-13",
+    "ex-4-3-3-14",
+    "ex-4-3-3-15",
+    "ex-4-3-3-16",
+    "ex-4-3-3-17",
+    "ex-4-3-3-18",
+    "ex-4-3-3-19"
+  ],
+  "coveredRegions": [
+    "首续题12vi/vii与完整长提示，所有N进制/指针/复杂度条件。",
+    "习题13–19全部题干、难度/16/18/19推荐；题16chirp卷积式和题17递推。",
+    "本页仍属4.3.3，到19末完整停；下一256才是4.4。"
+  ],
+  "unverifiedPageRegions": [],
+  "addedExplanationsInBody": false,
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "substantiveCorrections": [],
+  "preservedVersionDifferences": [],
+  "numberedFormulaTags": [],
+  "exerciseNumbers": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "answerLinkStatus": "pending-actual-answer-area-verification",
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "continuationNotes": "首续254题12vi/vii及原Hint；末4.3.3题19完整。下一256是4.4基数转换，不需跨页合句。",
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1",
+    "mathExpressions": 39,
+    "parseErrors": 0,
+    "codeLines": [],
+    "meaning": "语法与机器检查只作辅助，内容依中英文实际原图。"
+  },
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "完整母稿装订与全部题答双链",
+    "整卷Pandoc/VitePress和线上发布验收"
+  ],
+  "browserCheck": {
+    "tool": "Playwright with isolated local Chrome; Browser plugin unavailable",
+    "scope": "Private independent page proof, not final website or full-volume Pandoc",
+    "viewports": [
+      1280,
+      390
+    ],
+    "report": "arithmetic-work/browser-244-255.json",
+    "reportSha256": "5d102d8af2691b4a3f31173343d2036c95f1c6c1018b721920e5b59f65679f59",
+    "currentPageSha256": "967677b4238973e8f634af0a1611eb6e7fa9247f4971b711a343fe82d8a63c30",
+    "cases": 2,
+    "noPageErrors": true,
+    "noMissingImages": true,
+    "noDocumentOverflow": true,
+    "noHiddenMathmlSwallowing": true,
+    "allMeasuredHorizontalScrollEndsReachable": true,
+    "screenshotsDirectlyInspectedWidths": [
+      390
+    ],
+    "meaning": "DOM checks executed on every page; directly inspected selected formula/table/figure/algorithm screenshots, with separate long-formula/table endpoints."
+  },
+  "numericCheck": {
+    "report": "arithmetic-work/numeric-check.json",
+    "reportSha256": "5fcbdb25d5d70651bc6a9ef3cc97d19035f14312384a3c153f6066e650a7c56a",
+    "meaning": "Finite exact/sample recomputations supplement direct CN/EN image review; all related source MD hashes recorded. Not a general proof."
+  }
+}

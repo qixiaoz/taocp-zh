@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.6.1",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 349,
+  "cnPrintedPage": 338,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    450,
+    451
+  ],
+  "enPrintedPages": [
+    435,
+    436
+  ],
+  "pageMarkdownSha256": "7b28d05c223d350e9c51fde3368f8fb1a2a36778a55da717bee3dba00348fa64",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/349.jpg",
+  "cnPageImageSha256": "17d06d7fc58265696e972036e313c654f2eb52f084e623d1b8ab79530e0e038f",
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "完整Pandoc/正式VitePress/线上及ZIP",
+    "有限具体例子复算未扩大为全称代数或复杂度证明。"
+  ],
+  "sections": [
+    "4.6.1"
+  ],
+  "numericEvidence": ".work/volume2/source-audit/batch343-numeric-check.json",
+  "pageAnchors": [
+    "pdf-349",
+    "p-338",
+    "ex-4-6-1-4",
+    "ex-4-6-1-5",
+    "ex-4-6-1-6",
+    "ex-4-6-1-7",
+    "ex-4-6-1-8",
+    "ex-4-6-1-9",
+    "ex-4-6-1-10",
+    "ex-4-6-1-11",
+    "ex-4-6-1-12",
+    "ex-4-6-1-13",
+    "ex-4-6-1-14",
+    "ex-4-6-1-15",
+    "ex-4-6-1-16",
+    "ex-4-6-1-17"
+  ],
+  "numberedFormulaTags": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "coveredRegions": [
+    "习题4–16全部题干/提示/式/难度与4/8/12/16推荐标记；17题字母表、长度、非零有理数系数、次数及非交换乘法定义，例子跨350。"
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "v2-4.6.1-ex16-random-object",
+      "classification": "cn-mistranslated-random-object",
+      "cnPrintedPage": 338,
+      "location": "习题16概率解释句",
+      "enLocation": {
+        "pdfPage": 451,
+        "printedPage": 436,
+        "exercise": "16"
+      },
+      "original": "找到随机选取的多项式的根的概率",
+      "final": "随机选取的点是这个多项式的根的概率",
+      "basis": "题干固定非零多项式f及各Sj；概率明确为根集大小除以笛卡尔积大小。英文probability of finding a root at random指随机选点是否为根，不是随机选多项式。其余条件和界不改。"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-450.png",
+      "sha256": "1546c10e16f7ee9146963fe2f903d8bcb920676fd708ca2dd84331492986880d"
+    },
+    {
+      "file": "source-audit/en-render/page-451.png",
+      "sha256": "74bd98539df8eb19cbefebf395efbaf6837e8d3c7cb9b65c8639a051dd4ba788"
+    }
+  ],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 101,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "语法与原图/双语/精确复算分项记录。"
+  },
+  "numericScope": "Exact source example of Algorithm C and all 375 paired minors of matrices17/18/21/22; each source subresultant coefficient and h determinant; exercise1/2/3 particular inputs; literal free-word convolution/division for exercises17/18. No finite computation is claimed as a general UFD, root bound, probability, complexity or noncommutative theorem proof.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch343-proof.html",
+    "htmlSha256": "c4f4c74916aac4899b094a91fd542a37ed7a76932da85387a4af544daad83e4e",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not whole-volume or production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright with local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch343-proof-1280-349.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch343-proof-390-349.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 914,
+    "scrollableElementCounts": {
+      "1280": 348,
+      "390": 366
+    },
+    "machineObservations": ".work/volume2/source-audit/batch343-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these eight pages"
+  },
+  "endsMidParagraph": {
+    "nextCnPdfPage": 350,
+    "exercise": "4.6.1-17",
+    "end": "$U=ab+ba-2a-2b$，$V=a+b-1$，",
+    "nextStart": "则$\\deg(U)=2$"
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch343-answer-presence.json",
+    "linkedExercises": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "allOriginalNumberedAnswersPresent": true,
+    "roundTripDeferredUntilActualAnswerTranscriptionAndAssembly": true,
+    "noFabricatedAnswerContent": true
+  },
+  "history": [
+    {
+      "status": "historical-superseded",
+      "evidence": ".work/volume2/source-audit/history/batch343-before-image-readiness",
+      "reason": "Initial browser image-state sample preceded lazy-image loading. Rechecked with eager loading plus image decode before collecting state; no markdown change."
+    }
+  ],
+  "matrixCellEvidence": null
+}

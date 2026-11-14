@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "4.5.4",
+  "reviewDate": "2026-11-14",
+  "cnPdfPage": 316,
+  "cnPrintedPage": 305,
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "enPdfPages": [
+    409,
+    410,
+    411
+  ],
+  "enPrintedPages": [
+    394,
+    395,
+    396
+  ],
+  "pageMarkdownSha256": "f4f53a659636d20b669a30ba60caf0e47cbd17ee271e3207b8ced5fd172315cc",
+  "masterSha256": null,
+  "masterBinding": "单页MD绑定；最终母稿及跨页接续须另增包含证明，不改本页旧哈希。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看本中文完整原图及所列英文对应原页图，核对全部正文、行内/独立式、程序行字段、数表单元格与原书脚注。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "cnPageImage": "scans/316.jpg",
+  "cnPageImageSha256": "a73ab9d40578d4574972bd91541be2aad9e77b6e0bc415c85c3fdaa7c21d89d0",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-409.png",
+      "sha256": "bea217b891098d116ed7b85c449902be3df9e06617402b3f47c758c31106e8f4"
+    },
+    {
+      "file": "source-audit/en-render/page-410.png",
+      "sha256": "8f3c0dc8bc167eda78932b53fac96b611a37e12c0f98c0aea9c6677b3e5c2ec8"
+    },
+    {
+      "file": "source-audit/en-render/page-411.png",
+      "sha256": "05d47f738c46eabfe437fa4262eb1b3f39e4c6cf9dc833f7170f3d208a09903b"
+    }
+  ],
+  "coveredRegions": [
+    "561/Carmichael阶/所有模幂及病态讨论。",
+    "算法P输入、P1–P5全部条件、更新、返回和终止。",
+    "序列指数、1/4与25轮/十亿次期望界；全部引用和ERH叙述。"
+  ],
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/节号/节名/书名/页码；页定位由隐藏锚点保留。"
+  ],
+  "pageAnchors": [
+    "pdf-316",
+    "p-305",
+    "alg-4-5-4-p"
+  ],
+  "numberedFormulaTags": [],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [
+    {
+      "section": "4.5.4 AlgorithmP probability paragraph",
+      "cnPrintedPage": 305,
+      "enPdfPage": 410,
+      "enPrintedPage": 395,
+      "original": "检测了十亿个不同的素数",
+      "final": "检测了十亿个不同的数",
+      "basis": "English inputs are a billion different numbers, not known primes; actual primes cannot yield the stated composite false-positive error."
+    },
+    {
+      "section": "4.5.4 AlgorithmP expected-error bound",
+      "cnPrintedPage": 305,
+      "enPdfPage": 410,
+      "enPrintedPage": 395,
+      "original": "判断出错的次数也小于1/1000000",
+      "final": "判断出错的次数的期望值也小于1/1000000",
+      "basis": "English explicitly bounds the expected number of mistakes. A bound less than one on the expectation does not assert the realized integer number of mistakes is always zero. Exact Fraction check of10^9·4^-25 saved separately."
+    }
+  ],
+  "preservedVersionDifferences": [
+    {
+      "kind": "Chinese proper-name wording retained",
+      "cnPrintedPage": 305,
+      "enPrintedPage": 395,
+      "sourceChinese": "卡尔·巴赫",
+      "sourceEnglish": "Eric Bach",
+      "handling": "保留中文底本人名译写，记录与英文署名不同；未将译名核对扩大为学者生平事实审计。"
+    }
+  ],
+  "startsMidParagraph": {
+    "previousCnPdfPage": 315,
+    "previousEnd": "另一",
+    "start": "方面，",
+    "extractPreviousFootnotesBeforeJoining": [
+      "v2-p304-1"
+    ]
+  },
+  "endsMidParagraph": false,
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via actual repository book-markdown.mjs",
+    "mathExpressions": 68,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": [],
+    "meaning": "仅语法；原图/双语核对与有限复算分列。"
+  },
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch312-proof.html",
+    "htmlSha256": "650934f8eed2449a7f566b8f1a67f3ac2e9586dcab371914f33701094e6f5162",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof only, not whole-volume/offline/final-site/online acceptance.",
+    "browserPath": "Browser plugin not available; bundled Playwright plus local Chrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch312-proof-1280-316.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch312-proof-390-316.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "mobileRightEndScreenshot": ".work/volume2/source-audit/batch312-right-390-316.png",
+    "mobileRightEndVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "mathmlBodyLeak": 0,
+    "mathParseErrors": 0,
+    "proofMathExpressions": 471,
+    "machineObservations": ".work/volume2/source-audit/batch312-browser.json",
+    "scrollableElementCounts": {
+      "1280": 44,
+      "390": 64
+    }
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch312-numeric-check.json",
+  "numericScope": "685 exact/numeric checks include actual sample data, primality certificates and finite algorithm replay; finite AlgorithmP exhaustion does not prove its general bound. Historical performance timings and6432966-iteration claim not rerun.",
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "最终整卷母稿装订/包含证明",
+    "整卷Pandoc、正式VitePress和线上发布/下载",
+    "未把有限复算、历史性能描述或机器语法通过扩写为一般定理的证明。"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "3.1",
+  "reviewDate": "2026-11-14",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "masterBinding": "母稿尚未装订；本记录绑定单页Markdown字节和中文原页图指纹。装订后另作包含证明，不可把此哈希直接改成母稿哈希冒充重检。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "直接查看中英文原页图，逐段、逐式并按算法步骤、表格行和习题题号对照；不以OCR一致或解析通过替代原页校对。",
+  "fullPageContentTranscribed": true,
+  "originalFootnotesPresent": false,
+  "pageFurnitureOmitted": [
+    "重复的页眉节号、书名/小节名、印刷页码；印刷页码用隐藏锚点保留。"
+  ],
+  "addedExplanationsInBody": false,
+  "substantiveCorrections": [],
+  "unverifiedPageRegions": [],
+  "untested": [
+    "尚未验证最终母稿包含关系。",
+    "尚未验证最终VitePress和Pandoc整卷页面。"
+  ],
+  "cnPdfPage": 12,
+  "cnPrintedPage": 1,
+  "enPdfPages": [
+    16,
+    17
+  ],
+  "enPrintedPages": [
+    1,
+    2
+  ],
+  "pageMarkdownSha256": "fdceb8f8cfc78ea00b7883a82ccb81de513b94ebff645dade9747199a65558e1",
+  "cnPageImage": "scans/012.jpg",
+  "cnPageImageSha256": "adf4515c71ac223d0f06fe93a538e4d3b481a63147d7afa4fe18e7e7faef35ae",
+  "pageAnchors": [
+    "pdf-012",
+    "p-1",
+    "sec-3",
+    "sec-3-1"
+  ],
+  "startsMidParagraph": false,
+  "endsMidParagraph": true,
+  "startsInsideAlgorithm": false,
+  "endsInsideAlgorithm": false,
+  "startsInsideExercise": false,
+  "endsInsideExercise": false,
+  "exerciseNumbers": [],
+  "recommendedExercises": [],
+  "exerciseAnswerExistence": [],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX 0.19.1",
+    "mathExpressions": 0,
+    "parseErrors": 0,
+    "meaning": "仅证明语法可排版；语义核实另以原页对照为据。"
+  },
+  "markdownIntegrity": {
+    "uniqueExplicitAnchors": true,
+    "unexpectedControlCharacters": 0
+  },
+  "coveredRegions": [
+    "第3章标题及三段原书引语。",
+    "§3.1标题、开头说明、应用(a)–(h)全部。",
+    "美学应用的未编号插图两组各3行8列方框。",
+    "随机数哲学讨论段，至页末“独立随”续字。"
+  ],
+  "assets": [
+    {
+      "path": "assets/volume2/figures/sec-3-1-aesthetic-patterns.png",
+      "sha256": "63328129099a1456c99b8f21d3f4948f7018af2b82be59696e2c3d39e2c665d6",
+      "kind": "unnumbered-original-image-crop",
+      "sourceImageSha256": "adf4515c71ac223d0f06fe93a538e4d3b481a63147d7afa4fe18e7e7faef35ae",
+      "sourceImagePixels": [
+        2072,
+        2953
+      ],
+      "sourcePixelBbox": [
+        435,
+        2410,
+        1720,
+        2605
+      ],
+      "outputPixels": [
+        1285,
+        195
+      ],
+      "leftGroupBoxes": 24,
+      "rightGroupBoxes": 24,
+      "visualReview": "已看裁图，左右各3×8方框完整，无文字混入或边缘截断。",
+      "cnEnMatch": "中英文均为左侧随机扰动方框、右侧规则方框；保留中文印本的实际图形。"
+    }
+  ]
+}

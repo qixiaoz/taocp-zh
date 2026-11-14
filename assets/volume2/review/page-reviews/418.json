@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterBinding": "单页MD绑定；母稿装订及包含证明由主任务另行记录，不替换旧单页SHA。",
+  "reviewerType": "model-direct-page-image-comparison",
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "reviewMeaning": "实际查看中文完整原页图及所列英文对应原页图，核对全部正文、行内/无编号/编号式、算法每步、数表每格、题号难度推荐标记。模型直接核对，不声称人类签核。",
+  "fullPageContentTranscribed": true,
+  "unverifiedPageRegions": [],
+  "pageFurnitureOmitted": [
+    "重复页眉/书名/节号/页码，以隐藏锚点保留页定位。"
+  ],
+  "originalFootnotesPresent": false,
+  "originalFootnoteIds": [],
+  "addedExplanationsInBody": false,
+  "markdownIntegrity": {
+    "unexpectedControlCharacters": 0,
+    "uniqueAnchors": true
+  },
+  "untested": [
+    "整卷母稿装订/包含证明",
+    "正式VitePress/完整离线校样/线上及ZIP",
+    "算法有限实例复算不替代一般证明；实根/自由度/最优性一般定理不称数值证明"
+  ],
+  "section": "4.6.4",
+  "sections": [
+    "4.6.4"
+  ],
+  "reviewDate": "2026-11-15",
+  "cnPdfPage": 418,
+  "cnPrintedPage": 407,
+  "enPdfPages": [
+    537,
+    538
+  ],
+  "enPrintedPages": [
+    522,
+    523
+  ],
+  "pageMarkdownSha256": "60c0c50f1496124e1df625049c13b2a6a7e824a82af529bbabf0085481e84ee7",
+  "masterSha256": null,
+  "cnPageImage": "scans/418.jpg",
+  "cnPageImageSha256": "933bf5be496e95d63b7683cf2edfa0e71ec61bf3d59e2612c74d4ad87f3f0804",
+  "enPageImages": [
+    {
+      "file": "source-audit/en-render/page-537.png",
+      "sha256": "8a53d2ed37fd486ba58421f24754ee337b3df7e88e5ab1bff3bfa9e406b4519d"
+    },
+    {
+      "file": "source-audit/en-render/page-538.png",
+      "sha256": "7ffab03e20bccc1df68c5a65e3be6d4a31298fdbc93ff244260c8b817d1041b7"
+    }
+  ],
+  "pageAnchors": [
+    "pdf-418",
+    "p-407",
+    "ex-4-6-4-64",
+    "ex-4-6-4-65",
+    "ex-4-6-4-66",
+    "ex-4-6-4-67",
+    "ex-4-6-4-68",
+    "ex-4-6-4-69"
+  ],
+  "numberedFormulaTags": [],
+  "coveredRegions": [
+    "63(c)(d)、64–69全部题目/推荐65,69/难度/边界秩下划线与rank2/67全a–j/68严格界翻译订正；原历史渐近界保留。"
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "v2-4.6.4-ex68-strict-operation-count",
+      "section": "4.6.4",
+      "cnPdfPage": 418,
+      "cnPrintedPage": 407,
+      "exercise": 68,
+      "original": "可用不超过n−1次乘法和2n−4次加法",
+      "final": "可用少于n−1次乘法和2n−4次加法",
+      "minimalEdit": "仅不超过→少于；多项式、两个次数表达式、研究难度保留。",
+      "enLocation": {
+        "pdfPage": 538,
+        "printedPage": 523,
+        "position": "exercise68 final question"
+      },
+      "enExcerpt": "with fewer than n − 1 multiplications and 2n − 4 additions?",
+      "basis": "英文严格界；CN575–576原答68讨论n−1乘法下界，严格少于与原答对应。不将文献的下界当作本批独立证明。",
+      "cnCrop": "source-audit/418-ex68-crop.png",
+      "cnCropSha256": "ea2cf4ca6816a9875db76a5e69d3d7feb7757926358d4cdca6e2b2b151503347",
+      "enImageSha256": "7ffab03e20bccc1df68c5a65e3be6d4a31298fdbc93ff244260c8b817d1041b7"
+    }
+  ],
+  "preservedVersionDifferences": [],
+  "syntaxCheck": {
+    "engine": "KaTeX0.19.1 via repository renderer",
+    "mathExpressions": 75,
+    "parseErrors": 0,
+    "codeLinesIncludingBlankLines": []
+  },
+  "numericEvidence": ".work/volume2/source-audit/batch417-numeric-check.json",
+  "numericScope": "60a general six-variable commutative identity by exact polynomial expansion; full60a coefficient identity only finite n=2,4,6. 62 all8 coefficients of displayed rank2 degeneration through order1 overQ, not arbitrary-field minimal-rank proof. SeriesL/T/N/recurrences3,9,12,16,20 exactFraction finite orders5,8,12,16×5fixedcases; not general algorithm/complexity proofs. Full422 table populated cells exact. 74d exact2linearforms withoneconstant multiplication. No claim to prove asymptotic tensor-rank theorems, open lower bounds or arbitrary-field ranks by numerical examples.",
+  "renderedProof": {
+    "html": ".work/volume2/source-audit/batch417-proof.html",
+    "htmlSha256": "253ead63b4246bdd965b652ec72babd8c6414e51f6e087af89788dd57e36e22f",
+    "rendererSha256": "5171ebcbe61fff608c171f11487c1305742d942f2a4d4d64f53661218742cc4a",
+    "scope": "Eight-page standalone proof, not full-volume/production-site acceptance.",
+    "browserPath": "Browser plugin absent; bundled Playwright/localChrome.",
+    "viewports": [
+      1280,
+      390
+    ],
+    "desktopScreenshot": ".work/volume2/source-audit/batch417-proof-1280-418.png",
+    "mobileScreenshot": ".work/volume2/source-audit/batch417-proof-390-418.png",
+    "desktopVisualReview": true,
+    "mobileVisualReview": true,
+    "allWideElementsBothEndsReachable": true,
+    "documentHorizontalOverflow": false,
+    "mathParseErrors": 0,
+    "mathmlBodyLeak": 0,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "missingImages": [],
+    "proofMathExpressions": 489,
+    "scrollableElementCounts": {
+      "1280": 87,
+      "390": 119
+    },
+    "machineObservations": ".work/volume2/source-audit/batch417-browser.json",
+    "footnoteRoundTrip": "notApplicable: no original footnotes on these pages"
+  },
+  "answerLinks": {
+    "presenceEvidence": ".work/volume2/source-audit/batch417-answer-presence.json",
+    "linkedExercises": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69
+    ],
+    "allActualOriginalNumberedAnswersPresent": true,
+    "59PresenceEvidence": null,
+    "roundTripDeferredUntilAnswerTranscriptionAndAssembly": true,
+    "independentAnswerContentReviewClaimed": false
+  },
+  "startsMidExercise": {
+    "exercise": "4.6.4-63",
+    "previousCnPdfPage": 417,
+    "start": "(c) 如果$T(m,n,s)$的秩不超过$r$"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume2",
+  "section": "names",
+  "reviewDate": "2026-11-14",
+  "reviewerType": "model-direct-page-image-comparison",
+  "cnSourceSha256": "6fa99223d2b61e934e2c6cab14eaa906f53f13511521bbacd7cbbd8fc4e54fc3",
+  "enSourceSha256": "c0d18c678d57dd9fb56dab25d08af4d957f086f83b489ad1efa4a7429fd05739",
+  "masterSha256": null,
+  "pageMarkdownSha256": "c9abd832c3dffaa204cd249c354ad8c8640e6a3ea170509e7f62ce2764c07068",
+  "cnPdfPage": 594,
+  "cnPrintedPage": 583,
+  "enPdfPages": [
+    752,
+    753,
+    754,
+    755,
+    759,
+    760,
+    763,
+    764,
+    766,
+    770,
+    771,
+    772,
+    778,
+    213
+  ],
+  "status": {
+    "transcribed": true,
+    "machineChecked": true,
+    "originalPageVisualReview": true,
+    "bilingualVerification": true
+  },
+  "fullPageContentTranscribed": true,
+  "entryCount": 114,
+  "originalFootnotesPresent": false,
+  "startsMidParagraph": false,
+  "endsMidParagraph": false,
+  "reviewScope": "Every entry read directly in the Chinese source image, columnwise top-to-bottom, left then right; all continuation names and page-reference tails retained. Corresponding English original index entry images viewed in labelled contact sheets. English edition page numbers are not substituted for Chinese numbers. Original Chinese abbreviated/expanded names and aliases retained unless a demonstrable spelling error is recorded.",
+  "cnEvidence": [
+    {
+      "image": "scans/594.jpg",
+      "sha256": "a2909d22adc75d8d55940c4b2b8e008514c445ed165d3a39622ca58699c1b3db",
+      "viewedDirectly": true
+    }
+  ],
+  "enEvidence": [
+    {
+      "image": "index-work/names-594-en-contact-1.png",
+      "sha256": "9163179328293287b2c6f0c54102791777565e4659a4df36241701c51d180c01",
+      "viewedDirectly": true
+    },
+    {
+      "image": "index-work/names-594-en-contact-2.png",
+      "sha256": "feb383ad2a1fa80bc0c878b02c6da95a33737559e883940f7068c7f4db9e4bc3",
+      "viewedDirectly": true
+    },
+    {
+      "image": "index-work/en-bianchini-213.png",
+      "sha256": "11e513223a51b731c9c8a808b1053ad1f77a2de0dd50ff8f1d7988adad2c2337",
+      "viewedDirectly": true
+    }
+  ],
+  "entryCatalog": {
+    "file": "index-work/names-594-entry-catalog.json",
+    "sha256": "089b36a0b784653688aaed9b7379f4df3d76744af887c21eb211ac17393aa235"
+  },
+  "englishMatchCatalog": {
+    "file": "index-work/names-594-matched.json",
+    "sha256": "914ced42549df7b1e904618eebf579acde7bea5f3c5cc7f370d3e0d97e736ca7",
+    "qualification": "Machine matching is only a location aid. Page images were directly read; variant aliases are retained, not machine-canonicalized."
+  },
+  "browserEvidence": {
+    "file": "index-work/browser-594-595.json",
+    "sha256": "234f0ee1f4f9731cc6081f4fcb075c808642e544a3f8006fe2c9649b886791fb",
+    "viewports": [
+      1280,
+      390
+    ],
+    "status": "passed"
+  },
+  "substantiveCorrections": [
+    {
+      "section": "人名索引／波默朗斯",
+      "cnPrintedPage": 583,
+      "enPdfPage": 771,
+      "enPrintedPage": 756,
+      "original": "Cral Pomerance",
+      "final": "Carl Pomerance",
+      "basis": "中文原图将Carl的中间两字母颠倒；英文原索引的Pomerance, Carl实际原图清晰可读，只修该拼写。"
+    },
+    {
+      "section": "人名索引／比约克",
+      "cnPrintedPage": 583,
+      "enPdfPage": 755,
+      "enPrintedPage": 740,
+      "original": "Johan Harray Björk",
+      "final": "Johan Harry Björk",
+      "basis": "中文原图多一字母a；英文原索引实际原图为Björk, Johan Harry，只修该拼写。"
+    }
+  ],
+  "versionDifferences": [
+    {
+      "entry": "安拜尼斯，Andris Ambainis,564",
+      "finding": "No Ambainis entry/name found in the English 2014 index/text. Preserve this Chinese 2016 entry; do not invent an English page or call it exact bilingual agreement."
+    },
+    {
+      "entry": "比安基尼，Giovanni Bianchini,150",
+      "finding": "No English index entry, but the actual English body PDF213/printed198 names Giovanni Bianchini. Chinese index entry and Chinese reference retained."
+    }
+  ],
+  "pending": [
+    "Final whole-book inclusion proof",
+    "Full-book index-reference existence and routed browser jumps"
+  ]
+}
