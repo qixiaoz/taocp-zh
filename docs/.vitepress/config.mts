@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import type { DefaultTheme } from 'vitepress'
 import footnote from 'markdown-it-footnote'
 import navigation from './book-navigation.json'
 import { installBookMarkdown } from '../../scripts/book-markdown.mjs'
@@ -16,6 +17,29 @@ const reportNav = multipleVolumes
 const downloadNav = multipleVolumes
   ? { text: '下载', items: publishedVolumes.map(volume => ({ text: volume.title, link: `/taocp-zh${volume.downloads.bundle}` })) }
   : { text: '下载', link: '/taocp-zh/downloads/taocp-volume1.zip' }
+
+// Format only the sidebar display: source headings and generated metadata keep
+// their original spelling. Sibling titles share a number column, including the
+// optional difficulty marker and the longer numbers in the answer list.
+function formatSidebar(items: DefaultTheme.SidebarItem[]): DefaultTheme.SidebarItem[] {
+  const parts = items.map(item => item.text?.match(/^(\*?\d+(?:\.\d+)+)\s*(.+)$/u))
+  const numberWidth = Math.max(0, ...parts.map(part => part?.[1].length ?? 0))
+  const escape = (text: string) => text.replace(/[&<>"']/g, char => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  })[char]!)
+  return items.map((item, index) => ({
+    ...item,
+    docFooterText: item.docFooterText ?? item.text,
+    text: parts[index]
+      ? `<span class="book-nav-number" style="--book-nav-number-width:${numberWidth}ch">${escape(parts[index]![1])}</span> <span class="book-nav-label">${escape(parts[index]![2])}</span>`
+      : item.text,
+    ...(item.items ? { items: formatSidebar(item.items) } : {})
+  }))
+}
+
+const sidebar = Array.isArray(navigation.sidebar)
+  ? formatSidebar(navigation.sidebar)
+  : Object.fromEntries(Object.entries(navigation.sidebar).map(([route, items]) => [route, formatSidebar(items)]))
 
 // VitePress serializes this function into the client bundle. Keep it self-contained
 // so the browser uses exactly the same tokenizer as the build-time search index.
@@ -58,14 +82,16 @@ export default defineConfig({
     }
   },
   themeConfig: {
-    siteTitle,
+    siteTitle: multipleVolumes
+      ? '《计算机程序设计艺术》<wbr><span class="book-site-edition">中文阅读</span>'
+      : siteTitle,
     nav: [
       { text: '主页', link: '/' },
       ...readingNav,
       reportNav,
       downloadNav
     ],
-    sidebar: navigation.sidebar,
+    sidebar,
     outline: { level: [2, 3], label: '本页目录' },
     docFooter: { prev: '上一节', next: '下一节' },
     sidebarMenuLabel: '章节目录',

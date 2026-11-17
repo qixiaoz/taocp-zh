@@ -114,6 +114,43 @@ html.dark {
 .VPHero .name,
 .VPHero .text { font-family: var(--reader-font-family); }
 
+/* The full site title must fit both the sidebar header and the mobile navbar. */
+.VPNavBar > .wrapper > .container > .title {
+  min-width: 0;
+  flex-shrink: 1;
+}
+
+.VPNavBarTitle { min-width: 0; }
+.VPNavBarTitle .title > span {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.35;
+}
+
+.VPNavBarTitle .book-site-edition { white-space: nowrap; }
+
+/* Keep numbers, wrapped titles and disclosure arrows in separate columns. */
+.VPSidebar .VPSidebarItem > .item > .link,
+.VPSidebar .VPSidebarItem > .item .text { min-width: 0; }
+
+.VPSidebar .text:has(> .book-nav-number) {
+  display: flex;
+  column-gap: 8px;
+  align-items: start;
+}
+
+.VPSidebar .book-nav-number {
+  flex: 0 0 var(--book-nav-number-width);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.VPSidebar .book-nav-label {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
 @media (min-width: 960px) {
   .VPHero:not(.has-image) .name {
     max-width: 100%;
