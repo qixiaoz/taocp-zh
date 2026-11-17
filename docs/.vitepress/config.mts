@@ -82,9 +82,7 @@ export default defineConfig({
     }
   },
   themeConfig: {
-    siteTitle: multipleVolumes
-      ? '《计算机程序设计艺术》<wbr><span class="book-site-edition">中文阅读</span>'
-      : siteTitle,
+    siteTitle: '计算机程序设计艺术',
     nav: [
       { text: '主页', link: '/' },
       ...readingNav,
