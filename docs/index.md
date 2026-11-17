@@ -25,9 +25,9 @@ features:
     details: 按节阅读，支持全文搜索、原页跳转、题答往返与本机阅读设置。
 ---
 
-两卷均保留原书的习题、答案、附录和索引，公式使用 LaTeX，程序与表格保留可编辑文本。中英文来源、实质订正、缺页和版本疑点分别登记在各卷校订报告中；构建通过与上线状态单独验收。
+两卷均保留原书的习题、答案、附录和索引，公式使用 LaTeX，程序与表格保留可编辑文本。
 
-| 分册 | 在线阅读 | 校订说明 | 整卷下载 |
-|---|---|---|---|
-| 卷一《基本算法》 | [卷前](/volume1/frontmatter) · [目录](/volume1/) | [卷一校订报告](/corrections) | [Markdown 与配套资源](/downloads/taocp-volume1.zip) |
-| 卷二《半数值算法》 | [卷前](/volume2/frontmatter) · [目录](/volume2/) | [卷二校订报告](/volume2/corrections) | [Markdown 与配套资源](/downloads/taocp-volume2.zip) |
+| 分册 | 在线阅读 |
+|---|---|
+| 卷一《基本算法》 | [卷前](/volume1/frontmatter) · [目录](/volume1/) |
+| 卷二《半数值算法》 | [卷前](/volume2/frontmatter) · [目录](/volume2/) |

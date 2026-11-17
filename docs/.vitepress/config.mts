@@ -11,12 +11,6 @@ const siteTitle = multipleVolumes ? '《计算机程序设计艺术》中文阅�
 const readingNav = multipleVolumes
   ? publishedVolumes.map(volume => ({ text: volume.title.split('·')[0], link: `${volume.routePrefix}/frontmatter`, activeMatch: `^${volume.routePrefix}/` }))
   : [{ text: '章节正文', link: '/volume1/frontmatter', activeMatch: '^/volume1/' }]
-const reportNav = multipleVolumes
-  ? { text: '校订说明', items: publishedVolumes.map(volume => ({ text: volume.title, link: volume.reportRoute })) }
-  : { text: '校订说明', link: '/corrections' }
-const downloadNav = multipleVolumes
-  ? { text: '下载', items: publishedVolumes.map(volume => ({ text: volume.title, link: `/taocp-zh${volume.downloads.bundle}` })) }
-  : { text: '下载', link: '/taocp-zh/downloads/taocp-volume1.zip' }
 
 // Format only the sidebar display: source headings and generated metadata keep
 // their original spelling. Sibling titles share a number column, including the
@@ -85,9 +79,7 @@ export default defineConfig({
     siteTitle: '计算机程序设计艺术',
     nav: [
       { text: '主页', link: '/' },
-      ...readingNav,
-      reportNav,
-      downloadNav
+      ...readingNav
     ],
     sidebar,
     outline: { level: [2, 3], label: '本页目录' },

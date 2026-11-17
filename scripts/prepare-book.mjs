@@ -258,7 +258,7 @@ for (const page of pages) {
   page.bytes = Buffer.byteLength(page.markdown);
   await write(page.file, page.markdown);
 }
-const websiteReport = `---\ntitle: 校订报告\n---\n\n${cleanReport(report, true)}`;
+const websiteReport = `---\ntitle: 校订报告\nsearch: false\n---\n\n${cleanReport(report, true)}`;
 await write(`docs${volume.reportRoute}.md`, websiteReport);
 
 function bodyTree(chapter) {
@@ -285,7 +285,7 @@ function directoryItems(items, depth = 0) {
   return items.map(item => `${'  '.repeat(depth)}- ${item.link ? `[${item.text}](${item.link.endsWith('.zip') ? '.' + item.link : relativeRoute(`${prefix}/index`, item.link === prefix + '/' ? `${prefix}/index` : item.link)})` : item.text}\n${item.items ? directoryItems(item.items, depth + 1) : ''}`).join('');
 }
 // Use relative source paths in content; VitePress applies the configured base.
-let directory = `# 全卷目录\n\n[开始阅读](./frontmatter.md) · [校订报告](${relativeRoute(`${prefix}/index`, volume.reportRoute)}) · [下载完整 Markdown 与资源](/downloads/${volume.zipName})\n\n`;
+let directory = `# 全卷目录\n\n[开始阅读](./frontmatter.md)\n\n`;
 directory += directoryItems(sidebar.slice(1));
 await write(`docs${prefix}/index.md`, `---\ntitle: 全卷目录\n---\n\n${directory}`);
 
