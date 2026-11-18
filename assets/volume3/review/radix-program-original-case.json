@@ -1,0 +1,769 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    140,
+    141,
+    142
+  ],
+  "enPdfPages": [
+    229,
+    230,
+    231,
+    232,
+    233
+  ],
+  "inputKeys": [
+    503,
+    87,
+    512,
+    61,
+    908,
+    170,
+    897,
+    275,
+    653,
+    426,
+    154,
+    509,
+    612,
+    677,
+    765,
+    703
+  ],
+  "sourceFigure33": [
+    {
+      "pass": 1,
+      "asset": "assets/volume3/figures/fig-5-33-pass1.svg",
+      "assetSha256": "1f52fba4bcc463fe01f6442b9045ee9b26ef9ced744b14f8429868bf13442e33",
+      "topToBottomQueues": [
+        [
+          170
+        ],
+        [
+          61
+        ],
+        [
+          512,
+          612
+        ],
+        [
+          503,
+          653,
+          703
+        ],
+        [
+          154
+        ],
+        [
+          275,
+          765
+        ],
+        [
+          426
+        ],
+        [
+          87,
+          897,
+          677
+        ],
+        [
+          908
+        ],
+        [
+          509
+        ]
+      ],
+      "keyLabels": 16,
+      "pointerLabels": 20,
+      "emptyDigits": [],
+      "TOPArrows": 10,
+      "BOTMArrows": 10,
+      "internalLinkArrows": 6
+    },
+    {
+      "pass": 2,
+      "asset": "assets/volume3/figures/fig-5-33-pass2.svg",
+      "assetSha256": "c7139166e699f4947a6034f81b23396ef4a381a41f686beb29ca4085ee8344fb",
+      "topToBottomQueues": [
+        [
+          509,
+          908,
+          503,
+          703
+        ],
+        [
+          512,
+          612
+        ],
+        [
+          426
+        ],
+        [],
+        [],
+        [
+          154,
+          653
+        ],
+        [
+          765,
+          61
+        ],
+        [
+          677,
+          275,
+          170
+        ],
+        [
+          87
+        ],
+        [
+          897
+        ]
+      ],
+      "keyLabels": 16,
+      "pointerLabels": 20,
+      "emptyDigits": [
+        3,
+        4
+      ],
+      "TOPArrows": 10,
+      "BOTMArrows": 8,
+      "internalLinkArrows": 8
+    },
+    {
+      "pass": 3,
+      "asset": "assets/volume3/figures/fig-5-33-pass3.svg",
+      "assetSha256": "37960f3a0d09c7bc353626948f293e58199172a84677b77b4c020e8153f93493",
+      "topToBottomQueues": [
+        [
+          87,
+          61
+        ],
+        [
+          170,
+          154
+        ],
+        [
+          275
+        ],
+        [],
+        [
+          426
+        ],
+        [
+          512,
+          509,
+          503
+        ],
+        [
+          677,
+          653,
+          612
+        ],
+        [
+          765,
+          703
+        ],
+        [
+          897
+        ],
+        [
+          908
+        ]
+      ],
+      "keyLabels": 16,
+      "pointerLabels": 20,
+      "emptyDigits": [
+        3
+      ],
+      "TOPArrows": 10,
+      "BOTMArrows": 9,
+      "internalLinkArrows": 7
+    }
+  ],
+  "actualExecution": {
+    "N": 16,
+    "M": 10,
+    "passes": 3,
+    "byteBase": 64,
+    "concreteAddresses": {
+      "INPUT": 0,
+      "PILES": 100,
+      "privateCodeBase": 2000
+    },
+    "sourceRows": 38,
+    "equDirectives": 2,
+    "templateRows": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "physicalExecutedCodeSlots": 30,
+    "physicalSlotFrequencies": [
+      0,
+      0,
+      1,
+      1,
+      3,
+      30,
+      30,
+      30,
+      30,
+      30,
+      3,
+      3,
+      3,
+      3,
+      48,
+      48,
+      48,
+      48,
+      48,
+      48,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      27,
+      27,
+      24,
+      27,
+      30,
+      30,
+      3,
+      3,
+      3,
+      3
+    ],
+    "expectedPhysicalSlotFrequencies": [
+      0,
+      0,
+      1,
+      1,
+      3,
+      30,
+      30,
+      30,
+      30,
+      30,
+      3,
+      3,
+      3,
+      3,
+      48,
+      48,
+      48,
+      48,
+      48,
+      48,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      27,
+      27,
+      24,
+      27,
+      30,
+      30,
+      3,
+      3,
+      3,
+      3
+    ],
+    "templatesLogicalExecutionFrequency": {
+      "23": 16,
+      "24": 16,
+      "25": 16,
+      "26": 16,
+      "27": 16,
+      "28": 16
+    },
+    "selfModificationEvents": [
+      {
+        "pass": 1,
+        "slot": 15,
+        "templateSourceRow": 25,
+        "op": "LD2",
+        "arg": "INPUT,1(3:3)"
+      },
+      {
+        "pass": 1,
+        "slot": 19,
+        "templateSourceRow": 28,
+        "op": "DEC1",
+        "arg": "1"
+      },
+      {
+        "pass": 2,
+        "slot": 15,
+        "templateSourceRow": 24,
+        "op": "LD2",
+        "arg": "INPUT,1(2:2)"
+      },
+      {
+        "pass": 2,
+        "slot": 19,
+        "templateSourceRow": 27,
+        "op": "LD1",
+        "arg": "INPUT,1(LINK)"
+      },
+      {
+        "pass": 3,
+        "slot": 15,
+        "templateSourceRow": 23,
+        "op": "LD2",
+        "arg": "INPUT,1(1:1)"
+      },
+      {
+        "pass": 3,
+        "slot": 19,
+        "templateSourceRow": 26,
+        "op": "LD1",
+        "arg": "INPUT,1(LINK)"
+      }
+    ],
+    "sourceAllFrequencyAnnotationsMatch": true,
+    "observedSnapshots": [
+      {
+        "topToBottomQueues": [
+          [
+            170
+          ],
+          [
+            61
+          ],
+          [
+            512,
+            612
+          ],
+          [
+            503,
+            653,
+            703
+          ],
+          [
+            154
+          ],
+          [
+            275,
+            765
+          ],
+          [
+            426
+          ],
+          [
+            87,
+            897,
+            677
+          ],
+          [
+            908
+          ],
+          [
+            509
+          ]
+        ],
+        "TOP": [
+          6,
+          4,
+          3,
+          1,
+          11,
+          8,
+          10,
+          2,
+          5,
+          12
+        ],
+        "BOTM": [
+          6,
+          4,
+          13,
+          16,
+          11,
+          15,
+          10,
+          14,
+          5,
+          12
+        ],
+        "emptyDigits": []
+      },
+      {
+        "topToBottomQueues": [
+          [
+            509,
+            908,
+            503,
+            703
+          ],
+          [
+            512,
+            612
+          ],
+          [
+            426
+          ],
+          [],
+          [],
+          [
+            154,
+            653
+          ],
+          [
+            765,
+            61
+          ],
+          [
+            677,
+            275,
+            170
+          ],
+          [
+            87
+          ],
+          [
+            897
+          ]
+        ],
+        "TOP": [
+          12,
+          3,
+          10,
+          103,
+          104,
+          11,
+          15,
+          14,
+          2,
+          7
+        ],
+        "BOTM": [
+          16,
+          13,
+          10,
+          0,
+          0,
+          9,
+          4,
+          6,
+          2,
+          7
+        ],
+        "emptyDigits": [
+          3,
+          4
+        ]
+      },
+      {
+        "topToBottomQueues": [
+          [
+            87,
+            61
+          ],
+          [
+            170,
+            154
+          ],
+          [
+            275
+          ],
+          [],
+          [
+            426
+          ],
+          [
+            512,
+            509,
+            503
+          ],
+          [
+            677,
+            653,
+            612
+          ],
+          [
+            765,
+            703
+          ],
+          [
+            897
+          ],
+          [
+            908
+          ]
+        ],
+        "TOP": [
+          2,
+          6,
+          8,
+          103,
+          10,
+          3,
+          14,
+          15,
+          7,
+          5
+        ],
+        "BOTM": [
+          4,
+          11,
+          8,
+          0,
+          10,
+          1,
+          13,
+          16,
+          7,
+          5
+        ],
+        "emptyDigits": [
+          3
+        ]
+      }
+    ],
+    "all48PrintedQueueKeysAndOrderMatch": true,
+    "all16KeyFieldsUnchanged": true,
+    "E_H4ChecksOnly": 3,
+    "emptyPile0InEachPass": [
+      false,
+      false,
+      false
+    ],
+    "H4CheckedDigits": [
+      1,
+      9
+    ],
+    "H4Checks": [
+      {
+        "pass": 1,
+        "digit": 1,
+        "empty": false
+      },
+      {
+        "pass": 1,
+        "digit": 2,
+        "empty": false
+      },
+      {
+        "pass": 1,
+        "digit": 3,
+        "empty": false
+      },
+      {
+        "pass": 1,
+        "digit": 4,
+        "empty": false
+      },
+      {
+        "pass": 1,
+        "digit": 5,
+        "empty": false
+      },
+      {
+        "pass": 1,
+        "digit": 6,
+        "empty": false
+      },
+      {
+        "pass": 1,
+        "digit": 7,
+        "empty": false
+      },
+      {
+        "pass": 1,
+        "digit": 8,
+        "empty": false
+      },
+      {
+        "pass": 1,
+        "digit": 9,
+        "empty": false
+      },
+      {
+        "pass": 2,
+        "digit": 1,
+        "empty": false
+      },
+      {
+        "pass": 2,
+        "digit": 2,
+        "empty": false
+      },
+      {
+        "pass": 2,
+        "digit": 3,
+        "empty": true
+      },
+      {
+        "pass": 2,
+        "digit": 4,
+        "empty": true
+      },
+      {
+        "pass": 2,
+        "digit": 5,
+        "empty": false
+      },
+      {
+        "pass": 2,
+        "digit": 6,
+        "empty": false
+      },
+      {
+        "pass": 2,
+        "digit": 7,
+        "empty": false
+      },
+      {
+        "pass": 2,
+        "digit": 8,
+        "empty": false
+      },
+      {
+        "pass": 2,
+        "digit": 9,
+        "empty": false
+      },
+      {
+        "pass": 3,
+        "digit": 1,
+        "empty": false
+      },
+      {
+        "pass": 3,
+        "digit": 2,
+        "empty": false
+      },
+      {
+        "pass": 3,
+        "digit": 3,
+        "empty": true
+      },
+      {
+        "pass": 3,
+        "digit": 4,
+        "empty": false
+      },
+      {
+        "pass": 3,
+        "digit": 5,
+        "empty": false
+      },
+      {
+        "pass": 3,
+        "digit": 6,
+        "empty": false
+      },
+      {
+        "pass": 3,
+        "digit": 7,
+        "empty": false
+      },
+      {
+        "pass": 3,
+        "digit": 8,
+        "empty": false
+      },
+      {
+        "pass": 3,
+        "digit": 9,
+        "empty": false
+      }
+    ],
+    "timeUnits": 1018,
+    "sourceTimeFormula": "32N+48M+38-4E",
+    "sourceTimeFormulaValue": 1018,
+    "finalSortedRecordIndices": [
+      4,
+      2,
+      11,
+      6,
+      8,
+      10,
+      1,
+      12,
+      3,
+      13,
+      9,
+      14,
+      16,
+      15,
+      7,
+      5
+    ]
+  },
+  "executionMethod": "按原操作码/地址/字段解释；LDA/STA整指令字复制以完整指令对象保留操作码、索引与字段，实际改写15/19槽，模板23–28按来源归属执行频率N，未把这些数据模板伪计成顺序PC执行。",
+  "figure32": {
+    "asset": "assets/volume3/figures/fig-5-32.svg",
+    "assetSha256": "aa02aa45aab53c7d8e9e18f644d71643007d5b6ac1a0a1b1b43ec613f25637a7",
+    "nodes": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6"
+    ],
+    "edges": [
+      [
+        "entry",
+        "R1"
+      ],
+      [
+        "R1",
+        "R2"
+      ],
+      [
+        "R1",
+        "exit"
+      ],
+      [
+        "R2",
+        "R3"
+      ],
+      [
+        "R3",
+        "R4"
+      ],
+      [
+        "R4",
+        "R5"
+      ],
+      [
+        "R5",
+        "R3"
+      ],
+      [
+        "R5",
+        "R6"
+      ],
+      [
+        "R6",
+        "R1"
+      ]
+    ],
+    "edgeCount": 9
+  },
+  "pageMarkdownSha256": {
+    "139": "5c25d8f9fa0d10ebba39cee70736b1c35b6f1f5195cc8dad4b5401f23ca863a2",
+    "140": "e21dcf3a22f02881ddd3422ddcda744705a5ec6f22a419990f8a45b15a00f301",
+    "141": "6051c21a2f7805e42c3fa4cb8a759c31627358ae2c800ea013dc53abf2ecc67c",
+    "142": "f3f65e88d9f78b5673306b3e46d1461b10759a484ee3a3f3cb972b0e0ea24bc7"
+  },
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false,
+  "qualification": "只执行原16键；初次R5倒序地址与后两次LINK区别逐项保留，未混同139顺序分布表。一般E口径疑点另列，源式不静改。"
+}

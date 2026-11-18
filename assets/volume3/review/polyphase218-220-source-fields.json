@@ -1,0 +1,258 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    218,
+    219,
+    220
+  ],
+  "enPdfPages": [
+    353,
+    354,
+    355,
+    356,
+    357,
+    358
+  ],
+  "algorithmD": {
+    "D1ThroughD6CompleteSourceCompared": true,
+    "D5AllDummyThenMixedBranchesPreserved": true,
+    "D6TwoWholeArrayRotationsPreserved": true,
+    "onlyOriginal53UnitWeightAbstractCaseExecuted": true,
+    "executionEvidence": "assets/volume3/review/polyphase-D218-original-case.json",
+    "noGeneralAlgorithmOrRealKeyISACorrectnessClaim": true
+  },
+  "figure68and69Evidence": "assets/volume3/review/polyphase-D218-original-case.json",
+  "table1": {
+    "sourceRows": [
+      [
+        3,
+        "2.078",
+        "0.672",
+        "1.504",
+        "0.992",
+        72,
+        "1.6180340"
+      ],
+      [
+        4,
+        "1.641",
+        "0.364",
+        "1.015",
+        "0.965",
+        62,
+        "1.8392868"
+      ],
+      [
+        5,
+        "1.524",
+        "0.078",
+        "0.863",
+        "0.921",
+        57,
+        "1.9275620"
+      ],
+      [
+        6,
+        "1.479",
+        "-0.185",
+        "0.795",
+        "0.864",
+        54,
+        "1.9659482"
+      ],
+      [
+        7,
+        "1.460",
+        "-0.424",
+        "0.762",
+        "0.797",
+        52,
+        "1.9835828"
+      ],
+      [
+        8,
+        "1.451",
+        "-0.642",
+        "0.744",
+        "0.723",
+        51,
+        "1.9919642"
+      ],
+      [
+        9,
+        "1.447",
+        "-0.838",
+        "0.734",
+        "0.646",
+        51,
+        "1.9960312"
+      ],
+      [
+        10,
+        "1.445",
+        "-1.017",
+        "0.728",
+        "0.568",
+        50,
+        "1.9980295"
+      ],
+      [
+        20,
+        "1.443",
+        "-2.170",
+        "0.721",
+        "-0.030",
+        50,
+        "1.9999981"
+      ]
+    ],
+    "sourceNumericFields": 54,
+    "sourceTapeLabels": 9,
+    "independentNumericEvidence": "assets/volume3/review/polyphase-table219-numeric-check.json",
+    "nearestRoundingMatches": 52,
+    "sourceDifferencesPreserved": [
+      {
+        "T": 6,
+        "field": "scan lnS coefficient",
+        "source": "0.795",
+        "computed": "0.7957784856490731155...",
+        "nearest3": "0.796"
+      },
+      {
+        "T": 9,
+        "field": "phase constant",
+        "source": "-0.838",
+        "nearestAtBoth250350": "-0.839"
+      }
+    ],
+    "qualification": "CN219 has nine rows. EN355 has eight corresponding rows (T9 absent). T6 source0.795 agrees in both; T9 source-0.838 is Chinese-only. No explicit source rounding rule or applicable author erratum located by limited current literal cache search; preserve both values, disclose numerical comparison, no new correction claimed.",
+    "englishTapeRowsPresent": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      20
+    ],
+    "cnOnlyTapeRows": [
+      9
+    ]
+  },
+  "table8": {
+    "sourceMergeNumberStrings": [
+      [
+        "0",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "21",
+        "21",
+        "21",
+        "21",
+        "2"
+      ],
+      [
+        "3221",
+        "3221",
+        "3221",
+        "322",
+        "32"
+      ],
+      [
+        "43323221",
+        "43323221",
+        "4332322",
+        "433232",
+        "4332"
+      ],
+      [
+        "5443433243323221",
+        "544343324332322",
+        "54434332433232",
+        "544343324332",
+        "54434332"
+      ]
+    ],
+    "sourceSymbolicRowsTex": [
+      [
+        "n",
+        "A_n",
+        "B_n",
+        "C_n",
+        "D_n",
+        "E_n"
+      ],
+      [
+        "n+1",
+        "(A_n+1)B_n",
+        "(A_n+1)C_n",
+        "(A_n+1)D_n",
+        "(A_n+1)E_n",
+        "A_n+1"
+      ]
+    ],
+    "sourceDigits": 130,
+    "emptyCells": 4,
+    "allFiveLiteralStringRecurrenceTransitionsRecomputed": true,
+    "meaning": "increment every entry ofA by1 then concatenateB; strings not ordinary integers",
+    "generalPrefixAndInfiniteStringStatements": "source compared only"
+  },
+  "figure70": {
+    "kind": "clear selected Chinese original quantitative plot, not vector redraw or computed curve replacement",
+    "boundsPixels": [
+      300,
+      350,
+      2180,
+      1775
+    ],
+    "sourcePageImageSha256": "0325eebfb03376daf11ec8169864d44a8f2757be2199862e767b84df895ab09f",
+    "cropSha256": "2ff3f4393b0ec1ed4625c27563490df96f6edecdbf8c5dcbaffd4ef1d17eccfa",
+    "printedXTickValues": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      50,
+      100,
+      200,
+      500,
+      1000,
+      2000,
+      5000
+    ],
+    "printedYTicks": "0..14",
+    "printedTLabels": [
+      3,
+      4,
+      5,
+      6,
+      8,
+      10
+    ],
+    "allSourceCurvesRetained": true,
+    "noPerSExecutionOrCurveCountInferredFromLabels": true
+  },
+  "formula7": "a sum startsn0; t sum startsn1; all five polynomial coefficients/source denominator terms preserved",
+  "formula9": "all five concatenation forms and+1 placement preserved",
+  "formula10": "An=n-Qn, pendingQdefinition221",
+  "pageMarkdownSha256": {
+    "218": "b23649441b09d2d4e631945ebabb71436126dba78bf1f10d6b139fc067386af4",
+    "219": "b19ad0789459c5857049fe4999b079dfecdb0f16458544880418faa26ffcb801",
+    "220": "0154b0753013586058873ec281da4ec0371e6f575a6565700d2b1d3d19cf3507"
+  },
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false
+}

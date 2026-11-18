@@ -1,0 +1,195 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    199,
+    200,
+    201,
+    202
+  ],
+  "enPdfPages": [
+    323,
+    324,
+    325,
+    326,
+    327,
+    328
+  ],
+  "sectionBoundary": {
+    "5.3.4EndsCn": 199,
+    "exerciseTotal": 68,
+    "firstSetNumbers": [
+      1,
+      57
+    ],
+    "secondSetNumbers": [
+      58,
+      68
+    ],
+    "5.4StartsCn": 200,
+    "5.4ExercisesBegun": [
+      1
+    ]
+  },
+  "figure61": {
+    "kind": "svg redraw of source device",
+    "labels": [
+      "R1",
+      "R2",
+      "Ri−1",
+      "Ri",
+      "RN−1",
+      "RN",
+      "写",
+      "读",
+      "开关",
+      "寄存器R"
+    ],
+    "connections": [
+      "right head to switch",
+      "switch to left write head",
+      "switch left to register",
+      "register to switch right"
+    ],
+    "rotation": "clockwise curved arrow retained",
+    "svgSha256": "a7fbc771c60e557c90c8911242a36d73633f41f6e9cc289544d4ab53cb7cd4df",
+    "qualification": "source topology and labels only; no generic optimum-policy model or execution proof"
+  },
+  "externalOriginalFiveMillionExample": {
+    "recordLengthWords": 20,
+    "internalCapacityRecords": 1000000,
+    "sourceRunCount": 5,
+    "sourceNumberedTapeIntervalRows": {
+      "1": {
+        "1": [
+          [
+            1,
+            1000000
+          ],
+          [
+            2000001,
+            3000000
+          ],
+          [
+            4000001,
+            5000000
+          ]
+        ],
+        "2": [
+          [
+            1000001,
+            2000000
+          ],
+          [
+            3000001,
+            4000000
+          ]
+        ],
+        "3": [],
+        "4": []
+      },
+      "2": {
+        "3": [
+          [
+            1,
+            2000000
+          ],
+          [
+            4000001,
+            5000000
+          ]
+        ],
+        "4": [
+          [
+            2000001,
+            4000000
+          ]
+        ]
+      },
+      "3": {
+        "1": [
+          [
+            1,
+            4000000
+          ]
+        ],
+        "2": [
+          [
+            4000001,
+            5000000
+          ]
+        ]
+      },
+      "4": {
+        "1": [
+          [
+            1,
+            1000000
+          ],
+          [
+            3000001,
+            4000000
+          ]
+        ],
+        "2": [
+          [
+            1000001,
+            2000000
+          ],
+          [
+            4000001,
+            5000000
+          ]
+        ],
+        "3": [
+          [
+            2000001,
+            3000000
+          ]
+        ]
+      },
+      "5": {
+        "4": [
+          [
+            1,
+            3000000
+          ]
+        ],
+        "5": [
+          [
+            3000001,
+            5000000
+          ]
+        ],
+        "6": []
+      }
+    },
+    "allFiveNumberedDistributionsContainFiveMillionRecords": true,
+    "balancedTwoWayMergePasses": 3,
+    "balancedThreeWayMergePasses": 2,
+    "threeWayVersusTwoWayTimeRatio": "2/3 ignoring computation per source",
+    "sourceRecordReadCosts": {
+      "balanced4Tape": 15000000,
+      "stopEarly4Tape": 9000000,
+      "betterInitial4Tape": 8000000,
+      "sixTapeFiveWay": 5000000
+    },
+    "qualification": "only original interval counts and displayed finite cost additions; no general merge pattern model"
+  },
+  "originalChineseEditorialFootnotes": {
+    "200": "run/program double meaning; preserved and Chinese-source-only",
+    "202": "first three-way merge tape4 and unconsumed tails on tapes1/2; preserved and Chinese-source-only"
+  },
+  "epigraphs": {
+    "199": "Chinese selected Isaiah rendering preserved; English network pun differs",
+    "202": "PavelCurtis1997 retained as source historical quotation"
+  },
+  "sourceHistoricalDeviceAndDateNarrativePreserved": true,
+  "pageMarkdownSha256": {
+    "199": "f1c8c769c3591f79bb5364c1840d68d105968d2231c03cf23a9c639f4e606737",
+    "200": "3e8531e782eb26d769db6cefc865316991613701beb3b2d8ff4854cd8a0cca44",
+    "201": "1e387d5eeae787f901ca811324c8db4622bd64001c46ad178c5f583fe82ddb6c",
+    "202": "4d7f1dd6a5690b0353a56eb4d06b4b32694bbb784af38ee1ae6a3fa127c9bff7"
+  },
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false
+}

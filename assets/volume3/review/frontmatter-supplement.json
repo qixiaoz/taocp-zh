@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume3",
+  "state": "translated-from-authorized-supplied-english-and-source-image-compared",
+  "humanSignoff": false,
+  "authorization": "本次任务中用户明确批准使用所附英文PDF007–014翻译补配卷3前言与习题说明；不需要另换来源。",
+  "englishSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+  "sourcePhysicalPages": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "translationSha256": "1d0435d57fd91377bb2bd47650de2dbc3b7a30a3dde44d27c1d91f796ff04975",
+  "sourceAnchors": [
+    "sup-en-007",
+    "sup-en-008",
+    "sup-en-009",
+    "sup-en-010",
+    "sup-en-011",
+    "sup-en-012",
+    "sup-en-013",
+    "sup-en-014"
+  ],
+  "chinesePrintedPageMapping": "无。当前中文底本004后直接到目录viii，不为补配段伪造中文印刷页码。",
+  "anchorPrecision": "sup-en-007/010/011/012/014位于对应原页段首；008/009/013位于跨页连续段落中最接近源页交界的译文句界，不声称中文与英文逐字断页一一对应。",
+  "sourceUnits": [
+    "前言与7项问题列表",
+    "第二版前言及D.E.K.1998年2月署名",
+    "Swift结束引语",
+    "习题说明完整段落",
+    "6行难度表（原文为图片）",
+    "标记摘要（原文为图片）",
+    "3道习题与题1推荐箭头",
+    "Mahon结束引语"
+  ],
+  "exerciseAnchors": [
+    "ex-intro-1",
+    "ex-intro-2",
+    "ex-intro-3"
+  ],
+  "originalAnswers": {
+    "1": {
+      "target": "ans-intro-1",
+      "cnPdfPage": 462
+    },
+    "3": {
+      "target": "ans-intro-3",
+      "cnPdfPage": 462
+    }
+  },
+  "noIndependentOriginalAnswer": [
+    2
+  ],
+  "preservedOriginalHistoricalStatements": [
+    "第二版前言中关于未来第三版、卷4和卷5的作者计划，按1998年原文保留。",
+    "发现错误奖励2.56美元是原书作者原述，不是本整理项目新增承诺。",
+    "第iv页是英文原版自身的页码引用；不伪造当前中文p-iv目标。"
+  ],
+  "assets": [
+    {
+      "path": "assets/volume3/figures/preface-under-construction.jpeg",
+      "sourceEnPdfPage": 9,
+      "sourceXref": 37,
+      "sha256": "5d5897707cfa0c11751e5bf9326b5566321d06b974843f5a75c2a2f43012b8a9"
+    }
+  ],
+  "sourceImages": [
+    {
+      "enPdfPage": 7,
+      "sha256": "fd42bac205b91d68f6e276bd8bb823789799564165da7d1b74784592e2efd1e1"
+    },
+    {
+      "enPdfPage": 8,
+      "sha256": "05e3748400f2ceccc2c8b52db3fb8616acdc75e510fcff1367274f4c4df3711e"
+    },
+    {
+      "enPdfPage": 9,
+      "sha256": "02a6f3f6f035eca16b5fd9ca377aa146576d6a0a460d94d6dabcaeaf4dc7d8d4"
+    },
+    {
+      "enPdfPage": 10,
+      "sha256": "f5e77ab8bbae0b4cda7326f05539b9fa7b6e4ad9f002d4d1d552547923980ec7"
+    },
+    {
+      "enPdfPage": 11,
+      "sha256": "e4dbae8265ee1a6ae1e818b958081ce33227e364a4940b85605a9eda7222082f"
+    },
+    {
+      "enPdfPage": 12,
+      "sha256": "614ea1c39a1dd44aacf7b19ea75ba6ad5abbdf51c1113e6a2695112e679437f9"
+    },
+    {
+      "enPdfPage": 13,
+      "sha256": "52cac759462eb1ce30cfa71c01eb34e4d356a286e491e30929e094abf2a73500"
+    },
+    {
+      "enPdfPage": 14,
+      "sha256": "cfa59a117890e4482f3ef38b2890dd97f93e912a2b10f46b84000f6e1db6da73"
+    }
+  ],
+  "renderState": "pending"
+}

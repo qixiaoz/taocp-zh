@@ -1,0 +1,250 @@
+{
+  "volume": "volume3",
+  "cnPdfPage": 65,
+  "enPdfPages": [
+    111,
+    112
+  ],
+  "pageMarkdownSha256": "84a600097bb85c4d938d3a2e050767c3fd9295fda8482b93d370e62b7e9edfaa",
+  "programLineCount": 21,
+  "programTokensFromCurrentMarkdown": [
+    {
+      "line": 1,
+      "label": "START",
+      "opcode": "ENT1",
+      "address": "N",
+      "frequency": "1"
+    },
+    {
+      "line": 2,
+      "label": null,
+      "opcode": "STZ",
+      "address": "COUNT,1",
+      "frequency": "N"
+    },
+    {
+      "line": 3,
+      "label": null,
+      "opcode": "DEC1",
+      "address": "1",
+      "frequency": "N"
+    },
+    {
+      "line": 4,
+      "label": null,
+      "opcode": "J1P",
+      "address": "*-2",
+      "frequency": "N"
+    },
+    {
+      "line": 5,
+      "label": null,
+      "opcode": "ENT1",
+      "address": "N",
+      "frequency": "1"
+    },
+    {
+      "line": 6,
+      "label": null,
+      "opcode": "JMP",
+      "address": "1F",
+      "frequency": "1"
+    },
+    {
+      "line": 7,
+      "label": "2H",
+      "opcode": "LDA",
+      "address": "INPUT,1",
+      "frequency": "N-1"
+    },
+    {
+      "line": 8,
+      "label": null,
+      "opcode": "LDX",
+      "address": "COUNT,1",
+      "frequency": "N-1"
+    },
+    {
+      "line": 9,
+      "label": "3H",
+      "opcode": "CMPA",
+      "address": "INPUT,2",
+      "frequency": "A"
+    },
+    {
+      "line": 10,
+      "label": null,
+      "opcode": "JGE",
+      "address": "4F",
+      "frequency": "A"
+    },
+    {
+      "line": 11,
+      "label": null,
+      "opcode": "LD3",
+      "address": "COUNT,2",
+      "frequency": "B"
+    },
+    {
+      "line": 12,
+      "label": null,
+      "opcode": "INC3",
+      "address": "1",
+      "frequency": "B"
+    },
+    {
+      "line": 13,
+      "label": null,
+      "opcode": "ST3",
+      "address": "COUNT,2",
+      "frequency": "B"
+    },
+    {
+      "line": 14,
+      "label": null,
+      "opcode": "JMP",
+      "address": "5F",
+      "frequency": "B"
+    },
+    {
+      "line": 15,
+      "label": "4H",
+      "opcode": "INCX",
+      "address": "1",
+      "frequency": "A-B"
+    },
+    {
+      "line": 16,
+      "label": "5H",
+      "opcode": "DEC2",
+      "address": "1",
+      "frequency": "A"
+    },
+    {
+      "line": 17,
+      "label": null,
+      "opcode": "J2P",
+      "address": "3B",
+      "frequency": "A"
+    },
+    {
+      "line": 18,
+      "label": null,
+      "opcode": "STX",
+      "address": "COUNT,1",
+      "frequency": "N-1"
+    },
+    {
+      "line": 19,
+      "label": null,
+      "opcode": "DEC1",
+      "address": "1",
+      "frequency": "N-1"
+    },
+    {
+      "line": 20,
+      "label": "1H",
+      "opcode": "ENT2",
+      "address": "-1,1",
+      "frequency": "N"
+    },
+    {
+      "line": 21,
+      "label": null,
+      "opcode": "J2P",
+      "address": "2B",
+      "frequency": "N"
+    }
+  ],
+  "caseCount": 1,
+  "sourceExample": {
+    "N": 16,
+    "A": 120,
+    "B": 41,
+    "keys": [
+      503,
+      87,
+      512,
+      61,
+      908,
+      170,
+      897,
+      275,
+      653,
+      426,
+      154,
+      509,
+      612,
+      677,
+      765,
+      703
+    ],
+    "COUNT": [
+      6,
+      1,
+      8,
+      0,
+      15,
+      3,
+      14,
+      4,
+      10,
+      5,
+      2,
+      7,
+      9,
+      11,
+      13,
+      12
+    ],
+    "actualLineFrequencies": [
+      1,
+      16,
+      16,
+      16,
+      1,
+      1,
+      15,
+      15,
+      120,
+      120,
+      41,
+      41,
+      41,
+      41,
+      79,
+      120,
+      120,
+      15,
+      15,
+      16,
+      16
+    ],
+    "sourceExpectedLineFrequencies": [
+      1,
+      16,
+      16,
+      16,
+      1,
+      1,
+      15,
+      15,
+      120,
+      120,
+      41,
+      41,
+      41,
+      41,
+      79,
+      120,
+      120,
+      15,
+      15,
+      16,
+      16
+    ],
+    "actualMixTimeUnits": 1129,
+    "sourceTimeUnits": 1129
+  },
+  "qualification": "对当前Markdown中21条真实操作码逐条解释执行原16键案例，并检查全部频率列和MIX运行时间；不是全面MIX模拟器或全部输入验证。"
+}

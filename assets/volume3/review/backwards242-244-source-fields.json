@@ -1,0 +1,445 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    242,
+    243,
+    244
+  ],
+  "enPdfPages": [
+    388,
+    389,
+    390,
+    391,
+    392
+  ],
+  "sourceTapeCellsTex": {
+    "balanced8": [
+      [
+        "A_1A_1A_1A_1",
+        "A_1A_1A_1A_1",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        "D_2D_2",
+        "D_2D_2"
+      ],
+      [
+        "A_4",
+        "A_4",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        "D_8",
+        null
+      ]
+    ],
+    "cascade14": [
+      [
+        "A_1A_1A_1A_1A_1A_1",
+        "A_1A_1A_1A_1A_1",
+        "A_1A_1A_1",
+        null
+      ],
+      [
+        null,
+        "D_1",
+        "D_2D_2",
+        "D_3D_3D_3"
+      ],
+      [
+        "A_6",
+        "A_5",
+        "A_3",
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        "D_{14}"
+      ]
+    ],
+    "suppressedCopyState": [
+      [
+        "A_1",
+        null,
+        "D_2D_2",
+        "D_3D_3D_3"
+      ]
+    ],
+    "stuck13": [
+      [
+        "A_1A_1A_1A_1A_1",
+        "A_1A_1A_1A_1A_1A_1A_1A_1",
+        null
+      ],
+      [
+        null,
+        "A_1A_1A_1",
+        "D_2D_2D_2D_2D_2"
+      ]
+    ],
+    "alternating13": [
+      [
+        "A_1D_1A_1D_1A_1",
+        "D_1A_1D_1A_1D_1A_1D_1A_1",
+        null
+      ],
+      [
+        null,
+        "D_1A_1D_1",
+        "D_2A_2D_2A_2D_2"
+      ],
+      [
+        "A_3D_3A_3",
+        null,
+        "D_2A_2"
+      ],
+      [
+        "A_3",
+        "D_5A_5",
+        null
+      ],
+      [
+        null,
+        "D_5",
+        "D_8"
+      ],
+      [
+        "A_{13}",
+        null,
+        null
+      ]
+    ]
+  },
+  "distribution1": {
+    "sourceLevels": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "sourceCounts": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        3,
+        4,
+        4,
+        4,
+        2
+      ],
+      [
+        7,
+        8,
+        8,
+        6,
+        4
+      ],
+      [
+        15,
+        16,
+        14,
+        12,
+        8
+      ],
+      [
+        31,
+        30,
+        28,
+        24,
+        16
+      ],
+      [
+        61,
+        120,
+        116,
+        108,
+        92
+      ]
+    ],
+    "sourceTotals": [
+      1,
+      9,
+      17,
+      33,
+      65,
+      129,
+      497
+    ],
+    "allSevenRowSumsParityAndT2ThroughT5DecreasingCountsChecked": true,
+    "scope": "only seven printed rows; no new generalFibonacci/dummyplacement proof"
+  },
+  "vectorExamples": [
+    {
+      "sourcePattern": "平衡",
+      "T": 4,
+      "S": 8,
+      "sourceInitialVector": [
+        4,
+        4,
+        0,
+        0
+      ],
+      "sourceMergeAndTerminalVectorsDescendingIndex": [
+        [
+          1,
+          1,
+          -1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          -1
+        ],
+        [
+          1,
+          1,
+          -1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          -1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "computedSum": [
+        4,
+        4,
+        0,
+        0
+      ],
+      "allPrintedPartialSumsNonnegative": true
+    },
+    {
+      "sourcePattern": "级联",
+      "T": 4,
+      "S": 14,
+      "sourceInitialVector": [
+        6,
+        5,
+        3,
+        0
+      ],
+      "sourceMergeAndTerminalVectorsDescendingIndex": [
+        [
+          1,
+          1,
+          1,
+          -1
+        ],
+        [
+          1,
+          1,
+          1,
+          -1
+        ],
+        [
+          1,
+          1,
+          1,
+          -1
+        ],
+        [
+          1,
+          1,
+          -1,
+          0
+        ],
+        [
+          1,
+          1,
+          -1,
+          0
+        ],
+        [
+          1,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          -1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "computedSum": [
+        6,
+        5,
+        3,
+        0
+      ],
+      "allPrintedPartialSumsNonnegative": true
+    },
+    {
+      "sourcePattern": "多阶段",
+      "T": 3,
+      "S": 13,
+      "sourceInitialVector": [
+        5,
+        8,
+        0
+      ],
+      "sourceMergeAndTerminalVectorsDescendingIndex": [
+        [
+          1,
+          1,
+          -1
+        ],
+        [
+          1,
+          1,
+          -1
+        ],
+        [
+          1,
+          1,
+          -1
+        ],
+        [
+          1,
+          1,
+          -1
+        ],
+        [
+          1,
+          1,
+          -1
+        ],
+        [
+          -1,
+          1,
+          1
+        ],
+        [
+          -1,
+          1,
+          1
+        ],
+        [
+          -1,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          -1
+        ],
+        [
+          -1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "computedSum": [
+        5,
+        8,
+        0
+      ],
+      "allPrintedPartialSumsNonnegative": true
+    }
+  ],
+  "vectorNumericFields": 126,
+  "vectorScope": "126 literal numeric fields in the three original examples; finite component sums and nonnegative partials only, not arbitrary patterns or theorem equivalence proof",
+  "correction042": "CN242磁盘→磁带 per actualEN388four tapes, local noun only",
+  "correction043": "CN243游程采用递减顺序→游程数按递减顺序 per actualEN390even numbers,in decreasing order; counts not recorddirection",
+  "originalChineseEditorialFootnote": "CN244printed238 footnote retained, paragraph aftervector table as CN; EN392 has reverse-numberingparagraph before table and no CNeditorialfootnote",
+  "pageMarkdownSha256": {
+    "242": "4a5639256fcfd37654907ad3152efb53c0c7db387ff83f6cb0c83575565a7c03",
+    "243": "61f76246d2ee941d813c504f3849d06a42a4f4e60c65a2a0b4fc0379395cf6ad",
+    "244": "03bb315d458cb64528939705f1e2d06e97a4b05902ec0a3617921c395f84ddfe"
+  },
+  "reviewerKind": "model-direct-image-review-and-original-bounded-numerics",
+  "humanSignoff": false
+}

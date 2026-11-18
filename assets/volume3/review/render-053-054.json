@@ -1,0 +1,183 @@
+{
+  "volume": "volume3",
+  "stage": "private-page-render-check-053-054",
+  "physicalPages": [
+    53,
+    54
+  ],
+  "cases": 4,
+  "viewports": [
+    1280,
+    390
+  ],
+  "failures": 0,
+  "errors": 0,
+  "mathObservations": 166,
+  "horizontalPortsCheckedAtBothEnds": 10,
+  "rawBrowserEvidenceSha256": "1306f9dfa4e5334faf3e30774cb77516422c73fba656f3aee6cecdeb69e2e560",
+  "details": [
+    {
+      "bodyText": 1937,
+      "math": 47,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 30,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "endpoints": [],
+      "page": 53,
+      "width": 1280,
+      "pageMarkdownSha256": "586d52fb0e6ecfdb17d6fd13c78b773d7770dec9c618c247539961ca7bd49855",
+      "htmlSha256": "3fc5664718f6edfd9f8ff95974afc6d312dc45bd4461859e50e7ddb3d96f2fb1",
+      "passed": true
+    },
+    {
+      "bodyText": 2808,
+      "math": 36,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 0,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "endpoints": [
+        {
+          "start": 0,
+          "end": 31,
+          "max": 31,
+          "pass": true
+        }
+      ],
+      "page": 54,
+      "width": 1280,
+      "pageMarkdownSha256": "f95b861a46eba61ea8da70ec73bd6fcf3d3654a7b144e03c33794b286c2b388e",
+      "htmlSha256": "5209003d93117f188e793cd8a6d3e1c4c0e2afc73019ac065af5b49b2735f552",
+      "passed": true
+    },
+    {
+      "bodyText": 1937,
+      "math": 47,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 30,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "endpoints": [
+        {
+          "start": 0,
+          "end": 56,
+          "max": 56,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 111,
+          "max": 111,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 21,
+          "max": 21,
+          "pass": true
+        }
+      ],
+      "page": 53,
+      "width": 390,
+      "pageMarkdownSha256": "586d52fb0e6ecfdb17d6fd13c78b773d7770dec9c618c247539961ca7bd49855",
+      "htmlSha256": "3fc5664718f6edfd9f8ff95974afc6d312dc45bd4461859e50e7ddb3d96f2fb1",
+      "passed": true
+    },
+    {
+      "bodyText": 2808,
+      "math": 36,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 0,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "endpoints": [
+        {
+          "start": 0,
+          "end": 200,
+          "max": 200,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 126,
+          "max": 126,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 449,
+          "max": 449,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 420,
+          "max": 420,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 317,
+          "max": 317,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 277,
+          "max": 277,
+          "pass": true
+        }
+      ],
+      "page": 54,
+      "width": 390,
+      "pageMarkdownSha256": "f95b861a46eba61ea8da70ec73bd6fcf3d3654a7b144e03c33794b286c2b388e",
+      "htmlSha256": "5209003d93117f188e793cd8a6d3e1c4c0e2afc73019ac065af5b49b2735f552",
+      "passed": true
+    }
+  ],
+  "directlyViewedScreens": [
+    "53-1280.png",
+    "53-390-split.png",
+    "53-390-split-end.png",
+    "53-390-pair-end.png",
+    "54-390-end.png"
+  ],
+  "qualification": "私有单页生产规则校样；包含偏斜格图右端与渐近式lnπ右端。式49跨054/055，当前只验本页原分片，逻辑合式仍待055。"
+}

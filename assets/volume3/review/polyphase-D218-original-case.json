@@ -1,0 +1,428 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    217,
+    218
+  ],
+  "enPdfPages": [
+    353,
+    354,
+    355
+  ],
+  "figure68": {
+    "sourceBoxes": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "directedEdges": [
+      [
+        "start",
+        "D1"
+      ],
+      [
+        "D1",
+        "D2"
+      ],
+      [
+        "D2",
+        "D3"
+      ],
+      [
+        "D3",
+        "D4"
+      ],
+      [
+        "D3",
+        "D2"
+      ],
+      [
+        "D4",
+        "D2"
+      ],
+      [
+        "D2",
+        "D5"
+      ],
+      [
+        "D5",
+        "D6"
+      ],
+      [
+        "D6",
+        "D5"
+      ],
+      [
+        "D5",
+        "end"
+      ]
+    ],
+    "internalEdges": 8,
+    "boundaryEdges": 2,
+    "sourceLabels": [
+      "D=0",
+      "输入完成",
+      "排序完成"
+    ],
+    "svgSha256": "082cbdb1cfa8eb5a597e5b019ff4e3aaeaeac2a223f333e65c8c7f5ec87f5af5"
+  },
+  "figure69": {
+    "sourceColumnsTopToBottom": [
+      [
+        34,
+        35,
+        38,
+        42,
+        46,
+        51,
+        56,
+        61
+      ],
+      [
+        36,
+        39,
+        43,
+        47,
+        52,
+        57,
+        62
+      ],
+      [
+        37,
+        40,
+        44,
+        48,
+        53,
+        58,
+        63
+      ],
+      [
+        41,
+        45,
+        49,
+        54,
+        59,
+        64
+      ],
+      [
+        50,
+        55,
+        60,
+        65
+      ]
+    ],
+    "sourceOldShadedCounts": [
+      8,
+      8,
+      7,
+      6,
+      4
+    ],
+    "sourceNumericLabels": 32,
+    "allSourceDistributionTargets34to65MatchD3": true,
+    "sourceCaptionBottomBeginningRetained": true,
+    "svgSha256": "87c6613c9a89df00e15d75a36ebfcd3c5423be7744c435daeadfa6915825a48d"
+  },
+  "original53RunAbstractExecution": {
+    "T": 6,
+    "P": 5,
+    "initial": {
+      "A": [
+        16,
+        15,
+        14,
+        12,
+        8,
+        0
+      ],
+      "D": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        0
+      ],
+      "level": 5,
+      "physicalRealRunCounts": [
+        14,
+        13,
+        12,
+        9,
+        5,
+        0
+      ]
+    },
+    "targetsForActualRunIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5,
+      1,
+      2,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2,
+      3,
+      4,
+      5,
+      1,
+      2,
+      3,
+      4,
+      5,
+      1,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2,
+      3,
+      4,
+      5,
+      1,
+      2,
+      3
+    ],
+    "trace": [
+      {
+        "before": {
+          "level": 5,
+          "TAPE": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "D": [
+            2,
+            2,
+            2,
+            3,
+            3,
+            0
+          ],
+          "realRunCounts": [
+            14,
+            13,
+            12,
+            9,
+            5,
+            0
+          ]
+        },
+        "mergeGroups": 8,
+        "allDummyOutputGroups": 2,
+        "realRunWeightProcessed": 28,
+        "afterD": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "before": {
+          "level": 4,
+          "TAPE": [
+            6,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "D": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "realRunCounts": [
+            8,
+            7,
+            6,
+            4,
+            0,
+            6
+          ]
+        },
+        "mergeGroups": 4,
+        "allDummyOutputGroups": 0,
+        "realRunWeightProcessed": 24,
+        "afterD": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "before": {
+          "level": 3,
+          "TAPE": [
+            5,
+            6,
+            1,
+            2,
+            3,
+            4
+          ],
+          "D": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "realRunCounts": [
+            4,
+            3,
+            2,
+            0,
+            4,
+            4
+          ]
+        },
+        "mergeGroups": 2,
+        "allDummyOutputGroups": 0,
+        "realRunWeightProcessed": 24,
+        "afterD": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "before": {
+          "level": 2,
+          "TAPE": [
+            4,
+            5,
+            6,
+            1,
+            2,
+            3
+          ],
+          "D": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "realRunCounts": [
+            2,
+            1,
+            0,
+            2,
+            2,
+            2
+          ]
+        },
+        "mergeGroups": 1,
+        "allDummyOutputGroups": 0,
+        "realRunWeightProcessed": 26,
+        "afterD": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "before": {
+          "level": 1,
+          "TAPE": [
+            3,
+            4,
+            5,
+            6,
+            1,
+            2
+          ],
+          "D": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "realRunCounts": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "mergeGroups": 1,
+        "allDummyOutputGroups": 0,
+        "realRunWeightProcessed": 53,
+        "afterD": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "finalPhysicalTape": 2,
+    "all53RunIdsPresentExactlyOnce": true,
+    "qualification": "Only source fixed53-run case with unit-weight abstract initial runs; validates counts/dummies/rotation and membership, not real-key sort order/ISA or general algorithmD. Figure69 top/bottom labels retain source caption; this receipt does not reinterpret physical tape reading direction."
+  },
+  "reviewerKind": "model-direct-image-review-and-original-finite-case",
+  "humanSignoff": false,
+  "sourceAlgorithmPageMarkdownSha256": {
+    "217": "e432a4eebca0c37367b07cbbb1c98507bd94d9ae57908d0e89ea3bfaf8f71edf",
+    "218": "b23649441b09d2d4e631945ebabb71436126dba78bf1f10d6b139fc067386af4"
+  },
+  "sourceInputParameters": "T6/P5/actual53 unit-weight initial runs, and original34..65 membership check",
+  "sourceInputParametersSha256": "8b58f0576a18901e81a257c1dcb025218a25d6db818de3d67841714e5e3023c5"
+}

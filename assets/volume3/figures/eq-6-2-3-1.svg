@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc">
+<title id="title">AVL插入的两种情景：恢复平衡前</title>
+<desc id="desc">情景1为单次左转动，情景2为先右后左双转动。大矩形为子树α、β、γ、δ，虚线矩形部分保留原高度不确定性；圆内保留原平衡标记，未指定的平衡因子留空。</desc>
+<defs><marker id="head" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L7 4L0 8" fill="none" stroke="#222" stroke-width="1.2"/></marker></defs>
+<rect width="1200" height="410" fill="white"/>
+<g stroke="#222" stroke-width="1.6" fill="none">
+<path d="M240 12L240 45"/>
+<path d="M240 45L166 100"/>
+<path d="M240 45L330 100"/>
+<path d="M330 100L286 155"/>
+<path d="M330 100L391 155"/>
+<path d="M760 12L760 45"/>
+<path d="M760 45L686 100"/>
+<path d="M760 45L930 100"/>
+<path d="M930 100L850 155"/>
+<path d="M930 100L1036 155"/>
+<path d="M850 155L821 210"/>
+<path d="M850 155L916 210"/>
+</g><g fill="white" stroke="#222" stroke-width="1.6">
+<circle cx="240" cy="45" r="21"/>
+<circle cx="330" cy="100" r="21"/>
+<circle cx="760" cy="45" r="21"/>
+<circle cx="930" cy="100" r="21"/>
+<circle cx="850" cy="155" r="21"/>
+<rect x="145" y="100" width="42" height="150"/>
+<rect x="265" y="155" width="42" height="150"/>
+<rect x="370" y="155" width="42" height="200"/>
+<rect x="665" y="100" width="42" height="150"/>
+<rect x="800" y="210" width="42" height="95"/>
+<rect x="800" y="305" width="42" height="50" stroke-dasharray="5 4"/>
+<rect x="895" y="210" width="42" height="95"/>
+<rect x="895" y="305" width="42" height="50" stroke-dasharray="5 4"/>
+<rect x="1015" y="155" width="42" height="150"/>
+</g><g stroke="#222" stroke-width="1.2" marker-start="url(#head)" marker-end="url(#head)">
+<path d="M125 100V250"/>
+<path d="M245 155V305"/>
+<path d="M440 155V355"/>
+<path d="M645 100V250"/>
+<path d="M775 210V305"/>
+<path d="M980 210V355"/>
+<path d="M1090 155V305"/>
+</g><g fill="#222" font-family="serif" font-size="25" text-anchor="middle">
+<text x="240" y="54">++</text><text x="205" y="52" font-style="italic">A</text>
+<text x="330" y="109">+</text><text x="365" y="107" font-style="italic">B</text>
+<text x="760" y="54">++</text><text x="725" y="52" font-style="italic">A</text>
+<text x="930" y="109">−</text><text x="965" y="107" font-style="italic">B</text>
+<text x="850" y="164"></text><text x="885" y="162" font-style="italic">X</text>
+<text x="166" y="128" font-style="italic">α</text>
+<text x="286" y="183" font-style="italic">β</text>
+<text x="391" y="183" font-style="italic">γ</text>
+<text x="686" y="128" font-style="italic">α</text>
+<text x="821" y="238" font-style="italic">β</text>
+<text x="916" y="238" font-style="italic">γ</text>
+<text x="1036" y="183" font-style="italic">δ</text>
+<text x="105" y="183.0" font-style="italic">h</text>
+<text x="225" y="238.0" font-style="italic">h</text>
+<text x="473" y="263.0" font-style="italic">h+1</text>
+<text x="625" y="183.0" font-style="italic">h</text>
+<text x="742" y="265.5" font-style="italic">h−1</text>
+<text x="1000" y="290.5" font-style="italic">h</text>
+<text x="1110" y="238.0" font-style="italic">h</text>
+<text x="240" y="390">情景1</text><text x="850" y="390">情景2</text></g></svg>

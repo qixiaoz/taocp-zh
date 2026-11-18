@@ -1,0 +1,175 @@
+{
+  "inputFile": "assets/volume3/review/radix-E-bounded-case-input.json",
+  "inputSha256": "d2ac776f606cb55152b4d5d32172d01a6061ade1cb9c62844681bd0c8f336029",
+  "originalProgramCodeTextSha256": "6f33b95151bc3d92c94d972d55929c1a1b787413cb163beba48df60fd52a979a",
+  "logicalProgramMarkdownSha256": "951ae0df9a0d36eb34d85f08efc6ec3d0df16fc5ad8558686a2fd6aa9857dea0",
+  "sourcePageMarkdownSha256": {
+    "140": "e21dcf3a22f02881ddd3422ddcda744705a5ec6f22a419990f8a45b15a00f301",
+    "141": "6051c21a2f7805e42c3fa4cb8a759c31627358ae2c800ea013dc53abf2ecc67c",
+    "142": "f3f65e88d9f78b5673306b3e46d1461b10759a484ee3a3f3cb972b0e0ea24bc7"
+  },
+  "sameExecutorKernelSha256": "fc49e2db37e1e28663f04dfa0c64061a1f50f83679d8272730d320160ea3a208",
+  "physicalSlotFrequencies": [
+    0,
+    0,
+    1,
+    1,
+    3,
+    9,
+    9,
+    9,
+    9,
+    9,
+    3,
+    3,
+    3,
+    3,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    3,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    6,
+    6,
+    6,
+    9,
+    9,
+    9,
+    3,
+    3,
+    3,
+    3
+  ],
+  "templateLogicalExecutionCounts": {
+    "23": 2,
+    "24": 2,
+    "25": 2,
+    "26": 2,
+    "27": 2,
+    "28": 2
+  },
+  "selfModificationEvents": [
+    {
+      "pass": 1,
+      "slot": 15,
+      "templateSourceRow": 25,
+      "op": "LD2",
+      "arg": "INPUT,1(3:3)"
+    },
+    {
+      "pass": 1,
+      "slot": 19,
+      "templateSourceRow": 28,
+      "op": "DEC1",
+      "arg": "1"
+    },
+    {
+      "pass": 2,
+      "slot": 15,
+      "templateSourceRow": 24,
+      "op": "LD2",
+      "arg": "INPUT,1(2:2)"
+    },
+    {
+      "pass": 2,
+      "slot": 19,
+      "templateSourceRow": 27,
+      "op": "LD1",
+      "arg": "INPUT,1(LINK)"
+    },
+    {
+      "pass": 3,
+      "slot": 15,
+      "templateSourceRow": 23,
+      "op": "LD2",
+      "arg": "INPUT,1(1:1)"
+    },
+    {
+      "pass": 3,
+      "slot": 19,
+      "templateSourceRow": 26,
+      "op": "LD1",
+      "arg": "INPUT,1(LINK)"
+    }
+  ],
+  "H4CheckedDigitsByPass": [
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "H4ActualEmptyPileDiscoveries": 0,
+  "pile0EmptyOccurrences": 3,
+  "allMEmptyPileOccurrences": 3,
+  "actualRowFrequencies": {
+    "29": 6,
+    "30": 6,
+    "31": 6,
+    "32": 9
+  },
+  "sourceRowAnnotationsUsingH4Count": {
+    "29": "3M-3=6",
+    "30": "3M-3=6",
+    "31": "3M-3-E_H4=6",
+    "32": "3M-E_H4=9"
+  },
+  "actualTimeUnits": 246,
+  "sourceTimeFormulaUsingH4Count": 246,
+  "sourceTimeFormulaUsingAllMCount": 234,
+  "difference": 12,
+  "queueTupleLabelsTopToBottom": [
+    [
+      [],
+      [
+        111
+      ],
+      [
+        222
+      ]
+    ],
+    [
+      [],
+      [
+        111
+      ],
+      [
+        222
+      ]
+    ],
+    [
+      [],
+      [
+        111
+      ],
+      [
+        222
+      ]
+    ]
+  ],
+  "finalSortedRecordIndices": [
+    1,
+    2
+  ],
+  "finalNumericValues": [
+    13,
+    26
+  ],
+  "qualification": "沿用已核38行原程序和完全相同的执行内核；只变已授权参数N/M/三位键，整指令复制照原样。该有界例能区分计数口径，不据此擅改一般概率生成函数、均值或源程序。"
+}

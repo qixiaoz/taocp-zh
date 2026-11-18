@@ -1,0 +1,228 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    53,
+    54
+  ],
+  "state": "listed-exact-counts-pass-asymptotic-residuals-observed",
+  "splitExample": {
+    "sourceA": [
+      [
+        1,
+        2,
+        3,
+        6,
+        7,
+        10
+      ],
+      [
+        4,
+        5,
+        8,
+        9,
+        11,
+        12
+      ]
+    ],
+    "P": [
+      [
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "skewRows": [
+      [
+        null,
+        null,
+        null,
+        null,
+        7,
+        10
+      ],
+      [
+        null,
+        null,
+        8,
+        9,
+        11,
+        12
+      ]
+    ],
+    "Q": [
+      [
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "rotation": "(r,c)→(3-r,7-c)，标签v→13-v",
+    "actualNumericCells": 24
+  },
+  "sourceT0ToT10": [
+    1,
+    1,
+    2,
+    4,
+    10,
+    26,
+    76,
+    232,
+    764,
+    2620,
+    9496
+  ],
+  "sum41Cases": 101,
+  "ratio43Cases": 2500,
+  "matchingSubsetDynamicProgrammingCases": 17,
+  "exponentialSeries42CoefficientCases": 41,
+  "equation46FiniteResiduals": {
+    "precisionDecimalDigits": 100,
+    "epsilon": "0.001",
+    "observations": [
+      {
+        "n": 100,
+        "k": 43,
+        "x": "-2.0",
+        "logExactMinusExpansion": "0.0062256166590142373495041190138039599",
+        "absoluteErrorDividedByStatedScale": "0.1923899472593221699856676"
+      },
+      {
+        "n": 100,
+        "k": 45,
+        "x": "0.0",
+        "logExactMinusExpansion": "0.0012210748470422364284409457487457154",
+        "absoluteErrorDividedByStatedScale": "0.03773482022571854410978504"
+      },
+      {
+        "n": 100,
+        "k": 47,
+        "x": "2.0",
+        "logExactMinusExpansion": "-0.010700923406587669285427883861028765",
+        "absoluteErrorDividedByStatedScale": "0.3306901472705564591235259"
+      },
+      {
+        "n": 1000,
+        "k": 480,
+        "x": "-4.188611699158103340005532",
+        "logExactMinusExpansion": "0.0014201475755261447358539096955123798",
+        "absoluteErrorDividedByStatedScale": "0.2439683430997878379619284"
+      },
+      {
+        "n": 1000,
+        "k": 484,
+        "x": "-0.1886116991581033400055323",
+        "logExactMinusExpansion": "0.00025225091565903344363117031976709734",
+        "absoluteErrorDividedByStatedScale": "0.04333439636788349351048501"
+      },
+      {
+        "n": 1000,
+        "k": 488,
+        "x": "3.811388300841896659994468",
+        "logExactMinusExpansion": "-0.0017987352473428585660901391765248084",
+        "absoluteErrorDividedByStatedScale": "0.3090062367686275518435366"
+      },
+      {
+        "n": 10000,
+        "k": 4942,
+        "x": "-8.0",
+        "logExactMinusExpansion": "0.00032937761233837571910921151209021279",
+        "absoluteErrorDividedByStatedScale": "0.3145531777845914569699987"
+      },
+      {
+        "n": 10000,
+        "k": 4950,
+        "x": "0.0",
+        "logExactMinusExpansion": "0.000012477186434772310009443697978136925",
+        "absoluteErrorDividedByStatedScale": "0.01191562053961478899822457"
+      },
+      {
+        "n": 10000,
+        "k": 4958,
+        "x": "8.0",
+        "logExactMinusExpansion": "-0.00042291849217391068173861211574671036",
+        "absoluteErrorDividedByStatedScale": "0.4038840245174493832221528"
+      },
+      {
+        "n": 1000000,
+        "k": 499476,
+        "x": "-24.0",
+        "logExactMinusExpansion": "0.0000099256024992086088437974462334647129",
+        "absoluteErrorDividedByStatedScale": "0.2929252967588738376655604"
+      },
+      {
+        "n": 1000000,
+        "k": 499500,
+        "x": "0.0",
+        "logExactMinusExpansion": "0.00000012497771936500651272212972192244282",
+        "absoluteErrorDividedByStatedScale": "0.003688353985177294478907783"
+      },
+      {
+        "n": 1000000,
+        "k": 499524,
+        "x": "24.0",
+        "logExactMinusExpansion": "-0.000010699767637395631871054213985932355",
+        "absoluteErrorDividedByStatedScale": "0.3157725297466838362173996"
+      },
+      {
+        "n": 100000000,
+        "k": 49994925,
+        "x": "-75.0",
+        "logExactMinusExpansion": "0.00000031348353763835745873968526699857047",
+        "absoluteErrorDividedByStatedScale": "0.2859003842858183095671221"
+      },
+      {
+        "n": 100000000,
+        "k": 49995000,
+        "x": "0.0",
+        "logExactMinusExpansion": "0.0000000012499777719436507208298415060581237",
+        "absoluteErrorDividedByStatedScale": "0.001139993276966558821096375"
+      },
+      {
+        "n": 100000000,
+        "k": 49995075,
+        "x": "75.0",
+        "logExactMinusExpansion": "-0.00000032092094264486311383558826612467757",
+        "absoluteErrorDividedByStatedScale": "0.2926833782684313774272958"
+      },
+      {
+        "n": 1000000000000,
+        "k": 499999499250,
+        "x": "-750.0",
+        "logExactMinusExpansion": "0.0000000003168157724801823682184948714099362",
+        "absoluteErrorDividedByStatedScale": "0.2759350025540484925244378"
+      },
+      {
+        "n": 1000000000000,
+        "k": 499999500000,
+        "x": "0.0",
+        "logExactMinusExpansion": "1.2499997777771944436507929226186984e-13",
+        "absoluteErrorDividedByStatedScale": "0.0001088704293897128299418566"
+      },
+      {
+        "n": 1000000000000,
+        "k": 499999500750,
+        "x": "750.0",
+        "logExactMinusExpansion": "-0.00000000031755952238525670783125340447040324",
+        "absoluteErrorDividedByStatedScale": "0.276582781641401533548763"
+      }
+    ],
+    "qualification": "与loggamma精确计数作有限残差观测，记录归一误差，不将其当作大O项的证明或全部渐近推导的验收。"
+  },
+  "posetEvidence": "assets/volume3/review/tableau-poset-39.json",
+  "pageMarkdownSha256": {
+    "53": "586d52fb0e6ecfdb17d6fd13c78b773d7770dec9c618c247539961ca7bd49855",
+    "54": "f95b861a46eba61ea8da70ec73bd6fcf3d3654a7b144e03c33794b286c2b388e"
+  },
+  "qualification": "精确有限系数/计数与数值观测辅助原图对照，不验证本节尚未处理的后页积分、余项及习题。"
+}

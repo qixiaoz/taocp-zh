@@ -1,0 +1,109 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    23,
+    24,
+    25,
+    26
+  ],
+  "state": "independent-numeric-and-string-examples-pass",
+  "multisetExample": {
+    "counts": [
+      3,
+      2,
+      1,
+      4
+    ],
+    "ways": 12600,
+    "method": "按首字母逐类递推计数，和阶乘公式独立比较。"
+  },
+  "melodyFormula": {
+    "givenNoteMultiplicity": [
+      4,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1
+    ],
+    "ways": 756756000,
+    "qualification": "整数复算使用原文给定的音符多重性，未作独立音乐学考证；原谱保持原图。"
+  },
+  "bhaskaraExample": {
+    "distinctNumbers": 20,
+    "sum": 1199988,
+    "formulaValue": 1199988
+  },
+  "intercalationExample": {
+    "left": "cadab",
+    "right": "bddad",
+    "product": "cabddabdad"
+  },
+  "cycleExample": {
+    "cycle": "dbddacaabd",
+    "permutation": "cabddabdad"
+  },
+  "canonicalFactorization": {
+    "cycles": [
+      "ddbcdbbca",
+      "ba",
+      "cdb",
+      "d"
+    ],
+    "pi": "dbcbcacdaddbbbd",
+    "piPrime": "ddbcdbbcabacdbd",
+    "letterCounts": {
+      "d": 5,
+      "b": 5,
+      "c": 3,
+      "a": 2
+    },
+    "decodedCyclesMatch": true,
+    "theoremBPairChecks": [
+      {
+        "x": "a",
+        "y": "b",
+        "columns": 1,
+        "adjacentPairs": 1
+      },
+      {
+        "x": "a",
+        "y": "c",
+        "columns": 1,
+        "adjacentPairs": 1
+      },
+      {
+        "x": "a",
+        "y": "d",
+        "columns": 0,
+        "adjacentPairs": 0
+      },
+      {
+        "x": "b",
+        "y": "c",
+        "columns": 0,
+        "adjacentPairs": 0
+      },
+      {
+        "x": "b",
+        "y": "d",
+        "columns": 3,
+        "adjacentPairs": 3
+      },
+      {
+        "x": "c",
+        "y": "d",
+        "columns": 0,
+        "adjacentPairs": 0
+      }
+    ]
+  },
+  "sourcePageMarkdownSha256": {
+    "23": "98eef5767f24a51d60139234480c7495438cf93896a22c92b7838bcc39dec364",
+    "24": "4f7246510afe34145dc414df2d8e6e8e8b3e5ae91a1f4f3a3e80378409853b6c",
+    "25": "ce04014defdb7f5730f0fc3800ed702455565b751060b2c1f06bdf0bc7d55e73",
+    "26": "755e7faab30b88375c0f9da86d7cebacfe2fd89c3b749ed777192ea233e6435d"
+  },
+  "qualification": "只验证已给出的数值/字符串/矩阵示例，不声称对定理A/B给出独立的一般证明。"
+}

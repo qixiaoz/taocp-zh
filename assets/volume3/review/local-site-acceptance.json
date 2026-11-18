@@ -1,0 +1,1158 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume3",
+  "masterSha256": "ff100229d58ca6fafd4b938e81ec558098ad2a9a0c410701b2eeb74aeab0b814",
+  "reviewedAt": "2026-11-18T20:04:02.427321+00:00",
+  "reviewer": "Model actual Chrome execution and explicit screenshot/contact-sheet viewing, not human signoff.",
+  "status": "local-build-and-browser-acceptance-passed-online-not-yet-verified",
+  "sourceReviewSha256": "5174c5ee06591de7ba1360a29aa46c88ae675e5f6a9838bacc7d6e78176bd5d8",
+  "priorSourceMachineRecordSha256": "3f05d8b35dfa7f4821f99a5591c294095cb10f72dc15b1c3322180b14f9c2215",
+  "supersedes": "Later local browser acceptance supersedes earlier pending-browser flags without modifying historical source/proof hashes.",
+  "staticBuild": {
+    "sourceSiteCheckSha256": "642b5b3deb2ed16b3acb6aa101eb8e79a26233acf9da6ac041030d66ef643df2",
+    "errors": 0,
+    "warnings": 0,
+    "qualification": "The separate bundler advisory for chunks over500kB is expected for long book sections; no threshold was raised to hide it."
+  },
+  "actualPublishedPageDOM": {
+    "volumes": 3,
+    "readingPages": 266,
+    "viewports": [
+      1280,
+      390
+    ],
+    "cases": 532,
+    "mathExpressionChecks": 139514,
+    "allExpectedFormulaCountsMatch": true,
+    "hiddenMath": 0,
+    "katexErrors": 0,
+    "pageOverflow": 0,
+    "visibleBrokenImages": 0,
+    "scriptErrors": 0,
+    "failedRequests": 0,
+    "oneLineBrandInsideBounds": true,
+    "noCorrectionOrDownloadNavigation": true,
+    "sourceMasters": [
+      {
+        "id": "volume1",
+        "file": "计算机程序设计艺术·卷1·基本算法.md",
+        "sha256": "ff31566c52de1643b13d8461c49a9b946bd379885aaa0a6fa762ebc7ab995da5"
+      },
+      {
+        "id": "volume2",
+        "file": "计算机程序设计艺术·卷2·半数值算法.md",
+        "sha256": "c8ec35b2d7d5fdcc32c8059dd7197227f387a443b96eea49b61af8e2fcfca163"
+      },
+      {
+        "id": "volume3",
+        "file": "计算机程序设计艺术·卷3·排序与查找.md",
+        "sha256": "ff100229d58ca6fafd4b938e81ec558098ad2a9a0c410701b2eeb74aeab0b814"
+      }
+    ],
+    "modelViewedRepresentativeTopScreens": 26,
+    "visualScope": "26representative top screens viewed through five contact sheets, plus full-size targeted examples. This is not a claim to inspect every pixel of all books."
+  },
+  "actualReaderInteractions": {
+    "cases": 24,
+    "acceptedMainCases": [
+      {
+        "kind": "previous-next",
+        "next": "/taocp-zh/volume3/sec-5-1-2.html",
+        "returned": "/taocp-zh/volume3/sec-5-1-1.html",
+        "passed": true
+      },
+      {
+        "kind": "question-answer-roundtrip",
+        "answer": "/taocp-zh/volume3/answers/6-3.html#ans-6-3-30",
+        "returned": "/taocp-zh/volume3/sec-6-3.html#ex-6-3-30",
+        "passed": true
+      },
+      {
+        "kind": "original-index-page-link",
+        "url": "/taocp-zh/volume3/sec-6-2-3.html#p-374",
+        "targetCount": 1,
+        "passed": true
+      },
+      {
+        "kind": "original-footnote-roundtrip",
+        "footnote": "/taocp-zh/volume3/sec-5-1-2.html#fn1",
+        "returned": "/taocp-zh/volume3/sec-5-1-2.html#fnref1",
+        "passed": true
+      },
+      {
+        "kind": "desktop-sidebar-collapse-and-columns",
+        "columns": [
+          {
+            "number": "5.4.1",
+            "labelLeft": 103.4375,
+            "numberLeft": 41
+          },
+          {
+            "number": "*5.4.2",
+            "labelLeft": 103.4375,
+            "numberLeft": 41
+          },
+          {
+            "number": "*5.4.3",
+            "labelLeft": 103.4375,
+            "numberLeft": 41
+          },
+          {
+            "number": "*5.4.4",
+            "labelLeft": 103.4375,
+            "numberLeft": 41
+          },
+          {
+            "number": "*5.4.5",
+            "labelLeft": 103.4375,
+            "numberLeft": 41
+          },
+          {
+            "number": "*5.4.6",
+            "labelLeft": 103.4375,
+            "numberLeft": 41
+          },
+          {
+            "number": "*5.4.7",
+            "labelLeft": 103.4375,
+            "numberLeft": 41
+          },
+          {
+            "number": "*5.4.8",
+            "labelLeft": 103.4375,
+            "numberLeft": 41
+          },
+          {
+            "number": "*5.4.9",
+            "labelLeft": 103.4375,
+            "numberLeft": 41
+          }
+        ],
+        "passed": true,
+        "screenshotSha256": "7f2009ace6fd39952eb7773b991d02728e078d68ca53a1bd25ed147336e86377"
+      },
+      {
+        "kind": "mobile-sidebar-navigation",
+        "url": "/taocp-zh/volume3/sec-5-4-3.html",
+        "passed": true
+      },
+      {
+        "kind": "actual-local-search",
+        "query": "多阶段合并",
+        "results": [
+          {
+            "text": "#*5.4.2 多阶段合并",
+            "href": "/taocp-zh/volume3/sec-5-4-2.html#_5-4-2-多阶段合并"
+          },
+          {
+            "text": "#5.4.1 多路合并和替代选择",
+            "href": "/taocp-zh/volume3/sec-5-4-1.html#_5-4-1-多路合并和替代选择"
+          },
+          {
+            "text": "#*5.4.6 磁带合并的实践考虑",
+            "href": "/taocp-zh/volume3/sec-5-4-6.html#_5-4-6-磁带合并的实践考虑"
+          },
+          {
+            "text": "#*5.4.2 多阶段合并习题",
+            "href": "/taocp-zh/volume3/sec-5-4-2.html#习题"
+          },
+          {
+            "text": "#索引",
+            "href": "/taocp-zh/volume3/sec-index.html#索引"
+          },
+          {
+            "text": "#*5.4.6 磁带合并的实践考虑习题",
+            "href": "/taocp-zh/volume3/sec-5-4-6.html#习题"
+          },
+          {
+            "text": "#*5.4.3 级联合并习题",
+            "href": "/taocp-zh/volume3/sec-5-4-3.html#习题"
+          },
+          {
+            "text": "#1.4.1 子程序",
+            "href": "/taocp-zh/volume1/sec-1-4-1.html#_1-4-1-子程序"
+          },
+          {
+            "text": "#*5.4.4 反向读取磁带",
+            "href": "/taocp-zh/volume3/sec-5-4-4.html#_5-4-4-反向读取磁带"
+          },
+          {
+            "text": "#*5.3.3 比较次数最少的选择习题",
+            "href": "/taocp-zh/volume3/sec-5-3-3.html#习题"
+          },
+          {
+            "text": "#*5.4.3 级联合并",
+            "href": "/taocp-zh/volume3/sec-5-4-3.html#_5-4-3-级联合并"
+          },
+          {
+            "text": "#5.2.2 交换排序",
+            "href": "/taocp-zh/volume3/sec-5-2-2.html#_5-2-2-交换排序"
+          },
+          {
+            "text": "#*5.3.4 排序网络",
+            "href": "/taocp-zh/volume3/sec-5-3-4.html#_5-3-4-排序网络"
+          },
+          {
+            "text": "#5.5 小结、历史与文献",
+            "href": "/taocp-zh/volume3/sec-5-5.html#_5-5-小结、历史与文献"
+          },
+          {
+            "text": "#*5.4.5 振荡排序",
+            "href": "/taocp-zh/volume3/sec-5-4-5.html#_5-4-5-振荡排序"
+          },
+          {
+            "text": "#2.2.3 链接分配",
+            "href": "/taocp-zh/volume1/sec-2-2-3.html#_2-2-3-链接分配"
+          }
+        ],
+        "passed": true,
+        "screenshotSha256": "dc7873a519211843032098f4bc5d8db7841294c2bf41025c19f598340f099cde"
+      },
+      {
+        "kind": "actual-local-search",
+        "query": "LD1N",
+        "results": [
+          {
+            "text": "#1.4.3.1 MIX 模拟程序",
+            "href": "/taocp-zh/volume1/sec-1-4-3-1.html#_1-4-3-1-mix-模拟程序"
+          },
+          {
+            "text": "#4.2.1 单精度计算",
+            "href": "/taocp-zh/volume2/sec-4-2-1.html#_4-2-1-单精度计算"
+          },
+          {
+            "text": "#1.3.1 节",
+            "href": "/taocp-zh/volume1/answers/1-3-1.html#_1-3-1-节"
+          },
+          {
+            "text": "#1.3.1 MIX 的描述习题",
+            "href": "/taocp-zh/volume1/sec-1-3-1.html#习题"
+          },
+          {
+            "text": "#*4.2.3 双精度计算",
+            "href": "/taocp-zh/volume2/sec-4-2-3.html#_4-2-3-双精度计算"
+          },
+          {
+            "text": "#6.3 数字查找",
+            "href": "/taocp-zh/volume3/sec-6-3.html#_6-3-数字查找"
+          },
+          {
+            "text": "#6.4 散列习题",
+            "href": "/taocp-zh/volume3/sec-6-4.html#习题"
+          },
+          {
+            "text": "#6.4 散列",
+            "href": "/taocp-zh/volume3/sec-6-4.html#_6-4-散列"
+          }
+        ],
+        "passed": true,
+        "screenshotSha256": "b5f813d9ae306972aee96ff64b0ee18b2b1522510314559f510175e0fbd2658e"
+      },
+      {
+        "kind": "actual-local-search",
+        "query": "≤",
+        "results": [
+          {
+            "text": "#1.2.3 和与积",
+            "href": "/taocp-zh/volume1/sec-1-2-3.html#_1-2-3-和与积"
+          },
+          {
+            "text": "#1.2.3 节",
+            "href": "/taocp-zh/volume1/answers/1-2-3.html#_1-2-3-节"
+          },
+          {
+            "text": "#2.2.6数组与正交表习题",
+            "href": "/taocp-zh/volume1/sec-2-2-6.html#习题"
+          },
+          {
+            "text": "#*5.3.2 比较次数最少的合并",
+            "href": "/taocp-zh/volume3/sec-5-3-2.html#_5-3-2-比较次数最少的合并"
+          },
+          {
+            "text": "#4.6.3 幂的计算",
+            "href": "/taocp-zh/volume2/sec-4-6-3.html#_4-6-3-幂的计算"
+          },
+          {
+            "text": "#4.2.2 节",
+            "href": "/taocp-zh/volume2/answers/4-2-2.html#_4-2-2-节"
+          },
+          {
+            "text": "#*3.3.3 理论检验",
+            "href": "/taocp-zh/volume2/sec-3-3-3.html#_3-3-3-理论检验"
+          },
+          {
+            "text": "#3.3.4 谱检验",
+            "href": "/taocp-zh/volume2/sec-3-3-4.html#_3-3-4-谱检验"
+          },
+          {
+            "text": "#*3.5 什么是随机序列？",
+            "href": "/taocp-zh/volume2/sec-3-5.html#_3-5-什么是随机序列"
+          },
+          {
+            "text": "#3.3.4 节",
+            "href": "/taocp-zh/volume2/answers/3-3-4.html#_3-3-4-节"
+          },
+          {
+            "text": "#1.2.3 和与积习题（第一组）",
+            "href": "/taocp-zh/volume1/sec-1-2-3.html#习题-第一组"
+          },
+          {
+            "text": "#5.3.4节",
+            "href": "/taocp-zh/volume3/answers/5-3-4.html#_5-3-4节"
+          },
+          {
+            "text": "#4.6.4 多项式求值习题",
+            "href": "/taocp-zh/volume2/sec-4-6-4.html#习题"
+          },
+          {
+            "text": "#4.5.4 节",
+            "href": "/taocp-zh/volume2/answers/4-5-4.html#_4-5-4-节"
+          },
+          {
+            "text": "#3.4.1 数值分布",
+            "href": "/taocp-zh/volume2/sec-3-4-1.html#_3-4-1-数值分布"
+          },
+          {
+            "text": "#3.3.2 经验检验",
+            "href": "/taocp-zh/volume2/sec-3-3-2.html#_3-3-2-经验检验"
+          }
+        ],
+        "passed": true,
+        "screenshotSha256": "599487902245b5b604eb36604503b43c97533896d40ec49605dda4335da06647"
+      },
+      {
+        "kind": "original-image-click-back",
+        "width": 1500,
+        "height": 576,
+        "returned": true,
+        "passed": true
+      },
+      {
+        "kind": "actual-http-archive",
+        "status": 200,
+        "bytes": 11591559,
+        "entries": 707,
+        "masterSha256": "ff100229d58ca6fafd4b938e81ec558098ad2a9a0c410701b2eeb74aeab0b814",
+        "passed": true
+      },
+      {
+        "kind": "existing-volume-route-regression",
+        "route": "/volume1/sec-1-2-6.html",
+        "theme": "paper",
+        "toc": "shown",
+        "font": "18px",
+        "maxWidth": "760px",
+        "documentWidth": 390,
+        "documentScrollWidth": 390,
+        "bodyBounds": {
+          "left": 24,
+          "right": 366,
+          "width": 342
+        },
+        "brand": "计算机程序设计艺术",
+        "passed": true
+      },
+      {
+        "kind": "existing-volume-route-regression",
+        "route": "/volume2/sec-4-2-2.html",
+        "theme": "paper",
+        "toc": "shown",
+        "font": "18px",
+        "maxWidth": "760px",
+        "documentWidth": 390,
+        "documentScrollWidth": 390,
+        "bodyBounds": {
+          "left": 24,
+          "right": 366,
+          "width": 342
+        },
+        "brand": "计算机程序设计艺术",
+        "passed": true
+      },
+      {
+        "kind": "preference-storage-fallback",
+        "mode": "invalid",
+        "theme": "paper",
+        "font": "18px",
+        "width": "760px",
+        "errors": [],
+        "passed": true
+      },
+      {
+        "kind": "preference-storage-fallback",
+        "mode": "blocked",
+        "theme": "paper",
+        "font": "18px",
+        "width": "760px",
+        "errors": [],
+        "passed": true
+      }
+    ],
+    "settledPreferenceAndChartCases": [
+      {
+        "kind": "max-font-min-width-theme-refresh",
+        "width": 960,
+        "theme": "light",
+        "toc": "hidden",
+        "font": "24px",
+        "maxWidth": "640px",
+        "pageWidth": 960,
+        "viewport": 960,
+        "bodyCenter": 480,
+        "background": "rgb(255, 255, 255)",
+        "brand": "计算机程序设计艺术",
+        "screenshotSha256": "6362daf7e8d21f011977081b0814847282130300fb6d5093665f4bf4f84b19f1",
+        "passed": true
+      },
+      {
+        "kind": "max-font-min-width-theme-refresh",
+        "width": 1280,
+        "theme": "dark",
+        "toc": "hidden",
+        "font": "24px",
+        "maxWidth": "640px",
+        "pageWidth": 1280,
+        "viewport": 1280,
+        "bodyCenter": 640,
+        "background": "rgb(32, 35, 33)",
+        "brand": "计算机程序设计艺术",
+        "screenshotSha256": "c9301304673ca9cd66d3815e8b790401144803570cb222cf9edfaaf9fc86e39b",
+        "passed": true
+      },
+      {
+        "kind": "max-font-min-width-theme-refresh",
+        "width": 1440,
+        "theme": "paper",
+        "toc": "hidden",
+        "font": "24px",
+        "maxWidth": "640px",
+        "pageWidth": 1440,
+        "viewport": 1440,
+        "bodyCenter": 720,
+        "background": "rgb(246, 241, 230)",
+        "brand": "计算机程序设计艺术",
+        "screenshotSha256": "5e183dfef9a3202c3a41ee93138ea12bb2a99d4b416ce9cdbf13bb527a601cd0",
+        "passed": true
+      },
+      {
+        "kind": "max-font-min-width-theme-refresh",
+        "width": 390,
+        "theme": "dark",
+        "toc": "shown",
+        "font": "24px",
+        "maxWidth": "640px",
+        "pageWidth": 390,
+        "viewport": 390,
+        "bodyCenter": 195,
+        "background": "rgb(32, 35, 33)",
+        "brand": "计算机程序设计艺术",
+        "screenshotSha256": "aa44a9bc4c328180e96de2d66cf778e235f150182ff6e635ff31da6f09d98ce9",
+        "passed": true
+      },
+      {
+        "kind": "production-chart-port",
+        "width": 1280,
+        "side": "left",
+        "clientWidth": 712,
+        "scrollWidth": 1500,
+        "scrollLeft": 0,
+        "screenshotSha256": "97ba7005f1f256be7aaf821e4df53aa5dba99aa040045ab9a627346b0778a196",
+        "passed": true
+      },
+      {
+        "kind": "production-chart-port",
+        "width": 1280,
+        "side": "right",
+        "clientWidth": 712,
+        "scrollWidth": 1500,
+        "scrollLeft": 788,
+        "screenshotSha256": "078209841803f0ad4d8c2ddda68918814be16080642a7f93ba1a3fca60872251",
+        "passed": true
+      },
+      {
+        "kind": "production-chart-port",
+        "width": 390,
+        "side": "left",
+        "clientWidth": 342,
+        "scrollWidth": 1500,
+        "scrollLeft": 0,
+        "screenshotSha256": "c7819225d3422fab8dcdd748b8d6d84bb3ec72e9576c4a55ceb4859c822b3a32",
+        "passed": true
+      },
+      {
+        "kind": "production-chart-port",
+        "width": 390,
+        "side": "right",
+        "clientWidth": 342,
+        "scrollWidth": 1500,
+        "scrollLeft": 1158,
+        "screenshotSha256": "5f59f5f0f305b0bf6365630a2748d8d44fcda530bb1da31ade15a8f43bc8fa4f",
+        "passed": true
+      }
+    ],
+    "settledMobileDrawer": {
+      "scope": "OnlyMobileDrawerAfterActualCSSTransitionFinished",
+      "masterSha256": "ff100229d58ca6fafd4b938e81ec558098ad2a9a0c410701b2eeb74aeab0b814",
+      "width": 390,
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 960
+      },
+      "before": "/taocp-zh/volume3/sec-5-4-2.html",
+      "navigated": "/taocp-zh/volume3/sec-5-4-3.html",
+      "screenshotSha256": "c403af0d75030dd10f874b417ea1903f4d08613e3741903300b075946b1c6e22",
+      "passed": true
+    },
+    "sourceRecordsSha256": {
+      "interactions": "aaf84f0f27a7df73c5655a21e2f006d47dc0aa0094bbb5f16d4546576d24cd95",
+      "visuals": "f9c9509da5d0f7cb53f1f0ecadaa02c23c0446c4539a97ac3790b1f7c6d24639",
+      "drawer": "4006c734c5dcb93f8907b25a6a7c0eea603104d85ce7d194ec114d8e8a0b4bec"
+    },
+    "qualification": "15passing main cases plus8settled preference/chart cases plus1post-animation drawer case. Historical early-animation rows remain unaccepted; no source result was relabeled."
+  },
+  "offline": {
+    "htmlSha256": "ec181d2009b64e54ca5c43c26c04c04938a5b0b9a81f9c165d38d3ae6a02e03e",
+    "sourceAndLayoutDerivationStatsSha256": "73f33d61d9d09a56c21223e1a36beea6efce5130b774452b6c85b2e37efc3a02",
+    "currentVisibleTextComparisonSha256": "cb2f10792b7563947a6ce5b209b1ed259818b7919a719b41883b2c2c786ff08c",
+    "allVisibleProseAndPunctuationEqualWhitespaceOnly": true,
+    "codeBlocks": 72,
+    "inlineCode": 426,
+    "allCodeStrictlyEqual": true,
+    "mathml": 24571,
+    "twoWidthTargetCases": [
+      {
+        "width": 1280,
+        "target": "sup-en-007",
+        "documentWidth": 1280,
+        "documentScrollWidth": 1280,
+        "actualMathML": 24571,
+        "visibleBrokenImages": [],
+        "katexErrors": 0,
+        "fontsStatus": "loading",
+        "screenshotSha256": "cb46fbc464333fec5b63ec70e1af7f62b50b3163d321baf5c73e4d385dbe3ee8"
+      },
+      {
+        "width": 1280,
+        "target": "pdf-055",
+        "documentWidth": 1280,
+        "documentScrollWidth": 1280,
+        "actualMathML": 24571,
+        "visibleBrokenImages": [],
+        "katexErrors": 0,
+        "fontsStatus": "loaded",
+        "screenshotSha256": "4610b236ccc42ef6e197ca124042c320987d9b80e1c8c7771db021f61709a1c1"
+      },
+      {
+        "width": 1280,
+        "target": "prog-5-2-3-H",
+        "documentWidth": 1280,
+        "documentScrollWidth": 1280,
+        "actualMathML": 24571,
+        "visibleBrokenImages": [],
+        "katexErrors": 0,
+        "fontsStatus": "loaded",
+        "screenshotSha256": "f5387477c2e27c29af755fc611f29fb83469c71520b04b9896fb90292989ed8c"
+      },
+      {
+        "width": 1280,
+        "target": "fig-chart-a",
+        "documentWidth": 1280,
+        "documentScrollWidth": 1280,
+        "actualMathML": 24571,
+        "visibleBrokenImages": [],
+        "katexErrors": 0,
+        "fontsStatus": "loaded",
+        "screenshotSha256": "7dc4edd1d5f01bfa0f017572b7c5968d7e7adb8ad697f9f8ecbe98f6b083f48b"
+      },
+      {
+        "width": 1280,
+        "target": "tab-6-4-1",
+        "documentWidth": 1280,
+        "documentScrollWidth": 1280,
+        "actualMathML": 24571,
+        "visibleBrokenImages": [],
+        "katexErrors": 0,
+        "fontsStatus": "loading",
+        "screenshotSha256": "27d4a0963db68867cc9721fa5487d4df97db4388ac04d52beb1991811c0150e0"
+      },
+      {
+        "width": 1280,
+        "target": "ans-6-3-30",
+        "documentWidth": 1280,
+        "documentScrollWidth": 1280,
+        "actualMathML": 24571,
+        "visibleBrokenImages": [],
+        "katexErrors": 0,
+        "fontsStatus": "loaded",
+        "screenshotSha256": "06a3fe12d417a827853b3a076ab9b0f4601a469c78297195de9b7747b46b1573"
+      },
+      {
+        "width": 1280,
+        "target": "sec-index",
+        "documentWidth": 1280,
+        "documentScrollWidth": 1280,
+        "actualMathML": 24571,
+        "visibleBrokenImages": [],
+        "katexErrors": 0,
+        "fontsStatus": "loaded",
+        "screenshotSha256": "77d59706bfc6bc8e8b9218e5cb1131ae92f913ace7db1e7f26f11555a8254602"
+      },
+      {
+        "width": 390,
+        "target": "sup-en-007",
+        "documentWidth": 390,
+        "documentScrollWidth": 390,
+        "actualMathML": 24571,
+        "visibleBrokenImages": [],
+        "katexErrors": 0,
+        "fontsStatus": "loaded",
+        "screenshotSha256": "e51bc72fca2541793d9e2a80457546abd320e743a879539d0af62ed53be44774"
+      },
+      {
+        "width": 390,
+        "target": "pdf-055",
+        "documentWidth": 390,
+        "documentScrollWidth": 390,
+        "actualMathML": 24571,
+        "visibleBrokenImages": [],
+        "katexErrors": 0,
+        "fontsStatus": "loaded",
+        "screenshotSha256": "eb9e97821e9a8cb1ba6f14e8f6794a5c5d8b3d2ac5841d1095de3eb94a2f314c"
+      },
+      {
+        "width": 390,
+        "target": "prog-5-2-3-H",
+        "documentWidth": 390,
+        "documentScrollWidth": 390,
+        "actualMathML": 24571,
+        "visibleBrokenImages": [],
+        "katexErrors": 0,
+        "fontsStatus": "loaded",
+        "screenshotSha256": "9a4e05cbfe4f0429c4fe6d18e641b8d9b269e80bcddba3bfc07ec93f406ae32d"
+      },
+      {
+        "width": 390,
+        "target": "fig-chart-a",
+        "documentWidth": 390,
+        "documentScrollWidth": 390,
+        "actualMathML": 24571,
+        "visibleBrokenImages": [],
+        "katexErrors": 0,
+        "fontsStatus": "loaded",
+        "screenshotSha256": "2dcf90e4cd7eb20d97b0fadc61a84bc7de57d72365c0dc472fdf7ff9262f2095"
+      },
+      {
+        "width": 390,
+        "target": "tab-6-4-1",
+        "documentWidth": 390,
+        "documentScrollWidth": 390,
+        "actualMathML": 24571,
+        "visibleBrokenImages": [],
+        "katexErrors": 0,
+        "fontsStatus": "loading",
+        "screenshotSha256": "3b41f7f7d6519e68d281faea9560a4c42598be38f354967b45dc7871798c9e73"
+      },
+      {
+        "width": 390,
+        "target": "ans-6-3-30",
+        "documentWidth": 390,
+        "documentScrollWidth": 390,
+        "actualMathML": 24571,
+        "visibleBrokenImages": [],
+        "katexErrors": 0,
+        "fontsStatus": "loaded",
+        "screenshotSha256": "6207d7468ae438680460f25776607d0da5f55095758ef6615ae3681dd41034f2"
+      },
+      {
+        "width": 390,
+        "target": "sec-index",
+        "documentWidth": 390,
+        "documentScrollWidth": 390,
+        "actualMathML": 24571,
+        "visibleBrokenImages": [],
+        "katexErrors": 0,
+        "fontsStatus": "loaded",
+        "screenshotSha256": "5900044d3ec8b3ba6f4bc67cf12d531ab015a40ac723af50efc03656d6b43c33"
+      }
+    ],
+    "chartEndAndOriginalClickCases": [
+      {
+        "width": 1280,
+        "kind": "whole-chart-port",
+        "side": "left",
+        "clientWidth": 728,
+        "scrollWidth": 1500,
+        "scrollLeft": 0,
+        "screenshotSha256": "b13e24b511e21f3f1c3c2c1b91d4039c8760f71b5fefc032e39270b11e6b4fbb"
+      },
+      {
+        "width": 1280,
+        "kind": "whole-chart-port",
+        "side": "right",
+        "clientWidth": 728,
+        "scrollWidth": 1500,
+        "scrollLeft": 772,
+        "screenshotSha256": "58edf31f80d285465766c97a8b7b8683eb728a3b45815e7ecceb25093322ff68"
+      },
+      {
+        "viewportWidth": 1280,
+        "kind": "original-image-click-and-back",
+        "src": "assets/volume3/figures/chart-a-tape-activity.jpeg",
+        "naturalWidth": 1500,
+        "naturalHeight": 576,
+        "returnedToOriginalURL": true
+      },
+      {
+        "width": 390,
+        "kind": "whole-chart-port",
+        "side": "left",
+        "clientWidth": 366,
+        "scrollWidth": 1500,
+        "scrollLeft": 0,
+        "screenshotSha256": "ab09b108bc2084cc6b30bb3356488809686c61fadf1c6b8620d1cb85376da4e7"
+      },
+      {
+        "width": 390,
+        "kind": "whole-chart-port",
+        "side": "right",
+        "clientWidth": 366,
+        "scrollWidth": 1500,
+        "scrollLeft": 1134,
+        "screenshotSha256": "e3763a89f5d583dc3c4d0ff8f5750f5cd2459d01f4d1bc7784c3828948992e9e"
+      },
+      {
+        "viewportWidth": 390,
+        "kind": "original-image-click-and-back",
+        "src": "assets/volume3/figures/chart-a-tape-activity.jpeg",
+        "naturalWidth": 1500,
+        "naturalHeight": 576,
+        "returnedToOriginalURL": true
+      }
+    ],
+    "visibilityMethod": "Actual painted visibility includes Chrome content-visibility:auto state, plus viewport rectangle; skipped image placeholders are not falsely called broken.",
+    "sourceRecordSha256": "80b3ee108c6382c0f8a461c68f45bc9471497d28999dc439eeb23fbec33fdc10"
+  },
+  "longMathAndProgramEnds": {
+    "cases": 24,
+    "acceptedCases": [
+      {
+        "kind": "production",
+        "width": 1280,
+        "object": "equation49",
+        "side": "left",
+        "clientWidth": 712,
+        "scrollWidth": 712,
+        "scrollLeft": 0,
+        "viewportWidth": 1280,
+        "pageWidth": 1280,
+        "left": 304,
+        "right": 1016,
+        "screenshotSha256": "97bb529247e8781cf23380562deb975f1a13e0e750340692d6b532c524d91d89",
+        "passed": true
+      },
+      {
+        "kind": "production",
+        "width": 1280,
+        "object": "equation49",
+        "side": "right",
+        "clientWidth": 712,
+        "scrollWidth": 712,
+        "scrollLeft": 0,
+        "viewportWidth": 1280,
+        "pageWidth": 1280,
+        "left": 304,
+        "right": 1016,
+        "screenshotSha256": "97bb529247e8781cf23380562deb975f1a13e0e750340692d6b532c524d91d89",
+        "passed": true
+      },
+      {
+        "kind": "production",
+        "width": 1280,
+        "object": "programH",
+        "side": "left",
+        "clientWidth": 712,
+        "scrollWidth": 712,
+        "scrollLeft": 0,
+        "viewportWidth": 1280,
+        "pageWidth": 1280,
+        "left": 304,
+        "right": 1016,
+        "screenshotSha256": "ec4ab43f4c7a0007e672f22f8ddfe8510506e93bc69a9168938f213a2364e499",
+        "passed": true
+      },
+      {
+        "kind": "production",
+        "width": 1280,
+        "object": "programH",
+        "side": "right",
+        "clientWidth": 712,
+        "scrollWidth": 712,
+        "scrollLeft": 0,
+        "viewportWidth": 1280,
+        "pageWidth": 1280,
+        "left": 304,
+        "right": 1016,
+        "screenshotSha256": "ec4ab43f4c7a0007e672f22f8ddfe8510506e93bc69a9168938f213a2364e499",
+        "passed": true
+      },
+      {
+        "kind": "production",
+        "width": 1280,
+        "object": "trace31",
+        "side": "left",
+        "clientWidth": 712,
+        "scrollWidth": 2259,
+        "scrollLeft": 0,
+        "viewportWidth": 1280,
+        "pageWidth": 1280,
+        "left": 304,
+        "right": 1016,
+        "screenshotSha256": "e1dc7e52894d5ee361d934b5d7cab0493f83d8009489c289fbc7a506b4f960eb",
+        "passed": true
+      },
+      {
+        "kind": "production",
+        "width": 1280,
+        "object": "trace31",
+        "side": "right",
+        "clientWidth": 712,
+        "scrollWidth": 2259,
+        "scrollLeft": 1547,
+        "viewportWidth": 1280,
+        "pageWidth": 1280,
+        "left": 304,
+        "right": 1016,
+        "screenshotSha256": "512cf5355205c8ae2540810676fdaafdac46f440818e12be8893a18e1fd48158",
+        "passed": true
+      },
+      {
+        "kind": "production",
+        "width": 390,
+        "object": "equation49",
+        "side": "left",
+        "clientWidth": 342,
+        "scrollWidth": 700,
+        "scrollLeft": 0,
+        "viewportWidth": 390,
+        "pageWidth": 390,
+        "left": 24,
+        "right": 366,
+        "screenshotSha256": "72b9f923753c7595f6ddc8b63e31ba4d2ef597a14e99666aa786fd93c7e0136c",
+        "passed": true
+      },
+      {
+        "kind": "production",
+        "width": 390,
+        "object": "equation49",
+        "side": "right",
+        "clientWidth": 342,
+        "scrollWidth": 700,
+        "scrollLeft": 358,
+        "viewportWidth": 390,
+        "pageWidth": 390,
+        "left": 24,
+        "right": 366,
+        "screenshotSha256": "f3cc7972e839edef77800e3d58336df190770d0e8a1df81465859de1d0af8610",
+        "passed": true
+      },
+      {
+        "kind": "production",
+        "width": 390,
+        "object": "programH",
+        "side": "left",
+        "clientWidth": 390,
+        "scrollWidth": 659,
+        "scrollLeft": 0,
+        "viewportWidth": 390,
+        "pageWidth": 390,
+        "left": 0,
+        "right": 390,
+        "screenshotSha256": "1c26492695269ff39c87a0ab5c321c6ac8fde3d89c41caf2a9d4ffb16314961b",
+        "passed": true
+      },
+      {
+        "kind": "production",
+        "width": 390,
+        "object": "programH",
+        "side": "right",
+        "clientWidth": 390,
+        "scrollWidth": 659,
+        "scrollLeft": 269,
+        "viewportWidth": 390,
+        "pageWidth": 390,
+        "left": 0,
+        "right": 390,
+        "screenshotSha256": "0447a32e0cbf4993a90ae31aaa64d9f176511c3a0480f77d4d76df33b8c9440e",
+        "passed": true
+      },
+      {
+        "kind": "production",
+        "width": 390,
+        "object": "trace31",
+        "side": "left",
+        "clientWidth": 390,
+        "scrollWidth": 2259,
+        "scrollLeft": 0,
+        "viewportWidth": 390,
+        "pageWidth": 390,
+        "left": 0,
+        "right": 390,
+        "screenshotSha256": "8432b7943eabf4016479970c403cdb62dec1343769c9e5f1c0f42dec9c113869",
+        "passed": true
+      },
+      {
+        "kind": "production",
+        "width": 390,
+        "object": "trace31",
+        "side": "right",
+        "clientWidth": 390,
+        "scrollWidth": 2259,
+        "scrollLeft": 1869,
+        "viewportWidth": 390,
+        "pageWidth": 390,
+        "left": 0,
+        "right": 390,
+        "screenshotSha256": "2bc8f155242bcf3594bb70eb244a16eb1be0ec506db98231cfb546c47381d4ed",
+        "passed": true
+      },
+      {
+        "kind": "offline",
+        "width": 1280,
+        "object": "trace31",
+        "side": "left",
+        "clientWidth": 728,
+        "scrollWidth": 2040,
+        "scrollLeft": 0,
+        "viewportWidth": 1280,
+        "pageWidth": 1280,
+        "left": 276,
+        "right": 1004,
+        "screenshotSha256": "6214222fe519a974005100b22ee07e79a631ae1f68ec180435c8848e9177aab4",
+        "passed": true
+      },
+      {
+        "kind": "offline",
+        "width": 1280,
+        "object": "trace31",
+        "side": "right",
+        "clientWidth": 728,
+        "scrollWidth": 2040,
+        "scrollLeft": 1312,
+        "viewportWidth": 1280,
+        "pageWidth": 1280,
+        "left": 276,
+        "right": 1004,
+        "screenshotSha256": "02e500e39270827a524688ada71cdc5fd2bc7391c9f0223f1583578aff08e069",
+        "passed": true
+      },
+      {
+        "kind": "offline",
+        "width": 390,
+        "object": "trace31",
+        "side": "left",
+        "clientWidth": 366,
+        "scrollWidth": 2040,
+        "scrollLeft": 0,
+        "viewportWidth": 390,
+        "pageWidth": 390,
+        "left": 12,
+        "right": 378,
+        "screenshotSha256": "12aa59445e179bba332b75cbd5d8cdc6a8dc5cb491b516336031c900fa1106ce",
+        "passed": true
+      },
+      {
+        "kind": "offline",
+        "width": 390,
+        "object": "trace31",
+        "side": "right",
+        "clientWidth": 366,
+        "scrollWidth": 2040,
+        "scrollLeft": 1674,
+        "viewportWidth": 390,
+        "pageWidth": 390,
+        "left": 12,
+        "right": 378,
+        "screenshotSha256": "744afb9bd07bcec33150e5acb3b60026f2064271cbf7fad8eea9f4849230f89e",
+        "passed": true
+      },
+      {
+        "kind": "offline",
+        "width": 1280,
+        "object": "equation49",
+        "side": "left",
+        "clientWidth": 728,
+        "scrollWidth": 728,
+        "scrollLeft": 0,
+        "viewportWidth": 1280,
+        "pageWidth": 1280,
+        "left": 276,
+        "right": 1004,
+        "screenshotSha256": "583b3b471cd856b910681a00ef0a43f63c6541db51506a914117770f147f9837",
+        "passed": true
+      },
+      {
+        "kind": "offline",
+        "width": 1280,
+        "object": "equation49",
+        "side": "right",
+        "clientWidth": 728,
+        "scrollWidth": 728,
+        "scrollLeft": 0,
+        "viewportWidth": 1280,
+        "pageWidth": 1280,
+        "left": 276,
+        "right": 1004,
+        "screenshotSha256": "583b3b471cd856b910681a00ef0a43f63c6541db51506a914117770f147f9837",
+        "passed": true
+      },
+      {
+        "kind": "offline",
+        "width": 1280,
+        "object": "programH",
+        "side": "left",
+        "clientWidth": 728,
+        "scrollWidth": 728,
+        "scrollLeft": 0,
+        "viewportWidth": 1280,
+        "pageWidth": 1280,
+        "left": 276,
+        "right": 1004,
+        "screenshotSha256": "6e8ba4e2278ae0fdaf753b8636960deebc490911ba05a63bcaecfc3c40a12e89",
+        "passed": true
+      },
+      {
+        "kind": "offline",
+        "width": 1280,
+        "object": "programH",
+        "side": "right",
+        "clientWidth": 728,
+        "scrollWidth": 728,
+        "scrollLeft": 0,
+        "viewportWidth": 1280,
+        "pageWidth": 1280,
+        "left": 276,
+        "right": 1004,
+        "screenshotSha256": "6e8ba4e2278ae0fdaf753b8636960deebc490911ba05a63bcaecfc3c40a12e89",
+        "passed": true
+      },
+      {
+        "kind": "offline",
+        "width": 390,
+        "object": "equation49",
+        "side": "left",
+        "clientWidth": 366,
+        "scrollWidth": 622,
+        "scrollLeft": 0,
+        "viewportWidth": 390,
+        "pageWidth": 390,
+        "left": 12,
+        "right": 378,
+        "screenshotSha256": "39b7fbda07112b01fe7fb30c4c85ec5fb0f643843dc56c73eae2a98df8cb930b",
+        "passed": true
+      },
+      {
+        "kind": "offline",
+        "width": 390,
+        "object": "equation49",
+        "side": "right",
+        "clientWidth": 366,
+        "scrollWidth": 622,
+        "scrollLeft": 256,
+        "viewportWidth": 390,
+        "pageWidth": 390,
+        "left": 12,
+        "right": 378,
+        "screenshotSha256": "d53482cb833e4163187df6b1654e60c8a905acf396f17efb6a6623eb9ec98438",
+        "passed": true
+      },
+      {
+        "kind": "offline",
+        "width": 390,
+        "object": "programH",
+        "side": "left",
+        "clientWidth": 366,
+        "scrollWidth": 592,
+        "scrollLeft": 0,
+        "viewportWidth": 390,
+        "pageWidth": 390,
+        "left": 12,
+        "right": 378,
+        "screenshotSha256": "f9ab64d1f01afd5669bdd10fc8104b92c8ebf8691dc27a2bea4c9c6d9bda3713",
+        "passed": true
+      },
+      {
+        "kind": "offline",
+        "width": 390,
+        "object": "programH",
+        "side": "right",
+        "clientWidth": 366,
+        "scrollWidth": 592,
+        "scrollLeft": 226,
+        "viewportWidth": 390,
+        "pageWidth": 390,
+        "left": 12,
+        "right": 378,
+        "screenshotSha256": "0c3d71156d3f710f12ffc339a248b7da77ec51151b0bb307ebd05e6bac2a73b6",
+        "passed": true
+      }
+    ],
+    "rejectedHistoricalOfflinePictures": 8,
+    "qualification": "Eight earlier skipped-section pictures actually showed index pixels and were rejected by model review, then replaced by fragment-activated, painted-visibility captures. This is a new record, not a hash replacement."
+  },
+  "imageLayout": {
+    "actualAlreadyLoadedSizeCases": 8,
+    "actualImageInstances": 68,
+    "allLoadedSizesPreserved": true,
+    "independentRasterHeaderAndOrientation": {
+      "scope": "IndependentPillowActualRasterHeaderAndOrientationCheck",
+      "inputSha256": "c83df821256885a1a07b0d63ce6276005bc797cbe170778a5066e8120c840491",
+      "actualRasterAssets": 89,
+      "allDimensionsMatch": true,
+      "allOrientationUnrotated": true
+    },
+    "sourceDimensionInventorySha256": "c83df821256885a1a07b0d63ce6276005bc797cbe170778a5066e8120c840491",
+    "publishedImageAssetsParsed": 613,
+    "cacheRefreshSameLengthEditedSVGActuallyVerified": true,
+    "coldIndexExample": {
+      "anchor": "p-374",
+      "beforeDesktopTop": 916.28125,
+      "afterStableTopByWidth": {
+        "1280": [
+          133.578125,
+          133.578125,
+          133.578125,
+          133.578125
+        ],
+        "390": [
+          134.03125,
+          134.03125,
+          134.03125,
+          134.03125
+        ]
+      },
+      "sampleDelaysMilliseconds": [
+        0,
+        100,
+        1000,
+        3000
+      ],
+      "bothTargetParagraphScreensViewed": true
+    }
+  },
+  "rawEvidenceSha256": {
+    "pages": "4a08eb36a228284484724dc2c1b922c20d78eca3118f073a52f276acab8968b3",
+    "interactions": "aaf84f0f27a7df73c5655a21e2f006d47dc0aa0094bbb5f16d4546576d24cd95",
+    "drawer": "4006c734c5dcb93f8907b25a6a7c0eea603104d85ce7d194ec114d8e8a0b4bec",
+    "visuals": "f9c9509da5d0f7cb53f1f0ecadaa02c23c0446c4539a97ac3790b1f7c6d24639",
+    "offline": "80b3ee108c6382c0f8a461c68f45bc9471497d28999dc439eeb23fbec33fdc10",
+    "oldEnds": "6ad1f33fee74dfdfe98ffcfc297194f3a6a209f501281b2f3bd1b316708a8893",
+    "newEnds": "790d10e1c5fa3094a397fd8353d06714ff0aa41de9fa1ed8275cb20bc624f3b6",
+    "imageGeometry": "6cdfb2b763051d1f3c453d0218de608062a4c3120acfebb8ffc1075d54dc3b19",
+    "indexBefore": "50537c9089754cd3ce03e9f84ca2f5a854b40b0616c0a4173f3acadf8bd9d186",
+    "indexAfter": "ea016b273967166f7c14a92e698a548684752c1220d0faf3fd9cb9449ef4cd54"
+  },
+  "pixelReviewCompleted": true,
+  "publicationAndActualOnlineArchiveStillPending": true
+}

@@ -1,0 +1,361 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1660" height="820" viewBox="0 0 1660 820" role="img" aria-labelledby="title desc">
+<title id="title">一种KWIC索引应用的最优二叉查找树</title>
+<desc id="desc">内部小圆下方竖排索引词，上方竖排出现频率；外部方结点表示词间区间，其下为频率。被抑制的频率依原图省略。</desc>
+<rect width="1660" height="820" fill="white"/>
+<g stroke="#222" stroke-width="1.6" fill="none">
+<path d="M126.0 540Q104 540 104 630"/>
+<path d="M126.0 540Q148 540 148 630"/>
+<path d="M93.0 450Q60 450 60 540"/>
+<path d="M93.0 450Q126.0 450 126.0 540"/>
+<path d="M214.0 540Q192 540 192 630"/>
+<path d="M214.0 540Q236 540 236 630"/>
+<path d="M346.0 630Q324 630 324 720"/>
+<path d="M346.0 630Q368 630 368 720"/>
+<path d="M313.0 540Q280 540 280 630"/>
+<path d="M313.0 540Q346.0 540 346.0 630"/>
+<path d="M263.5 450Q214.0 450 214.0 540"/>
+<path d="M263.5 450Q313.0 450 313.0 540"/>
+<path d="M178.25 360Q93.0 360 93.0 450"/>
+<path d="M178.25 360Q263.5 360 263.5 450"/>
+<path d="M478.0 450Q456 450 456 540"/>
+<path d="M478.0 450Q500 450 500 540"/>
+<path d="M445.0 360Q412 360 412 450"/>
+<path d="M445.0 360Q478.0 360 478.0 450"/>
+<path d="M311.625 270Q178.25 270 178.25 360"/>
+<path d="M311.625 270Q445.0 270 445.0 360"/>
+<path d="M566.0 450Q544 450 544 540"/>
+<path d="M566.0 450Q588 450 588 540"/>
+<path d="M599.0 360Q566.0 360 566.0 450"/>
+<path d="M599.0 360Q632 360 632 450"/>
+<path d="M742.0 540Q720 540 720 630"/>
+<path d="M742.0 540Q764 540 764 630"/>
+<path d="M830.0 630Q808 630 808 720"/>
+<path d="M830.0 630Q852 630 852 720"/>
+<path d="M918.0 630Q896 630 896 720"/>
+<path d="M918.0 630Q940 630 940 720"/>
+<path d="M874.0 540Q830.0 540 830.0 630"/>
+<path d="M874.0 540Q918.0 540 918.0 630"/>
+<path d="M808.0 450Q742.0 450 742.0 540"/>
+<path d="M808.0 450Q874.0 450 874.0 540"/>
+<path d="M742.0 360Q676 360 676 450"/>
+<path d="M742.0 360Q808.0 360 808.0 450"/>
+<path d="M670.5 270Q599.0 270 599.0 360"/>
+<path d="M670.5 270Q742.0 270 742.0 360"/>
+<path d="M491.0625 180Q311.625 180 311.625 270"/>
+<path d="M491.0625 180Q670.5 180 670.5 270"/>
+<path d="M1094.0 540Q1072 540 1072 630"/>
+<path d="M1094.0 540Q1116 540 1116 630"/>
+<path d="M1061.0 450Q1028 450 1028 540"/>
+<path d="M1061.0 450Q1094.0 450 1094.0 540"/>
+<path d="M1022.5 360Q984 360 984 450"/>
+<path d="M1022.5 360Q1061.0 360 1061.0 450"/>
+<path d="M1091.25 270Q1022.5 270 1022.5 360"/>
+<path d="M1091.25 270Q1160 270 1160 360"/>
+<path d="M1226.0 540Q1204 540 1204 630"/>
+<path d="M1226.0 540Q1248 540 1248 630"/>
+<path d="M1259.0 450Q1226.0 450 1226.0 540"/>
+<path d="M1259.0 450Q1292 450 1292 540"/>
+<path d="M1297.5 360Q1259.0 360 1259.0 450"/>
+<path d="M1297.5 360Q1336 360 1336 450"/>
+<path d="M1402.0 540Q1380 540 1380 630"/>
+<path d="M1402.0 540Q1424 540 1424 630"/>
+<path d="M1435.0 450Q1402.0 450 1402.0 540"/>
+<path d="M1435.0 450Q1468 450 1468 540"/>
+<path d="M1534.0 540Q1512 540 1512 630"/>
+<path d="M1534.0 540Q1556 540 1556 630"/>
+<path d="M1567.0 450Q1534.0 450 1534.0 540"/>
+<path d="M1567.0 450Q1600 450 1600 540"/>
+<path d="M1501.0 360Q1435.0 360 1435.0 450"/>
+<path d="M1501.0 360Q1567.0 360 1567.0 450"/>
+<path d="M1399.25 270Q1297.5 270 1297.5 360"/>
+<path d="M1399.25 270Q1501.0 270 1501.0 360"/>
+<path d="M1245.25 180Q1091.25 180 1091.25 270"/>
+<path d="M1245.25 180Q1399.25 180 1399.25 270"/>
+<path d="M868.15625 90Q491.0625 90 491.0625 180"/>
+<path d="M868.15625 90Q1245.25 90 1245.25 180"/>
+</g><g fill="white" stroke="#222" stroke-width="1.6">
+<rect x="53" y="533" width="14" height="14"/>
+<rect x="97" y="623" width="14" height="14"/>
+<rect x="141" y="623" width="14" height="14"/>
+<circle cx="126.0" cy="540" r="7"/>
+<circle cx="93.0" cy="450" r="7"/>
+<rect x="185" y="623" width="14" height="14"/>
+<rect x="229" y="623" width="14" height="14"/>
+<circle cx="214.0" cy="540" r="7"/>
+<rect x="273" y="623" width="14" height="14"/>
+<rect x="317" y="713" width="14" height="14"/>
+<rect x="361" y="713" width="14" height="14"/>
+<circle cx="346.0" cy="630" r="7"/>
+<circle cx="313.0" cy="540" r="7"/>
+<circle cx="263.5" cy="450" r="7"/>
+<circle cx="178.25" cy="360" r="7"/>
+<rect x="405" y="443" width="14" height="14"/>
+<rect x="449" y="533" width="14" height="14"/>
+<rect x="493" y="533" width="14" height="14"/>
+<circle cx="478.0" cy="450" r="7"/>
+<circle cx="445.0" cy="360" r="7"/>
+<circle cx="311.625" cy="270" r="7"/>
+<rect x="537" y="533" width="14" height="14"/>
+<rect x="581" y="533" width="14" height="14"/>
+<circle cx="566.0" cy="450" r="7"/>
+<rect x="625" y="443" width="14" height="14"/>
+<circle cx="599.0" cy="360" r="7"/>
+<rect x="669" y="443" width="14" height="14"/>
+<rect x="713" y="623" width="14" height="14"/>
+<rect x="757" y="623" width="14" height="14"/>
+<circle cx="742.0" cy="540" r="7"/>
+<rect x="801" y="713" width="14" height="14"/>
+<rect x="845" y="713" width="14" height="14"/>
+<circle cx="830.0" cy="630" r="7"/>
+<rect x="889" y="713" width="14" height="14"/>
+<rect x="933" y="713" width="14" height="14"/>
+<circle cx="918.0" cy="630" r="7"/>
+<circle cx="874.0" cy="540" r="7"/>
+<circle cx="808.0" cy="450" r="7"/>
+<circle cx="742.0" cy="360" r="7"/>
+<circle cx="670.5" cy="270" r="7"/>
+<circle cx="491.0625" cy="180" r="7"/>
+<rect x="977" y="443" width="14" height="14"/>
+<rect x="1021" y="533" width="14" height="14"/>
+<rect x="1065" y="623" width="14" height="14"/>
+<rect x="1109" y="623" width="14" height="14"/>
+<circle cx="1094.0" cy="540" r="7"/>
+<circle cx="1061.0" cy="450" r="7"/>
+<circle cx="1022.5" cy="360" r="7"/>
+<rect x="1153" y="353" width="14" height="14"/>
+<circle cx="1091.25" cy="270" r="7"/>
+<rect x="1197" y="623" width="14" height="14"/>
+<rect x="1241" y="623" width="14" height="14"/>
+<circle cx="1226.0" cy="540" r="7"/>
+<rect x="1285" y="533" width="14" height="14"/>
+<circle cx="1259.0" cy="450" r="7"/>
+<rect x="1329" y="443" width="14" height="14"/>
+<circle cx="1297.5" cy="360" r="7"/>
+<rect x="1373" y="623" width="14" height="14"/>
+<rect x="1417" y="623" width="14" height="14"/>
+<circle cx="1402.0" cy="540" r="7"/>
+<rect x="1461" y="533" width="14" height="14"/>
+<circle cx="1435.0" cy="450" r="7"/>
+<rect x="1505" y="623" width="14" height="14"/>
+<rect x="1549" y="623" width="14" height="14"/>
+<circle cx="1534.0" cy="540" r="7"/>
+<rect x="1593" y="533" width="14" height="14"/>
+<circle cx="1567.0" cy="450" r="7"/>
+<circle cx="1501.0" cy="360" r="7"/>
+<circle cx="1399.25" cy="270" r="7"/>
+<circle cx="1245.25" cy="180" r="7"/>
+<circle cx="868.15625" cy="90" r="7"/>
+</g><g fill="#222" font-family="monospace" font-size="18">
+<rect x="50" y="558" width="20" height="14" fill="white"/>
+<text transform="translate(65 558) rotate(-90)" text-anchor="end">0</text>
+<rect x="94" y="648" width="20" height="25" fill="white"/>
+<text transform="translate(109 648) rotate(-90)" text-anchor="end">55</text>
+<rect x="138" y="648" width="20" height="25" fill="white"/>
+<text transform="translate(153 648) rotate(-90)" text-anchor="end">27</text>
+<rect x="116.0" y="552" width="20" height="25" fill="white"/>
+<text transform="translate(131.0 555) rotate(-90)" text-anchor="end">AN</text>
+<rect x="116.0" y="503" width="20" height="25" fill="white"/>
+<text transform="translate(131.0 525) rotate(-90)" text-anchor="start">35</text>
+<rect x="83.0" y="462" width="20" height="14" fill="white"/>
+<text transform="translate(98.0 465) rotate(-90)" text-anchor="end">A</text>
+<rect x="83.0" y="402" width="20" height="36" fill="white"/>
+<text transform="translate(98.0 435) rotate(-90)" text-anchor="start">142</text>
+<rect x="182" y="648" width="20" height="25" fill="white"/>
+<text transform="translate(197 648) rotate(-90)" text-anchor="end">36</text>
+<rect x="226" y="648" width="20" height="25" fill="white"/>
+<text transform="translate(241 648) rotate(-90)" text-anchor="end">85</text>
+<rect x="204.0" y="552" width="20" height="25" fill="white"/>
+<text transform="translate(219.0 555) rotate(-90)" text-anchor="end">AS</text>
+<rect x="204.0" y="514" width="20" height="14" fill="white"/>
+<text transform="translate(219.0 525) rotate(-90)" text-anchor="start">5</text>
+<rect x="270" y="648" width="20" height="25" fill="white"/>
+<text transform="translate(285 648) rotate(-90)" text-anchor="end">31</text>
+<rect x="314" y="738" width="20" height="25" fill="white"/>
+<text transform="translate(329 738) rotate(-90)" text-anchor="end">58</text>
+<rect x="358" y="738" width="20" height="14" fill="white"/>
+<text transform="translate(373 738) rotate(-90)" text-anchor="end">3</text>
+<rect x="336.0" y="642" width="20" height="124" fill="white"/>
+<text transform="translate(351.0 645) rotate(-90)" text-anchor="end">COMPUTATION</text>
+<rect x="336.0" y="593" width="20" height="25" fill="white"/>
+<text transform="translate(351.0 615) rotate(-90)" text-anchor="start">10</text>
+<rect x="303.0" y="552" width="20" height="80" fill="white"/>
+<text transform="translate(318.0 555) rotate(-90)" text-anchor="end">CERTAIN</text>
+<rect x="303.0" y="514" width="20" height="14" fill="white"/>
+<text transform="translate(318.0 525) rotate(-90)" text-anchor="start">5</text>
+<rect x="253.5" y="462" width="20" height="25" fill="white"/>
+<text transform="translate(268.5 465) rotate(-90)" text-anchor="end">BY</text>
+<rect x="253.5" y="413" width="20" height="25" fill="white"/>
+<text transform="translate(268.5 435) rotate(-90)" text-anchor="start">20</text>
+<rect x="168.25" y="372" width="20" height="36" fill="white"/>
+<text transform="translate(183.25 375) rotate(-90)" text-anchor="end">AND</text>
+<rect x="168.25" y="323" width="20" height="25" fill="white"/>
+<text transform="translate(183.25 345) rotate(-90)" text-anchor="start">58</text>
+<rect x="402" y="468" width="20" height="36" fill="white"/>
+<text transform="translate(417 468) rotate(-90)" text-anchor="end">334</text>
+<rect x="446" y="558" width="20" height="14" fill="white"/>
+<text transform="translate(461 558) rotate(-90)" text-anchor="end">0</text>
+<rect x="490" y="558" width="20" height="25" fill="white"/>
+<text transform="translate(505 558) rotate(-90)" text-anchor="end">98</text>
+<rect x="468.0" y="462" width="20" height="102" fill="white"/>
+<text transform="translate(483.0 465) rotate(-90)" text-anchor="end">EQUATIONS</text>
+<rect x="468.0" y="413" width="20" height="25" fill="white"/>
+<text transform="translate(483.0 435) rotate(-90)" text-anchor="start">23</text>
+<rect x="435.0" y="372" width="20" height="91" fill="white"/>
+<text transform="translate(450.0 375) rotate(-90)" text-anchor="end">EQUATION</text>
+<rect x="435.0" y="323" width="20" height="25" fill="white"/>
+<text transform="translate(450.0 345) rotate(-90)" text-anchor="start">15</text>
+<rect x="301.625" y="282" width="20" height="135" fill="white"/>
+<text transform="translate(316.625 285) rotate(-90)" text-anchor="end">COMPUTATIONS</text>
+<rect x="301.625" y="244" width="20" height="14" fill="white"/>
+<text transform="translate(316.625 255) rotate(-90)" text-anchor="start">9</text>
+<rect x="534" y="558" width="20" height="25" fill="white"/>
+<text transform="translate(549 558) rotate(-90)" text-anchor="end">27</text>
+<rect x="578" y="558" width="20" height="36" fill="white"/>
+<text transform="translate(593 558) rotate(-90)" text-anchor="end">113</text>
+<rect x="556.0" y="462" width="20" height="47" fill="white"/>
+<text transform="translate(571.0 465) rotate(-90)" text-anchor="end">FROM</text>
+<rect x="556.0" y="424" width="20" height="14" fill="white"/>
+<text transform="translate(571.0 435) rotate(-90)" text-anchor="start">4</text>
+<rect x="622" y="468" width="20" height="25" fill="white"/>
+<text transform="translate(637 468) rotate(-90)" text-anchor="end">89</text>
+<rect x="589.0" y="372" width="20" height="25" fill="white"/>
+<text transform="translate(604.0 375) rotate(-90)" text-anchor="end">IN</text>
+<rect x="589.0" y="323" width="20" height="25" fill="white"/>
+<text transform="translate(604.0 345) rotate(-90)" text-anchor="start">52</text>
+<rect x="666" y="468" width="20" height="36" fill="white"/>
+<text transform="translate(681 468) rotate(-90)" text-anchor="end">180</text>
+<rect x="710" y="648" width="20" height="14" fill="white"/>
+<text transform="translate(725 648) rotate(-90)" text-anchor="end">0</text>
+<rect x="754" y="648" width="20" height="25" fill="white"/>
+<text transform="translate(769 648) rotate(-90)" text-anchor="end">62</text>
+<rect x="732.0" y="552" width="20" height="80" fill="white"/>
+<text transform="translate(747.0 555) rotate(-90)" text-anchor="end">METHODS</text>
+<rect x="732.0" y="503" width="20" height="25" fill="white"/>
+<text transform="translate(747.0 525) rotate(-90)" text-anchor="start">18</text>
+<rect x="798" y="738" width="20" height="25" fill="white"/>
+<text transform="translate(813 738) rotate(-90)" text-anchor="end">12</text>
+<rect x="842" y="738" width="20" height="14" fill="white"/>
+<text transform="translate(857 738) rotate(-90)" text-anchor="end">0</text>
+<rect x="820.0" y="642" width="20" height="47" fill="white"/>
+<text transform="translate(835.0 645) rotate(-90)" text-anchor="end">NOTE</text>
+<rect x="820.0" y="604" width="20" height="14" fill="white"/>
+<text transform="translate(835.0 615) rotate(-90)" text-anchor="start">7</text>
+<rect x="886" y="738" width="20" height="25" fill="white"/>
+<text transform="translate(901 738) rotate(-90)" text-anchor="end">37</text>
+<rect x="930" y="738" width="20" height="14" fill="white"/>
+<text transform="translate(945 738) rotate(-90)" text-anchor="end">0</text>
+<rect x="908.0" y="642" width="20" height="102" fill="white"/>
+<text transform="translate(923.0 645) rotate(-90)" text-anchor="end">OBTAINING</text>
+<rect x="908.0" y="604" width="20" height="14" fill="white"/>
+<text transform="translate(923.0 615) rotate(-90)" text-anchor="start">4</text>
+<rect x="864.0" y="552" width="20" height="58" fill="white"/>
+<text transform="translate(879.0 555) rotate(-90)" text-anchor="end">NOTES</text>
+<rect x="864.0" y="514" width="20" height="14" fill="white"/>
+<text transform="translate(879.0 525) rotate(-90)" text-anchor="start">2</text>
+<rect x="798.0" y="462" width="20" height="36" fill="white"/>
+<text transform="translate(813.0 465) rotate(-90)" text-anchor="end">NEW</text>
+<rect x="798.0" y="424" width="20" height="14" fill="white"/>
+<text transform="translate(813.0 435) rotate(-90)" text-anchor="start">9</text>
+<rect x="732.0" y="372" width="20" height="69" fill="white"/>
+<text transform="translate(747.0 375) rotate(-90)" text-anchor="end">METHOD</text>
+<rect x="732.0" y="323" width="20" height="25" fill="white"/>
+<text transform="translate(747.0 345) rotate(-90)" text-anchor="start">38</text>
+<rect x="660.5" y="282" width="20" height="36" fill="white"/>
+<text transform="translate(675.5 285) rotate(-90)" text-anchor="end">ITS</text>
+<rect x="660.5" y="244" width="20" height="14" fill="white"/>
+<text transform="translate(675.5 255) rotate(-90)" text-anchor="start">5</text>
+<rect x="481.0625" y="192" width="20" height="36" fill="white"/>
+<text transform="translate(496.0625 195) rotate(-90)" text-anchor="end">FOR</text>
+<rect x="481.0625" y="132" width="20" height="36" fill="white"/>
+<text transform="translate(496.0625 165) rotate(-90)" text-anchor="start">129</text>
+<rect x="974" y="468" width="20" height="14" fill="white"/>
+<text transform="translate(989 468) rotate(-90)" text-anchor="end">3</text>
+<rect x="1018" y="558" width="20" height="25" fill="white"/>
+<text transform="translate(1033 558) rotate(-90)" text-anchor="end">64</text>
+<rect x="1062" y="648" width="20" height="25" fill="white"/>
+<text transform="translate(1077 648) rotate(-90)" text-anchor="end">70</text>
+<rect x="1106" y="648" width="20" height="14" fill="white"/>
+<text transform="translate(1121 648) rotate(-90)" text-anchor="end">0</text>
+<rect x="1084.0" y="552" width="20" height="80" fill="white"/>
+<text transform="translate(1099.0 555) rotate(-90)" text-anchor="end">PROBLEM</text>
+<rect x="1084.0" y="503" width="20" height="25" fill="white"/>
+<text transform="translate(1099.0 525) rotate(-90)" text-anchor="start">18</text>
+<rect x="1051.0" y="462" width="20" height="47" fill="white"/>
+<text transform="translate(1066.0 465) rotate(-90)" text-anchor="end">PART</text>
+<rect x="1051.0" y="424" width="20" height="14" fill="white"/>
+<text transform="translate(1066.0 435) rotate(-90)" text-anchor="start">5</text>
+<rect x="1012.5" y="372" width="20" height="25" fill="white"/>
+<text transform="translate(1027.5 375) rotate(-90)" text-anchor="end">ON</text>
+<rect x="1012.5" y="323" width="20" height="25" fill="white"/>
+<text transform="translate(1027.5 345) rotate(-90)" text-anchor="start">93</text>
+<rect x="1150" y="378" width="20" height="36" fill="white"/>
+<text transform="translate(1165 378) rotate(-90)" text-anchor="end">277</text>
+<rect x="1081.25" y="282" width="20" height="91" fill="white"/>
+<text transform="translate(1096.25 285) rotate(-90)" text-anchor="end">PROBLEMS</text>
+<rect x="1081.25" y="233" width="20" height="25" fill="white"/>
+<text transform="translate(1096.25 255) rotate(-90)" text-anchor="start">18</text>
+<rect x="1194" y="648" width="20" height="14" fill="white"/>
+<text transform="translate(1209 648) rotate(-90)" text-anchor="end">0</text>
+<rect x="1238" y="648" width="20" height="14" fill="white"/>
+<text transform="translate(1253 648) rotate(-90)" text-anchor="end">0</text>
+<rect x="1216.0" y="552" width="20" height="102" fill="white"/>
+<text transform="translate(1231.0 555) rotate(-90)" text-anchor="end">SOLUTIONS</text>
+<rect x="1216.0" y="514" width="20" height="14" fill="white"/>
+<text transform="translate(1231.0 525) rotate(-90)" text-anchor="start">5</text>
+<rect x="1282" y="558" width="20" height="14" fill="white"/>
+<text transform="translate(1297 558) rotate(-90)" text-anchor="end">0</text>
+<rect x="1249.0" y="462" width="20" height="58" fill="white"/>
+<text transform="translate(1264.0 465) rotate(-90)" text-anchor="end">SOLVE</text>
+<rect x="1249.0" y="413" width="20" height="25" fill="white"/>
+<text transform="translate(1264.0 435) rotate(-90)" text-anchor="start">10</text>
+<rect x="1326" y="468" width="20" height="36" fill="white"/>
+<text transform="translate(1341 468) rotate(-90)" text-anchor="end">170</text>
+<rect x="1287.5" y="372" width="20" height="47" fill="white"/>
+<text transform="translate(1302.5 375) rotate(-90)" text-anchor="end">SOME</text>
+<rect x="1287.5" y="323" width="20" height="25" fill="white"/>
+<text transform="translate(1302.5 345) rotate(-90)" text-anchor="start">11</text>
+<rect x="1370" y="648" width="20" height="14" fill="white"/>
+<text transform="translate(1385 648) rotate(-90)" text-anchor="end">0</text>
+<rect x="1414" y="648" width="20" height="25" fill="white"/>
+<text transform="translate(1429 648) rotate(-90)" text-anchor="end">18</text>
+<rect x="1392.0" y="552" width="20" height="58" fill="white"/>
+<text transform="translate(1407.0 555) rotate(-90)" text-anchor="end">THEIR</text>
+<rect x="1392.0" y="514" width="20" height="14" fill="white"/>
+<text transform="translate(1407.0 525) rotate(-90)" text-anchor="start">4</text>
+<rect x="1458" y="558" width="20" height="25" fill="white"/>
+<text transform="translate(1473 558) rotate(-90)" text-anchor="end">76</text>
+<rect x="1425.0" y="462" width="20" height="25" fill="white"/>
+<text transform="translate(1440.0 465) rotate(-90)" text-anchor="end">TO</text>
+<rect x="1425.0" y="413" width="20" height="25" fill="white"/>
+<text transform="translate(1440.0 435) rotate(-90)" text-anchor="start">32</text>
+<rect x="1502" y="648" width="20" height="25" fill="white"/>
+<text transform="translate(1517 648) rotate(-90)" text-anchor="end">27</text>
+<rect x="1546" y="648" width="20" height="14" fill="white"/>
+<text transform="translate(1561 648) rotate(-90)" text-anchor="end">3</text>
+<rect x="1524.0" y="552" width="20" height="58" fill="white"/>
+<text transform="translate(1539.0 555) rotate(-90)" text-anchor="end">WHICH</text>
+<rect x="1524.0" y="514" width="20" height="14" fill="white"/>
+<text transform="translate(1539.0 525) rotate(-90)" text-anchor="start">3</text>
+<rect x="1590" y="558" width="20" height="25" fill="white"/>
+<text transform="translate(1605 558) rotate(-90)" text-anchor="end">29</text>
+<rect x="1557.0" y="462" width="20" height="47" fill="white"/>
+<text transform="translate(1572.0 465) rotate(-90)" text-anchor="end">WITH</text>
+<rect x="1557.0" y="413" width="20" height="25" fill="white"/>
+<text transform="translate(1572.0 435) rotate(-90)" text-anchor="start">21</text>
+<rect x="1491.0" y="372" width="20" height="36" fill="white"/>
+<text transform="translate(1506.0 375) rotate(-90)" text-anchor="end">USE</text>
+<rect x="1491.0" y="323" width="20" height="25" fill="white"/>
+<text transform="translate(1506.0 345) rotate(-90)" text-anchor="start">21</text>
+<rect x="1389.25" y="282" width="20" height="36" fill="white"/>
+<text transform="translate(1404.25 285) rotate(-90)" text-anchor="end">THE</text>
+<rect x="1389.25" y="222" width="20" height="36" fill="white"/>
+<text transform="translate(1404.25 255) rotate(-90)" text-anchor="start">180</text>
+<rect x="1235.25" y="192" width="20" height="91" fill="white"/>
+<text transform="translate(1250.25 195) rotate(-90)" text-anchor="end">SOLUTION</text>
+<rect x="1235.25" y="143" width="20" height="25" fill="white"/>
+<text transform="translate(1250.25 165) rotate(-90)" text-anchor="start">27</text>
+<rect x="858.15625" y="102" width="20" height="25" fill="white"/>
+<text transform="translate(873.15625 105) rotate(-90)" text-anchor="end">OF</text>
+<rect x="858.15625" y="42" width="20" height="36" fill="white"/>
+<text transform="translate(873.15625 75) rotate(-90)" text-anchor="start">266</text>
+</g></svg>

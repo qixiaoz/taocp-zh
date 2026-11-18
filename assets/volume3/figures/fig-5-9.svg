@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="345" viewBox="0 0 1060 345" role="img" aria-labelledby="title desc"><title id="title">图9 算法D：分布计数</title><desc id="desc">D1清零，D2循环执行D3，D4累加，D5循环执行D6输出，最后终止。两循环都有j为0的出口。</desc><defs><marker id="a" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L8 4L1 7" fill="none" stroke="#222" stroke-width="1.5"/></marker></defs><rect width="1060" height="345" fill="#fff"/>
+<rect x="20" y="70" width="210" height="60" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="125.0" y="108.0" font-family="serif" font-size="21" text-anchor="middle">D1. COUNT清零</text>
+<rect x="330" y="70" width="185" height="60" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="422.5" y="108.0" font-family="serif" font-size="21" text-anchor="middle">D2. 对j循环</text>
+<rect x="665" y="70" width="280" height="60" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="805.0" y="108.0" font-family="serif" font-size="21" text-anchor="middle">D3. COUNT[Kⱼ]递增</text>
+<rect x="330" y="225" width="185" height="60" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="422.5" y="263.0" font-family="serif" font-size="21" text-anchor="middle">D4. 累加</text>
+<rect x="665" y="225" width="185" height="60" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="757.5" y="263.0" font-family="serif" font-size="21" text-anchor="middle">D5. 对j循环</text>
+<rect x="920" y="225" width="120" height="60" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="980.0" y="263.0" font-family="serif" font-size="21" text-anchor="middle">D6. 输出Rⱼ</text>
+<path d="M70,10 V67" fill="none" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<path d="M230,100 H327" fill="none" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<path d="M515,86 H662" fill="none" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<path d="M665,116 H518" fill="none" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="590" y="57" font-family="serif" font-size="21" text-anchor="middle">N ≥ j ≥ 1</text>
+<path d="M423,130 V222" fill="none" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="462" y="179" font-family="serif" font-size="21" text-anchor="middle">j = 0</text>
+<path d="M515,255 H662" fill="none" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<path d="M850,241 H917" fill="none" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="885" y="207" font-family="serif" font-size="20" text-anchor="middle">N ≥ j ≥ 1</text>
+<path d="M920,272 H853" fill="none" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<path d="M758,285 V333" fill="none" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="798" y="320" font-family="serif" font-size="21" text-anchor="middle">j = 0</text>
+</svg>

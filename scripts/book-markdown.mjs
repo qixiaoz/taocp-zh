@@ -1,5 +1,6 @@
 import { load } from 'cheerio';
 import katex from 'katex';
+import { reserveBookImageSpace } from './book-images.mjs';
 
 // These two source expressions contain nested Markdown delimiters. Their TeX
 // content is retained while the website gets one delimiter pair per expression.
@@ -26,6 +27,8 @@ export function normalizeMathSyntax(source) {
 }
 
 export function installBookMarkdown(md, { literalMath = false } = {}) {
+  const image = md.renderer.rules.image;
+  md.renderer.rules.image = (...args) => reserveBookImageSpace(image(...args));
   const inlineCode = md.renderer.rules.code_inline;
   md.renderer.rules.code_inline = (...args) => {
     const text = args[0][args[1]].content;
@@ -121,8 +124,8 @@ export function installBookMarkdown(md, { literalMath = false } = {}) {
   for (const type of ['html_block', 'html_inline']) {
     const previous = md.renderer.rules[type];
     md.renderer.rules[type] = (...args) => previous(...args).replace(
-      /<img\b[^>]*>/g,
-      tag => tag.replace('<img', `<img${/\bloading=/.test(tag) ? '' : ' loading="lazy"'}${/\bdecoding=/.test(tag) ? '' : ' decoding="async"'}`)
+      /<img\b(?:[^>"']|"[^"]*"|'[^']*')*>/g,
+      tag => reserveBookImageSpace(tag.replace('<img', `<img${/\bloading=/.test(tag) ? '' : ' loading="lazy"'}${/\bdecoding=/.test(tag) ? '' : ' decoding="async"'}`))
     );
   }
 }

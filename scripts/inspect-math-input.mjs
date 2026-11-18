@@ -10,12 +10,34 @@ import { selectVolumes } from './book-volumes.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const sha = value => createHash('sha256').update(value).digest('hex');
 
+export function sourceLinePages(source) {
+  let current = { source: null, cnPdfPage: null, enPdfPage: null };
+  return source.split('\n').map(line => {
+    // Source page anchors may follow a section anchor, or occur within prose.
+    // EN supplements must clear the last CN page instead of inheriting it.
+    // Retain the original first-anchor-per-line convention for collapsed CN
+    // anchors; this remains a line/block diagnostic, not exact token offsets.
+    const anchor = line.match(/<a\s+id=["'](pdf|sup-en)-(\d+)["']/);
+    if (anchor) {
+      const [, kind, page] = anchor;
+      current = kind === 'pdf'
+        ? { source: 'CN', cnPdfPage: Number(page), enPdfPage: null }
+        : { source: 'EN', cnPdfPage: null, enPdfPage: Number(page) };
+    }
+    return { ...current };
+  });
+}
+
 export function inspectTokens(tokens, linePages = []) {
   const formulas = [], unconsumed = [], rawHtml = [];
   function walk(list, inherited = [0, 0]) {
     for (const t of list) {
       const map = t.map ?? inherited;
-      const position = { sourceLine: map[0] + 1, cnPdfPage: linePages[map[0]] ?? null };
+      const page = linePages[map[0]];
+      // Keep the exported numeric-array API's original result shape.
+      const position = { sourceLine: map[0] + 1, ...(page && typeof page === 'object'
+        ? { source: page.source ?? null, cnPdfPage: page.cnPdfPage ?? null, enPdfPage: page.enPdfPage ?? null }
+        : { cnPdfPage: page ?? null }) };
       if (/^math_(?:inline|block)$/.test(t.type)) formulas.push({ ...position, display: t.type === 'math_block', tex: t.content, sha256: sha(t.content.trim()) });
       if (t.type === 'text' && /\$/.test(t.content)) unconsumed.push({ ...position, text: t.content, likelyUnparsedTex: /\$[^\n]*\\[A-Za-z]|\\[A-Za-z][^\n]*\$/.test(t.content) });
       if (t.type === 'html_block' && /\$/.test(t.content)) rawHtml.push({ ...position, text: t.content });
@@ -29,13 +51,7 @@ export function inspectTokens(tokens, linePages = []) {
 async function inspectVolume(volume) {
 const book = volume.book;
 const source = await fs.readFile(path.join(root, book), 'utf8');
-const pages = [];
-let currentPage = null;
-for (const line of source.split('\n')) {
-  const match = line.match(/<a id="pdf-(\d+)"/);
-  if (match) currentPage = Number(match[1]);
-  pages.push(currentPage);
-}
+const pages = sourceLinePages(source);
 const standard = await createMarkdownRenderer(root, { math: true });
 const baseline = inspectTokens(standard.parse(source, {}), pages);
 disposeMdItInstance();
@@ -63,6 +79,7 @@ disposeMdItInstance();
 return { ...result, volume: volume.id };
 }
 
+async function main() {
 const args = process.argv.slice(2);
 let volumeId = null, outputName = null;
 for (let i = 0; i < args.length; i++) {
@@ -92,3 +109,6 @@ for (const volume of selected) {
   console.log(JSON.stringify(summary, null, 2));
 }
 if (!volumeId && !outputName) await fs.writeFile(path.join(root, 'docs/.vitepress/math-input-audits.json'), JSON.stringify({ volumes: audits }, null, 2) + '\n');
+}
+
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) await main();

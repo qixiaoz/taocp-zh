@@ -1,0 +1,121 @@
+{
+  "volume": "volume3",
+  "physicalPages": [
+    87
+  ],
+  "stage": "source-compared-private-production-render",
+  "cases": 2,
+  "viewports": [
+    1280,
+    390
+  ],
+  "failures": 0,
+  "errors": 0,
+  "mathObservations": 106,
+  "horizontalPortsCheckedAtBothEnds": 2,
+  "rawBrowserEvidenceSha256": "c7a517d47331807920672752c25dd0334207f387eecb6e81bbd3d17a9ab4cee6",
+  "details": [
+    {
+      "bodyText": 2532,
+      "math": 53,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 0,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "removedShapeCells": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "stageGridCells": 0,
+      "stageBlankCells": 0,
+      "stageCurrentCells": 0,
+      "stageBoldStylePass": true,
+      "stageTables": [],
+      "probabilityFactors": 0,
+      "endpoints": [],
+      "page": 87,
+      "width": 1280,
+      "pageMarkdownSha256": "d785c32de8563de9505e3aea0aec1eeb6fab2d8fa15bb3928cb4dc2b5fd7bdd0",
+      "htmlSha256": "8c8622bfc5b63bd9d62c9ce5bcfd5010c6c8f42aa72b823db40ff8d8235fd1ff",
+      "passed": true
+    },
+    {
+      "bodyText": 2532,
+      "math": 53,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 0,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "removedShapeCells": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "stageGridCells": 0,
+      "stageBlankCells": 0,
+      "stageCurrentCells": 0,
+      "stageBoldStylePass": true,
+      "stageTables": [],
+      "probabilityFactors": 0,
+      "endpoints": [
+        {
+          "start": 0,
+          "end": 3,
+          "max": 3,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 274,
+          "max": 274,
+          "pass": true
+        }
+      ],
+      "page": 87,
+      "width": 390,
+      "pageMarkdownSha256": "d785c32de8563de9505e3aea0aec1eeb6fab2d8fa15bb3928cb4dc2b5fd7bdd0",
+      "htmlSha256": "8c8622bfc5b63bd9d62c9ce5bcfd5010c6c8f42aa72b823db40ff8d8235fd1ff",
+      "passed": true
+    }
+  ],
+  "directlyViewedScreens": [
+    {
+      "name": "87-1280-exchange-start.png",
+      "sha256": "e09785cc810f1e061e78856a2c7967015818383c50a5504c2d6a79e5386b9349"
+    },
+    {
+      "name": "87-390-exchange-start.png",
+      "sha256": "c59984afbaf2e3a4361159c7586339ccdf6bb2e6170bd3fb57ebd205a0de7500"
+    },
+    {
+      "name": "87-390-math13-left-crop.png",
+      "sha256": "80833050987a790a1c7da4bba2803cefcd713434dae94d536da11bb403a503e9"
+    },
+    {
+      "name": "87-390-math13-right-crop.png",
+      "sha256": "e8481c00e0e90d8e8087d7d296c5e1df6272badaaf52bc7f10a762bec8f3b68f"
+    },
+    {
+      "name": "87-390-math15-left-crop.png",
+      "sha256": "a8c1dc0f2794292e40c54442e617c4eac3dff15d59e3b00842acbaeca0f78ebd"
+    },
+    {
+      "name": "87-390-math15-right-crop.png",
+      "sha256": "f5a95f4b2735eaad82602843362ebceea953b07c79121f740b802858082d33e5"
+    }
+  ],
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false,
+  "qualification": "source scope由本批明确逐页记录，不从解析成功推断；只绑定已实际查看的原图/英文对应范围与私有单页渲染，不代表母稿、正式网站、人类签核或一般证明。"
+}

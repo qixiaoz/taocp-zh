@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume3",
+  "title": "计算机程序设计艺术 卷3 排序与查找",
+  "state": "source-inventory-and-samples-in-progress",
+  "publicationEnabled": false,
+  "sources": [
+    {
+      "language": "cn",
+      "label": "用户提供的中文扫描PDF",
+      "bytes": 137505759,
+      "sha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "physicalPages": 625,
+      "pagesWithExtractableText": 1,
+      "extractableTextCharacters": 859
+    },
+    {
+      "language": "en",
+      "label": "用户提供的英文重排PDF",
+      "bytes": 44779250,
+      "sha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "physicalPages": 1061,
+      "pagesWithExtractableText": 1046,
+      "extractableTextCharacters": 1756501
+    }
+  ],
+  "chineseEdition": {
+    "author": "Donald E. Knuth",
+    "translator": "贾洪峰",
+    "publisher": "人民邮电出版社",
+    "edition": "第2版",
+    "publication": "2017年1月第1版、第1次印刷",
+    "isbn": "978-7-115-36065-6",
+    "evidenceCnPdfPage": 4
+  },
+  "englishEdition": {
+    "edition": "Second Edition",
+    "copyrightYear": 1998,
+    "firstDigitalRelease": "June 2014",
+    "isbn13": "978-0-201-89685-5",
+    "pdfForm": "Calibre 3.6.0 将eBook重排为1061物理页；数学和程序常为嵌入图像；印刷页码不可由PDF页线性推定。",
+    "evidenceEnPdfPages": [
+      4,
+      5,
+      6
+    ]
+  },
+  "boundaries": [
+    {
+      "name": "目录",
+      "cnPdfStart": 5,
+      "cnPdfEnd": 6,
+      "cnPrintedStart": "viii",
+      "cnPrintedEnd": "ix"
+    },
+    {
+      "name": "第5章 排序",
+      "cnPdfStart": 7,
+      "cnPdfEnd": 311,
+      "cnPrintedStart": "1",
+      "cnPrintedEnd": "305",
+      "section": "5",
+      "enPdfStart": 17
+    },
+    {
+      "name": "第6章 查找",
+      "cnPdfStart": 312,
+      "cnPdfEnd": 461,
+      "cnPrintedStart": "306",
+      "cnPrintedEnd": "455",
+      "section": "6",
+      "enPdfStart": 502
+    },
+    {
+      "name": "习题答案",
+      "cnPdfStart": 462,
+      "cnPdfEnd": 596,
+      "cnPrintedStart": "456",
+      "cnPrintedEnd": "590",
+      "enPdfStart": 738
+    },
+    {
+      "name": "附录A 数值表",
+      "cnPdfStart": 597,
+      "cnPdfEnd": 600,
+      "cnPrintedStart": "591",
+      "cnPrintedEnd": "594",
+      "enPdfStart": 972
+    },
+    {
+      "name": "附录B 记号索引",
+      "cnPdfStart": 601,
+      "cnPdfEnd": 604,
+      "cnPrintedStart": "595",
+      "cnPrintedEnd": "598",
+      "enPdfStart": 977
+    },
+    {
+      "name": "附录C 算法和定理索引",
+      "cnPdfStart": 605,
+      "cnPdfEnd": 606,
+      "cnPrintedStart": "599",
+      "cnPrintedEnd": "600",
+      "enPdfStart": 985
+    },
+    {
+      "name": "人名索引",
+      "cnPdfStart": 607,
+      "cnPdfEnd": 614,
+      "cnPrintedStart": "601",
+      "cnPrintedEnd": "608"
+    },
+    {
+      "name": "索引",
+      "cnPdfStart": 615,
+      "cnPdfEnd": 624,
+      "cnPrintedStart": "609",
+      "cnPrintedEnd": "618",
+      "enPdfStart": 991,
+      "englishQualification": "英文为混合Index and Glossary，人名及主题条目不分为两段，不能按页直接对应。"
+    }
+  ],
+  "physicalPageCount": 625,
+  "readableContentPhysicalPages": 620,
+  "readableContentRange": {
+    "start": 5,
+    "end": 624
+  },
+  "packagingOmittedPhysicalPages": [
+    1,
+    2,
+    3,
+    4,
+    625
+  ],
+  "pageMap": {
+    "cnPdf5": "印刷viii",
+    "cnPdf6": "印刷ix",
+    "cnPdf7to624": "预期印刷1至618。已按目录与边界标题核实分区；逐页页眉/页脚读数仍待后续视觉复核。",
+    "englishMapping": "以节号、算法/图表/题号定位；无固定偏移。"
+  },
+  "sourceImageCheck": {
+    "physicalPagesExamined": 625,
+    "fullScanImagePages": 624,
+    "lowResolutionOrNoEmbeddedImagePages": [
+      625
+    ],
+    "lowResolutionQualification": "625为可提取文字的制档说明页，不是1×1空白书页。",
+    "nearConstantThumbnailPages": [],
+    "method": "逐页检查嵌入图尺寸，并以0.1倍灰度渲染的标准差<2寻找近常量页。此机器筛查不证明每页内容完整。"
+  },
+  "preservedQuestions": [
+    {
+      "kind": "missing-frontmatter-in-supplied-pdf",
+      "cnEvidence": [
+        4,
+        5,
+        6
+      ],
+      "description": "所附中文PDF物理004版权页后直接接005目录viii与006目录ix；未包含独立前言或习题说明。不能据此断定原书没有这些内容，也不能从罗马页码虚构缺页数量。",
+      "enCorrespondence": {
+        "preface": [
+          7,
+          8
+        ],
+        "prefaceToSecondEdition": [
+          8,
+          9
+        ],
+        "closingQuotation": [
+          10
+        ],
+        "notesOnExercises": [
+          11,
+          12,
+          13
+        ],
+        "exercisesAndQuotation": [
+          14
+        ]
+      },
+      "handling": "用户已明确批准用所附英文PDF007–014翻译补配前言和习题说明。译文另记sup-en-NNN锚点，不虚构中文原版分页。"
+    },
+    {
+      "kind": "title-page-edition-wording",
+      "cnEvidence": [
+        3,
+        4
+      ],
+      "description": "中文扉页主标题写“第2版”，英文副题小字却写“Third Edition”；版权、中文书名及所附英文书均对应卷3第二版。保留为底本排印差异，不擅改来源记录。"
+    }
+  ],
+  "limits": [
+    "清点不是全文校订完成声明。",
+    "未以OCR/数学解析成功代替原页对照。",
+    "三页样例的内容、字段和图结构已直接对照中英文原图；网站/离线渲染验收另记。"
+  ]
+}

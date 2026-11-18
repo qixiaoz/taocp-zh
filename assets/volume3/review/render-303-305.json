@@ -1,0 +1,653 @@
+{
+  "volume": "volume3",
+  "physicalPages": [
+    303,
+    304,
+    305
+  ],
+  "stage": "source-compared-private-production-render",
+  "cases": 6,
+  "viewports": [
+    1280,
+    390
+  ],
+  "failures": 0,
+  "errors": 0,
+  "mathObservations": 148,
+  "horizontalPortsCheckedAtBothEnds": 3,
+  "rawBrowserEvidenceSha256": "1d90bc2d9f11f57b41dec81a93b513fb01593eb475416d7f55afbf4242ced909",
+  "details": [
+    {
+      "bodyText": 1508,
+      "math": 10,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 1,
+      "footnoteItems": 1,
+      "tableDataCells": 0,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "removedShapeCells": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "stageGridCells": 0,
+      "stageBlankCells": 0,
+      "stageCurrentCells": 0,
+      "stageBoldStylePass": true,
+      "stageTables": [],
+      "probabilityFactors": 0,
+      "endpoints": [],
+      "page": 303,
+      "width": 1280,
+      "pageMarkdownSha256": "99c6126121a4ec56608edbdfbc74e5eb7781188c18b75ec18b8589edb3adf818",
+      "htmlSha256": "8912b5a23e3d17bd477426529605b8c1413bd2a3ea9087ab70338e4ccbc2d756",
+      "passed": true,
+      "originalFootnoteReached": true,
+      "originalFootnoteBack": true
+    },
+    {
+      "bodyText": 1668,
+      "math": 14,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 0,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "removedShapeCells": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "stageGridCells": 0,
+      "stageBlankCells": 0,
+      "stageCurrentCells": 0,
+      "stageBoldStylePass": true,
+      "stageTables": [],
+      "probabilityFactors": 0,
+      "endpoints": [],
+      "page": 304,
+      "width": 1280,
+      "pageMarkdownSha256": "0b32c703a08fe78d49611c8c4b666858320034f85f185ffed56845824f55b05b",
+      "htmlSha256": "b0d712cb86e540865d955c6c611a248ccd3c2fb6f3947431689e35163ffe926e",
+      "passed": true
+    },
+    {
+      "bodyText": 1946,
+      "math": 50,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 140,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "removedShapeCells": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "stageGridCells": 0,
+      "stageBlankCells": 0,
+      "stageCurrentCells": 0,
+      "stageBoldStylePass": true,
+      "stageTables": [],
+      "probabilityFactors": 0,
+      "endpoints": [
+        {
+          "start": 0,
+          "end": 553,
+          "max": 553,
+          "pass": true
+        }
+      ],
+      "page": 305,
+      "width": 1280,
+      "pageMarkdownSha256": "2c463eb9d8c80c679f6273db3faa0963c4556637e9633a7e5f25b87e319a581e",
+      "htmlSha256": "58aec3037c1d33b2a055c54b42f411d9d0359702bc10dd50f76940cf16b94558",
+      "passed": true,
+      "summaryRows": [
+        [
+          "比较计数",
+          "习题5.2–5",
+          "是",
+          "22",
+          "N(1+\\epsilon)",
+          "4N^2+10N",
+          "5.5N^2",
+          "1065",
+          "3992432",
+          "c"
+        ],
+        [
+          "分布计数",
+          "习题5.2–9",
+          "是",
+          "26",
+          "2N+1000\\epsilon",
+          "22N+10010",
+          "22N",
+          "10362",
+          "32010",
+          "a"
+        ],
+        [
+          "直接插入",
+          "习题5.2.1–33",
+          "是",
+          "10",
+          "N+1",
+          "1.5N^2+9.5N",
+          "3N^2",
+          "412",
+          "1491928",
+          ""
+        ],
+        [
+          "谢尔排序",
+          "程序5.2.1D",
+          "否",
+          "21",
+          "N+\\epsilon\\lg N",
+          "3.9N^{7/6}+10N\\lg N+166N",
+          "cN^{4/3}",
+          "567",
+          "128758",
+          "d, h"
+        ],
+        [
+          "列表插入",
+          "习题5.2.1–33",
+          "是",
+          "19",
+          "N(1+\\epsilon)",
+          "1.25N^2+13.25N",
+          "2.5N^2",
+          "433",
+          "1248615",
+          "b, c"
+        ],
+        [
+          "多列表插入",
+          "程序5.2.1M",
+          "否",
+          "18",
+          "N+\\epsilon(N+100)",
+          "0.0175N^2+18N",
+          "3.5N^2",
+          "645",
+          "35246",
+          "b, c, f, i"
+        ],
+        [
+          "合并交换",
+          "习题5.2.2–12",
+          "否",
+          "35",
+          "N",
+          "2.875N(\\lg N)^2",
+          "4N(\\lg N)^2",
+          "939",
+          "284366",
+          ""
+        ],
+        [
+          "快速排序",
+          "程序5.2.2Q",
+          "否",
+          "63",
+          "N+2\\epsilon\\lg N",
+          "11.67N\\ln N-1.74N",
+          "\\ge2N^2",
+          "470",
+          "81486",
+          ""
+        ],
+        [
+          "三项取中快速排序",
+          "习题5.2.2–55",
+          "否",
+          "100",
+          "N+2\\epsilon\\lg N",
+          "10.63N\\ln N+2.12N",
+          "\\ge N^2",
+          "487",
+          "74574",
+          "e"
+        ],
+        [
+          "基数交换",
+          "程序5.2.2R",
+          "否",
+          "45",
+          "N+68\\epsilon",
+          "14.43N\\ln N+23.9N",
+          "272N",
+          "1135",
+          "137614",
+          "g, i, j"
+        ],
+        [
+          "直接选择",
+          "程序5.2.3S",
+          "否",
+          "15",
+          "N",
+          "2.5N^2+3N\\ln N",
+          "3.25N^2",
+          "853",
+          "2525287",
+          "j"
+        ],
+        [
+          "堆排序",
+          "程序5.2.3H",
+          "否",
+          "30",
+          "N",
+          "23.08N\\ln N+0.01N",
+          "24.5N\\ln N",
+          "1068",
+          "159714",
+          "h, j"
+        ],
+        [
+          "列表合并",
+          "程序5.2.4L",
+          "是",
+          "44",
+          "N(1+\\epsilon)",
+          "14.43N\\ln N+4.92N",
+          "14.4N\\ln N",
+          "761",
+          "104716",
+          "b, c, j"
+        ],
+        [
+          "基数列表排序",
+          "程序5.2.5R",
+          "是",
+          "36",
+          "N+\\epsilon(N+200)",
+          "32N+4838",
+          "32N",
+          "4250",
+          "36838",
+          "b,c"
+        ]
+      ],
+      "summaryRowsMatch": true
+    },
+    {
+      "bodyText": 1508,
+      "math": 10,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 1,
+      "footnoteItems": 1,
+      "tableDataCells": 0,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "removedShapeCells": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "stageGridCells": 0,
+      "stageBlankCells": 0,
+      "stageCurrentCells": 0,
+      "stageBoldStylePass": true,
+      "stageTables": [],
+      "probabilityFactors": 0,
+      "endpoints": [],
+      "page": 303,
+      "width": 390,
+      "pageMarkdownSha256": "99c6126121a4ec56608edbdfbc74e5eb7781188c18b75ec18b8589edb3adf818",
+      "htmlSha256": "8912b5a23e3d17bd477426529605b8c1413bd2a3ea9087ab70338e4ccbc2d756",
+      "passed": true,
+      "originalFootnoteReached": true,
+      "originalFootnoteBack": true
+    },
+    {
+      "bodyText": 1668,
+      "math": 14,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 0,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "removedShapeCells": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "stageGridCells": 0,
+      "stageBlankCells": 0,
+      "stageCurrentCells": 0,
+      "stageBoldStylePass": true,
+      "stageTables": [],
+      "probabilityFactors": 0,
+      "endpoints": [
+        {
+          "start": 0,
+          "end": 292,
+          "max": 292,
+          "pass": true
+        }
+      ],
+      "page": 304,
+      "width": 390,
+      "pageMarkdownSha256": "0b32c703a08fe78d49611c8c4b666858320034f85f185ffed56845824f55b05b",
+      "htmlSha256": "b0d712cb86e540865d955c6c611a248ccd3c2fb6f3947431689e35163ffe926e",
+      "passed": true
+    },
+    {
+      "bodyText": 1946,
+      "math": 50,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 140,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "removedShapeCells": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "stageGridCells": 0,
+      "stageBlankCells": 0,
+      "stageCurrentCells": 0,
+      "stageBoldStylePass": true,
+      "stageTables": [],
+      "probabilityFactors": 0,
+      "endpoints": [
+        {
+          "start": 0,
+          "end": 947,
+          "max": 947,
+          "pass": true
+        }
+      ],
+      "page": 305,
+      "width": 390,
+      "pageMarkdownSha256": "2c463eb9d8c80c679f6273db3faa0963c4556637e9633a7e5f25b87e319a581e",
+      "htmlSha256": "58aec3037c1d33b2a055c54b42f411d9d0359702bc10dd50f76940cf16b94558",
+      "passed": true,
+      "summaryRows": [
+        [
+          "比较计数",
+          "习题5.2–5",
+          "是",
+          "22",
+          "N(1+\\epsilon)",
+          "4N^2+10N",
+          "5.5N^2",
+          "1065",
+          "3992432",
+          "c"
+        ],
+        [
+          "分布计数",
+          "习题5.2–9",
+          "是",
+          "26",
+          "2N+1000\\epsilon",
+          "22N+10010",
+          "22N",
+          "10362",
+          "32010",
+          "a"
+        ],
+        [
+          "直接插入",
+          "习题5.2.1–33",
+          "是",
+          "10",
+          "N+1",
+          "1.5N^2+9.5N",
+          "3N^2",
+          "412",
+          "1491928",
+          ""
+        ],
+        [
+          "谢尔排序",
+          "程序5.2.1D",
+          "否",
+          "21",
+          "N+\\epsilon\\lg N",
+          "3.9N^{7/6}+10N\\lg N+166N",
+          "cN^{4/3}",
+          "567",
+          "128758",
+          "d, h"
+        ],
+        [
+          "列表插入",
+          "习题5.2.1–33",
+          "是",
+          "19",
+          "N(1+\\epsilon)",
+          "1.25N^2+13.25N",
+          "2.5N^2",
+          "433",
+          "1248615",
+          "b, c"
+        ],
+        [
+          "多列表插入",
+          "程序5.2.1M",
+          "否",
+          "18",
+          "N+\\epsilon(N+100)",
+          "0.0175N^2+18N",
+          "3.5N^2",
+          "645",
+          "35246",
+          "b, c, f, i"
+        ],
+        [
+          "合并交换",
+          "习题5.2.2–12",
+          "否",
+          "35",
+          "N",
+          "2.875N(\\lg N)^2",
+          "4N(\\lg N)^2",
+          "939",
+          "284366",
+          ""
+        ],
+        [
+          "快速排序",
+          "程序5.2.2Q",
+          "否",
+          "63",
+          "N+2\\epsilon\\lg N",
+          "11.67N\\ln N-1.74N",
+          "\\ge2N^2",
+          "470",
+          "81486",
+          ""
+        ],
+        [
+          "三项取中快速排序",
+          "习题5.2.2–55",
+          "否",
+          "100",
+          "N+2\\epsilon\\lg N",
+          "10.63N\\ln N+2.12N",
+          "\\ge N^2",
+          "487",
+          "74574",
+          "e"
+        ],
+        [
+          "基数交换",
+          "程序5.2.2R",
+          "否",
+          "45",
+          "N+68\\epsilon",
+          "14.43N\\ln N+23.9N",
+          "272N",
+          "1135",
+          "137614",
+          "g, i, j"
+        ],
+        [
+          "直接选择",
+          "程序5.2.3S",
+          "否",
+          "15",
+          "N",
+          "2.5N^2+3N\\ln N",
+          "3.25N^2",
+          "853",
+          "2525287",
+          "j"
+        ],
+        [
+          "堆排序",
+          "程序5.2.3H",
+          "否",
+          "30",
+          "N",
+          "23.08N\\ln N+0.01N",
+          "24.5N\\ln N",
+          "1068",
+          "159714",
+          "h, j"
+        ],
+        [
+          "列表合并",
+          "程序5.2.4L",
+          "是",
+          "44",
+          "N(1+\\epsilon)",
+          "14.43N\\ln N+4.92N",
+          "14.4N\\ln N",
+          "761",
+          "104716",
+          "b, c, j"
+        ],
+        [
+          "基数列表排序",
+          "程序5.2.5R",
+          "是",
+          "36",
+          "N+\\epsilon(N+200)",
+          "32N+4838",
+          "32N",
+          "4250",
+          "36838",
+          "b,c"
+        ]
+      ],
+      "summaryRowsMatch": true
+    }
+  ],
+  "directlyViewedScreens": [
+    {
+      "name": "303-1280-original-footnote.png",
+      "sha256": "efc0772e9595363a6b9498b888a8f7b53c4703118f9d176975f5a2da0aa8fce0"
+    },
+    {
+      "name": "303-390-original-footnote.png",
+      "sha256": "ae3ef3616f6e9859d6350cfc13be8af50c5d361484f4f7c64ae46c0016570e6b"
+    },
+    {
+      "name": "303-390-footnote-return.png",
+      "sha256": "5d2d27ea9a2afd9a227421d904145cab7d8a16a81be07419ad615323aac808d9"
+    },
+    {
+      "name": "304-390-source-twoormore.png",
+      "sha256": "8feab227aa5a5c2fbc3da89918f106e02f8a5bdc98636cc192ee32dcb21f82aa"
+    },
+    {
+      "name": "305-1280-summary-table-top-pan0.png",
+      "sha256": "91d38ce04296429f054e6353a0976d039694ae1d6d37fb3e1f339b6b950d4412"
+    },
+    {
+      "name": "305-1280-summary-table-bottom-pan6.png",
+      "sha256": "d3a6f2a85d3c036b6539acf3b8d30ab318d4d26924eb2112cc41c9ed65460c6a"
+    },
+    {
+      "name": "305-390-summary-table-top-pan0.png",
+      "sha256": "a30be8da98370bbaebb2a1ddf3270620fb276ff1664532ede3da654e9222bd01"
+    },
+    {
+      "name": "305-390-summary-table-top-pan1.png",
+      "sha256": "42fea773280b50fd73ee3a006fef84d1904690967c18dd8563878a74d7d0a5d7"
+    },
+    {
+      "name": "305-390-summary-table-top-pan2.png",
+      "sha256": "ac6a6e2c3bf9a561b3277d0cabf22cecc024d8d4415ce018544bdd90d7c217c9"
+    },
+    {
+      "name": "305-390-summary-table-top-pan3.png",
+      "sha256": "09a7dca2be5d8e21fc81e8471f4d39f3b63c247238b86ef06d779ec32c3198ab"
+    },
+    {
+      "name": "305-390-summary-table-top-pan4.png",
+      "sha256": "5a334571cbd8d5cd687a28d01f590fd786e92ef96ab99f73213815d4dc571b87"
+    },
+    {
+      "name": "305-390-summary-table-top-pan5.png",
+      "sha256": "ae1aced78fe789ad7c05e27d35af1444d5fd777c8786deae1643bb183c47487a"
+    },
+    {
+      "name": "305-390-summary-table-top-pan6.png",
+      "sha256": "3aa0a191b1aa254642f6b2631e8649d8d72ac2c1e1d69620cc5db9ddb442cd52"
+    },
+    {
+      "name": "305-390-official-d-note.png",
+      "sha256": "16d35779ce935088db510cb2ea73ece56d78c945968252423b9fec6e4c2fde7e"
+    },
+    {
+      "name": "305-1280-official-d-note.png",
+      "sha256": "b5ff01a9433a720a9412cc1cd374827b68a6e2c7cbe449770e95347f3841f89b"
+    },
+    {
+      "name": "304-390-original1000-left.png",
+      "sha256": "77fb75f0864ac4a5dd8b76405da6c93c8c663ea6c3cb1f5dfa683672c79d0988"
+    },
+    {
+      "name": "304-390-original1000-middle.png",
+      "sha256": "195bad7204cdef4fb584f56066e14c39d11c1e5a4d99c47bce15d171e37bdbc6"
+    },
+    {
+      "name": "304-390-original1000-right.png",
+      "sha256": "91ec232b268ff7b9db967c56d32956ce6b4244d2a762b944e0d6956f0eccc7b1"
+    },
+    {
+      "name": "304-390-source-straightline.png",
+      "sha256": "abbb4ebb9c417cfe46ca39c10b74a98df08093a97f7ae9d631747911b777b454"
+    },
+    {
+      "name": "304-390-source-interesting.png",
+      "sha256": "3518c299c627b0f88cea7caa1682091b98903baa83aa2ac6097ece3eaf9e1509"
+    }
+  ],
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false,
+  "qualification": "source scope由本批明确逐页记录，不从解析成功推断；只绑定已实际查看的原图/英文对应范围与私有单页渲染，不代表母稿、正式网站、人类签核或一般证明。"
+}

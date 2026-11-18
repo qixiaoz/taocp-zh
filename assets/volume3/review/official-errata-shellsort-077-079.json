@@ -1,0 +1,117 @@
+{
+  "volume": "volume3",
+  "sourceType": "cached-author-errata-PS-and-original-TeX",
+  "cachedAuthorDocumentLastUpdated": "2026-06-09",
+  "authorOrigins": [
+    {
+      "volume": "volume3",
+      "file": "all3.ps.gz",
+      "url": "https://cs.stanford.edu/~knuth/all3.ps.gz",
+      "sha256": "c2b471800cd8143a6eca007f59577b8e63bdc898aad3fb30837978a42f5116a3",
+      "bytes": 92232,
+      "use": "Auxiliary author errata facts and exact positions; not replacement book source or executable TeX."
+    },
+    {
+      "volume": "volume3",
+      "file": "err3.textxt",
+      "url": "https://cs.stanford.edu/~knuth/err3.textxt",
+      "sha256": "1f91ba761727086e81681e5f8b747753cf786fe31911d6b9ce0b20e8a947a5cb",
+      "bytes": 30643,
+      "use": "Auxiliary author errata facts and exact positions; not replacement book source or executable TeX."
+    }
+  ],
+  "originalPsSha256": "6b0d52286388b4976662f9adf1aea43b1de0ed6156890f46d0f20d118235c7ff",
+  "readingPdfSha256": "f4d3b735b382f6acea9da9b86aa7b84ea6ba87026784f18478aee526ad18e1cf",
+  "actualDirectlyViewedAuthorPage": {
+    "pdfPhysicalPage": 3,
+    "printedPage": "3",
+    "imageSha256": "46e529701b6fd8ea02ea62a7cabd0d498fecaaf61c936caa8bbe88b30d5d3f47"
+  },
+  "originalTexLineRange": [
+    244,
+    262
+  ],
+  "privateExactExcerptSha256": "c37da77c259a17c58f7541217aabf20d559861c900b4804ff66ec94226aa04fa",
+  "appliedChanges": [
+    {
+      "id": "volume3-correction-014",
+      "authorDate": "2023-03-15",
+      "authorPrintedPage": "93",
+      "authorLocation": "表5，增量4 2 1",
+      "cnPdfPage": 77,
+      "cnPrintedPage": "71",
+      "providedEnPdfPage": 131,
+      "original": "274.42u",
+      "final": "274.41u",
+      "independentBasis": "Aave7/2，Bave874/105，总时间精确均值19209/70；直接四舍五入到两位为274.41。先把B舍入为8.324后再算会得到274.42，是不同的两次舍入口径。"
+    },
+    {
+      "id": "volume3-correction-015",
+      "authorDate": "2025-05-26",
+      "authorPrintedPage": "93",
+      "authorLocation": "倒数5、4行替换",
+      "cnPdfPage": 77,
+      "cnPrintedPage": "71",
+      "providedEnPdfPage": 133,
+      "original": "序列(11)已经由塞奇威克证明具有O(N^(4/3))的最差运行时间。",
+      "final": "给出增量1,5,19,41,109,209,505等，它们由两个序列组合而成；这两个序列与有该最差时间界证明的增量相似。",
+      "qualification": "撤回对序列(11)本身已证明该界限的归属，不另声称证明了其复杂度。"
+    },
+    {
+      "id": "volume3-correction-016",
+      "authorDate": "2023-03-12",
+      "authorPrintedPage": "95",
+      "authorLocation": "倒数5、4行",
+      "cnPdfPage": 79,
+      "cnPrintedPage": "73",
+      "providedEnPdfPage": 134,
+      "originalTex": "\\lfloor2.25h_s\\rfloor replaces 3h_s in (12)",
+      "finalTex": "h_s=\\left\\lfloor\\frac45\\left(\\left(\\frac94\\right)^{s+1}-1\\right)\\right\\rfloor",
+      "qualification": "按作者明确下取整闭式恢复，不凭常见Tokuda序列记忆改成上取整或递推。"
+    }
+  ],
+  "currentSourcePageMarkdownSha256": {
+    "77": "c84b271f0c67acae3e33cb055ead70244260aad4fee3dedfbe82a4f6fab873f1",
+    "79": "990606f3d703fd12b608ed7898d2151ebf6415c21537105007bf8d37ad9c6bb4"
+  },
+  "originalDraftHistories": [
+    {
+      "name": "077-before-author-time-correction.md",
+      "sha256": "9a373cbd62ed7b8b8a07c3957f3ed8d73fc19921ee4ebf323557771898d19cea"
+    },
+    {
+      "name": "077-before-2025-author-bound-revision.md",
+      "sha256": "61be5425ca35465d0de680937871b1f4badc88ddd4f26b715551adff4813abe1"
+    },
+    {
+      "name": "079-before-2023-author-Tokuda-revision.md",
+      "sha256": "c1ec96737d299820a2fec573caaec2118e5186d7eadf525c52fc8dae76afd211"
+    }
+  ],
+  "humanSignoff": false,
+  "qualification": "只有明确定位到当前中文/英文段落的三项作者错误订正；不发布官方PS/PDF/页图，也不把新增研究补叙自动插入原中文底本。",
+  "representationOnlyTable5Adjustment": {
+    "oldMarkdownSha256": "ca6a0ef9724553f633956b16896697307e86263b24b2787b223abf852ed926b3",
+    "newMarkdownSha256": "c84b271f0c67acae3e33cb055ead70244260aad4fee3dedfbe82a4f6fab873f1",
+    "change": "相同10行数值改为HTML表格并保持增量序列/列题不换行；新数值与新生产渲染重新执行，旧证据保留。"
+  },
+  "targetedCurrentTokudaRender": {
+    "cases": 2,
+    "rawEvidenceSha256": "c982be181961d2b5251d58bec618c63ee5906e2b430a91a35c9aba33f91937bf",
+    "pageMarkdownSha256": "990606f3d703fd12b608ed7898d2151ebf6415c21537105007bf8d37ad9c6bb4",
+    "htmlSha256": "036a0ccd380d8b47d005193c89d5220e90e7872a215c8cedbf522261421da6f5",
+    "screenshots": [
+      {
+        "name": "79-1280-author-Tokuda.png",
+        "sha256": "2c9e28bffe9dab93ab5334b3102cd843b1236ccde6d3f7b0743ea44ae1698f3b",
+        "directlyViewed": true
+      },
+      {
+        "name": "79-390-author-Tokuda.png",
+        "sha256": "eee9cd8fc4d83ac98a009e855b64935fab1bdfd4de3ddcd2671470055528fc07",
+        "directlyViewed": true
+      }
+    ],
+    "qualification": "作者闭式的实际字号、指数和下取整在两宽截图已直接查看；不是重新证明复杂度结论。"
+  }
+}

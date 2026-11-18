@@ -1,0 +1,349 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    143,
+    144,
+    145
+  ],
+  "enPdfPages": [
+    234,
+    235,
+    236,
+    237,
+    238
+  ],
+  "maclarenTable": {
+    "sourceN": [
+      100,
+      1000,
+      10000,
+      100000,
+      1000000,
+      10000000,
+      100000000,
+      1000000000
+    ],
+    "sourceM": [
+      32,
+      128,
+      512,
+      1024,
+      8192,
+      32768,
+      131072,
+      524288
+    ],
+    "sourceP": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "sourceBeta": [
+      "19.3",
+      "18.5",
+      "18.2",
+      "18.1",
+      "18.0",
+      "18.0",
+      "18.0",
+      "18.0"
+    ],
+    "sourceNumericCells": 32,
+    "numericChecks": [
+      {
+        "N": 100,
+        "sourceM": 32,
+        "sourceP": 2,
+        "sourceBeta": "19.3",
+        "H_N_75digits": "5.18737751763962026080511767565825315790897212670845165317653395658721955753",
+        "beta_75digits": "19.2764660685736037973919488232434174684209102787329154834682346604341278044",
+        "roundedHalfUpOneDecimal": "19.3",
+        "N_over_M_to_p": "0.09765625",
+        "candidateGridMinimumMatchesSource": true,
+        "allowedCandidates": 220
+      },
+      {
+        "N": 1000,
+        "sourceM": 128,
+        "sourceP": 2,
+        "sourceBeta": "18.5",
+        "H_N_75digits": "7.48547086055034491265651820433390017652167916970880366577362674995769934917",
+        "beta_75digits": "18.5350015896863246550873434817956660998234783208302911963342263732500423007",
+        "roundedHalfUpOneDecimal": "18.5",
+        "N_over_M_to_p": "0.06103515625",
+        "candidateGridMinimumMatchesSource": true,
+        "allowedCandidates": 210
+      },
+      {
+        "N": 10000,
+        "sourceM": 512,
+        "sourceP": 2,
+        "sourceBeta": "18.2",
+        "H_N_75digits": "9.78760603604438226417847790485160533485926294557769171838946095668160202494",
+        "beta_75digits": "18.2228928183758877492735821522095148394665140737054422308281610539043318398",
+        "roundedHalfUpOneDecimal": "18.2",
+        "N_over_M_to_p": "0.03814697265625",
+        "candidateGridMinimumMatchesSource": true,
+        "allowedCandidates": 202
+      },
+      {
+        "N": 100000,
+        "sourceM": 1024,
+        "sourceP": 2,
+        "sourceBeta": "18.1",
+        "H_N_75digits": "12.0901461298634279473632193635042195007936989417822011016275294159381819823",
+        "beta_75digits": "18.0885223375218556625955263678063649578049920630105821779889837247058406182",
+        "roundedHalfUpOneDecimal": "18.1",
+        "N_over_M_to_p": "0.095367431640625",
+        "candidateGridMinimumMatchesSource": true,
+        "allowedCandidates": 196
+      },
+      {
+        "N": 1000000,
+        "sourceM": 8192,
+        "sourceP": 2,
+        "sourceBeta": "18.0",
+        "H_N_75digits": "14.3927267228657236313811274931885876766448000137443116534184330458129585075",
+        "beta_75digits": "18.040204180419620365477540493872506811412323355199986255688346581566954187",
+        "roundedHalfUpOneDecimal": "18.0",
+        "N_over_M_to_p": "0.01490116119384765625",
+        "candidateGridMinimumMatchesSource": true,
+        "allowedCandidates": 187
+      },
+      {
+        "N": 10000000,
+        "sourceM": 32768,
+        "sourceP": 2,
+        "sourceBeta": "18.0",
+        "H_N_75digits": "16.6953113658598518153991189395404518842498697523730804627851359543562886922",
+        "beta_75digits": "18.0177621428762795192852042022756060459548115750130247626919537214864045644",
+        "roundedHalfUpOneDecimal": "18.0",
+        "N_over_M_to_p": "0.00931322574615478515625",
+        "candidateGridMinimumMatchesSource": true,
+        "allowedCandidates": 178
+      },
+      {
+        "N": 100000000,
+        "sourceM": 131072,
+        "sourceP": 2,
+        "sourceBeta": "18.0",
+        "H_N_75digits": "18.9978964138538983244171103942239828418509712449701034388184221886576113026",
+        "beta_75digits": "18.0081530730376054013656111772156148077601715814902875502989656118157781134",
+        "roundedHalfUpOneDecimal": "18.0",
+        "N_over_M_to_p": "0.00582076609134674072265625",
+        "candidateGridMinimumMatchesSource": true,
+        "allowedCandidates": 172
+      },
+      {
+        "N": 1000000000,
+        "sourceM": 524288,
+        "sourceP": 2,
+        "sourceBeta": "18.0",
+        "H_N_75digits": "21.3004815023479440166851018489083469661270727335988803831017500896247672456",
+        "beta_75digits": "18.0039161201012453647243402049640680729666530338729272664011196168982499104",
+        "roundedHalfUpOneDecimal": "18.0",
+        "N_over_M_to_p": "0.00363797880709171295166015625",
+        "candidateGridMinimumMatchesSource": true,
+        "allowedCandidates": 161
+      }
+    ],
+    "method": "mpmath80位按源式8逐列复算，Decimal ROUND_HALF_UP至1位；在原八个N、M=2^q(q0..40)、p1..6且N/M^p≤0.1的有限网格核候选最小。",
+    "qualification": "表的八例及有限候选核查，不声称全域最优证明或重新证明定理T。"
+  },
+  "cardExercise14": {
+    "asset": "assets/volume3/figures/ex-5-2-5-14-cards.svg",
+    "assetSha256": "fddcdcfba5fb7bfafb8f357ed7634a8bc138b715687e5afce6a655d6580f03c7",
+    "sourceLeftToRightRanks": [
+      "8",
+      "7",
+      "K",
+      "10",
+      "Q",
+      "3",
+      "6",
+      "5",
+      "9",
+      "2",
+      "A",
+      "J",
+      "4"
+    ],
+    "sourceDealOrderTopToBottom": [
+      "4",
+      "J",
+      "A",
+      "2",
+      "9",
+      "5",
+      "6",
+      "3",
+      "Q",
+      "10",
+      "K",
+      "7",
+      "8"
+    ],
+    "suit": "spades for all13",
+    "visibleFrontCard": "4",
+    "sourceIsUnnumberedExerciseIllustration": true
+  },
+  "sourceTwoPassDealExample": {
+    "firstDealBottomToTop": [
+      [
+        "A",
+        "2",
+        "9",
+        "3",
+        "10"
+      ],
+      [
+        "4",
+        "J",
+        "5",
+        "6",
+        "Q",
+        "K",
+        "7",
+        "8"
+      ]
+    ],
+    "afterCollectionAndFlipTopToBottom": [
+      "A",
+      "2",
+      "9",
+      "3",
+      "10",
+      "4",
+      "J",
+      "5",
+      "6",
+      "Q",
+      "K",
+      "7",
+      "8"
+    ],
+    "secondDealBottomToTop": [
+      [
+        "A",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      [
+        "9",
+        "10",
+        "J",
+        "Q",
+        "K"
+      ]
+    ],
+    "finalTopToBottom": [
+      "A",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "J",
+      "Q",
+      "K"
+    ],
+    "allSourcePilesAreValidDealSubsequences": true,
+    "qualification": "只检查原给出的递增两遍具体例；未做最多三堆递减不可能性的一般模型或穷举。"
+  },
+  "exercise11OriginalCase": {
+    "sourceInput": [
+      503,
+      87,
+      512,
+      61,
+      908,
+      170,
+      897,
+      275,
+      653,
+      426,
+      154,
+      509,
+      612,
+      677,
+      765,
+      703
+    ],
+    "initialInversions": 41,
+    "omitUnitsThenStableTensHundreds": [
+      61,
+      87,
+      154,
+      170,
+      275,
+      426,
+      503,
+      509,
+      512,
+      612,
+      653,
+      677,
+      703,
+      765,
+      897,
+      908
+    ],
+    "inversionsAfterOmittingUnits": 0,
+    "omitUnitsAndTensThenStableHundreds": [
+      87,
+      61,
+      170,
+      154,
+      275,
+      426,
+      503,
+      512,
+      509,
+      653,
+      612,
+      677,
+      765,
+      703,
+      897,
+      908
+    ],
+    "inversionsAfterOmittingUnitsAndTens": 5,
+    "cnAnswerSnippetReadOnlyLocation": "provided CN PDF physical517 answer5.2.5-11",
+    "cnAnswerImageSha256": "90552c3be9a1f54573bbe04082df006d7e2d9c90d7ba3bcbc3001674681f9dde",
+    "wholeAnswerPageAccepted": false
+  },
+  "section525ExerciseTotal": 18,
+  "recommendedExercises": [
+    1,
+    4,
+    8,
+    16
+  ],
+  "sourceClosingQuote": {
+    "authorCn": "乔治·威格拉姆",
+    "year": 1843,
+    "lozengeBoxes": 1100
+  },
+  "pageMarkdownSha256": {
+    "142": "f3f65e88d9f78b5673306b3e46d1461b10759a484ee3a3f3cb972b0e0ea24bc7",
+    "143": "d0cd3fbe08f7f14f95efdca6b338a951e9adb7045f1b7927ebea538cce3e1f34",
+    "144": "b456c83aa20029e0b13a7fd7fb45f3a035463c0922e96f088b8328587a544c72",
+    "145": "fef02f9aa53bf4348809d19956c992ef33bd8934476ce74f822382c3b97c5441"
+  },
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false
+}

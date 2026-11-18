@@ -24,6 +24,7 @@
 | `.work/` | OCR、原页裁图、逐节工作稿、离线校样、浏览器检查和临时脚本；不进入发布。 |
 | `scripts/prepare-book.mjs` | 从母稿生成网站分节、目录、脚注分配、资源副本、清单和 ZIP。 |
 | `scripts/book-markdown.mjs` | 数学分隔符兼容、KaTeX 渲染、HTML 表格公式及 MIXAL 显示适配。 |
+| `scripts/book-images.mjs` | 读取公开本地图像的原始尺寸，为懒加载预留空间，保持跨页锚点跳转位置稳定。 |
 | `scripts/check-site.mjs` | 检查母稿到分节再到实际 HTML、图片、链接和 ZIP 的一致性。 |
 | `scripts/inspect-math-input.mjs` | 诊断未解析的美元分隔符、公式 token 和 HTML 数学；不能替代原页校对。 |
 | `docs/index.md`、`docs/.vitepress/config.mts`、`docs/.vitepress/theme/` | 手工维护的网站入口、配置和阅读样式。 |
@@ -106,6 +107,7 @@ node scripts/inspect-math-input.mjs
 - 分节不能切断代码围栏、独立公式或 HTML 表格。跨节脚注按实际引用迁移定义，并检查脚注回链和重复 ID。
 - 原生 HTML 的 `href="#…"` 也要重写到正确页面；普通 Markdown 链接与 HTML 链接的扩展名处理不同。
 - 图片的 `src` 会经过 Vite 资源处理，原图放大链接的 `href` 不会自动得到同样处理。维持 `linked-assets` 的稳定副本，验证实际点击。
+- 懒加载图片必须先预留原有宽高比；不能等加载后才撑开正文，导致索引或题答锚点移位。SVG仅有viewBox时保留现有容器宽度和比例；已有尺寸／样式不覆盖。修改相关渲染后，实测加载前后的跳转位置和加载后图像大小。
 - `.jsonl` 复核文件使用原生下载链接，避免 VitePress 当作页面路由。导航中的 ZIP 链接、favicon 等须核对 `/taocp-zh/` 基路径，不能只在本地根路径测试。
 - 保留 `book-markdown.mjs` 的定点数学兼容处理。卷一有嵌套美元分隔符、闭合分隔符前空白和 HTML 表格内公式的问题；不能扩大为未经核对的全文正则改写。
 - 数学输出保留 KaTeX HTML + MathML、`v-pre`、`data-tex` 和行内／独立标记。`v-pre` 防止 Vue 误解释 TeX 的双花括号；MathML 注解可能被 Vue 合并空白，应同时检查原始 `data-tex`。

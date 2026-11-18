@@ -1,0 +1,258 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    236,
+    237,
+    238
+  ],
+  "enPdfPages": [
+    379,
+    380,
+    381,
+    382,
+    383,
+    384
+  ],
+  "algorithmC": {
+    "completeC1ThroughC9SourceCompared": true,
+    "arrays": [
+      "A",
+      "AA",
+      "D",
+      "M",
+      "TAPE"
+    ],
+    "C2reverseOnlyTminus1Tapes": true,
+    "C9reverseAllTTapes": true,
+    "C8threeBranchesP1FirstAndRealConditionsPreserved": true,
+    "onlyOriginalT6S190AbstractRunExecution": {
+      "initial": {
+        "level": 4,
+        "AA": [
+          55,
+          50,
+          41,
+          29,
+          15,
+          0
+        ],
+        "D": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "TAPE": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "logicalRunCounts": [
+          55,
+          50,
+          41,
+          29,
+          15,
+          0
+        ]
+      },
+      "trace": [
+        {
+          "level": 4,
+          "actualMergedAbstractWeight": 185,
+          "oneWayCopyWeightAvoided": 5
+        },
+        {
+          "level": 3,
+          "actualMergedAbstractWeight": 185,
+          "oneWayCopyWeightAvoided": 5
+        },
+        {
+          "level": 2,
+          "actualMergedAbstractWeight": 175,
+          "oneWayCopyWeightAvoided": 15
+        },
+        {
+          "level": 1,
+          "actualMergedAbstractWeight": 190,
+          "oneWayCopyWeightAvoided": 0
+        }
+      ],
+      "finalRunWeight": 190,
+      "actualMergedWeight": 735,
+      "sourceStarredCopyWeightAvoided": 25,
+      "scope": "Onlyperfectoriginal190unitweightinitialruns, not arbitrarydummies/realkeyorder/ISA/generalAlgorithmC proof"
+    },
+    "sourceCompleteAlgorithmMarkdownSha256": "da0403637c9a81f465bac84d963691bb34371fe8527ad7f6557c949607a414d4",
+    "sourceInputParametersSha256": "51076a44e0d677fe76889b89bb905852eb3881e2195515f111878298cc5d6e3b"
+  },
+  "figure75": {
+    "boxes": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "directedEdges": [
+      [
+        "start",
+        "C1"
+      ],
+      [
+        "C1",
+        "C5"
+      ],
+      [
+        "C2",
+        "C3"
+      ],
+      [
+        "C3",
+        "C4"
+      ],
+      [
+        "C4",
+        "C5"
+      ],
+      [
+        "C5",
+        "C6"
+      ],
+      [
+        "C6",
+        "C5"
+      ],
+      [
+        "C6",
+        "C4"
+      ],
+      [
+        "C6",
+        "C3"
+      ],
+      [
+        "C6",
+        "C2"
+      ],
+      [
+        "C5",
+        "C7"
+      ],
+      [
+        "C7",
+        "C8"
+      ],
+      [
+        "C8",
+        "C9"
+      ],
+      [
+        "C9",
+        "C8"
+      ],
+      [
+        "C8",
+        "end"
+      ]
+    ],
+    "internalDirectedEdges": 13,
+    "boundaryDirectedEdges": 2,
+    "svgSha256": "0e2b4081e883cd5f082ad0c49ec2a7eed76308b002389407e0d74c489471a722",
+    "sourceLabels": [
+      "输入完成",
+      "排序完成"
+    ]
+  },
+  "formula4": "allfivecomponentexpansions/intermediatelines andbinomialindices sourcecompared only, no newgenericmodel",
+  "formula5": "bothsumforms,finitek0..m andsignexponents sourcecompared only",
+  "negativeTable": {
+    "sourceRows": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        -1,
+        2
+      ],
+      [
+        2,
+        -3,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        -4,
+        5
+      ],
+      [
+        5,
+        -9,
+        5,
+        -1,
+        0
+      ],
+      [
+        0,
+        -1,
+        6,
+        -14,
+        14
+      ],
+      [
+        14,
+        -28,
+        20,
+        -7,
+        1
+      ]
+    ],
+    "numericFields": 45,
+    "allEightInverseUpdatesFromSource1Recomputed": true,
+    "scope": "onlyprintedninelevels0..-8; Catalanandgeneralnegativelevelidentity sourcecompared only"
+  },
+  "formulas6Through9": "allbounds/numerator/denominator/binomialindices/delta/prime/endGFsourcecompared only",
+  "pageMarkdownSha256": {
+    "236": "5bb60900e8e85a7041a5975aba689b30a340aa3964edf9e2680b8444a64f55ae",
+    "237": "642b2afd1fe864561c00325532f444b316582dda6542919e7e33ac44806aad0a",
+    "238": "dcbf30f2d538571f9f894ccfe04ca7ed2656b241683d84e0b597ee013dbbad32"
+  },
+  "reviewerKind": "model-direct-image-review-and-original-bounded-numerics",
+  "humanSignoff": false,
+  "substantiveCorrectionId": "volume3-correction-037",
+  "finiteCheckHelperSha256": "a2ed22bed1ad036fc9002bc4045780be531aac2bc3f27fb0dfee4e6d55636f77"
+}

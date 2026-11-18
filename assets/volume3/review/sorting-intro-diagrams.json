@@ -1,0 +1,110 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    63,
+    64
+  ],
+  "figures": [
+    {
+      "number": 6,
+      "path": "assets/volume3/figures/fig-5-6.svg",
+      "sha256": "9235fef4bb3666268d6bc93adf423ec87c7aca85c5af029228dded3d0b180c08",
+      "recordContents": [
+        [
+          89,
+          "R",
+          "D"
+        ],
+        [
+          37,
+          "S",
+          "T"
+        ],
+        [
+          41,
+          "O",
+          "E"
+        ]
+      ],
+      "beforeRecordTargets": [
+        1,
+        2,
+        3
+      ],
+      "afterRecordTargets": [
+        2,
+        3,
+        1
+      ],
+      "sourceConnectorCount": 6,
+      "beforeDotted": true
+    },
+    {
+      "number": 7,
+      "path": "assets/volume3/figures/fig-5-7.svg",
+      "sha256": "e614630b428559c73ce764f60a0e334996acf371e1f68bcf78907cc8f18c301e",
+      "headTarget": "R2",
+      "successors": {
+        "R2": "R3",
+        "R3": "R1",
+        "R1": null
+      },
+      "sourceConnectorCount": 3,
+      "nullMarker": true
+    },
+    {
+      "number": 8,
+      "path": "assets/volume3/figures/fig-5-8.svg",
+      "sha256": "71ab0d9891034dc1aedfe8e5c35f270d1fe22272f24d824331526210810930bf",
+      "nodes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "edges": [
+        [
+          "entry",
+          "C1"
+        ],
+        [
+          "C1",
+          "C2"
+        ],
+        [
+          "C2",
+          "C3"
+        ],
+        [
+          "C3",
+          "C2"
+        ],
+        [
+          "C3",
+          "C4"
+        ],
+        [
+          "C4",
+          "C3"
+        ],
+        [
+          "C2",
+          "exit"
+        ]
+      ],
+      "conditionLabels": [
+        "N ≥ i > 1",
+        "j = 0",
+        "i > j ≥ 1",
+        "i = 1"
+      ]
+    }
+  ],
+  "reviewState": "model-source-image-fields-compared-private-render-pass",
+  "humanSignoff": false,
+  "renderEvidence": "assets/volume3/review/render-062-064.json",
+  "sourcePageMarkdownSha256": {
+    "63": "0ff64366c0232f92e88bb566a213f6968e08a6cd3c223634229e5ce66f9809c5",
+    "64": "61bbbb8bf3424e525e47729d4cf0ef4b012a7f673ad08653fa37b601dcebda17"
+  }
+}

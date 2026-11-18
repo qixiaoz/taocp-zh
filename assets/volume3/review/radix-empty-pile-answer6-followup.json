@@ -1,0 +1,43 @@
+{
+  "volume": "volume3",
+  "originalQuestionEvidence": {
+    "file": "assets/volume3/review/radix-empty-pile-E-scope-question.json",
+    "sha256": "e936e0ecf4fc20ffeecebfe8910e027570b2c0a6c0eec9b63e504af9a491f950",
+    "unchanged": true
+  },
+  "directlyViewedAnswerSnippets": [
+    {
+      "language": "cn",
+      "pdfPage": 517,
+      "printedPage": "511",
+      "scope": "5.2.5答案6(b)：g_M0=z^M、均值M(1−1/M)^N及E生成函数g_MN(z)^p括注",
+      "imageSha256": "90552c3be9a1f54573bbe04082df006d7e2d9c90d7ba3bcbc3001674681f9dde"
+    },
+    {
+      "language": "en",
+      "pdfPage": 832,
+      "scope": "5.2.5答案6(b)同一模型；答案3说明0堆可为空时由LOC(BOTM[0])连接首非空堆",
+      "imageSha256": "52732090e6a378c48c91498bd89caafe0cd229e055c2448425b31e57c9d373de"
+    }
+  ],
+  "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+  "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+  "answerEvidenceMeaning": "答案模型统计全部M堆，包括0堆；不能以该答案证明H4检查过0堆。",
+  "boundedCheck": {
+    "inputFile": "assets/volume3/review/radix-E-bounded-case-input.json",
+    "inputSha256": "d2ac776f606cb55152b4d5d32172d01a6061ade1cb9c62844681bd0c8f336029",
+    "runFile": "assets/volume3/review/radix-E-bounded-case-run.json",
+    "runSha256": "ee806f7bd6ee8819329c364144c4ad2598dc13c9262d6c653f8546a47cdb4d56",
+    "actualH4EmptyCount": 0,
+    "pile0EmptyCount": 3,
+    "allMEmptyCount": 3,
+    "actualTime": 246,
+    "timeFormulaIfUsingAllMCount": 234
+  },
+  "currentConclusion": "同符号E在H4实际执行计数与后段/答案全部M堆模型中口径不同，有界原程序对照已区分；具体一般式/定义的订正方案仍未擅定。",
+  "oldPage142AndReceiptsMutated": false,
+  "substantiveCorrectionApplied": false,
+  "wholeAnswerPagesAcceptedByThisFollowup": false,
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false
+}

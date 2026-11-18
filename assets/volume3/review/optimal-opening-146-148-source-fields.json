@@ -1,0 +1,514 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    146,
+    147,
+    148
+  ],
+  "enPdfPages": [
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244
+  ],
+  "sourceTable": {
+    "n": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "lowerBound": [
+      0,
+      1,
+      3,
+      5,
+      7,
+      10,
+      13,
+      16,
+      19,
+      22,
+      26,
+      29,
+      33,
+      37,
+      41,
+      45,
+      49
+    ],
+    "B": [
+      0,
+      1,
+      3,
+      5,
+      8,
+      11,
+      14,
+      17,
+      21,
+      25,
+      29,
+      33,
+      37,
+      41,
+      45,
+      49,
+      54
+    ],
+    "L": [
+      0,
+      1,
+      3,
+      5,
+      9,
+      11,
+      14,
+      17,
+      25,
+      27,
+      30,
+      33,
+      38,
+      41,
+      45,
+      49,
+      65
+    ],
+    "numericCellCount": 68,
+    "checks": [
+      {
+        "n": 1,
+        "ceilLog2Factorial": 0,
+        "binaryInsertion": 0,
+        "binaryInsertionClosed": 0,
+        "bottomUpListMerge": 0
+      },
+      {
+        "n": 2,
+        "ceilLog2Factorial": 1,
+        "binaryInsertion": 1,
+        "binaryInsertionClosed": 1,
+        "bottomUpListMerge": 1
+      },
+      {
+        "n": 3,
+        "ceilLog2Factorial": 3,
+        "binaryInsertion": 3,
+        "binaryInsertionClosed": 3,
+        "bottomUpListMerge": 3
+      },
+      {
+        "n": 4,
+        "ceilLog2Factorial": 5,
+        "binaryInsertion": 5,
+        "binaryInsertionClosed": 5,
+        "bottomUpListMerge": 5
+      },
+      {
+        "n": 5,
+        "ceilLog2Factorial": 7,
+        "binaryInsertion": 8,
+        "binaryInsertionClosed": 8,
+        "bottomUpListMerge": 9
+      },
+      {
+        "n": 6,
+        "ceilLog2Factorial": 10,
+        "binaryInsertion": 11,
+        "binaryInsertionClosed": 11,
+        "bottomUpListMerge": 11
+      },
+      {
+        "n": 7,
+        "ceilLog2Factorial": 13,
+        "binaryInsertion": 14,
+        "binaryInsertionClosed": 14,
+        "bottomUpListMerge": 14
+      },
+      {
+        "n": 8,
+        "ceilLog2Factorial": 16,
+        "binaryInsertion": 17,
+        "binaryInsertionClosed": 17,
+        "bottomUpListMerge": 17
+      },
+      {
+        "n": 9,
+        "ceilLog2Factorial": 19,
+        "binaryInsertion": 21,
+        "binaryInsertionClosed": 21,
+        "bottomUpListMerge": 25
+      },
+      {
+        "n": 10,
+        "ceilLog2Factorial": 22,
+        "binaryInsertion": 25,
+        "binaryInsertionClosed": 25,
+        "bottomUpListMerge": 27
+      },
+      {
+        "n": 11,
+        "ceilLog2Factorial": 26,
+        "binaryInsertion": 29,
+        "binaryInsertionClosed": 29,
+        "bottomUpListMerge": 30
+      },
+      {
+        "n": 12,
+        "ceilLog2Factorial": 29,
+        "binaryInsertion": 33,
+        "binaryInsertionClosed": 33,
+        "bottomUpListMerge": 33
+      },
+      {
+        "n": 13,
+        "ceilLog2Factorial": 33,
+        "binaryInsertion": 37,
+        "binaryInsertionClosed": 37,
+        "bottomUpListMerge": 38
+      },
+      {
+        "n": 14,
+        "ceilLog2Factorial": 37,
+        "binaryInsertion": 41,
+        "binaryInsertionClosed": 41,
+        "bottomUpListMerge": 41
+      },
+      {
+        "n": 15,
+        "ceilLog2Factorial": 41,
+        "binaryInsertion": 45,
+        "binaryInsertionClosed": 45,
+        "bottomUpListMerge": 45
+      },
+      {
+        "n": 16,
+        "ceilLog2Factorial": 45,
+        "binaryInsertion": 49,
+        "binaryInsertionClosed": 49,
+        "bottomUpListMerge": 49
+      },
+      {
+        "n": 17,
+        "ceilLog2Factorial": 49,
+        "binaryInsertion": 54,
+        "binaryInsertionClosed": 54,
+        "bottomUpListMerge": 65
+      }
+    ],
+    "method": "ceil log2 factorial by integer bit_length; B direct sum of ceil logs and source closed form; L sum of pair-size-minus-one in fixed bottom-up adjacent run merges, only source n1..17."
+  },
+  "fig34": {
+    "internalNodes": 5,
+    "externalBoxes": 6,
+    "edges": [
+      [
+        "r",
+        "l"
+      ],
+      [
+        "r",
+        "q"
+      ],
+      [
+        "l",
+        "ll"
+      ],
+      [
+        "l",
+        "lr"
+      ],
+      [
+        "q",
+        "ql"
+      ],
+      [
+        "q",
+        "qr"
+      ],
+      [
+        "lr",
+        "lrl"
+      ],
+      [
+        "lr",
+        "lrr"
+      ],
+      [
+        "ql",
+        "qll"
+      ],
+      [
+        "ql",
+        "qlr"
+      ]
+    ],
+    "labels": {
+      "r": "1:2",
+      "l": "2:3",
+      "q": "2:3",
+      "lr": "1:3",
+      "ql": "1:3",
+      "ll": "1 2 3",
+      "qr": "3 2 1",
+      "lrl": "1 3 2",
+      "lrr": "3 1 2",
+      "qll": "2 1 3",
+      "qlr": "2 3 1"
+    },
+    "levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sourceLeafChecks": [
+      {
+        "keyIncreasingOrder": [
+          1,
+          2,
+          3
+        ],
+        "path": [
+          {
+            "comparison": [
+              1,
+              2
+            ],
+            "less": true
+          },
+          {
+            "comparison": [
+              2,
+              3
+            ],
+            "less": true
+          }
+        ],
+        "sourceLeaf": "1 2 3"
+      },
+      {
+        "keyIncreasingOrder": [
+          1,
+          3,
+          2
+        ],
+        "path": [
+          {
+            "comparison": [
+              1,
+              2
+            ],
+            "less": true
+          },
+          {
+            "comparison": [
+              2,
+              3
+            ],
+            "less": false
+          },
+          {
+            "comparison": [
+              1,
+              3
+            ],
+            "less": true
+          }
+        ],
+        "sourceLeaf": "1 3 2"
+      },
+      {
+        "keyIncreasingOrder": [
+          2,
+          1,
+          3
+        ],
+        "path": [
+          {
+            "comparison": [
+              1,
+              2
+            ],
+            "less": false
+          },
+          {
+            "comparison": [
+              2,
+              3
+            ],
+            "less": true
+          },
+          {
+            "comparison": [
+              1,
+              3
+            ],
+            "less": true
+          }
+        ],
+        "sourceLeaf": "2 1 3"
+      },
+      {
+        "keyIncreasingOrder": [
+          2,
+          3,
+          1
+        ],
+        "path": [
+          {
+            "comparison": [
+              1,
+              2
+            ],
+            "less": false
+          },
+          {
+            "comparison": [
+              2,
+              3
+            ],
+            "less": true
+          },
+          {
+            "comparison": [
+              1,
+              3
+            ],
+            "less": false
+          }
+        ],
+        "sourceLeaf": "2 3 1"
+      },
+      {
+        "keyIncreasingOrder": [
+          3,
+          1,
+          2
+        ],
+        "path": [
+          {
+            "comparison": [
+              1,
+              2
+            ],
+            "less": true
+          },
+          {
+            "comparison": [
+              2,
+              3
+            ],
+            "less": false
+          },
+          {
+            "comparison": [
+              1,
+              3
+            ],
+            "less": false
+          }
+        ],
+        "sourceLeaf": "3 1 2"
+      },
+      {
+        "keyIncreasingOrder": [
+          3,
+          2,
+          1
+        ],
+        "path": [
+          {
+            "comparison": [
+              1,
+              2
+            ],
+            "less": false
+          },
+          {
+            "comparison": [
+              2,
+              3
+            ],
+            "less": false
+          }
+        ],
+        "sourceLeaf": "3 2 1"
+      }
+    ]
+  },
+  "fig35": {
+    "internalCircles": [
+      "1:2",
+      "2:3",
+      "3:1"
+    ],
+    "drawnSegments": 6,
+    "expandedInternalEdges": 2,
+    "continuationStubs": 4,
+    "noExplicitLeafBoxes": true
+  },
+  "eq5": {
+    "nodes": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "directedEdges": [
+      [
+        "a",
+        "b"
+      ],
+      [
+        "b",
+        "d"
+      ],
+      [
+        "c",
+        "d"
+      ]
+    ],
+    "eIsolated": true
+  },
+  "assets": [
+    {
+      "file": "assets/volume3/figures/fig-5-34.svg",
+      "sha256": "ce1bb499f6715929938401b34aa76eefd7f98eb27d627df938fe572a29d48de3"
+    },
+    {
+      "file": "assets/volume3/figures/fig-5-35.svg",
+      "sha256": "a1d33c213120712b4b010f86178382ea10b4b34e31a56c56aba1ddf48adb4165"
+    },
+    {
+      "file": "assets/volume3/figures/order-5-3-1-5.svg",
+      "sha256": "4cf94385363ffd83b3d812831b4324fa9b9aa771b8c7105942084c499f84b6cd"
+    }
+  ],
+  "pageMarkdownSha256": {
+    "146": "e74b73a02dd70b0a3e3619e6cfdcb87266fbbdaac54e27db621b0e07b2620944",
+    "147": "608b329a1fc4f317dd6627443bc0f3282ace7d9ecbf9b7bb130527362bfabf83",
+    "148": "668a6d2e60edb55b2d55e4544cb97a8bc1cb683437b920e7dcc78ae092366e67"
+  },
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false,
+  "qualification": "全部原页图文与对应英文实际核读；数值只复算源表/六叶原图，不新作一般比较树最优证明。148尾插入叙述待149续，不称整个五元素例已完整。"
+}

@@ -1,0 +1,117 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    279,
+    280,
+    281
+  ],
+  "enPdfPages": [
+    448,
+    449,
+    450,
+    451,
+    452,
+    453
+  ],
+  "sourceFigure": {
+    "file": "assets/volume3/figures/two-tape-opposed-stacks.svg",
+    "sha256": "2f962f0d21ad63a5a38316f34a90066db7ef6efabb6ab6700637c53d9a0f806f",
+    "twoOpposedTapeBars": 2,
+    "arrowEndpoints": 4,
+    "sourcePositions": [
+      "tape0beginbottomleft",
+      "tape0currenttopright",
+      "tape1currenttopleft",
+      "tape1beginbottomright"
+    ],
+    "arrowheadImplementation": "fourseparateSVGpathsforfourmarker-endarrowheads;firstunacceptedcombinedsubpathsdisplayedonlyfinalarrowhead,keptashistory"
+  },
+  "subroutineSourceOrder": [
+    "SORT00",
+    "SORT01",
+    "SORT10",
+    "SORT11"
+  ],
+  "sourceSORT00": {
+    "smallSubfile": "internalSortReturnTape0",
+    "partitionScans": [
+      {
+        "direction": "backward",
+        "predicate": ">K",
+        "outputTape": 1
+      },
+      {
+        "direction": "forward",
+        "predicate": "=K",
+        "outputTape": 1
+      },
+      {
+        "direction": "backward",
+        "predicate": "<K",
+        "outputTape": 1
+      }
+    ],
+    "finish": [
+      "SORT10 on <K",
+      "copy =K to tape0",
+      "SORT10 on >K"
+    ]
+  },
+  "sourceSORT01": "sameSORT00butfinalSORT10becomesSORT11thenCopy<=Ktape1",
+  "sourceSORT10": "sameSORT01interchange0/1and</>",
+  "sourceSORT11": "sameSORT00interchange0/1and</>",
+  "sourceRecurrence3": {
+    "XNbase": "0 forN<=M",
+    "XNrecursive": "3N+1+(1/N)sum0<=k<N(Yk+Y(N-1-k))",
+    "YNbase": "0 forN<=M",
+    "YNrecursive": "3N+2+(1/N)sum0<=k<N(Yk+X(N-1-k)+k)"
+  },
+  "finiteOriginal100000BubbleCase": {
+    "N": 100000,
+    "C": 100,
+    "memoryCharacters": 100000,
+    "B": 3000,
+    "P": 879,
+    "gamma": 480,
+    "rho": "2/5",
+    "tau": "1/60000",
+    "continuousBFromPrintedFormula": 3015.482799271082,
+    "IAsymptoticWithoutOterm": 99604.33393690607,
+    "ceilOfApproxIOverP": 114,
+    "omegaExact": "29/25",
+    "secondsPerPassExact": "812/3",
+    "totalHoursExactUsing114SourcePasses": "3857/450",
+    "totalHoursDecimal": 8.571111111111112,
+    "sourcePrintedHours": 8.57,
+    "qualification": "onlyoriginalallocation/equation2parameters/approxIceil;notgeneralbubblealgorithmproof/real100000recorddatasetexecution"
+  },
+  "preservedEditionDifference": {
+    "cnPage": 281,
+    "enPage": 452,
+    "cnInternalSortThresholdM": 1000,
+    "enInternalSortThresholdM": 2000,
+    "selectedChinesePreserved": true,
+    "source103Minutes": "bothsourcesprint103;notindependentlyreproducedorusedtochangethreshold",
+    "qualification": "matchingfullsourceimagesactualread;differentMrecorded,nocurrentauthorerratumclaimed/nogenericrecurrenceexecution"
+  },
+  "sourceExercise547Ratings": [
+    20,
+    "M28",
+    "M35",
+    "M23",
+    15,
+    20,
+    21
+  ],
+  "sourceExercise547Recommended": [
+    6
+  ],
+  "sourceExercise547CompleteCount": 7,
+  "pageMarkdownSha256": {
+    "279": "573081d6c5608a6145a8fefea569fb040cc5fe04a9a0b44f811e4f416c7dc1dc",
+    "280": "cecf7cc22488e9fe5b5864404903b46a0315b710c149bbdc11f5b12e9be17114",
+    "281": "887fc4849194861c42d6218083ed1eb9a3c795e89950f7ba35bb3964e2201e6d"
+  },
+  "reviewerKind": "model-direct-image-review-and-original100k-bubble-arithmetic",
+  "humanSignoff": false
+}

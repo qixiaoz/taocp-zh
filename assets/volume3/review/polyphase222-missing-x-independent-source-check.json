@@ -1,0 +1,69 @@
+{
+  "kind": "root-independent-readonly-source-and-single-n1-coefficient-check",
+  "volume": "volume3",
+  "section": "5.4.2 unnumbered T_n recurrence after(15)",
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false,
+  "sourceImagesActuallyViewed": [
+    {
+      "file": "221.jpg",
+      "sha256": "4fce5de239b75e6d8cae8e44a598616fa5a33c0badd89e99737608c8219d24ec"
+    },
+    {
+      "file": "222.jpg",
+      "sha256": "444b4782101c1062e0e2c83d61f1b022d0d7f38fc84677076d7fa5749ba9454b"
+    },
+    {
+      "file": "en-359.png",
+      "sha256": "28b80cb714efeaefe63f78438710cbbbd92f22346ce6646b68e596eafe51efbb"
+    }
+  ],
+  "locations": {
+    "cnDefinitionsPhysicalPage": 221,
+    "cnDefinitionsPrintedPage": "215",
+    "cnOriginalRecurrenceAndTablePhysicalPage": 222,
+    "cnPrintedPage": "216",
+    "enPhysicalPage": 359,
+    "enPrintedPage": null,
+    "enPrintedQualification": "No printed page header in the actual supplied reflow page; cite equations13-17, do not assume Vol4A offset."
+  },
+  "bothActuallyPrintedOriginal": "T_n(x)=5A_(n-1)(x)+4A_(n-2)(x)+3A_(n-3)(x)+2A_(n-4)(x)+A_(n-5)(x), without leadingx",
+  "actualDefinitionConditions": {
+    "nRange": "n>=1 in(13)/(15)",
+    "A0": "1",
+    "negativeA": "0 for n=-1,-2,-3,-4",
+    "Eq13AllFiveComponents": "A_n,B_n,C_n,D_n,E_n each have the same external factorx; lengths5,4,3,2,1",
+    "Eq15": "T_n=A_n+B_n+C_n+D_n+E_n"
+  },
+  "singleN1Witness": {
+    "A1_B1_C1_D1_E1": [
+      "x",
+      "x",
+      "x",
+      "x",
+      "x"
+    ],
+    "fromLiteral13And15": "T1=5x",
+    "originalUnnumberedRecurrence": "T1=5",
+    "originalT1CoefficientOfX": 0,
+    "requiredT1CoefficientOfX": 5,
+    "Eq16CoefficientOfZ1": "5x because numerator begins5xz and denominator constant1",
+    "Eq17ActuallyVisibleZ1ColumnByXPower": {
+      "x": 5,
+      "x2": 0,
+      "x3": 0,
+      "x4": 0,
+      "x5": 0
+    },
+    "noUnprintedConstantRowClaimed": true,
+    "correctedWholeRHSFactorX": "T1=5x"
+  },
+  "minimalCorrection": "Multiply the complete original right-hand side byx; keep all5 coefficients and allA indices unchanged",
+  "basis": "Directly summing the five literal Eq13 relations gives an externalx on their weighted sum; n1 independently contradicts original and agrees with actual Eq16 and Eq17. No convention rescue found in this viewed scope.",
+  "scopeLimits": [
+    "Only the source relations and one n1 coefficient witness, not allTn/table17 or a generic GF/optimality proof",
+    "No author-official-erratum claim",
+    "No source manuscript/report/accepted page proof edited",
+    "No CN221/222 complete-page acceptance added to root scope"
+  ]
+}

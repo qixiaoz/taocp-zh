@@ -1,0 +1,57 @@
+{
+  "volume": "volume3",
+  "cnPdfPage": 163,
+  "enPdfPage": 266,
+  "sourceOriginalCases": [
+    {
+      "m": 3,
+      "n": 11,
+      "sourceAdversaryBound": 9,
+      "computedAdversaryBound": 9
+    },
+    {
+      "m": 2,
+      "n": 38,
+      "sourceAdversaryBound": 10,
+      "computedAdversaryBound": 10
+    }
+  ],
+  "sourceA2_4Split": {
+    "subcases": [
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        8
+      ]
+    ],
+    "onePlusSubBounds": 9
+  },
+  "sourceTrueM3_11": {
+    "value": 10,
+    "independentlyProven": false,
+    "qualification": "中英原叙述，不另写一般最优合并求解器。"
+  },
+  "sourceM2_38ByPrintedFormula16": {
+    "value": 11,
+    "ceilTerms": [
+      5,
+      6
+    ],
+    "qualification": "仅代源公式16到原38例，不声称重证一般公式。"
+  },
+  "sameSixRecurrenceKernelSha256": "2686248ddce31292ba1f8b01c68cb904067856e4e2ff3b89acb448a3e261f2f6",
+  "originalTableHelperSha256": "b38f5ca200ea886165d5c03cd3002ebe6d3c96c7e20b2de09308c3255cc2dba0",
+  "caseHelperSha256": "1c3e9c6b3dc590b8eb5b3a3bd39cf772e9e9fd86d23aa5c6aa47eed2cff20e77",
+  "sourcePageMarkdownSha256": {
+    "160": "950dfe78f6de177a153af89257138af72a573b3dfe3f802e67f1b292b58097c5",
+    "161": "63acc090c4d62fe0144b1afb0809ec6047f7ff07285f4bf7a2d1f2eb4f39dc88",
+    "163": "bf7fe8e378fa1250d4c6cef8518672e50959d91814e717140529c4a161bc3174"
+  },
+  "cache": "CacheInfo(hits=2132455, misses=877, maxsize=None, currsize=877)",
+  "qualification": "只运行CN163明确两例(3,11)/(2,38)，不改162旧表凭据/160161当时未执行记录，不重新证明定理K。",
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false
+}

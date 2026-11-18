@@ -1,0 +1,529 @@
+{
+  "volume": "volume3",
+  "pageBindings": {
+    "70": "10c0b992bfd1e3bbd841efa2a8a9e53dfbcb457a4c024f98939a275e4f2e8883",
+    "71": "a40cc33c82bd53d8e0ef4921e1546bfe95b7d9fb14920770875acb1ca848f915",
+    "69": "5217b93a4f8e64a67313078a384e9d77f7d619567cd1097f8a1bbb19ac0f982f"
+  },
+  "programTokensFromCurrentMarkdown": [
+    {
+      "line": 1,
+      "label": "START",
+      "opcode": "ENT3",
+      "address": "T-1",
+      "frequency": "1"
+    },
+    {
+      "line": 2,
+      "label": "1H",
+      "opcode": "LD4",
+      "address": "H,3",
+      "frequency": "T"
+    },
+    {
+      "line": 3,
+      "label": null,
+      "opcode": "ENT1",
+      "address": "INPUT,4",
+      "frequency": "T"
+    },
+    {
+      "line": 4,
+      "label": null,
+      "opcode": "ST1",
+      "address": "5F(0:2)",
+      "frequency": "T"
+    },
+    {
+      "line": 5,
+      "label": null,
+      "opcode": "ST1",
+      "address": "6F(0:2)",
+      "frequency": "T"
+    },
+    {
+      "line": 6,
+      "label": null,
+      "opcode": "ENN1",
+      "address": "-N,4",
+      "frequency": "T"
+    },
+    {
+      "line": 7,
+      "label": null,
+      "opcode": "ST1",
+      "address": "3F(0:2)",
+      "frequency": "T"
+    },
+    {
+      "line": 8,
+      "label": null,
+      "opcode": "ENT1",
+      "address": "1-N,4",
+      "frequency": "T"
+    },
+    {
+      "line": 9,
+      "label": "2H",
+      "opcode": "LDA",
+      "address": "INPUT+N,1",
+      "frequency": "NT-S"
+    },
+    {
+      "line": 10,
+      "label": "3H",
+      "opcode": "ENT2",
+      "address": "N-H,1",
+      "frequency": "NT-S"
+    },
+    {
+      "line": 11,
+      "label": "4H",
+      "opcode": "CMPA",
+      "address": "INPUT,2",
+      "frequency": "B+NT-S-A"
+    },
+    {
+      "line": 12,
+      "label": null,
+      "opcode": "JGE",
+      "address": "6F",
+      "frequency": "B+NT-S-A"
+    },
+    {
+      "line": 13,
+      "label": null,
+      "opcode": "LDX",
+      "address": "INPUT,2",
+      "frequency": "B"
+    },
+    {
+      "line": 14,
+      "label": "5H",
+      "opcode": "STX",
+      "address": "INPUT+H,2",
+      "frequency": "B"
+    },
+    {
+      "line": 15,
+      "label": null,
+      "opcode": "DEC2",
+      "address": "0,4",
+      "frequency": "B"
+    },
+    {
+      "line": 16,
+      "label": null,
+      "opcode": "J2P",
+      "address": "4B",
+      "frequency": "B"
+    },
+    {
+      "line": 17,
+      "label": "6H",
+      "opcode": "STA",
+      "address": "INPUT+H,2",
+      "frequency": "NT-S"
+    },
+    {
+      "line": 18,
+      "label": "7H",
+      "opcode": "INC1",
+      "address": "1",
+      "frequency": "NT-S"
+    },
+    {
+      "line": 19,
+      "label": null,
+      "opcode": "J1NP",
+      "address": "2B",
+      "frequency": "NT-S"
+    },
+    {
+      "line": 20,
+      "label": null,
+      "opcode": "DEC3",
+      "address": "1",
+      "frequency": "T"
+    },
+    {
+      "line": 21,
+      "label": null,
+      "opcode": "J3NN",
+      "address": "1B",
+      "frequency": "T"
+    }
+  ],
+  "sourceExampleCases": [
+    {
+      "sourceTable": 3,
+      "gapSequence": [
+        8,
+        4,
+        2,
+        1
+      ],
+      "sourceRowsMatchIndependentGroupSorting": true,
+      "numericCells": 80,
+      "groupConnections": 49,
+      "programN": 16,
+      "programT": 4,
+      "programS": 15,
+      "programA": 6,
+      "programB": 29,
+      "actualLineFrequencies": [
+        1,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        49,
+        49,
+        72,
+        72,
+        29,
+        29,
+        29,
+        29,
+        49,
+        49,
+        49,
+        4,
+        4
+      ],
+      "sourceExpectedLineFrequencies": [
+        1,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        49,
+        49,
+        72,
+        72,
+        29,
+        29,
+        29,
+        29,
+        49,
+        49,
+        49,
+        4,
+        4
+      ],
+      "actualMixTimeUnits": 786,
+      "selfModificationEvents": [
+        {
+          "line": 4,
+          "targetLine": 14,
+          "newBaseAddress": 1008
+        },
+        {
+          "line": 5,
+          "targetLine": 17,
+          "newBaseAddress": 1008
+        },
+        {
+          "line": 7,
+          "targetLine": 10,
+          "newBaseAddress": 8
+        },
+        {
+          "line": 4,
+          "targetLine": 14,
+          "newBaseAddress": 1004
+        },
+        {
+          "line": 5,
+          "targetLine": 17,
+          "newBaseAddress": 1004
+        },
+        {
+          "line": 7,
+          "targetLine": 10,
+          "newBaseAddress": 12
+        },
+        {
+          "line": 4,
+          "targetLine": 14,
+          "newBaseAddress": 1002
+        },
+        {
+          "line": 5,
+          "targetLine": 17,
+          "newBaseAddress": 1002
+        },
+        {
+          "line": 7,
+          "targetLine": 10,
+          "newBaseAddress": 14
+        },
+        {
+          "line": 4,
+          "targetLine": 14,
+          "newBaseAddress": 1001
+        },
+        {
+          "line": 5,
+          "targetLine": 17,
+          "newBaseAddress": 1001
+        },
+        {
+          "line": 7,
+          "targetLine": 10,
+          "newBaseAddress": 15
+        }
+      ],
+      "output": [
+        61,
+        87,
+        154,
+        170,
+        275,
+        426,
+        503,
+        509,
+        512,
+        612,
+        653,
+        677,
+        703,
+        765,
+        897,
+        908
+      ]
+    },
+    {
+      "sourceTable": 4,
+      "gapSequence": [
+        7,
+        5,
+        3,
+        1
+      ],
+      "sourceRowsMatchIndependentGroupSorting": true,
+      "numericCells": 80,
+      "groupConnections": 48,
+      "programN": 16,
+      "programT": 4,
+      "programS": 16,
+      "programA": 8,
+      "programB": 25,
+      "actualLineFrequencies": [
+        1,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        48,
+        48,
+        65,
+        65,
+        25,
+        25,
+        25,
+        25,
+        48,
+        48,
+        48,
+        4,
+        4
+      ],
+      "sourceExpectedLineFrequencies": [
+        1,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        48,
+        48,
+        65,
+        65,
+        25,
+        25,
+        25,
+        25,
+        48,
+        48,
+        48,
+        4,
+        4
+      ],
+      "actualMixTimeUnits": 734,
+      "selfModificationEvents": [
+        {
+          "line": 4,
+          "targetLine": 14,
+          "newBaseAddress": 1007
+        },
+        {
+          "line": 5,
+          "targetLine": 17,
+          "newBaseAddress": 1007
+        },
+        {
+          "line": 7,
+          "targetLine": 10,
+          "newBaseAddress": 9
+        },
+        {
+          "line": 4,
+          "targetLine": 14,
+          "newBaseAddress": 1005
+        },
+        {
+          "line": 5,
+          "targetLine": 17,
+          "newBaseAddress": 1005
+        },
+        {
+          "line": 7,
+          "targetLine": 10,
+          "newBaseAddress": 11
+        },
+        {
+          "line": 4,
+          "targetLine": 14,
+          "newBaseAddress": 1003
+        },
+        {
+          "line": 5,
+          "targetLine": 17,
+          "newBaseAddress": 1003
+        },
+        {
+          "line": 7,
+          "targetLine": 10,
+          "newBaseAddress": 13
+        },
+        {
+          "line": 4,
+          "targetLine": 14,
+          "newBaseAddress": 1001
+        },
+        {
+          "line": 5,
+          "targetLine": 17,
+          "newBaseAddress": 1001
+        },
+        {
+          "line": 7,
+          "targetLine": 10,
+          "newBaseAddress": 15
+        }
+      ],
+      "output": [
+        61,
+        87,
+        154,
+        170,
+        275,
+        426,
+        503,
+        509,
+        512,
+        612,
+        653,
+        677,
+        703,
+        765,
+        897,
+        908
+      ]
+    }
+  ],
+  "qualification": "只执行书中两个原16键增量序列；真实解析当前程序指令并按原(0:2)字段修改三条地址，检查全部21频率。不是通用MIX模拟器或任意增量/输入的完整证明。",
+  "twoWayInsertionSourceTable2": {
+    "numberRows": 8,
+    "numericCells": 36,
+    "sourceRows": [
+      [
+        503
+      ],
+      [
+        87,
+        503
+      ],
+      [
+        87,
+        503,
+        512
+      ],
+      [
+        61,
+        87,
+        503,
+        512
+      ],
+      [
+        61,
+        87,
+        503,
+        512,
+        908
+      ],
+      [
+        61,
+        87,
+        170,
+        503,
+        512,
+        908
+      ],
+      [
+        61,
+        87,
+        170,
+        503,
+        512,
+        897,
+        908
+      ],
+      [
+        61,
+        87,
+        170,
+        275,
+        503,
+        512,
+        897,
+        908
+      ]
+    ],
+    "sourceStartCharacterColumns": [
+      16,
+      12,
+      12,
+      8,
+      8,
+      4,
+      4,
+      0
+    ],
+    "insertionPointerCount": 7,
+    "pointerCharacterColumns": [
+      15,
+      19,
+      11,
+      23,
+      15,
+      23,
+      15
+    ],
+    "allSortedPrefixesMatchOriginalInput": true,
+    "allPointersMatchNextKeyInsertionBoundary": true,
+    "qualification": "只核原8个源状态、版面起始列和下一个原键的插入边界，未声称实现完整两路插入算法。"
+  }
+}

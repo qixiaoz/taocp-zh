@@ -1,0 +1,720 @@
+{
+  "volume": "volume3",
+  "physicalPages": [
+    224,
+    225,
+    226
+  ],
+  "stage": "source-compared-private-production-render",
+  "cases": 6,
+  "viewports": [
+    1280,
+    390
+  ],
+  "failures": 0,
+  "errors": 0,
+  "mathObservations": 240,
+  "horizontalPortsCheckedAtBothEnds": 10,
+  "rawBrowserEvidenceSha256": "0ea5b6b3a0ddb325820589af9eae636ae2935ccf73e8d12318433da06d6502d3",
+  "details": [
+    {
+      "bodyText": 1033,
+      "math": 37,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 159,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "removedShapeCells": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "stageGridCells": 0,
+      "stageBlankCells": 0,
+      "stageCurrentCells": 0,
+      "stageBoldStylePass": true,
+      "stageTables": [],
+      "probabilityFactors": 0,
+      "endpoints": [
+        {
+          "start": 0,
+          "end": 272,
+          "max": 272,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 49,
+          "max": 49,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 10,
+          "max": 10,
+          "pass": true
+        }
+      ],
+      "page": 224,
+      "width": 1280,
+      "pageMarkdownSha256": "9a17f64838172581e1235307c9918222882d2f574e3d07446bdea09147f7d019",
+      "htmlSha256": "d8a22aa48e5f8e8d1c7749bdd7ef209da5dc350eb50facde9ccf88c1a783ad3e",
+      "passed": true,
+      "table3Matches": true,
+      "table4Matches": true,
+      "fitRows": [
+        [
+          "(1.51",
+          "0.951",
+          "0.761",
+          "0.656",
+          "0.589",
+          "0.548",
+          "0.539",
+          "0.488)"
+        ],
+        [
+          "(-.11",
+          "+.14",
+          "+.16",
+          "+.19",
+          "+.21",
+          "+.20",
+          "+.02",
+          "+.18)"
+        ]
+      ],
+      "fitRowsMatch": true
+    },
+    {
+      "bodyText": 2236,
+      "math": 63,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 90,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "removedShapeCells": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "stageGridCells": 0,
+      "stageBlankCells": 0,
+      "stageCurrentCells": 0,
+      "stageBoldStylePass": true,
+      "stageTables": [],
+      "probabilityFactors": 0,
+      "endpoints": [],
+      "page": 225,
+      "width": 1280,
+      "pageMarkdownSha256": "2baf013752afb30371655a50e5f681652a6ca27ce89d74ed703c108d25ff926c",
+      "htmlSha256": "8a8cde9d0ff6738b299b98ac289ce584d6b26049e35aec7cfccfb1f5c88bddd7",
+      "passed": true,
+      "caronTapeFields": [
+        [
+          "1^{11}",
+          "1^{17}",
+          "1^{13}",
+          "1^{8}",
+          "—",
+          "(R)"
+        ],
+        [
+          "(R)",
+          "1^{9}",
+          "1^{5}",
+          "—",
+          "R",
+          "3^{8}"
+        ],
+        [
+          "1^{6}",
+          "1^{4}",
+          "—",
+          "R",
+          "3^{5}",
+          "R"
+        ],
+        [
+          "1^{2}",
+          "—",
+          "R",
+          "5^{4}",
+          "R",
+          "3^{4}"
+        ],
+        [
+          "—",
+          "R",
+          "7^{2}",
+          "R",
+          "3^{3}",
+          "3^{2}"
+        ],
+        [
+          "R",
+          "11^{2}",
+          "R",
+          "5^{2}",
+          "3^{1}",
+          "—"
+        ],
+        [
+          "15^{1}",
+          "R",
+          "7^{1}",
+          "5^{1}",
+          "—",
+          "R"
+        ],
+        [
+          "R",
+          "11^{1}",
+          "7^{0}",
+          "—",
+          "R",
+          "23^{1}"
+        ],
+        [
+          "15^{1}",
+          "11^{1}",
+          "—",
+          "R",
+          "33^{0}",
+          "R"
+        ],
+        [
+          "(15^{0})",
+          "—",
+          "R",
+          "49^{1}",
+          "(R)",
+          "(23^{0})"
+        ]
+      ],
+      "caronTapeFieldsMatch": true,
+      "caronWrites": [
+        "49",
+        "8\\times3=24",
+        "5\\times3=15",
+        "4\\times5=20",
+        "2\\times7=14",
+        "2\\times11=22",
+        "1\\times15=15",
+        "1\\times23=23",
+        "0\\times33=0",
+        "1\\times49=49"
+      ],
+      "caronRewinds": [
+        "17",
+        "49-17=32",
+        "\\max(8,24)",
+        "\\max(13,15)",
+        "\\max(17,20)",
+        "\\max(11,14)",
+        "\\max(22,24)",
+        "\\max(15,15)",
+        "\\max(20,23)",
+        "14"
+      ],
+      "caronTimesMatch": true
+    },
+    {
+      "bodyText": 1275,
+      "math": 20,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 95,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "removedShapeCells": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "stageGridCells": 0,
+      "stageBlankCells": 0,
+      "stageCurrentCells": 0,
+      "stageBoldStylePass": true,
+      "stageTables": [],
+      "probabilityFactors": 0,
+      "endpoints": [],
+      "page": 226,
+      "width": 1280,
+      "pageMarkdownSha256": "15891f411a7e6701eda905b31fd8b0482101f141b605a988f3e4cc6c9d7d646d",
+      "htmlSha256": "95e308b26fcbfb9409e51c5c723cb90063da33de89335b4d01dadf331b854ca4",
+      "passed": true,
+      "caron5Rows": [
+        [
+          "5",
+          "3.556\\ln S+0.158",
+          "1.463\\ln S+1.016",
+          "41%",
+          "1.3247180"
+        ],
+        [
+          "6",
+          "2.616\\ln S-0.166",
+          "0.951\\ln S+1.014",
+          "36%",
+          "1.4655712"
+        ],
+        [
+          "7",
+          "2.337\\ln S-0.472",
+          "0.781\\ln S+1.001",
+          "33%",
+          "1.5341577"
+        ],
+        [
+          "8",
+          "2.216\\ln S-0.762",
+          "0.699\\ln S+0.980",
+          "32%",
+          "1.5701473"
+        ],
+        [
+          "9",
+          "2.156\\ln S-1.034",
+          "0.654\\ln S+0.954",
+          "30%",
+          "1.5900054"
+        ],
+        [
+          "10",
+          "2.124\\ln S-1.290",
+          "0.626\\ln S+0.922",
+          "29%",
+          "1.6013473"
+        ],
+        [
+          "20",
+          "2.078\\ln S-3.093",
+          "0.575\\ln S+0.524",
+          "28%",
+          "1.6179086"
+        ]
+      ],
+      "caron5Match": true,
+      "split2Matches": true,
+      "split3Matches": true
+    },
+    {
+      "bodyText": 1033,
+      "math": 37,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 159,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "removedShapeCells": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "stageGridCells": 0,
+      "stageBlankCells": 0,
+      "stageCurrentCells": 0,
+      "stageBoldStylePass": true,
+      "stageTables": [],
+      "probabilityFactors": 0,
+      "endpoints": [
+        {
+          "start": 0,
+          "end": 690,
+          "max": 690,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 407,
+          "max": 407,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 10,
+          "max": 10,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 328,
+          "max": 328,
+          "pass": true
+        }
+      ],
+      "page": 224,
+      "width": 390,
+      "pageMarkdownSha256": "9a17f64838172581e1235307c9918222882d2f574e3d07446bdea09147f7d019",
+      "htmlSha256": "d8a22aa48e5f8e8d1c7749bdd7ef209da5dc350eb50facde9ccf88c1a783ad3e",
+      "passed": true,
+      "table3Matches": true,
+      "table4Matches": true,
+      "fitRows": [
+        [
+          "(1.51",
+          "0.951",
+          "0.761",
+          "0.656",
+          "0.589",
+          "0.548",
+          "0.539",
+          "0.488)"
+        ],
+        [
+          "(-.11",
+          "+.14",
+          "+.16",
+          "+.19",
+          "+.21",
+          "+.20",
+          "+.02",
+          "+.18)"
+        ]
+      ],
+      "fitRowsMatch": true
+    },
+    {
+      "bodyText": 2236,
+      "math": 63,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 90,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "removedShapeCells": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "stageGridCells": 0,
+      "stageBlankCells": 0,
+      "stageCurrentCells": 0,
+      "stageBoldStylePass": true,
+      "stageTables": [],
+      "probabilityFactors": 0,
+      "endpoints": [
+        {
+          "start": 0,
+          "end": 295,
+          "max": 295,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 27,
+          "max": 27,
+          "pass": true
+        }
+      ],
+      "page": 225,
+      "width": 390,
+      "pageMarkdownSha256": "2baf013752afb30371655a50e5f681652a6ca27ce89d74ed703c108d25ff926c",
+      "htmlSha256": "8a8cde9d0ff6738b299b98ac289ce584d6b26049e35aec7cfccfb1f5c88bddd7",
+      "passed": true,
+      "caronTapeFields": [
+        [
+          "1^{11}",
+          "1^{17}",
+          "1^{13}",
+          "1^{8}",
+          "—",
+          "(R)"
+        ],
+        [
+          "(R)",
+          "1^{9}",
+          "1^{5}",
+          "—",
+          "R",
+          "3^{8}"
+        ],
+        [
+          "1^{6}",
+          "1^{4}",
+          "—",
+          "R",
+          "3^{5}",
+          "R"
+        ],
+        [
+          "1^{2}",
+          "—",
+          "R",
+          "5^{4}",
+          "R",
+          "3^{4}"
+        ],
+        [
+          "—",
+          "R",
+          "7^{2}",
+          "R",
+          "3^{3}",
+          "3^{2}"
+        ],
+        [
+          "R",
+          "11^{2}",
+          "R",
+          "5^{2}",
+          "3^{1}",
+          "—"
+        ],
+        [
+          "15^{1}",
+          "R",
+          "7^{1}",
+          "5^{1}",
+          "—",
+          "R"
+        ],
+        [
+          "R",
+          "11^{1}",
+          "7^{0}",
+          "—",
+          "R",
+          "23^{1}"
+        ],
+        [
+          "15^{1}",
+          "11^{1}",
+          "—",
+          "R",
+          "33^{0}",
+          "R"
+        ],
+        [
+          "(15^{0})",
+          "—",
+          "R",
+          "49^{1}",
+          "(R)",
+          "(23^{0})"
+        ]
+      ],
+      "caronTapeFieldsMatch": true,
+      "caronWrites": [
+        "49",
+        "8\\times3=24",
+        "5\\times3=15",
+        "4\\times5=20",
+        "2\\times7=14",
+        "2\\times11=22",
+        "1\\times15=15",
+        "1\\times23=23",
+        "0\\times33=0",
+        "1\\times49=49"
+      ],
+      "caronRewinds": [
+        "17",
+        "49-17=32",
+        "\\max(8,24)",
+        "\\max(13,15)",
+        "\\max(17,20)",
+        "\\max(11,14)",
+        "\\max(22,24)",
+        "\\max(15,15)",
+        "\\max(20,23)",
+        "14"
+      ],
+      "caronTimesMatch": true
+    },
+    {
+      "bodyText": 1275,
+      "math": 20,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 95,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "removedShapeCells": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "stageGridCells": 0,
+      "stageBlankCells": 0,
+      "stageCurrentCells": 0,
+      "stageBoldStylePass": true,
+      "stageTables": [],
+      "probabilityFactors": 0,
+      "endpoints": [
+        {
+          "start": 0,
+          "end": 275,
+          "max": 275,
+          "pass": true
+        }
+      ],
+      "page": 226,
+      "width": 390,
+      "pageMarkdownSha256": "15891f411a7e6701eda905b31fd8b0482101f141b605a988f3e4cc6c9d7d646d",
+      "htmlSha256": "95e308b26fcbfb9409e51c5c723cb90063da33de89335b4d01dadf331b854ca4",
+      "passed": true,
+      "caron5Rows": [
+        [
+          "5",
+          "3.556\\ln S+0.158",
+          "1.463\\ln S+1.016",
+          "41%",
+          "1.3247180"
+        ],
+        [
+          "6",
+          "2.616\\ln S-0.166",
+          "0.951\\ln S+1.014",
+          "36%",
+          "1.4655712"
+        ],
+        [
+          "7",
+          "2.337\\ln S-0.472",
+          "0.781\\ln S+1.001",
+          "33%",
+          "1.5341577"
+        ],
+        [
+          "8",
+          "2.216\\ln S-0.762",
+          "0.699\\ln S+0.980",
+          "32%",
+          "1.5701473"
+        ],
+        [
+          "9",
+          "2.156\\ln S-1.034",
+          "0.654\\ln S+0.954",
+          "30%",
+          "1.5900054"
+        ],
+        [
+          "10",
+          "2.124\\ln S-1.290",
+          "0.626\\ln S+0.922",
+          "29%",
+          "1.6013473"
+        ],
+        [
+          "20",
+          "2.078\\ln S-3.093",
+          "0.575\\ln S+0.524",
+          "28%",
+          "1.6179086"
+        ]
+      ],
+      "caron5Match": true,
+      "split2Matches": true,
+      "split3Matches": true
+    }
+  ],
+  "directlyViewedScreens": [
+    {
+      "name": "224-1280-tree0-left.png",
+      "sha256": "331c282dc6ccb1df16298a547871cff109b1045734fd24ce6291f9a4b57fe587"
+    },
+    {
+      "name": "224-1280-tree0-right.png",
+      "sha256": "069b9db80e1d86f81a40b40f0a98c92991f4a2e57eb0b0985386c3ed6c4cbabe"
+    },
+    {
+      "name": "224-1280-source-table0-middle-left.png",
+      "sha256": "115dadcb74834c1f23949c6dfe61db5bf8b512d9af8b55f5d9d4a97860a73018"
+    },
+    {
+      "name": "224-1280-source-table0-middle-right.png",
+      "sha256": "8ed463018a87b0832d38b290381827017ebca109dbe522dbc42c7c0abf3ab29d"
+    },
+    {
+      "name": "224-1280-source-table1-middle-left.png",
+      "sha256": "dfbfe91de7823366e294f20f091e8e16602ced73a24faddf78d62cc67bf0b671"
+    },
+    {
+      "name": "225-1280-source-table0-middle-left.png",
+      "sha256": "da32cbcf88abe4eba0b20b6c5efcd472a928ec2f38404dc22bb7f5e77338522b"
+    },
+    {
+      "name": "225-1280-source-table0-middle-right.png",
+      "sha256": "da32cbcf88abe4eba0b20b6c5efcd472a928ec2f38404dc22bb7f5e77338522b"
+    },
+    {
+      "name": "226-1280-source-table0-middle-left.png",
+      "sha256": "681c53b4c1d25846bee227b437efb668dabeb51b925fde4d1e21856d6fdd4da6"
+    },
+    {
+      "name": "226-1280-source-table1-middle-left.png",
+      "sha256": "a5930f3d82a57eb785e8e0e647fb9a12ea4d8c693ec6a7f48b472f07d2db2363"
+    },
+    {
+      "name": "226-1280-source-table2-middle-left.png",
+      "sha256": "d2e3a8d94fa044878f879019c52352677072f429e4b91fc656441558a63dcf24"
+    },
+    {
+      "name": "math-crops-contact.png",
+      "sha256": "d5fc56a078a7f3a430b0093a0713edba28eb5262f5c2e3e1d5550487f813c947"
+    },
+    {
+      "name": "224-390-source-table0-bottom-right.png",
+      "sha256": "ca4357b204e5a1cea2fee6933e1f07c0da289d77d6185b5dee741ce2971cbd7e"
+    },
+    {
+      "name": "224-390-source-table1-middle-right.png",
+      "sha256": "49d27873feabcc81efdbb05017a74d732b912facb084631c873603ed9e61cf27"
+    },
+    {
+      "name": "225-390-source-table0-middle-left.png",
+      "sha256": "1693f76a902904648bf3c43cc313b98a8903380c45a42526755e2a1dd7d2e6aa"
+    },
+    {
+      "name": "225-390-source-table0-middle-right.png",
+      "sha256": "3a42698e27e427ef504d366e709bb258f4f144034e51b296637760af47b92407"
+    },
+    {
+      "name": "226-390-source-table0-middle-right.png",
+      "sha256": "0472ea517874d8470e097b56501accd4bd3fc36c8eda0156641ede118ddb47f9"
+    },
+    {
+      "name": "226-390-source-table2-middle-left.png",
+      "sha256": "8f7562a827d68dd760fbeb8c38a2f50882094f7e7c0b9330d52c01d22b793e42"
+    },
+    {
+      "name": "224-390-tree0-left.png",
+      "sha256": "3dbd23cfca0883c128f29d26266d647bbdbcdf276d434ca70da74d8d255e99c7"
+    },
+    {
+      "name": "224-390-tree0-right.png",
+      "sha256": "d8100dc357eeb00436b84ab99ac917b8e63afb8a16c78d3be1aba730092eadc6"
+    }
+  ],
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false,
+  "qualification": "source scope由本批明确逐页记录，不从解析成功推断；只绑定已实际查看的原图/英文对应范围与私有单页渲染，不代表母稿、正式网站、人类签核或一般证明。"
+}

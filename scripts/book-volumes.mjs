@@ -36,6 +36,36 @@ export const volumes = [
       figures: 'assets/volume2/review/formal-figures.json',
       mathCountNote: 'All source and rendered formulas are compared individually. Source-page image reviews and preserved source questions are recorded independently; syntax equality does not prove every original mathematical assertion.'
     }
+  },
+  {
+    id: 'volume3', enabled: true, title: '卷三·排序与查找',
+    book: '计算机程序设计艺术·卷3·排序与查找.md', report: '校订报告·卷3.md',
+    routePrefix: '/volume3', reportRoute: '/volume3/corrections', zipName: 'taocp-volume3.zip',
+    assetRoots: ['assets/volume3'], reviewRoot: 'assets/volume3/review',
+    reviewPublicPrefix: '/review/volume3',
+    chapterRoots: ['5', '6'], answerStartAnchor: 'sec-answers', answerEndAnchor: 'sec-app-a',
+    appendixAnchors: ['sec-app-a', 'sec-app-b', 'sec-app-c'],
+    indexAnchors: ['sec-names', 'sec-index'], frontmatterHeadingLine: 2,
+    leadInAnchors: { 'sec-6-2-4': 'lead-sec-6-2-4', 'sec-6-3': 'lead-sec-6-3' },
+    expectedSourcePages: 625,
+    evidence: {
+      figures: 'assets/volume3/review/formal-figures.json',
+      mathCountNote: 'Source coverage and counts belong to Volume 3 only. Approved English frontmatter supplementation retains separate source anchors; unresolved source questions and author errata are recorded independently from rendering checks.'
+    }
+  },
+  {
+    id: 'volume4a', enabled: false, title: '卷4A·组合算法（一）',
+    book: '计算机程序设计艺术·卷4A·组合算法（一）.md', report: '校订报告·卷4A.md',
+    routePrefix: '/volume4a', reportRoute: '/volume4a/corrections', zipName: 'taocp-volume4a.zip',
+    assetRoots: ['assets/volume4a'], reviewRoot: 'assets/volume4a/review',
+    reviewPublicPrefix: '/review/volume4a',
+    chapterRoots: ['7'], answerStartAnchor: 'sec-answers', answerEndAnchor: 'sec-app-a',
+    appendixAnchors: ['sec-app-a', 'sec-app-b', 'sec-app-c', 'sec-app-d'],
+    indexAnchors: ['sec-names', 'sec-index'], frontmatterHeadingLine: 2,
+    expectedSourcePages: 746,
+    evidence: {
+      mathCountNote: 'Volume 4A uses its own 746-page source and original chapter 7 numbering. Author errata, source-image comparison, finite recomputation, syntax and rendered equality are distinct forms of evidence; source questions remain explicit.'
+    }
   }
 ];
 
@@ -47,14 +77,17 @@ export function enabledVolumes() {
     if (!unique(key)) throw new Error(`Duplicate volume configuration: ${key}`);
   }
   for (const volume of selected) {
-    if (!/^volume\d+$/.test(volume.id) || !/^\/volume\d+$/.test(volume.routePrefix)) throw new Error(`Invalid volume id or route: ${volume.id}`);
+    if (!/^volume\d+[a-z]?$/.test(volume.id) || !/^\/volume\d+[a-z]?$/.test(volume.routePrefix)) throw new Error(`Invalid volume id or route: ${volume.id}`);
     if (!Number.isInteger(volume.expectedSourcePages) || volume.expectedSourcePages < 1) throw new Error(`Source page count must be confirmed for ${volume.id}`);
     if (!volume.chapterRoots.length || !volume.assetRoots.length) throw new Error(`Missing chapter or asset configuration for ${volume.id}`);
     for (const value of [volume.book, volume.report, ...volume.assetRoots, volume.reviewRoot]) {
       if (value.startsWith('/') || value.split('/').some(part => part === '..') || value.includes('\\')) throw new Error(`Unsafe configured input path: ${value}`);
     }
     if (!volume.assetRoots.every(root => root === 'assets' || root.startsWith('assets/'))) throw new Error(`Assets must stay under assets/: ${volume.id}`);
-    if (!volume.reportRoute.startsWith('/') || !/^taocp-volume\d+\.zip$/.test(volume.zipName)) throw new Error(`Invalid report or ZIP route: ${volume.id}`);
+    const ownReport = /^\/volume\d+[a-z]?\/[a-z\d/-]+$/.test(volume.reportRoute)
+      && volume.reportRoute.startsWith(volume.routePrefix + '/');
+    const legacyReport = volume.id === 'volume1' && volume.reportRoute === '/corrections';
+    if (!(ownReport || legacyReport) || !/^taocp-volume\d+[a-z]?\.zip$/.test(volume.zipName)) throw new Error(`Invalid report or ZIP route: ${volume.id}`);
   }
   const roots = selected.flatMap(volume => volume.assetRoots.map(root => ({ id: volume.id, root })));
   for (let i = 0; i < roots.length; i++) for (let j = i + 1; j < roots.length; j++) {

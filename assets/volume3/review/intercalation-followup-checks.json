@@ -1,0 +1,78 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    29,
+    30,
+    31,
+    32
+  ],
+  "state": "listed-finite-checks-pass-exercise24-trial-unresolved",
+  "equation30": {
+    "parameterRange": "0≤A,B,D≤4；0≤r≤A，0≤q≤B，原列频率非负",
+    "cases": 440
+  },
+  "exercise13": {
+    "letterCounts": "a至f各0或1",
+    "cases": 64,
+    "candidateWordsEnumerated": 1957
+  },
+  "exercise14": {
+    "pi": "cabddabdad",
+    "inverse": "acdadabbdd",
+    "method": "交换二行后按原底行稳定排序"
+  },
+  "exercise15": {
+    "top": "aaabbcccdd",
+    "pi": "dcbacaabdc",
+    "edges": {
+      "a": "b",
+      "b": "c",
+      "c": "b",
+      "d": "c"
+    },
+    "uniqueDirectedCycle": [
+      "b",
+      "c"
+    ],
+    "sourceCycleWords": [
+      "baddcacabc",
+      "caddcacbab"
+    ],
+    "bothWordsProduceOriginal": true,
+    "graphAsset": "assets/volume3/figures/ex-5-1-2-15.svg"
+  },
+  "exercise22c": {
+    "unitWeightsW": [
+      "1",
+      "i",
+      "-1"
+    ],
+    "unitWeightsZ": [
+      "i",
+      "-1",
+      "-i"
+    ],
+    "letterCounts": "各0至2，总长≤6，t=1",
+    "cases": 27
+  },
+  "exercise24b": {
+    "state": "interpretation-of-operation-pending",
+    "newCycleWords": [
+      "ddbca",
+      "cbba",
+      "cdb",
+      "db",
+      "d"
+    ],
+    "sourceTarget": "dbcbcacdaddbbbd",
+    "trialResult": "dccbaadbbddcbbd",
+    "qualification": "试验实现尚未对齐，不能据此判原题错误；双版原式保留，算法解释待核。"
+  },
+  "pageMarkdownSha256": {
+    "29": "0d51f4c8784aadc03783d4c69897ca5dd5c5b5dcef7f489b0aeecf5e5018b8bc",
+    "30": "e2de7e4a06d195c70b199a666d144d741d3095d688ca3be9c2131a7b766764a7",
+    "31": "d14cf375bf8197fe42b005116de5ebc0d061722d9e7ada686225d13a98e11889",
+    "32": "49e7e3c269e30ae68664e7f6459a208d2bd0a83be546d2002a8ea58dcf65b2a8"
+  },
+  "qualification": "只验证列明的数值/词例与有限参数；题24另行明确待核，不提供一般定理或全部习题的解答，也不代替逐页中英文图像核查。"
+}

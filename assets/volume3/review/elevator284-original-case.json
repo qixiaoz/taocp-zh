@@ -1,0 +1,677 @@
+{
+  "initialFloors": {
+    "1": [
+      3,
+      6
+    ],
+    "2": [
+      6,
+      7
+    ],
+    "3": [
+      1,
+      3
+    ],
+    "4": [
+      7,
+      8
+    ],
+    "5": [
+      8,
+      9
+    ],
+    "6": [
+      2,
+      4
+    ],
+    "7": [
+      1,
+      9
+    ],
+    "8": [
+      2,
+      5
+    ],
+    "9": [
+      4,
+      5
+    ]
+  },
+  "n": 9,
+  "b": 2,
+  "m": 3,
+  "initialLift": [
+    0,
+    0,
+    0
+  ],
+  "trace": [
+    {
+      "step": "K1",
+      "floor": 1,
+      "room": [
+        0,
+        0
+      ],
+      "outgoingLift": [
+        0,
+        3,
+        6
+      ],
+      "toFloor": 2
+    },
+    {
+      "step": "K1",
+      "floor": 2,
+      "room": [
+        0,
+        3
+      ],
+      "outgoingLift": [
+        6,
+        6,
+        7
+      ],
+      "toFloor": 3
+    },
+    {
+      "step": "K1",
+      "floor": 3,
+      "room": [
+        1,
+        3
+      ],
+      "outgoingLift": [
+        6,
+        6,
+        7
+      ],
+      "toFloor": 4
+    },
+    {
+      "step": "K1",
+      "floor": 4,
+      "room": [
+        6,
+        6
+      ],
+      "outgoingLift": [
+        7,
+        7,
+        8
+      ],
+      "toFloor": 5
+    },
+    {
+      "step": "K1",
+      "floor": 5,
+      "room": [
+        7,
+        7
+      ],
+      "outgoingLift": [
+        8,
+        8,
+        9
+      ],
+      "toFloor": 6
+    },
+    {
+      "step": "K1",
+      "floor": 6,
+      "room": [
+        2,
+        4
+      ],
+      "outgoingLift": [
+        8,
+        8,
+        9
+      ],
+      "toFloor": 7
+    },
+    {
+      "step": "K1",
+      "floor": 7,
+      "room": [
+        1,
+        8
+      ],
+      "outgoingLift": [
+        8,
+        9,
+        9
+      ],
+      "toFloor": 8
+    },
+    {
+      "step": "K1",
+      "floor": 8,
+      "room": [
+        2,
+        5
+      ],
+      "outgoingLift": [
+        8,
+        9,
+        9
+      ],
+      "toFloor": 9
+    },
+    {
+      "step": "K3",
+      "floor": 9,
+      "room": [
+        9,
+        9
+      ],
+      "outgoingLift": [
+        4,
+        5,
+        8
+      ],
+      "toFloor": 8
+    },
+    {
+      "step": "K3",
+      "floor": 8,
+      "room": [
+        5,
+        8
+      ],
+      "outgoingLift": [
+        2,
+        4,
+        5
+      ],
+      "toFloor": 7
+    },
+    {
+      "step": "K3",
+      "floor": 7,
+      "room": [
+        5,
+        8
+      ],
+      "outgoingLift": [
+        1,
+        2,
+        4
+      ],
+      "toFloor": 6
+    },
+    {
+      "step": "K3",
+      "floor": 6,
+      "room": [
+        4,
+        4
+      ],
+      "outgoingLift": [
+        1,
+        2,
+        2
+      ],
+      "toFloor": 5
+    },
+    {
+      "step": "K3",
+      "floor": 5,
+      "room": [
+        7,
+        7
+      ],
+      "outgoingLift": [
+        1,
+        2,
+        2
+      ],
+      "toFloor": 4
+    },
+    {
+      "step": "K1",
+      "floor": 4,
+      "room": [
+        1,
+        2
+      ],
+      "outgoingLift": [
+        2,
+        6,
+        6
+      ],
+      "toFloor": 5
+    },
+    {
+      "step": "K1",
+      "floor": 5,
+      "room": [
+        2,
+        6
+      ],
+      "outgoingLift": [
+        6,
+        7,
+        7
+      ],
+      "toFloor": 6
+    },
+    {
+      "step": "K1",
+      "floor": 6,
+      "room": [
+        4,
+        4
+      ],
+      "outgoingLift": [
+        6,
+        7,
+        7
+      ],
+      "toFloor": 7
+    },
+    {
+      "step": "K1",
+      "floor": 7,
+      "room": [
+        5,
+        6
+      ],
+      "outgoingLift": [
+        7,
+        7,
+        8
+      ],
+      "toFloor": 8
+    },
+    {
+      "step": "K3",
+      "floor": 8,
+      "room": [
+        8,
+        8
+      ],
+      "outgoingLift": [
+        5,
+        7,
+        7
+      ],
+      "toFloor": 7
+    },
+    {
+      "step": "K3",
+      "floor": 7,
+      "room": [
+        7,
+        7
+      ],
+      "outgoingLift": [
+        5,
+        5,
+        6
+      ],
+      "toFloor": 6
+    },
+    {
+      "step": "K3",
+      "floor": 6,
+      "room": [
+        5,
+        6
+      ],
+      "outgoingLift": [
+        4,
+        4,
+        5
+      ],
+      "toFloor": 5
+    },
+    {
+      "step": "K1",
+      "floor": 5,
+      "room": [
+        2,
+        4
+      ],
+      "outgoingLift": [
+        4,
+        5,
+        6
+      ],
+      "toFloor": 6
+    },
+    {
+      "step": "K3",
+      "floor": 6,
+      "room": [
+        6,
+        6
+      ],
+      "outgoingLift": [
+        4,
+        5,
+        5
+      ],
+      "toFloor": 5
+    },
+    {
+      "step": "K3",
+      "floor": 5,
+      "room": [
+        5,
+        5
+      ],
+      "outgoingLift": [
+        2,
+        4,
+        4
+      ],
+      "toFloor": 4
+    },
+    {
+      "step": "K3",
+      "floor": 4,
+      "room": [
+        4,
+        4
+      ],
+      "outgoingLift": [
+        1,
+        2,
+        2
+      ],
+      "toFloor": 3
+    },
+    {
+      "step": "K3",
+      "floor": 3,
+      "room": [
+        2,
+        3
+      ],
+      "outgoingLift": [
+        1,
+        1,
+        2
+      ],
+      "toFloor": 2
+    },
+    {
+      "step": "K1",
+      "floor": 2,
+      "room": [
+        0,
+        1
+      ],
+      "outgoingLift": [
+        1,
+        2,
+        3
+      ],
+      "toFloor": 3
+    },
+    {
+      "step": "K3",
+      "floor": 3,
+      "room": [
+        3,
+        3
+      ],
+      "outgoingLift": [
+        1,
+        2,
+        2
+      ],
+      "toFloor": 2
+    },
+    {
+      "step": "K3",
+      "floor": 2,
+      "room": [
+        2,
+        2
+      ],
+      "outgoingLift": [
+        0,
+        1,
+        1
+      ],
+      "toFloor": 1
+    },
+    {
+      "step": "finish",
+      "floor": 1,
+      "room": [
+        1,
+        1
+      ],
+      "outgoingLift": [
+        0,
+        0,
+        0
+      ],
+      "toFloor": null
+    }
+  ],
+  "finalFloors": {
+    "1": [
+      1,
+      1
+    ],
+    "2": [
+      2,
+      2
+    ],
+    "3": [
+      3,
+      3
+    ],
+    "4": [
+      4,
+      4
+    ],
+    "5": [
+      5,
+      5
+    ],
+    "6": [
+      6,
+      6
+    ],
+    "7": [
+      7,
+      7
+    ],
+    "8": [
+      8,
+      8
+    ],
+    "9": [
+      9,
+      9
+    ]
+  },
+  "moves": 28,
+  "qualification": "onlyactualprintednine-floor/b2/m3/18real+3dummycase;all29roomstates/28carrylabels/source28movesandEq5bound;notgeneralKcorrectness/optimalityproof",
+  "sourcePrintedVisits": [
+    {
+      "floor": 1,
+      "remainingRoom": "00",
+      "outgoingLift": "036"
+    },
+    {
+      "floor": 2,
+      "remainingRoom": "03",
+      "outgoingLift": "667"
+    },
+    {
+      "floor": 3,
+      "remainingRoom": "13",
+      "outgoingLift": "667"
+    },
+    {
+      "floor": 4,
+      "remainingRoom": "66",
+      "outgoingLift": "778"
+    },
+    {
+      "floor": 5,
+      "remainingRoom": "77",
+      "outgoingLift": "889"
+    },
+    {
+      "floor": 6,
+      "remainingRoom": "24",
+      "outgoingLift": "889"
+    },
+    {
+      "floor": 7,
+      "remainingRoom": "18",
+      "outgoingLift": "899"
+    },
+    {
+      "floor": 8,
+      "remainingRoom": "25",
+      "outgoingLift": "899"
+    },
+    {
+      "floor": 9,
+      "remainingRoom": "99",
+      "outgoingLift": "458"
+    },
+    {
+      "floor": 8,
+      "remainingRoom": "58",
+      "outgoingLift": "245"
+    },
+    {
+      "floor": 7,
+      "remainingRoom": "58",
+      "outgoingLift": "124"
+    },
+    {
+      "floor": 6,
+      "remainingRoom": "44",
+      "outgoingLift": "122"
+    },
+    {
+      "floor": 5,
+      "remainingRoom": "77",
+      "outgoingLift": "122"
+    },
+    {
+      "floor": 4,
+      "remainingRoom": "12",
+      "outgoingLift": "266"
+    },
+    {
+      "floor": 5,
+      "remainingRoom": "26",
+      "outgoingLift": "677"
+    },
+    {
+      "floor": 6,
+      "remainingRoom": "44",
+      "outgoingLift": "677"
+    },
+    {
+      "floor": 7,
+      "remainingRoom": "56",
+      "outgoingLift": "778"
+    },
+    {
+      "floor": 8,
+      "remainingRoom": "88",
+      "outgoingLift": "577"
+    },
+    {
+      "floor": 7,
+      "remainingRoom": "77",
+      "outgoingLift": "556"
+    },
+    {
+      "floor": 6,
+      "remainingRoom": "56",
+      "outgoingLift": "445"
+    },
+    {
+      "floor": 5,
+      "remainingRoom": "24",
+      "outgoingLift": "456"
+    },
+    {
+      "floor": 6,
+      "remainingRoom": "66",
+      "outgoingLift": "455"
+    },
+    {
+      "floor": 5,
+      "remainingRoom": "55",
+      "outgoingLift": "244"
+    },
+    {
+      "floor": 4,
+      "remainingRoom": "44",
+      "outgoingLift": "122"
+    },
+    {
+      "floor": 3,
+      "remainingRoom": "23",
+      "outgoingLift": "112"
+    },
+    {
+      "floor": 2,
+      "remainingRoom": "01",
+      "outgoingLift": "123"
+    },
+    {
+      "floor": 3,
+      "remainingRoom": "33",
+      "outgoingLift": "122"
+    },
+    {
+      "floor": 2,
+      "remainingRoom": "22",
+      "outgoingLift": "011"
+    },
+    {
+      "floor": 1,
+      "remainingRoom": "11",
+      "outgoingLift": "000"
+    }
+  ],
+  "allTwentyNineSourceLabelsMatchOneExecution": true,
+  "initialUpCounts": [
+    2,
+    4,
+    3,
+    5,
+    7,
+    5,
+    4,
+    2,
+    0
+  ],
+  "initialDownCounts": [
+    0,
+    2,
+    4,
+    3,
+    5,
+    7,
+    5,
+    4,
+    2
+  ],
+  "sourceLowerBoundEq5": 28,
+  "sourceInputSha256": "d6d07a12a8902888936a880eac07811d239d0406bbf51c8e94cc7ac3bc1cb1c0",
+  "pageMarkdownSha256": {
+    "282": "df4dd32eb60be37cdd0e8c964a69e624b65bc95f74134077c692f3c587692cc2",
+    "283": "a635de77fd7c3ab8021e4b1fb4019e2455ff924e2529a32124c7a0df85ffc8e1",
+    "284": "026859c5704677c0073297c1f6388a23a910e620f295a82eccc6829a62d092f2"
+  },
+  "method": "Read source K1/K3 extremal mselection; K2/K4 test u from current rooms+lift; actual single fixed input only, no arbitrary-domain proof",
+  "reproducerFile": "check-elevator284-original-case.py",
+  "reproducerSha256": "6529d568e5874fbc9d30556df109459dd22068004fb682dd6956bd153b28627f",
+  "reproducerIsReadOnly": true
+}

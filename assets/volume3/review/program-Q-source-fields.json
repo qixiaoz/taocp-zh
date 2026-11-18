@@ -1,0 +1,128 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    96,
+    97,
+    98
+  ],
+  "enPdfPages": [
+    160,
+    161,
+    162,
+    163,
+    164,
+    165
+  ],
+  "figure19": {
+    "asset": "assets/volume3/figures/fig-5-19.svg",
+    "assetSha256": "e563b40561a150b90a54e96def332bcd8808b62abd3ddc4799f319b1254cc0fb",
+    "sourceCnPdfPage": 96,
+    "sourceEnPdfPage": 160,
+    "nodes": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5",
+      "Q6",
+      "Q7",
+      "Q8",
+      "Q9"
+    ],
+    "edges": [
+      [
+        "entry",
+        "Q1"
+      ],
+      [
+        "Q1",
+        "Q2"
+      ],
+      [
+        "Q1",
+        "Q9"
+      ],
+      [
+        "Q2",
+        "Q3"
+      ],
+      [
+        "Q3",
+        "Q3"
+      ],
+      [
+        "Q3",
+        "Q4"
+      ],
+      [
+        "Q4",
+        "Q4"
+      ],
+      [
+        "Q4",
+        "Q5"
+      ],
+      [
+        "Q5",
+        "Q6"
+      ],
+      [
+        "Q5",
+        "Q7"
+      ],
+      [
+        "Q6",
+        "Q3"
+      ],
+      [
+        "Q7",
+        "Q2"
+      ],
+      [
+        "Q7",
+        "Q8"
+      ],
+      [
+        "Q8",
+        "Q2"
+      ],
+      [
+        "Q8",
+        "Q9"
+      ],
+      [
+        "Q9",
+        "exit"
+      ]
+    ],
+    "conditionLabels": [
+      "N ≤ M",
+      "<",
+      "≥",
+      "<",
+      "≥",
+      "<",
+      "≥",
+      "两个子文件长度 ≤ M",
+      "栈空"
+    ]
+  },
+  "sourceProgramInstructionCount": 63,
+  "sourceEQUCount": 2,
+  "sourceProgramPageLines": [
+    18,
+    46,
+    1
+  ],
+  "sourcePageMarkdownSha256": {
+    "96": "64fa9bbb6a1056a79a2056eacd90c612c6b770a4842836840c5344dedd147233",
+    "97": "e84d9cf8342c1fdc1f2021564831f3304ad3238de8a0e79e0ded571fa4e85869",
+    "98": "ea5cb7b7e5b3cf3666c710ae2aa237eec45e6426046cc0add78c05da69fdfabc"
+  },
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false,
+  "renderState": "private-single-page-1280-and-390-directly-viewed",
+  "programExecutionState": "original-16-key-M1-executed-all63-frequencies-and11-partition-states-match",
+  "programExecutionEvidence": "assets/volume3/review/program-Q-original-case.json",
+  "renderEvidence": "assets/volume3/review/render-096-098.json"
+}

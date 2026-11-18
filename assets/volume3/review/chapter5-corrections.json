@@ -1,0 +1,2274 @@
+{
+  "volume": "volume3",
+  "corrections": [
+    {
+      "id": "volume3-correction-001",
+      "cnPdfPage": 9,
+      "cnPrintedPage": "3",
+      "section": "5",
+      "enPdfPages": [
+        22
+      ],
+      "original": "排序过程一般可以在O(N)个步骤中完成",
+      "final": "排序过程平均可以在O(N)个步骤中完成",
+      "basis": "所附英文原页明确on the average，限定为平均时间而非一般输入的最坏时间。",
+      "pageMarkdownSha256": "804b49f2e006764722d727fb606918d6a96dd8e102a13c7e5bc6d898cc9e2d69",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 9,
+          "sha256": "d9abec0130dd58cc729eff2d23cc1ba42f455f1cc42de51cd1d294d4766d4c8b"
+        },
+        {
+          "language": "en",
+          "pdfPage": 22,
+          "sha256": "ec4dca4d5bf638657426bdda7e824e5d49cde0a73bd9ed35e40eca873e5fbbd2"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-002",
+      "cnPdfPage": 11,
+      "cnPrintedPage": "5",
+      "section": "第5章习题12",
+      "enPdfPages": [
+        24
+      ],
+      "original": "争取使数据扫描次数不超过12次",
+      "final": "争取使数据扫描次数少于12次",
+      "basis": "英文原页明确less than a dozen passes；恢复严格小于12的限定。",
+      "pageMarkdownSha256": "602f1d4d6ea8784e966c7ec7b1ab4ccf142b68d4ee70a7b9d221896a1aceb69c",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-003",
+      "cnPdfPage": 11,
+      "cnPrintedPage": "5",
+      "section": "第5章习题第二组总说明",
+      "enPdfPages": [
+        24
+      ],
+      "original": "用大约六条磁带（这些磁带对于排序来说足够了）作为补充",
+      "final": "用大约六台磁带机（这些磁带机对于排序来说足够了）作为补充",
+      "basis": "英文原页half a dozen tape units指磁带机设备数，不是磁带卷数；这是该组算法可用外存设备的约束。",
+      "pageMarkdownSha256": "602f1d4d6ea8784e966c7ec7b1ab4ccf142b68d4ee70a7b9d221896a1aceb69c",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-004",
+      "cnPdfPage": 5,
+      "cnPrintedPage": "viii",
+      "section": "目录5.1",
+      "enPdfPages": [
+        15,
+        28,
+        29
+      ],
+      "original": "排序的组合性质",
+      "final": "排列的组合性质",
+      "basis": "同卷中文物理014实际节题为“排列的组合性质”，英文目录及正文均为Combinatorial Properties of Permutations；统一目录与正文节题。",
+      "pageMarkdownSha256": "be30c91824148f1d121c105e32e6cb4d0d82b447faec1ab7548f570f5609f3cc",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-005",
+      "cnPdfPage": 19,
+      "cnPrintedPage": "13",
+      "exercise": "5.1.1-5",
+      "enPdfPages": [
+        37
+      ],
+      "original": "一般为Θ(n²)",
+      "final": "平均为Θ(n²)",
+      "basis": "英文同题明确this is Θ(n²) on the average；恢复平均运行时间限定。",
+      "pageMarkdownSha256": "fac40fca5af9e3f5a56abcadea66ff6b9f61c2e892de5afbb6c74f53866a6e13",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-006",
+      "cnPdfPage": 20,
+      "cnPrintedPage": "14",
+      "exercise": "5.1.1-15",
+      "enPdfPages": [
+        40
+      ],
+      "original": "中的系数z^m是将m写为……的方式个数",
+      "final": "中z^m的系数是将m写为……的方式个数",
+      "basis": "英文明确the coefficient of z^m；调整中文语序以准确指定所求系数，不更改公式或计数值。",
+      "pageMarkdownSha256": "ad754296c5eb63f030258cbe1f26b9501fdfbad7bd4ec5827a03db53342decfa",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-007",
+      "cnPdfPage": 25,
+      "cnPrintedPage": "19",
+      "section": "5.1.2 定理A前左因子论证",
+      "enPdfPages": [
+        48
+      ],
+      "original": "唯一的假定是，α是π的一个左因子，π中包含字母a",
+      "final": "唯一的假定是，α是π的一个左因子，α中包含字母a",
+      "basis": "英文同页明确any left factor ... that contains the letter a；同一中文段首已假定α包含a。修正证明前提的主体，不改变定理A结论。",
+      "pageMarkdownSha256": "ce04014defdb7f5730f0fc3800ed702455565b751060b2c1f06bdf0bc7d55e73",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-008",
+      "cnPdfPage": 23,
+      "cnPrintedPage": "17",
+      "section": "5.1.2 排列史",
+      "enPdfPages": [
+        45
+      ],
+      "original": "这是历史上第一个已知的排列枚举。第二个出现在……",
+      "final": "这是历史上最早已知的排列枚举之一。另一例出现在……",
+      "basis": "英文one of the first known enumerations / the other不主张严格的历史第一和第二；恢复其保守限定，不额外主张已作独立史学考证。",
+      "pageMarkdownSha256": "98eef5767f24a51d60139234480c7495438cf93896a22c92b7838bcc39dec364",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-009",
+      "cnPdfPage": 45,
+      "cnPrintedPage": "39",
+      "section": "5.1.4 定理A",
+      "enPdfPages": [
+        80
+      ],
+      "original": "有序图表对(P,Q)…其中P和P的形状相同",
+      "final": "有序图表对(P,Q)…其中P和Q的形状相同",
+      "basis": "高分辨率中文原图明确P/P；英文同定理为P and Q，同页中文证明及后续例均要求P/Q同形。修正第二个变量，不改变对应构造。",
+      "pageMarkdownSha256": "2b7962176a0a3b96dc3be9d8d99e4307f38b8e2fa6966bb6995bc238acb7c4ab",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "privateSourceDetailSha256": "7af933c7a08acb99d8548f6ea747516c8f0a9cce9680b22a05b4267d0e78c7c5"
+    },
+    {
+      "id": "volume3-correction-010",
+      "cnPdfPage": 60,
+      "cnPrintedPage": "54",
+      "section": "5.1.4题39算法S′",
+      "enPdfPages": [
+        104
+      ],
+      "original": "仅改S1/S2，沿用原S4返回S3。",
+      "final": "在本题S′局部列出S4′，右移空位后返回S2′；原算法S的S4不改。",
+      "basis": "所附中英文均只列S1/S2修改；按原(3,3,2)实例的第2步，直接返回S3会移入无穷并写到形状外(4,2)。局部回到S2′可按当前K重新判断终止，8个P2源状态及最终P/Q全部吻合。有限原例不是一般正确性证明，非作者官方勘误。",
+      "pageMarkdownSha256": "5b6e372b04522709e63d3bc6a75d5b1146107f140fd1d08fe357346b097126d1",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "independentEvidence": "assets/volume3/review/algorithm-S-prime-correction-case.json",
+      "isAuthorOfficialErratum": false,
+      "officialSearchQualification": "主任务仅对所缓存作者all3/pre/prepre和err3.textxt相关范围检索，未找到明确对应条目；不是不存在的证明。"
+    },
+    {
+      "id": "volume3-correction-011",
+      "cnPdfPage": 65,
+      "cnPrintedPage": "59",
+      "section": "5.2分布计数引入",
+      "enPdfPages": [
+        113
+      ],
+      "original": "可以对文件进行部分排序，这是相对简单的任务。",
+      "final": "可以先对文件进行部分排序，接着完成全部排序就是相对简单的任务。",
+      "basis": "英文明确the file will be partially sorted and it will be comparatively simple to complete the job；相对简单指部分排序后完成工作，中文底本把它错接为部分排序本身。",
+      "pageMarkdownSha256": "84a600097bb85c4d938d3a2e050767c3fd9295fda8482b93d370e62b7e9edfaa",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 65,
+          "sha256": "8b85e0b67c394f99e5d39a203720dc8d1be2b16fc8111b8339d41004894bc2c8"
+        },
+        {
+          "language": "en",
+          "pdfPage": 113,
+          "sha256": "d51563ca7c4e2e4dfcc14e48628b0908338b106a79c9b3c40f59f830f27010dc"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-012",
+      "cnPdfPage": 67,
+      "cnPrintedPage": "61",
+      "section": "5.2题9",
+      "enPdfPages": [
+        115
+      ],
+      "original": "为程序D编写一段MIX程序",
+      "final": "为算法D编写一段MIX程序",
+      "basis": "英文for Algorithm D；本节D定义为算法，本题正要求编写相应程序，没有已定义的程序D。",
+      "pageMarkdownSha256": "316d98ca1294e08775a549fadf28cf23d013f0441d944b4c963754c507561cb7",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 67,
+          "sha256": "93dd15f0f3892eaafc6a0688e554e892bca83962409bb3f3af3c60600b8508e7"
+        },
+        {
+          "language": "en",
+          "pdfPage": 115,
+          "sha256": "5716c898a52dd6384413ad69ffe9992a85ec7ac5059b111f0a7ba99ce4465458"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-013",
+      "cnPdfPage": 76,
+      "cnPrintedPage": "70",
+      "section": "5.2.1因切尔皮–塞奇威克方法",
+      "enPdfPages": [
+        129
+      ],
+      "original": "找到了理论和实践都最佳的方法",
+      "final": "找到了兼顾理论和实践的方法",
+      "basis": "英文have found a way to have the best of both worlds表示兼顾两方面的优点，不断言理论与实践均已全局最优；后文只给具体构造、增长率与运行时间上界。",
+      "pageMarkdownSha256": "475d2c28eb1bbab1124dd6e89d7f4f81356fb98f6cd60e065ae90a5cce8ac793",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 76,
+          "sha256": "3146d2a769ecb3aaf4abebeca763ae0a1e90f0cf3b7e2f8651ccba3bd04c3fd2"
+        },
+        {
+          "language": "en",
+          "pdfPage": 129,
+          "sha256": "1d81cf7d72021747c4bbd800bd73b75c036d9ef91a70e38db400951448c438a9"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-014",
+      "cnPdfPage": 77,
+      "cnPrintedPage": "71",
+      "section": "5.2.1表5",
+      "enPdfPages": [
+        131
+      ],
+      "original": "274.42u",
+      "final": "274.41u",
+      "basis": "作者2023-03-15明确勘误，原英文印刷93页表5，增量4 2 1；已直接看作者PS转换页图物理3并核原TeX，不从中文/英文固定偏移推算。",
+      "authorErratumDate": "2023-03-15",
+      "authorPrintedPage": "93",
+      "isAuthorOfficialErratum": true,
+      "authorEvidence": "assets/volume3/review/official-errata-shellsort-077-079.json",
+      "pageMarkdownSha256": "c84b271f0c67acae3e33cb055ead70244260aad4fee3dedfbe82a4f6fab873f1",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-015",
+      "cnPdfPage": 77,
+      "cnPrintedPage": "71",
+      "section": "5.2.1序列(11)复杂度归属",
+      "enPdfPages": [
+        133
+      ],
+      "original": "序列(11)已经由塞奇威克证明具有O(N^(4/3))的最差运行时间。",
+      "final": "给出增量1,5,19,41,109,209,505等，它们由两个序列组合而成；这两个序列与有该最差时间界证明的增量相似。",
+      "basis": "作者2025-05-26明确勘误，原英文印刷93页倒数5、4行替换；已直接看作者PS转换页图物理3并核原TeX，不从中文/英文固定偏移推算。",
+      "authorErratumDate": "2025-05-26",
+      "authorPrintedPage": "93",
+      "isAuthorOfficialErratum": true,
+      "authorEvidence": "assets/volume3/review/official-errata-shellsort-077-079.json",
+      "pageMarkdownSha256": "c84b271f0c67acae3e33cb055ead70244260aad4fee3dedfbe82a4f6fab873f1",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-016",
+      "cnPdfPage": 79,
+      "cnPrintedPage": "73",
+      "section": "5.2.1德田增量公式",
+      "enPdfPages": [
+        134
+      ],
+      "original": "\\lfloor2.25h_s\\rfloor replaces 3h_s in (12)",
+      "final": "h_s=\\left\\lfloor\\frac45\\left(\\left(\\frac94\\right)^{s+1}-1\\right)\\right\\rfloor",
+      "basis": "作者2023-03-12明确勘误，原英文印刷95页倒数5、4行；已直接看作者PS转换页图物理3并核原TeX，不从中文/英文固定偏移推算。",
+      "authorErratumDate": "2023-03-12",
+      "authorPrintedPage": "95",
+      "isAuthorOfficialErratum": true,
+      "authorEvidence": "assets/volume3/review/official-errata-shellsort-077-079.json",
+      "pageMarkdownSha256": "990606f3d703fd12b608ed7898d2151ebf6415c21537105007bf8d37ad9c6bb4",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-017",
+      "cnPdfPage": 81,
+      "cnPdfPages": [
+        81,
+        83
+      ],
+      "cnPrintedPages": [
+        "75",
+        "77"
+      ],
+      "enPdfPages": [
+        136,
+        140
+      ],
+      "section": "5.2.1程序L与M的A统计定义",
+      "original": "从右向左的最小值个数",
+      "final": "从右向左的最大值个数",
+      "basis": "两段英文均为right-to-left maxima。列表插入遇到末端时，当前键大于其右侧所有已处理键；原16键例右向左最大值为4个，L的A=3，并与实际指令频率吻合。L仍以A+1计右端，M仍把每个非空列表右端计入A，不改变两种计数约定。",
+      "pageMarkdownSha256": "176578bff51c9e5131c2c5d3a70fd7ebf3ac027abf3f0cc92a4c70207020a9b0",
+      "additionalPageMarkdownSha256": {
+        "83": "55072428871febef5f193420c770ce93e3aab9af2fc4d640dc13deb8fb93bc72"
+      },
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "independentEvidence": "assets/volume3/review/list-insertion-source-checks.json"
+    },
+    {
+      "id": "volume3-correction-018",
+      "cnPdfPage": 80,
+      "cnPrintedPage": "74",
+      "enPdfPages": [
+        135,
+        136
+      ],
+      "section": "5.2.1算法L3/L4",
+      "original": "记录R（两处）",
+      "final": "记录R_j（两处）",
+      "basis": "作者2015-03-10原英印96页steps L3 and L4明确勘误；实际PS页图和程序L2定义一致。",
+      "isAuthorOfficialErratum": true,
+      "authorErratumDate": "2015-03-10",
+      "authorPrintedPage": "96",
+      "authorEvidence": "assets/volume3/review/official-errata-list-insertion.json",
+      "pageMarkdownSha256": "eafc637be0c690f3bed89ed0d3698c73fa065ce6cc51ffe7b74274a7d3305158",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-019",
+      "cnPdfPage": 84,
+      "cnPrintedPage": "78",
+      "section": "5.2.1多列表速度比较",
+      "enPdfPages": [
+        141
+      ],
+      "original": "M=10时的速度是M=1时的10倍",
+      "final": "M=10时的速度约为M=1时的10倍",
+      "basis": "英文明确about ten times as fast，恢复近似限定，不改变固定M/N增长背景或原程序。",
+      "pageMarkdownSha256": "9127950195461f5023b9922e8b12aec0b437deb10cdf3f4b55bbe299d0b2a15f",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-020",
+      "cnPdfPage": 90,
+      "cnPrintedPage": "84",
+      "section": "5.2.2冒泡排序与直接插入的比较",
+      "enPdfPages": [
+        152
+      ],
+      "original": "冒泡排序需要的程序更为复杂，长度超过其两倍",
+      "final": "冒泡排序需要更复杂的程序，而且运行时间超过直接插入的两倍",
+      "basis": "英文requires a more complicated program and takes more than twice as long明确把两倍用于运行时间，而非程序长度。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "c946d53f53c1267e579f8ebebb24dfcaf4677cf4632bb43e6fdac39a3feeb489",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-021",
+      "cnPdfPage": 97,
+      "cnPrintedPage": "91",
+      "section": "5.2.2程序Q第50行注释",
+      "enPdfPages": [
+        163
+      ],
+      "original": "如果栈不空则转到步骤Q8",
+      "final": "如果栈不空则转到步骤Q2",
+      "basis": "英文明确To Q2 if stack wasn’t empty；J6NN 2B向后指第04行2H（Q2），算法Q8也明确返回Q2。只修中文注释，原指令和地址不变。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "e84d9cf8342c1fdc1f2021564831f3304ad3238de8a0e79e0ded571fa4e85869",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-022",
+      "cnPdfPage": 124,
+      "cnPrintedPage": "118",
+      "section": "5.2.3优先队列方法列表第一条分层树",
+      "enPdfPages": [
+        204
+      ],
+      "original": "当所有键都位于给定范围O(log log M)时",
+      "final": "当所有键都位于给定范围0≤K<M时",
+      "basis": "中文原图把时间界重复写成键范围；对应英文实际范围为0≤K<M，其后时间界仍为O(log log M)。恢复键的有界范围，不更改时间界或所列书目。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "178f993131b27fab2fc8b8c82dae444253b71357c8c5625885fe2fdd969ab534",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-023",
+      "cnPdfPage": 132,
+      "cnPrintedPage": "126",
+      "section": "5.2.4算法S步骤S13",
+      "enPdfPages": [
+        218
+      ],
+      "original": "如果p<N，置s←1−s，返回N2",
+      "final": "如果p<N，置s←1−s，返回S2",
+      "basis": "英文S13明确return to S2；本算法S2与算法N2的输出指针k,l及q,r初始化不同，应返回本算法S2。只改S13的步骤名，算法N不改。原16键正确返回S2的五个状态与EN218原表全部吻合。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "17be4cab3e833588e5ac3ced1308d78cd128e171f1980989862f8a46ded4c68d",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-024",
+      "cnPdfPage": 156,
+      "cnPrintedPage": "150",
+      "section": "5.3.1平均比较次数分析",
+      "enPdfPages": [
+        255
+      ],
+      "original": "这样会使整体路径长度变得更强",
+      "final": "这样会使整体路径长度变得更大",
+      "basis": "英文255明确forces the overall path length to be higher，所述是路径长度更大，不是性质更强。中文原图放大确认印刷“更强”，非OCR误识。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "1f87f1652e7def968cb4c54b5bde8a7c110e8d08a0066d49b93412e26e377cb1",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 156,
+          "sha256": "e1fd099ddb2b703d22c3799a115ea86baa689285a0b8f3f81a6e27a8e901ff1f"
+        },
+        {
+          "language": "en",
+          "pdfPage": 255,
+          "sha256": "094f2f0e5b61df0c163a2d77e4908aadc591cacf794b8cebdd0c90cbb858f1d7"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-025",
+      "cnPdfPage": 156,
+      "cnPrintedPage": "150",
+      "section": "5.3.1平均比较次数分析",
+      "enPdfPages": [
+        255
+      ],
+      "original": "对于某些n值，甚至存在这样的情况",
+      "final": "对于某些n值，甚至可能存在这样的情况",
+      "basis": "英文255明确It may even be true that, for some n，恢复推测限定，不将作者未确证的存在性写成定论。中文末段放大实看没有“可能”。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "1f87f1652e7def968cb4c54b5bde8a7c110e8d08a0066d49b93412e26e377cb1",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 156,
+          "sha256": "e1fd099ddb2b703d22c3799a115ea86baa689285a0b8f3f81a6e27a8e901ff1f"
+        },
+        {
+          "language": "en",
+          "pdfPage": 255,
+          "sha256": "094f2f0e5b61df0c163a2d77e4908aadc591cacf794b8cebdd0c90cbb858f1d7"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-026",
+      "cnPdfPage": 169,
+      "cnPrintedPage": "163",
+      "section": "5.3.3定理S原证明的对手与强于关系",
+      "enPdfPages": [
+        276
+      ],
+      "original": "或者如果两人都被打败过，但B赢得的比赛场数少于A",
+      "final": "或者如果两人都未被打败过，但B赢得的比赛场数少于A",
+      "basis": "英文276明确both are undefeated；原证明随后要求首次击败他人的选手之前未败，恢复这条对手判定的未败前提。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "b80e43d394ed874bfbc5dc6bb5143c2ba9212db9945ee51388d14a752cd79e51",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 169,
+          "sha256": "6d6bbc1f96bc8d12843314a75789664d95a20caacd9e8e5e3564c0039f04192e"
+        },
+        {
+          "language": "en",
+          "pdfPage": 276,
+          "sha256": "7cb35b109142ad358654d3ea7ee07faa021636fb4254e634ee4f0ef86e2b23a6"
+        }
+      ],
+      "magnifiedChineseCropSha256": "04d0f9743eccabab9d1860b990c091eaffbb39a7510e668db76a9cd1985c5b01"
+    },
+    {
+      "id": "volume3-correction-027",
+      "cnPdfPage": 169,
+      "cnPrintedPage": "163",
+      "section": "5.3.3定理S原证明的对手与强于关系",
+      "enPdfPages": [
+        276
+      ],
+      "original": "这一关系仅考虑选手的首次胜利",
+      "final": "这一关系仅考虑选手的首次失败",
+      "basis": "英文276明确Only a player’s first defeat is relevant；其后也说明loser’s subsequent games ignored。恢复首次失败，中文原图放大确印胜利，非OCR误识。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "b80e43d394ed874bfbc5dc6bb5143c2ba9212db9945ee51388d14a752cd79e51",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 169,
+          "sha256": "6d6bbc1f96bc8d12843314a75789664d95a20caacd9e8e5e3564c0039f04192e"
+        },
+        {
+          "language": "en",
+          "pdfPage": 276,
+          "sha256": "7cb35b109142ad358654d3ea7ee07faa021636fb4254e634ee4f0ef86e2b23a6"
+        }
+      ],
+      "magnifiedChineseCropSha256": "8ebf41e1e34bebdafa1e3e52793b8f40ba623950d86b9da6a152d9b548f8681f"
+    },
+    {
+      "id": "volume3-correction-028",
+      "cnPdfPage": 176,
+      "cnPrintedPage": "170",
+      "section": "5.3.3题14的U_t定义",
+      "enPdfPages": [
+        286
+      ],
+      "original": "设U_t(n)表示找出不知道相对顺序的n个元素中第t大元素需要的最少比较次数",
+      "final": "设U_t(n)表示找出n个元素中的t个最大元素（不必知道这t个元素的相对顺序）需要的最少比较次数",
+      "basis": "英文原页明写the t largest of n elements, without necessarily knowing their relative order。对象是t个最大元素组成的集合，不是第t大的单一元素；不必知道相对顺序限定所找出的t元素。与本题U2(5)<=5及本节V2(5)=6的区分相符，未改后续题式。中文放大图确印第t大，非OCR。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "aeebedc039555ea5178bdfa28946d99c4363f436cbc579dbb23ad978cf8986d5",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 176,
+          "sha256": "264aeafc33f79edbf7c4520a21aca62a0d2f4cd08e60b75ef8e119e77098956d"
+        },
+        {
+          "language": "en",
+          "pdfPage": 286,
+          "sha256": "8b66c985fe94ce3340ae72007898b00892d7fed620d33d546d4527cfcf9ff09c"
+        }
+      ],
+      "magnifiedChineseCropSha256": "fb7844fc519aa44bf8487103f3d670ede2c1348107559e61f69a6f8935152ed0"
+    },
+    {
+      "id": "volume3-correction-029",
+      "cnPdfPage": 183,
+      "cnPrintedPage": "177",
+      "section": "5.3.4格林60比较器构造的历史段",
+      "enPdfPages": [
+        297
+      ],
+      "original": "米尔顿·格林又让人们的惊讶程度翻了一番",
+      "final": "米尔顿·格林又让人们的惊讶程度增至三倍",
+      "basis": "英文原页明确tripled the amount of surprise，恢复三倍比喻；中文原图放大确印翻了一番（二倍）。63、62、60等源数据与程序/图均不因这处修辞数值订正改变。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "5851a1b7771532a37676e65c8a218f7c1b0c4409b5831fef16771682ae221b70",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 183,
+          "sha256": "323377367b27f5aa2b713b5da6e4cd5b6cc096e99c638336352c524904137b3b"
+        },
+        {
+          "language": "en",
+          "pdfPage": 297,
+          "sha256": "1ca83faa0129e71e5f079e544f4fcc32bb558300e91c907f079bbeaaaf5a8d92"
+        }
+      ],
+      "magnifiedChineseCropSha256": "15a8c070cb09073d6eb868c1d48847291808d955ec1aa5dda8ca07bee73c12f3"
+    },
+    {
+      "id": "volume3-correction-030",
+      "cnPdfPage": 185,
+      "cnPrintedPage": "179",
+      "section": "5.3.4定理F证明的输入有序条件",
+      "enPdfPages": [
+        301
+      ],
+      "original": "它能够对所有输入序列〈z1,…,z4n〉排序，使得z1≤z3≤…≤z4n−1及z2≤z4≤…≤z4n",
+      "final": "它能够对满足z1≤z3≤…≤z4n−1及z2≤z4≤…≤z4n的所有输入序列〈z1,…,z4n〉排序",
+      "basis": "英文capable of sorting all input sequences ... such that限定的是输入奇/偶位置两段已经有序；中文排序，使得误接为排序输出保证。只恢复输入假设作用域，三个比较器类和原证明后续不变。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "349465e9b044a029012776c55486aa47d1d60becadfe880449ee919c5c55ad16",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 185,
+          "sha256": "1ff3b9cd068e9b9e6f668efefb13a88b8a14b12568def7ebc3d4781ff630cd02"
+        },
+        {
+          "language": "en",
+          "pdfPage": 301,
+          "sha256": "4a14e50e056061c626857eee31b70d7d2c8820daac1bd5f9cb0539e9621522ba"
+        }
+      ],
+      "magnifiedChineseCropSha256": "88566e818af0d0aa2babe2437aff65e231594b3ed82cd51be2065f134094e03a"
+    },
+    {
+      "id": "volume3-correction-031",
+      "cnPdfPage": 193,
+      "cnPrintedPage": "187",
+      "section": "5.3.4题30的正则形式唯一性",
+      "enPdfPages": [
+        312
+      ],
+      "original": "它们恒等（包括顺序）",
+      "final": "它们恒等（不计顺序）",
+      "basis": "英文原图明确identical (up to order)，即忽略各项排列顺序。中文放大原图确印包括顺序，意思相反。仅恢复同一正则形式的顺序限定，不改变所给恒等式或题的其余条件。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "5e51ba9bff12d4434069fc2742bdeb2f70a342face42882124a2e5b361be7097",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 193,
+          "sha256": "e9139a6e7062af6f85d0b4ce0dc90b313a400738f0e5a4e4cb52f3fcf7cd4f32"
+        },
+        {
+          "language": "en",
+          "pdfPage": 312,
+          "sha256": "05d161d7e714e0dae3411de300b74176b0a5b8eba02b595ff660ec018b4063ab"
+        }
+      ],
+      "magnifiedChineseCropSha256": "35ea10a37837ec687f0620d1b0a38069b528db0ff48027c2b015f6ab37612f53"
+    },
+    {
+      "id": "volume3-correction-032",
+      "cnPdfPage": 198,
+      "cnPrintedPage": "192",
+      "section": "5.3.4题64的一致排序定义",
+      "enPdfPages": [
+        321
+      ],
+      "original": "我们可以逐次比较Ka1:Kb1,Ka2:Kb2,…，每次比较不必知道上次比较的结果",
+      "final": "我们可以依次执行Ka1:Kb1,Ka2:Kb2,…中结果尚未确定的比较",
+      "basis": "英文原图whose outcome is not already known限定执行结果尚未知晓的比较，原译却谈上次比较结果；恢复冗余比较跳过的定义限定，与同题随后有向路径三情形一致。仅源核这一明确限定，不增一般一致排序模型。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "3d3aee4747598b0622a9db032ec9889b2378b5c0f36592c1902e5084030f5acc",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 198,
+          "sha256": "9e74a1fe664de513b4d0a282054fdf5dad805d6250b17c36e807ed0409308ba6"
+        },
+        {
+          "language": "en",
+          "pdfPage": 321,
+          "sha256": "b9813b5ff4f5636a1f01eb0bcdbd5b92bce0fa54353fea23616572e7e8977c29"
+        }
+      ],
+      "magnifiedChineseCropSha256": "fc359bc225488708fa1d73cdcae19fe29886dc20e5d56cd71f45913123e2a82a"
+    },
+    {
+      "id": "volume3-correction-033",
+      "cnPdfPage": 201,
+      "cnPrintedPage": "195",
+      "section": "5.4三路与两路合并的处理量",
+      "enPdfPages": [
+        326
+      ],
+      "original": "三路合并需要的计算机处理多于两种合并",
+      "final": "三路合并需要的计算机处理多于两路合并",
+      "basis": "英文原图明确Three-way merging requires more computer processing than two-way merging，对比合并路数，中文确印两种；恢复两路。只改该字，不改变式(4)(5)或成本例数。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "1e387d5eeae787f901ca811324c8db4622bd64001c46ad178c5f583fe82ddb6c",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 201,
+          "sha256": "c562f6ce7518d923890cbabda7b08b2359ea9ec63109b271770bc5508dcb6601"
+        },
+        {
+          "language": "en",
+          "pdfPage": 326,
+          "sha256": "0d7b8460a84f38a265f4826c62c2997c87797ef36265d3b676eb908ebe80e50f"
+        }
+      ],
+      "magnifiedChineseCropSha256": "200ac1127b510ff91ef1d6642b3cc28b41ad46eaf1074a7f28be6154ee8affa7"
+    },
+    {
+      "id": "volume3-correction-034",
+      "cnPdfPage": 211,
+      "cnPrintedPage": "205",
+      "section": "5.4.1题10的初始LOSER位置可能性",
+      "enPdfPages": [
+        344
+      ],
+      "original": "因为外部结点P+j不会位于内部结点j下方的子树中",
+      "final": "因为外部结点P+j可能不位于内部结点j下方的子树中",
+      "basis": "英文明确may not lie，原中文把可能不在误写成一律不在。仅恢复可能性限定；例如同节P=4时j=3的外部结点7就是内部结点3的直接子结点，足以排除原普遍否定，但不改变算法或解答整题。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "4782a3eb34afda0ecf406eea4f39d42db23a48a094f464ed4ea07b330c34577a",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 211,
+          "sha256": "f7799986bdef1b5d522d29d58cbc357d2e4eb4cc4631ad5c80330a1af24d0b42"
+        },
+        {
+          "language": "en",
+          "pdfPage": 344,
+          "sha256": "74b2dee00f3a29e99d6b3298822976a798c634da4717c75cf303d416a83408f2"
+        }
+      ],
+      "magnifiedChineseCropSha256": "e77b379068006cd3ecbb9180e22d929b326e5c00a423902189415c981bea4e48"
+    },
+    {
+      "id": "volume3-correction-035",
+      "cnPdfPage": 222,
+      "cnPrintedPage": "216",
+      "section": "5.4.2式(15)后T_n的未编号递推",
+      "enPdfPages": [
+        359
+      ],
+      "original": "T_n(x)=5A_(n−1)(x)+4A_(n−2)(x)+3A_(n−3)(x)+2A_(n−4)(x)+A_(n−5)(x)",
+      "final": "T_n(x)=x(5A_(n−1)(x)+4A_(n−2)(x)+3A_(n−3)(x)+2A_(n−4)(x)+A_(n−5)(x))",
+      "basis": "两源该未编号式均缺整式因子x；同源(13)五个分量均带x，求和(15)应保外因子。只n1见证：A0=1/负下标A=0给原式5而(13)(15)与(16)[z1]/原表(17)均给5x。最小仅加整个RHS的x，保5/4/3/2/1和所有下标；第二模型独立只读源核同意。不称一般GF或最优性新证明，也不称作者官方勘误。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "5d94bbbe46bc488bf476791fefc92d836b520eab60ce21c363fd6cb099935f19",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 222,
+          "sha256": "444b4782101c1062e0e2c83d61f1b022d0d7f38fc84677076d7fa5749ba9454b"
+        },
+        {
+          "language": "en",
+          "pdfPage": 359,
+          "sha256": "28b80cb714efeaefe63f78438710cbbbd92f22346ce6646b68e596eafe51efbb"
+        }
+      ],
+      "magnifiedChineseCropSha256": "34f9801b037c3373324b567d600024a739753a588c7588cb18b81534ff60b438",
+      "independentSourceReview": "assets/volume3/review/polyphase222-missing-x-independent-source-check.json",
+      "independentSourceReviewSha256": "b60e082a4f3188ca9bd0a45b8229dc8f4c5e09dec05fd0894998423e77a87727"
+    },
+    {
+      "id": "volume3-correction-036",
+      "cnPdfPage": 232,
+      "cnPrintedPage": "226",
+      "section": "5.4.3级联合并的降阶编号括注",
+      "enPdfPages": [
+        375
+      ],
+      "original": "这一节的编号也许应当是5.4.2.1，而不是5.4.3！",
+      "final": "这一节的编号也许应当是5.4.3.2.1，而不是5.4.3！",
+      "basis": "所附英文375明确5.4.3.2.1，承接上句五路、四路、三路、两路、一路递减的原编号玩笑；中文放大原图确少3。仅括注插入3恢复英文，不更改真实节号5.4.3、章节标题或锚点。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "f17bf0f093ae359082277efca3122ce1dcad1c309b7e56619c35ac88d3e4a012",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 232,
+          "sha256": "dd4ad6318d1258fcf50f89619bcc1cd2c7540f3e445fabfa4dd7ad3aca6cd524"
+        },
+        {
+          "language": "en",
+          "pdfPage": 375,
+          "sha256": "00b44a284de212d2a8e51d0ea9fba9795db2eb9769e453ce5b9aaa30f71384bd"
+        }
+      ],
+      "magnifiedChineseCropSha256": "aa0362aecc7b3f760189c31722544b0cb421a71f64a8a4d37eac6fd316a2c3f5"
+    },
+    {
+      "id": "volume3-correction-037",
+      "cnPdfPage": 236,
+      "cnPrintedPage": "230",
+      "section": "5.4.3算法C的TAPE字段",
+      "enPdfPages": [
+        379
+      ],
+      "original": "对应于第j号逻辑磁带单元的物理磁带单元数目",
+      "final": "对应于第j号逻辑磁带单元的物理磁带单元编号",
+      "basis": "英文明确Number of the physical tape unit corresponding to logical tape unitj，即对应物理磁带单元的编号；C1 TAPE[k]=k和C2/C9编号置换亦明确这是unit identifier，不是数量。仅数目改编号，任何算法条件/步骤不改。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "5bb60900e8e85a7041a5975aba689b30a340aa3964edf9e2680b8444a64f55ae",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 236,
+          "sha256": "310d5172e11663bae389c750ab3d535eeb3499fc7e1c1c79be0e560023b4b5c1"
+        },
+        {
+          "language": "en",
+          "pdfPage": 379,
+          "sha256": "5ca1f9ed58f859298b8b59cc9a15e9723b0e290525076445d5adca2eb1ae1c9d"
+        }
+      ],
+      "magnifiedChineseCropSha256": "26a0e43f89e50fbc7308a35aaab8078251d94fd784b387b3d8dbba5557ca02c9"
+    },
+    {
+      "id": "volume3-correction-038",
+      "cnPdfPage": 240,
+      "cnPrintedPage": "234",
+      "section": "5.4.3折中与级联合并的性能限定",
+      "enPdfPages": [
+        385
+      ],
+      "original": "折衷合并的性能绝不会优于级联合并本身",
+      "final": "折衷合并的性能绝不会显著优于级联合并本身",
+      "basis": "英文never substantially better，原中文漏程度限定而变成严格不可能更好；只补显著，保原直接分布/忽略回卷/渐近历史比较域，不另立性能界。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "f0884dedb1465aed8c2e1e6dce7240089e26621dd0826605f26fb2048c6d917e",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 240,
+          "sha256": "c81895dd96da12bb05a0d256955a1d7165bcafe5eda90b75694effd2958a5b52"
+        },
+        {
+          "language": "en",
+          "pdfPage": 385,
+          "sha256": "5734640decc41d90c450e29266e83d2191f0f3c2effa3e233c9a5c3c507f0e03"
+        }
+      ],
+      "magnifiedChineseCropSha256": "3321628119f1e94e03f3d3e18be0fab66538f8d0bfd2faf78c6b66bd4acafdb9"
+    },
+    {
+      "id": "volume3-correction-039",
+      "cnPdfPage": 241,
+      "cnPrintedPage": "235",
+      "section": "5.4.3题10的c_n展开末项",
+      "enPdfPages": [
+        387
+      ],
+      "original": "−binom(5,5)a_(n−5)",
+      "final": "+binom(5,5)a_(n−5)",
+      "basis": "两源右式均印负号，但同一原题左式3a_(n−1)−d_(n−2)−2e_(n−2)按原已核分布n5给3×55−9−2×5=146，右原式3×55−4×5−1=144；只最后符号改正给146。所有系数下标与其他两行不变，非一般递推新证明。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "b31f562603331385d9c1b3f5baa287894f4316701e6c2780e267d5e030b5419e",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 241,
+          "sha256": "28069eef4c421f30bb4c33038477d5b24e1e23aa61d93f5874ad53086ee6b1e7"
+        },
+        {
+          "language": "en",
+          "pdfPage": 387,
+          "sha256": "932336a86f9f51f11b9611f7985a85fda1ec9ad0673109b231464c66b1a6e4d5"
+        }
+      ],
+      "magnifiedChineseCropSha256": "81895dd7995ee842df23302661e04745137bfea5b2fb48aef5cbf91e6c286379",
+      "independentSourceReview": "assets/volume3/review/cascade-c5-241-independent-source-check.json",
+      "independentSourceReviewSha256": "f7ba28f4d926fdc9c63f277f782cbdb7c1225ecc3580cea6766e2cabb3ccece7"
+    },
+    {
+      "id": "volume3-correction-040",
+      "cnPdfPage": 239,
+      "cnPrintedPage": "233",
+      "section": "5.4.3括注q_m端点值",
+      "enPdfPages": [
+        384
+      ],
+      "original": "q_m(±2)=2m+1",
+      "final": "q_m(±2)=(−1)^m(2m+1)",
+      "basis": "两源括注实际无符号因子；原式5的m1多项式q1=1−z²给±2处−3，原值+3不符；同页Chebyshev说明带(−1)^m。第二模型实际原图与m1代数独立确认，仅插该因子，不改变不等于±2结论或根表，不称一般证明或官方勘误。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "f3699c6ffc7aa3a66a42a40253de6290122dfe102fa604fd1148c5cbf3704aec",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 239,
+          "sha256": "e6d8752fababd349973fec3c69e451cb74818d3e1ad7277ee8ebb02ce180f972"
+        },
+        {
+          "language": "en",
+          "pdfPage": 384,
+          "sha256": "678c771eeeb8dcf05dcf956f4c2698584ad1abb3b2e8c0df5748523083029523"
+        }
+      ],
+      "magnifiedChineseCropSha256": "62499f3f16274f260971416558d163039532ac0f82cd0575381af642b1303afe",
+      "independentSourceReview": "assets/volume3/review/cascade-qm239-endpoint-independent-source-check.json",
+      "independentSourceReviewSha256": "1dffdd8611d23ac98423ce4d8acba9f4df76b583dd1db6db6340cd53bf58e1ea"
+    },
+    {
+      "id": "volume3-correction-041",
+      "cnPdfPage": 240,
+      "cnPrintedPage": "234",
+      "section": "5.4.3题4不同后继分布数的上界",
+      "enPdfPages": [
+        386
+      ],
+      "original": "可以构造出5!种不同的第n+1级分布",
+      "final": "可以构造出至多5!种不同的第n+1级分布",
+      "basis": "英文明确up to5!，原中文漏上界限定；多重集可以有重复元素，如原第0级含四个0，因此不同结果不能一律断言120。仅恢复至多，原多重集符号/题域及题a,b不改。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "f0884dedb1465aed8c2e1e6dce7240089e26621dd0826605f26fb2048c6d917e",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 240,
+          "sha256": "c81895dd96da12bb05a0d256955a1d7165bcafe5eda90b75694effd2958a5b52"
+        },
+        {
+          "language": "en",
+          "pdfPage": 386,
+          "sha256": "e0af52a32b81b7c046bfe7b8837ab553e4ac3d14c9793f10b366ed1879af0fe1"
+        }
+      ],
+      "magnifiedChineseCropSha256": "d44d8c8662f9fef4e828a7c03531398b83899981866675e57b67f5044d516700"
+    },
+    {
+      "id": "volume3-correction-042",
+      "cnPdfPage": 242,
+      "cnPrintedPage": "236",
+      "section": "5.4.4十四游程级联合并的介质",
+      "enPdfPages": [
+        388
+      ],
+      "original": "考虑排序四条磁盘上的十四个初始游程",
+      "final": "考虑排序四条磁带上的十四个初始游程",
+      "basis": "英文实际388页底写four tapes；该例使用T1–T4，整节为磁带反向读取。仅磁盘改磁带，其余示例状态不改。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "4a5639256fcfd37654907ad3152efb53c0c7db387ff83f6cb0c83575565a7c03",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 242,
+          "sha256": "59ad9e6cd01bf462c718f8963a65dbae7086b6d45737c61a88c52065d80b23f5"
+        },
+        {
+          "language": "en",
+          "pdfPage": 388,
+          "sha256": "d2d381dcdcd0db44fe4da6fe353de9d1deace5f67aa555fc169e86b3522a5e71"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-043",
+      "cnPdfPage": 243,
+      "cnPrintedPage": "237",
+      "section": "5.4.4分布表(1)后的递减计数",
+      "enPdfPages": [
+        390
+      ],
+      "original": "这些游程采用递减顺序排列",
+      "final": "这些游程数按递减顺序排列",
+      "basis": "英文实际390为T2throughT5gettheevennumbers,in decreasingorder，递减修饰游程数。该节每带游程方向本为ADA交替，不能将计数大小误作游程内记录递减。仅明确数与按字，不改分布或方向算法。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "61f76246d2ee941d813c504f3849d06a42a4f4e60c65a2a0b4fc0379395cf6ad",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 243,
+          "sha256": "dfa7306eb8dd1391dc877df911991f180c78b6f96e8169d1eed8e3371171077e"
+        },
+        {
+          "language": "en",
+          "pdfPage": 390,
+          "sha256": "acd2d01b32983fb9aff41b4637ab2d2ccab48bf85685e048d3781c8e2b68cce9"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-044",
+      "cnPdfPage": 247,
+      "cnPrintedPage": "241",
+      "section": "5.4.4固定T的构造最优性",
+      "enPdfPages": [
+        396
+      ],
+      "original": "要给出接近最优的构造并不是特别困难",
+      "final": "要给出渐近最优的构造并不是特别困难",
+      "basis": "所附英文396明确constructions that are asymptotically optimal,for any fixed T。中文接近最优遗漏渐近意义，恢复渐近最优；不新增此一般结论的独立证明。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "e53c1a1ac9adce2438f598fe665feaf16904a23700e3af4c8b318ad23cf9fa42",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 247,
+          "sha256": "2a7a778e5fc19befa4dafeda6bee0d8412246533419722f6b7e012564af08444"
+        },
+        {
+          "language": "en",
+          "pdfPage": 396,
+          "sha256": "80b5ce13ca62a4b87889d973fbf1a2fec161b7f3f2f9c7bf612405be70351328"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-045",
+      "cnPdfPage": 245,
+      "cnPrintedPage": "239",
+      "section": "5.4.4树表示的组成关系",
+      "enPdfPages": [
+        393
+      ],
+      "original": "每个内部结点的后代都是该结点生成的游程",
+      "final": "每个内部结点的后代都是用来生成该结点所代表游程的游程",
+      "basis": "英文393明确the descendants ... are the runs from which it was fabricated。后代表示合成该内部结点游程的组成游程，中文生成方向倒置；只恢复组成关系，不改图76、编号或磁带标记。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "4f29bc442c32e8955b853c681d9b4d3c280dd31beb51c006a68a7baf47f7be75",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 245,
+          "sha256": "b56079f47e9560f8e42f39c01e1c91def20501c0493b26c1914411815d6f6f6c"
+        },
+        {
+          "language": "en",
+          "pdfPage": 393,
+          "sha256": "359d4f498f5778436f5aed0060226b36e25a97e7de17985616e8d736e8d58697"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-046",
+      "cnPdfPage": 32,
+      "cnPrintedPage": "26",
+      "section": "5.1.2题24的R排序选择规则",
+      "enPdfPages": [
+        59,
+        60
+      ],
+      "original": "重复找出使得x_j>x_(j+1)的最大x_j",
+      "final": "重复找出使得x_j>x_(j+1)的最大j",
+      "basis": "作者2006-01-01官方all3-prepre物理5，传统英文Page35line2明确the largest x_j→the largest j；已实际看原图，提供CN032/EN059仍旧词。只最大选择指标一处，原五因子右嵌套不改；按答24b原始块，上行右旋标签/下行标签，原15字例嵌套及整体sort均精确回式12，旧maxvalue两tie失败保历史，不称一般R新证明。",
+      "isAuthorOfficialErratum": true,
+      "officialDate": "2006-01-01",
+      "officialTraditionalPage": 35,
+      "officialLine": 2,
+      "officialSourceUrl": "https://www-cs-faculty.stanford.edu/~knuth/all3-prepre.ps.gz",
+      "officialEvidence": "assets/volume3/review/R-sort032-official-resolution.json",
+      "officialEvidenceSha256": "0615c712a8f67002096e74190e3800b975e26965d3574076429643695220c9e4",
+      "pageMarkdownSha256": "73eb807ac58ff61de390452fcb50159e2b8c56f37fdd9411403f2024672c3093",
+      "originalPageMarkdownSha256": "49e7e3c269e30ae68664e7f6459a208d2bd0a83be546d2002a8ea58dcf65b2a8",
+      "currentRevisionReview": "assets/volume3/review/page-032-official-R-revision.json",
+      "currentRevisionReviewSha256": "96ddd9c3eafb18ec5b8ab20b53dc85e85f4534370da1c7dedebc644e49abeae8",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34"
+    },
+    {
+      "id": "volume3-correction-047",
+      "cnPdfPage": 255,
+      "cnPrintedPage": "249",
+      "section": "5.4.5戈茨算法的历史专利叙述",
+      "enPdfPages": [
+        408,
+        409
+      ],
+      "original": "在1968年至1988年，未经专利人允许没有人可以在程序中合法使用这个算法",
+      "final": "在1968年至1988年，未经专利人允许，在美国没有人可以在程序中合法使用这个算法",
+      "basis": "所附EN408明确no one in the U.S.A. could legallyuse…withoutpermission，CN255漏地域限定。只插在美国，原作者历史叙述/日期/括注保留，不作当前法律意见或重新裁断专利法。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "94d42473a347a07ff12651d3839420db80dc7a65d5cdf6c6f1601e273b2c93de",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 255,
+          "sha256": "4fbe7dee418765187edfad79c56ff204e2599aa6d83c49ee4dbc7529e0f931b9"
+        },
+        {
+          "language": "en",
+          "pdfPage": 408,
+          "sha256": "9bc96ae5c2b3e5367ecff37348e85bb9dc9776603eea6e21c038d8c42e9d8d75"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-048",
+      "cnPdfPage": 267,
+      "cnPrintedPage": "261",
+      "section": "5.4.6替代选择能否跟上输入磁带",
+      "enPdfPages": [
+        430
+      ],
+      "original": "图表A的示例中是可以的",
+      "final": "图表A的示例中大概是可以的",
+      "basis": "EN430明确it probably can，中文漏概率限定；只恢复大概，不把历史硬件近似说明加强成性能保证。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "25201e3b4a1de6cd5b90031063ca46c7773605c73929d835996a55438941b59e",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 267,
+          "sha256": "33d33cb5913e0f3a7267c030b289fb0415738e3b10010d52708e9b827d7b35ea"
+        },
+        {
+          "language": "en",
+          "pdfPage": 430,
+          "sha256": "2164ad3a608f6e59d2633ed90b8f68ed23141ac23295dc5faa8357d964309123"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-049",
+      "cnPdfPage": 268,
+      "cnPrintedPage": "262",
+      "section": "5.4.6例9每批游程数",
+      "enPdfPages": [
+        432
+      ],
+      "original": "每次分布P−1至2P−1个游程，长度平均为P",
+      "final": "每次分布P−1至2P−1个游程，数目平均为P",
+      "basis": "EN432bursts of P−1 to2P−1 runs … averaging P in length指每批所含游程数；下一分句才给实际平均游程长度Pprime(2P−4/3)/P。CN把批的长度误挂到单游程，恢复数目；原式和程序不改。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "0a391d5ce2589d1da553f0d1d9fee35c39bd4e16c1061151df3a27067057db30",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 268,
+          "sha256": "d6a9cc3fc6e36201b342e77ba1dc2ec6e1204f970a2cf059a858b2d7fa000c1b"
+        },
+        {
+          "language": "en",
+          "pdfPage": 432,
+          "sha256": "7e0673697b579548a251c4c9fd334dba94f51cc8313a50a049217d5973334b37"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-050",
+      "cnPdfPage": 270,
+      "cnPrintedPage": "264",
+      "section": "5.4.6排序分析发现系统缺陷的经验",
+      "enPdfPages": [
+        434
+      ],
+      "original": "人们知道这个过程会发现现有系统上输入/输出硬件或软件中的缺陷",
+      "final": "这个过程曾发现现有系统上输入/输出硬件或软件中的缺陷",
+      "basis": "EN434has been known to turn up bugs是已有经验；中文会发现把经验写成将来保证，恢复曾发现，不改后续原历史叙述。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "228786a342937791f5206ad5958d6e6f90fecd5c74e86670c367746e70cc3132",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 270,
+          "sha256": "160629c4cd82c5407d696a964236365e558d9b1e83021725d2b5791b263c43d9"
+        },
+        {
+          "language": "en",
+          "pdfPage": 434,
+          "sha256": "1ad03902b549dbb2bd2297ae2671fbbc0bee9f02dd87c609ee82f9809c15d7b2"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-051",
+      "cnPdfPage": 270,
+      "cnPrintedPage": "264",
+      "section": "5.4.6堆排序同时性限定",
+      "enPdfPages": [
+        434
+      ],
+      "original": "唯一可以同时读、写和计算的是堆排序",
+      "final": "看来唯一适合同时读、写和计算的是堆排序",
+      "basis": "EN434appears to be amenable保留判断限定；中文省略appears，恢复看来，原12步流式堆策略保持。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "228786a342937791f5206ad5958d6e6f90fecd5c74e86670c367746e70cc3132",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 270,
+          "sha256": "160629c4cd82c5407d696a964236365e558d9b1e83021725d2b5791b263c43d9"
+        },
+        {
+          "language": "en",
+          "pdfPage": 434,
+          "sha256": "1ad03902b549dbb2bd2297ae2671fbbc0bee9f02dd87c609ee82f9809c15d7b2"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-052",
+      "cnPdfPage": 271,
+      "cnPrintedPage": "265",
+      "section": "5.4.6小结中的实验假设",
+      "enPdfPages": [
+        437
+      ],
+      "original": "在理想的假定条件下",
+      "final": "在现实的假定条件下",
+      "basis": "EN437此句明确under realistic assumptions，而上段另说idealistic assumptions；不混同两段，按本句恢复现实。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "1fbe4dcb8eaa0d90f6f80503aecd90cf6b0eb35f6647daff2586c778856a0393",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 271,
+          "sha256": "10eea13b7430f3fdc86646d83748d50de7662ce2543ccaf7da84292173b72e87"
+        },
+        {
+          "language": "en",
+          "pdfPage": 437,
+          "sha256": "cc5718b2d98420ab418e8c96304d1c7574233aabd4e48490d58d524426836d9a"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-053",
+      "cnPdfPage": 272,
+      "cnPrintedPage": "266",
+      "section": "5.4.6自有编码插入位置",
+      "enPdfPages": [
+        438
+      ],
+      "original": "在排序例程的第一遍扫描和最后一遍扫描之间集成的特殊指令序列",
+      "final": "在排序例程的第一遍扫描和最后一遍扫描中集成的特殊指令序列",
+      "basis": "EN438incorporated into the first and last passes为集成到首末扫描中，并非首末扫描之间；后文分别解释first-pass/last-pass，最小删间字。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "c2e6121f46b7ab8df715a15670de226f9eea218a5ac1beb94bb04957fd020e9b",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 272,
+          "sha256": "b6b35b069c0aec4951b82fd733a3508e1c708cf60938a85e37145fc177a63629"
+        },
+        {
+          "language": "en",
+          "pdfPage": 438,
+          "sha256": "4a11edbd278c59c70b4c3f80d7b46d8654eec93e7f090c5c5ec889669ba8ade3"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-054",
+      "cnPdfPage": 272,
+      "cnPrintedPage": "266",
+      "section": "5.4.6星号小标题",
+      "enPdfPages": [
+        438
+      ],
+      "original": "使用较小缓冲区的合并",
+      "final": "使用较少缓冲区的合并",
+      "basis": "EN438fewer buffers及随后的数目少于2P+2明确讨论缓冲区个数，原较小误作容量；恢复较少，原模型和数量条件不改。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "c2e6121f46b7ab8df715a15670de226f9eea218a5ac1beb94bb04957fd020e9b",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 272,
+          "sha256": "b6b35b069c0aec4951b82fd733a3508e1c708cf60938a85e37145fc177a63629"
+        },
+        {
+          "language": "en",
+          "pdfPage": 438,
+          "sha256": "4a11edbd278c59c70b4c3f80d7b46d8654eec93e7f090c5c5ec889669ba8ade3"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-055",
+      "cnPdfPage": 273,
+      "cnPrintedPage": "267",
+      "section": "5.4.6生成函数分析的描述",
+      "enPdfPages": [
+        439
+      ],
+      "original": "用下面的重要方式分析",
+      "final": "用下面的有趣方式分析",
+      "basis": "EN439following interesting way，中文把interesting译为重要；仅恢复有趣，不改马尔可夫模型或生成函数。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "021d1d1071fc0776b367f9010c8334e1b6554b4a88128f60762ae20f99fa5b2e",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 273,
+          "sha256": "7aafe32f6ee04e5fd78617ba1d07de969a8776b04169a1b0a864064918902f51"
+        },
+        {
+          "language": "en",
+          "pdfPage": 439,
+          "sha256": "dec0cda87c4fd540c536767bd5fda131a34f962d7f36550d682153e5726bc035"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-056",
+      "cnPdfPage": 278,
+      "cnPrintedPage": "272",
+      "section": "5.4.7振荡基数排序的引句",
+      "enPdfPages": [
+        448
+      ],
+      "original": "振荡合并排序也它在对偶意义下的对应物",
+      "final": "振荡合并排序也存在对偶意义下的对应物",
+      "basis": "实际CN278高倍印也它在，为底本错字非仅OCR；EN448have their counterparts too under duality，最小它→存使句通顺，后续算法/历史引文不变。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "c72b6eb888b3e0547dcab0cb917cd73a5262f78817ec2596c00e5f42b9436f9e",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 278,
+          "sha256": "09bcbcaddd67ffff9907dd89574ffdeae8151d9c60bd08e1a47ce35669e54ba6"
+        },
+        {
+          "language": "en",
+          "pdfPage": 448,
+          "sha256": "0ce0b11f2bf0ce21b9d8ca59b7eea1a9ff4a398c3e9df789a817786a66f2cf90"
+        }
+      ],
+      "magnifiedSourceCropSha256": "0e4fda05e969484f25aec3275bf2b399af3d5522d64a394a5a51e5d5d042e459"
+    },
+    {
+      "id": "volume3-correction-057",
+      "cnPdfPage": 279,
+      "cnPrintedPage": "273",
+      "section": "5.4.8三磁带引言",
+      "enPdfPages": [
+        449
+      ],
+      "original": "没有多余磁带操作的合并过程",
+      "final": "没有过多磁带操作的合并过程",
+      "basis": "EN449without excessive tape motion指不过多，原没有多余写成无额外操作；最小多余→过多。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "573081d6c5608a6145a8fefea569fb040cc5fe04a9a0b44f811e4f416c7dc1dc",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 279,
+          "sha256": "2d28b173f588790f68e9adbfb839c7bafe9b69832c5cbceb96fbf8f511acc268"
+        },
+        {
+          "language": "en",
+          "pdfPage": 449,
+          "sha256": "c880970c9cf1d7c0ddaf3675fcf68299e7c821afd7980dc47c2c2c089396d8bb"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-058",
+      "cnPdfPage": 281,
+      "cnPrintedPage": "275",
+      "section": "5.4.8快速排序读取量分析",
+      "enPdfPages": [
+        452
+      ],
+      "original": "在外部划分阶段读取磁带总数的平均值",
+      "final": "在外部划分阶段磁带读取总量的平均值",
+      "basis": "EN452total amount of tape reading，XN/YN定义为读取记录数目；原读取磁带总数易误作磁带条数，恢复读取总量，原渐近系数与式3不变。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "887fc4849194861c42d6218083ed1eb9a3c795e89950f7ba35bb3964e2201e6d",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 281,
+          "sha256": "88d07dc3ff97268b34b061a8a53abf329a951973ee3546b1928717c7a0a79a8a"
+        },
+        {
+          "language": "en",
+          "pdfPage": 452,
+          "sha256": "cff6e71ab7a4071a34f34290cfa4a39f16b10c5ecd093e371772a13a0b84bf0c"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-059",
+      "cnPdfPage": 282,
+      "cnPrintedPage": "276",
+      "section": "5.4.8亨尼–斯特恩斯模拟分析",
+      "enPdfPages": [
+        455
+      ],
+      "original": "在每2^k个步骤中仅扫描区域k一遍",
+      "final": "在每2^k个步骤中才扫描到区域k一次",
+      "basis": "EN455scan up to zone k，扫描范围至该区域而非仅该单区；恢复到字及原频率，原总量式不变。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "df4dd32eb60be37cdd0e8c964a69e624b65bc95f74134077c692f3c587692cc2",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 282,
+          "sha256": "8135df80be29c3ebf991226e85b2b05bca425c4ed6e25c363f5154f0b017c6a2"
+        },
+        {
+          "language": "en",
+          "pdfPage": 455,
+          "sha256": "4321b45ff6f28e55d3a8142bff971ab4d05fda7cf901cdf40295083365308405"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-060",
+      "cnPdfPage": 282,
+      "cnPrintedPage": "276",
+      "section": "5.4.8亨尼–斯特恩斯模拟分析",
+      "enPdfPages": [
+        455
+      ],
+      "original": "对读/写/计算重叠和块间间隙长度等使用最优假定",
+      "final": "对读/写/计算重叠和块间间隙长度等使用乐观的假定",
+      "basis": "EN455optimistic assumptions指估算的乐观假定，非已经证为最优的假定；只恢复形容词，原37小时和渐近界保留。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "df4dd32eb60be37cdd0e8c964a69e624b65bc95f74134077c692f3c587692cc2",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 282,
+          "sha256": "8135df80be29c3ebf991226e85b2b05bca425c4ed6e25c363f5154f0b017c6a2"
+        },
+        {
+          "language": "en",
+          "pdfPage": 455,
+          "sha256": "4321b45ff6f28e55d3a8142bff971ab4d05fda7cf901cdf40295083365308405"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-061",
+      "cnPdfPage": 285,
+      "cnPrintedPage": "279",
+      "section": "5.4.9硬件特性引言",
+      "enPdfPages": [
+        460
+      ],
+      "original": "在为其编写大量程序之前",
+      "final": "在为其编写大型程序之前",
+      "basis": "EN460major programs指大型／重要程序，原大量译成数量多；最小量→型恢复对象。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "289a8be2f4c865b6d789210f8a224316b9d5ad8ea1fb7fbba9730025cb829019",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 285,
+          "sha256": "9130aa907f9afac9e2a6ceee65bc9e37aded08028802cc6acd7d5acd8d495da0"
+        },
+        {
+          "language": "en",
+          "pdfPage": 460,
+          "sha256": "0815d6cc298c498c12710e5206173fef229ce1123c1e64751ecb6e3f5814dbbc"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-062",
+      "cnPdfPage": 287,
+      "cnPrintedPage": "281",
+      "section": "5.4.9半磁道C情形",
+      "enPdfPages": [
+        462
+      ],
+      "original": "最重要的情形发生在磁头初始位置为C时",
+      "final": "最有趣的情形发生在磁头初始位置为C时",
+      "basis": "EN462most interesting case，恢复有趣而非重要，不改读向/缓冲/时间。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "4b187d8426ccdb662decea970d23aeddcdb2bab992d279109e902fba58fed075",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 287,
+          "sha256": "455e00c0d99b6e23fa0a9187847cca2a45a08139527232a8139ccb557bc3e72e"
+        },
+        {
+          "language": "en",
+          "pdfPage": 462,
+          "sha256": "7124f76538aacb7446c273945e30b52865d49c10d689c86602f77409b56b8d5e"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-063",
+      "cnPdfPage": 287,
+      "cnPrintedPage": "281",
+      "section": "5.4.9同柱面操作限定",
+      "enPdfPages": [
+        462
+      ],
+      "original": "如果一次读取一个柱面的几个磁道",
+      "final": "如果一次读取或写入一个柱面的几个磁道",
+      "basis": "EN462read or write several tracks，中文漏写入；补或写入，原首磁道例外和时延结论保留。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "4b187d8426ccdb662decea970d23aeddcdb2bab992d279109e902fba58fed075",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 287,
+          "sha256": "455e00c0d99b6e23fa0a9187847cca2a45a08139527232a8139ccb557bc3e72e"
+        },
+        {
+          "language": "en",
+          "pdfPage": 462,
+          "sha256": "7124f76538aacb7446c273945e30b52865d49c10d689c86602f77409b56b8d5e"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-064",
+      "cnPdfPage": 287,
+      "cnPrintedPage": "281",
+      "section": "5.4.9克服等待时间的引言",
+      "enPdfPages": [
+        461
+      ],
+      "original": "首先来虑使这一延迟最小化的问题",
+      "final": "首先考虑使这一延迟最小化的问题",
+      "basis": "实际CN287放大原图确印来虑，非仅OCR；EN461Let us consider first支持考虑。最小来→考，后续算法/时间式不变。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "4b187d8426ccdb662decea970d23aeddcdb2bab992d279109e902fba58fed075",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 287,
+          "sha256": "455e00c0d99b6e23fa0a9187847cca2a45a08139527232a8139ccb557bc3e72e"
+        },
+        {
+          "language": "en",
+          "pdfPage": 461,
+          "sha256": "a49db8188351105fc11e47b64dd04109c77a72e0a047241532f2c30dd663ebf2"
+        }
+      ],
+      "magnifiedSourceCropSha256": "3b0f843c7cd26fe8f06d7fa36d35deb17f3dbfe87ecfa602984902770d7a8aaf"
+    },
+    {
+      "id": "volume3-correction-065",
+      "cnPdfPage": 290,
+      "cnPrintedPage": "284",
+      "section": "5.4.9路径长度模型的描述",
+      "enPdfPages": [
+        467
+      ],
+      "original": "构造出色磁盘合并模式的一种重要方式",
+      "final": "构造出色磁盘合并模式的一种有趣方式",
+      "basis": "EN467an interesting way，恢复有趣译义；原时间模型、两定理和所有式不变。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "ed25074e55a292e7e9493724aeb1874ab36d7892ffbe755949d5904595ce2be4",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 290,
+          "sha256": "2c11d97090d657c15e99c58f9d79f9c3fa37a5200584004e252a0a5f7bab2be0"
+        },
+        {
+          "language": "en",
+          "pdfPage": 467,
+          "sha256": "96bf44809cf515908396625121cd09aedc5eff429043a2fd8f8c40a980263eba"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-066",
+      "cnPdfPage": 292,
+      "cnPrintedPage": "286",
+      "section": "5.4.9",
+      "enPdfPages": [
+        470
+      ],
+      "original": "输入通常被展开并（或）写到磁带上",
+      "final": "输出通常被展开并（或）写到磁带上",
+      "basis": "EN470theoutputisoftenexpandedand/orwrittenontotape，恢复最终合并的输出对象。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "5d677c3ce493cd93fe1cf54b5247ddc246392dd02aca740f028f58f2d6d11e11",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 292,
+          "sha256": "523d9a673b44b52d0ae1ca848fad7d2a424ad24f2cc3a3380c1a26a49be3dd54"
+        },
+        {
+          "language": "en",
+          "pdfPage": 470,
+          "sha256": "dc7c331f81aeccc99c3f7170a0c411407dcc52f7a46bb66d4c69414b47a4dc6a"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-067",
+      "cnPdfPage": 292,
+      "cnPrintedPage": "286",
+      "section": "5.4.9",
+      "enPdfPages": [
+        470
+      ],
+      "original": "这个性质的正确性是由以下引理得出的",
+      "final": "这个性质与当前问题的关联可由以下引理看出",
+      "basis": "EN470Therelevanceofthisproperty，原引理解释凸性与最优化的关联，并非证明给定f凸性。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "5d677c3ce493cd93fe1cf54b5247ddc246392dd02aca740f028f58f2d6d11e11",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 292,
+          "sha256": "523d9a673b44b52d0ae1ca848fad7d2a424ad24f2cc3a3380c1a26a49be3dd54"
+        },
+        {
+          "language": "en",
+          "pdfPage": 470,
+          "sha256": "dc7c331f81aeccc99c3f7170a0c411407dcc52f7a46bb66d4c69414b47a4dc6a"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-068",
+      "cnPdfPage": 293,
+      "cnPrintedPage": "287",
+      "section": "5.4.9",
+      "enPdfPages": [
+        472
+      ],
+      "original": "另外几种非常重要的性质",
+      "final": "另外几种非常有趣的性质",
+      "basis": "EN472veryinterestingproperties，恢复译义。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "405859f81f319040dda8ee82d3a59057c59b54282322a9ecb0540226ef947a47",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 293,
+          "sha256": "dc6a9a390f0b23ade10cd42c2dbcc7f4283003a6947ad513f6f284a762f5d897"
+        },
+        {
+          "language": "en",
+          "pdfPage": 472,
+          "sha256": "2c2469383a6e92f10784d428a31ae0610d25a6f68b52a76a50191048360e9482"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-069",
+      "cnPdfPage": 294,
+      "cnPrintedPage": "288",
+      "section": "5.4.9",
+      "enPdfPages": [
+        473
+      ],
+      "original": "提出了一种重要方式",
+      "final": "提出了一种有趣方式",
+      "basis": "EN473aninterestingway，恢复链接使用段译义。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "2d1dd62a1498cc99aa3e8912d05d4dbc38d7a8601972448af1c7ca4fdafef270",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 294,
+          "sha256": "af42c1351c2adad7e53a277c3125720ff039032ade566b8e68656ec093e86741"
+        },
+        {
+          "language": "en",
+          "pdfPage": 473,
+          "sha256": "de33a9e815628f502d03dc1209981d908012a265b0e09b82422282d6ad2848b4"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-070",
+      "cnPdfPage": 295,
+      "cnPrintedPage": "289",
+      "section": "5.4.9",
+      "enPdfPages": [
+        474
+      ],
+      "original": "SyncSort的重要算法",
+      "final": "SyncSort的有趣算法",
+      "basis": "EN474aninterestingalgorithm，恢复译义。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "58d048b138d260d2fb3b6e2ed777b026dc568844d466423120a237eb7213a17a",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 295,
+          "sha256": "a4fc6aa130258288a53b135b22e52128e15290bec2b9231ca554343f7a9a6420"
+        },
+        {
+          "language": "en",
+          "pdfPage": 474,
+          "sha256": "c12538bd289b2385da40d6fdb6efad9df864195fada60c6120bc14aa3fa76664"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-071",
+      "cnPdfPage": 295,
+      "cnPrintedPage": "289",
+      "section": "5.4.9",
+      "enPdfPages": [
+        475
+      ],
+      "original": "输入和输出操作的执行速度都快了D倍",
+      "final": "输入和输出操作的执行速度最多快D倍",
+      "basis": "EN475runuptoDtimesfaster，恢复上界限定。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "58d048b138d260d2fb3b6e2ed777b026dc568844d466423120a237eb7213a17a",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 295,
+          "sha256": "a4fc6aa130258288a53b135b22e52128e15290bec2b9231ca554343f7a9a6420"
+        },
+        {
+          "language": "en",
+          "pdfPage": 475,
+          "sha256": "1938b30919f28d2e160e7a901cfd993e1ffc7ee0277252d40ee7374418050b85"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-072",
+      "cnPdfPage": 297,
+      "cnPrintedPage": "291",
+      "section": "5.4.9",
+      "enPdfPages": [
+        477
+      ],
+      "original": "取代总是不变地输入D个块，他们从每个磁盘输入一个块，并引入一种简单机制",
+      "final": "他们不再坚持总是输入D个块、每个磁盘各一个，而是引入一种简单机制",
+      "basis": "Instead of insisting that D blocks are constantly being input, one from each disk;恢复不再强制每盘各1块的原限定。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "bf63d1783cd5a602687679891b1460d66f34b698951b0566e99fd752ae11ec94",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 297,
+          "sha256": "14ea875ce78800e4fd101f7ee6cd82f1724f2cfc271ad71e465d9ebb40bb7615"
+        },
+        {
+          "language": "en",
+          "pdfPage": 477,
+          "sha256": "13a57078c0464c39ab4f40c42eefb5de5edd9bc3cbe7d614648be985ff23252f"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-073",
+      "cnPdfPage": 297,
+      "cnPrintedPage": "291",
+      "section": "5.4.9",
+      "enPdfPages": [
+        478
+      ],
+      "original": "将会使任意特定的按时间排列的序列的拥塞降至最低",
+      "final": "将趋于使任意特定的按时间排列的序列的拥塞降至最低",
+      "basis": "will tend to minimize，恢复随机偏移作用的趋向限定。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "bf63d1783cd5a602687679891b1460d66f34b698951b0566e99fd752ae11ec94",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 297,
+          "sha256": "14ea875ce78800e4fd101f7ee6cd82f1724f2cfc271ad71e465d9ebb40bb7615"
+        },
+        {
+          "language": "en",
+          "pdfPage": 478,
+          "sha256": "c3c7b55440c95c5e4867b6f014d8cdc1b1264ef2cc4751246762570f9b6fcbaf"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-074",
+      "cnPdfPage": 298,
+      "cnPrintedPage": "292",
+      "section": "5.4.9",
+      "enPdfPages": [
+        479
+      ],
+      "original": "平均来说将实现最少数量的磁盘读取，该数量不超过因数r(D,Q+2)",
+      "final": "平均所需的磁盘读取次数至多为最小次数的r(D,Q+2)倍",
+      "basis": "achieve the minimum number of disk reads within a factor of r(D,Q+2), on the average；恢复相对最小次数的倍率上界，不是声称恰达最小。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "e1380cc61710b677e9206d9db20c0529d8b7bea5fce9c05473d009102754a47c",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 298,
+          "sha256": "cef337b79a07cfb5fc2f79be7527477f86d58f83676d097b71332aef9c9ff317"
+        },
+        {
+          "language": "en",
+          "pdfPage": 479,
+          "sha256": "4c9e129e84caa75858ad8500eba10a04b578631683594abca1b72ceccd2aa622"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-075",
+      "cnPdfPage": 302,
+      "cnPrintedPage": "296",
+      "section": "5.4.9习题22",
+      "enPdfPages": [
+        486
+      ],
+      "original": "希望用a个块来存储键alpha_j，用b个块来存储键beta_j",
+      "final": "希望把键alpha_j与a块存放在一起，把键beta_j与b块存放在一起",
+      "basis": "EN486storethekeysalpha_jwiththeablocksandthekeysbeta_jwiththebblocks；a/b是两文件块的标记，非块数量。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "d4e224c6d07cf7241c3d3a6b35cf16d07c4dc2ccea4fc1d87591b8624ac98e6d",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 302,
+          "sha256": "fc5464d6dfe6f95a14e04c6e2123bf191c80557651514e1745591fbfa98c9034"
+        },
+        {
+          "language": "en",
+          "pdfPage": 486,
+          "sha256": "4b83c7778e371511f99eed4aeed5aff0aac9ac21af6cce0f7f5ad5ddee90c760"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-076",
+      "cnPdfPage": 304,
+      "cnPrintedPage": "298",
+      "section": "5.5",
+      "enPdfPages": [
+        490
+      ],
+      "original": "直接行编码",
+      "final": "直线代码",
+      "basis": "EN490straight-line-coded，恢复无循环的直线代码术语。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "0b32c703a08fe78d49611c8c4b666858320034f85f185ffed56845824f55b05b",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 304,
+          "sha256": "b842d6b953d84dd2a630e1721e7e03cd1895aeabef3a70bc351a5a5994af16c2"
+        },
+        {
+          "language": "en",
+          "pdfPage": 490,
+          "sha256": "3113b7155a989d1a89a8bd1e9e13307e61ac6bb8dfbd5cbf37e356cd6130b9e2"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-077",
+      "cnPdfPage": 304,
+      "cnPrintedPage": "298",
+      "section": "5.5",
+      "enPdfPages": [
+        492
+      ],
+      "original": "针对磁带合并所设计的重要方法",
+      "final": "针对磁带合并所设计的有趣方法",
+      "basis": "EN492interestingmethods，恢复译义。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "0b32c703a08fe78d49611c8c4b666858320034f85f185ffed56845824f55b05b",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 304,
+          "sha256": "b842d6b953d84dd2a630e1721e7e03cd1895aeabef3a70bc351a5a5994af16c2"
+        },
+        {
+          "language": "en",
+          "pdfPage": 492,
+          "sha256": "74720781a7a5c7d3905a40f8e8d7c44d76db2fd3eb7b4bed93415ac32c8fdab6"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-078",
+      "cnPdfPage": 305,
+      "cnPrintedPage": "299",
+      "section": "5.5",
+      "enPdfPages": [
+        491
+      ],
+      "original": "d注止于稍好一点的序列",
+      "final": "d注补N^(7/6)并非严格结果",
+      "basis": "作者2014-09-16传统382/Table5.5-1注d明确添加N^(7/6)isnotrigorous；不改最大列。",
+      "isAuthorOfficialErratum": true,
+      "pageMarkdownSha256": "2c463eb9d8c80c679f6273db3faa0963c4556637e9633a7e5f25b87e319a581e",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 305,
+          "sha256": "b065aa4ebace99d261691624f0a1231a875de1c1b5d0883e8912c93c0e156ad5"
+        },
+        {
+          "language": "en",
+          "pdfPage": 491,
+          "sha256": "c828f538a63c8ed642b908c9ffdb69e4dd946668ad59f5d17d52a21d72353815"
+        }
+      ],
+      "officialSource": {
+        "file": "all3-pre.read.pdf",
+        "sha256": "8783d1c2c0233342ef04d50abfecb4e875297c2c4d09ab476e66df6dfcce0b6b",
+        "physicalPage": 8,
+        "image": "official-table55-footnote-d-p8.png",
+        "imageSha256": "eb637e51f273d0ce791382952f6165638bded47522a9a66c315155721fbccf59",
+        "date": "2014-09-16"
+      }
+    },
+    {
+      "id": "volume3-correction-079",
+      "cnPdfPage": 304,
+      "cnPrintedPage": "298",
+      "section": "5.5",
+      "enPdfPages": [
+        490
+      ],
+      "original": "组合利用上述一种或多种技术",
+      "final": "组合利用上述两种或多种技术",
+      "basis": "作者2016-12-29传统381line-10combiningoneormore->combiningtwoormore。",
+      "isAuthorOfficialErratum": true,
+      "pageMarkdownSha256": "0b32c703a08fe78d49611c8c4b666858320034f85f185ffed56845824f55b05b",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 304,
+          "sha256": "b842d6b953d84dd2a630e1721e7e03cd1895aeabef3a70bc351a5a5994af16c2"
+        },
+        {
+          "language": "en",
+          "pdfPage": 490,
+          "sha256": "3113b7155a989d1a89a8bd1e9e13307e61ac6bb8dfbd5cbf37e356cd6130b9e2"
+        }
+      ],
+      "officialSource": {
+        "file": "all3-pre.read.pdf",
+        "sha256": "8783d1c2c0233342ef04d50abfecb4e875297c2c4d09ab476e66df6dfcce0b6b",
+        "physicalPage": 8,
+        "image": "official-table55-footnote-d-p8.png",
+        "imageSha256": "eb637e51f273d0ce791382952f6165638bded47522a9a66c315155721fbccf59",
+        "date": "2016-12-29"
+      }
+    },
+    {
+      "id": "volume3-correction-080",
+      "cnPdfPage": 306,
+      "cnPrintedPage": "300",
+      "section": "5.5早期发展",
+      "enPdfPages": [
+        492
+      ],
+      "original": "天才的电子制表机",
+      "final": "天才的电气制表机",
+      "basis": "EN492electric tabulating machine，electric不等于electronic；与原电池/触针/水银电路描述一致。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "9c5b6a2c75c311f746037ee989c2f1688aa552ca1ed9f1fdc9874040246e8dc9",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 306,
+          "sha256": "73597c9af9554b2cd1a3838d60c6516f4a3cd5f65e0c111eb8d2441816bb51ed"
+        },
+        {
+          "language": "en",
+          "pdfPage": 492,
+          "sha256": "74720781a7a5c7d3905a40f8e8d7c44d76db2fd3eb7b4bed93415ac32c8fdab6"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-081",
+      "cnPdfPage": 307,
+      "cnPrintedPage": "301",
+      "section": "5.5早期发展",
+      "enPdfPages": [
+        494
+      ],
+      "original": "科姆里是非常偶然地观察到这个重要事实的第一人",
+      "final": "顺便一提，科姆里是首先观察到这个重要事实的人",
+      "basis": "EN494Incidentally为作者插入语，并非声称科姆里的发现是偶然的。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "1cadabae8b26583f350f3bdb252272103729b73d58bf9be2792c373c1c614e19",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 307,
+          "sha256": "038dee3376ba12a059fbcef2ae0afae2a0dd1f570b75dad40e587463e911bfb6"
+        },
+        {
+          "language": "en",
+          "pdfPage": 494,
+          "sha256": "500482b126a89318c3e99477df028ee50a603e4d81c30e1a9a78d0dd301e9164"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-082",
+      "cnPdfPage": 307,
+      "cnPrintedPage": "301",
+      "section": "5.5早期发展",
+      "enPdfPages": [
+        494
+      ],
+      "original": "他的论文特别重要；这一重要发展的细节",
+      "final": "他的论文特别有趣；这一有趣发展的细节",
+      "basis": "两处EN494especiallyinteresting/thisinterestingdevelopment，恢复译义。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "1cadabae8b26583f350f3bdb252272103729b73d58bf9be2792c373c1c614e19",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 307,
+          "sha256": "038dee3376ba12a059fbcef2ae0afae2a0dd1f570b75dad40e587463e911bfb6"
+        },
+        {
+          "language": "en",
+          "pdfPage": 494,
+          "sha256": "500482b126a89318c3e99477df028ee50a603e4d81c30e1a9a78d0dd301e9164"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-083",
+      "cnPdfPage": 308,
+      "cnPrintedPage": "302",
+      "section": "5.5早期发展",
+      "enPdfPages": [
+        496
+      ],
+      "original": "进行两路合并的重要方式",
+      "final": "进行两路合并的有趣方式",
+      "basis": "EN496interestingway，恢复译义。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "fe7618bb4dad60f0b718b665657399a4310a405a769a7a3d0a9c9be4b9f8de2f",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 308,
+          "sha256": "4edc53c4e85e949ab3d289cb94727e797b859b6c57abd86b316242ebda9ca532"
+        },
+        {
+          "language": "en",
+          "pdfPage": 496,
+          "sha256": "bff00b511858a6ec95cc78647ce2af9401f5780670982d8225fbff7bb2d672d7"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-084",
+      "cnPdfPage": 309,
+      "cnPrintedPage": "303",
+      "section": "5.5",
+      "enPdfPages": [
+        497,
+        498
+      ],
+      "original": "第一批缓存方法；特别关注缓存技术",
+      "final": "第一批缓冲方法；特别关注缓冲技术",
+      "basis": "EN497firstbufferingmethods/EN498bufferingtechniques，恢复I/O缓冲术语；310hardwarecache仍保缓存，不全局替换。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "346811366950ca85d29ad806e4f26ec3b43dfad754daf000dbd69fc139192105",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 309,
+          "sha256": "178151dda9db17612b3d04ec42b93afb1ef8cb256ef9bbc16adbc78dde55ca86"
+        },
+        {
+          "language": "en",
+          "pdfPage": 497,
+          "sha256": "e1967d22296f9b102e8369f9ce32240166a7e26668e201e30c2c2778201c2354"
+        },
+        {
+          "language": "en",
+          "pdfPage": 498,
+          "sha256": "e93ca9b8d52d646bfdd238d52159f197777c09596a1cfc8299e93fd86f6f519b"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-085",
+      "cnPdfPage": 310,
+      "cnPrintedPage": "304",
+      "section": "5.5",
+      "enPdfPages": [
+        500
+      ],
+      "original": "但现今的方法还没有提升真正的速度上限",
+      "final": "但现今的方法还没有逼近任何真正根本性的速度限制",
+      "basis": "EN500notyetpushingupagainstanytrulyfundamentallimitationsonspeed，并非说未提升某个上限。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "8101efbd10b2f35b536f47ee7c385cb22629f7ded4c82c6f76e29f8d2176322a",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 310,
+          "sha256": "0139a057dc623d4c96c395803ddd177caa902abf68c7d3f3b816b0015d9bb25b"
+        },
+        {
+          "language": "en",
+          "pdfPage": 500,
+          "sha256": "ac8711fd615a26594cf6733f4762fbd740aa9b893ad47de811d9f24f5439c36c"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-086",
+      "cnPdfPage": 311,
+      "cnPrintedPage": "305",
+      "section": "5.5",
+      "enPdfPages": [
+        501
+      ],
+      "original": "它现在是有效的，在从今往后的一百年内可能还是有效的",
+      "final": "它现在是有趣的，在从今往后的一百年内可能还是有趣的",
+      "basis": "EN501interestingnow/probablyinteresting100yearsfromnow，恢复题5(i)要求。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "598a1af87c32e0960b842bf50fc3fbdbaa7bcd4fd28af8e93c831aa628d6b5fa",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 311,
+          "sha256": "0a338da6129b90f447bb8caee54ab6afc0dd99fa39304a5323e476abf24b100b"
+        },
+        {
+          "language": "en",
+          "pdfPage": 501,
+          "sha256": "fd42c0cf428b289288d453e6cb6589f10f41d46bfe4fcee113f111e11e53d483"
+        }
+      ]
+    },
+    {
+      "id": "volume3-correction-087",
+      "cnPdfPage": 311,
+      "cnPrintedPage": "305",
+      "section": "5.5",
+      "enPdfPages": [
+        501
+      ],
+      "original": "如果我能对这些资料的要旨完成分类排序",
+      "final": "如果我能对这些资料的要旨按逻辑顺序完成排序",
+      "basis": "EN501sortedandputinlogicalorder，恢复章末引语逻辑顺序限定。",
+      "isAuthorOfficialErratum": false,
+      "pageMarkdownSha256": "598a1af87c32e0960b842bf50fc3fbdbaa7bcd4fd28af8e93c831aa628d6b5fa",
+      "cnSourceSha256": "333717ff424e9afbdb463ce6abd7343b3a7c9bc5feef4729b8c274a639bdf443",
+      "enSourceSha256": "7bcb8a99bdfc9409bed1ab3092c7454dffe58e44c74eca59d80f7f3fd98ced34",
+      "evidenceImages": [
+        {
+          "language": "cn",
+          "pdfPage": 311,
+          "sha256": "0a338da6129b90f447bb8caee54ab6afc0dd99fa39304a5323e476abf24b100b"
+        },
+        {
+          "language": "en",
+          "pdfPage": 501,
+          "sha256": "fd42c0cf428b289288d453e6cb6589f10f41d46bfe4fcee113f111e11e53d483"
+        }
+      ]
+    }
+  ]
+}

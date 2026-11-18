@@ -1,0 +1,175 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    55,
+    56
+  ],
+  "state": "listed-finite-algebra-and-exercise-structure-checks-pass",
+  "gaussianCoefficientCheck": {
+    "normalizedMoments": {
+      "0": "1",
+      "2": "1/4",
+      "4": "3/16",
+      "6": "15/64"
+    },
+    "integralRelativeCorrection": "-1/24",
+    "factor48Correction": "1/3",
+    "combinedEquation53Correction": "7/24",
+    "method": "把式49乘积按u=n^(-1/4)展开至u²；偶高斯矩按分部积分递推，奇矩为0。仅核这些有限系数。"
+  },
+  "eulerBoundaryPolynomialCases": 52,
+  "equation53FiniteResidualObservations": [
+    {
+      "n": 100,
+      "exactOverLeading": "1.028119079983650019854277767224066076789382903914580693",
+      "residualAfter7Over24": "-0.001047586683016646812388899442600589877283762752085973832",
+      "residualDividedByNToMinusThreeQuarters": "-0.033127599647934355688249075663546362"
+    },
+    {
+      "n": 1000,
+      "exactOverLeading": "1.009119454406024744250340698527780256801725965145688526",
+      "residualAfter7Over24": "-0.000103855436133028801322740976815172254956070677343356149",
+      "residualDividedByNToMinusThreeQuarters": "-0.018468398369597748282599634993522668"
+    },
+    {
+      "n": 10000,
+      "exactOverLeading": "1.00290631816687440232157711323368971946249432525593646",
+      "residualAfter7Over24": "-0.00001034849979226434508955343297694720417234141073020697097",
+      "residualDividedByNToMinusThreeQuarters": "-0.010348499792264345089553432976947204"
+    }
+  ],
+  "exercise3Table": {
+    "rows": [
+      [
+        1,
+        3,
+        5,
+        6,
+        8
+      ],
+      [
+        7,
+        2,
+        9,
+        5,
+        3
+      ],
+      [
+        "infinity",
+        7,
+        "infinity",
+        9,
+        5
+      ],
+      [
+        null,
+        "infinity",
+        null,
+        "infinity",
+        7
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        "infinity"
+      ]
+    ],
+    "occupiedCells": 19,
+    "infinityCells": 5,
+    "P": [
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        7
+      ]
+    ],
+    "Q": [
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        8
+      ]
+    ]
+  },
+  "exercise2And7": {
+    "permutations": 5913,
+    "classEndingIncreasingSequenceChecks": 40319,
+    "nRange": [
+      1,
+      7
+    ]
+  },
+  "exercise4": {
+    "directedAdmissibleSwapChecks": 15232,
+    "connectedPClasses": 351,
+    "exampleSwapValuePairs": [
+      [
+        1,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        8,
+        3
+      ]
+    ]
+  },
+  "exercise6InvolutionCases": 351,
+  "exercise1SecondPair": {
+    "sourceP": [
+      [
+        1,
+        4,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        5,
+        9
+      ]
+    ],
+    "sourceQ": [
+      [
+        1,
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    "numericCells": 14,
+    "inverseAndForwardRoundTrip": true,
+    "qualification": "原题各7格且标签有空缺，未补写3/6或伪造9格。"
+  },
+  "pageMarkdownSha256": {
+    "55": "5c69b296f2aed08c5e1a66ff5d24702ef824ded0a4c77b1882e481ddc17fe22d",
+    "56": "9d3477e41609d019496f7372ee80b6e363279af7b6d3bb53e55ceae42a95abc4"
+  },
+  "qualification": "有限系数、排列与例题结构检查辅助源图校订；渐近残差不是大O余项证明，不把全组习题宣称独立证明完毕。"
+}

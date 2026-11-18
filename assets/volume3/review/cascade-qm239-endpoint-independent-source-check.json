@@ -1,0 +1,34 @@
+{
+  "kind": "independent-source-read-and-single-parameter-check",
+  "reviewer": "root",
+  "scope": "Only the parenthetical endpoint value at m=1; not a general proof or an official erratum. No mother, report or accepted page proof modified.",
+  "actualImagesRead": [
+    {
+      "file": "239.jpg",
+      "physicalPage": 239,
+      "printedPage": 233,
+      "sha256": "e6d8752fababd349973fec3c69e451cb74818d3e1ad7277ee8ebb02ce180f972"
+    },
+    {
+      "file": "en-384.png",
+      "physicalPage": 384,
+      "printedPage": null,
+      "sha256": "678c771eeeb8dcf05dcf956f4c2698584ad1abb3b2e8c0df5748523083029523"
+    }
+  ],
+  "sourceReading": {
+    "CN239": "Eq(10) defines q_m. Parenthetical prints q_m(±2)=(2m+1), with no sign factor. The same page identifies q_m(z)=(-1)^m U_(2m)(z/2). The endpoint parenthesis is outside cos(theta) != 0; it addresses the excluded endpoint, so that exclusion does not rescue its sign.",
+    "EN384": "Parenthesis likewise explicitly prints q_m(±2)=(2m+1) without a sign factor; no printed page number is visible."
+  },
+  "independentM1Derivation": [
+    "In CN239 Eq(10), let a=(sqrt(4-z^2)+iz)/2 and b=(sqrt(4-z^2)-iz)/2.",
+    "a+b=sqrt(4-z^2)=s and ab=1.",
+    "For m=1, (a^3+b^3)/s=(s^3-3s)/s=s^2-3=1-z^2, with the polynomial extension at s=0.",
+    "Thus q_1(2)=q_1(-2)=-3, while the printed parenthesis gives +3.",
+    "Inserting (-1)^m gives -3 at m=1 and agrees with the same-page Chebyshev sign; this receipt confirms only that single parameter case."
+  ],
+  "result": "Single m=1 case independently confirms the missing-sign defect; no hidden absolute-value bars or endpoint-domain restriction is printed.",
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false,
+  "sourceReceiptSha256": "7c60acb20aaa0db6fc73b1170fb7de678c8a6f005589cb1a9bb2a5231550fd5a"
+}

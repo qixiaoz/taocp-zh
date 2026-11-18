@@ -1,0 +1,329 @@
+{
+  "volume": "volume3",
+  "cnPdfPage": 86,
+  "providedEnPdfPage": 146,
+  "exercise": "5.2.1-36",
+  "sourcePageMarkdownSha256": "61e953ac785d54ffe5ede99f77fd7b5a083d9449a9a4dec04a4bb90516b342f8",
+  "sourceInputs": {
+    "BYTESIZE": 100,
+    "N": 16,
+    "M": 4,
+    "keys": [
+      503000,
+      87000,
+      512000,
+      61000,
+      908000,
+      170000,
+      897000,
+      275000,
+      653000,
+      426000,
+      154000,
+      509000,
+      612000,
+      677000,
+      765000,
+      703000
+    ]
+  },
+  "cases": [
+    {
+      "program": "L",
+      "sourceProgramSha256": "f67b26a1512d1fcff2f9e3113d6cb1984adf5f76c985da1c787b7f35bb5e4fb1",
+      "sourceRows": 18,
+      "A": 3,
+      "B": 41,
+      "actualLineFrequencies": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        15,
+        15,
+        15,
+        53,
+        53,
+        41,
+        41,
+        41,
+        15,
+        15,
+        16,
+        16
+      ],
+      "sourceExpectedLineFrequencies": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        15,
+        15,
+        15,
+        53,
+        53,
+        41,
+        41,
+        41,
+        15,
+        15,
+        16,
+        16
+      ],
+      "actualMixTimeUnits": 496,
+      "sourceTimeFormulaValue": 496,
+      "selfModificationEvents": [],
+      "sortedLists": [
+        {
+          "headLocation": 1000,
+          "recordIndices": [
+            4,
+            2,
+            11,
+            6,
+            8,
+            10,
+            1,
+            12,
+            3,
+            13,
+            9,
+            14,
+            16,
+            15,
+            7,
+            5
+          ],
+          "keys": [
+            61000,
+            87000,
+            154000,
+            170000,
+            275000,
+            426000,
+            503000,
+            509000,
+            512000,
+            612000,
+            653000,
+            677000,
+            703000,
+            765000,
+            897000,
+            908000
+          ]
+        }
+      ]
+    },
+    {
+      "program": "M",
+      "sourceProgramSha256": "051bb0de85b9230d11e17911f5af29cc64d7ff77be626dadd1abf9b3db162064",
+      "sourceRows": 23,
+      "A": 7,
+      "B": 8,
+      "actualLineFrequencies": [
+        0,
+        0,
+        1,
+        4,
+        4,
+        4,
+        1,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        17,
+        17,
+        8,
+        24,
+        24,
+        16,
+        16,
+        16,
+        16
+      ],
+      "sourceExpectedLineFrequencies": [
+        0,
+        0,
+        1,
+        4,
+        4,
+        4,
+        1,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        17,
+        17,
+        8,
+        24,
+        24,
+        16,
+        16,
+        16,
+        16
+      ],
+      "actualMixTimeUnits": 549,
+      "sourceTimeFormulaValue": 549,
+      "selfModificationEvents": [
+        {
+          "sourceLine": 10,
+          "targetLine": 11,
+          "newAddress": 2
+        },
+        {
+          "sourceLine": 10,
+          "targetLine": 11,
+          "newAddress": 3
+        },
+        {
+          "sourceLine": 10,
+          "targetLine": 11,
+          "newAddress": 2
+        },
+        {
+          "sourceLine": 10,
+          "targetLine": 11,
+          "newAddress": 2
+        },
+        {
+          "sourceLine": 10,
+          "targetLine": 11,
+          "newAddress": 2
+        },
+        {
+          "sourceLine": 10,
+          "targetLine": 11,
+          "newAddress": 0
+        },
+        {
+          "sourceLine": 10,
+          "targetLine": 11,
+          "newAddress": 1
+        },
+        {
+          "sourceLine": 10,
+          "targetLine": 11,
+          "newAddress": 2
+        },
+        {
+          "sourceLine": 10,
+          "targetLine": 11,
+          "newAddress": 1
+        },
+        {
+          "sourceLine": 10,
+          "targetLine": 11,
+          "newAddress": 3
+        },
+        {
+          "sourceLine": 10,
+          "targetLine": 11,
+          "newAddress": 0
+        },
+        {
+          "sourceLine": 10,
+          "targetLine": 11,
+          "newAddress": 3
+        },
+        {
+          "sourceLine": 10,
+          "targetLine": 11,
+          "newAddress": 0
+        },
+        {
+          "sourceLine": 10,
+          "targetLine": 11,
+          "newAddress": 2
+        },
+        {
+          "sourceLine": 10,
+          "targetLine": 11,
+          "newAddress": 0
+        },
+        {
+          "sourceLine": 10,
+          "targetLine": 11,
+          "newAddress": 2
+        }
+      ],
+      "sortedLists": [
+        {
+          "headLocation": 2001,
+          "recordIndices": [
+            4,
+            2,
+            11,
+            6
+          ],
+          "keys": [
+            61000,
+            87000,
+            154000,
+            170000
+          ]
+        },
+        {
+          "headLocation": 2002,
+          "recordIndices": [
+            8,
+            10
+          ],
+          "keys": [
+            275000,
+            426000
+          ]
+        },
+        {
+          "headLocation": 2003,
+          "recordIndices": [
+            1,
+            12,
+            3,
+            13,
+            9,
+            14,
+            16
+          ],
+          "keys": [
+            503000,
+            509000,
+            512000,
+            612000,
+            653000,
+            677000,
+            703000
+          ]
+        },
+        {
+          "headLocation": 2004,
+          "recordIndices": [
+            15,
+            7,
+            5
+          ],
+          "keys": [
+            765000,
+            897000,
+            908000
+          ]
+        }
+      ]
+    }
+  ],
+  "method": "从已按原页组装的L/M当前代码逐条解释此原书案例，按100基字节字段读写、MUL10时间单位及STA自修改下一ENT4的(1:2)地址。",
+  "historicalEarlierState": "080–083批次的M尚未执行记录保持原时间意义；这是题36提供确切字节/键域后新增的真实执行，不修改旧receipt来冒充早已运行。",
+  "qualification": "仅题36这个原16键/100字节/4表案例，不是通用MIX模拟器或所有输入验证。"
+}

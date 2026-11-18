@@ -1,0 +1,66 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    27,
+    28
+  ],
+  "state": "independent-finite-examples-and-identities-pass",
+  "primeExample": {
+    "permutation": "baacdbc",
+    "allFactorOrdersTried": 24,
+    "factorOrdersMatching": [
+      [
+        "ab",
+        "a",
+        "cd",
+        "bc"
+      ],
+      [
+        "ab",
+        "cd",
+        "a",
+        "bc"
+      ],
+      [
+        "ab",
+        "cd",
+        "bc",
+        "a"
+      ],
+      [
+        "cd",
+        "ab",
+        "a",
+        "bc"
+      ],
+      [
+        "cd",
+        "ab",
+        "bc",
+        "a"
+      ]
+    ]
+  },
+  "enumeration": {
+    "alphabet": "abc",
+    "perLetterCounts": [
+      0,
+      3
+    ],
+    "totalLengthAtMost": 8,
+    "distinctWordsExamined": 3568,
+    "equation20Cases": 1136,
+    "equation23Cases": 156,
+    "equation25Cases": 156,
+    "equation26Cases": 156
+  },
+  "equation27": {
+    "parameters": "0≤M,N,R,S≤5；两顶参数非负",
+    "cases": 876
+  },
+  "pageMarkdownSha256": {
+    "27": "e253e23fbce22a253ecd62385ec8682dadff2f63ea1f4a22e1aaada45e39ac00",
+    "28": "06adf1c143dd2458e1ce19f93d08c97ebe240761dec4cc9613657837f2db4828"
+  },
+  "qualification": "枚举及整数复算只覆盖列明有限范围；不充作定理C和一般恒等式的独立证明。"
+}

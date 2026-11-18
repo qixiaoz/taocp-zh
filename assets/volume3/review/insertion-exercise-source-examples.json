@@ -1,0 +1,103 @@
+{
+  "volume": "volume3",
+  "sourcePageMarkdownSha256": {
+    "84": "9127950195461f5023b9922e8b12aec0b437deb10cdf3f4b55bbe299d0b2a15f",
+    "85": "09f0e7fcb50ce2a3c73c63b72e642cd14bc526fe60b5ef20ba6d1165e0928210"
+  },
+  "exercise15OriginalSmallPolynomials": {
+    "currentMarkdownPolynomialsMatched": {
+      "h0": {
+        "0": 1
+      },
+      "g0": {
+        "0": 1
+      },
+      "h1": {
+        "0": 1,
+        "1": 1
+      },
+      "g1": {
+        "1": 1
+      },
+      "hhat1": {
+        "0": 1,
+        "1": 1
+      },
+      "ghat1": {
+        "1": 1
+      },
+      "h2": {
+        "1": 3,
+        "0": 1,
+        "2": 1,
+        "3": 1
+      },
+      "g2": {
+        "2": 1,
+        "3": 1
+      },
+      "hhat2": {
+        "1": 1,
+        "3": 1
+      },
+      "ghat2": {
+        "3": 1
+      }
+    },
+    "onlySourceNValues": [
+      0,
+      1,
+      2
+    ],
+    "sourceMomentExamples": [
+      {
+        "n": 1,
+        "actualSumWeightSquares": 1,
+        "sourceMoment": "1"
+      },
+      {
+        "n": 2,
+        "actualSumWeightSquares": 16,
+        "sourceMoment": "16"
+      }
+    ],
+    "qualification": "只枚举书中已印出的n0/1/2小格路径和相应权值；没有另造一般定理模型。"
+  },
+  "sourceLinearTimeCoefficients": {
+    "sourceSixCoefficients": [
+      "34.36",
+      "34.52",
+      "48.04",
+      "44.99",
+      "41.95",
+      "52.74"
+    ],
+    "independentlyRecomputedFirstThree": [
+      {
+        "MOverN": "1.0",
+        "poissonParameter": "1.0",
+        "weightedHarmonicSeriesTerms": 200,
+        "calculatedTimeCoefficient": "34.360201202108840597148972403372428",
+        "sourceRoundedCoefficient": "34.36"
+      },
+      {
+        "MOverN": "0.5",
+        "poissonParameter": "2.0",
+        "weightedHarmonicSeriesTerms": 200,
+        "calculatedTimeCoefficient": "34.521104965745691065613523929847057",
+        "sourceRoundedCoefficient": "34.52"
+      },
+      {
+        "MOverN": "0.1",
+        "poissonParameter": "10.0",
+        "weightedHarmonicSeriesTerms": 200,
+        "calculatedTimeCoefficient": "48.036058525540647531015365715712027",
+        "sourceRoundedCoefficient": "48.04"
+      }
+    ],
+    "method": "式15的二项分配在M/N固定时的Poisson均值，用200项加权H_n求原三常数，再代入真实总时间7B+31N−3A+4M+2。",
+    "postMergeThreeCoefficientsIndependentRecomputation": false,
+    "postMergeQualification": "补充合链程序的三个系数只逐字对照所附中英文；未用拟合出的公式冒充独立计算。"
+  },
+  "humanSignoff": false
+}

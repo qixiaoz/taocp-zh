@@ -1,0 +1,327 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    43,
+    44,
+    45,
+    46
+  ],
+  "state": "listed-tableau-and-algorithm-finite-checks-pass",
+  "sourceTableauCells": {
+    "equation3": 40,
+    "equation4": 15,
+    "equation5": 16,
+    "equation12": 30,
+    "equation13": 10,
+    "total": 111
+  },
+  "fourElementInvolutions": {
+    "count": 10,
+    "permutations": [
+      [
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        1,
+        3,
+        4
+      ],
+      [
+        3,
+        2,
+        1,
+        4
+      ],
+      [
+        4,
+        2,
+        3,
+        1
+      ],
+      [
+        1,
+        3,
+        2,
+        4
+      ],
+      [
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        2,
+        4,
+        3
+      ],
+      [
+        2,
+        1,
+        4,
+        3
+      ],
+      [
+        3,
+        4,
+        1,
+        2
+      ],
+      [
+        4,
+        3,
+        2,
+        1
+      ]
+    ],
+    "eachMatchesCorrespondingSourceTableau": true,
+    "method": "枚举24排列先按π²=id筛选，再独立应用算法I构造P/Q核同一表序。"
+  },
+  "insertion8": {
+    "newPosition": [
+      4,
+      2
+    ],
+    "bumpingSequence": [
+      8,
+      9,
+      10,
+      13,
+      "infinity"
+    ],
+    "columnSequence": [
+      4,
+      3,
+      2,
+      2
+    ],
+    "originalRows": [
+      [
+        1,
+        3,
+        5,
+        9,
+        12,
+        16
+      ],
+      [
+        2,
+        6,
+        10,
+        15
+      ],
+      [
+        4,
+        13,
+        14
+      ],
+      [
+        11
+      ],
+      [
+        17
+      ]
+    ],
+    "finalRows": [
+      [
+        1,
+        3,
+        5,
+        8,
+        12,
+        16
+      ],
+      [
+        2,
+        6,
+        9,
+        15
+      ],
+      [
+        4,
+        10,
+        14
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        17
+      ]
+    ],
+    "inverseRestoresOriginal": true
+  },
+  "generalExample": {
+    "topLabels": [
+      1,
+      3,
+      5,
+      6,
+      8
+    ],
+    "inserted": [
+      7,
+      2,
+      9,
+      5,
+      3
+    ],
+    "stages": [
+      {
+        "insert": 7,
+        "P": [
+          [
+            7
+          ]
+        ],
+        "Q": [
+          [
+            1
+          ]
+        ],
+        "newPosition": [
+          1,
+          1
+        ]
+      },
+      {
+        "insert": 2,
+        "P": [
+          [
+            2
+          ],
+          [
+            7
+          ]
+        ],
+        "Q": [
+          [
+            1
+          ],
+          [
+            3
+          ]
+        ],
+        "newPosition": [
+          2,
+          1
+        ]
+      },
+      {
+        "insert": 9,
+        "P": [
+          [
+            2,
+            9
+          ],
+          [
+            7
+          ]
+        ],
+        "Q": [
+          [
+            1,
+            5
+          ],
+          [
+            3
+          ]
+        ],
+        "newPosition": [
+          1,
+          2
+        ]
+      },
+      {
+        "insert": 5,
+        "P": [
+          [
+            2,
+            5
+          ],
+          [
+            7,
+            9
+          ]
+        ],
+        "Q": [
+          [
+            1,
+            5
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "newPosition": [
+          2,
+          2
+        ]
+      },
+      {
+        "insert": 3,
+        "P": [
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            7
+          ]
+        ],
+        "Q": [
+          [
+            1,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            8
+          ]
+        ],
+        "newPosition": [
+          3,
+          1
+        ]
+      }
+    ],
+    "inverseRecoveredReverse": [
+      3,
+      5,
+      9,
+      2,
+      7
+    ]
+  },
+  "algorithmFiniteTests": {
+    "permutationRange": [
+      1,
+      7
+    ],
+    "permutations": 5913,
+    "insertThenDeleteCases": 40319,
+    "cornerDeleteThenInsertCases": 14465,
+    "checks": "按原书I1–I5/D1–D5及边界0/∞执行；逐步断言/严格行列递增/正元素唯一/角位置/两种序列均比较。"
+  },
+  "pageMarkdownSha256": {
+    "43": "c5327020665abc89d24a377cc96d7fdf21768462e89b577ed4126a7a5bb80827",
+    "44": "347f7e9a32045b96f4d0229c8a5cee990e72e94d0fff5bf532f2d99e484ad8f4",
+    "45": "2b7962176a0a3b96dc3be9d8d99e4307f38b8e2fa6966bb6995bc238acb7c4ab",
+    "46": "a5b7ea7830bfa35fac8942d31a1ba784c85437a1d5a675d7186d0aa6435ce615"
+  },
+  "qualification": "有限算法案例和源图单元格核对辅助校订，不取代一般正确性证明，不宣称全卷算法已经审定。"
+}

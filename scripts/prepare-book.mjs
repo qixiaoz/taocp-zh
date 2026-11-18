@@ -238,7 +238,7 @@ function cleanReport(text, forWebsite) {
 const currentRoutes = new Set(pages.map(p => p.route));
 const priorPages = previousNavigation?.volumes?.find(item => item.id === volume.id)?.pages ?? (volume.id === 'volume1' ? previousNavigation?.pages : []) ?? [];
 for (const old of priorPages) {
-  if (!currentRoutes.has(old.route) && old.route.startsWith(prefix + '/') && /^\/volume\d+\/[a-z0-9/-]+$/.test(old.route)) await fs.rm(path.join(DOCS, old.route.slice(1) + '.md'), { force: true });
+  if (!currentRoutes.has(old.route) && old.route.startsWith(prefix + '/') && /^\/volume\d+[a-z]?\/[a-z0-9/-]+$/.test(old.route)) await fs.rm(path.join(DOCS, old.route.slice(1) + '.md'), { force: true });
 }
 for (const page of pages) {
   let body = rewriteBook(page.raw, page.route);
@@ -375,9 +375,9 @@ const disabledOrPrevious = new Map([
   ...(previousNavigation?.volumes ?? []).filter(previous => !selected.some(volume => volume.id === previous.id))
 ].map(volume => [volume.id, volume]));
 for (const previous of disabledOrPrevious.values()) {
-  assert(/^volume\d+$/.test(previous.id) && previous.routePrefix === '/' + previous.id, 'Unsafe previous volume route');
+  assert(/^volume\d+[a-z]?$/.test(previous.id) && previous.routePrefix === '/' + previous.id, 'Unsafe previous volume route');
   assert(previous.reportRoute === '/corrections' && previous.id === 'volume1'
-    || /^\/volume\d+\/[a-z\d/-]+$/.test(previous.reportRoute ?? '') && previous.reportRoute.startsWith(previous.routePrefix + '/'), 'Unsafe previous report route');
+    || /^\/volume\d+[a-z]?\/[a-z\d/-]+$/.test(previous.reportRoute ?? '') && previous.reportRoute.startsWith(previous.routePrefix + '/'), 'Unsafe previous report route');
   await fs.rm(path.join(DOCS, previous.id), { recursive: true, force: true });
   if (previous.reportRoute && !previous.reportRoute.startsWith(previous.routePrefix + '/')) {
     assert(previous.id === 'volume1' && previous.reportRoute === '/corrections', 'Unsafe previous report route');

@@ -1,0 +1,453 @@
+{
+  "volume": "volume3",
+  "pageMarkdownSha256": {
+    "80": "eafc637be0c690f3bed89ed0d3698c73fa065ce6cc51ffe7b74274a7d3305158",
+    "81": "176578bff51c9e5131c2c5d3a70fd7ebf3ac027abf3f0cc92a4c70207020a9b0",
+    "82": "f3a9d1cafc9d80e5652512470c3b2c1c3ba8da7a4bcc5e075f93ec71c1545f70",
+    "83": "55072428871febef5f193420c770ce93e3aab9af2fc4d640dc13deb8fb93bc72"
+  },
+  "programL": {
+    "sourceProgramLines": 18,
+    "equDirectives": 2,
+    "executedInstructionRows": 16,
+    "tokensFromCurrentLogicalProgram": [
+      {
+        "line": 1,
+        "label": "KEY",
+        "opcode": "EQU",
+        "address": "0:3",
+        "frequency": null
+      },
+      {
+        "line": 2,
+        "label": "LINK",
+        "opcode": "EQU",
+        "address": "4:5",
+        "frequency": null
+      },
+      {
+        "line": 3,
+        "label": "START",
+        "opcode": "ENT1",
+        "address": "N",
+        "frequency": "1"
+      },
+      {
+        "line": 4,
+        "label": null,
+        "opcode": "ST1",
+        "address": "INPUT(LINK)",
+        "frequency": "1"
+      },
+      {
+        "line": 5,
+        "label": null,
+        "opcode": "STZ",
+        "address": "INPUT+N(LINK)",
+        "frequency": "1"
+      },
+      {
+        "line": 6,
+        "label": null,
+        "opcode": "JMP",
+        "address": "6F",
+        "frequency": "1"
+      },
+      {
+        "line": 7,
+        "label": "2H",
+        "opcode": "LD2",
+        "address": "INPUT(LINK)",
+        "frequency": "N-1"
+      },
+      {
+        "line": 8,
+        "label": null,
+        "opcode": "ENT3",
+        "address": "0",
+        "frequency": "N-1"
+      },
+      {
+        "line": 9,
+        "label": null,
+        "opcode": "LDA",
+        "address": "INPUT,1",
+        "frequency": "N-1"
+      },
+      {
+        "line": 10,
+        "label": "3H",
+        "opcode": "CMPA",
+        "address": "INPUT,2(KEY)",
+        "frequency": "B+N-1-A"
+      },
+      {
+        "line": 11,
+        "label": null,
+        "opcode": "JLE",
+        "address": "5F",
+        "frequency": "B+N-1-A"
+      },
+      {
+        "line": 12,
+        "label": "4H",
+        "opcode": "ENT3",
+        "address": "0,2",
+        "frequency": "B"
+      },
+      {
+        "line": 13,
+        "label": null,
+        "opcode": "LD2",
+        "address": "INPUT,3(LINK)",
+        "frequency": "B"
+      },
+      {
+        "line": 14,
+        "label": null,
+        "opcode": "J2P",
+        "address": "3B",
+        "frequency": "B"
+      },
+      {
+        "line": 15,
+        "label": "5H",
+        "opcode": "ST1",
+        "address": "INPUT,3(LINK)",
+        "frequency": "N-1"
+      },
+      {
+        "line": 16,
+        "label": null,
+        "opcode": "ST2",
+        "address": "INPUT,1(LINK)",
+        "frequency": "N-1"
+      },
+      {
+        "line": 17,
+        "label": "6H",
+        "opcode": "DEC1",
+        "address": "1",
+        "frequency": "N"
+      },
+      {
+        "line": 18,
+        "label": null,
+        "opcode": "J1P",
+        "address": "2B",
+        "frequency": "N"
+      }
+    ],
+    "originalSixteenKeyCase": {
+      "keys": [
+        503,
+        87,
+        512,
+        61,
+        908,
+        170,
+        897,
+        275,
+        653,
+        426,
+        154,
+        509,
+        612,
+        677,
+        765,
+        703
+      ],
+      "sourceA": 3,
+      "sourceB": 41,
+      "rightToLeftMaximaRecordIndices": [
+        5,
+        7,
+        15,
+        16
+      ],
+      "rightToLeftMinimaRecordIndices": [
+        4,
+        11,
+        12,
+        13,
+        14,
+        16
+      ],
+      "actualExecutionFrequencies": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        15,
+        15,
+        15,
+        53,
+        53,
+        41,
+        41,
+        41,
+        15,
+        15,
+        16,
+        16
+      ],
+      "sourceExpectedFrequencies": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        15,
+        15,
+        15,
+        53,
+        53,
+        41,
+        41,
+        41,
+        15,
+        15,
+        16,
+        16
+      ],
+      "actualMixTimeUnits": 496,
+      "expectedMixTimeUnits": 496,
+      "finalLinks": [
+        4,
+        12,
+        11,
+        13,
+        2,
+        0,
+        8,
+        5,
+        10,
+        14,
+        1,
+        6,
+        3,
+        9,
+        16,
+        7,
+        15
+      ],
+      "stableSortedRecordIndices": [
+        4,
+        2,
+        11,
+        6,
+        8,
+        10,
+        1,
+        12,
+        3,
+        13,
+        9,
+        14,
+        16,
+        15,
+        7,
+        5
+      ],
+      "sourceFirstThreeLinkStatesMatch": true
+    }
+  },
+  "multipleListSourceExample": {
+    "rangeBounds": [
+      [
+        0,
+        249
+      ],
+      [
+        250,
+        499
+      ],
+      [
+        500,
+        749
+      ],
+      [
+        750,
+        999
+      ]
+    ],
+    "stages": [
+      {
+        "sourcePrefixCount": 4,
+        "sourceLists": [
+          [
+            61,
+            87
+          ],
+          [],
+          [
+            503,
+            512
+          ],
+          []
+        ],
+        "computedLists": [
+          [
+            61,
+            87
+          ],
+          [],
+          [
+            503,
+            512
+          ],
+          []
+        ]
+      },
+      {
+        "sourcePrefixCount": 8,
+        "sourceLists": [
+          [
+            61,
+            87,
+            170
+          ],
+          [
+            275
+          ],
+          [
+            503,
+            512
+          ],
+          [
+            897,
+            908
+          ]
+        ],
+        "computedLists": [
+          [
+            61,
+            87,
+            170
+          ],
+          [
+            275
+          ],
+          [
+            503,
+            512
+          ],
+          [
+            897,
+            908
+          ]
+        ]
+      },
+      {
+        "sourcePrefixCount": 12,
+        "sourceLists": [
+          [
+            61,
+            87,
+            154,
+            170
+          ],
+          [
+            275,
+            426
+          ],
+          [
+            503,
+            509,
+            512,
+            653
+          ],
+          [
+            897,
+            908
+          ]
+        ],
+        "computedLists": [
+          [
+            61,
+            87,
+            154,
+            170
+          ],
+          [
+            275,
+            426
+          ],
+          [
+            503,
+            509,
+            512,
+            653
+          ],
+          [
+            897,
+            908
+          ]
+        ]
+      },
+      {
+        "sourcePrefixCount": 16,
+        "sourceLists": [
+          [
+            61,
+            87,
+            154,
+            170
+          ],
+          [
+            275,
+            426
+          ],
+          [
+            503,
+            509,
+            512,
+            612,
+            653,
+            677,
+            703
+          ],
+          [
+            765,
+            897,
+            908
+          ]
+        ],
+        "computedLists": [
+          [
+            61,
+            87,
+            154,
+            170
+          ],
+          [
+            275,
+            426
+          ],
+          [
+            503,
+            509,
+            512,
+            612,
+            653,
+            677,
+            703
+          ],
+          [
+            765,
+            897,
+            908
+          ]
+        ]
+      }
+    ],
+    "editableKeyEntries": 40,
+    "programMSourceRows": 23,
+    "MIXProgramMExecuted": false,
+    "qualification": "只独立复算原4区间/16键的抽象列表状态，M的23行字段按中英文源核；不把抽象例冒充MIX三字节缩放程序的真实执行。"
+  },
+  "qualification": "源具体L程序/表8和多列表具体例检查；不是通用MIX模拟器或全部输入/定理证明。"
+}

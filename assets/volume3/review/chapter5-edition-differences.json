@@ -1,0 +1,62 @@
+{
+  "volume": "volume3",
+  "differences": [
+    {
+      "section": "5.1.1",
+      "exercise": 10,
+      "cnPdfPage": 20,
+      "enPdfPage": 38,
+      "type": "recommendation-symbol",
+      "cn": "无推荐箭头",
+      "en": "有推荐箭头",
+      "handling": "以中文底本组织，保留其标记；登记差异而非臆断漏印。"
+    },
+    {
+      "section": "5.1.3",
+      "cnPdfPage": 38,
+      "enPdfPage": 68,
+      "type": "local-equation-number-order",
+      "cn": "极坐标式29，渐近式30；本页正文回指式30。",
+      "en": "极坐标式30，渐近式29；同段回指式29。",
+      "handling": "按中文底本保留编号及内部回指；英文按式内容定位，不机械互换中文式号。",
+      "pageMarkdownSha256": "c8759d33b8733fc63dbe7cec8b81b3c0a5536376b99b29cdcc3f1399560f99c3"
+    },
+    {
+      "section": "5.2.1",
+      "cnPdfPage": 69,
+      "enPdfPage": 119,
+      "type": "expression-precision-compatible",
+      "cn": "仅用存放N+1条记录的空间",
+      "en": "not much more space than that required for N records",
+      "handling": "两者并不矛盾；保留中文具体N+1，不认定未决错误。缓存未见该段明确作者修订；另一处印刷102题6由N+1到N的条目不能移用。",
+      "pageMarkdownSha256": "5217b93a4f8e64a67313078a384e9d77f7d619567cd1097f8a1bbb19ac0f982f"
+    },
+    {
+      "section": "5.2.1",
+      "cnPdfPage": 73,
+      "enPdfPage": 125,
+      "type": "same-exact-coefficient-different-decimal-approximation",
+      "cn": "sqrt(pi/128) n^(3/2)约0.16 n^(3/2)",
+      "en": "同一精确式后约0.15 n^(3/2)",
+      "handling": "保留中文0.16。sqrt(pi/128)约0.156664267，两位小数舍入为0.16；两版精确根式相同，不认定一般渐近式发生变化。",
+      "pageMarkdownSha256": "bcfe41db3e0239064fec750d26cd1c4de705626f18e820aedd0a4c815baa0bf3",
+      "additionalAuthorErrataResolution": {
+        "file": "assets/volume3/review/official-errata-list-insertion.json",
+        "sha256": "7756cc73bf3f7903faa069f384c19e76e41f3a10471b0b0ccb5aef1f454911f2",
+        "date": "2015-03-07",
+        "authorOriginalPrintedPage": "88",
+        "resolution": "明确将0.15改0.16，中文已正确，不回改旧英文小数。"
+      }
+    },
+    {
+      "section": "5.2.1德田文献",
+      "cnPdfPage": 79,
+      "enPdfPage": 134,
+      "type": "bibliographic-title-number",
+      "cn": "Information Processing 92 1 (1992),449–457",
+      "en": "Information Processing 91 1 (1992),449–457",
+      "handling": "按选定中文保留书目92；这里只登记所附两版文字差异，不以缺少独立书目检索断言其为新原书错误。",
+      "pageMarkdownSha256": "990606f3d703fd12b608ed7898d2151ebf6415c21537105007bf8d37ad9c6bb4"
+    }
+  ]
+}

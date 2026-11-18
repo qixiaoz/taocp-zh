@@ -52,7 +52,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: siteTitle,
   description: multipleVolumes
-    ? '《计算机程序设计艺术》中文阅读版：卷一基本算法、卷二半数值算法，含习题答案、附录与索引。'
+    ? '《计算机程序设计艺术》中文阅读版：卷一基本算法、卷二半数值算法、卷三排序与查找，含习题答案、附录与索引。'
     : '《计算机程序设计艺术》第一卷《基本算法》中文阅读版：基本概念、信息结构、习题答案与附录。',
   base: '/taocp-zh/',
   cleanUrls: false,

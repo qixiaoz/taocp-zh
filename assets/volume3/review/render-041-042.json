@@ -1,0 +1,119 @@
+{
+  "volume": "volume3",
+  "stage": "private-page-render-check-041-042",
+  "physicalPages": [
+    41,
+    42
+  ],
+  "cases": 4,
+  "viewports": [
+    1280,
+    390
+  ],
+  "failures": 0,
+  "errors": 0,
+  "mathObservations": 214,
+  "horizontalPortsCheckedAtBothEnds": 4,
+  "rawBrowserEvidenceSha256": "02aeaae7de5623a8be333c533031488ea31664aefe3a5db5bbf74a806944095e",
+  "details": [
+    {
+      "bodyText": 2752,
+      "math": 53,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "endpoints": [],
+      "page": 41,
+      "width": 1280,
+      "pageMarkdownSha256": "85af38b2c8b8941b5e1683d5deb87348703b59dc8b669ef79b3bc2854bea6e16",
+      "htmlSha256": "03b18cfe1e8ded8b76e653679b27824e50eea8f85e951f5928e671ecdf784626",
+      "passed": true
+    },
+    {
+      "bodyText": 3047,
+      "math": 54,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "endpoints": [],
+      "page": 42,
+      "width": 1280,
+      "pageMarkdownSha256": "abe5a8072ce2ac1000d9d43b5e06070697dc0d7c697018dd427a57c49c410a00",
+      "htmlSha256": "4828f7db29e2d9c6ed2280dd2368161cda8f92ca8f9a509b2e358246e3ba9d29",
+      "passed": true
+    },
+    {
+      "bodyText": 2752,
+      "math": 53,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "endpoints": [
+        {
+          "start": 0,
+          "end": 402,
+          "max": 402,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 67,
+          "max": 67,
+          "pass": true
+        }
+      ],
+      "page": 41,
+      "width": 390,
+      "pageMarkdownSha256": "85af38b2c8b8941b5e1683d5deb87348703b59dc8b669ef79b3bc2854bea6e16",
+      "htmlSha256": "03b18cfe1e8ded8b76e653679b27824e50eea8f85e951f5928e671ecdf784626",
+      "passed": true
+    },
+    {
+      "bodyText": 3047,
+      "math": 54,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "endpoints": [
+        {
+          "start": 0,
+          "end": 9,
+          "max": 9,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 25,
+          "max": 25,
+          "pass": true
+        }
+      ],
+      "page": 42,
+      "width": 390,
+      "pageMarkdownSha256": "abe5a8072ce2ac1000d9d43b5e06070697dc0d7c697018dd427a57c49c410a00",
+      "htmlSha256": "4828f7db29e2d9c6ed2280dd2368161cda8f92ca8f9a509b2e358246e3ba9d29",
+      "passed": true
+    }
+  ],
+  "directlyViewedScreens": [
+    "41-1280-symbol.png",
+    "41-1280.png",
+    "42-390.png",
+    "42-390-symbol.png"
+  ],
+  "assets": [
+    {
+      "path": "assets/volume3/figures/fig-5-4.svg",
+      "sha256": "786662ef40a5a26b432c33cd390ae27b1b609f0883b029fb6372030b8b11e1e4"
+    }
+  ],
+  "qualification": "私有单页生产规则校样；检查了交叉界符几何与棋盘/阶梯表。整卷离线Pandoc支持、题答回链及完整网站路由仍须装订后统一验收。"
+}

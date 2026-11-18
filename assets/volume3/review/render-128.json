@@ -1,0 +1,147 @@
+{
+  "volume": "volume3",
+  "physicalPages": [
+    128
+  ],
+  "stage": "source-compared-private-production-render",
+  "cases": 2,
+  "viewports": [
+    1280,
+    390
+  ],
+  "failures": 0,
+  "errors": 0,
+  "mathObservations": 90,
+  "horizontalPortsCheckedAtBothEnds": 3,
+  "rawBrowserEvidenceSha256": "9b2c9bb3860a6beb585527ca5190dc1e80d9d110dd5155e6fbbb8d927eb5a066",
+  "details": [
+    {
+      "bodyText": 2542,
+      "math": 45,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 0,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "removedShapeCells": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "stageGridCells": 0,
+      "stageBlankCells": 0,
+      "stageCurrentCells": 0,
+      "stageBoldStylePass": true,
+      "stageTables": [],
+      "probabilityFactors": 0,
+      "endpoints": [],
+      "page": 128,
+      "width": 1280,
+      "pageMarkdownSha256": "c2b6a4883aae69a059b9f449d5ab9838f5ddbb7c9786db984cf8ff0655274dee",
+      "htmlSha256": "6fe0148efd0c0e1f4f976cb5f26460c4bffb684accead34425ff56b49405ad87",
+      "passed": true
+    },
+    {
+      "bodyText": 2542,
+      "math": 45,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 0,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "sourceShapeCells": 0,
+      "shapeCandidate15": 0,
+      "removedShapeCells": 0,
+      "hookCells": 0,
+      "hookHighlights": [],
+      "hookMarkers": 0,
+      "stageGridCells": 0,
+      "stageBlankCells": 0,
+      "stageCurrentCells": 0,
+      "stageBoldStylePass": true,
+      "stageTables": [],
+      "probabilityFactors": 0,
+      "endpoints": [
+        {
+          "start": 0,
+          "end": 109,
+          "max": 109,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 91,
+          "max": 91,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 127,
+          "max": 127,
+          "pass": true
+        }
+      ],
+      "page": 128,
+      "width": 390,
+      "pageMarkdownSha256": "c2b6a4883aae69a059b9f449d5ab9838f5ddbb7c9786db984cf8ff0655274dee",
+      "htmlSha256": "6fe0148efd0c0e1f4f976cb5f26460c4bffb684accead34425ff56b49405ad87",
+      "passed": true
+    }
+  ],
+  "directlyViewedScreens": [
+    {
+      "name": "128-390-exercise27.png",
+      "sha256": "85adfe9bc610da5756caf4dc04f70395e3bcfc40d183858b00e1d29aa59821aa"
+    },
+    {
+      "name": "128-390-exercise32.png",
+      "sha256": "2cd637c24a703d86e058f18f272c29f7acecf5097d008816a304294af8f98356"
+    },
+    {
+      "name": "128-390-exercise34.png",
+      "sha256": "844ad7e92dbf8491fc992f75c009c0dae7515c219d5dfaf77bdc43898df7b21b"
+    },
+    {
+      "name": "128-390-exercise37.png",
+      "sha256": "6c2ad4b99a7de5d1e59629377a99e0f684a78ab545821fb7d9ed1b52ecf1a606"
+    },
+    {
+      "name": "128-1280-exercise32.png",
+      "sha256": "73b591c46523db72b1c628f5f364d0662a83b1c144e0e81a6466435e4582eaa6"
+    },
+    {
+      "name": "128-390-math18-left-crop.png",
+      "sha256": "db2933de4cd99a675cf978f1af2e8cfb946587108be3b507ad500f9d8ed67cdc"
+    },
+    {
+      "name": "128-390-math18-right-crop.png",
+      "sha256": "78911d3195fb9129230bd68abbf21668cc3cae708b7cb73114304be3d8311e93"
+    },
+    {
+      "name": "128-390-math30-left-crop.png",
+      "sha256": "b560fcd51824b8f5adfb5d4cc0cb83f345ecb16c7298b50de0db515e18e9a463"
+    },
+    {
+      "name": "128-390-math30-right-crop.png",
+      "sha256": "f442adecaa45c8effa82c3f077caff557b2488b4adc737c2fef5ff655e7279d9"
+    },
+    {
+      "name": "128-390-math40-left-crop.png",
+      "sha256": "38a13cddd078bd44bbb305d91a9111a0f5aa911c8bc9fa5c6aba5783804c2a94"
+    },
+    {
+      "name": "128-390-math40-right-crop.png",
+      "sha256": "f8b909dd5bd1d05101d78c2d95ee3d4bab2725b16b6dc226e75e18c5de0cf5a5"
+    }
+  ],
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false,
+  "qualification": "source scope由本批明确逐页记录，不从解析成功推断；只绑定已实际查看的原图/英文对应范围与私有单页渲染，不代表母稿、正式网站、人类签核或一般证明。"
+}

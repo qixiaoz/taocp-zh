@@ -142,7 +142,7 @@ function equalRenderedCode(expected, actual, context) {
 }
 function disabledPublicationOwner(name) {
   const relative = name.replace(/^public\//, '');
-  const routeId = relative.match(/^(volume\d+)(?:\/|\.(?:html|md)$)/)?.[1];
+  const routeId = relative.match(/^(volume\d+[a-z]?)(?:\/|\.(?:html|md)$)/)?.[1];
   if (routeId && !volumes.some(volume => volume.id === routeId && volume.enabled)) return routeId;
   const matches = [];
   for (const volume of volumes) {
@@ -253,7 +253,7 @@ async function checkVolume(volume, manifest, navigation) {
   const expectedMathAll = [], sourceMathAll = [];
   for (const page of pages) {
     const ctx = { route: page.route };
-    check(page.route.startsWith(volume.routePrefix + '/') && /^\/volume\d+\/[a-z\d/-]+$/.test(page.route), 'invalid-route', ctx);
+    check(page.route.startsWith(volume.routePrefix + '/') && /^\/volume\d+[a-z]?\/[a-z\d/-]+$/.test(page.route), 'invalid-route', ctx);
     check(page.file === `docs${page.route}.md`, 'route-file-mismatch', ctx);
     check(!routeFiles.has(page.route), 'duplicate-route', ctx);
     const range = page.sourceRange;
@@ -517,7 +517,9 @@ async function checkVolume(volume, manifest, navigation) {
   }
   const figureIndex = volume.evidence.figures ? await json(volume.evidence.figures) : [];
   for (const fig of figureIndex) {
-    const id = `fig-${fig.chapter}-${fig.number}`, route = navigation.anchorRoutes[id];
+    // Preserve the source's established targets. A catalog may explicitly use
+    // a whole-page target where the manuscript has no separate figure marker.
+    const id = fig.anchor ?? `fig-${fig.chapter}-${fig.number}`, route = navigation.anchorRoutes[id];
     check(!!route && htmlPages.get(route.slice(1) + '.html')?.has(id), 'missing-numbered-figure', { id });
   }
   report.math.builtAnnotated = builtMath.length;

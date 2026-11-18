@@ -1,0 +1,415 @@
+{
+  "volume": "volume3",
+  "correctionId": "volume3-correction-010",
+  "cnPdfPages": [
+    48,
+    60
+  ],
+  "enPdfPages": [
+    85,
+    104
+  ],
+  "classification": "project-correction-derived-from-provided-original-example",
+  "isAuthorOfficialErratum": false,
+  "oldS4Trace": [
+    {
+      "state": "after first source step",
+      "bottomP": [
+        3,
+        2
+      ],
+      "bottomQ": [
+        null,
+        0
+      ]
+    },
+    {
+      "state": "second step K=3, right move",
+      "r": 3,
+      "s": 2,
+      "bottomP": [
+        2,
+        2
+      ]
+    },
+    {
+      "state": "literal return S3, both successors infinity",
+      "writeAt": [
+        3,
+        2
+      ],
+      "writeValue": "infinity",
+      "nextR": 4
+    },
+    {
+      "state": "then S2-prime",
+      "writeAt": [
+        4,
+        2
+      ],
+      "writeValue": 3,
+      "outsideSourceShape": true,
+      "impliedBottomQ": [
+        1,
+        -1
+      ]
+    }
+  ],
+  "sourceExpectedSecondStep": {
+    "bottomP": [
+      2,
+      3
+    ],
+    "bottomQ": [
+      1,
+      0
+    ]
+  },
+  "scopedFix": "仅S′的S4回指从S3改为S2′，原算法S的S4不改。",
+  "repairedSingleSourceExample": {
+    "P2Snapshots": [
+      {
+        "cell": [
+          3,
+          2
+        ],
+        "P": [
+          [
+            7,
+            8,
+            5
+          ],
+          [
+            1,
+            6,
+            4
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "Q": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null
+          ]
+        ]
+      },
+      {
+        "cell": [
+          3,
+          1
+        ],
+        "P": [
+          [
+            7,
+            8,
+            5
+          ],
+          [
+            1,
+            6,
+            4
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "Q": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            0
+          ]
+        ]
+      },
+      {
+        "cell": [
+          2,
+          3
+        ],
+        "P": [
+          [
+            7,
+            8,
+            5
+          ],
+          [
+            1,
+            6,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "Q": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "P": [
+          [
+            7,
+            8,
+            5
+          ],
+          [
+            1,
+            6,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "Q": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "cell": [
+          2,
+          1
+        ],
+        "P": [
+          [
+            7,
+            8,
+            5
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "Q": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            -1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "cell": [
+          1,
+          3
+        ],
+        "P": [
+          [
+            7,
+            8,
+            5
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "Q": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "P": [
+          [
+            7,
+            8,
+            4
+          ],
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "Q": [
+          [
+            null,
+            null,
+            -1
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "cell": [
+          1,
+          1
+        ],
+        "P": [
+          [
+            7,
+            3,
+            4
+          ],
+          [
+            1,
+            5,
+            8
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "Q": [
+          [
+            null,
+            0,
+            -1
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      }
+    ],
+    "all8SourceSnapshotsMatch": true,
+    "finalP": [
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        2,
+        5,
+        8
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "finalQ": [
+      [
+        1,
+        -2,
+        -1
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  "sourceCn48MarkdownSha256": "46474ac355a212c06b823220aab0920dbc03dbb8463442a0e97bcc3e0d9f5157",
+  "sourceCn60ImageSha256": "896113753c55fe3e4d4c7cb4f8ef1b5166697c8b157bcff0d941c29f27b356e1",
+  "sourceEn85ImageSha256": "55960334a500350607d09612c27f12596287ef1c0ec0c83cc18fb836d7c93aed",
+  "sourceEn104ImageSha256": "621e33eb53aebe7057e46201297421453e632644cb0f363f3b9291fb23c1993d",
+  "qualification": "只跟踪原给定8单元例及其8个源状态，用于此具体订正，不声称验证一般图表上的全部算法性质。"
+}

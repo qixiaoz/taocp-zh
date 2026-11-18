@@ -1,0 +1,47 @@
+{
+  "volume": "volume3",
+  "kind": "author-source-crosscheck-not-full-page-proof",
+  "isFullPageProof": false,
+  "authorOrigin": {
+    "volume": "volume3",
+    "file": "all3-pre.ps.gz",
+    "url": "https://cs.stanford.edu/~knuth/all3-pre.ps.gz",
+    "sha256": "a36ea694a146e7f314e8d9584e378f5b23418275da4b0b9910fe15516bffdbf3",
+    "bytes": 117358,
+    "use": "Auxiliary author errata facts and exact positions; not replacement book source or executable TeX."
+  },
+  "authorPsSha256": "8c6a0b6ea48268fce29b09564dc9ccd055fd891abeba3dc5fe4c7c821f299daf",
+  "readingPdfSha256": "8783d1c2c0233342ef04d50abfecb4e875297c2c4d09ab476e66df6dfcce0b6b",
+  "actuallyViewedAuthorPdfPhysicalPage": 4,
+  "actuallyViewedAuthorPrintedPage": "4",
+  "authorPageImageSha256": "74949e07a0bd02dbe36c162607ffb3a128abaf5ee7ea942d844e6aba2288dbbb",
+  "appliedCorrection": {
+    "id": "volume3-correction-018",
+    "authorDate": "2015-03-10",
+    "authorOriginalPrintedPage": "96",
+    "location": "steps L3 and L4",
+    "cnPdfPage": 80,
+    "cnPrintedPage": "74",
+    "providedEnPdfPages": [
+      135,
+      136
+    ],
+    "original": "record R 两次",
+    "final": "record R_j 两次",
+    "basis": "L2只定义K，未定义临时记录R；作者明确将两步所指记录换为R_j。"
+  },
+  "additionalResolutionOnly": {
+    "cnPdfPage": 73,
+    "providedEnPdfPage": 125,
+    "authorDate": "2015-03-07",
+    "authorOriginalPrintedPage": "88",
+    "original": "0.15 n^(3/2)",
+    "final": "0.16 n^(3/2)",
+    "handling": "中文已采用正确0.16，继续保留；此前两版小数差异由作者明确勘误解决，不构成新增中文正文订正。"
+  },
+  "sourcePageMarkdownSha256": {
+    "73": "bcfe41db3e0239064fec750d26cd1c4de705626f18e820aedd0a4c815baa0bf3",
+    "80": "eafc637be0c690f3bed89ed0d3698c73fa065ce6cc51ffe7b74274a7d3305158"
+  },
+  "humanSignoff": false
+}

@@ -1,0 +1,218 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    206,
+    207,
+    208
+  ],
+  "enPdfPages": [
+    334,
+    335,
+    336,
+    337,
+    338,
+    339
+  ],
+  "figures64and65": {
+    "kind": "clear selected Chinese original illustration crops, not vector redraw",
+    "sourceImageSha256": "766dd5bde43bd0c2b72a97962b0e6997d10eb0dbaec9d28887589b978729b72d",
+    "bounds64": [
+      340,
+      610,
+      2180,
+      1515
+    ],
+    "bounds65": [
+      350,
+      1970,
+      2180,
+      2415
+    ],
+    "ChineseLabelsPreserved": [
+      "位置0",
+      "1/4",
+      "1/2",
+      "3/4",
+      "落雪",
+      "未来的雪",
+      "现有的雪",
+      "道路总长度"
+    ],
+    "providedEnglish335Difference": "corresponding unannotated English truck drawings do not have these Chinese labels; Chinese selected illustration retained",
+    "twoPAnalogy": "source comparison only, no new general expected-run-length proof"
+  },
+  "sourceNodeLayoutExample": {
+    "P": 12,
+    "j": 5,
+    "internal": 5,
+    "external": 17,
+    "KEY": 170,
+    "LOSEROffsetC": 9,
+    "loserExternalIndex": 21,
+    "PEOffsetC": 8,
+    "PIOffsetC": 2,
+    "allFourSourceFieldsMatchLiteralFigure63": true
+  },
+  "sourceAlgorithmR": {
+    "completeSteps": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7"
+    ],
+    "sourceFields": [
+      "KEY",
+      "RECORD",
+      "LOSER",
+      "RN",
+      "PE",
+      "PI"
+    ],
+    "sourceRecordWords": "c",
+    "dummyRun0Preserved": true,
+    "actualR1Floors": [
+      "floor((P+j)/2)",
+      "floor(j/2)"
+    ],
+    "sourceEOFRunAssignment": "RN(Q)=RMAX+1",
+    "sourceR4NewRunAssignment": "RMAX=RN(Q)=RC+1",
+    "sourceRootStop": "T=LOC(X[1])",
+    "qualification": "complete Chinese and English source comparison of all steps; no new general algorithm/ISA model or execution claim"
+  },
+  "figure66": {
+    "sourceSevenBoxes": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7"
+    ],
+    "sourceDirectedEdges": [
+      [
+        "start",
+        "R1"
+      ],
+      [
+        "R1",
+        "R2"
+      ],
+      [
+        "R2",
+        "end"
+      ],
+      [
+        "R2",
+        "R3"
+      ],
+      [
+        "R3",
+        "R4"
+      ],
+      [
+        "R4",
+        "R5"
+      ],
+      [
+        "R5",
+        "R6"
+      ],
+      [
+        "R6",
+        "R7"
+      ],
+      [
+        "R7",
+        "R6"
+      ],
+      [
+        "R7",
+        "R2"
+      ]
+    ],
+    "sourceInternalEdges": 8,
+    "boundaryEdges": 2,
+    "sourceConditions": [
+      "文件结束",
+      "T=根结点"
+    ],
+    "svgSha256": "4bec421c96d1bc92f2bc7b82277c5e89d6ae1e018de19ccd961c940e79da6642"
+  },
+  "delayedReconstitutionOriginalExample": {
+    "m": 3,
+    "sourceFiveBlocks": [
+      [
+        8,
+        50
+      ],
+      [
+        6,
+        90
+      ],
+      [
+        17,
+        27
+      ],
+      [
+        42,
+        67
+      ],
+      [
+        51,
+        89
+      ]
+    ],
+    "sourceThirdLargestOfBlockMaxima": 67,
+    "sourceTwoDegreeFailure": "17<50 and17<90",
+    "literalThreeBufferOutput": [
+      6,
+      8,
+      17,
+      27,
+      42,
+      50,
+      51,
+      67,
+      89,
+      90
+    ],
+    "literalRefillBounds": [
+      {
+        "depletedLast": 27,
+        "nextBlockFirst": 42
+      },
+      {
+        "depletedLast": 50,
+        "nextBlockFirst": 51
+      }
+    ],
+    "qualification": "only printed ten-key block example, not general m theorem or approximate-run formula validation"
+  },
+  "approximateRunFormula": "2P+(m-1.5)*(2P+(m-2)b)/(2P+(2m-3)b)*b, m>=2; source comparison only",
+  "naturalSelectionOnlyBegins208": true,
+  "assets": [
+    {
+      "file": "assets/volume3/figures/replacement-figure64-source.png",
+      "sha256": "8c93b94397decacf5a9d76b69f715ee92a5c0ec166c2daaf0a9f52154e541801"
+    },
+    {
+      "file": "assets/volume3/figures/replacement-figure65-source.png",
+      "sha256": "3edf3d2a23846f3a7dd5aa5740f25a26e30b73c60bb3e37f630e5a06130cb1f4"
+    },
+    {
+      "file": "assets/volume3/figures/replacement-figure66.svg",
+      "sha256": "4bec421c96d1bc92f2bc7b82277c5e89d6ae1e018de19ccd961c940e79da6642"
+    }
+  ],
+  "pageMarkdownSha256": {
+    "206": "cddc3f1c060278a2c85c112e0d6badc3531c4ed0773191a17c17b6d57a3e91a2",
+    "207": "30104f80c93bef4454afc18402ccb1b011f75e67a8e90c0642445bbef05fe8f8",
+    "208": "44df5caa67b261793439c54e9282a5827b337a6913176551f52bfb1e775e150f"
+  },
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false
+}

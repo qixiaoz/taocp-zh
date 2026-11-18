@@ -1,0 +1,71 @@
+{
+  "volume": "volume3",
+  "figure": "5-4",
+  "cnPdfPage": 41,
+  "cnPrintedPage": "35",
+  "enPdfPage": 74,
+  "asset": "assets/volume3/figures/fig-5-4.svg",
+  "assetSha256": "786662ef40a5a26b432c33cd390ae27b1b609f0883b029fb6372030b8b11e1e4",
+  "sourceImageSha256": "8a134ca3ff8b697391f3144eab2637091d78bcd3ae68107d25deede7d86dc4eb",
+  "leftBoard": {
+    "rows": 8,
+    "columns": 8,
+    "rookColumnsByRow": [
+      2,
+      6,
+      1,
+      5,
+      8,
+      4,
+      7,
+      3
+    ],
+    "strictlyBelowDiagonal": [
+      [
+        3,
+        1
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        8,
+        3
+      ]
+    ]
+  },
+  "rightTriangle": {
+    "rowLengths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "cells": 28,
+    "rookCells": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        7,
+        3
+      ]
+    ]
+  },
+  "independentCounts": {
+    "full8RooksExactly3Below": 15619,
+    "triangle3NonattackingRooks": 1050
+  },
+  "qualification": "逐格源图/英文核对后重绘，保留上下三角遮盖、棋盘斜线及所有车的位置；枚举验证两个原文整数，未声称证明一般棋盘计数公式。",
+  "renderState": "source-geometry-compared-final-1280-image-and-390-page-pass",
+  "renderEvidence": "assets/volume3/review/render-041-042.json"
+}

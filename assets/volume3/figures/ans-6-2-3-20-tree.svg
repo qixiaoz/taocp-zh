@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="206" viewBox="0 0 450 206" role="img" aria-labelledby="title desc">
+<title id="title">受限平衡树的插入示例</title><desc id="desc">左侧五层填满；右侧的非满结点都只在右方继续。原图只标内部结点。</desc>
+<rect width="450" height="206" fill="#fff"/>
+<g stroke="#222" stroke-width="1.35" fill="none">
+<line data-from="a0000" data-to="a00000" x1="27" y1="156" x2="18" y2="190"/>
+<line data-from="a0000" data-to="a00001" x1="27" y1="156" x2="36" y2="190"/>
+<line data-from="a0001" data-to="a00010" x1="63" y1="156" x2="54" y2="190"/>
+<line data-from="a0001" data-to="a00011" x1="63" y1="156" x2="72" y2="190"/>
+<line data-from="a000" data-to="a0000" x1="45" y1="122" x2="27" y2="156"/>
+<line data-from="a000" data-to="a0001" x1="45" y1="122" x2="63" y2="156"/>
+<line data-from="a0010" data-to="a00100" x1="99" y1="156" x2="90" y2="190"/>
+<line data-from="a0010" data-to="a00101" x1="99" y1="156" x2="108" y2="190"/>
+<line data-from="a0011" data-to="a00110" x1="135" y1="156" x2="126" y2="190"/>
+<line data-from="a0011" data-to="a00111" x1="135" y1="156" x2="144" y2="190"/>
+<line data-from="a001" data-to="a0010" x1="117" y1="122" x2="99" y2="156"/>
+<line data-from="a001" data-to="a0011" x1="117" y1="122" x2="135" y2="156"/>
+<line data-from="a00" data-to="a000" x1="81" y1="88" x2="45" y2="122"/>
+<line data-from="a00" data-to="a001" x1="81" y1="88" x2="117" y2="122"/>
+<line data-from="a0100" data-to="a01000" x1="171" y1="156" x2="162" y2="190"/>
+<line data-from="a0100" data-to="a01001" x1="171" y1="156" x2="180" y2="190"/>
+<line data-from="a0101" data-to="a01010" x1="207" y1="156" x2="198" y2="190"/>
+<line data-from="a0101" data-to="a01011" x1="207" y1="156" x2="216" y2="190"/>
+<line data-from="a010" data-to="a0100" x1="189" y1="122" x2="171" y2="156"/>
+<line data-from="a010" data-to="a0101" x1="189" y1="122" x2="207" y2="156"/>
+<line data-from="a0110" data-to="a01100" x1="243" y1="156" x2="234" y2="190"/>
+<line data-from="a0110" data-to="a01101" x1="243" y1="156" x2="252" y2="190"/>
+<line data-from="a0111" data-to="a01110" x1="279" y1="156" x2="270" y2="190"/>
+<line data-from="a0111" data-to="a01111" x1="279" y1="156" x2="288" y2="190"/>
+<line data-from="a011" data-to="a0110" x1="261" y1="122" x2="243" y2="156"/>
+<line data-from="a011" data-to="a0111" x1="261" y1="122" x2="279" y2="156"/>
+<line data-from="a01" data-to="a010" x1="225" y1="88" x2="189" y2="122"/>
+<line data-from="a01" data-to="a011" x1="225" y1="88" x2="261" y2="122"/>
+<line data-from="a0" data-to="a00" x1="153" y1="54" x2="81" y2="88"/>
+<line data-from="a0" data-to="a01" x1="153" y1="54" x2="225" y2="88"/>
+<line data-from="a101" data-to="a1011" x1="333" y1="122" x2="342" y2="156"/>
+<line data-from="a10" data-to="a100" x1="319.5" y1="88" x2="306" y2="122"/>
+<line data-from="a10" data-to="a101" x1="319.5" y1="88" x2="333" y2="122"/>
+<line data-from="a110" data-to="a1101" x1="369" y1="122" x2="378" y2="156"/>
+<line data-from="a1111" data-to="a11111" x1="423" y1="156" x2="432" y2="190"/>
+<line data-from="a111" data-to="a1110" x1="409.5" y1="122" x2="396" y2="156"/>
+<line data-from="a111" data-to="a1111" x1="409.5" y1="122" x2="423" y2="156"/>
+<line data-from="a11" data-to="a110" x1="389.25" y1="88" x2="369" y2="122"/>
+<line data-from="a11" data-to="a111" x1="389.25" y1="88" x2="409.5" y2="122"/>
+<line data-from="a1" data-to="a10" x1="354.375" y1="54" x2="319.5" y2="88"/>
+<line data-from="a1" data-to="a11" x1="354.375" y1="54" x2="389.25" y2="88"/>
+<line data-from="a" data-to="a0" x1="253.688" y1="20" x2="153" y2="54"/>
+<line data-from="a" data-to="a1" x1="253.688" y1="20" x2="354.375" y2="54"/>
+</g>
+<g font-family="serif" font-size="15" stroke="#222" stroke-width="1.3">
+<g data-node="a00000" data-role="internal">
+<circle cx="18" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a00001" data-role="internal">
+<circle cx="36" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a0000" data-role="internal">
+<circle cx="27" cy="156" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a00010" data-role="internal">
+<circle cx="54" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a00011" data-role="internal">
+<circle cx="72" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a0001" data-role="internal">
+<circle cx="63" cy="156" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a000" data-role="internal">
+<circle cx="45" cy="122" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a00100" data-role="internal">
+<circle cx="90" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a00101" data-role="internal">
+<circle cx="108" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a0010" data-role="internal">
+<circle cx="99" cy="156" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a00110" data-role="internal">
+<circle cx="126" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a00111" data-role="internal">
+<circle cx="144" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a0011" data-role="internal">
+<circle cx="135" cy="156" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a001" data-role="internal">
+<circle cx="117" cy="122" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a00" data-role="internal">
+<circle cx="81" cy="88" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a01000" data-role="internal">
+<circle cx="162" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a01001" data-role="internal">
+<circle cx="180" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a0100" data-role="internal">
+<circle cx="171" cy="156" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a01010" data-role="internal">
+<circle cx="198" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a01011" data-role="internal">
+<circle cx="216" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a0101" data-role="internal">
+<circle cx="207" cy="156" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a010" data-role="internal">
+<circle cx="189" cy="122" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a01100" data-role="internal">
+<circle cx="234" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a01101" data-role="internal">
+<circle cx="252" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a0110" data-role="internal">
+<circle cx="243" cy="156" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a01110" data-role="internal">
+<circle cx="270" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a01111" data-role="internal">
+<circle cx="288" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a0111" data-role="internal">
+<circle cx="279" cy="156" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a011" data-role="internal">
+<circle cx="261" cy="122" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a01" data-role="internal">
+<circle cx="225" cy="88" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a0" data-role="internal">
+<circle cx="153" cy="54" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a100" data-role="internal">
+<circle cx="306" cy="122" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a1011" data-role="internal">
+<circle cx="342" cy="156" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a101" data-role="internal">
+<circle cx="333" cy="122" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a10" data-role="internal">
+<circle cx="319.5" cy="88" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a1101" data-role="internal">
+<circle cx="378" cy="156" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a110" data-role="internal">
+<circle cx="369" cy="122" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a1110" data-role="internal">
+<circle cx="396" cy="156" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a11111" data-role="internal">
+<circle cx="432" cy="190" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a1111" data-role="internal">
+<circle cx="423" cy="156" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a111" data-role="internal">
+<circle cx="409.5" cy="122" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a11" data-role="internal">
+<circle cx="389.25" cy="88" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a1" data-role="internal">
+<circle cx="354.375" cy="54" r="3.1" fill="#252525" stroke="none"/>
+</g>
+<g data-node="a" data-role="internal">
+<circle cx="253.688" cy="20" r="3.1" fill="#252525" stroke="none"/>
+</g>
+</g>
+</svg>

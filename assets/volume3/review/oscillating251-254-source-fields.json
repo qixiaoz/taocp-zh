@@ -1,0 +1,304 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    251,
+    252,
+    253,
+    254
+  ],
+  "enPdfPages": [
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    410
+  ],
+  "SobelOriginal16": {
+    "sourceTapeCellsTex": [
+      [
+        "A_1",
+        "A_1",
+        "A_1",
+        "A_1",
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        "D_4"
+      ],
+      [
+        null,
+        "A_1",
+        "A_1",
+        "A_1",
+        "D_4A_1"
+      ],
+      [
+        "D_4",
+        null,
+        null,
+        null,
+        "D_4"
+      ],
+      [
+        "D_4A_1",
+        null,
+        "A_1",
+        "A_1",
+        "D_4A_1"
+      ],
+      [
+        "D_4",
+        "D_4",
+        null,
+        null,
+        "D_4"
+      ],
+      [
+        "D_4A_1",
+        "D_4A_1",
+        null,
+        "A_1",
+        "D_4A_1"
+      ],
+      [
+        "D_4",
+        "D_4",
+        "D_4",
+        null,
+        "D_4"
+      ],
+      [
+        null,
+        null,
+        null,
+        "A_{16}",
+        null
+      ]
+    ],
+    "sourceCosts": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      16
+    ],
+    "allSourceLengthsByRow": [
+      4,
+      4,
+      8,
+      8,
+      12,
+      12,
+      16,
+      16,
+      16
+    ],
+    "finiteCostSum48": 48,
+    "scope": "literal9printedstates/costs andlengthweights only; not arbitrarySalgorithmexecution"
+  },
+  "BencherOriginalTables": {
+    "sourceFirstNineTapeCellsTex": [
+      [
+        null,
+        "A_1",
+        "A_1",
+        "A_1",
+        "A_1"
+      ],
+      [
+        null,
+        "A_1",
+        "A_1A_1",
+        "A_1A_1",
+        "A_1A_1"
+      ],
+      [
+        "D_4",
+        null,
+        "A_1",
+        "A_1",
+        "A_1"
+      ],
+      [
+        "D_4A_1",
+        null,
+        "A_1",
+        "A_1A_1",
+        "A_1A_1"
+      ],
+      [
+        "D_4",
+        "D_4",
+        null,
+        "A_1",
+        "A_1"
+      ],
+      [
+        "D_4A_1",
+        "D_4A_1",
+        null,
+        "A_1",
+        "A_1A_1"
+      ],
+      [
+        "D_4",
+        "D_4",
+        "D_4",
+        null,
+        "A_1"
+      ],
+      [
+        "D_4A_1",
+        "D_4A_1",
+        "D_4A_1",
+        null,
+        "A_1"
+      ],
+      [
+        "D_4",
+        "D_4",
+        "D_4",
+        "D_4",
+        null
+      ]
+    ],
+    "sourceFirstNineCosts": [
+      4,
+      3,
+      4,
+      3,
+      4,
+      3,
+      4,
+      3,
+      4
+    ],
+    "sourceLaterPhases": [
+      15,
+      16,
+      22,
+      23
+    ],
+    "sourceLaterTapeCellsTex": [
+      [
+        "D_4D_4",
+        "D_4D_4",
+        "D_4D_4",
+        "D_4",
+        null
+      ],
+      [
+        "D_4",
+        "D_4",
+        "D_4",
+        null,
+        "A_{16}"
+      ],
+      [
+        "D_4D_4",
+        "D_4D_4",
+        "D_4",
+        null,
+        "A_{16}D_4"
+      ],
+      [
+        "D_4",
+        "D_4",
+        null,
+        "A_{16}",
+        "A_{16}"
+      ]
+    ],
+    "sourceLaterCosts": [
+      4,
+      16,
+      4,
+      16
+    ],
+    "laterPrintedLengths": [
+      28,
+      28,
+      40,
+      40
+    ],
+    "originalFiveRunCostComparison": {
+      "SobelPrintedTerms": [
+        4,
+        4,
+        1,
+        5
+      ],
+      "SobelSum": 14,
+      "BencherPrintedTerms": [
+        4,
+        1,
+        2,
+        5
+      ],
+      "BencherSum": 12,
+      "rewindExtra": "oneunit beforefinalmerge bothsource",
+      "scope": "onlyliteral5runarithmetic andsourceprintedstates; no reconstructedgeneralBexecution"
+    }
+  },
+  "AlgorithmB": "allD/Adefinitions/inputandmergeabbreviations/all6steps andoriginalrecursiveinductionargument sourceonly; preserveT/P/0basedfields andevenoddpositive/negative cases; no newgenericproof/ISAmodel",
+  "figure77": {
+    "sourceNodes": 6,
+    "internalDirectedConnections": 9,
+    "entryExitConnections": 2,
+    "sourceMixedYesNoAndChineseLabelsRetained": true,
+    "sourceAdjacency": [
+      "entry→B1",
+      "B1→B2",
+      "B2No→B3",
+      "B2Yes→exit",
+      "B3→B4",
+      "B4否→B3",
+      "B4是→B5",
+      "B5→B6",
+      "B6是→B4",
+      "B6否→B3",
+      "B6l0→B2"
+    ],
+    "svgSha256": "ccca72df9c785fbece748bf5178bcc97152de8401f9f356d32b8842726a44203",
+    "visualRevision": "unacceptedouterarc crossed是label;onlyoutercontrolheight50→10,allsourceendpointsunchanged;oldSVGandbrowserpreserved"
+  },
+  "figure78": {
+    "assetSha256": "eecd32196d31633a1d48c3dce7f0908cfe5a0ea227fc45955862f026b2a410d2",
+    "sourceCropBoxPixels": [
+      357,
+      1197,
+      2143,
+      2580
+    ],
+    "layoutImageBboxPoints": [
+      87.11,
+      288.59,
+      512.4,
+      617.21
+    ],
+    "clearSourceFigureException": "allquantitativejaggedcurves/axes/logS/ticks andvisibleT3,T4,T5,T6,T8,T10labels retained; captioneditableoutsidecrop; no inferrednewcurvepoints or baseBexecutionclaimed",
+    "matchingEnglishFigurePhysicalPage": 410
+  },
+  "reviewerKind": "model-direct-image-review-and-literal-original-case-arithmetic",
+  "humanSignoff": false,
+  "pageMarkdownSha256": {
+    "251": "aff593fa281f980529becb02af9b69ee04d6962f3ce9d719b0b469352101011f",
+    "252": "ff6ed2e0a3fbbaabd4faf8ef84f93af508152b8f715f0fe351a3d6f333c2bbd8",
+    "253": "66197bff68cc0c40092f70337f822b33c83a747bf3e364c0575bc74e6df080f4",
+    "254": "010346cc4584c72910ffc2e7557beaff47bbeeaa61cb64563cab851580552d43"
+  },
+  "section544": "secondset23continueda/b/cand24–26complete;all26exercisesclosed; no inventedanswers/genericstagephasemodel",
+  "section545": "startsCN251lower,fullsourceSobel/BencherandalgorithmB/proof/fig77/78/Goetzintroa,bthrough254",
+  "algorithmExecutionQualification": "No new B execution; all six steps and original argument sourcecompared. Quantitative figure78 explicitly usesexercise3 refinement, not unmodifiedbaseB."
+}

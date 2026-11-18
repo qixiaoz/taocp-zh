@@ -1,0 +1,129 @@
+{
+  "volume": "volume3",
+  "stage": "private-page-render-check-049-050",
+  "physicalPages": [
+    49,
+    50
+  ],
+  "cases": 4,
+  "viewports": [
+    1280,
+    390
+  ],
+  "failures": 0,
+  "errors": 0,
+  "mathObservations": 160,
+  "horizontalPortsCheckedAtBothEnds": 4,
+  "rawBrowserEvidenceSha256": "207c3b9ec3ab6a79b9fd94fddadf64b394bd0b86c4f3d3a7ae4595be9131eb22",
+  "details": [
+    {
+      "bodyText": 958,
+      "math": 20,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 64,
+      "italicTableCells": 34,
+      "italicTableStylePass": true,
+      "endpoints": [],
+      "page": 49,
+      "width": 1280,
+      "pageMarkdownSha256": "47c67c6acb4f532891c8359150466159a55e9723716a1e0aa82a1337c72c208c",
+      "htmlSha256": "0c889e21c8d795974101aeac8d5181e17df1c953bc93507b498f479ac2e25ffa",
+      "passed": true
+    },
+    {
+      "bodyText": 2884,
+      "math": 60,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 0,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "endpoints": [],
+      "page": 50,
+      "width": 1280,
+      "pageMarkdownSha256": "a4274068c40d8de8c845391f2076d0a68b2c729171ef22e969e8c124e9f0d4a9",
+      "htmlSha256": "362e91666d64b188ef279c9b2d301b109a672638426b69b73ca10cf02d38c90f",
+      "passed": true
+    },
+    {
+      "bodyText": 958,
+      "math": 20,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 64,
+      "italicTableCells": 34,
+      "italicTableStylePass": true,
+      "endpoints": [],
+      "page": 49,
+      "width": 390,
+      "pageMarkdownSha256": "47c67c6acb4f532891c8359150466159a55e9723716a1e0aa82a1337c72c208c",
+      "htmlSha256": "0c889e21c8d795974101aeac8d5181e17df1c953bc93507b498f479ac2e25ffa",
+      "passed": true
+    },
+    {
+      "bodyText": 2884,
+      "math": 60,
+      "parseErrors": 0,
+      "missingImages": 0,
+      "documentOverflow": false,
+      "footnoteRefs": 0,
+      "footnoteItems": 0,
+      "tableDataCells": 0,
+      "italicTableCells": 0,
+      "italicTableStylePass": true,
+      "endpoints": [
+        {
+          "start": 0,
+          "end": 43,
+          "max": 43,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 357,
+          "max": 357,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 173,
+          "max": 173,
+          "pass": true
+        },
+        {
+          "start": 0,
+          "end": 407,
+          "max": 407,
+          "pass": true
+        }
+      ],
+      "page": 50,
+      "width": 390,
+      "pageMarkdownSha256": "a4274068c40d8de8c845391f2076d0a68b2c729171ef22e969e8c124e9f0d4a9",
+      "htmlSha256": "362e91666d64b188ef279c9b2d301b109a672638426b69b73ca10cf02d38c90f",
+      "passed": true
+    }
+  ],
+  "directlyViewedScreens": [
+    "49-1280-after1.png",
+    "49-1280.png",
+    "49-1280-reverse2.png",
+    "50-390-end.png"
+  ],
+  "semanticFontCheck": {
+    "tableDataCellsPer49Page": 64,
+    "italicCellsPer49Page": 34,
+    "computedStyleItalicCheckedInBothWidths": true
+  },
+  "qualification": "私有单页生产规则校样；数字斜体有原书语义，另核真实DOM/样式与四个源状态。未完成完整母稿或正式网站验收。"
+}

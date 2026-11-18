@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" role="img" aria-labelledby="title desc">
+  <title id="title">二分查找流程图</title>
+  <desc id="desc">入口到B1，再到B2。若u小于l则失败；否则转B3。小于时经B4调整u并回B2，大于时经B5调整l并回B2，相等时成功。共五步骤结点和九条含入口出口的有向边。</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L9 4L1 7" fill="none" stroke="#222" stroke-width="1.6"/></marker></defs>
+  <rect width="900" height="550" fill="#fff"/>
+  <g fill="none" stroke="#222" stroke-width="1.8" marker-end="url(#arrow)">
+    <path d="M450 15V50"/><path d="M450 100V155"/><path d="M560 180H760"/><path d="M450 205V315"/>
+    <path d="M360 350C300 350 215 350 215 305"/><path d="M540 350C600 350 685 350 685 305"/>
+    <path d="M215 255C215 210 310 180 340 180"/><path d="M685 255C685 210 590 195 560 195"/>
+    <path d="M450 385V490"/>
+  </g>
+  <g fill="#fff" stroke="#222" stroke-width="1.8">
+    <rect x="385" y="50" width="130" height="50"/><rect x="340" y="155" width="220" height="50"/>
+    <rect x="150" y="255" width="130" height="50"/><rect x="620" y="255" width="130" height="50"/>
+    <ellipse cx="450" cy="350" rx="90" ry="35"/>
+  </g>
+  <g fill="#111" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" text-anchor="middle">
+    <text x="450" y="83">B1. 初始化</text><text x="450" y="188">B2. 获得中点</text>
+    <text x="215" y="288">B4. 调整 <tspan font-family="Times New Roman,serif" font-style="italic">u</tspan></text><text x="685" y="288">B5. 调整 <tspan font-family="Times New Roman,serif" font-style="italic">l</tspan></text><text x="450" y="358">B3. 比较</text>
+    <text x="620" y="165" font-family="Times New Roman,serif" font-style="italic">u &lt; l</text>
+    <text x="335" y="370">&lt;</text><text x="565" y="370">&gt;</text><text x="470" y="415">=</text>
+    <text x="820" y="188">FAILURE</text><text x="450" y="525">SUCCESS</text>
+  </g>
+</svg>

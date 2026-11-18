@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1526" height="615" viewBox="0 0 1526 615" role="img" aria-labelledby="title desc">
+<title id="title">31个最常见的英文单词的最优查找树</title>
+<desc id="desc">三十一个英文单词在椭圆结点内，相对出现频率标在下方。左子树单词较小，右子树较大，短分叉表示空链接。</desc>
+<rect width="1526" height="615" fill="white"/>
+<g stroke="#222" stroke-width="1.6" fill="none">
+<path d="M73.0 352l-13 22"/>
+<path d="M73.0 352l13 22"/>
+<path d="M165.0 552l-13 22"/>
+<path d="M165.0 552l13 22"/>
+<path d="M257.0 552l-13 22"/>
+<path d="M257.0 552l13 22"/>
+<path d="M211.0 435L165.0 535"/>
+<path d="M211.0 435L257.0 535"/>
+<path d="M349.0 552l-13 22"/>
+<path d="M349.0 552l13 22"/>
+<path d="M383.5 435L349.0 535"/>
+<path d="M383.5 452l13 22"/>
+<path d="M297.25 335L211.0 435"/>
+<path d="M297.25 335L383.5 435"/>
+<path d="M185.125 235L73.0 335"/>
+<path d="M185.125 235L297.25 335"/>
+<path d="M487.0 552l-13 22"/>
+<path d="M487.0 552l13 22"/>
+<path d="M579.0 552l-13 22"/>
+<path d="M579.0 552l13 22"/>
+<path d="M533.0 435L487.0 535"/>
+<path d="M533.0 435L579.0 535"/>
+<path d="M671.0 552l-13 22"/>
+<path d="M671.0 552l13 22"/>
+<path d="M763.0 552l-13 22"/>
+<path d="M763.0 552l13 22"/>
+<path d="M717.0 435L671.0 535"/>
+<path d="M717.0 435L763.0 535"/>
+<path d="M625.0 335L533.0 435"/>
+<path d="M625.0 335L717.0 435"/>
+<path d="M855.0 452l-13 22"/>
+<path d="M855.0 452l13 22"/>
+<path d="M947.0 452l-13 22"/>
+<path d="M947.0 452l13 22"/>
+<path d="M901.0 335L855.0 435"/>
+<path d="M901.0 335L947.0 435"/>
+<path d="M763.0 235L625.0 335"/>
+<path d="M763.0 235L901.0 335"/>
+<path d="M474.0625 135L185.125 235"/>
+<path d="M474.0625 135L763.0 235"/>
+<path d="M1085.0 452l-13 22"/>
+<path d="M1085.0 452l13 22"/>
+<path d="M1050.5 352l-13 22"/>
+<path d="M1050.5 335L1085.0 435"/>
+<path d="M1102.25 235L1050.5 335"/>
+<path d="M1102.25 252l13 22"/>
+<path d="M1223.0 352l-13 22"/>
+<path d="M1223.0 352l13 22"/>
+<path d="M1361.0 552l-13 22"/>
+<path d="M1361.0 552l13 22"/>
+<path d="M1326.5 452l-13 22"/>
+<path d="M1326.5 435L1361.0 535"/>
+<path d="M1453.0 452l-13 22"/>
+<path d="M1453.0 452l13 22"/>
+<path d="M1389.75 335L1326.5 435"/>
+<path d="M1389.75 335L1453.0 435"/>
+<path d="M1306.375 235L1223.0 335"/>
+<path d="M1306.375 235L1389.75 335"/>
+<path d="M1204.3125 135L1102.25 235"/>
+<path d="M1204.3125 135L1306.375 235"/>
+<path d="M839.1875 35L474.0625 135"/>
+<path d="M839.1875 35L1204.3125 135"/>
+</g><g fill="white" stroke="#222" stroke-width="1.6">
+<ellipse cx="73.0" cy="335" rx="41" ry="17"/>
+<ellipse cx="165.0" cy="535" rx="41" ry="17"/>
+<ellipse cx="257.0" cy="535" rx="41" ry="17"/>
+<ellipse cx="211.0" cy="435" rx="41" ry="17"/>
+<ellipse cx="349.0" cy="535" rx="41" ry="17"/>
+<ellipse cx="383.5" cy="435" rx="41" ry="17"/>
+<ellipse cx="297.25" cy="335" rx="41" ry="17"/>
+<ellipse cx="185.125" cy="235" rx="41" ry="17"/>
+<ellipse cx="487.0" cy="535" rx="41" ry="17"/>
+<ellipse cx="579.0" cy="535" rx="41" ry="17"/>
+<ellipse cx="533.0" cy="435" rx="41" ry="17"/>
+<ellipse cx="671.0" cy="535" rx="41" ry="17"/>
+<ellipse cx="763.0" cy="535" rx="41" ry="17"/>
+<ellipse cx="717.0" cy="435" rx="41" ry="17"/>
+<ellipse cx="625.0" cy="335" rx="41" ry="17"/>
+<ellipse cx="855.0" cy="435" rx="41" ry="17"/>
+<ellipse cx="947.0" cy="435" rx="41" ry="17"/>
+<ellipse cx="901.0" cy="335" rx="41" ry="17"/>
+<ellipse cx="763.0" cy="235" rx="41" ry="17"/>
+<ellipse cx="474.0625" cy="135" rx="41" ry="17"/>
+<ellipse cx="1085.0" cy="435" rx="41" ry="17"/>
+<ellipse cx="1050.5" cy="335" rx="41" ry="17"/>
+<ellipse cx="1102.25" cy="235" rx="41" ry="17"/>
+<ellipse cx="1223.0" cy="335" rx="41" ry="17"/>
+<ellipse cx="1361.0" cy="535" rx="41" ry="17"/>
+<ellipse cx="1326.5" cy="435" rx="41" ry="17"/>
+<ellipse cx="1453.0" cy="435" rx="41" ry="17"/>
+<ellipse cx="1389.75" cy="335" rx="41" ry="17"/>
+<ellipse cx="1306.375" cy="235" rx="41" ry="17"/>
+<ellipse cx="1204.3125" cy="135" rx="41" ry="17"/>
+<ellipse cx="839.1875" cy="35" rx="41" ry="17"/>
+</g><g fill="#222" font-family="monospace" font-size="19" text-anchor="middle">
+<text x="73.0" y="341">A</text>
+<text x="165.0" y="541">ARE</text>
+<text x="257.0" y="541">AT</text>
+<text x="211.0" y="441">AS</text>
+<text x="349.0" y="541">BUT</text>
+<text x="383.5" y="441">BY</text>
+<text x="297.25" y="341">BE</text>
+<text x="185.125" y="241">AND</text>
+<text x="487.0" y="541">FROM</text>
+<text x="579.0" y="541">HAVE</text>
+<text x="533.0" y="441">HAD</text>
+<text x="671.0" y="541">HER</text>
+<text x="763.0" y="541">I</text>
+<text x="717.0" y="441">HIS</text>
+<text x="625.0" y="341">HE</text>
+<text x="855.0" y="441">IS</text>
+<text x="947.0" y="441">NOT</text>
+<text x="901.0" y="341">IT</text>
+<text x="763.0" y="241">IN</text>
+<text x="474.0625" y="141">FOR</text>
+<text x="1085.0" y="441">OR</text>
+<text x="1050.5" y="341">ON</text>
+<text x="1102.25" y="241">THAT</text>
+<text x="1223.0" y="341">THIS</text>
+<text x="1361.0" y="541">WHICH</text>
+<text x="1326.5" y="441">WAS</text>
+<text x="1453.0" y="441">YOU</text>
+<text x="1389.75" y="341">WITH</text>
+<text x="1306.375" y="241">TO</text>
+<text x="1204.3125" y="141">THE</text>
+<text x="839.1875" y="41">OF</text>
+</g><g font-family="serif" font-size="20" text-anchor="middle">
+<rect x="44.0" y="376" width="58" height="23" fill="white"/>
+<text x="73.0" y="394" fill="#222">5074</text>
+<rect x="136.0" y="576" width="58" height="23" fill="white"/>
+<text x="165.0" y="594" fill="#222">1222</text>
+<rect x="228.0" y="576" width="58" height="23" fill="white"/>
+<text x="257.0" y="594" fill="#222">1053</text>
+<rect x="182.0" y="476" width="58" height="23" fill="white"/>
+<text x="211.0" y="494" fill="#222">1853</text>
+<rect x="320.0" y="576" width="58" height="23" fill="white"/>
+<text x="349.0" y="594" fill="#222">1379</text>
+<rect x="354.5" y="476" width="58" height="23" fill="white"/>
+<text x="383.5" y="494" fill="#222">1392</text>
+<rect x="268.25" y="376" width="58" height="23" fill="white"/>
+<text x="297.25" y="394" fill="#222">1535</text>
+<rect x="156.125" y="276" width="58" height="23" fill="white"/>
+<text x="185.125" y="294" fill="#222">7638</text>
+<rect x="458.0" y="576" width="58" height="23" fill="white"/>
+<text x="487.0" y="594" fill="#222">1039</text>
+<rect x="550.0" y="576" width="58" height="23" fill="white"/>
+<text x="579.0" y="594" fill="#222">1344</text>
+<rect x="504.0" y="476" width="58" height="23" fill="white"/>
+<text x="533.0" y="494" fill="#222">1062</text>
+<rect x="642.0" y="576" width="58" height="23" fill="white"/>
+<text x="671.0" y="594" fill="#222">1093</text>
+<rect x="734.0" y="576" width="58" height="23" fill="white"/>
+<text x="763.0" y="594" fill="#222">2292</text>
+<rect x="688.0" y="476" width="58" height="23" fill="white"/>
+<text x="717.0" y="494" fill="#222">1732</text>
+<rect x="596.0" y="376" width="58" height="23" fill="white"/>
+<text x="625.0" y="394" fill="#222">1727</text>
+<rect x="826.0" y="476" width="58" height="23" fill="white"/>
+<text x="855.0" y="494" fill="#222">2509</text>
+<rect x="918.0" y="476" width="58" height="23" fill="white"/>
+<text x="947.0" y="494" fill="#222">1496</text>
+<rect x="872.0" y="376" width="58" height="23" fill="white"/>
+<text x="901.0" y="394" fill="#222">2255</text>
+<rect x="734.0" y="276" width="58" height="23" fill="white"/>
+<text x="763.0" y="294" fill="#222">4312</text>
+<rect x="445.0625" y="176" width="58" height="23" fill="white"/>
+<text x="474.0625" y="194" fill="#222">1869</text>
+<rect x="1056.0" y="476" width="58" height="23" fill="white"/>
+<text x="1085.0" y="494" fill="#222">1101</text>
+<rect x="1021.5" y="376" width="58" height="23" fill="white"/>
+<text x="1050.5" y="394" fill="#222">1155</text>
+<rect x="1073.25" y="276" width="58" height="23" fill="white"/>
+<text x="1102.25" y="294" fill="#222">3017</text>
+<rect x="1194.0" y="376" width="58" height="23" fill="white"/>
+<text x="1223.0" y="394" fill="#222">1021</text>
+<rect x="1332.0" y="576" width="58" height="23" fill="white"/>
+<text x="1361.0" y="594" fill="#222">1291</text>
+<rect x="1297.5" y="476" width="58" height="23" fill="white"/>
+<text x="1326.5" y="494" fill="#222">1761</text>
+<rect x="1424.0" y="476" width="58" height="23" fill="white"/>
+<text x="1453.0" y="494" fill="#222">1336</text>
+<rect x="1360.75" y="376" width="58" height="23" fill="white"/>
+<text x="1389.75" y="394" fill="#222">1849</text>
+<rect x="1277.375" y="276" width="58" height="23" fill="white"/>
+<text x="1306.375" y="294" fill="#222">5739</text>
+<rect x="1175.3125" y="176" width="58" height="23" fill="white"/>
+<text x="1204.3125" y="194" fill="#222">15568</text>
+<rect x="810.1875" y="76" width="58" height="23" fill="white"/>
+<text x="839.1875" y="94" fill="#222">9767</text>
+</g></svg>

@@ -1,0 +1,138 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    165,
+    166
+  ],
+  "enPdfPages": [
+    269,
+    270,
+    271,
+    272
+  ],
+  "sourceBodyFormulas": [
+    21,
+    22,
+    23,
+    24
+  ],
+  "originalConjectureStatus": "式23/24按所给版本说未证明；未作当前研究状态声明或一般证明。",
+  "sourceExercises": {
+    "165": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "166": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  "exercise12Split": {
+    "165": "对象关系，未含R定义",
+    "166": "R定义、无意义条件、零边界和双minmax递推"
+  },
+  "recommended": [
+    2,
+    8
+  ],
+  "sourceGSequence": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    6,
+    9,
+    13,
+    19,
+    27,
+    38,
+    54,
+    77
+  ],
+  "sourceHSequence": [
+    1,
+    1,
+    2,
+    2,
+    3,
+    4,
+    5,
+    7,
+    9,
+    11,
+    14,
+    18,
+    23,
+    29,
+    38,
+    48,
+    60,
+    76
+  ],
+  "numericQualification": "只按源floor公式核13个g与h的后9个派生值，前9个h是源给的初值；不求解R_n的一般递推。",
+  "sourceGFunctionFigure": {
+    "sourceCases": [
+      [
+        "1",
+        "0<x<=5/7"
+      ],
+      [
+        "1/2+G(8x-5)/8",
+        "5/7<x<=3/4"
+      ],
+      [
+        "G(2x-1)/2",
+        "3/4<x<=1"
+      ],
+      [
+        "0",
+        "1<x<infinity"
+      ]
+    ],
+    "samples": {
+      "5/7": "1",
+      "3/4": "1/2",
+      "6/7": "1/2",
+      "7/8": "1/4",
+      "15/16": "1/8",
+      "1": "0",
+      "13/10": "0"
+    },
+    "pathPoints": 5328,
+    "xAxisRange": [
+      0,
+      1.3
+    ],
+    "xTickCount": 14,
+    "yAxisRange": [
+      0,
+      1
+    ],
+    "yTickCount": 11,
+    "xZero": "只用右极限1画到轴边，不声明原G定义含0",
+    "xOne": "源G(1)=G(1)/2强制有限值0，用于绘图终止；不作R闭式证明",
+    "asset": "assets/volume3/figures/fig-5-38.svg",
+    "assetSha256": "1368f16633b1d612f617bcc563a81aafe54322d3cc00dcb50e5f2b03ce7905ed"
+  },
+  "pageMarkdownSha256": {
+    "165": "f33b6ce1d7d69fb53798f5be75bd86d28423e9902f8b954e9c228f75aa807a5e",
+    "166": "93f1cc58ac23056f44be1344632f29e3b4b84316d4170f9a89cbc8507c6bb8d7"
+  },
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false
+}

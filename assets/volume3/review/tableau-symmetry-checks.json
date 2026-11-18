@@ -1,0 +1,209 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    47,
+    48
+  ],
+  "state": "listed-finite-tableau-symmetry-and-sliding-checks-pass",
+  "sourceClasses": {
+    "original": [
+      {
+        "pair": [
+          1,
+          7
+        ],
+        "class": 1
+      },
+      {
+        "pair": [
+          3,
+          2
+        ],
+        "class": 1
+      },
+      {
+        "pair": [
+          5,
+          9
+        ],
+        "class": 2
+      },
+      {
+        "pair": [
+          6,
+          5
+        ],
+        "class": 2
+      },
+      {
+        "pair": [
+          8,
+          3
+        ],
+        "class": 2
+      }
+    ],
+    "bumpedPairs": [
+      [
+        3,
+        7
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        8,
+        5
+      ]
+    ],
+    "bumpedClasses": [
+      {
+        "pair": [
+          3,
+          7
+        ],
+        "class": 1
+      },
+      {
+        "pair": [
+          6,
+          9
+        ],
+        "class": 2
+      },
+      {
+        "pair": [
+          8,
+          5
+        ],
+        "class": 1
+      }
+    ]
+  },
+  "sourceCornerDeletion": {
+    "beforeRows": [
+      [
+        1,
+        3,
+        5,
+        7,
+        11,
+        15
+      ],
+      [
+        2,
+        6,
+        8,
+        14
+      ],
+      [
+        4,
+        9,
+        13
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        16
+      ]
+    ],
+    "afterRows": [
+      [
+        2,
+        3,
+        5,
+        7,
+        11,
+        15
+      ],
+      [
+        4,
+        6,
+        8,
+        14
+      ],
+      [
+        9,
+        12,
+        13
+      ],
+      [
+        10
+      ],
+      [
+        16
+      ]
+    ],
+    "deleted": 1,
+    "shiftedValues": [
+      2,
+      4,
+      9,
+      12
+    ],
+    "newVacantCell": [
+      4,
+      2
+    ]
+  },
+  "finiteCases": {
+    "nRange": [
+      1,
+      7
+    ],
+    "permutations": 5913,
+    "classPairs": 40319,
+    "checks": [
+      "逆排列的P/Q交换",
+      "各列转置后的类号不变",
+      "算法S结果等于删除最小字母后重新构造P",
+      "不同标准图表数与对合数一致"
+    ],
+    "counts": [
+      {
+        "n": 1,
+        "distinctTableaux": 1,
+        "involutions": 1
+      },
+      {
+        "n": 2,
+        "distinctTableaux": 2,
+        "involutions": 2
+      },
+      {
+        "n": 3,
+        "distinctTableaux": 4,
+        "involutions": 4
+      },
+      {
+        "n": 4,
+        "distinctTableaux": 10,
+        "involutions": 10
+      },
+      {
+        "n": 5,
+        "distinctTableaux": 26,
+        "involutions": 26
+      },
+      {
+        "n": 6,
+        "distinctTableaux": 76,
+        "involutions": 76
+      },
+      {
+        "n": 7,
+        "distinctTableaux": 232,
+        "involutions": 232
+      }
+    ]
+  },
+  "sourceTableauCells": 16,
+  "pageMarkdownSha256": {
+    "47": "0096367507757161501aa38be865217437f18429607c654fcd89419653bab379",
+    "48": "46474ac355a212c06b823220aab0920dbc03dbb8463442a0e97bcc3e0d9f5157"
+  },
+  "qualification": "有限排列和源例复算辅助源图核查，不取代定理B/C、一般图表枚举或复杂度的证明。"
+}

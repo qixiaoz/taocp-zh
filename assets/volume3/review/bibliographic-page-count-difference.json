@@ -1,0 +1,49 @@
+{
+  "volume": "volume3",
+  "state": "external-bibliographic-page-count-difference-unresolved",
+  "checkedDate": "2026-11-17",
+  "authorBibliography": {
+    "url": "https://www-cs-faculty.stanford.edu/~knuth/taocp.html",
+    "entry": "Jia Hongfeng, Posts & Telecom Press, 2017, x+632pp.",
+    "htmlSha256": "bf8700b1e318e9ec8554069346dfc7c8f0f23575fd03c1ac4b73220ba23b6fae"
+  },
+  "providedScan": {
+    "physicalPages": 625,
+    "lastPrintedPage": 618,
+    "lastIndexPhysicalPage": 624,
+    "documentInfoPhysicalPage": 625,
+    "copyrightPhysicalPage": 4,
+    "copyrightPrinting": "2017年1月第1版/第1次印刷",
+    "copyrightPrinterSheets": "39.5",
+    "catalogueIndexStart": 609,
+    "actualIndexStartPhysicalPage": 615
+  },
+  "sourceImageEvidence": [
+    {
+      "cnPdfPage": 4,
+      "sha256": "9daf127eadd3e212e9499b66afb85b5dd99451d0c054c8f5dd2c9bad1daddcfb"
+    },
+    {
+      "cnPdfPage": 5,
+      "sha256": "ce0ad0b2fca1a47159c7d4901f64d350f854585524d8b8b007fb71316814cd36"
+    },
+    {
+      "cnPdfPage": 6,
+      "sha256": "2d3bc0a085a064716e6b87903e7a1670bec7f2cde7d271f537e0d50e98fbe09b"
+    },
+    {
+      "cnPdfPage": 624,
+      "sha256": "a938a132632cca534e5e597830a7cf5f3c6448a0e0878aea0e1afcb810d832c8"
+    }
+  ],
+  "established": [
+    "当前扫描的目录、正文/答案/附录分区及索引末页编号相互吻合。",
+    "索引在印刷618页自然结束，后接制档页；版权页没有直接给出正文末页或总页数。"
+  ],
+  "notEstablished": [
+    "外部书目x+632与当前底本编号差异的确切原因。",
+    "存在另一个不同印次或不同排版的同版逐页原图证据。",
+    "有额外14页正文缺失。"
+  ],
+  "handling": "保持本底本expectedSourcePages=625，不将632−618当缺页数；已批准补配仅针对实证未含的前言/习题说明。"
+}

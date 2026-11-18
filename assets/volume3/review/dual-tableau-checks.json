@@ -1,0 +1,222 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    49,
+    50
+  ],
+  "state": "listed-dual-tableau-examples-and-finite-transformations-pass",
+  "sourceTableauStates": [
+    {
+      "name": "after1",
+      "cells": 16,
+      "italicCells": 1,
+      "italicPositions": [
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "after3",
+      "cells": 16,
+      "italicCells": 3,
+      "italicPositions": [
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "dual26",
+      "cells": 16,
+      "italicCells": 16,
+      "italicPositions": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "reverseAfter2",
+      "cells": 16,
+      "italicCells": 14,
+      "italicPositions": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    }
+  ],
+  "sourceTableauCells": 64,
+  "sourceItalicCells": 34,
+  "sourceDualRows": [
+    [
+      16,
+      14,
+      13,
+      12,
+      10,
+      2
+    ],
+    [
+      15,
+      9,
+      6,
+      4
+    ],
+    [
+      11,
+      5,
+      3
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      7
+    ]
+  ],
+  "sourceReverseRestoresOriginal": true,
+  "finiteCases": {
+    "nRange": [
+      1,
+      7
+    ],
+    "permutations": 5913,
+    "theoremDPartsABCChecks": 17739,
+    "reverseEvacuationChecks": 5913,
+    "transposeCommutesWithEvacuationChecks": 5913,
+    "shapeRecurrenceCases": 44,
+    "method": "按原算法S逐次滑移最小元素并把其放回末空角；对偶顺序用最大元素及相反边界。对I构造分别倒序标签、倒序p序、对偶p比较，再逐字典比P/Q。"
+  },
+  "pageMarkdownSha256": {
+    "49": "47c67c6acb4f532891c8359150466159a55e9723716a1e0aa82a1337c72c208c",
+    "50": "a4274068c40d8de8c845391f2076d0a68b2c729171ef22e969e8c124e9f0d4a9"
+  },
+  "qualification": "原图数值/字体状态和有限变换验证，不声称一般定理D或所有f关系已获独立证明。"
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="t d"><title id="t">图17 算法M</title><desc id="d">M1至M6六节点，M3对满足位与条件的i进入M4，M5控制q循环，M6控制p循环。</desc><defs><marker id="a" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1L8 4L1 7" fill="none" stroke="#222" stroke-width="1.4"/></marker></defs><rect width="1200" height="410" fill="#fff"/>
+<rect x="30" y="45" width="205" height="62" fill="#fff" stroke="#222" stroke-width="1.4"/><text x="132.5" y="84" text-anchor="middle" font-size="23" font-family="serif">M1. 初始化 p</text>
+<rect x="30" y="170" width="270" height="62" fill="#fff" stroke="#222" stroke-width="1.4"/><text x="165.0" y="209" text-anchor="middle" font-size="23" font-family="serif">M2. 初始化 q, r, d</text>
+<rect x="420" y="170" width="190" height="62" fill="#fff" stroke="#222" stroke-width="1.4"/><text x="515.0" y="209" text-anchor="middle" font-size="23" font-family="serif">M3. 对 i 循环</text>
+<rect x="335" y="325" width="410" height="62" fill="#fff" stroke="#222" stroke-width="1.4"/><text x="540.0" y="364" text-anchor="middle" font-size="23" font-family="serif">M4. 比较/交换 Rᵢ₊₁ : Rᵢ₊d₊₁</text>
+<rect x="770" y="170" width="180" height="62" fill="#fff" stroke="#222" stroke-width="1.4"/><text x="860.0" y="209" text-anchor="middle" font-size="23" font-family="serif">M5. 对 q 循环</text>
+<rect x="1030" y="170" width="160" height="62" fill="#fff" stroke="#222" stroke-width="1.4"/><text x="1110.0" y="209" text-anchor="middle" font-size="23" font-family="serif">M6. 对 p 循环</text>
+<path d="M100,5V42" stroke="#222" stroke-width="1.4" fill="none" marker-end="url(#a)"/>
+<path d="M130,107V167" stroke="#222" stroke-width="1.4" fill="none" marker-end="url(#a)"/>
+<path d="M300,201H417" stroke="#222" stroke-width="1.4" fill="none" marker-end="url(#a)"/>
+<path d="M610,201H767" stroke="#222" stroke-width="1.4" fill="none" marker-end="url(#a)"/>
+<text x="686" y="233" text-anchor="middle" font-size="22" font-family="serif">i ≥ N − d</text>
+<path d="M480,232V322" stroke="#222" stroke-width="1.4" fill="none" marker-end="url(#a)"/>
+<text x="400" y="265" text-anchor="middle" font-size="22" font-family="serif">0 ≤ i &lt; N − d</text>
+<text x="399" y="293" text-anchor="middle" font-size="22" font-family="serif">i &amp; p = r</text>
+<path d="M550,325V235" stroke="#222" stroke-width="1.4" fill="none" marker-end="url(#a)"/>
+<path d="M850,170C850,115 520,115 520,167" stroke="#222" stroke-width="1.4" fill="none" marker-end="url(#a)"/>
+<text x="872" y="133" text-anchor="middle" font-size="22" font-family="serif">q &gt; p</text>
+<path d="M950,201H1027" stroke="#222" stroke-width="1.4" fill="none" marker-end="url(#a)"/>
+<text x="987" y="233" text-anchor="middle" font-size="22" font-family="serif">q = p</text>
+<path d="M1110,170C1110,80 165,80 165,167" stroke="#222" stroke-width="1.4" fill="none" marker-end="url(#a)"/>
+<text x="1145" y="134" text-anchor="middle" font-size="22" font-family="serif">p ≥ 1</text>
+<path d="M1150,232V383" stroke="#222" stroke-width="1.4" fill="none" marker-end="url(#a)"/>
+<text x="1172" y="266" text-anchor="middle" font-size="22" font-family="serif">p = 0</text>
+</svg>

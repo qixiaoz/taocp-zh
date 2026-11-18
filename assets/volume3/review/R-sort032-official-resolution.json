@@ -1,0 +1,565 @@
+{
+  "volume": "volume3",
+  "cnPdfPage": 32,
+  "cnPrintedPage": 26,
+  "pageMarkdownSha256": "73eb807ac58ff61de390452fcb50159e2b8c56f37fdd9411403f2024672c3093",
+  "isAuthorOfficialErratum": true,
+  "officialDate": "2006-01-01",
+  "traditionalEnglishPage": 35,
+  "line": 2,
+  "officialOld": "the largest x_j",
+  "officialFinal": "the largest j",
+  "officialSourceUrl": "https://www-cs-faculty.stanford.edu/~knuth/all3-prepre.ps.gz",
+  "cachedOfficialFilesSha256": {
+    "all3-prepre.ps.gz": "1285cf18609a851674d40c722f6f4c962cd7d44629e05bc7c31840c32f91eb30",
+    "all3-prepre.ps": "e70e152056adf7e3064709dba3be3628711c9a758f2e8b0f05dbec50db74df03",
+    "all3-prepre.read.pdf": "26a06ebcf1d432621a9d0c2b363f9d6da66dbeb14ffd5945e958a9ee617af404"
+  },
+  "officialPageImageSha256": "401cf5705cb0f0ef777cf92d47fd6b73e4042e929c9b714a5d4f20dee22879d8",
+  "independentPeerEvidence": "assets/volume3/review/R-sort032-independent-official-followup.json",
+  "independentPeerEvidenceSha256": "d8015a6aabac3456f7959c3e854d19b57993e522eb25c9c8de8e5e57e2d5d71f",
+  "ownBoundedRerun": {
+    "method": "same peerreviewedpurefunctions only, notrerunningpeerfilewriters/notnewindependentgeneralimplementation",
+    "functionSourceScriptSha256": "80751fa3c5df05914b06406289b1e10e92bb51167277dbaf8ae94a22b5cfb6b3",
+    "inputSha256": "cc41f5c00026d94c03d6ee3b844e11176f0bffa9d4cdc7ed4d68b5277a97d6e7",
+    "newNestedResult": [
+      "aabbbbbcccddddd",
+      "dbcbcacdaddbbbd"
+    ],
+    "wholeRawBlockResult": [
+      "aabbbbbcccddddd",
+      "dbcbcacdaddbbbd"
+    ],
+    "oldBothTieResult": [
+      "aabbbbbcccddddd",
+      "dccbaadbbddcbbd"
+    ],
+    "chunkTrace": [
+      {
+        "cycleLabel": "db",
+        "rawUpper": "bd",
+        "rawLower": "db",
+        "resultUpper": "bdd",
+        "resultLower": "dbd",
+        "steps": []
+      },
+      {
+        "cycleLabel": "cdb",
+        "rawUpper": "bcd",
+        "rawLower": "cdb",
+        "resultUpper": "bbcddd",
+        "resultLower": "cddbbd",
+        "steps": [
+          {
+            "jOneBased": 3,
+            "upperBefore": "db",
+            "lowerBefore": "bd",
+            "RPreservesLower": false,
+            "upperAfter": "bcbddd",
+            "lowerAfter": "cddbbd"
+          },
+          {
+            "jOneBased": 2,
+            "upperBefore": "cb",
+            "lowerBefore": "dd",
+            "RPreservesLower": false,
+            "upperAfter": "bbcddd",
+            "lowerAfter": "cddbbd"
+          }
+        ]
+      },
+      {
+        "cycleLabel": "cbba",
+        "rawUpper": "acbb",
+        "rawLower": "cbba",
+        "resultUpper": "abbbbccddd",
+        "resultLower": "cbacdbdbbd",
+        "steps": [
+          {
+            "jOneBased": 2,
+            "upperBefore": "cb",
+            "lowerBefore": "bb",
+            "RPreservesLower": false,
+            "upperAfter": "abcbbbcddd",
+            "lowerAfter": "cbbacddbbd"
+          },
+          {
+            "jOneBased": 3,
+            "upperBefore": "cb",
+            "lowerBefore": "ba",
+            "RPreservesLower": false,
+            "upperAfter": "abbcbbcddd",
+            "lowerAfter": "cbabcddbbd"
+          },
+          {
+            "jOneBased": 4,
+            "upperBefore": "cb",
+            "lowerBefore": "bc",
+            "RPreservesLower": false,
+            "upperAfter": "abbbcbcddd",
+            "lowerAfter": "cbacbddbbd"
+          },
+          {
+            "jOneBased": 5,
+            "upperBefore": "cb",
+            "lowerBefore": "bd",
+            "RPreservesLower": false,
+            "upperAfter": "abbbbccddd",
+            "lowerAfter": "cbacdbdbbd"
+          }
+        ]
+      },
+      {
+        "cycleLabel": "ddbca",
+        "rawUpper": "addbc",
+        "rawLower": "ddbca",
+        "resultUpper": "aabbbbbcccddddd",
+        "resultLower": "dbcbcacdaddbbbd",
+        "steps": [
+          {
+            "jOneBased": 5,
+            "upperBefore": "ca",
+            "lowerBefore": "ac",
+            "RPreservesLower": false,
+            "upperAfter": "addbacbbbbccddd",
+            "lowerAfter": "ddbccabacdbdbbd"
+          },
+          {
+            "jOneBased": 6,
+            "upperBefore": "cb",
+            "lowerBefore": "ab",
+            "RPreservesLower": false,
+            "upperAfter": "addbabcbbbccddd",
+            "lowerAfter": "ddbccbaacdbdbbd"
+          },
+          {
+            "jOneBased": 7,
+            "upperBefore": "cb",
+            "lowerBefore": "aa",
+            "RPreservesLower": false,
+            "upperAfter": "addbabbcbbccddd",
+            "lowerAfter": "ddbccbaacdbdbbd"
+          },
+          {
+            "jOneBased": 8,
+            "upperBefore": "cb",
+            "lowerBefore": "ac",
+            "RPreservesLower": false,
+            "upperAfter": "addbabbbcbccddd",
+            "lowerAfter": "ddbccbacadbdbbd"
+          },
+          {
+            "jOneBased": 9,
+            "upperBefore": "cb",
+            "lowerBefore": "ad",
+            "RPreservesLower": true,
+            "upperAfter": "addbabbbbcccddd",
+            "lowerAfter": "ddbccbacadbdbbd"
+          },
+          {
+            "jOneBased": 4,
+            "upperBefore": "ba",
+            "lowerBefore": "cc",
+            "RPreservesLower": false,
+            "upperAfter": "addabbbbbcccddd",
+            "lowerAfter": "ddbccbacadbdbbd"
+          },
+          {
+            "jOneBased": 3,
+            "upperBefore": "da",
+            "lowerBefore": "bc",
+            "RPreservesLower": true,
+            "upperAfter": "adadbbbbbcccddd",
+            "lowerAfter": "ddbccbacadbdbbd"
+          },
+          {
+            "jOneBased": 4,
+            "upperBefore": "db",
+            "lowerBefore": "cc",
+            "RPreservesLower": false,
+            "upperAfter": "adabdbbbbcccddd",
+            "lowerAfter": "ddbccbacadbdbbd"
+          },
+          {
+            "jOneBased": 5,
+            "upperBefore": "db",
+            "lowerBefore": "cb",
+            "RPreservesLower": false,
+            "upperAfter": "adabbdbbbcccddd",
+            "lowerAfter": "ddbcbcacadbdbbd"
+          },
+          {
+            "jOneBased": 6,
+            "upperBefore": "db",
+            "lowerBefore": "ca",
+            "RPreservesLower": true,
+            "upperAfter": "adabbbdbbcccddd",
+            "lowerAfter": "ddbcbcacadbdbbd"
+          },
+          {
+            "jOneBased": 7,
+            "upperBefore": "db",
+            "lowerBefore": "ac",
+            "RPreservesLower": true,
+            "upperAfter": "adabbbbdbcccddd",
+            "lowerAfter": "ddbcbcacadbdbbd"
+          },
+          {
+            "jOneBased": 8,
+            "upperBefore": "db",
+            "lowerBefore": "ca",
+            "RPreservesLower": true,
+            "upperAfter": "adabbbbbdcccddd",
+            "lowerAfter": "ddbcbcacadbdbbd"
+          },
+          {
+            "jOneBased": 9,
+            "upperBefore": "dc",
+            "lowerBefore": "ad",
+            "RPreservesLower": false,
+            "upperAfter": "adabbbbbcdccddd",
+            "lowerAfter": "ddbcbcacdabdbbd"
+          },
+          {
+            "jOneBased": 10,
+            "upperBefore": "dc",
+            "lowerBefore": "ab",
+            "RPreservesLower": true,
+            "upperAfter": "adabbbbbccdcddd",
+            "lowerAfter": "ddbcbcacdabdbbd"
+          },
+          {
+            "jOneBased": 11,
+            "upperBefore": "dc",
+            "lowerBefore": "bd",
+            "RPreservesLower": false,
+            "upperAfter": "adabbbbbcccdddd",
+            "lowerAfter": "ddbcbcacdadbbbd"
+          },
+          {
+            "jOneBased": 2,
+            "upperBefore": "da",
+            "lowerBefore": "db",
+            "RPreservesLower": false,
+            "upperAfter": "aadbbbbbcccdddd",
+            "lowerAfter": "dbdcbcacdadbbbd"
+          },
+          {
+            "jOneBased": 3,
+            "upperBefore": "db",
+            "lowerBefore": "dc",
+            "RPreservesLower": false,
+            "upperAfter": "aabdbbbbcccdddd",
+            "lowerAfter": "dbcdbcacdadbbbd"
+          },
+          {
+            "jOneBased": 4,
+            "upperBefore": "db",
+            "lowerBefore": "db",
+            "RPreservesLower": false,
+            "upperAfter": "aabbdbbbcccdddd",
+            "lowerAfter": "dbcbdcacdadbbbd"
+          },
+          {
+            "jOneBased": 5,
+            "upperBefore": "db",
+            "lowerBefore": "dc",
+            "RPreservesLower": false,
+            "upperAfter": "aabbbdbbcccdddd",
+            "lowerAfter": "dbcbcdacdadbbbd"
+          },
+          {
+            "jOneBased": 6,
+            "upperBefore": "db",
+            "lowerBefore": "da",
+            "RPreservesLower": false,
+            "upperAfter": "aabbbbdbcccdddd",
+            "lowerAfter": "dbcbcadcdadbbbd"
+          },
+          {
+            "jOneBased": 7,
+            "upperBefore": "db",
+            "lowerBefore": "dc",
+            "RPreservesLower": false,
+            "upperAfter": "aabbbbbdcccdddd",
+            "lowerAfter": "dbcbcacddadbbbd"
+          },
+          {
+            "jOneBased": 8,
+            "upperBefore": "dc",
+            "lowerBefore": "dd",
+            "RPreservesLower": false,
+            "upperAfter": "aabbbbbcdccdddd",
+            "lowerAfter": "dbcbcacddadbbbd"
+          },
+          {
+            "jOneBased": 9,
+            "upperBefore": "dc",
+            "lowerBefore": "da",
+            "RPreservesLower": false,
+            "upperAfter": "aabbbbbccdcdddd",
+            "lowerAfter": "dbcbcacdaddbbbd"
+          },
+          {
+            "jOneBased": 10,
+            "upperBefore": "dc",
+            "lowerBefore": "dd",
+            "RPreservesLower": false,
+            "upperAfter": "aabbbbbcccddddd",
+            "lowerAfter": "dbcbcacdaddbbbd"
+          }
+        ]
+      }
+    ],
+    "wholeBlockSteps": [
+      {
+        "jOneBased": 12,
+        "upperBefore": "db",
+        "lowerBefore": "bd",
+        "RPreservesLower": false,
+        "upperAfter": "addbcacbbbcbddd",
+        "lowerAfter": "ddbcacbbacddbbd"
+      },
+      {
+        "jOneBased": 11,
+        "upperBefore": "cb",
+        "lowerBefore": "dd",
+        "RPreservesLower": false,
+        "upperAfter": "addbcacbbbbcddd",
+        "lowerAfter": "ddbcacbbacddbbd"
+      },
+      {
+        "jOneBased": 7,
+        "upperBefore": "cb",
+        "lowerBefore": "bb",
+        "RPreservesLower": false,
+        "upperAfter": "addbcabcbbbcddd",
+        "lowerAfter": "ddbcacbbacddbbd"
+      },
+      {
+        "jOneBased": 8,
+        "upperBefore": "cb",
+        "lowerBefore": "ba",
+        "RPreservesLower": false,
+        "upperAfter": "addbcabbcbbcddd",
+        "lowerAfter": "ddbcacbabcddbbd"
+      },
+      {
+        "jOneBased": 9,
+        "upperBefore": "cb",
+        "lowerBefore": "bc",
+        "RPreservesLower": false,
+        "upperAfter": "addbcabbbcbcddd",
+        "lowerAfter": "ddbcacbacbddbbd"
+      },
+      {
+        "jOneBased": 10,
+        "upperBefore": "cb",
+        "lowerBefore": "bd",
+        "RPreservesLower": false,
+        "upperAfter": "addbcabbbbccddd",
+        "lowerAfter": "ddbcacbacdbdbbd"
+      },
+      {
+        "jOneBased": 5,
+        "upperBefore": "ca",
+        "lowerBefore": "ac",
+        "RPreservesLower": false,
+        "upperAfter": "addbacbbbbccddd",
+        "lowerAfter": "ddbccabacdbdbbd"
+      },
+      {
+        "jOneBased": 6,
+        "upperBefore": "cb",
+        "lowerBefore": "ab",
+        "RPreservesLower": false,
+        "upperAfter": "addbabcbbbccddd",
+        "lowerAfter": "ddbccbaacdbdbbd"
+      },
+      {
+        "jOneBased": 7,
+        "upperBefore": "cb",
+        "lowerBefore": "aa",
+        "RPreservesLower": false,
+        "upperAfter": "addbabbcbbccddd",
+        "lowerAfter": "ddbccbaacdbdbbd"
+      },
+      {
+        "jOneBased": 8,
+        "upperBefore": "cb",
+        "lowerBefore": "ac",
+        "RPreservesLower": false,
+        "upperAfter": "addbabbbcbccddd",
+        "lowerAfter": "ddbccbacadbdbbd"
+      },
+      {
+        "jOneBased": 9,
+        "upperBefore": "cb",
+        "lowerBefore": "ad",
+        "RPreservesLower": true,
+        "upperAfter": "addbabbbbcccddd",
+        "lowerAfter": "ddbccbacadbdbbd"
+      },
+      {
+        "jOneBased": 4,
+        "upperBefore": "ba",
+        "lowerBefore": "cc",
+        "RPreservesLower": false,
+        "upperAfter": "addabbbbbcccddd",
+        "lowerAfter": "ddbccbacadbdbbd"
+      },
+      {
+        "jOneBased": 3,
+        "upperBefore": "da",
+        "lowerBefore": "bc",
+        "RPreservesLower": true,
+        "upperAfter": "adadbbbbbcccddd",
+        "lowerAfter": "ddbccbacadbdbbd"
+      },
+      {
+        "jOneBased": 4,
+        "upperBefore": "db",
+        "lowerBefore": "cc",
+        "RPreservesLower": false,
+        "upperAfter": "adabdbbbbcccddd",
+        "lowerAfter": "ddbccbacadbdbbd"
+      },
+      {
+        "jOneBased": 5,
+        "upperBefore": "db",
+        "lowerBefore": "cb",
+        "RPreservesLower": false,
+        "upperAfter": "adabbdbbbcccddd",
+        "lowerAfter": "ddbcbcacadbdbbd"
+      },
+      {
+        "jOneBased": 6,
+        "upperBefore": "db",
+        "lowerBefore": "ca",
+        "RPreservesLower": true,
+        "upperAfter": "adabbbdbbcccddd",
+        "lowerAfter": "ddbcbcacadbdbbd"
+      },
+      {
+        "jOneBased": 7,
+        "upperBefore": "db",
+        "lowerBefore": "ac",
+        "RPreservesLower": true,
+        "upperAfter": "adabbbbdbcccddd",
+        "lowerAfter": "ddbcbcacadbdbbd"
+      },
+      {
+        "jOneBased": 8,
+        "upperBefore": "db",
+        "lowerBefore": "ca",
+        "RPreservesLower": true,
+        "upperAfter": "adabbbbbdcccddd",
+        "lowerAfter": "ddbcbcacadbdbbd"
+      },
+      {
+        "jOneBased": 9,
+        "upperBefore": "dc",
+        "lowerBefore": "ad",
+        "RPreservesLower": false,
+        "upperAfter": "adabbbbbcdccddd",
+        "lowerAfter": "ddbcbcacdabdbbd"
+      },
+      {
+        "jOneBased": 10,
+        "upperBefore": "dc",
+        "lowerBefore": "ab",
+        "RPreservesLower": true,
+        "upperAfter": "adabbbbbccdcddd",
+        "lowerAfter": "ddbcbcacdabdbbd"
+      },
+      {
+        "jOneBased": 11,
+        "upperBefore": "dc",
+        "lowerBefore": "bd",
+        "RPreservesLower": false,
+        "upperAfter": "adabbbbbcccdddd",
+        "lowerAfter": "ddbcbcacdadbbbd"
+      },
+      {
+        "jOneBased": 2,
+        "upperBefore": "da",
+        "lowerBefore": "db",
+        "RPreservesLower": false,
+        "upperAfter": "aadbbbbbcccdddd",
+        "lowerAfter": "dbdcbcacdadbbbd"
+      },
+      {
+        "jOneBased": 3,
+        "upperBefore": "db",
+        "lowerBefore": "dc",
+        "RPreservesLower": false,
+        "upperAfter": "aabdbbbbcccdddd",
+        "lowerAfter": "dbcdbcacdadbbbd"
+      },
+      {
+        "jOneBased": 4,
+        "upperBefore": "db",
+        "lowerBefore": "db",
+        "RPreservesLower": false,
+        "upperAfter": "aabbdbbbcccdddd",
+        "lowerAfter": "dbcbdcacdadbbbd"
+      },
+      {
+        "jOneBased": 5,
+        "upperBefore": "db",
+        "lowerBefore": "dc",
+        "RPreservesLower": false,
+        "upperAfter": "aabbbdbbcccdddd",
+        "lowerAfter": "dbcbcdacdadbbbd"
+      },
+      {
+        "jOneBased": 6,
+        "upperBefore": "db",
+        "lowerBefore": "da",
+        "RPreservesLower": false,
+        "upperAfter": "aabbbbdbcccdddd",
+        "lowerAfter": "dbcbcadcdadbbbd"
+      },
+      {
+        "jOneBased": 7,
+        "upperBefore": "db",
+        "lowerBefore": "dc",
+        "RPreservesLower": false,
+        "upperAfter": "aabbbbbdcccdddd",
+        "lowerAfter": "dbcbcacddadbbbd"
+      },
+      {
+        "jOneBased": 8,
+        "upperBefore": "dc",
+        "lowerBefore": "dd",
+        "RPreservesLower": false,
+        "upperAfter": "aabbbbbcdccdddd",
+        "lowerAfter": "dbcbcacddadbbbd"
+      },
+      {
+        "jOneBased": 9,
+        "upperBefore": "dc",
+        "lowerBefore": "da",
+        "RPreservesLower": false,
+        "upperAfter": "aabbbbbccdcdddd",
+        "lowerAfter": "dbcbcacdaddbbbd"
+      },
+      {
+        "jOneBased": 10,
+        "upperBefore": "dc",
+        "lowerBefore": "dd",
+        "RPreservesLower": false,
+        "upperAfter": "aabbbbbcccddddd",
+        "lowerAfter": "dbcbcacdaddbbbd"
+      }
+    ],
+    "originalExampleRestored": true
+  },
+  "actualSourceScope": "CN032fullpage andEN059060fullmatchingcontent re-read;CN025onlyoriginalequation12/answerCN476EN763onlyanswer24rawblocks;neither025/476newfullpagecoverage",
+  "resolvesHistoricalQuestionId": "volume3-question-002",
+  "historicalQuestionReceiptSha256": "b9c375f1158f9dbc135d78bfb3e11081be5eaddd13b9db67b6508efb6bedab5e",
+  "historicalFailedRTrialReceiptSha256": "97bc540fc03452cf490b2575faa08503b7bc84baa43e37c18387db353b24c567",
+  "scope": "singleofficialselectorchangeandonlyoriginal15lettercase; no generalRsort/associativity/uniquenessproof orotherRexamples claimed",
+  "reviewerKind": "model-direct-image-review-and-exact-original-single-case-rerun",
+  "humanSignoff": false
+}

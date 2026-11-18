@@ -1,0 +1,76 @@
+{
+  "reviewDate": "2026-11-18",
+  "reviewer": "next_volumes_build independent model source read",
+  "status": "local-contradiction-confirmed-at-n5",
+  "scope": "Onlyexercise5.4.3-10displayedc_nidentityatn5anditsprintedlocalcascadevalues. Notageneralrecurrencemodel/q_mcheck/notauthorofficialerratum/notfullprefixpageacceptance. No prefixMD/reportmodified.",
+  "section": "5.4.3",
+  "exercise": 10,
+  "cnPdfPage": 241,
+  "cnPrintedPage": 235,
+  "enPdfPage": 387,
+  "runningHeaderQualification": "CN241runningheader5.4.4doesnotchangethisoldsectionexercise10;new5.4.4headingoccursbelowexercise13.",
+  "sourceImagesActuallyViewed": [
+    {
+      "file": "241.jpg",
+      "sha256": "28069eef4c421f30bb4c33038477d5b24e1e23aa61d93f5874ad53086ee6b1e7"
+    },
+    {
+      "file": "en-387.png",
+      "sha256": "932336a86f9f51f11b9611f7985a85fda1ec9ad0673109b231464c66b1a6e4d5"
+    },
+    {
+      "file": "233.jpg",
+      "sha256": "6f27dbcfe78080229311b4127a8d6c52d4ab855a3eb568522a69405b16a1d506"
+    },
+    {
+      "file": "cn-241-question10-local-identities.png",
+      "sha256": "e557f1a2006320f15cedeba25c6fdaf7fade589ed1efd1963b92c3da69bdf2a5"
+    },
+    {
+      "file": "en-387-question10-local-identities.png",
+      "sha256": "9f741eebc1ea01234071332da4fc6859ce4ab561e54c6e84d695cf3ab54b6b33"
+    },
+    {
+      "file": "cn-233-six-tape-equation1-local.png",
+      "sha256": "14f1c308eda9fc63b735c56692ee36f24836ae7fee04e72a7cd99748e1da9efe"
+    }
+  ],
+  "literalSourceFormula": {
+    "CN": "c_n=3a_(n−1)−d_(n−2)−2e_(n−2)=binom(3,1)a_(n−1)−binom(4,3)a_(n−3)−binom(5,5)a_(n−5)",
+    "EN": "Same three terms and minus on final term; actual high original matches CN",
+    "precedingPrintedIdentities": [
+      "e_n=a_(n−1)",
+      "d_n=2a_(n−1)−e_(n−2)"
+    ]
+  },
+  "valueSourceQualification": "CN233lowerhalf six-tapeperfectdistributionnumbertablemarked(1),notupperformalTable1ofapproximateproperties. Valuesreadfromactualrow0/1/2/3/4/5andT1/T3/T4/T5columnlabels.",
+  "literalValues": {
+    "a0": 1,
+    "a2": 5,
+    "a4": 55,
+    "d3": 9,
+    "e3": 5,
+    "e1": 1,
+    "c5": 146
+  },
+  "n5": {
+    "leftExpression": "3*55−9−2*5",
+    "leftValue": 146,
+    "originalRightExpression": "binom(3,1)*55−binom(4,3)*5−binom(5,5)*1=165−20−1",
+    "originalRightValue": 144,
+    "tableC5": 146,
+    "originalRightContradictsBothLeftAndTable": true,
+    "candidateChangeOnlyLastMinusToPlusExpression": "165−20+1",
+    "candidateValue": 146,
+    "candidateMatchesThisOneCase": true
+  },
+  "sameN5EliminationOfOnlyTheTwoPrecedingPrintedIdentities": "e1=a0=1;e3=a2=5;d3=2a2−e1=9;c5=3a4−(2a2−a0)−2a2=3a4−4a2+a0=146. This is the same n5case,notnewallnmodel.",
+  "localRescueCheck": "Atn5allsubscripts4/3/2/0arenonnegativeandprintedtabledefinesa0=1. Exercise10localwordingdoesnotexclude5;theprecedingsamepagesix-tapedefinitionexplicitlyn≥0. No localrescuefoundbynegative-index/initial-valueexception. Notaclaimaboutallunreadsurroundingmaterial.",
+  "conclusion": "Thetwo-sourceprintedfinalminusfailstheallowedn5case;plusrestoresthisonecaseandlocalelimination. Root/prefixownerdecidesandvalidatesanyallncorrection.",
+  "noOfficialErratumClaim": true,
+  "generalQMModelRun": false,
+  "prefixFilesChanged": false,
+  "reviewerKind": "independent-model-direct-image-review",
+  "humanSignoff": false,
+  "sourceReceiptSha256": "11c5aa1a91834b1fd725f46af66decdc7710635aebd9cd149371b68e27cae28c"
+}

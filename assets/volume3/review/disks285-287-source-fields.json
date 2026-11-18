@@ -1,0 +1,99 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    285,
+    286,
+    287
+  ],
+  "enPdfPages": [
+    458,
+    459,
+    460,
+    461,
+    462,
+    463
+  ],
+  "figure89": {
+    "file": "assets/volume3/figures/disk-figure89-source.png",
+    "sha256": "c23df663d06937a80222c4b323a81d989275615c96b531bb2fdaa20152de864e",
+    "sourceCnPage": 286,
+    "sourceImageSha256": "46e56c432b65647d2bb771953d5ae8657dc4fee12e692c731eee0763104104c7",
+    "sourceCropBox": [
+      735,
+      680,
+      1700,
+      1340
+    ],
+    "qualification": "clearoriginal3Dmechanicalillustrationretained;magneticdiskstack/lightgraycylinder/dottedheads/rotationarrows/accessarmandtwoChineseleaderlabelsallactuallyread;notaredrawnplatecountmodel"
+  },
+  "figure90": {
+    "file": "assets/volume3/figures/disk-figure90-half-track.svg",
+    "sha256": "bdd161de6eeccb97d081f3b0421dafc9772e685609cf2dcc1aa59cf7cdac7478",
+    "sourceOuterCircle": 1,
+    "sourceCrossingAxes": 2,
+    "sourceHalfDataArc": "left-lower180degreesfromNWtoSE",
+    "sourceLabels": {
+      "A": "SE",
+      "B": "NE",
+      "C": "SW"
+    },
+    "sourceRotationArrows": "two counterclockwise visiblearrows,eachseparateSVGpath",
+    "dataLeaderArrows": 1
+  },
+  "finiteOriginalMIXTECArithmetic": {
+    "charactersPerTrack": 5000,
+    "tracksPerCylinder": 20,
+    "cylindersPerUnit": 200,
+    "totalCharacters": 20000000,
+    "originalSortingDataCharacters": 10000000,
+    "fractionOfUnit": "1/2",
+    "cylinderDomain": [
+      1,
+      200
+    ],
+    "equalIndependentOrderedPairs": 40000,
+    "sumAbsoluteCylinderDistance": 2666600,
+    "meanAbsoluteDistanceExact": "13333/200",
+    "meanAbsoluteDistanceDecimal": 66.665,
+    "sourceMeanApprox": "66.7",
+    "meanSeekMsExact": "23333/400",
+    "meanSeekMsDecimal": 58.3325,
+    "sourceMeanSeekApproxMs": 60,
+    "sourceCoarseApproxKept": true,
+    "rotationMs": 25,
+    "meanLatencyMs": "25/2",
+    "microsecondsPerCharacter": 5,
+    "transmissionRateRatioToMIXT": "10/3",
+    "sourceHalfTrackCasesMs": {
+      "A": "25/2",
+      "B": "75/4",
+      "CwithSplitRead": "25"
+    },
+    "qualification": "finite40000originalorderedpairs/unitproductsandthreeprintedhalftrackpositionsonly;coarse60msnotchangedto58.3325;nogeneralintegral/IOschedulingmodel"
+  },
+  "sourceExercise548Ratings": [
+    20,
+    "M26",
+    38,
+    "M23",
+    "M23",
+    "M30",
+    "M40",
+    "M32",
+    "M25",
+    20
+  ],
+  "sourceExercise548Recommended": [
+    5,
+    9
+  ],
+  "sourceExercise548Count": 10,
+  "sourceExampleEx8Permutation": "314592687",
+  "reviewerKind": "model-direct-image-review-and-originalMIXTEC-only-numerics",
+  "humanSignoff": false,
+  "pageMarkdownSha256": {
+    "285": "289a8be2f4c865b6d789210f8a224316b9d5ad8ea1fb7fbba9730025cb829019",
+    "286": "8054ab9d554516052a7b851ee01a4b707e8652540eddba4414e72a291e095761",
+    "287": "4b187d8426ccdb662decea970d23aeddcdb2bab992d279109e902fba58fed075"
+  }
+}

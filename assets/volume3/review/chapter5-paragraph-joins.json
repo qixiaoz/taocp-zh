@@ -1,0 +1,387 @@
+{
+  "joins": [
+    {
+      "volume": "volume3",
+      "operation": "join-paragraph-at-page-boundary",
+      "fromPages": [
+        7,
+        8
+      ],
+      "pageMarkdownSha256": {
+        "7": "8aff61655b294e24f626e4001e1ba693218ceaf3e464ea389a9bae5b19007a1d",
+        "8": "d60596952457746639fcdf4b94505fdcfeede27e3a65f95c58cb6051fa3bd451"
+      },
+      "sourceBoundary": {
+        "end": "（见本章",
+        "start": "开头的引语）。"
+      },
+      "requiredHandling": "装订时把008的pdf/p锚点留在相应页界，去除页稿分隔造成的段落中断，保持正文词序和所有非空白字符不变。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "join-paragraph-at-page-boundary",
+      "fromPages": [
+        14,
+        15
+      ],
+      "pageMarkdownSha256": {
+        "14": "06474e02d36f31957ce9b1c97e49a04f38b9cb0b62cbef091897ab2593f6702d",
+        "15": "487ba96370d23e0dbce5c4c2c91a1ecb874e5011679fd703e1ec7e483b7778f4"
+      },
+      "sourceBoundary": {
+        "end": "与此类似，由于",
+        "start": "$b_7=2$，"
+      },
+      "requiredHandling": "装订时去除页稿分隔造成的段落中断；页界锚点在公式外，所有正文和公式保持不变。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "join-paragraph-at-page-boundary",
+      "fromPages": [
+        20,
+        21
+      ],
+      "pageMarkdownSha256": {
+        "20": "ad754296c5eb63f030258cbe1f26b9501fdfbad7bd4ec5827a03db53342decfa",
+        "21": "a2f8d17c971000b8a8f0997b9c7d58f0aa0c194530dd151c49a0e48db9c6060f"
+      },
+      "sourceBoundary": {
+        "end": "［提示：像习题14中一样绘制",
+        "start": "点阵，证明"
+      },
+      "requiredHandling": "保持同一提示段落连续，不把页锚点插入数学；源词序和公式不变。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "join-prose-with-footnote-between-source-pages",
+      "fromPages": [
+        23,
+        24
+      ],
+      "pageMarkdownSha256": {
+        "23": "98eef5767f24a51d60139234480c7495438cf93896a22c92b7838bcc39dec364",
+        "24": "4f7246510afe34145dc414df2d8e6e8e8b3e5ae91a1f4f3a3e80378409853b6c"
+      },
+      "sourceBoundary": {
+        "end": "梅",
+        "start": "森感兴趣的是"
+      },
+      "sourceFootnote": "p17-1",
+      "requiredHandling": "先抽离原脚注定义，在原引用不变的前提下续接梅森这一姓名及同一段；不要让脚注使正文中断。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "prose-continuation-after-display",
+      "fromPages": [
+        24,
+        25
+      ],
+      "pageMarkdownSha256": {
+        "24": "4f7246510afe34145dc414df2d8e6e8e8b3e5ae91a1f4f3a3e80378409853b6c",
+        "25": "ce04014defdb7f5730f0fc3800ed702455565b751060b2c1f06bdf0bc7d55e73"
+      },
+      "sourceBoundary": {
+        "equationAtEnd": 11,
+        "start": "的各列进行排序所得到的两行形式。"
+      },
+      "requiredHandling": "显示公式保持完整、页锚点在公式外，续接前页引导句；不把正文吞入数学。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "join-exercise-hint-prose",
+      "fromPages": [
+        31,
+        32
+      ],
+      "pageMarkdownSha256": {
+        "31": "d14cf375bf8197fe42b005116de5ebc0d061722d9e7ada686225d13a98e11889",
+        "32": "49e7e3c269e30ae68664e7f6459a208d2bd0a83be546d2002a8ea58dcf65b2a8"
+      },
+      "sourceBoundary": {
+        "end": "用0替换",
+        "start": "t+1,…,m"
+      },
+      "requiredHandling": "题22(a)同一提示连续排版，保持公式和页锚点完整；不能在032上部另开题号。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "join-prose",
+      "fromPages": [
+        35,
+        36
+      ],
+      "pageMarkdownSha256": {
+        "35": "0d71a3801451310842d85dda0f1079ec6d2313c1de24f7ea0c3ede2a7360bb4a",
+        "36": "c7f98dd60bef1e633c271dc52796fa4523939a8beaa3caaa3853ddc88934d6c4"
+      },
+      "sourceBoundary": {
+        "end": "的事实",
+        "start": "相吻合。"
+      },
+      "requiredHandling": "同段跨页续接，保留物理锚点在数学之外。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "join-prose",
+      "fromPages": [
+        39,
+        40
+      ],
+      "pageMarkdownSha256": {
+        "39": "be19ee894f97adc58b99f2d9c509be35dc3a4c694fa21258ad55865425bbf55d",
+        "40": "d84b6b9472bdde665b88a606d3f63571d7d1860f6fdebdd1f275ddf607fd5a0d"
+      },
+      "sourceBoundary": {
+        "end": "a_i=a_{i+1}=x_j",
+        "start": "恰好出现"
+      },
+      "requiredHandling": "同段跨页续接，保留物理锚点在数学之外。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "prose-continuation-after-display",
+      "fromPages": [
+        46,
+        47
+      ],
+      "pageMarkdownSha256": {
+        "46": "a5b7ea7830bfa35fac8942d31a1ba784c85437a1d5a675d7186d0aa6435ce615",
+        "47": "0096367507757161501aa38be865217437f18429607c654fcd89419653bab379"
+      },
+      "sourceBoundary": {
+        "equationAtEnd": 17,
+        "start": "使得(q,p)相对于(17)属于第t类"
+      },
+      "requiredHandling": "式17后的同句分类条件继续；显示数学闭合、物理锚点在公式外，不添新节。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "join-prose-around-floating-figure",
+      "fromPages": [
+        51,
+        52
+      ],
+      "pageMarkdownSha256": {
+        "51": "0488c2789ad076df6cf214bde7f078f4f107ca1ae9e26974c5ad787591b04df4",
+        "52": "5e61f398b87a5a67a189d1e4a776bb2aaa7f8c29543699b1aa3b484652582a6b"
+      },
+      "sourceBoundary": {
+        "end": "例如，图5中的",
+        "start": "阴影区域对应于第2行第3列"
+      },
+      "interveningSourceBlock": "图5及图题在物理052开头，作为独立块保存。",
+      "requiredHandling": "保留51完整钩子定义句；将例如句片段与52阴影说明续为同一句，图5及图题作为独立浮动块排于其前。pdf052/p-46保留在图块段首，定位精度为图/段落，非虚构逐行对应。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "prose-continuation-after-display",
+      "fromPages": [
+        52,
+        53
+      ],
+      "pageMarkdownSha256": {
+        "52": "5e61f398b87a5a67a189d1e4a776bb2aaa7f8c29543699b1aa3b484652582a6b",
+        "53": "586d52fb0e6ecfdb17d6fd13c78b773d7770dec9c618c247539961ca7bd49855"
+      },
+      "sourceBoundary": {
+        "end": "Catalan商的显示式后",
+        "start": "这就是二叉树的数目"
+      },
+      "requiredHandling": "同一说明/计数段跨页连续，公式保持闭合，页锚点在数学外。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "join-prose",
+      "fromPages": [
+        53,
+        54
+      ],
+      "pageMarkdownSha256": {
+        "53": "586d52fb0e6ecfdb17d6fd13c78b773d7770dec9c618c247539961ca7bd49855",
+        "54": "f95b861a46eba61ea8da70ec73bd6fcf3d3654a7b144e03c33794b286c2b388e"
+      },
+      "sourceBoundary": {
+        "end": "k个可区分的转置，",
+        "start": "除以k!表示不再区分这些转置"
+      },
+      "requiredHandling": "同一说明/计数段跨页连续，公式保持闭合，页锚点在数学外。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "prose-continuation-after-exercise-display",
+      "fromPages": [
+        55,
+        56
+      ],
+      "pageMarkdownSha256": {
+        "55": "5c69b296f2aed08c5e1a66ff5d24702ef824ded0a4c77b1882e481ddc17fe22d",
+        "56": "9d3477e41609d019496f7372ee80b6e363279af7b6d3bb53e55ceae42a95abc4"
+      },
+      "sourceBoundary": {
+        "exercise": "5.1.4-2",
+        "end": "p与q递增下标公式后",
+        "start": "试证明：当且仅当t取满足上述条件的最大值时"
+      },
+      "requiredHandling": "题2同一条件/结论连续，不在056另开题号。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "join-prose-inside-word",
+      "fromPages": [
+        57,
+        58
+      ],
+      "pageMarkdownSha256": {
+        "57": "142c44e486cce0210ad16c8a489ad3e93b7e43c8b540297e33f265ab5296c1d0",
+        "58": "72506f96ed1da04e988b731324ba8161af1f7b084c291aef5bb8b9fd4fa055b4"
+      },
+      "sourceBoundary": {
+        "end": "广义钩",
+        "start": "子，它对应于第1行第2列的单元格"
+      },
+      "requiredHandling": "续接钩子一词与同一句，不另开题21；页锚点仅在完整文字/公式之外。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "continue-prose-around-complete-display",
+      "fromPages": [
+        62,
+        63
+      ],
+      "pageMarkdownSha256": {
+        "62": "e6125a6ace326ce031051edb54b9d547a9f3d210b9f28e1982672d225dccd218",
+        "63": "0ff64366c0232f92e88bb566a213f6968e08a6cd3c223634229e5ce66f9809c5"
+      },
+      "sourceBoundary": {
+        "end": "记录/式(1)",
+        "start": "进行排序，使它们的键"
+      },
+      "requiredHandling": "同一段落在完整式(1)之后继续，保留完整display和式号；pdf063/p57置整个定义段落起点而非公式内部，并报告段落定位精度。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "continue-enumeration-around-complete-display",
+      "fromPages": [
+        71,
+        72
+      ],
+      "pageMarkdownSha256": {
+        "71": "a40cc33c82bd53d8e0ef4921e1546bfe95b7d9fb14920770875acb1ca848f915",
+        "72": "2da64cde7c34f48b5673cad0f36610803eedf6a909a615f13b1a0deb70324ea9"
+      },
+      "sourceBoundary": {
+        "end": "增量的和/完整S求和式;",
+        "start": "比较次数"
+      },
+      "requiredHandling": "同一五因素枚举段落在完整S式之后继续；S独立公式不得分裂，页锚点在公式外。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "join-proof-prose-inside-sentence",
+      "fromPages": [
+        73,
+        74
+      ],
+      "pageMarkdownSha256": {
+        "73": "bcfe41db3e0239064fec750d26cd1c4de705626f18e820aedd0a4c815baa0bf3",
+        "74": "7cf60da9b2165f0c9cd3f18132cccd719a6e8b987d5bc008fbab7bc5133e6bc4"
+      },
+      "sourceBoundary": {
+        "end": "确定",
+        "start": "一个随机“2有序”排列"
+      },
+      "requiredHandling": "接成确定一个随机“2有序”排列，同一证明直至下一显示式及结束符；逻辑候选与完整源区间另见proof-5-2-1-H-assembly.json。",
+      "status": "candidate-built-master-pending",
+      "logicalAssemblyReceipt": "assets/volume3/review/proof-5-2-1-H-assembly.json"
+    },
+    {
+      "volume": "volume3",
+      "operation": "join-prose-inside-word",
+      "fromPages": [
+        76,
+        77
+      ],
+      "pageMarkdownSha256": {
+        "76": "475d2c28eb1bbab1124dd6e89d7f4f81356fb98f6cd60e065ae90a5cce8ac793",
+        "77": "c84b271f0c67acae3e33cb055ead70244260aad4fee3dedfbe82a4f6fab873f1"
+      },
+      "sourceBoundary": {
+        "end": "方法效果最",
+        "start": "好。"
+      },
+      "requiredHandling": "先接成最好，同一段不新增句号；076末段到077首段维持连续。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "join-prose-around-floating-table",
+      "fromPages": [
+        77,
+        78
+      ],
+      "pageMarkdownSha256": {
+        "77": "c84b271f0c67acae3e33cb055ead70244260aad4fee3dedfbe82a4f6fab873f1",
+        "78": "582865ae8c96b0800f909eb2fc47fadcc7bbf1f742ffbb1e8b2b7139c186c140"
+      },
+      "sourceBoundary": {
+        "end": "允许增加1111次",
+        "start": "移动。"
+      },
+      "requiredHandling": "跨浮动表6的同句：先完成1111次移动和括注，再将表6作为独立表块排在相邻段间；078页锚点放表6或完整段落起点，不插进表格内容。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "join-prose-inside-sentence",
+      "fromPages": [
+        78,
+        79
+      ],
+      "pageMarkdownSha256": {
+        "78": "582865ae8c96b0800f909eb2fc47fadcc7bbf1f742ffbb1e8b2b7139c186c140",
+        "79": "990606f3d703fd12b608ed7898d2151ebf6415c21537105007bf8d37ad9c6bb4"
+      },
+      "sourceBoundary": {
+        "end": "韦斯发现使用",
+        "start": "这些增量时"
+      },
+      "requiredHandling": "同一句续接，不另开引文，也不把实验限定100到12000000放到前一段去。",
+      "status": "pending-master-assembly"
+    },
+    {
+      "volume": "volume3",
+      "operation": "continue-exercise-prose-after-complete-display",
+      "fromPages": [
+        85,
+        86
+      ],
+      "pageMarkdownSha256": {
+        "85": "09f0e7fcb50ce2a3c73c63b72e642cd14bc526fe60b5ef20ba6d1165e0928210",
+        "86": "61e953ac785d54ffe5ede99f77fd7b5a083d9449a9a4dec04a4bb90516b342f8"
+      },
+      "sourceBoundary": {
+        "end": "题22完整可表示式的display",
+        "start": "的形式，其中各a_j是非负整数"
+      },
+      "requiredHandling": "同一题22在闭合的完整display之后继续；完整候选将pdf086/p80置整题开始，不能进公式，亦不与原两片重复装订。",
+      "status": "candidate-built-master-pending",
+      "logicalAssemblyReceipt": "assets/volume3/review/exercise-5-2-1-22-assembly.json"
+    }
+  ]
+}

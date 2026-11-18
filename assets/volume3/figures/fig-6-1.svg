@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+  <title id="title">顺序查找流程图</title>
+  <desc id="desc">入口至S1初始化，再至S2比较。相等则成功，否则经S3前进至S4文件结束判断；未结束返回比较，已结束则失败。</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L9 4 L1 7" fill="none" stroke="#222" stroke-width="1.6"/></marker></defs>
+  <rect width="1000" height="260" fill="#fff"/>
+  <g fill="none" stroke="#222" stroke-width="1.8" marker-end="url(#arrow)">
+    <path d="M90 20V75"/><path d="M150 100H248"/><path d="M392 100H525"/><path d="M655 100H765"/>
+    <path d="M320 130V214"/><path d="M850 135V214"/><path d="M850 65C850 20 320 20 320 70"/>
+  </g>
+  <g fill="#fff" stroke="#222" stroke-width="1.8">
+    <rect x="30" y="75" width="120" height="50"/><ellipse cx="320" cy="100" rx="72" ry="30"/>
+    <rect x="525" y="75" width="130" height="50"/><ellipse cx="850" cy="100" rx="85" ry="35"/>
+  </g>
+  <g fill="#111" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" text-anchor="middle">
+    <text x="90" y="108">S1. 初始化</text><text x="320" y="108">S2. 比较</text><text x="590" y="108">S3. 前进</text>
+    <text x="850" y="94">S4. 文件<tspan x="850" dy="25">结束?</tspan></text>
+    <text x="450" y="89">≠</text><text x="338" y="165">=</text><text x="898" y="47">否</text><text x="872" y="170">是</text>
+    <text x="320" y="245">SUCCESS</text><text x="850" y="245">FAILURE</text>
+  </g>
+</svg>

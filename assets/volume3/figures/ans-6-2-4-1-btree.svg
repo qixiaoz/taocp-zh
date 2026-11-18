@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="415" height="285" viewBox="0 0 415 285" role="img" aria-labelledby="title desc">
+<title id="title">B 树插入 613 后分割的结点</title><desc id="desc">保留改动结点的三位键、所有图示出边和方形外部结点。短线表示原图未展开的其余子树。</desc>
+<rect width="415" height="285" fill="#fff"/>
+<g fill="white" stroke="#222" stroke-width="1.4">
+<rect data-node="0" x="165" y="12" width="92" height="57" rx="7"/>
+<text transform="translate(192 20) rotate(-90)" text-anchor="end" font-family="monospace" font-size="16" fill="#151515" stroke="none">233</text>
+<text transform="translate(215 20) rotate(-90)" text-anchor="end" font-family="monospace" font-size="16" fill="#151515" stroke="none">449</text>
+<text transform="translate(238 20) rotate(-90)" text-anchor="end" font-family="monospace" font-size="16" fill="#151515" stroke="none">677</text>
+<line data-node="0" data-port="0" data-destination="stub" x1="176.5" y1="49" x2="76.5" y2="87"/>
+<line data-node="0" data-port="1" data-destination="stub" x1="199.5" y1="49" x2="99.5" y2="87"/>
+<line data-node="0" data-port="2" data-destination="1" x1="222.5" y1="49" x2="107" y2="93"/>
+<line data-node="0" data-port="3" data-destination="2" x1="245.5" y1="49" x2="347" y2="93"/>
+<rect data-node="1" x="61" y="93" width="92" height="57" rx="7"/>
+<text transform="translate(88 101) rotate(-90)" text-anchor="end" font-family="monospace" font-size="16" fill="#151515" stroke="none">499</text>
+<text transform="translate(111 101) rotate(-90)" text-anchor="end" font-family="monospace" font-size="16" fill="#151515" stroke="none">599</text>
+<text transform="translate(134 101) rotate(-90)" text-anchor="end" font-family="monospace" font-size="16" fill="#151515" stroke="none">631</text>
+<line data-node="1" data-port="0" data-destination="stub" x1="72.5" y1="130" x2="16.5" y2="168"/>
+<line data-node="1" data-port="1" data-destination="stub" x1="95.5" y1="130" x2="39.5" y2="168"/>
+<line data-node="1" data-port="2" data-destination="3" x1="118.5" y1="130" x2="56" y2="174"/>
+<line data-node="1" data-port="3" data-destination="4" x1="141.5" y1="130" x2="161" y2="174"/>
+<rect data-node="2" x="301" y="93" width="92" height="57" rx="7"/>
+<text transform="translate(328 101) rotate(-90)" text-anchor="end" font-family="monospace" font-size="16" fill="#151515" stroke="none">773</text>
+<text transform="translate(351 101) rotate(-90)" text-anchor="end" font-family="monospace" font-size="16" fill="#151515" stroke="none">829</text>
+<text transform="translate(374 101) rotate(-90)" text-anchor="end" font-family="monospace" font-size="16" fill="#151515" stroke="none">883</text>
+<line data-node="2" data-port="0" data-destination="stub" x1="312.5" y1="130" x2="312.5" y2="168"/>
+<line data-node="2" data-port="1" data-destination="stub" x1="335.5" y1="130" x2="335.5" y2="168"/>
+<line data-node="2" data-port="2" data-destination="stub" x1="358.5" y1="130" x2="358.5" y2="168"/>
+<line data-node="2" data-port="3" data-destination="stub" x1="381.5" y1="130" x2="401.5" y2="168"/>
+<rect data-node="3" x="10" y="174" width="92" height="57" rx="7"/>
+<text transform="translate(37 182) rotate(-90)" text-anchor="end" font-family="monospace" font-size="16" fill="#151515" stroke="none">607</text>
+<text transform="translate(60 182) rotate(-90)" text-anchor="end" font-family="monospace" font-size="16" fill="#151515" stroke="none">613</text>
+<text transform="translate(83 182) rotate(-90)" text-anchor="end" font-family="monospace" font-size="16" fill="#151515" stroke="none">617</text>
+<line data-node="3" data-port="0" data-destination="square" x1="21.5" y1="211" x2="21.5" y2="266"/>
+<rect x="16.5" y="261" width="10" height="10"/>
+<line data-node="3" data-port="1" data-destination="square" x1="44.5" y1="211" x2="44.5" y2="266"/>
+<rect x="39.5" y="261" width="10" height="10"/>
+<line data-node="3" data-port="2" data-destination="square" x1="67.5" y1="211" x2="67.5" y2="266"/>
+<rect x="62.5" y="261" width="10" height="10"/>
+<line data-node="3" data-port="3" data-destination="square" x1="90.5" y1="211" x2="90.5" y2="266"/>
+<rect x="85.5" y="261" width="10" height="10"/>
+<rect data-node="4" x="115" y="174" width="92" height="57" rx="7"/>
+<text transform="translate(142 182) rotate(-90)" text-anchor="end" font-family="monospace" font-size="16" fill="#151515" stroke="none">643</text>
+<text transform="translate(165 182) rotate(-90)" text-anchor="end" font-family="monospace" font-size="16" fill="#151515" stroke="none">653</text>
+<text transform="translate(188 182) rotate(-90)" text-anchor="end" font-family="monospace" font-size="16" fill="#151515" stroke="none">661</text>
+<line data-node="4" data-port="0" data-destination="square" x1="126.5" y1="211" x2="126.5" y2="266"/>
+<rect x="121.5" y="261" width="10" height="10"/>
+<line data-node="4" data-port="1" data-destination="square" x1="149.5" y1="211" x2="149.5" y2="266"/>
+<rect x="144.5" y="261" width="10" height="10"/>
+<line data-node="4" data-port="2" data-destination="square" x1="172.5" y1="211" x2="172.5" y2="266"/>
+<rect x="167.5" y="261" width="10" height="10"/>
+<line data-node="4" data-port="3" data-destination="square" x1="195.5" y1="211" x2="195.5" y2="266"/>
+<rect x="190.5" y="261" width="10" height="10"/>
+</g></svg>

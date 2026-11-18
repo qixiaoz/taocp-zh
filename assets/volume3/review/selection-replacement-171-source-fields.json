@@ -1,0 +1,148 @@
+{
+  "volume": "volume3",
+  "cnPdfPage": 171,
+  "enPdfPages": [
+    278,
+    279
+  ],
+  "sourceFormula": 11,
+  "sourceConcreteBoundEvaluations": {
+    "n6t3": 9,
+    "n6t4": 8,
+    "n13t7": 24,
+    "n13t6": 27,
+    "n5t3": 6
+  },
+  "originalDorenExample": {
+    "n": 8,
+    "targetLargestRank": 4,
+    "initialComparisons": 6,
+    "crossComparison": 1,
+    "discardComparison": 1,
+    "remainingMedian5More": 4,
+    "sum": 12,
+    "graphs": [
+      {
+        "file": "assets/volume3/figures/selection-Doren-eight-order.svg",
+        "sha256": "c4853d37cc615319531a03c593bb71943c7a9e36296ff9968701f15209f5efa6",
+        "nodes": {
+          "1": [
+            70,
+            190
+          ],
+          "2": [
+            190,
+            190
+          ],
+          "3": [
+            270,
+            270
+          ],
+          "4": [
+            310,
+            190
+          ],
+          "5": [
+            170,
+            60
+          ],
+          "6": [
+            310,
+            60
+          ],
+          "7": [
+            390,
+            130
+          ],
+          "8": [
+            430,
+            60
+          ]
+        },
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            2,
+            6
+          ]
+        ]
+      },
+      {
+        "file": "assets/volume3/figures/selection-Doren-five-order.svg",
+        "sha256": "9a085c0395e9c1c057e34bc950917f1960717ee690d1384420301eb41f88be3c",
+        "nodes": {
+          "5": [
+            70,
+            65
+          ],
+          "6": [
+            240,
+            65
+          ],
+          "3": [
+            70,
+            200
+          ],
+          "4": [
+            240,
+            200
+          ],
+          "7": [
+            400,
+            130
+          ]
+        },
+        "edges": [
+          [
+            5,
+            6
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      }
+    ],
+    "programExecuted": false,
+    "qualification": "原有两配置/七加一加四的比较次数核对；不枚举8!、不写新的通用选择求解器。"
+  },
+  "originalChineseEditorFootnote": {
+    "id": "p165-1",
+    "text": "保留的t−2个元素是指初始时不在这棵树中的n−(n−t+2)=t−2个元素。——编者注",
+    "englishCounterpart": false,
+    "preservedAsSourceFootnote": true
+  },
+  "completeTreeClause": {
+    "sourceCN171FirstParagraph": "时，可以取alpha为完全二叉树并引2.3.4.5",
+    "missingTranslation": false,
+    "qualification": "对应英文278置于式10之前；中文置于式10之后，完整逻辑段现齐。"
+  },
+  "pageMarkdownSha256": "aee870611c33d48ca5d432db0d2ae62367e536ded6d8fa2a19928b3baf8ced9d",
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false,
+  "qualification": "所有原正文/书目/图/脚注/式11实际源核；一般替代选择证明只源对照。"
+}

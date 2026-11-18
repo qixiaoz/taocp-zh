@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820"><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 1 L9 5 L0 9" fill="none" stroke="black" stroke-width="1.4"/></marker></defs><rect width="1400" height="820" fill="white"/><g fill="none" stroke="black" stroke-width="2.2">
+<path d="M155 280 V405" marker-end="url(#a)"/>
+<path d="M290 440 H440" marker-end="url(#a)"/>
+<path d="M660 100 V155" marker-end="url(#a)"/>
+<path d="M660 225 V280" marker-end="url(#a)"/>
+<path d="M660 350 V405" marker-end="url(#a)"/>
+<path d="M880 440 H1100" marker-end="url(#a)"/>
+<path d="M1135 405 C1135 300 990 375 880 405" marker-end="url(#a)"/>
+<path d="M1165 405 C1165 275 1030 280 880 280" marker-end="url(#a)"/>
+<path d="M1195 405 C1195 210 1030 155 880 155" marker-end="url(#a)"/>
+<path d="M1225 405 C1225 150 1050 15 880 30" marker-end="url(#a)"/>
+<path d="M660 475 V530" marker-end="url(#a)"/>
+<path d="M660 600 V655" marker-end="url(#a)"/>
+<path d="M880 705 H1100" marker-end="url(#a)"/>
+<path d="M1100 675 H880" marker-end="url(#a)"/>
+<path d="M660 725 V795" marker-end="url(#a)"/>
+</g>
+<rect x="20" y="405" width="270" height="70" fill="white" stroke="black" stroke-width="2"/><text x="155.0" y="450" text-anchor="middle" font-family="serif" font-size="28">C1. 初始化</text>
+<rect x="440" y="30" width="440" height="70" fill="white" stroke="black" stroke-width="2"/><text x="660.0" y="75" text-anchor="middle" font-family="serif" font-size="28">C2. 开始新的一级</text>
+<rect x="440" y="155" width="440" height="70" fill="white" stroke="black" stroke-width="2"/><text x="660.0" y="200" text-anchor="middle" font-family="serif" font-size="28">C3. 开始第 i 个子级</text>
+<rect x="440" y="280" width="440" height="70" fill="white" stroke="black" stroke-width="2"/><text x="660.0" y="325" text-anchor="middle" font-family="serif" font-size="28">C4. 开始步骤 (i,j)</text>
+<rect x="440" y="405" width="440" height="70" fill="white" stroke="black" stroke-width="2"/><text x="660.0" y="450" text-anchor="middle" font-family="serif" font-size="28">C5. 输入到 TAPE[k]</text>
+<rect x="1100" y="405" width="230" height="70" fill="white" stroke="black" stroke-width="2"/><text x="1215.0" y="450" text-anchor="middle" font-family="serif" font-size="28">C6. 前进</text>
+<rect x="440" y="530" width="440" height="70" fill="white" stroke="black" stroke-width="2"/><text x="660.0" y="575" text-anchor="middle" font-family="serif" font-size="28">C7. 准备合并</text>
+<rect x="440" y="655" width="440" height="70" fill="white" stroke="black" stroke-width="2"/><text x="660.0" y="700" text-anchor="middle" font-family="serif" font-size="28">C8. 级联</text>
+<rect x="1100" y="655" width="270" height="70" fill="white" stroke="black" stroke-width="2"/><text x="1235.0" y="700" text-anchor="middle" font-family="serif" font-size="28">C9. 下降一级</text>
+<g font-family="serif" font-size="27"><text x="685" y="512">输入完成</text><text x="685" y="775">排序完成</text></g></svg>

@@ -1,0 +1,110 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    160,
+    161
+  ],
+  "enPdfPages": [
+    262,
+    263,
+    264,
+    265
+  ],
+  "sourceConstraintTypes": [
+    ".",
+    "backslash",
+    "slash"
+  ],
+  "sourceConstraintMeanings": {
+    "left": {
+      "dot": "no constraint",
+      "backslash": "A1<B1",
+      "slash": "A1>B1"
+    },
+    "right": {
+      "dot": "no constraint",
+      "backslash": "Am<Bn",
+      "slash": "Am>Bn"
+    }
+  },
+  "sourceStrategies": [
+    {
+      "label": "A",
+      "range": [
+        "i<=k<=m",
+        "1<=l<=j"
+      ],
+      "comparison": "Ai<Bj"
+    },
+    {
+      "label": "B",
+      "range": [
+        "i<=k<=m",
+        "1<=l<j"
+      ],
+      "comparison": "Ai<Bj",
+      "sharedElement": "Bl",
+      "stipulation": "Ak<Bl<A(k+1)"
+    },
+    {
+      "label": "C",
+      "range": [
+        "i<k<=m",
+        "1<=l<=j"
+      ],
+      "comparison": "Ai<Bj",
+      "sharedElement": "Ak",
+      "stipulation": "B(l-1)<Ak<Bl"
+    },
+    {
+      "label": "Aprime",
+      "range": [
+        "1<=k<=i",
+        "j<=l<=n"
+      ],
+      "comparison": "Ai>Bj"
+    },
+    {
+      "label": "Bprime",
+      "range": [
+        "1<=k<=i",
+        "j<l<=n"
+      ],
+      "comparison": "Ai>Bj",
+      "sharedElement": "Bl",
+      "stipulation": "A(k-1)<Bl<Ak"
+    },
+    {
+      "label": "Cprime",
+      "range": [
+        "1<=k<i",
+        "j<=l<=n"
+      ],
+      "comparison": "Ai>Bj",
+      "sharedElement": "Ak",
+      "stipulation": "Bl<Ak<B(l+1)"
+    }
+  ],
+  "omissionRows": 4,
+  "sourceInequalityRows": 6,
+  "sourceOriginalExample": {
+    "m": 2,
+    "n": 3,
+    "unconstrained": 4,
+    "firstA1B1Further": 3,
+    "firstA1B3Further": 4,
+    "qualification": "原给定例的中英源对照，未新增一般对抗者优化执行器。"
+  },
+  "sourceFormulas": [
+    6,
+    7,
+    8
+  ],
+  "pageMarkdownSha256": {
+    "160": "950dfe78f6de177a153af89257138af72a573b3dfe3f802e67f1b292b58097c5",
+    "161": "63acc090c4d62fe0144b1afb0809ec6047f7ff07285f4bf7a2d1f2eb4f39dc88"
+  },
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false,
+  "qualification": "全部正文/行内条件/六策略/约束表/六行不等式及式6–8逐源核，不以解析或OCR代替源核；后页四张10x10表尚未接受。"
+}

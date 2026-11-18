@@ -1,0 +1,404 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    203,
+    204,
+    205
+  ],
+  "enPdfPages": [
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334
+  ],
+  "sectionBoundary": {
+    "5.4AllExercises": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "5.4.1BeginsCn": 203,
+    "cn203TopStillSection5.4": true
+  },
+  "originalFourRunExample": {
+    "sourceRuns": [
+      [
+        87,
+        503
+      ],
+      [
+        170,
+        908
+      ],
+      [
+        154,
+        426,
+        653
+      ],
+      [
+        612
+      ]
+    ],
+    "sourcePrintedSteps": [
+      1,
+      2,
+      3,
+      9
+    ],
+    "printedStates": [
+      {
+        "step": 1,
+        "sourceOutputPrefix": [
+          87
+        ],
+        "sourceBranchWinners": [
+          87,
+          154
+        ],
+        "remainingSourceRuns": [
+          [
+            87,
+            503,
+            "∞"
+          ],
+          [
+            170,
+            908,
+            "∞"
+          ],
+          [
+            154,
+            426,
+            653,
+            "∞"
+          ],
+          [
+            612,
+            "∞"
+          ]
+        ]
+      },
+      {
+        "step": 2,
+        "sourceOutputPrefix": [
+          87,
+          154
+        ],
+        "sourceBranchWinners": [
+          170,
+          154
+        ],
+        "remainingSourceRuns": [
+          [
+            503,
+            "∞"
+          ],
+          [
+            170,
+            908,
+            "∞"
+          ],
+          [
+            154,
+            426,
+            653,
+            "∞"
+          ],
+          [
+            612,
+            "∞"
+          ]
+        ]
+      },
+      {
+        "step": 3,
+        "sourceOutputPrefix": [
+          87,
+          154,
+          170
+        ],
+        "sourceBranchWinners": [
+          170,
+          426
+        ],
+        "remainingSourceRuns": [
+          [
+            503,
+            "∞"
+          ],
+          [
+            170,
+            908,
+            "∞"
+          ],
+          [
+            426,
+            653,
+            "∞"
+          ],
+          [
+            612,
+            "∞"
+          ]
+        ]
+      },
+      {
+        "step": 9,
+        "sourceOutputPrefix": [
+          87,
+          154,
+          170,
+          426,
+          503,
+          612,
+          653,
+          908,
+          "∞"
+        ],
+        "sourceBranchWinners": [
+          "∞",
+          "∞"
+        ],
+        "remainingSourceRuns": [
+          [
+            "∞"
+          ],
+          [
+            "∞"
+          ],
+          [
+            "∞"
+          ],
+          [
+            "∞"
+          ]
+        ]
+      }
+    ],
+    "originalEightFiniteKeysMergedExactly": true,
+    "unprintedIntermediateStepsNotAddedToManuscript": true
+  },
+  "figure62": {
+    "externalSourceValues": {
+      "12": 503,
+      "13": 87,
+      "14": 512,
+      "15": 61,
+      "16": 908,
+      "17": 170,
+      "18": 897,
+      "19": 275,
+      "20": 653,
+      "21": 426,
+      "22": 154,
+      "23": 509
+    },
+    "internalSourceWinnerValuesOneBased": [
+      61,
+      154,
+      61,
+      170,
+      154,
+      87,
+      61,
+      170,
+      275,
+      426,
+      154
+    ],
+    "nodes": 23,
+    "externalNodes": 12,
+    "internalNodes": 11,
+    "edges": 22,
+    "allLiteralMinWinnersMatch": true,
+    "sourceDefeatedPathOf061": [
+      512,
+      87,
+      154
+    ],
+    "svgSha256": "45df46ba4f6439454ffd57e38489f9fe29fb01ddc51f9485e5ffe87ae2609950"
+  },
+  "figure63": {
+    "externalSourceValues": {
+      "12": 503,
+      "13": 87,
+      "14": 512,
+      "15": 61,
+      "16": 908,
+      "17": 170,
+      "18": 897,
+      "19": 275,
+      "20": 653,
+      "21": 426,
+      "22": 154,
+      "23": 509
+    },
+    "internalSourceLoserValuesOneBased": [
+      154,
+      170,
+      87,
+      275,
+      426,
+      503,
+      512,
+      908,
+      897,
+      653,
+      509
+    ],
+    "championNode0": 61,
+    "nodes": 24,
+    "externalNodes": 12,
+    "internalNodesIncludingChampion": 12,
+    "edgesIncludingChampionEdge": 23,
+    "everyOriginalLoserDerivedFromLiteralWinners": true,
+    "svgSha256": "541648ed37f34ca66cc354febecbaf2420b64e6d236200eb2a9cfff53aac8dbb"
+  },
+  "originalReplacementTable1": {
+    "P": 4,
+    "sourceMemoryRows": [
+      [
+        503,
+        87,
+        512,
+        61
+      ],
+      [
+        503,
+        87,
+        512,
+        908
+      ],
+      [
+        503,
+        170,
+        512,
+        908
+      ],
+      [
+        503,
+        897,
+        512,
+        908
+      ],
+      [
+        275,
+        897,
+        512,
+        908
+      ],
+      [
+        275,
+        897,
+        653,
+        908
+      ],
+      [
+        275,
+        897,
+        426,
+        908
+      ],
+      [
+        275,
+        154,
+        426,
+        908
+      ],
+      [
+        275,
+        154,
+        426,
+        509
+      ],
+      [
+        275,
+        154,
+        426,
+        509
+      ],
+      [
+        275,
+        612,
+        426,
+        509
+      ]
+    ],
+    "sourceFrozenColumnsZeroBased": [
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [],
+      []
+    ],
+    "sourceOutputs": [
+      61,
+      87,
+      170,
+      503,
+      512,
+      653,
+      897,
+      908,
+      "游程结束",
+      154,
+      275
+    ],
+    "sourceIncomingAfterInitialFour": [
+      908,
+      170,
+      897,
+      275,
+      653,
+      426,
+      154,
+      509,
+      612
+    ],
+    "numericMemoryFields": 44,
+    "numericOutputFields": 10,
+    "frozenParenthesizedMemoryFields": 11,
+    "etcRetained": true,
+    "allSourceRowsAndRunBoundaryRecomputed": true,
+    "qualification": "exactly original finite incoming prefix; stop at displayed275 output, no invented next record or generic run-length model"
+  },
+  "sourceHistoryOnly": {
+    "source1point5PAnd2PProsePreserved": true,
+    "noNewExpectedRunLengthProof": true,
+    "snowAnalogyOnlyBegins205EndsMidSentence": true
+  },
+  "pageMarkdownSha256": {
+    "203": "926aaf3bf46d5c0b724e1904af82777e1519c920c3b40513e43418cf87059548",
+    "204": "a2afe80acea248ce4b8df307ee0184ef380c23cc6874073ef4b7538f7efdc654",
+    "205": "afb9591842582a616897198cc1056afe4df0c10d90dcc3c3d68899fa819773ee"
+  },
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false,
+  "representationRevision": "Before acceptance, right-child index labels moved to right of incoming diagonal edges; all keys, indices and topology unchanged. Failed private assets and proof retained as history."
+}

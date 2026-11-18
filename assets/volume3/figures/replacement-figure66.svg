@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="600" viewBox="0 0 1400 600" role="img"><title>图66 替代选择原算法R流程</title><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 1 L9 5 L0 9" fill="none" stroke="#222" stroke-width="1.4"/></marker></defs><rect width="1400" height="600" fill="white"/><g stroke="#222" stroke-width="2.2" fill="none">
+<path d="M140 10 V50" marker-end="url(#a)"/>
+<path d="M140 125 V245" marker-end="url(#a)"/>
+<path d="M140 320 V530" marker-end="url(#a)"/>
+<path d="M370 275 L470 215" marker-end="url(#a)"/>
+<path d="M670 215 H780" marker-end="url(#a)"/>
+<path d="M980 215 H1100" marker-end="url(#a)"/>
+<path d="M1210 270 V410" marker-end="url(#a)"/>
+<path d="M975 465 H815" marker-end="url(#a)"/>
+<path d="M815 430 H975" marker-end="url(#a)"/>
+<path d="M590 447 L370 302" marker-end="url(#a)"/>
+</g>
+<rect x="70" y="50" width="240" height="75" fill="white" stroke="#222" stroke-width="2"/>
+<text x="190.0" y="97.5" text-anchor="middle" font-family="serif" font-size="30" fill="#222">R1. 初始化</text>
+<rect x="70" y="245" width="300" height="75" fill="white" stroke="#222" stroke-width="2"/>
+<text x="220.0" y="292.5" text-anchor="middle" font-family="serif" font-size="30" fill="#222">R2. 游程结束？</text>
+<rect x="470" y="160" width="200" height="110" fill="white" stroke="#222" stroke-width="2"/>
+<text x="570.0" y="205.0" text-anchor="middle" font-family="serif" font-size="30" fill="#222">R3. 输出</text>
+<text x="570.0" y="245.0" text-anchor="middle" font-family="serif" font-size="30" fill="#222">树顶</text>
+<rect x="780" y="160" width="200" height="110" fill="white" stroke="#222" stroke-width="2"/>
+<text x="880.0" y="205.0" text-anchor="middle" font-family="serif" font-size="30" fill="#222">R4. 输入</text>
+<text x="880.0" y="245.0" text-anchor="middle" font-family="serif" font-size="30" fill="#222">新记录</text>
+<rect x="1100" y="160" width="220" height="110" fill="white" stroke="#222" stroke-width="2"/>
+<text x="1210.0" y="205.0" text-anchor="middle" font-family="serif" font-size="30" fill="#222">R5. 准备</text>
+<text x="1210.0" y="245.0" text-anchor="middle" font-family="serif" font-size="30" fill="#222">更新</text>
+<rect x="975" y="410" width="345" height="75" fill="white" stroke="#222" stroke-width="2"/>
+<text x="1147.5" y="457.5" text-anchor="middle" font-family="serif" font-size="30" fill="#222">R6. 设置新的失败者</text>
+<rect x="590" y="410" width="225" height="75" fill="white" stroke="#222" stroke-width="2"/>
+<text x="702.5" y="457.5" text-anchor="middle" font-family="serif" font-size="30" fill="#222">R7. 上移</text>
+<g font-family="serif" font-size="28" fill="#222"><text x="165" y="390">文件</text><text x="165" y="430">结束</text><text x="385" y="420">T=根结点</text></g></svg>

@@ -1,0 +1,514 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    152,
+    153
+  ],
+  "enPdfPages": [
+    248,
+    249,
+    250,
+    251
+  ],
+  "figures": {
+    "order-5-3-1-21": {
+      "nodes": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "edges": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "b",
+          "d"
+        ],
+        [
+          "c",
+          "d"
+        ]
+      ],
+      "nodeCount": 5,
+      "edgeCount": 3
+    },
+    "order-5-3-1-five-chain": {
+      "nodes": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "edges": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "2",
+          "3"
+        ],
+        [
+          "3",
+          "4"
+        ]
+      ],
+      "nodeCount": 5,
+      "edgeCount": 4
+    },
+    "order-5-3-1-components": {
+      "nodes": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "edges": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "c",
+          "b"
+        ],
+        [
+          "d",
+          "e"
+        ],
+        [
+          "f",
+          "e"
+        ],
+        [
+          "f",
+          "g"
+        ]
+      ],
+      "nodeCount": 7,
+      "edgeCount": 5
+    },
+    "order-5-3-1-components-separated": {
+      "nodes": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "edges": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "c",
+          "b"
+        ],
+        [
+          "d",
+          "e"
+        ],
+        [
+          "f",
+          "e"
+        ],
+        [
+          "f",
+          "g"
+        ]
+      ],
+      "nodeCount": 7,
+      "edgeCount": 5
+    },
+    "order-5-3-1-28": {
+      "nodes": [
+        "a0",
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ],
+      "edges": [
+        [
+          "a0",
+          "a1"
+        ],
+        [
+          "a1",
+          "a2"
+        ],
+        [
+          "a2",
+          "a3"
+        ],
+        [
+          "a3",
+          "a4"
+        ],
+        [
+          "a4",
+          "a5"
+        ],
+        [
+          "a5",
+          "a6"
+        ],
+        [
+          "a6",
+          "a7"
+        ],
+        [
+          "a7",
+          "a8"
+        ],
+        [
+          "a8",
+          "a9"
+        ],
+        [
+          "a9",
+          "a10"
+        ],
+        [
+          "a10",
+          "a11"
+        ],
+        [
+          "a11",
+          "a12"
+        ],
+        [
+          "b0",
+          "b1"
+        ],
+        [
+          "b1",
+          "b2"
+        ],
+        [
+          "b2",
+          "b3"
+        ],
+        [
+          "b3",
+          "b4"
+        ],
+        [
+          "b4",
+          "b5"
+        ],
+        [
+          "b5",
+          "b6"
+        ],
+        [
+          "b6",
+          "b7"
+        ],
+        [
+          "b7",
+          "b8"
+        ],
+        [
+          "b8",
+          "b9"
+        ],
+        [
+          "b9",
+          "b10"
+        ],
+        [
+          "b10",
+          "b11"
+        ],
+        [
+          "b11",
+          "b12"
+        ],
+        [
+          "b12",
+          "b13"
+        ],
+        [
+          "b13",
+          "b14"
+        ],
+        [
+          "a4",
+          "b6"
+        ]
+      ],
+      "nodeCount": 28,
+      "edgeCount": 27
+    }
+  },
+  "eq28VisibleSourceDots": {
+    "top": 13,
+    "bottom": 15,
+    "horizontalSegments": 26,
+    "crossSegment": 1,
+    "labels": [
+      "a_1",
+      "a_2",
+      "a_p",
+      "a_m",
+      "b_1",
+      "b_q",
+      "b_n"
+    ],
+    "qualification": "m/n仍是符号；13/15仅源图实际画出的点数，不把它们擅代参数。"
+  },
+  "sourceEq24ConcreteCase": {
+    "nodeOrder": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "edges": [
+      [
+        "a",
+        "b"
+      ],
+      [
+        "b",
+        "d"
+      ],
+      [
+        "c",
+        "d"
+      ]
+    ],
+    "validAssignments": [
+      {
+        "a": 1,
+        "b": 2,
+        "c": 3,
+        "d": 4,
+        "e": 5
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "c": 3,
+        "d": 5,
+        "e": 4
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "c": 4,
+        "d": 5,
+        "e": 3
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "c": 2,
+        "d": 4,
+        "e": 5
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "c": 2,
+        "d": 5,
+        "e": 4
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "c": 4,
+        "d": 5,
+        "e": 2
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "c": 2,
+        "d": 5,
+        "e": 3
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "c": 3,
+        "d": 5,
+        "e": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "c": 1,
+        "d": 4,
+        "e": 5
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "c": 1,
+        "d": 5,
+        "e": 4
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "c": 4,
+        "d": 5,
+        "e": 1
+      },
+      {
+        "a": 2,
+        "b": 4,
+        "c": 1,
+        "d": 5,
+        "e": 3
+      },
+      {
+        "a": 2,
+        "b": 4,
+        "c": 3,
+        "d": 5,
+        "e": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "c": 1,
+        "d": 5,
+        "e": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "c": 2,
+        "d": 5,
+        "e": 1
+      }
+    ],
+    "T": 15,
+    "comparisonMatrix": [
+      [
+        0,
+        15,
+        10,
+        15,
+        11
+      ],
+      [
+        0,
+        0,
+        5,
+        15,
+        7
+      ],
+      [
+        5,
+        10,
+        0,
+        15,
+        9
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        4,
+        8,
+        6,
+        12,
+        0
+      ]
+    ],
+    "C_ec": 6,
+    "C_ce": 9,
+    "sourceInequalities": [
+      "K_e<K_c",
+      "K_c<K_e"
+    ],
+    "efficiencyWorseBranch": "5/6",
+    "minimumSevenComparisonsEfficiency": "15/16",
+    "magnifiedCnLastParagraphImageSha256": "271b58d125a3d1ccf3307e21b03d5a05e7069bc09264bb39a66c1c034605af50",
+    "qualification": "全页缩图一度误读为大于号，放大实际为小于；不是中文原书错误，不登记订正。"
+  },
+  "sourceSevenVertexComponents": {
+    "T_Gprime": 2,
+    "T_Gdoubleprime": 5,
+    "T_G": 350,
+    "factorChoose7_3": 35,
+    "efficiency": "9/20",
+    "method": "仅枚举源图3/4/7顶点实际赋值；不新增一般图族证明。"
+  },
+  "assets": [
+    {
+      "file": "assets/volume3/figures/order-5-3-1-21.svg",
+      "sha256": "97081083fe6b0bb51626ae14706e50fff6bc4d0022fd57e12b7a67a755fe5d80"
+    },
+    {
+      "file": "assets/volume3/figures/order-5-3-1-five-chain.svg",
+      "sha256": "b727edf5bace21bbad8cfcf348261ca2f79435f43b91fae69be2fafd31b3f2bf"
+    },
+    {
+      "file": "assets/volume3/figures/order-5-3-1-components.svg",
+      "sha256": "5b6a3f58a94890fc1e162be608cb81901b044b4856f26bcd4e16de2a2ec47873"
+    },
+    {
+      "file": "assets/volume3/figures/order-5-3-1-components-separated.svg",
+      "sha256": "d6155d5de9ac4981d263b8b62901f577173e8414e17b4451f88ee41cafc9823f"
+    },
+    {
+      "file": "assets/volume3/figures/order-5-3-1-28.svg",
+      "sha256": "aa2baad2011c12ab12843282f3b7de304a2505c542c1a7cc843848ad311549cb"
+    }
+  ],
+  "pageMarkdownSha256": {
+    "152": "d9d061b2d81740187f5fc19e129290a5deaaeacc4159088ccb8e799f2f810fa0",
+    "153": "4b48deedd4e0c412ffbfa0ab9353751dbdb34c71dce70efb04c4d3d2fcc15b20"
+  },
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false,
+  "qualification": "全部可见中文原图/对应英文248–251实际看，式29–31的一般式只源对照，不声称新证明。"
+}

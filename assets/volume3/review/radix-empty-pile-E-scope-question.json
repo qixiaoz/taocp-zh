@@ -1,0 +1,27 @@
+{
+  "volume": "volume3",
+  "cnPdfPage": 142,
+  "enPdfPage": 233,
+  "sourceLocations": [
+    "CN140算法H H2–H4",
+    "CN142程序R29/30及式6–7",
+    "EN230 H2–H4",
+    "EN232程序R29/30",
+    "EN233 E说明/式6–7"
+  ],
+  "observedSourceFacts": {
+    "H4Checks": "H2从i=0开始，H3先增i；H4只检查1..M-1，不检查0堆",
+    "programRows29_30Frequency": "3M-3",
+    "EText": "H4中发现空堆的次数",
+    "formula6Meaning": "所有M堆的空堆分布",
+    "formula7MeanPrinted": "M(1-1/M)^N p",
+    "formula7MinimumPrinted": "max(M-N,0)p"
+  },
+  "question": "H4计数是否与后段全部M堆的空堆统计用了不同口径，需作者原始勘误或进一步独立核定；两版原式先保留。",
+  "actualOriginalCase": "N16/M10/三遍的0堆均非空，原图空堆仅第二遍3,4及第三遍3；H4 E=3，原例1018u符合时间式，不因此宣称一般E式已独立证明。",
+  "action": "preserve-both-source-versions-and-report",
+  "substantiveCorrectionApplied": false,
+  "isAuthorOfficialErratum": false,
+  "cnPageMarkdownSha256": "f3f65e88d9f78b5673306b3e46d1461b10759a484ee3a3f3cb972b0e0ea24bc7",
+  "humanSignoff": false
+}

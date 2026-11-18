@@ -1,0 +1,186 @@
+{
+  "volume": "volume3",
+  "cnPdfPages": [
+    209,
+    210,
+    211
+  ],
+  "enPdfPages": [
+    339,
+    340,
+    341,
+    342,
+    343,
+    344
+  ],
+  "figure67": {
+    "kind": "selected Chinese source illustration crop, not vector redraw",
+    "bounds": [
+      390,
+      1120,
+      2230,
+      1590
+    ],
+    "sourceImageSha256": "5f38b84d777b5fcc4eeeda9a2049b8a7b9a5d44f87b7f3e03a335f78b1a46c11",
+    "cropSha256": "a8d409cfaaad007247efcc75521fb26ff7f9ff425e86b7877c494bf7a93e4492",
+    "preservedChineseLabels": [
+      "L−x",
+      "Kdt",
+      "dx",
+      "h",
+      "输入雪",
+      "输出雪"
+    ],
+    "providedEnglish340Difference": "corresponding English truck illustration omits these Chinese explanatory labels; Chinese selected source retained"
+  },
+  "table2": {
+    "sourceRowsSixNumericColumns": [
+      [
+        "0.10000",
+        "2.15780",
+        "0.32071",
+        "0.00000",
+        "2.00000",
+        "0.00000"
+      ],
+      [
+        "0.50000",
+        "2.54658",
+        "0.69952",
+        "0.43428",
+        "2.50000",
+        "0.65348"
+      ],
+      [
+        "1.00000",
+        "2.71828",
+        "1.00000",
+        "1.30432",
+        "3.00000",
+        "1.15881"
+      ],
+      [
+        "2.00000",
+        "3.53487",
+        "1.43867",
+        "1.95014",
+        "3.50000",
+        "1.42106"
+      ],
+      [
+        "3.00000",
+        "4.16220",
+        "1.74773",
+        "2.72294",
+        "4.00000",
+        "1.66862"
+      ],
+      [
+        "4.00000",
+        "4.69446",
+        "2.01212",
+        "4.63853",
+        "5.00000",
+        "2.16714"
+      ],
+      [
+        "5.00000",
+        "5.16369",
+        "2.24938",
+        "21.72222",
+        "10.00000",
+        "4.66667"
+      ],
+      [
+        "10.00000",
+        "7.00877",
+        "3.17122",
+        "5.29143",
+        "5.29143",
+        "2.31329"
+      ]
+    ],
+    "numericCells": 48,
+    "independentChecksOnlyThreeExplicitSourceCases": [
+      {
+        "sourceReservoirP": "0.00000",
+        "runLengthPExact": "2",
+        "runLengthDisplayedFiveDecimals": "2.00000"
+      },
+      {
+        "sourceReservoirP": "1.00000",
+        "runLengthPExact": "exp(1)",
+        "runLengthDisplayedFiveDecimals": "2.71828"
+      },
+      {
+        "sourceReservoirP": "2.00000",
+        "thetaDecimal": "0.438671455348532608758270594436489135457038657471439436748875",
+        "runLengthPDecimal": "3.53486813061576042089489800603717698613517199527238822955965",
+        "runLengthDisplayedFiveDecimals": "3.53487"
+      }
+    ],
+    "independentlyRecomputedDerivedFields": 3,
+    "qualification": "All48 numeric source cells directly compared in both images. Only three run-length coefficients at reservoir0,P,2P independently computed from source-explicit formulas; the other45 numeric fields remain source comparison only in this receipt. k+theta definitions in exercises22/27 are not inferred from the printed table.",
+    "precision": "Decimal60; nearest displayed five decimal places, no halfway tie"
+  },
+  "theoremK": {
+    "completeOriginalStatementAndProofSourceCompared": true,
+    "generatingSumIndices": "alll1..lk>=0",
+    "convolutionConstraints": "l11+...+lP1=l1 throughl1k+...+lPk=lk",
+    "noNewGeneralProbabilityModelOrMonteCarloProof": true
+  },
+  "sourceNumericConstants211": {
+    "firstRun": {
+      "formula": "e-1",
+      "computed": "1.71828182845904523536028747135266249775724709369995957496697",
+      "sourceThreeDecimal": "1.718"
+    },
+    "secondRun": {
+      "formula": "e^2-2e",
+      "computed": "1.95249244201255975650985251786968281766582138315192817415320",
+      "sourceThreeDecimal": "1.952"
+    },
+    "mostRunStddevCoefficient": {
+      "formula": "sqrt(4e-10)",
+      "computed": "0.934412817675453840647025282919376397402513509187637608448122",
+      "sourceThreeDecimal": "0.934"
+    }
+  },
+  "sourceNotationVariation": {
+    "location": "CN211/EN342 finite-prefix probability sentence",
+    "bothActuallyPrint": "a_p with lowercase p",
+    "precedingDefinedQuantity": "a_P with uppercase P",
+    "treatment": "preserve source lowercase p in this single occurrence and disclose notation variation, no silent uniformization or substantive correction"
+  },
+  "sourceExercises": {
+    "completeNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "recommended": [
+      9,
+      14
+    ],
+    "threeGettysburgTextLinesPreserved": true,
+    "generalExercisesOnlySourceCompared": true
+  },
+  "pageMarkdownSha256": {
+    "209": "486bca18f1ffc3f7ea61a5489b306e8981ba6c23297c6151f9e775a772d3c07c",
+    "210": "0705c320a7ed6e1b4ab25e3d2a1e53955202cdc2e924cb5aa7a663eb4914e4d3",
+    "211": "4782a3eb34afda0ecf406eea4f39d42db23a48a094f464ed4ea07b330c34577a"
+  },
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false
+}
