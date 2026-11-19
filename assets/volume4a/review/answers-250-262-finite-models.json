@@ -1,0 +1,849 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Onlyspecified580581finitechecks. 252and261sourceissuesnotpassed,source100Z50154/genericcomplexity/historicalclaimsnotreproduced.",
+  "models": {
+    "scope": "Specifiedfinite580581semanticchecks;twofreshsourcefixes255loop/262parity;252vectorand261DFAconventionspreservednotguessed",
+    "sourcePageMarkdownSha256": {
+      "580": "e4cfa3f3809674ff4f1fc593f54087bd2344f2ef1d4397a5271c2c9a72c3b9c3",
+      "581": "86f937cd6b9f7c2f9fcc88bde3c8e8e1570a39be78ad8572ca50e556ee9908ae"
+    },
+    "checkerSha256": "9b11d85b02c13fe2e3f829c297db35e703314a72836d5eac615636b9c49e9e27",
+    "answer250": {
+      "allMonotoneFunctions": 7581,
+      "sumBDDNodes": 76726,
+      "sumZDDPINodes": 71513,
+      "largerZThanB": 151,
+      "maximumRatio": "8/7",
+      "maximizers": 1,
+      "actualPrintedFourTermFormulaIsUniqueMaximizer": true
+    },
+    "answer252": {
+      "selectedSource": {
+        "v": "110111011",
+        "trueWeights": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          7,
+          8
+        ],
+        "cubeTypes": [
+          [
+            0,
+            8
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "primeCubes": 1341,
+        "maximalWeightIntervals": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            7,
+            8
+          ]
+        ]
+      },
+      "printedPairs": [
+        [
+          0,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          8,
+          8
+        ]
+      ],
+      "allPrintedTypesReproduced": false,
+      "onePossibleVectorRepair": {
+        "v": "1101111011",
+        "trueWeights": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "cubeTypes": [
+          [
+            0,
+            8
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "primeCubes": 1698,
+        "maximalWeightIntervals": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            8,
+            9
+          ]
+        ]
+      },
+      "treatment": "Keepbothprintedv/pairsinbody,reporttwoalternatives;noauthorintendedrepairasserted"
+    },
+    "answer253": {
+      "allBooleanFunctionsThrough3": 276,
+      "allSignedImplicantAndPrimeRecurrencesMatched": true
+    },
+    "answer254": {
+      "allMonotoneOrderedPairsFSubsetGThrough3": 194,
+      "threeSetExpressionsEqual": true
+    },
+    "answer255": {
+      "allTwoPlaneFourAtomPairs": 65536,
+      "allBumpInsertionDeletionCases": 30720,
+      "correctedLoopResultsMatchMultiplicityAddition": true,
+      "literalOriginalNonterminationWitness": {
+        "m": 1,
+        "f0": [
+          0
+        ],
+        "g0": [],
+        "initialK": 0,
+        "kAfterEveryOriginalIteration": 0,
+        "literalLoopTerminates": false,
+        "chosenCorrection": "Appendk←k+1aftertwooriginalassignments"
+      }
+    },
+    "answer256": {
+      "source41ReversedPaddedTruthTable": "10010100",
+      "sourceExampleMintermsMatched": true,
+      "positiveKFamilyExamples": [
+        {
+          "k": 1,
+          "xBitLength": 7,
+          "Zx": 3,
+          "Zsquare": 9,
+          "expectedZsquare": 9
+        },
+        {
+          "k": 2,
+          "xBitLength": 61,
+          "Zx": 5,
+          "Zsquare": 45,
+          "expectedZsquare": 45
+        },
+        {
+          "k": 3,
+          "xBitLength": 2041,
+          "Zx": 9,
+          "Zsquare": 765,
+          "expectedZsquare": 765
+        }
+      ],
+      "subtractionSourceExamplesN1To7Matched": true,
+      "truncatedSubtractionIdentityCheckedFinite": true,
+      "lowEndQualification": "k0diagnosticZ(x^2)=4notprinted3;positivekcounterexamplefamilykept,notgeneraluniformk0identityclaim",
+      "generalADDcallboundAndAsymptoticSparseArithmeticNotReproved": true
+    },
+    "answer258": {
+      "allFunctionsUpTo4VariablesMinimumSizes": [
+        {
+          "cardinality": 1,
+          "boundedUpTo4VariableMinimumBDD": 1,
+          "boundedUpTo4VariableMinimumZDD": 1,
+          "shortestAdditionChain": [
+            1
+          ],
+          "constructedZDDVariables": 0,
+          "actualConstructedZDDNodes": 1,
+          "actualConstructedZDDMembers": 1,
+          "variableCapNotAssumedToAttainGeneralBound": true
+        },
+        {
+          "cardinality": 2,
+          "boundedUpTo4VariableMinimumBDD": 1,
+          "boundedUpTo4VariableMinimumZDD": 2,
+          "shortestAdditionChain": [
+            1,
+            2
+          ],
+          "constructedZDDVariables": 1,
+          "actualConstructedZDDNodes": 2,
+          "actualConstructedZDDMembers": 2,
+          "variableCapNotAssumedToAttainGeneralBound": true
+        },
+        {
+          "cardinality": 3,
+          "boundedUpTo4VariableMinimumBDD": 4,
+          "boundedUpTo4VariableMinimumZDD": 3,
+          "shortestAdditionChain": [
+            1,
+            2,
+            3
+          ],
+          "constructedZDDVariables": 2,
+          "actualConstructedZDDNodes": 3,
+          "actualConstructedZDDMembers": 3,
+          "variableCapNotAssumedToAttainGeneralBound": true
+        },
+        {
+          "cardinality": 4,
+          "boundedUpTo4VariableMinimumBDD": 1,
+          "boundedUpTo4VariableMinimumZDD": 3,
+          "shortestAdditionChain": [
+            1,
+            2,
+            4
+          ],
+          "constructedZDDVariables": 2,
+          "actualConstructedZDDNodes": 3,
+          "actualConstructedZDDMembers": 4,
+          "variableCapNotAssumedToAttainGeneralBound": true
+        },
+        {
+          "cardinality": 5,
+          "boundedUpTo4VariableMinimumBDD": 5,
+          "boundedUpTo4VariableMinimumZDD": 4,
+          "shortestAdditionChain": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "constructedZDDVariables": 3,
+          "actualConstructedZDDNodes": 4,
+          "actualConstructedZDDMembers": 5,
+          "variableCapNotAssumedToAttainGeneralBound": true
+        },
+        {
+          "cardinality": 6,
+          "boundedUpTo4VariableMinimumBDD": 4,
+          "boundedUpTo4VariableMinimumZDD": 4,
+          "shortestAdditionChain": [
+            1,
+            2,
+            4,
+            6
+          ],
+          "constructedZDDVariables": 3,
+          "actualConstructedZDDNodes": 4,
+          "actualConstructedZDDMembers": 6,
+          "variableCapNotAssumedToAttainGeneralBound": true
+        },
+        {
+          "cardinality": 7,
+          "boundedUpTo4VariableMinimumBDD": 5,
+          "boundedUpTo4VariableMinimumZDD": 5,
+          "shortestAdditionChain": [
+            1,
+            2,
+            4,
+            6,
+            7
+          ],
+          "constructedZDDVariables": 4,
+          "actualConstructedZDDNodes": 5,
+          "actualConstructedZDDMembers": 7,
+          "variableCapNotAssumedToAttainGeneralBound": true
+        },
+        {
+          "cardinality": 8,
+          "boundedUpTo4VariableMinimumBDD": 1,
+          "boundedUpTo4VariableMinimumZDD": 4,
+          "shortestAdditionChain": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "constructedZDDVariables": 3,
+          "actualConstructedZDDNodes": 4,
+          "actualConstructedZDDMembers": 8,
+          "variableCapNotAssumedToAttainGeneralBound": true
+        },
+        {
+          "cardinality": 9,
+          "boundedUpTo4VariableMinimumBDD": 6,
+          "boundedUpTo4VariableMinimumZDD": 5,
+          "shortestAdditionChain": [
+            1,
+            2,
+            4,
+            8,
+            9
+          ],
+          "constructedZDDVariables": 4,
+          "actualConstructedZDDNodes": 5,
+          "actualConstructedZDDMembers": 9,
+          "variableCapNotAssumedToAttainGeneralBound": true
+        },
+        {
+          "cardinality": 10,
+          "boundedUpTo4VariableMinimumBDD": 5,
+          "boundedUpTo4VariableMinimumZDD": 5,
+          "shortestAdditionChain": [
+            1,
+            2,
+            4,
+            8,
+            10
+          ],
+          "constructedZDDVariables": 4,
+          "actualConstructedZDDNodes": 5,
+          "actualConstructedZDDMembers": 10,
+          "variableCapNotAssumedToAttainGeneralBound": true
+        },
+        {
+          "cardinality": 11,
+          "boundedUpTo4VariableMinimumBDD": 6,
+          "boundedUpTo4VariableMinimumZDD": 6,
+          "shortestAdditionChain": [
+            1,
+            2,
+            4,
+            8,
+            10,
+            11
+          ],
+          "constructedZDDVariables": 5,
+          "actualConstructedZDDNodes": 6,
+          "actualConstructedZDDMembers": 11,
+          "variableCapNotAssumedToAttainGeneralBound": true
+        },
+        {
+          "cardinality": 12,
+          "boundedUpTo4VariableMinimumBDD": 4,
+          "boundedUpTo4VariableMinimumZDD": 5,
+          "shortestAdditionChain": [
+            1,
+            2,
+            4,
+            8,
+            12
+          ],
+          "constructedZDDVariables": 4,
+          "actualConstructedZDDNodes": 5,
+          "actualConstructedZDDMembers": 12,
+          "variableCapNotAssumedToAttainGeneralBound": true
+        },
+        {
+          "cardinality": 13,
+          "boundedUpTo4VariableMinimumBDD": 6,
+          "boundedUpTo4VariableMinimumZDD": 6,
+          "shortestAdditionChain": [
+            1,
+            2,
+            4,
+            8,
+            12,
+            13
+          ],
+          "constructedZDDVariables": 5,
+          "actualConstructedZDDNodes": 6,
+          "actualConstructedZDDMembers": 13,
+          "variableCapNotAssumedToAttainGeneralBound": true
+        },
+        {
+          "cardinality": 14,
+          "boundedUpTo4VariableMinimumBDD": 5,
+          "boundedUpTo4VariableMinimumZDD": 6,
+          "shortestAdditionChain": [
+            1,
+            2,
+            4,
+            8,
+            12,
+            14
+          ],
+          "constructedZDDVariables": 5,
+          "actualConstructedZDDNodes": 6,
+          "actualConstructedZDDMembers": 14,
+          "variableCapNotAssumedToAttainGeneralBound": true
+        },
+        {
+          "cardinality": 15,
+          "boundedUpTo4VariableMinimumBDD": 6,
+          "boundedUpTo4VariableMinimumZDD": 7,
+          "shortestAdditionChain": [
+            1,
+            2,
+            4,
+            5,
+            10,
+            15
+          ],
+          "constructedZDDVariables": 5,
+          "actualConstructedZDDNodes": 6,
+          "actualConstructedZDDMembers": 15,
+          "variableCapNotAssumedToAttainGeneralBound": true
+        },
+        {
+          "cardinality": 16,
+          "boundedUpTo4VariableMinimumBDD": 1,
+          "boundedUpTo4VariableMinimumZDD": 5,
+          "shortestAdditionChain": [
+            1,
+            2,
+            4,
+            8,
+            16
+          ],
+          "constructedZDDVariables": 4,
+          "actualConstructedZDDNodes": 5,
+          "actualConstructedZDDMembers": 16,
+          "variableCapNotAssumedToAttainGeneralBound": true
+        }
+      ],
+      "notGeneralAdditionChainTheoremProof": true
+    },
+    "answer259": {
+      "allDyckInputsThrough16Bits": [
+        {
+          "n": 1,
+          "allInputWords": 4,
+          "validDyckWords": 1,
+          "BDDProfile": [
+            1,
+            1,
+            2
+          ],
+          "ZDDProfile": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "n": 2,
+          "allInputWords": 16,
+          "validDyckWords": 2,
+          "BDDProfile": [
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "ZDDProfile": [
+            0,
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "n": 3,
+          "allInputWords": 64,
+          "validDyckWords": 5,
+          "BDDProfile": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            1,
+            2
+          ],
+          "ZDDProfile": [
+            0,
+            1,
+            1,
+            2,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "n": 4,
+          "allInputWords": 256,
+          "validDyckWords": 14,
+          "BDDProfile": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            2,
+            2,
+            1,
+            2
+          ],
+          "ZDDProfile": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "n": 5,
+          "allInputWords": 1024,
+          "validDyckWords": 42,
+          "BDDProfile": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            3,
+            2,
+            2,
+            1,
+            2
+          ],
+          "ZDDProfile": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            2,
+            2,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "n": 6,
+          "allInputWords": 4096,
+          "validDyckWords": 132,
+          "BDDProfile": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            3,
+            3,
+            2,
+            2,
+            1,
+            2
+          ],
+          "ZDDProfile": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            3,
+            2,
+            2,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "n": 7,
+          "allInputWords": 16384,
+          "validDyckWords": 429,
+          "BDDProfile": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            3,
+            3,
+            2,
+            2,
+            1,
+            2
+          ],
+          "ZDDProfile": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            3,
+            3,
+            2,
+            2,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "n": 8,
+          "allInputWords": 65536,
+          "validDyckWords": 1430,
+          "BDDProfile": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            5,
+            4,
+            4,
+            3,
+            3,
+            2,
+            2,
+            1,
+            2
+          ],
+          "ZDDProfile": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            3,
+            3,
+            2,
+            2,
+            1,
+            1,
+            2
+          ]
+        }
+      ],
+      "notUniversalCatalanDiagramProof": true
+    },
+    "answer260": {
+      "restrictedGrowthModels": [
+        {
+          "n": 1,
+          "restrictedGrowthWords": 1,
+          "unaryVariables": 1,
+          "unaryBDD": 3,
+          "unaryZDD": 3,
+          "allUnaryProfilesAndHighBranchRecurrenceMatched": true,
+          "compactVariables": 0,
+          "compactBDD": 1,
+          "compactZDD": 1
+        },
+        {
+          "n": 2,
+          "restrictedGrowthWords": 2,
+          "unaryVariables": 3,
+          "unaryBDD": 6,
+          "unaryZDD": 5,
+          "allUnaryProfilesAndHighBranchRecurrenceMatched": true,
+          "compactVariables": 1,
+          "compactBDD": 1,
+          "compactZDD": 2
+        },
+        {
+          "n": 3,
+          "restrictedGrowthWords": 5,
+          "unaryVariables": 6,
+          "unaryBDD": 12,
+          "unaryZDD": 8,
+          "allUnaryProfilesAndHighBranchRecurrenceMatched": true,
+          "compactVariables": 3,
+          "compactBDD": 5,
+          "compactZDD": 6
+        },
+        {
+          "n": 4,
+          "restrictedGrowthWords": 15,
+          "unaryVariables": 10,
+          "unaryBDD": 25,
+          "unaryZDD": 13,
+          "allUnaryProfilesAndHighBranchRecurrenceMatched": true,
+          "compactVariables": 5,
+          "compactBDD": 10,
+          "compactZDD": 12
+        },
+        {
+          "n": 5,
+          "restrictedGrowthWords": 52,
+          "unaryVariables": 15,
+          "unaryBDD": 48,
+          "unaryZDD": 21,
+          "allUnaryProfilesAndHighBranchRecurrenceMatched": true,
+          "compactVariables": 8,
+          "compactBDD": 20,
+          "compactZDD": 22
+        },
+        {
+          "n": 6,
+          "restrictedGrowthWords": 203,
+          "unaryVariables": 21,
+          "unaryBDD": 84,
+          "unaryZDD": 33,
+          "allUnaryProfilesAndHighBranchRecurrenceMatched": true,
+          "compactVariables": 11,
+          "compactBDD": 34,
+          "compactZDD": 38
+        },
+        {
+          "n": 7,
+          "restrictedGrowthWords": 877,
+          "unaryVariables": 28,
+          "unaryBDD": 136,
+          "unaryZDD": 50,
+          "allUnaryProfilesAndHighBranchRecurrenceMatched": true,
+          "compactVariables": 14,
+          "compactBDD": 52,
+          "compactZDD": 59
+        },
+        {
+          "n": 8,
+          "restrictedGrowthWords": 4140,
+          "unaryVariables": 36,
+          "unaryBDD": 207,
+          "unaryZDD": 73,
+          "allUnaryProfilesAndHighBranchRecurrenceMatched": true,
+          "compactVariables": 17,
+          "compactBDD": 72,
+          "compactZDD": 86
+        }
+      ],
+      "source100FormulaArithmetic": {
+        "unaryVariables": 5050,
+        "compactVariables": 573,
+        "Zunary": 161901,
+        "Bunary": 490153,
+        "Bcompact": 31861,
+        "sourceZcompactOnlySourceCompared": 50154
+      },
+      "sourceGlobalOrderOptimalityNotIndependentlySearched": true,
+      "source100CompactZDD50154NotRecomputed": true
+    },
+    "answer261": {
+      "actualSourceQDDDefinitionImages": [
+        "en-251.png",
+        "en-252.png"
+      ],
+      "standardCompleteDFAActualPartitionRefinement": [
+        {
+          "language": "L={00}",
+          "variables": 2,
+          "quasiBDDNodes": 5,
+          "completeMinimalDFAStates": 4,
+          "sourceLiteralEqualityHolds": false
+        },
+        {
+          "language": "L=empty",
+          "variables": 2,
+          "quasiBDDNodes": 3,
+          "completeMinimalDFAStates": 1,
+          "sourceLiteralEqualityHolds": false
+        },
+        {
+          "language": "L=all2bitwords",
+          "variables": 2,
+          "quasiBDDNodes": 3,
+          "completeMinimalDFAStates": 4,
+          "sourceLiteralEqualityHolds": false
+        }
+      ],
+      "sourceTreatment": "PreserveQDD/minimumDFAphraseandreportlevel/zeroresidual/deadstateconventions;noarbitraryglobalreplacement"
+    },
+    "answer262a": {
+      "normalizedTaggedPointerModels": [
+        {
+          "variables": 0,
+          "allFunctions": 2,
+          "allTruthValuesMatched": true,
+          "rootOddExactlyNonnormal": true,
+          "allStoredLowPointersEven": true,
+          "onlyFalseSinkStored": true,
+          "storedNodes": 0
+        },
+        {
+          "variables": 1,
+          "allFunctions": 4,
+          "allTruthValuesMatched": true,
+          "rootOddExactlyNonnormal": true,
+          "allStoredLowPointersEven": true,
+          "onlyFalseSinkStored": true,
+          "storedNodes": 1
+        },
+        {
+          "variables": 2,
+          "allFunctions": 16,
+          "allTruthValuesMatched": true,
+          "rootOddExactlyNonnormal": true,
+          "allStoredLowPointersEven": true,
+          "onlyFalseSinkStored": true,
+          "storedNodes": 7
+        },
+        {
+          "variables": 3,
+          "allFunctions": 256,
+          "allTruthValuesMatched": true,
+          "rootOddExactlyNonnormal": true,
+          "allStoredLowPointersEven": true,
+          "onlyFalseSinkStored": true,
+          "storedNodes": 127
+        }
+      ],
+      "chosenSourceTranslationRepair": "OddpointerdenotesNONnormalfunction,asactualEnglish"
+    },
+    "qualifications": [
+      "Allgeneric/asymptoticcomplexityandhistoricalcitationssourceonly",
+      "Source252v/pairincompatibilityand261standardDFAcomparisonnotwashedintopass",
+      "NoREFGC/cacheallocation/hardwaretimingclaim",
+      "257wholecrosspageparagraph/262continuation582/mother/offline/routed/onlinepending"
+    ]
+  },
+  "privateEvidenceSha256": "726bb786fced70f91716279318c948b08ef51e634f19fe913e1b0b31f555c4ea",
+  "allPrintedNumericalAndUniversalStatementsReproduced": false
+}

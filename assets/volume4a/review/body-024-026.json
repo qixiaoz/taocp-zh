@@ -1,0 +1,2806 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "three-complete-source-pages-with-reconstructed-native-figures",
+  "cnPhysicalPages": [
+    24,
+    25,
+    26
+  ],
+  "cnPrintedPages": [
+    9,
+    10,
+    11
+  ],
+  "masterSha256": null,
+  "mathExpressions": 144,
+  "privateBrowserCases": 6,
+  "substantiveCorrections": 2,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7",
+      "cnPdfPage": 24,
+      "cnPrintedPage": 9,
+      "enPdfPages": [
+        28,
+        29,
+        30
+      ],
+      "enPrintedPages": [
+        11,
+        12,
+        13
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "601142d7f4ac3766028ebedda9c6902dde38255cfb441503e195fe79f78ff88b",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-024.png",
+      "sourcePageImageSha256": "0d3a5ff84ca71265502b38b57f072273d6e6e6a3a4c34aec5f4b2521ce87eef0",
+      "enPageImages": [
+        {
+          "physicalPage": 28,
+          "file": "private-snapshot:volume4a/body-review/en-028.png",
+          "sha256": "210c27f86c875129b9fe10d805ed40828326f4d870a39b60e628c3b165243da3"
+        },
+        {
+          "physicalPage": 29,
+          "file": "private-snapshot:volume4a/body-review/en-029.png",
+          "sha256": "0a2b47ec7b48a92d5a0e1ec6207516bceff5646731fa99f0dbf2b055d0e01430"
+        },
+        {
+          "physicalPage": 30,
+          "file": "private-snapshot:volume4a/body-review/en-030.png",
+          "sha256": "75be5533b4b6b205defc1a7e13d135d8bdf082b6739d4f1c691fd631e7337774"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-024",
+        "p-9"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number, retained as a hidden anchor."
+      ],
+      "qualification": "Complete source-page model comparison, not human sign-off or independent proof of every quoted mathematical/historical assertion. Per-page checks do not certify final mother/SSR/publication.",
+      "pending": [
+        "Final whole-volume inclusion",
+        "Cross-page continuity/reference targets",
+        "Final offline/production/browser/online acceptance"
+      ],
+      "startsMidParagraph": true,
+      "endsMidParagraph": false,
+      "continuation": {
+        "previousCnPdfPage": 23,
+        "firstText": "2.3.4.1节",
+        "joinText": "回忆一下2.3.4.1节",
+        "kind": "graph-topic-introduction-continues"
+      },
+      "coveredRegions": [
+        "Continuation of graph-topic introduction and Carroll1877history.",
+        "Hamming rule and complete paths11and12.",
+        "All graph-id parameters and three bullet examples,including each9-entry weight vector.",
+        "Alternative Euclidean/shared-subword/dot-product graph rules.",
+        "Updated path13,source multiset directed rule and complete path14.",
+        "Cover1992epigraph at page bottom."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 9,
+          "enPosition": "English printed12/PDF29,graph-id seed parameter",
+          "original": "切断等权值单词之间联系",
+          "final": "在等权值单词之间打破平局",
+          "basis": "The source says break ties between words of equal weight: random tie-breaking of equally ranked words, not disconnecting adjacency edges."
+        },
+        {
+          "cnPrintedPage": 9,
+          "enPosition": "English printed12/PDF29,alternative distance rule",
+          "original": "要求欧几里得距离（而非汉明距离）是最短的",
+          "final": "要求欧几里得距离（而非汉明距离）是较小的",
+          "basis": "English to be small is a small-distance condition, not a requirement of global minimal distance."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "Path13:chaos to peace",
+          "cn": "9words,8edges",
+          "en": "Old2011display has15words,14edges",
+          "status": "resolved-Chinese-incorporates-author-2013-replacement",
+          "resolution": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentPage": 4,
+            "englishPrintedPage": 12,
+            "location": "replacement for13",
+            "reportedDate": "2013-07-11",
+            "decision": "Keep the supplied Chinese shorter chain; its words exactly match the author official replacement."
+          }
+        }
+      ],
+      "numericChecks": {
+        "paths": {
+          "11": {
+            "words": [
+              "tears",
+              "sears",
+              "stars",
+              "stare",
+              "stale",
+              "stile",
+              "smile"
+            ],
+            "allSGB": true,
+            "allEdgesValid": true,
+            "length": 6
+          },
+          "12": {
+            "words": [
+              "basic",
+              "basis",
+              "bases",
+              "based",
+              "baked",
+              "naked",
+              "named",
+              "names",
+              "games"
+            ],
+            "allSGB": true,
+            "allEdgesValid": true,
+            "length": 8
+          },
+          "13": {
+            "words": [
+              "chaos",
+              "chose",
+              "chore",
+              "score",
+              "store",
+              "stare",
+              "spare",
+              "space",
+              "peace"
+            ],
+            "allSGB": true,
+            "allEdgesValid": true,
+            "length": 8
+          },
+          "14": {
+            "words": [
+              "words",
+              "dross",
+              "soars",
+              "orcas",
+              "crash",
+              "sharp",
+              "graph"
+            ],
+            "allSGB": true,
+            "allEdgesValid": true,
+            "length": 6
+          }
+        },
+        "undirectedTearsSmileDistance": 6,
+        "directedWordsGraphDistance": 6,
+        "sourceWordDataSha256": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce",
+        "qualification": "All5757-word edge rules/path validity checked; the separate766-word TeX-weighted subset was not reconstructed from this plain rank file."
+      },
+      "laterClarificationNotInserted": {
+        "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+        "documentPage": 4,
+        "englishPrintedPage": 12,
+        "reportedDate": "2011-08-03",
+        "content": "Author replaces the general reference to hisTeX/Metafontbooks with explicit TheTeXbook and TheMETAFONTbook titles. The supplied Chinese general reference is retained, not treated as a technical error."
+      },
+      "syntaxCheck": {
+        "physicalPage": 24,
+        "markdownSha256": "601142d7f4ac3766028ebedda9c6902dde38255cfb441503e195fe79f78ff88b",
+        "htmlSha256": "b2798863e836b72085585d40cd45abf5b57431d2ce07275b85bfb9ac243f97f7",
+        "mathExpressions": 26,
+        "displayMath": 4,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-24-25-26.json",
+        "sha256": "7ef96786a8fc2c9c5cbe5242e69fe79e1f73077324e1e98f814e1952820bde9f",
+        "cases": [
+          {
+            "physicalPage": 24,
+            "width": 1280,
+            "markdownSha256": "601142d7f4ac3766028ebedda9c6902dde38255cfb441503e195fe79f78ff88b",
+            "documentWidth": 1280,
+            "math": 26,
+            "mathml": 26,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 728,
+                "content": 728,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 139,
+                "content": 139,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 7,
+                "content": 7,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 8,
+                "content": 8,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 10,
+                "content": 10,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 126,
+                "content": 126,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 147,
+                "content": 147,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 114,
+                "content": 114,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 10,
+                "content": 10,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 40,
+                "content": 40,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 728,
+                "content": 895,
+                "left": 0,
+                "right": 167,
+                "reachable": true
+              },
+              {
+                "client": 40,
+                "content": 40,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 728,
+                "content": 901,
+                "left": 0,
+                "right": 173,
+                "reachable": true
+              },
+              {
+                "client": 101,
+                "content": 103,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 90,
+                "content": 92,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 298,
+                "content": 300,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 19,
+                "content": 19,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 312,
+                "content": 312,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 225,
+                "content": 227,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 728,
+                "content": 728,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          },
+          {
+            "physicalPage": 24,
+            "width": 390,
+            "markdownSha256": "601142d7f4ac3766028ebedda9c6902dde38255cfb441503e195fe79f78ff88b",
+            "documentWidth": 390,
+            "math": 26,
+            "mathml": 26,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 310,
+                "content": 719,
+                "left": 0,
+                "right": 409,
+                "reachable": true
+              },
+              {
+                "client": 139,
+                "content": 139,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 7,
+                "content": 7,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 8,
+                "content": 8,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 10,
+                "content": 10,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 126,
+                "content": 126,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 147,
+                "content": 147,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 114,
+                "content": 114,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 10,
+                "content": 10,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 40,
+                "content": 40,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 895,
+                "left": 0,
+                "right": 585,
+                "reachable": true
+              },
+              {
+                "client": 40,
+                "content": 40,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 901,
+                "left": 0,
+                "right": 591,
+                "reachable": true
+              },
+              {
+                "client": 101,
+                "content": 103,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 90,
+                "content": 92,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 298,
+                "content": 300,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 19,
+                "content": 19,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 312,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 225,
+                "content": 227,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 719,
+                "left": 0,
+                "right": 409,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          }
+        ],
+        "qualification": "Actual private individual-page checks with production direct Markdown/CSS,not final whole-volume SSR or online acceptance."
+      },
+      "privateOriginalPageReviewSha256": "38598b98735c0de3df4694006d665d4806d8fc87e77b4e90b082c29306fde9d8",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/024.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7",
+      "cnPdfPage": 25,
+      "cnPrintedPage": 10,
+      "enPdfPages": [
+        30,
+        31
+      ],
+      "enPrintedPages": [
+        13,
+        14
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "e4034415692736c894eee6589fccb9d8e1b73a611f6dfe28869ffc02d5e3378f",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-025.png",
+      "sourcePageImageSha256": "500ce8957fab498cda4f7f855557687ee355593ba2a3855a207be4b07c7c8e10",
+      "enPageImages": [
+        {
+          "physicalPage": 30,
+          "file": "private-snapshot:volume4a/body-review/en-030.png",
+          "sha256": "75be5533b4b6b205defc1a7e13d135d8bdf082b6739d4f1c691fd631e7337774"
+        },
+        {
+          "physicalPage": 31,
+          "file": "private-snapshot:volume4a/body-review/en-031.png",
+          "sha256": "d23f1aac2e2a4aadf94c5d850558867651089b950121bf28babde1618aa20bbf"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-025",
+        "p-10"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number, retained as a hidden anchor."
+      ],
+      "qualification": "Complete source-page model comparison, not human sign-off or independent proof of every quoted mathematical/historical assertion. Per-page checks do not certify final mother/SSR/publication.",
+      "pending": [
+        "Final whole-volume inclusion",
+        "Cross-page continuity/reference targets",
+        "Final offline/production/browser/online acceptance"
+      ],
+      "startsMidParagraph": false,
+      "endsMidParagraph": true,
+      "continuation": {
+        "nextCnPdfPage": 26,
+        "lastText": "显而易见，",
+        "nextPageFirstBlockIsFloatingFigure": true,
+        "kind": "planarity-paragraph-interrupted-by-float"
+      },
+      "coveredRegions": [
+        "Stanley1986epigraph.",
+        "All ordinary-graph definitions,positive/negative adjacency,symmetry and no self-adjacency.",
+        "Subgraph/spanning/induced definitions and exact set expression15.",
+        "Vertex/edge deletion and induced-word-subgraph statements.",
+        "Order/size,complete graph/path/cycle edges and all small-order qualifications.",
+        "Isomorphism definition,all primed variables and bijection.",
+        "Petersen/Chvatal figure references,history and both complete citations.",
+        "Crossings/center-not-vertex/planarity paragraph to physical-page boundary."
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "mathTranscriptionNotes": [
+        "Adjacency is the source long dash u—v, never OCR-generated equals sign.",
+        "Nonadjacency is a slashed long dash; no original primes or set differences were replaced by OCR dots/bars/unions.",
+        "Source n≥1/n≥3conditions and C1/C2multigraph qualification retained."
+      ],
+      "numericChecks": {
+        "notationAndDefinitions": "Directly compared against CN25/EN30–31images; no finite enumeration is claimed to prove every general definition."
+      },
+      "laterClarificationNotInserted": {
+        "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+        "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+        "documentPage": 4,
+        "englishPrintedPage": 13,
+        "line": 14,
+        "reportedDate": "2012-02-01",
+        "content": "Author later explicitly adds that repeated edges are also allowed in multigraphs. Original supplied Chinese parenthesis already permits loops and does not deny repeated edges; later clarification is recorded here rather than silently inserting every later amendment into the base text."
+      },
+      "syntaxCheck": {
+        "physicalPage": 25,
+        "markdownSha256": "e4034415692736c894eee6589fccb9d8e1b73a611f6dfe28869ffc02d5e3378f",
+        "htmlSha256": "0ea197fa1c497f0739fd9f9b82e00dac3ed724d04a43e9f589cfca205519d561",
+        "mathExpressions": 102,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-24-25-26.json",
+        "sha256": "7ef96786a8fc2c9c5cbe5242e69fe79e1f73077324e1e98f814e1952820bde9f",
+        "cases": [
+          {
+            "physicalPage": 25,
+            "width": 1280,
+            "markdownSha256": "e4034415692736c894eee6589fccb9d8e1b73a611f6dfe28869ffc02d5e3378f",
+            "documentWidth": 1280,
+            "math": 102,
+            "mathml": 102,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 18,
+                "content": 18,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 18,
+                "content": 18,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 12,
+                "content": 12,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 99,
+                "content": 99,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 58,
+                "content": 58,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 12,
+                "content": 12,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 99,
+                "content": 99,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 64,
+                "content": 64,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 58,
+                "content": 58,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 58,
+                "content": 58,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 58,
+                "content": 58,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 56,
+                "content": 56,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 63,
+                "content": 63,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 69,
+                "content": 69,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 69,
+                "content": 69,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 124,
+                "content": 124,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 108,
+                "content": 108,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 69,
+                "content": 69,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 22,
+                "content": 22,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 23,
+                "content": 23,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 18,
+                "content": 18,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 23,
+                "content": 23,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 22,
+                "content": 22,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 69,
+                "content": 69,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 23,
+                "content": 23,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 108,
+                "content": 108,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 124,
+                "content": 124,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 728,
+                "content": 728,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 22,
+                "content": 22,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 58,
+                "content": 58,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 23,
+                "content": 23,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 123,
+                "content": 123,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 123,
+                "content": 123,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 49,
+                "content": 49,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 54,
+                "content": 54,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 48,
+                "content": 48,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 165,
+                "content": 165,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 139,
+                "content": 139,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 10,
+                "content": 10,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 10,
+                "content": 10,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 29,
+                "content": 31,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 26,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 26,
+                "content": 28,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 161,
+                "content": 161,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 135,
+                "content": 135,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 29,
+                "content": 31,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 152,
+                "content": 152,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 58,
+                "content": 58,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 29,
+                "content": 31,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 93,
+                "content": 93,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 26,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 51,
+                "content": 51,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 111,
+                "content": 111,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 51,
+                "content": 51,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 93,
+                "content": 93,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 26,
+                "content": 28,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 194,
+                "content": 194,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 26,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 26,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 152,
+                "content": 152,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 18,
+                "content": 18,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 115,
+                "content": 115,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 29,
+                "content": 31,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 26,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 26,
+                "content": 28,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 108,
+                "content": 108,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 124,
+                "content": 124,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 18,
+                "content": 18,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 23,
+                "content": 23,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 14,
+                "content": 14,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 58,
+                "content": 58,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 120,
+                "content": 120,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 22,
+                "content": 22,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 69,
+                "content": 69,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 22,
+                "content": 22,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 69,
+                "content": 69,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 22,
+                "content": 22,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          },
+          {
+            "physicalPage": 25,
+            "width": 390,
+            "markdownSha256": "e4034415692736c894eee6589fccb9d8e1b73a611f6dfe28869ffc02d5e3378f",
+            "documentWidth": 390,
+            "math": 102,
+            "mathml": 102,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 18,
+                "content": 18,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 18,
+                "content": 18,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 12,
+                "content": 12,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 99,
+                "content": 99,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 58,
+                "content": 58,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 12,
+                "content": 12,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 99,
+                "content": 99,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 64,
+                "content": 64,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 58,
+                "content": 58,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 58,
+                "content": 58,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 58,
+                "content": 58,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 56,
+                "content": 56,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 63,
+                "content": 63,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 69,
+                "content": 69,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 69,
+                "content": 69,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 124,
+                "content": 124,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 108,
+                "content": 108,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 69,
+                "content": 69,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 22,
+                "content": 22,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 23,
+                "content": 23,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 18,
+                "content": 18,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 23,
+                "content": 23,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 22,
+                "content": 22,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 69,
+                "content": 69,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 23,
+                "content": 23,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 108,
+                "content": 108,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 124,
+                "content": 124,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 514,
+                "left": 0,
+                "right": 204,
+                "reachable": true
+              },
+              {
+                "client": 22,
+                "content": 22,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 58,
+                "content": 58,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 23,
+                "content": 23,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 123,
+                "content": 123,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 123,
+                "content": 123,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 49,
+                "content": 49,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 54,
+                "content": 54,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 48,
+                "content": 48,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 165,
+                "content": 165,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 139,
+                "content": 139,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 10,
+                "content": 10,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 10,
+                "content": 10,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 29,
+                "content": 31,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 26,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 26,
+                "content": 28,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 161,
+                "content": 161,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 135,
+                "content": 135,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 29,
+                "content": 31,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 152,
+                "content": 152,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 58,
+                "content": 58,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 29,
+                "content": 31,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 93,
+                "content": 93,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 26,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 51,
+                "content": 51,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 111,
+                "content": 111,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 51,
+                "content": 51,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 93,
+                "content": 93,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 26,
+                "content": 28,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 194,
+                "content": 194,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 26,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 26,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 152,
+                "content": 152,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 18,
+                "content": 18,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 115,
+                "content": 115,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 29,
+                "content": 31,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 26,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 26,
+                "content": 28,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 108,
+                "content": 108,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 124,
+                "content": 124,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 18,
+                "content": 18,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 23,
+                "content": 23,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 14,
+                "content": 14,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 58,
+                "content": 58,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 120,
+                "content": 120,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 22,
+                "content": 22,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 69,
+                "content": 69,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 22,
+                "content": 22,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 69,
+                "content": 69,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 22,
+                "content": 22,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          }
+        ],
+        "qualification": "Actual private individual-page checks with production direct Markdown/CSS,not final whole-volume SSR or online acceptance."
+      },
+      "privateOriginalPageReviewSha256": "e0c36f8028b9d3b36110b351507bfd0a018e3b49e5204df1293455f387ad2503",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/025.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7",
+      "cnPdfPage": 26,
+      "cnPrintedPage": 11,
+      "enPdfPages": [
+        31,
+        32
+      ],
+      "enPrintedPages": [
+        14,
+        15
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "0a00a393defb6fd4450686f0d8d595d905781a007f9f5c06802042637284c556",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-026.png",
+      "sourcePageImageSha256": "122e4aad1956a4375d047e0ca7561eb2c11dae56bddbbb54fa330649004d6a53",
+      "enPageImages": [
+        {
+          "physicalPage": 31,
+          "file": "private-snapshot:volume4a/body-review/en-031.png",
+          "sha256": "d23f1aac2e2a4aadf94c5d850558867651089b950121bf28babde1618aa20bbf"
+        },
+        {
+          "physicalPage": 32,
+          "file": "private-snapshot:volume4a/body-review/en-032.png",
+          "sha256": "120713030e934df9075d3150bed7ce37d606736981c4d519baf9542ee15b9e29"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-026",
+        "p-11",
+        "fig-7-2",
+        "eq-7-16",
+        "eq-7-17"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number, retained as a hidden anchor."
+      ],
+      "qualification": "Complete source-page model comparison, not human sign-off or independent proof of every quoted mathematical/historical assertion. Per-page checks do not certify final mother/SSR/publication.",
+      "pending": [
+        "Final whole-volume inclusion",
+        "Cross-page continuity/reference targets",
+        "Final offline/production/browser/online acceptance"
+      ],
+      "startsMidParagraph": true,
+      "endsMidParagraph": true,
+      "continuation": {
+        "previousCnPdfPage": 25,
+        "firstBodyTextAfterFigure": "Pn和Cn总是平面的",
+        "nextCnPdfPage": 27,
+        "lastText": "对多面",
+        "nextFirstText": "体的一般问题",
+        "joinWord": "多面体",
+        "kind": "first-planarity-continuation-and-last-word-split"
+      },
+      "coveredRegions": [
+        "Figure2all6graphs:45white nodes,70logical edges,all panel/name labels and searchable caption.",
+        "Planarity and all stated regular degrees.",
+        "Equation16six diagrams,each8nodes12edges and cube-isomorphic.",
+        "Graph automorphism definition and cube48/Petersen120counts.",
+        "Equation17all49postal-code labels and107original edges;source planarity/asymmetry statements.",
+        "Hamiltonian path/cycle definitions and1856/1858citations through the split word多面体."
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "preservedNameForms": [
+        {
+          "cn": "约翰·邦迪",
+          "en": "AdrianBondy",
+          "decision": "Retain the supplied Chinese name form. The two source forms are recorded without inventing a separate biographical claim or declaring a name error."
+        }
+      ],
+      "numericChecks": {
+        "status": "finite-properties-of-original-native-figure-graphs-verified",
+        "networkxVersion": "3.7",
+        "fig2": [
+          {
+            "name": "P5",
+            "vertices": 5,
+            "edges": 4,
+            "degrees": [
+              1,
+              1,
+              2,
+              2,
+              2
+            ],
+            "girth": "infinity",
+            "planar": true,
+            "automorphisms": 2,
+            "hasHamiltonianCycle": false
+          },
+          {
+            "name": "C5",
+            "vertices": 5,
+            "edges": 5,
+            "degrees": [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "girth": 5,
+            "planar": true,
+            "automorphisms": 10,
+            "hasHamiltonianCycle": true
+          },
+          {
+            "name": "K5",
+            "vertices": 5,
+            "edges": 10,
+            "degrees": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "girth": 3,
+            "planar": false,
+            "automorphisms": 120,
+            "hasHamiltonianCycle": true
+          },
+          {
+            "name": "cube3",
+            "vertices": 8,
+            "edges": 12,
+            "degrees": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "girth": 4,
+            "planar": true,
+            "automorphisms": 48,
+            "hasHamiltonianCycle": true
+          },
+          {
+            "name": "Petersen",
+            "vertices": 10,
+            "edges": 15,
+            "degrees": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "girth": 5,
+            "planar": false,
+            "automorphisms": 120,
+            "hasHamiltonianCycle": false
+          },
+          {
+            "name": "Chvatal",
+            "vertices": 12,
+            "edges": 24,
+            "degrees": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "girth": 4,
+            "planar": false,
+            "automorphisms": 8,
+            "hasHamiltonianCycle": true
+          }
+        ],
+        "equation16": {
+          "components": 6,
+          "verticesEach": 8,
+          "edgesEach": 12,
+          "allCubeIsomorphic": true
+        },
+        "equation17": {
+          "nodes": 49,
+          "edges": 107,
+          "labels": [
+            "DC",
+            "AL",
+            "AZ",
+            "AR",
+            "CA",
+            "CO",
+            "CT",
+            "DE",
+            "FL",
+            "GA",
+            "ID",
+            "IL",
+            "IN",
+            "IA",
+            "KS",
+            "KY",
+            "LA",
+            "ME",
+            "MD",
+            "MA",
+            "MI",
+            "MN",
+            "MS",
+            "MO",
+            "MT",
+            "NE",
+            "NV",
+            "NH",
+            "NJ",
+            "NM",
+            "NY",
+            "NC",
+            "ND",
+            "OH",
+            "OK",
+            "OR",
+            "PA",
+            "RI",
+            "SC",
+            "SD",
+            "TN",
+            "TX",
+            "UT",
+            "VT",
+            "VA",
+            "WA",
+            "WV",
+            "WI",
+            "WY"
+          ],
+          "connected": true,
+          "planar": true,
+          "automorphisms": 1
+        },
+        "qualification": "These finite graph computations do not independently prove global minimality results,Moore-graph existence classifications or the historical narratives."
+      },
+      "images": [
+        {
+          "path": "assets/volume4a/figures/fig-7-2-six-graphs.svg",
+          "sha256": "aec320777992970556b24f078e01aa099d736331bb94b584724cf0d4315ae622",
+          "kind": "bounded-native-vector-reconstruction",
+          "sourceEnglishPDFSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+          "enPhysicalPage": 31,
+          "cnPhysicalPage": 26,
+          "sourceSelectionBBox": [
+            55,
+            230,
+            405,
+            305
+          ],
+          "nativeDrawingCount": 64,
+          "nativeItemCount": 434,
+          "nodes": 45,
+          "edges": 70,
+          "qualification": "Only native drawing primitives inside the explicit box are exported,plus independently transcribed labels. No full-page SVG,hidden clipping,page prose,font definitions or source bitmaps are embedded."
+        },
+        {
+          "path": "assets/volume4a/figures/diagram-7-16-six-cubes.svg",
+          "sha256": "599cfe08e6ad25314f65ef6be489b2720b2f573fbf4d2e2795427432f8d6d846",
+          "kind": "bounded-native-vector-reconstruction",
+          "sourceEnglishPDFSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+          "enPhysicalPage": 31,
+          "cnPhysicalPage": 26,
+          "sourceSelectionBBox": [
+            55,
+            475,
+            405,
+            540
+          ],
+          "nativeDrawingCount": 87,
+          "nativeItemCount": 433,
+          "nodes": 48,
+          "edges": 72,
+          "qualification": "Only native drawing primitives inside the explicit box are exported,plus independently transcribed labels. No full-page SVG,hidden clipping,page prose,font definitions or source bitmaps are embedded."
+        },
+        {
+          "path": "assets/volume4a/figures/diagram-7-17-us-states.svg",
+          "sha256": "2eb1bd35275864a4be27c003872d87776079c0e0e46984f470672f729943c8f7",
+          "kind": "bounded-native-vector-reconstruction",
+          "sourceEnglishPDFSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+          "enPhysicalPage": 32,
+          "cnPhysicalPage": 26,
+          "sourceSelectionBBox": [
+            90,
+            195,
+            365,
+            337
+          ],
+          "nativeDrawingCount": 204,
+          "nativeItemCount": 646,
+          "nodes": 49,
+          "edges": 107,
+          "qualification": "Only native drawing primitives inside the explicit box are exported,plus independently transcribed labels. No full-page SVG,hidden clipping,page prose,font definitions or source bitmaps are embedded."
+        }
+      ],
+      "svgIntegrity": {
+        "allNativePathsInsideExplicitSourceRegions": true,
+        "noCrossingBoundaryPathIncludingZeroWidthOrHeight": true,
+        "preservedAllNativeRetracesInGraphics": true,
+        "graph2ChvatalRetracedLogicalEdges": 2,
+        "intermediateRealWhiteVerticesSplitLongStraightGraphEdges": true,
+        "crossingsNotAutomaticallyVertices": true,
+        "all49StateLabelsGlyphMappingConsistent": true,
+        "ChineseOriginalFigureAndRenderedSVGDirectlyCompared": true
+      },
+      "syntaxCheck": {
+        "physicalPage": 26,
+        "markdownSha256": "0a00a393defb6fd4450686f0d8d595d905781a007f9f5c06802042637284c556",
+        "htmlSha256": "73aaf1d1c54e3c81e9b6a64e430f9b767ce30a8cb0d51cc639e4bd666eb2c6ac",
+        "mathExpressions": 16,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 3,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-26.json",
+        "sha256": "a807a5e35a2d330a991e3834aaec98b6c1885794d713f1753e9a76196c22f89d",
+        "cases": [
+          {
+            "physicalPage": 26,
+            "width": 1280,
+            "markdownSha256": "0a00a393defb6fd4450686f0d8d595d905781a007f9f5c06802042637284c556",
+            "documentWidth": 1280,
+            "math": 16,
+            "mathml": 16,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 153,
+                "content": 153,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 174,
+                "content": 174,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 26,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 26,
+                "content": 28,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 27,
+                "content": 29,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 23,
+                "content": 25,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 110,
+                "content": 110,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 58,
+                "content": 58,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 120,
+                "content": 120,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 14,
+                "content": 14,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 12,
+                "content": 12,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 12,
+                "content": 12,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 26,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 26,
+                "content": 28,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          },
+          {
+            "physicalPage": 26,
+            "width": 390,
+            "markdownSha256": "0a00a393defb6fd4450686f0d8d595d905781a007f9f5c06802042637284c556",
+            "documentWidth": 390,
+            "math": 16,
+            "mathml": 16,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 153,
+                "content": 153,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 174,
+                "content": 174,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 26,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 26,
+                "content": 28,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 27,
+                "content": 29,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 23,
+                "content": 25,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 110,
+                "content": 110,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 58,
+                "content": 58,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 120,
+                "content": 120,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 14,
+                "content": 14,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 17,
+                "content": 17,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 12,
+                "content": 12,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 12,
+                "content": 12,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 26,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 26,
+                "content": 28,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          }
+        ],
+        "qualification": "Actual private individual-page checks with production direct Markdown/CSS,not final whole-volume SSR or online acceptance."
+      },
+      "privateOriginalPageReviewSha256": "5de22bcc31fd827bef28ebd60ae93c9f551cd690f33e31be1cd93919a0f6cdec",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/026.json"
+    }
+  ],
+  "qualification": "These3complete Chinese pages only. Native SVGs preserve bounded primitives from corresponding supplied English figures,manually transcribed labels and direct Chinese-image comparison. No hidden whole-page clipping,text/font/image embedding,final mother or site acceptance."
+}

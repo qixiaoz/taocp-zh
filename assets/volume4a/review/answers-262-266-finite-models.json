@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Only actual finite normal-pointer, rank-selection, Hamming and likelihood models; no general optimality, allocator or historical hardware proof.",
+  "receipts": [
+    {
+      "file": "root-answer-checks/582-finite-models.json",
+      "sha256": "7df2294ebf35b72669e9400fbe1eb133fd72091cd9956eeedd62b2aef3685843",
+      "data": {
+        "scope": "Finite582SemanticChecksNotGeneralTheoremsOrProgramMemoryExecution",
+        "normalizedBDD": [
+          {
+            "variables": 0,
+            "allFunctions": 2,
+            "maxNormalizedNodes": 1,
+            "meanProfile": [
+              "1"
+            ],
+            "allStoredLowPointersEven": true,
+            "allProperBeadCountsMatch": true
+          },
+          {
+            "variables": 1,
+            "allFunctions": 4,
+            "maxNormalizedNodes": 2,
+            "meanProfile": [
+              "1/2",
+              "1"
+            ],
+            "allStoredLowPointersEven": true,
+            "allProperBeadCountsMatch": true
+          },
+          {
+            "variables": 2,
+            "allFunctions": 16,
+            "maxNormalizedNodes": 3,
+            "meanProfile": [
+              "3/4",
+              "3/4",
+              "1"
+            ],
+            "allStoredLowPointersEven": true,
+            "allProperBeadCountsMatch": true
+          },
+          {
+            "variables": 3,
+            "allFunctions": 256,
+            "maxNormalizedNodes": 5,
+            "meanProfile": [
+              "15/16",
+              "45/32",
+              "15/16",
+              "1"
+            ],
+            "allStoredLowPointersEven": true,
+            "allProperBeadCountsMatch": true
+          },
+          {
+            "variables": 4,
+            "allFunctions": 65536,
+            "maxNormalizedNodes": 9,
+            "meanProfile": [
+              "255/256",
+              "3825/2048",
+              "5085/2048",
+              "255/256",
+              "1"
+            ],
+            "allStoredLowPointersEven": true,
+            "allProperBeadCountsMatch": true
+          }
+        ],
+        "truthEvaluations": 1050698,
+        "n11MeanNormalizedProfile": [
+          1.0,
+          2.0,
+          4.0,
+          8.0,
+          16.0,
+          31.99999999254942,
+          63.999022498741176,
+          127.25323844557207,
+          103.88680804198084,
+          6.0,
+          1.0,
+          1.0
+        ],
+        "printedOneDecimalProfile": [
+          1.0,
+          2.0,
+          4.0,
+          8.0,
+          16.0,
+          32.0,
+          64.0,
+          127.3,
+          103.9,
+          6.0,
+          1.0,
+          1.0
+        ],
+        "gandPureBooleanCases": 65812,
+        "rankIdentityNonzeroColumnMatrices": 1092,
+        "hamming": [
+          {
+            "m": 1,
+            "n": 1,
+            "codewords": 1,
+            "minimumNonzeroWeight": null,
+            "bddNodes": 3
+          },
+          {
+            "m": 2,
+            "n": 3,
+            "codewords": 2,
+            "minimumNonzeroWeight": 3,
+            "bddNodes": 7
+          },
+          {
+            "m": 3,
+            "n": 7,
+            "codewords": 16,
+            "minimumNonzeroWeight": 3,
+            "bddNodes": 27
+          },
+          {
+            "m": 4,
+            "n": 15,
+            "codewords": 2048,
+            "minimumNonzeroWeight": 3,
+            "bddNodes": 115
+          }
+        ],
+        "likelihoodArgmaxCases": 55080,
+        "probabilityScope": "Strictly positive rational probabilities below1; deterministic endpoints and actual AlgorithmB implementation not executed.",
+        "unranking": [
+          {
+            "variables": 0,
+            "allFunctions": 2,
+            "allSatisfyingRanksMatchedLexicographicWords": true
+          },
+          {
+            "variables": 1,
+            "allFunctions": 4,
+            "allSatisfyingRanksMatchedLexicographicWords": true
+          },
+          {
+            "variables": 2,
+            "allFunctions": 16,
+            "allSatisfyingRanksMatchedLexicographicWords": true
+          },
+          {
+            "variables": 3,
+            "allFunctions": 256,
+            "allSatisfyingRanksMatchedLexicographicWords": true
+          },
+          {
+            "variables": 4,
+            "allFunctions": 65536,
+            "allSatisfyingRanksMatchedLexicographicWords": true
+          }
+        ],
+        "actualUnrankedOutputs": 525349,
+        "source265WholeCountProductsKeptInDivisor": true,
+        "multiplierPeerSha256": "fb16564209b4482a6760a790f3ad489637b63fd71d5819cee78f4ab2cdb96a6e",
+        "multiplierScope": "Narrow independently source-read six-output peer; not a root whole-page or model-memory claim.",
+        "notClaimed": [
+          "Arbitrary-n optimality of the normalized worst-case bound",
+          "REF/GC/cache allocation/C memory execution",
+          "General266forest construction or267source not yet read",
+          "Whole-book/mother/offline/online acceptance"
+        ]
+      }
+    },
+    {
+      "file": "root-answer-checks/582-note-translation-revisions.json",
+      "sha256": "ea1fe9991446b7be3dc8ecd530062eb4c82860604558324b88cf815939a9a687",
+      "data": {
+        "scope": "TwoSourceTranslationRestorationWithNarrowIndependentTypeAndBoundChecks",
+        "oldUnacceptedMarkdownSha256": "3a6e74c7e4a6d4bd04dcaca4332dbf2038e5745163a59f7eff862ac9c4858b4c",
+        "currentUnacceptedMarkdownSha256": "9880b4aeb867e7aff31d3be65fdf15663df2b74069acbbebce45bfe246137906",
+        "oldUnacceptedHTMLSha256": "0bf79ab8194c63134200dd720c9a3163b1d684f4ff729778be2e10be964111a8",
+        "corrections": [
+          {
+            "location": "262原注／内存收益上界",
+            "original": "内存的节省通常是微不足道的，而且不可能取得双倍功效。",
+            "final": "内存的节省通常是微不足道的，而且占用量不可能低于原来的一半。",
+            "basis": "Actual EN694 says memory saving is never better than factor2, not that factor2 is unattainable or a runtime claim. Explicit original memory bound restored."
+          },
+          {
+            "location": "262 ZDD原注／集合族类型",
+            "original": "当用ZDD代替BDD时，函数的“正规族”是不包含空集的函数族。",
+            "final": "当用ZDD代替BDD时，一个“正规族”是不包含空集的集合族。",
+            "basis": "Actual EN694 says a normal family is a family of sets not containing the empty set; the object is a set family, not a family of functions."
+          }
+        ],
+        "actualAbstractOneVariableAllFunctionBase": {
+          "ordinaryNodes": 4,
+          "normalizedNodes": 2,
+          "physicalMemoryBytesClaimed": false
+        },
+        "emptySetFamilyToggleCases": 65814,
+        "note": "Current source MD is still unaccepted pending fresh render/pixel review. Prior draft/HTML/browser evidence stays byte-exact in history; do not relabel old HTML hashes."
+      }
+    },
+    {
+      "file": "root-answer-checks/582-note-revision-math-inheritance.json",
+      "sha256": "8f815d81f8cbbc35227d2a152c3b17c52abd32687f06b05870ef2a5d5e219b11",
+      "data": {
+        "scope": "TwoOriginalNoteTranslationChangesOnly;PriorFiniteMathFieldsUnchanged",
+        "oldHTMLSha256": "0bf79ab8194c63134200dd720c9a3163b1d684f4ff729778be2e10be964111a8",
+        "currentHTMLSha256": "5a4bab6a74f50137aeca5ad89052c8cb68644595c79a5df27954df1c2d74b0a7",
+        "unchangedExactMathFieldsAndKinds": 72,
+        "allImageSrcsUnchanged": true,
+        "oldFiniteModelEvidenceRetainsOriginalSha256": true
+      }
+    },
+    {
+      "file": "body-review/peer-262e-complemented-multiplier-g62.json",
+      "sha256": "fb16564209b4482a6760a790f3ad489637b63fd71d5819cee78f4ab2cdb96a6e",
+      "data": {
+        "scope": "Narrow answer 262(e) only, no CN582 or EN694 whole-page acceptance. Same six Eq.(58) multiplier functions and fixed printed order; every output bit checked on all 64 inputs both before and after normalization.",
+        "originalEquation58Source": [
+          {
+            "localPrivateFile": "cn-205-mul-diagram.png",
+            "sha256": "7ab1d4eaeb43d47c835d5c1d4bd35464e34ca6c3faac19b1076c160dca3ec38e"
+          },
+          {
+            "localPrivateFile": "en-245-mul-diagram.png",
+            "sha256": "674309c454694658679e31042841adbe49c6bde4037ca57016123d7abe977616"
+          }
+        ],
+        "originalAnswer262eSource": [
+          {
+            "localPrivateFile": "cn-582-peer262e-locate.png",
+            "sha256": "799fccd90501e7d3be013dc3f2c0e6eb87c08e96415223a3286d977f70324a26"
+          },
+          {
+            "localPrivateFile": "en-694-peer262e-locate.png",
+            "sha256": "2e4781bc549cc45325734587476cbd2f288de175571c5770f893efaa2bdf4e08"
+          }
+        ],
+        "originalFiniteEvidence": {
+          "localPrivateFile": "three-var-quantifiers-205-207.json",
+          "sha256": "08dd6ae1023987dcbe077dec31c61680b68a8b8fc3ee7b7862cac0b78ca8af5b"
+        },
+        "originalVars": [
+          "x1",
+          "x2",
+          "x3",
+          "x4",
+          "x5",
+          "x6"
+        ],
+        "operandWords": [
+          "x1 x3 x5",
+          "x2 x4 x6"
+        ],
+        "outputBitsHighToLow": [
+          "f6",
+          "f5",
+          "f4",
+          "f3",
+          "f2",
+          "f1"
+        ],
+        "sourceDiagramRootsPhysicalLeftToRight": [
+          "F6",
+          "F1",
+          "F5",
+          "F3",
+          "F2",
+          "F4"
+        ],
+        "normalForm": "Normalize the low edge to have zero complement bit; when low edge is complemented, flip both children and the returned root bit. A single false-terminal address has both Boolean values through the same bit.",
+        "plainCountsByRankZeroMeaningSinks": {
+          "0": 2,
+          "1": 4,
+          "2": 7,
+          "3": 13,
+          "4": 16,
+          "5": 8,
+          "6": 2
+        },
+        "normalizedCountsByRankZeroMeaningSinks": {
+          "0": 1,
+          "1": 4,
+          "2": 7,
+          "3": 13,
+          "4": 13,
+          "5": 6,
+          "6": 1
+        },
+        "exactSavingsByRankZeroMeaningTrueSink": {
+          "0": 1,
+          "4": 3,
+          "5": 2,
+          "6": 1
+        },
+        "plainNodes": 52,
+        "normalizedNodes": 45,
+        "eachOfSixOutputsCheckedForAll64Assignments": true
+      }
+    }
+  ],
+  "allOriginalGeneralResultsIndependentlyProved": false
+}

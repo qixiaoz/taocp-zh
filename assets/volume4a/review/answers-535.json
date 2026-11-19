@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "scope": "CompleteCN535714answers2-11",
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignOff": false,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 535,
+      "cnPrintedPage": "520",
+      "enPdfPages": [
+        638,
+        639
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "260c4d56f79dac6945c8b0edc3dfe93892a1ee5a4fdb8aa1eb67d70277a3c1d5",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "e26043c7f8a3bbcf20f1630d38774abe42caaecac7ffdc272d290fd8db219189",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "Complete Chinese source page and the available corresponding English contents directly compared; preserved edition differences are not asserted equal. No human sign-off.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "dbc62bde3d36b35f39eee86ec91a6c439bfe3314daf33e793c61e8f2fbbf6252",
+      "enPageImages": [
+        {
+          "physicalPage": 638,
+          "sha256": "732f341b972bca000a7e7aba01b4c429591705a27876f85a93624171a5a63640"
+        },
+        {
+          "physicalPage": 639,
+          "sha256": "b78b970175f8595f806970ccee6eac5453f200b5e8c937ba418e37bb49e6007a"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 535,
+        "markdownSha256": "260c4d56f79dac6945c8b0edc3dfe93892a1ee5a4fdb8aa1eb67d70277a3c1d5",
+        "htmlSha256": "92b21e5bbe046ee6a0e442eb6c8d5e8b86aa8edaff7fb69d5b68fde8b3d64c4f",
+        "mathExpressions": 93,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 4,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "bb97255a0cffdedfaf9bb7641a66057e047c5098c3a6e0d4b910c95355653d31",
+      "syntaxEvidenceFile": "syntax-535.json",
+      "coveredRegions": [
+        "714answer2completeplanar16node28arccombinedBDD;3countargument;4packedfields;5duality;6truth/beads;7abORrewrite;8abXORsingle/pairrewrites/reference;9lexlargestzero;10completeI1-I4;11abcompletecounterexample"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "714answer9initialguard/printed520",
+          "enPosition": "EN639printed622sameguard1;actualquestionEN276/representationEN224",
+          "original": "如果s=1，无答案",
+          "final": "如果s=2，无答案",
+          "basis": "Originalquestionaskslexlargestf=0;representationexplicitlyT=I1/s2andF=I0/s1.Originalrejectsconstantfalseandfailsontoptrue.Gate2fixestwoconstantpathsandallnonconstantss>=3unchanged.Independentactualsourceconstantcaseconfirmed;projectnotauthorofficialerratum."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "4reference",
+          "disposition": "CNdoesnotprintEN638See713(93)parenthesis;selectedCNpreservedwithoutaddingit"
+        }
+      ],
+      "machineErrorsCorrected": [
+        "4actual15hexmask0+6f+e+6f+e restored,unaccepteddraftoneextraffailurepreserved;notbookerratum",
+        "7betaindicesandquadruplealphaorderrestored;8conditiongraphendpointsnotOCRtextloss",
+        "10I2actualCNt>=0confirmednotguessedt>0;missingquitclauseandallprimeindicesrestored",
+        "11bbarredvariableindicesandfraction3/2restored"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "continuation": {
+        "previousCnPdfPage": 534,
+        "nextCnPdfPage": 536,
+        "scope": "535startsanswer2,endscomplete11b;536notyetviewed"
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "Finalmother/whole714assembly/offline/routed/onlineacceptance"
+      ],
+      "numericChecks": {
+        "receipt": "root-answer-checks/535-fields.json",
+        "scope": "all16two-varcombinednodefunctions;packedfields9216fixtures;dual2120assignments;g4varBDDsize11;localOR/XOR4pairs;9all276functions1..3vars;10all65536three-varfunctionpairs/differentvalidnumberings;11bexactFraction"
+      },
+      "sourceEditionQualifications": {
+        "extraContextActuallyViewed": "EN224sequentialconstanttechnicalityandEN276originalquestions1..11;notadditionalCNsourcepagecoverage",
+        "generalProofScope": "Originalcount/classification/BDDgeneralalgorithmsandlinearcomplexitysourcecomparedonly;finitefamiliesnotgeneraltheoremproof",
+        "displayChanges": "FourstandaloneSVGsreconstructinlineoriginalgraphs;source7/8conditiondiagramsdescribedexplicitlywithLO/HIalphaendpointsinprose;nodej->j-1sameindexmapping,sourcecapsulek-1retained"
+      },
+      "assets": [
+        {
+          "file": "assets/volume4a/figures/answer-7-1-4-2-combined-bdds.svg",
+          "sha256": "809afe8b31ae461d71a4bf38e938f5b5451f1b587636f81f22fbf026f78d632d",
+          "source": "CN535/EN638",
+          "nodes": 16,
+          "arcs": 28,
+          "loDashed": 14,
+          "hiSolid": 14,
+          "nodePositionsAndPairs": {
+            "L": {
+              "position": [
+                175,
+                250
+              ],
+              "lo": "F",
+              "hi": "T",
+              "truth": "0101"
+            },
+            "R": {
+              "position": [
+                425,
+                250
+              ],
+              "lo": "T",
+              "hi": "F",
+              "truth": "1010"
+            },
+            "a": {
+              "position": [
+                40,
+                250
+              ],
+              "lo": "F",
+              "hi": "T",
+              "truth": "0011"
+            },
+            "b": {
+              "position": [
+                560,
+                250
+              ],
+              "lo": "T",
+              "hi": "F",
+              "truth": "1100"
+            },
+            "c": {
+              "position": [
+                215,
+                125
+              ],
+              "lo": "L",
+              "hi": "T",
+              "truth": "0111"
+            },
+            "d": {
+              "position": [
+                265,
+                150
+              ],
+              "lo": "T",
+              "hi": "L",
+              "truth": "1101"
+            },
+            "e": {
+              "position": [
+                335,
+                150
+              ],
+              "lo": "R",
+              "hi": "T",
+              "truth": "1011"
+            },
+            "f": {
+              "position": [
+                385,
+                125
+              ],
+              "lo": "T",
+              "hi": "R",
+              "truth": "1110"
+            },
+            "g": {
+              "position": [
+                300,
+                220
+              ],
+              "lo": "R",
+              "hi": "L",
+              "truth": "1001"
+            },
+            "h": {
+              "position": [
+                300,
+                280
+              ],
+              "lo": "L",
+              "hi": "R",
+              "truth": "0110"
+            },
+            "i": {
+              "position": [
+                215,
+                375
+              ],
+              "lo": "F",
+              "hi": "L",
+              "truth": "0001"
+            },
+            "j": {
+              "position": [
+                265,
+                350
+              ],
+              "lo": "L",
+              "hi": "F",
+              "truth": "0100"
+            },
+            "k": {
+              "position": [
+                335,
+                350
+              ],
+              "lo": "F",
+              "hi": "R",
+              "truth": "0010"
+            },
+            "l": {
+              "position": [
+                385,
+                375
+              ],
+              "lo": "R",
+              "hi": "F",
+              "truth": "1000"
+            }
+          },
+          "all16TruthTablesDistinct": true,
+          "methodLimit": "Source topology/endpoints/styles reconstructed at matching relative positions; curve shapes adapted, no source proof replaced"
+        },
+        {
+          "file": "assets/volume4a/figures/answer-7-1-4-7-local-rewrite.svg",
+          "sha256": "ebd136292deccc91f9aed0313f5e548ea1d5326bf04e31b0e74c5761b96cba70",
+          "source": "CN535/EN639answer7b",
+          "originalBranches": 1,
+          "replacementBranches": 2,
+          "originalArcs": 2,
+          "replacementArcs": 4,
+          "replacementFourInputOutputs": [
+            "alpha",
+            "alphaPrime",
+            "alphaPrime",
+            "alphaPrime"
+          ]
+        },
+        {
+          "file": "assets/volume4a/figures/answer-7-1-4-8-single-rewrite.svg",
+          "sha256": "6504de2b7a087dacdae4a277bb1d10a39d2696fba2c42c97218b36e5842dd523",
+          "source": "CN535/EN639answer8bfirstcase",
+          "originalBranches": 1,
+          "replacementBranches": 3,
+          "originalArcs": 2,
+          "replacementArcs": 6,
+          "replacementFourInputOutputs": [
+            "alpha",
+            "alphaPrime",
+            "alphaPrime",
+            "alpha"
+          ]
+        },
+        {
+          "file": "assets/volume4a/figures/answer-7-1-4-8-pair-rewrite.svg",
+          "sha256": "528ec8d96232f6e10a8688fba8538371e86ce7266ea0648d20aa0d88bf906c3d",
+          "source": "CN535/EN639answer8blastcase",
+          "originalBranches": 2,
+          "replacementBranches": 4,
+          "originalArcs": 4,
+          "replacementArcs": 8,
+          "originalSecondSourceNodeHasSwappedAlphaTargets": true,
+          "replacementTopLOVerticalAndHICross": true,
+          "replacementBottomLOVerticalAndHICross": true
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "pageMarkdownSha256": "260c4d56f79dac6945c8b0edc3dfe93892a1ee5a4fdb8aa1eb67d70277a3c1d5",
+    "checkerSha256": "bc22ac50de911b01e50c72de773236a095aee1ac831b6fdd39ab828fd47138c4",
+    "original2": {
+      "assets": [
+        {
+          "file": "assets/volume4a/figures/answer-7-1-4-2-combined-bdds.svg",
+          "sha256": "809afe8b31ae461d71a4bf38e938f5b5451f1b587636f81f22fbf026f78d632d",
+          "source": "CN535/EN638",
+          "nodes": 16,
+          "arcs": 28,
+          "loDashed": 14,
+          "hiSolid": 14,
+          "nodePositionsAndPairs": {
+            "L": {
+              "position": [
+                175,
+                250
+              ],
+              "lo": "F",
+              "hi": "T",
+              "truth": "0101"
+            },
+            "R": {
+              "position": [
+                425,
+                250
+              ],
+              "lo": "T",
+              "hi": "F",
+              "truth": "1010"
+            },
+            "a": {
+              "position": [
+                40,
+                250
+              ],
+              "lo": "F",
+              "hi": "T",
+              "truth": "0011"
+            },
+            "b": {
+              "position": [
+                560,
+                250
+              ],
+              "lo": "T",
+              "hi": "F",
+              "truth": "1100"
+            },
+            "c": {
+              "position": [
+                215,
+                125
+              ],
+              "lo": "L",
+              "hi": "T",
+              "truth": "0111"
+            },
+            "d": {
+              "position": [
+                265,
+                150
+              ],
+              "lo": "T",
+              "hi": "L",
+              "truth": "1101"
+            },
+            "e": {
+              "position": [
+                335,
+                150
+              ],
+              "lo": "R",
+              "hi": "T",
+              "truth": "1011"
+            },
+            "f": {
+              "position": [
+                385,
+                125
+              ],
+              "lo": "T",
+              "hi": "R",
+              "truth": "1110"
+            },
+            "g": {
+              "position": [
+                300,
+                220
+              ],
+              "lo": "R",
+              "hi": "L",
+              "truth": "1001"
+            },
+            "h": {
+              "position": [
+                300,
+                280
+              ],
+              "lo": "L",
+              "hi": "R",
+              "truth": "0110"
+            },
+            "i": {
+              "position": [
+                215,
+                375
+              ],
+              "lo": "F",
+              "hi": "L",
+              "truth": "0001"
+            },
+            "j": {
+              "position": [
+                265,
+                350
+              ],
+              "lo": "L",
+              "hi": "F",
+              "truth": "0100"
+            },
+            "k": {
+              "position": [
+                335,
+                350
+              ],
+              "lo": "F",
+              "hi": "R",
+              "truth": "0010"
+            },
+            "l": {
+              "position": [
+                385,
+                375
+              ],
+              "lo": "R",
+              "hi": "F",
+              "truth": "1000"
+            }
+          },
+          "all16TruthTablesDistinct": true,
+          "methodLimit": "Source topology/endpoints/styles reconstructed at matching relative positions; curve shapes adapted, no source proof replaced"
+        },
+        {
+          "file": "assets/volume4a/figures/answer-7-1-4-7-local-rewrite.svg",
+          "sha256": "ebd136292deccc91f9aed0313f5e548ea1d5326bf04e31b0e74c5761b96cba70",
+          "source": "CN535/EN639answer7b",
+          "originalBranches": 1,
+          "replacementBranches": 2,
+          "originalArcs": 2,
+          "replacementArcs": 4,
+          "replacementFourInputOutputs": [
+            "alpha",
+            "alphaPrime",
+            "alphaPrime",
+            "alphaPrime"
+          ]
+        },
+        {
+          "file": "assets/volume4a/figures/answer-7-1-4-8-single-rewrite.svg",
+          "sha256": "6504de2b7a087dacdae4a277bb1d10a39d2696fba2c42c97218b36e5842dd523",
+          "source": "CN535/EN639answer8bfirstcase",
+          "originalBranches": 1,
+          "replacementBranches": 3,
+          "originalArcs": 2,
+          "replacementArcs": 6,
+          "replacementFourInputOutputs": [
+            "alpha",
+            "alphaPrime",
+            "alphaPrime",
+            "alpha"
+          ]
+        },
+        {
+          "file": "assets/volume4a/figures/answer-7-1-4-8-pair-rewrite.svg",
+          "sha256": "528ec8d96232f6e10a8688fba8538371e86ce7266ea0648d20aa0d88bf906c3d",
+          "source": "CN535/EN639answer8blastcase",
+          "originalBranches": 2,
+          "replacementBranches": 4,
+          "originalArcs": 4,
+          "replacementArcs": 8,
+          "originalSecondSourceNodeHasSwappedAlphaTargets": true,
+          "replacementTopLOVerticalAndHICross": true,
+          "replacementBottomLOVerticalAndHICross": true
+        }
+      ],
+      "displayConversions": [
+        "Inline source graphs moved into four standalone SVGs; source conditions translated to explicit LO/HI prose, preserving original labels/targets/styles/order",
+        "Originalcircle j/capsule j−1 conveyed as node labels in prose; SVG k−1 capsules retained"
+      ],
+      "qualification": "ActualCN535andEN638639imagescompared;finitefunctionsnotgeneralrewritetheoremproof"
+    },
+    "original3": "Two size1/none size2/2n size3 source argument retained, not additional general proof",
+    "original4": {
+      "packedV_LO_HIFieldsFixtures": 9216,
+      "allOnly0And1LO_HIFlippedAndOtherBitsUnchanged": true,
+      "notAll2^64Words": true
+    },
+    "original5": {
+      "finiteAllN1to3TruthFunctionsAndAllAssignmentsDualChecks": 2120
+    },
+    "original6": {
+      "sourceTruth": "1011000110010011",
+      "canonicalReducedBDDSize": 11,
+      "sourceAllListedLargeSubtablesAndBeadsRetained": true,
+      "originalFBodyDiagramNotNewPageAcceptance": true
+    },
+    "original7and8": {
+      "all4AlphaAlphaPrimeScalarPairsAnd4BranchAssignmentsMatchOR_XOR": true,
+      "nodeRenameJtoJminus1AndSourceProseRetained": "InlinegraphconditionsmadeexplicitLO_HItext;sourcegraphsreflowedintostandalonefigures",
+      "notGeneralBDDRewriteProof": true
+    },
+    "original9": {
+      "allN1to3Functions": 276,
+      "sourceGuard1Failures": [
+        {
+          "n": 1,
+          "truth": "00",
+          "s": 1,
+          "originalResult": null,
+          "wanted": 1
+        },
+        {
+          "n": 1,
+          "truth": "11",
+          "s": 2,
+          "originalResult": "nontermination",
+          "wanted": null
+        },
+        {
+          "n": 2,
+          "truth": "0000",
+          "s": 1,
+          "originalResult": null,
+          "wanted": 3
+        },
+        {
+          "n": 2,
+          "truth": "1111",
+          "s": 2,
+          "originalResult": "nontermination",
+          "wanted": null
+        },
+        {
+          "n": 3,
+          "truth": "00000000",
+          "s": 1,
+          "originalResult": null,
+          "wanted": 7
+        },
+        {
+          "n": 3,
+          "truth": "11111111",
+          "s": 2,
+          "originalResult": "nontermination",
+          "wanted": null
+        }
+      ],
+      "candidateGuard2AllLexLargestZeroVectorsMatchDirectTruthTables": true,
+      "currentGuard2": true,
+      "independentBoundaryReviewPending": false
+    },
+    "original10": {
+      "allN3FunctionPairsAgainstDifferentValidTopologicalNumberings": 65536,
+      "allStructuralEqualityTestsMatchActualTruthFunctionEquality": true,
+      "notGeneralLinearTimeProof": true
+    },
+    "original11b": {
+      "exactC2": "1",
+      "exactC3": "3/2",
+      "sourceCounterexampleMatchesFractionalUnorderedCount": true
+    },
+    "qualifications": [
+      "ExtraEN224actualsequentialconstantconvention/EN276actualquestionsarecontextnotnewCNpagecoverage",
+      "9independentlysourceconfirmedprojectguard2correctionusedincurrentMD;originalguard1failurespreserved",
+      "Allgeneralproofs/complexitysourceonly;finalmother/offline/routed/onlinepending"
+    ]
+  },
+  "browser": {
+    "widths": [
+      1280,
+      390
+    ],
+    "acceptedDistinctCases": 2,
+    "mathExpressionsPerPass": 93,
+    "errors": 0,
+    "wholePageOverflow": 0,
+    "actualFontFacesLoaded": true,
+    "evidenceSha256": "550e8577fd7661ff7749af9b12b689ca74340e5b7186c6c3d0733c95a085188c",
+    "mathEndpointScreensActuallyViewed": 2,
+    "mathEndpointEvidenceSha256": "27320e759ccfa050451495734c153395cb3c4010e078d0e9a3652b9faec7d543",
+    "fourFiguresActuallyViewedBothWidths": true,
+    "imageCurrentEvidenceSha256": "e58acc24bb672d4cc660ceb1be9ad4bf7c19c13e45788ffeaf2c4320e8bda97a",
+    "sameEightActualFigurePixelsAsViewedContactSha256": "6a93a7423072ae99832d96bf28a968d9ac3fda75fbc0b25b27cbcf0e8d24ee57",
+    "currentGuard2BothWidthsEvidenceSha256": "cd79156cb2d65ba232767dd6b67d2fc3aa2126be846de296301e231d03e0bcc9",
+    "originalImageLinksBothWidthsEvidenceSha256": "f404c30d07e1e5df7ee67f98a86d26736ee8bae8ff28de5f6e550a336854b53b"
+  },
+  "independentReviews": [
+    {
+      "file": "answer-9-BDD-constant-independent.json",
+      "sha256": "bad09d69625dc433e0fefdd39ea7dfbcf57e8bfe1648cc50422271c1cd57350b"
+    }
+  ],
+  "sourceDetails": {
+    "cn-535-mask4-tight.png": "6229a6a539ff6d4599377105544b17144dda7fd6d01382535836da06b30b0d4c",
+    "en-276-BDD-questions1-20.png": "42b304a7100764be5160bece0fcfdae36afe1a92087a0c32013fe0d318e71412",
+    "en-638-mask4-detail.png": "5fde13419cf2a885f41c744a9d49842ac21b59e0f37b11bf714395811eb56b59",
+    "cn-535-packed-fields4.png": "8b6e7a90e9bdedbd7a5e171c59d26b46623c18edcba7f3af6f5d84c1921962fc",
+    "en-224-BDD-sequential-constants.png": "466f2c6e8e316a98bcd5a55af2218e2bcd0cb4a38a30f91b41af539666e35880",
+    "cn-535-transforms78.png": "fdf4c6f4fdd7c7580d26c3b6c741d7ab7ca0b6b1ad7905e4c300c64688897fef",
+    "cn-535-graph2.png": "2cbaa349b7fb083d432826a4c0aed261400eac5ee84f4d7fc93a3024c6ce7fde"
+  },
+  "qualifications": [
+    "9initials1->s2independentlyconfirmedprojectconstant-boundarycorrection,notofficialerratum",
+    "4unaccepteddraftaddedoneftosourcemask;15hexsourcevaluecorrectlyrestored,nobookerratum",
+    "FourSVGsretainalloriginalbranchlabels/endpoints/LO-HIstyles;inlineconditionfiguresreflowedintoexplicitproseandstandaloneimages",
+    "Generalandcomplexityproofssourceonly;mother/offline/routed/onlinepending"
+  ]
+}

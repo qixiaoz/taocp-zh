@@ -1,0 +1,1409 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "FiniteexactWalsh/Paley/sixmatrixrecurrences/eightproducts/three-stagevectors/ternaryphases/eightpermutations;asymptoticandcontinuouswindinglimitsqualified",
+  "models": {
+    "checkerSha256": "efde1d783c487dbf45b9fd866181ceb021fe1a83ffdf1168e701870ba6f0acf7",
+    "pageMarkdownSha256": "001e69283f272dd6d3e29a4a3397947672fcb4c8208696383da50b6c0ff496f5",
+    "prior587MarkdownSha256": "c3f68ddb203c6205b8df846554bef565f32a82fa18f376ddd35cf32d3d067040",
+    "answers32to34": {
+      "kRange": [
+        0,
+        127
+      ],
+      "dyadicDenominator": 2048,
+      "exactRationalPointCases": 262144,
+      "recursiveProductAndPaleyIdentitiesAllMatch": true,
+      "reflectionFailsExactlyAtSourceJumpConvention": true,
+      "actualReflectionFailures": 8192,
+      "selectedCN2xAndOldEN2xMinus1EquivalentByPeriodicity": true
+    },
+    "answer35": {
+      "sixMatrixRecurrencesAndAllProducts": [
+        {
+          "n": 1,
+          "dimensions": [
+            2,
+            2
+          ],
+          "allSixRecurrencesAndEightProductsMatch": true,
+          "allThreeTransformMatricesSymmetric": true,
+          "matrixByteSha256": [
+            "33679eedd86f9637ab73892a064cdab3d82365cf5063b145affb2272327a6ddc",
+            "db7f8e2aa97f8d230fc0a6c6d68184ecfee02f4bd2e94dcb331c0d3d54ca5fe8",
+            "33679eedd86f9637ab73892a064cdab3d82365cf5063b145affb2272327a6ddc",
+            "44e41c721ef7ad53582de3a2470e7bf6e74ea4471f54c42469817ef5844da195",
+            "44e41c721ef7ad53582de3a2470e7bf6e74ea4471f54c42469817ef5844da195",
+            "44e41c721ef7ad53582de3a2470e7bf6e74ea4471f54c42469817ef5844da195"
+          ]
+        },
+        {
+          "n": 2,
+          "dimensions": [
+            4,
+            4
+          ],
+          "allSixRecurrencesAndEightProductsMatch": true,
+          "allThreeTransformMatricesSymmetric": true,
+          "matrixByteSha256": [
+            "3adf3a7e0fc0ea5049faca2ff5f112c4c44acd7db30ac2499ea1574f0ef6f724",
+            "2cb1e1208d29e803ab7dba596ced013ff30519f7ca79d0cb7cbf1e3029e7ccd3",
+            "ac004ee40983abc07f30aa80041432d279e056fd0683af8ae2a404b700b640f0",
+            "aa60fb6df530078eac7046de94dd6acfaf67c83ac155f77ae6b06e308b528d22",
+            "7df4aa3723a8f46c3ef0ac0b2a84fe492a7903896dfc5476d6b60e8cb0b00a0a",
+            "838dcd3c797d7ad57befe47da452f6e171222c0e1626f405e7f6f26ce0fe8f3c"
+          ]
+        },
+        {
+          "n": 3,
+          "dimensions": [
+            8,
+            8
+          ],
+          "allSixRecurrencesAndEightProductsMatch": true,
+          "allThreeTransformMatricesSymmetric": true,
+          "matrixByteSha256": [
+            "ee42c95ec90d9ad30972907c990c74524d6d9ad822032af19f344e8c7e8515d4",
+            "65f2b55dee53c75e2a010b8cf96a96f6fe2b4a7a7407fab8935993fc69e7b0ad",
+            "d4bd8addbe0d8130ba7bf124ed71d2f327d750c437aeffde438166699aaed90d",
+            "5d6b6ffc8a5aca0cce07fe3aa8a0722a8bef21e28805479246232aa17a5c2abb",
+            "d2d13e31d38874b20a80ddc289b1de9de086c0118b5725c797cf9f4678c9ffa6",
+            "a1ffb2d410e3ba6c867966757149708db4b0e013e673be168460598eed763919"
+          ]
+        },
+        {
+          "n": 4,
+          "dimensions": [
+            16,
+            16
+          ],
+          "allSixRecurrencesAndEightProductsMatch": true,
+          "allThreeTransformMatricesSymmetric": true,
+          "matrixByteSha256": [
+            "54ecb9eaa372e480e9383eeb4ddc7ee99bbb21784ce99d6fa3631643d0b2405a",
+            "29a7ae18b17f0fea388805f72dde5bcb1b7bf2f61e1e4881543ee1fcb2d35e18",
+            "bd4c98662f23d39eff07a5f1d0a4bd1e805d9ca9d1d6ae651ceaec00520437c6",
+            "a5d51a9007b290d37bd4ccd9a09e3c26c630bc5b0d5ee68ae24aa231d34af08e",
+            "6fe05dfbedfc41f4364f03756127561250bf718605a0deeb4e2bce9276a181bf",
+            "439bd4b7a4fcb121fa863d1f859aebba4bc34c71b4e6b65ee9d6aa288a7607df"
+          ]
+        },
+        {
+          "n": 5,
+          "dimensions": [
+            32,
+            32
+          ],
+          "allSixRecurrencesAndEightProductsMatch": true,
+          "allThreeTransformMatricesSymmetric": true,
+          "matrixByteSha256": [
+            "e92b2f4685ef5ee693a24f5b67d9cab62745c68ec2f4fb02fd89ba952a734a86",
+            "7fe81ca38fcd1661a7a6b08af89e0240c9a3c9fac3e1e51421a68435148c8992",
+            "0d6392bb4aebc2b741bfea9cfa64c5e053f63d60f906eea50d5dc57c34f8f43e",
+            "9d00b9c44ffc2bdd4ca515c288c0d35792ff13ba8079da005eea47945b528e3c",
+            "2387ca70246d3179c4095b9fa31a97ba43d7cbc898e9052888e34743518352e9",
+            "09805bd55ca202839459cc851a42e37952449340df1088578d9a6254be73268f"
+          ]
+        },
+        {
+          "n": 6,
+          "dimensions": [
+            64,
+            64
+          ],
+          "allSixRecurrencesAndEightProductsMatch": true,
+          "allThreeTransformMatricesSymmetric": true,
+          "matrixByteSha256": [
+            "bf92cd29a24dd178b0c53598efd82bf65aab80b07b9badddd77a4e87eab112f4",
+            "54abdfd56d0af6135e3bf4b3f0b4d1513ef91c8da1df9084d8acaaaa0855fedf",
+            "d3df2b6722d5976c10a48b126fc9f79118d033ee618540e4cbe16c6b4d79c689",
+            "67fe2a14a770214051e461d29c2f444256ea9f5208f251ce70b8a506fc851299",
+            "331578ba69906368639af32d88d991653cf19c93e883d32a40f0f4c501bb6057",
+            "9d29b853214d03a0e5daf0ad6bf8143e52e397a7b0b977f49fde019c72700355"
+          ]
+        }
+      ],
+      "GOriginalBothSourcesHighCropBlockDiagonal": true
+    },
+    "answer36": {
+      "actualInputVectors": 6693,
+      "allThreeOriginalStagesExecutedWithSimultaneousButterfly": true,
+      "bitReversalUsesActualSourceZSteps": true,
+      "GrayPermuteUsesActualSourceP_QStepsForNAtLeast2": true,
+      "n1GrayPermutationIdentityHandled": true,
+      "allOutputsMatchDirectWalshMatrix": true,
+      "noMMIXHardwareBenchmark": true
+    },
+    "answer37": {
+      "kRange": [
+        1,
+        255
+      ],
+      "exactJumpPositions": 32640,
+      "allSourceDyadicJumpSetsMatch": true,
+      "offJumpCountComparisons": 16129,
+      "strictIntervalAtJumpPointsNotClaimed": true,
+      "largestObservedScaledQuantileError": "127/258",
+      "largestWitness": {
+        "k": 128,
+        "l": 1,
+        "x": "1/256"
+      },
+      "noGeneralAsymptoticOrOmegaProof": true
+    },
+    "answer38": {
+      "kRange": [
+        0,
+        242
+      ],
+      "exactTernaryPointCases": 530712,
+      "allRecursiveProductPhasesMatch": true,
+      "allInteriorPositivePhaseAdvancesMatch2k": true,
+      "windingConvention": "Positive representatives0/1/2 for successive phase increments, natural grid0≤x<1; no final endpointjump or continuouscurvewindingproof claimed.",
+      "finiteWindings": [
+        {
+          "k": 0,
+          "grid": 1,
+          "interiorPositivePhaseThirdTurns": 0
+        },
+        {
+          "k": 1,
+          "grid": 3,
+          "interiorPositivePhaseThirdTurns": 2
+        },
+        {
+          "k": 2,
+          "grid": 3,
+          "interiorPositivePhaseThirdTurns": 4
+        },
+        {
+          "k": 3,
+          "grid": 9,
+          "interiorPositivePhaseThirdTurns": 6
+        },
+        {
+          "k": 4,
+          "grid": 9,
+          "interiorPositivePhaseThirdTurns": 8
+        },
+        {
+          "k": 5,
+          "grid": 9,
+          "interiorPositivePhaseThirdTurns": 10
+        },
+        {
+          "k": 6,
+          "grid": 9,
+          "interiorPositivePhaseThirdTurns": 12
+        },
+        {
+          "k": 7,
+          "grid": 9,
+          "interiorPositivePhaseThirdTurns": 14
+        },
+        {
+          "k": 8,
+          "grid": 9,
+          "interiorPositivePhaseThirdTurns": 16
+        },
+        {
+          "k": 9,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 18
+        },
+        {
+          "k": 10,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 20
+        },
+        {
+          "k": 11,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 22
+        },
+        {
+          "k": 12,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 24
+        },
+        {
+          "k": 13,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 26
+        },
+        {
+          "k": 14,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 28
+        },
+        {
+          "k": 15,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 30
+        },
+        {
+          "k": 16,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 32
+        },
+        {
+          "k": 17,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 34
+        },
+        {
+          "k": 18,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 36
+        },
+        {
+          "k": 19,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 38
+        },
+        {
+          "k": 20,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 40
+        },
+        {
+          "k": 21,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 42
+        },
+        {
+          "k": 22,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 44
+        },
+        {
+          "k": 23,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 46
+        },
+        {
+          "k": 24,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 48
+        },
+        {
+          "k": 25,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 50
+        },
+        {
+          "k": 26,
+          "grid": 27,
+          "interiorPositivePhaseThirdTurns": 52
+        },
+        {
+          "k": 27,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 54
+        },
+        {
+          "k": 28,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 56
+        },
+        {
+          "k": 29,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 58
+        },
+        {
+          "k": 30,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 60
+        },
+        {
+          "k": 31,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 62
+        },
+        {
+          "k": 32,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 64
+        },
+        {
+          "k": 33,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 66
+        },
+        {
+          "k": 34,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 68
+        },
+        {
+          "k": 35,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 70
+        },
+        {
+          "k": 36,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 72
+        },
+        {
+          "k": 37,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 74
+        },
+        {
+          "k": 38,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 76
+        },
+        {
+          "k": 39,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 78
+        },
+        {
+          "k": 40,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 80
+        },
+        {
+          "k": 41,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 82
+        },
+        {
+          "k": 42,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 84
+        },
+        {
+          "k": 43,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 86
+        },
+        {
+          "k": 44,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 88
+        },
+        {
+          "k": 45,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 90
+        },
+        {
+          "k": 46,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 92
+        },
+        {
+          "k": 47,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 94
+        },
+        {
+          "k": 48,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 96
+        },
+        {
+          "k": 49,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 98
+        },
+        {
+          "k": 50,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 100
+        },
+        {
+          "k": 51,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 102
+        },
+        {
+          "k": 52,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 104
+        },
+        {
+          "k": 53,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 106
+        },
+        {
+          "k": 54,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 108
+        },
+        {
+          "k": 55,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 110
+        },
+        {
+          "k": 56,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 112
+        },
+        {
+          "k": 57,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 114
+        },
+        {
+          "k": 58,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 116
+        },
+        {
+          "k": 59,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 118
+        },
+        {
+          "k": 60,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 120
+        },
+        {
+          "k": 61,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 122
+        },
+        {
+          "k": 62,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 124
+        },
+        {
+          "k": 63,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 126
+        },
+        {
+          "k": 64,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 128
+        },
+        {
+          "k": 65,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 130
+        },
+        {
+          "k": 66,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 132
+        },
+        {
+          "k": 67,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 134
+        },
+        {
+          "k": 68,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 136
+        },
+        {
+          "k": 69,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 138
+        },
+        {
+          "k": 70,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 140
+        },
+        {
+          "k": 71,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 142
+        },
+        {
+          "k": 72,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 144
+        },
+        {
+          "k": 73,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 146
+        },
+        {
+          "k": 74,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 148
+        },
+        {
+          "k": 75,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 150
+        },
+        {
+          "k": 76,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 152
+        },
+        {
+          "k": 77,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 154
+        },
+        {
+          "k": 78,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 156
+        },
+        {
+          "k": 79,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 158
+        },
+        {
+          "k": 80,
+          "grid": 81,
+          "interiorPositivePhaseThirdTurns": 160
+        },
+        {
+          "k": 81,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 162
+        },
+        {
+          "k": 82,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 164
+        },
+        {
+          "k": 83,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 166
+        },
+        {
+          "k": 84,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 168
+        },
+        {
+          "k": 85,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 170
+        },
+        {
+          "k": 86,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 172
+        },
+        {
+          "k": 87,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 174
+        },
+        {
+          "k": 88,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 176
+        },
+        {
+          "k": 89,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 178
+        },
+        {
+          "k": 90,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 180
+        },
+        {
+          "k": 91,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 182
+        },
+        {
+          "k": 92,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 184
+        },
+        {
+          "k": 93,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 186
+        },
+        {
+          "k": 94,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 188
+        },
+        {
+          "k": 95,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 190
+        },
+        {
+          "k": 96,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 192
+        },
+        {
+          "k": 97,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 194
+        },
+        {
+          "k": 98,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 196
+        },
+        {
+          "k": 99,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 198
+        },
+        {
+          "k": 100,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 200
+        },
+        {
+          "k": 101,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 202
+        },
+        {
+          "k": 102,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 204
+        },
+        {
+          "k": 103,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 206
+        },
+        {
+          "k": 104,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 208
+        },
+        {
+          "k": 105,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 210
+        },
+        {
+          "k": 106,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 212
+        },
+        {
+          "k": 107,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 214
+        },
+        {
+          "k": 108,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 216
+        },
+        {
+          "k": 109,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 218
+        },
+        {
+          "k": 110,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 220
+        },
+        {
+          "k": 111,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 222
+        },
+        {
+          "k": 112,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 224
+        },
+        {
+          "k": 113,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 226
+        },
+        {
+          "k": 114,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 228
+        },
+        {
+          "k": 115,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 230
+        },
+        {
+          "k": 116,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 232
+        },
+        {
+          "k": 117,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 234
+        },
+        {
+          "k": 118,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 236
+        },
+        {
+          "k": 119,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 238
+        },
+        {
+          "k": 120,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 240
+        },
+        {
+          "k": 121,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 242
+        },
+        {
+          "k": 122,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 244
+        },
+        {
+          "k": 123,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 246
+        },
+        {
+          "k": 124,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 248
+        },
+        {
+          "k": 125,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 250
+        },
+        {
+          "k": 126,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 252
+        },
+        {
+          "k": 127,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 254
+        },
+        {
+          "k": 128,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 256
+        },
+        {
+          "k": 129,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 258
+        },
+        {
+          "k": 130,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 260
+        },
+        {
+          "k": 131,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 262
+        },
+        {
+          "k": 132,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 264
+        },
+        {
+          "k": 133,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 266
+        },
+        {
+          "k": 134,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 268
+        },
+        {
+          "k": 135,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 270
+        },
+        {
+          "k": 136,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 272
+        },
+        {
+          "k": 137,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 274
+        },
+        {
+          "k": 138,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 276
+        },
+        {
+          "k": 139,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 278
+        },
+        {
+          "k": 140,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 280
+        },
+        {
+          "k": 141,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 282
+        },
+        {
+          "k": 142,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 284
+        },
+        {
+          "k": 143,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 286
+        },
+        {
+          "k": 144,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 288
+        },
+        {
+          "k": 145,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 290
+        },
+        {
+          "k": 146,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 292
+        },
+        {
+          "k": 147,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 294
+        },
+        {
+          "k": 148,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 296
+        },
+        {
+          "k": 149,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 298
+        },
+        {
+          "k": 150,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 300
+        },
+        {
+          "k": 151,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 302
+        },
+        {
+          "k": 152,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 304
+        },
+        {
+          "k": 153,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 306
+        },
+        {
+          "k": 154,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 308
+        },
+        {
+          "k": 155,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 310
+        },
+        {
+          "k": 156,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 312
+        },
+        {
+          "k": 157,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 314
+        },
+        {
+          "k": 158,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 316
+        },
+        {
+          "k": 159,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 318
+        },
+        {
+          "k": 160,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 320
+        },
+        {
+          "k": 161,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 322
+        },
+        {
+          "k": 162,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 324
+        },
+        {
+          "k": 163,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 326
+        },
+        {
+          "k": 164,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 328
+        },
+        {
+          "k": 165,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 330
+        },
+        {
+          "k": 166,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 332
+        },
+        {
+          "k": 167,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 334
+        },
+        {
+          "k": 168,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 336
+        },
+        {
+          "k": 169,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 338
+        },
+        {
+          "k": 170,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 340
+        },
+        {
+          "k": 171,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 342
+        },
+        {
+          "k": 172,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 344
+        },
+        {
+          "k": 173,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 346
+        },
+        {
+          "k": 174,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 348
+        },
+        {
+          "k": 175,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 350
+        },
+        {
+          "k": 176,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 352
+        },
+        {
+          "k": 177,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 354
+        },
+        {
+          "k": 178,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 356
+        },
+        {
+          "k": 179,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 358
+        },
+        {
+          "k": 180,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 360
+        },
+        {
+          "k": 181,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 362
+        },
+        {
+          "k": 182,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 364
+        },
+        {
+          "k": 183,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 366
+        },
+        {
+          "k": 184,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 368
+        },
+        {
+          "k": 185,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 370
+        },
+        {
+          "k": 186,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 372
+        },
+        {
+          "k": 187,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 374
+        },
+        {
+          "k": 188,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 376
+        },
+        {
+          "k": 189,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 378
+        },
+        {
+          "k": 190,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 380
+        },
+        {
+          "k": 191,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 382
+        },
+        {
+          "k": 192,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 384
+        },
+        {
+          "k": 193,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 386
+        },
+        {
+          "k": 194,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 388
+        },
+        {
+          "k": 195,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 390
+        },
+        {
+          "k": 196,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 392
+        },
+        {
+          "k": 197,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 394
+        },
+        {
+          "k": 198,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 396
+        },
+        {
+          "k": 199,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 398
+        },
+        {
+          "k": 200,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 400
+        },
+        {
+          "k": 201,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 402
+        },
+        {
+          "k": 202,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 404
+        },
+        {
+          "k": 203,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 406
+        },
+        {
+          "k": 204,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 408
+        },
+        {
+          "k": 205,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 410
+        },
+        {
+          "k": 206,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 412
+        },
+        {
+          "k": 207,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 414
+        },
+        {
+          "k": 208,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 416
+        },
+        {
+          "k": 209,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 418
+        },
+        {
+          "k": 210,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 420
+        },
+        {
+          "k": 211,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 422
+        },
+        {
+          "k": 212,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 424
+        },
+        {
+          "k": 213,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 426
+        },
+        {
+          "k": 214,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 428
+        },
+        {
+          "k": 215,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 430
+        },
+        {
+          "k": 216,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 432
+        },
+        {
+          "k": 217,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 434
+        },
+        {
+          "k": 218,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 436
+        },
+        {
+          "k": 219,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 438
+        },
+        {
+          "k": 220,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 440
+        },
+        {
+          "k": 221,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 442
+        },
+        {
+          "k": 222,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 444
+        },
+        {
+          "k": 223,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 446
+        },
+        {
+          "k": 224,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 448
+        },
+        {
+          "k": 225,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 450
+        },
+        {
+          "k": 226,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 452
+        },
+        {
+          "k": 227,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 454
+        },
+        {
+          "k": 228,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 456
+        },
+        {
+          "k": 229,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 458
+        },
+        {
+          "k": 230,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 460
+        },
+        {
+          "k": 231,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 462
+        },
+        {
+          "k": 232,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 464
+        },
+        {
+          "k": 233,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 466
+        },
+        {
+          "k": 234,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 468
+        },
+        {
+          "k": 235,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 470
+        },
+        {
+          "k": 236,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 472
+        },
+        {
+          "k": 237,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 474
+        },
+        {
+          "k": 238,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 476
+        },
+        {
+          "k": 239,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 478
+        },
+        {
+          "k": 240,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 480
+        },
+        {
+          "k": 241,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 482
+        },
+        {
+          "k": 242,
+          "grid": 243,
+          "interiorPositivePhaseThirdTurns": 484
+        }
+      ]
+    },
+    "answer39a": {
+      "all40320EightPermutationsEnumerated": true,
+      "satisfyingPermutations": 64,
+      "actualOriginalExample": [
+        0,
+        1,
+        7,
+        2,
+        5,
+        6,
+        3,
+        4
+      ],
+      "allOriginalExampleRowInnerProductPolynomialsMatch": true,
+      "fullChinese8SquareMatrixOn589NotYetAccepted": true
+    },
+    "qualification": [
+      "BothactualGblockhighcropsarecorrect; lowresolutionparentmisreadnotabookerratum.",
+      "CurrentCN33periodic2x/HausdorffparagraphretainedagainstolderEN;notallliteralstringsassertedequal.",
+      "39arow/columni,jCNtypochangedtoj,kaccordingtoactualEnglishandcoefficientvariables;oneexplicitsourcecorrection.",
+      "Originalgeneraltransformtheorems,asymptoticboundsandhistoricalreferencesnotreproved.",
+      "39continues589,notwholeansweracceptance."
+    ]
+  },
+  "privateEvidenceSha256": "b530e222a714df2aee8fc045a68989115280214c1f4c21350b1057196f90bc60",
+  "allOriginalUniversalAndHistoricalClaimsIndependentlyProved": false
+}

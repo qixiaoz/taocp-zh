@@ -1,0 +1,36 @@
+{
+  "scope": "Finite MMIX register and merge-loop fixtures and constant-polynomial CRC fixtures. No processor timing, trap/caching claims or general CRC architecture test.",
+  "pageMarkdownHashes": {
+    "165": "06ef4100122733becbec27483162568a83542033a3e26b97c85bc5b24f13dba4",
+    "166": "829c5d2543da9eef97f77d1eb03c50ee33c09cded9fc281d91b2973c95934ef2",
+    "167": "285f1b942ef3b8755fdb8bc257d6a9eff9846b9aa366a2e4101148a05a7b498d"
+  },
+  "comparedNonzeroSelectionCases": 519,
+  "mergeLoopCases": 512,
+  "crcBytesForMatrixResidues": 256,
+  "fullPayloadFixtures": 640,
+  "longestPayloadBytes": 96,
+  "finiteCrcMatrixRowsA": [
+    16,
+    32,
+    64,
+    128,
+    128,
+    128,
+    129,
+    131
+  ],
+  "finiteCrcMatrixRowsB": [
+    6,
+    12,
+    24,
+    48,
+    101,
+    207,
+    155,
+    51
+  ],
+  "monoOperandAssumptions": "Ordinary exact signed comparisons, arithmetic right shifts, 64-bit register wrap of nontrapping examples and readable sentinel buffer cells.",
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+}

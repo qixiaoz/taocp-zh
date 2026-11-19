@@ -1,0 +1,975 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-source-pages-220-to-222-read-once-multiplication-zdd",
+  "cnPhysicalPages": [
+    220,
+    221,
+    222
+  ],
+  "cnPrintedPages": [
+    205,
+    206,
+    207
+  ],
+  "masterSha256": null,
+  "mathExpressions": 172,
+  "privateBrowserCases": 6,
+  "substantiveCorrections": 2,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 220,
+      "cnPrintedPage": 205,
+      "enPdfPages": [
+        263,
+        264
+      ],
+      "enPrintedPages": [
+        246,
+        247
+      ],
+      "pageMarkdownSha256": "6a6a86a67e2dd35214c9b89ae607e378accc2f441c7445c350a3ecf62013d031",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-220.png",
+      "sourcePageImageSha256": "bc52a3a1d67048f1ca792b8a18ba2b751aaf2f202733ce921f2ad81f2805fbd0",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-263.png",
+          "sha256": "97db94656a272d07f15bc2eddd63bc699bea9778bb956be09443c41ae6c4fe67",
+          "physicalPage": 263
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-264.png",
+          "sha256": "9e8bef182acca05fdb34b8443214f05d3577c34cfebfb469add0cacc24b0b343",
+          "physicalPage": 264
+        }
+      ],
+      "pageAnchors": [
+        "pdf-220",
+        "p-205"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.4 定理 W 五变量示例的第二个顺序",
+          "enPosition": "PDF264／印刷247，定理W证后例",
+          "original": "$(4,5,1,2,3)$",
+          "final": "$(4,5,3,1,2)$",
+          "basis": "两版印序将两组变量混排且仍需10个结点。把落在第二组末尾的3移回h组、保留其他相对顺序，符合定理W且得到原述9个结点。五变量全部120种顺序复验。",
+          "cnPrintedPage": 205
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Growth constant (116), whole Theorem W and example with both sizes. The two factors and middle product bit (117); Theorem X and full bipartition, complemented mask and bit extraction (118)–(119)."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 220,
+        "markdownSha256": "6a6a86a67e2dd35214c9b89ae607e378accc2f441c7445c350a3ecf62013d031",
+        "htmlSha256": "47477483aeed0ddcaac42a51b718e76973f2887bc9b56f1774efc0215806fe7e",
+        "mathExpressions": 82,
+        "displayMath": 4,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-220-221-222.json",
+        "sha256": "eeefbb3dcdf86484fd3c81202a00e2c82eb7f4ef8d2bf069eb1e0ffb387ce7ee",
+        "cases": [
+          {
+            "physicalPage": 220,
+            "width": 1280,
+            "markdownSha256": "6a6a86a67e2dd35214c9b89ae607e378accc2f441c7445c350a3ecf62013d031",
+            "documentWidth": 1280,
+            "math": 82,
+            "mathml": 82,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 82,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 220,
+            "width": 390,
+            "markdownSha256": "6a6a86a67e2dd35214c9b89ae607e378accc2f441c7445c350a3ecf62013d031",
+            "documentWidth": 390,
+            "math": 82,
+            "mathml": 82,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 82,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Final 1280 and 390 full pages, all narrow right positions and listed interior/wide details inspected. The Eq.(122) SVG linked original opened and returned at both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/220-1280.png",
+          "sha256": "dbd13907297ac45c9f6627bb2b341cddcd759b791c644d1fdf91c1b383594c03",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/220-390.png",
+          "sha256": "cd4306cc713d95eac3c4839ec1177ed7e95fd6db21dbbbd1fc308bf3092ddfa3",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/220-390-right.png",
+          "sha256": "c8939bdf7ef330f21e50cba093ebc4f7e923d721b62de43ec1d74647e9b93b75",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/220-390-wide-3-1.png",
+          "sha256": "36c0b02e62b0bb0871e7a7a7f6eb225062cd3aaf9079247ceb8e242a0f27aabc",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/220-390-wide-77-1.png",
+          "sha256": "67d211a437241f80a3f3a6121676c2c7c77630b4f9ec2b36ff9574873ab34d99",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-220-440-multiplication-detail.png",
+          "sha256": "1dc172a71165026a4ece2119768a6bd525d12d28de1293ebf103c8928bfaa9cc"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-264-138-multiplication-detail.png",
+          "sha256": "ac145c0f38933bc810c5fa31641c112b721bd2027d933edc06aa1296cc275e20"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "CN220–222 fully reviewed from both page images plus current browser pixels at desktop and mobile. Nine explicitly printed multiplication orders were evaluated; two source discrepancies are carried as qualified report findings.",
+      "startsMidParagraph": true,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": false,
+      "followingPageContinuation": "定理X证明从(119)续到221的(120)。",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/220-selected-cn-before-translation-repair-332e5b36cafcd2d448f04f18d9dae2595863881c4062ac05f92b1e86247f2281/220.md",
+        "sha256": "332e5b36cafcd2d448f04f18d9dae2595863881c4062ac05f92b1e86247f2281",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-multiplication-zdd-220-222.json",
+          "sha256": "aa9f0e97796b0beda9123f7a18a7ca9c04f4381bf17d4521436f4e54aa4ac95f",
+          "scope": "All 120 orders of the single five-variable theorem W example; finite formula approximation; original ten Table 1 and 2 cells, with sizes independently recomputed for nine explicit fixed factor pairs, leaving the one source ellipsis as printed. No extremum verification over 16- or 24-variable orders."
+        },
+        {
+          "file": "assets/volume4a/review/body-220-222-wide-details.json",
+          "sha256": "9c35cbef7dc53a392fb6b180d59d0690b502b9b4016c3d82216bd476ea2b18bd",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "8982b269840586d2e93f53759d487de1938490f105d2e1d4ec161f402e91a573",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/220.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 221,
+      "cnPrintedPage": 206,
+      "enPdfPages": [
+        264,
+        265,
+        266
+      ],
+      "enPrintedPages": [
+        247,
+        248,
+        249
+      ],
+      "pageMarkdownSha256": "8546befa97c6d40222f87b49c9e48a4e14addfcb82eba60b8f6b8781baba2a65",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-221.png",
+      "sourcePageImageSha256": "7b937afe4ee48c6dee0da65dcecb380cb594d3cbdac146852d69250063c6808c",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-264.png",
+          "sha256": "9e8bef182acca05fdb34b8443214f05d3577c34cfebfb469add0cacc24b0b343",
+          "physicalPage": 264
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-265.png",
+          "sha256": "c5d5e07ee222ca72cba0d29fbda593a8667c77b091073a765dc20560eb95d973",
+          "physicalPage": 265
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-266.png",
+          "sha256": "3c79d547a69b36f5ffef5cc677163ce4dcabf095781f920a4d68c5e013f1c3b5",
+          "physicalPage": 266
+        }
+      ],
+      "pageAnchors": [
+        "pdf-221",
+        "p-206"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.4 推论 Y 前的规模比较",
+          "enPosition": "PDF266／印刷249，开头",
+          "original": "，我们可以获得 $m+n$ 个变量的 $m+n$ 个函数的几乎所有实例。",
+          "final": "。后者是 $m+n$ 个变量的 $m+n$ 个函数的几乎所有实例的规模。",
+          "basis": "英文 which 回指规模 Θ(2^(m+n))，并未称可以获得几乎所有实例。",
+          "cnPrintedPage": 206
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "定理 Y 的上界",
+          "cn": "3·2^((n+1)/2)",
+          "enEarlier": "3·2^(n/2)",
+          "basis": "作者 all4a-pre 第12页、2012-05-20条目明确改为(n+1)/2，所选中版已纳。"
+        },
+        {
+          "location": "图式122前的跨层分支说明",
+          "cn": "i 结点分支到 j 结点",
+          "enEarlier": "node branches to a",
+          "author2019Example": "node’s HI points to a",
+          "basis": "2019-08-20作者将例示改为HI；所选中文所述跳过的位须为0对LO与HI均有效，保留范围较广的原句。"
+        }
+      ],
+      "coveredRegions": [
+        "Theorem X conclusion (120), Theorems A/Y and Corollary Y, complete 12-column multiplication table, beginnings of zero-suppressed diagram definition."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 221,
+        "markdownSha256": "8546befa97c6d40222f87b49c9e48a4e14addfcb82eba60b8f6b8781baba2a65",
+        "htmlSha256": "be2b73f63235909140ab0e7b188b68643a9910a4641307da73519ecf26d37798",
+        "mathExpressions": 57,
+        "displayMath": 3,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-220-221-222.json",
+        "sha256": "eeefbb3dcdf86484fd3c81202a00e2c82eb7f4ef8d2bf069eb1e0ffb387ce7ee",
+        "cases": [
+          {
+            "physicalPage": 221,
+            "width": 1280,
+            "markdownSha256": "8546befa97c6d40222f87b49c9e48a4e14addfcb82eba60b8f6b8781baba2a65",
+            "documentWidth": 1280,
+            "math": 57,
+            "mathml": 57,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 57,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 221,
+            "width": 390,
+            "markdownSha256": "8546befa97c6d40222f87b49c9e48a4e14addfcb82eba60b8f6b8781baba2a65",
+            "documentWidth": 390,
+            "math": 57,
+            "mathml": 57,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 57,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Final 1280 and 390 full pages, all narrow right positions and listed interior/wide details inspected. The Eq.(122) SVG linked original opened and returned at both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/221-1280.png",
+          "sha256": "169af8cbafaaa9a10291d2a675d9759e483e17c4779d6713bb073537578c26b3",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/221-390.png",
+          "sha256": "1732ecdd0bab573dbb3e0caf4382044cc8f2f016030161440a3821b841c24777",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/221-390-right.png",
+          "sha256": "f22a9d124ac48d795b2b4d7d8dec4d6c2a93af8ff45ef2e480c15e5f9094196b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/221-1280-wide-3-2.png",
+          "sha256": "5c989b0cec70a61295b77a43efafe003b39b3a1e67e6dc9d717ac6c985cdcf61",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/221-1280-wide-49-2.png",
+          "sha256": "1a4647a182a3e39faeaff9355b4f3ac24b837cb20d40a94148c2d45f92fa37f1",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/221-390-wide-3-1.png",
+          "sha256": "f45e817ea72640743516fb04f3c02b21486850b88b82fcf5ae33a7e099c0e5f1",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/221-390-wide-49-1.png",
+          "sha256": "4d03c0475a6b2d4a798548097e616ed0bc2153242a34b302926f3c73785bb62f",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-221-480-multiplication-detail.png",
+          "sha256": "ab1c1a4ed2ef5c16d504f0ba1bab812e4f85c08a18fef438805f853c7b08feab"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-265-545-multiplication-detail.png",
+          "sha256": "4c0bc18ec69cea92fc6d87dabaf07bf469d85a1b7e3b6b698a9dc4f6b0fef40e"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/author-pre-012-multiplication.png",
+          "sha256": "fb6146aeb306c72a41b5320d44f5ac50256226a29e5907663146d7aefe8d96fa"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "CN220–222 fully reviewed from both page images plus current browser pixels at desktop and mobile. Nine explicitly printed multiplication orders were evaluated; two source discrepancies are carried as qualified report findings.",
+      "startsMidParagraph": true,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/221-selected-cn-before-translation-repair-69161b50fc65114d8e6be271921d42338b8319b0e4894b92f16042cf09467ddd/221.md",
+        "sha256": "69161b50fc65114d8e6be271921d42338b8319b0e4894b92f16042cf09467ddd",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-multiplication-zdd-220-222.json",
+          "sha256": "aa9f0e97796b0beda9123f7a18a7ca9c04f4381bf17d4521436f4e54aa4ac95f",
+          "scope": "All 120 orders of the single five-variable theorem W example; finite formula approximation; original ten Table 1 and 2 cells, with sizes independently recomputed for nine explicit fixed factor pairs, leaving the one source ellipsis as printed. No extremum verification over 16- or 24-variable orders."
+        },
+        {
+          "file": "assets/volume4a/review/body-220-222-wide-details.json",
+          "sha256": "9c35cbef7dc53a392fb6b180d59d0690b502b9b4016c3d82216bd476ea2b18bd",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "4792eb0c4a7ce37381b70d62deba2500b54a4fd735d3c6b9c45ed4f5c08f11c5",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/221.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 222,
+      "cnPrintedPage": 207,
+      "enPdfPages": [
+        265,
+        266,
+        267
+      ],
+      "enPrintedPages": [
+        248,
+        249,
+        250
+      ],
+      "pageMarkdownSha256": "136c6bd83aa969d8054145749ffce33459084be7a589758bef05883caab7fed9",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-222.png",
+      "sourcePageImageSha256": "2fa48beec6fae2270501bee335b09ff11e038d12cde22baffd0611aeb044e332",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-265.png",
+          "sha256": "c5d5e07ee222ca72cba0d29fbda593a8667c77b091073a765dc20560eb95d973",
+          "physicalPage": 265
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-266.png",
+          "sha256": "3c79d547a69b36f5ffef5cc677163ce4dcabf095781f920a4d68c5e013f1c3b5",
+          "physicalPage": 266
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-267.png",
+          "sha256": "be0891c1dd65b352da0d0374efddcaa6c195b7ce4834570a77d23b0021565f81",
+          "physicalPage": 267
+        }
+      ],
+      "pageAnchors": [
+        "pdf-222",
+        "p-207",
+        "tab-7-1-4-1",
+        "tab-7-1-4-2",
+        "eq-7-1-4-122"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/diagram-7-1-4-122-cycle-c6-zdds.svg",
+          "sha256": "73e8da69944095435e555f50c3b60d558a6aa4af8878a133258f6cb57231a0b5",
+          "enPdfPage": 266,
+          "sourceBounds": [
+            [
+              80,
+              425,
+              158,
+              550
+            ],
+            [
+              175,
+              449,
+              229,
+              518
+            ],
+            [
+              249,
+              425,
+              348,
+              554
+            ]
+          ],
+          "nativePaths": 70,
+          "sourceDirectlyCompared": true,
+          "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+          "leftLabels": [
+            "1",
+            "2",
+            "3",
+            "3",
+            "4",
+            "4",
+            "5",
+            "5",
+            "6",
+            "⊤"
+          ],
+          "rightLabels": [
+            "1",
+            "2",
+            "3",
+            "3",
+            "4",
+            "4",
+            "5",
+            "6",
+            "⊥",
+            "⊥",
+            "⊤",
+            "⊥",
+            "⊤",
+            "⊥",
+            "⊤"
+          ],
+          "leftArcsByNodeAndLoFlag": [
+            [
+              0,
+              true,
+              1
+            ],
+            [
+              0,
+              false,
+              3
+            ],
+            [
+              1,
+              true,
+              2
+            ],
+            [
+              2,
+              true,
+              4
+            ],
+            [
+              4,
+              true,
+              6
+            ],
+            [
+              6,
+              true,
+              8
+            ],
+            [
+              3,
+              true,
+              5
+            ],
+            [
+              5,
+              true,
+              7
+            ],
+            [
+              1,
+              false,
+              4
+            ],
+            [
+              2,
+              false,
+              6
+            ],
+            [
+              4,
+              false,
+              8
+            ],
+            [
+              3,
+              false,
+              7
+            ],
+            [
+              5,
+              false,
+              9
+            ],
+            [
+              6,
+              false,
+              9
+            ],
+            [
+              8,
+              true,
+              9
+            ],
+            [
+              7,
+              true,
+              9
+            ],
+            [
+              8,
+              false,
+              9
+            ],
+            [
+              7,
+              false,
+              9
+            ]
+          ],
+          "rightArcsByNodeAndLoFlag": [
+            [
+              0,
+              true,
+              1
+            ],
+            [
+              0,
+              false,
+              3
+            ],
+            [
+              1,
+              true,
+              2
+            ],
+            [
+              1,
+              false,
+              4
+            ],
+            [
+              2,
+              true,
+              8
+            ],
+            [
+              2,
+              false,
+              7
+            ],
+            [
+              3,
+              true,
+              5
+            ],
+            [
+              3,
+              false,
+              6
+            ],
+            [
+              4,
+              true,
+              6
+            ],
+            [
+              4,
+              false,
+              7
+            ],
+            [
+              5,
+              true,
+              9
+            ],
+            [
+              5,
+              false,
+              10
+            ],
+            [
+              6,
+              true,
+              11
+            ],
+            [
+              6,
+              false,
+              12
+            ],
+            [
+              7,
+              true,
+              13
+            ],
+            [
+              7,
+              false,
+              14
+            ]
+          ],
+          "cycleEdges": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "independentSets": [
+            [],
+            [
+              1
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3,
+              5
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              4,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ]
+          ],
+          "kernels": [
+            [
+              1,
+              3,
+              5
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ]
+        }
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Both formal tables with all factor tokens, small and large rows, and both original ellipses. Eq.(122) complete six-cycle and two ZDD diagrams with 18/16 edges, terminal distinctions, exact HI/LO families, and trailing cut sentence."
+      ],
+      "ocrRepairsOfNote": [
+        "Table 1 and 2 recovered with aligned editable TeX cells, not OCR split blocks. Terminal labels are ⊥ and ⊤."
+      ],
+      "syntaxCheck": {
+        "physicalPage": 222,
+        "markdownSha256": "136c6bd83aa969d8054145749ffce33459084be7a589758bef05883caab7fed9",
+        "htmlSha256": "6d24730f2ae4895069a2d1dd8cbd66fbd95802a47bd50b49a12466c9daf8a4b1",
+        "mathExpressions": 33,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-220-221-222.json",
+        "sha256": "eeefbb3dcdf86484fd3c81202a00e2c82eb7f4ef8d2bf069eb1e0ffb387ce7ee",
+        "cases": [
+          {
+            "physicalPage": 222,
+            "width": 1280,
+            "markdownSha256": "136c6bd83aa969d8054145749ffce33459084be7a589758bef05883caab7fed9",
+            "documentWidth": 1280,
+            "math": 33,
+            "mathml": 33,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 35,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 222,
+            "width": 390,
+            "markdownSha256": "136c6bd83aa969d8054145749ffce33459084be7a589758bef05883caab7fed9",
+            "documentWidth": 390,
+            "math": 33,
+            "mathml": 33,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 35,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Final 1280 and 390 full pages, all narrow right positions and listed interior/wide details inspected. The Eq.(122) SVG linked original opened and returned at both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/222-1280.png",
+          "sha256": "7d2282db8245eabc9044d2a3abf248b70e68dba7597d4a09d34c2af746e06f34",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/222-390.png",
+          "sha256": "00a730e46fcf1df9a36f8c88f7efcfa39a0dfd6b040e31e9865b61ad851dcba2",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/222-390-right.png",
+          "sha256": "466044f0158e34181ac8434d420e8ac87e5a8adb9005e4b7ff96f41c002b707d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/222-1280-wide-7-2.png",
+          "sha256": "8104aeaa19ad1786bc84149d57105c47b1eaad549bcad73e0747a24fa0237c7c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/222-390-wide-1-1.png",
+          "sha256": "9732fb9f55fe8489591216f6fc2b7192362b5248ab0b5880271b5907c0e83433",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/222-390-wide-7-1.png",
+          "sha256": "7cfe2caac168d58120ef1edb127b57f8a1fe41d13d51e51d293403eeea66aeff",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-222-68-multiplication-detail.png",
+          "sha256": "3779bab1881fb07b5106b1792ff6462d26294107de1e61f719d137e63cfa473b"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-222-530-multiplication-detail.png",
+          "sha256": "66a181031850b860ea49749cafca97f659c67d83d10707a1dc7b461790cf917f"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-265-61-multiplication-detail.png",
+          "sha256": "ec0ec2f97b072e77dff9b6a3bd31c875646dd3f01df83ab064db6fda7a299ef9"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-266-zdd-122-detail.png",
+          "sha256": "b792211f9ca3a79e12d835727f2971653be1de5777223e0cba3a7119291573c6"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "CN220–222 fully reviewed from both page images plus current browser pixels at desktop and mobile. Nine explicitly printed multiplication orders were evaluated; two source discrepancies are carried as qualified report findings.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "followingPageContinuation": "末句至223「相同的 ZDD」。",
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-multiplication-zdd-220-222.json",
+          "sha256": "aa9f0e97796b0beda9123f7a18a7ca9c04f4381bf17d4521436f4e54aa4ac95f",
+          "scope": "All 120 orders of the single five-variable theorem W example; finite formula approximation; original ten Table 1 and 2 cells, with sizes independently recomputed for nine explicit fixed factor pairs, leaving the one source ellipsis as printed. No extremum verification over 16- or 24-variable orders."
+        },
+        {
+          "file": "assets/volume4a/review/fixed-multiplication-table2-beads-222.json",
+          "sha256": "5e370d1a05f60bf01695af624d0c5ff094ac211fda61ff1626a63ca563039056",
+          "scope": "Distinct nonrepeated truth-table substrings, grouped by exact power-of-two block size, for the two discrepant fixed explicit orders only."
+        },
+        {
+          "file": "assets/volume4a/review/body-220-222-wide-details.json",
+          "sha256": "9c35cbef7dc53a392fb6b180d59d0690b502b9b4016c3d82216bd476ea2b18bd",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        },
+        {
+          "file": "assets/volume4a/review/body-222-original-links.json",
+          "sha256": "ba56f4dc985c8edcda38c9a707feb87218a1b0ce5f63f09314b56ea24101e61f",
+          "scope": "Actual linked original image opening and back navigation in current private proofs. No published route or separate whole-page cases."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "c46b75afada467543280f85ac27efca18c238ad37782c941945a3cf683c95060",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/222.json"
+    }
+  ],
+  "qualification": "CN220–222 fully reviewed from both page images plus current browser pixels at desktop and mobile. Nine explicitly printed multiplication orders were evaluated; two source discrepancies are carried as qualified report findings."
+}

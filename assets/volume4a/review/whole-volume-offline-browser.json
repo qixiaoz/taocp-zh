@@ -1,0 +1,697 @@
+{
+  "status": "passed",
+  "offlineHtmlSha256": "8b8345a33b0f3ab8581d59b99970788f9482f2ca57c5c282eca699ef70eb81b6",
+  "masterSha256": "bb25d9dbb1d0252e5309b3e48cd50a890ff5673ec609a08d76618432207399f1",
+  "staticComparisonSha256": "6e1aa24b1f3c48eebe22cf57037be565734f1bf26ef4f6a265514e943be62c92",
+  "browserRunSha256": "3f415cb134373c2485bb7488f418b9cfe3a947ea5f059693b9fd80b2fe427e62",
+  "framePixelMeasurementsSha256": "912cecc2b68fb46800af9f010c44971e297e5f4aba9f99bc9d7bba98d14b2f3c",
+  "browserVersion": "157.0.8103.79",
+  "viewportWidths": [
+    1440,
+    390
+  ],
+  "viewportHeight": 960,
+  "qaScope": "Two actual Chrome widths of one local offline full-volume document. Whole-volume text and TeX byte sequence separately verified by bound comparison.",
+  "sourceCorrection": "Directly rendered native MathML menclose absent. All 227 tags retained behind the visible KaTeX layer in assistive MathML. The intermediate issue of two unbraced boxed tokens is now resolved.",
+  "inventory": {
+    "nativeNonFallbackCount": 0,
+    "retainedInVisualFallbackMathML": 227,
+    "total": 227
+  },
+  "borderReading": {
+    "exactBoxCountPerWidth": {
+      "390": 42,
+      "1440": 42
+    },
+    "testedFourEdgesForEachBox": true,
+    "unbracedInlineTokens": [
+      {
+        "width": 1440,
+        "screenshot": "1440-bare-token-formula-boxes.png",
+        "tex": "\\boxed1",
+        "edgeDarkCoverage": {
+          "top": 1,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      {
+        "width": 1440,
+        "screenshot": "1440-bare-token-formula-boxes.png",
+        "tex": "\\boxed2",
+        "edgeDarkCoverage": {
+          "top": 1,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      {
+        "width": 390,
+        "screenshot": "390-bare-token-formula-boxes.png",
+        "tex": "\\boxed1",
+        "edgeDarkCoverage": {
+          "top": 1,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      {
+        "width": 390,
+        "screenshot": "390-bare-token-formula-boxes.png",
+        "tex": "\\boxed2",
+        "edgeDarkCoverage": {
+          "top": 1,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      }
+    ],
+    "visual": "Actual two desktop endpoints and three mobile sample offsets display all 42 distinct matrix boxes. The two former native inline boxes in print 200 both appear visibly framed at each width."
+  },
+  "actualNavigation": [
+    {
+      "width": 1440,
+      "kind": "physical-source-anchor-inside-logical-table",
+      "page": "pdf-709",
+      "target": "p-694",
+      "lastTableRowTop": 20.375
+    },
+    {
+      "width": 1440,
+      "kind": "fragment-click",
+      "from": "ex-7-2-1-2-77",
+      "to": "ans-7-2-1-2-77",
+      "destination": {
+        "id": "ans-7-2-1-2-77",
+        "top": 19.671875,
+        "bottom": 52.96875,
+        "text": "77. 题目"
+      }
+    },
+    {
+      "width": 1440,
+      "kind": "fragment-click",
+      "from": "ans-7-2-1-2-77",
+      "to": "ex-7-2-1-2-77",
+      "destination": {
+        "id": "ex-7-2-1-2-77",
+        "top": 20.25,
+        "bottom": 53.546875,
+        "text": "▸ 77. ［22］答案 用希普方法(27)，完成内循环出现在(42)中的MMIX程序。"
+      }
+    },
+    {
+      "width": 1440,
+      "kind": "fragment-click",
+      "from": "平滑改变／索引",
+      "to": "p-267",
+      "destination": {
+        "id": "p-267",
+        "top": 19.671875,
+        "bottom": 207.71875,
+        "text": "实践中，若元素都不同，L2 有一半时候找到 j=n−1j=n-1，因为恰有 n!/2n!/2 个排列满足 an−1<ana_{n-1}<a_n。识别这个特殊情形，能加快算法 L，又不使它复杂许多。（见习题 1。）类似地，元素都不同时，j≤n−tj\\le n-t 的概率只有 1/t!1/t!，所以 L"
+      }
+    },
+    {
+      "width": 1440,
+      "kind": "original-image-click-and-return",
+      "originalAsset": "assets/volume4a/figures/fig-7-4-mona-lisa.svg",
+      "alt": "蒙娜丽莎的数字再现图和局部特写图",
+      "naturalWidth": 800,
+      "naturalHeight": 355,
+      "viewBox": "40 245 390 173",
+      "returnedToExactFragment": true
+    },
+    {
+      "width": 390,
+      "kind": "physical-source-anchor-inside-logical-table",
+      "page": "pdf-709",
+      "target": "p-694",
+      "lastTableRowTop": 20.25
+    },
+    {
+      "width": 390,
+      "kind": "fragment-click",
+      "from": "ex-7-2-1-2-77",
+      "to": "ans-7-2-1-2-77",
+      "destination": {
+        "id": "ans-7-2-1-2-77",
+        "top": 20.34375,
+        "bottom": 49.9375,
+        "text": "77. 题目"
+      }
+    },
+    {
+      "width": 390,
+      "kind": "fragment-click",
+      "from": "ans-7-2-1-2-77",
+      "to": "ex-7-2-1-2-77",
+      "destination": {
+        "id": "ex-7-2-1-2-77",
+        "top": 20.03125,
+        "bottom": 79.21875,
+        "text": "▸ 77. ［22］答案 用希普方法(27)，完成内循环出现在(42)中的MMIX程序。"
+      }
+    },
+    {
+      "width": 390,
+      "kind": "fragment-click",
+      "from": "平滑改变／索引",
+      "to": "p-267",
+      "destination": {
+        "id": "p-267",
+        "top": 20.125,
+        "bottom": 305.59375,
+        "text": "实践中，若元素都不同，L2 有一半时候找到 j=n−1j=n-1，因为恰有 n!/2n!/2 个排列满足 an−1<ana_{n-1}<a_n。识别这个特殊情形，能加快算法 L，又不使它复杂许多。（见习题 1。）类似地，元素都不同时，j≤n−tj\\le n-t 的概率只有 1/t!1/t!，所以 L"
+      }
+    },
+    {
+      "width": 390,
+      "kind": "original-image-click-and-return",
+      "originalAsset": "assets/volume4a/figures/fig-7-4-mona-lisa.svg",
+      "alt": "蒙娜丽莎的数字再现图和局部特写图",
+      "naturalWidth": 800,
+      "naturalHeight": 355,
+      "viewBox": "40 245 390 173",
+      "returnedToExactFragment": true
+    }
+  ],
+  "documentMetrics": [
+    {
+      "width": 1440,
+      "kind": "document",
+      "context": "young-tableaux-formula",
+      "mathML": 45488,
+      "imageCount": 628,
+      "brokenVisibleImages": [],
+      "katexErrors": 0,
+      "docScrollWidth": 1440,
+      "docClientWidth": 1440,
+      "fonts": "loading"
+    },
+    {
+      "width": 1440,
+      "kind": "document",
+      "context": "mmix-listing",
+      "mathML": 45488,
+      "imageCount": 628,
+      "brokenVisibleImages": [],
+      "katexErrors": 0,
+      "docScrollWidth": 1440,
+      "docClientWidth": 1440,
+      "fonts": "loaded"
+    },
+    {
+      "width": 1440,
+      "kind": "document",
+      "context": "notation-table",
+      "mathML": 45488,
+      "imageCount": 628,
+      "brokenVisibleImages": [],
+      "katexErrors": 0,
+      "docScrollWidth": 1440,
+      "docClientWidth": 1440,
+      "fonts": "loaded"
+    },
+    {
+      "width": 1440,
+      "kind": "document",
+      "context": "page-267-after-index-click",
+      "mathML": 45488,
+      "imageCount": 628,
+      "brokenVisibleImages": [],
+      "katexErrors": 0,
+      "docScrollWidth": 1440,
+      "docClientWidth": 1440,
+      "fonts": "loaded"
+    },
+    {
+      "width": 390,
+      "kind": "document",
+      "context": "young-tableaux-formula",
+      "mathML": 45488,
+      "imageCount": 628,
+      "brokenVisibleImages": [],
+      "katexErrors": 0,
+      "docScrollWidth": 390,
+      "docClientWidth": 390,
+      "fonts": "loading"
+    },
+    {
+      "width": 390,
+      "kind": "document",
+      "context": "mmix-listing",
+      "mathML": 45488,
+      "imageCount": 628,
+      "brokenVisibleImages": [],
+      "katexErrors": 0,
+      "docScrollWidth": 390,
+      "docClientWidth": 390,
+      "fonts": "loaded"
+    },
+    {
+      "width": 390,
+      "kind": "document",
+      "context": "notation-table",
+      "mathML": 45488,
+      "imageCount": 628,
+      "brokenVisibleImages": [],
+      "katexErrors": 0,
+      "docScrollWidth": 390,
+      "docClientWidth": 390,
+      "fonts": "loaded"
+    },
+    {
+      "width": 390,
+      "kind": "document",
+      "context": "page-267-after-index-click",
+      "mathML": 45488,
+      "imageCount": 628,
+      "brokenVisibleImages": [],
+      "katexErrors": 0,
+      "docScrollWidth": 390,
+      "docClientWidth": 390,
+      "fonts": "loaded"
+    }
+  ],
+  "horizontalEndpoints": [
+    {
+      "width": 1440,
+      "kind": "horizontal",
+      "name": "young-tableaux-formula",
+      "side": "left",
+      "clientWidth": 728,
+      "scrollWidth": 788,
+      "scrollLeft": 0,
+      "portLeft": 356,
+      "portRight": 1084,
+      "top": 380.828125,
+      "bottom": 580.03125,
+      "contentLeft": 356,
+      "contentRight": 1142.078125,
+      "overflowX": "auto",
+      "screenshot": "1440-young-tableaux-formula-left.png",
+      "screenshotSha256": "2fea2d2cb3ef805cad8a877edc4bf4fea8d3765f40afcae6c5b4c4e30df3c68c"
+    },
+    {
+      "width": 1440,
+      "kind": "horizontal",
+      "name": "young-tableaux-formula",
+      "side": "right",
+      "clientWidth": 728,
+      "scrollWidth": 788,
+      "scrollLeft": 60,
+      "portLeft": 356,
+      "portRight": 1084,
+      "top": 380.828125,
+      "bottom": 580.03125,
+      "contentLeft": 296,
+      "contentRight": 1082.078125,
+      "overflowX": "auto",
+      "screenshot": "1440-young-tableaux-formula-right.png",
+      "screenshotSha256": "1364e10d0ea6044b15b1d74fac936b9d71eab2825d89cdf318a6d23138827610"
+    },
+    {
+      "width": 1440,
+      "kind": "horizontal",
+      "name": "mmix-listing",
+      "side": "left",
+      "clientWidth": 728,
+      "scrollWidth": 825,
+      "scrollLeft": 0,
+      "portLeft": 356,
+      "portRight": 1084,
+      "top": 0.296875,
+      "bottom": 885.296875,
+      "contentLeft": 368,
+      "contentRight": 1168.90625,
+      "overflowX": "auto",
+      "screenshot": "1440-mmix-listing-left.png",
+      "screenshotSha256": "e47bb583ca0c199f7e661c8381be2b9dd63fd9cdee121558d2e1c2f5e2f06cfd"
+    },
+    {
+      "width": 1440,
+      "kind": "horizontal",
+      "name": "mmix-listing",
+      "side": "right",
+      "clientWidth": 728,
+      "scrollWidth": 825,
+      "scrollLeft": 97,
+      "portLeft": 356,
+      "portRight": 1084,
+      "top": 0.296875,
+      "bottom": 885.296875,
+      "contentLeft": 271,
+      "contentRight": 1071.90625,
+      "overflowX": "auto",
+      "screenshot": "1440-mmix-listing-right.png",
+      "screenshotSha256": "8c0aa8272f892847023eb03d79e48311adff18e5ef0e56586e813a44fb8cd0ee"
+    },
+    {
+      "width": 1440,
+      "kind": "horizontal",
+      "name": "notation-table",
+      "side": "left",
+      "clientWidth": 728,
+      "scrollWidth": 798,
+      "scrollLeft": 0,
+      "portLeft": 356,
+      "portRight": 1084,
+      "top": -0.421875,
+      "bottom": 7889.984375,
+      "contentLeft": 358,
+      "contentRight": 1152.125,
+      "overflowX": "auto",
+      "screenshot": "1440-notation-table-left.png",
+      "screenshotSha256": "433eed67cf064499a42246da39707e7ad68e0a85cedab8d073277b4e3d3b52ac"
+    },
+    {
+      "width": 1440,
+      "kind": "horizontal",
+      "name": "notation-table",
+      "side": "right",
+      "clientWidth": 728,
+      "scrollWidth": 798,
+      "scrollLeft": 70,
+      "portLeft": 356,
+      "portRight": 1084,
+      "top": -0.421875,
+      "bottom": 7889.984375,
+      "contentLeft": 288,
+      "contentRight": 1082.125,
+      "overflowX": "auto",
+      "screenshot": "1440-notation-table-right.png",
+      "screenshotSha256": "d1ddf00ddb3bdf54be1fd1488cc9e6d9f3469d03b37d088329010b5ed5b455f7"
+    },
+    {
+      "width": 390,
+      "kind": "horizontal",
+      "name": "young-tableaux-formula",
+      "side": "left",
+      "clientWidth": 366,
+      "scrollWidth": 701,
+      "scrollLeft": 0,
+      "portLeft": 12,
+      "portRight": 378,
+      "top": 391.015625,
+      "bottom": 568.078125,
+      "contentLeft": 12,
+      "contentRight": 710.578125,
+      "overflowX": "auto",
+      "screenshot": "390-young-tableaux-formula-left.png",
+      "screenshotSha256": "f0c45711d2added8201e659dc6248d7cbb5999081bb3e2e3df98dae2a536ff81"
+    },
+    {
+      "width": 390,
+      "kind": "horizontal",
+      "name": "young-tableaux-formula",
+      "side": "right",
+      "clientWidth": 366,
+      "scrollWidth": 701,
+      "scrollLeft": 335,
+      "portLeft": 12,
+      "portRight": 378,
+      "top": 391.015625,
+      "bottom": 568.078125,
+      "contentLeft": -323,
+      "contentRight": 375.578125,
+      "overflowX": "auto",
+      "screenshot": "390-young-tableaux-formula-right.png",
+      "screenshotSha256": "915f041e1f072c03a116c6d64555538a316a226c1417073a84f3cf127756995c"
+    },
+    {
+      "width": 390,
+      "kind": "horizontal",
+      "name": "mmix-listing",
+      "side": "left",
+      "clientWidth": 366,
+      "scrollWidth": 825,
+      "scrollLeft": 0,
+      "portLeft": 12,
+      "portRight": 378,
+      "top": -0.015625,
+      "bottom": 884.984375,
+      "contentLeft": 24,
+      "contentRight": 824.90625,
+      "overflowX": "auto",
+      "screenshot": "390-mmix-listing-left.png",
+      "screenshotSha256": "710c33c90128b6d7b0c385d9df782dcdd4ea6d4f8ea112ac4fb1d623b92d9b33"
+    },
+    {
+      "width": 390,
+      "kind": "horizontal",
+      "name": "mmix-listing",
+      "side": "right",
+      "clientWidth": 366,
+      "scrollWidth": 825,
+      "scrollLeft": 459,
+      "portLeft": 12,
+      "portRight": 378,
+      "top": -0.015625,
+      "bottom": 884.984375,
+      "contentLeft": -435,
+      "contentRight": 365.90625,
+      "overflowX": "auto",
+      "screenshot": "390-mmix-listing-right.png",
+      "screenshotSha256": "8f0d24dc68fcb030c021e9b2a88b0c35677180c5eaca89bb1375418c6db126ff"
+    },
+    {
+      "width": 390,
+      "kind": "horizontal",
+      "name": "notation-table",
+      "side": "left",
+      "clientWidth": 366,
+      "scrollWidth": 717,
+      "scrollLeft": 0,
+      "portLeft": 12,
+      "portRight": 378,
+      "top": 0.03125,
+      "bottom": 7223.46875,
+      "contentLeft": 14,
+      "contentRight": 726.984375,
+      "overflowX": "auto",
+      "screenshot": "390-notation-table-left.png",
+      "screenshotSha256": "a21c97e651d3c2bd36c56217189cc684ac333f68bfc8d045e61c7b974f628b48"
+    },
+    {
+      "width": 390,
+      "kind": "horizontal",
+      "name": "notation-table",
+      "side": "right",
+      "clientWidth": 366,
+      "scrollWidth": 717,
+      "scrollLeft": 351,
+      "portLeft": 12,
+      "portRight": 378,
+      "top": 0.03125,
+      "bottom": 7223.46875,
+      "contentLeft": -337,
+      "contentRight": 375.984375,
+      "overflowX": "auto",
+      "screenshot": "390-notation-table-right.png",
+      "screenshotSha256": "703874897a62d0f60d8f9da145e188fa23cba15b5589822359757169caa5173a"
+    }
+  ],
+  "originalSvgNote": "At 390 px the linked raw SVG opens in its native full-width form, with the left part in the initial viewport. Both parts fit within the inline reading view.",
+  "screenshots": [
+    {
+      "width": 1440,
+      "name": "young-tableaux-formula-left",
+      "screenshot": "1440-young-tableaux-formula-left.png",
+      "screenshotSha256": "2fea2d2cb3ef805cad8a877edc4bf4fea8d3765f40afcae6c5b4c4e30df3c68c",
+      "actualPixelInspection": true
+    },
+    {
+      "width": 1440,
+      "name": "young-tableaux-formula-right",
+      "screenshot": "1440-young-tableaux-formula-right.png",
+      "screenshotSha256": "1364e10d0ea6044b15b1d74fac936b9d71eab2825d89cdf318a6d23138827610",
+      "actualPixelInspection": true
+    },
+    {
+      "width": 1440,
+      "name": "bare-token-formula-boxes",
+      "screenshot": "1440-bare-token-formula-boxes.png",
+      "screenshotSha256": "1af4f7703e82b46a5a076c26bd82f441e71b6b2be4497e415f51f95554403e63",
+      "actualPixelInspection": true
+    },
+    {
+      "width": 1440,
+      "name": "mmix-listing-left",
+      "screenshot": "1440-mmix-listing-left.png",
+      "screenshotSha256": "e47bb583ca0c199f7e661c8381be2b9dd63fd9cdee121558d2e1c2f5e2f06cfd",
+      "actualPixelInspection": false
+    },
+    {
+      "width": 1440,
+      "name": "mmix-listing-right",
+      "screenshot": "1440-mmix-listing-right.png",
+      "screenshotSha256": "8c0aa8272f892847023eb03d79e48311adff18e5ef0e56586e813a44fb8cd0ee",
+      "actualPixelInspection": false
+    },
+    {
+      "width": 1440,
+      "name": "notation-table-left",
+      "screenshot": "1440-notation-table-left.png",
+      "screenshotSha256": "433eed67cf064499a42246da39707e7ad68e0a85cedab8d073277b4e3d3b52ac",
+      "actualPixelInspection": false
+    },
+    {
+      "width": 1440,
+      "name": "notation-table-right",
+      "screenshot": "1440-notation-table-right.png",
+      "screenshotSha256": "d1ddf00ddb3bdf54be1fd1488cc9e6d9f3469d03b37d088329010b5ed5b455f7",
+      "actualPixelInspection": false
+    },
+    {
+      "width": 1440,
+      "name": "notation-source-709",
+      "screenshot": "1440-notation-source-709.png",
+      "screenshotSha256": "845e4e8bf5b7293c1274ecbf4eebff65eeb5ff4d460b77afe2bce030d1115de0",
+      "actualPixelInspection": false
+    },
+    {
+      "width": 1440,
+      "name": "answer-after-click",
+      "screenshot": "1440-answer-after-click.png",
+      "screenshotSha256": "c41a87f1debefea3d9482c8ef685477ec149322f8698d1b1a866203e567da3dd",
+      "actualPixelInspection": false
+    },
+    {
+      "width": 1440,
+      "name": "index-source",
+      "screenshot": "1440-index-source.png",
+      "screenshotSha256": "2c85b8651012751406ac29e9fd846c0c7c2a198a6a3c7b6b7200530ce3bc1b13",
+      "actualPixelInspection": false
+    },
+    {
+      "width": 1440,
+      "name": "page-267-after-index-click",
+      "screenshot": "1440-page-267-after-index-click.png",
+      "screenshotSha256": "12d7ee2a1d40c439cc2c447e32d052d6139648a9fa6641f6a00006576c965010",
+      "actualPixelInspection": false
+    },
+    {
+      "width": 1440,
+      "name": "figure-4-inline",
+      "screenshot": "1440-figure-4-inline.png",
+      "screenshotSha256": "1c49d0eedcdb7c036ad62820a5da7ec6e1f22f952607fbc18b8a13f7253d579b",
+      "actualPixelInspection": false
+    },
+    {
+      "width": 1440,
+      "name": "figure-4-open-original",
+      "screenshot": "1440-figure-4-open-original.png",
+      "screenshotSha256": "f0499a396f4eef4eee3b99e469dd3af90a70be1a87ba8f8608c59908bfd2d582",
+      "actualPixelInspection": false
+    },
+    {
+      "width": 390,
+      "name": "young-tableaux-formula-left",
+      "screenshot": "390-young-tableaux-formula-left.png",
+      "screenshotSha256": "f0c45711d2added8201e659dc6248d7cbb5999081bb3e2e3df98dae2a536ff81",
+      "actualPixelInspection": true
+    },
+    {
+      "width": 390,
+      "name": "young-tableaux-formula-right",
+      "screenshot": "390-young-tableaux-formula-right.png",
+      "screenshotSha256": "915f041e1f072c03a116c6d64555538a316a226c1417073a84f3cf127756995c",
+      "actualPixelInspection": true
+    },
+    {
+      "width": 390,
+      "name": "young-tableaux-middle-1",
+      "screenshot": "390-young-tableaux-middle-1.png",
+      "screenshotSha256": "beb8d23ed22509b6437809d8af81e3e33b62535111d68407545d4f79ecf924ce",
+      "actualPixelInspection": true
+    },
+    {
+      "width": 390,
+      "name": "bare-token-formula-boxes",
+      "screenshot": "390-bare-token-formula-boxes.png",
+      "screenshotSha256": "e81cd772c2316c3dad066b2b75de51d8873a9aef6ee56bc8671707eeafaf58ed",
+      "actualPixelInspection": true
+    },
+    {
+      "width": 390,
+      "name": "mmix-listing-left",
+      "screenshot": "390-mmix-listing-left.png",
+      "screenshotSha256": "710c33c90128b6d7b0c385d9df782dcdd4ea6d4f8ea112ac4fb1d623b92d9b33",
+      "actualPixelInspection": false
+    },
+    {
+      "width": 390,
+      "name": "mmix-listing-right",
+      "screenshot": "390-mmix-listing-right.png",
+      "screenshotSha256": "8f0d24dc68fcb030c021e9b2a88b0c35677180c5eaca89bb1375418c6db126ff",
+      "actualPixelInspection": true
+    },
+    {
+      "width": 390,
+      "name": "notation-table-left",
+      "screenshot": "390-notation-table-left.png",
+      "screenshotSha256": "a21c97e651d3c2bd36c56217189cc684ac333f68bfc8d045e61c7b974f628b48",
+      "actualPixelInspection": false
+    },
+    {
+      "width": 390,
+      "name": "notation-table-right",
+      "screenshot": "390-notation-table-right.png",
+      "screenshotSha256": "703874897a62d0f60d8f9da145e188fa23cba15b5589822359757169caa5173a",
+      "actualPixelInspection": true
+    },
+    {
+      "width": 390,
+      "name": "notation-source-709",
+      "screenshot": "390-notation-source-709.png",
+      "screenshotSha256": "bf627f5c910f8c9a1b9f339f325e569b4ede269864c5bb2886161420d8098864",
+      "actualPixelInspection": false
+    },
+    {
+      "width": 390,
+      "name": "answer-after-click",
+      "screenshot": "390-answer-after-click.png",
+      "screenshotSha256": "a92fa1ff873f0a1b9dd50cbd5c29831745408895fcc0eb63b2f24b9bedc8ac7d",
+      "actualPixelInspection": false
+    },
+    {
+      "width": 390,
+      "name": "index-source",
+      "screenshot": "390-index-source.png",
+      "screenshotSha256": "1696e0835cc0eed83ced81152d22c16ebe4e483e1be3c30dd209e76ccf1388b1",
+      "actualPixelInspection": false
+    },
+    {
+      "width": 390,
+      "name": "page-267-after-index-click",
+      "screenshot": "390-page-267-after-index-click.png",
+      "screenshotSha256": "1612bd3b2a8be577cd4c006009cc33c7f4ffbd462aa331dc366f3d7267485984",
+      "actualPixelInspection": true
+    },
+    {
+      "width": 390,
+      "name": "figure-4-inline",
+      "screenshot": "390-figure-4-inline.png",
+      "screenshotSha256": "9819a665456393faebb7c8f79d4e560908b31a9240eeeb3b0e745a5be6e52cb7",
+      "actualPixelInspection": true
+    },
+    {
+      "width": 390,
+      "name": "figure-4-open-original",
+      "screenshot": "390-figure-4-open-original.png",
+      "screenshotSha256": "00390ee4567bc304214dad73a38bc30716186d37b5720649c35df4636706d14b",
+      "actualPixelInspection": false
+    }
+  ],
+  "browserClosed": true,
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "reviewerType": "model-actual-browser-and-observed-pixels",
+  "humanSignOff": false,
+  "privateOriginalReceiptSha256": "93d4b56d35f191c84f82266c81018a403a577408fcb9afaffa103e63712f645c"
+}

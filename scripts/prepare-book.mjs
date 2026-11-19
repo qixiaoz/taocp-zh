@@ -9,6 +9,7 @@ import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { zipSync, unzipSync } from 'fflate';
 import { volumes, enabledVolumes, volumeManifestFile } from './book-volumes.mjs';
+import { sourceAnchorIds } from './book-anchors.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DOCS = path.join(ROOT, 'docs');
@@ -70,7 +71,9 @@ function includeLeadingPageAnchors(index) {
   return start;
 }
 const boundaries = [{ start: 0, route: `${prefix}/frontmatter`, title: '卷前', kind: 'frontmatter', section: null, anchor: 'pdf-001', headingLine: volume.frontmatterHeadingLine }];
-const sectionPattern = /^<a id="(sec-[^"]+)"><\/a>\s*$/;
+// Some source pages put their page and section anchors on the same line.
+// Keep that line intact while recognizing the section that follows the pages.
+const sectionPattern = /^(?:<a id="(?:pdf-\d+|p-[^"]+)"><\/a>\s*)*<a id="(sec-[^"]+)"><\/a>\s*$/;
 let answerStart, answerEnd;
 for (let i = 0; i < lines.length; i++) {
   const match = lines[i].trim().match(sectionPattern);
@@ -82,7 +85,8 @@ for (let i = 0; i < lines.length; i++) {
     && ![volume.answerStartAnchor, ...volume.appendixAnchors, ...volume.indexAnchors].includes(anchor)) continue;
   let headingLine = i + 1;
   while (headingLine < lines.length && !/^#{1,6}\s+/.test(lines[headingLine])) headingLine++;
-  assert(headingLine < i + 5, `No heading immediately after ${anchor}`);
+  const headingLookahead = volume.headingLookahead?.[anchor] ?? 5;
+  assert(headingLine < i + headingLookahead, `No heading within the configured range after ${anchor}`);
   const title = lines[headingLine].replace(/^#+\s+/, '').trim().replace(/\\\*/g, '*');
   const kind = volume.appendixAnchors.includes(anchor) ? 'appendix' : volume.indexAnchors.includes(anchor) ? 'index' : anchor === volume.answerStartAnchor ? 'answers-index' : 'body';
   const section = /^sec-\d/.test(anchor) ? anchor.slice(4).replaceAll('-', '.') : null;
@@ -155,13 +159,13 @@ const pages = boundaries.map((boundary, i) => {
 });
 assert(pages.map(x => x.raw).join('') === lines.join(''), 'Source partition is not lossless');
 const anchorRoutes = {};
-const originalAnchors = [...source.matchAll(/<a\s+id="([^"]+)"[^>]*>/g)].map(x => x[1]);
+const originalAnchors = sourceAnchorIds(source);
 assert(new Set(originalAnchors).size === originalAnchors.length, 'The master has duplicate explicit anchors');
 const sourcePageAnchors = originalAnchors.filter(id => /^pdf-\d+$/.test(id));
 assert(sourcePageAnchors.length === volume.expectedSourcePages, `Source page anchor count differs from the confirmed count for ${volume.id}`);
 assert(Array.from({ length: volume.expectedSourcePages }, (_, index) => `pdf-${String(index + 1).padStart(3, '0')}`).every(id => sourcePageAnchors.includes(id)), `A physical source page anchor is missing from ${volume.id}`);
 for (const page of pages) {
-  page.anchors = [...page.raw.matchAll(/<a\s+id="([^"]+)"[^>]*>/g)].map(x => x[1]);
+  page.anchors = sourceAnchorIds(page.raw);
   for (const anchor of page.anchors) {
     assert(!anchorRoutes[anchor], `Duplicate split anchor ${anchor}`);
     anchorRoutes[anchor] = page.route;

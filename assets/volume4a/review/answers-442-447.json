@@ -1,0 +1,543 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "status": "Completed source-page batch; no whole-volume or online acceptance",
+  "cnPdfPageRange": [
+    442,
+    447
+  ],
+  "cnPrintedPageRange": [
+    "427",
+    "432"
+  ],
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignOff": false,
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+  "scope": [
+    "Original independent intro answers1/2/3",
+    "Complete section7 answers1-35, including all original footnotes and notes"
+  ],
+  "pages": [
+    {
+      "cnPdfPage": 442,
+      "cnPrintedPage": "427",
+      "enPdfPages": [
+        531,
+        532
+      ],
+      "pageMarkdownSha256": "4eb70a3ce904aeea387ce7fdda2a05233becad102b1b88dd9d2ea276721d0eeb",
+      "sourcePageImageSha256": "6dd8614832500529a470a76f306016907ff901ea21a06738970d136a88aef4ce",
+      "enPageImages": [
+        {
+          "physicalPage": 531,
+          "sha256": "870be2d3bf33dd1d1b2a2f20fb30112213ff450e70c03024be701126c43c722f"
+        },
+        {
+          "physicalPage": 532,
+          "sha256": "8224a3fc688e8f96c048bb2ffbacc787b4d9e2d2a454611e5156cb6d7e840393"
+        }
+      ],
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "coveredRegions": [
+        "Original Answers heading and Proverbs26:4 quotation/attribution omitted by OCR",
+        "All three independent Notes answers1/2/3 and full original citations",
+        "Section7 heading and answers1-5, all four hex strings and complete approximate-product display",
+        "Answer6(a) and first paragraph6(b), through O(n)",
+        "Complete original Chinese editor footnote about Concrete Mathematics"
+      ],
+      "substantiveCorrections": [
+        {
+          "section": "习题说明答案1",
+          "cnPrintedPage": "427",
+          "enLocation": "PDF531 printed514 first answer1",
+          "original": "普通问题",
+          "final": "中等偏易的问题",
+          "basis": "English says moderately easy. In the book's rating scheme average is rating20, while M15 denotes a mathematically inclined reader's easier-than-average problem; preserve the original rating and restore the answer's meaning."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "cn": "Original editor footnote gives Chinese Concrete Mathematics publication details",
+          "en": "English simply abbreviates CMath and has no Chinese-edition footnote",
+          "disposition": "Keep the original Chinese editor footnote in full; do not treat it as newly added project commentary."
+        },
+        {
+          "cn": "Original compact Poincare/Bing/Perelman bibliography",
+          "en": "Author2022 amendment expands bibliographic fields with full journal name/years/page counts",
+          "disposition": "Keep the valid Chinese source bibliography; record later expansion as supplementary reference, not an invented proof or automatic wholesale later-edition replacement."
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 442,
+        "markdownSha256": "4eb70a3ce904aeea387ce7fdda2a05233becad102b1b88dd9d2ea276721d0eeb",
+        "htmlSha256": "b75dc4e17d6c76d2feb8e46b4a3f5a90c19d83a3b2d6943c8316bac7ce2d28e9",
+        "mathExpressions": 31,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "0ea8ec918d5594638bc01ec5abc1a7b493d40fd3bee754ab57aa8bc3448369a4"
+    },
+    {
+      "cnPdfPage": 443,
+      "cnPrintedPage": "428",
+      "enPdfPages": [
+        532,
+        533
+      ],
+      "pageMarkdownSha256": "6573633a3b8a048ce457babcff6330b62c3534200a407bbf98ff597c774448ec",
+      "sourcePageImageSha256": "191954f5b56ef6bcf38c8f50a28ae1367b3cb1185085d16b796923b187f7d4b6",
+      "enPageImages": [
+        {
+          "physicalPage": 532,
+          "sha256": "8224a3fc688e8f96c048bb2ffbacc787b4d9e2d2a454611e5156cb6d7e840393"
+        },
+        {
+          "physicalPage": 533,
+          "sha256": "c8b5a0c17678f300b16344e1ccb7a2b1c90930649e1528e2db50851d69fb2fc1"
+        }
+      ],
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "coveredRegions": [
+        "Complete continuation of answer6(b) and answer6(c), including every index, sign, exponent and modular computation",
+        "Complete answers7-12, including all original historical and bibliographic notes",
+        "Four planar Langford diagrams, all64 digits and32 original three-segment connections",
+        "All three27-digit triplet examples",
+        "All original playing-card suits and both worked values",
+        "Complete4x4 Latin/Greek/Hebrew matrix, all48 component symbols",
+        "Cyclic Latin-square transversal argument with exact source summation bounds"
+      ],
+      "substantiveCorrections": [
+        {
+          "section": "第7章答案6(b)",
+          "cnPrintedPage": "428",
+          "enLocation": "PDF532 printed515 answer6(b)",
+          "original": "还可以保留⌈n/2⌉二进制位精度",
+          "final": "还可以将所需的二进制精度减少⌈n/2⌉位",
+          "basis": "English explicitly says save ceil(n/2) bits of precision, not retain only this many bits. Restore the direction of the precision saving implied by the parity of the factors."
+        },
+        {
+          "section": "第7章答案9",
+          "cnPrintedPage": "428",
+          "enLocation": "Author official err4a.textxt, amendment to printed516 last line answer9,2022-12-09",
+          "original": "132行",
+          "final": "132个选项",
+          "basis": "Author terminology amendment rows becomes options. Chinese and provided old English both use rows; this is a documented later author terminology update, not an OCR error or independently inferred change in the count132."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "cn": "Additional explicit coprimality statement2^49 perpendicular2^60-1",
+          "en": "Not stated in the supplied English paragraph",
+          "disposition": "Keep Chinese explanation; exact integer gcd independently equals1."
+        },
+        {
+          "cn": "Exercise reference7.2.2.1-27 and Andersen's published2013 chapter11",
+          "en": "Older reflow gives exercise7.2.2.1-00 and says Andersen article is being prepared",
+          "disposition": "Keep Chinese edition's more specific reference and original publication details; do not revert them to English placeholders."
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 443,
+        "markdownSha256": "6573633a3b8a048ce457babcff6330b62c3534200a407bbf98ff597c774448ec",
+        "htmlSha256": "aed8d3e82dec8f9bade47299bbb108cba15481bc76604d1e2bbce1d3149027cf",
+        "mathExpressions": 76,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 4,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "de575346cfa7a2f6fedbde9ed865fe80386bee28efa65f9e11394a7dd10b4986"
+    },
+    {
+      "cnPdfPage": 444,
+      "cnPrintedPage": "429",
+      "enPdfPages": [
+        533,
+        534
+      ],
+      "pageMarkdownSha256": "c63eace269e70fda7525efbc981f1b1527ec2c68b65ece2e902d06a79eed99ea",
+      "sourcePageImageSha256": "9adececfe3dd54d19b8dfa7c7dcd4b302abecd4b956f54076277d8344e102c5c",
+      "enPageImages": [
+        {
+          "physicalPage": 533,
+          "sha256": "c8b5a0c17678f300b16344e1ccb7a2b1c90930649e1528e2db50851d69fb2fc1"
+        },
+        {
+          "physicalPage": 534,
+          "sha256": "589b0dbee7a808bfe52560514c29b572a4229f6fecad14d3c228a8f2c88517bb"
+        }
+      ],
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "coveredRegions": [
+        "Complete answer13 including quadrants, parity proof and Mann citation",
+        "Complete answer14 and all60 ten-digit cells of six order10 mate examples, original notes and all counts",
+        "Complete answer15 including all five permutations, both10x10 matrices, full source bibliography and final existence paragraph",
+        "Complete answer16 bibliography",
+        "Answer17(a) complete hypergraph construction"
+      ],
+      "substantiveCorrections": [
+        {
+          "section": "第7章答案13",
+          "cnPrintedPage": "429",
+          "enLocation": "PDF533 printed516 answer13 first paragraph",
+          "original": "它与A和D有同等的相交条件",
+          "final": "它与A和D相交的次数相同",
+          "basis": "English equally often specifies equal numbers of intersections, the parity argument requires this counting equality rather than merely similar conditions."
+        },
+        {
+          "section": "第7章答案13",
+          "cnPrintedPage": "429",
+          "enLocation": "Author err4a.textxt correction to printed516 last line answer13,2024-02-13",
+          "original": "Bull. Amer. Math. Soc. (2)50",
+          "final": "Bull. Amer. Math. Soc.50",
+          "basis": "Official author correction removes the spurious series(2); volume/year/pages unchanged."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "cn": "Answer17 uses vertices and hyperedges",
+          "en": "Provided old English uses incidence-matrix columns and rows with1 entries",
+          "disposition": "Keep the equivalent Chinese hypergraph representation, including v_l not v_i; do not mechanically revert mathematical terminology."
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 444,
+        "markdownSha256": "c63eace269e70fda7525efbc981f1b1527ec2c68b65ece2e902d06a79eed99ea",
+        "htmlSha256": "e7e13f519ac53a263deb99e61e9c8367107162b467ee68403951652553b8e2d4",
+        "mathExpressions": 43,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "f20f3f48996ea9af2a61afbfaa1aa8b13eaeacbc07f819f82bb4bc70f0c7b14c"
+    },
+    {
+      "cnPdfPage": 445,
+      "cnPrintedPage": "430",
+      "enPdfPages": [
+        534,
+        535
+      ],
+      "pageMarkdownSha256": "3d57e6aaec2455e6333c9369c6e38a602cdc27c180e3e0b1ab94bb25c254a65a",
+      "sourcePageImageSha256": "d5fbfae33a0ac22fb3ba24031a459f5397b1d6f6fda9b273672eeb81600f3d91",
+      "enPageImages": [
+        {
+          "physicalPage": 534,
+          "sha256": "589b0dbee7a808bfe52560514c29b572a4229f6fecad14d3c228a8f2c88517bb"
+        },
+        {
+          "physicalPage": 535,
+          "sha256": "8ba9fd6e093bf7cae84311c68c3d31caf90a5b8cde198683d4ddb6b90ba890a7"
+        }
+      ],
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "coveredRegions": [
+        "Complete continuation17(b), all four doubly-indexed vertices and option restriction",
+        "Complete answer18 including80-digit5x16 array, Latin/Greek/Hebrew mapping, both abstract n-square matrices, original general-strength/index bibliography",
+        "Complete answer19 including150-digit6x25 array, exact prime construction and finite-field/projective-plane notes",
+        "Complete answer20 root-of-unity identity",
+        "Answer21(a),(b) complete, all parallel/intersection symbols and references(ii)/(iii)"
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [
+        {
+          "cn": "Hypergraph vertices/hyperedges in17(b)",
+          "en": "Incidence columns/rows in the supplied English",
+          "disposition": "Keep equivalent Chinese representation and unchanged source restriction i=k or j>0."
+        },
+        {
+          "cn": "正交阵列概念更彻底",
+          "en": "English uses mathematically cleaner",
+          "disposition": "Keep Chinese wording as an interpretive phrasing difference; exact construction and symmetry statement preserved."
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 445,
+        "markdownSha256": "3d57e6aaec2455e6333c9369c6e38a602cdc27c180e3e0b1ab94bb25c254a65a",
+        "htmlSha256": "ee54a29d4c5260c449f1d00b1ee9b9249413dd8b3a205ef80ff34363b102b7aa",
+        "mathExpressions": 77,
+        "displayMath": 3,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "ab68761cabfdce5495ef3e0d393339963d713dd5167cc3ac6e7e5d40ee120825"
+    },
+    {
+      "cnPdfPage": 446,
+      "cnPrintedPage": "431",
+      "enPdfPages": [
+        55,
+        535,
+        536
+      ],
+      "pageMarkdownSha256": "652d6331f8c6906e9e6d11975ef146ec63a4c08e6bcee54a0cab2d95810737a3",
+      "sourcePageImageSha256": "d6623b536af8a66a3c2e58c7433a10b40dbb52e98f5a4c02dee80f9439a3b2ae",
+      "enPageImages": [
+        {
+          "physicalPage": 55,
+          "sha256": "fc930a65c9fca8cd6e35cb8539b79067b0a7ccf7fa6785f01c28f97a6783ea24"
+        },
+        {
+          "physicalPage": 535,
+          "sha256": "8ba9fd6e093bf7cae84311c68c3d31caf90a5b8cde198683d4ddb6b90ba890a7"
+        },
+        {
+          "physicalPage": 536,
+          "sha256": "c9787b58406926ed8cef3eb82b118eb542cba3c54ced916ab7327e8fd975971f"
+        }
+      ],
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "coveredRegions": [
+        "Complete answer21(c) and22, including general and two-class geometric nets and all original bibliography",
+        "Complete answer23(a),(b,c) and code notation",
+        "Complete answer24(a),(b), all witness-bit indices,30-parity/25-point example, both punctured variants and bibliography",
+        "Complete answers25-27, five-word square, original English16-word sentence and original Chinese editor full-house footnote",
+        "Actual source questions23-34 on CN045/EN055 inspected for semantic correspondence; no entire-question-page acceptance inferred"
+      ],
+      "substantiveCorrections": [
+        {
+          "section": "第7章答案21(c)",
+          "cnPrintedPage": "431",
+          "enLocation": "PDF535 printed518 answer21(c)",
+          "original": "存在一条点数为n的普通直线",
+          "final": "各条直线具有共同的点数n",
+          "basis": "a common line size n means the uniform cardinality of each line, not existence of one ordinary line; this is the uniformity claimed by source question21(c)."
+        },
+        {
+          "section": "第7章答案24(b)",
+          "cnPrintedPage": "431",
+          "enLocation": "PDF536 printed519 answer24(b)",
+          "original": "那些直线的指示符的数量",
+          "final": "那些直线的编号",
+          "basis": "index numbers label individual lines l_p1,...,l_pm; the source does not mean the number of indicators."
+        },
+        {
+          "section": "第7章答案25",
+          "cnPrintedPage": "431",
+          "enLocation": "PDF536 printed519 answer25",
+          "original": "telas是西班牙语构词",
+          "final": "telas是西班牙语的“织物”（复数）",
+          "basis": "English explicitly states Spanish fabrics; restore the meaning of the word rather than describing it as word formation."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "cn": "Existing Golomb/Posner citation and valid code-notation explanation in23, original Leighton1992 sentence in26",
+          "en": "Author2024 amendment rearranges citation and adds Hamming reference;2025 amendment replaces26 with a longer new example",
+          "disposition": "Keep valid Chinese source text and historical example. Later bibliography expansion/new example documented as later author amendments, not silently substituted into this source edition."
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 446,
+        "markdownSha256": "652d6331f8c6906e9e6d11975ef146ec63a4c08e6bcee54a0cab2d95810737a3",
+        "htmlSha256": "bcc3af18bbc6b79bdb4d5447063fa8f66c990388bad1d4094fdf4a702f0f4df7",
+        "mathExpressions": 97,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [
+          5
+        ],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "dade909f58de5235e6aa21db5e3d0db624426c01130e3662a5622d09fb825411"
+    },
+    {
+      "cnPdfPage": 447,
+      "cnPrintedPage": "432",
+      "enPdfPages": [
+        55,
+        536,
+        537
+      ],
+      "pageMarkdownSha256": "cbdd2a5db62c3f843f342a60b0f71bb95c8b9aaf897f89a38fd838b2dd9e3202",
+      "sourcePageImageSha256": "8c57e58658ef647d4787ed42d8d4763b16a0360da22daf2153e9fa7f0734a517",
+      "enPageImages": [
+        {
+          "physicalPage": 55,
+          "sha256": "fc930a65c9fca8cd6e35cb8539b79067b0a7ccf7fa6785f01c28f97a6783ea24"
+        },
+        {
+          "physicalPage": 536,
+          "sha256": "c9787b58406926ed8cef3eb82b118eb542cba3c54ced916ab7327e8fd975971f"
+        },
+        {
+          "physicalPage": 537,
+          "sha256": "1b79d6374827d15fd228d272bae9525169d4d0d5df96a6818a979a079a2b9e91"
+        }
+      ],
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "coveredRegions": [
+        "Complete answers28-35, every word spelling, rank, count and bibliographic citation",
+        "All26 source answer33 words, retaining four words missing from supplied English answer",
+        "All32 vowel-mask cases, all category counts, first words, three empty categories and original historical Internet-usage note",
+        "All12 trie threshold ranks, given16-word reverse binary example and81-leaf ternary statement",
+        "Both complete original Chinese editor footnotes on wrong and rational",
+        "Question28 +/-1,31 nonzero every-coordinate arithmetic progression,32 interleaving and34 y-exclusion conditions directly checked on actual CN045/EN055 images"
+      ],
+      "substantiveCorrections": [
+        {
+          "section": "第7章答案28",
+          "cnPrintedPage": "432",
+          "enLocation": "PDF536 printed519 answer28",
+          "original": "回顾以上情形，配对中都有一个单词以字母s结束。此外，还有诸如robed spade之类……",
+          "final": "在这38种配对中，除4种情况外，都有一个单词以字母s结束；例外如robed spade。",
+          "basis": "Original English explicitly gives four exceptions; restore the omitted numerical scope. Independent enumeration on the exact fixed5757 list confirms38 pairs and4 non-s-ending exceptions."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "cn": "Answer33 starts about,bacon,faced,under,chief,... and contains26 words",
+          "en": "Provided English answer537 starts chief,... and contains only22 words; actual English question55 itself supplies the omitted first4",
+          "disposition": "Keep complete Chinese list. Do not cut four items to match incomplete reflow answer. Fixed-word-data optimization independently reproduces25 actual successor choices, with the explicitly stated missing y->z case."
+        },
+        {
+          "cn": "Two original Chinese editor footnotes explain wordplay",
+          "en": "English source does not contain these translator notes",
+          "disposition": "Preserve original Chinese notes in full, do not recast as project commentary."
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 447,
+        "markdownSha256": "cbdd2a5db62c3f843f342a60b0f71bb95c8b9aaf897f89a38fd838b2dd9e3202",
+        "htmlSha256": "8da4d28fa474533d320dd6db7dc3cf49bb9031a1ffa9cab7d11a970b2647df1e",
+        "mathExpressions": 13,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "3a12888f2a007bcbef492ef36b6c8e9e8f00e0c6e0997121e6d82f7e9f32da4a"
+    }
+  ],
+  "privateContinuousSectionSha256": "0efd0cf88f48c73971ee565617269c2a57a1679fc3592cbfb694d1bacffdd995",
+  "browserChecks": {
+    "widths": [
+      1280,
+      390
+    ],
+    "cases": 12,
+    "mathExpressionsPerPass": 337,
+    "allDeclaredKaTeXFontsLoaded": true,
+    "parseErrors": 0,
+    "missingImages": 0,
+    "pageErrors": 0,
+    "wholePageHorizontalOverflow": 0,
+    "sourceBrowserEvidenceSha256": [
+      "053d9f21338d26ffa776a4d0d219ebabe8c8af15b70cf9f2b9f7e2550613adac",
+      "9eabab216a2ba71e0547167014cd284451c53c596c7cbc7b2cbf36a0d5d14766",
+      "6eb7dc6c5b9be00cb1b16aec2cb00b515d56eaad0bdd3386c9d35af49a272d57"
+    ]
+  },
+  "finiteIndependentChecks": {
+    "fourPlanarLangfordClasses_n8": 4,
+    "noPlanarClasses_n4or7": true,
+    "sixOrder10ExamplesRowColumnLatin": true,
+    "sixExamplesOrthogonalityToQuestion14Bases": "Pending actual base-matrix transcription",
+    "selfOrthogonalMatrixPairAndFiveTransversalsUnion": 49,
+    "orthogonalArrayDimensions": [
+      [
+        5,
+        16
+      ],
+      [
+        6,
+        25
+      ]
+    ],
+    "allArrayRowPairsComplete": true,
+    "correctedErrorMasksAndTargetCases": [
+      [
+        55,
+        3,
+        27776,
+        694400
+      ],
+      [
+        45,
+        2,
+        1036,
+        25900
+      ],
+      [
+        35,
+        1,
+        36,
+        900
+      ]
+    ],
+    "plusMinusOneWordPairs": 38,
+    "nonSEndingExceptions": 4,
+    "palindromes": 18,
+    "nonpalindromicMirrorPairs": 34,
+    "alphabeticalWordsAscendingDescending": [
+      105,
+      37
+    ],
+    "strictEveryCoordinateArithmeticTriples": 119,
+    "allVowelMasksAndFirstTwoWordsChecked": 32,
+    "allHortonStrahlerThresholdsChecked": 12,
+    "reversedCompleteBinaryAndTernaryLeafCounts": [
+      16,
+      81
+    ]
+  },
+  "numericEvidenceSha256": {
+    "442-numerics.json": "7f6030e6f65cbc0495efdd392128a279f162ce8a6baaabcc0c13da810dc05065",
+    "443-numerics.json": "4cc5d6d39ffdc1ff168af635266e2f1ac1f637f5fcfe08e8e71966f6e55dc66c",
+    "444-445-numerics.json": "65a1991089d7b36aa36a02c6488e96f45a2a2842285430403165dc64713dbae7",
+    "446-numerics.json": "c3b5acaebb35bb035af71858ce6417e93dcb7457523bb3ca97aa2baf2eee5259",
+    "447-numerics.json": "952e076cff582697ebdad90d4df2791dfbf686d22f50bbaf1ce35eba201e0f32"
+  },
+  "qualifications": [
+    "Source-page status is bound to the specified current page hashes, not a future assembled master",
+    "No full mate-count enumeration or proof of all original historical claims",
+    "Provided English answer33 lacks4 words; actual Chinese answer and original English question were checked and retained",
+    "Whole source-question map, mother inclusion, offline proof, routed production site and online release pending"
+  ],
+  "additionalValidation": {
+    "record": "assets/volume4a/review/answer-7-14-orthogonality.json",
+    "scope": "The initial batch correctly left base-matrix matching pending. A later independently bound500-digit question fragment now validates all6 shown mates; original source-page review records retain their historical scope."
+  }
+}

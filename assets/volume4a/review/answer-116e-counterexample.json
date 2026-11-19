@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "issue": "7.1.1answer116emaximizes-min-scope",
+  "status": "Independentmodelconfirmedfinitecounterexample;originalsourcepreserved",
+  "isAuthorOfficialErratum": false,
+  "humanSignOff": false,
+  "pageMarkdownSha256": {
+    "478": "cc08ff4d1e458bfb9ccad8cb4cc98c9f8f8c41f18d06f8db00c05c8ab72295a0",
+    "479": "d852b566b417e4d7dc39c6e3e148ce1b24ae2b89d95c9f3e6a81f05dbb453a9b"
+  },
+  "sourceQuestion": {
+    "enPdfPage": 111,
+    "enPrintedPage": 94,
+    "imageSha256": "f307f344e79c31a18cf7794edae52f22d129a0c69e3e8176a7ee83ed35071aee",
+    "scope": "Exercise116only,notfullENpageverification",
+    "requirement": "ExistenceofsymmetricfwithbothfanditscomplementhavingTheta(2^(3n/2)/n)primeimplicants;noexclusionofparityfunctions"
+  },
+  "sourceAnswer": {
+    "enPdfPage": 574,
+    "enPrintedPage": 557,
+    "imageSha256": "62b4eeceb4e1c2637817756e378a72f4ba7c7b1ec4b844b2b7028258c42f8f53",
+    "minimumCropSha256": "abb3877b2f3a0c508750cf62b21818629391b2a4ee1ce94edafad621dd073969",
+    "cnPdfPage": 479,
+    "cnPrintedPage": 464,
+    "assertion": "Thelistedconstructionmaximizestheminimumofprime-implicantcountsforfandfbar",
+    "printedN2": 1
+  },
+  "counterexample": {
+    "n": 2,
+    "f": "x1XORx2=S1",
+    "primeImplicants": [
+      "x1ANDnotx2",
+      "notx1ANDx2"
+    ],
+    "complementPrimeImplicants": [
+      "x1ANDx2",
+      "notx1ANDnotx2"
+    ],
+    "eachCount": 2,
+    "minimum": 2,
+    "greaterThanPrintedN2": true,
+    "all9PossibleTwoVariableCubesDirectlyChecked": true
+  },
+  "independentSecondModel": {
+    "actualQuestionAndAnswerImagesRead": true,
+    "confirmedNoMissingDomainRestriction": true,
+    "confirmedN2Counterexample": true,
+    "noBroaderEnumerationOrLiteratureClaim": true
+  },
+  "disposition": "Retainoriginaltext/sequence. Thisquestionsonlytheextraunqualifiedglobalmaximizationclaim;doesnotrefutetheconstructionvaluesortheasymptoticexistenceconclusion. Author-intendedconstructionfamilyrestrictionremainsunknown."
+}

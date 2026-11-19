@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "scope": "Onlytheprinted20literal87terms/64case88prime-weightreduction/2^20case89specifiedbinary-thresholdreduction/13popcountclassesandprintedcountlist91. NogeneralTheoremTprooforclaimofminimalweights/all1504-variablefunctions.",
+  "pageMarkdownHashes": {
+    "76": "ccdb50ba519c35bb9ea8c1cdc186d1c583d9cecf7123fc8d52c4aa8a72caa4f1",
+    "77": "fea8b5292638bd6127a72c010772242249aad8251df1b673574dbcc56f27fe70"
+  },
+  "sourceCodeLocator": "private-snapshot:volume4a/tools/check-threshold-examples-076-077.py",
+  "sourceCodeSha256": "4d88ccf6d1b99ddcb9f3670988eef236fad4c5a1e1309bf69f7dabdb51c486d9",
+  "equation87": {
+    "termsAndEightTruthRows": [
+      {
+        "term": "0",
+        "truth": "00000000"
+      },
+      {
+        "term": "1",
+        "truth": "11111111"
+      },
+      {
+        "term": "00xyz",
+        "truth": "00000001"
+      },
+      {
+        "term": "11xyz",
+        "truth": "01111111"
+      },
+      {
+        "term": "0yz",
+        "truth": "00010001"
+      },
+      {
+        "term": "1yz",
+        "truth": "01110111"
+      },
+      {
+        "term": "0xyzz",
+        "truth": "00010101"
+      },
+      {
+        "term": "1xyzz",
+        "truth": "01010111"
+      },
+      {
+        "term": "xyz",
+        "truth": "00010111"
+      },
+      {
+        "term": "z",
+        "truth": "01010101"
+      },
+      {
+        "term": "0xyyz",
+        "truth": "00010011"
+      },
+      {
+        "term": "1xyyz",
+        "truth": "00110111"
+      },
+      {
+        "term": "y",
+        "truth": "00110011"
+      },
+      {
+        "term": "0xz",
+        "truth": "00000101"
+      },
+      {
+        "term": "1xz",
+        "truth": "01011111"
+      },
+      {
+        "term": "0xxyz",
+        "truth": "00000111"
+      },
+      {
+        "term": "1xxyz",
+        "truth": "00011111"
+      },
+      {
+        "term": "x",
+        "truth": "00001111"
+      },
+      {
+        "term": "0xy",
+        "truth": "00000011"
+      },
+      {
+        "term": "1xy",
+        "truth": "00111111"
+      }
+    ],
+    "distinctListedFunctions": 20,
+    "notAProofOfAllThresholdFunctionCompleteness": true
+  },
+  "equation88": {
+    "original": {
+      "weights": {
+        "1": 2,
+        "2": 3,
+        "3": 5,
+        "4": 7,
+        "5": 11,
+        "6": 13
+      },
+      "ones": 0,
+      "zeros": 0,
+      "total": 41
+    },
+    "reduced": {
+      "weights": {
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5
+      },
+      "ones": 0,
+      "zeros": 0,
+      "total": 17
+    },
+    "inputCount": 64,
+    "mismatches": 0
+  },
+  "equation89": {
+    "binaryThreshold": "01100100100001111110",
+    "integerThreshold": 411774,
+    "originalPrintedOneCount": 225028,
+    "reduced": {
+      "weights": {
+        "1": 764,
+        "2": 323,
+        "3": 323,
+        "4": 118,
+        "5": 118,
+        "6": 87,
+        "7": 31,
+        "8": 31,
+        "9": 25,
+        "10": 6,
+        "11": 6,
+        "12": 6,
+        "13": 6,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1,
+        "19": 1
+      },
+      "ones": 323,
+      "zeros": 0,
+      "total": 2173
+    },
+    "reducedThresholdWithoutOneConstants": 764,
+    "inputCount": 1048576,
+    "mismatches": 0,
+    "variable20AbsentFromReducedWeights": true,
+    "qualification": "ActualcurrentMDliteralweightsand20bitbinarythresholdparsed. One-million-inputequivalenceonly,noLP/minimalitysearch."
+  },
+  "equation91": {
+    "popcounts": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "desiredSet": [
+      2,
+      3,
+      6,
+      8,
+      9
+    ],
+    "thresholdOffset": 2,
+    "thresholdSteps": [
+      [
+        4,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        10
+      ]
+    ],
+    "innerSourceTerms": [
+      [
+        "0^5",
+        "4"
+      ],
+      [
+        "1",
+        "2"
+      ],
+      [
+        "1^7",
+        "5"
+      ]
+    ],
+    "outerOneCounts": [
+      11,
+      12,
+      13,
+      14,
+      11,
+      12,
+      13,
+      12,
+      13,
+      14,
+      10,
+      11,
+      12
+    ],
+    "outputTruth": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "printedCountListMatches": true
+  },
+  "qualification": "AllnumericfieldsparsedfromcurrentMarkdownandcomparedtosourceasrecordedseparately. Rawparsesuccessorfiniteinputequivalenceisnotsourceprooforgeneraltheoremacceptance.",
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+  "reviewerType": "model-direct-source-image-comparison-with-limited-fixed-example-recalculation",
+  "humanSignOff": false
+}

@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "FiniteGraymedian/error/permutationandGF2checks;19higherprimitivecandidatesnotfullyordercertified",
+  "models": {
+    "checkerSha256": "072609940548cacfdcca52090b5bfaa4df2232a58f63b3fabe121e19c92a3710",
+    "pageMarkdownSha256": "c3f68ddb203c6205b8df846554bef565f32a82fa18f376ddd35cf32d3d067040",
+    "prior586MarkdownSha256": "e8e190cebe762fa7f5068a6b086476909d7c215d8078c67b72a95e10f61bc49b",
+    "answer28": {
+      "nRange": [
+        1,
+        10
+      ],
+      "allNonemptyGrayPrefixes": 2046,
+      "actualMedianMembers": 11263,
+      "eligibleMedianOneFlipNeighbors": 37886,
+      "allCommonBitPatternsAndStarPeriodsMatch": true,
+      "allRequiredNeighborsWithinGt": true,
+      "originalT100N8Pattern": "001100**"
+    },
+    "answer29": {
+      "nRange": [
+        1,
+        10
+      ],
+      "actualErrorMaskWordPairs": 1396054,
+      "actualConstantSignBlocks": 18434,
+      "allGrayPlainMeansEqualPrintedPower": true
+    },
+    "answer30": {
+      "actualPermutationRuns": [
+        {
+          "n": 2,
+          "arraySize": 4,
+          "actualCycles": 1,
+          "allCycleLeadersMinimum": true,
+          "allCycleLengthsMatchDoubleLog": true,
+          "eachNonfixedPositionWrittenOnce": true
+        },
+        {
+          "n": 3,
+          "arraySize": 8,
+          "actualCycles": 2,
+          "allCycleLeadersMinimum": true,
+          "allCycleLengthsMatchDoubleLog": true,
+          "eachNonfixedPositionWrittenOnce": true
+        },
+        {
+          "n": 4,
+          "arraySize": 16,
+          "actualCycles": 4,
+          "allCycleLeadersMinimum": true,
+          "allCycleLengthsMatchDoubleLog": true,
+          "eachNonfixedPositionWrittenOnce": true
+        },
+        {
+          "n": 5,
+          "arraySize": 32,
+          "actualCycles": 6,
+          "allCycleLeadersMinimum": true,
+          "allCycleLengthsMatchDoubleLog": true,
+          "eachNonfixedPositionWrittenOnce": true
+        },
+        {
+          "n": 6,
+          "arraySize": 64,
+          "actualCycles": 10,
+          "allCycleLeadersMinimum": true,
+          "allCycleLengthsMatchDoubleLog": true,
+          "eachNonfixedPositionWrittenOnce": true
+        },
+        {
+          "n": 7,
+          "arraySize": 128,
+          "actualCycles": 18,
+          "allCycleLeadersMinimum": true,
+          "allCycleLengthsMatchDoubleLog": true,
+          "eachNonfixedPositionWrittenOnce": true
+        },
+        {
+          "n": 8,
+          "arraySize": 256,
+          "actualCycles": 34,
+          "allCycleLeadersMinimum": true,
+          "allCycleLengthsMatchDoubleLog": true,
+          "eachNonfixedPositionWrittenOnce": true
+        },
+        {
+          "n": 9,
+          "arraySize": 512,
+          "actualCycles": 50,
+          "allCycleLeadersMinimum": true,
+          "allCycleLengthsMatchDoubleLog": true,
+          "eachNonfixedPositionWrittenOnce": true
+        },
+        {
+          "n": 10,
+          "arraySize": 1024,
+          "actualCycles": 82,
+          "allCycleLeadersMinimum": true,
+          "allCycleLengthsMatchDoubleLog": true,
+          "eachNonfixedPositionWrittenOnce": true
+        },
+        {
+          "n": 11,
+          "arraySize": 2048,
+          "actualCycles": 146,
+          "allCycleLeadersMinimum": true,
+          "allCycleLengthsMatchDoubleLog": true,
+          "eachNonfixedPositionWrittenOnce": true
+        },
+        {
+          "n": 12,
+          "arraySize": 4096,
+          "actualCycles": 274,
+          "allCycleLeadersMinimum": true,
+          "allCycleLengthsMatchDoubleLog": true,
+          "eachNonfixedPositionWrittenOnce": true
+        },
+        {
+          "n": 13,
+          "arraySize": 8192,
+          "actualCycles": 530,
+          "allCycleLeadersMinimum": true,
+          "allCycleLengthsMatchDoubleLog": true,
+          "eachNonfixedPositionWrittenOnce": true
+        }
+      ],
+      "allP_QAssignmentsInOrderExecuted": true,
+      "iteratedGrayIdentities": 81900,
+      "sourceN2MinimumDomainRespected": true
+    },
+    "answer31": {
+      "all8190SquareMapTruthsChecked": 8190,
+      "characteristicDeterminants": [
+        {
+          "n": 1,
+          "actualPermutationExpansionCharacteristicPolynomial": "0x3"
+        },
+        {
+          "n": 2,
+          "actualPermutationExpansionCharacteristicPolynomial": "0x7"
+        },
+        {
+          "n": 3,
+          "actualPermutationExpansionCharacteristicPolynomial": "0xd"
+        },
+        {
+          "n": 4,
+          "actualPermutationExpansionCharacteristicPolynomial": "0x1d"
+        },
+        {
+          "n": 5,
+          "actualPermutationExpansionCharacteristicPolynomial": "0x37"
+        },
+        {
+          "n": 6,
+          "actualPermutationExpansionCharacteristicPolynomial": "0x73"
+        },
+        {
+          "n": 7,
+          "actualPermutationExpansionCharacteristicPolynomial": "0xd1"
+        }
+      ],
+      "allPolynomialMatrixAnnihilationsThrough32": true,
+      "all100ExactIrreducibilityTests": true,
+      "irreducibleDegrees": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11,
+        14,
+        18,
+        23,
+        26,
+        29,
+        30,
+        33,
+        35,
+        39,
+        41,
+        50,
+        51,
+        53,
+        65,
+        69,
+        74,
+        81,
+        83,
+        86,
+        89,
+        90,
+        95,
+        98,
+        99
+      ],
+      "fullMultiplicativeOrderWalksThrough18": [
+        {
+          "n": 1,
+          "actualMultiplicativeOrderByCompleteWalk": 1,
+          "maximumOrder": 1
+        },
+        {
+          "n": 2,
+          "actualMultiplicativeOrderByCompleteWalk": 3,
+          "maximumOrder": 3
+        },
+        {
+          "n": 3,
+          "actualMultiplicativeOrderByCompleteWalk": 7,
+          "maximumOrder": 7
+        },
+        {
+          "n": 5,
+          "actualMultiplicativeOrderByCompleteWalk": 31,
+          "maximumOrder": 31
+        },
+        {
+          "n": 6,
+          "actualMultiplicativeOrderByCompleteWalk": 63,
+          "maximumOrder": 63
+        },
+        {
+          "n": 9,
+          "actualMultiplicativeOrderByCompleteWalk": 511,
+          "maximumOrder": 511
+        },
+        {
+          "n": 11,
+          "actualMultiplicativeOrderByCompleteWalk": 2047,
+          "maximumOrder": 2047
+        },
+        {
+          "n": 14,
+          "actualMultiplicativeOrderByCompleteWalk": 16383,
+          "maximumOrder": 16383
+        },
+        {
+          "n": 18,
+          "actualMultiplicativeOrderByCompleteWalk": 87381,
+          "maximumOrder": 262143
+        }
+      ],
+      "sourcePrimitiveListThrough18Matches": true,
+      "remainingSourcePrimitiveDegreesNotFullyOrderCertified": [
+        23,
+        26,
+        29,
+        30,
+        33,
+        35,
+        39,
+        41,
+        51,
+        53,
+        65,
+        69,
+        74,
+        81,
+        83,
+        86,
+        89,
+        90,
+        95
+      ],
+      "fourSourceNonprimitiveWitnesses": [
+        {
+          "n": 18,
+          "exactIrreducible": true,
+          "properOrderWitnessPrimes": [
+            3
+          ],
+          "allListedProperExponentsActuallyEvaluateToOne": true
+        },
+        {
+          "n": 50,
+          "exactIrreducible": true,
+          "properOrderWitnessPrimes": [
+            3
+          ],
+          "allListedProperExponentsActuallyEvaluateToOne": true
+        },
+        {
+          "n": 98,
+          "exactIrreducible": true,
+          "properOrderWitnessPrimes": [
+            3
+          ],
+          "allListedProperExponentsActuallyEvaluateToOne": true
+        },
+        {
+          "n": 99,
+          "exactIrreducible": true,
+          "properOrderWitnessPrimes": [
+            7
+          ],
+          "allListedProperExponentsActuallyEvaluateToOne": true
+        }
+      ],
+      "allFourNonprimitiveClaimsWitnessed": true,
+      "actualDivisibilityInstances": 100,
+      "all101ReverseRecurrenceSymmetries": true
+    },
+    "qualification": [
+      "Nofullprimitive-ordercertificateforremaining19source-listeddegrees;exactirreducibilityaloneisnotprimitivity.",
+      "32Walshendpointand33firsthalfsourcedirectcomparisononly;full33continues588.",
+      "Generalfieldconstructionequivalence/CayleyHamiltonandhistoricalreferencesnotreproved.",
+      "Originalsourceexample/algorithmsandfinitequantitiesonly,nohardwarebenchmark."
+    ]
+  },
+  "privateEvidenceSha256": "cf30be691305b6319f49e341a41bbff7d1d6445dfa3c65fe71f3517512b48d1c",
+  "allSourcePrimitiveDegreesIndependentlyCertified": false
+}

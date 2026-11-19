@@ -1,0 +1,92 @@
+{
+  "scope": "Independent actual source read and one original-domain n192/delta3 example, not exhaustive algorithm verification, MMIX execution, or a general proof.",
+  "sourceImages": [
+    {
+      "file": "private-snapshot:volume3/chapter6-work/external-review-4a/en-206.png",
+      "sha256": "b5c091cc8051c838f2cc4ccc986407a6bbace31e58679517db152ffef413345a"
+    },
+    {
+      "file": "private-snapshot:volume4a/root-sources/en-610.png",
+      "sha256": "d0061c5b3f7d7e19163e772c4147ecfec6208a7778566d8a53ebb9132c032847"
+    },
+    {
+      "file": "private-snapshot:volume4a/scans/510.jpg",
+      "sha256": "4d5a5242e1c882934a65c7ad284e216faefdbab3962daa6365f942b3b1723343"
+    }
+  ],
+  "actualSourceRead": true,
+  "questionDomain": "EN206 print189 exercise66(d) refers to (b): n large, bits packed in64-bit words; delta3. Polynomial coefficients are GF(2), u is unrestricted. No extra exclusion of zero input words or m>=3.",
+  "sourceAnswer": "CN510 print495 and EN610 print593 use c=(t>>61)*#9249249249249249 after v_j=t xor c.",
+  "case": {
+    "n": 192,
+    "delta": 3,
+    "uWordsLowToHigh": [
+      "0000000000000001",
+      "0000000000000000",
+      "0000000000000000"
+    ]
+  },
+  "independentMethod": "For k=0..191, v[k]=u[k] xor (v[k-3] if k>=3 else0), derived directly by equating coefficients in (1+x^3)v=u mod x^192. Repack64 consecutive low-first coefficients per word.",
+  "expectedWords": [
+    "9249249249249249",
+    "4924924924924924",
+    "2492492492492492"
+  ],
+  "sourceProgramWords": [
+    "9249249249249249",
+    "4924924924924924",
+    "0000000000000000"
+  ],
+  "sourceProgramTrace": [
+    {
+      "j": 0,
+      "u": "0000000000000001",
+      "t": "9249249249249249",
+      "v": "9249249249249249",
+      "carryForNextWord": "4924924924924924"
+    },
+    {
+      "j": 1,
+      "u": "0000000000000000",
+      "t": "0000000000000000",
+      "v": "4924924924924924",
+      "carryForNextWord": "0000000000000000"
+    },
+    {
+      "j": 2,
+      "u": "0000000000000000",
+      "t": "0000000000000000",
+      "v": "0000000000000000",
+      "carryForNextWord": "0000000000000000"
+    }
+  ],
+  "candidateCarryUsesOutputWords": [
+    "9249249249249249",
+    "4924924924924924",
+    "2492492492492492"
+  ],
+  "candidateTrace": [
+    {
+      "j": 0,
+      "u": "0000000000000001",
+      "t": "9249249249249249",
+      "v": "9249249249249249",
+      "carryForNextWord": "4924924924924924"
+    },
+    {
+      "j": 1,
+      "u": "0000000000000000",
+      "t": "0000000000000000",
+      "v": "4924924924924924",
+      "carryForNextWord": "2492492492492492"
+    },
+    {
+      "j": 2,
+      "u": "0000000000000000",
+      "t": "0000000000000000",
+      "v": "2492492492492492",
+      "carryForNextWord": "9249249249249249"
+    }
+  ],
+  "conclusion": "The third original-program word0 fails the stated domain; no missing premise found in the actual question or answer. Using completed output v_j rather than local t in the carry restores this one example. This receipt proves the counterexample, not universal correctness of the candidate."
+}

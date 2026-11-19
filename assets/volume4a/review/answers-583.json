@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "CompleteCN583,267and7211answers1through9;threeprojectcorrections.Continues584.",
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 583,
+      "cnPrintedPage": "568",
+      "enPdfPages": [
+        695,
+        696
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "839c84dd468476f654869aa2f6567d3a4edca7747dc35267a85abd018b47d2bc",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "96ddddda50fbad8ecd6f89d155b893f9aef1f7891a047b195795b106192bc45b",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "CompleteCN583andcorrespondingEN695696contentsactuallycompared; CN248andEN297problem266267contextonly. Threeprojecttechnicalcorrections independently source/proof reviewed, not author errata. No human signoff.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "9c1f7a6c70778525803db1074dd07d7874e9c0597ceffcd0ab4f9e8fc0337b70",
+      "enPageImages": [
+        {
+          "physicalPage": 695,
+          "sha256": "3a2b12bc466d67e06279380ade9dcc49b4c237ba9eb828e38c0f8b73a44bd2f5"
+        },
+        {
+          "physicalPage": 696,
+          "sha256": "37b18ec91ec107e3d534e51d3333aae2f395e8f7ec1edccd5a59692d20a3d8a8"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 583,
+        "markdownSha256": "839c84dd468476f654869aa2f6567d3a4edca7747dc35267a85abd018b47d2bc",
+        "htmlSha256": "6430fb8a2445d628acb5ccefa5afd459f9be17c59f95c84898aad82cf0c77976",
+        "mathExpressions": 99,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "e1848b5d4540b6e43aa80f2048375b5dd0ad60e4644a4bed75dbed3cdc4203eb",
+      "syntaxEvidenceFile": "syntax-583.json",
+      "coveredRegions": [
+        "267 full zeta recursion and forest indicator, min/max/extremizing construction, tree and forest generating equations, derivatives, exact/asymptotic mean and Catalan crossreference",
+        "7211answers1through3completebounds,mixedradixanswer2tuple,M4productsumandoriginalGraycomment",
+        "4allfiveNstepsinoriginalorderincludingborrow/sentinel;5allfourZsteps,allthreeindexedswaps,bitreflectionstatement",
+        "6bothlongGrayidentitiesincludingfullcomplementofeverylowerbitandallXORarguments",
+        "7whole2rsectorinterval/ceillogr/closingedge/citation;8selectedCN1XORa_minus1paritybit;9wholeoriginalringanswer"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "7.1.4答267最小结点数／568",
+          "enPosition": "EN695／678 minimumsize",
+          "original": "n",
+          "final": "n+2",
+          "basis": "Bothoriginalssame. Everypreordervariableappears; bothterminalsreachable. Singletonforesthasnbranchesplus2terminals. Independentgeneralproofand2055directfiniteforests."
+        },
+        {
+          "location": "7.1.4答267最大结点数／568",
+          "enPosition": "EN695／678 maximumsize",
+          "original": "floor(n²/4)+2n+1",
+          "final": "floor(n²/4)+n+1 for n≥2;3forn=1",
+          "basis": "Independentgeneralinductionfromprintedzetarecurrence: S=zeta-size bounded by floor(n²/4) using superadditivity/discreteconvexity; sourcecombattainsbound. Handlelast-leafforestandn1. Directallorderedforests1..8match."
+        },
+        {
+          "location": "7.1.4答267树生成函数中间导数／568",
+          "enPosition": "EN695／678 Zw",
+          "original": "z/s+z/s²",
+          "final": "z/s+z/(4s²)−z/4",
+          "basis": "Differentiateentireoriginalfunctional equationincludingwzandinnerZ(w,wz); solveforU. Independentproofandallcoefficients1..8matchdirectzetasums. CorrectedUstillgivesoriginalforestderivativeandfinalmean unchanged."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "7211答8",
+          "selectedCN": "1⊕a_{−1}",
+          "oldEN": "a_infinity",
+          "treatment": "SelectedChinesenegative-indexparitysentinelkept;semanticGray-even-subsequenceidentitychecked,nofictitiousliteralfieldidentityclaimed."
+        }
+      ],
+      "machineErrorsCorrected": [
+        "Restore267C_nnotket/tildeZ; everydenominator,indicator,nonemptyforestscopekept",
+        "Restore1a_jassignments/l0/u0,3M4type/productboundsandwholeoriginalbracketcomment",
+        "RemovephantomcomplementbarsfromZalgorithmarrayreferencesbutretainalltrueGray6complementbarsfromactualhighsourcecrops",
+        "Restore7XORnotmembershipand8negativeindexminus1notnminus1"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "continuation": {
+        "previousCnPdfPage": 582,
+        "nextCnPdfPage": 584,
+        "scope": "582ends266;583opens/closes267then7211answers1through9;584begins10. Source-page714closureonly,bodythrough248/wholemotherstillpending."
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "7211remaininganswersbegin584",
+        "Finalmaster/crosspageassembly/offline/routed/onlineacceptance"
+      ],
+      "numericChecks": {
+        "receipts": [
+          {
+            "file": "root-answer-checks/583-finite-models-corrected.json",
+            "sha256": "226cc5933dc792cde1098b03cdd8fca2002bff764087508b4e965463f5a15661"
+          },
+          {
+            "file": "assigned-answers-601-640/peer-v4a-583-answer267-readonly.json",
+            "sha256": "e65dc03b3ea38380e1d818dbc00c072fed3e76d27597861ccdcd6867c31309b2"
+          }
+        ],
+        "scope": "2055actualorderedforests1..8,directinclusivepreorderdescendantfamilies/canonicalZDDreduction,allmin/max/zetarecursion/mean;1364radixprofiles1..4length1..5,Nreverselex/M4sum;allbitreversalarrays1..11,Grayreflection/sector/even-subsequencefiniteidentities.",
+        "generalProjectProofsSeparateFromFiniteModels": true
+      },
+      "sourceEditionQualifications": {
+        "project267": "Allthreecorrectionsareprojecttechnicaladjustments,notauthorofficialerrata. Maxproofisbasedonprintedzetarecurrence;generalZDDzetatheoremnotindependentlyreproved.",
+        "originalMean": "Exactmean/asymptoticformandforestderivativekept;finiteexactmeans1..8match,generalasymptoticexpansionnotindependentlyderived.",
+        "officialCosmetic": "Currentauthorerr4a OTHERCOMMENTS changes267w<-1 tow=1; actualsubstitutiondisplayedw=1,notacountcorrection.",
+        "history": "Firstunaccepted6draftmissedfullcomplementbars;finiteassertionfailed. Originaldraft/checkerretained,actualhighsourcecropsreadandbarsrestored. Laterpre-projectdraft/browser/finitealsoarchivedwitholdactualSHAs. Correctedfinite/renders/browserfresh,nomisattributedoldproof.",
+        "currentPixels": "6wholeand18currentmathendpointimagesactuallyviewed. Contactusesonly18fileslistedbyfreshmath-endsreceipt;14stalefilenamesexcluded.",
+        "additionalActualImages": [
+          {
+            "file": "scans/248.jpg",
+            "sha256": "f8aba2bba72946ea16b7f10c8a415f5ac7ee54c3e21171cf3ae458722d154af0"
+          },
+          {
+            "file": "root-sources/en-297.png",
+            "sha256": "a85b773371d20f924942f157a55d5eea4f0395db429037f0026674fdd703edb9"
+          },
+          {
+            "file": "root-sources/cn-583-267-detail.png",
+            "sha256": "b180a51a78eb40bb91a6dee625055a572a0cfc11a11df4ae2a0a105f17c4613a"
+          },
+          {
+            "file": "root-sources/en-695-267-detail.png",
+            "sha256": "820e2508406c0ad326732bbcc2d976549cdfbda1b8035d2188c02beb109e3c45"
+          },
+          {
+            "file": "root-sources/cn-583-6-detail.png",
+            "sha256": "7d7b1330fc054fbdd2c85186d50399126f2a783b4ef88444fbbfe847d4eeb926"
+          },
+          {
+            "file": "root-sources/en-696-6-detail.png",
+            "sha256": "992fdb963af5e2d836f47c68b51720fb71052129aa82f1254c66a6c9d28752b4"
+          }
+        ]
+      }
+    }
+  ],
+  "browser": {
+    "widths": [
+      1280,
+      390
+    ],
+    "acceptedDistinctPageCases": 2,
+    "mathExpressionsPerPass": 99,
+    "errors": 0,
+    "wholePageOverflow": 0,
+    "wholeScreensActuallyViewed": 6,
+    "currentMathEndpointScreensActuallyViewed": 18,
+    "images": 0,
+    "evidenceSha256": "c535f3cdf67e69553675748a8f019280254573723b925e7e2becfbc69f8c625a",
+    "currentEndpointEvidenceSha256": "56854fc1e6f59a24fe4c41076200494f7d194b3b3c9b40ca254ed8b412148617",
+    "actualDOMFieldsEvidenceSha256": "8ec4df2dfb8b4877e3705b883d6b09ef5911e2be11fd5ebcbdc72adb743077d0",
+    "cases": [
+      {
+        "physicalPage": 583,
+        "fontFailures": [],
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "math": 99,
+        "mathErrors": 0,
+        "overflowPorts": 15,
+        "images": [],
+        "mathmlContainsProse": 0,
+        "passed": true
+      },
+      {
+        "physicalPage": 583,
+        "fontFailures": [],
+        "viewport": 390,
+        "documentWidth": 390,
+        "math": 99,
+        "mathErrors": 0,
+        "overflowPorts": 22,
+        "images": [],
+        "mathmlContainsProse": 0,
+        "passed": true
+      }
+    ]
+  },
+  "knownQualifications": [
+    "Allthree267changesareprojecttechnicalcorrections,notauthorerrata;maxproofusesprintedzetarecurrence",
+    "Originalexactmeanandforestderivativeretained;generalasymptoticexpansionnotindependentlyderived",
+    "OldunacceptedGray-complementmisreadandpre-projectdrafts/browser/finiteactualhashespreserved",
+    "Only18currentendpointfilesused;14stalefilenamesinworkingfolderexcluded",
+    "CN8paritysentinelnotationpreservedagainstolderENa_infinity;algebraicsubsequencechecknotactualAlgorithmGexecution"
+  ],
+  "pending": [
+    "7211remaininganswersbegin584",
+    "Finalmother/offline/routed/onlineacceptance"
+  ]
+}

@@ -1,0 +1,782 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-source-pages-180-to-182-bitwise-exercises177-204",
+  "cnPhysicalPages": [
+    180,
+    181,
+    182
+  ],
+  "cnPrintedPages": [
+    165,
+    166,
+    167
+  ],
+  "masterSha256": null,
+  "mathExpressions": 220,
+  "privateBrowserCases": 6,
+  "substantiveCorrections": 1,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.3",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 180,
+      "cnPrintedPage": 165,
+      "enPdfPages": [
+        215,
+        216
+      ],
+      "enPrintedPages": [
+        198,
+        199
+      ],
+      "pageMarkdownSha256": "d5b897de2a3b414bea641491750c2bb88b574adad22e4fa45b06bc2b7b4cba6e",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-180.png",
+      "sourcePageImageSha256": "feb9fd4e0659ec9c0f45bd7bb9bf3d6a7fdf52fa7fb99cdcd5b935adb868363d",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-215.png",
+          "sha256": "3d069d00af77fbd13d568689f2ed36f8283c7423c15c37be675424715a4e6f76",
+          "physicalPage": 215
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-216.png",
+          "sha256": "edc398e15403c08d4035c520dc293f8dec43b2b58ef93a27b876ee51d4f24958",
+          "physicalPage": 216
+        }
+      ],
+      "pageAnchors": [
+        "pdf-180",
+        "p-165",
+        "ex-7-1-3-177",
+        "ex-7-1-3-178",
+        "ex-7-1-3-179",
+        "ex-7-1-3-180",
+        "ex-7-1-3-181",
+        "ex-7-1-3-182",
+        "ex-7-1-3-183",
+        "ex-7-1-3-184",
+        "ex-7-1-3-185",
+        "ex-7-1-3-186",
+        "ex-7-1-3-187",
+        "ex-7-1-3-188"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/exercise-7-1-3-178-stretched-cat.svg",
+          "sha256": "9e6ec67ea840bc066003ce9e7f9e1c86d3c040898ce1637324e169b22c01ec2b",
+          "cnPdfPage": 180,
+          "enPdfPage": 215,
+          "drawnOriginalFills": 180,
+          "originalBlackPixelsBothSources": 452,
+          "formulaBlackPixelsFromFig17a": 456,
+          "missingCellsColumnRowOneBased": [
+            [
+              60,
+              17
+            ],
+            [
+              60,
+              20
+            ],
+            [
+              61,
+              17
+            ],
+            [
+              61,
+              20
+            ]
+          ],
+          "method": "Matched all 25×61 actual Chinese pixel centers and English vector fills. Original artwork preserved, including its right-edge difference from the formula applied to Figure 17(a).",
+          "sourceDirectlyCompared": true
+        }
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [
+        {
+          "location": "Q176(b) the same-component clarification",
+          "picked": "也就是说，它们在同一个分图中",
+          "olderEnglish": "No same-component clarification in English source print",
+          "authorChangeDate": "2012-04-25",
+          "officialSource": {
+            "file": "private-snapshot:volume4a/body-review/official-pre-page11-theorem-r.png",
+            "sha256": "802dfa194aa6ffca6ac815c155b1c05c7529e39abece046816e42bac2c545e40",
+            "documentPage": 11,
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz"
+          },
+          "disposition": "Selected CN already contains author’s change and preserves it."
+        },
+        {
+          "location": "Q184 hint",
+          "picked": "提示：答案很简单",
+          "olderEnglish": "No hint in English source print",
+          "authorChangeDate": "2012-03-20",
+          "officialSource": {
+            "file": "private-snapshot:volume4a/body-review/official-pre-page11-theorem-r.png",
+            "sha256": "802dfa194aa6ffca6ac815c155b1c05c7529e39abece046816e42bac2c545e40",
+            "documentPage": 11,
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz"
+          },
+          "disposition": "Selected CN already contains author’s change and preserves it."
+        },
+        {
+          "location": "Q185 grade",
+          "picked": "23",
+          "olderEnglish": "22",
+          "authorChangeDate": "2012-03-21",
+          "officialSource": {
+            "file": "private-snapshot:volume4a/body-review/official-pre-page11-theorem-r.png",
+            "sha256": "802dfa194aa6ffca6ac815c155b1c05c7529e39abece046816e42bac2c545e40",
+            "documentPage": 11,
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz"
+          },
+          "disposition": "Selected CN already contains author’s change and preserves it."
+        },
+        {
+          "location": "Q178 image right edge compared with its definition",
+          "picked": "Both source examples draw 452 black cells. Retain exactly these.",
+          "olderEnglish": "Actual matching 452-cell image. Four black cells at the right edge occur only in the 456-cell formula result using Figure 17(a).",
+          "disposition": "Keep both printed exercise and source picture. Register the fixed discrepancy; no guessed cause."
+        }
+      ],
+      "coveredRegions": [
+        "Q176 continuation, all N and S definitions and parts (a)–(e), inclusive and strictly derived path relations.",
+        "Q178 exact stretch formula and original side picture, with original right-edge difference captured independently.",
+        "Q179–188 digital conics, exact quadratic subdivision, grayscale powers and BITMAP/GRAYMAP widths."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 180,
+        "markdownSha256": "d5b897de2a3b414bea641491750c2bb88b574adad22e4fa45b06bc2b7b4cba6e",
+        "htmlSha256": "dbe9143f6ed2e06bd566730ad5faa4cfccb3d73156eb3f4464044299bb1f6ed9",
+        "mathExpressions": 74,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-180-181-182.json",
+        "sha256": "101bbf0e8fee78bc0f0ce7edf04c47635d790e84e9c486c9525857afb275cb48",
+        "cases": [
+          {
+            "physicalPage": 180,
+            "width": 1280,
+            "markdownSha256": "d5b897de2a3b414bea641491750c2bb88b574adad22e4fa45b06bc2b7b4cba6e",
+            "documentWidth": 1280,
+            "math": 74,
+            "mathml": 74,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 74,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 180,
+            "width": 390,
+            "markdownSha256": "d5b897de2a3b414bea641491750c2bb88b574adad22e4fa45b06bc2b7b4cba6e",
+            "documentWidth": 390,
+            "math": 74,
+            "mathml": 74,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 74,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Current 1280 and 390 full pages, narrow right locations, and necessary narrow center crops were directly viewed. The two original images were opened and browser Back verified at each width."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/180-1280.png",
+          "sha256": "3ae1955da9e2c5b0a2fe867c598d28e257b474ec4edf0dfc5e4721d4fbf71d45",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/180-390.png",
+          "sha256": "5abe6c0f5ab4023fe0a99fbd0bbe609d7f1830851b48ed98815e1662375777cf",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/180-390-right.png",
+          "sha256": "fa8cf12ccd0c4d5bb08124787bc809fb49c3a5323877cdeefb80eae591e39d8a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/180-390-wide-60-1.png",
+          "sha256": "dd0e5b0fb7b0db740c39ed8460881b8a72faf9943a79905b5ec74cc2cdf10308",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-180-q178-stretched-cat.png",
+          "sha256": "cbbbd4766526761ea86699b9456ec327c318b61ca25dfc8eb1d7dcdfdf72ed6d"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-215-q178-stretched-cat.png",
+          "sha256": "c80db870a994ae779bc32ae3ef6396e839350399472d3386a2e8f16e2bd861b0"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/official-pre-page11-theorem-r.png",
+          "sha256": "802dfa194aa6ffca6ac815c155b1c05c7529e39abece046816e42bac2c545e40"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete actual CN180–182 and corresponding EN215–218 source locations read; checked against current Markdown and private actual pixels. Numeric checks apply only to the fixed source pictures and printed examples.",
+      "startsMidParagraph": true,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "exerciseCoverage": {
+        "firstNewExercise": 177,
+        "lastNewExercise": 188,
+        "recommended": [
+          179,
+          180,
+          183,
+          184,
+          185,
+          188
+        ],
+        "linkedCurrentAnswerCandidates": {
+          "177": 526,
+          "178": 526,
+          "179": 526,
+          "180": 527,
+          "181": 527,
+          "182": 527,
+          "183": 527,
+          "184": 528,
+          "185": 528,
+          "186": 528,
+          "187": 528,
+          "188": 529
+        }
+      },
+      "followingPageContinuation": "Begins Q176 (anchor on 179) with its neighborhood and all five subparts.",
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-patterns-180-182.json",
+          "sha256": "399479572807369d505116052404a3963342f8cb17f4985b8609e81a14e7118e",
+          "scope": "Only two original pictures and the printed fixed examples in 190/192. No general solution to the parity exercises and no timing of MMIX operators."
+        },
+        {
+          "file": "assets/volume4a/review/body-180-182-wide-details.json",
+          "sha256": "e0cef38c6d6b35edf693d652e96f60dc4002568fca19bf011022ecbc9a07f891",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        },
+        {
+          "file": "assets/volume4a/review/body-180-182-original-links.json",
+          "sha256": "a4a393cae578195efa1ed750f8985117fcf3c3c3ce4bf45e60c44c82f37ad995",
+          "scope": "Actual linked original image opening and back navigation in current private proofs. No published route or separate whole-page cases."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "c2302d8975a87b7e661d69343cc8059428431d45365454145405c89a2b479280",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/180.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.3",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 181,
+      "cnPrintedPage": 166,
+      "enPdfPages": [
+        216,
+        217
+      ],
+      "enPrintedPages": [
+        199,
+        200
+      ],
+      "pageMarkdownSha256": "9ec87eeedf323b0c16ca5420cb45cf0f5326d6ba4ea091f43d248979385a3345",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-181.png",
+      "sourcePageImageSha256": "b31f1364e06b299a8cb2cf509f0245a3adbe85ca78716a8e3e2cf6eb1980a224",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-216.png",
+          "sha256": "edc398e15403c08d4035c520dc293f8dec43b2b58ef93a27b876ee51d4f24958",
+          "physicalPage": 216
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-217.png",
+          "sha256": "52bb4d3efa03ae772ef2f0a08fa39ea287c364e34189a784b3048c02755a51e5",
+          "physicalPage": 217
+        }
+      ],
+      "pageAnchors": [
+        "pdf-181",
+        "p-166",
+        "ex-7-1-3-189",
+        "ex-7-1-3-190",
+        "ex-7-1-3-191",
+        "ex-7-1-3-192",
+        "ex-7-1-3-193"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [
+        {
+          "location": "Q189 rotation direction",
+          "picked": "逆时针旋转 90°",
+          "olderEnglish": "rotate it by 90° with no direction",
+          "authorChangeDate": "2012-03-23",
+          "officialSource": {
+            "file": "private-snapshot:volume4a/body-review/official-pre-page11-theorem-r.png",
+            "sha256": "802dfa194aa6ffca6ac815c155b1c05c7529e39abece046816e42bac2c545e40",
+            "documentPage": 11,
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz"
+          },
+          "disposition": "Selected CN already contains author’s change and preserves it."
+        }
+      ],
+      "coveredRegions": [
+        "Q189 full title, original counterclockwise direction; Q190 five exact printed small matrices (77 cells) and all five subparts.",
+        "Q191 all subparts and Fibonacci polynomial exponent conventions and reflected indexing.",
+        "Q192 printed 120-column count, nine prefix c(q) values and all six subparts; Q193 original doubling construction statement."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 181,
+        "markdownSha256": "9ec87eeedf323b0c16ca5420cb45cf0f5326d6ba4ea091f43d248979385a3345",
+        "htmlSha256": "5377d85cebc20abee851e5115b9aaa57d98c1b919c4747bcf89b63e68ef618b9",
+        "mathExpressions": 77,
+        "displayMath": 4,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-180-181-182.json",
+        "sha256": "101bbf0e8fee78bc0f0ce7edf04c47635d790e84e9c486c9525857afb275cb48",
+        "cases": [
+          {
+            "physicalPage": 181,
+            "width": 1280,
+            "markdownSha256": "9ec87eeedf323b0c16ca5420cb45cf0f5326d6ba4ea091f43d248979385a3345",
+            "documentWidth": 1280,
+            "math": 77,
+            "mathml": 77,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 77,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 181,
+            "width": 390,
+            "markdownSha256": "9ec87eeedf323b0c16ca5420cb45cf0f5326d6ba4ea091f43d248979385a3345",
+            "documentWidth": 390,
+            "math": 77,
+            "mathml": 77,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 77,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Current 1280 and 390 full pages, narrow right locations, and necessary narrow center crops were directly viewed. The two original images were opened and browser Back verified at each width."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/181-1280.png",
+          "sha256": "ad6a776ad8f359cf5a4dd8169d3dc76305a27e50b84d707b4d8098f9656b9f45",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/181-390.png",
+          "sha256": "7f865a7e21ea1cd8a0242187123392ebd693c962dc3c6f9a3b2e850ab0ec5624",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/181-390-right.png",
+          "sha256": "bffb762e5b36ab2cbe5e2ba0b6b9c985faf6513c365feda884b4dc2c36b7b77f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/181-390-wide-40-1.png",
+          "sha256": "436fc12e0b168be0b43cfa692604ce3e6c2725563c123763ccabd1a58a8b5502",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/official-pre-page11-theorem-r.png",
+          "sha256": "802dfa194aa6ffca6ac815c155b1c05c7529e39abece046816e42bac2c545e40"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete actual CN180–182 and corresponding EN215–218 source locations read; checked against current Markdown and private actual pixels. Numeric checks apply only to the fixed source pictures and printed examples.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "exerciseCoverage": {
+        "firstNewExercise": 189,
+        "lastNewExercise": 193,
+        "recommended": [
+          193
+        ],
+        "linkedCurrentAnswerCandidates": {
+          "189": 529,
+          "190": 530,
+          "191": 530,
+          "192": 530,
+          "193": 531
+        }
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-patterns-180-182.json",
+          "sha256": "399479572807369d505116052404a3963342f8cb17f4985b8609e81a14e7118e",
+          "scope": "Only two original pictures and the printed fixed examples in 190/192. No general solution to the parity exercises and no timing of MMIX operators."
+        },
+        {
+          "file": "assets/volume4a/review/body-180-182-wide-details.json",
+          "sha256": "e0cef38c6d6b35edf693d652e96f60dc4002568fca19bf011022ecbc9a07f891",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "6e14dc35893865ba8590419ceb467b1e1ba71d6ec0b4932e51fc3de932378174",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/181.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.3",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 182,
+      "cnPrintedPage": 167,
+      "enPdfPages": [
+        217,
+        218
+      ],
+      "enPrintedPages": [
+        200,
+        201
+      ],
+      "pageMarkdownSha256": "d776daaa46d62773b9e9f9542c6571d1d61cde2eb63ead15e3eb3dac2ad43549",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-182.png",
+      "sourcePageImageSha256": "d8b08e6a1dc277b21a7c629498ca2be534b833356e1c6a4c57a454d234c96201",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-217.png",
+          "sha256": "52bb4d3efa03ae772ef2f0a08fa39ea287c364e34189a784b3048c02755a51e5",
+          "physicalPage": 217
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-218.png",
+          "sha256": "ca6303723be34a0ccc4e85c1032d2465524cd2df4599840906a467ebc047e189",
+          "physicalPage": 218
+        }
+      ],
+      "pageAnchors": [
+        "pdf-182",
+        "p-167",
+        "ex-7-1-3-194",
+        "fig-7-1-3-20",
+        "ex-7-1-3-195",
+        "ex-7-1-3-196",
+        "ex-7-1-3-197",
+        "ex-7-1-3-198",
+        "ex-7-1-3-199",
+        "ex-7-1-3-200",
+        "ex-7-1-3-201",
+        "ex-7-1-3-202",
+        "ex-7-1-3-203",
+        "ex-7-1-3-204"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/figure-20-perfect-parity-pattern.png",
+          "sha256": "8ef4d187a9ef14d0c5a2dc7ff8d6419c62d14cf1c3289459fb6deee0c1e044bb",
+          "cnPdfPage": 182,
+          "enPdfPage": 217,
+          "originalXref": 868,
+          "sourceFullSize": [
+            384,
+            384
+          ],
+          "printedActiveSize": [
+            383,
+            383
+          ],
+          "zeroPaddingRemoved": [
+            "top row",
+            "right column"
+          ],
+          "exactActiveCells": 146689,
+          "blackPixels": 32168,
+          "symmetry": "horizontal reflection, vertical reflection and transpose",
+          "method": "Original one-bit active data retained; all active cells satisfy the rook-neighbor recurrence and every row and column has a one.",
+          "sourceDirectlyCompared": true
+        }
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.3 习题196(c)字节与来源值",
+          "enPosition": "PDF217／印刷200，习题196(c)",
+          "original": "容易确定值 $x^{(i)}$ 来自哪个 $\\alpha_k$",
+          "final": "容易确定 $\\alpha_k$ 来自哪个值 $x^{(i)}$",
+          "basis": "原文由给定字节追溯其来源值。",
+          "cnPrintedPage": 167
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "Q196 assignment to alpha_j",
+          "picked": "置 α_j ← 2^7 + x_(l-j)",
+          "olderEnglish": "α_j = 2^7 + x_(l-j)",
+          "authorChangeDate": "2012-03-30",
+          "officialSource": {
+            "file": "private-snapshot:volume4a/body-review/official-pre-page11-theorem-r.png",
+            "sha256": "802dfa194aa6ffca6ac815c155b1c05c7529e39abece046816e42bac2c545e40",
+            "documentPage": 11,
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz"
+          },
+          "disposition": "Selected CN already contains author’s change and preserves it."
+        },
+        {
+          "location": "Q203 attribution and first line sequence",
+          "picked": "Attributed to József Dallos (2018); MOR t,b,s",
+          "olderEnglish": "No attribution and old XOR/AND on the first line",
+          "authorChangeDate": "2018-02-13",
+          "officialSource": {
+            "file": "private-snapshot:volume4a/body-review/official-pre-page11-theorem-r.png",
+            "sha256": "802dfa194aa6ffca6ac815c155b1c05c7529e39abece046816e42bac2c545e40",
+            "documentPage": 11,
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz"
+          },
+          "disposition": "Selected CN already contains author’s change and preserves it."
+        }
+      ],
+      "coveredRegions": [
+        "Q194, Fig.20 and caption, exact original 383×383 active bitmap; Q195 both null-space and rank types.",
+        "Q196 original assigned byte lengths, all sample hex data, subparts; Q197 UTF-16 constants and floors; Q198/Q199 literal historical byte values and validator tasks.",
+        "Q200–204 original instructions and register numbers, both words of the Q203 listing, all logical operands and exact ascii test string."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 182,
+        "markdownSha256": "d776daaa46d62773b9e9f9542c6571d1d61cde2eb63ead15e3eb3dac2ad43549",
+        "htmlSha256": "594884baff1a48e02eec6f2d7e09eda7baf1cd98ee8156515e031ddd8c681e15",
+        "mathExpressions": 69,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [
+          2
+        ],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-180-181-182.json",
+        "sha256": "101bbf0e8fee78bc0f0ce7edf04c47635d790e84e9c486c9525857afb275cb48",
+        "cases": [
+          {
+            "physicalPage": 182,
+            "width": 1280,
+            "markdownSha256": "d776daaa46d62773b9e9f9542c6571d1d61cde2eb63ead15e3eb3dac2ad43549",
+            "documentWidth": 1280,
+            "math": 69,
+            "mathml": 69,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 70,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 182,
+            "width": 390,
+            "markdownSha256": "d776daaa46d62773b9e9f9542c6571d1d61cde2eb63ead15e3eb3dac2ad43549",
+            "documentWidth": 390,
+            "math": 69,
+            "mathml": 69,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 70,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Current 1280 and 390 full pages, narrow right locations, and necessary narrow center crops were directly viewed. The two original images were opened and browser Back verified at each width."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/182-1280.png",
+          "sha256": "e2842f21aee9f5398f019a93c77a44e07a3cfaf11a7928a1010f792ddc5f3d7e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/182-390.png",
+          "sha256": "970c0907f531cb509b728c421e2fc8046df0a621d290337bfea8289c38cfb574",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/182-390-right.png",
+          "sha256": "d9bb81830616cc4ecbfd7c781fa8638c05561f12901215bd3e79795d5524098f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/182-390-wide-39-1.png",
+          "sha256": "98ce46b3704f1a360899dea69ea2797ef0708aa3751ceffd01dc4ed083e3fbe7",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-182-fig20-parity.png",
+          "sha256": "183b2b1f4b01cf573e5a327b98ac0145e5f8dd0934c90d0f695543923136ac0e"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-217-fig20-parity.png",
+          "sha256": "4819848e8950ea4a6029179aa8e16ff0a1aef5a418cf548c133b957dae8f56fe"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/official-pre-page11-theorem-r.png",
+          "sha256": "802dfa194aa6ffca6ac815c155b1c05c7529e39abece046816e42bac2c545e40"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete actual CN180–182 and corresponding EN215–218 source locations read; checked against current Markdown and private actual pixels. Numeric checks apply only to the fixed source pictures and printed examples.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "exerciseCoverage": {
+        "firstNewExercise": 194,
+        "lastNewExercise": 204,
+        "recommended": [
+          195,
+          198,
+          199,
+          204
+        ],
+        "linkedCurrentAnswerCandidates": {
+          "194": 531,
+          "195": 532,
+          "196": 532,
+          "197": 532,
+          "198": 532,
+          "199": 532,
+          "200": 532,
+          "201": 532,
+          "202": 532,
+          "203": 532,
+          "204": 532
+        }
+      },
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/182-selected-cn-before-translation-repair-a75bccb19c61270c93cb879388d3dac395f16421b3b7410b958ff4eb1da2d7fb/182.md",
+        "sha256": "a75bccb19c61270c93cb879388d3dac395f16421b3b7410b958ff4eb1da2d7fb",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-patterns-180-182.json",
+          "sha256": "399479572807369d505116052404a3963342f8cb17f4985b8609e81a14e7118e",
+          "scope": "Only two original pictures and the printed fixed examples in 190/192. No general solution to the parity exercises and no timing of MMIX operators."
+        },
+        {
+          "file": "assets/volume4a/review/body-180-182-wide-details.json",
+          "sha256": "e0cef38c6d6b35edf693d652e96f60dc4002568fca19bf011022ecbc9a07f891",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        },
+        {
+          "file": "assets/volume4a/review/body-180-182-original-links.json",
+          "sha256": "a4a393cae578195efa1ed750f8985117fcf3c3c3ce4bf45e60c44c82f37ad995",
+          "scope": "Actual linked original image opening and back navigation in current private proofs. No published route or separate whole-page cases."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "96eb3e56384538fa6278cf3a8b4420c5719ffbbd7861a5e6fe7445a3e6eede0f",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/182.json"
+    }
+  ],
+  "qualification": "Complete actual CN180–182 and corresponding EN215–218 source locations read; checked against current Markdown and private actual pixels. Numeric checks apply only to the fixed source pictures and printed examples."
+}

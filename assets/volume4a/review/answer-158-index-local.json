@@ -1,0 +1,476 @@
+{
+  "reviewDate": "2026-11-18",
+  "reviewerType": "model-direct-source-fragment-and-one-finite-five-variable-example-peer-review",
+  "scope": "仅158首段nπ/k/j对象字形和原题给定m1/t2/n5/π(5,2,3,4,1)一个布尔函数的32输入及约简有序BDD；非CN559整页接受、非一般渐近/分离对称变量结论证明，不改4A稿。",
+  "actualSourceGlyphs": [
+    "两版确为nπ=k",
+    "分支条件两版确为jπ<k/jπ=k/jπ>k",
+    "数量下标两版确为裸a_j/b_j/a_(n+2−j)，未印成a_(jπ)/b_(jπ)",
+    "同段原a_j=j−3max(j−2t,0),b_j=min(j,t,n+1−j)",
+    "同段k1原总数3t²+2=14"
+  ],
+  "sourceObjectQualification": "原首句说nodes that branch on j，但本段没有在这处单独声明j是原变量名、变换后变量名还是层号；原题158用f^π及变量连续性。这里不挑选补哪个下标/条件作为最终作者意图。",
+  "singleExample": {
+    "m": 1,
+    "t": 2,
+    "n": 5,
+    "pi": [
+      5,
+      2,
+      3,
+      4,
+      1
+    ],
+    "piIsSelfInverse": true,
+    "k": 1,
+    "originalFunction": "[x1+x2+x3+x4=1] OR ([x1+x2+x3+x4=3] AND x5)",
+    "functionAfterPermutation": "original f applied to (x5,x2,x3,x4,x1); special variable is x1 at first level",
+    "branchOrderInPermutedFunction": [
+      "x1",
+      "x2",
+      "x3",
+      "x4",
+      "x5"
+    ],
+    "aValues0to6": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      2,
+      0
+    ],
+    "bValues1to5": [
+      1,
+      2,
+      2,
+      2,
+      1
+    ],
+    "literalMixedNotationByLayerProfile": [
+      0,
+      2,
+      4,
+      3,
+      1
+    ],
+    "literalTotalIncludingTwoSinks": 12,
+    "actualReducedOrderedProfile": [
+      1,
+      2,
+      4,
+      3,
+      2
+    ],
+    "actualTotalIncludingTwoSinks": 14,
+    "actualRootNode": 13,
+    "actualNodes": {
+      "2": {
+        "variableLevel1Based": 5,
+        "low": 0,
+        "high": 1
+      },
+      "3": {
+        "variableLevel1Based": 5,
+        "low": 1,
+        "high": 0
+      },
+      "4": {
+        "variableLevel1Based": 4,
+        "low": 2,
+        "high": 3
+      },
+      "5": {
+        "variableLevel1Based": 4,
+        "low": 3,
+        "high": 0
+      },
+      "6": {
+        "variableLevel1Based": 3,
+        "low": 4,
+        "high": 5
+      },
+      "7": {
+        "variableLevel1Based": 3,
+        "low": 5,
+        "high": 0
+      },
+      "8": {
+        "variableLevel1Based": 2,
+        "low": 6,
+        "high": 7
+      },
+      "9": {
+        "variableLevel1Based": 4,
+        "low": 3,
+        "high": 2
+      },
+      "10": {
+        "variableLevel1Based": 3,
+        "low": 4,
+        "high": 9
+      },
+      "11": {
+        "variableLevel1Based": 3,
+        "low": 9,
+        "high": 4
+      },
+      "12": {
+        "variableLevel1Based": 2,
+        "low": 10,
+        "high": 11
+      },
+      "13": {
+        "variableLevel1Based": 1,
+        "low": 8,
+        "high": 12
+      }
+    },
+    "truthTable32Inputs": [
+      {
+        "x1to5": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "fpi": 1
+      },
+      {
+        "x1to5": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "fpi": 1
+      },
+      {
+        "x1to5": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "fpi": 1
+      },
+      {
+        "x1to5": [
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "fpi": 1
+      },
+      {
+        "x1to5": [
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "fpi": 1
+      },
+      {
+        "x1to5": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "fpi": 1
+      },
+      {
+        "x1to5": [
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "fpi": 1
+      },
+      {
+        "x1to5": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "fpi": 1
+      },
+      {
+        "x1to5": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "fpi": 1
+      },
+      {
+        "x1to5": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "fpi": 1
+      },
+      {
+        "x1to5": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "fpi": 0
+      },
+      {
+        "x1to5": [
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "fpi": 1
+      },
+      {
+        "x1to5": [
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "fpi": 1
+      },
+      {
+        "x1to5": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "fpi": 0
+      }
+    ],
+    "BDDReductionMethod": "唯一表键(level,low,high)，同low/high删除节点；0/1终端各1；没有补边或任意重排序优化。"
+  },
+  "conclusion": "原字形的确混用了jπ位置条件和裸j计数下标。按j为层号逐字代入此例得到不可能的首层0与总12，实际ROBDD14，亦吻合同段k1总式。若把j当原变量名，则下标也应按其位置解释并按层重排；若j当层号则条件应按层解释。两种重参数化不能只凭本段择一。",
+  "recommendedTreatment": "保源列符号对象/索引约定疑点及这一个可追踪反例，不贸然选修法、不把一般结论说成被否定。",
+  "sourceImages": [
+    {
+      "sourcePage": "559.jpg",
+      "sha256": "e38a8fa6bfb789a3597cea00b98d900ba43740d56d49df7eb443b784e8c7ab8d"
+    },
+    {
+      "sourcePage": "en-667.png",
+      "sha256": "da1126f82b970c79fa5b33dc45e4c7eb35d3f55ab75a58dbe3106e2887fa4bc7"
+    },
+    {
+      "sourcePage": "en-286-556-context.png",
+      "sha256": "39af911d9d1d8d8a5021a993cf8414afbeb8ce49f982e86e95ae68ebc115e390"
+    }
+  ],
+  "masterSha256": null,
+  "humanSignOff": false,
+  "privateOriginalEvidenceSha256": "78471b2fcb39a6b9bcdfa8ac7991e7274f5d6a41f043ab06dfe6e7c06555d343",
+  "sourcePageMarkdownSha256": {
+    "559": "fec31945c9f612101318799118ccc817856405fc06637c28668286fe0515f451"
+  }
+}

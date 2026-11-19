@@ -1,0 +1,2708 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Complete CN566567 answers184–200, source images and current two-width private proofs",
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 566,
+      "cnPrintedPage": "551",
+      "enPdfPages": [
+        675,
+        676
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "312acdfb584522d09f638e0f0197378e2bf98f1d5b4b3bd54aa3a69a5f85fec2",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "fdc72f271af88467b7dffc9d43307dea70c8a45906113a483fdbf602d08d5e67",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "Complete Chinese source page and the available corresponding English contents directly compared; preserved edition differences are not asserted equal. No human sign-off.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "f1d9aefe9da1f00468cc8e765bd83d6aa8fc302cd4fe937b550fc2682b3ae591",
+      "enPageImages": [
+        {
+          "physicalPage": 675,
+          "sha256": "5226dec1b50a2dc7c7fe83fe4287ddd6a3b4ca635a8a07b18a11db28207d79c3"
+        },
+        {
+          "physicalPage": 676,
+          "sha256": "935afd3057d12d32b785af1fd71ed90ba7297f081bc9d87397542acd6847fb33"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 566,
+        "markdownSha256": "312acdfb584522d09f638e0f0197378e2bf98f1d5b4b3bd54aa3a69a5f85fec2",
+        "htmlSha256": "2fe7dd8ccb027417bee0d8d8b1d3ed20bd4c74f373a667aea24d5a96dfee8f95",
+        "mathExpressions": 114,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "f1b1d11ee0fd3c0661b5f548df55950cdb7d244920598be48de09e6431acea47",
+      "syntaxEvidenceFile": "syntax-566-567.json",
+      "coveredRegions": [
+        "184 whole two BDD classes/three binomials/natural variable order and dated optimum claim; ZDD column-selection meaning",
+        "185 whole symmetric-function substring criteria/de Bruijn window/author Sigma correction",
+        "186 all six literals and sole positive x3",
+        "187 all16 diagrams,128 bounded native paths,51 graph vertices and16 original sizes",
+        "188 all16 subset families in original truth-table order",
+        "189 identical graph classification and equal-profile/different-graph example with plain x2",
+        "190 both quasi equalities/exponents/selected CN n>=0",
+        "191 grammar/recurrence/all seven printed counts/40 theta digits/original error bound and whole historical paragraph",
+        "192 all a-c,17-bit output/profile duality and quasi qualification;193 exact-weight threshold;194 unrestricted pistol correspondence and Genocchi index"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "184 ZDD列选择／551",
+          "enPosition": "EN675／658，every choice of i-1 columns unequal to j",
+          "original": "对于≠j的i−1列，每列选择一个",
+          "final": "从不等于j的列中选择i-1列的每一种方式",
+          "basis": "Restore selection of columns, not one element from each column. Original binomial unchanged."
+        },
+        {
+          "location": "185 对称函数上界记号／551",
+          "enPosition": "EN675／658；作者2025-05-19勘误",
+          "original": "S_n",
+          "final": "Sigma_n",
+          "basis": "Official correction explicitly read in cached author errata PDF physical9; existing answer44 already uses Sigma_n. Not a new correction to539."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "190(a)",
+          "selectedCN": "n>=0",
+          "sourceEN": "n>0",
+          "treatment": "Keep selected CN; empty-XOR convention supplies both constants at n0, no substantive correction."
+        }
+      ],
+      "machineErrorsCorrected": [
+        "189 phantom negation on x2 removed according to both actual source crops",
+        "186 all five bars and positive x3;190 power-of-power not flattened",
+        "191 exact sequence and all40 printed decimal digits;192 epsilon/zero/one transform base definitions source-read separately",
+        "188 restore every subset family including epsilon and no nested OCR ordering loss"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "continuation": {
+        "previousCnPdfPage": 565,
+        "nextCnPdfPage": 567,
+        "scope": "184 begins new answer;194 ends whole paragraph. No code/math/table split."
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "Whole714/mother/offline/routed/onlineacceptance"
+      ],
+      "numericChecks": {
+        "receipt": "root-answer-checks/566-zdd-finite-models.json",
+        "scope": "Actual finite scopes only: P_m m1..4; symmetric truth vectors n1..8; deBruijn windows d1..6; all functions n0..4;8191 involution strings;45 threshold instances;independent theta interval;191 inconsistency not mathematical pass."
+      },
+      "sourceEditionQualifications": {
+        "191KnownPrintedBound": "Both actual sources print 0<epsilon<1/(8*y). Same recurrence forces epsilon_next=2*y*epsilon-epsilon^2-1/4<0, incompatible with positivity. Keep original line and document; no replacement constant or author attribution chosen. Independent peer inspected both crops and n0 only.",
+        "Theta": "Forty digits independently recomputed from recurrence and positive logarithmic tail, not from the inconsistent printed bound.",
+        "192Question": "Actual EN289 high definition and17 original font4452 bit glyph positions read; exact input11001001000011111, output10101101000010110. Special font locator, not generic ToUnicode proof.",
+        "187Graphic": "All16 source graph semantics64truth values separately reconstructed from native geometry; actual both-width inline image and original-link screens viewed.",
+        "AdditionalActualImages": [
+          {
+            "file": "root-sources/cn-566-189-example-detail.png",
+            "sha256": "670b6880d8d2007777c76de17d41de1a68469e113a867f6c5fac6af594607704"
+          },
+          {
+            "file": "root-sources/en-675-189-example-detail.png",
+            "sha256": "951dc432d355e6443c9e51368cbf6eb5ee35ec3436cae1b9c656b0a222d3b00a"
+          },
+          {
+            "file": "root-sources/cn-566-191-asymptotic-detail.png",
+            "sha256": "871ed32e53dc9c53a7ccaa578934511f5769d4650e5e5ac4b88d800714414615"
+          },
+          {
+            "file": "root-sources/en-675-191-asymptotic-detail.png",
+            "sha256": "da5c9645ed046cf76cc245bb76215571fa61d44339741ec51c013fc862b944c3"
+          },
+          {
+            "file": "official-errata/all4a-page9-early-latest.png",
+            "sha256": "2c80ff97d00a73918b66d9e9806735938d78ffc5fdff246ccb2958780052d5e9"
+          }
+        ]
+      },
+      "assets": [
+        {
+          "asset": "assets/volume4a/figures/answer-7-1-4-187-sixteen-ZDDs.svg",
+          "sha256": "47496725692ae14e5c7568aba8320c1bf361b50d3bbebdba8438bb855c1d9957",
+          "enPdfPage": 675,
+          "boundedSourceSelection": [
+            54,
+            298,
+            413,
+            329
+          ],
+          "nativePaths": 128,
+          "allSourcePrimitivesExactlyOnce": true,
+          "panels": [
+            {
+              "truthTableIndex": 0,
+              "sourceXBounds": [
+                55.85620880126953,
+                62.446205139160156
+              ],
+              "translation": [
+                -40.651206970214844,
+                -296.4
+              ],
+              "nativePaths": 2,
+              "sourceNativePathIndices": [
+                0,
+                1
+              ],
+              "circleVertices": 0,
+              "terminalVertices": 1,
+              "printedSize": 1,
+              "typedLabels": [
+                [
+                  59.15071105957031,
+                  327.3975036621094,
+                  "⊥"
+                ]
+              ],
+              "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+            },
+            {
+              "truthTableIndex": 1,
+              "sourceXBounds": [
+                72.26219940185547,
+                89.84020233154297
+              ],
+              "translation": [
+                -25.55120086669922,
+                -296.4
+              ],
+              "nativePaths": 10,
+              "sourceNativePathIndices": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "circleVertices": 2,
+              "terminalVertices": 2,
+              "printedSize": 4,
+              "typedLabels": [
+                [
+                  81.05120086669922,
+                  316.55951232910155,
+                  "2"
+                ],
+                [
+                  81.05120086669922,
+                  305.5715057373047,
+                  "1"
+                ],
+                [
+                  75.55670166015625,
+                  327.3975036621094,
+                  "⊥"
+                ],
+                [
+                  86.54570007324219,
+                  327.3975036621094,
+                  "⊤"
+                ]
+              ],
+              "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+            },
+            {
+              "truthTableIndex": 2,
+              "sourceXBounds": [
+                99.62220001220703,
+                117.20020294189453
+              ],
+              "translation": [
+                -15.911201477050781,
+                -296.4
+              ],
+              "nativePaths": 7,
+              "sourceNativePathIndices": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "circleVertices": 1,
+              "terminalVertices": 2,
+              "printedSize": 3,
+              "typedLabels": [
+                [
+                  108.41120147705078,
+                  305.5715057373047,
+                  "1"
+                ],
+                [
+                  102.91670227050781,
+                  327.3975036621094,
+                  "⊥"
+                ],
+                [
+                  113.90570068359375,
+                  327.3975036621094,
+                  "⊤"
+                ]
+              ],
+              "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+            },
+            {
+              "truthTableIndex": 3,
+              "sourceXBounds": [
+                126.9822006225586,
+                144.96420288085938
+              ],
+              "translation": [
+                -6.473201751708984,
+                -296.4
+              ],
+              "nativePaths": 10,
+              "sourceNativePathIndices": [
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "circleVertices": 2,
+              "terminalVertices": 2,
+              "printedSize": 4,
+              "typedLabels": [
+                [
+                  141.26519775390625,
+                  316.55951232910155,
+                  "2"
+                ],
+                [
+                  135.77120971679688,
+                  305.5715057373047,
+                  "1"
+                ],
+                [
+                  130.2766990661621,
+                  327.3975036621094,
+                  "⊥"
+                ],
+                [
+                  141.2657012939453,
+                  327.3975036621094,
+                  "⊤"
+                ]
+              ],
+              "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+            },
+            {
+              "truthTableIndex": 4,
+              "sourceXBounds": [
+                154.34219360351562,
+                171.92019653320312
+              ],
+              "translation": [
+                -144.63119506835938,
+                -252.39999999999998
+              ],
+              "nativePaths": 7,
+              "sourceNativePathIndices": [
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35
+              ],
+              "circleVertices": 1,
+              "terminalVertices": 2,
+              "printedSize": 3,
+              "typedLabels": [
+                [
+                  163.13119506835938,
+                  316.55951232910155,
+                  "2"
+                ],
+                [
+                  157.63670349121094,
+                  327.3975036621094,
+                  "⊥"
+                ],
+                [
+                  168.62570190429688,
+                  327.3975036621094,
+                  "⊤"
+                ]
+              ],
+              "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+            },
+            {
+              "truthTableIndex": 5,
+              "sourceXBounds": [
+                181.70220947265625,
+                199.28018188476562
+              ],
+              "translation": [
+                -134.99119567871094,
+                -252.39999999999998
+              ],
+              "nativePaths": 10,
+              "sourceNativePathIndices": [
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45
+              ],
+              "circleVertices": 2,
+              "terminalVertices": 2,
+              "printedSize": 4,
+              "typedLabels": [
+                [
+                  190.49118041992188,
+                  316.55951232910155,
+                  "2"
+                ],
+                [
+                  190.49118041992188,
+                  305.5715057373047,
+                  "1"
+                ],
+                [
+                  184.9967041015625,
+                  327.3975036621094,
+                  "⊥"
+                ],
+                [
+                  195.98568725585938,
+                  327.3975036621094,
+                  "⊤"
+                ]
+              ],
+              "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+            },
+            {
+              "truthTableIndex": 6,
+              "sourceXBounds": [
+                209.06219482421875,
+                226.64019775390625
+              ],
+              "translation": [
+                -125.3511962890625,
+                -252.39999999999998
+              ],
+              "nativePaths": 10,
+              "sourceNativePathIndices": [
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55
+              ],
+              "circleVertices": 2,
+              "terminalVertices": 2,
+              "printedSize": 4,
+              "typedLabels": [
+                [
+                  217.8511962890625,
+                  316.55951232910155,
+                  "2"
+                ],
+                [
+                  217.8511962890625,
+                  305.5715057373047,
+                  "1"
+                ],
+                [
+                  212.356689453125,
+                  327.3975036621094,
+                  "⊥"
+                ],
+                [
+                  223.345703125,
+                  327.3975036621094,
+                  "⊤"
+                ]
+              ],
+              "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+            },
+            {
+              "truthTableIndex": 7,
+              "sourceXBounds": [
+                236.0181884765625,
+                254.40420532226562
+              ],
+              "translation": [
+                -115.71119689941406,
+                -252.39999999999998
+              ],
+              "nativePaths": 13,
+              "sourceNativePathIndices": [
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68
+              ],
+              "circleVertices": 3,
+              "terminalVertices": 2,
+              "printedSize": 5,
+              "typedLabels": [
+                [
+                  239.71719360351562,
+                  316.55951232910155,
+                  "2"
+                ],
+                [
+                  250.7052001953125,
+                  316.55951232910155,
+                  "2"
+                ],
+                [
+                  245.211181640625,
+                  305.5715057373047,
+                  "1"
+                ],
+                [
+                  239.7166748046875,
+                  327.3975036621094,
+                  "⊥"
+                ],
+                [
+                  250.7056884765625,
+                  327.3975036621094,
+                  "⊤"
+                ]
+              ],
+              "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+            },
+            {
+              "truthTableIndex": 8,
+              "sourceXBounds": [
+                263.8161926269531,
+                270.40618896484375
+              ],
+              "translation": [
+                -248.61119079589844,
+                -208.39999999999998
+              ],
+              "nativePaths": 2,
+              "sourceNativePathIndices": [
+                69,
+                70
+              ],
+              "circleVertices": 0,
+              "terminalVertices": 1,
+              "printedSize": 1,
+              "typedLabels": [
+                [
+                  267.1106872558594,
+                  327.3975036621094,
+                  "⊤"
+                ]
+              ],
+              "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+            },
+            {
+              "truthTableIndex": 9,
+              "sourceXBounds": [
+                280.2221984863281,
+                297.8002014160156
+              ],
+              "translation": [
+                -233.51119995117188,
+                -208.39999999999998
+              ],
+              "nativePaths": 10,
+              "sourceNativePathIndices": [
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80
+              ],
+              "circleVertices": 2,
+              "terminalVertices": 2,
+              "printedSize": 4,
+              "typedLabels": [
+                [
+                  289.0111999511719,
+                  316.55951232910155,
+                  "2"
+                ],
+                [
+                  289.0111999511719,
+                  305.5715057373047,
+                  "1"
+                ],
+                [
+                  283.5166931152344,
+                  327.3975036621094,
+                  "⊥"
+                ],
+                [
+                  294.50567626953125,
+                  327.3975036621094,
+                  "⊤"
+                ]
+              ],
+              "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+            },
+            {
+              "truthTableIndex": 10,
+              "sourceXBounds": [
+                307.1521911621094,
+                314.5502014160156
+              ],
+              "translation": [
+                -218.3511962890625,
+                -208.39999999999998
+              ],
+              "nativePaths": 5,
+              "sourceNativePathIndices": [
+                81,
+                82,
+                83,
+                84,
+                85
+              ],
+              "circleVertices": 1,
+              "terminalVertices": 1,
+              "printedSize": 2,
+              "typedLabels": [
+                [
+                  310.8511962890625,
+                  305.5715057373047,
+                  "1"
+                ],
+                [
+                  310.8516845703125,
+                  327.3975036621094,
+                  "⊤"
+                ]
+              ],
+              "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+            },
+            {
+              "truthTableIndex": 11,
+              "sourceXBounds": [
+                321.3711853027344,
+                333.4501953125
+              ],
+              "translation": [
+                -197.9106903076172,
+                -208.39999999999998
+              ],
+              "nativePaths": 8,
+              "sourceNativePathIndices": [
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93
+              ],
+              "circleVertices": 2,
+              "terminalVertices": 1,
+              "printedSize": 3,
+              "typedLabels": [
+                [
+                  329.7511901855469,
+                  316.55951232910155,
+                  "2"
+                ],
+                [
+                  329.7511901855469,
+                  305.5715057373047,
+                  "1"
+                ],
+                [
+                  329.7507019042969,
+                  327.3975036621094,
+                  "⊤"
+                ]
+              ],
+              "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+            },
+            {
+              "truthTableIndex": 12,
+              "sourceXBounds": [
+                342.4921875,
+                349.89019775390625
+              ],
+              "translation": [
+                -327.6911926269531,
+                -164.39999999999998
+              ],
+              "nativePaths": 5,
+              "sourceNativePathIndices": [
+                94,
+                95,
+                96,
+                97,
+                98
+              ],
+              "circleVertices": 1,
+              "terminalVertices": 1,
+              "printedSize": 2,
+              "typedLabels": [
+                [
+                  346.1911926269531,
+                  316.55951232910155,
+                  "2"
+                ],
+                [
+                  346.190673828125,
+                  327.3975036621094,
+                  "⊤"
+                ]
+              ],
+              "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+            },
+            {
+              "truthTableIndex": 13,
+              "sourceXBounds": [
+                358.83819580078125,
+                377.2242126464844
+              ],
+              "translation": [
+                -312.5312042236328,
+                -164.39999999999998
+              ],
+              "nativePaths": 13,
+              "sourceNativePathIndices": [
+                99,
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111
+              ],
+              "circleVertices": 3,
+              "terminalVertices": 2,
+              "printedSize": 5,
+              "typedLabels": [
+                [
+                  362.5372009277344,
+                  316.55951232910155,
+                  "2"
+                ],
+                [
+                  373.52520751953125,
+                  316.55951232910155,
+                  "2"
+                ],
+                [
+                  368.03118896484375,
+                  305.5715057373047,
+                  "1"
+                ],
+                [
+                  362.53668212890625,
+                  327.3975036621094,
+                  "⊥"
+                ],
+                [
+                  373.52569580078125,
+                  327.3975036621094,
+                  "⊤"
+                ]
+              ],
+              "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+            },
+            {
+              "truthTableIndex": 14,
+              "sourceXBounds": [
+                386.232177734375,
+                398.3111877441406
+              ],
+              "translation": [
+                -299.7716827392578,
+                -164.39999999999998
+              ],
+              "nativePaths": 8,
+              "sourceNativePathIndices": [
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119
+              ],
+              "circleVertices": 2,
+              "terminalVertices": 1,
+              "printedSize": 3,
+              "typedLabels": [
+                [
+                  389.9311828613281,
+                  316.55951232910155,
+                  "2"
+                ],
+                [
+                  389.9311828613281,
+                  305.5715057373047,
+                  "1"
+                ],
+                [
+                  389.9306945800781,
+                  327.3975036621094,
+                  "⊤"
+                ]
+              ],
+              "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+            },
+            {
+              "truthTableIndex": 15,
+              "sourceXBounds": [
+                405.1322021484375,
+                412.53021240234375
+              ],
+              "translation": [
+                -279.3312072753906,
+                -164.39999999999998
+              ],
+              "nativePaths": 8,
+              "sourceNativePathIndices": [
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127
+              ],
+              "circleVertices": 2,
+              "terminalVertices": 1,
+              "printedSize": 3,
+              "typedLabels": [
+                [
+                  408.8312072753906,
+                  316.55951232910155,
+                  "2"
+                ],
+                [
+                  408.8312072753906,
+                  305.5715057373047,
+                  "1"
+                ],
+                [
+                  408.8306884765625,
+                  327.3975036621094,
+                  "⊤"
+                ]
+              ],
+              "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+            }
+          ],
+          "circleVertices": 26,
+          "terminalVertices": 25,
+          "sourcePrintedSizes": [
+            1,
+            4,
+            3,
+            4,
+            3,
+            4,
+            4,
+            5,
+            1,
+            4,
+            2,
+            3,
+            2,
+            5,
+            3,
+            3
+          ],
+          "method": "Onlyfullboundednativepaths;originalcap/join/dash/zeroextentlinespreserved.Reflowtranslation4x4,typednodelabels/sinks/originalsize.NoPageSVG/fontdefs/bitmap/hiddenprose."
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 567,
+      "cnPrintedPage": "552",
+      "enPdfPages": [
+        676,
+        677
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "37e405131b86b5edef8845a1f043632f2f94441b0561a0292db4f0abed8cd70d",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "5fba07ffc610ed8f55305bf0e52397ba66e03e1f24ba1833c2e3604f4f2b508e",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "Complete Chinese source page and the available corresponding English contents directly compared; preserved edition differences are not asserted equal. No human sign-off.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "777f06693b3084d73b6c5e27634aa83d52ecf58bb6615cda78a8a48f8ff57a2e",
+      "enPageImages": [
+        {
+          "physicalPage": 676,
+          "sha256": "935afd3057d12d32b785af1fd71ed90ba7297f081bc9d87397542acd6847fb33"
+        },
+        {
+          "physicalPage": 677,
+          "sha256": "1077976b95cdcab236ff802ffe074e5ec51458bacea5e1d04ce111c522d8602b"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 567,
+        "markdownSha256": "37e405131b86b5edef8845a1f043632f2f94441b0561a0292db4f0abed8cd70d",
+        "htmlSha256": "9ffa9f59422a31e8e210e7dead385e8840be3dad6a501f9ffc6a49b71902856b",
+        "mathExpressions": 132,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "18b5479a8d1aba1c223e5d1336bbaff46a13b6e25ce5b213c38d7d0c1efb4393",
+      "syntaxEvidenceFile": "syntax-567.json",
+      "coveredRegions": [
+        "195 all three M2 profiles/all two permutations/20-index M4 exceptional order and116",
+        "196 one-hot construction/two sizes; target variable-domain interpretation separately qualified",
+        "197 full changed DEP definition/zero-index array/E1 initialization/E3 conditions and bitmask RHS/nonterminal profile vs terminal z_n condition",
+        "198 entire reinterpretation/selected CN component o/terminal convention/AND pseudocode/REF changes/original sanity-check advice",
+        "199 complete OR/XOR/BUTNOT branches,REF notes and memoization;200 full MUX early conditions and book false-to-g/true-to-h convention"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "197 E3三处比较操作数／552",
+          "enPosition": "EN676／659；原138定义见EN661–662",
+          "original": "d_(k+1)h != zeta；d_(k+1)l=d_(k+1)h=zeta",
+          "final": "h != zeta；l=h=zeta",
+          "basis": "Project technical correction, not official. Zeta is node index, d is support mask. Minimal f=x1 has terminal d0=d1=0: literal gives root support0 and false zero index; corrected gives1 and -1. Only three comparison d prefixes removed; all RHS masks/shifts unchanged. Independent peer read both actual crops and138 definition."
+        },
+        {
+          "location": "197 绝对最小值条件／552",
+          "enPosition": "EN676／659，if the absolute minimum is important",
+          "original": "绝对最小值是很大的",
+          "final": "绝对最小值很重要",
+          "basis": "Important describes importance, not numeric size; source retains need to consider z_n separately."
+        },
+        {
+          "location": "198 冗余信息／552",
+          "enPosition": "EN676／659，other redundancies",
+          "original": "其他冗余操作",
+          "final": "其他冗余信息",
+          "basis": "Stored redundant information checked against counts, not redundant operations. Keep source term 稳健检查."
+        },
+        {
+          "location": "198 两处答案引用／552",
+          "enPosition": "EN676／659，作者2023-11-04勘误lines5/14",
+          "original": "两处习题200的答案",
+          "final": "两处习题201的答案",
+          "basis": "Official correction actually read in author errata PDF physical9. Actual answer200 itself unchanged."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "198–200 component field",
+          "selectedCN": "f_o,g_o,h_o",
+          "sourceEN": "f_v,g_v,h_v",
+          "treatment": "Keep selected CN o consistently; x_v stays v. Not a digit0 or new substantive correction."
+        }
+      ],
+      "machineErrorsCorrected": [
+        "Selected CN component suffix is lowercase letter o throughout198–200, not zero; regular variable subscript v remains v",
+        "Restore195 all20 variable indices and three seven-entry profiles,196 formula minus2",
+        "Restore199 three aligned OR branches/two BUTNOT branches including REF notes;200 selector convention unchanged"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "continuation": {
+        "previousCnPdfPage": 566,
+        "nextCnPdfPage": 568,
+        "scope": "195 begins full answer;200 ends full pseudocode paragraph;all display fences closed."
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "Whole714/mother/offline/routed/onlineacceptance"
+      ],
+      "numericChecks": {
+        "receipt": "root-answer-checks/567-zdd-finite-models.json",
+        "scope": "M2 all720 orders;M4 one given order all2^20 inputs, not20! optimum;one-hot m1..3 target domain;197 all functions n1..4/two legal indexings;immutable ZDD operations n2/n3 pair models and n2 MUX triples, not REF/GC/literal manager execution."
+      },
+      "sourceEditionQualifications": {
+        "196Domain": "e_j one-hot on target variables separately from selector domain; no full-ambient-variable extension assertion.",
+        "197Limits": "Support and zero-index finite model agrees with direct truth sets; not a universal ELIM/ref manager verification.",
+        "198AND": "v interpreted from currently aligned operands as source52, not a stale immutable register assumption.",
+        "BookInstructions": "Original requests to write/call sanity-check are transcribed book content. No extra library feature work or external action inferred.",
+        "SourceClaims": "M4 global minimum and dated optimum/worst phrases retained as source claims; only stated finite instances independently checked.",
+        "AdditionalActualImages": [
+          {
+            "file": "root-sources/cn-567-197-DEP-detail.png",
+            "sha256": "b2fc1cd1b7bebd9f3459023eaed28122142fcf391917df78119b5b280fabe343"
+          },
+          {
+            "file": "root-sources/en-676-197-DEP-detail.png",
+            "sha256": "0ed599fe72e36469376b42135c3b140e472bfb088884dc23526ab6aaa381b6d0"
+          },
+          {
+            "file": "official-errata/all4a-page9-early-latest.png",
+            "sha256": "2c80ff97d00a73918b66d9e9806735938d78ffc5fdff246ccb2958780052d5e9"
+          }
+        ]
+      },
+      "assets": []
+    }
+  ],
+  "browser": {
+    "widths": [
+      1280,
+      390
+    ],
+    "acceptedDistinctPageCases": 4,
+    "mathExpressionsPerPass": 246,
+    "errors": 0,
+    "wholePageOverflow": 0,
+    "mathmlContainsProse": 0,
+    "wholeScreensActuallyViewed": 12,
+    "mathEndpointScreensActuallyViewed": 18,
+    "currentDiagramScreensActuallyViewed": 2,
+    "actualUnforcedOriginalSVGClickAndReturnBothWidths": true,
+    "sourceFigureNativePaths": 128,
+    "sourceFigureTypedLabels": 67,
+    "evidenceSha256": "831ac6f31b6ec34ec2e3407f45e8b5b20e0e18242e62eae4e4fc8695c58e280e",
+    "currentImageEvidenceSha256": "56b3fbafe52ea826c0677bad339f86f24e355cd4b3918ce3fa15185bc732838d",
+    "actualDOMAndOriginalLinkEvidenceSha256": {
+      "566": "c5ec5eae80e1cf98b20cd5e28ba6386fa1bbef6e1f161d4d6444bb1f04550346",
+      "567": "556ad5629066b4c162d930954c4dd6a32cbacdf89e6128464a89a36fb1014ea5"
+    },
+    "endpointEvidenceSha256": {
+      "566": "2899393da4a20d4b8e12799eec75ab2a9eac889f586cabe8f7f6fdc238115e64",
+      "567": "f1d40591869c80a66aec840d0c83e3425b556d7abf88cab194c9835585b7aaf4"
+    }
+  },
+  "figure": {
+    "asset": "assets/volume4a/figures/answer-7-1-4-187-sixteen-ZDDs.svg",
+    "sha256": "47496725692ae14e5c7568aba8320c1bf361b50d3bbebdba8438bb855c1d9957",
+    "enPdfPage": 675,
+    "boundedSourceSelection": [
+      54,
+      298,
+      413,
+      329
+    ],
+    "nativePaths": 128,
+    "allSourcePrimitivesExactlyOnce": true,
+    "panels": [
+      {
+        "truthTableIndex": 0,
+        "sourceXBounds": [
+          55.85620880126953,
+          62.446205139160156
+        ],
+        "translation": [
+          -40.651206970214844,
+          -296.4
+        ],
+        "nativePaths": 2,
+        "sourceNativePathIndices": [
+          0,
+          1
+        ],
+        "circleVertices": 0,
+        "terminalVertices": 1,
+        "printedSize": 1,
+        "typedLabels": [
+          [
+            59.15071105957031,
+            327.3975036621094,
+            "⊥"
+          ]
+        ],
+        "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+      },
+      {
+        "truthTableIndex": 1,
+        "sourceXBounds": [
+          72.26219940185547,
+          89.84020233154297
+        ],
+        "translation": [
+          -25.55120086669922,
+          -296.4
+        ],
+        "nativePaths": 10,
+        "sourceNativePathIndices": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "circleVertices": 2,
+        "terminalVertices": 2,
+        "printedSize": 4,
+        "typedLabels": [
+          [
+            81.05120086669922,
+            316.55951232910155,
+            "2"
+          ],
+          [
+            81.05120086669922,
+            305.5715057373047,
+            "1"
+          ],
+          [
+            75.55670166015625,
+            327.3975036621094,
+            "⊥"
+          ],
+          [
+            86.54570007324219,
+            327.3975036621094,
+            "⊤"
+          ]
+        ],
+        "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+      },
+      {
+        "truthTableIndex": 2,
+        "sourceXBounds": [
+          99.62220001220703,
+          117.20020294189453
+        ],
+        "translation": [
+          -15.911201477050781,
+          -296.4
+        ],
+        "nativePaths": 7,
+        "sourceNativePathIndices": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "circleVertices": 1,
+        "terminalVertices": 2,
+        "printedSize": 3,
+        "typedLabels": [
+          [
+            108.41120147705078,
+            305.5715057373047,
+            "1"
+          ],
+          [
+            102.91670227050781,
+            327.3975036621094,
+            "⊥"
+          ],
+          [
+            113.90570068359375,
+            327.3975036621094,
+            "⊤"
+          ]
+        ],
+        "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+      },
+      {
+        "truthTableIndex": 3,
+        "sourceXBounds": [
+          126.9822006225586,
+          144.96420288085938
+        ],
+        "translation": [
+          -6.473201751708984,
+          -296.4
+        ],
+        "nativePaths": 10,
+        "sourceNativePathIndices": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "circleVertices": 2,
+        "terminalVertices": 2,
+        "printedSize": 4,
+        "typedLabels": [
+          [
+            141.26519775390625,
+            316.55951232910155,
+            "2"
+          ],
+          [
+            135.77120971679688,
+            305.5715057373047,
+            "1"
+          ],
+          [
+            130.2766990661621,
+            327.3975036621094,
+            "⊥"
+          ],
+          [
+            141.2657012939453,
+            327.3975036621094,
+            "⊤"
+          ]
+        ],
+        "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+      },
+      {
+        "truthTableIndex": 4,
+        "sourceXBounds": [
+          154.34219360351562,
+          171.92019653320312
+        ],
+        "translation": [
+          -144.63119506835938,
+          -252.39999999999998
+        ],
+        "nativePaths": 7,
+        "sourceNativePathIndices": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "circleVertices": 1,
+        "terminalVertices": 2,
+        "printedSize": 3,
+        "typedLabels": [
+          [
+            163.13119506835938,
+            316.55951232910155,
+            "2"
+          ],
+          [
+            157.63670349121094,
+            327.3975036621094,
+            "⊥"
+          ],
+          [
+            168.62570190429688,
+            327.3975036621094,
+            "⊤"
+          ]
+        ],
+        "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+      },
+      {
+        "truthTableIndex": 5,
+        "sourceXBounds": [
+          181.70220947265625,
+          199.28018188476562
+        ],
+        "translation": [
+          -134.99119567871094,
+          -252.39999999999998
+        ],
+        "nativePaths": 10,
+        "sourceNativePathIndices": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45
+        ],
+        "circleVertices": 2,
+        "terminalVertices": 2,
+        "printedSize": 4,
+        "typedLabels": [
+          [
+            190.49118041992188,
+            316.55951232910155,
+            "2"
+          ],
+          [
+            190.49118041992188,
+            305.5715057373047,
+            "1"
+          ],
+          [
+            184.9967041015625,
+            327.3975036621094,
+            "⊥"
+          ],
+          [
+            195.98568725585938,
+            327.3975036621094,
+            "⊤"
+          ]
+        ],
+        "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+      },
+      {
+        "truthTableIndex": 6,
+        "sourceXBounds": [
+          209.06219482421875,
+          226.64019775390625
+        ],
+        "translation": [
+          -125.3511962890625,
+          -252.39999999999998
+        ],
+        "nativePaths": 10,
+        "sourceNativePathIndices": [
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "circleVertices": 2,
+        "terminalVertices": 2,
+        "printedSize": 4,
+        "typedLabels": [
+          [
+            217.8511962890625,
+            316.55951232910155,
+            "2"
+          ],
+          [
+            217.8511962890625,
+            305.5715057373047,
+            "1"
+          ],
+          [
+            212.356689453125,
+            327.3975036621094,
+            "⊥"
+          ],
+          [
+            223.345703125,
+            327.3975036621094,
+            "⊤"
+          ]
+        ],
+        "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+      },
+      {
+        "truthTableIndex": 7,
+        "sourceXBounds": [
+          236.0181884765625,
+          254.40420532226562
+        ],
+        "translation": [
+          -115.71119689941406,
+          -252.39999999999998
+        ],
+        "nativePaths": 13,
+        "sourceNativePathIndices": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68
+        ],
+        "circleVertices": 3,
+        "terminalVertices": 2,
+        "printedSize": 5,
+        "typedLabels": [
+          [
+            239.71719360351562,
+            316.55951232910155,
+            "2"
+          ],
+          [
+            250.7052001953125,
+            316.55951232910155,
+            "2"
+          ],
+          [
+            245.211181640625,
+            305.5715057373047,
+            "1"
+          ],
+          [
+            239.7166748046875,
+            327.3975036621094,
+            "⊥"
+          ],
+          [
+            250.7056884765625,
+            327.3975036621094,
+            "⊤"
+          ]
+        ],
+        "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+      },
+      {
+        "truthTableIndex": 8,
+        "sourceXBounds": [
+          263.8161926269531,
+          270.40618896484375
+        ],
+        "translation": [
+          -248.61119079589844,
+          -208.39999999999998
+        ],
+        "nativePaths": 2,
+        "sourceNativePathIndices": [
+          69,
+          70
+        ],
+        "circleVertices": 0,
+        "terminalVertices": 1,
+        "printedSize": 1,
+        "typedLabels": [
+          [
+            267.1106872558594,
+            327.3975036621094,
+            "⊤"
+          ]
+        ],
+        "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+      },
+      {
+        "truthTableIndex": 9,
+        "sourceXBounds": [
+          280.2221984863281,
+          297.8002014160156
+        ],
+        "translation": [
+          -233.51119995117188,
+          -208.39999999999998
+        ],
+        "nativePaths": 10,
+        "sourceNativePathIndices": [
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
+        ],
+        "circleVertices": 2,
+        "terminalVertices": 2,
+        "printedSize": 4,
+        "typedLabels": [
+          [
+            289.0111999511719,
+            316.55951232910155,
+            "2"
+          ],
+          [
+            289.0111999511719,
+            305.5715057373047,
+            "1"
+          ],
+          [
+            283.5166931152344,
+            327.3975036621094,
+            "⊥"
+          ],
+          [
+            294.50567626953125,
+            327.3975036621094,
+            "⊤"
+          ]
+        ],
+        "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+      },
+      {
+        "truthTableIndex": 10,
+        "sourceXBounds": [
+          307.1521911621094,
+          314.5502014160156
+        ],
+        "translation": [
+          -218.3511962890625,
+          -208.39999999999998
+        ],
+        "nativePaths": 5,
+        "sourceNativePathIndices": [
+          81,
+          82,
+          83,
+          84,
+          85
+        ],
+        "circleVertices": 1,
+        "terminalVertices": 1,
+        "printedSize": 2,
+        "typedLabels": [
+          [
+            310.8511962890625,
+            305.5715057373047,
+            "1"
+          ],
+          [
+            310.8516845703125,
+            327.3975036621094,
+            "⊤"
+          ]
+        ],
+        "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+      },
+      {
+        "truthTableIndex": 11,
+        "sourceXBounds": [
+          321.3711853027344,
+          333.4501953125
+        ],
+        "translation": [
+          -197.9106903076172,
+          -208.39999999999998
+        ],
+        "nativePaths": 8,
+        "sourceNativePathIndices": [
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93
+        ],
+        "circleVertices": 2,
+        "terminalVertices": 1,
+        "printedSize": 3,
+        "typedLabels": [
+          [
+            329.7511901855469,
+            316.55951232910155,
+            "2"
+          ],
+          [
+            329.7511901855469,
+            305.5715057373047,
+            "1"
+          ],
+          [
+            329.7507019042969,
+            327.3975036621094,
+            "⊤"
+          ]
+        ],
+        "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+      },
+      {
+        "truthTableIndex": 12,
+        "sourceXBounds": [
+          342.4921875,
+          349.89019775390625
+        ],
+        "translation": [
+          -327.6911926269531,
+          -164.39999999999998
+        ],
+        "nativePaths": 5,
+        "sourceNativePathIndices": [
+          94,
+          95,
+          96,
+          97,
+          98
+        ],
+        "circleVertices": 1,
+        "terminalVertices": 1,
+        "printedSize": 2,
+        "typedLabels": [
+          [
+            346.1911926269531,
+            316.55951232910155,
+            "2"
+          ],
+          [
+            346.190673828125,
+            327.3975036621094,
+            "⊤"
+          ]
+        ],
+        "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+      },
+      {
+        "truthTableIndex": 13,
+        "sourceXBounds": [
+          358.83819580078125,
+          377.2242126464844
+        ],
+        "translation": [
+          -312.5312042236328,
+          -164.39999999999998
+        ],
+        "nativePaths": 13,
+        "sourceNativePathIndices": [
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111
+        ],
+        "circleVertices": 3,
+        "terminalVertices": 2,
+        "printedSize": 5,
+        "typedLabels": [
+          [
+            362.5372009277344,
+            316.55951232910155,
+            "2"
+          ],
+          [
+            373.52520751953125,
+            316.55951232910155,
+            "2"
+          ],
+          [
+            368.03118896484375,
+            305.5715057373047,
+            "1"
+          ],
+          [
+            362.53668212890625,
+            327.3975036621094,
+            "⊥"
+          ],
+          [
+            373.52569580078125,
+            327.3975036621094,
+            "⊤"
+          ]
+        ],
+        "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+      },
+      {
+        "truthTableIndex": 14,
+        "sourceXBounds": [
+          386.232177734375,
+          398.3111877441406
+        ],
+        "translation": [
+          -299.7716827392578,
+          -164.39999999999998
+        ],
+        "nativePaths": 8,
+        "sourceNativePathIndices": [
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ],
+        "circleVertices": 2,
+        "terminalVertices": 1,
+        "printedSize": 3,
+        "typedLabels": [
+          [
+            389.9311828613281,
+            316.55951232910155,
+            "2"
+          ],
+          [
+            389.9311828613281,
+            305.5715057373047,
+            "1"
+          ],
+          [
+            389.9306945800781,
+            327.3975036621094,
+            "⊤"
+          ]
+        ],
+        "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+      },
+      {
+        "truthTableIndex": 15,
+        "sourceXBounds": [
+          405.1322021484375,
+          412.53021240234375
+        ],
+        "translation": [
+          -279.3312072753906,
+          -164.39999999999998
+        ],
+        "nativePaths": 8,
+        "sourceNativePathIndices": [
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127
+        ],
+        "circleVertices": 2,
+        "terminalVertices": 1,
+        "printedSize": 3,
+        "typedLabels": [
+          [
+            408.8312072753906,
+            316.55951232910155,
+            "2"
+          ],
+          [
+            408.8312072753906,
+            305.5715057373047,
+            "1"
+          ],
+          [
+            408.8306884765625,
+            327.3975036621094,
+            "⊤"
+          ]
+        ],
+        "labelBasis": "Actualsourcecircles1/2atcommontwolevels;sourceboxesfalse-left/true-rightwhenboth;onlypanel0singlefalse,otherssingletrue;all16originalimagesdirectlyread."
+      }
+    ],
+    "circleVertices": 26,
+    "terminalVertices": 25,
+    "sourcePrintedSizes": [
+      1,
+      4,
+      3,
+      4,
+      3,
+      4,
+      4,
+      5,
+      1,
+      4,
+      2,
+      3,
+      2,
+      5,
+      3,
+      3
+    ],
+    "method": "Onlyfullboundednativepaths;originalcap/join/dash/zeroextentlinespreserved.Reflowtranslation4x4,typednodelabels/sinks/originalsize.NoPageSVG/fontdefs/bitmap/hiddenprose."
+  },
+  "nativeLogic": {
+    "scope": "OnlyOriginal16NativeZDDPanels/64TruthValues;NotAllZDDAlgorithms",
+    "assetSha256": "47496725692ae14e5c7568aba8320c1bf361b50d3bbebdba8438bb855c1d9957",
+    "nativeEvidenceSha256": "ac5211437c13b5ac3f9dfc3a4ab9e59b51399cca2cfd3ad80f9938b77fd1684f",
+    "all128PrimitivesAnd52BranchesAccounted": true,
+    "all64SourceTruthValuesVerified": true,
+    "panels": [
+      {
+        "truthTableIndex": 0,
+        "vertices": [
+          {
+            "center": [
+              59.15071105957031,
+              325.0975036621094
+            ],
+            "terminal": 0
+          }
+        ],
+        "edges": [],
+        "root": 0,
+        "truthValues": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sourcePrintedNodeCount": 1,
+        "actualNativeVertexCount": 1,
+        "allFourSourceTruthValuesMatch": true
+      },
+      {
+        "truthTableIndex": 1,
+        "vertices": [
+          {
+            "center": [
+              81.05120086669922,
+              314.10951232910156
+            ],
+            "variable": 2
+          },
+          {
+            "center": [
+              81.05120086669922,
+              303.1215057373047
+            ],
+            "variable": 1
+          },
+          {
+            "center": [
+              75.55670166015625,
+              325.0975036621094
+            ],
+            "terminal": 0
+          },
+          {
+            "center": [
+              86.54570007324219,
+              325.0975036621094
+            ],
+            "terminal": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": 0,
+            "side": "HI",
+            "to": 3
+          },
+          {
+            "from": 0,
+            "side": "LO",
+            "to": 2
+          },
+          {
+            "from": 1,
+            "side": "HI",
+            "to": 0
+          },
+          {
+            "from": 1,
+            "side": "LO",
+            "to": 2
+          }
+        ],
+        "root": 1,
+        "truthValues": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "sourcePrintedNodeCount": 4,
+        "actualNativeVertexCount": 4,
+        "allFourSourceTruthValuesMatch": true
+      },
+      {
+        "truthTableIndex": 2,
+        "vertices": [
+          {
+            "center": [
+              108.41120147705078,
+              303.1215057373047
+            ],
+            "variable": 1
+          },
+          {
+            "center": [
+              102.91670227050781,
+              325.0975036621094
+            ],
+            "terminal": 0
+          },
+          {
+            "center": [
+              113.90570068359375,
+              325.0975036621094
+            ],
+            "terminal": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": 0,
+            "side": "HI",
+            "to": 2
+          },
+          {
+            "from": 0,
+            "side": "LO",
+            "to": 1
+          }
+        ],
+        "root": 0,
+        "truthValues": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "sourcePrintedNodeCount": 3,
+        "actualNativeVertexCount": 3,
+        "allFourSourceTruthValuesMatch": true
+      },
+      {
+        "truthTableIndex": 3,
+        "vertices": [
+          {
+            "center": [
+              141.26519775390625,
+              314.10951232910156
+            ],
+            "variable": 2
+          },
+          {
+            "center": [
+              135.77120971679688,
+              303.1215057373047
+            ],
+            "variable": 1
+          },
+          {
+            "center": [
+              130.2766990661621,
+              325.0975036621094
+            ],
+            "terminal": 0
+          },
+          {
+            "center": [
+              141.2657012939453,
+              325.0975036621094
+            ],
+            "terminal": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": 0,
+            "side": "HI",
+            "to": 3
+          },
+          {
+            "from": 0,
+            "side": "LO",
+            "to": 3
+          },
+          {
+            "from": 1,
+            "side": "HI",
+            "to": 0
+          },
+          {
+            "from": 1,
+            "side": "LO",
+            "to": 2
+          }
+        ],
+        "root": 1,
+        "truthValues": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "sourcePrintedNodeCount": 4,
+        "actualNativeVertexCount": 4,
+        "allFourSourceTruthValuesMatch": true
+      },
+      {
+        "truthTableIndex": 4,
+        "vertices": [
+          {
+            "center": [
+              163.13119506835938,
+              314.10951232910156
+            ],
+            "variable": 2
+          },
+          {
+            "center": [
+              157.63670349121094,
+              325.0975036621094
+            ],
+            "terminal": 0
+          },
+          {
+            "center": [
+              168.62570190429688,
+              325.0975036621094
+            ],
+            "terminal": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": 0,
+            "side": "HI",
+            "to": 2
+          },
+          {
+            "from": 0,
+            "side": "LO",
+            "to": 1
+          }
+        ],
+        "root": 0,
+        "truthValues": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "sourcePrintedNodeCount": 3,
+        "actualNativeVertexCount": 3,
+        "allFourSourceTruthValuesMatch": true
+      },
+      {
+        "truthTableIndex": 5,
+        "vertices": [
+          {
+            "center": [
+              190.49118041992188,
+              314.10951232910156
+            ],
+            "variable": 2
+          },
+          {
+            "center": [
+              190.49118041992188,
+              303.1215057373047
+            ],
+            "variable": 1
+          },
+          {
+            "center": [
+              184.9967041015625,
+              325.0975036621094
+            ],
+            "terminal": 0
+          },
+          {
+            "center": [
+              195.98568725585938,
+              325.0975036621094
+            ],
+            "terminal": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": 0,
+            "side": "HI",
+            "to": 3
+          },
+          {
+            "from": 0,
+            "side": "LO",
+            "to": 2
+          },
+          {
+            "from": 1,
+            "side": "HI",
+            "to": 0
+          },
+          {
+            "from": 1,
+            "side": "LO",
+            "to": 0
+          }
+        ],
+        "root": 1,
+        "truthValues": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "sourcePrintedNodeCount": 4,
+        "actualNativeVertexCount": 4,
+        "allFourSourceTruthValuesMatch": true
+      },
+      {
+        "truthTableIndex": 6,
+        "vertices": [
+          {
+            "center": [
+              217.8511962890625,
+              314.10951232910156
+            ],
+            "variable": 2
+          },
+          {
+            "center": [
+              217.8511962890625,
+              303.1215057373047
+            ],
+            "variable": 1
+          },
+          {
+            "center": [
+              212.356689453125,
+              325.0975036621094
+            ],
+            "terminal": 0
+          },
+          {
+            "center": [
+              223.345703125,
+              325.0975036621094
+            ],
+            "terminal": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": 0,
+            "side": "HI",
+            "to": 3
+          },
+          {
+            "from": 0,
+            "side": "LO",
+            "to": 2
+          },
+          {
+            "from": 1,
+            "side": "HI",
+            "to": 3
+          },
+          {
+            "from": 1,
+            "side": "LO",
+            "to": 0
+          }
+        ],
+        "root": 1,
+        "truthValues": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "sourcePrintedNodeCount": 4,
+        "actualNativeVertexCount": 4,
+        "allFourSourceTruthValuesMatch": true
+      },
+      {
+        "truthTableIndex": 7,
+        "vertices": [
+          {
+            "center": [
+              239.71719360351562,
+              314.10951232910156
+            ],
+            "variable": 2
+          },
+          {
+            "center": [
+              250.7052001953125,
+              314.10951232910156
+            ],
+            "variable": 2
+          },
+          {
+            "center": [
+              245.211181640625,
+              303.1215057373047
+            ],
+            "variable": 1
+          },
+          {
+            "center": [
+              239.7166748046875,
+              325.0975036621094
+            ],
+            "terminal": 0
+          },
+          {
+            "center": [
+              250.7056884765625,
+              325.0975036621094
+            ],
+            "terminal": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": 0,
+            "side": "HI",
+            "to": 4
+          },
+          {
+            "from": 0,
+            "side": "LO",
+            "to": 3
+          },
+          {
+            "from": 1,
+            "side": "HI",
+            "to": 4
+          },
+          {
+            "from": 1,
+            "side": "LO",
+            "to": 4
+          },
+          {
+            "from": 2,
+            "side": "HI",
+            "to": 1
+          },
+          {
+            "from": 2,
+            "side": "LO",
+            "to": 0
+          }
+        ],
+        "root": 2,
+        "truthValues": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "sourcePrintedNodeCount": 5,
+        "actualNativeVertexCount": 5,
+        "allFourSourceTruthValuesMatch": true
+      },
+      {
+        "truthTableIndex": 8,
+        "vertices": [
+          {
+            "center": [
+              267.1106872558594,
+              325.0975036621094
+            ],
+            "terminal": 1
+          }
+        ],
+        "edges": [],
+        "root": 0,
+        "truthValues": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "sourcePrintedNodeCount": 1,
+        "actualNativeVertexCount": 1,
+        "allFourSourceTruthValuesMatch": true
+      },
+      {
+        "truthTableIndex": 9,
+        "vertices": [
+          {
+            "center": [
+              289.0111999511719,
+              314.10951232910156
+            ],
+            "variable": 2
+          },
+          {
+            "center": [
+              289.0111999511719,
+              303.1215057373047
+            ],
+            "variable": 1
+          },
+          {
+            "center": [
+              283.5166931152344,
+              325.0975036621094
+            ],
+            "terminal": 0
+          },
+          {
+            "center": [
+              294.50567626953125,
+              325.0975036621094
+            ],
+            "terminal": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": 0,
+            "side": "HI",
+            "to": 3
+          },
+          {
+            "from": 0,
+            "side": "LO",
+            "to": 2
+          },
+          {
+            "from": 1,
+            "side": "HI",
+            "to": 0
+          },
+          {
+            "from": 1,
+            "side": "LO",
+            "to": 3
+          }
+        ],
+        "root": 1,
+        "truthValues": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "sourcePrintedNodeCount": 4,
+        "actualNativeVertexCount": 4,
+        "allFourSourceTruthValuesMatch": true
+      },
+      {
+        "truthTableIndex": 10,
+        "vertices": [
+          {
+            "center": [
+              310.8511962890625,
+              303.1215057373047
+            ],
+            "variable": 1
+          },
+          {
+            "center": [
+              310.8516845703125,
+              325.0975036621094
+            ],
+            "terminal": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": 0,
+            "side": "HI",
+            "to": 1
+          },
+          {
+            "from": 0,
+            "side": "LO",
+            "to": 1
+          }
+        ],
+        "root": 0,
+        "truthValues": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "sourcePrintedNodeCount": 2,
+        "actualNativeVertexCount": 2,
+        "allFourSourceTruthValuesMatch": true
+      },
+      {
+        "truthTableIndex": 11,
+        "vertices": [
+          {
+            "center": [
+              329.7511901855469,
+              314.10951232910156
+            ],
+            "variable": 2
+          },
+          {
+            "center": [
+              329.7511901855469,
+              303.1215057373047
+            ],
+            "variable": 1
+          },
+          {
+            "center": [
+              329.7507019042969,
+              325.0975036621094
+            ],
+            "terminal": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": 0,
+            "side": "HI",
+            "to": 2
+          },
+          {
+            "from": 0,
+            "side": "LO",
+            "to": 2
+          },
+          {
+            "from": 1,
+            "side": "HI",
+            "to": 0
+          },
+          {
+            "from": 1,
+            "side": "LO",
+            "to": 2
+          }
+        ],
+        "root": 1,
+        "truthValues": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "sourcePrintedNodeCount": 3,
+        "actualNativeVertexCount": 3,
+        "allFourSourceTruthValuesMatch": true
+      },
+      {
+        "truthTableIndex": 12,
+        "vertices": [
+          {
+            "center": [
+              346.1911926269531,
+              314.10951232910156
+            ],
+            "variable": 2
+          },
+          {
+            "center": [
+              346.190673828125,
+              325.0975036621094
+            ],
+            "terminal": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": 0,
+            "side": "HI",
+            "to": 1
+          },
+          {
+            "from": 0,
+            "side": "LO",
+            "to": 1
+          }
+        ],
+        "root": 0,
+        "truthValues": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "sourcePrintedNodeCount": 2,
+        "actualNativeVertexCount": 2,
+        "allFourSourceTruthValuesMatch": true
+      },
+      {
+        "truthTableIndex": 13,
+        "vertices": [
+          {
+            "center": [
+              362.5372009277344,
+              314.10951232910156
+            ],
+            "variable": 2
+          },
+          {
+            "center": [
+              373.52520751953125,
+              314.10951232910156
+            ],
+            "variable": 2
+          },
+          {
+            "center": [
+              368.03118896484375,
+              303.1215057373047
+            ],
+            "variable": 1
+          },
+          {
+            "center": [
+              362.53668212890625,
+              325.0975036621094
+            ],
+            "terminal": 0
+          },
+          {
+            "center": [
+              373.52569580078125,
+              325.0975036621094
+            ],
+            "terminal": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": 0,
+            "side": "HI",
+            "to": 4
+          },
+          {
+            "from": 0,
+            "side": "LO",
+            "to": 3
+          },
+          {
+            "from": 1,
+            "side": "HI",
+            "to": 4
+          },
+          {
+            "from": 1,
+            "side": "LO",
+            "to": 4
+          },
+          {
+            "from": 2,
+            "side": "HI",
+            "to": 0
+          },
+          {
+            "from": 2,
+            "side": "LO",
+            "to": 1
+          }
+        ],
+        "root": 2,
+        "truthValues": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "sourcePrintedNodeCount": 5,
+        "actualNativeVertexCount": 5,
+        "allFourSourceTruthValuesMatch": true
+      },
+      {
+        "truthTableIndex": 14,
+        "vertices": [
+          {
+            "center": [
+              389.9311828613281,
+              314.10951232910156
+            ],
+            "variable": 2
+          },
+          {
+            "center": [
+              389.9311828613281,
+              303.1215057373047
+            ],
+            "variable": 1
+          },
+          {
+            "center": [
+              389.9306945800781,
+              325.0975036621094
+            ],
+            "terminal": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": 0,
+            "side": "HI",
+            "to": 2
+          },
+          {
+            "from": 0,
+            "side": "LO",
+            "to": 2
+          },
+          {
+            "from": 1,
+            "side": "HI",
+            "to": 2
+          },
+          {
+            "from": 1,
+            "side": "LO",
+            "to": 0
+          }
+        ],
+        "root": 1,
+        "truthValues": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "sourcePrintedNodeCount": 3,
+        "actualNativeVertexCount": 3,
+        "allFourSourceTruthValuesMatch": true
+      },
+      {
+        "truthTableIndex": 15,
+        "vertices": [
+          {
+            "center": [
+              408.8312072753906,
+              314.10951232910156
+            ],
+            "variable": 2
+          },
+          {
+            "center": [
+              408.8312072753906,
+              303.1215057373047
+            ],
+            "variable": 1
+          },
+          {
+            "center": [
+              408.8306884765625,
+              325.0975036621094
+            ],
+            "terminal": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": 0,
+            "side": "HI",
+            "to": 2
+          },
+          {
+            "from": 0,
+            "side": "LO",
+            "to": 2
+          },
+          {
+            "from": 1,
+            "side": "HI",
+            "to": 0
+          },
+          {
+            "from": 1,
+            "side": "LO",
+            "to": 0
+          }
+        ],
+        "root": 1,
+        "truthValues": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "sourcePrintedNodeCount": 3,
+        "actualNativeVertexCount": 3,
+        "allFourSourceTruthValuesMatch": true
+      }
+    ]
+  },
+  "finiteEvidenceSha256": {
+    "566": "4c817d789a563c2bdd96e1093529c60234fcf6180b3a581ac0436fb14d1fbdd3",
+    "567": "a4b9da620854121985df8f92ae7404aa95f669bc517fd3840c675d5e2e5e25df"
+  },
+  "independentNarrowEvidenceSha256": {
+    "191": "1c737333b4b26a5b86c6b367aa39666d72a5c0d4eb83fe015073252aa1f3aee8",
+    "197": "abd67b3679d1be35e6cb166c35f685520d3a73bac28e6d8775f5d0c884576bd3"
+  },
+  "authorErrataActuallyViewed": {
+    "file": "Current all4a errata PDF physical9, distinct from all4a-pre physical9",
+    "imageSha256": "2c80ff97d00a73918b66d9e9806735938d78ffc5fdff246ccb2958780052d5e9",
+    "185": "2025-05-19 / traditional658 / S_n to Sigma_n",
+    "198": "2023-11-04 / traditional659 lines5/14 /200 to201 twice"
+  },
+  "knownSourceQualifications": [
+    "191 strict epsilon bound inconsistent with same recurrence, preserved and independently documented; not counted mathematically verified",
+    "190a selected CN n>=0 vs EN n>0 retained",
+    "196 one-hot target domain separate from selectors",
+    "M4 global optimum not searched; given order116 only",
+    "198–200 immutable fixed-universe structure semantics checked, not REF/GC/cache manager"
+  ],
+  "pending": [
+    "Mother/inclusionreceipts",
+    "Whole714/offline/routed/onlineacceptance"
+  ]
+}

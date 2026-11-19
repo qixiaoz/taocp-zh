@@ -1,0 +1,189 @@
+{
+  "status": "author-frozen-SGB-example-generator-checks-passed",
+  "sourceIndexURL": "https://cs.stanford.edu/~knuth/sgb.html",
+  "sourceArchiveURL": "https://cs.stanford.edu/pub/sgb/sgb.tar.gz",
+  "sourceArchiveSha256": "f2e2784b083db9d7b2cc705d34e9e8b4fdf9cc6dcd0d2dfe0c88a3875482017a",
+  "sourceManifestSha256": "cd7d5303cc0a2b9a5f86d4d3b727ca6549c44f568efa90552eff51924de95f24",
+  "inputs": [
+    {
+      "file": "jean.dat",
+      "sha256": "2ebefa5a2eb6b461307d48e0445f664e657d85a4085efc89aaeb24e5e674746a",
+      "matchesOriginalArchiveManifest": true
+    },
+    {
+      "file": "lisa.dat",
+      "sha256": "b75154f34072f9ca442f32decd299853b27cde9b65bc8e09df531bbe182cebe2",
+      "matchesOriginalArchiveManifest": true
+    },
+    {
+      "file": "miles.dat",
+      "sha256": "2888d2e90769c61abd63ba361204aaec7082b594288e0e4a41cf7151adc96542",
+      "matchesOriginalArchiveManifest": true
+    },
+    {
+      "file": "roget.dat",
+      "sha256": "74282a7b5905a758107a18fa9d2932962bd432942944c92afcb724567b938c41",
+      "matchesOriginalArchiveManifest": true
+    },
+    {
+      "file": "gb_books.w",
+      "sha256": "f43267fb6814aeb6e1efae03ca9148924ab3c7351fcc61044f91b8ae8916a293",
+      "matchesOriginalArchiveManifest": true
+    },
+    {
+      "file": "gb_lisa.w",
+      "sha256": "4b76d85fa6bfb5ae3f218b2d7dfb5bff910d91419206a76c6f22669df1b3d03a",
+      "matchesOriginalArchiveManifest": true
+    },
+    {
+      "file": "gb_plane.w",
+      "sha256": "65c91a5723bcb4aed27c0a1ea34cc16a59e8c2f2718dbd963198c46c7164d60e",
+      "matchesOriginalArchiveManifest": true
+    },
+    {
+      "file": "gb_raman.w",
+      "sha256": "c787bf29723ae896f8c00ddbf55bf59ff628e5b648a593ff74d6bced5bb8237d",
+      "matchesOriginalArchiveManifest": true
+    },
+    {
+      "file": "gb_rand.w",
+      "sha256": "a69a0ac10cb6dc240131f65a8098e0f4a68846a51ef121ed24318c3d2c0361ed",
+      "matchesOriginalArchiveManifest": true
+    },
+    {
+      "file": "gb_basic.w",
+      "sha256": "0e2ed79569be07d72383b3ed9f83311aa6d26ad10bd9ba9b01513df7ad4b66e5",
+      "matchesOriginalArchiveManifest": true
+    },
+    {
+      "file": "gb_graph.w",
+      "sha256": "9ea2fae0fd65d3a4cb451d3f206eea55175dd646560134b6daf16d313809f9cf",
+      "matchesOriginalArchiveManifest": true
+    }
+  ],
+  "localLibrarySha256": "8803bce8ebf0ff2685a16ca781fbb7b8791d301eea3ffd7a8e7ac2a9615112b5",
+  "helperSource": "private-snapshot:volume4a/tools/sgb-check-body-examples.c",
+  "helperSourceSha256": "b1b699fe43656f774dfe4e18ce470f89a36aaab5873b43e53fa27cd6cf400d7b",
+  "helperBinarySha256": "db083815ead6acd693111fe1e13080b1bb0f0bbf6fdeb2fdf831c99fdd9e08e2",
+  "commandDescription": "clang-std=c90-DSYSVwiththeauthor-builtstaticlibrary;executeinmasterDATADIRwithalllongintegerargumentsL-qualifiedandnull-distributionpointerstyped.",
+  "resultTable": "private-snapshot:volume4a/sgb-checks/results.tsv",
+  "resultTableSha256": "bfd447771cca362cc557fcb0f0b0b16c0738c1e06a4c205544528e3eda85a579",
+  "generators": {
+    "book_jean": {
+      "vertices": 80,
+      "arcs": 508,
+      "edgesOrArcs": 254,
+      "countKind": "undirected-edges",
+      "minimumOutdegreeOrDegree": 0,
+      "maximumOutdegreeOrDegree": 36,
+      "edgeDumpSha256": "49ab94b89b3dbc20ed79382612628ec03a85ea8707b406843180e9b5a55848f4"
+    },
+    "bi_book_jean": {
+      "vertices": 436,
+      "arcs": 1454,
+      "edgesOrArcs": 727,
+      "countKind": "undirected-edges",
+      "minimumOutdegreeOrDegree": 0,
+      "maximumOutdegreeOrDegree": 113,
+      "edgeDumpSha256": "55184e2baf95ee99a5aa1b83d0b4143e25ac60a817ff6a639f03c50b977ab2be"
+    },
+    "plane_miles": {
+      "vertices": 129,
+      "arcs": 762,
+      "edgesOrArcs": 381,
+      "countKind": "undirected-edges",
+      "minimumOutdegreeOrDegree": 3,
+      "maximumOutdegreeOrDegree": 13,
+      "edgeDumpSha256": "ef7277e8d433d2002462701d10dd6a4257db6896d076acf16d972900e3752999"
+    },
+    "plane_lisa": {
+      "vertices": 3027,
+      "arcs": 11934,
+      "edgesOrArcs": 5967,
+      "countKind": "undirected-edges",
+      "minimumOutdegreeOrDegree": 1,
+      "maximumOutdegreeOrDegree": 579,
+      "edgeDumpSha256": "03534c1c74ed520cfcc89d759759597f64d76a3292320bf3a842b34163b7d1ee"
+    },
+    "bi_lisa": {
+      "vertices": 610,
+      "arcs": 81846,
+      "edgesOrArcs": 40923,
+      "countKind": "undirected-edges",
+      "minimumOutdegreeOrDegree": 0,
+      "maximumOutdegreeOrDegree": 250,
+      "edgeDumpSha256": "f6b06469e29c82c49baba4e3cdb084b9f340fc85d9a353948e5f423a3ee983d8",
+      "bipartite": true,
+      "planarityExcludedByBipartiteSimpleGraphBound": true
+    },
+    "raman31_23": {
+      "vertices": 6072,
+      "arcs": 194304,
+      "edgesOrArcs": 97152,
+      "countKind": "undirected-edges",
+      "minimumOutdegreeOrDegree": 32,
+      "maximumOutdegreeOrDegree": 32,
+      "edgeDumpSha256": "651cd647368ab2de4a9aafe03a6706d86ff0476e67adec2f8e0866925c85a1cd"
+    },
+    "raman5_37": {
+      "vertices": 50616,
+      "arcs": 303696,
+      "edgesOrArcs": 151848,
+      "countKind": "undirected-edges",
+      "minimumOutdegreeOrDegree": 6,
+      "maximumOutdegreeOrDegree": 6,
+      "edgeDumpSha256": "fdd22110bf6955332703be160a87f6022992de24866da0085313810ef05296d7"
+    },
+    "random_undirected": {
+      "vertices": 1000,
+      "arcs": 10000,
+      "edgesOrArcs": 5000,
+      "countKind": "undirected-edges",
+      "minimumOutdegreeOrDegree": 0,
+      "maximumOutdegreeOrDegree": 21,
+      "edgeDumpSha256": "cdf080faff196bea0348b263870d8985a67254b323aa0bc110cfddc433c9e4d1",
+      "componentSizes": [
+        999,
+        1
+      ],
+      "isolatedVertexIndices": [
+        908
+      ]
+    },
+    "random_directed": {
+      "vertices": 1000,
+      "arcs": 5000,
+      "edgesOrArcs": 5000,
+      "countKind": "arcs",
+      "minimumOutdegreeOrDegree": 0,
+      "maximumOutdegreeOrDegree": 14,
+      "edgeDumpSha256": "5512eab7ca349631919e75db781cbaf2f5a4767772f821d3dfb87bf99639373a"
+    },
+    "subsets_disjoint": {
+      "vertices": 462,
+      "arcs": 2772,
+      "edgesOrArcs": 1386,
+      "countKind": "undirected-edges",
+      "minimumOutdegreeOrDegree": 6,
+      "maximumOutdegreeOrDegree": 6,
+      "edgeDumpSha256": "af9e225db890c39cbeffd1511f503e36ca3ced6329400c5b60d0758c3f0a7206"
+    },
+    "subsets_intersection4": {
+      "vertices": 462,
+      "arcs": 13860,
+      "edgesOrArcs": 6930,
+      "countKind": "undirected-edges",
+      "minimumOutdegreeOrDegree": 30,
+      "maximumOutdegreeOrDegree": 30,
+      "edgeDumpSha256": "06d551ada481a056df9b3b38c498b3a3a2a93b7dd4a567dd37ad39516a621d21"
+    }
+  },
+  "randomDirectedArcsContainedAsUndirectedEdges": true,
+  "rogetParentCheck": {
+    "resultFile": "private-snapshot:volumes3-4a/sgb/roget-result.tsv",
+    "sha256": "9079b1bcbfedda30b276617174c4bd7d4605816804b16e3c9f1b1a1aa082dafc",
+    "vertices": 1022,
+    "arcs": 5075
+  },
+  "qualification": "Exact frozen author example programs and data,not current real-world facts or replacement transcription sources. Counts/degrees,random component facts and arc containment checked; Ramanujan girth/diameter claims here remain direct source comparisons,not independently exhaustedall-pairscomputations."
+}

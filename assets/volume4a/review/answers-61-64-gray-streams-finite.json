@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Constructivefiniteinterleavings/localandglobalgraystreams/paddedfullW/examplesandboundedparameterarithmetic",
+  "models": {
+    "scope": "Currentliteral63conditions/64streamlength/padding/representationandactualDOMmatchedtoactualunchangedbefore-transcriptionrun",
+    "pageMarkdownSha256": "ffe51317cace106078ecbb6d2230fdf6475dde2f0581bb825624b5eddefec969",
+    "htmlSha256": "d0403fd8251b29e87bee1f0cda094200b8f96affe865c3b28ddc6bb6a019cfca",
+    "rawExecutionReceiptSha256": "e62e5b70f5bef59dfb9385017b49a2366ade48b7ccd8a5847d2a97d8d7b597d8",
+    "rawExecutionPageSha256RemainsNull": true,
+    "checkerSha256": "b89e6e089e00b9d15f5333ff7985e99503a69250bd35a344b30029902c58a82f",
+    "models": {
+      "scope": "Finite source592 constructions and exact arithmetic; not general run-bound optimality, m/n induction or all large-dimension stream construction",
+      "pageMarkdownSha256": null,
+      "masterSha256": null,
+      "checkerSha256": "b89e6e089e00b9d15f5333ff7985e99503a69250bd35a344b30029902c58a82f",
+      "answer61ActualInterleavings": [
+        {
+          "case": "61a",
+          "m": 2,
+          "n": 5,
+          "vertices": 128,
+          "actualMinimumRun": 5,
+          "leftMinimumRun": 8,
+          "sourceRightFloorBound": 5
+        },
+        {
+          "case": "61b",
+          "m": 4,
+          "n": 4,
+          "inputMinimumRuns": [
+            2,
+            2
+          ],
+          "s": 7,
+          "t": 9,
+          "vertices": 256,
+          "actualMinimumRun": 3,
+          "sourceLowerBound": 3
+        },
+        {
+          "case": "61b",
+          "m": 5,
+          "n": 5,
+          "inputMinimumRuns": [
+            4,
+            4
+          ],
+          "s": 15,
+          "t": 17,
+          "vertices": 1024,
+          "actualMinimumRun": 7,
+          "sourceLowerBound": 7
+        },
+        {
+          "case": "61b",
+          "m": 5,
+          "n": 6,
+          "inputMinimumRuns": [
+            4,
+            4
+          ],
+          "s": 15,
+          "t": 17,
+          "vertices": 2048,
+          "actualMinimumRun": 7,
+          "sourceLowerBound": 7
+        },
+        {
+          "case": "61b",
+          "m": 6,
+          "n": 6,
+          "inputMinimumRuns": [
+            4,
+            4
+          ],
+          "s": 31,
+          "t": 33,
+          "vertices": 4096,
+          "actualMinimumRun": 7,
+          "sourceLowerBound": 7
+        },
+        {
+          "case": "61b",
+          "m": 6,
+          "n": 7,
+          "inputMinimumRuns": [
+            4,
+            5
+          ],
+          "s": 27,
+          "t": 37,
+          "vertices": 8192,
+          "actualMinimumRun": 8,
+          "sourceLowerBound": 8
+        }
+      ],
+      "answer61bExactRationalParameterCases": 11050,
+      "answer63": {
+        "allSourceAKConditionsAnd1024SequentialJUpdatesExecuted": true,
+        "all1024VerticesUniqueAndCycleCloses": true,
+        "minimumCyclicRun": 8,
+        "transitionCounts": {
+          "0": 128,
+          "2": 126,
+          "4": 120,
+          "6": 96,
+          "1": 128,
+          "3": 126,
+          "5": 120,
+          "7": 96,
+          "8": 42,
+          "9": 42
+        }
+      },
+      "answer64LocalStreams": [
+        {
+          "n": 5,
+          "allOrderedDistinctIJAndAllInitialVerticesAtU0": 640,
+          "allUByExplicitXorConjugacy": true,
+          "streamLength": 22,
+          "actualMinimumCyclicGapOverTwoCopies": 3,
+          "productExactlyTransposition": true
+        },
+        {
+          "n": 6,
+          "allOrderedDistinctIJAndAllInitialVerticesAtU0": 1920,
+          "allUByExplicitXorConjugacy": true,
+          "streamLength": 28,
+          "actualMinimumCyclicGapOverTwoCopies": 4,
+          "productExactlyTransposition": true
+        },
+        {
+          "n": 7,
+          "allOrderedDistinctIJAndAllInitialVerticesAtU0": 5376,
+          "allUByExplicitXorConjugacy": true,
+          "streamLength": 34,
+          "actualMinimumCyclicGapOverTwoCopies": 5,
+          "productExactlyTransposition": true
+        },
+        {
+          "n": 8,
+          "allOrderedDistinctIJAndAllInitialVerticesAtU0": 14336,
+          "allUByExplicitXorConjugacy": true,
+          "streamLength": 40,
+          "actualMinimumCyclicGapOverTwoCopies": 6,
+          "productExactlyTransposition": true
+        }
+      ],
+      "answer64LocalTranslationProof": "XOR u conjugates all tau_j and the special swap(0,2i XOR2j) into the corresponding u stream. Thus u=0 all initial vertices covers any u without claiming duplicate finite executions.",
+      "answer64GlobalStreams": [
+        {
+          "n": 5,
+          "inputGrayMinimumRun": 4,
+          "baseStreamLength": 670,
+          "allInitialVertices": 32,
+          "productExactlyTwoReverseParityCyclesOfLength": 16,
+          "allTwoBlockInternalAndBoundaryGapsAtLeast": 3,
+          "allPowersQualification": "Every initial v tested for two blocks, each coordinate appears in every block; all future boundaries are one of these tested pairs.",
+          "paddedExample": {
+            "m": 10,
+            "a": 59,
+            "b": 0,
+            "streamLength": 1024,
+            "allInitialVertexTwoBlockMinimum": 3,
+            "fullSourceWDimension": 15,
+            "fullSourceWVertices": 32768,
+            "fullSourceWMinimumCyclicRun": 4,
+            "UIsReflectedMin2SoOnlyN5N6FullWTested": true
+          }
+        },
+        {
+          "n": 6,
+          "inputGrayMinimumRun": 4,
+          "baseStreamLength": 1748,
+          "allInitialVertices": 64,
+          "productExactlyTwoReverseParityCyclesOfLength": 32,
+          "allTwoBlockInternalAndBoundaryGapsAtLeast": 4,
+          "allPowersQualification": "Every initial v tested for two blocks, each coordinate appears in every block; all future boundaries are one of these tested pairs.",
+          "paddedExample": {
+            "m": 11,
+            "a": 35,
+            "b": 2,
+            "streamLength": 2048,
+            "allInitialVertexTwoBlockMinimum": 4,
+            "fullSourceWDimension": 17,
+            "fullSourceWVertices": 131072,
+            "fullSourceWMinimumCyclicRun": 4,
+            "UIsReflectedMin2SoOnlyN5N6FullWTested": true
+          }
+        },
+        {
+          "n": 7,
+          "inputGrayMinimumRun": 5,
+          "baseStreamLength": 4298,
+          "allInitialVertices": 128,
+          "productExactlyTwoReverseParityCyclesOfLength": 64,
+          "allTwoBlockInternalAndBoundaryGapsAtLeast": 5,
+          "allPowersQualification": "Every initial v tested for two blocks, each coordinate appears in every block; all future boundaries are one of these tested pairs."
+        }
+      ],
+      "answer64PaddingConductorCases": 9792,
+      "answer64cFiniteRepresentationAndThreshold": {
+        "mInclusive": [
+          20,
+          4096
+        ],
+        "NExactlyCoveredInclusive": [
+          33,
+          8155
+        ],
+        "selectedRows": [
+          {
+            "m": 20,
+            "n": 13,
+            "baseN": 33,
+            "floor4lgByIntegerBitLength": 17,
+            "thresholdSatisfied": true
+          },
+          {
+            "m": 21,
+            "n": 14,
+            "baseN": 35,
+            "floor4lgByIntegerBitLength": 17,
+            "thresholdSatisfied": true
+          },
+          {
+            "m": 24,
+            "n": 16,
+            "baseN": 40,
+            "floor4lgByIntegerBitLength": 18,
+            "thresholdSatisfied": true
+          },
+          {
+            "m": 32,
+            "n": 22,
+            "baseN": 54,
+            "floor4lgByIntegerBitLength": 20,
+            "thresholdSatisfied": true
+          },
+          {
+            "m": 64,
+            "n": 50,
+            "baseN": 114,
+            "floor4lgByIntegerBitLength": 24,
+            "thresholdSatisfied": true
+          },
+          {
+            "m": 128,
+            "n": 110,
+            "baseN": 238,
+            "floor4lgByIntegerBitLength": 28,
+            "thresholdSatisfied": true
+          },
+          {
+            "m": 1024,
+            "n": 994,
+            "baseN": 2018,
+            "floor4lgByIntegerBitLength": 40,
+            "thresholdSatisfied": true
+          },
+          {
+            "m": 4096,
+            "n": 4058,
+            "baseN": 8154,
+            "floor4lgByIntegerBitLength": 48,
+            "thresholdSatisfied": true
+          }
+        ],
+        "generalRepresentationReason": "floor(4 lg m)=floor(lg(m^4)); m>=20 makes successive floor increments 0 or1 since(21/20)^4<2, so N0=2m−floor(4lgm)+10 increments1or2 from33. The pairs N0,N0+1 cover every integer>=33. This does not prove remaining r(N) induction."
+      },
+      "noIndependentAnswer62": "Actual CN592 and EN705706 jump61 to63; question62 exists in CN276/EN331. No answer invented.",
+      "allOriginalGeneralAndHistoricalStatementsProved": false
+    },
+    "literalSourceInputsChecked": true,
+    "currentActual101TeXFieldsEqualAcrossWidths": true,
+    "allOriginalOptimalityOrGeneralInductionClaimsProved": false
+  },
+  "privateEvidenceSha256": "ab6ab8ed698e4163291834da8e33fc354a908494356bc3fe5d3da9737ff9cc2c",
+  "allGeneralRunOptimalityAndInductionNotProved": true
+}

@@ -1,0 +1,153 @@
+{
+  "kind": "independent-readonly-two-source-permutations",
+  "reviewer": "root",
+  "scope": "Only the ten displayed x1..x9/o1..o9 input permutations for exercise 7.1.2-67 on CN physical121 / EN physical147, their D4 membership and output-cell mapping. No full-page acceptance, no sixteen-board check, no all4520 positions/minimax/chip gate bound; no manuscript/assets/common edits.",
+  "actualImagesRead": [
+    {
+      "file": "private-snapshot:volume4a/scans/121.jpg",
+      "sha256": "77b2af71660d0db523040a37f6560fc7a2100a67940c6c1fabfb20cc724707b2"
+    },
+    {
+      "file": "private-snapshot:volume4a/body-review/en-147.png",
+      "sha256": "1bceebda3f0e3f40556d6fa6237e1e730017448fa2920fb604060af4e35b64a3"
+    }
+  ],
+  "bothSourceImagesHaveTheseSameTenXAndOOrders": true,
+  "convention": "Row-major local positions1..9; c at1, s at2, m at5; printed new-position input uses original-position variable.",
+  "checks": [
+    {
+      "target": 1,
+      "output": "c",
+      "localOutputCell": 1,
+      "xInputOrder": "123456789",
+      "oInputOrder": "123456789",
+      "xAndOSourceOrdersMatch": true,
+      "isD4": true,
+      "allEightWinningLinesPreserved": true,
+      "mappedOutputCell": 1
+    },
+    {
+      "target": 1,
+      "output": "c",
+      "localOutputCell": 1,
+      "xInputOrder": "147258369",
+      "oInputOrder": "147258369",
+      "xAndOSourceOrdersMatch": true,
+      "isD4": true,
+      "allEightWinningLinesPreserved": true,
+      "mappedOutputCell": 1
+    },
+    {
+      "target": 2,
+      "output": "s",
+      "localOutputCell": 2,
+      "xInputOrder": "123456789",
+      "oInputOrder": "123456789",
+      "xAndOSourceOrdersMatch": true,
+      "isD4": true,
+      "allEightWinningLinesPreserved": true,
+      "mappedOutputCell": 2
+    },
+    {
+      "target": 2,
+      "output": "s",
+      "localOutputCell": 2,
+      "xInputOrder": "321654987",
+      "oInputOrder": "321654987",
+      "xAndOSourceOrdersMatch": true,
+      "isD4": true,
+      "allEightWinningLinesPreserved": true,
+      "mappedOutputCell": 2
+    },
+    {
+      "target": 3,
+      "output": "c",
+      "localOutputCell": 1,
+      "xInputOrder": "321654987",
+      "oInputOrder": "321654987",
+      "xAndOSourceOrdersMatch": true,
+      "isD4": true,
+      "allEightWinningLinesPreserved": true,
+      "mappedOutputCell": 3
+    },
+    {
+      "target": 3,
+      "output": "c",
+      "localOutputCell": 1,
+      "xInputOrder": "369258147",
+      "oInputOrder": "369258147",
+      "xAndOSourceOrdersMatch": true,
+      "isD4": true,
+      "allEightWinningLinesPreserved": true,
+      "mappedOutputCell": 3
+    },
+    {
+      "target": 4,
+      "output": "s",
+      "localOutputCell": 2,
+      "xInputOrder": "147258369",
+      "oInputOrder": "147258369",
+      "xAndOSourceOrdersMatch": true,
+      "isD4": true,
+      "allEightWinningLinesPreserved": true,
+      "mappedOutputCell": 4
+    },
+    {
+      "target": 4,
+      "output": "s",
+      "localOutputCell": 2,
+      "xInputOrder": "741852963",
+      "oInputOrder": "741852963",
+      "xAndOSourceOrdersMatch": true,
+      "isD4": true,
+      "allEightWinningLinesPreserved": true,
+      "mappedOutputCell": 4
+    },
+    {
+      "target": 9,
+      "output": "c",
+      "localOutputCell": 1,
+      "xInputOrder": "987654321",
+      "oInputOrder": "987654321",
+      "xAndOSourceOrdersMatch": true,
+      "isD4": true,
+      "allEightWinningLinesPreserved": true,
+      "mappedOutputCell": 9
+    },
+    {
+      "target": 9,
+      "output": "c",
+      "localOutputCell": 1,
+      "xInputOrder": "963852741",
+      "oInputOrder": "963852741",
+      "xAndOSourceOrdersMatch": true,
+      "isD4": true,
+      "allEightWinningLinesPreserved": true,
+      "mappedOutputCell": 9
+    }
+  ],
+  "distinctPrintedPermutations": 7,
+  "ellipsisNote": "The displayed formulas omit g6,g7,g8; the ten displayed inputs use seven distinct symmetries, not all eight.",
+  "completeD4OrderSet": [
+    "123456789",
+    "147258369",
+    "321654987",
+    "369258147",
+    "741852963",
+    "789456123",
+    "963852741",
+    "987654321"
+  ],
+  "centerForAllEight": {
+    "localOutputCell": 5,
+    "allMappedCells": [
+      5
+    ],
+    "sourceMeaning": "g5 is OR of the m outputs from all eight chips."
+  },
+  "limits": [
+    "No comparison with current 121.md, source-only peer.",
+    "Board examples, legal-position constraints, chip truth functions and 2000-gate construction remain owned by the body worker."
+  ],
+  "privateReceiptSha256": "fc43314ce4a5d532b980af8cd1dd16110e8d741483f0d2ded1807cfba0d43219"
+}

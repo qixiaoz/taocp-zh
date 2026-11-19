@@ -1,0 +1,611 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "two-complete-source-pages-through-geometric-net-axiomii",
+  "cnPhysicalPages": [
+    43,
+    44
+  ],
+  "cnPrintedPages": [
+    28,
+    29
+  ],
+  "masterSha256": null,
+  "mathExpressions": 116,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 2,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 43,
+      "cnPrintedPage": 28,
+      "enPdfPages": [
+        52,
+        53
+      ],
+      "enPrintedPages": [
+        35,
+        36
+      ],
+      "pageMarkdownSha256": "4fa4e8d8bfa6db91e5ccfb2148bec730868fd7d67e277e0d27470fbfc901d791",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-043.png",
+      "sourcePageImageSha256": "764025978f575b1fc62b0c419d6d893b3915975833a9fc41b43908053e28e944",
+      "enPageImages": [
+        {
+          "physicalPage": 52,
+          "file": "private-snapshot:volume4a/body-review/en-052.png",
+          "sha256": "c1c70a6842b061ef45ee41d3647d3fcb41ddeb659bb712fe0585bd348f4fabc6"
+        },
+        {
+          "physicalPage": 53,
+          "file": "private-snapshot:volume4a/body-review/en-053.png",
+          "sha256": "dcd244cffde061ff261fc546db786708d8b8c4857ef184afdc5d0e9d556c4d19"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-043",
+        "p-28",
+        "eq-7-63",
+        "eq-7-64",
+        "eq-7-65",
+        "eq-7-66",
+        "ex-7-1",
+        "ex-7-2",
+        "ex-7-3",
+        "ex-7-4",
+        "ex-7-5",
+        "ex-7-6",
+        "ex-7-7"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number,retained as a hidden anchor."
+      ],
+      "coveredRegions": [
+        "Allindependence/chromatic/clique definitions63–66,includingbaronlyonGinalphaandchiarguments.",
+        "Exactcoverincidence-rowdefinitionwithall-onevectorandexactly-oncecontrast.",
+        "Exercises1–7complete,alldifficultiesandCNrecommendedarrow6.",
+        "AllLangfordnumber/parameter ranges,Fibonacciword/zero-basedsequenceandcross-reference.",
+        "FullGodfreyproduct/sumbounds/allthreefunctiontransformationsandarithmetic-precisionquestion."
+      ],
+      "exerciseSection": "7",
+      "exercises": [
+        {
+          "number": 1,
+          "difficulty": "25",
+          "recommended": false,
+          "questionAnchor": "ex-7-1",
+          "answerAnchor": "ans-7-1"
+        },
+        {
+          "number": 2,
+          "difficulty": "20",
+          "recommended": false,
+          "questionAnchor": "ex-7-2",
+          "answerAnchor": "ans-7-2"
+        },
+        {
+          "number": 3,
+          "difficulty": "22",
+          "recommended": false,
+          "questionAnchor": "ex-7-3",
+          "answerAnchor": "ans-7-3"
+        },
+        {
+          "number": 4,
+          "difficulty": "M20",
+          "recommended": false,
+          "questionAnchor": "ex-7-4",
+          "answerAnchor": "ans-7-4"
+        },
+        {
+          "number": 5,
+          "difficulty": "HM22",
+          "recommended": false,
+          "questionAnchor": "ex-7-5",
+          "answerAnchor": "ans-7-5"
+        },
+        {
+          "number": 6,
+          "difficulty": "M28",
+          "recommended": true,
+          "questionAnchor": "ex-7-6",
+          "answerAnchor": "ans-7-6"
+        },
+        {
+          "number": 7,
+          "difficulty": "M22",
+          "recommended": false,
+          "questionAnchor": "ex-7-7",
+          "answerAnchor": "ans-7-7"
+        }
+      ],
+      "questionLinksToAnswersPresent": true,
+      "reverseAnswerLinksVerification": "Deferred to final whole-volume assembly; no new claim about unassembled answer output.",
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 28,
+          "location": "Exercise5gapwording",
+          "enPosition": "EN53/printed36exercise5line2,author2020clarification",
+          "original": "两个k恰好相隔k个位置",
+          "final": "两个k之间恰好有k个非k的数",
+          "basis": "Author explicitly distinguishes intervening non-k entries from a positional difference ofk; this agrees with the existing answer’s2n−k−1 admissible position pairs.",
+          "officialSource": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentPage": 6,
+            "englishPrintedPage": 36,
+            "location": "line2ofexercise5",
+            "reportedDate": "2020-09-15",
+            "sourceImage": "private-snapshot:volume4a/official-errata/all4a-pre-page6.png",
+            "sourceImageSha256": "6e3fcf8734b991ac32235e8889779784278f60ad55df10a035c94bf21d88c9de"
+          }
+        },
+        {
+          "cnPrintedPage": 28,
+          "location": "Exercise6(c)conclusion",
+          "enPosition": "EN53/printed36exercise6(c),Gainafactorofeight",
+          "original": "取得n为8的倍数时的求和",
+          "final": "把求和的计算量减少到原来的八分之一",
+          "basis": "A factor-of-eight computational reduction was mistranslated as restrictingn to multiplesof8. The identities remain as printed; no new parameter restriction is added.",
+          "cnMagnifiedSource": "private-snapshot:volume4a/body-review/cn-043-question6c-detail.png",
+          "cnMagnifiedSourceSha256": "1d87f2de6f684e114dcaa4ff5e90091645d00865d0c4863292cf5fc791615c09"
+        }
+      ],
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/043-selected-cn-before-q5-q6c-corrections-fa1b121c9cd41cf3d1399af358b6dbbc8b8ac4a139c9785316fa1a5cb8c1d359/043.md",
+        "sha256": "fa1b121c9cd41cf3d1399af358b6dbbc8b8ac4a139c9785316fa1a5cb8c1d359",
+        "onlyTwoTargetedTextReplacements": true,
+        "qualification": "Initial selected-CN transcription snapshot, not an earlier browser acceptance."
+      },
+      "preservedVersionDifferences": [
+        {
+          "location": "Recommendation within questions1–7",
+          "cnRecommended": [
+            6
+          ],
+          "enRecommended": [],
+          "decision": "Preserve chosen Chinese recommendation arrow6; no whole-English-page recommendation count is inferred."
+        }
+      ],
+      "preservedSourceConditions": [
+        {
+          "location": "Exercise6(c),thirdidentity",
+          "condition": "The original answer states n mod4=0or3 for the alternating-sign identity,which covers the relevant nonzeroLangford cases.",
+          "reference": "parent-source-bound-answer443,printed428",
+          "referenceMarkdownSha256": "6573633a3b8a048ce457babcff6330b62c3534200a407bbf98ff597c774448ec",
+          "decision": "Preserve the printed question identities and record this original-answer qualification separately; do not add an unrequested new condition or proof to the question."
+        }
+      ],
+      "sourceQuestion4Detail": {
+        "file": "private-snapshot:volume4a/body-review/cn-043-question4-detail.png",
+        "sha256": "ee04c618af3dc01030da8ac9780f0b91a0ecb2d6e3efefdbff1af4e2b43af02b",
+        "wordPrefix": "babbababbabba",
+        "digitPrefix": "0012132453674"
+      },
+      "qualification": "Complete model comparison of this Chinese page and the corresponding English content, including the badly omitted machine draft ofquestion4. No new general Langford proof or numerical model is claimed.",
+      "pending": [
+        "Finalwhole-volumequestion-answerlinkchecks",
+        "Finalwhole-volumeinclusion",
+        "Finaloffline/production/browser/onlineacceptance"
+      ],
+      "crossVolumeReference": {
+        "targetVolume": "volume1",
+        "targetAnchor": "ex-1-2-8-36",
+        "targetConfirmedInCurrentMother": true,
+        "routeAndNavigationVerification": "Deferred to final whole-volume assembly."
+      },
+      "syntaxCheck": {
+        "physicalPage": 43,
+        "markdownSha256": "4fa4e8d8bfa6db91e5ccfb2148bec730868fd7d67e277e0d27470fbfc901d791",
+        "htmlSha256": "8562ec83aba11df34c0f3dddfacc3fba7f7baa55a5b905d12f93b616a3095966",
+        "mathExpressions": 52,
+        "displayMath": 6,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-43.json",
+        "sha256": "c6a29c97a2eb699deb4d5f3fd8c80d126f8c60021d7b57e814d10a851f7d20f5",
+        "cases": [
+          {
+            "physicalPage": 43,
+            "width": 1280,
+            "markdownSha256": "4fa4e8d8bfa6db91e5ccfb2148bec730868fd7d67e277e0d27470fbfc901d791",
+            "documentWidth": 1280,
+            "math": 52,
+            "mathml": 52,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 52,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 43,
+            "width": 390,
+            "markdownSha256": "4fa4e8d8bfa6db91e5ccfb2148bec730868fd7d67e277e0d27470fbfc901d791",
+            "documentWidth": 390,
+            "math": 52,
+            "mathml": 52,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 52,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actual private production-direct1280/390 source/rendered page checks. Godfrey formula ends, Hebrew glyphs and500digit table checked; repaired44SVGdigits visibly confirmed with current assetSHA. Final page routes and answer navigation remain separate."
+      },
+      "privateOriginalPageReviewSha256": "041f70cce766606f0815af973ae0fe2640d687a4c3d0edc2e3dd52003408fea2",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/043.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 44,
+      "cnPrintedPage": 29,
+      "enPdfPages": [
+        53,
+        54
+      ],
+      "enPrintedPages": [
+        36,
+        37
+      ],
+      "pageMarkdownSha256": "bee0e67892fb4e2440558c88b84decea06e58c21c0df36479152db6451f2cb25",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-044.png",
+      "sourcePageImageSha256": "f32e2ee6c988b7fdb28d6e649222d22d0a93cdb7c4a8d0410dff940fd7632d44",
+      "enPageImages": [
+        {
+          "physicalPage": 53,
+          "file": "private-snapshot:volume4a/body-review/en-053.png",
+          "sha256": "dcd244cffde061ff261fc546db786708d8b8c4857ef184afdc5d0e9d556c4d19"
+        },
+        {
+          "physicalPage": 54,
+          "file": "private-snapshot:volume4a/body-review/en-054.png",
+          "sha256": "b47d33854b1042e353e498db1cee52abd9d4240545d279cefc73090426fecb9a"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-044",
+        "p-29",
+        "ex-7-8",
+        "ex-7-9",
+        "ex-7-10",
+        "ex-7-11",
+        "ex-7-12",
+        "ex-7-13",
+        "ex-7-14",
+        "ex-7-15",
+        "ex-7-16",
+        "ex-7-17",
+        "ex-7-18",
+        "ex-7-19",
+        "ex-7-20",
+        "ex-7-21"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number,retained as a hidden anchor."
+      ],
+      "coveredRegions": [
+        "Questions8–20complete andquestion21throughaxiom(ii),includingallgradesand3recommendationarrows.",
+        "All6digitlabels/3nativepairpolylinesintheplanar231213example.",
+        "Hebrewalphabet,Latin/Greek/Hebrewpairtypes andmodularadditionquantifiers.",
+        "Fivequestion14Latinsquares,all500digitsandall(a)–(e)labels inoriginalroworder.",
+        "Exact10×10/5×5/intruder3example;odd-orderquestionandexact-coverquestions.",
+        "Nversusnversusmnotationinorthogonalarrays,n²columnsandalln>1/prime/depthbounds.",
+        "Complexexponential2πki/nandpartialgeometric-netaxioms."
+      ],
+      "exerciseSection": "7",
+      "exercises": [
+        {
+          "number": 8,
+          "difficulty": "23",
+          "recommended": false,
+          "questionAnchor": "ex-7-8",
+          "answerAnchor": "ans-7-8",
+          "completeOnThisPage": true
+        },
+        {
+          "number": 9,
+          "difficulty": "24",
+          "recommended": false,
+          "questionAnchor": "ex-7-9",
+          "answerAnchor": "ans-7-9",
+          "completeOnThisPage": true
+        },
+        {
+          "number": 10,
+          "difficulty": "M20",
+          "recommended": false,
+          "questionAnchor": "ex-7-10",
+          "answerAnchor": "ans-7-10",
+          "completeOnThisPage": true
+        },
+        {
+          "number": 11,
+          "difficulty": "20",
+          "recommended": false,
+          "questionAnchor": "ex-7-11",
+          "answerAnchor": "ans-7-11",
+          "completeOnThisPage": true
+        },
+        {
+          "number": 12,
+          "difficulty": "M21",
+          "recommended": true,
+          "questionAnchor": "ex-7-12",
+          "answerAnchor": "ans-7-12",
+          "completeOnThisPage": true
+        },
+        {
+          "number": 13,
+          "difficulty": "M25",
+          "recommended": false,
+          "questionAnchor": "ex-7-13",
+          "answerAnchor": "ans-7-13",
+          "completeOnThisPage": true
+        },
+        {
+          "number": 14,
+          "difficulty": "29",
+          "recommended": false,
+          "questionAnchor": "ex-7-14",
+          "answerAnchor": "ans-7-14",
+          "completeOnThisPage": true
+        },
+        {
+          "number": 15,
+          "difficulty": "50",
+          "recommended": false,
+          "questionAnchor": "ex-7-15",
+          "answerAnchor": "ans-7-15",
+          "completeOnThisPage": true
+        },
+        {
+          "number": 16,
+          "difficulty": "48",
+          "recommended": false,
+          "questionAnchor": "ex-7-16",
+          "answerAnchor": "ans-7-16",
+          "completeOnThisPage": true
+        },
+        {
+          "number": 17,
+          "difficulty": "25",
+          "recommended": false,
+          "questionAnchor": "ex-7-17",
+          "answerAnchor": "ans-7-17",
+          "completeOnThisPage": true
+        },
+        {
+          "number": 18,
+          "difficulty": "M26",
+          "recommended": false,
+          "questionAnchor": "ex-7-18",
+          "answerAnchor": "ans-7-18",
+          "completeOnThisPage": true
+        },
+        {
+          "number": 19,
+          "difficulty": "M25",
+          "recommended": true,
+          "questionAnchor": "ex-7-19",
+          "answerAnchor": "ans-7-19",
+          "completeOnThisPage": true
+        },
+        {
+          "number": 20,
+          "difficulty": "HM20",
+          "recommended": false,
+          "questionAnchor": "ex-7-20",
+          "answerAnchor": "ans-7-20",
+          "completeOnThisPage": true
+        },
+        {
+          "number": 21,
+          "difficulty": "M21",
+          "recommended": true,
+          "questionAnchor": "ex-7-21",
+          "answerAnchor": "ans-7-21",
+          "completeOnThisPage": false
+        }
+      ],
+      "continuation": {
+        "nextCnPdfPage": 45,
+        "unfinishedExercise": 21,
+        "lastText": "(ii)不同的直线最多有一个公共点",
+        "nextExpectedPart": "(iii)andfollowing21(a)–(c)",
+        "qualification": "Fullphysical044pageonly;completequestion21awaits045."
+      },
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "images": [
+        {
+          "asset": "assets/volume4a/figures/exercise-7-8-planar-pairs.svg",
+          "sha256": "1024139b0289b145ea817ec8ad6d8ddcd78e32d83188d1fb4ba047ba6fd0c398",
+          "cnPhysicalPage": 44,
+          "enPhysicalPage": 53,
+          "sourceSelectionBBox": [
+            210,
+            395,
+            258,
+            424
+          ],
+          "nativeDrawingCount": 3,
+          "nativeLineItems": 9,
+          "digitString": "231213",
+          "pairPositions": {
+            "1": [
+              3,
+              5
+            ],
+            "2": [
+              1,
+              4
+            ],
+            "3": [
+              2,
+              6
+            ]
+          },
+          "sourceTerminalPeriodPreserved": true,
+          "method": "Only the3nativeU-shapedpathsplus6source-positioneddigitsandterminalperiod;nootherpagecontentexported.",
+          "fontSizing": {
+            "nominalPDFType3Size": 0.06,
+            "actualSourceGlyphBBoxHeight": 8.94,
+            "svgFontSize": 9.96,
+            "basis": "Sourceimagecomparisonandglyphbounds,notbrokennominalType3size."
+          }
+        }
+      ],
+      "numericChecks": {
+        "question14SourceBoundFragment": {
+          "sourceFragment": "private-snapshot:volume4a/body-review/question-7-14-matrices.json",
+          "sourceFragmentSha256": "9fac69e8b02bfede2a01b0538d6b274744ce8ad1898ad9d71bf2cf44f117f5fb",
+          "digits": 500,
+          "rowStringsPreservedExactly": true,
+          "leadingZerosPreserved": true,
+          "representation": "Fiveeditabletablecolumnswith10fixed-widthdigitstringspercolumn,noautomaticnumericconversionorlinebreakinsidearowstring.",
+          "qualification": "Theearlierfragmentdoesnotitselfcertifythewhole044page;allotherquestionsandthefulloriginalpageareseparatelyreviewedforthenewpageinput."
+        },
+        "question13PrintedExampleEIntruders": 3,
+        "qualification": "Earlier500digitfragmentreusedwithitsoriginalhashandfullCN/ENpageimagesreadagainforwholepagebinding. No newenumerationoforthogonalmates orgeneralLatintheoremproof is claimed."
+      },
+      "ocrRepairsOfNote": [
+        "Restoredtheentireplanar-pairdiagramfromoriginalgeometry,notmachineplaceholder.",
+        "Hebrewlettersarestoredasaleph/beth/gimel/dalethmathsymbols,notOCRN/2/7.",
+        "Question18hasn²columns,notOCRm²;uppercaseNstringlengthremainsdistinct."
+      ],
+      "renderTransforms": [
+        "FiveLatinsquaresaregroupededitabletablecolumns,eachcontaining10fixed-widthrowstrings. All500digitsandleadingzerosunchanged;individualrowstringscannotwrap."
+      ],
+      "qualification": "Complete model comparison of this physical Chinese page and corresponding English passages,includingtheearlierfragmentplusallremainingtext. This doesnotclaimthatquestion21hasendedorallitsanswerlinkshavebeenassembled.",
+      "pending": [
+        "Continuequestion21with045",
+        "Finalwhole-volumequestion-answerlinkchecks",
+        "Finalwhole-volumeinclusion",
+        "Finaloffline/production/browser/onlineacceptance"
+      ],
+      "endsMidExercise": 21,
+      "renderRevisionHistory": [
+        {
+          "folder": "private-snapshot:volume4a/verified-history/044-before-type3-label-size-fix-b89286a02a5ff29e1740b080589dcb72c711604626b812725aa4cbec5f850e57",
+          "oldAssetSha256": "b89286a02a5ff29e1740b080589dcb72c711604626b812725aa4cbec5f850e57",
+          "newAssetSha256": "1024139b0289b145ea817ec8ad6d8ddcd78e32d83188d1fb4ba047ba6fd0c398",
+          "reason": "ActualChromevisualcheckrejectednearlyinvisibledigitsdespitetechnicalmetricspassing. CorrectedType3fontmapping,keptgeometry/labels/Markdownunchanged,andrerendered."
+        }
+      ],
+      "pageInputBinding": {
+        "markdownSha256": "bee0e67892fb4e2440558c88b84decea06e58c21c0df36479152db6451f2cb25",
+        "assets": [
+          {
+            "path": "assets/volume4a/figures/exercise-7-8-planar-pairs.svg",
+            "sha256": "1024139b0289b145ea817ec8ad6d8ddcd78e32d83188d1fb4ba047ba6fd0c398"
+          }
+        ],
+        "compositeSha256": "72ae014418f059af88ab5b66fe27c72795d6de6e1377af0a5eb1357db5941710"
+      },
+      "visibleDigitLabelsConfirmedAfterAssetRepair": true,
+      "syntaxCheck": {
+        "physicalPage": 44,
+        "markdownSha256": "bee0e67892fb4e2440558c88b84decea06e58c21c0df36479152db6451f2cb25",
+        "htmlSha256": "807b630d76a650a7a42299a5950d05c84fd598b874f59edc08d3cc1bc15f1aea",
+        "mathExpressions": 64,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-44.json",
+        "sha256": "0830aadab4169f4e7cb8ec1025ec758de1661158efc7496e4a34d7347f904a25",
+        "cases": [
+          {
+            "physicalPage": 44,
+            "width": 1280,
+            "markdownSha256": "bee0e67892fb4e2440558c88b84decea06e58c21c0df36479152db6451f2cb25",
+            "documentWidth": 1280,
+            "math": 64,
+            "mathml": 64,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 65,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 44,
+            "width": 390,
+            "markdownSha256": "bee0e67892fb4e2440558c88b84decea06e58c21c0df36479152db6451f2cb25",
+            "documentWidth": 390,
+            "math": 64,
+            "mathml": 64,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 65,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actual private production-direct1280/390 source/rendered page checks. Godfrey formula ends, Hebrew glyphs and500digit table checked; repaired44SVGdigits visibly confirmed with current assetSHA. Final page routes and answer navigation remain separate."
+      },
+      "privateOriginalPageReviewSha256": "eb820cb957b23ff7b7d29074ac8d7e0ab225339c8d3e4a8f18aa41335f73795b",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/044.json"
+    }
+  ],
+  "qualification": "Only these two complete physical pages. Question21 continues on045. The prior500digit fragment remains a fragment record; whole044 review is separately bound here. The first44SVG passed metrics but failed visual inspection; repaired assets and fresh browser checks are distinctly recorded."
+}

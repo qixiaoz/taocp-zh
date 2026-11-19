@@ -1,0 +1,955 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-source-pages-189-to-191-weighted-kernels-and-grid-reliability",
+  "cnPhysicalPages": [
+    189,
+    190,
+    191
+  ],
+  "cnPrintedPages": [
+    174,
+    175,
+    176
+  ],
+  "masterSha256": null,
+  "mathExpressions": 168,
+  "privateBrowserCases": 6,
+  "substantiveCorrections": 7,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 189,
+      "cnPrintedPage": 174,
+      "enPdfPages": [
+        226,
+        227
+      ],
+      "enPrintedPages": [
+        209,
+        210
+      ],
+      "pageMarkdownSha256": "31e719fc9ab91343ba900c253f7ce355e8310df4c633f95cdf6ec56c2485c25b",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-189.png",
+      "sourcePageImageSha256": "dad69ee7f77554c663e46fd8c597a4929e47365f0724849f58bf49999ed8197e",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-226.png",
+          "sha256": "42f028c9f333320f84a2759ce347de5c9e118c64988064d947e7cb2619db6b7b",
+          "physicalPage": 226
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-227.png",
+          "sha256": "133127f3643a1c2a23ed7f0b4f5e4bb134fe53b86a8d1c27307ad5b80bae839b",
+          "physicalPage": 227
+        }
+      ],
+      "pageAnchors": [
+        "pdf-189",
+        "p-174"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.4 校验权值差的最大化",
+          "enPosition": "PDF227／印刷210，式(15)解释",
+          "original": "当出现在核中的偶校验顶点 $3,5,6,9,10,12,15,\\ldots$ 在数量上大大超过奇校验顶点 $1,2,4,7,8,11,13,\\ldots$ 时",
+          "final": "当核中偶校验顶点 $3,5,6,9,10,12,15,\\ldots$ 的个数减去奇校验顶点 $1,2,4,7,8,11,13,\\ldots$ 的个数所得之差最大时",
+          "basis": "英文 most strongly outnumber 与权值正负一均指两组数量之差取最大值。",
+          "cnPrintedPage": 174
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Entire Algorithm B B1–B4 and tie/false-sink skips, root-to-sink reconstruction.",
+        "Full (14)–(16) with exact 38-element kernel, original odd-parity qualifiers, score and historical runtime statement.",
+        "Opening 49-state graph example, continuing in CN190."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 189,
+        "markdownSha256": "31e719fc9ab91343ba900c253f7ce355e8310df4c633f95cdf6ec56c2485c25b",
+        "htmlSha256": "ffc2377c716d25a6bfd127724f7a7209f82cd196a23e919d7ecdc03410b4da1e",
+        "mathExpressions": 78,
+        "displayMath": 3,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-189-190-191.json",
+        "sha256": "3cfa772e895740b85f53bbe5328e32f64ada121a86c9a0030c9544740d140745",
+        "cases": [
+          {
+            "physicalPage": 189,
+            "width": 1280,
+            "markdownSha256": "31e719fc9ab91343ba900c253f7ce355e8310df4c633f95cdf6ec56c2485c25b",
+            "documentWidth": 1280,
+            "math": 78,
+            "mathml": 78,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 78,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 189,
+            "width": 390,
+            "markdownSha256": "31e719fc9ab91343ba900c253f7ce355e8310df4c633f95cdf6ec56c2485c25b",
+            "documentWidth": 390,
+            "math": 78,
+            "mathml": 78,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 78,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Final browser full-page 1280 and 390 views and narrow right positions checked. Named intermediate crops inspected; all five diagram links opened and returned at both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/189-1280.png",
+          "sha256": "6ce8ada4a4bd233b3ac0493456bd5c5b07f2eff2f115b98fd4ef78936494e6c8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/189-390.png",
+          "sha256": "b3aac36c453110b728aa4adf1521021f77e768e89121fc1f39c90180f1f406a2",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/189-390-right.png",
+          "sha256": "99b2ada2fa1ce5bc8ef74d91223323631219a6ff5c4f7f538f4201d473b1159c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/189-390-wide-45-1.png",
+          "sha256": "26ac7940ecb040fdfe9542286670b2d541403f9041be3c25432f50cc2e2a0a0e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/189-390-wide-72-1.png",
+          "sha256": "b8f57a8ca13f4abfdcecbba038ecb2136540e7b530f5fd903491da64b39fe7dc",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-189-algorithm-b.png",
+          "sha256": "ea313748cf5893497eb308fe1b61927a25dd523422da32e86b85716bd749fb69"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN189–191 and matching actual EN226–229 image locations. Finite recomputation covers the weighted example, both state extrema, and the grid counts within the stated scopes.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "followingPageContinuation": "The phrase ends 表示那个图 without punctuation. Join directly with the CN190 的所有极大独立集（所有核）的布尔函数.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/189-selected-cn-before-translation-repair-f8130498c8519bad75fb6c161a5189a759ae14b9f75a37c1a25a066a4633f9d7/189.md",
+        "sha256": "f8130498c8519bad75fb6c161a5189a759ae14b9f75a37c1a25a066a4633f9d7",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-weighted-kernels-grids-189-191.json",
+          "sha256": "6148aedb83c9367d79b91c22498e2f1b84a493e69290c93dcec99ac704f19827",
+          "scope": "Finite C100 weighted kernel, source 49-vertex graph, original 3×3 Fig.22 edge order, and stated 8×8 polynomial coefficients. No historical time or 8×8 original variable ordering asserted."
+        },
+        {
+          "file": "assets/volume4a/review/body-189-191-wide-details.json",
+          "sha256": "59864bd6fc7fc4ff5863d3c6609c9ae2f77b77486a2dcd9e109cb2453474bb5f",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "52befcd164daf3009f9af3c2377d13e89ed1344ce7607a0e084e0181c4de1417",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/189.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 190,
+      "cnPrintedPage": 175,
+      "enPdfPages": [
+        227,
+        228
+      ],
+      "enPrintedPages": [
+        210,
+        211
+      ],
+      "pageMarkdownSha256": "1b06bef4865cddc54c3a0fb0f7ac06e174dc33ca2acf9688386a267b61411ef3",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-190.png",
+      "sourcePageImageSha256": "b7d76b3c23a9614ca25fddff8264c94344080ed8e5dd5e29a301fdce681c682d",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-227.png",
+          "sha256": "133127f3643a1c2a23ed7f0b4f5e4bb134fe53b86a8d1c27307ad5b80bae839b",
+          "physicalPage": 227
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-228.png",
+          "sha256": "328f8430f7e457472e57d5bbeef137da169afcf445cb74e9c5c0e27e147d1043",
+          "physicalPage": 228
+        }
+      ],
+      "pageAnchors": [
+        "pdf-190",
+        "p-175",
+        "eq-7-1-4-17",
+        "eq-7-1-4-18",
+        "fig-7-22"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/diagram-7-1-4-17-state-kernel-bdd-prefix.svg",
+          "sha256": "e7eadf771490fe131eb33d023f338248ea9b75f83c6978be09a1029a5f43a902",
+          "enPdfPage": 227,
+          "sourceBounds": [
+            [
+              150,
+              316,
+              317,
+              412
+            ]
+          ],
+          "nativePaths": 91,
+          "sourceDirectlyCompared": true,
+          "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+          "levels": [
+            [
+              "ME"
+            ],
+            [
+              "NH",
+              "NH"
+            ],
+            [
+              "VT",
+              "VT"
+            ],
+            [
+              "MA",
+              "MA",
+              "MA"
+            ],
+            [
+              "RI",
+              "RI",
+              "RI",
+              "RI"
+            ],
+            [
+              "CT",
+              "CT",
+              "CT",
+              "CT"
+            ],
+            [
+              "NY",
+              "NY",
+              "NY"
+            ]
+          ],
+          "falseBoxes": 7
+        },
+        {
+          "file": "assets/volume4a/figures/diagram-7-1-4-18-state-kernel-min.svg",
+          "sha256": "35accdb83beeda435daed822d1795a00a7ff6175d2ffd1f7b3b5afc12aedc850",
+          "enPdfPage": 227,
+          "sourceBounds": [
+            [
+              48,
+              456,
+              225,
+              552
+            ]
+          ],
+          "nativePaths": 192,
+          "sourceDirectlyCompared": true,
+          "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+          "stateLabels": [
+            "AL",
+            "AR",
+            "AZ",
+            "CA",
+            "CO",
+            "CT",
+            "DC",
+            "DE",
+            "FL",
+            "GA",
+            "IA",
+            "ID",
+            "IL",
+            "IN",
+            "KS",
+            "KY",
+            "LA",
+            "MA",
+            "MD",
+            "ME",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "MT",
+            "NC",
+            "ND",
+            "NE",
+            "NH",
+            "NJ",
+            "NM",
+            "NV",
+            "NY",
+            "OH",
+            "OK",
+            "OR",
+            "PA",
+            "RI",
+            "SC",
+            "SD",
+            "TN",
+            "TX",
+            "UT",
+            "VA",
+            "VT",
+            "WA",
+            "WI",
+            "WV",
+            "WY"
+          ],
+          "blackStates": [
+            "CA",
+            "CO",
+            "DC",
+            "DE",
+            "GA",
+            "IA",
+            "ID",
+            "LA",
+            "MA",
+            "ME",
+            "ND",
+            "OH"
+          ],
+          "weight": 155,
+          "edgesComparedWithSource026": 107
+        },
+        {
+          "file": "assets/volume4a/figures/diagram-7-1-4-18-state-kernel-max.svg",
+          "sha256": "09c8d32dd74798ce2151c4b43eb000d2a5d5345d06e100e2ddb32a52005657d0",
+          "enPdfPage": 227,
+          "sourceBounds": [
+            [
+              240,
+              456,
+              416,
+              552
+            ]
+          ],
+          "nativePaths": 187,
+          "sourceDirectlyCompared": true,
+          "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+          "stateLabels": [
+            "AL",
+            "AR",
+            "AZ",
+            "CA",
+            "CO",
+            "CT",
+            "DC",
+            "DE",
+            "FL",
+            "GA",
+            "IA",
+            "ID",
+            "IL",
+            "IN",
+            "KS",
+            "KY",
+            "LA",
+            "MA",
+            "MD",
+            "ME",
+            "MI",
+            "MN",
+            "MO",
+            "MS",
+            "MT",
+            "NC",
+            "ND",
+            "NE",
+            "NH",
+            "NJ",
+            "NM",
+            "NV",
+            "NY",
+            "OH",
+            "OK",
+            "OR",
+            "PA",
+            "RI",
+            "SC",
+            "SD",
+            "TN",
+            "TX",
+            "UT",
+            "VA",
+            "VT",
+            "WA",
+            "WI",
+            "WV",
+            "WY"
+          ],
+          "blackStates": [
+            "DC",
+            "FL",
+            "IN",
+            "KS",
+            "ME",
+            "ND",
+            "NJ",
+            "NV",
+            "RI",
+            "SC",
+            "TN",
+            "TX",
+            "VT",
+            "WA",
+            "WI",
+            "WV",
+            "WY"
+          ],
+          "weight": 492,
+          "edgesComparedWithSource026": 107
+        },
+        {
+          "file": "assets/volume4a/figures/fig-7-22-grid-connected-subgraphs-bdd.svg",
+          "sha256": "654fb80ca606143715e97f3c45c2cf6a2a5dab1e95bcdb8dc5e888ef170d2e2c",
+          "enPdfPage": 228,
+          "sourceBounds": [
+            [
+              151,
+              133,
+              196,
+              179
+            ],
+            [
+              336,
+              95,
+              413,
+              258
+            ]
+          ],
+          "nativePaths": 173,
+          "sourceDirectlyCompared": true,
+          "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+          "gridLabels": "124357689",
+          "order": [
+            "12",
+            "13",
+            "24",
+            "47",
+            "25",
+            "35",
+            "36",
+            "57",
+            "58",
+            "68",
+            "79",
+            "89"
+          ],
+          "decisionNodesByPrintedVariable": {
+            "12": 1,
+            "13": 2,
+            "24": 2,
+            "47": 4,
+            "25": 4,
+            "35": 3,
+            "36": 5,
+            "57": 3,
+            "58": 5,
+            "68": 3,
+            "79": 2,
+            "89": 1
+          },
+          "renderedSinkBoxes": {
+            "⊤": 1,
+            "⊥": 10
+          },
+          "displayAdaptation": "Both complete source panels are translated closer, retaining all internal coordinates and line styles."
+        }
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.4 极大独立集即核",
+          "enPosition": "PDF227／印刷210，式(17)前",
+          "original": "（所有核）的所有极大独立集",
+          "final": "的所有极大独立集（所有核）",
+          "basis": "英文括注解释极大独立集，原中文分页后括注错误地接到图。",
+          "cnPrintedPage": 175
+        },
+        {
+          "location": "§7.1.4 邮政代码字母序号相加",
+          "enPosition": "PDF227／印刷210，式(18)前",
+          "original": "其邮政编码中的字母之和",
+          "final": "其邮政编码中的字母序号之和",
+          "basis": "原例 CA=3+1、DC=4+3、WY=23+25 确认相加的是字母在字母表中的序号。",
+          "cnPrintedPage": 175
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Continuation across CN189→190, original BDD prefix (17) and both original optimum labels and plots (18).",
+        "All 49 labels, 107 edges and both black-node kernel selections, weights and source total counters.",
+        "Entire Fig.22 3×3 graph and BDD, exact variable order including early layer 47, logical nodes and all terms of (19)."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 190,
+        "markdownSha256": "1b06bef4865cddc54c3a0fb0f7ac06e174dc33ca2acf9688386a267b61411ef3",
+        "htmlSha256": "cf7802ad9a30a51ada65259ef5a2a3a8c49857e5ae771938c7db29bfc0071482",
+        "mathExpressions": 27,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 4,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-189-190-191.json",
+        "sha256": "3cfa772e895740b85f53bbe5328e32f64ada121a86c9a0030c9544740d140745",
+        "cases": [
+          {
+            "physicalPage": 190,
+            "width": 1280,
+            "markdownSha256": "1b06bef4865cddc54c3a0fb0f7ac06e174dc33ca2acf9688386a267b61411ef3",
+            "documentWidth": 1280,
+            "math": 27,
+            "mathml": 27,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 27,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 190,
+            "width": 390,
+            "markdownSha256": "1b06bef4865cddc54c3a0fb0f7ac06e174dc33ca2acf9688386a267b61411ef3",
+            "documentWidth": 390,
+            "math": 27,
+            "mathml": 27,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 27,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Final browser full-page 1280 and 390 views and narrow right positions checked. Named intermediate crops inspected; all five diagram links opened and returned at both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/190-1280.png",
+          "sha256": "9b22269b4722967f846fdda802a42896ea4e0f9985a5a1c529bd0ecfbbedcd69",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/190-390.png",
+          "sha256": "27d584efe5d23f30260d676ff6b393c1d52595787ef41a27b71313a090fb5c98",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/190-390-right.png",
+          "sha256": "612bc5916a2a0725de439480d7ae4376ce8b3a24526c71c013434def3bdebb3f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/190-390-wide-20-1.png",
+          "sha256": "74ed9e2a7905a1e8c28614f35ad36cfe4c90860782e9c3bebd03aef98b857903",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-227-eq17-state-bdd.png",
+          "sha256": "019baf079e517e4355c383443f7c4d9bd2b7c383f76646d96495f2c44f7c32c7"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-227-eq18-state-optima.png",
+          "sha256": "e2f2ea3912fb8f958f97c3fbca395f8a7ccbd2ccc128a16216ab878c20d1fd3d"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-190-eq18-state-optima.png",
+          "sha256": "e020726bc88f26a1cf0bb7c654f772de8f7119b06750adaece97b3eac7b497a3"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-228-fig22-grid.png",
+          "sha256": "1d340f35a0b2cf333f5cecb7d0d245df88034a999e2ccfb0b81add784bd1b1c9"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-228-fig22-bdd.png",
+          "sha256": "3ca066784ce0993352233f2dafcbefda8c82f671b9909acf8753fb12192a2566"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-190-fig22-bdd.png",
+          "sha256": "cb4f76ede5733aa3564391245a7807ab08d42def9356bd0f463e4db9c8403f0a"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN189–191 and matching actual EN226–229 image locations. Finite recomputation covers the weighted example, both state extrema, and the grid counts within the stated scopes.",
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "followingPageContinuation": "Start attaches directly to CN189 表示那个图. For responsive enlargement the two original panels of (18) appear one after the other, with their original numeric captions; the later description identifies the maximum-weight panel. Original Fig.22 panels sit in one graphic before their complete description.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/190-selected-cn-before-translation-repair-ab2aa0b6b23def3ac5ca268077955fd3e56d6276711acb95c6a6321924126320/190.md",
+        "sha256": "ab2aa0b6b23def3ac5ca268077955fd3e56d6276711acb95c6a6321924126320",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-weighted-kernels-grids-189-191.json",
+          "sha256": "6148aedb83c9367d79b91c22498e2f1b84a493e69290c93dcec99ac704f19827",
+          "scope": "Finite C100 weighted kernel, source 49-vertex graph, original 3×3 Fig.22 edge order, and stated 8×8 polynomial coefficients. No historical time or 8×8 original variable ordering asserted."
+        },
+        {
+          "file": "assets/volume4a/review/body-189-191-wide-details.json",
+          "sha256": "59864bd6fc7fc4ff5863d3c6609c9ae2f77b77486a2dcd9e109cb2453474bb5f",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        },
+        {
+          "file": "assets/volume4a/review/body-190-191-original-links.json",
+          "sha256": "2a9adfd1d42d7029de613d8ee931ec2b050fb468ccfbead75186f6c4d866a060",
+          "scope": "Actual linked original image opening and back navigation in current private proofs. No published route or separate whole-page cases."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "469ec5f47e26e068475f63cd1e6e724b5ad6d030a7a15a961482eca9ee4b80dc",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/190.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 191,
+      "cnPrintedPage": 176,
+      "enPdfPages": [
+        228,
+        229
+      ],
+      "enPrintedPages": [
+        211,
+        212
+      ],
+      "pageMarkdownSha256": "2824b1031b6b7c8fbc59e8aaeca5534d7d49e05bf9940b3969eb5aaf4e12fe8c",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-191.png",
+      "sourcePageImageSha256": "ea8ac9acbc5207c262132991c0c158c23da8ccbf429c844db2ca4e8420a83370",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-228.png",
+          "sha256": "328f8430f7e457472e57d5bbeef137da169afcf445cb74e9c5c0e27e147d1043",
+          "physicalPage": 228
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-229.png",
+          "sha256": "d1ed33e382d836d9b2cddb3bdf9e6d08d5813dfeeddf146f80f6831a9ec3acbc",
+          "physicalPage": 229
+        }
+      ],
+      "pageAnchors": [
+        "pdf-191",
+        "p-176",
+        "eq-7-1-4-21"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/diagram-7-1-4-21-grid-reliability-plots.svg",
+          "sha256": "f500b2d63659a85255707b4043c706b4ecd70222c5e8927e980b38d4ae553ab4",
+          "enPdfPage": 229,
+          "sourceBounds": [
+            [
+              158,
+              252,
+              188,
+              282
+            ],
+            [
+              299,
+              151,
+              333,
+              282
+            ]
+          ],
+          "nativePaths": 80,
+          "sourceDirectlyCompared": true,
+          "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+          "originalPanelPaths": [
+            20,
+            60
+          ],
+          "derivativeClippedGridLines": 40,
+          "originalDerivativeClipSegments": 52,
+          "displayAdaptation": "Original complete panels translated closer at unchanged scale. Original upper grid clipping follows the derivative envelope. Labels restore function and horizontal axis."
+        }
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.4 随机保留边所得的子图",
+          "enPosition": "PDF228／印刷211，可靠性多项式开头",
+          "original": "导出子图",
+          "final": "所得子图",
+          "basis": "resulting subgraph 指独立抽取各边所得的子图。",
+          "cnPrintedPage": 176
+        },
+        {
+          "location": "§7.1.4 多重线性表示的取值条件",
+          "enPosition": "PDF228／印刷211，可靠性多项式条件(i)",
+          "original": "每当 $x_j$ 取 0 或 1 时",
+          "final": "所有变量 $x_j$ 均取 0 或 1 时",
+          "basis": "whenever each x_j 指所有变量都取布尔值时插值等式成立。",
+          "cnPrintedPage": 176
+        },
+        {
+          "location": "§7.1.4 推广段的原书星号",
+          "enPosition": "PDF229／印刷212，A sweeping generalization 标题",
+          "original": "**一种全面推广。**",
+          "final": "**\\*一种全面推广。**",
+          "basis": "英文在这一高阶段落标题前印有标星，中文漏掉。",
+          "cnPrintedPage": 176
+        },
+        {
+          "location": "§7.1.4 自底向上的 BDD 扫描",
+          "enPosition": "PDF229／印刷212，推广首段",
+          "original": "自底向上的 BDD 搜索的算法",
+          "final": "自底向上的 BDD 扫描算法",
+          "basis": "scanning 指按照前面算法对 BDD 的自底向上逐点扫描。",
+          "cnPrintedPage": 176
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Reliability polynomial definition via independent edges, interpolation conditions, integer multilinearity and whole (20).",
+        "Exact five given 8×8 coefficients, original numbers of variables/nodes, and both shapes and axes of (21).",
+        "Complete marked advanced passage end including both distributive identities (22), four terms (23), and majority expansion at sinks and all internal nodes of Fig.21."
+      ],
+      "ocrRepairsOfNote": [
+        "The first unpublished browser proof omitted the derivative panel envelope clip. Archived in private history, restored the original 52-segment clipping path with the native plot and rendered/viewed final pages again."
+      ],
+      "syntaxCheck": {
+        "physicalPage": 191,
+        "markdownSha256": "2824b1031b6b7c8fbc59e8aaeca5534d7d49e05bf9940b3969eb5aaf4e12fe8c",
+        "htmlSha256": "f83c11a795be4cf9a5302f790aa457681859f28976699f15108b3aa0eb92a007",
+        "mathExpressions": 63,
+        "displayMath": 4,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-189-190-191.json",
+        "sha256": "3cfa772e895740b85f53bbe5328e32f64ada121a86c9a0030c9544740d140745",
+        "cases": [
+          {
+            "physicalPage": 191,
+            "width": 1280,
+            "markdownSha256": "2824b1031b6b7c8fbc59e8aaeca5534d7d49e05bf9940b3969eb5aaf4e12fe8c",
+            "documentWidth": 1280,
+            "math": 63,
+            "mathml": 63,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 63,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 191,
+            "width": 390,
+            "markdownSha256": "2824b1031b6b7c8fbc59e8aaeca5534d7d49e05bf9940b3969eb5aaf4e12fe8c",
+            "documentWidth": 390,
+            "math": 63,
+            "mathml": 63,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 63,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Final browser full-page 1280 and 390 views and narrow right positions checked. Named intermediate crops inspected; all five diagram links opened and returned at both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/191-1280.png",
+          "sha256": "99dc01e3a84b63e5dd0103a79d895abcb7a0a37e289949e61b575a614b3fe378",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/191-390.png",
+          "sha256": "534baf0ab174559566b674a15122e6ad1d57108f028bb19167aa8cf23aa9cf07",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/191-390-right.png",
+          "sha256": "2f6ccf1baf8746bfef81b157a8b06c75333bdd238c31cc08c7b72ff7a6ad0383",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/191-390-wide-12-1.png",
+          "sha256": "8bddad84846e72e4aa6b0c0e0a95dc92d71d86e102e5dea9a8c2645a3f3eff4b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/191-390-wide-34-1.png",
+          "sha256": "71469063e3ba78dfe71eacc9d963e3e6667488d09aa2f0c03802cd739ecb70bb",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/191-390-wide-46-1.png",
+          "sha256": "5ec832fe90bbb1de9501be98806ba426d311caf6e85d10387f266dc35c57c418",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-229-eq21-F.png",
+          "sha256": "ffa9d8e7e25987059dc694f6f2ca2ef68f863559c6efcf956792d6a5c520d6f8"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-229-eq21-Fprime.png",
+          "sha256": "cb6c7ba7fcdd97e307322e253b981b792ef96fbf8c95fc469234b054e0dcfdbf"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-191-eq21-figures.png",
+          "sha256": "a9b8927020a2e4f3f750867ae20cf76e0abe5a71272cb1d29ed7d415ce2acfb0"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-191-elaborated-tables.png",
+          "sha256": "ab549dc651400b5bf8f1dd210d2b57d12db5ecf0767c747416f9d4605f7baee0"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN189–191 and matching actual EN226–229 image locations. Finite recomputation covers the weighted example, both state extrema, and the grid counts within the stated scopes.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": false,
+      "followingPageContinuation": "Node 1 expansion sentence is complete. The same paragraph resumes on CN192 with exercise 31 and the eight-term expansion (24).",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/191-selected-cn-before-translation-repair-a0e1c797e1ceed3c99cbac2cd3b5723f86378c3701120cfd1fa58af291d5fdcd/191.md",
+        "sha256": "a0e1c797e1ceed3c99cbac2cd3b5723f86378c3701120cfd1fa58af291d5fdcd",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-weighted-kernels-grids-189-191.json",
+          "sha256": "6148aedb83c9367d79b91c22498e2f1b84a493e69290c93dcec99ac704f19827",
+          "scope": "Finite C100 weighted kernel, source 49-vertex graph, original 3×3 Fig.22 edge order, and stated 8×8 polynomial coefficients. No historical time or 8×8 original variable ordering asserted."
+        },
+        {
+          "file": "assets/volume4a/review/body-189-191-wide-details.json",
+          "sha256": "59864bd6fc7fc4ff5863d3c6609c9ae2f77b77486a2dcd9e109cb2453474bb5f",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        },
+        {
+          "file": "assets/volume4a/review/body-190-191-original-links.json",
+          "sha256": "2a9adfd1d42d7029de613d8ee931ec2b050fb468ccfbead75186f6c4d866a060",
+          "scope": "Actual linked original image opening and back navigation in current private proofs. No published route or separate whole-page cases."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "9bf02663b3767530d3848dc758681a6f9c4924fa74a04efca519c728bb7b14a4",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/191.json"
+    }
+  ],
+  "qualification": "Complete CN189–191 and matching actual EN226–229 image locations. Finite recomputation covers the weighted example, both state extrema, and the grid counts within the stated scopes."
+}

@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "owner": "vol4a_body_g62",
+  "physicalPages": [
+    681,
+    682,
+    683
+  ],
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignoff": false,
+  "masterSha256": null,
+  "sourceSha256": {
+    "cn": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "en": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+  },
+  "sourceReviewSpecification": {
+    "file": "private-snapshot:volume4a/assigned-answers-681-700/checkpoints/specification-681-683.json",
+    "sha256": "d5b2bd5e314e33bcc7c51d959bbd742df8f32fe9f39f98b7e82b8574e0f26543"
+  },
+  "sourcePageRecords": [
+    {
+      "physicalPage": 681,
+      "pageMarkdownSha256": "f7c8dab8cc01f48fb5949a47e3b6b7f63801a3b81ce73e88cbdac17e6c0447af",
+      "pageReviewSha256": "e683045dd72a39290c385ca0dbe8fb078ba535f643b3ceb263e8299345438202",
+      "answerAnchors": [
+        "ans-7-2-1-6-47",
+        "ans-7-2-1-6-48",
+        "ans-7-2-1-6-49",
+        "ans-7-2-1-6-50",
+        "ans-7-2-1-6-51",
+        "ans-7-2-1-6-52",
+        "ans-7-2-1-6-53"
+      ],
+      "sourceEnPhysicalPages": [
+        811,
+        812
+      ],
+      "mathExpressions": 67,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 682,
+      "pageMarkdownSha256": "d96d49d77480448a6035b38fdae43ba15f2dfccba8b9627cff6bdde16c97568e",
+      "pageReviewSha256": "c9c2ff7d6af1b08805ec39bea6faabbf87c8e86a028e698bd8c6035af8936a05",
+      "answerAnchors": [
+        "ans-7-2-1-6-54",
+        "ans-7-2-1-6-55",
+        "ans-7-2-1-6-56",
+        "ans-7-2-1-6-57",
+        "ans-7-2-1-6-58"
+      ],
+      "sourceEnPhysicalPages": [
+        812,
+        813
+      ],
+      "mathExpressions": 44,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 683,
+      "pageMarkdownSha256": "5b503bd109872df883b6bf172ae9e052e65a0550732dedbc81a2185d96a1943f",
+      "pageReviewSha256": "3892c8a11c6553aae8c27544165ac6cb8ab3b917e35b948affe8095e265e78f7",
+      "answerAnchors": [
+        "ans-7-2-1-6-59",
+        "ans-7-2-1-6-60"
+      ],
+      "sourceEnPhysicalPages": [
+        813,
+        814
+      ],
+      "mathExpressions": 63,
+      "negativeAnswerLocators": []
+    }
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "answers-681-53-denominator",
+      "section": "7.2.1.6",
+      "cnPdfPage": 681,
+      "location": "答53(a)，英文印795",
+      "original": "(a) $3n/(n-2)$",
+      "final": "(a) $3n/(n+2)$",
+      "basis": "中文原图可见横线，英文明确+。同段明确引用答52，其均值为3n/(n+2)；枚举n=1–10的树同。",
+      "cnPrintedPage": 666,
+      "pageMarkdownSha256": "f7c8dab8cc01f48fb5949a47e3b6b7f63801a3b81ce73e88cbdac17e6c0447af"
+    },
+    {
+      "id": "answers-681-53-fixed-branch",
+      "section": "7.2.1.6",
+      "cnPdfPage": 681,
+      "location": "答53(d)，英文印795",
+      "original": "任意特定（但非固定）的左分支或右分支序列",
+      "final": "任意指定并固定一个由左、右分支组成的序列",
+      "basis": "英文明确“Any particular (but fixed) sequence”；固定后步骤数的分布与选择哪条固定路线无关。",
+      "cnPrintedPage": 666,
+      "pageMarkdownSha256": "f7c8dab8cc01f48fb5949a47e3b6b7f63801a3b81ce73e88cbdac17e6c0447af"
+    },
+    {
+      "id": "answers-682-54-factorial-moment",
+      "section": "7.2.1.6",
+      "cnPdfPage": 682,
+      "location": "答54二阶导数，英文印795",
+      "original": "\\sum(c_1+\\cdots+c_n)^2=[z^n]",
+      "final": "\\sum(c_1+\\cdots+c_n)(c_1+\\cdots+c_n-1)=[z^n]",
+      "basis": "两源同印平方。对权重x^X二次求导后在x=1得X(X−1)，闭式是下降阶乘矩。n=2，两树X为0,1，平方和为1，原闭式为0；逐棵核n=1–10。",
+      "cnPrintedPage": 667,
+      "pageMarkdownSha256": "d96d49d77480448a6035b38fdae43ba15f2dfccba8b9627cff6bdde16c97568e"
+    },
+    {
+      "id": "answers-682-54-variance-order",
+      "section": "7.2.1.6",
+      "cnPdfPage": 682,
+      "location": "答54方差，英文印795",
+      "original": "(\\frac56-\\frac\\pi4)n^{3/2}+O(n)",
+      "final": "(\\frac56-\\frac\\pi4)n^3+O(n^2)",
+      "basis": "按已对源的两导数闭式，设A=4^n/C_n、b=(3n+1)/2、P=(5n²+19n+6)(n+1)/6，精确方差为P−b−b²−A²/4。代入卡塔兰渐近式即得立方主项和二次余项。",
+      "cnPrintedPage": 667,
+      "pageMarkdownSha256": "d96d49d77480448a6035b38fdae43ba15f2dfccba8b9627cff6bdde16c97568e"
+    },
+    {
+      "id": "answers-682-57-binomial-factor",
+      "section": "7.2.1.6",
+      "cnPdfPage": 682,
+      "location": "答57中段，英文印796",
+      "original": "S_p(a,b-1)（递推右边）",
+      "final": "2b(2b-1)S_p(a,b-1)",
+      "basis": "双语原式漏乘整系数。逐项由(b²−k²)·binom(2b,b−k)=2b(2b−1)·binom(2b−2,b−k−1)；a=b=1,p=0原左右4与2，修订后相等。",
+      "cnPrintedPage": 667,
+      "pageMarkdownSha256": "d96d49d77480448a6035b38fdae43ba15f2dfccba8b9627cff6bdde16c97568e"
+    },
+    {
+      "id": "answers-683-58-extraction-boundary",
+      "section": "7.2.1.6",
+      "cnPdfPage": 683,
+      "location": "答58最后附注两次系数提取，英文印796",
+      "original": "未明列空树边界",
+      "final": "C_{0,-1}=1",
+      "basis": "只在该注的两次系数提取中明列[z^0]C(z)^0。按正文三角阵列的普通域外约定直接代入会把n=1,m=0,l=1的一个左叶数成0；n≤10所有不同中序位置与深度核对相合。",
+      "cnPrintedPage": 668,
+      "pageMarkdownSha256": "5b503bd109872df883b6bf172ae9e052e65a0550732dedbc81a2185d96a1943f"
+    },
+    {
+      "id": "answers-683-58-vandermonde-domain",
+      "section": "7.2.1.6",
+      "cnPdfPage": 683,
+      "location": "答58末注，英文印796",
+      "original": "当 $m\\ge1$ 时",
+      "final": "当 $m\\ge1$ 且 $0\\le n\\le m$ 时",
+      "basis": "双语只印m≥1；例如m=1,n=2,r=0时左右1和0。加入所用三角域后，逐项写两个二项式之差再用范德蒙德求和可得结论；m=1..20逐项有限复核。",
+      "cnPrintedPage": 668,
+      "pageMarkdownSha256": "5b503bd109872df883b6bf172ae9e052e65a0550732dedbc81a2185d96a1943f"
+    },
+    {
+      "id": "answers-683-59-recurrence-arguments",
+      "section": "7.2.1.6",
+      "cnPdfPage": 683,
+      "location": "答59递推首行末，英文印797",
+      "original": "wzC(wz)T(wz)",
+      "final": "wzC(wz)T(w,z)",
+      "basis": "双语同印单参。二叉树左、右子树均取同一个双参生成函数，右子树序号平移由前乘wzC(wz)提供。递推、原第二行、原闭式以及n=1–10所有树的中序内部深度统计逐系数相合。",
+      "cnPrintedPage": 668,
+      "pageMarkdownSha256": "5b503bd109872df883b6bf172ae9e052e65a0550732dedbc81a2185d96a1943f"
+    }
+  ],
+  "privateBrowserCaseCount": 6,
+  "logicalCandidates": [],
+  "assets": [],
+  "details": {
+    "finiteChecks": {
+      "file": "private-snapshot:volume4a/assigned-answers-681-700/checkpoints/681-683-finite.json",
+      "sha256": "c104c60f3ba6401f51a6814c67f81fd14dd916ebf846ad6847bdbab628e86ca8",
+      "result": {
+        "assertions": "all passed",
+        "scope": "Finite enumerations and local algebra, not general proof of surrounding answers.",
+        "algorithmU": {
+          "rankConvention": "Algorithm U ordinal is one-based; modified ranking is zero-based",
+          "n": 15,
+          "millionth": "()(()())(((()())))((((())())))",
+          "sourceWord": "(())((())((()(()))())(()(())))",
+          "sourceRank": 3141592
+        },
+        "algorithmsAandI": {
+          "nRange": [
+            0,
+            7
+          ],
+          "balancedStringCounts": [
+            1,
+            2,
+            6,
+            20,
+            70,
+            252,
+            924,
+            3432
+          ],
+          "checkedRoundTrips": 4707,
+          "sourceDefect11Inverse": "(()))((())))))(()((())(()))((("
+        },
+        "checkedTreeStatistics": [
+          {
+            "n": 1,
+            "trees": 1,
+            "d": {
+              "1": 1
+            },
+            "leftPathLengthSum": 0,
+            "leftPathLengthSquaredSum": 0,
+            "leftPathLengthFallingFactorial2Sum": 0,
+            "externalDepthSums": [
+              1,
+              1
+            ],
+            "internalDepthSums": [
+              0
+            ]
+          },
+          {
+            "n": 2,
+            "trees": 2,
+            "d": {
+              "1": 1,
+              "2": 1
+            },
+            "leftPathLengthSum": 1,
+            "leftPathLengthSquaredSum": 1,
+            "leftPathLengthFallingFactorial2Sum": 0,
+            "externalDepthSums": [
+              3,
+              4,
+              3
+            ],
+            "internalDepthSums": [
+              1,
+              1
+            ]
+          },
+          {
+            "n": 3,
+            "trees": 5,
+            "d": {
+              "1": 2,
+              "2": 2,
+              "3": 1
+            },
+            "leftPathLengthSum": 7,
+            "leftPathLengthSquaredSum": 15,
+            "leftPathLengthFallingFactorial2Sum": 8,
+            "externalDepthSums": [
+              9,
+              13,
+              13,
+              9
+            ],
+            "internalDepthSums": [
+              4,
+              6,
+              4
+            ]
+          },
+          {
+            "n": 4,
+            "trees": 14,
+            "d": {
+              "1": 5,
+              "2": 5,
+              "3": 3,
+              "4": 1
+            },
+            "leftPathLengthSum": 37,
+            "leftPathLengthSquaredSum": 135,
+            "leftPathLengthFallingFactorial2Sum": 98,
+            "externalDepthSums": [
+              28,
+              42,
+              46,
+              42,
+              28
+            ],
+            "internalDepthSums": [
+              14,
+              23,
+              23,
+              14
+            ]
+          },
+          {
+            "n": 5,
+            "trees": 42,
+            "d": {
+              "1": 14,
+              "2": 14,
+              "3": 9,
+              "4": 4,
+              "5": 1
+            },
+            "leftPathLengthSum": 176,
+            "leftPathLengthSquaredSum": 964,
+            "leftPathLengthFallingFactorial2Sum": 788,
+            "externalDepthSums": [
+              90,
+              138,
+              158,
+              158,
+              138,
+              90
+            ],
+            "internalDepthSums": [
+              48,
+              82,
+              92,
+              82,
+              48
+            ]
+          },
+          {
+            "n": 6,
+            "trees": 132,
+            "d": {
+              "1": 42,
+              "2": 42,
+              "3": 28,
+              "4": 14,
+              "5": 5,
+              "6": 1
+            },
+            "leftPathLengthSum": 794,
+            "leftPathLengthSquaredSum": 6034,
+            "leftPathLengthFallingFactorial2Sum": 5240,
+            "externalDepthSums": [
+              297,
+              462,
+              543,
+              568,
+              543,
+              462,
+              297
+            ],
+            "internalDepthSums": [
+              165,
+              288,
+              341,
+              341,
+              288,
+              165
+            ]
+          },
+          {
+            "n": 7,
+            "trees": 429,
+            "d": {
+              "1": 132,
+              "2": 132,
+              "3": 90,
+              "4": 48,
+              "5": 20,
+              "6": 6,
+              "7": 1
+            },
+            "leftPathLengthSum": 3473,
+            "leftPathLengthSquaredSum": 34705,
+            "leftPathLengthFallingFactorial2Sum": 31232,
+            "externalDepthSums": [
+              1001,
+              1573,
+              1881,
+              2021,
+              2021,
+              1881,
+              1573,
+              1001
+            ],
+            "internalDepthSums": [
+              572,
+              1012,
+              1236,
+              1306,
+              1236,
+              1012,
+              572
+            ]
+          },
+          {
+            "n": 8,
+            "trees": 1430,
+            "d": {
+              "1": 429,
+              "2": 429,
+              "3": 297,
+              "4": 165,
+              "5": 75,
+              "6": 27,
+              "7": 7,
+              "8": 1
+            },
+            "leftPathLengthSum": 14893,
+            "leftPathLengthSquaredSum": 188235,
+            "leftPathLengthFallingFactorial2Sum": 173342,
+            "externalDepthSums": [
+              3432,
+              5434,
+              6578,
+              7194,
+              7390,
+              7194,
+              6578,
+              5434,
+              3432
+            ],
+            "internalDepthSums": [
+              2002,
+              3575,
+              4455,
+              4861,
+              4861,
+              4455,
+              3575,
+              2002
+            ]
+          },
+          {
+            "n": 9,
+            "trees": 4862,
+            "d": {
+              "1": 1430,
+              "2": 1430,
+              "3": 1001,
+              "4": 572,
+              "5": 275,
+              "6": 110,
+              "7": 35,
+              "8": 8,
+              "9": 1
+            },
+            "leftPathLengthSum": 63004,
+            "leftPathLengthSquaredSum": 978056,
+            "leftPathLengthFallingFactorial2Sum": 915052,
+            "externalDepthSums": [
+              11934,
+              19006,
+              23218,
+              25714,
+              26890,
+              26890,
+              25714,
+              23218,
+              19006,
+              11934
+            ],
+            "internalDepthSums": [
+              7072,
+              12714,
+              16068,
+              17904,
+              18492,
+              17904,
+              16068,
+              12714,
+              7072
+            ]
+          },
+          {
+            "n": 10,
+            "trees": 16796,
+            "d": {
+              "1": 4862,
+              "2": 4862,
+              "3": 3432,
+              "4": 2002,
+              "5": 1001,
+              "6": 429,
+              "7": 154,
+              "8": 44,
+              "9": 9,
+              "10": 1
+            },
+            "leftPathLengthSum": 263950,
+            "leftPathLengthSquaredSum": 4918430,
+            "leftPathLengthFallingFactorial2Sum": 4654480,
+            "externalDepthSums": [
+              41990,
+              67184,
+              82654,
+              92404,
+              97864,
+              99628,
+              97864,
+              92404,
+              82654,
+              67184,
+              41990
+            ],
+            "internalDepthSums": [
+              25194,
+              45526,
+              58136,
+              65741,
+              69353,
+              69353,
+              65741,
+              58136,
+              45526,
+              25194
+            ]
+          }
+        ],
+        "varianceAlgebra": "Let A=4^n/C_n. Exact variance = ((5n²+19n+6)(n+1))/6−(3n+1)²/4−(3n+1)/2−A²/4. Since A=√π n^(3/2)(1+O(1/n)), variance=(5/6−π/4)n^3+O(n²).",
+        "sum57": {
+          "a": [
+            0,
+            12
+          ],
+          "b": [
+            1,
+            12
+          ],
+          "p": [
+            0,
+            5
+          ],
+          "tests": 936,
+          "counterexample": {
+            "a": 1,
+            "b": 1,
+            "p": 0,
+            "originalLeft": 4,
+            "originalRight": 2
+          },
+          "generalBasis": "(b²−k²) Binom(2b,b−k) = (2b)(2b−1) Binom(2b−2,b−k−1) via cancellation."
+        },
+        "sum58": {
+          "m": [
+            1,
+            20
+          ],
+          "n": "0..m",
+          "r": "0..n",
+          "counterexampleToUnrestricted": {
+            "m": 1,
+            "n": 2,
+            "r": 0,
+            "left": 1,
+            "right": 0
+          },
+          "generalBasis": "Express ballot numbers as binomial differences and apply Vandermonde to each sum over k. Domain n≤m makes the largest first index in the intermediate term at most one beyond the diagonal."
+        },
+        "externalBoundary58": {
+          "localConvention": "C(0,−1)=1 in the two adjacent extraction formulas only, the [z^0] C(z)^0 term",
+          "smallestExample": "n=1, m=0, l=1 gives t_1,0,1=1; using the ordinary triangle outside its range instead would give 0."
+        },
+        "internal59": {
+          "Targuments": "The second recurrence occurrence has the same generating function T(w,z); right-subtree shift z*w*C(wz) supplies index shift before that T. Both printed algebraically closed second line and symbolic convolution agree through z^10, coefficientwise in w."
+        },
+        "currentMarkdownSha256": {
+          "681": "f7c8dab8cc01f48fb5949a47e3b6b7f63801a3b81ce73e88cbdac17e6c0447af",
+          "682": "d96d49d77480448a6035b38fdae43ba15f2dfccba8b9627cff6bdde16c97568e",
+          "683": "5b503bd109872df883b6bf172ae9e052e65a0550732dedbc81a2185d96a1943f"
+        },
+        "checkerSha256": "deee4bbe9862baf5b071c570ea87deb624b733656a714801dac070d911676bed"
+      }
+    },
+    "physicalSeams": [
+      {
+        "left": 680,
+        "right": 681,
+        "answer": 46,
+        "boundary": "续Carlitz–Riordan的q二项式和；681首从而推广习题43，B*前页已完整。",
+        "action": "两页一起装订，681双锚移至答46完整逻辑块的开始位置。"
+      },
+      {
+        "left": 681,
+        "right": 682,
+        "answer": 53,
+        "boundary": "因此，对于所｜有3种情形。",
+        "action": "双锚移到(d)逻辑段前，不在「所有」内留下标记或空格。"
+      },
+      {
+        "left": 682,
+        "right": 683,
+        "answer": 58,
+        "boundary": "三变量递推显示式之后续写求一阶导数。",
+        "action": "保留显示式边界，锚可移到答58开头。"
+      },
+      {
+        "left": 683,
+        "right": 684,
+        "answer": 60,
+        "boundary": "I3｜I4。",
+        "action": "I1–I6保持连续；双锚移到I1前。"
+      }
+    ]
+  },
+  "qualification": "逐页模型直接看中文版和对应英文版原图，逐式复核本稿，实际开1280和390 px隔离Chrome校样并检查横移两端。收据仍独立于整卷母稿；有限复算的适用范围见各项。"
+}

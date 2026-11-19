@@ -1,0 +1,633 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-assigned-physical-page-source-review-and-private-two-width-proof",
+  "cnPhysicalPages": [
+    417,
+    418
+  ],
+  "cnPrintedPages": [
+    402,
+    403
+  ],
+  "masterSha256": null,
+  "mathExpressions": 57,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 2,
+  "logicalAssemblies": [
+    {
+      "file": "assets/volume4a/review/body-417-418-tree-exercises111-124-digit-grammar-417-418-assembly.json",
+      "sha256": "ef8e01c500a26e9e975dd6daf010806965778f7b0b78076b36c7f9413218795a"
+    }
+  ],
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 417,
+      "cnPrintedPage": 402,
+      "enPdfPages": [
+        500,
+        501
+      ],
+      "enPrintedPages": [
+        483,
+        484
+      ],
+      "pageMarkdownSha256": "a43b8efd22ff7e3a998039336469ed787c61fc9da7dd46073273466b04a04995",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/417.jpg",
+      "sourcePageImageSha256": "8ea22b341aec2850041beced81db7204ec1c1d9823b91e0d698ebab01a35fdf8",
+      "enPageImages": [
+        {
+          "physicalPage": 500,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-500.png",
+          "sha256": "1d47c012532ffdcd9e5ebe9041130a0c9819f24249a2da9eb431ff673c8f0a51"
+        },
+        {
+          "physicalPage": 501,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-501.png",
+          "sha256": "2fcb9d548ed24bb53580800d8a4dacd337f615d5acc82f66a741a4567baa6dd9"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-417",
+        "p-402",
+        "ex-7-2-1-6-111",
+        "ex-7-2-1-6-112",
+        "ex-7-2-1-6-113",
+        "ex-7-2-1-6-114",
+        "ex-7-2-1-6-115",
+        "ex-7-2-1-6-116",
+        "ex-7-2-1-6-117",
+        "ex-7-2-1-6-118",
+        "ex-7-2-1-6-119",
+        "ex-7-2-1-6-120",
+        "ex-7-2-1-6-121",
+        "ex-7-2-1-6-122"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-113",
+          "section": "7.2.1.6",
+          "cnPdfPage": 417,
+          "enPdfPages": [
+            501
+          ],
+          "location": "题121(ii)的两个四度顶点与路径",
+          "original": "在T的导数中任意两个度数为4的顶点中，至少有一个顶点在T中的度数为2",
+          "final": "在 $T^{(\\prime)}$ 中任意两个度数为4的顶点之间，至少有一个顶点在 $T$ 中的度数为2",
+          "basis": "EN501 Between any two vertices of degree 4 清楚表示路径内部需含二度点，不是两个端点之一。导数删除末端，只能减小度数。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "a43b8efd22ff7e3a998039336469ed787c61fc9da7dd46073273466b04a04995",
+          "cnPrintedPage": 402
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-exercise119-twisted-binomial-tree.svg",
+          "sha256": "ce2dd23f6d23013e7dbaad69c50cc3b4363cea6ce0f776767444bdf1ae75c42f"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 417,
+        "markdownSha256": "a43b8efd22ff7e3a998039336469ed787c61fc9da7dd46073273466b04a04995",
+        "htmlSha256": "e88f2319dfc7d6134e99d065b8c1c0f0b341e39fe94c040932f7315a5c90ff14",
+        "mathExpressions": 37,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [
+          7,
+          1
+        ],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/result.json",
+        "sha256": "a628b1cd7adb2680e877fe69f5b6a467ecdf82bbdd3049bc9ff310f209580c8e",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 37,
+            "mathML": 37,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 417,
+            "width": 1280,
+            "pageMarkdownSha256": "a43b8efd22ff7e3a998039336469ed787c61fc9da7dd46073273466b04a04995",
+            "htmlSha256": "e88f2319dfc7d6134e99d065b8c1c0f0b341e39fe94c040932f7315a5c90ff14",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-exercise119-twisted-binomial-tree.svg",
+                "opened": true,
+                "screenshot": "417-1280-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ],
+            "grammarListings": {
+              "exact": true,
+              "lineCounts": [
+                7,
+                1
+              ]
+            }
+          },
+          {
+            "documentWidth": 390,
+            "math": 37,
+            "mathML": 37,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 417,
+                "left": 0,
+                "right": 107,
+                "max": 107,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 567,
+                "left": 0,
+                "right": 257,
+                "max": 257,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 417,
+            "width": 390,
+            "pageMarkdownSha256": "a43b8efd22ff7e3a998039336469ed787c61fc9da7dd46073273466b04a04995",
+            "htmlSha256": "e88f2319dfc7d6134e99d065b8c1c0f0b341e39fe94c040932f7315a5c90ff14",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-exercise119-twisted-binomial-tree.svg",
+                "opened": true,
+                "screenshot": "417-390-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ],
+            "grammarListings": {
+              "exact": true,
+              "lineCounts": [
+                7,
+                1
+              ]
+            }
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/417-1280-walk0.png",
+          "sha256": "a3aa09ab209e822369c1d3dee15af00cacb5179a950a41a572302cd2162bf1e1",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/417-1280-walk1.png",
+          "sha256": "42d5b1ba50d5264d9ff441db598889824d6bc3947964f8f52bc406152f05ca11",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/417-1280-walk2.png",
+          "sha256": "167a642f6a99b4247d8b76c2460cf165a5738319a5902e856beaf53d50fe6214",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/417-390-walk0.png",
+          "sha256": "118e456aa65fb55a0ef4aeab362d24c5945f03541c01ea6f12a05e2d9595ccf0",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/417-390-walk1.png",
+          "sha256": "17e08c2d07bc0053f557d0cab98e2c4351b70fa593cdf704d8d8fc94b85e4ea8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/417-390-walk2.png",
+          "sha256": "f7a6241ac23a455a594fe2ce2ae035f93891d6d1034ffab7fe9d637799534a30",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/417-390-walk3.png",
+          "sha256": "58adf86fe8072660638984cf6317a2e3d2f2157e3229706439a011e4ca556c82",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/417-390-walk4.png",
+          "sha256": "a1b70ef8b5d4adf1cc53d53963c1cc848fc55844e260c77d5a3bf18551c7e909",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/417-390-display0-right.png",
+          "sha256": "7967c179cb3754b9a4bce9362e800a829364dae88acc7a4ec0b02c14de4374c7",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/417-1280-grammar0-right.png",
+          "sha256": "167a642f6a99b4247d8b76c2460cf165a5738319a5902e856beaf53d50fe6214",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/417-1280-grammar1-right.png",
+          "sha256": "167a642f6a99b4247d8b76c2460cf165a5738319a5902e856beaf53d50fe6214",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/417-390-grammar0-right.png",
+          "sha256": "d9b0650cea93b0d740037573d32e8920d96c5b757913c73613b9ac423a43d6c0",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/417-390-grammar1-right.png",
+          "sha256": "a1b70ef8b5d4adf1cc53d53963c1cc848fc55844e260c77d5a3bf18551c7e909",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/417-1280-original-image0.png",
+          "sha256": "bada6b790dafef175e20dafa16697bbf04e18654e8e97ecb9f73a5d141d85f5d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/417-390-original-image0-right.png",
+          "sha256": "810f82c2ee8c94ce9f6e4f276351d29878d8b07024c0581d71cde10426ec74e5",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/417-390-original-image0.png",
+          "sha256": "65f97031bbf612c30ca6d61c9ac7fbf49e0692ba9b7e16e2799ce6e7b2858171",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-417-418-source-fields.json",
+        "sha256": "9bb9753befda74920ca313e0694da81154956ebe5de7cba056b51180e2bbfb58"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-417-418-tree-exercises111-124-digit-grammar-417-418-assembly.json",
+          "sha256": "ef8e01c500a26e9e975dd6daf010806965778f7b0b78076b36c7f9413218795a"
+        }
+      ],
+      "coveredRegions": [
+        "Questions 111–121 complete, precise tree-degree conditions, complete initial examples and grammar (a), first grammar line of (b)."
+      ],
+      "followingPageContinuation": "CN418 begins with the example of exercise 122(b), then (c).",
+      "qualification": "Full CN417–418 with actual matched EN500–502 and author update. Four tree panels and all three grammar listings, current proof pixels at both widths and two original figure links checked. Answers checked for presence only.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/417-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "4876639f3e359cd124f7f1265a334c53731bd2e9099315c850c14cd121b0b840",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "434adbdafab36376bf539f77470fb81ee8d58bbca39742e4b04ba455146e9673",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/417.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 418,
+      "cnPrintedPage": 403,
+      "enPdfPages": [
+        501,
+        502
+      ],
+      "enPrintedPages": [
+        484,
+        485
+      ],
+      "pageMarkdownSha256": "0768718a7a20ecbb1b0b557328c53297be3a227fa11174d02c6e51883947b35c",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/418.jpg",
+      "sourcePageImageSha256": "7fa2f7a37da5d2777e1c578d63f7f5dfbc65f1a1d014a89d4a7c2c19036b534a",
+      "enPageImages": [
+        {
+          "physicalPage": 501,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-501.png",
+          "sha256": "2fcb9d548ed24bb53580800d8a4dacd337f615d5acc82f66a741a4567baa6dd9"
+        },
+        {
+          "physicalPage": 502,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-502.png",
+          "sha256": "5bfa401d76573960dbccb0d8ae93506d19927744e8f729fc1725ffa3581cae67"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-418",
+        "p-403",
+        "ex-7-2-1-6-123",
+        "ex-7-2-1-6-124",
+        "fig-63"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-114",
+          "section": "7.2.1.6",
+          "cnPdfPage": 418,
+          "enPdfPages": [
+            501,
+            502
+          ],
+          "location": "题122(c)小数语法和算例",
+          "original": "〈数〉→〈数字串〉|.〈数字串〉；原算例100=(1−2−34×.5)/(6−.789)",
+          "final": "〈数〉 → 〈数字串〉 | .〈数字串〉 | 〈数字串〉.〈数字串〉\n〈数字串〉 → 〈数字〉 | 〈数字串〉〈数字〉\n```\n\n例如，$100=((.1\\times.2+3)/.4)/.5+6+78.9$，足够有趣了。",
+          "basis": "2024年1月8日作者变化记录第6页，英文印刷484题122末两行，加入小数点前后都有数字的作法并改用新例。按十进制有理数核为100，数字1至9各出现一次且依序。",
+          "authorChangeDate": "2024-01-08",
+          "isAuthorOfficialErratum": true,
+          "pageMarkdownSha256": "0768718a7a20ecbb1b0b557328c53297be3a227fa11174d02c6e51883947b35c",
+          "cnPrintedPage": 403
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-fig63-organic-binary-trees.svg",
+          "sha256": "576a58ad1ee2dc268285c6f2bfbdfdb5fc8f5e32a35ce690d5c6ba018b544462"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 418,
+        "markdownSha256": "0768718a7a20ecbb1b0b557328c53297be3a227fa11174d02c6e51883947b35c",
+        "htmlSha256": "ed9b79aed99cf3606c72fe7963a7f14bc446d2843b02442492f573274db5df55",
+        "mathExpressions": 20,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [
+          2
+        ],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/result.json",
+        "sha256": "a628b1cd7adb2680e877fe69f5b6a467ecdf82bbdd3049bc9ff310f209580c8e",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 20,
+            "mathML": 20,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 418,
+            "width": 1280,
+            "pageMarkdownSha256": "0768718a7a20ecbb1b0b557328c53297be3a227fa11174d02c6e51883947b35c",
+            "htmlSha256": "ed9b79aed99cf3606c72fe7963a7f14bc446d2843b02442492f573274db5df55",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-fig63-organic-binary-trees.svg",
+                "opened": true,
+                "screenshot": "418-1280-original-image0.png",
+                "rightEdgeReachable": true,
+                "bottomEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ],
+            "grammarListings": {
+              "exact": true,
+              "lineCounts": [
+                2
+              ]
+            }
+          },
+          {
+            "documentWidth": 390,
+            "math": 20,
+            "mathML": 20,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 414,
+                "left": 0,
+                "right": 104,
+                "max": 104,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 352,
+                "left": 0,
+                "right": 42,
+                "max": 42,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 353,
+                "left": 0,
+                "right": 43,
+                "max": 43,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 418,
+            "width": 390,
+            "pageMarkdownSha256": "0768718a7a20ecbb1b0b557328c53297be3a227fa11174d02c6e51883947b35c",
+            "htmlSha256": "ed9b79aed99cf3606c72fe7963a7f14bc446d2843b02442492f573274db5df55",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-fig63-organic-binary-trees.svg",
+                "opened": true,
+                "screenshot": "418-390-original-image0.png",
+                "rightEdgeReachable": true,
+                "bottomEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ],
+            "grammarListings": {
+              "exact": true,
+              "lineCounts": [
+                2
+              ]
+            }
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-1280-walk0.png",
+          "sha256": "f008c7d6ae7ea32bb5f01efe6196e73f5595293c87c7b50fdcbfc7292a228349",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-1280-walk1.png",
+          "sha256": "48e0d5ba313e40ecfa506a3fca1d2b70376fe1c70ef06dae5efc14693ec4c6cc",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-1280-walk2.png",
+          "sha256": "5f1b092bdd118458a93ef7cc6317397fd739c408d3fc8620e97bda7f13e0d6fd",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-390-walk0.png",
+          "sha256": "ab955e37b244028d585db233af2fb1a9e0945bfb959c5c95274277ca77a6e07b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-390-walk1.png",
+          "sha256": "aebf6243340efb8e09c80924505c0901ba6342d2547995376b945871561f35b4",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-390-walk2.png",
+          "sha256": "4c41bc966f71303a62e2498153618ab10cee2ee3f3d0cddfd0663fb03cbe1fcf",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-390-inline1-pan0.png",
+          "sha256": "ab955e37b244028d585db233af2fb1a9e0945bfb959c5c95274277ca77a6e07b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-390-inline1-pan1.png",
+          "sha256": "fad2d6c281be4d8477d7f716bb76127d9ced58a39957ea0a641fa064f9a49bd3",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-390-inline6-pan0.png",
+          "sha256": "e7692b568b836f440e08e932e2935d905e743240aaea2be9de37039564c4fbae",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-390-inline6-pan1.png",
+          "sha256": "cd57da48b756547ec9f5dac30b638297f3dba5e605ff6e513fe7c5ea46234bd0",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-1280-grammar0-right.png",
+          "sha256": "f008c7d6ae7ea32bb5f01efe6196e73f5595293c87c7b50fdcbfc7292a228349",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-390-grammar0-right.png",
+          "sha256": "4f9635f60f224756cb900b303d30b973807dd2fcd2bd886b9c4e96d520ff66eb",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-1280-original-image0-bottom.png",
+          "sha256": "b922deddc87b92810ca114937f6b15a50c46a8b18a89affdf1bf437228bb827a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-1280-original-image0.png",
+          "sha256": "1a4e2ef2fd771819d673f0ca819079220cf73e5fb2fdb2e1148d2bcae1ef1f8a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-390-original-image0-bottom.png",
+          "sha256": "3e3d3a073e74b89d3eb19a86ccc54aa6874661895580846e8512045db6faf183",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-390-original-image0-right.png",
+          "sha256": "41e2fc7035b5495bc328b49fbe5fb561e29f4d5c22b70ab212348432f7d3cca8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/417-418/418-390-original-image0.png",
+          "sha256": "58316485e3ca0008ff645f9064c51122eab1dc4c14ee0c1f1fbf7fab8625d0a3",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-417-418-source-fields.json",
+        "sha256": "9bb9753befda74920ca313e0694da81154956ebe5de7cba056b51180e2bbfb58"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-417-418-tree-exercises111-124-digit-grammar-417-418-assembly.json",
+          "sha256": "ef8e01c500a26e9e975dd6daf010806965778f7b0b78076b36c7f9413218795a"
+        }
+      ],
+      "coveredRegions": [
+        "Remaining parts of 122, the unreachable integer question, Horton–Strahler tree drawing expressions and four Figure 63 panels."
+      ],
+      "followingPageContinuation": "CN419 begins with the Bernoulli epigraph for Section 7.2.1.7.",
+      "qualification": "Full CN417–418 with actual matched EN500–502 and author update. Four tree panels and all three grammar listings, current proof pixels at both widths and two original figure links checked. Answers checked for presence only.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/418-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "6391ca7574e4874d8d1fab17c3b86edf2943a520682ee03d0f3cd374228d7139",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "4e0d6a9ae86c4dd4d88bea499fa1da10fba3e54bbbdda779289b837288e85bf7",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/418.json"
+    }
+  ],
+  "qualification": "Full CN417–418 with actual matched EN500–502 and author update. Four tree panels and all three grammar listings, current proof pixels at both widths and two original figure links checked. Answers checked for presence only."
+}

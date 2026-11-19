@@ -54,7 +54,7 @@ export const volumes = [
     }
   },
   {
-    id: 'volume4a', enabled: false, title: '卷4A·组合算法（一）',
+    id: 'volume4a', enabled: true, title: '卷4A·组合算法（一）',
     book: '计算机程序设计艺术·卷4A·组合算法（一）.md', report: '校订报告·卷4A.md',
     routePrefix: '/volume4a', reportRoute: '/volume4a/corrections', zipName: 'taocp-volume4a.zip',
     assetRoots: ['assets/volume4a'], reviewRoot: 'assets/volume4a/review',
@@ -62,6 +62,7 @@ export const volumes = [
     chapterRoots: ['7'], answerStartAnchor: 'sec-answers', answerEndAnchor: 'sec-app-a',
     appendixAnchors: ['sec-app-a', 'sec-app-b', 'sec-app-c', 'sec-app-d'],
     indexAnchors: ['sec-names', 'sec-index'], frontmatterHeadingLine: 2,
+    headingLookahead: { 'sec-7-1': 13 },
     expectedSourcePages: 746,
     evidence: {
       mathCountNote: 'Volume 4A uses its own 746-page source and original chapter 7 numbering. Author errata, source-image comparison, finite recomputation, syntax and rendered equality are distinct forms of evidence; source questions remain explicit.'

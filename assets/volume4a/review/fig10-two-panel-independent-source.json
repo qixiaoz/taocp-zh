@@ -1,0 +1,461 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "additional-two-panels-source-only-peer",
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+  "cnPhysicalPage": 102,
+  "enPhysicalPage": 123,
+  "masterSha256": null,
+  "sourcePeerLocator": "private-snapshot:volumes3-4a/peer-body102-S345-S235-root-readonly.json",
+  "sourcePeerSha256": "2bc09675d78d1b48a78ea8987f90286cbbe6b04c4e23d0e24aedd6403d636c03",
+  "sourceOnlyPeer": {
+    "kind": "independent-readonly-two-source-panels",
+    "reviewer": "root",
+    "scope": "Only S3,4,5 and S2,3,5 literal gate labels, input order, shared nodes and both outer arcs. Not full page,other14panels or minimum-cost proof; no source manuscript/report/assets/existing proof edits.",
+    "actualImagesRead": [
+      {
+        "file": "private-snapshot:volume4a/body-review/cn-102-Fig10-all-full-detail.png",
+        "sha256": "769a058192ab11d59c543a4607ceaa6dc937b57f6411cad43d7fb6bc988b1f0b"
+      },
+      {
+        "file": "private-snapshot:volume4a/body-review/en-123-Fig10-all-detail.png",
+        "sha256": "f85cca82f4184faa1781f4349c18a8010cb483fddbcdbb3ff742746a43987b3c"
+      }
+    ],
+    "bothActualSourcesHaveSameLiteralWiringAndGateLabels": true,
+    "S345": {
+      "gates": 9,
+      "definitionsInInputToOutputOrder": [
+        "u=XOR(x1,x2)",
+        "v=XOR(u,x3)",
+        "t=XOR(x2,v)",
+        "r=XOR(x4,v)",
+        "s=XOR(x5,v)",
+        "L=OR(u,t)",
+        "R=OR(r,s)",
+        "A=AND(L,R)",
+        "root=XOR(A,v)"
+      ],
+      "sourceOuterArcs": [
+        "Left OR input returns by the left outer curve to u=XOR(1,2), not to v or the separate leaf2.",
+        "Root XOR right input returns by the far-right curve to v=XOR(u,3)."
+      ],
+      "sharedNodes": {
+        "u": [
+          "v",
+          "L"
+        ],
+        "v": [
+          "t",
+          "r",
+          "s",
+          "root"
+        ]
+      },
+      "allOtherLeaves": "t has standalone2,r standalone4,s standalone5,v standalone3,u leaves1,2; six leaf occurrences.",
+      "leafOccurrences": 6,
+      "directedInputRelations": 18
+    },
+    "S235": {
+      "gates": 10,
+      "definitionsInInputToOutputOrder": [
+        "u=XOR(x1,x5)",
+        "t=XOR(x4,x5)",
+        "c=OR(u,t)",
+        "d=GT(x2,c)",
+        "e=GT(x4,d)",
+        "f=XOR(x2,e)",
+        "g=XOR(u,f)",
+        "b=XOR(x2,x3)",
+        "a=GT(g,b)",
+        "root=XOR(a,c)"
+      ],
+      "GTMeaning": "Strict left input greater than right input, hence left AND NOT right; all three GT glyphs are >, not < or >=.",
+      "sourceOuterArcs": [
+        "Root XOR far-right curve is the second input c=OR(u,t), not a direct leaf or the GT below.",
+        "The leftmost XOR g receives its first input from u=XOR(1,5) by the long left curve."
+      ],
+      "sharedNodes": {
+        "u": [
+          "c",
+          "g"
+        ],
+        "c": [
+          "d",
+          "root"
+        ]
+      },
+      "allOtherLeaves": "u leaves1,5;t leaves4,5;d standalone2;e standalone4;f standalone2;b leaves2,3; nine leaf occurrences.",
+      "leafOccurrences": 9,
+      "directedInputRelations": 20
+    },
+    "all32InputValues": [
+      {
+        "input": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "S345": 0,
+        "S235": 0
+      },
+      {
+        "input": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "S345": 0,
+        "S235": 0
+      },
+      {
+        "input": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "S345": 0,
+        "S235": 0
+      },
+      {
+        "input": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "S345": 0,
+        "S235": 1
+      },
+      {
+        "input": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "S345": 0,
+        "S235": 0
+      },
+      {
+        "input": [
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "S345": 0,
+        "S235": 1
+      },
+      {
+        "input": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "S345": 0,
+        "S235": 1
+      },
+      {
+        "input": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "S345": 1,
+        "S235": 1
+      },
+      {
+        "input": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "S345": 0,
+        "S235": 0
+      },
+      {
+        "input": [
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "S345": 0,
+        "S235": 1
+      },
+      {
+        "input": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "S345": 0,
+        "S235": 1
+      },
+      {
+        "input": [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "S345": 1,
+        "S235": 1
+      },
+      {
+        "input": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "S345": 0,
+        "S235": 1
+      },
+      {
+        "input": [
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "S345": 1,
+        "S235": 1
+      },
+      {
+        "input": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "S345": 1,
+        "S235": 1
+      },
+      {
+        "input": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "S345": 1,
+        "S235": 0
+      },
+      {
+        "input": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "S345": 0,
+        "S235": 0
+      },
+      {
+        "input": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "S345": 0,
+        "S235": 1
+      },
+      {
+        "input": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "S345": 0,
+        "S235": 1
+      },
+      {
+        "input": [
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "S345": 1,
+        "S235": 1
+      },
+      {
+        "input": [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "S345": 0,
+        "S235": 1
+      },
+      {
+        "input": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "S345": 1,
+        "S235": 1
+      },
+      {
+        "input": [
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "S345": 1,
+        "S235": 1
+      },
+      {
+        "input": [
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "S345": 1,
+        "S235": 0
+      },
+      {
+        "input": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "S345": 0,
+        "S235": 1
+      },
+      {
+        "input": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "S345": 1,
+        "S235": 1
+      },
+      {
+        "input": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "S345": 1,
+        "S235": 1
+      },
+      {
+        "input": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "S345": 1,
+        "S235": 0
+      },
+      {
+        "input": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "S345": 1,
+        "S235": 1
+      },
+      {
+        "input": [
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "S345": 1,
+        "S235": 0
+      },
+      {
+        "input": [
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "S345": 1,
+        "S235": 0
+      },
+      {
+        "input": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "S345": 1,
+        "S235": 1
+      }
+    ],
+    "allLiteralFiniteValuesMatchOriginalSymmetricWeightSets": true,
+    "qualifications": [
+      "The actual complete outer arcs are visible in both listed images; no missing segment is inferred from a thumbnail.",
+      "Function equality assists source comparison and does not prove the literal source wiring on its own; the input order and endpoints were actually read.",
+      "No minimum-gate enumeration or general optimization proof.",
+      "No additional complete Root CN page coverage."
+    ]
+  },
+  "currentPageContextOnly": {
+    "pageMarkdownSha256": "240ee5c82d40b424cd23b7a6118c3c99544a925322eaf04a84a1a70417e767ef",
+    "originalCompleteBatch": "assets/volume4a/review/body-102-103.json",
+    "originalCompleteBatchSha256": "20deed47cb46f5e308f062245185e8240f21b858e7f798dab87fab4ca95028f0"
+  },
+  "qualification": "Append-only supplementary evidence only for original S345 and S235 source diagrams/operations/shared endpoints/32values each. Root did not accept our SVG/MD or whole102page/other14panels/minimum proof; no whole-page coverage/math/case counts added. Original body-102-103 receipt unchanged."
+}

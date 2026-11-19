@@ -1,0 +1,118 @@
+{
+  "reviewDate": "2026-11-18",
+  "reviewerType": "model-direct-original-source-fragment-and-single-finite-example-peer-review",
+  "scope": "只读130(b)所列restriction与原130题定义；仅m8/k2一个合法图枚举4-clique和右侧2-clique。不是CN553整页接受、BDD一般下界重证或原主定理错误宣称。",
+  "literalSourceObservations": [
+    "CN553和EN659(b)明确1..k顶点孤立，明确k<u≤ceil(m/2)<v≤m的所有跨边存在。",
+    "这两句没有显式把左余块{k+1,..,ceil(m/2)}内部边全部置1，也没有明确其他内部边赋值规则。",
+    "原EN284题130把变量定义为无向图邻接项，C_m,k=[Ghasak-clique]；没有额外左半团的题域假设。",
+    "前面(a)的remainingvariables/W构造用于区分两条路径的两个subfunction；(b)并未明确援引它给左余块成团，不能把它当作已写出的(b)附加约束。"
+  ],
+  "singleExample": {
+    "m": 8,
+    "k": 2,
+    "isolated": [
+      1,
+      2
+    ],
+    "leftRemaining": [
+      3,
+      4
+    ],
+    "right": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "edges": [
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "allEightStatedCrossEdgesPresent": true,
+    "leftInternalEdge34Absent": true,
+    "rightInternalEdges": [
+      [
+        5,
+        6
+      ]
+    ],
+    "C8_4": 0,
+    "rightC4_2": 1,
+    "all70FourVertexSubsetsChecked": true,
+    "all6RightPairsChecked": true,
+    "fourCliques": [],
+    "rightTwoCliques": [
+      [
+        5,
+        6
+      ]
+    ],
+    "afterOnlyAdd34": {
+      "fourCliques": [
+        [
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "C8_4": 1
+    }
+  },
+  "conclusion": "若把两句理解为完整的部分赋值限制，所声称的两个函数等同在此合法单例不成立。加左余块成团可补足该构造的预期；原段可能省略额外赋值而作证明简写，本次不能把这个条件缺口升级为主下界定理错误。",
+  "recommendedRecord": "保源并列精确的左余块内部边赋值未明疑点；不擅改原公式或补入正文，也不声称作者真实原意已证实。",
+  "sourceImages": [
+    {
+      "sourcePage": "553.jpg",
+      "sha256": "e86d8ee3734a67fc96a0b4fec8fc173d738d6a98871fd6094034c2e38555e44f"
+    },
+    {
+      "sourcePage": "en-659.png",
+      "sha256": "fd1fe72dd1439e02f586ae06f1342d7eb38df4dfde121810048a70a0a607eaa0"
+    },
+    {
+      "sourcePage": "en-284-550-context.png",
+      "sha256": "35f3fd0ead91a0c262454a47b5c71eeb5aa81700ad74d90749f801eee4639eba"
+    }
+  ],
+  "masterSha256": null,
+  "sourcePageMarkdownSha256": {
+    "553": "50227cb1ca013642edee50c52f425fc11ad37c76442b3a5a9529ecb165deecd8"
+  },
+  "privateOriginalEvidenceSha256": "69ccdaa2e24938d4d1e32059221d4423c1c2b5865c7a046485f9eedbee7f75d7"
+}

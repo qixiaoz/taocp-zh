@@ -1,0 +1,337 @@
+{
+  "scope": "Exact source graph kernel and four-color counts, fixed binary profiles and the shown three-variable QDD. No original large BDD build, historical memory, or general bound proof claimed.",
+  "sourceGraphSha256": "2eb1bd35275864a4be27c003872d87776079c0e0e46984f470672f729943c8f7",
+  "sourceGraphVertices": 49,
+  "sourceGraphEdges": 107,
+  "finiteGraph": {
+    "kernels": 266137,
+    "isolatedKernels": [
+      [
+        "CA",
+        "DC",
+        "FL",
+        "IL",
+        "LA",
+        "MA",
+        "ME",
+        "MI",
+        "OK",
+        "PA",
+        "SC",
+        "SD",
+        "TN",
+        "UT",
+        "WA"
+      ],
+      [
+        "CA",
+        "DC",
+        "FL",
+        "IN",
+        "LA",
+        "MA",
+        "ME",
+        "OK",
+        "PA",
+        "SC",
+        "SD",
+        "TN",
+        "UT",
+        "WA",
+        "WI"
+      ],
+      [
+        "DC",
+        "FL",
+        "IL",
+        "KS",
+        "LA",
+        "MA",
+        "ME",
+        "MI",
+        "NM",
+        "NV",
+        "PA",
+        "SC",
+        "SD",
+        "TN",
+        "WA"
+      ]
+    ],
+    "shownIsolatedKernels": [
+      [
+        "CA",
+        "DC",
+        "FL",
+        "IN",
+        "LA",
+        "MA",
+        "ME",
+        "OK",
+        "PA",
+        "SC",
+        "SD",
+        "TN",
+        "UT",
+        "WA",
+        "WI"
+      ],
+      [
+        "DC",
+        "FL",
+        "IL",
+        "KS",
+        "LA",
+        "MA",
+        "ME",
+        "MI",
+        "NM",
+        "NV",
+        "PA",
+        "SC",
+        "SD",
+        "TN",
+        "WA"
+      ]
+    ],
+    "thirdUnpictured": [
+      [
+        "CA",
+        "DC",
+        "FL",
+        "IL",
+        "LA",
+        "MA",
+        "ME",
+        "MI",
+        "OK",
+        "PA",
+        "SC",
+        "SD",
+        "TN",
+        "UT",
+        "WA"
+      ]
+    ],
+    "labeledFourColorings": 25623183458304,
+    "fourColoringsModuloColorRenaming": 1067632644096,
+    "largestFrontier": 7,
+    "coloringStates": 903
+  },
+  "drawings": [
+    {
+      "file": "assets/volume4a/figures/diagram-7-1-4-71-isolated-kernels.svg",
+      "sha256": "3af9014a08e0aac665b6d4db8d3436fa5124498224a9038a7aa080524221c3f9",
+      "enPdfPage": 249,
+      "sourceBounds": [
+        [
+          52,
+          145,
+          216,
+          226
+        ],
+        [
+          223,
+          145,
+          389,
+          226
+        ]
+      ],
+      "nativePaths": 340,
+      "sourceDirectlyCompared": true,
+      "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+      "panels": [
+        {
+          "vertices": 49,
+          "edges": 107,
+          "selectedVertices": [
+            "CA",
+            "DC",
+            "FL",
+            "IN",
+            "LA",
+            "MA",
+            "ME",
+            "OK",
+            "PA",
+            "SC",
+            "SD",
+            "TN",
+            "UT",
+            "WA",
+            "WI"
+          ]
+        },
+        {
+          "vertices": 49,
+          "edges": 107,
+          "selectedVertices": [
+            "DC",
+            "FL",
+            "IL",
+            "KS",
+            "LA",
+            "MA",
+            "ME",
+            "MI",
+            "NM",
+            "NV",
+            "PA",
+            "SC",
+            "SD",
+            "TN",
+            "WA"
+          ]
+        }
+      ],
+      "methodDetails": "Both complete native panels contain their original black marks and open nodes. Read-only check matches each graph to the previously source-read 49 vertex/107 edge graph."
+    },
+    {
+      "file": "assets/volume4a/figures/diagram-7-1-4-82-majority-qdd.svg",
+      "sha256": "a650101475932fede140bc3726a44c5452526928ea8e192ee7d1ba8d4ad3eca9",
+      "enPdfPage": 252,
+      "sourceBounds": [
+        [
+          163,
+          107,
+          267,
+          158
+        ]
+      ],
+      "nativePaths": 22,
+      "sourceDirectlyCompared": true,
+      "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+      "levels": {
+        "⊥": 1,
+        "⊤": 1,
+        "1": 1,
+        "2": 2,
+        "3": 3
+      },
+      "allSourcePathsTrue": true
+    }
+  ],
+  "source11ByteWordProfile": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    240,
+    12,
+    2,
+    2
+  ],
+  "source11QDDProfile": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    16,
+    4,
+    2
+  ],
+  "finiteBounds": [
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      11
+    ],
+    [
+      5,
+      19
+    ],
+    [
+      6,
+      31
+    ],
+    [
+      7,
+      47
+    ],
+    [
+      8,
+      79
+    ],
+    [
+      9,
+      143
+    ],
+    [
+      10,
+      271
+    ],
+    [
+      11,
+      511
+    ],
+    [
+      12,
+      767
+    ],
+    [
+      13,
+      1279
+    ],
+    [
+      14,
+      2303
+    ],
+    [
+      15,
+      4351
+    ]
+  ],
+  "roundedOriginalAverage11": [
+    "1.0",
+    "2.0",
+    "4.0",
+    "8.0",
+    "16.0",
+    "32.0",
+    "64.0",
+    "127.4",
+    "151.9",
+    "12.0",
+    "2.0",
+    "2.0"
+  ],
+  "medianBDDProfile": [
+    1,
+    2,
+    1,
+    2
+  ],
+  "medianQDDProfile": [
+    1,
+    2,
+    3,
+    2
+  ],
+  "pageMarkdownHashes": {
+    "208": "63b73b22197ed00f1f4c3ef142f8ec8fa095d76194caffcd5761f9b952c95e10",
+    "209": "c1f6d5cc1ee47db672b360a12d5c756979a60118988908acc6fa3ee32ec6ca8e",
+    "210": "e91632e29a772fce86c27db79b6cbbd897bfbf140163efe3456b8cc1956e72f5"
+  },
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+}

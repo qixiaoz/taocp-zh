@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "owner": "vol4a_tail_g62",
+  "physicalPages": [
+    644,
+    645,
+    646
+  ],
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignoff": false,
+  "masterSha256": null,
+  "sourceSha256": {
+    "cn": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "en": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+  },
+  "sourceReviewSpecification": {
+    "file": "private-snapshot:volume4a/tail-answers/checkpoints/specification-644-646.json",
+    "sha256": "836110163f26ec1dedb38aca882b9f7a660f3ea2efa285cb70e142003530aee2"
+  },
+  "sourcePageRecords": [
+    {
+      "physicalPage": 644,
+      "pageMarkdownSha256": "58a10b926d34484bb96d1f90e5c9384dd7b7c800c0526fe8b215cef9148c28b5",
+      "pageReviewSha256": "7d082309600c0add3af3104bfdc5ebbf3d08f949f7d8496a5ab8c695af3b7f38",
+      "answerAnchors": [
+        "ans-7-2-1-4-19",
+        "ans-7-2-1-4-20",
+        "ans-7-2-1-4-21",
+        "ans-7-2-1-4-22",
+        "ans-7-2-1-4-23",
+        "ans-7-2-1-4-24",
+        "ans-7-2-1-4-25"
+      ],
+      "sourceEnPhysicalPages": [
+        767,
+        768
+      ],
+      "mathExpressions": 50
+    },
+    {
+      "physicalPage": 645,
+      "pageMarkdownSha256": "fa3050cd72d711a0db10327d26174d390bc9b41dbef643b9461f2734587a8dad",
+      "pageReviewSha256": "597d916008b12dd119235b70edbd509b6ee25cf303f1e4d705d51e52842c2894",
+      "answerAnchors": [
+        "ans-7-2-1-4-26",
+        "ans-7-2-1-4-27",
+        "ans-7-2-1-4-28",
+        "ans-7-2-1-4-29",
+        "ans-7-2-1-4-30",
+        "ans-7-2-1-4-31"
+      ],
+      "sourceEnPhysicalPages": [
+        768,
+        769
+      ],
+      "mathExpressions": 65
+    },
+    {
+      "physicalPage": 646,
+      "pageMarkdownSha256": "83b7907b8e0b8d8a2075b999f211f7e114b49715697b9f26cd757c74cf3877f7",
+      "pageReviewSha256": "602188f2ecfb73883ac8847af90637d21c0ea9261cae861184a41b26ed6fb086",
+      "answerAnchors": [
+        "ans-7-2-1-4-32",
+        "ans-7-2-1-4-33",
+        "ans-7-2-1-4-34",
+        "ans-7-2-1-4-35",
+        "ans-7-2-1-4-36",
+        "ans-7-2-1-4-37",
+        "ans-7-2-1-4-38",
+        "ans-7-2-1-4-39"
+      ],
+      "sourceEnPhysicalPages": [
+        769,
+        770
+      ],
+      "mathExpressions": 62
+    }
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "volume4a-tail-answer-005",
+      "section": "7.2.1.4",
+      "cnPdfPage": 644,
+      "enPdfPages": [
+        767
+      ],
+      "location": "答23双线等式的有限和",
+      "original": "u^{\\binom{n+1}{2}}\\sum_{k=0}^{2n}v^k",
+      "final": "u^{\\binom{n+1}{2}}v^{\\binom n2}\\sum_{k=0}^{2n}v^k",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "basis": "两版次行同缺始幂。因上、下指数之差为2n+1，按等比和得该因子。n=2的非零次数为1至5。v=1取有限多项式值2n+1。",
+      "cnPrintedPage": 629,
+      "pageMarkdownSha256": "58a10b926d34484bb96d1f90e5c9384dd7b7c800c0526fe8b215cef9148c28b5"
+    },
+    {
+      "id": "volume4a-tail-answer-006",
+      "section": "7.2.1.4",
+      "cnPdfPage": 644,
+      "enPdfPages": [
+        768
+      ],
+      "location": "答24(c)两人关于分划秩定理的期刊年份",
+      "original": "(3) 4 (1953)",
+      "final": "(3) **4**（1954）",
+      "isAuthorOfficialErratum": true,
+      "authorChangeDate": "2022-11-10",
+      "basis": "作者变化记录第10页对英印751、答24第9行，明确改4(1953)为4(1954)。",
+      "cnPrintedPage": 629,
+      "pageMarkdownSha256": "58a10b926d34484bb96d1f90e5c9384dd7b7c800c0526fe8b215cef9148c28b5"
+    },
+    {
+      "id": "volume4a-tail-answer-007",
+      "section": "7.2.1.4",
+      "cnPdfPage": 645,
+      "enPdfPages": [
+        768
+      ],
+      "location": "答25(a)上下限确定的积分",
+      "original": "\\int_1^x f(x)\\,dx=-\\operatorname{Li}_2(e^{-tx})/t",
+      "final": "\\int_1^x f(y)\\,dy=\\frac{\\operatorname{Li}_2(e^{-t})-\\operatorname{Li}_2(e^{-tx})}{t}",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "basis": "t>0且x≥1时，原右端的导数确为f(x)，其x=1值非零。补下限常数使x=1归零，x→∞时给随后欧拉求和使用的Li₂(e⁻ᵗ)/t。",
+      "cnPrintedPage": 630,
+      "pageMarkdownSha256": "fa3050cd72d711a0db10327d26174d390bc9b41dbef643b9461f2734587a8dad"
+    },
+    {
+      "id": "volume4a-tail-answer-008",
+      "section": "7.2.1.4",
+      "cnPdfPage": 645,
+      "enPdfPages": [
+        768
+      ],
+      "location": "答25(b)的z=−1留数链",
+      "original": "-\\zeta(-1)\\zeta(0)t=B_2B_1t=-t/24",
+      "final": "-\\zeta(-1)\\zeta(0)t=-t/24",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "basis": "两版原链的ζ端点给−t/24。作者2021年修订的中项−B₂B₁t/2在卷1印89式(4)(5)约定下却为+t/24。定稿用可直接精确核实的ζ表达与数值，作者修订单独登记。",
+      "cnPrintedPage": 630,
+      "pageMarkdownSha256": "fa3050cd72d711a0db10327d26174d390bc9b41dbef643b9461f2734587a8dad"
+    },
+    {
+      "id": "volume4a-tail-answer-009",
+      "section": "7.2.1.4",
+      "cnPdfPage": 645,
+      "enPdfPages": [
+        769
+      ],
+      "location": "答31固定部分数k的下标",
+      "original": "f_{n,n\\bmod k!}(n)",
+      "final": "f_{k,n\\bmod k!}(n)",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "basis": "同一行刚定义将k固定、以模k!余数r为次指标的f_{k,r}。定稿恢复该首指标，保持余数和次数。小k各余数的数值核见复核记录。",
+      "cnPrintedPage": 630,
+      "pageMarkdownSha256": "fa3050cd72d711a0db10327d26174d390bc9b41dbef643b9461f2734587a8dad"
+    },
+    {
+      "id": "volume4a-tail-answer-010",
+      "section": "7.2.1.4",
+      "cnPdfPage": 645,
+      "enPdfPages": [
+        768
+      ],
+      "location": "答25(b)同一推导所用的Mellin积分竖线",
+      "original": "\\operatorname{Re}z=1",
+      "final": "设 $t>0$，取 $c>1$",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "basis": "单个Mellin变换可取正实部。第二积分的ζ(z)有z=1极点，且交换双和用∑m^(−c)∑n^(−c−1)绝对收敛。故前后两式用同一条c>1，后续移线才跨过1。",
+      "cnPrintedPage": 630,
+      "pageMarkdownSha256": "fa3050cd72d711a0db10327d26174d390bc9b41dbef643b9461f2734587a8dad"
+    },
+    {
+      "id": "volume4a-tail-answer-011",
+      "section": "7.2.1.4",
+      "cnPdfPage": 646,
+      "enPdfPages": [
+        770
+      ],
+      "location": "答35(d)费希尔—蒂皮特二阶矩的近似末位",
+      "original": "1.0656",
+      "final": "1.0655",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "basis": "原精确式等于1+((γ−ln C)/C)²，C=π/√6。高精度区间1.065549077460493…至1.065549077460495…全部在四位舍入界1.06555下，直接按四位舍入。",
+      "cnPrintedPage": 631,
+      "pageMarkdownSha256": "83b7907b8e0b8d8a2075b999f211f7e114b49715697b9f26cd757c74cf3877f7"
+    }
+  ],
+  "privateBrowserCaseCount": 6,
+  "logicalCandidates": [
+    {
+      "physicalPages": [
+        644,
+        645,
+        646
+      ],
+      "applyMode": "whole-pages",
+      "startInclusive": "<a id=\"pdf-644\"></a>",
+      "endExclusive": "<a id=\"pdf-647\"></a>",
+      "candidateFile": "private-snapshot:volume4a/tail-answers/logical/answers-7-2-1-4-644-646-continued25-and31.md",
+      "candidateSha256": "2b79ef50a544bf6c9081b0374aefc832ba65673a095fc9ad2a96aae45f352eac",
+      "placement": "Move the anchor for CN645 before the full answer 25 and CN646 before the full answer 31. Keep both continued answers consecutive.",
+      "logicalBrowserProof": {
+        "file": "private-snapshot:volume4a/tail-answers/browser/644-646-logical/result.json",
+        "sha256": "dbf53e07b650e67771d09a70f9b33222189163e5d024957217a02235b43f701e",
+        "viewports": [
+          1280,
+          390
+        ]
+      },
+      "logicalSyntaxProof": {
+        "file": "private-snapshot:volume4a/tail-answers/logical-proof-644-646/verified-render/syntax-644.json",
+        "sha256": "7325f512de3a036d2e055d3f5f326a140be77896fd04bd306e59467be8d31806"
+      }
+    }
+  ],
+  "assets": [],
+  "details": {
+    "answer23FinitePolynomialChecks": {
+      "0": {
+        "nonzeroCoefficientDegrees": [
+          0
+        ],
+        "valueAt1": 1
+      },
+      "1": {
+        "nonzeroCoefficientDegrees": [
+          0,
+          1,
+          2
+        ],
+        "valueAt1": 3
+      },
+      "2": {
+        "nonzeroCoefficientDegrees": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "valueAt1": 5
+      },
+      "3": {
+        "nonzeroCoefficientDegrees": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "valueAt1": 7
+      },
+      "4": {
+        "nonzeroCoefficientDegrees": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "valueAt1": 9
+      },
+      "5": {
+        "nonzeroCoefficientDegrees": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "valueAt1": 11
+      },
+      "6": {
+        "nonzeroCoefficientDegrees": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "valueAt1": 13
+      }
+    },
+    "answer24Residues": [
+      [
+        4,
+        2
+      ]
+    ],
+    "answer25ADefiniteIntegral": {
+      "domain": "t>0, x>=1",
+      "derivative": "-ln(1-e^(-tx))",
+      "limitAtPositiveInfinity": "Li_2(exp(-t))/t",
+      "finiteChecksAtLog2": [
+        {
+          "x": 1,
+          "correctedClosedExpression": 0.0,
+          "directSimpson": 0.0,
+          "difference": 0.0
+        },
+        {
+          "x": 2,
+          "correctedClosedExpression": 0.45385438505015085,
+          "directSimpson": 0.4538543850501509,
+          "difference": -5.551115123125783e-17
+        },
+        {
+          "x": 3,
+          "correctedClosedExpression": 0.6536860843739285,
+          "directSimpson": 0.6536860843739286,
+          "difference": -1.1102230246251565e-16
+        },
+        {
+          "x": 36,
+          "correctedClosedExpression": 0.8399955201146587,
+          "directSimpson": 0.8399955201148902,
+          "difference": -2.3148150063434514e-13
+        }
+      ]
+    },
+    "answer25BMellin": {
+      "startingRealPart": "c>1",
+      "termwiseMajorant": "t^(-c) ζ(c) ζ(c+1) times |Gamma(c+iy)|",
+      "polesOfSummedIntegrandFirstCrossed": [
+        1,
+        0,
+        -1
+      ],
+      "coefficientAtMinusOne": "-1/24"
+    },
+    "bernoulliConventionDifference": {
+      "selectedEarlyMiddleExpression": "B_2 B_1 t",
+      "author2021-03-22MiddleExpression": "-B_2 B_1 t / 2",
+      "authorPrintedPage": 751,
+      "authorChangeDocumentPage": 35,
+      "directAuthorDetailSha256": "b13cfa226e425da4d78f600cc227c523e2dd23777ee9760e9abe0d0e7b02a3a5",
+      "volume1CurrentMasterFile": "计算机程序设计艺术·卷1·基本算法.md",
+      "volume1CurrentMasterSha256": "ff31566c52de1643b13d8461c49a9b946bd379885aaa0a6fa762ebc7ab995da5",
+      "volume1PhysicalPage": 106,
+      "volume1PrintedPage": 89,
+      "volume1Section": "1.2.11.2",
+      "volume1FormulaNumbers": [
+        4,
+        5
+      ],
+      "volume1DirectSourcePageSha256": "08997c2d633776f906dc8c56179b0c0eb8ea1ad3a219726961c125e4070524ea",
+      "volume1B1": "-1/2",
+      "volume1B2": "1/6",
+      "authorMiddleEvaluatedWithVolume1Values": "1/24 times t",
+      "usingPositiveB1ForComparison": "-1/24 times t",
+      "retainedZetaValue": "-1/24 times t"
+    },
+    "answer31FixedKCounts": {
+      "n": [
+        1,
+        72
+      ],
+      "partCounts": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "comparison": "Exact small-integer coefficients from unrestricted parts ≤k after subtracting one from each part; exact rational and root-of-unity formulas."
+    },
+    "answer35MomentDecimals": [
+      -0.1940276669047366,
+      0.09174128488359948,
+      0.25602554064095806,
+      1.0655490774604948
+    ],
+    "answer35SecondMomentRoundingInterval": {
+      "expression": "1+((gamma-log(C))/C)^2 with C=pi/sqrt(6)",
+      "piBounds": [
+        "3.141592653589793238462643383279502884197169399375103820974944591",
+        "3.141592653589793238462643383279502884197169399375107820974944591"
+      ],
+      "gammaBounds": [
+        "0.5772156649015288927691347662895247427067691494509056011098781570",
+        "0.5772156649015328610231030202577787109607374034191597693638464110"
+      ],
+      "secondMomentBounds": [
+        "1.065549077460493280498773662613246723956611641327362938436434335",
+        "1.065549077460494864802702804488888465002007384452174781609065504"
+      ],
+      "windowForFourDecimalRounding": [
+        "1.06545",
+        "1.06555"
+      ],
+      "directFourDecimalRounding": "1.0655",
+      "method": "Machin alternating arctangent bounds (60 terms per arctangent), Euler–Maclaurin for gamma with N=100 and the explicit next term, monotone interval substitution."
+    },
+    "answer28OriginalQuestionIssue": {
+      "cnQuestion": 356,
+      "cnAnswer": 645,
+      "enAnswer": 769,
+      "p": 2,
+      "e": 2,
+      "k": 1,
+      "numerator": 16,
+      "questionAssumedDivisor": 24,
+      "answerContext": "Both answers retain citation and Jacobi-symbol closed forms. Neither supplies an explanation of the print divisibility issue."
+    },
+    "authorEvidence": {
+      "modernPage10": "d61ad827762355e4e41285e48e07f19be1a5078e9accf99067c3a7a0cdece26a",
+      "prePage35": "445cf7fbe23ee769c54c2ce4f9486b7bdec7b6709ca30c0ab8bc6b0b0a6dcda2"
+    },
+    "directDetailEvidence": [
+      {
+        "file": "private-snapshot:volume4a/tail-answers/sources/en-767-answer23-detail.png",
+        "sha256": "e67be88bca3ae5670e3c4704eeb95ce521b841595e3db07b401c75b7102f7998"
+      },
+      {
+        "file": "private-snapshot:volume4a/tail-answers/sources/en-768-direct-details.png",
+        "sha256": "2dcc0a94d049888489d275ab3be71bb8f4da8b9340fd28686d1baf051841156b"
+      },
+      {
+        "file": "private-snapshot:volume4a/tail-answers/sources/en-768-answer25-mellin-detail.png",
+        "sha256": "e1dbfd714faa01f7fb4cd8d1831f66b42a1a60da8ce946ad6f0bc54b0e20071c"
+      },
+      {
+        "file": "private-snapshot:volume4a/tail-answers/sources/en-769-direct-details.png",
+        "sha256": "117f6f418fe8b9d7e1b508ef191cbfb1412ba81b5dbbb30d9ab9a79bd3b99260"
+      },
+      {
+        "file": "private-snapshot:volume4a/tail-answers/sources/cn-645-ans25-a-detail.png",
+        "sha256": "ade80a3beb1a4f3bf774e211d030c28fcb9259277457ee611b10a52be2f69fb6"
+      }
+    ]
+  },
+  "qualification": "Whole CN644–646 with actual EN767–770, current private Chrome proofs at 1280/390, and the two pictured author changes. The bounded project corrections are listed independently."
+}

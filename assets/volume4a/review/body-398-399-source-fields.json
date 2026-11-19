@@ -1,0 +1,186 @@
+{
+  "volume": "volume4a",
+  "section": "7.2.1.6",
+  "cnPdfPages": [
+    398,
+    399
+  ],
+  "cnPrintedPages": [
+    383,
+    384
+  ],
+  "enPdfPages": [
+    477,
+    478,
+    479,
+    480
+  ],
+  "enPrintedPages": [
+    460,
+    461,
+    462,
+    463
+  ],
+  "sourceSha256": {
+    "cn": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "en": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+  },
+  "pageMarkdownSha256": {
+    "398": "f1e03b7926c712377479d5fe393d6a0e787ac1e443180f95c9fc3678d41a3097",
+    "399": "44e8edf0108fe8dd33800641401f7c308c80d0dfa9cceeefd9d91267bbcbd565"
+  },
+  "masterSha256": null,
+  "humanSignoff": false,
+  "reviewerType": "model-direct-page-image-comparison",
+  "sourceReviewBindingPending": false,
+  "boundedChecks": {
+    "hAllFiniteMonotoneFunctions": {
+      "1": {
+        "monotoneFunctions": 3,
+        "maxQueries": 2
+      },
+      "2": {
+        "monotoneFunctions": 6,
+        "maxQueries": 3
+      },
+      "3": {
+        "monotoneFunctions": 20,
+        "maxQueries": 6
+      },
+      "4": {
+        "monotoneFunctions": 168,
+        "maxQueries": 10
+      }
+    },
+    "hPrintedThresholdExampleByN": {
+      "1": {
+        "queries": 2,
+        "columns": [
+          0,
+          1
+        ]
+      },
+      "2": {
+        "queries": 3,
+        "columns": [
+          1,
+          2
+        ]
+      },
+      "3": {
+        "queries": 6,
+        "columns": [
+          1,
+          2
+        ]
+      },
+      "4": {
+        "queries": 10,
+        "columns": [
+          2,
+          3
+        ]
+      },
+      "5": {
+        "queries": 20,
+        "columns": [
+          2,
+          3
+        ]
+      },
+      "6": {
+        "queries": 35,
+        "columns": [
+          3,
+          4
+        ]
+      },
+      "7": {
+        "queries": 70,
+        "columns": [
+          3,
+          4
+        ]
+      },
+      "8": {
+        "queries": 126,
+        "columns": [
+          4,
+          5
+        ]
+      }
+    },
+    "oOutputCountAsCompleteCanonicalCodesByN": {
+      "1": 1,
+      "2": 2,
+      "3": 4,
+      "4": 9,
+      "5": 20,
+      "6": 48,
+      "7": 115,
+      "8": 286
+    },
+    "allSixteenPrintedTreeCounts": [
+      1,
+      1,
+      2,
+      4,
+      9,
+      20,
+      48,
+      115,
+      286,
+      719,
+      1842,
+      4766,
+      12486,
+      32973,
+      87811,
+      235381
+    ],
+    "oPrintedExample": {
+      "suffix": "23443433000000000",
+      "removedTail": "3000000000",
+      "clonedPattern": "2344343",
+      "replacement": "2344343234"
+    }
+  },
+  "cnAdditionalPrintedAnValues": {
+    "15": 87811,
+    "16": 235381
+  },
+  "cnCrossReferenceCrop": {
+    "file": "private-snapshot:volume4a/tail-body-review/sources/cn-398-section-reference-detail2.png",
+    "sha256": "62a25fb0c5fd14fee28e80b346bad99a735ccf32537352e2beadd70a3534a087"
+  },
+  "alreadyAppliedAuthorChange": {
+    "date": "2012-02-02",
+    "englishPrintedPage": 462,
+    "englishPdfPage": 479,
+    "documentPhysicalPage": 17,
+    "image": "private-snapshot:volume4a/tail-body-review/sources/author-pre-errata-017.png",
+    "imageSha256": "253a11eaeddd14f774e083538338f885e1d25a9ee63c7e3747f31ff84e4057b5",
+    "acceptedChineseText": "本算法置 $p_0\\gets-1$。"
+  },
+  "laterPrintingDifferences": [
+    {
+      "date": "2019-12-20",
+      "englishPrintedPage": 461,
+      "disposition": "Report only. Standalone new paragraph absent in selected CN.",
+      "introduction": "Before the oriented-trees heading. Gregor, Mička and Mütze give a Gray order by reordering Christmas-tree rows and alternating their reading direction.",
+      "source": "private-snapshot:volume4a/tail-body-review/sources/author-pre-errata-017.png",
+      "imageSha256": "253a11eaeddd14f774e083538338f885e1d25a9ee63c7e3747f31ff84e4057b5",
+      "documentPhysicalPage": 17
+    },
+    {
+      "date": "2022-11-01",
+      "englishPrintedPage": 462,
+      "disposition": "Report only. Standalone new paragraph absent in selected CN.",
+      "introduction": "Before the spanning-trees heading. E. F. Harding reference for unranking oriented binary trees.",
+      "source": "private-snapshot:volume4a/tail-body-review/sources/author-modern-errata-006.png",
+      "imageSha256": "01bd7d5c47bc330f54b2a70bfaa8099afcf83c49ad0a7a3c4a5268dbbab58bc6",
+      "documentPhysicalPage": 6
+    }
+  ],
+  "qualification": "Full Chinese 398–399 and matched English 477–480, including the two-width runtime proofs and full array range reachable by scrolling. The original CN sixteen-value extension, n=1 through 16, was retained and recomputed."
+}

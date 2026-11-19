@@ -1,0 +1,625 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "two-complete-source-pages-with-algorithmH-and-network-checks",
+  "cnPhysicalPages": [
+    39,
+    40
+  ],
+  "cnPrintedPages": [
+    24,
+    25
+  ],
+  "masterSha256": null,
+  "mathExpressions": 133,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 1,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 39,
+      "cnPrintedPage": 24,
+      "enPdfPages": [
+        47,
+        48
+      ],
+      "enPrintedPages": [
+        30,
+        31
+      ],
+      "pageMarkdownSha256": "f0b9a6e0ee1d4e3ad9f0ec90783b72853977dca470cc9511a93453979d001996",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-039.png",
+      "sourcePageImageSha256": "eb75f83166c1a0719f85a31b4800a86f14e7975db60cf73c4d0bae2f21851027",
+      "enPageImages": [
+        {
+          "physicalPage": 47,
+          "file": "private-snapshot:volume4a/body-review/en-047.png",
+          "sha256": "9c3ac4a1f4f1df2510e9c3db5d3a496cc6215860eef441350bf20c0efb8ea903"
+        },
+        {
+          "physicalPage": 48,
+          "file": "private-snapshot:volume4a/body-review/en-048.png",
+          "sha256": "afe477f5a6fed3c9a591e214a2108926e37419bf3af3f48d8cd8ad649082d892"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-039",
+        "p-24",
+        "eq-7-55"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number,retained as a hidden anchor."
+      ],
+      "coveredRegions": [
+        "EveryH1–H4assignment/guard/sentinel/branch,notablyH4c_tnotc_kandc_jdecrementbeforemassignment.",
+        "Complete majorization definition withnonincreasingorders/equaltotals/allprefixinequalities.",
+        "LemmaMstatementandproof55includingIversonsigns,allprime/indexedinequalities,edgev—inotv—j.",
+        "CorollaryHcompleteproofwithGprimeanddprime/doubleprime sequencesandreductioncounts.",
+        "RuntimeandO(n)decisionstatement.",
+        "Networkdefinition andall3fullgeneratorcalls,rank/graylevel/length7properties."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 24,
+          "location": "CorollaryHproof,twoentry-reductionphrases",
+          "enPosition": "EN47/printed30lastparagraphandEN48/printed31firstparagraph",
+          "original": [
+            "通过对某个度序列项的dn减1",
+            "因为它使那些可能的最大项dn减1"
+          ],
+          "final": [
+            "通过将其中某dn项各减1",
+            "因为它将可能最大的dn项各减1"
+          ],
+          "basis": "English reducingsome dn of theentriesby1and reducesthelargestpossiblednentriesby1 bothuse dn as the numberofentries,notanentryvalue. One linked correctionofthe repeatedcount interpretationwithinthisproof."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "plane_lisacallinBeyondgraphs",
+          "cn": "9argumentswiththreshold22950000",
+          "en": "ActualprovidedEN48has10argumentsandthreshold2295000",
+          "status": "resolved-Chinese-incorporates-official-author-two-part-call-correction",
+          "resolution": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentPage": 5,
+            "englishPrintedPage": 31,
+            "lines": "13and14",
+            "reportedDate": "2011-04-23",
+            "actualProvidedEN": "plane_lisa(360,250,15,0,360,0,250,0,0,2295000)",
+            "officialCorrected": "plane_lisa(360,250,15,0,360,0,250,0,22950000)",
+            "providedENImage": "private-snapshot:volume4a/body-review/en-048-plane-lisa-call-detail.png",
+            "providedENImageSha256": "241a9dee2fcd8fd1968f59736935c08ddefab15d7b0a33e091a44ad65c800997",
+            "officialImage": "private-snapshot:volume4a/official-errata/all4a-pre-page5-plane-lisa-detail.png",
+            "officialImageSha256": "24e384a2fbc1a289d57255f40314b4f55e460bb50cadf025afd17c1469c49be7",
+            "decision": "KeepthesuppliedChinesealreadycorrect9argumentcalland22950000threshold."
+          }
+        },
+        {
+          "location": "Associatedpixelattribute",
+          "cn": "像素灰度",
+          "en": "pixeldensity",
+          "status": "resolved-Chinese-wording-compatible-with-later-author-terminology-clarification",
+          "resolution": {
+            "url": "https://cs.stanford.edu/~knuth/all4a.ps.gz",
+            "sha256": "e261de3f83dbc40f5b37565b86f60492667a120391e8fe6553b48fb4d3ec066b",
+            "documentVersionDate": "2025-09-09",
+            "documentPage": 3,
+            "englishPrintedPage": 31,
+            "line": 14,
+            "reportedDate": "2024-11-28",
+            "old": "pixeldensity",
+            "new": "levelofgray",
+            "sourceImage": "private-snapshot:volume4a/official-errata/all4a-page3-early-latest.png",
+            "sourceImageSha256": "6cd4df63bab73dcc83825af598121f60b970343240662e3d59edae3c2893e5c7",
+            "decision": "Keep the correctchosenChinesegraylevelwording. Do not claim a2019translationincorporateda2024erratum; it independently alreadyexpressedthemeaninglaterclarified."
+          }
+        }
+      ],
+      "preservedTerminology": [
+        {
+          "cn": "优化",
+          "en": "majorization",
+          "decision": "Retainchosensourcetermbecauseallprefix-suminequalitiesexplicitlydefineitsmathematicalmeaning;do not silentlysubstitutealternateChineseterminology."
+        }
+      ],
+      "numericChecks": {
+        "status": "source-algorithm-H-finite-degree-sequence-check-passed",
+        "cnPhysicalPages": [
+          38,
+          39
+        ],
+        "enPhysicalPages": [
+          47,
+          48
+        ],
+        "sourceH4Assignment": "c_t←m−1,notc_k",
+        "method": "LiteralH1–H4stateupdate includingpost-decrementc_jbeforem←c_t;compareagainstindependentErdos-Gallaigraphicalityoracleandverifyeverygenerateddegree/edgeuniqueness. SortedactiveprefixandconjugatecarraycheckedateachH2.",
+        "allSortedSequencesOrdersThrough": 8,
+        "degreeValuesAtOrderN": "0throughn−1",
+        "casesByOrder": {
+          "0": 1,
+          "1": 1,
+          "2": 3,
+          "3": 10,
+          "4": 35,
+          "5": 126,
+          "6": 462,
+          "7": 1716,
+          "8": 6435
+        },
+        "cases": 8789,
+        "successfulGraphicalSequences": 1707,
+        "additionalOversizedDegreeCases": 4,
+        "maximumStepVisits": 36,
+        "printedExample": {
+          "initialDegrees": [
+            5,
+            5,
+            5,
+            4,
+            4,
+            3,
+            2,
+            2
+          ],
+          "edgeCount": 15,
+          "edges": [
+            [
+              3,
+              8
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "qualification": "ThisexecutionchecksprintedAlgorithmH;itdoesnotclaimtohavecomparedthefinaltableautoanswer103yet."
+        },
+        "qualification": "Exhaustivefiniteinputsinthedeclaredboundedrange,notageneralprooforfinalsource-pageacceptance."
+      },
+      "qualification": "Complete model source-image/bilingualcomparisonofthispage,not human sign-off. AlgorithmHfinitechecks/independentoracleareboundedvalidation,notageneralproof;latergraylevelerratumcompatibilitydoesnotimplychronologicalincorporation.",
+      "pending": [
+        "Finalwhole-volumeinclusion",
+        "Finaloffline/production/browser/onlineacceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 39,
+        "markdownSha256": "f0b9a6e0ee1d4e3ad9f0ec90783b72853977dca470cc9511a93453979d001996",
+        "htmlSha256": "9211ba522b9478c84023084803f8c6b3b7feebfd7405400af18cf36c7e38c64f",
+        "mathExpressions": 88,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-39.json",
+        "sha256": "50e9bea782712628d5be955f01e99f0625c5168e3f38539d37a08730bf654743",
+        "cases": [
+          {
+            "physicalPage": 39,
+            "width": 1280,
+            "markdownSha256": "f0b9a6e0ee1d4e3ad9f0ec90783b72853977dca470cc9511a93453979d001996",
+            "documentWidth": 1280,
+            "math": 88,
+            "mathml": 88,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 88,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 39,
+            "width": 390,
+            "markdownSha256": "f0b9a6e0ee1d4e3ad9f0ec90783b72853977dca470cc9511a93453979d001996",
+            "documentWidth": 390,
+            "math": 88,
+            "mathml": 88,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 88,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actualprivateproduction-direct1280/390screenshotsviewed;longformula55/56endschecked. Notwhole-volumeSSRoronlineacceptance."
+      },
+      "privateOriginalPageReviewSha256": "18faaf15ac7b2c242db1e3a74061cc26ffd6fac17d9f8c92c0cf964b83d2cea0",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/039.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 40,
+      "cnPrintedPage": 25,
+      "enPdfPages": [
+        48,
+        49
+      ],
+      "enPrintedPages": [
+        31,
+        32
+      ],
+      "pageMarkdownSha256": "6420e8f1e081ca2b44145d00ab5013ba5c76b4c7f5c866ca8c23302b884a07ce",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-040.png",
+      "sourcePageImageSha256": "33b5917d4a58441fab0c58685668b8a9c91f2be892644368221bd041e7e43724",
+      "enPageImages": [
+        {
+          "physicalPage": 48,
+          "file": "private-snapshot:volume4a/body-review/en-048.png",
+          "sha256": "afe477f5a6fed3c9a591e214a2108926e37419bf3af3f48d8cd8ad649082d892"
+        },
+        {
+          "physicalPage": 49,
+          "file": "private-snapshot:volume4a/body-review/en-049.png",
+          "sha256": "0eb092a5a306b7bb6a4971e1a333eeed64780f375bf8d54f210169e15fd6c14f"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-040",
+        "p-25",
+        "eq-7-56"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number,retained as a hidden anchor."
+      ],
+      "coveredRegions": [
+        "All4networkgenerator parametersandallvertex/edge/arc counts.",
+        "Miles1949distance3496,econ1985flow44million/balance/negativeflowstatement,games1990score/date.",
+        "RISC16DAGdefinition/signalnameswithliteraltilde/correctinputdirection/6gatetypes/delay/registers.",
+        "CompleteGraphBasebibliography,LADDERS/TAKE_RISCandrisc8example.",
+        "Hypergraphdefinition,Fanononzero-bitmembershipruleandall21membersin7edges56.",
+        "Uniformity/completeuniformgraphbinomialcount/inducedsubhypergraphconditionthroughsplitr-uniformphrase."
+      ],
+      "continuation": {
+        "nextCnPdfPage": 41,
+        "lastText": "r一致",
+        "nextFirstText": "超图H的补图",
+        "joinText": "r一致超图H的补图",
+        "boundarySourceImageAlreadyViewed": true
+      },
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [
+        {
+          "location": "RISCsignalinputdirection",
+          "cn": "R0:7~valueisaninputtoZ45",
+          "en": "OldEN49reversesthosegatevalues",
+          "status": "resolved-Chinese-incorporates-official-author-direction-correction",
+          "resolution": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentPage": 6,
+            "englishPrintedPage": 32,
+            "lines": "2and3",
+            "reportedDate": "2018-03-19",
+            "sourceImage": "private-snapshot:volume4a/official-errata/all4a-pre-page6.png",
+            "sourceImageSha256": "6e3fcf8734b991ac32235e8889779784278f60ad55df10a035c94bf21d88c9de",
+            "decision": "KeepcorrectChinese;actualofficialrisc16arcandgb_gates.wgate-to-argumentconventionalsoverifyit."
+          }
+        },
+        {
+          "location": "TAKE_RISCdemonstrationregistercount",
+          "cn": "risc(8)",
+          "en": "OldEN49risc(16)",
+          "status": "resolved-Chinese-incorporates-official-author-demo-call-correction",
+          "resolution": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentPage": 6,
+            "englishPrintedPage": 32,
+            "line": 13,
+            "reportedDate": "2018-03-19",
+            "decision": "KeepchosenChineserisc8intheprogramdemonstration;donotchangetheearlierseparaterisc16networkexample."
+          }
+        }
+      ],
+      "numericChecks": {
+        "status": "author-frozen-networks-and-Fano-incidence-checks-passed",
+        "sourceArchiveURL": "https://cs.stanford.edu/pub/sgb/sgb.tar.gz",
+        "sourceArchiveSha256": "f2e2784b083db9d7b2cc705d34e9e8b4fdf9cc6dcd0d2dfe0c88a3875482017a",
+        "sourceFiles": [
+          {
+            "file": "miles.dat",
+            "sha256": "2888d2e90769c61abd63ba361204aaec7082b594288e0e4a41cf7151adc96542"
+          },
+          {
+            "file": "econ.dat",
+            "sha256": "191916c847d7b39f95b363bb680f6dd9c7da38273428ad7fc284f328a45b86de"
+          },
+          {
+            "file": "games.dat",
+            "sha256": "935e0826ae330d06a5fdb603650704413bb5f8080f48be2f16352dfb1be73e49"
+          },
+          {
+            "file": "gb_miles.w",
+            "sha256": "5694b125b32993fcd5a5e7209729c2d5a14500ebb319b7d267e12403f6a94951"
+          },
+          {
+            "file": "gb_econ.w",
+            "sha256": "26290edda1577ccdbcdda764cb9bf9edd0b65e654d1aca4efe5457af0bd756bf"
+          },
+          {
+            "file": "gb_games.w",
+            "sha256": "782c62dd664ff1fb2bd0589cb67d44835c90a20b7dab827c93c94f482dbef150"
+          },
+          {
+            "file": "gb_gates.w",
+            "sha256": "1a18c8335b86a7e15757b6221d30eb555c918b0a2edc29179cb890e374f6dbba"
+          }
+        ],
+        "localLibrarySha256": "8803bce8ebf0ff2685a16ca781fbb7b8791d301eea3ffd7a8e7ac2a9615112b5",
+        "helperSource": "private-snapshot:volume4a/tools/sgb-check-networks-040.c",
+        "helperSourceSha256": "9bc8c66695351bd4636d341bde4ede92917de226d278c0dd683ded1155724b09",
+        "helperBinarySha256": "20cc02ee59cbc4f3cea56b0bbc676b5761219a318dc345ebdf8be4dcc69df9e1",
+        "resultTable": "private-snapshot:volume4a/sgb-checks/networks-040.tsv",
+        "resultTableSha256": "24c06909cff519e07807d1dc6a5a0b6ba70c0442703d231559f39301e9e66b1b",
+        "countsSGBVerticesArcs": {
+          "miles": [
+            128,
+            16256
+          ],
+          "econ": [
+            81,
+            4902
+          ],
+          "games": [
+            120,
+            1276
+          ],
+          "risc16": [
+            3240,
+            7878
+          ]
+        },
+        "milesUndirectedEdges": 8128,
+        "samples": [
+          {
+            "network": "miles",
+            "from": "Vancouver, BC",
+            "to": "West Palm Beach, FL",
+            "value": 3496
+          },
+          {
+            "network": "econ",
+            "from": "Apparel",
+            "to": "Household furniture",
+            "value": 44
+          },
+          {
+            "network": "games",
+            "from": "Stanford",
+            "to": "California",
+            "value": 27,
+            "dayOffsetFrom1990Aug26": 83
+          },
+          {
+            "network": "games",
+            "from": "California",
+            "to": "Stanford",
+            "value": 25,
+            "dayOffsetFrom1990Aug26": 83
+          },
+          {
+            "network": "risc16",
+            "from": "Z45",
+            "to": "R0:7~",
+            "value": 100
+          }
+        ],
+        "econBalancedVertices": 81,
+        "econNegativeArcFlows": 10,
+        "gamesDate": "1990-11-17",
+        "risc16DAG": true,
+        "riscArcConvention": {
+          "sourceFile": "gb_gates.w",
+          "sourceLocation": "Module2intro,arcsrunfromeachgatetoitsarguments",
+          "decision": "Z45→R0:7~thereforemeansR0:7~is an argument/input toZ45,matchingthechosenChineseand2018authorerrata."
+        },
+        "FanoEquation56": {
+          "edges": {
+            "001": [
+              "010",
+              "100",
+              "110"
+            ],
+            "010": [
+              "001",
+              "100",
+              "101"
+            ],
+            "011": [
+              "011",
+              "100",
+              "111"
+            ],
+            "100": [
+              "001",
+              "010",
+              "011"
+            ],
+            "101": [
+              "010",
+              "101",
+              "111"
+            ],
+            "110": [
+              "001",
+              "110",
+              "111"
+            ],
+            "111": [
+              "011",
+              "101",
+              "110"
+            ]
+          },
+          "vertexCount": 7,
+          "edgeCount": 7,
+          "eachEdgeSize": 3,
+          "eachVertexDegree": 3,
+          "incidenceCount": 21,
+          "method": "All7nonzero3bitlabels,includeapointaonedge[b]iffparity(popcount(a&b))=0."
+        },
+        "qualification": "Theseexactfrozenprogram/dataexamplesareauxiliarynumericalchecks,notcurrent1949/1985/1990real-worldmeasurementsornewbookbases. RISCgraphDAG/arcanddatefieldschecked;nofullprocessor simulationisclaimed."
+      },
+      "qualification": "Complete model source-image/bilingualcomparisonofthispage,not human sign-off. Allfrozennetworkcounts/samplesandFano21incidencesindependentlychecked;actualoldsourceyearsarepreserved,nocurrentfinancial/sport/routeclaim is made.",
+      "pending": [
+        "Joinr-uniformphrasewith041",
+        "Finalwhole-volumeinclusion",
+        "Finaloffline/production/browser/onlineacceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 40,
+        "markdownSha256": "6420e8f1e081ca2b44145d00ab5013ba5c76b4c7f5c866ca8c23302b884a07ce",
+        "htmlSha256": "f130ad29e76b4e9fc312c647ee897c36babcb1a1f648b3421c6b3a6394a6207e",
+        "mathExpressions": 45,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-40.json",
+        "sha256": "f52ab619fbba39a56352e3b2fd6edc5a95719994065ca7f045b89235125654da",
+        "cases": [
+          {
+            "physicalPage": 40,
+            "width": 1280,
+            "markdownSha256": "6420e8f1e081ca2b44145d00ab5013ba5c76b4c7f5c866ca8c23302b884a07ce",
+            "documentWidth": 1280,
+            "math": 45,
+            "mathml": 45,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 45,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 40,
+            "width": 390,
+            "markdownSha256": "6420e8f1e081ca2b44145d00ab5013ba5c76b4c7f5c866ca8c23302b884a07ce",
+            "documentWidth": 390,
+            "math": 45,
+            "mathml": 45,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 45,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actualprivateproduction-direct1280/390screenshotsviewed;longformula55/56endschecked. Notwhole-volumeSSRoronlineacceptance."
+      },
+      "privateOriginalPageReviewSha256": "a03eb75deac6f81c534c69687c22253f6c2a03086e82f409da39c4389d2fcf53",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/040.json"
+    }
+  ],
+  "qualification": "Onlythese2completepages. ChosenCNalreadycontainsseveralofficialhistoricalcorrections;later2024graylevelwordingiscompatiblewithCNbutnotclaimedtohavebeenincorporatedin2019. Finitealgorithm/inputchecksarebounded;finalmother/site/deploymentremainseparate."
+}

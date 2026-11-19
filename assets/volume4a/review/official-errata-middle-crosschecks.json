@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "additional-primary-errata-provenance-no-earlier-input-change",
+  "officialSource": {
+    "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+    "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+    "documentVersionDate": "2023-02-09",
+    "documentPage": 7,
+    "sourceImage": "private-snapshot:volume4a/body-review/official-pre-page7-midsection.png",
+    "sourceImageSha256": "85091cecfa109a6939fae6711cca778831f513865a0fefccf86e497b6d84c88b"
+  },
+  "crosschecks": [
+    {
+      "cnPhysicalPages": [
+        54
+      ],
+      "englishPrintedPage": 49,
+      "location": "Table1truth0010name",
+      "reportedDate": "2018-02-06",
+      "selectedCN": "非蕴涵；差；与非；但非",
+      "providedEN": "Nonimplication;difference;butnot",
+      "decision": "SelectedCNalreadyhasauthor-addedandnotalias;noMDorproofchange.",
+      "currentPageMarkdownSha256": {
+        "54": "b84b6b292038082a347ef5aa853b4b3096de1e1bb8c67b61248a0b1ca2a14fd1"
+      }
+    },
+    {
+      "cnPhysicalPages": [
+        56,
+        57
+      ],
+      "englishPrintedPage": 52,
+      "location": "Expressionvariableset",
+      "reportedDate": "2012-02-11",
+      "selectedCN": "Variablelist{x1,...,xn}endsCN056,operators/constantscontinue057.",
+      "providedEN": "OldENexpressiondescriptionlistsonlyoperatorsandconstants.",
+      "decision": "SelectedCNalreadyhasauthor-addedvariables;retainCNcross-pageplacement.",
+      "currentPageMarkdownSha256": {
+        "56": "48cc650b09257253847ae14d790289b2fc93aa2b5aeb40ffbeaa945f131efdda",
+        "57": "4d15f6d824c589b714489a16ce1984ef77e3d750b8196b68b54c06befbd6bc7c"
+      }
+    },
+    {
+      "cnPhysicalPages": [
+        59
+      ],
+      "englishPrintedPage": 54,
+      "location": "Linebefore30",
+      "reportedDate": "2018-10-04",
+      "selectedCN": "Disjunctionofallprimeimplicantsis30.",
+      "providedEN": "AmbiguousoldEnglishsaystheprimeimplicantsare30.",
+      "decision": "SelectedCNalreadyexpressestheauthorclarificationterms-ofcorrectly.",
+      "currentPageMarkdownSha256": {
+        "59": "3ea171bbe0404e015abdd5b9c94ea3a9f65eb362bfe05ef7c7cd94a001b7cf99"
+      }
+    },
+    {
+      "cnPhysicalPages": [
+        60
+      ],
+      "englishPrintedPage": 56,
+      "location": "Referenceafter31",
+      "reportedDate": "2011-07-13",
+      "selectedCN": "7.2.2.2",
+      "providedEN": "7.9",
+      "decision": "KeepCNupdatedplannedsectionreference.",
+      "currentPageMarkdownSha256": {
+        "60": "50e372dff0e1ff4f6284b8a6b36797de3830118a9010e07e60ef64e14c59d9ac"
+      }
+    },
+    {
+      "cnPhysicalPages": [
+        60
+      ],
+      "englishPrintedPage": 56,
+      "location": "Rearranged32andlast-sevenexample",
+      "reportedDate": "2013-06-17",
+      "selectedCN": "Cyclicsymmetricorderandlastseven",
+      "providedEN": "Oldorderandfirstseven",
+      "decision": "KeepCNauthor-updatedorder;currentTeXclausemultisetandlast-seven001checked.",
+      "currentPageMarkdownSha256": {
+        "60": "50e372dff0e1ff4f6284b8a6b36797de3830118a9010e07e60ef64e14c59d9ac"
+      }
+    }
+  ],
+  "qualification": "Actualofficialpage7imageviewed. Theseadditionalprovenancechecksdo not rewrite earlier054/056/057MD, syntax or browser hashes; earlier records stay under actual prior JSON/input hashes. New059/060acceptanceisindependent."
+}

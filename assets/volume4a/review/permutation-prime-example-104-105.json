@@ -1,0 +1,978 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+  "masterSha256": null,
+  "pageMarkdownHashes": {
+    "104": "153113a071fc71b906a11a40ba1e8cb799ea8548203901da2f78abc80fe50864",
+    "105": "f03f19cb70d8f179b522314b05503bf0f6829e3587c7975a17f85e506756e6bb"
+  },
+  "printedPermutation34": {
+    "actualMDOriginal": {
+      "5": [
+        "oplus",
+        1,
+        3,
+        false
+      ],
+      "6": [
+        "oplus",
+        1,
+        2,
+        false
+      ],
+      "7": [
+        "oplus",
+        3,
+        4,
+        false
+      ],
+      "8": [
+        "vee",
+        5,
+        6,
+        false
+      ],
+      "9": [
+        "oplus",
+        6,
+        7,
+        false
+      ],
+      "10": [
+        "wedge",
+        8,
+        9,
+        true
+      ]
+    },
+    "actualMDPermuted": {
+      "5": [
+        "oplus",
+        1,
+        2,
+        false
+      ],
+      "6": [
+        "oplus",
+        3,
+        4,
+        false
+      ],
+      "7": [
+        "vee",
+        9,
+        5,
+        false
+      ],
+      "8": [
+        "oplus",
+        5,
+        6,
+        false
+      ],
+      "9": [
+        "oplus",
+        1,
+        3,
+        false
+      ],
+      "10": [
+        "wedge",
+        7,
+        8,
+        true
+      ]
+    },
+    "pi": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 5,
+      "10": 10
+    },
+    "all16InputRows": [
+      {
+        "input": "0000",
+        "originalIntermediates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "permutedIntermediates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "allSixRenamingIdentitiesAgree": true
+      },
+      {
+        "input": "0001",
+        "originalIntermediates": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "permutedIntermediates": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "allSixRenamingIdentitiesAgree": true
+      },
+      {
+        "input": "0010",
+        "originalIntermediates": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "permutedIntermediates": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "allSixRenamingIdentitiesAgree": true
+      },
+      {
+        "input": "0011",
+        "originalIntermediates": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "permutedIntermediates": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "allSixRenamingIdentitiesAgree": true
+      },
+      {
+        "input": "0100",
+        "originalIntermediates": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "permutedIntermediates": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "allSixRenamingIdentitiesAgree": true
+      },
+      {
+        "input": "0101",
+        "originalIntermediates": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "permutedIntermediates": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "allSixRenamingIdentitiesAgree": true
+      },
+      {
+        "input": "0110",
+        "originalIntermediates": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "permutedIntermediates": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "allSixRenamingIdentitiesAgree": true
+      },
+      {
+        "input": "0111",
+        "originalIntermediates": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "permutedIntermediates": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "allSixRenamingIdentitiesAgree": true
+      },
+      {
+        "input": "1000",
+        "originalIntermediates": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "permutedIntermediates": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "allSixRenamingIdentitiesAgree": true
+      },
+      {
+        "input": "1001",
+        "originalIntermediates": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "permutedIntermediates": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "allSixRenamingIdentitiesAgree": true
+      },
+      {
+        "input": "1010",
+        "originalIntermediates": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "permutedIntermediates": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "allSixRenamingIdentitiesAgree": true
+      },
+      {
+        "input": "1011",
+        "originalIntermediates": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "permutedIntermediates": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "allSixRenamingIdentitiesAgree": true
+      },
+      {
+        "input": "1100",
+        "originalIntermediates": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "permutedIntermediates": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "allSixRenamingIdentitiesAgree": true
+      },
+      {
+        "input": "1101",
+        "originalIntermediates": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "permutedIntermediates": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "allSixRenamingIdentitiesAgree": true
+      },
+      {
+        "input": "1110",
+        "originalIntermediates": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "permutedIntermediates": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "allSixRenamingIdentitiesAgree": true
+      },
+      {
+        "input": "1111",
+        "originalIntermediates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "permutedIntermediates": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "allSixRenamingIdentitiesAgree": true
+      }
+    ],
+    "qualification": "Only printed6steprenaming;dependency recursion checked no cycles and eachnewxi=oldx_iπ. Not a proof of allpermutations/countingbound/asymptoticTheoremS."
+  },
+  "printedPrimeExample": {
+    "columnHeader64Bits": [
+      "0000000011111111",
+      "0000111100001111",
+      "0011001100110011",
+      "0101010101010101"
+    ],
+    "function64Bits": [
+      "0011010100010100",
+      "0101000100000101",
+      "0000010001010001",
+      "0000010000010100"
+    ],
+    "actualMD37SixClauseSets": [
+      [
+        [
+          "00"
+        ],
+        [
+          "0010",
+          "0101",
+          "1011"
+        ]
+      ],
+      [
+        [
+          "01"
+        ],
+        [
+          "0001",
+          "1111"
+        ]
+      ],
+      [
+        [
+          "00",
+          "01"
+        ],
+        [
+          "0011",
+          "0111",
+          "1101"
+        ]
+      ],
+      [
+        [
+          "10"
+        ],
+        [
+          "1001",
+          "1111"
+        ]
+      ],
+      [
+        [
+          "11"
+        ],
+        [
+          "1101"
+        ]
+      ],
+      [
+        [
+          "10",
+          "11"
+        ],
+        [
+          "0101",
+          "1011"
+        ]
+      ]
+    ],
+    "all64InputRows": [
+      {
+        "input": "000000",
+        "integer": 0,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "000001",
+        "integer": 1,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "000010",
+        "integer": 2,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "000011",
+        "integer": 3,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "000100",
+        "integer": 4,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "000101",
+        "integer": 5,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "000110",
+        "integer": 6,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "000111",
+        "integer": 7,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "001000",
+        "integer": 8,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "001001",
+        "integer": 9,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "001010",
+        "integer": 10,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "001011",
+        "integer": 11,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "001100",
+        "integer": 12,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "001101",
+        "integer": 13,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "001110",
+        "integer": 14,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "001111",
+        "integer": 15,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "010000",
+        "integer": 16,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "010001",
+        "integer": 17,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "010010",
+        "integer": 18,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "010011",
+        "integer": 19,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "010100",
+        "integer": 20,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "010101",
+        "integer": 21,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "010110",
+        "integer": 22,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "010111",
+        "integer": 23,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "011000",
+        "integer": 24,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "011001",
+        "integer": 25,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "011010",
+        "integer": 26,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "011011",
+        "integer": 27,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "011100",
+        "integer": 28,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "011101",
+        "integer": 29,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "011110",
+        "integer": 30,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "011111",
+        "integer": 31,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "100000",
+        "integer": 32,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "100001",
+        "integer": 33,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "100010",
+        "integer": 34,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "100011",
+        "integer": 35,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "100100",
+        "integer": 36,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "100101",
+        "integer": 37,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "100110",
+        "integer": 38,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "100111",
+        "integer": 39,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "101000",
+        "integer": 40,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "101001",
+        "integer": 41,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "101010",
+        "integer": 42,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "101011",
+        "integer": 43,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "101100",
+        "integer": 44,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "101101",
+        "integer": 45,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "101110",
+        "integer": 46,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "101111",
+        "integer": 47,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "110000",
+        "integer": 48,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "110001",
+        "integer": 49,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "110010",
+        "integer": 50,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "110011",
+        "integer": 51,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "110100",
+        "integer": 52,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "110101",
+        "integer": 53,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "110110",
+        "integer": 54,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "110111",
+        "integer": 55,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "111000",
+        "integer": 56,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "111001",
+        "integer": 57,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "111010",
+        "integer": 58,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "111011",
+        "integer": 59,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "111100",
+        "integer": 60,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "111101",
+        "integer": 61,
+        "trialDivisionPrime": true,
+        "matrix": 1,
+        "equation37": 1
+      },
+      {
+        "input": "111110",
+        "integer": 62,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      },
+      {
+        "input": "111111",
+        "integer": 63,
+        "trialDivisionPrime": false,
+        "matrix": 0,
+        "equation37": 0
+      }
+    ],
+    "trueNumbers": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "qualification": "Original6-bit encoding includes leadingzero representations; fixed64numbers/18primes/matrix and6clauses only. No generalShannon-Lupanov theorem proof."
+  },
+  "actualDOM": {
+    "locator": "private-snapshot:volume4a/verified-render/prime-matrix-dom-105.json",
+    "sha256": "75ee75ea3d04b3a9c59bc38786c5b02759784c0dd6a265fed00357340041cab6",
+    "qualification": "Additional128bits/tworowgroups/seven naked column values, not extra wholepage cases."
+  },
+  "checkCode": {
+    "locator": "private-snapshot:volume4a/tools/bind-batch-104-105.py",
+    "sha256": "dd4e9af6f59c9f2bc192b1bc97f28cce90b56aa6f891eeff365091e22a36c9af"
+  },
+  "qualification": "Fixed printed examples support source comparison and three direct translation repairs. General counting/asymptotic proofs were source-compared, not independently enumerated or re-proved."
+}

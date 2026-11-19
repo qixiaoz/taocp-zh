@@ -1,0 +1,1069 @@
+{
+  "scope": "Algorithm K and original forest 52, fixed source de Bruijn examples, polynomial arithmetic for all exact shown binary offsets, actual Algorithm A widths only n=3–16. Algorithm D is split over pages and will be modeled when D6–D7 enter scope.",
+  "pageMarkdownHashes": {
+    "266": "b4afb1368a9ffdc6e4043de5fad98330da419be4374b0989f72a0781bea78171",
+    "267": "bc042e545457537936b978af3c62a214bba5d495f4d30577a999744acf8ec11e",
+    "268": "bea3cb3b3b7d3ff79a9049b6276fa1fec5747cbd87367f79114d42ad542ce3d1"
+  },
+  "K": {
+    "treeCounts": [
+      {
+        "nodes": 0,
+        "orderedForests": 1,
+        "visits": 1
+      },
+      {
+        "nodes": 1,
+        "orderedForests": 1,
+        "visits": 2
+      },
+      {
+        "nodes": 2,
+        "orderedForests": 2,
+        "visits": 7
+      },
+      {
+        "nodes": 3,
+        "orderedForests": 5,
+        "visits": 29
+      },
+      {
+        "nodes": 4,
+        "orderedForests": 14,
+        "visits": 131
+      },
+      {
+        "nodes": 5,
+        "orderedForests": 42,
+        "visits": 625
+      },
+      {
+        "nodes": 6,
+        "orderedForests": 132,
+        "visits": 3099
+      },
+      {
+        "nodes": 7,
+        "orderedForests": 429,
+        "visits": 15818
+      }
+    ],
+    "exactFigure52Match": [
+      0,
+      64,
+      96,
+      112,
+      120,
+      104,
+      108,
+      124,
+      116,
+      100,
+      68,
+      70,
+      102,
+      118,
+      126,
+      110,
+      106,
+      122,
+      114,
+      98,
+      66,
+      2,
+      3,
+      67,
+      99,
+      115,
+      123,
+      107,
+      111,
+      127,
+      119,
+      103,
+      71
+    ],
+    "sourceFigureSha256": "8f15fe0499818684d562cce35fc91fe0c6df5cd7d025fc3578f97286fbbf01dd"
+  },
+  "deBruijnFig35": {
+    "file": "assets/volume4a/figures/fig-7-35-five-bit-de-bruijn-cycle.svg",
+    "sha256": "a8bd3ee5c2e646ed53d2cbaba42fe4defb9f3d53ae8f4025cd8524a7044bca38",
+    "enPdfPage": 319,
+    "sourceBounds": [
+      [
+        220,
+        178,
+        370,
+        318
+      ]
+    ],
+    "nativePaths": 49,
+    "sourceDirectlyCompared": true,
+    "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+    "clockwiseLabels": [
+      "00000",
+      "00001",
+      "00010",
+      "00100",
+      "01000",
+      "10001",
+      "00011",
+      "00110",
+      "01100",
+      "11001",
+      "10010",
+      "00101",
+      "01010",
+      "10100",
+      "01001",
+      "10011",
+      "00111",
+      "01110",
+      "11101",
+      "11010",
+      "10101",
+      "01011",
+      "10110",
+      "01101",
+      "11011",
+      "10111",
+      "01111",
+      "11111",
+      "11110",
+      "11100",
+      "11000",
+      "10000"
+    ],
+    "dotMeans": "last bit of current five-bit tag",
+    "chineseDotGraySamples": [
+      240,
+      219,
+      84,
+      74,
+      220,
+      232,
+      77,
+      229,
+      80,
+      223,
+      224,
+      75,
+      80,
+      80,
+      228,
+      80,
+      221,
+      84,
+      76,
+      220,
+      76,
+      76,
+      73,
+      80,
+      76,
+      229,
+      217,
+      230,
+      225,
+      220,
+      84,
+      225
+    ],
+    "clockwiseBitsSource53": "00000100011001010011101011011111",
+    "startSlotOf00000": 29
+  },
+  "firstM26to54": {
+    "decimalPrefix": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      2,
+      1,
+      2,
+      2,
+      0,
+      3,
+      1,
+      3,
+      2,
+      3,
+      3,
+      0,
+      4,
+      1,
+      4,
+      2,
+      4,
+      3,
+      4,
+      4
+    ],
+    "testedAlphabetSizes": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "table1": {
+    "sourceCells": [
+      "3:1",
+      "8:1,5",
+      "13:1,3",
+      "18:7",
+      "23:5",
+      "28:3",
+      "4:1",
+      "9:4",
+      "14:1,11",
+      "19:1,5",
+      "24:1,3",
+      "29:2",
+      "5:2",
+      "10:3",
+      "15:1",
+      "20:3",
+      "25:3",
+      "30:1,15",
+      "6:1",
+      "11:2",
+      "16:2,3",
+      "21:2",
+      "26:1,7",
+      "31:3",
+      "7:1",
+      "12:3,4",
+      "17:3",
+      "22:1",
+      "27:1,7",
+      "32:1,27"
+    ],
+    "allGF2PrimitiveChecks": [
+      {
+        "n": 3,
+        "offsets": [
+          1
+        ],
+        "coefficients": [
+          0,
+          1,
+          3
+        ],
+        "degreeFactors": [
+          3
+        ],
+        "orderFactors": [
+          7
+        ]
+      },
+      {
+        "n": 4,
+        "offsets": [
+          1
+        ],
+        "coefficients": [
+          0,
+          1,
+          4
+        ],
+        "degreeFactors": [
+          2
+        ],
+        "orderFactors": [
+          3,
+          5
+        ]
+      },
+      {
+        "n": 5,
+        "offsets": [
+          2
+        ],
+        "coefficients": [
+          0,
+          2,
+          5
+        ],
+        "degreeFactors": [
+          5
+        ],
+        "orderFactors": [
+          31
+        ]
+      },
+      {
+        "n": 6,
+        "offsets": [
+          1
+        ],
+        "coefficients": [
+          0,
+          1,
+          6
+        ],
+        "degreeFactors": [
+          2,
+          3
+        ],
+        "orderFactors": [
+          3,
+          7
+        ]
+      },
+      {
+        "n": 7,
+        "offsets": [
+          1
+        ],
+        "coefficients": [
+          0,
+          1,
+          7
+        ],
+        "degreeFactors": [
+          7
+        ],
+        "orderFactors": [
+          127
+        ]
+      },
+      {
+        "n": 8,
+        "offsets": [
+          1,
+          5
+        ],
+        "coefficients": [
+          0,
+          1,
+          5,
+          6,
+          8
+        ],
+        "degreeFactors": [
+          2
+        ],
+        "orderFactors": [
+          3,
+          5,
+          17
+        ]
+      },
+      {
+        "n": 9,
+        "offsets": [
+          4
+        ],
+        "coefficients": [
+          0,
+          4,
+          9
+        ],
+        "degreeFactors": [
+          3
+        ],
+        "orderFactors": [
+          7,
+          73
+        ]
+      },
+      {
+        "n": 10,
+        "offsets": [
+          3
+        ],
+        "coefficients": [
+          0,
+          3,
+          10
+        ],
+        "degreeFactors": [
+          2,
+          5
+        ],
+        "orderFactors": [
+          3,
+          11,
+          31
+        ]
+      },
+      {
+        "n": 11,
+        "offsets": [
+          2
+        ],
+        "coefficients": [
+          0,
+          2,
+          11
+        ],
+        "degreeFactors": [
+          11
+        ],
+        "orderFactors": [
+          23,
+          89
+        ]
+      },
+      {
+        "n": 12,
+        "offsets": [
+          3,
+          4
+        ],
+        "coefficients": [
+          0,
+          3,
+          4,
+          7,
+          12
+        ],
+        "degreeFactors": [
+          2,
+          3
+        ],
+        "orderFactors": [
+          3,
+          5,
+          7,
+          13
+        ]
+      },
+      {
+        "n": 13,
+        "offsets": [
+          1,
+          3
+        ],
+        "coefficients": [
+          0,
+          1,
+          3,
+          4,
+          13
+        ],
+        "degreeFactors": [
+          13
+        ],
+        "orderFactors": [
+          8191
+        ]
+      },
+      {
+        "n": 14,
+        "offsets": [
+          1,
+          11
+        ],
+        "coefficients": [
+          0,
+          1,
+          11,
+          12,
+          14
+        ],
+        "degreeFactors": [
+          2,
+          7
+        ],
+        "orderFactors": [
+          3,
+          43,
+          127
+        ]
+      },
+      {
+        "n": 15,
+        "offsets": [
+          1
+        ],
+        "coefficients": [
+          0,
+          1,
+          15
+        ],
+        "degreeFactors": [
+          3,
+          5
+        ],
+        "orderFactors": [
+          7,
+          31,
+          151
+        ]
+      },
+      {
+        "n": 16,
+        "offsets": [
+          2,
+          3
+        ],
+        "coefficients": [
+          0,
+          2,
+          3,
+          5,
+          16
+        ],
+        "degreeFactors": [
+          2
+        ],
+        "orderFactors": [
+          3,
+          5,
+          17,
+          257
+        ]
+      },
+      {
+        "n": 17,
+        "offsets": [
+          3
+        ],
+        "coefficients": [
+          0,
+          3,
+          17
+        ],
+        "degreeFactors": [
+          17
+        ],
+        "orderFactors": [
+          131071
+        ]
+      },
+      {
+        "n": 18,
+        "offsets": [
+          7
+        ],
+        "coefficients": [
+          0,
+          7,
+          18
+        ],
+        "degreeFactors": [
+          2,
+          3
+        ],
+        "orderFactors": [
+          3,
+          7,
+          19,
+          73
+        ]
+      },
+      {
+        "n": 19,
+        "offsets": [
+          1,
+          5
+        ],
+        "coefficients": [
+          0,
+          1,
+          5,
+          6,
+          19
+        ],
+        "degreeFactors": [
+          19
+        ],
+        "orderFactors": [
+          524287
+        ]
+      },
+      {
+        "n": 20,
+        "offsets": [
+          3
+        ],
+        "coefficients": [
+          0,
+          3,
+          20
+        ],
+        "degreeFactors": [
+          2,
+          5
+        ],
+        "orderFactors": [
+          3,
+          5,
+          11,
+          31,
+          41
+        ]
+      },
+      {
+        "n": 21,
+        "offsets": [
+          2
+        ],
+        "coefficients": [
+          0,
+          2,
+          21
+        ],
+        "degreeFactors": [
+          3,
+          7
+        ],
+        "orderFactors": [
+          7,
+          127,
+          337
+        ]
+      },
+      {
+        "n": 22,
+        "offsets": [
+          1
+        ],
+        "coefficients": [
+          0,
+          1,
+          22
+        ],
+        "degreeFactors": [
+          2,
+          11
+        ],
+        "orderFactors": [
+          3,
+          23,
+          89,
+          683
+        ]
+      },
+      {
+        "n": 23,
+        "offsets": [
+          5
+        ],
+        "coefficients": [
+          0,
+          5,
+          23
+        ],
+        "degreeFactors": [
+          23
+        ],
+        "orderFactors": [
+          47,
+          178481
+        ]
+      },
+      {
+        "n": 24,
+        "offsets": [
+          1,
+          3
+        ],
+        "coefficients": [
+          0,
+          1,
+          3,
+          4,
+          24
+        ],
+        "degreeFactors": [
+          2,
+          3
+        ],
+        "orderFactors": [
+          3,
+          5,
+          7,
+          13,
+          17,
+          241
+        ]
+      },
+      {
+        "n": 25,
+        "offsets": [
+          3
+        ],
+        "coefficients": [
+          0,
+          3,
+          25
+        ],
+        "degreeFactors": [
+          5
+        ],
+        "orderFactors": [
+          31,
+          601,
+          1801
+        ]
+      },
+      {
+        "n": 26,
+        "offsets": [
+          1,
+          7
+        ],
+        "coefficients": [
+          0,
+          1,
+          7,
+          8,
+          26
+        ],
+        "degreeFactors": [
+          2,
+          13
+        ],
+        "orderFactors": [
+          3,
+          2731,
+          8191
+        ]
+      },
+      {
+        "n": 27,
+        "offsets": [
+          1,
+          7
+        ],
+        "coefficients": [
+          0,
+          1,
+          7,
+          8,
+          27
+        ],
+        "degreeFactors": [
+          3
+        ],
+        "orderFactors": [
+          7,
+          73,
+          262657
+        ]
+      },
+      {
+        "n": 28,
+        "offsets": [
+          3
+        ],
+        "coefficients": [
+          0,
+          3,
+          28
+        ],
+        "degreeFactors": [
+          2,
+          7
+        ],
+        "orderFactors": [
+          3,
+          5,
+          29,
+          43,
+          113,
+          127
+        ]
+      },
+      {
+        "n": 29,
+        "offsets": [
+          2
+        ],
+        "coefficients": [
+          0,
+          2,
+          29
+        ],
+        "degreeFactors": [
+          29
+        ],
+        "orderFactors": [
+          233,
+          1103,
+          2089
+        ]
+      },
+      {
+        "n": 30,
+        "offsets": [
+          1,
+          15
+        ],
+        "coefficients": [
+          0,
+          1,
+          15,
+          16,
+          30
+        ],
+        "degreeFactors": [
+          2,
+          3,
+          5
+        ],
+        "orderFactors": [
+          3,
+          7,
+          11,
+          31,
+          151,
+          331
+        ]
+      },
+      {
+        "n": 31,
+        "offsets": [
+          3
+        ],
+        "coefficients": [
+          0,
+          3,
+          31
+        ],
+        "degreeFactors": [
+          31
+        ],
+        "orderFactors": [
+          2147483647
+        ]
+      },
+      {
+        "n": 32,
+        "offsets": [
+          1,
+          27
+        ],
+        "coefficients": [
+          0,
+          1,
+          27,
+          28,
+          32
+        ],
+        "degreeFactors": [
+          2
+        ],
+        "orderFactors": [
+          3,
+          5,
+          17,
+          257,
+          65537
+        ]
+      }
+    ],
+    "width32Pairs": [
+      [
+        1,
+        27
+      ],
+      [
+        3,
+        13
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        18
+      ],
+      [
+        6,
+        21
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        19
+      ],
+      [
+        13,
+        15
+      ]
+    ],
+    "underlyingAlgorithmA": [
+      {
+        "n": 3,
+        "exactVisitedWords": 8,
+        "windowCyclicAdjacency": true
+      },
+      {
+        "n": 4,
+        "exactVisitedWords": 16,
+        "windowCyclicAdjacency": true
+      },
+      {
+        "n": 5,
+        "exactVisitedWords": 32,
+        "windowCyclicAdjacency": true
+      },
+      {
+        "n": 6,
+        "exactVisitedWords": 64,
+        "windowCyclicAdjacency": true
+      },
+      {
+        "n": 7,
+        "exactVisitedWords": 128,
+        "windowCyclicAdjacency": true
+      },
+      {
+        "n": 8,
+        "exactVisitedWords": 256,
+        "windowCyclicAdjacency": true
+      },
+      {
+        "n": 9,
+        "exactVisitedWords": 512,
+        "windowCyclicAdjacency": true
+      },
+      {
+        "n": 10,
+        "exactVisitedWords": 1024,
+        "windowCyclicAdjacency": true
+      },
+      {
+        "n": 11,
+        "exactVisitedWords": 2048,
+        "windowCyclicAdjacency": true
+      },
+      {
+        "n": 12,
+        "exactVisitedWords": 4096,
+        "windowCyclicAdjacency": true
+      },
+      {
+        "n": 13,
+        "exactVisitedWords": 8192,
+        "windowCyclicAdjacency": true
+      },
+      {
+        "n": 14,
+        "exactVisitedWords": 16384,
+        "windowCyclicAdjacency": true
+      },
+      {
+        "n": 15,
+        "exactVisitedWords": 32768,
+        "windowCyclicAdjacency": true
+      },
+      {
+        "n": 16,
+        "exactVisitedWords": 65536,
+        "windowCyclicAdjacency": true
+      }
+    ]
+  },
+  "algorithmR": {
+    "m": 3,
+    "n": 2,
+    "inputCycle": "001102122",
+    "threePeriodsInEachRow": [
+      "001021220011110212200102122001021220011110212200102122001021220011110212200102122",
+      "001001000012340010000100100001001000012340010000100100001001000012340010000100100",
+      "000110102220120020211122121000110102220120020211122121000110102220120020211122121"
+    ],
+    "phase": "x is the R1 output. y and t in the same printed column are the values used for the update at R5, before the next R1."
+  },
+  "checker": {
+    "file": "private-snapshot:volume4a/body-review/tools/check-266-268-rings-forests-table.py",
+    "sha256": "f256b217585d1a0344fd80314a85b6c584657f713cad46d1ecfb19d7c1b34755"
+  },
+  "browserProofs": [
+    {
+      "file": "private-snapshot:volume4a/body-review/links-266.json",
+      "sha256": "2c135f6b89f6140f011adf5e9c7430e67e79daa293a71e8319d8b06aa3daf650",
+      "record": {
+        "scope": "Actual linked original image opening and back navigation in current private proofs. No published route or separate whole-page cases.",
+        "pageMarkdownHashes": {
+          "266": "b4afb1368a9ffdc6e4043de5fad98330da419be4374b0989f72a0781bea78171"
+        },
+        "cases": [
+          {
+            "physicalPage": 266,
+            "width": 1280,
+            "images": [
+              {
+                "file": "assets/volume4a/figures/fig-7-35-five-bit-de-bruijn-cycle.svg",
+                "sha256": "a8bd3ee5c2e646ed53d2cbaba42fe4defb9f3d53ae8f4025cd8524a7044bca38",
+                "openedVisible": true,
+                "returned": true
+              }
+            ]
+          },
+          {
+            "physicalPage": 266,
+            "width": 390,
+            "images": [
+              {
+                "file": "assets/volume4a/figures/fig-7-35-five-bit-de-bruijn-cycle.svg",
+                "sha256": "a8bd3ee5c2e646ed53d2cbaba42fe4defb9f3d53ae8f4025cd8524a7044bca38",
+                "openedVisible": true,
+                "returned": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "private-snapshot:volume4a/body-review/wide-266-267-268.json",
+      "sha256": "9ed461f2548998b80fee8d5e6ff7330d70e323db0dc6b23859700a02450a36a0",
+      "record": {
+        "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate.",
+        "pageMarkdownHashes": {
+          "266": "b4afb1368a9ffdc6e4043de5fad98330da419be4374b0989f72a0781bea78171",
+          "267": "bc042e545457537936b978af3c62a214bba5d495f4d30577a999744acf8ec11e",
+          "268": "bea3cb3b3b7d3ff79a9049b6276fa1fec5747cbd87367f79114d42ad542ce3d1"
+        },
+        "records": [
+          {
+            "physicalPage": 267,
+            "width": 1280,
+            "index": 11,
+            "tag": "(55)",
+            "client": 728,
+            "total": 952,
+            "scrollLeft": 224,
+            "file": "private-snapshot:volume4a/verified-render/267-1280-wide-11-2.png",
+            "sha256": "06788291c440bc1677fccde6cae39ac4553f9ebbdb1c09f421270ff57beabc79"
+          },
+          {
+            "physicalPage": 267,
+            "width": 390,
+            "index": 11,
+            "tag": "(55)",
+            "client": 310,
+            "total": 952,
+            "scrollLeft": 214,
+            "file": "private-snapshot:volume4a/verified-render/267-390-wide-11-1.png",
+            "sha256": "1923b48462489202766771ea7cda33f6c2ec05705f6cd4f6383f007c426f01e3"
+          },
+          {
+            "physicalPage": 267,
+            "width": 390,
+            "index": 11,
+            "tag": "(55)",
+            "client": 310,
+            "total": 952,
+            "scrollLeft": 428,
+            "file": "private-snapshot:volume4a/verified-render/267-390-wide-11-2.png",
+            "sha256": "945b3fb62edab59f87da1e680f28b0676ec64cc84114d3900351be83c263de90"
+          }
+        ]
+      }
+    }
+  ],
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+}

@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "scope": "CompleteChinese455,answer110continuationthrough123",
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignOff": false,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 455,
+      "cnPrintedPage": "440",
+      "enPdfPages": [
+        545,
+        546
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "b48cf8da66d52eed524b394ec3f07e732598becc47d21315983e2ecb18f75b3d",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "1f786459d77f092edeef1a21faf05c7912ab204af03ee69b32122c01b0c22559",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "Complete Chinese source page and the available corresponding English contents directly compared; preserved edition differences are not asserted equal. No human sign-off.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "832c9ce5be6eb8da7782b7ee45b4e67049905c19536f4cbbe5811f42c9597c50",
+      "enPageImages": [
+        {
+          "physicalPage": 545,
+          "sha256": "75f4e7bb8db43885bf0455093dc0e528fcfb33e0d31098fd9babc6ed01b9df72"
+        },
+        {
+          "physicalPage": 546,
+          "sha256": "50c7744661040ec70e95f9b7ea65621ec22a989ef0f2ca94cf6a1c411ef0933f"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 455,
+        "markdownSha256": "b48cf8da66d52eed524b394ec3f07e732598becc47d21315983e2ecb18f75b3d",
+        "htmlSha256": "d8274cd245b2d2f578fd6d3c072182b1dd2a1ca6422afb5fe8a11a0bae1b383b",
+        "mathExpressions": 77,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "67e5f0f28d2e2dbbf29adafe454559973905edd35615cd4122b3f6a9c3cd60d9",
+      "coveredRegions": [
+        "Complete110two cases and111regular-completion proof, all four inequalities, cyclic endpoints and original bibliography",
+        "112all three frozen-mileage cities, three undirected weighted edges,113row/column ordering",
+        "114complete source matrix restored to3x6, every entry and true parallel edge,115both incidence identities",
+        "116single complement over the whole left side only;117all four nested multisets and vertical-bar partition notation",
+        "118-123complete Chinese prose and mathematics including122both parts; source123ends on this page"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "Answer7-114 / Chinese printed440",
+          "enPosition": "English printed529 / PDF546",
+          "original": "Chinese source typesets all18matrix entries in one row",
+          "final": "Three rows and six columns:210000 /011100 /001122",
+          "basis": "Supplied English matrix has explicit3x6rows. The source bipartite multigraph has three original vertices and six edge vertices, whose multiplicities recover exactly these rows."
+        },
+        {
+          "location": "Answer7-122(a) / Chinese printed440",
+          "enPosition": "English printed529 / PDF546",
+          "original": "投影平面",
+          "final": "射影平面",
+          "basis": "English projective plane; consistent with selected Chinese edition's earlier finite射影平面 terminology in answer7-19 on physical445. A terminology repair, not a theorem or data change."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "cn": "110case2hasd=2k>0 and114saysbipartitemultigraph",
+          "en": "Old English545omits>0 and546saysbipartitegraph",
+          "disposition": "Retain Chinese author2011-05-23 corrections, matched to actual historical official changelist page20."
+        }
+      ],
+      "machineErrorsCorrected": [
+        "Restored undirected edge dashes instead of OCR equality/arrows, all n-primes and floor/ceiling symbols",
+        "Restored Saint Louis, MO; Toronto, ON; Winston-Salem, NC and exact748/746/748weights",
+        "Removed phantom overlines on116right side, restored plain vertical-bar two-line partition notation on117",
+        "Restored separate answers115/116and all nested braces"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "continuation": {
+        "previousCnPdfPage": 454,
+        "previousAnswerContinues": "7-110",
+        "nextCnPdfPage": 456,
+        "nextAnswer": "7-124"
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "Final mother/actual source question links",
+        "Whole-volume offline,routed andonline acceptance"
+      ],
+      "numericChecks": {
+        "receipt": "root-answer-checks/455-numerics.json",
+        "matrixGraph": "All18entries equal native incidence-multigraph multiplicities;9vertices,12edges,9endpoint pairs including3true parallel pairs",
+        "miles": "Actual fixed SGB C generator,128cities/8128edges;all341376triangles have no equilateral and a unique minimum side range2,at the source's748/746/748triangle. This criterion and frozen dataset are explicit; not current driving distances.",
+        "hypergraphs": "Canonical Fano7points7lines has7three-covers/7four-independent sets and is not weakly2colorable. Canonical Petersen dual has15vertices/10hyperedges,independence10 and given5/10weak2coloring.",
+        "boundaryQuestion": "Finite near-regular construction checks and an independent model confirm110case1 boundary n=d+1 even causes antipodal interval overlap. Preserve source, list qualification in separate report; theorem existence not challenged."
+      },
+      "sourceEditionQualifications": {
+        "answer121": "F is the set of all maximal independent sets in the actual source question121 on Chinese physical050; it is not the original hyperedge set E. Formula retained, no false correction.",
+        "answer115": "Ordinary simple graph domain of the source115question; do not extend2I+A identity to114loops.",
+        "answer110": "Both supplied sources retain construction-boundary ambiguity. No unlisted source-page text silently supplied."
+      },
+      "assets": [
+        "assets/volume4a/figures/answer-7-114-incidence-multigraph.svg"
+      ]
+    }
+  ],
+  "browser": {
+    "widths": [
+      1280,
+      390
+    ],
+    "cases": 2,
+    "mathExpressionsPerPass": 77,
+    "errors": 0,
+    "missingImages": 0,
+    "wholePageOverflow": 0,
+    "actualFontFacesLoaded": true,
+    "evidenceSha256": "efe3ffb74f00b33551e06130c3023fbec70b9e74ed577dfeb2d3522b8fcbec4a"
+  },
+  "numericEvidenceSha256": "6392999cddaea11ba3d4d3e2865cdc6724361f86f4d041e738382c01413b3765",
+  "checks": {
+    "status": "auxiliary-finite-checks-not-substitute-for-source-comparison",
+    "asset": {
+      "asset": "assets/volume4a/figures/answer-7-114-incidence-multigraph.svg",
+      "sha256": "7c92267f242046600d5a0afe87f87b2cd952cd8a178952eda0d493338c5befc7",
+      "enPdfPage": 546,
+      "selectionBounds": [
+        228,
+        177,
+        293,
+        194
+      ],
+      "nativePaths": 16,
+      "manualLabels": [],
+      "zeroExtentPathsPreserved": 0,
+      "sourceEnSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "method": "Only bounded native drawing primitives, including native arrowheads and zero-extent strokes; manual source labels. No page SVG, font definitions, bitmap, hidden clip or prose.",
+      "topology": {
+        "vertices": 9,
+        "incidenceEdgesWithMultiplicity": 12,
+        "distinctEndpointPairs": 9,
+        "trueParallelEdgePairs": 3,
+        "matrix": [
+          [
+            2,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2
+          ]
+        ],
+        "qualification": "Multiple curves here are distinct incidence edges, not retraced duplicate geometry."
+      }
+    },
+    "fano": {
+      "points": 7,
+      "lines": 7,
+      "threeVertexCovers": 7,
+      "fourVertexIndependentSets": 7,
+      "twoColorable": false,
+      "labels": "canonical GF(2)^3 representation; source vertex-label correspondence not asserted"
+    },
+    "petersenDual": {
+      "vertices": 15,
+      "hyperedges": 10,
+      "maximumIndependentSetSize": 10,
+      "spokesVersusOtherEdgesProperWeakTwoColoring": true
+    },
+    "answer110BoundaryQuestion": {
+      "normalFiniteInputs": 1276,
+      "failedBoundaryInputs": 54,
+      "example": {
+        "n": 4,
+        "d": 3,
+        "p": 4,
+        "q": 0,
+        "actualDegrees": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "intendedDegreeMultiset": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "disposition": "Preserve both supplied sources. Case1 assumes distinct offset intervals; at even n=d+1 the antipodal residue occurs only once in a simple graph. Original question explicitly permits n>d. This is a construction-boundary qualification, not a counterexample to graphical existence. Independent second model agrees.",
+      "sourceQuestionCnPhysicalPage": 50,
+      "sourceQuestionFullPageReviewed": false,
+      "notOfficialErratumClaim": true
+    },
+    "miles": {
+      "graphCall": "miles(128,0,0,0,0,127,0)",
+      "cityCount": 128,
+      "undirectedEdges": 8128,
+      "trianglesChecked": 341376,
+      "equilateralTriangles": 0,
+      "criterion": "minimum(maximum side minus minimum side), in the frozen SGB mileage table",
+      "minimumSideRange": 2,
+      "minimizers": [
+        {
+          "cities": [
+            "Saint Louis, MO",
+            "Toronto, ON",
+            "Winston-Salem, NC"
+          ],
+          "sideLengths": [
+            748,
+            746,
+            748
+          ]
+        }
+      ],
+      "sourceDataSha256": "2888d2e90769c61abd63ba361204aaec7082b594288e0e4a41cf7151adc96542",
+      "outputSha256": "3e0341b1c111be1b60cccbf4cc2657660934e6174ebe64866715479eea0bd06f",
+      "helperSha256": "2035e3523e11c7f42aae3bf10a5893ff7a7c18d6277c5006c88d4e6c29dc7e34",
+      "notCurrentRoadDistances": true
+    },
+    "inputMarkdownSha256": "b48cf8da66d52eed524b394ec3f07e732598becc47d21315983e2ecb18f75b3d"
+  },
+  "qualifications": [
+    "Private page proof,not whole-volume or routed production acceptance",
+    "Preserve110construction with separate boundary qualification",
+    "SGBmileages frozen,not current navigation"
+  ],
+  "additionalMathEndpointValidation": {
+    "evidenceSha256": "5020ae290f129a339e007b975e7a73b3d193d470fe9200c12fe48e809aa496ae",
+    "actualEndpointScreensViewed": 12,
+    "privateSourcePageProofOnly": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "scope": "Report Markdown-table formula delimiter fix only; no book or mathematical claim changed.",
+  "item": "答267最大值 / 中文印刷568",
+  "reportBeforeSha256": "5dba7aad8bc8bf30df10d4b6c5d792c50c70e3aff54f65a1fb1eac889fd44718",
+  "reportAfterRepairSha256": "6a2cc71bf11bc42363af190fab4f046c4e3330dba7b6e6acf35a1b767f54ecd4",
+  "originalTex": "$S(T)=\\zeta(T)-|T|$",
+  "renderableTex": "$S(T)=\\zeta(T)-\\lvert T\\rvert$",
+  "reason": "Raw vertical bars in a Markdown table split cells before math parsing. Use explicit left/right vertical-bar TeX delimiters for the same tree cardinality. This restores both formulas and the remainder of the table cell; the 45488 book formulas remain unchanged.",
+  "reportMathCountBefore": 601,
+  "reportMathCountAfter": 603
+}

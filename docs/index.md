@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: 卷三 · 排序与查找
       link: /volume3/frontmatter
+    - theme: alt
+      text: 卷4A · 组合算法（一）
+      link: /volume4a/frontmatter
 features:
   - title: 卷一 · 基本算法
     details: 基本概念、数学基础、MIX 程序与信息结构。
@@ -28,12 +31,17 @@ features:
     details: 内部与外部排序、比较树、查找结构、散列与多键查找。
     link: /volume3/
     linkText: 查看卷三目录
+  - title: 卷4A · 组合算法（一）
+    details: 布尔函数、按位运算、二元决策图与基本组合模式的生成。
+    link: /volume4a/
+    linkText: 查看卷4A目录
 ---
 
-三卷均保留原书的习题、答案、附录和索引，公式使用 LaTeX，程序与表格保留可编辑文本。支持全文搜索、原页跳转、题答往返与本机阅读设置。
+四册均保留原书的习题、答案、附录和索引，公式使用 LaTeX，程序与表格保留可编辑文本。支持全文搜索、原页跳转、题答往返与本机阅读设置。
 
 | 分册 | 在线阅读 |
 |---|---|
 | 卷一《基本算法》 | [卷前](/volume1/frontmatter) · [目录](/volume1/) |
 | 卷二《半数值算法》 | [卷前](/volume2/frontmatter) · [目录](/volume2/) |
 | 卷三《排序与查找》 | [卷前](/volume3/frontmatter) · [目录](/volume3/) |
+| 卷4A《组合算法（一）》 | [卷前](/volume4a/frontmatter) · [目录](/volume4a/) |

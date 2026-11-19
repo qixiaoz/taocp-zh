@@ -1,0 +1,694 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-source-pages-205-to-207-multiplier-ternary-and-quantifiers",
+  "cnPhysicalPages": [
+    205,
+    206,
+    207
+  ],
+  "cnPrintedPages": [
+    190,
+    191,
+    192
+  ],
+  "masterSha256": null,
+  "mathExpressions": 186,
+  "privateBrowserCases": 6,
+  "substantiveCorrections": 3,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 205,
+      "cnPrintedPage": 190,
+      "enPdfPages": [
+        245,
+        246
+      ],
+      "enPrintedPages": [
+        228,
+        229
+      ],
+      "pageMarkdownSha256": "efac2300a280b4aaedd02f66494281eae43bf8d7982f61da44eb1d8e4be246b2",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-205.png",
+      "sourcePageImageSha256": "1c5d6c49dd579f88cd81ae5c395f6d67a491f66b30ca167bc0a3e9a96a30e9a1",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-245.png",
+          "sha256": "73c0656665051cf169d76983a7e203518589b7ee3d16f1b2f55b3eb918863e1b",
+          "physicalPage": 245
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-246.png",
+          "sha256": "6f7984fa53abf73e64cc35da32dbb72e686b6bd3ab6881206524e4960d80501a",
+          "physicalPage": 246
+        }
+      ],
+      "pageAnchors": [
+        "pdf-205",
+        "p-190",
+        "eq-7-1-4-58"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/diagram-7-1-4-58-shared-multiplier-bdd.svg",
+          "sha256": "dda2b23f481106c739cc27da942f40346f187c88aded7cafe0bd1df6a5181a37",
+          "enPdfPage": 245,
+          "sourceBounds": [
+            [
+              145,
+              511,
+              385,
+              608
+            ]
+          ],
+          "nativePaths": 194,
+          "sourceDirectlyCompared": true,
+          "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+          "branchesByInputRank": {
+            "1": 4,
+            "2": 7,
+            "3": 13,
+            "4": 16,
+            "5": 8,
+            "6": 2
+          },
+          "physicallyDrawnTerminals": {
+            "⊥": 10,
+            "⊤": 6
+          },
+          "orderedRootLabels": [
+            "F6",
+            "F1",
+            "F5",
+            "F3",
+            "F2",
+            "F4"
+          ],
+          "displayAdaptation": "Retyped original arithmetic and root labels, all bounded source graph primitives retained."
+        }
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.4 三个函数中同一个字母的不同作用",
+          "enPosition": "PDF246／印刷229，式(61)后",
+          "original": "但愿这些公式的读者忘记 $h_h$ 中 $h$ 的两种含义",
+          "final": "请读者勿混淆这些式中 $h_h$ 的两个 $h$ 的含义",
+          "basis": "英文 please forgive the two meanings 提醒读者区分函数名与高分支下标，原“忘记”不准确。",
+          "cnPrintedPage": 190
+        },
+        {
+          "location": "§7.1.4 三元缓存的两个八字节全字",
+          "enPosition": "PDF246／印刷229，式(62)后",
+          "original": "用（比如说）两个全字方便地表示",
+          "final": "用比如两个八字节全字方便地表示",
+          "basis": "two octabytes 明说每个全字八字节，总共16字节。",
+          "cnPrintedPage": 190
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Completion of the CN204 multiplication prose, exact base case and binary recurrence (57), and original multiplication layout (58).",
+        "Original note about 16-bit factors, exact large integer counts and historical memory/operation claims.",
+        "Original asterisk, CN f_o/g_o/h_o in ternary branch rank, all formulae (59)–(62), six MUX branches and memo requirements."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 205,
+        "markdownSha256": "efac2300a280b4aaedd02f66494281eae43bf8d7982f61da44eb1d8e4be246b2",
+        "htmlSha256": "91983f0aeda31faa458349b74fd65981b798b413712232f94a607cfca623587b",
+        "mathExpressions": 31,
+        "displayMath": 5,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-205-206-207.json",
+        "sha256": "695c9715089e490f6ddffc2b17de60d8684a4d02cd3cdd8e21a03ec2b3485c92",
+        "cases": [
+          {
+            "physicalPage": 205,
+            "width": 1280,
+            "markdownSha256": "efac2300a280b4aaedd02f66494281eae43bf8d7982f61da44eb1d8e4be246b2",
+            "documentWidth": 1280,
+            "math": 31,
+            "mathml": 31,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 31,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 205,
+            "width": 390,
+            "markdownSha256": "efac2300a280b4aaedd02f66494281eae43bf8d7982f61da44eb1d8e4be246b2",
+            "documentWidth": 390,
+            "math": 31,
+            "mathml": 31,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 31,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actual final isolated full pages at 1280, 390 initial and 390 right inspected, plus named intermediate/desktop right crops. The multiplier original link opened and returned in both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/205-1280.png",
+          "sha256": "0f80dc94c23755259063a9c57e979771a0fdae6656cc4074f72b9dc852eaf978",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/205-390.png",
+          "sha256": "8c6151a8720d3d444b05d95b607191a0e9b159459e1d9a19cc6ed01fd03a7d62",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/205-390-right.png",
+          "sha256": "f2a3f5405e21ce12fe136266a7db3d0229eae0faee6f6b771d7882070570f227",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/205-1280-wide-26-2.png",
+          "sha256": "b6540042fefcad16a35297bb8e97004a08c435bc1edd0fe9202e983acfb2169b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/205-390-wide-2-1.png",
+          "sha256": "31dda2a7ef71ba1782c04a63612c474db2209d669d39af0e8255d7e97ba3386c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/205-390-wide-16-1.png",
+          "sha256": "fa78824c3ea23c85507b44bcd0a1f31848393b76f6d0095aabbb129f33f1cc58",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/205-390-wide-26-1.png",
+          "sha256": "836be4463fa981656945b84798cf19ac9aaf039684aa91c5fe8cd9cefc731ff8",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-205-mul-diagram.png",
+          "sha256": "7ab1d4eaeb43d47c835d5c1d4bd35464e34ca6c3faac19b1076c160dca3ec38e"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-245-mul-diagram.png",
+          "sha256": "674309c454694658679e31042841adbe49c6bde4037ca57016123d7abe977616"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN205–207 read against actual EN245–249 sources. Fixed cases cover identical original 3×3 multiplier levels, small quantifier/ternary instances and all small graph cases stated in the ledger.",
+      "startsMidParagraph": true,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "followingPageContinuation": "The first source line 的每一位 belongs to the CN204 sentence around (56). Its complete meaning is already in accepted CN204 pre-equation wording 各个数位. The CN205 text resumes 显而易见 and its physical anchor is retained.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/205-selected-cn-before-translation-repair-d0c1c851a6a91d07723deda20b4abc724095905a96d1ffff70a33a3e231c0be4/205.md",
+        "sha256": "d0c1c851a6a91d07723deda20b4abc724095905a96d1ffff70a33a3e231c0be4",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-multiplier-ternary-quantifiers-205-207.json",
+          "sha256": "34d736b860f9e9477fec0e772983d428cb4b9e3aa16da69af606fc40ef480f17",
+          "scope": "All 64 fixed three-bit multiplier inputs and source layer counts, all 4,096 triples of two-variable MUX operands, all chosen n=3 existential cases, and elementary quantifier and 4-vertex kernel adjacency checks."
+        },
+        {
+          "file": "assets/volume4a/review/body-205-207-wide-details.json",
+          "sha256": "f83476833f6491ee0c956140c8d97e426435847f502e2e30f04f8ee9777481e1",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        },
+        {
+          "file": "assets/volume4a/review/body-205-original-multiplier-link.json",
+          "sha256": "7598788c5fe483d72eba36a5e5b2939743e3be462dbbfac8216f0b762e5e5fc6",
+          "scope": "Actual linked original image opening and back navigation in current private proofs. No published route or separate whole-page cases."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "752c32ccb38e04a5aa4ae5d65dc72cb77326587a48ca821f48b6d3590579a4fe",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/205.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 206,
+      "cnPrintedPage": 191,
+      "enPdfPages": [
+        246,
+        247,
+        248
+      ],
+      "enPrintedPages": [
+        229,
+        230,
+        231
+      ],
+      "pageMarkdownSha256": "c29d618e50e476381ad0e3aba2acdfa86fe1b8c1703658e67ffa5a5288eba756",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-206.png",
+      "sourcePageImageSha256": "9d218fd4133a8610feedabaf537d7c228467b803cf2c4798266a6d95bb6d8d16",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-246.png",
+          "sha256": "6f7984fa53abf73e64cc35da32dbb72e686b6bd3ab6881206524e4960d80501a",
+          "physicalPage": 246
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-247.png",
+          "sha256": "8fedd5adca852b1ea57f552ac356d7e2fe90fd845370dfd1665b98ed54f0b615",
+          "physicalPage": 247
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-248.png",
+          "sha256": "635bd8745f3e87db3dbea0a5bff5a933383884b02a8458f26f1ff62b3e4ed38a",
+          "physicalPage": 248
+        }
+      ],
+      "pageAnchors": [
+        "pdf-206",
+        "p-191"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.4 量词参数为正字面量合取",
+          "enPosition": "PDF247／印刷230，式(65)前",
+          "original": "是一些正数的合取",
+          "final": "为一些正字面量的合取",
+          "basis": "positive literals 指未取反的布尔变量，本例的 g 用它们标明要量化的变量。",
+          "cnPrintedPage": 191
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Three AND evaluation orders and author’s historical counts, all simplify clauses in ANDAND.",
+        "Original quantifier asterisk, (63)–(64) coefficients and Boolean matrix case.",
+        "All eight EXISTS rows in (65), explicit positive literals, both recursive arguments g_h, and original complexity discussion beginning."
+      ],
+      "ocrRepairsOfNote": [
+        "Initial provisional CN206 appended 在 beyond the actual page boundary. Earlier screenshots and hashes archived; fresh 1280/390/390-right renders match all prior pixels except that single trailing glyph, visibly inspected on all current states."
+      ],
+      "syntaxCheck": {
+        "physicalPage": 206,
+        "markdownSha256": "c29d618e50e476381ad0e3aba2acdfa86fe1b8c1703658e67ffa5a5288eba756",
+        "htmlSha256": "8c5f3875b54bf07d4b58d1d286547940df3c6d0e97cee4fa5fb7073c6a179d25",
+        "mathExpressions": 71,
+        "displayMath": 3,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-205-206-207.json",
+        "sha256": "695c9715089e490f6ddffc2b17de60d8684a4d02cd3cdd8e21a03ec2b3485c92",
+        "cases": [
+          {
+            "physicalPage": 206,
+            "width": 1280,
+            "markdownSha256": "c29d618e50e476381ad0e3aba2acdfa86fe1b8c1703658e67ffa5a5288eba756",
+            "documentWidth": 1280,
+            "math": 71,
+            "mathml": 71,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 71,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 206,
+            "width": 390,
+            "markdownSha256": "c29d618e50e476381ad0e3aba2acdfa86fe1b8c1703658e67ffa5a5288eba756",
+            "documentWidth": 390,
+            "math": 71,
+            "mathml": 71,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 71,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actual final isolated full pages at 1280, 390 initial and 390 right inspected, plus named intermediate/desktop right crops. The multiplier original link opened and returned in both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/206-1280.png",
+          "sha256": "5fbf710088de1981955830e3516c23163d88e4987f2bb923565b0de884ec3093",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/206-390.png",
+          "sha256": "528302d09a489f522b648bfc37f20b1fec74c60b5c720eca9210da6d1edda9a0",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/206-390-right.png",
+          "sha256": "926092fd18dab0ccd930eaf77db64c49849b039e067d9085ae57fa1cc5cb3d4a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/206-1280-wide-61-2.png",
+          "sha256": "4914fbcfe88d2b076b0173354c4dd86e86e84e56ad3b461bb9189f89aa1c13cc",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/206-390-wide-29-1.png",
+          "sha256": "6af8ed6111dcc0150b6b918f5b99a53211ee228432f56362566c114e48b2f2db",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/206-390-wide-53-1.png",
+          "sha256": "49da096762310797eba004db24ffa7818822c0775e69f1e24a0792f4b35cdcaa",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/206-390-wide-61-1.png",
+          "sha256": "5abf8398b4fe91eb371dc7ef09b51ba2dd6ac1f6a9f9335a5ed3fe810b4af3bf",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/206-1280-continuation-check.png",
+          "sha256": "debb6c19d7a9277c347b4a19a9e92351555c1239d1caf1eb70b0caad4e449d3d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/206-390-continuation-check.png",
+          "sha256": "561b4a39930aa6d10cdc5e77f2b84d977eb0291606d711ea12ad62bd9d291957",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/206-390-right-continuation-check.png",
+          "sha256": "561b4a39930aa6d10cdc5e77f2b84d977eb0291606d711ea12ad62bd9d291957",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-206-exists-pseudocode.png",
+          "sha256": "509e190d090ce6f146dc02b493ef922f94252b1a5f550c9603978ada1e8c0c90"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN205–207 read against actual EN245–249 sources. Fixed cases cover identical original 3×3 multiplier levels, small quantifier/ternary instances and all small graph cases stated in the ledger.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "followingPageContinuation": "Final phrase 如果所有量词化出现 directly joins CN207 在 f 的 BDD 的根结点附近, with hidden physical anchors outside the complete sentence.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/206-selected-cn-before-translation-repair-f1baf3b8e03cc24f9672d74c2bcb459656a7d9cbd50e3d2f1740e99f1071d32b/206.md",
+        "sha256": "f1baf3b8e03cc24f9672d74c2bcb459656a7d9cbd50e3d2f1740e99f1071d32b",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-multiplier-ternary-quantifiers-205-207.json",
+          "sha256": "34d736b860f9e9477fec0e772983d428cb4b9e3aa16da69af606fc40ef480f17",
+          "scope": "All 64 fixed three-bit multiplier inputs and source layer counts, all 4,096 triples of two-variable MUX operands, all chosen n=3 existential cases, and elementary quantifier and 4-vertex kernel adjacency checks."
+        },
+        {
+          "file": "assets/volume4a/review/body-205-207-wide-details.json",
+          "sha256": "f83476833f6491ee0c956140c8d97e426435847f502e2e30f04f8ee9777481e1",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "e21382975d5d1821bffcd5c6a47099e981dca052c997fe1ce02d6782e44515ae",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/206.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 207,
+      "cnPrintedPage": 192,
+      "enPdfPages": [
+        248,
+        249
+      ],
+      "enPrintedPages": [
+        231,
+        232
+      ],
+      "pageMarkdownSha256": "95555fef805d1da2454bfe0a2618db7546b04899bdf511fdf5812a63f97c3df7",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-207.png",
+      "sourcePageImageSha256": "d410a080945caa8b77619655630300937dc8da2a69154cd97e0cec5599fe1332",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-248.png",
+          "sha256": "635bd8745f3e87db3dbea0a5bff5a933383884b02a8458f26f1ff62b3e4ed38a",
+          "physicalPage": 248
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-249.png",
+          "sha256": "f2c99a70d1b01b966ea73bddd7085a2e726d9f86b4c2d6a69020ac3d3a413b47",
+          "physicalPage": 249
+        }
+      ],
+      "pageAnchors": [
+        "pdf-207",
+        "p-192",
+        "eq-7-1-4-66"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/glyph-7-1-4-66-difference.svg",
+          "sha256": "df68aa33de094d12c3aaf68c0df5ba3284809c85c6925da06fa4c06e732c7199",
+          "enPdfPage": 248,
+          "sourceBounds": [
+            94.95,
+            158.1,
+            100.45,
+            165.55
+          ],
+          "method": "Original bounded black vector strokes from Eq.(66) on a transparent SVG canvas.",
+          "nativePaths": 1,
+          "sourceDirectlyCompared": true,
+          "title": "布尔差量词"
+        },
+        {
+          "file": "assets/volume4a/figures/glyph-7-1-4-66-yes.svg",
+          "sha256": "90892401b9e762fe8cb09b8b8db3336d73e6ae4f89d122bb88f7cd8e2361de22",
+          "enPdfPage": 248,
+          "sourceBounds": [
+            187.08,
+            158.0,
+            193.24,
+            165.53
+          ],
+          "method": "Original bounded black vector strokes from Eq.(66) on a transparent SVG canvas.",
+          "nativePaths": 2,
+          "sourceDirectlyCompared": true,
+          "title": "是量词"
+        },
+        {
+          "file": "assets/volume4a/figures/glyph-7-1-4-66-no.svg",
+          "sha256": "118b6ceaa512b6a1059800049dab5e240bc58a520a113f77c51d12b9375aa523",
+          "enPdfPage": 248,
+          "sourceBounds": [
+            278.79,
+            157.95,
+            283.68,
+            165.5
+          ],
+          "method": "Original bounded black vector strokes from Eq.(66) on a transparent SVG canvas.",
+          "nativePaths": 1,
+          "sourceDirectlyCompared": true,
+          "title": "否量词"
+        }
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Exact 2^m exponent on B(f), restriction at roots versus sinks, original three uncommon quantifier glyphs, bars and formulas (66).",
+        "IND and KER definitions, original branch order, (69) adjacency and (70) isolated-kernel expression.",
+        "49-vertex original example including stated numbers and continuation to the source pair on the next page."
+      ],
+      "ocrRepairsOfNote": [
+        "Exact bounded SVG glyph paths for all three original special operators (difference / yes / no) replace incorrect machine box and letter approximations. Seven applied tokens stay together with their editable math, and original outlines visually read on both viewport widths. Initial narrower line grouping archived."
+      ],
+      "syntaxCheck": {
+        "physicalPage": 207,
+        "markdownSha256": "95555fef805d1da2454bfe0a2618db7546b04899bdf511fdf5812a63f97c3df7",
+        "htmlSha256": "48dc06ca5c2bd672f8ea6a382d83b14fd3884d4fd807ca4be38b7a0de30490eb",
+        "mathExpressions": 84,
+        "displayMath": 4,
+        "parseErrors": 0,
+        "images": 9,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-205-206-207.json",
+        "sha256": "695c9715089e490f6ddffc2b17de60d8684a4d02cd3cdd8e21a03ec2b3485c92",
+        "cases": [
+          {
+            "physicalPage": 207,
+            "width": 1280,
+            "markdownSha256": "95555fef805d1da2454bfe0a2618db7546b04899bdf511fdf5812a63f97c3df7",
+            "documentWidth": 1280,
+            "math": 84,
+            "mathml": 84,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 84,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 207,
+            "width": 390,
+            "markdownSha256": "95555fef805d1da2454bfe0a2618db7546b04899bdf511fdf5812a63f97c3df7",
+            "documentWidth": 390,
+            "math": 84,
+            "mathml": 84,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 84,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actual final isolated full pages at 1280, 390 initial and 390 right inspected, plus named intermediate/desktop right crops. The multiplier original link opened and returned in both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/207-1280.png",
+          "sha256": "060ce92a7be763229e07de528820a272ef758da9804ca92815c5b79a98322bd9",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/207-390.png",
+          "sha256": "d7236f0244aaa88e3ec956065c594f9a7c63709e0e91449346409ef8a19f88b1",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/207-390-right.png",
+          "sha256": "76cb66dbc41fbc234f41d0053a01c708b47e0c3c987aeb800a5226f89321b6e0",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-207-quantifier-glyphs.png",
+          "sha256": "8eae988a1486155096d0b0858629c8dae4f53d0487d8bcebe86b6b67427f3346"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-248-quantifier-glyphs.png",
+          "sha256": "569a208acb916b900a374a2b6bacb49b3aba9940e3b110771c9fb0a05db1a1a3"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN205–207 read against actual EN245–249 sources. Fixed cases cover identical original 3×3 multiplier levels, small quantifier/ternary instances and all small graph cases stated in the ledger.",
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "followingPageContinuation": "First line continues previous complex running-time sentence, directly adjacent to CN206. Last phrase 我们发现 G continues into CN208 ...恰好有三个孤立核. Keep it together before the original graphical equation (71).",
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-multiplier-ternary-quantifiers-205-207.json",
+          "sha256": "34d736b860f9e9477fec0e772983d428cb4b9e3aa16da69af606fc40ef480f17",
+          "scope": "All 64 fixed three-bit multiplier inputs and source layer counts, all 4,096 triples of two-variable MUX operands, all chosen n=3 existential cases, and elementary quantifier and 4-vertex kernel adjacency checks."
+        },
+        {
+          "file": "assets/volume4a/review/body-205-207-wide-details.json",
+          "sha256": "f83476833f6491ee0c956140c8d97e426435847f502e2e30f04f8ee9777481e1",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "44790470182083d8015b17b043d62fce2f713b6c29e9761697dc42c6cb49c9cb",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/207.json"
+    }
+  ],
+  "qualification": "Complete CN205–207 read against actual EN245–249 sources. Fixed cases cover identical original 3×3 multiplier levels, small quantifier/ternary instances and all small graph cases stated in the ledger."
+}

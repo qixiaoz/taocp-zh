@@ -1,0 +1,370 @@
+{
+  "scope": "Finite exact 10 instructions (41), 768 operand/op cases and five deterministic hash chains; Eq. (48) and (49) exhaustive through n=4, exact fixed monotone BDD counts through n=6. No full Algorithm S implementation, n=7/8 recomputation, or historical memory timing claimed.",
+  "exactInstructions41": [
+    {
+      "5": [
+        1,
+        4,
+        3
+      ],
+      "3": [
+        3,
+        2,
+        1
+      ],
+      "4": [
+        2,
+        0,
+        3
+      ],
+      "2": [
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "7": [
+        1,
+        5,
+        6
+      ],
+      "4": [
+        3,
+        2,
+        3
+      ],
+      "6": [
+        2,
+        1,
+        4
+      ],
+      "3": [
+        4,
+        1,
+        0
+      ],
+      "5": [
+        2,
+        4,
+        1
+      ],
+      "2": [
+        4,
+        0,
+        1
+      ]
+    }
+  ],
+  "truths": [
+    "0000011101110111",
+    "0110111111110110"
+  ],
+  "dispatchCases": 768,
+  "hashChainCases": [
+    [
+      1,
+      0
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      17,
+      38
+    ],
+    [
+      19,
+      108
+    ]
+  ],
+  "figure25": {
+    "file": "assets/volume4a/figures/fig-7-25-monotone-synthesis.svg",
+    "sha256": "b051e8760edcdd04d95e7664dc3ec8a4c126c2bbc75d543e4ecd585a39c0fd40",
+    "enPdfPage": 241,
+    "sourceBounds": [
+      [
+        52,
+        104,
+        115,
+        204
+      ],
+      [
+        138,
+        104,
+        199,
+        204
+      ],
+      [
+        226,
+        64,
+        260,
+        245
+      ],
+      [
+        291,
+        64,
+        418,
+        245
+      ]
+    ],
+    "nativePaths": 174,
+    "sourceDirectlyCompared": true,
+    "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+    "panelPaths": [
+      28,
+      28,
+      34,
+      84
+    ],
+    "levelCounts": [
+      {
+        "1": 1,
+        "3": 2,
+        "5": 2,
+        "7": 1
+      },
+      {
+        "2": 1,
+        "4": 2,
+        "6": 2,
+        "8": 1
+      },
+      {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1
+      },
+      {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 5,
+        "5": 5,
+        "6": 3,
+        "7": 2,
+        "8": 1
+      }
+    ],
+    "operators": [
+      "∧",
+      "∧",
+      "="
+    ]
+  },
+  "firstLevelInitialization": {
+    "example": "Both operands are x1, operation AND",
+    "findLevel": 1,
+    "vmax": 1,
+    "iterationsForLltKleVmax": 0,
+    "requiredBeforeS2": "LSTART[0] ← POOLSIZE"
+  },
+  "exhaustiveMonotoneFormulaAssignments": [
+    2,
+    4,
+    16,
+    256,
+    65536
+  ],
+  "bddCases": [
+    {
+      "n": 0,
+      "arguments": 1,
+      "bddNodes": 1,
+      "monotoneTruthTables": 2,
+      "internalLevels": {}
+    },
+    {
+      "n": 1,
+      "arguments": 2,
+      "bddNodes": 4,
+      "monotoneTruthTables": 3,
+      "internalLevels": {
+        "2": 1,
+        "1": 1
+      }
+    },
+    {
+      "n": 2,
+      "arguments": 4,
+      "bddNodes": 8,
+      "monotoneTruthTables": 6,
+      "internalLevels": {
+        "4": 1,
+        "3": 2,
+        "2": 2,
+        "1": 1
+      }
+    },
+    {
+      "n": 3,
+      "arguments": 8,
+      "bddNodes": 24,
+      "monotoneTruthTables": 20,
+      "internalLevels": {
+        "8": 1,
+        "7": 2,
+        "6": 3,
+        "5": 5,
+        "4": 5,
+        "3": 3,
+        "2": 2,
+        "1": 1
+      }
+    },
+    {
+      "n": 4,
+      "arguments": 16,
+      "bddNodes": 124,
+      "monotoneTruthTables": 168,
+      "internalLevels": {
+        "16": 1,
+        "15": 2,
+        "14": 3,
+        "13": 5,
+        "12": 6,
+        "11": 11,
+        "10": 14,
+        "9": 19,
+        "8": 19,
+        "7": 14,
+        "6": 11,
+        "5": 6,
+        "4": 5,
+        "3": 3,
+        "2": 2,
+        "1": 1
+      }
+    },
+    {
+      "n": 5,
+      "arguments": 32,
+      "bddNodes": 1570,
+      "monotoneTruthTables": 7581,
+      "internalLevels": {
+        "32": 1,
+        "31": 2,
+        "30": 3,
+        "29": 5,
+        "28": 6,
+        "27": 11,
+        "26": 14,
+        "25": 19,
+        "24": 20,
+        "23": 39,
+        "22": 53,
+        "21": 78,
+        "20": 84,
+        "19": 134,
+        "18": 148,
+        "17": 167,
+        "16": 167,
+        "15": 148,
+        "14": 134,
+        "13": 84,
+        "12": 78,
+        "11": 53,
+        "10": 39,
+        "9": 20,
+        "8": 19,
+        "7": 14,
+        "6": 11,
+        "5": 6,
+        "4": 5,
+        "3": 3,
+        "2": 2,
+        "1": 1
+      }
+    },
+    {
+      "n": 6,
+      "arguments": 64,
+      "bddNodes": 103924,
+      "monotoneTruthTables": 7828354,
+      "internalLevels": {
+        "64": 1,
+        "63": 2,
+        "62": 3,
+        "61": 5,
+        "60": 6,
+        "59": 11,
+        "58": 14,
+        "57": 19,
+        "56": 20,
+        "55": 39,
+        "54": 53,
+        "53": 78,
+        "52": 84,
+        "51": 134,
+        "50": 148,
+        "49": 167,
+        "48": 168,
+        "47": 335,
+        "46": 483,
+        "45": 765,
+        "44": 849,
+        "43": 1466,
+        "42": 1681,
+        "41": 1988,
+        "40": 2008,
+        "39": 3700,
+        "38": 4414,
+        "37": 5489,
+        "36": 5573,
+        "35": 7265,
+        "34": 7413,
+        "33": 7580,
+        "32": 7580,
+        "31": 7413,
+        "30": 7265,
+        "29": 5573,
+        "28": 5489,
+        "27": 4414,
+        "26": 3700,
+        "25": 2008,
+        "24": 1988,
+        "23": 1681,
+        "22": 1466,
+        "21": 849,
+        "20": 765,
+        "19": 483,
+        "18": 335,
+        "17": 168,
+        "16": 167,
+        "15": 148,
+        "14": 134,
+        "13": 84,
+        "12": 78,
+        "11": 53,
+        "10": 39,
+        "9": 20,
+        "8": 19,
+        "7": 14,
+        "6": 11,
+        "5": 6,
+        "4": 5,
+        "3": 3,
+        "2": 2,
+        "1": 1
+      }
+    }
+  ],
+  "pageMarkdownHashes": {
+    "198": "7f5e649c8828e1f84e64d29829f756a8dd3761c4681513af6321e9fa0fc35f38",
+    "199": "c9242882cfb59aca6485545fb9e7f3e1c50f371b5f90fb092ca0d511180ace71",
+    "200": "684b534ca01f1886f5b63b03025f3964bcc6f3f31cd995bb8ba93d30fcf1565f",
+    "201": "8324ed1bc073c641824683d2fd298db0645b03c27e3e9f8fe61a445203899b38"
+  },
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+}

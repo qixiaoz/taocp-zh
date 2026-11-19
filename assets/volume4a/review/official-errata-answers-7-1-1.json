@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "reviewerType": "model-direct-official-changelist-image-comparison",
+  "humanSignOff": false,
+  "source": {
+    "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+    "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+    "documentPage": 21,
+    "sourceImage": "private-snapshot:volume4a/root-sources/official-p21-bottom.png",
+    "sourceImageSha256": "002d31c17c7b8204a3654a3dd06a9e58a5bb9d53d562c62fc018ef41ff429673",
+    "actualImageDirectlyViewed": true
+  },
+  "observations": [
+    {
+      "answer": "7.1.1-7",
+      "cnPdfPage": 460,
+      "reportedDate": "2020-04-19",
+      "decision": "Update7.2.3to7.2.2.1;preserveoldboundpageasrealhistory,rerendercurrentsource."
+    },
+    {
+      "answer": "7.1.1-12(b)",
+      "cnPdfPage": 461,
+      "reportedDate": "2013-11-28",
+      "decision": "Chinesealreadycontainscorrectedkstar/k-variablewording.KeepChinese;oldEnglishdisguisedformparagraphisnotreasonforeditingback.",
+      "currentPageMarkdownSha256": "38abc64ceac6dd356ac5e864d723bf165591ce9fb2a89bd150459899a542b262",
+      "priorPageRecordSha256": "cc2529dfed00bd77d7baac9d7ad8dd4366d549049c6974f410fe94e6bf853f36",
+      "noMarkdownChange": true
+    },
+    {
+      "answer": "7.1.1-30",
+      "cnPdfPage": 463,
+      "reportedDate": "2013-10-13",
+      "decision": "Chinesealreadycorrectlyhasatmostproportionalmnplusntimestotalsubcubes.OldEnglishomitsn.KeepChinese;fullpage463stillbeingtranscribed.",
+      "fullPage463Accepted": false
+    }
+  ]
+}

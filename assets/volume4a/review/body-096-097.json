@@ -1,0 +1,419 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "two-complete-source-pages-normal-chain-AlgorithmL-footprint-table1",
+  "cnPhysicalPages": [
+    96,
+    97
+  ],
+  "cnPrintedPages": [
+    81,
+    82
+  ],
+  "masterSha256": null,
+  "mathExpressions": 156,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 0,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.2",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 96,
+      "cnPrintedPage": 81,
+      "enPdfPages": [
+        116,
+        117
+      ],
+      "enPrintedPages": [
+        99,
+        100
+      ],
+      "pageMarkdownSha256": "eed5b1845d5644d0534ee4df74af640d5d3d393643bbac755c812c3d71e906af",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-096.png",
+      "sourcePageImageSha256": "a92df458d8b62e0c35ce98fd30f0041b4f8e0f22b88e32b6761228237e482c9d",
+      "enPageImages": [
+        {
+          "physicalPage": 116,
+          "file": "private-snapshot:volume4a/body-review/en-116.png",
+          "sha256": "c6d293e60056c09ca5f2ca49e0a8e796d3cfdc9ff6c579331ec76ec476c98e92"
+        },
+        {
+          "physicalPage": 117,
+          "file": "private-snapshot:volume4a/body-review/en-117.png",
+          "sha256": "169c0a02173535ba33358cd86c2d36d2b303eb23a3dee3eac7214e33f7d04b9f"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-096",
+        "p-81",
+        "alg-7-1-2-L"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed page number, retained as hidden page anchors."
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [
+        {
+          "location": "Normalchainparagraphafter10",
+          "selectedCN": "其中每一步xi都是正规的",
+          "providedOldEnglish": "without loss of generality, no explicit every-step clause",
+          "officialReportedDate": "2015-06-10",
+          "officialSource": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentVersionDate": "2023-02-09",
+            "documentPage": 9,
+            "sourceImage": "private-snapshot:volume4a/body-review/official-pre-page9-m-index.png",
+            "sourceImageSha256": "ef98632a631a4e88ad613da4b286deeb310a4b202cdbe21ca8a4c360cfb65be6"
+          },
+          "disposition": "Chinese already contains author all-steps-normal qualifier; preserve not revert old English."
+        }
+      ],
+      "figureAssets": [],
+      "pending": [
+        "Finalwhole-volumeinclusion",
+        "Finaloffline/production/browser/onlineacceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 96,
+        "markdownSha256": "eed5b1845d5644d0534ee4df74af640d5d3d393643bbac755c812c3d71e906af",
+        "htmlSha256": "c997bc9f8871d770bf78d138bc3b4d430b5cc946fd1126046940126515a203c3",
+        "mathExpressions": 85,
+        "displayMath": 3,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-96-97.json",
+        "sha256": "99528ed5b8efce64e60911a46d510a8592113c866eecdf8f2413c24b97500966",
+        "cases": [
+          {
+            "physicalPage": 96,
+            "width": 1280,
+            "markdownSha256": "eed5b1845d5644d0534ee4df74af640d5d3d393643bbac755c812c3d71e906af",
+            "documentWidth": 1280,
+            "math": 85,
+            "mathml": 85,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 85,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 96,
+            "width": 390,
+            "markdownSha256": "eed5b1845d5644d0534ee4df74af640d5d3d393643bbac755c812c3d71e906af",
+            "documentWidth": 390,
+            "math": 85,
+            "mathml": 85,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 85,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Exact unchanged96subset of original96–97execution, explicitly excluding old97 missing-backslash draft; not a new96execution. Current all source definitions/algorithm fields/circle glyphs/table math and numeric cells compared; not wholebook/offline/online acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/96-1280.png",
+          "sha256": "9a895d82e74d96097cc33cd675d7f39dcdaf3203a06d119897b54b0784d8b828",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/96-390.png",
+          "sha256": "ebeaee72734e4d22258cfcf46bd7e401fc95ee191c3dc4e61f1e61b91193fcda",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/96-390-right.png",
+          "sha256": "8a303d36092dc00c86460f8a9c28322eeeeabec28fc060616168ee3047056c27",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/normal-chain-table1-096-097.json",
+        "sha256": "8ce8d19abb86cc13c55a2d4f7f95b492c83dbedc8a72e53d31c532326cd20bf7",
+        "scope": "Source72tablecells/column sums only, one16input formula9 andfour n4 variable truthmasks; not algorithm classification/minimum-size proof."
+      },
+      "qualification": "Complete source-page CN/EN comparison and current rendered proof views. Normal(正规) intentionally distinct from earlier regular(正则). One recording escape error in unaccepted97fixed with preserved oldproof/fresh97views; no new source correction. General source claims preserved without new exhaustive algorithm implementation. Final master/wholevolume/offline/online acceptance separate.",
+      "coveredRegions": [
+        "FullL(f)/C(f)/D(f)definitions andcost6/depth3exceptionsS23/S12;sourceformula9all operands/ordinaryS unbarred.",
+        "Normal-functiondefinitionf(0)=0/equation10unbarredf/hatxprevioussteps/eachxi is normalChinesealreadyauthor2015.",
+        "Eightnormaloperators/three trivialbot,L,R/fivenontrivialAND,NOTBUT,BUTNOT,OR,XOR/circledglyphs/j(i)<k(i).",
+        "Fullnormaltruthbounds2^(2^n-1),normaln4count32768/algorithmLintro,L1allinitialization/equation11nestedexponents/counter;L2-L4inclusivej<=k/followhnotself."
+      ],
+      "ocrRepairsOfNote": [
+        "n<=3,notM m<=3;sourceL(S2),C(S2),D plain/notphantombars.",
+        "Equation10 sourceplainfnotMhatf;normalization hats belongonlyxnormalizedsteps.",
+        "ActualmathsfL/R notfloors;overlinedsubset/supsetnotMseparatebox ops.",
+        "L1actualputxk notbarxk,cassignmentarrownotM<=,correctdoubly-nestedexponents."
+      ],
+      "algorithms": [
+        {
+          "name": "L",
+          "anchor": "alg-7-1-2-L",
+          "stepsOnPage": [
+            "L1",
+            "L2",
+            "L3",
+            "L4"
+          ],
+          "continuesAtCnPhysicalPage": 97,
+          "completeAfterThisPage": false
+        }
+      ],
+      "followingPageContinuation": "096endscompleteL4paragraph,butAlgorithmLcontinueswithL5/L6at097;no duplicate algorithm anchor.",
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-096-normal-chain-operators-detail.png",
+          "sha256": "5640f0ab453421bb53fb71b75d93aaf3bf027014ab906efeecf86b1a28175665"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-117-normal-chain-operators-detail.png",
+          "sha256": "9a68465c7628493a4ac2c0853c0356b674eb3cdda362e931fafb5fb04cc55887"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-096-algorithm-L1-L4-detail.png",
+          "sha256": "59caffed246c4d2a717081e233da8944f761b584a74bfa88a0f4a4e6201b9c13"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-117-algorithm-L1-L6-detail.png",
+          "sha256": "eef1a49d7c4def66f35a04fc77a8583f31415855d83d7c54139f08b70b719b2c"
+        }
+      ],
+      "privateOriginalPageReviewSha256": "1ae4d39a6b76fa690c92172e59d8e8c288490cc09244a4472c1def23d4a6385f",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/096.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.2",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 97,
+      "cnPrintedPage": 82,
+      "enPdfPages": [
+        117,
+        118
+      ],
+      "enPrintedPages": [
+        100,
+        101
+      ],
+      "pageMarkdownSha256": "042e762e99aab8dae317426d21b614b795cdcca0c022054f0c920bf813f7249f",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-097.png",
+      "sourcePageImageSha256": "9d6a98843e0f1293d2e5bdbbda399f4a2bac3c41cf568c23643491d0a7e77f30",
+      "enPageImages": [
+        {
+          "physicalPage": 117,
+          "file": "private-snapshot:volume4a/body-review/en-117.png",
+          "sha256": "169c0a02173535ba33358cd86c2d36d2b303eb23a3dee3eac7214e33f7d04b9f"
+        },
+        {
+          "physicalPage": 118,
+          "file": "private-snapshot:volume4a/body-review/en-118.png",
+          "sha256": "6e862d511340895978b7134d5cbd95296146d0542a308460578174c940e26a46"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-097",
+        "p-82",
+        "tab-7-1-2-1"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed page number, retained as hidden page anchors."
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "figureAssets": [],
+      "pending": [
+        "Finalwhole-volumeinclusion",
+        "Finaloffline/production/browser/onlineacceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 97,
+        "markdownSha256": "042e762e99aab8dae317426d21b614b795cdcca0c022054f0c920bf813f7249f",
+        "htmlSha256": "26a00fd7c0cfb4512e2b1fc20ce3bf5265043b1296eddc73d6643cadc0828d93",
+        "mathExpressions": 71,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-97.json",
+        "sha256": "56326bb90ac0b088879ddf6735d6003933504e4a743e759aa7354f7849ef0624",
+        "cases": [
+          {
+            "physicalPage": 97,
+            "width": 1280,
+            "markdownSha256": "042e762e99aab8dae317426d21b614b795cdcca0c022054f0c920bf813f7249f",
+            "documentWidth": 1280,
+            "math": 71,
+            "mathml": 71,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 72,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 97,
+            "width": 390,
+            "markdownSha256": "042e762e99aab8dae317426d21b614b795cdcca0c022054f0c920bf813f7249f",
+            "documentWidth": 390,
+            "math": 71,
+            "mathml": 71,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 72,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Fresh corrected97execution after missing-backslash draft; actual full1280/narrowleft/right views read. Current all source definitions/algorithm fields/circle glyphs/table math and numeric cells compared; not wholebook/offline/online acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/97-1280.png",
+          "sha256": "5fbda8245a10feada41abd9473f10b259a5a2daf05e4601be7fbd83efd90708b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/97-390.png",
+          "sha256": "63044bc3951ee8ef02534b16dd6f513365195fe88d188a116a977a5b5cb49009",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/97-390-right.png",
+          "sha256": "b66d361829c37c6783985d6592cd7dfe57371e8c4234a7356f60bb02fc6689cf",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/normal-chain-table1-096-097.json",
+        "sha256": "8ce8d19abb86cc13c55a2d4f7f95b492c83dbedc8a72e53d31c532326cd20bf7",
+        "scope": "Source72tablecells/column sums only, one16input formula9 andfour n4 variable truthmasks; not algorithm classification/minimum-size proof."
+      },
+      "qualification": "Complete source-page CN/EN comparison and current rendered proof views. Normal(正规) intentionally distinct from earlier regular(正则). One recording escape error in unaccepted97fixed with preserved oldproof/fresh97views; no new source correction. General source claims preserved without new exhaustive algorithm implementation. Final master/wholevolume/offline/online acceptance separate.",
+      "coveredRegions": [
+        "CompleteL5all5bitwisefunctions/exacttwooperandcomplements/normalintegerencoding/L6allassignments/termination andoriginalblackendmarker.",
+        "Footprint5binom(n,2)/allfivefirst-stepoperators/numerouspairs/x(n-1)XORxn/definitionU(f)andphi bit meanings.",
+        "Bothsourcefootprintupdates: commonbitANDnonzero=>C<=r-1,Ulowering;U=rORofunionversusU=r-1ORofintersection/allbounds.",
+        "Table1complete72numbers/groups/headings/zeroD5..7rows/sourceclassificationclaim222/65536.",
+        "Starredminimum-memorysubheading/originalregister-operation12/j,k<=n/allrbound/textthrough4stepsequenceintroatbottom."
+      ],
+      "ocrRepairsOfNote": [
+        "L5barleftg only2nd andbarh only3rd,notMduplicatedg&h;currentendmarkerquad backslash corrected recordingescape.",
+        "Footprintallordinaryxexceptspecifiedbarx1 orbarx2;M addedmultiplebars removedbasedonbothsources.",
+        "Phi ordinary Greek,notMtildeU/barC;source5binomnot5(2).",
+        "TableC6/L6,C7/L7 distinct,allDzero rows retained;advancedstar minimum-memory heading retained not a footnote."
+      ],
+      "continuedAlgorithms": [
+        {
+          "name": "L",
+          "startCnPhysicalPage": 96,
+          "stepsOnPage": [
+            "L5",
+            "L6"
+          ],
+          "completeAfterThisPage": true,
+          "anchorDefinedOnlyAtStart": "alg-7-1-2-L"
+        }
+      ],
+      "followingPageContinuation": "097endsmid-sentence“例如当n=3时，4步运算序列”;098hasoriginal equation13 thenpredicate. No manufactured period/colon/formula or claim098complete.",
+      "additionalDOMCheck": {
+        "file": "private-snapshot:volume4a/verified-render/table1-dom-97.json",
+        "sha256": "4f8ba60742ac653423350507ae7ffdb960f3e2652db00f85c6d4445ab5397f58",
+        "wholePageCasesAdded": 0
+      },
+      "priorUnacceptedProof": {
+        "file": "private-snapshot:volume4a/verified-history/097-unaccepted-missing-leading-slash-quad",
+        "oldMarkdownSha256": "cf5aae3ebfa87348f74cb37c8c565538e7fa564a4130fe91e8520a465d531be6",
+        "oldHTMLSha256": "bb302701fa5b00d732941fa7617c60ebfad23e24ca6540b9533b5ddebf68d5f3",
+        "oldBrowserSha256": "99528ed5b8efce64e60911a46d510a8592113c866eecdf8f2413c24b97500966",
+        "disposition": "Old97syntax/browsertechnicalchecks passed but actual view showed literalquad due missing backslash inMDeditorJS string. Not rendererbug or source correction. Current97freshproofsbound."
+      },
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-097-algorithm-L5-L6-detail.png",
+          "sha256": "eaa67ee8573117fb5919e52ffb2e23e4a99333828291f0365e82de9534a452b2"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-097-footprint-detail.png",
+          "sha256": "3716116d69e9daab6e6ac196a03c2070f2a88c64a5a8cba57083d9f5898b521b"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-118-footprint-detail.png",
+          "sha256": "4ceb679403b8f8e10791b6899724de9bf55fa8e2a315da9b4d5fa7c062a33ce1"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-097-table1-detail.png",
+          "sha256": "a4a0d4d2c98df09ff252651a6b883169d4dfb04f2a878e880ab64be386b2525f"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-118-table1-detail.png",
+          "sha256": "60e8d8669322d6b5b613015ccada7071429251658d17231942950bd9dc4d88ab"
+        }
+      ],
+      "privateOriginalPageReviewSha256": "4b9985502986fa4bc834bbd53bbbadc79e66bf5cf5dab44af494cb3568b37bb4",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/097.json"
+    }
+  ],
+  "qualification": "Onlythese2completephysicalpages. AlgorithmLfullL1-L6source-read across96/97;footprints/table1/sourceconditionscomplete.97endsmid-sentencebefore98foursteps. Source72cells independentlycomparedbyrootonlythatregion;no general/exhaustivefunctionclassificationproof. Old97visualescape failurekeptandfreshproofbound,unchanged96original2casesonly. Finalassembly/offline/online separate."
+}

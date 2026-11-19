@@ -1,0 +1,868 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "pageMarkdownHashes": {
+    "110": "95e21d6abbc1c6c7e30d539ca1343ed870cba84a7d2fbd394bebc9ec6b7d2967",
+    "111": "9f2e65a5dd11a5e0c53d133c8281bf01b0733c5418960463731aa987f4ebd38a"
+  },
+  "actualMDEightWinningLines": [
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6
+    ],
+    [
+      7,
+      8,
+      9
+    ],
+    [
+      1,
+      4,
+      7
+    ],
+    [
+      2,
+      5,
+      8
+    ],
+    [
+      3,
+      6,
+      9
+    ],
+    [
+      1,
+      5,
+      9
+    ],
+    [
+      3,
+      5,
+      7
+    ]
+  ],
+  "actualMDPriority54": [
+    5,
+    1,
+    3,
+    9,
+    7,
+    2,
+    6,
+    8,
+    4
+  ],
+  "sourcePairCount": 24,
+  "actualMD52Expressions": [
+    "(xi&mk)|(mi&xk)",
+    "(oi&mk)|(mi&ok)"
+  ],
+  "actualMD56Expressions": [
+    "(xi^xk)&~((oi^ok))",
+    "~((xi^xk))&(oi^ok)"
+  ],
+  "nineLegalTwoCellStates": [
+    {
+      "cellI": "blank",
+      "cellK": "blank",
+      "alphaBeta52": [
+        0,
+        0
+      ],
+      "alphaBeta56": [
+        0,
+        0
+      ]
+    },
+    {
+      "cellI": "blank",
+      "cellK": "x",
+      "alphaBeta52": [
+        1,
+        0
+      ],
+      "alphaBeta56": [
+        1,
+        0
+      ]
+    },
+    {
+      "cellI": "blank",
+      "cellK": "o",
+      "alphaBeta52": [
+        0,
+        1
+      ],
+      "alphaBeta56": [
+        0,
+        1
+      ]
+    },
+    {
+      "cellI": "x",
+      "cellK": "blank",
+      "alphaBeta52": [
+        1,
+        0
+      ],
+      "alphaBeta56": [
+        1,
+        0
+      ]
+    },
+    {
+      "cellI": "x",
+      "cellK": "x",
+      "alphaBeta52": [
+        0,
+        0
+      ],
+      "alphaBeta56": [
+        0,
+        0
+      ]
+    },
+    {
+      "cellI": "x",
+      "cellK": "o",
+      "alphaBeta52": [
+        0,
+        0
+      ],
+      "alphaBeta56": [
+        0,
+        0
+      ]
+    },
+    {
+      "cellI": "o",
+      "cellK": "blank",
+      "alphaBeta52": [
+        0,
+        1
+      ],
+      "alphaBeta56": [
+        0,
+        1
+      ]
+    },
+    {
+      "cellI": "o",
+      "cellK": "x",
+      "alphaBeta52": [
+        0,
+        0
+      ],
+      "alphaBeta56": [
+        0,
+        0
+      ]
+    },
+    {
+      "cellI": "o",
+      "cellK": "o",
+      "alphaBeta52": [
+        0,
+        0
+      ],
+      "alphaBeta56": [
+        0,
+        0
+      ]
+    }
+  ],
+  "sourceGateArithmetic": {
+    "parts": [
+      9,
+      48,
+      48,
+      144,
+      35,
+      35,
+      43,
+      80
+    ],
+    "before": 442,
+    "saved": 48,
+    "after": 394,
+    "qualification": "Source gate-part sum only;56reduces6to4over24collinearunorderedcellpairs. Noindependentminimalityproof."
+  },
+  "sourceGameFixtures": [
+    {
+      "name": "57loss",
+      "steps": [
+        {
+          "before": {
+            "1": "o"
+          },
+          "addedPlayer": "x",
+          "addedCell": 5,
+          "actualPriorityChoice": [
+            "m",
+            5
+          ],
+          "conditionsForChosenCell": {
+            "w": 0,
+            "b": 0,
+            "f": 0,
+            "d": 0,
+            "m": 1
+          }
+        },
+        {
+          "before": {
+            "1": "o",
+            "5": "x"
+          },
+          "addedPlayer": "o",
+          "addedCell": 9,
+          "actualPriorityChoice": null,
+          "conditionsForChosenCell": {
+            "w": 0,
+            "b": 0,
+            "f": 0,
+            "d": 0,
+            "m": 1
+          }
+        },
+        {
+          "before": {
+            "1": "o",
+            "5": "x",
+            "9": "o"
+          },
+          "addedPlayer": "x",
+          "addedCell": 3,
+          "actualPriorityChoice": [
+            "d",
+            3
+          ],
+          "conditionsForChosenCell": {
+            "w": 0,
+            "b": 0,
+            "f": 0,
+            "d": 1,
+            "m": 1
+          }
+        },
+        {
+          "before": {
+            "1": "o",
+            "5": "x",
+            "9": "o",
+            "3": "x"
+          },
+          "addedPlayer": "o",
+          "addedCell": 7,
+          "actualPriorityChoice": null,
+          "conditionsForChosenCell": {
+            "w": 1,
+            "b": 0,
+            "f": 0,
+            "d": 1,
+            "m": 1
+          }
+        },
+        {
+          "before": {
+            "1": "o",
+            "5": "x",
+            "9": "o",
+            "3": "x",
+            "7": "o"
+          },
+          "addedPlayer": "x",
+          "addedCell": 8,
+          "actualPriorityChoice": [
+            "b",
+            8
+          ],
+          "conditionsForChosenCell": {
+            "w": 0,
+            "b": 1,
+            "f": 0,
+            "d": 0,
+            "m": 1
+          }
+        },
+        {
+          "before": {
+            "1": "o",
+            "5": "x",
+            "9": "o",
+            "3": "x",
+            "7": "o",
+            "8": "x"
+          },
+          "addedPlayer": "o",
+          "addedCell": 4,
+          "actualPriorityChoice": null,
+          "conditionsForChosenCell": {
+            "w": 0,
+            "b": 1,
+            "f": 0,
+            "d": 0,
+            "m": 1
+          }
+        }
+      ],
+      "finalWinnerLines": {
+        "x": [],
+        "o": [
+          [
+            1,
+            4,
+            7
+          ]
+        ]
+      },
+      "fullAtEnd": false
+    },
+    {
+      "name": "m5draw",
+      "steps": [
+        {
+          "before": {
+            "2": "x",
+            "9": "o"
+          },
+          "addedPlayer": "x",
+          "addedCell": 5,
+          "actualPriorityChoice": [
+            "m",
+            5
+          ],
+          "conditionsForChosenCell": {
+            "w": 0,
+            "b": 0,
+            "f": 0,
+            "d": 0,
+            "m": 1
+          }
+        },
+        {
+          "before": {
+            "2": "x",
+            "9": "o",
+            "5": "x"
+          },
+          "addedPlayer": "o",
+          "addedCell": 8,
+          "actualPriorityChoice": null,
+          "conditionsForChosenCell": {
+            "w": 1,
+            "b": 0,
+            "f": 0,
+            "d": 0,
+            "m": 1
+          }
+        },
+        {
+          "before": {
+            "2": "x",
+            "9": "o",
+            "5": "x",
+            "8": "o"
+          },
+          "addedPlayer": "x",
+          "addedCell": 7,
+          "actualPriorityChoice": [
+            "b",
+            7
+          ],
+          "conditionsForChosenCell": {
+            "w": 0,
+            "b": 1,
+            "f": 0,
+            "d": 0,
+            "m": 1
+          }
+        },
+        {
+          "before": {
+            "2": "x",
+            "9": "o",
+            "5": "x",
+            "8": "o",
+            "7": "x"
+          },
+          "addedPlayer": "o",
+          "addedCell": 3,
+          "actualPriorityChoice": null,
+          "conditionsForChosenCell": {
+            "w": 1,
+            "b": 0,
+            "f": 0,
+            "d": 0,
+            "m": 1
+          }
+        },
+        {
+          "before": {
+            "2": "x",
+            "9": "o",
+            "5": "x",
+            "8": "o",
+            "7": "x",
+            "3": "o"
+          },
+          "addedPlayer": "x",
+          "addedCell": 6,
+          "actualPriorityChoice": [
+            "b",
+            6
+          ],
+          "conditionsForChosenCell": {
+            "w": 0,
+            "b": 1,
+            "f": 0,
+            "d": 0,
+            "m": 1
+          }
+        },
+        {
+          "before": {
+            "2": "x",
+            "9": "o",
+            "5": "x",
+            "8": "o",
+            "7": "x",
+            "3": "o",
+            "6": "x"
+          },
+          "addedPlayer": "o",
+          "addedCell": 4,
+          "actualPriorityChoice": null,
+          "conditionsForChosenCell": {
+            "w": 1,
+            "b": 0,
+            "f": 0,
+            "d": 0,
+            "m": 1
+          }
+        },
+        {
+          "before": {
+            "2": "x",
+            "9": "o",
+            "5": "x",
+            "8": "o",
+            "7": "x",
+            "3": "o",
+            "6": "x",
+            "4": "o"
+          },
+          "addedPlayer": "x",
+          "addedCell": 1,
+          "actualPriorityChoice": [
+            "m",
+            1
+          ],
+          "conditionsForChosenCell": {
+            "w": 0,
+            "b": 0,
+            "f": 0,
+            "d": 0,
+            "m": 1
+          }
+        }
+      ],
+      "finalWinnerLines": {
+        "x": [],
+        "o": []
+      },
+      "fullAtEnd": true
+    }
+  ],
+  "source46b5f5": {
+    "position": {
+      "2": "x",
+      "3": "x",
+      "1": "o",
+      "9": "o"
+    },
+    "b5": 1,
+    "f5": 1,
+    "chosen": [
+      "b",
+      5
+    ]
+  },
+  "sourceNestedMedianMatrix": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "all32FixedNestedMedianInputs": [
+    {
+      "input": "00000",
+      "nestedMedian": 0,
+      "sourceMatrix": 0
+    },
+    {
+      "input": "00001",
+      "nestedMedian": 0,
+      "sourceMatrix": 0
+    },
+    {
+      "input": "00010",
+      "nestedMedian": 0,
+      "sourceMatrix": 0
+    },
+    {
+      "input": "00011",
+      "nestedMedian": 0,
+      "sourceMatrix": 0
+    },
+    {
+      "input": "00100",
+      "nestedMedian": 0,
+      "sourceMatrix": 0
+    },
+    {
+      "input": "00101",
+      "nestedMedian": 0,
+      "sourceMatrix": 0
+    },
+    {
+      "input": "00110",
+      "nestedMedian": 0,
+      "sourceMatrix": 0
+    },
+    {
+      "input": "00111",
+      "nestedMedian": 0,
+      "sourceMatrix": 0
+    },
+    {
+      "input": "01000",
+      "nestedMedian": 0,
+      "sourceMatrix": 0
+    },
+    {
+      "input": "01001",
+      "nestedMedian": 0,
+      "sourceMatrix": 0
+    },
+    {
+      "input": "01010",
+      "nestedMedian": 0,
+      "sourceMatrix": 0
+    },
+    {
+      "input": "01011",
+      "nestedMedian": 1,
+      "sourceMatrix": 1
+    },
+    {
+      "input": "01100",
+      "nestedMedian": 0,
+      "sourceMatrix": 0
+    },
+    {
+      "input": "01101",
+      "nestedMedian": 1,
+      "sourceMatrix": 1
+    },
+    {
+      "input": "01110",
+      "nestedMedian": 1,
+      "sourceMatrix": 1
+    },
+    {
+      "input": "01111",
+      "nestedMedian": 1,
+      "sourceMatrix": 1
+    },
+    {
+      "input": "10000",
+      "nestedMedian": 0,
+      "sourceMatrix": 0
+    },
+    {
+      "input": "10001",
+      "nestedMedian": 0,
+      "sourceMatrix": 0
+    },
+    {
+      "input": "10010",
+      "nestedMedian": 0,
+      "sourceMatrix": 0
+    },
+    {
+      "input": "10011",
+      "nestedMedian": 1,
+      "sourceMatrix": 1
+    },
+    {
+      "input": "10100",
+      "nestedMedian": 0,
+      "sourceMatrix": 0
+    },
+    {
+      "input": "10101",
+      "nestedMedian": 1,
+      "sourceMatrix": 1
+    },
+    {
+      "input": "10110",
+      "nestedMedian": 1,
+      "sourceMatrix": 1
+    },
+    {
+      "input": "10111",
+      "nestedMedian": 1,
+      "sourceMatrix": 1
+    },
+    {
+      "input": "11000",
+      "nestedMedian": 1,
+      "sourceMatrix": 1
+    },
+    {
+      "input": "11001",
+      "nestedMedian": 1,
+      "sourceMatrix": 1
+    },
+    {
+      "input": "11010",
+      "nestedMedian": 1,
+      "sourceMatrix": 1
+    },
+    {
+      "input": "11011",
+      "nestedMedian": 1,
+      "sourceMatrix": 1
+    },
+    {
+      "input": "11100",
+      "nestedMedian": 1,
+      "sourceMatrix": 1
+    },
+    {
+      "input": "11101",
+      "nestedMedian": 1,
+      "sourceMatrix": 1
+    },
+    {
+      "input": "11110",
+      "nestedMedian": 1,
+      "sourceMatrix": 1
+    },
+    {
+      "input": "11111",
+      "nestedMedian": 1,
+      "sourceMatrix": 1
+    }
+  ],
+  "twoSourceColumnTypes": [
+    [
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1
+    ]
+  ],
+  "sourceCodeLocator": "private-snapshot:volume4a/tools/check-game-decomposition-110-111.py",
+  "sourceCodeSha256": "f296850d29e56c0c264310daaf62eb429ec8d397df781df18b2b532c3d5f9d50",
+  "qualification": "Only9legalpairvalues/7selectedXmovesinprintedloss-drawfixtures/b5f5singleposition/32originalmatrixbits. Noall4520legalstateclassification,minimax,full445gatecircuitvalidation,randomdecompositiontheoremproof,allpartitionsorprobabilistic88countacceptedhere. S2 means exact2 as source,notatleast2.",
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+  "sourceGames": {
+    "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+    "sourceCodeLocator": "private-snapshot:volume4a/tools/reconstruct-game-examples-111.py",
+    "sourceCodeSha256": "96541d1af9764339a377a28fb0ee86bce1914dfcb540295823683662e4d53123",
+    "figures": [
+      {
+        "asset": "assets/volume4a/figures/diagram-7-1-2-57-losing-game.svg",
+        "sha256": "043ee5f0dba9863a2d7c84429bd4004753588549339ee781f005d15caa615bb4",
+        "cnPhysicalPage": 111,
+        "enPhysicalPage": 134,
+        "sourceStates": [
+          {
+            "1": "o"
+          },
+          {
+            "1": "o",
+            "5": "x"
+          },
+          {
+            "1": "o",
+            "5": "x",
+            "9": "o"
+          },
+          {
+            "1": "o",
+            "5": "x",
+            "9": "o",
+            "3": "x"
+          },
+          {
+            "1": "o",
+            "5": "x",
+            "9": "o",
+            "3": "x",
+            "7": "o"
+          },
+          {
+            "1": "o",
+            "5": "x",
+            "9": "o",
+            "3": "x",
+            "7": "o",
+            "8": "x"
+          },
+          {
+            "1": "o",
+            "5": "x",
+            "9": "o",
+            "3": "x",
+            "7": "o",
+            "8": "x",
+            "4": "o"
+          }
+        ],
+        "gridLineSegments": 28,
+        "xMarkOccurrences": 12,
+        "oMarkOccurrences": 16,
+        "method": "Ownsource-constrainedgeometrySVGredrawfromactualCN/ENcells,nonnativeclaim. Preserveallpositions/order,onlyreflow4+3whereappropriate,noaddedpanelnumbersarrows/text."
+      },
+      {
+        "asset": "assets/volume4a/figures/diagram-7-1-2-draw-before.svg",
+        "sha256": "a74d3aad88ae341489a93fb0e63311647920d40e8da3027b200f573851955233",
+        "cnPhysicalPage": 111,
+        "enPhysicalPage": 134,
+        "sourceStates": [
+          {
+            "2": "x",
+            "9": "o"
+          }
+        ],
+        "gridLineSegments": 4,
+        "xMarkOccurrences": 1,
+        "oMarkOccurrences": 1,
+        "method": "Ownsource-constrainedgeometrySVGredrawfromactualCN/ENcells,nonnativeclaim. Preserveallpositions/order,onlyreflow4+3whereappropriate,noaddedpanelnumbersarrows/text."
+      },
+      {
+        "asset": "assets/volume4a/figures/diagram-7-1-2-draw-after-m5.svg",
+        "sha256": "0018b2f4ced2bcaeead38e35cd034a3abb2c6a6a1aa81f9ba05629c7694f74d7",
+        "cnPhysicalPage": 111,
+        "enPhysicalPage": 134,
+        "sourceStates": [
+          {
+            "2": "x",
+            "9": "o",
+            "5": "x"
+          },
+          {
+            "2": "x",
+            "9": "o",
+            "5": "x",
+            "8": "o"
+          },
+          {
+            "2": "x",
+            "9": "o",
+            "5": "x",
+            "8": "o",
+            "7": "x"
+          },
+          {
+            "2": "x",
+            "9": "o",
+            "5": "x",
+            "8": "o",
+            "7": "x",
+            "3": "o"
+          },
+          {
+            "2": "x",
+            "9": "o",
+            "5": "x",
+            "8": "o",
+            "7": "x",
+            "3": "o",
+            "6": "x"
+          },
+          {
+            "2": "x",
+            "9": "o",
+            "5": "x",
+            "8": "o",
+            "7": "x",
+            "3": "o",
+            "6": "x",
+            "4": "o"
+          },
+          {
+            "2": "x",
+            "9": "o",
+            "5": "x",
+            "8": "o",
+            "7": "x",
+            "3": "o",
+            "6": "x",
+            "4": "o",
+            "1": "x"
+          }
+        ],
+        "gridLineSegments": 28,
+        "xMarkOccurrences": 23,
+        "oMarkOccurrences": 19,
+        "method": "Ownsource-constrainedgeometrySVGredrawfromactualCN/ENcells,nonnativeclaim. Preserveallpositions/order,onlyreflow4+3whereappropriate,noaddedpanelnumbersarrows/text."
+      }
+    ],
+    "qualification": "Onlysource15gameboardoccurrences/72markoccurrences. Nooptimalstrategy/minimax/alllegalstates/445gatecorrectnessacceptance."
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "scope": "Only fixed original transducer example, six source sets, S-box permutation-to-truth-table conversion, ten chip permutations with source-only peer, 16 fixture SVG semantic marks and static 27 question/answer IDs. No all-S-box cost classification, all4520 positions, general bounds/proofs, synthesized <2000 gate chip, or published route roundtrip.",
+  "pageMarkdownHashes": {
+    "120": "ad9af773e90d6e0088f713aee5fee24fde994d4d2ba0a59c07869f541862d5af",
+    "121": "d418d56baea0038ca305c93977daacc75ca2b356cae516c604dcfebadd61d317"
+  },
+  "transducerExample": {
+    "alpha": "1100100100011111101101010",
+    "beta": "1000100100010101001001010",
+    "length": 25,
+    "computedByLiteralOddKRunRule": "1000100100010101001001010",
+    "matched": true
+  },
+  "sixSourceSets54": [
+    [
+      "0010",
+      "0101",
+      "1011"
+    ],
+    [
+      "0001",
+      "1111"
+    ],
+    [
+      "0011",
+      "0111",
+      "1101"
+    ],
+    [
+      "1001",
+      "1111"
+    ],
+    [
+      "1101"
+    ],
+    [
+      "0101",
+      "1011"
+    ]
+  ],
+  "sbox59": {
+    "permutation": [
+      0,
+      6,
+      5,
+      11,
+      3,
+      9,
+      15,
+      14,
+      12,
+      4,
+      7,
+      8,
+      13,
+      2,
+      10,
+      1
+    ],
+    "computedTruthTables": [
+      "179a",
+      "63e8",
+      "5b26",
+      "3e29"
+    ],
+    "bitConvention": "Inputs 0000..1111 left-to-right, x1/f1 most significant bit."
+  },
+  "tenChipPermutations67": [
+    {
+      "output": "c",
+      "target": 1,
+      "xInputOrder": "123456789",
+      "oInputOrder": "123456789",
+      "matchedIndependentSourcePeer": true
+    },
+    {
+      "output": "c",
+      "target": 1,
+      "xInputOrder": "147258369",
+      "oInputOrder": "147258369",
+      "matchedIndependentSourcePeer": true
+    },
+    {
+      "output": "s",
+      "target": 2,
+      "xInputOrder": "123456789",
+      "oInputOrder": "123456789",
+      "matchedIndependentSourcePeer": true
+    },
+    {
+      "output": "s",
+      "target": 2,
+      "xInputOrder": "321654987",
+      "oInputOrder": "321654987",
+      "matchedIndependentSourcePeer": true
+    },
+    {
+      "output": "c",
+      "target": 3,
+      "xInputOrder": "321654987",
+      "oInputOrder": "321654987",
+      "matchedIndependentSourcePeer": true
+    },
+    {
+      "output": "c",
+      "target": 3,
+      "xInputOrder": "369258147",
+      "oInputOrder": "369258147",
+      "matchedIndependentSourcePeer": true
+    },
+    {
+      "output": "s",
+      "target": 4,
+      "xInputOrder": "147258369",
+      "oInputOrder": "147258369",
+      "matchedIndependentSourcePeer": true
+    },
+    {
+      "output": "s",
+      "target": 4,
+      "xInputOrder": "741852963",
+      "oInputOrder": "741852963",
+      "matchedIndependentSourcePeer": true
+    },
+    {
+      "output": "c",
+      "target": 9,
+      "xInputOrder": "987654321",
+      "oInputOrder": "987654321",
+      "matchedIndependentSourcePeer": true
+    },
+    {
+      "output": "c",
+      "target": 9,
+      "xInputOrder": "963852741",
+      "oInputOrder": "963852741",
+      "matchedIndependentSourcePeer": true
+    }
+  ],
+  "printedDistinctD4Orders": 7,
+  "independentSourcePeer": {
+    "file": "private-snapshot:volumes3-4a/peer-body121-ten-permutations-root-readonly.json",
+    "sha256": "fc43314ce4a5d532b980af8cd1dd16110e8d741483f0d2ded1807cfba0d43219",
+    "scope": "Only the ten displayed x1..x9/o1..o9 input permutations for exercise 7.1.2-67 on CN physical121 / EN physical147, their D4 membership and output-cell mapping. No full-page acceptance, no sixteen-board check, no all4520 positions/minimax/chip gate bound; no manuscript/assets/common edits."
+  },
+  "boardSVGSemanticMarks": {
+    "count": 96,
+    "allMatchSourceLiteralRows": true,
+    "assetSha256": "70d29f1dd143e972ccfb4194daf523c4d8b7edbe6c608a8e71c5306b641c2414"
+  },
+  "newExerciseIds": {
+    "120": [
+      "ex-7-1-2-44",
+      "ex-7-1-2-45",
+      "ex-7-1-2-46",
+      "ex-7-1-2-47",
+      "ex-7-1-2-48",
+      "ex-7-1-2-49",
+      "ex-7-1-2-50",
+      "ex-7-1-2-51",
+      "ex-7-1-2-52",
+      "ex-7-1-2-53",
+      "ex-7-1-2-54",
+      "ex-7-1-2-55",
+      "ex-7-1-2-56",
+      "ex-7-1-2-57",
+      "ex-7-1-2-58",
+      "ex-7-1-2-59"
+    ],
+    "121": [
+      "ex-7-1-2-60",
+      "ex-7-1-2-61",
+      "ex-7-1-2-62",
+      "ex-7-1-2-63",
+      "ex-7-1-2-64",
+      "ex-7-1-2-65",
+      "ex-7-1-2-66",
+      "ex-7-1-2-67",
+      "ex-7-1-2-68",
+      "ex-7-1-2-69",
+      "ex-7-1-2-70"
+    ]
+  },
+  "staticAnswersExist": true,
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+}

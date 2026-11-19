@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-assigned-physical-page-source-review-and-private-two-width-proof",
+  "cnPhysicalPages": [
+    415,
+    416
+  ],
+  "cnPrintedPages": [
+    400,
+    401
+  ],
+  "masterSha256": null,
+  "mathExpressions": 182,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 4,
+  "logicalAssemblies": [
+    {
+      "file": "assets/volume4a/review/body-415-416-tree-exercises92-110-sandpile-415-416-assembly.json",
+      "sha256": "47689e5c3a79a613c246d2c2d34ad86dedd43c106e6ea4cf000f22bbd10d8206"
+    }
+  ],
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 415,
+      "cnPrintedPage": 400,
+      "enPdfPages": [
+        498,
+        499
+      ],
+      "enPrintedPages": [
+        481,
+        482
+      ],
+      "pageMarkdownSha256": "ed09a305604d219d9df80ba03aa2f872ce2e9edae9507341f67c4173548785ad",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/415.jpg",
+      "sourcePageImageSha256": "497d4f96ea67b7935d9abde66cadff93235a5b677ed1b825fdcfe3387bd9d1cc",
+      "enPageImages": [
+        {
+          "physicalPage": 498,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-498.png",
+          "sha256": "ff2bbb6e68151dacafe32c6f96b2218b586b6b1a64c84dcd38f3973ee74bd9c9"
+        },
+        {
+          "physicalPage": 499,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-499.png",
+          "sha256": "15d9c3f0f055760bf286c9163a9e13a56e551e01059eac92f7afd12be73a85d0"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-415",
+        "p-400",
+        "ex-7-2-1-6-92",
+        "ex-7-2-1-6-93",
+        "ex-7-2-1-6-94",
+        "ex-7-2-1-6-95",
+        "ex-7-2-1-6-96",
+        "ex-7-2-1-6-97",
+        "ex-7-2-1-6-98",
+        "ex-7-2-1-6-99",
+        "ex-7-2-1-6-100",
+        "ex-7-2-1-6-101",
+        "ex-7-2-1-6-102",
+        "ex-7-2-1-6-103"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-109",
+          "section": "7.2.1.6",
+          "cnPdfPage": 415,
+          "enPdfPages": [
+            498
+          ],
+          "location": "题94的启动措辞",
+          "original": "在步骤S1中通过“素数泵”找到一棵初始生成树",
+          "final": "算法 S 需要在步骤 S1 中找到一棵初始生成树，以启动整个过程",
+          "basis": "EN498 prime the pump 是为过程启动作准备的习语，在这里通过找初始生成树实现。不存在额外的素数方法。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "ed09a305604d219d9df80ba03aa2f872ce2e9edae9507341f67c4173548785ad",
+          "cnPrintedPage": 400
+        },
+        {
+          "id": "volume4a-tail-110",
+          "section": "7.2.1.6",
+          "cnPdfPage": 415,
+          "enPdfPages": [
+            499
+          ],
+          "location": "题103游戏允许哪一个点倾斜",
+          "original": "如果对于任意i≥1均有 x_i≥d_i，则……",
+          "final": "只要有某个 $i\\geq1$ 满足 $x_i\\geq d_i$",
+          "basis": "EN499 for any i≥1 指任一满足条件的点即可。原四点例从(2,0,0,0)只有1可倾，合法倾斜一次到(0,1,0,0)。用全称会在尚不稳定时立即停住。题103(b)的初始条件保持全称。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "ed09a305604d219d9df80ba03aa2f872ce2e9edae9507341f67c4173548785ad",
+          "cnPrintedPage": 400
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 415,
+        "markdownSha256": "ed09a305604d219d9df80ba03aa2f872ce2e9edae9507341f67c4173548785ad",
+        "htmlSha256": "a8a501218c03ae937c96c2920b5fab0254575223e7081cd1bb6f7115ff4e8840",
+        "mathExpressions": 67,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/result.json",
+        "sha256": "dd40922cedaf96cec5c299ea21d9aa0376803d12ca6675918736c186cd83fb1d",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 67,
+            "mathML": 67,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 415,
+            "width": 1280,
+            "pageMarkdownSha256": "ed09a305604d219d9df80ba03aa2f872ce2e9edae9507341f67c4173548785ad",
+            "htmlSha256": "a8a501218c03ae937c96c2920b5fab0254575223e7081cd1bb6f7115ff4e8840",
+            "errors": [],
+            "passed": true,
+            "imageLinks": []
+          },
+          {
+            "documentWidth": 390,
+            "math": 67,
+            "mathML": 67,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 726,
+                "left": 0,
+                "right": 416,
+                "max": 416,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 415,
+            "width": 390,
+            "pageMarkdownSha256": "ed09a305604d219d9df80ba03aa2f872ce2e9edae9507341f67c4173548785ad",
+            "htmlSha256": "a8a501218c03ae937c96c2920b5fab0254575223e7081cd1bb6f7115ff4e8840",
+            "errors": [],
+            "passed": true,
+            "imageLinks": []
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/415-1280-walk0.png",
+          "sha256": "cbc1ec602c872576f0136f26c02afef5f5d320cf2529463bc5077cdbed4d6ee9",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/415-1280-walk1.png",
+          "sha256": "57243d924de4666ff6725fa4b40d0272d0d373561fb12eed459eab0430c153e8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/415-1280-walk2.png",
+          "sha256": "eae289204406f5df67bfe7b6f47fc5beda7d25e07387298d2e3e77dbb1646a7e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/415-390-walk0.png",
+          "sha256": "bc252dfdc63e8f436c0b9aa2f7c96aecde8c243b704dfe1298afa1da4d8c9e32",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/415-390-walk1.png",
+          "sha256": "36c7fb75173cdd79760b2a219afd5fb0706c5ee08288e3c6bdc8b67eb91400b5",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/415-390-walk2.png",
+          "sha256": "3075e16f4cafcc84fc6653219b32b438e4c244ebdd37128c93a6f0976468a4ef",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/415-390-walk3.png",
+          "sha256": "a756462128befdfc5cdc1546ba437f65c27554fce181ab7619b961446171a7aa",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/415-390-walk4.png",
+          "sha256": "f5edf71d5e7031fa33fdafb341f344d896e6521a722d039d66e383e34524bcee",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/415-390-walk5.png",
+          "sha256": "ae0aa532ecd4c287a06e7214deb81ad10e0cf6062c0a560684026456e116a6a4",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/415-390-display0-right.png",
+          "sha256": "4855c5e6081261147fd2d31a833610a6fa321aae03cf179eeca2f44a6e3a1202",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-415-416-source-fields.json",
+        "sha256": "62930d57cfd3db68d5b287946f43915b3b3e5f5d77577badf829edbaa2daeaef"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-415-416-tree-exercises92-110-sandpile-415-416-assembly.json",
+          "sha256": "47689e5c3a79a613c246d2c2d34ad86dedd43c106e6ea4cf000f22bbd10d8206"
+        }
+      ],
+      "coveredRegions": [
+        "Questions 92–102, precise exception 101, full sandpile assumptions and parts (a),(b) with eight original arcs."
+      ],
+      "followingPageContinuation": "CN416 begins with the remaining seven parts of exercise 103.",
+      "qualification": "Full CN415–416 with actual matched EN498–500, including all nine parts of the original sandpile exercise, matrix definitions and graph operators. Current real 1280/390 proofs and numbering locators checked.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/415-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "7101d2946a19a97375507c27d3260fd507acb4e99ba320825a045047692eb6b1",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "c28b2e2c8eda44c04f8e313f8d4674f22613349be146264f9be5a04ce3a2d800",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/415.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 416,
+      "cnPrintedPage": 401,
+      "enPdfPages": [
+        499,
+        500
+      ],
+      "enPrintedPages": [
+        482,
+        483
+      ],
+      "pageMarkdownSha256": "8abad71be17aae6e893b2fb0b2fccf3cf9411ce282741857b3b43cd51a8fc150",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/416.jpg",
+      "sourcePageImageSha256": "0f802c02bb6228695f434aa6d09d9fd3179aa81f565931a07b5fe6e53500b0b7",
+      "enPageImages": [
+        {
+          "physicalPage": 499,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-499.png",
+          "sha256": "15d9c3f0f055760bf286c9163a9e13a56e551e01059eac92f7afd12be73a85d0"
+        },
+        {
+          "physicalPage": 500,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-500.png",
+          "sha256": "1d47c012532ffdcd9e5ebe9041130a0c9819f24249a2da9eb431ff673c8f0a51"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-416",
+        "p-401",
+        "ex-7-2-1-6-104",
+        "ex-7-2-1-6-105",
+        "ex-7-2-1-6-106",
+        "ex-7-2-1-6-107",
+        "ex-7-2-1-6-108",
+        "ex-7-2-1-6-109",
+        "ex-7-2-1-6-110"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-111",
+          "section": "7.2.1.6",
+          "cnPdfPage": 416,
+          "enPdfPages": [
+            500
+          ],
+          "location": "题105(c)的图运算",
+          "original": "G′和G″的并集",
+          "final": "的联接（join）",
+          "basis": "EN500明写 join；两个互不交叠的单点联接产生一条边，直和或并集不产生边。保留原图记号。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "8abad71be17aae6e893b2fb0b2fccf3cf9411ce282741857b3b43cd51a8fc150",
+          "cnPrintedPage": 401
+        },
+        {
+          "id": "volume4a-tail-112",
+          "section": "7.2.1.6",
+          "cnPdfPage": 416,
+          "enPdfPages": [
+            500
+          ],
+          "location": "题106的素因子描述",
+          "original": "为什么这些数值倾向于只有一个小的素因子",
+          "final": "为什么这些数值的素因子往往都比较小",
+          "basis": "EN500 have only small prime factors；only 限定素因子的大小，不限定因子的个数。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "8abad71be17aae6e893b2fb0b2fccf3cf9411ce282741857b3b43cd51a8fc150",
+          "cnPrintedPage": 401
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 416,
+        "markdownSha256": "8abad71be17aae6e893b2fb0b2fccf3cf9411ce282741857b3b43cd51a8fc150",
+        "htmlSha256": "cb994efa459eea4506d6309a985cfd097f21aa973032b7ce7dedea3f0d84bae3",
+        "mathExpressions": 115,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/result.json",
+        "sha256": "dd40922cedaf96cec5c299ea21d9aa0376803d12ca6675918736c186cd83fb1d",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 115,
+            "mathML": 115,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 416,
+            "width": 1280,
+            "pageMarkdownSha256": "8abad71be17aae6e893b2fb0b2fccf3cf9411ce282741857b3b43cd51a8fc150",
+            "htmlSha256": "cb994efa459eea4506d6309a985cfd097f21aa973032b7ce7dedea3f0d84bae3",
+            "errors": [],
+            "passed": true,
+            "imageLinks": []
+          },
+          {
+            "documentWidth": 390,
+            "math": 115,
+            "mathML": 115,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 375,
+                "left": 0,
+                "right": 65,
+                "max": 65,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 416,
+            "width": 390,
+            "pageMarkdownSha256": "8abad71be17aae6e893b2fb0b2fccf3cf9411ce282741857b3b43cd51a8fc150",
+            "htmlSha256": "cb994efa459eea4506d6309a985cfd097f21aa973032b7ce7dedea3f0d84bae3",
+            "errors": [],
+            "passed": true,
+            "imageLinks": []
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/416-1280-walk0.png",
+          "sha256": "0e478be5d46dba148623f01d23501b7cb0b8bc3d5370756b31b8ffdeaa91494f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/416-1280-walk1.png",
+          "sha256": "302bea3494edcf1c7f0eacac38a8ed974549594eb655777b0e9c3d83334183c6",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/416-1280-walk2.png",
+          "sha256": "59c31e26a546b20fab0a6878167daa9acbe0f5ff443b979b0521f7e4925e5a17",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/416-390-walk0.png",
+          "sha256": "2942e21f937a66ecc5dc3a0848521535212700354c95e4a120476f5601ed0cfe",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/416-390-walk1.png",
+          "sha256": "ca609ede1b7ffadf9fbd00cde709d19d4b05dca2feffa0a4c27b752b0e0b5de9",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/416-390-walk2.png",
+          "sha256": "e60d98fb2985cb0373faeb5dac76e386bc2c11e3f3393c753434a2b8a110b569",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/416-390-walk3.png",
+          "sha256": "824d6ddee7977c21e193ddcc92b34a3183455a659c74b71d32b6c1dd931e8f34",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/416-390-walk4.png",
+          "sha256": "8ddb932493e6577184a110d171d66295cb1737c178153382d497b25e0bf4f553",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/416-390-walk5.png",
+          "sha256": "15dcf141114b79e43999d65e181b92c893f164311366e8040344f7d3b41c45bd",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/416-390-inline7-pan0.png",
+          "sha256": "2942e21f937a66ecc5dc3a0848521535212700354c95e4a120476f5601ed0cfe",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/415-416/416-390-inline7-pan1.png",
+          "sha256": "56534e37f132ab7a3d67e77b0b28baefc82a3fe0087a192063135fa15e22f6bb",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-415-416-source-fields.json",
+        "sha256": "62930d57cfd3db68d5b287946f43915b3b3e5f5d77577badf829edbaa2daeaef"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-415-416-tree-exercises92-110-sandpile-415-416-assembly.json",
+          "sha256": "47689e5c3a79a613c246d2c2d34ad86dedd43c106e6ea4cf000f22bbd10d8206"
+        }
+      ],
+      "coveredRegions": [
+        "Parts (c)–(i) of 103, the Laplacian and aspect definition, all nine graph products and prime-factor phrasing, inequalities."
+      ],
+      "followingPageContinuation": "CN417 begins a new question numbered 111.",
+      "qualification": "Full CN415–416 with actual matched EN498–500, including all nine parts of the original sandpile exercise, matrix definitions and graph operators. Current real 1280/390 proofs and numbering locators checked.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/416-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "502e8bfc8bda90806d3dac9d0bded029c90ce3ba9c3dca56a57e2187e3ecc54a",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "31afc10be11f902c0042d2fce60cbb516bbcd09bfc36e13fabc809f14814fa34",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/416.json"
+    }
+  ],
+  "qualification": "Full CN415–416 with actual matched EN498–500, including all nine parts of the original sandpile exercise, matrix definitions and graph operators. Current real 1280/390 proofs and numbering locators checked."
+}

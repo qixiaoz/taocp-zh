@@ -1,0 +1,245 @@
+{
+  "volume": "volume4a",
+  "section": "7.2.1.6",
+  "cnPdfPages": [
+    417,
+    418
+  ],
+  "cnPrintedPages": [
+    402,
+    403
+  ],
+  "enPdfPages": [
+    500,
+    501,
+    502
+  ],
+  "enPrintedPages": [
+    483,
+    484,
+    485
+  ],
+  "sourceSha256": {
+    "cn": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "en": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+  },
+  "pageMarkdownSha256": {
+    "417": "a43b8efd22ff7e3a998039336469ed787c61fc9da7dd46073273466b04a04995",
+    "418": "0768718a7a20ecbb1b0b557328c53297be3a227fa11174d02c6e51883947b35c"
+  },
+  "masterSha256": null,
+  "humanSignoff": false,
+  "reviewerType": "model-direct-page-image-comparison",
+  "sourceReviewBindingPending": false,
+  "exercise119TwistedTree": {
+    "asset": "assets/volume4a/figures/7-2-1-6-exercise119-twisted-binomial-tree.svg",
+    "sha256": "ce2dd23f6d23013e7dbaad69c50cc3b4363cea6ce0f776767444bdf1ae75c42f",
+    "enPdfPage": 501,
+    "selectionBounds": [
+      178,
+      127,
+      341,
+      174
+    ],
+    "nativePaths": 7,
+    "manualLabels": [
+      [
+        207.8,
+        157.9,
+        "0"
+      ],
+      [
+        239.2,
+        155.6,
+        "1"
+      ],
+      [
+        307,
+        155,
+        "n−1"
+      ],
+      [
+        273,
+        166,
+        "…"
+      ]
+    ],
+    "zeroExtentPathsPreserved": 0,
+    "sourceEnSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+    "method": "Only bounded native drawing primitives, including native arrowheads and zero-extent strokes; manual source labels. No page SVG, font definitions, bitmap, hidden clip or prose.",
+    "cnPdfPage": 417,
+    "branchRoot": [
+      226.73,
+      134.22
+    ],
+    "observedBranchEnds": [
+      [
+        196.11,
+        160.12
+      ],
+      [
+        236.94,
+        160.12
+      ],
+      [
+        318.61,
+        160.12
+      ]
+    ],
+    "reading": "Visible branch labels 0,1,n−1, reflected subtree notation and ellipsis.",
+    "status": "source-preserved-asset-and-current-rendered-pixels-compared"
+  },
+  "fig63": {
+    "asset": "assets/volume4a/figures/7-2-1-6-fig63-organic-binary-trees.svg",
+    "sha256": "576a58ad1ee2dc268285c6f2bfbdfdb5fc8f5e32a35ce690d5c6ba018b544462",
+    "enPdfPage": 502,
+    "selectionBounds": [
+      62,
+      100,
+      384,
+      440
+    ],
+    "nativePaths": 1434,
+    "manualLabels": [
+      [
+        90,
+        432,
+        "(a)"
+      ],
+      [
+        211,
+        432,
+        "(b)"
+      ],
+      [
+        365,
+        283,
+        "(c)"
+      ],
+      [
+        365,
+        432,
+        "(d)"
+      ]
+    ],
+    "zeroExtentPathsPreserved": 0,
+    "sourceEnSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+    "method": "Only bounded native drawing primitives, including native arrowheads and zero-extent strokes; manual source labels. No page SVG, font definitions, bitmap, hidden clip or prose.",
+    "cnPdfPage": 418,
+    "panels": [
+      {
+        "internalNodes": 15,
+        "triangleLeafShapes": 16,
+        "nativeDrawingPaths": 61
+      },
+      {
+        "internalNodes": 100,
+        "triangleLeafShapes": 101,
+        "nativeDrawingPaths": 400
+      },
+      {
+        "internalNodes": 143,
+        "triangleLeafShapes": 144,
+        "nativeDrawingPaths": 573
+      },
+      {
+        "internalNodes": 100,
+        "triangleLeafShapes": 101,
+        "nativeDrawingPaths": 400
+      }
+    ],
+    "status": "source-preserved-asset-and-current-rendered-pixels-compared"
+  },
+  "authorChangeSource": {
+    "englishPrintedPage": 484,
+    "authorDocumentPage": 6,
+    "imageSha256": "01bd7d5c47bc330f54b2a70bfaa8099afcf83c49ad0a7a3c4a5268dbbab58bc6"
+  },
+  "finiteExamples": {
+    "method": "parse expression into a binary arithmetic tree, evaluate decimal source literals as exact rational values, and check digit order",
+    "values": [
+      {
+        "operations": "1+2*3+4*5-6+7+8*9",
+        "value": 100
+      },
+      {
+        "operations": "(1+2-3-4)*(5-6-7-8-9)",
+        "value": 100
+      },
+      {
+        "operations": "((1/((2+3)/4-5+6))*7+8)*9",
+        "value": 100
+      },
+      {
+        "operations": "(1/(2-3+4))*567-89",
+        "value": 100
+      },
+      {
+        "operations": "((.1*.2+3)/.4)/.5+6+78.9",
+        "value": 100
+      }
+    ]
+  },
+  "grammarListingDOM": {
+    "aLines": 7,
+    "bLines": 1,
+    "cLines": 2,
+    "bothViewportsExact": true
+  },
+  "answerTargetSpotCheck": {
+    "confirmedIndependentAnswers": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124
+    ],
+    "cnPages": [
+      693,
+      694,
+      695
+    ],
+    "enPages": [
+      826,
+      827,
+      828
+    ],
+    "sourceLocatorViews": [
+      {
+        "file": "private-snapshot:volume4a/tail-body-review/sources/answer-spot-cn-693-ex111-124.png",
+        "sha256": "139331b4feecaa28065307fa639241252295de5a6b7b0226fc8075c375c96f7c"
+      },
+      {
+        "file": "private-snapshot:volume4a/tail-body-review/sources/answer-spot-cn-694-ex111-124.png",
+        "sha256": "d24e79f850731bdc08c9150d0313fe3f46a76cca1c5c78fefc13c45905567b24"
+      },
+      {
+        "file": "private-snapshot:volume4a/tail-body-review/sources/answer-spot-cn-695-ex111-124.png",
+        "sha256": "795158441a1008df78645d60bfb7d77f87c6e4cf58740564acc19b3a03e5ae97"
+      },
+      {
+        "file": "private-snapshot:volume4a/tail-body-review/sources/answer-spot-en-826-ex111-124.png",
+        "sha256": "d24d91a848080a6521b4addf18537e042abcdb6c2634fd64f803225934e7fdb1"
+      },
+      {
+        "file": "private-snapshot:volume4a/tail-body-review/sources/answer-spot-en-827-ex111-124.png",
+        "sha256": "362479a5cce8353d831f606faf262df3d1df632328dbb2740b97b69958cdd90d"
+      },
+      {
+        "file": "private-snapshot:volume4a/tail-body-review/sources/answer-spot-en-828-ex111-124.png",
+        "sha256": "13a1d5507a301426b429c8e81f4c39ccc58f19c44c96429c73271c315c78c2d3"
+      }
+    ],
+    "qualification": "Answer numbering only; full answer review later, including the later changes for 122 and 123."
+  },
+  "qualification": "Full CN417–418 with actual matched EN500–502 and author update. Four tree panels and all three grammar listings, current proof pixels at both widths and two original figure links checked. Answers checked for presence only."
+}

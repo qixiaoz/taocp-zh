@@ -1,0 +1,2290 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "four-complete-source-pages-with-graph-and-matrix-checks",
+  "cnPhysicalPages": [
+    27,
+    28,
+    29,
+    30
+  ],
+  "cnPrintedPages": [
+    12,
+    13,
+    14,
+    15
+  ],
+  "masterSha256": null,
+  "mathExpressions": 241,
+  "privateBrowserCases": 8,
+  "substantiveCorrections": 4,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7",
+      "cnPdfPage": 27,
+      "cnPrintedPage": 12,
+      "enPdfPages": [
+        32,
+        33
+      ],
+      "enPrintedPages": [
+        15,
+        16
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "361404a4197d0e926d6980d98020a7a343c9dc7275dc1f503b66c95bd15417b0",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidWord": true,
+      "endsMidParagraph": false,
+      "continuation": {
+        "previousCnPdfPage": 26,
+        "previousLastText": "对多面",
+        "firstText": "体的一般问题",
+        "joinWord": "多面体"
+      },
+      "coveredRegions": [
+        "Continuation of polyhedron/Hamilton history and all cited works/section references.",
+        "Girth definition,six examples and Moore-bound/classification statement.",
+        "Distance/symmetry/triangle inequality and every index in paths18..20.",
+        "Diameter/connected-component definitions.",
+        "All displayed word distances and isolated/pair/3-node/path examples.",
+        "Complete path21,giant4493,probability wording preserved with explicit question.",
+        "All5frequency-prefix giant-component counts and500-word case."
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [
+        {
+          "location": "Knight-tour forward reference",
+          "cn": "7.2.2.4",
+          "en": "7.3.3",
+          "status": "resolved-Chinese-incorporates-official-author-reference-update",
+          "resolution": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentPage": 4,
+            "englishPrintedPage": 15,
+            "line": "-10",
+            "reportedDate": "2015-08-03",
+            "decision": "Keep the Chinese updated reference7.2.2.4."
+          }
+        },
+        {
+          "location": "WORDS(2000)undirected giant component in final paragraph",
+          "cn": 1186,
+          "en": 1198,
+          "status": "resolved-Chinese-incorporates-official-author-numeric-correction",
+          "resolution": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentPage": 4,
+            "englishPrintedPage": 16,
+            "line": "29",
+            "reportedDate": "2011-04-23",
+            "historicalOldPrintedTail": [
+              2056,
+              1198,
+              224
+            ],
+            "officialCorrectedTail": [
+              2056,
+              1186,
+              224
+            ],
+            "actualProvidedEnglishTail": [
+              2056,
+              1198,
+              224
+            ],
+            "decision": "Keep Chinese1186. Both the actual supplied English and the official old-text column have2056,1198,224; only1198is changed to1186.",
+            "newMagnifiedSourceImage": "private-snapshot:volume4a/body-review/en-033-prefix-counts-detail2.png",
+            "newMagnifiedSourceImageSha256": "b0c6318db960da64df41227b8bcd45cb8ab73e04df2e344dea89ec75b796f0ae",
+            "officialMagnifiedImage": "private-snapshot:volume4a/official-errata/all4a-pre-page4-prefix-detail2.png",
+            "officialMagnifiedImageSha256": "f816ac00e72888790a96db5cbd35841ed34e40e5724a762b8e44c1b74abe0967"
+          }
+        }
+      ],
+      "preservedSourceQuestions": [
+        {
+          "location": "Probability after two moves changing distinct letters",
+          "cnPrinted": "可能性大于1/15",
+          "enPrinted": "odds better than15to1",
+          "decision": "Preserve the chosen Chinese text and separately record the non-equivalent odds/probability wording. Do not silently substitute15/16or14/15into the body.",
+          "uniformFiniteModel": {
+            "eligibleWords": 4809,
+            "eligibleGiantWords": 4493,
+            "uniformWordConditionalProbability": 0.934289873154502,
+            "qualification": "Finite conditional count under uniform choice among the eligible fixed SGB words. This does not impose a distribution on an arbitrary user-selected word."
+          },
+          "explanation": "Under uniform choice among words that admit a two-edge path changing distinct positions,the exact count is4493/4809≈0.934289873,with odds4493:316≈14.218:1.This supports neither an unqualified conversion to probability>15/16nor a model-independent declaration that the author is wrong.The book does not specify a sampling prior.",
+          "status": "source-probability-wording-and-prior-unresolved"
+        }
+      ],
+      "unverifiedPageRegions": [],
+      "numericChecks": {
+        "namedGraphGirths": [
+          {
+            "name": "P5",
+            "vertices": 5,
+            "edges": 4,
+            "degrees": [
+              1,
+              1,
+              2,
+              2,
+              2
+            ],
+            "girth": "infinity",
+            "planar": true,
+            "automorphisms": 2,
+            "hasHamiltonianCycle": false
+          },
+          {
+            "name": "C5",
+            "vertices": 5,
+            "edges": 5,
+            "degrees": [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "girth": 5,
+            "planar": true,
+            "automorphisms": 10,
+            "hasHamiltonianCycle": true
+          },
+          {
+            "name": "K5",
+            "vertices": 5,
+            "edges": 10,
+            "degrees": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "girth": 3,
+            "planar": false,
+            "automorphisms": 120,
+            "hasHamiltonianCycle": true
+          },
+          {
+            "name": "cube3",
+            "vertices": 8,
+            "edges": 12,
+            "degrees": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "girth": 4,
+            "planar": true,
+            "automorphisms": 48,
+            "hasHamiltonianCycle": true
+          },
+          {
+            "name": "Petersen",
+            "vertices": 10,
+            "edges": 15,
+            "degrees": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "girth": 5,
+            "planar": false,
+            "automorphisms": 120,
+            "hasHamiltonianCycle": false
+          },
+          {
+            "name": "Chvatal",
+            "vertices": 12,
+            "edges": 24,
+            "degrees": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "girth": 4,
+            "planar": false,
+            "automorphisms": 8,
+            "hasHamiltonianCycle": true
+          }
+        ],
+        "PetersenPlanar": false,
+        "PetersenHamiltonianCycle": false,
+        "triangleProofIndices": "r≤p and0≤s≤q; concatenated path lengthr+q−s≤p+q.The least-rcondition excludes intersections of the retained u-prefix with the v-suffix.",
+        "wordGraphFamily": "Undirected Hamming-distance1graph on the exact official ranked list.",
+        "fullGraph": {
+          "vertices": 5757,
+          "edges": 14135,
+          "componentsBySize": {
+            "1": 671,
+            "2": 103,
+            "3": 42,
+            "4": 13,
+            "5": 6,
+            "6": 4,
+            "7": 6,
+            "8": 1,
+            "15": 3,
+            "17": 1,
+            "19": 1,
+            "24": 1,
+            "4493": 1
+          }
+        },
+        "distances": {
+          "tears->smile": 6,
+          "tears->happy": 6,
+          "smile->happy": 10,
+          "world->court": 6,
+          "world->happy": null
+        },
+        "path21": {
+          "words": [
+            "login",
+            "logic",
+            "yogic",
+            "yogis",
+            "yogas",
+            "togas"
+          ],
+          "allSGB": true,
+          "allEdgesValid": true,
+          "length": 5
+        },
+        "frequencyPrefixGraphs": {
+          "5000": {
+            "largestComponent": 3825,
+            "components": 800
+          },
+          "4000": {
+            "largestComponent": 2986,
+            "components": 689
+          },
+          "3000": {
+            "largestComponent": 2056,
+            "components": 629
+          },
+          "2000": {
+            "largestComponent": 1186,
+            "components": 542
+          },
+          "1000": {
+            "largestComponent": 224,
+            "components": 446
+          },
+          "500": {
+            "largestComponent": 14,
+            "components": 327
+          }
+        },
+        "sourceWordDataSha256": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce",
+        "qualification": "Finite named graphs and exact fixed word-graph counts only.No independent general Moore-classification or global minimal-Petersen-order proof is claimed."
+      },
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-027.png",
+      "sourcePageImageSha256": "b6e74d5ffb69e14ec7cd1ef0833faf0c00de3339756fdc327dc5bca7043f5d1b",
+      "enPageImages": [
+        {
+          "physicalPage": 32,
+          "file": "private-snapshot:volume4a/body-review/en-032.png",
+          "sha256": "120713030e934df9075d3150bed7ce37d606736981c4d519baf9542ee15b9e29"
+        },
+        {
+          "physicalPage": 33,
+          "file": "private-snapshot:volume4a/body-review/en-033.png",
+          "sha256": "ce053a37054193e324365642cfabfe0de41ccaaed7f894a632f7cacae60b174c"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-027",
+        "p-12"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number,retained as a hidden anchor."
+      ],
+      "qualification": "Complete model comparison of the source page,including preserved unresolved probability wording; not human sign-off or proof of every original assertion.",
+      "pending": [
+        "Final whole-volume inclusion",
+        "Final boundary join of多面体",
+        "Whole-volume offline/production/browser/online acceptance"
+      ],
+      "reviewRecordHistory": [
+        {
+          "file": "private-snapshot:volume4a/verified-history/027-before-official-tuple-source-correction-96a41b935b9ba8fdf85e9dd398097c378f54a0c7769a6d896aeebf8ad93f4a48/027.json",
+          "sha256": "96a41b935b9ba8fdf85e9dd398097c378f54a0c7769a6d896aeebf8ad93f4a48",
+          "reason": "Actual official source image reinspection corrects earlier metadata-only digit misreading2050to2056and reference-update date; Chinese transcription is unchanged."
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-history/027-before-evidence-crop-fix-44a855b9f5eb21dcad1a516cd50a1f680c6f4da1522b5474510f89d6de5b03ad/027.json",
+          "sha256": "44a855b9f5eb21dcad1a516cd50a1f680c6f4da1522b5474510f89d6de5b03ad",
+          "reason": "Initial crop box showed preceding references; changed evidence link to actual tuple region. Full-page primary image had already been viewed."
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 27,
+        "markdownSha256": "361404a4197d0e926d6980d98020a7a343c9dc7275dc1f503b66c95bd15417b0",
+        "htmlSha256": "93cfd03ff54d5661eeeac7892cea73ab97849cafc8caaedc4a9c8b853e0ac91a",
+        "mathExpressions": 53,
+        "displayMath": 4,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-27.json",
+        "sha256": "8127ee1fb9706dc9763b97b04bc79e7e2eb3977a70a18fb6cbf727e48696dab3",
+        "cases": [
+          {
+            "physicalPage": 27,
+            "width": 1280,
+            "markdownSha256": "361404a4197d0e926d6980d98020a7a343c9dc7275dc1f503b66c95bd15417b0",
+            "documentWidth": 1280,
+            "math": 53,
+            "mathml": 53,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 53,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 27,
+            "width": 390,
+            "markdownSha256": "361404a4197d0e926d6980d98020a7a343c9dc7275dc1f503b66c95bd15417b0",
+            "documentWidth": 390,
+            "math": 53,
+            "mathml": 53,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 53,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actual private page checks with production direct renderer/CSS and desktop/narrow screenshots viewed; not final whole-volume SSR/online acceptance."
+      },
+      "privateOriginalPageReviewSha256": "1534fa1c09fee6810a06d18a2225bd8a1f20eb6b303f9c3455c90aea53e6add9",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/027.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 28,
+      "cnPrintedPage": 13,
+      "enPdfPages": [
+        33,
+        34
+      ],
+      "enPrintedPages": [
+        16,
+        17
+      ],
+      "pageMarkdownSha256": "42f7b2073478b137b69bec69b41ca19ec9a66ad49e0bc95320fcafc2d566c3ce",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-028.png",
+      "sourcePageImageSha256": "6203224b24ca390b91d00da27ca14c4a5e18f482a86457ca18ea0a8808eac34f",
+      "enPageImages": [
+        {
+          "physicalPage": 33,
+          "file": "private-snapshot:volume4a/body-review/en-033.png",
+          "sha256": "ce053a37054193e324365642cfabfe0de41ccaaed7f894a632f7cacae60b174c"
+        },
+        {
+          "physicalPage": 34,
+          "file": "private-snapshot:volume4a/body-review/en-034.png",
+          "sha256": "738c15eeff9de1c8e50a86350c3b02f34ea8be554602408807c6c68aadb98f8c"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-028",
+        "p-13",
+        "eq-7-22",
+        "eq-7-23"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number,retained as a hidden anchor."
+      ],
+      "coveredRegions": [
+        "Generalized distance definition and every word/edge of diagram22.",
+        "Steiner/Gergonne historical paragraph with exact journal citation.",
+        "All coloring definitions,four-color history and quadratic time statement.",
+        "TheoremB and both proof directions,including the coloring procedure and closing square.",
+        "Complete bipartite/multipartite definitions,all index inequalities and every example23node/edge/label."
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [
+        {
+          "location": "Steiner-tree historical attribution paragraph",
+          "cn": "Joseph Gergonne,anykplanar points,1811citation",
+          "en": "Franz Heinen1834and Gauss1836,old suppliedEN34",
+          "status": "resolved-Chinese-incorporates-official-author-history-correction",
+          "resolution": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentPage": 5,
+            "englishPrintedPage": 17,
+            "lines": "5–7",
+            "reportedDate": "2013-03-04",
+            "sourceImage": "private-snapshot:volume4a/official-errata/all4a-pre-page5.png",
+            "sourceImageSha256": "2bea85654d584b5b4c2f2b7f8909a9f4c95eeef2173901ea6067df30a3fd27fc",
+            "decision": "Keep chosen Chinese historical paragraph; the official short replacement matches it. No extra historical expansion is inserted."
+          }
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/volume4a/figures/diagram-7-22-word-steiner.svg",
+          "sha256": "8ba8661b5dac1ee840cae41fc6aa5bfaff66ef636fe5342434d97ca18f06f667",
+          "kind": "source-checked-editable-text-SVG",
+          "cnPhysicalPage": 28,
+          "enPhysicalPage": 33,
+          "nodes": 16,
+          "edges": 15
+        },
+        {
+          "path": "assets/volume4a/figures/diagram-7-23-complete-multipartite.svg",
+          "sha256": "2238f3b85406e5f15e3d9b189d047c29cdbfc3179bbeefc19e55faa113fd284c",
+          "kind": "bounded-native-vector-reconstruction",
+          "cnPhysicalPage": 28,
+          "enPhysicalPage": 34,
+          "sourceSelectionBBox": [
+            70,
+            545,
+            348,
+            587
+          ],
+          "nativeDrawingCount": 62,
+          "nativeItemCount": 284,
+          "nodes": 30,
+          "edges": 47
+        }
+      ],
+      "numericChecks": {
+        "diagram22": {
+          "asset": "assets/volume4a/figures/diagram-7-22-word-steiner.svg",
+          "sha256": "8ba8661b5dac1ee840cae41fc6aa5bfaff66ef636fe5342434d97ca18f06f667",
+          "words": [
+            "blood",
+            "brood",
+            "broad",
+            "bread",
+            "tread",
+            "treed",
+            "tweed",
+            "tears",
+            "teams",
+            "trams",
+            "trims",
+            "tries",
+            "trees",
+            "tweet",
+            "sweat",
+            "sweet"
+          ],
+          "edges": [
+            [
+              "blood",
+              "brood"
+            ],
+            [
+              "brood",
+              "broad"
+            ],
+            [
+              "broad",
+              "bread"
+            ],
+            [
+              "bread",
+              "tread"
+            ],
+            [
+              "tread",
+              "treed"
+            ],
+            [
+              "treed",
+              "tweed"
+            ],
+            [
+              "tears",
+              "teams"
+            ],
+            [
+              "teams",
+              "trams"
+            ],
+            [
+              "trams",
+              "trims"
+            ],
+            [
+              "trims",
+              "tries"
+            ],
+            [
+              "tries",
+              "trees"
+            ],
+            [
+              "sweat",
+              "sweet"
+            ],
+            [
+              "treed",
+              "trees"
+            ],
+            [
+              "tweed",
+              "tweet"
+            ],
+            [
+              "tweet",
+              "sweet"
+            ]
+          ],
+          "isTree": true,
+          "vertices": 16,
+          "edgeCount": 15,
+          "allWordsInExactSGBList": true,
+          "allEdgesHammingOne": true,
+          "generalizedDistanceMinimum": 15,
+          "minimizingBranchWords": [
+            "bland",
+            "blend",
+            "blond",
+            "treed"
+          ],
+          "method": "Three BFS distance arrays over the fixed5757-word Hamming graph; minimize their sum over every common reachable vertex. For a three-terminal tree its branch vertex realizes that sum, and the displayed15-edge tree attains it.",
+          "sourceWordListSha256": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce"
+        },
+        "diagram23": {
+          "asset": "assets/volume4a/figures/diagram-7-23-complete-multipartite.svg",
+          "sha256": "2238f3b85406e5f15e3d9b189d047c29cdbfc3179bbeefc19e55faa113fd284c",
+          "enPhysicalPage": 34,
+          "cnPhysicalPage": 28,
+          "selectionBBox": [
+            70,
+            545,
+            348,
+            587
+          ],
+          "nativeDrawingCount": 62,
+          "nativeItemCount": 284,
+          "nodes": 30,
+          "edges": 47,
+          "nodeCenters": [
+            [
+              89.49919891357422,
+              563.7449951171875
+            ],
+            [
+              89.49919891357422,
+              549.4210205078125
+            ],
+            [
+              75.8761978149414,
+              559.3190307617188
+            ],
+            [
+              81.08020782470703,
+              575.3330078125
+            ],
+            [
+              97.91820526123047,
+              575.3330078125
+            ],
+            [
+              103.12220001220703,
+              559.3190307617188
+            ],
+            [
+              140.19619750976562,
+              569.5135498046875
+            ],
+            [
+              154.51919555664062,
+              569.5135498046875
+            ],
+            [
+              168.84219360351562,
+              569.5135498046875
+            ],
+            [
+              140.19619750976562,
+              555.1915283203125
+            ],
+            [
+              154.51919555664062,
+              555.1915283203125
+            ],
+            [
+              168.84219360351562,
+              555.1915283203125
+            ],
+            [
+              220.80221557617188,
+              562.3305053710938
+            ],
+            [
+              213.64019775390625,
+              549.926513671875
+            ],
+            [
+              199.31820678710938,
+              549.926513671875
+            ],
+            [
+              192.15618896484375,
+              562.3305053710938
+            ],
+            [
+              199.31820678710938,
+              574.7335205078125
+            ],
+            [
+              213.64019775390625,
+              574.7335205078125
+            ],
+            [
+              286.56219482421875,
+              562.3305053710938
+            ],
+            [
+              279.40020751953125,
+              549.926513671875
+            ],
+            [
+              265.0782165527344,
+              549.926513671875
+            ],
+            [
+              257.91619873046875,
+              562.3305053710938
+            ],
+            [
+              265.0782165527344,
+              574.7335205078125
+            ],
+            [
+              279.40020751953125,
+              574.7335205078125
+            ],
+            [
+              311.49920654296875,
+              574.7305297851562
+            ],
+            [
+              325.7991943359375,
+              574.7305297851562
+            ],
+            [
+              340.09918212890625,
+              574.7305297851562
+            ],
+            [
+              318.6492004394531,
+              562.3464965820312
+            ],
+            [
+              332.9491882324219,
+              562.3464965820312
+            ],
+            [
+              325.7991943359375,
+              549.9625244140625
+            ]
+          ],
+          "graphEdges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              6,
+              9
+            ],
+            [
+              6,
+              10
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              7,
+              11
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              12,
+              17
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              14,
+              17
+            ],
+            [
+              15,
+              16
+            ],
+            [
+              16,
+              17
+            ],
+            [
+              18,
+              19
+            ],
+            [
+              18,
+              20
+            ],
+            [
+              18,
+              22
+            ],
+            [
+              18,
+              23
+            ],
+            [
+              19,
+              20
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              19,
+              23
+            ],
+            [
+              20,
+              21
+            ],
+            [
+              20,
+              22
+            ],
+            [
+              21,
+              22
+            ],
+            [
+              21,
+              23
+            ],
+            [
+              22,
+              23
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              24,
+              27
+            ],
+            [
+              24,
+              26
+            ],
+            [
+              24,
+              29
+            ],
+            [
+              25,
+              26
+            ],
+            [
+              25,
+              27
+            ],
+            [
+              25,
+              28
+            ],
+            [
+              26,
+              28
+            ],
+            [
+              26,
+              29
+            ],
+            [
+              27,
+              29
+            ],
+            [
+              27,
+              28
+            ],
+            [
+              28,
+              29
+            ]
+          ],
+          "traces": {
+            "nativeLogicalEdgeTraces": 47,
+            "uniqueLogicalEdges": 47,
+            "retracedEdges": [],
+            "straightLineSplitsAtRealIntermediateVertices": [
+              {
+                "start": [
+                  311.49920654296875,
+                  574.7310180664062
+                ],
+                "end": [
+                  340.0992126464844,
+                  574.7310180664062
+                ],
+                "intermediateVertices": [
+                  25
+                ]
+              },
+              {
+                "start": [
+                  340.0992126464844,
+                  574.7310180664062
+                ],
+                "end": [
+                  325.7991943359375,
+                  549.9630126953125
+                ],
+                "intermediateVertices": [
+                  28
+                ]
+              },
+              {
+                "start": [
+                  325.7991943359375,
+                  549.9630126953125
+                ],
+                "end": [
+                  311.49920654296875,
+                  574.7310180664062
+                ],
+                "intermediateVertices": [
+                  27
+                ]
+              }
+            ]
+          },
+          "panels": [
+            {
+              "nodes": 6,
+              "edges": 5,
+              "degrees": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                5
+              ],
+              "namedGraphIsomorphism": true
+            },
+            {
+              "nodes": 6,
+              "edges": 9,
+              "degrees": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "namedGraphIsomorphism": true
+            },
+            {
+              "nodes": 6,
+              "edges": 9,
+              "degrees": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "namedGraphIsomorphism": true
+            },
+            {
+              "nodes": 6,
+              "edges": 12,
+              "degrees": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ],
+              "namedGraphIsomorphism": true
+            },
+            {
+              "nodes": 6,
+              "edges": 12,
+              "degrees": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ],
+              "namedGraphIsomorphism": true
+            }
+          ],
+          "method": "Only native paths fully in the stated region; crossing paths including zero-width/height rejected; no full-page SVG or hidden clipping."
+        },
+        "qualification": "Fixed5757-word graph verifies15as the three-terminal optimum; finite displayed graph topologies verified. No independent full four-color theorem or historical research proof is claimed."
+      },
+      "svgIntegrity": {
+        "onlyExplicitFigureNativePrimitives": true,
+        "crossingBoundaryPathsIncludingZeroExtentRejected": true,
+        "equation22WordsAndEdgesDirectlyComparedToBothSourceImages": true,
+        "equation23NativeTopologyAndAllLabelsComparedToBothSourceImages": true
+      },
+      "qualification": "Complete model comparison of the source page,not human sign-off. Page rendering and final whole-volume acceptance remain separately scoped.",
+      "pending": [
+        "Final whole-volume inclusion",
+        "Final offline/production/browser/online acceptance"
+      ],
+      "renderRevisionHistory": [
+        {
+          "folder": "private-snapshot:volume4a/verified-history/028-before-standalone-tag-visual-fix-bfd32f172cc4d72e096dd053de0809fcf69b1ea41d49043eb1a0571e35bd4296",
+          "oldMarkdownSha256": "bfd32f172cc4d72e096dd053de0809fcf69b1ea41d49043eb1a0571e35bd4296",
+          "reason": "Actual screenshots showed standalone empty KaTeX tag baselines vertically clipped despite syntax/layout metrics passing. Replaced those two display-only tags with plain searchable diagram numbers,as used in026; no source content altered."
+        },
+        {
+          "folder": "private-snapshot:volume4a/verified-history/028-before-bibliographic-stop-restoration-becdd65c2c13daf9fe9c1c40412cf986beacf3176642faa8281597b3969d93e1",
+          "oldMarkdownSha256": "becdd65c2c13daf9fe9c1c40412cf986beacf3176642faa8281597b3969d93e1",
+          "reason": "RestoredonebibliographicterminalASCIIperiodexactlyasprinted,pertheagreedpunctuationexception;notasubstantivebookcorrection. Fresh syntax/browser checks follow."
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 28,
+        "markdownSha256": "42f7b2073478b137b69bec69b41ca19ec9a66ad49e0bc95320fcafc2d566c3ce",
+        "htmlSha256": "2a78afd2f6060670eff83df42974422f03be162f7bd090de817d72b8e23a689d",
+        "mathExpressions": 46,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 2,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-28-36.json",
+        "sha256": "7baf9adb1cf46cc5186d1c9d784ba53b86d5e8394f462f8b82bcf898ac1080e0",
+        "cases": [
+          {
+            "physicalPage": 28,
+            "width": 1280,
+            "markdownSha256": "42f7b2073478b137b69bec69b41ca19ec9a66ad49e0bc95320fcafc2d566c3ce",
+            "documentWidth": 1280,
+            "math": 46,
+            "mathml": 46,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 46,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 28,
+            "width": 390,
+            "markdownSha256": "42f7b2073478b137b69bec69b41ca19ec9a66ad49e0bc95320fcafc2d566c3ce",
+            "documentWidth": 390,
+            "math": 46,
+            "mathml": 46,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 46,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Private production-direct1280/390actual checks;fullpage/longmathends/tableauorfigure screenshots viewed. Bibliographic-periodrestoration at028/036preservedpriorproofsandwasre-renderedonbothwidths."
+      },
+      "privateOriginalPageReviewSha256": "18614f5952b5646a572229f1368116d842f10bc12c1b4619a3ba75ef7ec40e63",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/028.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 29,
+      "cnPrintedPage": 14,
+      "enPdfPages": [
+        34,
+        35,
+        36
+      ],
+      "enPrintedPages": [
+        17,
+        18,
+        19
+      ],
+      "pageMarkdownSha256": "68f52a7bb7d44b3d25a4b037345de426376b3e6265c9b47415c73d92c35fcb5e",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-029.png",
+      "sourcePageImageSha256": "3a43b336ddadac01bd27177c8db4ff63916a051495c7b8d6222195404f77859c",
+      "enPageImages": [
+        {
+          "physicalPage": 34,
+          "file": "private-snapshot:volume4a/body-review/en-034.png",
+          "sha256": "738c15eeff9de1c8e50a86350c3b02f34ea8be554602408807c6c68aadb98f8c"
+        },
+        {
+          "physicalPage": 35,
+          "file": "private-snapshot:volume4a/body-review/en-035.png",
+          "sha256": "0e0b45677b3510d8d9b33c1ccdfc14b579eb671ef09c28832bc27778c5770c0a"
+        },
+        {
+          "physicalPage": 36,
+          "file": "private-snapshot:volume4a/body-review/en-036.png",
+          "sha256": "da6474cf018f5a4f35b862b3d611f4a36cf7371e5489fae86eeb57e8e9086a38"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-029",
+        "p-14",
+        "eq-7-24",
+        "eq-7-25"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number,retained as a hidden anchor."
+      ],
+      "coveredRegions": [
+        "Star-graph note and completePolyaepigraph.",
+        "All digraph/multiset/simple/loop/indegree/outdegree/source/sink definitions and sum identity.",
+        "Digraph isomorphism definition with arc multiplicity and both phiarguments.",
+        "Three directed graphs24:all15nodes19arcs and their directions.",
+        "Complete digraphJnincluding alln²loop-allowed arcs.",
+        "OrientExpress17vertex example,all6weak component sets and adjacency/walk definition through equation25."
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "images": [
+        {
+          "asset": "assets/volume4a/figures/diagram-7-24-directed-graphs.svg",
+          "sha256": "8a4ca1829cf093c8066905e5d081b1a3cf126da1baf5348db0ed8452e951d1c7",
+          "sourceEnglishPDFSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+          "enPhysicalPage": 35,
+          "cnPhysicalPage": 29,
+          "sourceSelectionBBox": [
+            88,
+            440,
+            360,
+            471
+          ],
+          "nativeDrawingCount": 53,
+          "nativeItemCount": 182,
+          "nodes": 15,
+          "arcs": 19,
+          "arrowheads": 19,
+          "panels": [
+            {
+              "nodes": 5,
+              "arcs": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ],
+                [
+                  3,
+                  4
+                ]
+              ],
+              "nativeDirectionsMatchSource": true
+            },
+            {
+              "nodes": 5,
+              "arcs": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ]
+              ],
+              "nativeDirectionsMatchSource": true
+            },
+            {
+              "nodes": 5,
+              "arcs": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  0
+                ]
+              ],
+              "nativeDirectionsMatchSource": true
+            }
+          ],
+          "method": "Native figure-only geometry with all arrow shafts,heads and15node circles retained. Source arrow directions assigned by ordered shaft endpoints nearest the actual circles and checked against exact directed graphs.",
+          "qualification": "Source original images and rendered SVG comparisons are separately recorded in verified029."
+        }
+      ],
+      "numericChecks": {
+        "diagram24": {
+          "asset": "assets/volume4a/figures/diagram-7-24-directed-graphs.svg",
+          "sha256": "8a4ca1829cf093c8066905e5d081b1a3cf126da1baf5348db0ed8452e951d1c7",
+          "sourceEnglishPDFSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+          "enPhysicalPage": 35,
+          "cnPhysicalPage": 29,
+          "sourceSelectionBBox": [
+            88,
+            440,
+            360,
+            471
+          ],
+          "nativeDrawingCount": 53,
+          "nativeItemCount": 182,
+          "nodes": 15,
+          "arcs": 19,
+          "arrowheads": 19,
+          "panels": [
+            {
+              "nodes": 5,
+              "arcs": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ],
+                [
+                  3,
+                  4
+                ]
+              ],
+              "nativeDirectionsMatchSource": true
+            },
+            {
+              "nodes": 5,
+              "arcs": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ]
+              ],
+              "nativeDirectionsMatchSource": true
+            },
+            {
+              "nodes": 5,
+              "arcs": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  0
+                ]
+              ],
+              "nativeDirectionsMatchSource": true
+            }
+          ],
+          "method": "Native figure-only geometry with all arrow shafts,heads and15node circles retained. Source arrow directions assigned by ordered shaft endpoints nearest the actual circles and checked against exact directed graphs.",
+          "qualification": "Source original images and rendered SVG comparisons are separately recorded in verified029."
+        },
+        "componentSetsFromText": [
+          [
+            0,
+            1,
+            3,
+            6,
+            8,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          [
+            2
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            7
+          ],
+          [
+            9
+          ],
+          [
+            10,
+            11
+          ]
+        ],
+        "qualification": "All finite structures24and the following sourcefigure3are now independently checked; this does not certify all general digraph statements.",
+        "figure3CrossPageVerification": {
+          "verifiedAtCNPhysicalPage": 30,
+          "originalPageReviewSha256": "44781492d495724add63c54d8029fb03b8ba63b985a9a4121557e742b56157a0",
+          "nodes": 17,
+          "arcs": 18,
+          "weakComponents": [
+            [
+              0,
+              1,
+              3,
+              6,
+              8,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            [
+              2
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              7
+            ],
+            [
+              9
+            ],
+            [
+              10,
+              11
+            ]
+          ],
+          "all6TextComponentSetsMatchNativeGraph": true
+        }
+      },
+      "qualification": "Complete model comparison of this source page,not human sign-off or independent certification of final whole-volume rendering/publication.",
+      "pending": [
+        "Final whole-volume inclusion",
+        "Final offline/production/browser/online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 29,
+        "markdownSha256": "68f52a7bb7d44b3d25a4b037345de426376b3e6265c9b47415c73d92c35fcb5e",
+        "htmlSha256": "41dca9017b310f39b52927e6913acf4ad46ac64f0492537a6aa0e84bebe39e15",
+        "mathExpressions": 75,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-29.json",
+        "sha256": "6bfc7ba008f264285aee8d27f4c6f13202c02954550506f48fb2181dd337d4ec",
+        "cases": [
+          {
+            "physicalPage": 29,
+            "width": 1280,
+            "markdownSha256": "68f52a7bb7d44b3d25a4b037345de426376b3e6265c9b47415c73d92c35fcb5e",
+            "documentWidth": 1280,
+            "math": 75,
+            "mathml": 75,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 75,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 29,
+            "width": 390,
+            "markdownSha256": "68f52a7bb7d44b3d25a4b037345de426376b3e6265c9b47415c73d92c35fcb5e",
+            "documentWidth": 390,
+            "math": 75,
+            "mathml": 75,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 75,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actual private desktop/narrow page screenshots inspected with production direct renderer/CSS; long math checked at both horizontal ends,not final whole-volumeSSRoronline acceptance."
+      },
+      "reviewRecordHistory": [
+        {
+          "file": "private-snapshot:volume4a/verified-history/029-before-figure3-crosspage-check-31847b7fc626e692442ab815cb288050c31f9dc2c039425a662f241c15773f43/029.json",
+          "sha256": "31847b7fc626e692442ab815cb288050c31f9dc2c039425a662f241c15773f43",
+          "reason": "Added independent figure3component check from actual next-page source drawing; source Markdown/render inputs unchanged."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "bab7b47eb4f9748eb8bd48b475ae19c88a95ebf321b1de0e676b4eb84eb64268",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/029.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 30,
+      "cnPrintedPage": 15,
+      "enPdfPages": [
+        36,
+        37
+      ],
+      "enPrintedPages": [
+        19,
+        20
+      ],
+      "pageMarkdownSha256": "fd49222ac3ea6eb520598418f9a60203d2f1f7df818df90902bf7fafbaa8dbbb",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-030.png",
+      "sourcePageImageSha256": "27bf785377c9ae81f4c9c9affc6c2af9fa5e17181603eae9456923e19459b880",
+      "enPageImages": [
+        {
+          "physicalPage": 36,
+          "file": "private-snapshot:volume4a/body-review/en-036.png",
+          "sha256": "da6474cf018f5a4f35b862b3d611f4a36cf7371e5489fae86eeb57e8e9086a38"
+        },
+        {
+          "physicalPage": 37,
+          "file": "private-snapshot:volume4a/body-review/en-037.png",
+          "sha256": "adb7930adba34118e4a4533467af818b1ee3f7cd85cc31e973b0742fd42d7e21"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-030",
+        "p-15",
+        "fig-7-3",
+        "eq-7-26",
+        "eq-7-27",
+        "eq-7-28",
+        "eq-7-29"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number,retained as a hidden anchor."
+      ],
+      "coveredRegions": [
+        "Completefigure3boundednative geometry,all17node labels18unique arc directions and all17searchable legend entries.",
+        "Walk/path/cycle and directed-distance definitions.",
+        "Graph-to-digraph/multigraph conversion,loop multiplicities and degree effects.",
+        "Diagram26all3nodes6multiedges.",
+        "All5matrices27plus every summation index in28and all27matrix cells of29.",
+        "Matrix multiplication/walk counting paragraph includingk≥0."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 15,
+          "location": "Figure3legend0",
+          "enPosition": "EN36/printed19,legend0",
+          "original": "法国导演",
+          "final": "法国列车员",
+          "basis": "French conductor refers to the railway sleeping-car attendant in the explicitly stated train-berth diagram; director is the wrong occupation."
+        },
+        {
+          "cnPrintedPage": 15,
+          "location": "Figure3legend6",
+          "enPosition": "EN36/printed19,legend6",
+          "original": "美国部长",
+          "final": "美国秘书",
+          "basis": "The American secretary is an occupational description here; minister is a different sense."
+        },
+        {
+          "cnPrintedPage": 15,
+          "location": "Figure3legend8",
+          "enPosition": "EN36/printed19,legend8",
+          "original": "德国贵妇人的女仆",
+          "final": "德国贴身侍女",
+          "basis": "Lady’s maid is the occupation personal attendant; German modifies the maid. Figure14identifies Princess Dragomiroff as Russian; the rights-holder official character page independently corroborates Schmidt as her personal maid. No service relationship explanation is inserted into the source legend.",
+          "externalCorroboration": {
+            "url": "https://www.agathachristie.com/en/film-and-tv/murder-on-the-orient-express/meet-the-cast/olivia-colman",
+            "title": "Olivia Colman - Agatha Christie(UK)",
+            "accessedDate": "2026-11-17",
+            "shortExcerpt": "Hildegarde Schmidt works for the Princess Dragomiroff as her lady's maid.",
+            "qualification": "Rights-holder2017film-adaptation character page corroborates the service relationship only; it is not a replacement source for the1934novel or TAOCP.",
+            "shortExcerptSha256": "4ba1429ff1203d656dd88e7b038d78c2192ce7840c06c4622df3bea72eb72add"
+          }
+        },
+        {
+          "cnPrintedPage": 15,
+          "location": "Figure3legend15",
+          "enPosition": "EN36/printed19,legend15",
+          "original": "印裔英国军官",
+          "final": "来自印度的英国军官",
+          "basis": "British officer from India describes where he comes from in this journey; it does not state Indian ancestry. The corrected wording stays within the supplied English without asserting a separate biography."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "Figure3legend6and16names",
+          "cn": [
+            "Hector Willard MacQueen",
+            "Cyrus Bethman Hardman"
+          ],
+          "en": [
+            "Hector MacQueen",
+            "Cyrus Bettman Hardman"
+          ],
+          "status": "resolved-Chinese-incorporates-official-author-name-corrections",
+          "resolution": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentPage": 5,
+            "englishPrintedPage": 19,
+            "location": "lines5and15inrightcolumnofFig3",
+            "reportedDate": "2011-04-23",
+            "sourceImage": "private-snapshot:volume4a/official-errata/all4a-pre-page5.png",
+            "sourceImageSha256": "2bea85654d584b5b4c2f2b7f8909a9f4c95eeef2173901ea6067df30a3fd27fc",
+            "decision": "Keep both Chinese name forms; they match official corrected names."
+          }
+        }
+      ],
+      "images": [
+        {
+          "asset": "assets/volume4a/figures/fig-7-3-orient-express.svg",
+          "sha256": "9d5f4497b4c64f73c1bd79c89f0c31e434c41162de4d48e8f0f12e899cfc269b",
+          "cnPhysicalPage": 30,
+          "enPhysicalPage": 36,
+          "sourceSelectionBBox": [
+            35,
+            65,
+            195,
+            145
+          ],
+          "nativeDrawingCount": 72,
+          "nativeItemCount": 254,
+          "nodes": 17,
+          "arcs": [
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              13
+            ],
+            [
+              0,
+              14
+            ],
+            [
+              0,
+              15
+            ],
+            [
+              0,
+              16
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              8,
+              14
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              11,
+              10
+            ],
+            [
+              13,
+              12
+            ],
+            [
+              14,
+              8
+            ],
+            [
+              15,
+              6
+            ],
+            [
+              16,
+              3
+            ]
+          ],
+          "arcCount": 18,
+          "nativeArcTraces": 19,
+          "retracedArc": [
+            8,
+            3
+          ],
+          "allNativeRetracesPreserved": true,
+          "weakComponents": [
+            [
+              0,
+              1,
+              3,
+              6,
+              8,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            [
+              2
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              7
+            ],
+            [
+              9
+            ],
+            [
+              10,
+              11
+            ]
+          ],
+          "sourceWalk": [
+            1,
+            0,
+            8,
+            14,
+            8,
+            3
+          ],
+          "walkValid": true,
+          "sourceNodeOrderExplicitlyNumberedAndCompared": true
+        },
+        {
+          "asset": "assets/volume4a/figures/diagram-7-26-multigraph.svg",
+          "sha256": "e41e0b29c0a5b6326b11313e322dc7129b3151336185e79e808cbdb88265c3f1",
+          "cnPhysicalPage": 30,
+          "enPhysicalPage": 36,
+          "sourceSelectionBBox": [
+            180,
+            445,
+            263,
+            463
+          ],
+          "nativeDrawingCount": 8,
+          "nativeItemCount": 21,
+          "edges": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "degrees": {
+            "1": 3,
+            "2": 3,
+            "3": 6
+          }
+        }
+      ],
+      "numericChecks": {
+        "sourceEnglishPDFSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+        "fig3": {
+          "asset": "assets/volume4a/figures/fig-7-3-orient-express.svg",
+          "sha256": "9d5f4497b4c64f73c1bd79c89f0c31e434c41162de4d48e8f0f12e899cfc269b",
+          "cnPhysicalPage": 30,
+          "enPhysicalPage": 36,
+          "sourceSelectionBBox": [
+            35,
+            65,
+            195,
+            145
+          ],
+          "nativeDrawingCount": 72,
+          "nativeItemCount": 254,
+          "nodes": 17,
+          "arcs": [
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              13
+            ],
+            [
+              0,
+              14
+            ],
+            [
+              0,
+              15
+            ],
+            [
+              0,
+              16
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              8,
+              14
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              11,
+              10
+            ],
+            [
+              13,
+              12
+            ],
+            [
+              14,
+              8
+            ],
+            [
+              15,
+              6
+            ],
+            [
+              16,
+              3
+            ]
+          ],
+          "arcCount": 18,
+          "nativeArcTraces": 19,
+          "retracedArc": [
+            8,
+            3
+          ],
+          "allNativeRetracesPreserved": true,
+          "weakComponents": [
+            [
+              0,
+              1,
+              3,
+              6,
+              8,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            [
+              2
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              7
+            ],
+            [
+              9
+            ],
+            [
+              10,
+              11
+            ]
+          ],
+          "sourceWalk": [
+            1,
+            0,
+            8,
+            14,
+            8,
+            3
+          ],
+          "walkValid": true,
+          "sourceNodeOrderExplicitlyNumberedAndCompared": true
+        },
+        "diagram26": {
+          "asset": "assets/volume4a/figures/diagram-7-26-multigraph.svg",
+          "sha256": "e41e0b29c0a5b6326b11313e322dc7129b3151336185e79e808cbdb88265c3f1",
+          "cnPhysicalPage": 30,
+          "enPhysicalPage": 36,
+          "sourceSelectionBBox": [
+            180,
+            445,
+            263,
+            463
+          ],
+          "nativeDrawingCount": 8,
+          "nativeItemCount": 21,
+          "edges": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "degrees": {
+            "1": 3,
+            "2": 3,
+            "3": 6
+          }
+        },
+        "matrices": {
+          "K3Directed": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "P3Directed": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "C3Directed": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "J3": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "A": [
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              0,
+              2,
+              4
+            ]
+          ],
+          "A2": [
+            [
+              5,
+              2,
+              2
+            ],
+            [
+              2,
+              5,
+              8
+            ],
+            [
+              2,
+              8,
+              20
+            ]
+          ],
+          "A3": [
+            [
+              12,
+              9,
+              12
+            ],
+            [
+              9,
+              18,
+              42
+            ],
+            [
+              12,
+              42,
+              96
+            ]
+          ],
+          "sourceMatrixCellsChecked": 72
+        },
+        "qualification": "Figure-only native geometry,manually transcribed node digits and finite graph/matrix properties; actual CN/EN original/legend comparison and rendered checks are separately recorded in verified030."
+      },
+      "legendSourceDetails": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-030-legend-left.png",
+          "sha256": "be8a50707c01a9f2d9be285c7a4908db2bdbf2a1ffee5121d6ecb1447dbf3e20"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-030-legend-right2.png",
+          "sha256": "86fafa01fc5cbd7053f921aa06e70b6c3598de5d0b36e03f3ae4a42c7c6994fa"
+        }
+      ],
+      "qualification": "Complete model comparison of this source page,including all displayed graph geometry and cells; not human sign-off. Primary English and official short errata govern corrections; external official adaptation page serves only limited corroboration.",
+      "pending": [
+        "Final whole-volume inclusion",
+        "Final offline/production/browser/online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 30,
+        "markdownSha256": "fd49222ac3ea6eb520598418f9a60203d2f1f7df818df90902bf7fafbaa8dbbb",
+        "htmlSha256": "4c29205437ab8929ab086a2cae9d68e2e1d26c02ace96b9a69c1d9521d00f40a",
+        "mathExpressions": 67,
+        "displayMath": 3,
+        "parseErrors": 0,
+        "images": 2,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-30.json",
+        "sha256": "1398f11399832bb9c0c58079159c95154b4ced9ed10093de0237e410d02e86b0",
+        "cases": [
+          {
+            "physicalPage": 30,
+            "width": 1280,
+            "markdownSha256": "fd49222ac3ea6eb520598418f9a60203d2f1f7df818df90902bf7fafbaa8dbbb",
+            "documentWidth": 1280,
+            "math": 67,
+            "mathml": 67,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 68,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 30,
+            "width": 390,
+            "markdownSha256": "fd49222ac3ea6eb520598418f9a60203d2f1f7df818df90902bf7fafbaa8dbbb",
+            "documentWidth": 390,
+            "math": 67,
+            "mathml": 67,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 68,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actual private desktop/narrow page screenshots inspected with production direct renderer/CSS; long math checked at both horizontal ends,not final whole-volumeSSRoronline acceptance."
+      },
+      "privateOriginalPageReviewSha256": "44781492d495724add63c54d8029fb03b8ba63b985a9a4121557e742b56157a0",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/030.json"
+    }
+  ],
+  "qualification": "Only these4complete Chinese pages. Current page hashes bind actual original-page/bilingual comparisons and private production-direct browser proofs. Final whole-volume manuscript,offlineSSR/site and deployment remain separate;027probability wording is explicitly unresolved.",
+  "publicReceiptHistory": [
+    {
+      "file": "assets/volume4a/review/history/body-027-030-before-bibliographic-stop-6e2fdb35e72f04cabdc68b4d7f5156faf8a29a01559a47afe067f7b9dd0e8ccd.json",
+      "sha256": "6e2fdb35e72f04cabdc68b4d7f5156faf8a29a01559a47afe067f7b9dd0e8ccd",
+      "reason": "Onebibliographicperiodat028restoredexactlyasprinted;currentpagehashandgenuinelyfreshproofsreplaceoldinput,butoldreceiptremainsbyte-identical."
+    }
+  ]
+}

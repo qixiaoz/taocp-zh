@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Two narrow independent source checks, not complete pages",
+  "data": {
+    "191": {
+      "scope": "Read-only narrow peer. Inspected the two actual Answer 191 crops, expanded one recurrence, and computed only one n=0 comparison from the printed prefix. No whole-page or general theta limit study.",
+      "sourceCrops": [
+        {
+          "file": "root-sources/en-675-191-asymptotic-detail.png",
+          "sha256": "da5c9645ed046cf76cc245bb76215571fa61d44339741ec51c013fc862b944c3"
+        },
+        {
+          "file": "root-sources/cn-566-191-asymptotic-detail.png",
+          "sha256": "871ed32e53dc9c53a7ccaa578934511f5769d4650e5e5ac4b88d800714414615"
+        }
+      ],
+      "literal": {
+        "recurrence": "l0=1; l(n+1)=l(n)(l(n)+1)",
+        "approximation": "l(n)=y(n)-1/2-epsilon(n), y(n)=theta^(2^n)",
+        "printedBound": "0<epsilon(n)<1/(8*y(n))"
+      },
+      "substitution": "l(n+1)=(y(n)-epsilon(n))^2-1/4 and y(n+1)=y(n)^2, hence epsilon(n+1)=2*y(n)*epsilon(n)-epsilon(n)^2-1/4.",
+      "conclusion": "At any n where the two printed inequalities apply (also for all sufficiently large n), the upper bound makes epsilon(n+1)<0, contradicting required positivity at n+1. This does not supply a replacement constant.",
+      "check": {
+        "n": 0,
+        "thetaPrintedLowerPrefix": "1.5979102180318731783380701181574553123622",
+        "l0": 1,
+        "errorLowerBound": "0.0979102180318731783380701181574553123622",
+        "printedBoundUpperBound": "0.0782271735854852962367292773138116426815632695802522886197306",
+        "gapLowerBound": "0.0196830444463878821013408408436436696806367304197477113802694"
+      }
+    },
+    "197": {
+      "scope": "卷4A答197的E3三处比较操作数及一变量n=1的反例；非567整页、通用ELIM或REF管理器。",
+      "sourceImages": [
+        {
+          "file": "private-snapshot:volume4a/root-sources/cn-567-197-DEP-detail.png",
+          "sha256": "b2fc1cd1b7bebd9f3459023eaed28122142fcf391917df78119b5b280fabe343"
+        },
+        {
+          "file": "private-snapshot:volume4a/root-sources/en-676-197-DEP-detail.png",
+          "sha256": "0ed599fe72e36469376b42135c3b140e472bfb088884dc23526ab6aaa381b6d0"
+        },
+        {
+          "file": "private-snapshot:volume4a/root-sources/en-661.png",
+          "sha256": "7ed65b0d4cea7c965d4fa9c90657032128daca632602cdaa01f29b04db3e9b98"
+        },
+        {
+          "file": "private-snapshot:volume4a/root-sources/en-662.png",
+          "sha256": "3083a9ec422298cc9a050548fcd4723851cf870ccab6a96cbeb1d974a47e1e94"
+        }
+      ],
+      "literalObservation": "CN与EN同把ζ_{k+1}定义为层内恒零子函数的结点索引，却在分支条件拿它与HI的DEP掩码比较，并在置零索引条件拿它与LO、HI的DEP掩码比较。原138的EN661/662明确l,h是指针而d是位，零/一终端示范DEP均为0。",
+      "counterexample": {
+        "truthTableForX1": [
+          0,
+          1
+        ],
+        "LO": 0,
+        "HI": 1,
+        "zetaAtTerminalLevel": 0,
+        "dLO": 0,
+        "dHI": 0,
+        "printed": {
+          "support": 0,
+          "zetaAtRoot": 0
+        },
+        "candidate": {
+          "support": 1,
+          "zetaAtRoot": -1
+        }
+      },
+      "minimalChange": "仅在条件中比较h≠ζ_{k+1}及l=h=ζ_{k+1}。第k+1变量有支持当且仅当HI可满足；更深变量的支持取两分支掩码的并集，恒零HI不支持任何变量，故保持原右端的位并与移位。节点表示恒零当且仅当两分支均为恒零，因而需比较两索引而非掩码。"
+    }
+  },
+  "privateEvidenceSha256": {
+    "191": "1c737333b4b26a5b86c6b367aa39666d72a5c0d4eb83fe015073252aa1f3aee8",
+    "197": "abd67b3679d1be35e6cb166c35f685520d3a73bac28e6d8775f5d0c884576bd3"
+  }
+}

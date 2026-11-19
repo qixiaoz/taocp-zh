@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "reviewerType": "model-original-source-comparison-and-specific-finite-counterexample",
+  "humanSignOff": false,
+  "scope": "Onlyoriginal135dependency-lemmaexceptionlist;notuniquely-thin-general-theoremrefutationorfullproofrepair.",
+  "cnPhysicalPages": [
+    553,
+    554
+  ],
+  "enPhysicalPage": 660,
+  "sourcePageMarkdownSha256": {
+    "553": "50227cb1ca013642edee50c52f425fc11ad37c76442b3a5a9529ecb165deecd8",
+    "554": "ba791e5ce223bf489ecea2e3ac3055b61bb8065d5a0bad624b0f580543dd0c07"
+  },
+  "sourceDefinition": "theta0=1;theta1=x1;theta2=x1 AND x2;thetan=xn?theta(n-1):theta(n-3)",
+  "legalCase": {
+    "n": 5,
+    "k": 1,
+    "fixedX1": 0,
+    "withinSourceNAtLeast5AndKLessThanN": true,
+    "sourceOnlyStatedException": "x(n-1)=0 removes dependence on x(n-2)",
+    "actualAdditionalMissingDependence": "x2",
+    "actualCofactor": "x4 AND NOT x3 AND x5"
+  },
+  "all16CofactorInputs": [
+    {
+      "x2": 0,
+      "x3": 0,
+      "x4": 0,
+      "x5": 0,
+      "theta5AtX1Zero": 0
+    },
+    {
+      "x2": 0,
+      "x3": 0,
+      "x4": 0,
+      "x5": 1,
+      "theta5AtX1Zero": 0
+    },
+    {
+      "x2": 0,
+      "x3": 0,
+      "x4": 1,
+      "x5": 0,
+      "theta5AtX1Zero": 0
+    },
+    {
+      "x2": 0,
+      "x3": 0,
+      "x4": 1,
+      "x5": 1,
+      "theta5AtX1Zero": 1
+    },
+    {
+      "x2": 0,
+      "x3": 1,
+      "x4": 0,
+      "x5": 0,
+      "theta5AtX1Zero": 0
+    },
+    {
+      "x2": 0,
+      "x3": 1,
+      "x4": 0,
+      "x5": 1,
+      "theta5AtX1Zero": 0
+    },
+    {
+      "x2": 0,
+      "x3": 1,
+      "x4": 1,
+      "x5": 0,
+      "theta5AtX1Zero": 0
+    },
+    {
+      "x2": 0,
+      "x3": 1,
+      "x4": 1,
+      "x5": 1,
+      "theta5AtX1Zero": 0
+    },
+    {
+      "x2": 1,
+      "x3": 0,
+      "x4": 0,
+      "x5": 0,
+      "theta5AtX1Zero": 0
+    },
+    {
+      "x2": 1,
+      "x3": 0,
+      "x4": 0,
+      "x5": 1,
+      "theta5AtX1Zero": 0
+    },
+    {
+      "x2": 1,
+      "x3": 0,
+      "x4": 1,
+      "x5": 0,
+      "theta5AtX1Zero": 0
+    },
+    {
+      "x2": 1,
+      "x3": 0,
+      "x4": 1,
+      "x5": 1,
+      "theta5AtX1Zero": 1
+    },
+    {
+      "x2": 1,
+      "x3": 1,
+      "x4": 0,
+      "x5": 0,
+      "theta5AtX1Zero": 0
+    },
+    {
+      "x2": 1,
+      "x3": 1,
+      "x4": 0,
+      "x5": 1,
+      "theta5AtX1Zero": 0
+    },
+    {
+      "x2": 1,
+      "x3": 1,
+      "x4": 1,
+      "x5": 0,
+      "theta5AtX1Zero": 0
+    },
+    {
+      "x2": 1,
+      "x3": 1,
+      "x4": 1,
+      "x5": 1,
+      "theta5AtX1Zero": 0
+    }
+  ],
+  "sourceTreatment": "Originalproofkeptandgapreported;notclaimingtheuniquethinconclusionfalse.",
+  "boundedUniqueThinConclusionEvidence": "All5904permutationsforn4..7stillhaveexactlyonethinorder,thereversal;notgeneralproof."
+}

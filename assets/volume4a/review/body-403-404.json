@@ -1,0 +1,845 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-assigned-physical-page-source-review-and-private-two-width-proof",
+  "cnPhysicalPages": [
+    403,
+    404
+  ],
+  "cnPrintedPages": [
+    388,
+    389
+  ],
+  "masterSha256": null,
+  "mathExpressions": 182,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 4,
+  "logicalAssemblies": [],
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 403,
+      "cnPrintedPage": 388,
+      "enPdfPages": [
+        483,
+        484,
+        485
+      ],
+      "enPrintedPages": [
+        466,
+        467,
+        468
+      ],
+      "pageMarkdownSha256": "b1c5d6f09fcf2cd80e159554ab59c4ac286693c0fee2ce1f2278d079df76a508",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/403.jpg",
+      "sourcePageImageSha256": "d0f3de2e6396a427c89abcb1a918c8dcfb8c134c541535a58b77711cab21d6fa",
+      "enPageImages": [
+        {
+          "physicalPage": 483,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-483.png",
+          "sha256": "28625d529f120856a5a6b6f43a7a3a96e89afb9c64c9dc20c7bbc3d9db5d1f5c"
+        },
+        {
+          "physicalPage": 484,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-484.png",
+          "sha256": "dd5fe7251ffc94c6613de38a073d0812c0c8dc9fd86638cc2f5818882c74c94e"
+        },
+        {
+          "physicalPage": 485,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-485.png",
+          "sha256": "52cc4a7f95759e139c73841b24a945b7b6436dadcf40ec2a96fbd40ac8f71280"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-403",
+        "p-388"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-088",
+          "section": "7.2.1.6",
+          "cnPdfPage": 403,
+          "enPdfPages": [
+            484
+          ],
+          "location": "式(55)后的例外子图与准树术语",
+          "original": "只有一个指定子图例外，也就是对于p有准图的情形",
+          "final": "只有在 $p$ 取准树时，指定的子图才取准树",
+          "basis": "EN484明确 near tree for p，(55)的指定子结点继承v_p。若为串联近树，只有指定子图取准树，其他均取生成树。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "b1c5d6f09fcf2cd80e159554ab59c4ac286693c0fee2ce1f2278d079df76a508",
+          "cnPrintedPage": 388
+        },
+        {
+          "id": "volume4a-tail-089",
+          "section": "7.2.1.6",
+          "cnPdfPage": 403,
+          "enPdfPages": [
+            484
+          ],
+          "location": "消去二度顶点后的超边端点",
+          "original": "用 $u$ 和 $v$ 之间的单条超边代替",
+          "final": "用 $u$ 和 $w$ 之间的单条超边代替",
+          "basis": "EN484为 between u and w。将原串联边u—v、v—w合并并消去v，存留端点是u和w。另以6结点例核相应缩减恢复。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "b1c5d6f09fcf2cd80e159554ab59c4ac286693c0fee2ce1f2278d079df76a508",
+          "cnPrintedPage": 388
+        },
+        {
+          "id": "volume4a-tail-090",
+          "section": "7.2.1.6",
+          "cnPdfPage": 403,
+          "enPdfPages": [
+            485
+          ],
+          "location": "由缩减图生成原图树的笛卡儿积与并集顺序",
+          "original": "取遍缩减图的所有生成树T，求两个集合的并集，一个……生成树的笛卡儿积，另一个……准树的笛卡儿积",
+          "final": "对这些选择取笛卡儿积，在每项组合中合并所选边，再对所有 $T$ 的结果取并集，即得到 $G$ 的所有生成树",
+          "basis": "EN485的并集取遍缩减图的T。对于每个T，生成树选项和准树选项一起入乘积。K4核心加串联、并联和必取叶边的有限例由此恢复37棵生成树，与直接枚举一致。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "b1c5d6f09fcf2cd80e159554ab59c4ac286693c0fee2ce1f2278d079df76a508",
+          "cnPrintedPage": 388
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 403,
+        "markdownSha256": "b1c5d6f09fcf2cd80e159554ab59c4ac286693c0fee2ce1f2278d079df76a508",
+        "htmlSha256": "86488a1756c8cc7a72197439ff7feb0a8c46a2640ddec37dd775cb10896dffcf",
+        "mathExpressions": 67,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/result.json",
+        "sha256": "7d208706bad6d2aa18b0ec3094d610bfbd02ad78e6886518b2ef02169d7c629d",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 67,
+            "mathML": 67,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 728,
+                "content": 858,
+                "left": 0,
+                "right": 130,
+                "max": 130,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 403,
+            "width": 1280,
+            "pageMarkdownSha256": "b1c5d6f09fcf2cd80e159554ab59c4ac286693c0fee2ce1f2278d079df76a508",
+            "htmlSha256": "86488a1756c8cc7a72197439ff7feb0a8c46a2640ddec37dd775cb10896dffcf",
+            "errors": [],
+            "passed": true,
+            "imageLinks": []
+          },
+          {
+            "documentWidth": 390,
+            "math": 67,
+            "mathML": 67,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 339,
+                "left": 0,
+                "right": 29,
+                "max": 29,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 858,
+                "left": 0,
+                "right": 548,
+                "max": 548,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 403,
+            "width": 390,
+            "pageMarkdownSha256": "b1c5d6f09fcf2cd80e159554ab59c4ac286693c0fee2ce1f2278d079df76a508",
+            "htmlSha256": "86488a1756c8cc7a72197439ff7feb0a8c46a2640ddec37dd775cb10896dffcf",
+            "errors": [],
+            "passed": true,
+            "imageLinks": []
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/403-1280-walk0.png",
+          "sha256": "8824209372da959b0367ef68e36d543c1a151204a1287c0aaed56273672bab6f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/403-1280-walk1.png",
+          "sha256": "c4e6334ee65a9ab0f7ca1609e06b8a7c472236e438c431036739635331052d52",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/403-1280-walk2.png",
+          "sha256": "3263b2269a965c626c2b75b6fe57eedf4dcc6607c05be3959cedb3cddde5af75",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/403-390-walk0.png",
+          "sha256": "88aafb1ed9d2860119a9aea318d30c006369e2c2191ed1059a03fa1232d59c82",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/403-390-walk1.png",
+          "sha256": "3b67f4a8876703b208e038f3dc285cf71b3156bf281cecb45b36743ee69c801b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/403-390-walk2.png",
+          "sha256": "43175aa62ad147c2cd3196cefa9da1d820eea18e1dcb14e8be87eed71e6a1ef8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/403-390-walk3.png",
+          "sha256": "69633734728b634bb5c284a98609aff73d91c7f33f3a8ac8dc16ea3c9ffdc29f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/403-390-walk4.png",
+          "sha256": "05b85ea78a21f0b478963c261fd0a184227a5a36bf17ee76edbb5b9e9784d52b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/403-1280-display1-right.png",
+          "sha256": "c9b8b902cefd4830935da18ff7d83a41e38951b1e77fd40180126b965e4b1c0f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/403-390-display0-right.png",
+          "sha256": "5c9f971a749d2a6be4dee7083f150eec6f580c4e4eac24cb9f7015acd2e20528",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/403-390-display1-right.png",
+          "sha256": "2f8145351a9152b18f4920d1fc6e85918772b53ef57ea084b0b4611df3db9290",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-403-404-source-fields.json",
+        "sha256": "dabf2d505d94de0afca9969e9dfba777957bf7793961b06b9ebc46510c635783"
+      },
+      "logicalAssemblies": [],
+      "coveredRegions": [
+        "Equation (55), all ten states in (56), spanning and near tree configurations, degree-two bypass and reduced graph recovery."
+      ],
+      "followingPageContinuation": "CN404 starts a new paragraph explaining further reductions after contraction or deletion.",
+      "qualification": "Full Chinese 403–404 and actual corresponding English 483–486, with all table rows and formula spans visually and computationally checked in both reading widths. The finite arithmetic verifies the structured counts and coherence of rounded timing ratios.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/403-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "118822f27567c5b6cc9db74e6d9e7fd9b1cd3b867a6d3a012a293badc7d2c3e8",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "40919e7de117eb21e5dcfb33fdd6ad64cf89f46455d04f8749645619b34365fa",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/403.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 404,
+      "cnPrintedPage": 389,
+      "enPdfPages": [
+        485,
+        486
+      ],
+      "enPrintedPages": [
+        468,
+        469
+      ],
+      "pageMarkdownSha256": "25274175efa87c5a8a157ea450639c9308eafb8568f82a43d8d2cae7da8734db",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/404.jpg",
+      "sourcePageImageSha256": "d2ad27cf1995678fef2b7a9ab5477f415f5ef345d3f71e315472da5bb0477622",
+      "enPageImages": [
+        {
+          "physicalPage": 485,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-485.png",
+          "sha256": "52cc4a7f95759e139c73841b24a945b7b6436dadcf40ec2a96fbd40ac8f71280"
+        },
+        {
+          "physicalPage": 486,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-486.png",
+          "sha256": "7fe5bf17e6fde6b2fed23e9ad0aaafc6f4a0f633a04dfdae10f720dfa370f689"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-404",
+        "p-389"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-091",
+          "section": "7.2.1.6",
+          "cnPdfPage": 404,
+          "enPdfPages": [
+            485
+          ],
+          "location": "算法S′渐近运行时间的访问对象",
+          "original": "算法可以在O(m+n+N)个步骤中访问所有这些组成部分",
+          "final": "此算法可以在 $O(m+n+N)$ 步内访问全部 $N$ 棵生成树",
+          "basis": "EN485的 visits them all 承接N spanning trees，m和n是输入规模参数。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "25274175efa87c5a8a157ea450639c9308eafb8568f82a43d8d2cae7da8734db",
+          "cnPrintedPage": 389
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 404,
+        "markdownSha256": "25274175efa87c5a8a157ea450639c9308eafb8568f82a43d8d2cae7da8734db",
+        "htmlSha256": "c526692e9a669ad6e290b46bfea5740e5a41098f46b4dae308279c6cea174dca",
+        "mathExpressions": 115,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/result.json",
+        "sha256": "7d208706bad6d2aa18b0ec3094d610bfbd02ad78e6886518b2ef02169d7c629d",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 115,
+            "mathML": 115,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 728,
+                "content": 833,
+                "left": 0,
+                "right": 105,
+                "max": 105,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 404,
+            "width": 1280,
+            "pageMarkdownSha256": "25274175efa87c5a8a157ea450639c9308eafb8568f82a43d8d2cae7da8734db",
+            "htmlSha256": "c526692e9a669ad6e290b46bfea5740e5a41098f46b4dae308279c6cea174dca",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [],
+            "spanningTimingTable": {
+              "passed": true,
+              "cells": 120,
+              "actual": [
+                [
+                  "路径 $P_{10}$",
+                  "9",
+                  "10",
+                  "$1$",
+                  "$794\\,\\mu$",
+                  "$473\\,\\mu$",
+                  "$794.0$",
+                  "$473.0$"
+                ],
+                [
+                  "路径 $P_{100}$",
+                  "99",
+                  "100",
+                  "$1$",
+                  "$9\\,974\\,\\mu$",
+                  "$5\\,063\\,\\mu$",
+                  "$9\\,974.0$",
+                  "$5\\,063.0$"
+                ],
+                [
+                  "环路 $C_{10}$",
+                  "10",
+                  "10",
+                  "$10$",
+                  "$3\\,480\\,\\mu$",
+                  "$998\\,\\mu$",
+                  "$348.0$",
+                  "$99.8$"
+                ],
+                [
+                  "环路 $C_{100}$",
+                  "100",
+                  "100",
+                  "$100$",
+                  "$355\\,605\\,\\mu$",
+                  "$10\\,538\\,\\mu$",
+                  "$3\\,556.1$",
+                  "$105.4$"
+                ],
+                [
+                  "完全图 $K_4$",
+                  "6",
+                  "4",
+                  "$16$",
+                  "$1\\,213\\,\\mu$",
+                  "$1\\,336\\,\\mu$",
+                  "$75.8$",
+                  "$83.5$"
+                ],
+                [
+                  "完全图 $K_{10}$",
+                  "45",
+                  "10",
+                  "$100\\,000\\,000$",
+                  "$3\\,759.58\\,\\mathrm{M}\\,\\mu$",
+                  "$1\\,860.95\\,\\mathrm{M}\\,\\mu$",
+                  "$37.6$",
+                  "$18.6$"
+                ],
+                [
+                  "完全二部图 $K_{5,5}$",
+                  "25",
+                  "10",
+                  "$390\\,625$",
+                  "$23.43\\,\\mathrm{M}\\,\\mu$",
+                  "$8.88\\,\\mathrm{M}\\,\\mu$",
+                  "$60.0$",
+                  "$22.7$"
+                ],
+                [
+                  "$4\\times4$ 栅格 $P_4\\square P_4$",
+                  "24",
+                  "16",
+                  "$100\\,352$",
+                  "$12.01\\,\\mathrm{M}\\,\\mu$",
+                  "$1.87\\,\\mathrm{M}\\,\\mu$",
+                  "$119.7$",
+                  "$18.7$"
+                ],
+                [
+                  "$5\\times5$ 栅格 $P_5\\square P_5$",
+                  "40",
+                  "25",
+                  "$557\\,568\\,000$",
+                  "$54.68\\,\\mathrm{G}\\,\\mu$",
+                  "$10.20\\,\\mathrm{G}\\,\\mu$",
+                  "$98.1$",
+                  "$18.3$"
+                ],
+                [
+                  "$4\\times4$ 圆柱 $P_4\\square C_4$",
+                  "28",
+                  "16",
+                  "$2\\,558\\,976$",
+                  "$230.96\\,\\mathrm{M}\\,\\mu$",
+                  "$49.09\\,\\mathrm{M}\\,\\mu$",
+                  "$90.3$",
+                  "$19.2$"
+                ],
+                [
+                  "$5\\times5$ 圆柱 $P_5\\square C_5$",
+                  "45",
+                  "25",
+                  "$38\\,720\\,000\\,000$",
+                  "$3\\,165.31\\,\\mathrm{G}\\,\\mu$",
+                  "$711.69\\,\\mathrm{G}\\,\\mu$",
+                  "$81.7$",
+                  "$18.4$"
+                ],
+                [
+                  "$4\\times4$ 环面 $C_4\\square C_4$",
+                  "32",
+                  "16",
+                  "$42\\,467\\,328$",
+                  "$3\\,168.15\\,\\mathrm{M}\\,\\mu$",
+                  "$823.08\\,\\mathrm{M}\\,\\mu$",
+                  "$74.6$",
+                  "$19.4$"
+                ],
+                [
+                  "4立方 $P_2\\square P_2\\square P_2\\square P_2$",
+                  "32",
+                  "16",
+                  "$42\\,467\\,328$",
+                  "$3\\,172.19\\,\\mathrm{M}\\,\\mu$",
+                  "$823.38\\,\\mathrm{M}\\,\\mu$",
+                  "$74.7$",
+                  "$19.4$"
+                ],
+                [
+                  "随机多图",
+                  "37",
+                  "16",
+                  "$59\\,933\\,756$",
+                  "$3\\,818.19\\,\\mathrm{M}\\,\\mu$",
+                  "$995.91\\,\\mathrm{M}\\,\\mu$",
+                  "$63.7$",
+                  "$16.6$"
+                ],
+                [
+                  "16个城市",
+                  "37",
+                  "16",
+                  "$179\\,678\\,881$",
+                  "$11\\,772.11\\,\\mathrm{M}\\,\\mu$",
+                  "$3\\,267.43\\,\\mathrm{M}\\,\\mu$",
+                  "$65.5$",
+                  "$18.2$"
+                ]
+              ]
+            }
+          },
+          {
+            "documentWidth": 390,
+            "math": 115,
+            "mathML": 115,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 785,
+                "left": 0,
+                "right": 475,
+                "max": 475,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 334,
+                "left": 0,
+                "right": 24,
+                "max": 24,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 404,
+            "width": 390,
+            "pageMarkdownSha256": "25274175efa87c5a8a157ea450639c9308eafb8568f82a43d8d2cae7da8734db",
+            "htmlSha256": "c526692e9a669ad6e290b46bfea5740e5a41098f46b4dae308279c6cea174dca",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [],
+            "spanningTimingTable": {
+              "passed": true,
+              "cells": 120,
+              "actual": [
+                [
+                  "路径 $P_{10}$",
+                  "9",
+                  "10",
+                  "$1$",
+                  "$794\\,\\mu$",
+                  "$473\\,\\mu$",
+                  "$794.0$",
+                  "$473.0$"
+                ],
+                [
+                  "路径 $P_{100}$",
+                  "99",
+                  "100",
+                  "$1$",
+                  "$9\\,974\\,\\mu$",
+                  "$5\\,063\\,\\mu$",
+                  "$9\\,974.0$",
+                  "$5\\,063.0$"
+                ],
+                [
+                  "环路 $C_{10}$",
+                  "10",
+                  "10",
+                  "$10$",
+                  "$3\\,480\\,\\mu$",
+                  "$998\\,\\mu$",
+                  "$348.0$",
+                  "$99.8$"
+                ],
+                [
+                  "环路 $C_{100}$",
+                  "100",
+                  "100",
+                  "$100$",
+                  "$355\\,605\\,\\mu$",
+                  "$10\\,538\\,\\mu$",
+                  "$3\\,556.1$",
+                  "$105.4$"
+                ],
+                [
+                  "完全图 $K_4$",
+                  "6",
+                  "4",
+                  "$16$",
+                  "$1\\,213\\,\\mu$",
+                  "$1\\,336\\,\\mu$",
+                  "$75.8$",
+                  "$83.5$"
+                ],
+                [
+                  "完全图 $K_{10}$",
+                  "45",
+                  "10",
+                  "$100\\,000\\,000$",
+                  "$3\\,759.58\\,\\mathrm{M}\\,\\mu$",
+                  "$1\\,860.95\\,\\mathrm{M}\\,\\mu$",
+                  "$37.6$",
+                  "$18.6$"
+                ],
+                [
+                  "完全二部图 $K_{5,5}$",
+                  "25",
+                  "10",
+                  "$390\\,625$",
+                  "$23.43\\,\\mathrm{M}\\,\\mu$",
+                  "$8.88\\,\\mathrm{M}\\,\\mu$",
+                  "$60.0$",
+                  "$22.7$"
+                ],
+                [
+                  "$4\\times4$ 栅格 $P_4\\square P_4$",
+                  "24",
+                  "16",
+                  "$100\\,352$",
+                  "$12.01\\,\\mathrm{M}\\,\\mu$",
+                  "$1.87\\,\\mathrm{M}\\,\\mu$",
+                  "$119.7$",
+                  "$18.7$"
+                ],
+                [
+                  "$5\\times5$ 栅格 $P_5\\square P_5$",
+                  "40",
+                  "25",
+                  "$557\\,568\\,000$",
+                  "$54.68\\,\\mathrm{G}\\,\\mu$",
+                  "$10.20\\,\\mathrm{G}\\,\\mu$",
+                  "$98.1$",
+                  "$18.3$"
+                ],
+                [
+                  "$4\\times4$ 圆柱 $P_4\\square C_4$",
+                  "28",
+                  "16",
+                  "$2\\,558\\,976$",
+                  "$230.96\\,\\mathrm{M}\\,\\mu$",
+                  "$49.09\\,\\mathrm{M}\\,\\mu$",
+                  "$90.3$",
+                  "$19.2$"
+                ],
+                [
+                  "$5\\times5$ 圆柱 $P_5\\square C_5$",
+                  "45",
+                  "25",
+                  "$38\\,720\\,000\\,000$",
+                  "$3\\,165.31\\,\\mathrm{G}\\,\\mu$",
+                  "$711.69\\,\\mathrm{G}\\,\\mu$",
+                  "$81.7$",
+                  "$18.4$"
+                ],
+                [
+                  "$4\\times4$ 环面 $C_4\\square C_4$",
+                  "32",
+                  "16",
+                  "$42\\,467\\,328$",
+                  "$3\\,168.15\\,\\mathrm{M}\\,\\mu$",
+                  "$823.08\\,\\mathrm{M}\\,\\mu$",
+                  "$74.6$",
+                  "$19.4$"
+                ],
+                [
+                  "4立方 $P_2\\square P_2\\square P_2\\square P_2$",
+                  "32",
+                  "16",
+                  "$42\\,467\\,328$",
+                  "$3\\,172.19\\,\\mathrm{M}\\,\\mu$",
+                  "$823.38\\,\\mathrm{M}\\,\\mu$",
+                  "$74.7$",
+                  "$19.4$"
+                ],
+                [
+                  "随机多图",
+                  "37",
+                  "16",
+                  "$59\\,933\\,756$",
+                  "$3\\,818.19\\,\\mathrm{M}\\,\\mu$",
+                  "$995.91\\,\\mathrm{M}\\,\\mu$",
+                  "$63.7$",
+                  "$16.6$"
+                ],
+                [
+                  "16个城市",
+                  "37",
+                  "16",
+                  "$179\\,678\\,881$",
+                  "$11\\,772.11\\,\\mathrm{M}\\,\\mu$",
+                  "$3\\,267.43\\,\\mathrm{M}\\,\\mu$",
+                  "$65.5$",
+                  "$18.2$"
+                ]
+              ]
+            }
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/404-1280-walk0.png",
+          "sha256": "53d93de04451084702d8aa3a04435ab51cc97644b85e13538ca145783051d764",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/404-1280-walk1.png",
+          "sha256": "dcd8aedcec0d43aa8db9e55995b90f45a742d82986dca1ecec23df1a9df8b4eb",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/404-1280-walk2.png",
+          "sha256": "e8033746aa8879fbc2e2892e238afcbdaac1b1ba0284abf426382352d6b87f9c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/404-390-walk0.png",
+          "sha256": "c07a21d35fe23af1973c6e4b916f6740d8e05fc50fd7cc2133d8202530cc66eb",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/404-390-walk1.png",
+          "sha256": "3f28b300b600b48bd37033fc0c1b311a3b0b5f1948dfdc0494afe903e7486fa4",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/404-390-walk2.png",
+          "sha256": "eec5c773bebe5fe75593c317d1d5297c891dc3eb9d081d96e37f79bcbb6b9fff",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/404-390-walk3.png",
+          "sha256": "47813c3331b638e70b72426e1d804ede637eea202a6775ef7698c7fba1dc0787",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/404-390-display0-right.png",
+          "sha256": "6536078f71c9b771f333b02f360e732dab749dc1fb5439510e8ce6b3286177e2",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/404-1280-table0-pan0.png",
+          "sha256": "512c83954716845fde8e0a834f5df3d90b7d43956e276982fd28321bffa8f74f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/404-1280-table0-pan1.png",
+          "sha256": "078c0e60722fbe4acbabf3aa68a8003ca726fb03083d4b5d8f179ca6449f4846",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/404-390-table0-pan0.png",
+          "sha256": "495e25c1fa28952c7a73eed26a2ef912fc2018593cad103e5fa68f6609fbfd08",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/404-390-table0-pan1.png",
+          "sha256": "662d67b8367444139d53b45770cbf119388a26b274bed869ef70ddf560b7ddf7",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/404-390-table0-pan2.png",
+          "sha256": "af2b9317c515edc1569fe37bc47df60cc2a2d944abe72f97eb8b0895a674e2e9",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/403-404/404-390-table0-pan3.png",
+          "sha256": "b5e8afacc52cc08de452c1302f33bcabf2787a51c4dbe41ead5bd20244c5c39a",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-403-404-source-fields.json",
+        "sha256": "dabf2d505d94de0afca9969e9dfba777957bf7793961b06b9ebc46510c635783"
+      },
+      "logicalAssemblies": [],
+      "coveredRegions": [
+        "Complexity and benchmark prose, full Table 5 including unit, digits and initials, standard GraphBase calls, equation (57) and references."
+      ],
+      "followingPageContinuation": "CN405 opens the new subsection on general quasi-Gray codes.",
+      "qualification": "Full Chinese 403–404 and actual corresponding English 483–486, with all table rows and formula spans visually and computationally checked in both reading widths. The finite arithmetic verifies the structured counts and coherence of rounded timing ratios.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/404-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "27b57fc5e6efe6e127fb0ed2a2681be1eca8d2e91308a1ce09f85a418eede8c9",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "c719c898ec548fd9bf1ded19640c0fc0b7b2ae76adf262f07be3f3ea0a6ada97",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/404.json"
+    }
+  ],
+  "qualification": "Full Chinese 403–404 and actual corresponding English 483–486, with all table rows and formula spans visually and computationally checked in both reading widths. The finite arithmetic verifies the structured counts and coherence of rounded timing ratios."
+}

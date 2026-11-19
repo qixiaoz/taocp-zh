@@ -1,0 +1,708 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Only finite SYM/count/weighted optimization/nonzero-row matrices and actual8x8domino models, not huge colored/mixed-cover enumeration or author timing",
+  "data": {
+    "checkerSha256": "dcd88f719da9cfe870fa1cbeffc1bf93088764a6af00ec11e5d194b8f0b3f4c0",
+    "moduleSha256": "33b997470b5e4f4e6459a8263a74f03e843deefcc40567ed99f90774f8ec606a",
+    "sourcePageMarkdownSha256": {
+      "570": "3cba82bcb8de0fa896ad7e3d01dbcf9ae166eba6ec89fe90cead34ccb4f5a39a",
+      "571": "b369a440d17b0f09a6527fe77447b14b466d375019922a0c7736721b7a3c0c7b"
+    },
+    "sym207": [
+      {
+        "variables": 0,
+        "allVariableSubsets": 1,
+        "kRange": [
+          0,
+          1
+        ],
+        "functionCases": 2
+      },
+      {
+        "variables": 1,
+        "allVariableSubsets": 2,
+        "kRange": [
+          0,
+          2
+        ],
+        "functionCases": 6
+      },
+      {
+        "variables": 2,
+        "allVariableSubsets": 4,
+        "kRange": [
+          0,
+          3
+        ],
+        "functionCases": 16
+      },
+      {
+        "variables": 3,
+        "allVariableSubsets": 8,
+        "kRange": [
+          0,
+          4
+        ],
+        "functionCases": 40
+      },
+      {
+        "variables": 4,
+        "allVariableSubsets": 16,
+        "kRange": [
+          0,
+          5
+        ],
+        "functionCases": 96
+      },
+      {
+        "variables": 5,
+        "allVariableSubsets": 32,
+        "kRange": [
+          0,
+          6
+        ],
+        "functionCases": 224
+      },
+      {
+        "variables": 6,
+        "allVariableSubsets": 64,
+        "kRange": [
+          0,
+          7
+        ],
+        "functionCases": 512
+      },
+      {
+        "variables": 7,
+        "allVariableSubsets": 128,
+        "kRange": [
+          0,
+          8
+        ],
+        "functionCases": 1152
+      },
+      {
+        "variables": 8,
+        "allVariableSubsets": 256,
+        "kRange": [
+          0,
+          9
+        ],
+        "functionCases": 2560
+      }
+    ],
+    "sym207Interpretation": "Final f_o decrement uses a copied local layer number, does not mutate shared input node; immutable structure semantics only.",
+    "count208": [
+      {
+        "variables": 0,
+        "allFunctions": 2,
+        "pathCountsAndEveryWeightCoefficientMatch": true
+      },
+      {
+        "variables": 1,
+        "allFunctions": 4,
+        "pathCountsAndEveryWeightCoefficientMatch": true
+      },
+      {
+        "variables": 2,
+        "allFunctions": 16,
+        "pathCountsAndEveryWeightCoefficientMatch": true
+      },
+      {
+        "variables": 3,
+        "allFunctions": 256,
+        "pathCountsAndEveryWeightCoefficientMatch": true
+      }
+    ],
+    "opt210": [
+      {
+        "variables": 1,
+        "allFunctions": 4,
+        "costVectors": 3,
+        "cases": 12,
+        "allOptimumTruthSetsMatch": true,
+        "sourceTotalNodeBoundCounterexamples": 1,
+        "nonterminalBoundAndPlusOneTotalBoundHoldInTheseFiniteCases": true
+      },
+      {
+        "variables": 2,
+        "allFunctions": 16,
+        "costVectors": 9,
+        "cases": 144,
+        "allOptimumTruthSetsMatch": true,
+        "sourceTotalNodeBoundCounterexamples": 14,
+        "nonterminalBoundAndPlusOneTotalBoundHoldInTheseFiniteCases": true
+      },
+      {
+        "variables": 3,
+        "allFunctions": 256,
+        "costVectors": 27,
+        "cases": 6912,
+        "allOptimumTruthSetsMatch": true,
+        "sourceTotalNodeBoundCounterexamples": 212,
+        "nonterminalBoundAndPlusOneTotalBoundHoldInTheseFiniteCases": true
+      }
+    ],
+    "source210Counterexample": {
+      "variables": 1,
+      "sourceTruthMask": 3,
+      "costs": [
+        1
+      ],
+      "resultTruthMask": 2,
+      "ZSource": 2,
+      "ZOptimum": 3,
+      "beforeProfile": [
+        1,
+        1
+      ],
+      "afterProfile": [
+        1,
+        2
+      ]
+    },
+    "source210Treatment": "Keep printed total-node inequality and document reachable-terminal exception. No replacement general bound chosen; finite nonterminal/+1 comparisons only.",
+    "source210IndependentPeerSha256": "7c1ababc8848437bd3109b00827756549b3d26f4681f0f870ed93305cf62dae4",
+    "exactCover211": {
+      "nonzeroRowMatrixCases": 441,
+      "rowsRange": [
+        1,
+        3
+      ],
+      "columnsRange": [
+        1,
+        3
+      ],
+      "allCorrectedNonzeroCofactorProfileBoundsMatch": true,
+      "printedMinusOneChainMatrixFailures": 175,
+      "minimalPrintedFailure": {
+        "matrix": [
+          [
+            1
+          ]
+        ],
+        "function": "x1",
+        "level": 0,
+        "b": 1,
+        "q": 1,
+        "z": 1,
+        "nonzeroCofactors": 1
+      },
+      "oneZeroRowExampleMatrix": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "zeroRowExampleBDDZDD": {
+        "bdd": 3,
+        "zdd": 4
+      }
+    },
+    "board212217": {
+      "height": 8,
+      "width": 8,
+      "edgeVariables": 112,
+      "frontierMemoStates": 6198,
+      "totalTilings": 12988816,
+      "ZDDNodes": 2300,
+      "selectedX2Tilings": 6494408,
+      "selectedX2Nodes": 1995,
+      "givenX1X2X64": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          105,
+          112
+        ]
+      ],
+      "givenThreeElementaryUnionNodes": 5,
+      "givenS1X2Nodes": 115,
+      "faultLineGroups": [
+        [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          15
+        ],
+        [
+          17,
+          19,
+          21,
+          23,
+          25,
+          27,
+          29,
+          30
+        ],
+        [
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          45
+        ],
+        [
+          47,
+          49,
+          51,
+          53,
+          55,
+          57,
+          59,
+          60
+        ],
+        [
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          75
+        ],
+        [
+          77,
+          79,
+          81,
+          83,
+          85,
+          87,
+          89,
+          90
+        ],
+        [
+          92,
+          94,
+          96,
+          98,
+          100,
+          102,
+          104,
+          105
+        ],
+        [
+          1,
+          16,
+          31,
+          46,
+          61,
+          76,
+          91,
+          106
+        ],
+        [
+          3,
+          18,
+          33,
+          48,
+          63,
+          78,
+          93,
+          107
+        ],
+        [
+          5,
+          20,
+          35,
+          50,
+          65,
+          80,
+          95,
+          108
+        ],
+        [
+          7,
+          22,
+          37,
+          52,
+          67,
+          82,
+          97,
+          109
+        ],
+        [
+          9,
+          24,
+          39,
+          54,
+          69,
+          84,
+          99,
+          110
+        ],
+        [
+          11,
+          26,
+          41,
+          56,
+          71,
+          86,
+          101,
+          111
+        ],
+        [
+          13,
+          28,
+          43,
+          58,
+          73,
+          88,
+          103,
+          112
+        ]
+      ],
+      "faultFreeTilings": 25506,
+      "faultFreeZDDNodes": 9812,
+      "faultFreeBDDNodes": 26622,
+      "tatamiCornerGroups": [
+        [
+          1,
+          2,
+          4,
+          16
+        ],
+        [
+          3,
+          4,
+          6,
+          18
+        ],
+        [
+          5,
+          6,
+          8,
+          20
+        ],
+        [
+          7,
+          8,
+          10,
+          22
+        ],
+        [
+          9,
+          10,
+          12,
+          24
+        ],
+        [
+          11,
+          12,
+          14,
+          26
+        ],
+        [
+          13,
+          14,
+          15,
+          28
+        ],
+        [
+          16,
+          17,
+          19,
+          31
+        ],
+        [
+          18,
+          19,
+          21,
+          33
+        ],
+        [
+          20,
+          21,
+          23,
+          35
+        ],
+        [
+          22,
+          23,
+          25,
+          37
+        ],
+        [
+          24,
+          25,
+          27,
+          39
+        ],
+        [
+          26,
+          27,
+          29,
+          41
+        ],
+        [
+          28,
+          29,
+          30,
+          43
+        ],
+        [
+          31,
+          32,
+          34,
+          46
+        ],
+        [
+          33,
+          34,
+          36,
+          48
+        ],
+        [
+          35,
+          36,
+          38,
+          50
+        ],
+        [
+          37,
+          38,
+          40,
+          52
+        ],
+        [
+          39,
+          40,
+          42,
+          54
+        ],
+        [
+          41,
+          42,
+          44,
+          56
+        ],
+        [
+          43,
+          44,
+          45,
+          58
+        ],
+        [
+          46,
+          47,
+          49,
+          61
+        ],
+        [
+          48,
+          49,
+          51,
+          63
+        ],
+        [
+          50,
+          51,
+          53,
+          65
+        ],
+        [
+          52,
+          53,
+          55,
+          67
+        ],
+        [
+          54,
+          55,
+          57,
+          69
+        ],
+        [
+          56,
+          57,
+          59,
+          71
+        ],
+        [
+          58,
+          59,
+          60,
+          73
+        ],
+        [
+          61,
+          62,
+          64,
+          76
+        ],
+        [
+          63,
+          64,
+          66,
+          78
+        ],
+        [
+          65,
+          66,
+          68,
+          80
+        ],
+        [
+          67,
+          68,
+          70,
+          82
+        ],
+        [
+          69,
+          70,
+          72,
+          84
+        ],
+        [
+          71,
+          72,
+          74,
+          86
+        ],
+        [
+          73,
+          74,
+          75,
+          88
+        ],
+        [
+          76,
+          77,
+          79,
+          91
+        ],
+        [
+          78,
+          79,
+          81,
+          93
+        ],
+        [
+          80,
+          81,
+          83,
+          95
+        ],
+        [
+          82,
+          83,
+          85,
+          97
+        ],
+        [
+          84,
+          85,
+          87,
+          99
+        ],
+        [
+          86,
+          87,
+          89,
+          101
+        ],
+        [
+          88,
+          89,
+          90,
+          103
+        ],
+        [
+          91,
+          92,
+          94,
+          106
+        ],
+        [
+          93,
+          94,
+          96,
+          107
+        ],
+        [
+          95,
+          96,
+          98,
+          108
+        ],
+        [
+          97,
+          98,
+          100,
+          109
+        ],
+        [
+          99,
+          100,
+          102,
+          110
+        ],
+        [
+          101,
+          102,
+          104,
+          111
+        ],
+        [
+          103,
+          104,
+          105,
+          112
+        ]
+      ],
+      "tatamiTilings": 2,
+      "tatamiZDDNodes": 66,
+      "dominoAdjacentPlacementPairs": 682,
+      "triplicatedSelectedNodes": 5981,
+      "coloredSourceCountDivisibleBySix": true,
+      "coloredSourceCountNotIndependentlyEnumerated": true,
+      "mixedPlacements": 468,
+      "mixedShapeCounts": {
+        "1": 64,
+        "2": 112,
+        "3": 96,
+        "4": 196
+      },
+      "mixedCongruentSideConstraints": 4198,
+      "mixedAdditionalCornerConstraints": 1948,
+      "mixedAllCoveringsAndSeparatedCountsNotEnumerated": true
+    },
+    "native217EvidenceSha256": "c4be7b71a69cbcdc23878b14dce5e6f6a211bebdf825b4efff5cb2df06f7f5ab",
+    "qualifications": [
+      "Actual current HTML/browser/image source review separate",
+      "No general proof of SYM complexity or210 optimality runtime; no mutation/REF/GC verification",
+      "Original memory-reference timing, large colored/separated solution counts and optimized variable-order1887 only source compared",
+      "Only one original strong separation diagram geometry checked; not enumerated all554626216solutions",
+      "CN223224 source definitions actually viewed only as context, not new full-page acceptance"
+    ]
+  },
+  "evidenceSha256": "0faa638bcc48be079718650730444b628e46f9cc7de2c21ad8bea92d7d8508c1",
+  "mixedShapeLegend": {
+    "1": "monomino",
+    "2": "domino",
+    "3": "straight tromino",
+    "4": "L tromino"
+  },
+  "currentDOMSource210BoundPreservedAnd211PrimeAnd21764AndDollarCompared": true
+}

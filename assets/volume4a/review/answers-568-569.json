@@ -1,0 +1,471 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Complete CN568569 answers201206 and204 continuation; official206 whole-answer2025 update",
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 568,
+      "cnPrintedPage": "553",
+      "enPdfPages": [
+        677,
+        678
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "ccea134337effc548284bf4c5e5d42e6543542ec837a046cee5111b558d25fc2",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "a76f0c1851619a3428352f4429cc9c27344a8e713206936199ce8db85d1693f2",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "Complete Chinese source page and the available corresponding English contents directly compared; preserved edition differences are not asserted equal. No human sign-off.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "a7378c8d9aa613f31de8e268d36aaca77e7f68a8f956976a16b0b57526fe0f54",
+      "enPageImages": [
+        {
+          "physicalPage": 677,
+          "sha256": "1077976b95cdcab236ff802ffe074e5ec51458bacea5e1d04ce111c522d8602b"
+        },
+        {
+          "physicalPage": 678,
+          "sha256": "2b0ae0c81bff8cddc6d7d2943919621fd9e290db20ad0d7d319c803d3d8da573"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 568,
+        "markdownSha256": "ccea134337effc548284bf4c5e5d42e6543542ec837a046cee5111b558d25fc2",
+        "htmlSha256": "1671da5770d9efa24ec3ba128171983257cc7dd1fd5b2352997cf68332f2e972",
+        "mathExpressions": 114,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 3,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "9a6b5ab7d73df2dee43a1ab8590060377a46502f9d03f16896e0f3663ef929a4",
+      "syntaxEvidenceFile": "syntax-568-569.json",
+      "coveredRegions": [
+        "201 complete initialization/universal-family/projectors/three native diagrams/node count/shortcut identities",
+        "202 whole changedT4 assign/REFnote/t_u unchanged t_v=LO(t_u)",
+        "203 entire a-e/all family examples,existential formulas,three distributions/four orthogonality statements/eight solution characterizations/all union vs join symbols",
+        "204 a-e whole quotient identities/example/remainder argument/triple-cofactor proof/alternative definition"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "201 新变量／553",
+          "enPosition": "EN677／660，new variable enters the fray",
+          "original": "每当新变量进入冲突时",
+          "final": "每当引入新变量时",
+          "basis": "Figurative enters the fray means newly introduced variable; no actual variable-conflict precondition."
+        },
+        {
+          "location": "201 投影函数数据基／553",
+          "enPosition": "EN677／660，thus the ZDD base",
+          "original": "所有x_j的集合的BDD基",
+          "final": "所有x_j的集合的ZDD基",
+          "basis": "Paragraph and native graphs are explicitly ZDDs; selected CN wrong BDD name."
+        },
+        {
+          "location": "201 部分重言式加速／553",
+          "enPosition": "EN677／660，MUX(f,g,h)=h immediately before MUX(g,h,f)",
+          "original": "仅有MUX(g,h,f)=OR(g,h)",
+          "final": "恢复其前的MUX(f,g,h)=h；两式同在v<=h_o条件下",
+          "basis": "Chinese omits one source identity. Restore from actual corresponding English and fixed finite-universe shortcut examples, separate bilingual omission record, not official author erratum."
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "machineErrorsCorrected": [
+        "Restore wp universal-family symbol instead of OCR8/every graph node/true false sinks/ellipsis and partial tautology subscript",
+        "203e(v) three primes combined by ordinary union;203e(vi) second branch uses e1 union e2, not join, with all parentheses retained",
+        "Remove phantom negations on203(a)meet and delta identity/equations/cardinalities;restore204 wp/wp=epsilon and quotient chain"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "continuation": {
+        "previousCnPdfPage": 567,
+        "nextCnPdfPage": 569,
+        "scope": "204a-e end whole paragraph;569 continues204f-g, no split math/table/code."
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "Whole714/mother/offline/routed/onlineacceptance"
+      ],
+      "numericChecks": {
+        "receipt": "root-answer-checks/568-569-family-algebra-models.json",
+        "scope": "All family pairs n1..3/six immutable operations and two204g identities;all n2 family triples;specified203e classification;201 finite projection-node counts n1..8. Not REF/GC/mutable T4 or asymptotic complexity proof."
+      },
+      "sourceEditionQualifications": {
+        "AdditionalActualImages": [
+          {
+            "file": "root-sources/en-290-568569-question-context.png",
+            "sha256": "1571236ab502234b0ed17bac4328b07703bc7626010f4b7fbd8ef4cb6087f4ca"
+          },
+          {
+            "file": "root-sources/en-677-201-diagrams-detail.png",
+            "sha256": "7e2acb0a49a03f6c2a27c903cb50e6bda5504a0ebca9f9c18a141493c26e95a5"
+          },
+          {
+            "file": "root-sources/en-678-203-formulas-detail.png",
+            "sha256": "03ea4e8cd68806f501dc96673375f431b65823ebc719f16f34f9e976f102eba0"
+          },
+          {
+            "file": "root-sources/cn-568-203e-formulas-detail.png",
+            "sha256": "e8ac2626e8277825d69e6071f1f63ee5bc195fac1662a18c492b851b14dc45cb"
+          }
+        ],
+        "FiniteUniversal": "Division by empty only modeled with a prespecified finite N; no infinite universal-family construction.",
+        "MutableSwap": "202T4/REF assignments source compared, not a mutable swap-manager implementation."
+      },
+      "assets": [
+        {
+          "asset": "assets/volume4a/figures/answer-7-1-4-201-tautology.svg",
+          "sha256": "91cf6ac0a8820a1df3c42587c73ac8ad0c785b6b6534b70bb153c5d53243af46",
+          "enPdfPage": 677,
+          "boundedSourceSelection": [
+            312,
+            329,
+            404,
+            343
+          ],
+          "nativePaths": 15,
+          "typedLabels": [
+            [
+              318.23,
+              338.5,
+              "1"
+            ],
+            [
+              338.13,
+              338.5,
+              "2"
+            ],
+            [
+              358.04,
+              338.5,
+              "⋯"
+            ],
+            [
+              377.95,
+              338.5,
+              "N"
+            ],
+            [
+              397.85,
+              338.4,
+              "⊤"
+            ]
+          ],
+          "projectionPartialTautologyLabelAdded": false,
+          "method": "Whole bounded native paths, including white ellipse mask over ellipsis and original dashes/caps/joins. Typed searchable labels. No page SVG/fonts/bitmap/hidden prose."
+        },
+        {
+          "asset": "assets/volume4a/figures/answer-7-1-4-201-node-j.svg",
+          "sha256": "28a2e8af148dc2f41270b9ca47212bc410d97c24a57a9b0159c9771c15108f2d",
+          "enPdfPage": 677,
+          "boundedSourceSelection": [
+            303,
+            343,
+            316,
+            355
+          ],
+          "nativePaths": 1,
+          "typedLabels": [
+            [
+              309.05,
+              351.5,
+              "j"
+            ]
+          ],
+          "projectionPartialTautologyLabelAdded": false,
+          "method": "Whole bounded native paths, including white ellipse mask over ellipsis and original dashes/caps/joins. Typed searchable labels. No page SVG/fonts/bitmap/hidden prose."
+        },
+        {
+          "asset": "assets/volume4a/figures/answer-7-1-4-201-projection.svg",
+          "sha256": "545f7364c65d5cbc4f9b7e7c87fbe970042ef7f0adb0380e661a7941a73e84be",
+          "enPdfPage": 677,
+          "boundedSourceSelection": [
+            205,
+            355,
+            297,
+            370
+          ],
+          "nativePaths": 11,
+          "typedLabels": [
+            [
+              211.13,
+              364.3,
+              "1"
+            ],
+            [
+              231.03,
+              364.3,
+              "⋯"
+            ],
+            [
+              250.94,
+              364.3,
+              "j"
+            ],
+            [
+              290.76,
+              364.2,
+              "⊥"
+            ]
+          ],
+          "projectionPartialTautologyLabelAdded": true,
+          "method": "Whole bounded native paths, including white ellipse mask over ellipsis and original dashes/caps/joins. Typed searchable labels. No page SVG/fonts/bitmap/hidden prose."
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 569,
+      "cnPrintedPage": "554",
+      "enPdfPages": [
+        678,
+        679
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "d87a3994ce84168055cebbc0ca6c6672eb6bcdc9082eeabef06dc335bca15cb4",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "77f587a5b406813f0ab44f17d1dcee5941216ff7ddb6c70792e318bb381851c9",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "Complete Chinese source page and the available corresponding English contents directly compared; preserved edition differences are not asserted equal. No human sign-off.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "24400d610160568e130560daf0dc32a69bd5ef03fe85773cc22bc5764acefdd9",
+      "enPageImages": [
+        {
+          "physicalPage": 678,
+          "sha256": "2b0ae0c81bff8cddc6d7d2943919621fd9e290db20ad0d7d319c803d3d8da573"
+        },
+        {
+          "physicalPage": 679,
+          "sha256": "b7aca9d258fc6ccacc8b0ba85d5266c7aad2fb65958ee87eb19d70cee37c1621"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 569,
+        "markdownSha256": "d87a3994ce84168055cebbc0ca6c6672eb6bcdc9082eeabef06dc335bca15cb4",
+        "htmlSha256": "54e30d0549a71aa433c1abf5aab731b548194f03fa94957fd9770472e3bff830",
+        "mathExpressions": 109,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "9a6b5ab7d73df2dee43a1ab8590060377a46502f9d03f16896e0f3663ef929a4",
+      "syntaxEvidenceFile": "syntax-568-569.json",
+      "coveredRegions": [
+        "204f-g whole unique decomposition/two true laws/historical paragraph",
+        "205 whole three lifted products recurrences/JOIN four branches/two alternative r_h forms/DISJOIN omit hh/MEET reversal/DELTA parity",
+        "205d both EZDIV/EZMOD displayed recursive definitions/all DIV earlycases/memoization/reference changes/fixed finite universe specialcase",
+        "205e entire MOD earlycases/DIV JOIN BUTNOT sequence/source Minato citation",
+        "206 complete original answer compared and replaced with official2025-01-29 entire update including2024 citation"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "206 整答更新／554",
+          "enPosition": "EN679／662；现行作者勘误物理9页，2025-01-29",
+          "original": "保留两个多项式上界并问是否有相应慢例、除法是否可指数",
+          "final": "五例程最坏均可指数；MEET和JOIN可模拟隐藏重量位函数；附2024论文",
+          "basis": "Explicit official whole-answer replacement, not an independently proved worst-case result. Old chosen-CN and2011 EN text preserved in source snapshots; version update registered separately."
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "machineErrorsCorrected": [
+        "Restore205 chosen-CN letter o fields, ordinary variable v distinct, no digit0;all ll/lh/hl/hh fields",
+        "Restore all three conditional product formulas with bar v;two complete braces/three lines each;ZUNIQUE/EZDIV/EZMOD spelling",
+        "Restore missing r_h omission in DISJOIN and source quotation/citation punctuation;no phantom bars on g_h/AND/intermediate REF fields"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "continuation": {
+        "previousCnPdfPage": 568,
+        "nextCnPdfPage": 570,
+        "scope": "Begins204f whole paragraph after204e;206 ends whole paragraph;next207 not included."
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "Whole714/mother/offline/routed/onlineacceptance"
+      ],
+      "numericChecks": {
+        "receipt": "root-answer-checks/568-569-family-algebra-models.json",
+        "scope": "All family pairs n1..3/six immutable operations and two204g identities;all n2 family triples;specified203e classification;201 finite projection-node counts n1..8. Not REF/GC/mutable T4 or asymptotic complexity proof."
+      },
+      "sourceEditionQualifications": {
+        "Official206": {
+          "date": "2025-01-29",
+          "traditionalPage": 662,
+          "actualImage": "official-errata/all4a-page9-early-latest.png",
+          "sha256": "2c80ff97d00a73918b66d9e9806735938d78ffc5fdff246ccb2958780052d5e9"
+        },
+        "QuestionContext": {
+          "actualEnglishPDFPage": 291,
+          "imageSha256": "b809de3e6c1f7ee9d380ee8cd5bc4432a5aa7e3816c8e41bdea32a285c40a16a",
+          "scope": "Question206oldM46/207208209context actually read;no new physical-page acceptance or question editing."
+        },
+        "NoComplexityProof": "Finite tests do not verify the updated asymptotic research claim or cited2024 paper.",
+        "BookAlgorithmContent": "Original instructions/pseudocode transcribed, not authority to build a full new library."
+      },
+      "assets": []
+    }
+  ],
+  "figures": [
+    {
+      "asset": "assets/volume4a/figures/answer-7-1-4-201-tautology.svg",
+      "sha256": "91cf6ac0a8820a1df3c42587c73ac8ad0c785b6b6534b70bb153c5d53243af46",
+      "enPdfPage": 677,
+      "boundedSourceSelection": [
+        312,
+        329,
+        404,
+        343
+      ],
+      "nativePaths": 15,
+      "typedLabels": [
+        [
+          318.23,
+          338.5,
+          "1"
+        ],
+        [
+          338.13,
+          338.5,
+          "2"
+        ],
+        [
+          358.04,
+          338.5,
+          "⋯"
+        ],
+        [
+          377.95,
+          338.5,
+          "N"
+        ],
+        [
+          397.85,
+          338.4,
+          "⊤"
+        ]
+      ],
+      "projectionPartialTautologyLabelAdded": false,
+      "method": "Whole bounded native paths, including white ellipse mask over ellipsis and original dashes/caps/joins. Typed searchable labels. No page SVG/fonts/bitmap/hidden prose."
+    },
+    {
+      "asset": "assets/volume4a/figures/answer-7-1-4-201-node-j.svg",
+      "sha256": "28a2e8af148dc2f41270b9ca47212bc410d97c24a57a9b0159c9771c15108f2d",
+      "enPdfPage": 677,
+      "boundedSourceSelection": [
+        303,
+        343,
+        316,
+        355
+      ],
+      "nativePaths": 1,
+      "typedLabels": [
+        [
+          309.05,
+          351.5,
+          "j"
+        ]
+      ],
+      "projectionPartialTautologyLabelAdded": false,
+      "method": "Whole bounded native paths, including white ellipse mask over ellipsis and original dashes/caps/joins. Typed searchable labels. No page SVG/fonts/bitmap/hidden prose."
+    },
+    {
+      "asset": "assets/volume4a/figures/answer-7-1-4-201-projection.svg",
+      "sha256": "545f7364c65d5cbc4f9b7e7c87fbe970042ef7f0adb0380e661a7941a73e84be",
+      "enPdfPage": 677,
+      "boundedSourceSelection": [
+        205,
+        355,
+        297,
+        370
+      ],
+      "nativePaths": 11,
+      "typedLabels": [
+        [
+          211.13,
+          364.3,
+          "1"
+        ],
+        [
+          231.03,
+          364.3,
+          "⋯"
+        ],
+        [
+          250.94,
+          364.3,
+          "j"
+        ],
+        [
+          290.76,
+          364.2,
+          "⊥"
+        ]
+      ],
+      "projectionPartialTautologyLabelAdded": true,
+      "method": "Whole bounded native paths, including white ellipse mask over ellipsis and original dashes/caps/joins. Typed searchable labels. No page SVG/fonts/bitmap/hidden prose."
+    }
+  ],
+  "finiteEvidenceSha256": "92302a7e035f64797ed95c78f6e1ee94fb44863d9f8d5eafb76be19a9bc7177b",
+  "browser": {
+    "widths": [
+      1280,
+      390
+    ],
+    "acceptedDistinctPageCases": 4,
+    "mathExpressionsPerPass": 223,
+    "errors": 0,
+    "wholePageOverflow": 0,
+    "mathmlContainsProse": 0,
+    "wholeScreensActuallyViewed": 12,
+    "mathEndpointScreensActuallyViewed": 28,
+    "currentImageScreensActuallyViewed": 6,
+    "originalSVGClickAndReturnCases": 6,
+    "sourceGraphPaths": [
+      15,
+      1,
+      11
+    ],
+    "evidenceSha256": "1a548bf058383960541563e12eab3cded475f03721b1411e75f292d5cd0e1b70",
+    "imagesEvidenceSha256": "cdd5aaeb33414e9d5296c9cfdfeb2ab5be21ddea67a741bf90b78c2ef15f9f62",
+    "actualDOMOriginalLinkEvidenceSha256": {
+      "568": "6dfcb500eea2eff00d098ea123806a24ad1f72940d16c51d657294e78ff94808",
+      "569": "7f74116867c0a0df43da37788edeb6137f1e3003a3c55b00aeb470cf9aaff1eb"
+    }
+  },
+  "knownLimits": [
+    "202sourceT4/REF updates compared but mutable manager not executed",
+    "Division by empty only in prespecified finite domain",
+    "203e(v) restricted prime constructions cover all finite n2n3 solutions, not all unrestricted prime triples enumerated",
+    "206 official2025 result adopted from actually viewed errata, not independently re-proved or cited paper audited"
+  ],
+  "pending": [
+    "Mother/inclusionreceipts",
+    "Whole714/offline/routed/onlineacceptance"
+  ]
+}

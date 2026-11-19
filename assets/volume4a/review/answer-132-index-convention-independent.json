@@ -1,0 +1,51 @@
+{
+  "scope": "Bounded actual source-location/notation review of original exercise132 and its answer algorithmintroduction, plus literal379/397 workspace comparison. No M/Q implementation, maximum-clique proof, eight-queens execution, or global text absence claim.",
+  "sourceImages": [
+    {
+      "file": "en-211.png",
+      "sha256": "1c40886e9ec5e084f38616fa14f450a3d29c109a3f7a81910acc3e26b37ee92c"
+    },
+    {
+      "file": "en-212.png",
+      "sha256": "cba76f9c51314de9cba0a7dadb7812c642c76c65c6a664a0e23ed3b3669392df"
+    },
+    {
+      "file": "en-620.png",
+      "sha256": "74687557844e3f36aa845dbc8fb8bc7a500de5b79fd685735254655c7edd4768"
+    },
+    {
+      "file": "en-621.png",
+      "sha256": "ae519d24a5eef2779080f7519eacad31e3a29371e4b3fa19b9cf210703d12354"
+    },
+    {
+      "file": "518.jpg",
+      "sha256": "c03b6bbf85f6bdfd0f99ad286b2d0ce808aabbedf42681fdc8361fbab00052d6"
+    },
+    {
+      "file": "519.jpg",
+      "sha256": "946464b1dbe3684e5f0881b5651472e206a253d1d0920200abec10a2f471e1cf"
+    }
+  ],
+  "actualSourceRead": true,
+  "questionLocations": {
+    "EN211printed194": "V={0,..,n-1};rho_v is rowv of reflexive adjacency;delta_v complementedrho_v.",
+    "EN212printed195c": "C_k is intersection indexed0<=u<k;U subset{0,..,k-1},1<=k<=n.",
+    "EN212printed195d": "ComputeC_kplus fromC_(k-1)plus, startingC0plus={2^n-1}."
+  },
+  "answerLocations": {
+    "CN518endprinted503_EN620printed603d": "Monotonicity withrho_k/delta_k; saysalgorithm uses sequentialallocation analogous to5.2.2R.",
+    "CN519printed504_EN620printed603introduction": "Both explicitly describe inputC_(k-1)plus atw1..wm, outputC_kplus.",
+    "sameM1": "Both use test rho_k=2^n-1, elsev=2^k, i1,jm.",
+    "sameQ": "Both retainrho_k/delta_k in the explanation and Q1."
+  },
+  "renumberingFinding": "No explicit renumbering/shifteddefinitionofC_k or changefrom0-basedvertices was found in these actual listed exercise/answer/introduction/M1/Q passages. The firstkvertices definition and the testedkth0-basedvertex thus have a traceable index-boundary difference. This does not prove absence of an explanatory convention elsewhere in the entire book.",
+  "workspaceVersionDifference": {
+    "CN519printed504": 379,
+    "EN621printed604": 397,
+    "context": "310maximalcliquesofthe8x8queengraph,306513mems.",
+    "action": "Preserve selectedChinese379 and record providedEnglish397 as version difference; no benchmark rerun or chosenreplacement."
+  },
+  "recommendedAction": "Retain both source algorithmindices with a precise parameter-convention question; do not shift every occurrence or claim a newly proved clique algorithm.",
+  "reviewerType": "independent-model-direct-source-image-comparison",
+  "humanSignOff": false
+}

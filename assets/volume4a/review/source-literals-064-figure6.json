@@ -1,0 +1,382 @@
+{
+  "status": "source-literal-and-native-figure-consistency-passed",
+  "volume": "volume4a",
+  "pageMarkdownSha256": "e08d811fcb0fbc9672a68038122f308a095bad38ccddb9b1f1557135bfa21469",
+  "figureAssetSha256": "3ca794fa51b81f0f1d54ef9d9e6572e8a34666f9ba3dea77f9d034a90c83ab0c",
+  "constraints38RowMajor": [
+    {
+      "literals": [
+        "t",
+        "w"
+      ],
+      "label": "A1"
+    },
+    {
+      "literals": [
+        "y",
+        "notz"
+      ],
+      "label": "B2"
+    },
+    {
+      "literals": [
+        "t",
+        "z"
+      ],
+      "label": "C2"
+    },
+    {
+      "literals": [
+        "w",
+        "y"
+      ],
+      "label": "D3"
+    },
+    {
+      "literals": [
+        "u",
+        "z"
+      ],
+      "label": "B1"
+    },
+    {
+      "literals": [
+        "nott",
+        "x"
+      ],
+      "label": "C1"
+    },
+    {
+      "literals": [
+        "v",
+        "noty"
+      ],
+      "label": "D2"
+    },
+    {
+      "literals": [
+        "notu",
+        "notx"
+      ],
+      "label": "E1"
+    },
+    {
+      "literals": [
+        "notu",
+        "y"
+      ],
+      "label": "B2"
+    },
+    {
+      "literals": [
+        "nott",
+        "notz"
+      ],
+      "label": "C1"
+    },
+    {
+      "literals": [
+        "notv",
+        "w"
+      ],
+      "label": "D3"
+    },
+    {
+      "literals": [
+        "u",
+        "notv"
+      ],
+      "label": "E2"
+    },
+    {
+      "literals": [
+        "notu",
+        "notz"
+      ],
+      "label": "B2"
+    },
+    {
+      "literals": [
+        "x",
+        "notz"
+      ],
+      "label": "C1"
+    },
+    {
+      "literals": [
+        "notv",
+        "y"
+      ],
+      "label": "D3"
+    },
+    {
+      "literals": [
+        "v",
+        "x"
+      ],
+      "label": "E3"
+    }
+  ],
+  "clauses39ColumnMajor": [
+    [
+      "nott",
+      "notw"
+    ],
+    [
+      "notu",
+      "notz"
+    ],
+    [
+      "u",
+      "noty"
+    ],
+    [
+      "u",
+      "z"
+    ],
+    [
+      "noty",
+      "z"
+    ],
+    [
+      "t",
+      "notx"
+    ],
+    [
+      "t",
+      "z"
+    ],
+    [
+      "notx",
+      "z"
+    ],
+    [
+      "nott",
+      "notz"
+    ],
+    [
+      "notv",
+      "y"
+    ],
+    [
+      "v",
+      "notw"
+    ],
+    [
+      "v",
+      "noty"
+    ],
+    [
+      "notw",
+      "noty"
+    ],
+    [
+      "u",
+      "x"
+    ],
+    [
+      "notu",
+      "v"
+    ],
+    [
+      "notv",
+      "notx"
+    ]
+  ],
+  "implications40": [
+    [
+      "t",
+      "notw"
+    ],
+    [
+      "u",
+      "notz"
+    ],
+    [
+      "notu",
+      "noty"
+    ],
+    [
+      "notu",
+      "z"
+    ],
+    [
+      "y",
+      "z"
+    ],
+    [
+      "nott",
+      "notx"
+    ],
+    [
+      "nott",
+      "z"
+    ],
+    [
+      "x",
+      "z"
+    ],
+    [
+      "t",
+      "notz"
+    ],
+    [
+      "v",
+      "y"
+    ],
+    [
+      "notv",
+      "notw"
+    ],
+    [
+      "notv",
+      "noty"
+    ],
+    [
+      "w",
+      "noty"
+    ],
+    [
+      "notu",
+      "x"
+    ],
+    [
+      "u",
+      "v"
+    ],
+    [
+      "v",
+      "notx"
+    ]
+  ],
+  "contrapositives41": [
+    [
+      "w",
+      "nott"
+    ],
+    [
+      "z",
+      "notu"
+    ],
+    [
+      "y",
+      "u"
+    ],
+    [
+      "notz",
+      "u"
+    ],
+    [
+      "notz",
+      "noty"
+    ],
+    [
+      "x",
+      "t"
+    ],
+    [
+      "notz",
+      "t"
+    ],
+    [
+      "notz",
+      "notx"
+    ],
+    [
+      "z",
+      "nott"
+    ],
+    [
+      "noty",
+      "notv"
+    ],
+    [
+      "w",
+      "v"
+    ],
+    [
+      "y",
+      "v"
+    ],
+    [
+      "y",
+      "notw"
+    ],
+    [
+      "notx",
+      "u"
+    ],
+    [
+      "notv",
+      "notu"
+    ],
+    [
+      "x",
+      "notv"
+    ]
+  ],
+  "originalDirectedArcs": 32,
+  "removedClausesContainingV": 5,
+  "remainingNativeArcs": 22,
+  "cycle42": [
+    "u",
+    "notz",
+    "noty",
+    "notv",
+    "notu",
+    "z",
+    "nott",
+    "notx",
+    "u"
+  ],
+  "cycleLabels": [
+    "B1",
+    "B2",
+    "D2",
+    "E2",
+    "B2",
+    "C2",
+    "C1",
+    "E1"
+  ],
+  "eachCycleStepMatchesSourceLabel": true,
+  "givenAssignment": {
+    "t": 1,
+    "u": 1,
+    "w": 0,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "givenAssignmentCheckedOnRemainingArcs": true,
+  "strongComponents": [
+    [
+      "nott",
+      "notu",
+      "x",
+      "z"
+    ],
+    [
+      "notw"
+    ],
+    [
+      "notx",
+      "notz",
+      "t",
+      "u"
+    ],
+    [
+      "noty"
+    ],
+    [
+      "w"
+    ],
+    [
+      "y"
+    ]
+  ],
+  "qualification": "Only literal-by-literal DeMorgan/implication/contrapositive consistency, native22arc correspondence, source-labelled cycle, and the single printed110000assignment are checked. No enumeration of schedules, new SAT solver, general criterion proof, or renegotiation search is performed. Root answer53 source records are separately retained.",
+  "masterSha256": null,
+  "sourceCodeLocator": "private-snapshot:volume4a/tools/check-064-literals-to-figure6.py",
+  "sourceCodeSha256": "8d76b1083b2804956535942009caa70a195b8a2e758cea23cabc1322263297ee"
+}

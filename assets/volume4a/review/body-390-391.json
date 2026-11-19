@@ -1,0 +1,567 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-assigned-physical-page-source-review-and-private-two-width-proof",
+  "cnPhysicalPages": [
+    390,
+    391
+  ],
+  "cnPrintedPages": [
+    375,
+    376
+  ],
+  "masterSha256": null,
+  "mathExpressions": 84,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 3,
+  "logicalAssemblies": [
+    {
+      "file": "assets/volume4a/review/body-390-391-catalan-recursion-and-unranking-389-tail-391-assembly.json",
+      "sha256": "c4644d40d48b3fbcaaa0617466cdd69feb7b384fff4d60830a012eb896db0479"
+    }
+  ],
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 390,
+      "cnPrintedPage": 375,
+      "enPdfPages": [
+        468,
+        469
+      ],
+      "enPrintedPages": [
+        451,
+        452
+      ],
+      "pageMarkdownSha256": "a1a82e86e10ea19f14bc53c05fbe0cb9393aeea034327e802f8565e7b6008c9c",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/390.jpg",
+      "sourcePageImageSha256": "cbf9df9f3b3bc6868144b8528b5facc2447ab95030b8969c1fed94159fa9f130",
+      "enPageImages": [
+        {
+          "physicalPage": 468,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-468.png",
+          "sha256": "b914fdb735a47d3577865bd5c15f696ba157c49bfd6716a1150d40c079a238ae"
+        },
+        {
+          "physicalPage": 469,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-469.png",
+          "sha256": "b1d9d38c15aa2f2fe8b9306ce751dcbc977c65148fd71b911e55ef99ccede516"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-390",
+        "p-375"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-070",
+          "section": "7.2.1.6",
+          "cnPdfPage": 390,
+          "enPdfPages": [
+            468
+          ],
+          "location": "选票数的逐前缀条件",
+          "original": "表决结果从来不认为获得 p 张选票的候选人战胜其获得 q 张选票的对手",
+          "final": "其中任意计票前缀里，最终获得 $p$ 票的候选人都未领先最终获得 $q$ 票的对手",
+          "basis": "英文 running tabulation...never favors，限定到任意已计前缀。两票各一张时，以少数候选者前缀领先的顺序恰排除一种，与(22)的C11=1相符。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "a1a82e86e10ea19f14bc53c05fbe0cb9393aeea034327e802f8565e7b6008c9c",
+          "cnPrintedPage": 375
+        },
+        {
+          "id": "volume4a-tail-071",
+          "section": "7.2.1.6",
+          "cnPdfPage": 390,
+          "enPdfPages": [
+            468
+          ],
+          "location": "式(26)首参数的定义域",
+          "original": "0\\leq p<q",
+          "final": "0<p<q",
+          "basis": "两版同印0≤p<q。原式(5)的序列A₀₁仅含一个右括号；把p=0代进(26)，右侧每一组都含空序列A₋₁,ⱼ，合并结果为空。相同退化适用于所有q>0，故收窄为0<p<q。正p场景核至q=10。",
+          "isAuthorOfficialErratum": false,
+          "isProjectMathematicalCorrection": true,
+          "pageMarkdownSha256": "a1a82e86e10ea19f14bc53c05fbe0cb9393aeea034327e802f8565e7b6008c9c",
+          "cnPrintedPage": 375
+        },
+        {
+          "id": "volume4a-tail-072",
+          "section": "7.2.1.6",
+          "cnPdfPage": 390,
+          "enPdfPages": [
+            468
+          ],
+          "location": "式(25)的叶与表1的行",
+          "original": "第14个叶子对应于表1中自上而下的第14行",
+          "final": "(25)中自左向右的14个叶子，依次对应于表1中自上而下的14行。",
+          "basis": "英文 The fourteen leaves ... correspond to the fourteen rows，随后注明从左到右、从上到下。14个叶的杜威编号均与表1的c列逐行相符。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "a1a82e86e10ea19f14bc53c05fbe0cb9393aeea034327e802f8565e7b6008c9c",
+          "cnPrintedPage": 375
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-eq25-catalan-recursion-tree.svg",
+          "sha256": "5a529b310ba5e0cf08ffd66b35a16ddd5f6c06b09b549473b48d811b8849e422"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 390,
+        "markdownSha256": "a1a82e86e10ea19f14bc53c05fbe0cb9393aeea034327e802f8565e7b6008c9c",
+        "htmlSha256": "e7f798545a0798ee7789c3ad2043b80ba77c0692fa6eed042b88dce0032c2716",
+        "mathExpressions": 28,
+        "displayMath": 5,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/result.json",
+        "sha256": "31a338e98b8e03b08a2d3a87aa0f1e417a5edb2082909d4d12834cd333847d0a",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 28,
+            "mathML": 28,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 728,
+                "content": 818,
+                "left": 0,
+                "right": 90,
+                "max": 90,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 390,
+            "width": 1280,
+            "pageMarkdownSha256": "a1a82e86e10ea19f14bc53c05fbe0cb9393aeea034327e802f8565e7b6008c9c",
+            "htmlSha256": "e7f798545a0798ee7789c3ad2043b80ba77c0692fa6eed042b88dce0032c2716",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq25-catalan-recursion-tree.svg",
+                "opened": true,
+                "screenshot": "390-1280-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          },
+          {
+            "documentWidth": 390,
+            "math": 28,
+            "mathML": 28,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 818,
+                "left": 0,
+                "right": 508,
+                "max": 508,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 563,
+                "left": 0,
+                "right": 253,
+                "max": 253,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 646,
+                "left": 0,
+                "right": 336,
+                "max": 336,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 549,
+                "left": 0,
+                "right": 239,
+                "max": 239,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 390,
+            "width": 390,
+            "pageMarkdownSha256": "a1a82e86e10ea19f14bc53c05fbe0cb9393aeea034327e802f8565e7b6008c9c",
+            "htmlSha256": "e7f798545a0798ee7789c3ad2043b80ba77c0692fa6eed042b88dce0032c2716",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq25-catalan-recursion-tree.svg",
+                "opened": true,
+                "screenshot": "390-390-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/390-1280-walk0.png",
+          "sha256": "273150a2a93fddc968ccf13a0ee0bf2344ab91f5be804ccb3ae69deafacbc25c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/390-1280-walk1.png",
+          "sha256": "a227403cea7f5f2f102f8155596a31a267af8359a7a98ff771f6049db01cf83d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/390-390-walk0.png",
+          "sha256": "37dd00f11d6d05a3fd0884363488579b238fcd8e59f135d5d5cdfd9ee0739530",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/390-390-walk1.png",
+          "sha256": "b3b656c8617c9a7e3a71a3c02b0d70c838156ce56bcda95966c696361ef9d6da",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/390-390-walk2.png",
+          "sha256": "8ff02d43c7372d9fad1d004ff48232bd18b25437c2429861189c6b7ddae1949f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/390-390-walk3.png",
+          "sha256": "d4f759cc12cdd4b269807bdd13d12cf81e98e0444a388ee415fe0d3ad98bc02a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/390-1280-display0-right.png",
+          "sha256": "3079c7118b6b5096c3ae6c84dfe56f415eb92a1bd7858855c9fb2dec77fb91d4",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/390-390-display0-right.png",
+          "sha256": "5ed2e2dbe74071b6e189b399f05aeb84e02387a84fb701ca3f403eb78e2f3607",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/390-390-display1-right.png",
+          "sha256": "f86070cdb829731772c9860ac6ac982677a77d9887f81f3a98481cea99b135db",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/390-390-display3-right.png",
+          "sha256": "eac1ba548bb8d989d79e83682d03214744ebaa04f42adc37f2c6ecf84009d75a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/390-390-display4-right.png",
+          "sha256": "f31de97bb89b28e610f32a435d7146a00d8a18e2abdac4f7922cd70184393b9f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/390-1280-original-image0.png",
+          "sha256": "ef0c651348c90562bd302cfe13326187f8a9dc08057e91d989b6db03a3d6584c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/390-390-original-image0-right.png",
+          "sha256": "a87e65c7b2e2aca1e7cae6ccf388858af595a50b0c7d80c4520e78d8626daff0",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/390-390-original-image0.png",
+          "sha256": "5c8699a9b1d388b2099ec5a2a45fd415041b15cd9f377a107d58c6670db3746f",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-390-391-source-fields.json",
+        "sha256": "720832091c6d7bd204c42cdcb985f8409433d11c68cc03b8f75a53534723600a"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-390-391-catalan-recursion-and-unranking-389-tail-391-assembly.json",
+          "sha256": "c4644d40d48b3fbcaaa0617466cdd69feb7b384fff4d60830a012eb896db0479"
+        }
+      ],
+      "coveredRegions": [
+        "Equation (21) boundary, the full two arrays in (22), (23)–(27), recursion tree topology with all 14 leaves, Dewey numbering, end of worm explanation."
+      ],
+      "followingPageContinuation": "CN391 starts another perspective with the infinite directed graph (28).",
+      "qualification": "Full CN390–391 and matched actual EN468–470, with physical and logical two-width checked rendered math, original links and scroll endpoints. The exact arithmetic applies only in the range recorded by the independent checks.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/390-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "8cbc369a884d482442c9055601fc8e1e2b6240f935ff0ac67ca10bd78da4b3c1",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "a6d2d35bb10be7601df8a871ca8ab95ec6ae672a78c086509f3f1446fb678b4d",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/390.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 391,
+      "cnPrintedPage": 376,
+      "enPdfPages": [
+        469,
+        470
+      ],
+      "enPrintedPages": [
+        452,
+        453
+      ],
+      "pageMarkdownSha256": "8a9b60ec6f2b6e1e52b926cd9c4b5267d123fc8967adab51a53c21e598a7b7c2",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/391.jpg",
+      "sourcePageImageSha256": "31bf61f88c1f638bea9625eb79cc1933d4628407fcf4c2583df2ccff22502362",
+      "enPageImages": [
+        {
+          "physicalPage": 469,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-469.png",
+          "sha256": "b1d9d38c15aa2f2fe8b9306ce751dcbc977c65148fd71b911e55ef99ccede516"
+        },
+        {
+          "physicalPage": 470,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-470.png",
+          "sha256": "d623c6ca2a07441f7ea4136ee727b84ccccf35f3e3c2cfc86e467988e959b430"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-391",
+        "p-376"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-eq28-catalan-digraph.svg",
+          "sha256": "f4a606ef2c16157842bcf99da58a1086baa15543e28f8061ff3b8f8951d56fab"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 391,
+        "markdownSha256": "8a9b60ec6f2b6e1e52b926cd9c4b5267d123fc8967adab51a53c21e598a7b7c2",
+        "htmlSha256": "37f6af8dbd3f42425517bcecc52538591e117d925d74037520123b8dfe2b9e19",
+        "mathExpressions": 56,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/result.json",
+        "sha256": "31a338e98b8e03b08a2d3a87aa0f1e417a5edb2082909d4d12834cd333847d0a",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 56,
+            "mathML": 56,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 391,
+            "width": 1280,
+            "pageMarkdownSha256": "8a9b60ec6f2b6e1e52b926cd9c4b5267d123fc8967adab51a53c21e598a7b7c2",
+            "htmlSha256": "37f6af8dbd3f42425517bcecc52538591e117d925d74037520123b8dfe2b9e19",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq28-catalan-digraph.svg",
+                "opened": true,
+                "screenshot": "391-1280-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          },
+          {
+            "documentWidth": 390,
+            "math": 56,
+            "mathML": 56,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 400,
+                "left": 0,
+                "right": 90,
+                "max": 90,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 391,
+            "width": 390,
+            "pageMarkdownSha256": "8a9b60ec6f2b6e1e52b926cd9c4b5267d123fc8967adab51a53c21e598a7b7c2",
+            "htmlSha256": "37f6af8dbd3f42425517bcecc52538591e117d925d74037520123b8dfe2b9e19",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq28-catalan-digraph.svg",
+                "opened": true,
+                "screenshot": "391-390-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/391-1280-walk0.png",
+          "sha256": "ece8407923829eeceae48f50a259162ca524cd37a8ad61e339856e08e544931c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/391-1280-walk1.png",
+          "sha256": "0279b6324ca98b86f882bd06d998b5ffe44ae18d3c4457d9c5fcbf0db476e4c8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/391-1280-walk2.png",
+          "sha256": "b867dcef1a4b1ac12f10a7ed45e38df366f1ae8247edd0df36587c7792a4a5d8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/391-390-walk0.png",
+          "sha256": "054461c47b45a1197c750c20f2e68ae67b62e52dcb34e1f565f4f65e1354e129",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/391-390-walk1.png",
+          "sha256": "44c34bf356960bfc8275181d8ff1a455eabb83d13516646a10b50265b4d33e9a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/391-390-walk2.png",
+          "sha256": "cf6cf26de92b902a3e622cc035b98735d3203a14345a2bcd60e022d86fedec61",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/391-390-walk3.png",
+          "sha256": "76a84daf165991bd50a4065725c333ee050b903d660d2f2bc1e04596c536d8a9",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/391-390-walk4.png",
+          "sha256": "f044e85e4f40df8002f7810377f6fec43a5b948c2329b54c73056745bcb7a23d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/391-390-inline23-pan0.png",
+          "sha256": "30a2f20708b88df91362f924d18822fbeda38a366529c997b2893cddcd3ebb97",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/391-390-inline23-pan1.png",
+          "sha256": "9273e045d5bd18e6b52cc8166fee9f38859e7fa3204bda71e17dd1f7ef5b12dd",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/391-1280-original-image0.png",
+          "sha256": "e4d5cb1124f4cd7ce020b02ab4a6ed0ef1d78ba17cf20a7f083f00b89e3bc80e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/390-391/391-390-original-image0.png",
+          "sha256": "f445ebf605b064eb09c4e4638e44d0af5d6ddc100bf69c0985c941e60ff0f006",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-390-391-source-fields.json",
+        "sha256": "720832091c6d7bd204c42cdcb985f8409433d11c68cc03b8f75a53534723600a"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-390-391-catalan-recursion-and-unranking-389-tail-391-assembly.json",
+          "sha256": "c4644d40d48b3fbcaaa0617466cdd69feb7b384fff4d60830a012eb896db0479"
+        }
+      ],
+      "coveredRegions": [
+        "Directed graph (28) including 25 arrowheads and 15 labels, path count and order, algorithm U1–U4, random-tree paragraph, and algorithm W1–W4."
+      ],
+      "followingPageContinuation": "CN392 starts a new paragraph expressing the worm walk in depths w_0 through w_{2n} and connects them to W3.",
+      "qualification": "Full CN390–391 and matched actual EN468–470, with physical and logical two-width checked rendered math, original links and scroll endpoints. The exact arithmetic applies only in the range recorded by the independent checks.",
+      "privateOriginalPageReviewSha256": "f32445be2d876da744a935d233ef8b94cfe4c724f9575494dec0d4c810b43278",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/391.json"
+    }
+  ],
+  "qualification": "Full CN390–391 and matched actual EN468–470, with physical and logical two-width checked rendered math, original links and scroll endpoints. The exact arithmetic applies only in the range recorded by the independent checks."
+}

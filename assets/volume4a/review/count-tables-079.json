@@ -1,0 +1,651 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+  "cnPhysicalPage": 79,
+  "cnPrintedPage": 64,
+  "pageMarkdownSha256": "ec2668f9fc472da7f7b8e61fe88cc19201e0d08a5d8d1be868c6ec7371e7e77f",
+  "independentSourceOnlyReceipt": {
+    "locator": "private-snapshot:volume4a/root-independent-body/079-count-tables-source-only.json",
+    "sha256": "0ea207d0a1540b33e9cf0ff0200c4b0079d3f5cf22e5aac4938cb8be2765c049"
+  },
+  "originalTableLiteralComparison": {
+    "reviewerKind": "model-direct-image-review",
+    "humanSignoff": false,
+    "scope": "Only CN physical079 printed64 tables3/4/5 and corresponding EN096 printed79; not exercises or complete page/MD acceptance",
+    "sourceImagesActuallyViewed": [
+      {
+        "locator": "private-snapshot:volume4a/scans/079.jpg",
+        "sha256": "2874726ab25427cb45669dd835477dae84fd5ce9dd2ef5753e57d40fb9015562"
+      },
+      {
+        "locator": "private-snapshot:volume4a/body-review/en-096.png",
+        "sha256": "afa54830155e46ec04df9d59a0a95154265657362b25840bbd03564ff9a3d441"
+      }
+    ],
+    "columnHeaderN": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "tables": [
+      {
+        "table": 3,
+        "titleCN": "n变量布尔函数",
+        "titleEN": "Boolean functions of n variables",
+        "rows": [
+          [
+            "任意函数",
+            "arbitrary",
+            [
+              "2",
+              "4",
+              "16",
+              "256",
+              "65536",
+              "4294967296",
+              "18446744073709551616"
+            ]
+          ],
+          [
+            "自对偶函数",
+            "self-dual",
+            [
+              "0",
+              "2",
+              "4",
+              "16",
+              "256",
+              "65536",
+              "4294967296"
+            ]
+          ],
+          [
+            "单调函数",
+            "monotone",
+            [
+              "2",
+              "3",
+              "6",
+              "20",
+              "168",
+              "7581",
+              "7828354"
+            ]
+          ],
+          [
+            "单调自对偶函数",
+            "both (monotone and self-dual)",
+            [
+              "0",
+              "1",
+              "2",
+              "4",
+              "12",
+              "81",
+              "2646"
+            ]
+          ],
+          [
+            "霍恩函数",
+            "Horn",
+            [
+              "2",
+              "4",
+              "14",
+              "122",
+              "4960",
+              "2771104",
+              "151947502948"
+            ]
+          ],
+          [
+            "克罗姆函数",
+            "Krom",
+            [
+              "2",
+              "4",
+              "16",
+              "166",
+              "4170",
+              "224716",
+              "24445368"
+            ]
+          ],
+          [
+            "门限函数",
+            "threshold",
+            [
+              "2",
+              "4",
+              "14",
+              "104",
+              "1882",
+              "94572",
+              "15028134"
+            ]
+          ],
+          [
+            "对称函数",
+            "symmetric",
+            [
+              "2",
+              "4",
+              "8",
+              "16",
+              "32",
+              "64",
+              "128"
+            ]
+          ],
+          [
+            "定向函数",
+            "canalizing",
+            [
+              "2",
+              "4",
+              "14",
+              "120",
+              "3514",
+              "1292276",
+              "103071426294"
+            ]
+          ]
+        ]
+      },
+      {
+        "table": 4,
+        "titleCN": "变量置换下的不同布尔函数",
+        "titleEN": "Boolean functions distinct under permutation of variables",
+        "rows": [
+          [
+            "任意函数",
+            "arbitrary",
+            [
+              "2",
+              "4",
+              "12",
+              "80",
+              "3984",
+              "37333248",
+              "25626412338274304"
+            ]
+          ],
+          [
+            "自对偶函数",
+            "self-dual",
+            [
+              "0",
+              "2",
+              "2",
+              "8",
+              "32",
+              "1088",
+              "6385408"
+            ]
+          ],
+          [
+            "单调函数",
+            "monotone",
+            [
+              "2",
+              "3",
+              "5",
+              "10",
+              "30",
+              "210",
+              "16353"
+            ]
+          ],
+          [
+            "单调自对偶函数",
+            "both (monotone and self-dual)",
+            [
+              "0",
+              "1",
+              "1",
+              "2",
+              "3",
+              "7",
+              "30"
+            ]
+          ],
+          [
+            "霍恩函数",
+            "Horn",
+            [
+              "2",
+              "4",
+              "10",
+              "38",
+              "368",
+              "29328",
+              "216591692"
+            ]
+          ],
+          [
+            "克罗姆函数",
+            "Krom",
+            [
+              "2",
+              "4",
+              "12",
+              "48",
+              "308",
+              "3028",
+              "49490"
+            ]
+          ],
+          [
+            "门限函数",
+            "threshold",
+            [
+              "2",
+              "4",
+              "10",
+              "34",
+              "178",
+              "1720",
+              "590440"
+            ]
+          ],
+          [
+            "定向函数",
+            "canalizing",
+            [
+              "2",
+              "4",
+              "10",
+              "38",
+              "294",
+              "15774",
+              "149325022"
+            ]
+          ]
+        ]
+      },
+      {
+        "table": 5,
+        "titleCN": "变量取补或置换下的不同布尔函数",
+        "titleEN": "Boolean functions distinct under complementation/permutation",
+        "rows": [
+          [
+            "任意函数",
+            "arbitrary",
+            [
+              "1",
+              "2",
+              "4",
+              "14",
+              "222",
+              "616126",
+              "200253952527184"
+            ]
+          ],
+          [
+            "自对偶函数",
+            "self-dual",
+            [
+              "0",
+              "1",
+              "1",
+              "3",
+              "7",
+              "83",
+              "109950"
+            ]
+          ],
+          [
+            "门限函数",
+            "threshold",
+            [
+              "1",
+              "2",
+              "3",
+              "6",
+              "15",
+              "63",
+              "567"
+            ]
+          ],
+          [
+            "自对偶门限函数",
+            "both (threshold and self-dual)",
+            [
+              "0",
+              "1",
+              "1",
+              "2",
+              "3",
+              "7",
+              "21"
+            ]
+          ],
+          [
+            "定向函数",
+            "canalizing",
+            [
+              "1",
+              "2",
+              "3",
+              "6",
+              "22",
+              "402",
+              "1228158"
+            ]
+          ]
+        ]
+      }
+    ],
+    "numericCellsCompared": 154,
+    "all154NumericCellsAndHeadersAndClassOrderMatchSelectedCNAndEN": true,
+    "specificClassQualification": "Table3/4 both=monotone self-dual; Table5 both=self-dual threshold. Table4 omits symmetric row; table5 only five classes. SelectedCN 定向函数 maps to originalEnglish canalizing; retained source terminology, no new translation adjudication.",
+    "methodLimit": "Actual literal source-image comparison only. No n6 family enumeration, no proof of count correctness, no worker MD/SVG edits."
+  },
+  "numericEncoding": "Exactdecimalstrings;noJSNumberrounding",
+  "currentEditableTableRows": [
+    {
+      "table": 3,
+      "rows": [
+        [
+          "任意函数",
+          "2",
+          "4",
+          "16",
+          "256",
+          "65536",
+          "4294967296",
+          "18446744073709551616"
+        ],
+        [
+          "自对偶函数",
+          "0",
+          "2",
+          "4",
+          "16",
+          "256",
+          "65536",
+          "4294967296"
+        ],
+        [
+          "单调函数",
+          "2",
+          "3",
+          "6",
+          "20",
+          "168",
+          "7581",
+          "7828354"
+        ],
+        [
+          "单调自对偶函数",
+          "0",
+          "1",
+          "2",
+          "4",
+          "12",
+          "81",
+          "2646"
+        ],
+        [
+          "霍恩函数",
+          "2",
+          "4",
+          "14",
+          "122",
+          "4960",
+          "2771104",
+          "151947502948"
+        ],
+        [
+          "克罗姆函数",
+          "2",
+          "4",
+          "16",
+          "166",
+          "4170",
+          "224716",
+          "24445368"
+        ],
+        [
+          "门限函数",
+          "2",
+          "4",
+          "14",
+          "104",
+          "1882",
+          "94572",
+          "15028134"
+        ],
+        [
+          "对称函数",
+          "2",
+          "4",
+          "8",
+          "16",
+          "32",
+          "64",
+          "128"
+        ],
+        [
+          "定向函数",
+          "2",
+          "4",
+          "14",
+          "120",
+          "3514",
+          "1292276",
+          "103071426294"
+        ]
+      ],
+      "columns": 8,
+      "mathHeaders": 7
+    },
+    {
+      "table": 4,
+      "rows": [
+        [
+          "任意函数",
+          "2",
+          "4",
+          "12",
+          "80",
+          "3984",
+          "37333248",
+          "25626412338274304"
+        ],
+        [
+          "自对偶函数",
+          "0",
+          "2",
+          "2",
+          "8",
+          "32",
+          "1088",
+          "6385408"
+        ],
+        [
+          "单调函数",
+          "2",
+          "3",
+          "5",
+          "10",
+          "30",
+          "210",
+          "16353"
+        ],
+        [
+          "单调自对偶函数",
+          "0",
+          "1",
+          "1",
+          "2",
+          "3",
+          "7",
+          "30"
+        ],
+        [
+          "霍恩函数",
+          "2",
+          "4",
+          "10",
+          "38",
+          "368",
+          "29328",
+          "216591692"
+        ],
+        [
+          "克罗姆函数",
+          "2",
+          "4",
+          "12",
+          "48",
+          "308",
+          "3028",
+          "49490"
+        ],
+        [
+          "门限函数",
+          "2",
+          "4",
+          "10",
+          "34",
+          "178",
+          "1720",
+          "590440"
+        ],
+        [
+          "定向函数",
+          "2",
+          "4",
+          "10",
+          "38",
+          "294",
+          "15774",
+          "149325022"
+        ]
+      ],
+      "columns": 8,
+      "mathHeaders": 7
+    },
+    {
+      "table": 5,
+      "rows": [
+        [
+          "任意函数",
+          "1",
+          "2",
+          "4",
+          "14",
+          "222",
+          "616126",
+          "200253952527184"
+        ],
+        [
+          "自对偶函数",
+          "0",
+          "1",
+          "1",
+          "3",
+          "7",
+          "83",
+          "109950"
+        ],
+        [
+          "门限函数",
+          "1",
+          "2",
+          "3",
+          "6",
+          "15",
+          "63",
+          "567"
+        ],
+        [
+          "自对偶门限函数",
+          "0",
+          "1",
+          "1",
+          "2",
+          "3",
+          "7",
+          "21"
+        ],
+        [
+          "定向函数",
+          "1",
+          "2",
+          "3",
+          "6",
+          "22",
+          "402",
+          "1228158"
+        ]
+      ],
+      "columns": 8,
+      "mathHeaders": 7
+    }
+  ],
+  "actualDOM": {
+    "locator": "private-snapshot:volume4a/verified-render/tables-78-79.json",
+    "sha256": "71580b146114aa8847fee5d8203121b011675f908d8ecf964c984d4be5404786",
+    "tables": 3,
+    "mathHeaderCells": 21,
+    "numericCells": 154,
+    "widths": [
+      1280,
+      390
+    ]
+  },
+  "limitedSimpleTable3Rows": [
+    {
+      "n": 0,
+      "arbitrary": "2",
+      "selfDual": "0",
+      "symmetric": "2"
+    },
+    {
+      "n": 1,
+      "arbitrary": "4",
+      "selfDual": "2",
+      "symmetric": "4"
+    },
+    {
+      "n": 2,
+      "arbitrary": "16",
+      "selfDual": "4",
+      "symmetric": "8"
+    },
+    {
+      "n": 3,
+      "arbitrary": "256",
+      "selfDual": "16",
+      "symmetric": "16"
+    },
+    {
+      "n": 4,
+      "arbitrary": "65536",
+      "selfDual": "256",
+      "symmetric": "32"
+    },
+    {
+      "n": 5,
+      "arbitrary": "4294967296",
+      "selfDual": "65536",
+      "symmetric": "64"
+    },
+    {
+      "n": 6,
+      "arbitrary": "18446744073709551616",
+      "selfDual": "4294967296",
+      "symmetric": "128"
+    }
+  ],
+  "qualification": "All154numbers/headers/classorderdirectlyCN079/EN096source-comparedindependently;currentMDandDOM exactdigitstringscompared. Onlyarbitrary/selfdual/symmetricTable3formulasrecomputedforallsevenshownn. No Horn/Krom/threshold/canalizing/otherN6familyenumerationorcountproof;noexerciseacceptanceinthislimitedreceipt."
+}

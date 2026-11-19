@@ -21,11 +21,14 @@ function formatSidebar(items: DefaultTheme.SidebarItem[]): DefaultTheme.SidebarI
   const escape = (text: string) => text.replace(/[&<>"']/g, char => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
   })[char]!)
+  // This source heading contains $n$. Sidebar and footer labels are plain
+  // theme text, so present the symbol here without changing book metadata.
+  const label = (text: string) => escape(text).replaceAll('$n$', '<i>n</i>')
   return items.map((item, index) => ({
     ...item,
-    docFooterText: item.docFooterText ?? item.text,
+    docFooterText: (item.docFooterText ?? item.text)?.replaceAll('$n$', 'n'),
     text: parts[index]
-      ? `<span class="book-nav-number" style="--book-nav-number-width:${numberWidth}ch">${escape(parts[index]![1])}</span> <span class="book-nav-label">${escape(parts[index]![2])}</span>`
+      ? `<span class="book-nav-number" style="--book-nav-number-width:${numberWidth}ch">${escape(parts[index]![1])}</span> <span class="book-nav-label">${label(parts[index]![2])}</span>`
       : item.text,
     ...(item.items ? { items: formatSidebar(item.items) } : {})
   }))
@@ -52,10 +55,12 @@ export default defineConfig({
   lang: 'zh-CN',
   title: siteTitle,
   description: multipleVolumes
-    ? '《计算机程序设计艺术》中文阅读版：卷一基本算法、卷二半数值算法、卷三排序与查找，含习题答案、附录与索引。'
+    ? '《计算机程序设计艺术》中文阅读版：卷一基本算法、卷二半数值算法、卷三排序与查找、卷4A组合算法（一），含习题答案、附录与索引。'
     : '《计算机程序设计艺术》第一卷《基本算法》中文阅读版：基本概念、信息结构、习题答案与附录。',
   base: '/taocp-zh/',
   cleanUrls: false,
+  // Limit concurrent search/SSR work for the dense four-volume math build.
+  buildConcurrency: 1,
   appearance: false,
   lastUpdated: false,
   head: [

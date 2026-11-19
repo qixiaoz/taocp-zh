@@ -1,0 +1,123 @@
+{
+  "status": "fixed-official-word-data-and-finite-examples-verified",
+  "sourceURL": "https://cs.stanford.edu/~knuth/sgb-words.txt",
+  "retrievedDate": "2026-11-17",
+  "bytes": 34542,
+  "sha256": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce",
+  "words": 5757,
+  "bookRankAnchorsMatched": {
+    "1": "which",
+    "5757": "pupal",
+    "1000": "ditch",
+    "2000": "galls",
+    "3000": "visas",
+    "4000": "faker",
+    "5000": "pismo"
+  },
+  "furthestPair": {
+    "all5757SquaredEuclideanDistancesChecked": true,
+    "maxSquaredDistance": 2415,
+    "pairs": [
+      [
+        "abuzz",
+        "yucca"
+      ]
+    ],
+    "seconds": 1.376
+  },
+  "coveringExamples": [
+    {
+      "words": [
+        "third",
+        "flock",
+        "began",
+        "jumps"
+      ],
+      "differentLetters": 20,
+      "allSGB": true
+    },
+    {
+      "words": [
+        "becks",
+        "fjord",
+        "glitz",
+        "nymph",
+        "squaw"
+      ],
+      "differentLetters": 24,
+      "allSGB": true
+    },
+    {
+      "words": [
+        "waqfs",
+        "gyved",
+        "bronx",
+        "chimp",
+        "klutz"
+      ],
+      "differentLetters": 25,
+      "allSGB": false
+    }
+  ],
+  "wordSquare9": {
+    "words": [
+      "class",
+      "light",
+      "agree",
+      "sheep",
+      "steps"
+    ],
+    "ranks": {
+      "class": 98,
+      "light": 48,
+      "agree": 372,
+      "sheep": 256,
+      "steps": 162
+    },
+    "rowsEqualColumns": true
+  },
+  "wordCube10": {
+    "rows": [
+      [
+        "types",
+        "yeast",
+        "pasta",
+        "ester",
+        "start"
+      ],
+      [
+        "yeast",
+        "earth",
+        "armor",
+        "stove",
+        "three"
+      ],
+      [
+        "pasta",
+        "armor",
+        "smoke",
+        "token",
+        "arena"
+      ],
+      [
+        "ester",
+        "stove",
+        "token",
+        "event",
+        "rents"
+      ],
+      [
+        "start",
+        "three",
+        "arena",
+        "rents",
+        "tease"
+      ]
+    ],
+    "maxUsedWordRank": 2968,
+    "all125CellsInvariantUnderAxisPermutations": true,
+    "allWordsWithinWORDS3000": true
+  },
+  "fullSymmetricCubeCountsIndependentlyEnumerated": false,
+  "qualification": "The official data match every supplied-book rank landmark and the frozen5757-word definition. All pairwise distances and the displayed examples are independently checked. This is not an enumeration of all symmetric cubes or a new proof of counts3/83576."
+}

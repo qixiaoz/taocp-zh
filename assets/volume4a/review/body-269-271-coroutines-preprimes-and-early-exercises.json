@@ -1,0 +1,751 @@
+{
+  "scope": "Finite regenerated D rows and F cycles, exact highlighted source values and privately available exercise targets. No general theorem proof or hardware benchmarking.",
+  "pageMarkdownHashes": {
+    "269": "400de5fbe9e17393b3f6d82261dcdddb7daae767270a4378ae7c03e419b224b0",
+    "270": "da779cfd89923f05327407dd98091abb6e195d7611dc8cf5d028fb0230f75b94",
+    "271": "142827e566881fa334350cf8922759c04287991d265becec74e45093ff383197"
+  },
+  "algorithmD": {
+    "allFiniteInputParameters": [
+      {
+        "m": 2,
+        "n": 2,
+        "r": 2,
+        "period": 16
+      },
+      {
+        "m": 2,
+        "n": 3,
+        "r": 2,
+        "period": 64
+      },
+      {
+        "m": 2,
+        "n": 4,
+        "r": 2,
+        "period": 256
+      },
+      {
+        "m": 3,
+        "n": 2,
+        "r": 1,
+        "period": 81
+      },
+      {
+        "m": 3,
+        "n": 3,
+        "r": 1,
+        "period": 729
+      },
+      {
+        "m": 4,
+        "n": 2,
+        "r": 2,
+        "period": 256
+      },
+      {
+        "m": 5,
+        "n": 2,
+        "r": 1,
+        "period": 625
+      },
+      {
+        "m": 5,
+        "n": 2,
+        "r": 3,
+        "period": 625
+      }
+    ],
+    "sourceExample81": "000010110120122122021010002111202201121200201021210012110222102020011110022112222",
+    "sourceLabels": [
+      [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          7
+        ]
+      ]
+    ],
+    "sourceTraceRows": [
+      "12 31211112 12312111 12123121 11121231 21111212",
+      "00001102122 00011021 22000110 21220001 102122000",
+      "121211112121211112121211112121211112121211112121",
+      "0 11021220 11021220 11021220 11021220 11021220 1"
+    ]
+  },
+  "theoremPNumericScope": "All finite strings of lengths 1–7, alphabets 1–4; both strict suffix and rotation conditions compared.",
+  "F": {
+    "table61All32": [
+      [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          2
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        3
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        3
+      ],
+      [
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          0,
+          2,
+          2
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        2
+      ],
+      [
+        [
+          0,
+          1,
+          0,
+          2
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        3
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        3
+      ],
+      [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          2,
+          0,
+          2
+        ],
+        2
+      ],
+      [
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        3
+      ],
+      [
+        [
+          0,
+          2,
+          1,
+          1
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          2,
+          1,
+          2
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          2,
+          2,
+          0
+        ],
+        3
+      ],
+      [
+        [
+          0,
+          2,
+          2,
+          1
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          2,
+          2,
+          2
+        ],
+        4
+      ],
+      [
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          1,
+          1,
+          2
+        ],
+        4
+      ],
+      [
+        [
+          1,
+          1,
+          2,
+          1
+        ],
+        3
+      ],
+      [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        4
+      ],
+      [
+        [
+          1,
+          2,
+          1,
+          2
+        ],
+        2
+      ],
+      [
+        [
+          1,
+          2,
+          2,
+          1
+        ],
+        3
+      ],
+      [
+        [
+          1,
+          2,
+          2,
+          2
+        ],
+        4
+      ],
+      [
+        [
+          2,
+          2,
+          2,
+          2
+        ],
+        1
+      ]
+    ],
+    "allTestedParameters": [
+      {
+        "m": 1,
+        "n": 1,
+        "primesLengthN": 1,
+        "preprimes": 1,
+        "deBruijnWindows": 1
+      },
+      {
+        "m": 1,
+        "n": 2,
+        "primesLengthN": 0,
+        "preprimes": 1,
+        "deBruijnWindows": 1
+      },
+      {
+        "m": 1,
+        "n": 3,
+        "primesLengthN": 0,
+        "preprimes": 1,
+        "deBruijnWindows": 1
+      },
+      {
+        "m": 1,
+        "n": 4,
+        "primesLengthN": 0,
+        "preprimes": 1,
+        "deBruijnWindows": 1
+      },
+      {
+        "m": 1,
+        "n": 5,
+        "primesLengthN": 0,
+        "preprimes": 1,
+        "deBruijnWindows": 1
+      },
+      {
+        "m": 1,
+        "n": 6,
+        "primesLengthN": 0,
+        "preprimes": 1,
+        "deBruijnWindows": 1
+      },
+      {
+        "m": 1,
+        "n": 7,
+        "primesLengthN": 0,
+        "preprimes": 1,
+        "deBruijnWindows": 1
+      },
+      {
+        "m": 2,
+        "n": 1,
+        "primesLengthN": 2,
+        "preprimes": 2,
+        "deBruijnWindows": 2
+      },
+      {
+        "m": 2,
+        "n": 2,
+        "primesLengthN": 1,
+        "preprimes": 3,
+        "deBruijnWindows": 4
+      },
+      {
+        "m": 2,
+        "n": 3,
+        "primesLengthN": 2,
+        "preprimes": 5,
+        "deBruijnWindows": 8
+      },
+      {
+        "m": 2,
+        "n": 4,
+        "primesLengthN": 3,
+        "preprimes": 8,
+        "deBruijnWindows": 16
+      },
+      {
+        "m": 2,
+        "n": 5,
+        "primesLengthN": 6,
+        "preprimes": 14,
+        "deBruijnWindows": 32
+      },
+      {
+        "m": 2,
+        "n": 6,
+        "primesLengthN": 9,
+        "preprimes": 23,
+        "deBruijnWindows": 64
+      },
+      {
+        "m": 2,
+        "n": 7,
+        "primesLengthN": 18,
+        "preprimes": 41,
+        "deBruijnWindows": 128
+      },
+      {
+        "m": 3,
+        "n": 1,
+        "primesLengthN": 3,
+        "preprimes": 3,
+        "deBruijnWindows": 3
+      },
+      {
+        "m": 3,
+        "n": 2,
+        "primesLengthN": 3,
+        "preprimes": 6,
+        "deBruijnWindows": 9
+      },
+      {
+        "m": 3,
+        "n": 3,
+        "primesLengthN": 8,
+        "preprimes": 14,
+        "deBruijnWindows": 27
+      },
+      {
+        "m": 3,
+        "n": 4,
+        "primesLengthN": 18,
+        "preprimes": 32,
+        "deBruijnWindows": 81
+      },
+      {
+        "m": 3,
+        "n": 5,
+        "primesLengthN": 48,
+        "preprimes": 80,
+        "deBruijnWindows": 243
+      },
+      {
+        "m": 3,
+        "n": 6,
+        "primesLengthN": 116,
+        "preprimes": 196,
+        "deBruijnWindows": 729
+      },
+      {
+        "m": 3,
+        "n": 7,
+        "primesLengthN": 312,
+        "preprimes": 508,
+        "deBruijnWindows": 2187
+      },
+      {
+        "m": 4,
+        "n": 1,
+        "primesLengthN": 4,
+        "preprimes": 4,
+        "deBruijnWindows": 4
+      },
+      {
+        "m": 4,
+        "n": 2,
+        "primesLengthN": 6,
+        "preprimes": 10,
+        "deBruijnWindows": 16
+      },
+      {
+        "m": 4,
+        "n": 3,
+        "primesLengthN": 20,
+        "preprimes": 30,
+        "deBruijnWindows": 64
+      },
+      {
+        "m": 4,
+        "n": 4,
+        "primesLengthN": 60,
+        "preprimes": 90,
+        "deBruijnWindows": 256
+      },
+      {
+        "m": 4,
+        "n": 5,
+        "primesLengthN": 204,
+        "preprimes": 294,
+        "deBruijnWindows": 1024
+      },
+      {
+        "m": 4,
+        "n": 6,
+        "primesLengthN": 670,
+        "preprimes": 964,
+        "deBruijnWindows": 4096
+      },
+      {
+        "m": 4,
+        "n": 7,
+        "primesLengthN": 2340,
+        "preprimes": 3304,
+        "deBruijnWindows": 16384
+      }
+    ],
+    "sequence62": "000010002001100120021002201010201110112012101220202110212022102221111211221212222",
+    "MartinComplement": "222212220221122102201220021212021112110210121002020112010200120001111011001010000"
+  },
+  "exerciseHints": {
+    "pagedAnswerAnchorTargets": {
+      "1": 583,
+      "2": 583,
+      "3": 583,
+      "4": 583,
+      "5": 583,
+      "6": 583,
+      "7": 583,
+      "8": 583,
+      "9": 583,
+      "10": 584,
+      "11": 584,
+      "12": 584
+    },
+    "exercise2MixedRadixHint": 1000000
+  },
+  "script": {
+    "file": "private-snapshot:volume4a/body-review/tools/check-269-271-de-bruijn-preprimes.py",
+    "sha256": "e430846b45e24deb3edc3dffb47c1c4a980a7f441e6d566dab7fdaa0c145e746"
+  },
+  "wideProof": {
+    "file": "private-snapshot:volume4a/body-review/wide-269-270-271.json",
+    "sha256": "6f21f5857aa92102e757b73a653b116af7da185f954bfa997c7895b853451b15",
+    "evidence": {
+      "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate.",
+      "pageMarkdownHashes": {
+        "269": "400de5fbe9e17393b3f6d82261dcdddb7daae767270a4378ae7c03e419b224b0",
+        "270": "da779cfd89923f05327407dd98091abb6e195d7611dc8cf5d028fb0230f75b94",
+        "271": "142827e566881fa334350cf8922759c04287991d265becec74e45093ff383197"
+      },
+      "records": [
+        {
+          "physicalPage": 269,
+          "width": 1280,
+          "index": 20,
+          "tag": null,
+          "client": 728,
+          "total": 757,
+          "scrollLeft": 29,
+          "file": "private-snapshot:volume4a/verified-render/269-1280-wide-20-2.png",
+          "sha256": "ee48b7cf372d92ae805c8eda42cc02f8d595a213a0b816c129bc0edf69219648"
+        },
+        {
+          "physicalPage": 269,
+          "width": 390,
+          "index": 20,
+          "tag": null,
+          "client": 310,
+          "total": 757,
+          "scrollLeft": 224,
+          "file": "private-snapshot:volume4a/verified-render/269-390-wide-20-1.png",
+          "sha256": "5dd36af195a1bfcf4bf43d19b764c8151a692344bdd67658aef60373213dd67f"
+        },
+        {
+          "physicalPage": 271,
+          "width": 390,
+          "index": 5,
+          "tag": "(62)",
+          "client": 310,
+          "total": 681,
+          "scrollLeft": 186,
+          "file": "private-snapshot:volume4a/verified-render/271-390-wide-5-1.png",
+          "sha256": "5bb252dc325d708d7cd9b24e9b07550670d1f7bf25f5c9a07328396cc25b4d78"
+        }
+      ]
+    }
+  },
+  "historicalDraft": {
+    "reason": "The initial unaccepted mixed output omitted selective bolding by D7. Source-restored and rerendered.",
+    "archived": [
+      {
+        "file": "private-snapshot:volume4a/verified-history/269-pre-letterweight-trace/browser-269-270-271.json",
+        "sha256": "b2221c68c8cc47538ae07853c053d474680e2f717b061cd2924c98f29df7e8ce"
+      },
+      {
+        "file": "private-snapshot:volume4a/verified-history/269-pre-letterweight-trace/269.html",
+        "sha256": "21d3d031602386c818fe1830c77bc286e7a0f255becceaf86ecfc24538b1ade2"
+      },
+      {
+        "file": "private-snapshot:volume4a/verified-history/269-pre-letterweight-trace/syntax-269-270-271.json",
+        "sha256": "5794138de70f3c43fd78c734f76f1bdc0dcb7b61f3c814ca58651fb4bd73d9b3"
+      },
+      {
+        "file": "private-snapshot:volume4a/verified-history/269-pre-letterweight-trace/269.md",
+        "sha256": "a378c8917822913a002a998594f91d207bbd30419e78296dc7ff088a7c9fc8bd"
+      },
+      {
+        "file": "private-snapshot:volume4a/verified-history/269-pre-letterweight-trace/269-390-right.png",
+        "sha256": "a055d0b4d0ed2a12f7996c472d91556d0f6a46517928c4c1447c7569bea3b1de"
+      },
+      {
+        "file": "private-snapshot:volume4a/verified-history/269-pre-letterweight-trace/269-1280.png",
+        "sha256": "75c1c89f7c5350a55d541186c538a52387a8f8118516fe276f8ff2e9d2c69ae2"
+      },
+      {
+        "file": "private-snapshot:volume4a/verified-history/269-pre-letterweight-trace/269-390.png",
+        "sha256": "4401c759ff11ab642c1117f9f5f5df8eba5570ec921b8e56dc92119eb74e86a2"
+      }
+    ]
+  },
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+}

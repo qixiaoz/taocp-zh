@@ -1,0 +1,170 @@
+{
+  "scope": "Actual fixed Algorithm R seven-node example plus bounded truth trees; original Fig.24 / (38) input and word pairs, and 16 truth assignments at each of the 16 binary operations. No generic correctness or runtime claim.",
+  "assets": [
+    {
+      "file": "assets/volume4a/figures/fig-7-24-bdd-meld.svg",
+      "sha256": "dc87b9888e952af6ecb51ad17478bb5b438e5db64c52b68d6690cff0bd1b2dd7",
+      "enPdfPage": 235,
+      "sourceBounds": [
+        [
+          33,
+          480,
+          438,
+          591
+        ]
+      ],
+      "nativePaths": 78,
+      "sourceDirectlyCompared": true,
+      "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+      "branchesPerDiagram": [
+        4,
+        6,
+        11
+      ],
+      "sinkPairs": [
+        "⊥⋄⊤",
+        "⊥⋄⊥",
+        "⊤⋄⊤",
+        "⊤⋄⊥"
+      ],
+      "methodDetails": "All bounded vector paths and individually mapped native glyph origins. Labels retain geometric association and use editable text, with the hollow meld diamonds drawn as clear matching vectors.",
+      "outlinedMeldDiamonds": 15
+    },
+    {
+      "file": "assets/volume4a/figures/diagram-7-1-4-38-meld-paired-beads.svg",
+      "sha256": "7a8a7b05224ea5a089913c8b4dbd071c08d1285b61599d6e99ad188100acb497",
+      "enPdfPage": 236,
+      "sourceBounds": [
+        [
+          100,
+          116,
+          337,
+          230
+        ]
+      ],
+      "nativePaths": 52,
+      "sourceDirectlyCompared": true,
+      "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+      "pairedWordsInSourceOrder": [
+        [
+          "0000011101110111",
+          "0110111111110110"
+        ],
+        [
+          "00000111",
+          "01101111"
+        ],
+        [
+          "01110111",
+          "11110110"
+        ],
+        [
+          "0000",
+          "0110"
+        ],
+        [
+          "0111",
+          "1111"
+        ],
+        [
+          "0111",
+          "0110"
+        ],
+        [
+          "00",
+          "01"
+        ],
+        [
+          "00",
+          "10"
+        ],
+        [
+          "01",
+          "11"
+        ],
+        [
+          "01",
+          "01"
+        ],
+        [
+          "11",
+          "10"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "methodDetails": "All bounded native paths and decoded original binary glyph identities, with editable pairs in source positions."
+    }
+  ],
+  "reduction": {
+    "printedTraceBranches": 7,
+    "verifiedSteps": [
+      "R1",
+      "R3 at v=3",
+      "R4 at v=3",
+      "R7 at v=3",
+      "final arcs and free stack"
+    ],
+    "allEightExampleEvaluations": true,
+    "extraTruthTreeCountByVariables": {
+      "1": 4,
+      "2": 16,
+      "3": 256,
+      "4": 64,
+      "5": 64
+    },
+    "extraInputs": 5192,
+    "noGenericExhaustivity": true
+  },
+  "meld": {
+    "fTruth": "0000011101110111",
+    "gTruth": "0110111111110110",
+    "differentPairs": 15,
+    "branchAndSinkCounts": [
+      11,
+      4
+    ],
+    "allPathsEvaluated": 16,
+    "allBinaryOperationTruthTables": [
+      "0000000000000000",
+      "0000011101110110",
+      "0000000000000001",
+      "0000011101110111",
+      "0110100010000000",
+      "0110111111110110",
+      "0110100010000001",
+      "0110111111110111",
+      "1001000000001000",
+      "1001011101111110",
+      "1001000000001001",
+      "1001011101111111",
+      "1111100010001000",
+      "1111111111111110",
+      "1111100010001001",
+      "1111111111111111"
+    ],
+    "AND": "0000011101110110",
+    "XOR": "0110100010000001"
+  },
+  "pageMarkdownHashes": {
+    "195": "24aef41b1ea83206d7b662bef068dc62baa62dfb8351a67080e25c13722b0689",
+    "196": "51a2247ca2e32c778ae7847d7d7e2d5938b186c3e4cfc3bca512715eab4d6b36",
+    "197": "981596fd41eb0fbe107b76d4a895c91a7a6d8ed338701a789173d032baca2a00"
+  },
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "scope": "Only original fixed n=3 monotone truth-word list and majority/parity notation examples; literal operator/index inventory and static16 question/answerIDs. No32768-family legitimacy count, general bound/decomposition proofs or published roundtrips.",
+  "pageMarkdownHashes": {
+    "122": "3bb85f56c1ca523375ccc723ab53e82f67f3bd17e96e313a873cc6d241211abf",
+    "123": "8aa3db7046a2b212807da393261602867a67c2516e92eb9413fa027db4a6462b"
+  },
+  "monotoneThreeVariableExample": {
+    "sourceWordsInOriginalOrder": [
+      "00",
+      "01",
+      "03",
+      "05",
+      "11",
+      "07",
+      "13",
+      "15",
+      "0f",
+      "33",
+      "55",
+      "17",
+      "1f",
+      "37",
+      "57",
+      "3f",
+      "5f",
+      "77",
+      "7f",
+      "ff"
+    ],
+    "all20WordsMatchDirect256TruthTableMonotonicityCheck": true,
+    "requiredConstantsAndProjections": [
+      "00",
+      "0f",
+      "33",
+      "55",
+      "ff"
+    ],
+    "optionalFunctions": 15,
+    "allContainingFamilies": 32768,
+    "qualification": "Confirms original displayed set and free-choice 2^15 count only; does not answer how many families are legitimate."
+  },
+  "symmetricExamples80": {
+    "majorityByWeight": "0011",
+    "parityByWeight": "0101",
+    "majorityTruthWord": "17",
+    "parityTruthWord": "69"
+  },
+  "literalSourceFormulaInventory": {
+    "question76": [
+      "n=m+2^m",
+      "O(n^2)",
+      "0\\leq l\\leq2^m",
+      "f_{-1}(x)=f_{2^m}(x)=0",
+      "[i\\leq j]\\equiv[l\\leq i]",
+      "[i\\leq j]\\equiv[j>l]",
+      "C(F)\\leq2^n/n+O(2^n(\\log n)/n^2)"
+    ],
+    "question85": [
+      "x\\sqcup y=\\bigwedge",
+      "x\\sqcap y=\\bigvee",
+      "\\lceil A\\rceil=\\bigvee_{a\\in A}x_a",
+      "\\lceil\\infty\\rceil=1",
+      "\\hat x_l\\subseteq x_l\\vee",
+      "x_l\\subseteq\\hat x_l\\vee"
+    ]
+  },
+  "newExerciseIds": {
+    "122": [
+      "ex-7-1-2-71",
+      "ex-7-1-2-72",
+      "ex-7-1-2-73",
+      "ex-7-1-2-74",
+      "ex-7-1-2-75",
+      "ex-7-1-2-76",
+      "ex-7-1-2-77",
+      "ex-7-1-2-78",
+      "ex-7-1-2-79"
+    ],
+    "123": [
+      "ex-7-1-2-80",
+      "ex-7-1-2-81",
+      "ex-7-1-2-82",
+      "ex-7-1-2-83",
+      "ex-7-1-2-84",
+      "ex-7-1-2-85",
+      "ex-7-1-2-86"
+    ]
+  },
+  "staticAnswersExist": true,
+  "question86": {
+    "covered": [
+      "heading",
+      "graph and triangle function",
+      "a",
+      "b"
+    ],
+    "remainingStartsAtCnPhysicalPage": 124
+  },
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+}

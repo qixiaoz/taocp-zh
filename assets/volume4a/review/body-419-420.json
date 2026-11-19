@@ -1,0 +1,594 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-assigned-physical-page-source-review-and-private-two-width-proof",
+  "cnPhysicalPages": [
+    419,
+    420
+  ],
+  "cnPrintedPages": [
+    404,
+    405
+  ],
+  "masterSha256": null,
+  "mathExpressions": 41,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 6,
+  "logicalAssemblies": [
+    {
+      "file": "assets/volume4a/review/body-419-420-hexagrams-and-prosody-419-420-assembly.json",
+      "sha256": "2b9aded0df99edd8db4baa80b7383886ee213180c4654be3175449ab107c5580"
+    }
+  ],
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.7",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 419,
+      "cnPrintedPage": 404,
+      "enPdfPages": [
+        503,
+        504
+      ],
+      "enPrintedPages": [
+        486,
+        487
+      ],
+      "pageMarkdownSha256": "1adf03051449f5a51f475a29c3df228735acd51fee17efb5435346693b6af7b5",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/419.jpg",
+      "sourcePageImageSha256": "153657b5e4c8b4a60326c62099f2d7a09ceb5b545c702522dd489aca39a4498d",
+      "enPageImages": [
+        {
+          "physicalPage": 503,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-503.png",
+          "sha256": "00410b5d5e02fbf4432b16977c2273abde35928662ad29b5dff27df1bc47f952"
+        },
+        {
+          "physicalPage": 504,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-504.png",
+          "sha256": "0000a049a8a7f8a647988b373315a7cb22caa21d16abf887144e43e9fa1de1c0"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-419",
+        "p-404",
+        "sec-7-2-1-7"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-115",
+          "section": "7.2.1.7",
+          "cnPdfPage": 419,
+          "enPdfPages": [
+            504
+          ],
+          "location": "邵雍排序便于查找的模式",
+          "original": "可以快速地找出某个随机模式",
+          "final": "可以快速找出任意指定的模式",
+          "basis": "EN504 的 a random pattern 在查找叙述中指随意取定的模式。此前给出的二进制位次可直接定位任何指定模式。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "1adf03051449f5a51f475a29c3df228735acd51fee17efb5435346693b6af7b5",
+          "cnPrintedPage": 404
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-7-eq1-king-wen-hexagrams.svg",
+          "sha256": "fa8442029914bc7ef2d82e07a4fa3461f4b87eec4b79f77baa19ff12cafd3ad0"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 419,
+        "markdownSha256": "1adf03051449f5a51f475a29c3df228735acd51fee17efb5435346693b6af7b5",
+        "htmlSha256": "5dfac4d30f426c314fe163c6ee05921a8f5670cc9d495ad350e0c968ced9765c",
+        "mathExpressions": 8,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/result.json",
+        "sha256": "7d2dbb3f9af83aa55b91c1204003a7c4f8c3ebebd8cabc4199765dd8de048169",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 8,
+            "mathML": 8,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 419,
+            "width": 1280,
+            "pageMarkdownSha256": "1adf03051449f5a51f475a29c3df228735acd51fee17efb5435346693b6af7b5",
+            "htmlSha256": "5dfac4d30f426c314fe163c6ee05921a8f5670cc9d495ad350e0c968ced9765c",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-7-eq1-king-wen-hexagrams.svg",
+                "opened": true,
+                "screenshot": "419-1280-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          },
+          {
+            "documentWidth": 390,
+            "math": 8,
+            "mathML": 8,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 600,
+                "left": 0,
+                "right": 290,
+                "max": 290,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 419,
+            "width": 390,
+            "pageMarkdownSha256": "1adf03051449f5a51f475a29c3df228735acd51fee17efb5435346693b6af7b5",
+            "htmlSha256": "5dfac4d30f426c314fe163c6ee05921a8f5670cc9d495ad350e0c968ced9765c",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-7-eq1-king-wen-hexagrams.svg",
+                "opened": true,
+                "screenshot": "419-390-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/419-1280-walk0.png",
+          "sha256": "24794f6679b521ba48e06169347bf48ff7ce26e2fd96b28efe557d0d90c8a97c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/419-1280-walk1.png",
+          "sha256": "58c937bd66cb1ab17fcf50c519d8cf75f798c8f935ca227c422228d34a391d73",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/419-1280-walk2.png",
+          "sha256": "22aaa414f2327540ca38f8a5a20b5df89b1155a1410cb02c7f30bf96e96dd3ee",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/419-390-walk0.png",
+          "sha256": "a3fbc88536a8a2dd72f93f75ae69b90b9688ebf38bcd20862f70c98ab0655d50",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/419-390-walk1.png",
+          "sha256": "9ecfa40ec2a01f4e30718ae2fcd709edbba0586f783f59f9473e9bdac4535010",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/419-390-walk2.png",
+          "sha256": "3047466c5240c7a85710f019017d572c9b101c4d1ff742dfe691fbed92cb92ac",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/419-390-walk3.png",
+          "sha256": "7f98c86d2016d8aff7462e1e80ca8a33a7f9138b6352179ab8ec0dc404cc6684",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/419-390-walk4.png",
+          "sha256": "b214a0c3617e12b3286792eb4e255fe9f272e7f7148396f197aa15c87ff0644a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/419-390-display0-right.png",
+          "sha256": "cf8b8de26bc404599c324f55b2d7840f8ff91dc858a918b1cd48bf93db3d7ad5",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/419-1280-original-image0.png",
+          "sha256": "baf4359b7c8515e7821d76d9fb8596ffb86851c19a7640fb1f82c15ba170a4a9",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/419-390-original-image0-right.png",
+          "sha256": "e851c0edd80f42ff24cca48608c27c3b2e70495d5214fcdc426a040e782c01ef",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/419-390-original-image0.png",
+          "sha256": "f02cc652de9f22e8946605bf45b0a97e5dfc78565175a460246e42410943215a",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-419-420-source-fields.json",
+        "sha256": "b4f39cab03bd78ea590ec9e2608632b54d1977642cfdf857a3ee285b6fd6cfaf"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-419-420-hexagrams-and-prosody-419-420-assembly.json",
+          "sha256": "2b9aded0df99edd8db4baa80b7383886ee213180c4654be3175449ab107c5580"
+        }
+      ],
+      "coveredRegions": [
+        "Bernoulli epigraph and history heading, ordered 64 binary hexagrams, 32 checked pairs, trigrams, named examples, and opening of the Shao Yung paragraph."
+      ],
+      "followingPageContinuation": "CN420 continues the transliterated name 莱布尼茨 within the Shao Yung paragraph.",
+      "qualification": "Full original CN419–420 and matched EN503–505. Current literal hexagram and tetragram glyphs, equation (2), editor footnote and original chart externally opened and visually compared on desktop and mobile.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/419-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "8e06a86813a5b9c4eaaf832a6e1aea91c6fa90404bc5ea8b93b4bc2bdf941021",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "8d6622d9fc9d6c5ac7c340cf6499f3ebb513e2c47f92496b5ca27e4548281e2e",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/419.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.7",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 420,
+      "cnPrintedPage": 405,
+      "enPdfPages": [
+        504,
+        505
+      ],
+      "enPrintedPages": [
+        487,
+        488
+      ],
+      "pageMarkdownSha256": "90616a2a7d0248e2628f72bf6244f14305fc6480920cc72d0d70414a63539afa",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/420.jpg",
+      "sourcePageImageSha256": "7b3c407b638ff188bbfbfd220974392cda49157c4ec9add1b80997e7c791acb0",
+      "enPageImages": [
+        {
+          "physicalPage": 504,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-504.png",
+          "sha256": "0000a049a8a7f8a647988b373315a7cb22caa21d16abf887144e43e9fa1de1c0"
+        },
+        {
+          "physicalPage": 505,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-505.png",
+          "sha256": "8756fa352d5ff2fdfd2bbb4f3f46251ab440114bb78d082a4840756cf7c52192"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-420",
+        "p-405"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-116",
+          "section": "7.2.1.7",
+          "cnPdfPage": 420,
+          "enPdfPages": [
+            504
+          ],
+          "location": "杨雄《太玄》纪年",
+          "original": "大约公元前2世纪撰写的《太玄》",
+          "final": "大约公元前2年撰写的《太玄》",
+          "basis": "英文原页为 written c. 2 B.C.，保留约数，单位据英文作年。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "90616a2a7d0248e2628f72bf6244f14305fc6480920cc72d0d70414a63539afa",
+          "cnPrintedPage": 405
+        },
+        {
+          "id": "volume4a-tail-117",
+          "section": "7.2.1.7",
+          "cnPdfPage": 420,
+          "enPdfPages": [
+            504
+          ],
+          "location": "杨雄四层三值符号的名称",
+          "original": "81个三进制的四字符号",
+          "final": "81个三进制的四爻符号",
+          "basis": "EN504 的 tetragrams 在图中由四根爻构成，各爻有三种可能。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "90616a2a7d0248e2628f72bf6244f14305fc6480920cc72d0d70414a63539afa",
+          "cnPrintedPage": 405
+        },
+        {
+          "id": "volume4a-tail-118",
+          "section": "7.2.1.7",
+          "cnPdfPage": 420,
+          "enPdfPages": [
+            504
+          ],
+          "location": "梵语中诗步的最小单位",
+          "original": "梵语中的章节或者是短，或者为长",
+          "final": "梵语中的音节或短（।）或长（ऽ）",
+          "basis": "EN504 首句 Syllables in Sanskrit，紧随的定义与每行 n 音节一致，恢复印本短长符号。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "90616a2a7d0248e2628f72bf6244f14305fc6480920cc72d0d70414a63539afa",
+          "cnPrintedPage": 405
+        },
+        {
+          "id": "volume4a-tail-119",
+          "section": "7.2.1.7",
+          "cnPdfPage": 420,
+          "enPdfPages": [
+            505
+          ],
+          "location": "平加拉方法的指数运算",
+          "original": "平加拉的方法还与指数相关",
+          "final": "平加拉的方法还与求幂有关",
+          "basis": "EN505 exponentiation 指求幂运算，所引算法4.6.3A亦为二进制求幂。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "90616a2a7d0248e2628f72bf6244f14305fc6480920cc72d0d70414a63539afa",
+          "cnPrintedPage": 405
+        },
+        {
+          "id": "volume4a-tail-120",
+          "section": "7.2.1.7",
+          "cnPdfPage": 420,
+          "enPdfPages": [
+            505
+          ],
+          "location": "克达拉韵律排序的现代算法定位",
+          "original": "定理7.2.1.1M在基数为2时的情景",
+          "final": "算法7.2.1.1M在基数为2时的情形",
+          "basis": "EN505 Algorithm 7.2.1.1M 与前节实有的混合基数生成算法相符。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "90616a2a7d0248e2628f72bf6244f14305fc6480920cc72d0d70414a63539afa",
+          "cnPrintedPage": 405
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 420,
+        "markdownSha256": "90616a2a7d0248e2628f72bf6244f14305fc6480920cc72d0d70414a63539afa",
+        "htmlSha256": "a1264e93490ea25fbce164e1e74c5c388d108c64ee6722e8eebea0940f014515",
+        "mathExpressions": 33,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/result.json",
+        "sha256": "7d2dbb3f9af83aa55b91c1204003a7c4f8c3ebebd8cabc4199765dd8de048169",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 33,
+            "mathML": 33,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 1,
+            "ports": [],
+            "renderedWords": [],
+            "page": 420,
+            "width": 1280,
+            "pageMarkdownSha256": "90616a2a7d0248e2628f72bf6244f14305fc6480920cc72d0d70414a63539afa",
+            "htmlSha256": "a1264e93490ea25fbce164e1e74c5c388d108c64ee6722e8eebea0940f014515",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [],
+            "footnoteVisitAndReturn": {
+              "noteHit": true,
+              "originalHit": true,
+              "visibleIndex": "[1]"
+            }
+          },
+          {
+            "documentWidth": 390,
+            "math": 33,
+            "mathML": 33,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 1,
+            "ports": [
+              {
+                "client": 310,
+                "content": 692,
+                "left": 0,
+                "right": 382,
+                "max": 382,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 420,
+            "width": 390,
+            "pageMarkdownSha256": "90616a2a7d0248e2628f72bf6244f14305fc6480920cc72d0d70414a63539afa",
+            "htmlSha256": "a1264e93490ea25fbce164e1e74c5c388d108c64ee6722e8eebea0940f014515",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [],
+            "footnoteVisitAndReturn": {
+              "noteHit": true,
+              "originalHit": true,
+              "visibleIndex": "[1]"
+            }
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-1280-walk0.png",
+          "sha256": "cdf46b822161225354314d7e383eaaa356bc4264bddca7939da7aa85a696cf66",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-1280-walk1.png",
+          "sha256": "80ddc71cdcbbcb35c86eeadc8e34ec3c9d99c4378688fee52149cb5cede65813",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-1280-walk2.png",
+          "sha256": "809a14a0d3747daa4e8b667993c8dea8c83c7c418452058201356a11ccba7237",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-390-walk0.png",
+          "sha256": "e669cf0e9ad4ded7916857622090cc212055d7d2bd53fa356db4edc0d894c75f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-390-walk1.png",
+          "sha256": "6e79aa3be8149279d091e49d7e5fad616f64437c69507b9249d862a2c2e76982",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-390-walk2.png",
+          "sha256": "3a801b8adfe3782c6b8102c840220879ff3b483b1507bf9730e02823af302cf7",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-390-walk3.png",
+          "sha256": "0b0c8971290474f009dc0761943c231fbc3e930045ff886335ef67ba6548cd14",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-390-walk4.png",
+          "sha256": "d66a4082771d35610ce058172ca350fd4277d9c8dc39bc166fd17eda7e861e17",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-1280-display0-left.png",
+          "sha256": "809a14a0d3747daa4e8b667993c8dea8c83c7c418452058201356a11ccba7237",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-390-display0-left.png",
+          "sha256": "d66a4082771d35610ce058172ca350fd4277d9c8dc39bc166fd17eda7e861e17",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-390-display0-middle.png",
+          "sha256": "0a7cfe92a7f67154b3c3e5b4a22f7840798942cf33d89498f0aa6fe65be41da2",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-390-display0-quarter.png",
+          "sha256": "7b22cd66d9d198d53ce3599137a51beb0ec433b70083c31dd080ff7def944905",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-390-display0-right.png",
+          "sha256": "def80d5fb0a29d36cb261685685c7bb133d4a24f312adacadc931e2c755b61cc",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-390-display0-threequarter.png",
+          "sha256": "bcea110b0cc3f54eb71d01afb8ac6748eae720ff407e2adf34bb758bb0f7b5af",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-1280-footnote-note.png",
+          "sha256": "809a14a0d3747daa4e8b667993c8dea8c83c7c418452058201356a11ccba7237",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-1280-footnote-return.png",
+          "sha256": "6d97e2f44f632942b9d3af9e49b24e84b6094656ba2a7aa75cf3dd5da96d6fb8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-390-footnote-note.png",
+          "sha256": "d66a4082771d35610ce058172ca350fd4277d9c8dc39bc166fd17eda7e861e17",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/419-420/420-390-footnote-return.png",
+          "sha256": "e7c8e5e7743c99474eec70dd9a1850c81b62553044b8e465a612e493488088fc",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-419-420-source-fields.json",
+        "sha256": "b4f39cab03bd78ea590ec9e2608632b54d1977642cfdf857a3ee285b6fd6cfaf"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-419-420-hexagrams-and-prosody-419-420-assembly.json",
+          "sha256": "2b9aded0df99edd8db4baa80b7383886ee213180c4654be3175449ab107c5580"
+        }
+      ],
+      "coveredRegions": [
+        "Shao Yung paragraph remainder and original editor note; dates and lexicographic Yáng tetragrams; Sanskrit quantity, binary orders, and all 21 patterns of seven beats."
+      ],
+      "followingPageContinuation": "CN421 begins a new paragraph covering the anonymous Prākṛta Paiṅgala author.",
+      "qualification": "Full original CN419–420 and matched EN503–505. Current literal hexagram and tetragram glyphs, equation (2), editor footnote and original chart externally opened and visually compared on desktop and mobile.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/420-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "c4daab89cd5b54a47647bd1561aa2749833336dcf2b4eab68aaf0b899c652252",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "d827c7319ea357447c3b27f4c7e9c8fe12371116d6b91fe84d6d8e01719b02a8",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/420.json"
+    }
+  ],
+  "qualification": "Full original CN419–420 and matched EN503–505. Current literal hexagram and tetragram glyphs, equation (2), editor footnote and original chart externally opened and visually compared on desktop and mobile."
+}

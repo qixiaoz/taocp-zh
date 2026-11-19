@@ -1,0 +1,644 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-source-pages-266-to-268-shift-registers-and-de-Bruijn",
+  "cnPhysicalPages": [
+    266,
+    267,
+    268
+  ],
+  "cnPrintedPages": [
+    251,
+    252,
+    253
+  ],
+  "masterSha256": null,
+  "mathExpressions": 201,
+  "privateBrowserCases": 6,
+  "substantiveCorrections": 3,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.1",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 266,
+      "cnPrintedPage": 251,
+      "enPdfPages": [
+        318,
+        319
+      ],
+      "enPrintedPages": [
+        301,
+        302
+      ],
+      "pageMarkdownSha256": "b4afb1368a9ffdc6e4043de5fad98330da419be4374b0989f72a0781bea78171",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-266.png",
+      "sourcePageImageSha256": "a69c62689badc3c022e714b01bf4fdf7862e75a3322ccd06f0fb8395d97bb95a",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-318.png",
+          "sha256": "5716d2fa8440120b96c109247bfa38779ed04ae0f6947a3c4136420ca2e4c066",
+          "physicalPage": 318
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-319.png",
+          "sha256": "9e016bef46cd405e982ddf98ac2122cd469f611e60a98b4ead28baba4a9ff36d",
+          "physicalPage": 319
+        }
+      ],
+      "pageAnchors": [
+        "pdf-266",
+        "p-251",
+        "fig-7-35",
+        "alg-7-2-1-1-S"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/fig-7-35-five-bit-de-bruijn-cycle.svg",
+          "sha256": "a8bd3ee5c2e646ed53d2cbaba42fe4defb9f3d53ae8f4025cd8524a7044bca38",
+          "enPdfPage": 319,
+          "sourceBounds": [
+            [
+              220,
+              178,
+              370,
+              318
+            ]
+          ],
+          "nativePaths": 49,
+          "sourceDirectlyCompared": true,
+          "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+          "clockwiseLabels": [
+            "00000",
+            "00001",
+            "00010",
+            "00100",
+            "01000",
+            "10001",
+            "00011",
+            "00110",
+            "01100",
+            "11001",
+            "10010",
+            "00101",
+            "01010",
+            "10100",
+            "01001",
+            "10011",
+            "00111",
+            "01110",
+            "11101",
+            "11010",
+            "10101",
+            "01011",
+            "10110",
+            "01101",
+            "11011",
+            "10111",
+            "01111",
+            "11111",
+            "11110",
+            "11100",
+            "11000",
+            "10000"
+          ],
+          "dotMeans": "last bit of current five-bit tag",
+          "chineseDotGraySamples": [
+            240,
+            219,
+            84,
+            74,
+            220,
+            232,
+            77,
+            229,
+            80,
+            223,
+            224,
+            75,
+            80,
+            80,
+            228,
+            80,
+            221,
+            84,
+            76,
+            220,
+            76,
+            76,
+            73,
+            80,
+            76,
+            229,
+            217,
+            230,
+            225,
+            220,
+            84,
+            225
+          ],
+          "clockwiseBitsSource53": "00000100011001010011101011011111",
+          "startSlotOf00000": 29
+        }
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "§7.2.1.1 图35的窗口长度",
+          "enPosition": "PDF319／印刷302，式(53)前",
+          "original": "图 35 所示的 $m=2$ 和 $n=3$ 的情形",
+          "final": "图 35 所示的 $m=2$ 和 $n=5$ 的情形",
+          "basis": "英文原5，图35有32个五位标签。式(53)的32位循环恰包含全部32个五位窗口。",
+          "cnPrintedPage": 251
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Algorithm K steps 2–7 exact, shift-register introduction, exact 32 Figure 35 labels and dot values, full Algorithm S, all of (53)."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 266,
+        "markdownSha256": "b4afb1368a9ffdc6e4043de5fad98330da419be4374b0989f72a0781bea78171",
+        "htmlSha256": "1ec52588cc2a3c4fa59c597a4671d41a9070fa246d7ef0aba16c4765f3ee3540",
+        "mathExpressions": 58,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-266-267-268.json",
+        "sha256": "47509cdf8f11c4e9bbc70c713374b53c2a53860ccbc1e85f521cea1e6bdf8a14",
+        "cases": [
+          {
+            "physicalPage": 266,
+            "width": 1280,
+            "markdownSha256": "b4afb1368a9ffdc6e4043de5fad98330da419be4374b0989f72a0781bea78171",
+            "documentWidth": 1280,
+            "math": 58,
+            "mathml": 58,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 58,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 266,
+            "width": 390,
+            "markdownSha256": "b4afb1368a9ffdc6e4043de5fad98330da419be4374b0989f72a0781bea78171",
+            "documentWidth": 390,
+            "math": 58,
+            "mathml": 58,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 58,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Complete 1280/390 and 390 right-scrolled views directly inspected. The wide polynomial-case expression was also viewed at the desktop right and narrow interior positions; Figure 35 enlargement tested at both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/266-1280.png",
+          "sha256": "77fe9bd2484871ba6c57cd70d6fa154de73ed0f65876097d62d2a7e920e4ef5d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/266-390.png",
+          "sha256": "82811fcc9034855b6e346a718ffe1825ec274b51c92156cdaef84004c8c38ba7",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/266-390-right.png",
+          "sha256": "453652046eafcf9271f658a83013d0c92653078d92f1d9c6d88ae26032ebbcaf",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-266-algorithm-k.png",
+          "sha256": "552b72e15d03a4016652f24bd6d1c9baf9318f59e2714960582ffd2f6ab7e260"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-266-fig35.png",
+          "sha256": "4fb367730b8d489c34c536dfefc1c2d070cd7e949d8862f61d0a45de908d7896"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-319-fig35.png",
+          "sha256": "970cce00ca1ff0e924e7877dadd10fd066625623b48035f1805195e207e33739"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-266-53-example.png",
+          "sha256": "764c9b37dd7482e24d9bdf8843560773f2a013e4d9dc88bb6a3236790a105882"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN266–268 with EN318–321, full Algorithm K continuation, Figure 35 and Tables, both source low-dimensional examples and published D1–D5. D continues at CN269.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "followingPageContinuation": "The second conjunct of the printed (53)/(54) statement follows at CN267. The 32-digit formula (53) is complete on CN266.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/266-selected-cn-before-translation-repair-22a0951b35b9369f34b49eb0a9bcc2f197b0a62ca237836881b5beebbcf972bd/266.md",
+        "sha256": "22a0951b35b9369f34b49eb0a9bcc2f197b0a62ca237836881b5beebbcf972bd",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/body-266-268-forests-and-de-bruijn-cycles.json",
+          "sha256": "97193e55631786e2a4501d934c32eed8da3021ce9ac0f0a526be8e2727bced1d",
+          "scope": "Algorithm K and original forest 52, fixed source de Bruijn examples, polynomial arithmetic for all exact shown binary offsets, actual Algorithm A widths only n=3–16. Algorithm D is split over pages and will be modeled when D6–D7 enter scope."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "dd283d571c0672082200429e5f1f156ab6059a211b74f2919a73344e9116bba0",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/266.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.1",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 267,
+      "cnPrintedPage": 252,
+      "enPdfPages": [
+        319,
+        320
+      ],
+      "enPrintedPages": [
+        302,
+        303
+      ],
+      "pageMarkdownSha256": "bc042e545457537936b978af3c62a214bba5d495f4d30577a999744acf8ec11e",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-267.png",
+      "sourcePageImageSha256": "a5a32579a3d2b6a9926179f7c577079bf4b6a9443edf88093503da7d5f59daea",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-319.png",
+          "sha256": "9e016bef46cd405e982ddf98ac2122cd469f611e60a98b4ead28baba4a9ff36d",
+          "physicalPage": 319
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-320.png",
+          "sha256": "46cadc20ca5f098badde6a0fdc609ad75129fbfbf029cedbd896d884bdb69aff",
+          "physicalPage": 320
+        }
+      ],
+      "pageAnchors": [
+        "pdf-267",
+        "p-252",
+        "alg-7-2-1-1-A",
+        "table-7-1"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.2.1.1 式(56)的模数",
+          "enPosition": "PDF320／印刷303，式(56)后",
+          "original": "是模 2 的本原多项式",
+          "final": "是模 $m$ 的本原多项式",
+          "basis": "该段适用于素数m，英文原明确modulo m。随后二进制算法和表1仍是模2。",
+          "cnPrintedPage": 252
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Equation (54) and attribution, total cycle formula, exact first construction (55)(56), all 30 Table 1 entries and caption, steps A1–A6."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 267,
+        "markdownSha256": "bc042e545457537936b978af3c62a214bba5d495f4d30577a999744acf8ec11e",
+        "htmlSha256": "8ccadc1599aa402ed9915720a5939e26a1b5321b43279e8464ff39296764726e",
+        "mathExpressions": 77,
+        "displayMath": 3,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-266-267-268.json",
+        "sha256": "47509cdf8f11c4e9bbc70c713374b53c2a53860ccbc1e85f521cea1e6bdf8a14",
+        "cases": [
+          {
+            "physicalPage": 267,
+            "width": 1280,
+            "markdownSha256": "bc042e545457537936b978af3c62a214bba5d495f4d30577a999744acf8ec11e",
+            "documentWidth": 1280,
+            "math": 77,
+            "mathml": 77,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 78,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 267,
+            "width": 390,
+            "markdownSha256": "bc042e545457537936b978af3c62a214bba5d495f4d30577a999744acf8ec11e",
+            "documentWidth": 390,
+            "math": 77,
+            "mathml": 77,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 78,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Complete 1280/390 and 390 right-scrolled views directly inspected. The wide polynomial-case expression was also viewed at the desktop right and narrow interior positions; Figure 35 enlargement tested at both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/267-1280.png",
+          "sha256": "3d5262eb4ef46c4096a4ffc1a428eaf3e45cb49605e1387e9129b4fd0a9e9a81",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/267-390.png",
+          "sha256": "2381515ef246611113e4c2c2e88518feae76ffb9c69b3cd8add48ac8a6e989df",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/267-390-right.png",
+          "sha256": "69c2b6f805a360f48c5e3e44297a4aa7c0b2ac7d1bc35aa0e22d8a676ff5f199",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/267-1280-wide-11-2.png",
+          "sha256": "06788291c440bc1677fccde6cae39ac4553f9ebbdb1c09f421270ff57beabc79",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/267-390-wide-11-1.png",
+          "sha256": "1923b48462489202766771ea7cda33f6c2ec05705f6cd4f6383f007c426f01e3",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/267-390-wide-11-2.png",
+          "sha256": "945b3fb62edab59f87da1e680f28b0676ec64cc84114d3900351be83c263de90",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-267-primitive-table1.png",
+          "sha256": "5246ea98d95303e702a6f17f8d031803a3ea35746a5926a7a6613e849c08b545"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN266–268 with EN318–321, full Algorithm K continuation, Figure 35 and Tables, both source low-dimensional examples and published D1–D5. D continues at CN269.",
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/267-selected-cn-before-translation-repair-d518b89a52efeee42d3b42233d7593413ead810f4b6c055d84f44a2406bd57a1/267.md",
+        "sha256": "d518b89a52efeee42d3b42233d7593413ead810f4b6c055d84f44a2406bd57a1",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/body-266-268-forests-and-de-bruijn-cycles.json",
+          "sha256": "97193e55631786e2a4501d934c32eed8da3021ce9ac0f0a526be8e2727bced1d",
+          "scope": "Algorithm K and original forest 52, fixed source de Bruijn examples, polynomial arithmetic for all exact shown binary offsets, actual Algorithm A widths only n=3–16. Algorithm D is split over pages and will be modeled when D6–D7 enter scope."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "7f0cdf2ed745e6e287ca8c7c9e2028d0d57238a590d911a1607230ca5c540fa7",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/267.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.1",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 268,
+      "cnPrintedPage": 253,
+      "enPdfPages": [
+        320,
+        321
+      ],
+      "enPrintedPages": [
+        303,
+        304
+      ],
+      "pageMarkdownSha256": "bea3cb3b3b7d3ff79a9049b6276fa1fec5747cbd87367f79114d42ad542ce3d1",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-268.png",
+      "sourcePageImageSha256": "4b5bf1095fd170c98b3ddb2f74227fcff6af839ccbbf8427dd3c81154b302ef3",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-320.png",
+          "sha256": "46cadc20ca5f098badde6a0fdc609ad75129fbfbf029cedbd896d884bdb69aff",
+          "physicalPage": 320
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-321.png",
+          "sha256": "bef2c8b23c269480de0c89679067c6fc50f51d14b4bbb8722966cdb30e642d43",
+          "physicalPage": 321
+        }
+      ],
+      "pageAnchors": [
+        "pdf-268",
+        "p-253",
+        "alg-7-2-1-1-R",
+        "alg-7-2-1-1-D"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.2.1.1 非素数条件",
+          "enPosition": "PDF321／印刷304，算法R上方",
+          "original": "$n$ 不是素数时适用",
+          "final": "$m$ 不是素数时适用",
+          "basis": "英文原以m指字母表的大小。n表示窗口长度，不能替代m。",
+          "cnPrintedPage": 253
+        }
+      ],
+      "preservedVersionDifferences": [
+        "CN D already includes the 2014-09-18 amendments (n≥2 and identical independent cycles) and the 2015-12-09 Eq.58 change 1≤r≤m. Older English visibly differs."
+      ],
+      "coveredRegions": [
+        "Algorithm A remarks, alphabets of nonprime order, all Algorithm R steps and exact three source rows, both current D hypotheses and D1–D5."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 268,
+        "markdownSha256": "bea3cb3b3b7d3ff79a9049b6276fa1fec5747cbd87367f79114d42ad542ce3d1",
+        "htmlSha256": "d560f76e63ce95b5c5c1444fba44e459447ee4f5801fc8afcb799ded8323f950",
+        "mathExpressions": 66,
+        "displayMath": 3,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-266-267-268.json",
+        "sha256": "47509cdf8f11c4e9bbc70c713374b53c2a53860ccbc1e85f521cea1e6bdf8a14",
+        "cases": [
+          {
+            "physicalPage": 268,
+            "width": 1280,
+            "markdownSha256": "bea3cb3b3b7d3ff79a9049b6276fa1fec5747cbd87367f79114d42ad542ce3d1",
+            "documentWidth": 1280,
+            "math": 66,
+            "mathml": 66,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 66,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 268,
+            "width": 390,
+            "markdownSha256": "bea3cb3b3b7d3ff79a9049b6276fa1fec5747cbd87367f79114d42ad542ce3d1",
+            "documentWidth": 390,
+            "math": 66,
+            "mathml": 66,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 66,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Complete 1280/390 and 390 right-scrolled views directly inspected. The wide polynomial-case expression was also viewed at the desktop right and narrow interior positions; Figure 35 enlargement tested at both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/268-1280.png",
+          "sha256": "dac20920f1e1ed22880c7626b33f6c098fda94f74de5119ce2a983542da25bc7",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/268-390.png",
+          "sha256": "07f47acf4dc2561896f4534a33e8966c10b58e9b44df09d6d24902ed8c7d30ff",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/268-390-right.png",
+          "sha256": "e2321845a9acb6085233dacc8d0f22b52af745ae5524d963a30e1141df1bd4fb",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-268-R-trace.png",
+          "sha256": "d4a9542931d76960c09ec48986e7c45f9561b4cf6617f452e5d050aca60b86c8"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-268-D-parameters.png",
+          "sha256": "f8f7951b17fc735b49c678eb2ee3697260a19ebdd6c3c8ecd22b358a36b39873"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/author-pre-014-gray.png",
+          "sha256": "602b455b1993aac68758723f16b0d5958673ed3740c70448e5614eab88d5e26c"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN266–268 with EN318–321, full Algorithm K continuation, Figure 35 and Tables, both source low-dimensional examples and published D1–D5. D continues at CN269.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "followingPageContinuation": "Algorithm D steps D6–D7 continue on CN269.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/268-selected-cn-before-translation-repair-23dec43e6cea6b751af54fb943a8154765ce9c2e3cbe8ca6ed542d78bbb78637/268.md",
+        "sha256": "23dec43e6cea6b751af54fb943a8154765ce9c2e3cbe8ca6ed542d78bbb78637",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/body-266-268-forests-and-de-bruijn-cycles.json",
+          "sha256": "97193e55631786e2a4501d934c32eed8da3021ce9ac0f0a526be8e2727bced1d",
+          "scope": "Algorithm K and original forest 52, fixed source de Bruijn examples, polynomial arithmetic for all exact shown binary offsets, actual Algorithm A widths only n=3–16. Algorithm D is split over pages and will be modeled when D6–D7 enter scope."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "87307d65f00e82c9dd1f8e7959b9ca9ff8275c1861224205351d9ec52e729a7a",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/268.json"
+    }
+  ],
+  "qualification": "Complete CN266–268 with EN318–321, full Algorithm K continuation, Figure 35 and Tables, both source low-dimensional examples and published D1–D5. D continues at CN269."
+}

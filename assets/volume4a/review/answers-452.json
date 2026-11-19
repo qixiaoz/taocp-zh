@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "scope": "CompleteChinese452, answer79solution2 and80-95",
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignOff": false,
+  "page": {
+    "cnPdfPage": 452,
+    "cnPrintedPage": "437",
+    "enPdfPages": [
+      542,
+      543
+    ],
+    "pageMarkdownSha256": "d46bda22ee12a2fd6da319f322e6210f4ebb748322cd4e1b0df40b9f26f9a224",
+    "sourcePageImageSha256": "fedf4fb4c60b7024aa71ee8962feb091b82cd9d9344bbbb21a007a69ff0e4753",
+    "enPageImages": [
+      {
+        "physicalPage": 542,
+        "sha256": "676f4c239c459c363128b6b107c39eb53b4bd12743a7c25b3556d8a6061471df"
+      },
+      {
+        "physicalPage": 543,
+        "sha256": "06aceee8ea90b6ffeac766bf9c52e201e314569e96ddd051391caaa5f010c9a4"
+      }
+    ],
+    "status": {
+      "transcribed": true,
+      "machineChecked": true,
+      "originalPageVisualReview": true,
+      "bilingualVerification": true
+    },
+    "coveredRegions": [
+      "Complete continuation79solution2, full80construction, answers81-95 including all source references and notes",
+      "Every vertex index in both Sachs/Ringler constructions and all five degree formulas",
+      "All4 three-by-three block matrices in89, including O/J placement",
+      "Four native figure groups: D/DT, G/complement/line graph, seven undirected panels91 and five directed panels92",
+      "Cograph sentence independently corrected with explicit terminology/counterexample evidence, not attributed to official errata"
+    ],
+    "substantiveCorrections": [
+      {
+        "section": "第7章答案90",
+        "cnPrintedPage": "437",
+        "enLocation": "PDF543 printed526 answer90; both supplied versions omit induced restriction",
+        "original": "余图的全部连通子图的直径都小于等于2",
+        "final": "余图的全部连通诱导子图的直径都小于等于2",
+        "basis": "Project mathematical correction: the same answer lists K4 as a cograph, but it has an ordinary edge-deleted subgraph P4 of diameter3. The book explicitly distinguishes ordinary and induced subgraphs on bound Chinese page25/printed10. Cographs exclude inducedP4, so any shortest path of length>=3 in a connected induced subgraph would contradict that definition. A second model independently confirmed this inference; primary definition corroborated by arXiv2012.03185. This is not an author erratum.",
+        "sourceURL": "https://arxiv.org/abs/2012.03185"
+      }
+    ],
+    "preservedVersionDifferences": [
+      {
+        "cn": "Answer88 uses n spokes,n(n-1) central cycles and n+1 induced cycles",
+        "en": "Supplied old English uses older wheel indexing and(n-1)(n-2),without updated induced count",
+        "disposition": "Keep Chinese2015author replacement, directly checked against official historical changelist actual page20. Finite wheel enumeration n3..10 agrees."
+      },
+      {
+        "cn": "Answer90 references39 and W4 cograph/W5 not",
+        "en": "Old English543 references47 and W5/W6",
+        "disposition": "Chinese already has author2011reference correction and2015wheel-index correction; retain."
+      }
+    ],
+    "sourceEditionQualifications": {
+      "definitionSource": "Bound body page25 explicitly has ordinary V/E subset definition, separate spanning/induced definitions and edge deletion. Extra primary research reference supports standard inducedP4-free definition; shortest-path inference is the project own reasoning, not a quotation.",
+      "nativePanelReflow": "For legibility, panels91and92 are reflowed to4+3 and3+2 rows. Every native path remains unchanged within its panel and only its whole-panel translation changes. Old SVG/record/full-page screenshots preserved privately."
+    },
+    "syntaxCheck": {
+      "physicalPage": 452,
+      "markdownSha256": "d46bda22ee12a2fd6da319f322e6210f4ebb748322cd4e1b0df40b9f26f9a224",
+      "htmlSha256": "762363ac3c092357ce6fffef490a1d7550c2d79718011d7f4103937c0edf43f7",
+      "mathExpressions": 104,
+      "displayMath": 1,
+      "parseErrors": 0,
+      "images": 4,
+      "codeLines": [],
+      "unexpectedControls": 0
+    },
+    "unverifiedPageRegions": []
+  },
+  "sourceFigureRecord": "assets/volume4a/review/answers-452-figures.json",
+  "browser": {
+    "widths": [
+      1280,
+      390
+    ],
+    "cases": 2,
+    "mathExpressions": 104,
+    "fontsActuallyLoaded": true,
+    "errors": 0,
+    "missingImages": 0,
+    "wholePageOverflow": 0,
+    "evidenceSha256": "b131ca0ecd220939494afcaeec17a776c331e26d6bb5eaa3dbebff96238369be"
+  },
+  "numericEvidenceSha256": "18e1dae01eb3f70fe2e6c5bd6bf9929fdfb91e796886240bd4ef170c9e0bb5aa",
+  "projectCorrectionEvidence": {
+    "originalBothSuppliedVersions": "All connected subgraphs diameter<=2",
+    "final": "All connected induced subgraphs diameter<=2",
+    "counterexample": {
+      "K4IsCograph": true,
+      "P4OrdinarySubgraphOfK4": true,
+      "P4Diameter": 3,
+      "P4NotInducedInK4": true
+    },
+    "sourceTerminologyLocation": "CN025 printed10, ordinary/spanning/induced distinguished; question39 also explicitly distinguishes deleting an edge",
+    "independentPrimaryDefinitionReference": "https://arxiv.org/abs/2012.03185",
+    "independentInference": "Any shortest path of length>=3 has an inducedP4 in its first4 vertices; cographs exclude inducedP4. This is a project mathematical correction, not an author erratum.",
+    "connectedInducedCasesCheckedThrough6Vertices": 2830
+  },
+  "qualifications": [
+    "Native91/92panels translated into two rows with original internal geometry unchanged",
+    "Historical full-page/SVG evidence retained before reflow",
+    "Not full-book mother, offline, routed production or online acceptance"
+  ]
+}

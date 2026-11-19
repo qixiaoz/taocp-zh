@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "two-complete-source-pages-normal-forms-and-formal058fullpage",
+  "cnPhysicalPages": [
+    57,
+    58
+  ],
+  "cnPrintedPages": [
+    42,
+    43
+  ],
+  "masterSha256": null,
+  "mathExpressions": 73,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 3,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.1",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 57,
+      "cnPrintedPage": 42,
+      "enPdfPages": [
+        69,
+        70
+      ],
+      "enPrintedPages": [
+        52,
+        53
+      ],
+      "pageMarkdownSha256": "4d15f6d824c589b714489a16ce1984ef77e3d750b8196b68b54c06befbd6bc7c",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "endsMidParagraph": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-057.png",
+      "sourcePageImageSha256": "1997ac2e166fb75f7f20a3b5ca87428741ff243701ae9f59a2348d04209f1b48",
+      "enPageImages": [
+        {
+          "physicalPage": 69,
+          "file": "private-snapshot:volume4a/body-review/en-069.png",
+          "sha256": "ce5411c5b9f0f0a4449902f9a263bb06fb10de48b45845c4fcd3712634a8f53d"
+        },
+        {
+          "physicalPage": 70,
+          "file": "private-snapshot:volume4a/body-review/en-070.png",
+          "sha256": "7f0c4ea1e4f3e82790592e75863f7f2061d03f219b2f1f347266777599f7b102"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-057",
+        "p-42"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number,retained as a hidden anchor."
+      ],
+      "exercises": [],
+      "coveredRegions": [
+        "Complete057physicalcontent:056continuation,18bothidentities/constantconditions,allthreeunlabelledalgebraiclinesand19.",
+        "Wholemultilinear/exclusivenormalformparagraphwithall2^ntermexamples,zero-or-morecorrectedquantifier.",
+        "WholeBooleexpansion20/21with0/1restrictionsandonlygbranchcomplementxn.",
+        "Mintermdefinitionandallfiveselectedvariables/bars;correctzero-or-moreminterms.",
+        "All16truthdigits22,all8fourliteralminterms23,all32literalcomplementpositions.",
+        "CompletefullDNF/emptyOR-AND paragraphwithupper0sum/product;fullCNPeirce/minclausephrase through final所."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 42,
+          "location": "Two occurrences of zero-or-more quantifier: multilinear paragraph and minterm-expansion paragraph",
+          "enPosition": "EN69/printed52,sumofzeroormoreofthe2^npossibleterms;disjunctionofzeroormoreminterms",
+          "original": [
+            "它是0或其他2^n个可能的项...的模2之和",
+            "留给我们一个0或小项的析取公式"
+          ],
+          "final": [
+            "它是下列2^n个可能的项...中零个或多个项的模2之和",
+            "留给我们一个由零个或多个小项组成的析取公式"
+          ],
+          "basis": "Both zero-or-more phrases quantify how many terms are selected; they do not list literal0 as one of the candidate monomials or omit the quantity of minterms. The original empty-disjunction convention later on the same page is retained.",
+          "kind": "one-repeated-quantifier-translation-pattern-at-two-locations"
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "ocrRepairsOfNote": [
+        "Allzero/oneconstantsandplainxarguments inunlabelled3-lineexpansion,notMspuriousbars/boxedform.",
+        "19plainf,nocollectivebar.",
+        "21twoexactrestrictions,noXORtermfromprevious17.",
+        "22precise1100100100001111,noMunderlinedgroups/inserteddigits.",
+        "FullCNFminclauseexamplehasonlyindividualbarx1/x3/x4,nocollectivebar."
+      ],
+      "qualification": "Complete model direct CN/EN physicalpage comparison and current-input concrete example verification. Original incomplete cross-page clauses preserved. Current production syntax and actual desktop/narrow views passed and are bound; final assembled acceptance remains separate.",
+      "pending": [
+        "Finalwhole-volumequestion-answerlinkchecks",
+        "Finalwhole-volumeinclusion",
+        "Finaloffline/production/browser/onlineacceptance"
+      ],
+      "figureAssets": [],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-057-zero-or-more-detail.png",
+          "sha256": "8530e3b2a7dc057609803ba52d1625ee6d84d4e9dd2cdf4392bb9f7476e18ddd"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-057-minterms-detail.png",
+          "sha256": "887ae811f923b08bf09f8c6c745a23f15296bc00ab858b34b9987ab609249a5b"
+        }
+      ],
+      "endsMidSentence": true,
+      "startsMidSentence": true,
+      "previousPageContinuation": "Continues CN056 after variable set with operators XOR/AND and2^nconstants.",
+      "endsMidWord": "所以",
+      "followingPageContinuation": "CN057ends所,CN058starts以; join the same word/paragraph without adding a duplicated 所.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/057-selected-cn-before-meaning-corrections-45e5531cd7a854af1bd01b9025ae06543534259912bf9936dcc38c996090f9f7/057.md",
+        "sha256": "45e5531cd7a854af1bd01b9025ae06543534259912bf9936dcc38c996090f9f7",
+        "onlyBoundedListedReplacements": true,
+        "qualification": "SelectedCNinitialsnapshot,notpriorbrowseracceptance."
+      },
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/boolean-examples-057-058.json",
+        "sha256": "71b06823405f02223b1236c474b5b250b3d96e19f4601c53c40fc2571ba63bfb",
+        "currentMarkdownHashes": {
+          "57": "4d15f6d824c589b714489a16ce1984ef77e3d750b8196b68b54c06befbd6bc7c",
+          "58": "dbd3350d05ab21eaf5196eb9703298fcc6ae22d84a59f839f351f57bcfcd06b6"
+        },
+        "fourVariableRows": 16,
+        "threeVariableImplicantRows": 8,
+        "threeVariablePolynomialRows": 8,
+        "scope": "Fixed displayed examples only, parsed from current TeX; not proof of general normal-form/uniqueness/lower-bound/prime-status statements."
+      },
+      "syntaxCheck": {
+        "physicalPage": 57,
+        "markdownSha256": "4d15f6d824c589b714489a16ce1984ef77e3d750b8196b68b54c06befbd6bc7c",
+        "htmlSha256": "90e0197092cf8e717bca589da482907b39b9233d448506ec3e5366874bb1c75d",
+        "mathExpressions": 38,
+        "displayMath": 7,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-57-58.json",
+        "sha256": "82e4e169c71a2e34cec186390cb933bcf52056d59f6ce2d9305fc2d7417f45ee",
+        "cases": [
+          {
+            "physicalPage": 57,
+            "width": 1280,
+            "markdownSha256": "4d15f6d824c589b714489a16ce1984ef77e3d750b8196b68b54c06befbd6bc7c",
+            "documentWidth": 1280,
+            "math": 38,
+            "mathml": 38,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 38,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 57,
+            "width": 390,
+            "markdownSha256": "4d15f6d824c589b714489a16ce1984ef77e3d750b8196b68b54c06befbd6bc7c",
+            "documentWidth": 390,
+            "math": 38,
+            "mathml": 38,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 38,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actual current1280/390 production-direct fullpage and narrow left/right screenshots viewed, including long clauses23/24, quantified bounds25/26 and eight binary strings28. Historical058sample views are separate, not reused for current acceptance. Finalassembled/offline/onlineacceptance separate."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/57-1280.png",
+          "sha256": "4968b7289e4c80f0c1cb7c0936e4f19e9afbf6fc17201e3e4defebbbbba45051",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/57-390.png",
+          "sha256": "9521ab3e46f6a07ddb1c3e507fc7e00f83d95dee260014a259f72c1914486eaf",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/57-390-right.png",
+          "sha256": "99197b984806a22231a03adaae280f94fc58c69a2194e65c139724b413f2a5f7",
+          "viewed": true
+        }
+      ],
+      "privateOriginalPageReviewSha256": "19d4ec81a8a20ec008f2f406598cc1c19401d4ed5f464a89484d4649fdb1923b",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/057.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.1",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 58,
+      "cnPrintedPage": 43,
+      "enPdfPages": [
+        70,
+        71
+      ],
+      "enPrintedPages": [
+        53,
+        54
+      ],
+      "pageMarkdownSha256": "dbd3350d05ab21eaf5196eb9703298fcc6ae22d84a59f839f351f57bcfcd06b6",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "endsMidParagraph": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-058.png",
+      "sourcePageImageSha256": "b36a699c58b543001b07603669ad7ad0a61cd66c78fd662f8b3952ce2a8334a8",
+      "enPageImages": [
+        {
+          "physicalPage": 70,
+          "file": "private-snapshot:volume4a/body-review/en-070.png",
+          "sha256": "7f0c4ea1e4f3e82790592e75863f7f2061d03f219b2f1f347266777599f7b102"
+        },
+        {
+          "physicalPage": 71,
+          "file": "private-snapshot:volume4a/body-review/en-071.png",
+          "sha256": "976f621cbb2cd8650889464d1445200a725e9085c974a8b11ee36aed8307abc5"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-058",
+        "p-43"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number,retained as a hidden anchor."
+      ],
+      "exercises": [],
+      "coveredRegions": [
+        "Completepage058formallyreread,notjustsampledisplay24:all8clauses/32literalpositions and24label.",
+        "Bothgeneral25/26withj1..m/k1..sjandallfourendindices;literalx_i/scope/complement wording.",
+        "CompletePLAparagraphand1950scontext;preciseDNFterm/implicantdistinction corrected.",
+        "Unnumbered3-termexample/101specificassignment/x=z=1/allremainingclauses;27fullthreeimplicants.",
+        "Primeimplicantdefinition/CNQuinereference;minimalityparagraphactuallylistsx,y,z,barxonly,notbary/barz.",
+        "Wholegeometricparagraph/8four-bitstrings28/4dimhypercube/noneofeightmintermsprime and originalincomplete finalifclause."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 43,
+          "location": "PLAinputsignalcomplement",
+          "enPosition": "EN70/printed53,possiblycomplementedinputsignals",
+          "original": "可能互补的输入信号",
+          "final": "可能取补的输入信号",
+          "basis": "Each input signal may be complemented/negated; the sentence does not require signals to be complementary to one another."
+        },
+        {
+          "cnPrintedPage": 43,
+          "location": "DNFtermversusminterm inimplicantdiscussion",
+          "enPosition": "EN70/printed53anyterm in a disjunction;EN71/printed54shortertermxANDz",
+          "original": [
+            "析取的任何小项的真值",
+            "在这个例子中更短的小项x∧z"
+          ],
+          "final": [
+            "析取的任何一项的真值",
+            "在这个例子中更短的项x∧z"
+          ],
+          "basis": "The preceding page defines minterms as involving every variable. General DNF terms and the two-literal x∧z are terms, not full three-variable minterms. Only these two targeted uses of 小项 are corrected; the full-DNF minterms in23/28 remain minterms."
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "ocrRepairsOfNote": [
+        "8xXORxwithoutbar;9neitherXORoperandhasmachinebar;10singlebarxnotdoublebar.",
+        "Jevonsthreeproductsreadindividually,notmachinebaroverentireAB/BAproducts.",
+        "13/14outerandinnerbarsarebothpresent;15outerbaronlyonxANDy.",
+        "LowerboundXORchainhasnocollectivebar;n>0notm>0.",
+        "16/17noextraoverbararoundh;XOR/ANDprecedenceandallindicesreadfromsources."
+      ],
+      "qualification": "Complete model direct CN/EN physicalpage comparison and current-input concrete example verification. Original incomplete cross-page clauses preserved. Current production syntax and actual desktop/narrow views passed and are bound; final assembled acceptance remains separate.",
+      "pending": [
+        "Finalwhole-volumequestion-answerlinkchecks",
+        "Finalwhole-volumeinclusion",
+        "Finaloffline/production/browser/onlineacceptance"
+      ],
+      "figureAssets": [],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-058-implicant-detail.png",
+          "sha256": "9d91fdf7ebef925daa9b14621a4afa29b7cc34cb91078ce3026d1e52cef82a75"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-070-PLA-terms-detail.png",
+          "sha256": "6d3f1e675a33a60f371a118142fd6a9d8bfaf8ea9a3a10a6215e8e553ac7fe41"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-071-prime-implicant-detail.png",
+          "sha256": "db8740385e4ec5a0ebb540077a1534077da0354c587d963945af666dfee450a2"
+        }
+      ],
+      "endsMidSentence": true,
+      "startsMidSentence": true,
+      "startsMidWord": "所以",
+      "previousPageContinuation": "Begins以afterCN057final所.",
+      "followingPageContinuation": "After例如，如果 CN059 continues the specific subcube illustration.",
+      "historicalSample": {
+        "file": "private-snapshot:volume4a/samples/formula-058.md",
+        "sha256": "c3b6014a725bd7eaa47eef8f57cd2b50d93d8585c8878ea5724e9a102fcb9212",
+        "status": "historical-illustrative-sample-retained-under-original-input",
+        "currentAcceptance": "Complete physicalpage source/bilingual reread plus fresh production/browser and current-input finite checks assigned now. Old sample browser/SSR outputs do not substitute for current MD checks."
+      },
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/058-selected-cn-before-meaning-corrections-b47f58167d9ebec10e8f4c2bafa1c5eee03718f8e0b4a979e7ca4913f107cb4f/058.md",
+        "sha256": "b47f58167d9ebec10e8f4c2bafa1c5eee03718f8e0b4a979e7ca4913f107cb4f",
+        "onlyBoundedListedReplacements": true,
+        "qualification": "SelectedCNinitialsnapshot,notpriorbrowseracceptance."
+      },
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/boolean-examples-057-058.json",
+        "sha256": "71b06823405f02223b1236c474b5b250b3d96e19f4601c53c40fc2571ba63bfb",
+        "currentMarkdownHashes": {
+          "57": "4d15f6d824c589b714489a16ce1984ef77e3d750b8196b68b54c06befbd6bc7c",
+          "58": "dbd3350d05ab21eaf5196eb9703298fcc6ae22d84a59f839f351f57bcfcd06b6"
+        },
+        "fourVariableRows": 16,
+        "threeVariableImplicantRows": 8,
+        "threeVariablePolynomialRows": 8,
+        "scope": "Fixed displayed examples only, parsed from current TeX; not proof of general normal-form/uniqueness/lower-bound/prime-status statements."
+      },
+      "syntaxCheck": {
+        "physicalPage": 58,
+        "markdownSha256": "dbd3350d05ab21eaf5196eb9703298fcc6ae22d84a59f839f351f57bcfcd06b6",
+        "htmlSha256": "a9180e85e9853a58a5d157b17ff4982b95f0d7397f164704ee69d30fee89c67c",
+        "mathExpressions": 35,
+        "displayMath": 6,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-57-58.json",
+        "sha256": "82e4e169c71a2e34cec186390cb933bcf52056d59f6ce2d9305fc2d7417f45ee",
+        "cases": [
+          {
+            "physicalPage": 58,
+            "width": 1280,
+            "markdownSha256": "dbd3350d05ab21eaf5196eb9703298fcc6ae22d84a59f839f351f57bcfcd06b6",
+            "documentWidth": 1280,
+            "math": 35,
+            "mathml": 35,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 35,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 58,
+            "width": 390,
+            "markdownSha256": "dbd3350d05ab21eaf5196eb9703298fcc6ae22d84a59f839f351f57bcfcd06b6",
+            "documentWidth": 390,
+            "math": 35,
+            "mathml": 35,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 35,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actual current1280/390 production-direct fullpage and narrow left/right screenshots viewed, including long clauses23/24, quantified bounds25/26 and eight binary strings28. Historical058sample views are separate, not reused for current acceptance. Finalassembled/offline/onlineacceptance separate."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/58-1280.png",
+          "sha256": "a95e8d64ff4d187b6922fdee66be1ff2060bc2c2531d716adbc23fd22ec5dab6",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/58-390.png",
+          "sha256": "34b45ab39d084d4b6cb8a842b4b6b954a61961328cdea38ab6adfb3a80c1c6e6",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/58-390-right.png",
+          "sha256": "8a6b165c7172aac0e124632208cf9eb452f92812af2551bfe5519fa0925842e7",
+          "viewed": true
+        }
+      ],
+      "privateOriginalPageReviewSha256": "83a6adae37aecd0ecc1787e179d5761eccf9647d820efef3793383ccad54deef",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/058.json"
+    }
+  ],
+  "qualification": "Only these two complete physical pages. CN058hasfreshcomplete-pageacceptance,notreuseofearliersample. Correctedzero-or-morequantifierat2locations/PLAoptionalcomplement/generaltermversusmintermat2locations. Concrete current-TeX examples checked on16+8+8rows; generaldefinitions/theoremsarecomparedtosource,notproved. 057所+058以and058finalifcontinuationpreserved."
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Onlyactual255bloopand262aoddpointertwo-sourcecropsandtinywitnesses,notwholepages",
+  "data": {
+    "scope": "Read-only narrow peer on two printed answer snippets and tiny finite witnesses. Confers no full-page, all-input algorithm, or runtime validation.",
+    "sourceCrops": [
+      {
+        "file": "root-sources/cn-580-255b-full-detail.png",
+        "sha256": "0ea48632e75effdd5b79b38adc183eeb122fd0455c722fbd778f8429e8ca3270"
+      },
+      {
+        "file": "root-sources/en-692-255b-detail.png",
+        "sha256": "dfddfdf0391794c3c7aba14c1deb224b71f67f882bc25a98d5f9fc4c928c5e29"
+      },
+      {
+        "file": "root-sources/cn-581-262-normal-parity-detail.png",
+        "sha256": "43b398358366cd9c6dd6342b2bd6385ee0845cf7c203510ea8f9f1ce5259db84"
+      },
+      {
+        "file": "root-sources/en-693-262-normal-parity-detail.png",
+        "sha256": "17fb1c02f7ac968b440839ec9cae850258af0ab8c768f2bc9d42c24ac371417e"
+      }
+    ],
+    "answer255b": {
+      "bothPrinted": "Initialize k=0 and t=empty. While k<m, update h_k and t. Finally set h_m=t. No assignment to k exists inside part (b).",
+      "precedingLine": "The increment seen above the new (b) heading in both crops belongs to (a).",
+      "fixture": {
+        "m": 1,
+        "f0": [
+          []
+        ],
+        "g0": [],
+        "firstTwoIterationsWithoutFix": {
+          "0": {
+            "k": 0,
+            "carryIsEmpty": true,
+            "h0HasEmptySet": true
+          },
+          "1": {
+            "k": 0,
+            "carryIsEmpty": true,
+            "h0HasEmptySet": true
+          }
+        },
+        "afterSingleCorrectedIterationK": 1
+      },
+      "minimalRepair": "Add k←k+1 after updating t, inside the while body."
+    },
+    "answer262a": {
+      "chinesePrinted": "奇数时链表示正规函数",
+      "englishPrinted": "a link to a denotes a nonnormal function if and only if a is odd",
+      "normalizedAddressFixture": {
+        "evenPointer": 2,
+        "normalFunction": "f(x)=x",
+        "valueAtZero": 0,
+        "complementedPointer": 3,
+        "nonnormalFunction": "not x",
+        "complementValueAtZero": 1,
+        "tagClearedPointer": 2
+      },
+      "minimalRepair": "Insert 非 before 正规函数 in the odd-pointer sentence. Keep the statement that a&−2 locates the normal node."
+    }
+  },
+  "privateEvidenceSha256": "f4c7a46b912dc43e78e01f5797d429710380aba2153780b24fa58a3e3a4908d6"
+}

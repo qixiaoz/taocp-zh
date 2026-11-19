@@ -1,0 +1,861 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "owner": "vol4a_body_g62",
+  "physicalPages": [
+    697,
+    698,
+    699,
+    700
+  ],
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignoff": false,
+  "masterSha256": null,
+  "sourceSha256": {
+    "cn": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "en": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+  },
+  "sourceReviewSpecification": {
+    "file": "private-snapshot:volume4a/assigned-answers-681-700/checkpoints/specification-697-700.json",
+    "sha256": "464210ce5857d51807e6005ef7f4903f0faadc8f87abaec3505f9fc8ac062ff0"
+  },
+  "sourcePageRecords": [
+    {
+      "physicalPage": 697,
+      "pageMarkdownSha256": "2210a308902023c1e385b7509a9239607a9825ba7e90772f1259794e285e14b8",
+      "pageReviewSha256": "630f06997642b2779bfaa27c384f880daf7be12df4b9616cf4baf6af369b07f4",
+      "answerAnchors": [
+        "ans-7-2-1-7-14",
+        "ans-7-2-1-7-15",
+        "ans-7-2-1-7-16",
+        "ans-7-2-1-7-17",
+        "ans-7-2-1-7-18",
+        "ans-7-2-1-7-19",
+        "ans-7-2-1-7-20",
+        "ans-7-2-1-7-21"
+      ],
+      "sourceEnPhysicalPages": [
+        830,
+        831
+      ],
+      "mathExpressions": 53,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 698,
+      "pageMarkdownSha256": "afb1399a681627f2901fae3f9296c623c92174c5ea4e04a1d6f14d72391bd9e5",
+      "pageReviewSha256": "fb4eb2f8559b98b4f7052faba0fb952b50b06fce2822a321b61f406a9ac00ff7",
+      "answerAnchors": [
+        "ans-7-2-1-7-22",
+        "ans-7-2-1-7-23",
+        "ans-7-2-1-7-24",
+        "ans-7-2-1-7-25",
+        "ans-7-2-1-7-26"
+      ],
+      "sourceEnPhysicalPages": [
+        831,
+        832
+      ],
+      "mathExpressions": 46,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 699,
+      "pageMarkdownSha256": "909b1569f299c84162d368a200eeb21dc4382aa95f77800f2ea3d4e9f61597a3",
+      "pageReviewSha256": "7a9a07deef69f059f95622ea468a9bc90651e30226997aa577a0820b18b4b16a",
+      "answerAnchors": [
+        "ans-7-2-1-7-27",
+        "ans-7-2-1-7-28",
+        "ans-7-2-1-7-29",
+        "ans-7-2-1-7-30",
+        "ans-7-2-1-7-31",
+        "ans-7-2-1-7-32"
+      ],
+      "sourceEnPhysicalPages": [
+        832,
+        833
+      ],
+      "mathExpressions": 53,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 700,
+      "pageMarkdownSha256": "e5cfc69986aaa8e41f48784e22f47e01d0721b12a1cb0fe68c29bfc539830978",
+      "pageReviewSha256": "9a5470c7da7a8ca388788a996bdd429d0c208926bf1636b132b4879368a87b9d",
+      "answerAnchors": [],
+      "sourceEnPhysicalPages": [
+        834
+      ],
+      "mathExpressions": 0,
+      "negativeAnswerLocators": []
+    }
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "answers-699-31-colex",
+      "section": "7.2.1.7",
+      "cnPdfPage": 699,
+      "location": "答31末句，英文印816",
+      "original": "棣莫弗的顺序为字典序的升序",
+      "final": "棣莫弗的顺序为反向字典序的升序",
+      "basis": "英文明确 increasing colexicographic，应和前句的普通字典序区分。",
+      "cnPrintedPage": 684,
+      "pageMarkdownSha256": "909b1569f299c84162d368a200eeb21dc4382aa95f77800f2ea3d4e9f61597a3"
+    },
+    {
+      "id": "answers-699-32-author-explicit-multiplicities",
+      "section": "7.2.1.7",
+      "cnPdfPage": 699,
+      "location": "答32开头，英文印816及作者2019-10-24",
+      "original": "7 + 13·1；10 + 10·1；10 + 7 + 3·1",
+      "final": "1\\cdot7+13\\cdot1=2\\cdot7+6\\cdot1=1\\cdot10+10\\cdot1",
+      "basis": "作者早期变化记录第38页要求所有隐含单次项补1因子。有限实际走作者后继规则，核n=0–200全解及n=20印出的6个。",
+      "cnPrintedPage": 684,
+      "pageMarkdownSha256": "909b1569f299c84162d368a200eeb21dc4382aa95f77800f2ea3d4e9f61597a3"
+    },
+    {
+      "id": "answers-699-32-author-denumerants",
+      "section": "7.2.1.7",
+      "cnPdfPage": 699,
+      "location": "答32补句，英文印816及作者2024-02-21",
+      "original": "无受限分划名称一句",
+      "final": "（部件取自某个给定整数集合的分划称为受限分划，*denumerants*。）",
+      "basis": "按作者现行变化记录第11页新增的一句名词定义。",
+      "cnPrintedPage": 684,
+      "pageMarkdownSha256": "909b1569f299c84162d368a200eeb21dc4382aa95f77800f2ea3d4e9f61597a3"
+    }
+  ],
+  "privateBrowserCaseCount": 8,
+  "logicalCandidates": [],
+  "assets": [
+    {
+      "cnPdfPage": 698,
+      "title": "答23，四行各十三个源氏香图形",
+      "file": "assets/volume4a/figures/7-2-1-7-ans23-genji-patterns.svg",
+      "sha256": "b9751ba3f893ed4fb8f7018fa85b40f7b2175ad6b555fa4c1e24c1eedfb8b8c9",
+      "pngSha256": "9e84ea1579ff3d4268a4c57deb3066bdef602fc8dedfd889f95252f3f9247d1c",
+      "nativeDimensions": [
+        302,
+        79
+      ],
+      "logicalWidthPx": 690,
+      "enPhysicalPage": 832,
+      "nativeXref": 2382,
+      "polarity": "PDF原生掩码为反相，转为与原页相同的白底黑线",
+      "count": 52,
+      "layout": [
+        4,
+        13
+      ]
+    },
+    {
+      "cnPdfPage": 698,
+      "title": "答24，四行各十三个源氏香图形",
+      "file": "assets/volume4a/figures/7-2-1-7-ans24-genji-patterns.svg",
+      "sha256": "67934c3a5a187f27f8bb17f9b436a8a93ed04242f9440da403945be780bfa190",
+      "pngSha256": "854dfc8a3900733440c172a1946a3adc40ecb4c5838932eb6d9d4648057c0fda",
+      "nativeDimensions": [
+        302,
+        78
+      ],
+      "logicalWidthPx": 690,
+      "enPhysicalPage": 832,
+      "nativeXref": 2383,
+      "polarity": "PDF原生掩码为反相，转为与原页相同的白底黑线",
+      "count": 52,
+      "layout": [
+        4,
+        13
+      ]
+    },
+    {
+      "cnPdfPage": 699,
+      "title": "答29，四行各十三个源氏香图形",
+      "file": "assets/volume4a/figures/7-2-1-7-ans29-genji-patterns.svg",
+      "sha256": "1465e4b732508968042bbb3c3121224160a0fb1de500585fe76a17446b08a262",
+      "pngSha256": "1a146c9ca6bb66acdde42f9e898f3fde470c73516c4fe7cb2b65f72f656c08fa",
+      "nativeDimensions": [
+        302,
+        78
+      ],
+      "logicalWidthPx": 690,
+      "enPhysicalPage": 833,
+      "nativeXref": 2386,
+      "polarity": "PDF原生掩码为反相，转为与原页相同的白底黑线",
+      "count": 52,
+      "layout": [
+        4,
+        13
+      ]
+    },
+    {
+      "cnPdfPage": 698,
+      "title": "字典序将提前的两个源氏香图形",
+      "file": "assets/volume4a/figures/7-2-1-7-ans24-first-compared-pair.svg",
+      "sha256": "8a0a9643e3cfb95187b4e762a3bab743f9db151a396f0603a3b5fe0b6dc5aaea",
+      "pngSha256": "d9df682f48a32ce1ae9eb951903a37fc541c3f30641dcfbca9c3a2141c3de201",
+      "nativeDimensions": [
+        84,
+        37
+      ],
+      "logicalWidthPx": 63,
+      "enPhysicalPage": 832,
+      "sourceCrop": [
+        878,
+        77,
+        967,
+        119
+      ]
+    },
+    {
+      "cnPdfPage": 698,
+      "title": "比较中位于后面的两个源氏香图形",
+      "file": "assets/volume4a/figures/7-2-1-7-ans24-second-compared-pair.svg",
+      "sha256": "4d901403b91c1e43618cfaa70c579126519a2416163ef2fc33ace371356bd5cc",
+      "pngSha256": "5a0bbaff43ba4c0cdf44bf5f186fd770e30daa03e0c0b475285e22c332bb86e5",
+      "nativeDimensions": [
+        84,
+        37
+      ],
+      "logicalWidthPx": 63,
+      "enPhysicalPage": 832,
+      "sourceCrop": [
+        1080,
+        77,
+        1170,
+        119
+      ]
+    },
+    {
+      "cnPdfPage": 699,
+      "title": "145和236不允许的单交叉图形",
+      "file": "assets/volume4a/figures/7-2-1-7-ans27-excluded-pattern.svg",
+      "sha256": "3bf10b218ddb16d05c48209114d54de761a5ae37766f3170e769a0b28cb32d65",
+      "pngSha256": "9e0dab9d5a2e0cf01d3f20e400c003a8288883c3a4aa3a646ade49e8fe3cdab4",
+      "nativeDimensions": [
+        54,
+        44
+      ],
+      "logicalWidthPx": 38,
+      "enPhysicalPage": 832,
+      "sourceCrop": [
+        591,
+        94,
+        650,
+        143
+      ]
+    },
+    {
+      "cnPdfPage": 698,
+      "title": "12和345示例",
+      "file": "assets/volume4a/figures/7-2-1-7-ans23-12-345.svg",
+      "sha256": "627f4ecf8056ee53747e8131d3768ce199018c00af0c747fc834e23342fdd385",
+      "logicalWidthPx": 28,
+      "enPhysicalPage": 832,
+      "topology": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  ],
+  "details": {
+    "authorSources": {
+      "official-modern-11": {
+        "file": "private-snapshot:volume4a/assigned-answers-681-700/sources/official-modern-11.png",
+        "sha256": "a79af07554ab6b338698319001374df01297a2329c75b02e5d7677ddad09c0e9"
+      },
+      "official-pre-37": {
+        "file": "private-snapshot:volume4a/assigned-answers-681-700/sources/official-pre-37.png",
+        "sha256": "13d053825006703dc01de85cd8603e6dfd285a5e422bd518f8ce7518e77f8275"
+      },
+      "official-pre-38": {
+        "file": "private-snapshot:volume4a/assigned-answers-681-700/sources/official-pre-38.png",
+        "sha256": "4e5ec7ff28e71d1a3080e859b14594f91cc8cce5f6598c7d8ce8b2cb731f5ee9"
+      }
+    },
+    "finiteChecks": {
+      "file": "private-snapshot:volume4a/assigned-answers-681-700/checkpoints/697-700-finite.json",
+      "sha256": "9f19f974f6ec3c9ca3fb570f329b0b4aaa273178a8a2e6e067228c3910b36a91",
+      "result": {
+        "scope": "Finite transcriptions and enumeration only.",
+        "answer14GenlexWords": [
+          "ABC",
+          "ABD",
+          "ABE",
+          "ACD",
+          "ACE",
+          "ACB",
+          "ADE",
+          "ADB",
+          "ADC",
+          "AEB",
+          "AEC",
+          "AED",
+          "BCD",
+          "BCE",
+          "BCA",
+          "BDE",
+          "BDA",
+          "BDC",
+          "BEA",
+          "BEC",
+          "BED",
+          "BAC",
+          "BAD",
+          "BAE",
+          "CDE",
+          "CDA",
+          "CDB",
+          "CEA",
+          "CEB",
+          "CED",
+          "CAB",
+          "CAD",
+          "CAE",
+          "CBD",
+          "CBE",
+          "CBA",
+          "DEA",
+          "DEB",
+          "DEC",
+          "DAB",
+          "DAC",
+          "DAE",
+          "DBC",
+          "DBE",
+          "DBA",
+          "DCE",
+          "DCA",
+          "DCB",
+          "EAB",
+          "EAC",
+          "EAD",
+          "EBC",
+          "EBD",
+          "EBA",
+          "ECD",
+          "ECA",
+          "ECB",
+          "EDA",
+          "EDB",
+          "EDC"
+        ],
+        "answer16": {
+          "q": [
+            2,
+            5
+          ],
+          "n": [
+            1,
+            13
+          ],
+          "stepCounts": {
+            "2": {
+              "1": [
+                1,
+                2,
+                0,
+                0
+              ],
+              "2": [
+                2,
+                4,
+                1,
+                1
+              ],
+              "3": [
+                3,
+                7,
+                2,
+                1
+              ],
+              "4": [
+                5,
+                12,
+                4,
+                2
+              ],
+              "5": [
+                8,
+                20,
+                7,
+                3
+              ],
+              "6": [
+                13,
+                33,
+                12,
+                5
+              ],
+              "7": [
+                21,
+                54,
+                20,
+                8
+              ],
+              "8": [
+                34,
+                88,
+                33,
+                13
+              ],
+              "9": [
+                55,
+                143,
+                54,
+                21
+              ],
+              "10": [
+                89,
+                232,
+                88,
+                34
+              ],
+              "11": [
+                144,
+                376,
+                143,
+                55
+              ],
+              "12": [
+                233,
+                609,
+                232,
+                89
+              ],
+              "13": [
+                377,
+                986,
+                376,
+                144
+              ]
+            },
+            "3": {
+              "1": [
+                1,
+                2,
+                0,
+                0
+              ],
+              "2": [
+                2,
+                4,
+                0,
+                0
+              ],
+              "3": [
+                4,
+                8,
+                1,
+                1
+              ],
+              "4": [
+                7,
+                15,
+                2,
+                1
+              ],
+              "5": [
+                13,
+                28,
+                4,
+                2
+              ],
+              "6": [
+                24,
+                52,
+                8,
+                4
+              ],
+              "7": [
+                44,
+                96,
+                15,
+                7
+              ],
+              "8": [
+                81,
+                177,
+                28,
+                13
+              ],
+              "9": [
+                149,
+                326,
+                52,
+                24
+              ],
+              "10": [
+                274,
+                600,
+                96,
+                44
+              ],
+              "11": [
+                504,
+                1104,
+                177,
+                81
+              ],
+              "12": [
+                927,
+                2031,
+                326,
+                149
+              ],
+              "13": [
+                1705,
+                3736,
+                600,
+                274
+              ]
+            },
+            "4": {
+              "1": [
+                1,
+                2,
+                0,
+                0
+              ],
+              "2": [
+                2,
+                4,
+                0,
+                0
+              ],
+              "3": [
+                4,
+                8,
+                0,
+                0
+              ],
+              "4": [
+                8,
+                16,
+                1,
+                1
+              ],
+              "5": [
+                15,
+                31,
+                2,
+                1
+              ],
+              "6": [
+                29,
+                60,
+                4,
+                2
+              ],
+              "7": [
+                56,
+                116,
+                8,
+                4
+              ],
+              "8": [
+                108,
+                224,
+                16,
+                8
+              ],
+              "9": [
+                208,
+                432,
+                31,
+                15
+              ],
+              "10": [
+                401,
+                833,
+                60,
+                29
+              ],
+              "11": [
+                773,
+                1606,
+                116,
+                56
+              ],
+              "12": [
+                1490,
+                3096,
+                224,
+                108
+              ],
+              "13": [
+                2872,
+                5968,
+                432,
+                208
+              ]
+            },
+            "5": {
+              "1": [
+                1,
+                2,
+                0,
+                0
+              ],
+              "2": [
+                2,
+                4,
+                0,
+                0
+              ],
+              "3": [
+                4,
+                8,
+                0,
+                0
+              ],
+              "4": [
+                8,
+                16,
+                0,
+                0
+              ],
+              "5": [
+                16,
+                32,
+                1,
+                1
+              ],
+              "6": [
+                31,
+                63,
+                2,
+                1
+              ],
+              "7": [
+                61,
+                124,
+                4,
+                2
+              ],
+              "8": [
+                120,
+                244,
+                8,
+                4
+              ],
+              "9": [
+                236,
+                480,
+                16,
+                8
+              ],
+              "10": [
+                464,
+                944,
+                32,
+                16
+              ],
+              "11": [
+                912,
+                1856,
+                63,
+                31
+              ],
+              "12": [
+                1793,
+                3649,
+                124,
+                61
+              ],
+              "13": [
+                3525,
+                7174,
+                244,
+                120
+              ]
+            }
+          }
+        },
+        "answer21": {
+          "firstCases": [
+            [
+              7,
+              7
+            ],
+            [
+              9,
+              5
+            ],
+            [
+              10,
+              5
+            ],
+            [
+              14,
+              7
+            ]
+          ],
+          "secondCases": [
+            [
+              7,
+              6
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "extraThirdSubpart": [
+            7,
+            5,
+            4
+          ]
+        },
+        "answer26": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            22,
+            9
+          ],
+          [
+            92,
+            33
+          ],
+          [
+            426,
+            135
+          ]
+        ],
+        "genjiNativeSymbolsByRow": {
+          "2382": [
+            13,
+            13,
+            13,
+            13
+          ],
+          "2383": [
+            13,
+            13,
+            13,
+            13
+          ],
+          "2386": [
+            13,
+            13,
+            13,
+            13
+          ]
+        },
+        "answer28Divisors": 24,
+        "answer32": {
+          "checkedForNFrom0To200": true,
+          "twenty": [
+            [
+              0,
+              0,
+              20
+            ],
+            [
+              0,
+              1,
+              13
+            ],
+            [
+              0,
+              2,
+              6
+            ],
+            [
+              1,
+              0,
+              10
+            ],
+            [
+              1,
+              1,
+              3
+            ],
+            [
+              2,
+              0,
+              0
+            ]
+          ]
+        },
+        "pageMarkdownSha256": {
+          "697": "2210a308902023c1e385b7509a9239607a9825ba7e90772f1259794e285e14b8",
+          "698": "afb1399a681627f2901fae3f9296c623c92174c5ea4e04a1d6f14d72391bd9e5",
+          "699": "909b1569f299c84162d368a200eeb21dc4382aa95f77800f2ea3d4e9f61597a3",
+          "700": "e5cfc69986aaa8e41f48784e22f47e01d0721b12a1cb0fe68c29bfc539830978"
+        },
+        "checkerSha256": "1bf75f3946464a1970c07f7395522d32b116827c66076e99c4a252aaf687af60"
+      }
+    },
+    "figureSources": {
+      "file": "private-snapshot:volume4a/assigned-answers-681-700/checkpoints/698-699-figures.json",
+      "sha256": "317ec5d9b89d94b59ae8a84a477f4a61023b621547d298e820df690db101711d"
+    },
+    "physicalSeams": [
+      {
+        "left": 696,
+        "right": 697,
+        "answer": "7.2.1.7–13",
+        "kind": "fresh paragraph after two-row example",
+        "boundary": "完整两行示例显示式闭合，右从「于是，像(18)那样」开始，后接独立第三行。"
+      },
+      {
+        "left": 697,
+        "right": 698,
+        "answer": "7.2.1.7–21",
+        "kind": "a/b subpart boundary",
+        "boundary": "(a)生成函数的和式完整闭合，右从(b)开始。"
+      },
+      {
+        "left": 698,
+        "right": 699,
+        "answer": "7.2.1.7–26",
+        "kind": "fresh continuation paragraph",
+        "boundary": "原玛格丽特·沃尔夫引文闭合，右从「如果A(z)」开始。"
+      },
+      {
+        "left": 699,
+        "right": 700,
+        "kind": "standalone attributions",
+        "boundary": "克里斯蒂题辞为699末；700大留白，仅The Cocoanuts(1925)和Baptiste(1946)署名。"
+      },
+      {
+        "left": 700,
+        "right": 701,
+        "kind": "answers to appendix",
+        "boundary": "答案的下方最后署名Baptiste，接明示附录A的701双锚与首标题。无跨段。"
+      }
+    ]
+  },
+  "qualification": "直接按中英原页核校，实际查看1280和390像素校样及长式、图和等宽数据的左右端。原图链接逐个实开。明确作者版本变化与有限数值复算分别记录。"
+}

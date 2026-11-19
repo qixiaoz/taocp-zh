@@ -1,0 +1,107 @@
+{
+  "scope": "ActualI3/I4/next/absorbcontextandoriginal/officialglyphread; one legal localcomponenttree and a singlechild-loop iteration. No fullI1–I11 implementation or general connected-component proof.",
+  "sourceImages": [
+    {
+      "file": "en-629.png",
+      "sha256": "f877af8ce06551e3ea0682f04101595ed81808d0b398bb231481e7d04cc6b8ab"
+    },
+    {
+      "file": "en-630.png",
+      "sha256": "44b73ca8d5d31a1138eb86c0547e50793fd45fe39a909a67449f3b10f1fa6fc4"
+    },
+    {
+      "file": "526.jpg",
+      "sha256": "2325d4dd560833d4e188074a505380572cb37f2098631796ff0ca312c1a28c27"
+    },
+    {
+      "file": "cn-526-I4-pointer-loop.png",
+      "sha256": "074a1cd82a1c6ada42988fea4dd130c2bf6d6c6bf8ad0d9c4532d62f0b4ba9ad"
+    },
+    {
+      "file": "en-629-I4-loop-bottom.png",
+      "sha256": "97e5124e9317df110a3b2d2310ac3b566cf7aab8c82fff0cbe0bb5f3394871fc"
+    },
+    {
+      "file": "official-all4a-pre-028.png",
+      "sha256": "464927c021774e5320a6e261bb097af9f81cf0908afd428f1615ae6ef2a30dc4"
+    }
+  ],
+  "actualSourceRead": true,
+  "context": "EN629print612 defines triplylinked tree, no restriction againstonechild; doubleorderfirstvisitmakesPprime=P. EN630 absorptionchangesROW/COL/AREA/DORMANT/HEIR only; withallDORMANTnil, it doesnotaltertheliveCHILD/SIBlinks usedhere.",
+  "officialHistoricalPage": "all4a-prephysical28/printed28,2012-03-11onlydeletes Rprime<-R fromtheloop; it doesnotchange thefollowingsource SIB(R)<-Q intoa primedpointer. CNalreadyhasthisdeletion, sourceENstillhasRprime assignment.",
+  "localGeometry": {
+    "N": 10,
+    "rowsIncludingInitialZeroAndBoundaryColumns": [
+      "000000000000",
+      "001111111000",
+      "001000001000",
+      "001001001000"
+    ],
+    "nextRowIncludingBoundaryColumns": "000010001000",
+    "colorConnectivity": "blackkingwise/whiterookwise aslistedsource179 explanation",
+    "independentPrefixComponentCounts": {
+      "oldBlack": 2,
+      "oldWhite": 2,
+      "newBlack": 2,
+      "newWhite": 1
+    },
+    "componentAdjacencyTreeEdges": [
+      [
+        "C",
+        "R"
+      ],
+      [
+        "Q",
+        "R"
+      ],
+      [
+        "Q",
+        "ROOT"
+      ]
+    ],
+    "interpretation": "ROOTwhiteoutside -> Qblackcapandwalls -> Rwhiteinterior -> Cblackisland. RhasexactlyonechildC, allotherCHILD/SIBlinksonthechainareclear. Newrow mergesRwhitewithROOTwhite and retainsbothblackcomponentsQ/C."
+  },
+  "localI3Branch": {
+    "P": "ROOT",
+    "Pprime": "ROOT",
+    "j": 1,
+    "k": 1,
+    "oldModifiedRuns": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      23
+    ],
+    "newModifiedRuns": [
+      7,
+      10,
+      15,
+      18,
+      23
+    ],
+    "condition": "b2=6<a1=7",
+    "nextPairQ": [
+      "Q",
+      "Q"
+    ],
+    "nextPairR": [
+      "R",
+      "R"
+    ],
+    "branchValue": 0,
+    "matchesI4Case0Precondition": true
+  },
+  "literalI4LocalTrace": [
+    "AbsorboldRintoROOT;setCHILD(Q)=SIB(oldR)=Lambda;Qprime=CHILD(oldR)=C.",
+    "QprimeisnonLambda,sosetR=C.",
+    "Singlewhileiteration:setPARENT(C)=ROOT;oldENalsosetsRprime=C;setR=SIB(C)=Lambda.",
+    "LoopstopswithR=Lambda. FollowingliteralSIB(R)=Qthereforeaddressesa nullnode, notthelastchildC. SettingQ=QprimeandCHILD(ROOT)=CthenleavesSIB(C)=Lambda, soQhasnotbeenlinkedafterC."
+  ],
+  "expectedLocalSplice": "CHILD(ROOT)=C;SIB(C)=Q;PARENT(C)=PARENT(Q)=ROOT.",
+  "conclusion": "Theloop-exitboundaryquestion is applicableto a legalone-childlocaltree; nochilddegreeorabsorptionruleinlistedcontextrescuesR. Keeporiginalandreportpreciselyunlessanexplicitprojectcorrectionwithfreshsource/algorithmstateevidenceisdecided. Thisreceiptdoesnotassertauniquefullalgorithmfixorreachabilitybya completeexecutionofthepreviousIsteps.",
+  "reviewerType": "independent-model-direct-source-image-comparison",
+  "humanSignOff": false
+}

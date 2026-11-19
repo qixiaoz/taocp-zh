@@ -1,0 +1,680 @@
+{
+  "volume": "volume4a",
+  "section": "7.2.1.3–7.2.1.4",
+  "cnPdfPages": [
+    338,
+    339
+  ],
+  "cnPrintedPages": [
+    323,
+    324
+  ],
+  "enPdfPages": [
+    406,
+    407,
+    408
+  ],
+  "enPrintedPages": [
+    389,
+    390,
+    391
+  ],
+  "sourceSha256": {
+    "cn": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "en": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+  },
+  "pageMarkdownSha256": {
+    "338": "a0d76821684d285c5efb79338b1a7a2399366ce0bfbe2bc62aed6473c1244b03",
+    "339": "6a578d324bef08144da148a387ca650d846bec2cdf432cc613a47f4cb3f554aa"
+  },
+  "masterSha256": null,
+  "humanSignoff": false,
+  "reviewerType": "model-direct-page-image-comparison",
+  "sourceReviewBindingPending": false,
+  "author2022Cribbage": {
+    "classification": "amendpage",
+    "date": "2022-05-24",
+    "authorPrintedEnPage": 389,
+    "authorUrl": "https://cs.stanford.edu/~knuth/err4a.textxt",
+    "authorChangesDocumentPage": 5,
+    "authorImage": "private-snapshot:volume4a/tail-body-review/sources/author-errata-005.png",
+    "authorImageSha256": "74ce654dde1a142dd6089b4d9a48c4d167e8ce066f65c16001656df3c3901c59",
+    "authorTextSha256": "31d424785d8dbb87e2b63dd5f3421c26e4911e9fd6b8937395f6d9054782e3bc",
+    "updatedClauses": [
+      "Setup: define the four cards held and reserve fifth card c_5 as starter; sum over S with starter fixed.",
+      "Flush: replace excluded starter test by exact hand subset; indicator compares c_5.",
+      "Nobs: replace both c_k occurrences by c_5.",
+      "Final question: combinations; the fifth card is already distinguished."
+    ],
+    "countOfHandsWithDistinguishedStarterByEitherFormulation": 12994800
+  },
+  "limitedPrintedExamples": {
+    "question109Cycle": "00012241112330222344133340024440113",
+    "cyclicTripleWindows": 35,
+    "question110PrintedFiveCards": [
+      [
+        "J",
+        "club",
+        11
+      ],
+      [
+        "5",
+        "club",
+        5
+      ],
+      [
+        "5",
+        "diamond",
+        5
+      ],
+      [
+        "6",
+        "heart",
+        6
+      ],
+      [
+        "4",
+        "club",
+        4
+      ]
+    ],
+    "fifteens": 4,
+    "pairSets": 1,
+    "maximalLength3Runs": 2,
+    "flushPoints": 0,
+    "nobsPoints": 1,
+    "total": 17
+  },
+  "twelvefoldWay": {
+    "cnPdfPage": 339,
+    "enPdfPage": 407,
+    "rowLabels": [
+      "labelled balls/labelled urns",
+      "unlabelled balls/labelled urns",
+      "labelled balls/unlabelled urns",
+      "unlabelled balls/unlabelled urns"
+    ],
+    "columns": [
+      "unrestricted",
+      "at most one",
+      "at least one"
+    ],
+    "all12EntriesMatchedPrintedBothLanguages": true,
+    "originalTableCellLinesPreserved": true,
+    "twoWidthDom": [
+      {
+        "rows": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "rowHeaders": 4,
+        "nowrap": true,
+        "viewportWidth": 728,
+        "contentWidth": 728
+      },
+      {
+        "rows": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "rowHeaders": 4,
+        "nowrap": true,
+        "viewportWidth": 310,
+        "contentWidth": 575
+      }
+    ]
+  },
+  "priorProof": {
+    "file": "private-snapshot:volume4a/tail-body-review/history/338-339-before-table-reading-width",
+    "page339MarkdownSha256": "62da0f0e594fdb5f740e7cb55708abc49e6b2e40c22466b61dcebfde6ca1d293",
+    "page339HtmlSha256": "7ad9307a619429bf8b482d0111911055e2d4bb6b4d2f575c1cd4cc3bc4def5e1",
+    "browserResultSha256": "7258113e2b7a3be00ef917ee8dbc698683a817ee9b4048281bb5819eb23c9371",
+    "page338CurrentPixelMatches": 35,
+    "reason": "Initial mobile Markdown table squeezed first column one Chinese character per line. Current table is editable HTML with the original breaks and cell-level text kept together. Rendered and observed anew. Old version kept."
+  },
+  "dominoCycle": {
+    "asset": "assets/volume4a/figures/7-2-1-3-ex107-double-six-cycle.svg",
+    "assetSha256": "f66205a8a91f2a4096b28e31c2a90ca1b4340dcab924de8cc4129d5779dd15f0",
+    "cnPdfPage": 338,
+    "enPdfPage": 406,
+    "nativeRenderedCropSha256": "a31587dc11f51e2dae0db321291b7a63098aa7b72a0606fb2faf86bfa3d2393a",
+    "clockwiseDominoHalves": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "directBilingualTileCount": 28,
+    "rasterPipCountByHalf": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "closureAndAll28UnorderedPairsChecked": true,
+    "qualification": "Two rows compared directly, then all dot centers picked by connected components inside the English crop. No enumeration of all cycles.",
+    "status": "source-preserved-asset-and-current-rendered-pixels-compared"
+  },
+  "labelledFirstNine": {
+    "asset": "assets/volume4a/figures/7-2-1-4-urns-labelled-nine.svg",
+    "assetSha256": "8c93fa0dfc8c4f367418d7705e6ae6d67620d0e28368f0be0a8184076cea1152",
+    "cnPdfPage": 338,
+    "enPdfPage": 407,
+    "printedPlacements": [
+      [
+        [
+          1,
+          2
+        ],
+        [],
+        []
+      ],
+      [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        []
+      ],
+      [
+        [
+          1
+        ],
+        [],
+        [
+          2
+        ]
+      ],
+      [
+        [
+          2
+        ],
+        [
+          1
+        ],
+        []
+      ],
+      [
+        [],
+        [
+          1,
+          2
+        ],
+        []
+      ],
+      [
+        [],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      [
+        [
+          2
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      [
+        [],
+        [
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      [
+        [],
+        [],
+        [
+          1,
+          2
+        ]
+      ]
+    ],
+    "labelledUrns": true,
+    "ballsReadBottomToTop": true,
+    "method": "Direct source redraw in original panel order, with editable bucket labels and ball numbers.",
+    "status": "source-preserved-asset-and-current-rendered-pixels-compared"
+  },
+  "unlabelledSix": {
+    "asset": "assets/volume4a/figures/7-2-1-4-urns-labelled-six.svg",
+    "assetSha256": "2768574f145212a214aec8a58597dbd0c891858c50c4adf4a4bb43f1a167f2cd",
+    "cnPdfPage": 338,
+    "enPdfPage": 407,
+    "printedPlacements": [
+      [
+        [
+          0,
+          0
+        ],
+        [],
+        []
+      ],
+      [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        []
+      ],
+      [
+        [
+          0
+        ],
+        [],
+        [
+          0
+        ]
+      ],
+      [
+        [],
+        [
+          0,
+          0
+        ],
+        []
+      ],
+      [
+        [],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      [
+        [],
+        [],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "labelledUrns": true,
+    "ballsReadBottomToTop": true,
+    "method": "Direct source redraw in original panel order, with editable bucket labels and ball numbers.",
+    "status": "source-preserved-asset-and-current-rendered-pixels-compared"
+  },
+  "samePlacementRight": {
+    "asset": "assets/volume4a/figures/7-2-1-4-urns-equivalent-right.svg",
+    "assetSha256": "f57de501704b08443199b2242a84cc2a3cf5a6315f9ee970e3b7662b26ec032f",
+    "cnPdfPage": 339,
+    "enPdfPage": 407,
+    "printedPlacements": [
+      [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        []
+      ]
+    ],
+    "labelledUrns": false,
+    "ballsReadBottomToTop": true,
+    "method": "Direct source redraw in original panel order, with editable bucket labels and ball numbers.",
+    "status": "source-preserved-asset-and-current-rendered-pixels-compared"
+  },
+  "samePlacementLeft": {
+    "asset": "assets/volume4a/figures/7-2-1-4-urns-equivalent-left.svg",
+    "assetSha256": "78122767e64dc0b25383a118a6f5c398dbfb548182578115908ae815cadda1a1",
+    "cnPdfPage": 339,
+    "enPdfPage": 407,
+    "printedPlacements": [
+      [
+        [
+          2
+        ],
+        [],
+        [
+          1
+        ]
+      ]
+    ],
+    "labelledUrns": false,
+    "ballsReadBottomToTop": true,
+    "method": "Direct source redraw in original panel order, with editable bucket labels and ball numbers.",
+    "status": "source-preserved-asset-and-current-rendered-pixels-compared"
+  },
+  "setPartitionsFive": {
+    "asset": "assets/volume4a/figures/7-2-1-4-urns-set-partitions-five.svg",
+    "assetSha256": "06254557000cd896f7d82923826982bf0dd8540ad92504d4118cd63d939a628d",
+    "cnPdfPage": 339,
+    "enPdfPage": 407,
+    "printedPlacements": [
+      [
+        [
+          1,
+          2,
+          3
+        ],
+        [],
+        []
+      ],
+      [
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        []
+      ],
+      [
+        [
+          1,
+          3
+        ],
+        [
+          2
+        ],
+        []
+      ],
+      [
+        [
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        []
+      ],
+      [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    ],
+    "labelledUrns": false,
+    "ballsReadBottomToTop": true,
+    "method": "Direct source redraw in original panel order, with editable bucket labels and ball numbers.",
+    "status": "source-preserved-asset-and-current-rendered-pixels-compared"
+  },
+  "integerPartitionsThree": {
+    "asset": "assets/volume4a/figures/7-2-1-4-urns-integer-partitions-three.svg",
+    "assetSha256": "b5ee1c9771b6997f917b4e34096ace0b1863e3d0177209f5d37dda15eaba784d",
+    "cnPdfPage": 339,
+    "enPdfPage": 407,
+    "printedPlacements": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        [],
+        []
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0
+        ],
+        []
+      ],
+      [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ]
+    ],
+    "labelledUrns": false,
+    "ballsReadBottomToTop": true,
+    "method": "Direct source redraw in original panel order, with editable bucket labels and ball numbers.",
+    "status": "source-preserved-asset-and-current-rendered-pixels-compared"
+  },
+  "qualification": "Complete CN338–339 with section boundary inside CN338, corresponding contents of EN406–408, author changes page and actual current browser proof at 1280 and 390. The private proof verified figure original links, Chinese editor footnote return and exact Twelvefold Way cells. Only the source instances were computed. No full enumeration of domino tours or card deals; final site and mother integration remain."
+}

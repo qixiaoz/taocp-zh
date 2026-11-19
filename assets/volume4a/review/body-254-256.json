@@ -1,0 +1,662 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-source-pages-254-to-256-walsh-Hadamard-and-loopless-start",
+  "cnPhysicalPages": [
+    254,
+    255,
+    256
+  ],
+  "cnPrintedPages": [
+    239,
+    240,
+    241
+  ],
+  "masterSha256": null,
+  "mathExpressions": 171,
+  "privateBrowserCases": 6,
+  "substantiveCorrections": 1,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.1",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 254,
+      "cnPrintedPage": 239,
+      "enPdfPages": [
+        304,
+        305
+      ],
+      "enPrintedPages": [
+        287,
+        288
+      ],
+      "pageMarkdownSha256": "9de4326ae53c567b90f5f7111732d2c891948e8b96f97f8201b36ef02c77767b",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-254.png",
+      "sourcePageImageSha256": "260529e89144e197bc65270e60e14f74046692a979cf717143a01a0593bf1158",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-304.png",
+          "sha256": "59b0fb82a8437cb7942b59765880ae76670e413b25f293c958f4bbb7a05511fe",
+          "physicalPage": 304
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-305.png",
+          "sha256": "32ee97a8251c818fcff6f324306e3c8c64457f0de1602c5c7d5bf8d2a683ab86",
+          "physicalPage": 305
+        }
+      ],
+      "pageAnchors": [
+        "pdf-254",
+        "p-239",
+        "fig-7-32"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/fig-7-32-walsh-functions.svg",
+          "sha256": "30971f89b0f63e4e9d4752a1c5d4ef5306f875a39b36f9ab6866f1bd7ee301e7",
+          "enPdfPage": 304,
+          "sourceBounds": [
+            [
+              239,
+              64,
+              387,
+              323
+            ]
+          ],
+          "nativePaths": 148,
+          "sourceDirectlyCompared": true,
+          "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+          "rows": [
+            {
+              "k": 0,
+              "midpointValues": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "visibleFilledMarkers": 1,
+              "cosineSourcePathItems": 1
+            },
+            {
+              "k": 1,
+              "midpointValues": [
+                1,
+                1,
+                1,
+                1,
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "visibleFilledMarkers": 3,
+              "cosineSourcePathItems": 31
+            },
+            {
+              "k": 2,
+              "midpointValues": [
+                1,
+                1,
+                -1,
+                -1,
+                -1,
+                -1,
+                1,
+                1
+              ],
+              "visibleFilledMarkers": 3,
+              "cosineSourcePathItems": 32
+            },
+            {
+              "k": 3,
+              "midpointValues": [
+                1,
+                1,
+                -1,
+                -1,
+                1,
+                1,
+                -1,
+                -1
+              ],
+              "visibleFilledMarkers": 5,
+              "cosineSourcePathItems": 32
+            },
+            {
+              "k": 4,
+              "midpointValues": [
+                1,
+                -1,
+                -1,
+                1,
+                1,
+                -1,
+                -1,
+                1
+              ],
+              "visibleFilledMarkers": 5,
+              "cosineSourcePathItems": 32
+            },
+            {
+              "k": 5,
+              "midpointValues": [
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                1,
+                1,
+                -1
+              ],
+              "visibleFilledMarkers": 7,
+              "cosineSourcePathItems": 32
+            },
+            {
+              "k": 6,
+              "midpointValues": [
+                1,
+                -1,
+                1,
+                -1,
+                -1,
+                1,
+                -1,
+                1
+              ],
+              "visibleFilledMarkers": 7,
+              "cosineSourcePathItems": 32
+            },
+            {
+              "k": 7,
+              "midpointValues": [
+                1,
+                -1,
+                1,
+                -1,
+                1,
+                -1,
+                1,
+                -1
+              ],
+              "visibleFilledMarkers": 9,
+              "cosineSourcePathItems": 32
+            }
+          ],
+          "sourceAxes": 48,
+          "sourceGrayCurves": 8,
+          "sourceFilledEndpointMarkers": 40
+        }
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "§7.2.1.1 sequency术语",
+          "enPosition": "PDF304／印刷287末段",
+          "original": "称为频率为 $k$ 的沃尔什函数",
+          "final": "称为序率（sequency）为 $k$ 的沃尔什函数",
+          "basis": "英文用 sequency 表示单位区间内变号次数 k，用 frequency 表示对照三角函数的 k/2。",
+          "cnPrintedPage": 239
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Complete Walsh behavior, the sequency/frequency comparison and source citations, all eight Figure 32 panels, sign induction, Rademacher definition (16)."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 254,
+        "markdownSha256": "9de4326ae53c567b90f5f7111732d2c891948e8b96f97f8201b36ef02c77767b",
+        "htmlSha256": "cd98cabff1ecc88c0c3a7584d6ce38fb5df5fb6f744d2f5f47cb2f1bcda2d9f9",
+        "mathExpressions": 43,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-254-255-256.json",
+        "sha256": "1c6ffba4415fd89ef7058ebd081df1c89b7d356cddbbddcca698990cf1ec0e15",
+        "cases": [
+          {
+            "physicalPage": 254,
+            "width": 1280,
+            "markdownSha256": "9de4326ae53c567b90f5f7111732d2c891948e8b96f97f8201b36ef02c77767b",
+            "documentWidth": 1280,
+            "math": 43,
+            "mathml": 43,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 43,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 254,
+            "width": 390,
+            "markdownSha256": "9de4326ae53c567b90f5f7111732d2c891948e8b96f97f8201b36ef02c77767b",
+            "documentWidth": 390,
+            "math": 43,
+            "mathml": 43,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 43,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Viewed full desktop, both full mobile scroll positions and extra inner/right scroll areas on the largest table. The SVG enlargement opened and returned at both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/254-1280.png",
+          "sha256": "5ea2cc4f25f7d9e02d705c0d323f642e7b8cc2aff97455e35a854d603030be8e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/254-390.png",
+          "sha256": "aab91d2d2aacca7e5cf0ab345bbf30403968f35306a1e2abb1839e725ee0678f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/254-390-right.png",
+          "sha256": "a3fad78a765e75624a51f9b90629b796841149c9dfd847036530d2007bae8e36",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-254-fig32.png",
+          "sha256": "c67c9aff2bf4c0518ee4637c39d3832e2cf37da4c10482cb5563da8e13956407"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-304-fig32.png",
+          "sha256": "b27ec011291d417750d9b6ab843ccb42f840f850e630ca22d9cf6cc18105c23c"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN254–256 compared to EN304–307. Figure 32, both 8×8 printed matrices, exact signs and all cells of both editable tables included. Finite recomputation scope recorded below.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "followingPageContinuation": "Rademacher equation (16) itself is complete. CN255 opens with the last verb 表示 and then the representations paragraph.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/254-selected-cn-before-translation-repair-06ea1dd964ad161fba5549049b3413ca26236ce8e5b3b0750c15284b253ee24a/254.md",
+        "sha256": "06ea1dd964ad161fba5549049b3413ca26236ce8e5b3b0750c15284b253ee24a",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/body-254-256-walsh-hadamard-and-loopless.json",
+          "sha256": "73917a60e251d31c57202cde94d7bc1006fd7acfe33c9fc28ecdccaf9a5447d9",
+          "scope": "Complete fixed Figure 32 steps, both 8-by-8 matrices, both printed tables and a stated finite run of Algorithm L. No implementation timing or extension beyond these examples."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "5a36a1d01624d9534a7f6566ede32d2860a38ea8fea56f817050d911a40d7c5d",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/254.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.1",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 255,
+      "cnPrintedPage": 240,
+      "enPdfPages": [
+        305,
+        306
+      ],
+      "enPrintedPages": [
+        288,
+        289
+      ],
+      "pageMarkdownSha256": "365f891f6668ffa276bd77134d442499e2754d9a32dc663aa2ffc64eccea2ab0",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-255.png",
+      "sourcePageImageSha256": "5c74514cbdfcb8e1aeacf76fa45cc8ea64b5adb8742eb3a81779d3e310a802e6",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-305.png",
+          "sha256": "32ee97a8251c818fcff6f324306e3c8c64457f0de1602c5c7d5bf8d2a683ab86",
+          "physicalPage": 305
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-306.png",
+          "sha256": "d574774d6ad2d34e07d3fb102e42784adcaaa8c6f1e100ad87816a7983c03c3e",
+          "physicalPage": 306
+        }
+      ],
+      "pageAnchors": [
+        "pdf-255",
+        "p-240"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "End of the Rademacher sentence. Equations (17)–(19), exact orthogonality and rational sequency discussion, both numbered n=3 transform matrices (20) and (21)."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 255,
+        "markdownSha256": "365f891f6668ffa276bd77134d442499e2754d9a32dc663aa2ffc64eccea2ab0",
+        "htmlSha256": "91a118a0e37245a40fb2e9825949baadb4a89f641bbfc1604caedbb9dbee6839",
+        "mathExpressions": 54,
+        "displayMath": 5,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-254-255-256.json",
+        "sha256": "1c6ffba4415fd89ef7058ebd081df1c89b7d356cddbbddcca698990cf1ec0e15",
+        "cases": [
+          {
+            "physicalPage": 255,
+            "width": 1280,
+            "markdownSha256": "365f891f6668ffa276bd77134d442499e2754d9a32dc663aa2ffc64eccea2ab0",
+            "documentWidth": 1280,
+            "math": 54,
+            "mathml": 54,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 54,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 255,
+            "width": 390,
+            "markdownSha256": "365f891f6668ffa276bd77134d442499e2754d9a32dc663aa2ffc64eccea2ab0",
+            "documentWidth": 390,
+            "math": 54,
+            "mathml": 54,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 54,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Viewed full desktop, both full mobile scroll positions and extra inner/right scroll areas on the largest table. The SVG enlargement opened and returned at both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/255-1280.png",
+          "sha256": "56fde7383361e1c4f5002ed48f9ea106a26c831a430e7bb017aa357651a56b75",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/255-390.png",
+          "sha256": "d19f8f294cced0f03cefd999b6de7f875a2b65505368f7b1f3648f2254bb0fd5",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/255-390-right.png",
+          "sha256": "dd55d7c4ee8db55e106170bc8b2dfa1db7d32c716ab78da6ef338acda81f3585",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-255-matrices20-21.png",
+          "sha256": "52483fda6fbc1da414a6ceb313bcfc77a53a91a8716496795ad6a310f9cfac8c"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-305-matrix20.png",
+          "sha256": "e3e47d00ac5a41ab6b789adad55a4b291d93689f59bbc1b91a02062a69d64f79"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-306-matrix21.png",
+          "sha256": "7d2a4a4a3dfa91d7ee4081bf398c2967484bd9ec074a815d24ae1f04bcd0f308"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN254–256 compared to EN304–307. Figure 32, both 8×8 printed matrices, exact signs and all cells of both editable tables included. Finite recomputation scope recorded below.",
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/body-254-256-walsh-hadamard-and-loopless.json",
+          "sha256": "73917a60e251d31c57202cde94d7bc1006fd7acfe33c9fc28ecdccaf9a5447d9",
+          "scope": "Complete fixed Figure 32 steps, both 8-by-8 matrices, both printed tables and a stated finite run of Algorithm L. No implementation timing or extension beyond these examples."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "ba34068a1d031bcc6d88b9958b823a1ab76aedfd0643122a3f025edb13499cc0",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/255.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.1",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 256,
+      "cnPrintedPage": 241,
+      "enPdfPages": [
+        306,
+        307
+      ],
+      "enPrintedPages": [
+        289,
+        290
+      ],
+      "pageMarkdownSha256": "b3b37fb9557c8ac149041526c4d70f58e9cfbd0e6d29db862961d244e9c880b8",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-256.png",
+      "sourcePageImageSha256": "cec18cfd2b167639fc70a606325a2e4f53230a2444db10ee06bfd7014bb498ef",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-306.png",
+          "sha256": "d574774d6ad2d34e07d3fb102e42784adcaaa8c6f1e100ad87816a7983c03c3e",
+          "physicalPage": 306
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-307.png",
+          "sha256": "451f7000c94c6e98aea5a9b9b71e8132d3918d81d91d7a6815c251144f00104e",
+          "physicalPage": 307
+        }
+      ],
+      "pageAnchors": [
+        "pdf-256",
+        "p-241",
+        "alg-7-2-1-1-L"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Full three-stage unnumbered transform table, H3/W3 row-reordering discussion, Ehrlich/Bittner/Reingold references, Algorithm L1–L4 and eight-row sixteen-column table with binary-rank underlines."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 256,
+        "markdownSha256": "b3b37fb9557c8ac149041526c4d70f58e9cfbd0e6d29db862961d244e9c880b8",
+        "htmlSha256": "696783f39756cc1fc0144dee8fbdb0ab208da94bfc5c340da93d4754427f619f",
+        "mathExpressions": 74,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-254-255-256.json",
+        "sha256": "1c6ffba4415fd89ef7058ebd081df1c89b7d356cddbbddcca698990cf1ec0e15",
+        "cases": [
+          {
+            "physicalPage": 256,
+            "width": 1280,
+            "markdownSha256": "b3b37fb9557c8ac149041526c4d70f58e9cfbd0e6d29db862961d244e9c880b8",
+            "documentWidth": 1280,
+            "math": 74,
+            "mathml": 74,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 76,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 256,
+            "width": 390,
+            "markdownSha256": "b3b37fb9557c8ac149041526c4d70f58e9cfbd0e6d29db862961d244e9c880b8",
+            "documentWidth": 390,
+            "math": 74,
+            "mathml": 74,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 76,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Viewed full desktop, both full mobile scroll positions and extra inner/right scroll areas on the largest table. The SVG enlargement opened and returned at both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/256-1280.png",
+          "sha256": "3715f290836d4d1abfbf430a135954182d75e8d7def25371be43e6c6c30e45d1",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/256-390.png",
+          "sha256": "732c41f47d5c6bbe54a16f129f4b266b5ee4955e2173f6b8157a3ca6c731f968",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/256-390-right.png",
+          "sha256": "e9ee824389ea18f66d822c70704a5c86e9ddf722f108191ae49f0e0536a6cfb1",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/256-1280-wide-2-2.png",
+          "sha256": "9cad82462ab971f7469a7be8d79caea357cbdfa4dc3e995683e222a0cc394ba5",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/256-390-wide-2-1.png",
+          "sha256": "5864921c383defa3a44c06cc83609464aadc78c0e72c7ad96908f2a9a688c7ba",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-256-fast-transform-table.png",
+          "sha256": "5ff46bdc9f981924938fb1cdef25bc06387c87c52d76fe45a84557b27349b605"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-306-fast-transform-table.png",
+          "sha256": "46db94dc4b92db99be551f444d684e7588c18d25cc0dfec12b0e4aa9df1a1c34"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-256-focus-table.png",
+          "sha256": "27505e35f2c7ebc9d7a61fc510799ee6ab8ad20e300808f6916469c530e016e5"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-307-focus-table.png",
+          "sha256": "71a73a190c8f03fe90e21c9f07a4a781a48a250cf4fc06ab733ce187c25947ee"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN254–256 compared to EN304–307. Figure 32, both 8×8 printed matrices, exact signs and all cells of both editable tables included. Finite recomputation scope recorded below.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/body-254-256-walsh-hadamard-and-loopless.json",
+          "sha256": "73917a60e251d31c57202cde94d7bc1006fd7acfe33c9fc28ecdccaf9a5447d9",
+          "scope": "Complete fixed Figure 32 steps, both 8-by-8 matrices, both printed tables and a stated finite run of Algorithm L. No implementation timing or extension beyond these examples."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "69371f1383db5bd629bd88882039c3ea25cef5958c0a13aa8936d78e90837bb1",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/256.json"
+    }
+  ],
+  "qualification": "Complete CN254–256 compared to EN304–307. Figure 32, both 8×8 printed matrices, exact signs and all cells of both editable tables included. Finite recomputation scope recorded below."
+}

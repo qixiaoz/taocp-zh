@@ -1,0 +1,59 @@
+{
+  "purpose": "parent-requested independent read-only peer check; not volume3 content coverage",
+  "sourceImagesDirectlyViewed": [
+    {
+      "file": "528.jpg",
+      "sha256": "bf055a347d5690d47fe9d31991036bb87c7ea1781b954dc87666a6f8ddaf546c"
+    },
+    {
+      "file": "en-631.png",
+      "sha256": "ed2cf2d7ec2376f6d3e74fa0d2ef7c709df3e5afdbb41f81a47d2e093feed3f4"
+    }
+  ],
+  "sourceLocations": {
+    "cnPdfPage": 528,
+    "cnPrintedPage": "513",
+    "enPdfPage": 631,
+    "enPrintedPage": "614",
+    "section": "7.1.3 answer183 continuation"
+  },
+  "sourceBothActuallyPrint": [
+    "ellipse semiaxes alpha>=beta maximum curvature alpha/beta^2",
+    "parabola y=alpha*x^2 maximum curvature alpha/2",
+    "anomalous parabola maximum approximately5.27"
+  ],
+  "convention": "standard unsigned planar curvature kappa=abs(xprime*ysecond-yprime*xsecond)/(xprime^2+yprime^2)^(3/2); equivalently abs(ysecond)/(1+yprime^2)^(3/2) for graph",
+  "singleBasicCounterexample": {
+    "curve": "y=x^2",
+    "at": "x=0",
+    "yprime": 0,
+    "ysecond": 2,
+    "standardCurvature": 2,
+    "sourceAlphaOver2AtAlpha1": "1/2",
+    "ratio": 4,
+    "conclusion": "source assertion alpha/2 fails this basic case under its same standard ellipse convention; not a Chinese-only mistranslation"
+  },
+  "boundedCrossCheckOfSourceAnomalousCurve": {
+    "curve": "Q=(3x+y)^2-y=0",
+    "parameter": "x=(t-t^2)/3,y=t^2",
+    "tAtMinSpeed": "1/20",
+    "firstDerivativeAtThisT": [
+      "3/10",
+      "1/10"
+    ],
+    "secondDerivative": [
+      "-2/3",
+      "2"
+    ],
+    "absoluteDeterminant": "2/3",
+    "speedSquared": "1/10",
+    "curvature": "20sqrt(10)/3",
+    "decimal": 21.0818510677892,
+    "quarterDecimal": 5.2704627669473,
+    "conclusion": "value~5.27 is exactly one-quarter of standard maximum~21.08185; one supplied original curve only, no conic algorithm model"
+  },
+  "sourceWriteActions": "none; no4A manuscript/report norVolume3report changed",
+  "qualification": "Independent source read and elementary derivative calculation only. Not author official erratum or acceptance of whole4A528; root decides correction/report.",
+  "reviewerType": "independent-model-direct-source-image-comparison",
+  "humanSignOff": false
+}

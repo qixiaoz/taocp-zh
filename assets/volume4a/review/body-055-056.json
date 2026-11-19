@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "two-complete-source-pages-boolean-identities3-through17",
+  "cnPhysicalPages": [
+    55,
+    56
+  ],
+  "cnPrintedPages": [
+    40,
+    41
+  ],
+  "masterSha256": null,
+  "mathExpressions": 97,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 2,
+  "sourceTypographicRepairOccurrences": 2,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.1",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 55,
+      "cnPrintedPage": 40,
+      "enPdfPages": [
+        65,
+        66,
+        67
+      ],
+      "enPrintedPages": [
+        48,
+        49,
+        50
+      ],
+      "pageMarkdownSha256": "fcd4b26099de002ea90478385dab5f45d483de89e6c6c88be3786270b78ae7bb",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-055.png",
+      "sourcePageImageSha256": "e4243efb83aeb1872ab3e40837eb6db411c431fa76e9181c6d0fbaa7258e4732",
+      "enPageImages": [
+        {
+          "physicalPage": 65,
+          "file": "private-snapshot:volume4a/body-review/en-065.png",
+          "sha256": "02fff9c7bf29d958e1a46159e3ec064eb86261928eb02a8264bceb836b60b5a7"
+        },
+        {
+          "physicalPage": 66,
+          "file": "private-snapshot:volume4a/body-review/en-066.png",
+          "sha256": "b1a587307adc375dae1675417370965cd4ac799146356b2fd4f9849864d739bc"
+        },
+        {
+          "physicalPage": 67,
+          "file": "private-snapshot:volume4a/body-review/en-067.png",
+          "sha256": "b32c3886859c74578c6c564478ae8790fcd7cd99198bb702fc61ec191701b7dc"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-055",
+        "p-40"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number,retained as a hidden anchor."
+      ],
+      "exercises": [],
+      "coveredRegions": [
+        "Both relocated Boole/Carroll epigraphs,allattributionsanddates,allsixCarrollpronouns retainedinposition.",
+        "Allfourone-bitANDandfourthree-bitORformulaswithindividualcomplement placements;NOR/NAND aliases.",
+        "WholeSheffer/Peircehistoricalparagraph,allfourbaroperators/Csinglepipewarning and bibliography.",
+        "Entire3/4four-wayidentitychains,all5mod2equation,field-of-two-elements sentence.",
+        "Basicidentitiesrun-inheading/standalonecomplementoperator/list,6distributivityand7bothabsorptionforms."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 40,
+          "location": "Carroll epigraph two consequent modalities",
+          "enPosition": "EN65/printed48,ifitwasso,itmightbe;andifitwereso,itwouldbe",
+          "original": "如果它曾是真的，它就是真的过；如果它是真的，它就可能是真的",
+          "final": "如果它曾是真的，它就可能是真的；如果它是真的，它就会是真的",
+          "basis": "Restore might in the first consequent and would in the second. The six printed pronoun positions are unchanged, so answer1 references retain their source positions."
+        },
+        {
+          "cnPrintedPage": 40,
+          "location": "AlgebraicfieldafterEq5",
+          "enPosition": "EN67/printed50,inthefieldoftwoelements",
+          "original": "在两个元素的领域",
+          "final": "在含两个元素的域中",
+          "basis": "Field denotes the algebraic field referenced to section4.6, not a subject area/domain."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "Boole/Carrollopeningepigraphplacement",
+          "selectedCN": "Physical055/printed40top",
+          "providedEN": "Physical065/printed48top",
+          "decision": "BothchosenCNepigraphsarepresent,relocatedafterthetablepage. Thisresolvestheplacementobservationin054withoutchanging054source/proofhashes.",
+          "earlierReviewLocator": "private-snapshot:volume4a/verified/054.json",
+          "earlierReviewSha256": "ad4b11452feb36f2865a41a143ec40503ad831589b69f75f3898193931c1721f"
+        }
+      ],
+      "ocrRepairsOfNote": [
+        "Individualbitsnotwholeexpressionbars inallfourAND/ORenumerations.",
+        "3firstoperatorisequivalence;4firstoperatorisXORwithoutspuriousbarx.",
+        "AllSheffer/NOR/NANDoverbarsrestoredfrombothoriginals;noMtriangleminusreplacement.",
+        "Standalonefourthfundamentaloperatorisuppercomplementbar,notordinaryminus."
+      ],
+      "qualification": "Complete model direct CN/EN source-image page comparison. All actual formula/quote/bibliographic material covered; no new general Boolean theorem proof or already root-validated example recomputation. Current production rendering and actual desktop/narrow left/right views passed and are bound; final assembled acceptance remains separate.",
+      "pending": [
+        "Finalwhole-volumequestion-answerlinkchecks",
+        "Finalwhole-volumeinclusion",
+        "Finaloffline/production/browser/onlineacceptance"
+      ],
+      "figureAssets": [],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-055-epigraphs-detail.png",
+          "sha256": "2ff259de119c4b91076dbb4533003e36ad809910f650d6d0a13a694db7b7fa4c"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-055-nand-identities-detail.png",
+          "sha256": "4fce5fdb2e21329a615df9d05ba3af190c807f035b4fa5bfb99231f7e827db40"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-065-carroll-detail.png",
+          "sha256": "8ab3eaf6038066c08664ddaddfba1a9b0858c3e06cf4f4ba8b4c328dc84b11f8"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-067-field-detail.png",
+          "sha256": "2c91c1f33a2694c3a3814a8900171c03529c8bfc90b8b5b5fa24b679e4206efd"
+        }
+      ],
+      "sourceTypographicRepairs": [
+        {
+          "original": "谢佛竖扛",
+          "final": "谢佛竖杠",
+          "occurrences": 2,
+          "basis": "DirectCNenlargementactuallyprints扛;standardChinese杠denotestheverticalstroke,matchingEnglishstroke. Thisisaprintedorthographicrepair,nottreatedasOCR-sourceagreementorcountedasanadditionalsemanticcorrection."
+        }
+      ],
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/055-selected-cn-before-modality-field-and-orthography-4af309c2e64534c74b5f6c82c97835385653948e5b7a548eb47dc02fdcea564a/055.md",
+        "sha256": "4af309c2e64534c74b5f6c82c97835385653948e5b7a548eb47dc02fdcea564a",
+        "onlyBoundedChangesInTwoSemanticItemsAndTwoTypographicOccurrences": true,
+        "qualification": "SelectedCNinitialsnapshot,notpriorbrowseracceptance."
+      },
+      "syntaxCheck": {
+        "physicalPage": 55,
+        "markdownSha256": "fcd4b26099de002ea90478385dab5f45d483de89e6c6c88be3786270b78ae7bb",
+        "htmlSha256": "9c6a20cc8ec39f5e14cba17748ec043ffcc2341b3c191ca60324a6149b6d88f2",
+        "mathExpressions": 46,
+        "displayMath": 5,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-55.json",
+        "sha256": "bd49dc3baf8e910e33edc00b546b6b9b8def8180d24f96f9b8f7114f9047f848",
+        "cases": [
+          {
+            "physicalPage": 55,
+            "width": 1280,
+            "markdownSha256": "fcd4b26099de002ea90478385dab5f45d483de89e6c6c88be3786270b78ae7bb",
+            "documentWidth": 1280,
+            "math": 46,
+            "mathml": 46,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 46,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 55,
+            "width": 390,
+            "markdownSha256": "fcd4b26099de002ea90478385dab5f45d483de89e6c6c88be3786270b78ae7bb",
+            "documentWidth": 390,
+            "math": 46,
+            "mathml": 46,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 46,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actual current1280/390 production-direct left/right screenshot views checked. All15display blocks3–17, nested/operand complement scope, formula16/17bothends and relocated epigraphs compared. Finalassembled/offline/onlineacceptance separate."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/55-1280.png",
+          "sha256": "32047aa439c8800407d675d7e4095753730f97024f259455c39d8e6195652c06",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/55-390.png",
+          "sha256": "dbd3f86d225e555d377cd6b1f0205db03ba3e85d9277f46120e9582b841e7a94",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/55-390-right.png",
+          "sha256": "b0765db4e7861646482d1ce43d8635b7fee22595faa5410196cc9e64c4ec82ed",
+          "viewed": true
+        }
+      ],
+      "privateOriginalPageReviewSha256": "bfb00b78c778142a3e64293f509975220df575143eb3878904144155e6bf1ac2",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/055.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.1",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 56,
+      "cnPrintedPage": 41,
+      "enPdfPages": [
+        67,
+        68,
+        69
+      ],
+      "enPrintedPages": [
+        50,
+        51,
+        52
+      ],
+      "pageMarkdownSha256": "48cc650b09257253847ae14d790289b2fc93aa2b5aeb40ffbeaa945f131efdda",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-056.png",
+      "sourcePageImageSha256": "6d3ffb0172e5f93fc9f923ceaa496c508a52d835395f3851c09efcb5030abfbe",
+      "enPageImages": [
+        {
+          "physicalPage": 67,
+          "file": "private-snapshot:volume4a/body-review/en-067.png",
+          "sha256": "b32c3886859c74578c6c564478ae8790fcd7cd99198bb702fc61ec191701b7dc"
+        },
+        {
+          "physicalPage": 68,
+          "file": "private-snapshot:volume4a/body-review/en-068.png",
+          "sha256": "dd367d0977868f3eda6007976fff38b6bb4ebf76845a30d93a9f95951ad7829a"
+        },
+        {
+          "physicalPage": 69,
+          "file": "private-snapshot:volume4a/body-review/en-069.png",
+          "sha256": "ce5411c5b9f0f0a4449902f9a263bb06fb10de48b45845c4fcd3712634a8f53d"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-056",
+        "p-41"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number,retained as a hidden anchor."
+      ],
+      "exercises": [],
+      "coveredRegions": [
+        "Entiretennumberedblocks8–17includingboth9equalities,17tworows,andalltenlabels.",
+        "WholeDeMorganquote/attribution,bothA/Banda/bpairednotation,all11/12individual/collectivebars.",
+        "Jevonsthree-termcomplement:barA·B+barB·A+barA·barBversusbarA+barB,allbookreferencesand14centurybounds.",
+        "Both13/14nestedDeMorganbars and15twodistinctequivalentforms.",
+        "Complete4(n−1)lowerboundstatement/7.1.2–77reference;nomachinebaroverXORchain.",
+        "Wholen-variabletruth-tabledefinitionincludingfirstfour-indexpatterns/2^nbits.",
+        "Zhegalkinreference/n>0condition/full16/17withn−1and0/1arguments;precedenceparenthesis and wholephysicalpageendingvariableset."
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "ocrRepairsOfNote": [
+        "8xXORxwithoutbar;9neitherXORoperandhasmachinebar;10singlebarxnotdoublebar.",
+        "Jevonsthreeproductsreadindividually,notmachinebaroverentireAB/BAproducts.",
+        "13/14outerandinnerbarsarebothpresent;15outerbaronlyonxANDy.",
+        "LowerboundXORchainhasnocollectivebar;n>0notm>0.",
+        "16/17noextraoverbararoundh;XOR/ANDprecedenceandallindicesreadfromsources."
+      ],
+      "qualification": "Complete model direct CN/EN source-image page comparison. All actual formula/quote/bibliographic material covered; no new general Boolean theorem proof or already root-validated example recomputation. Current production rendering and actual desktop/narrow left/right views passed and are bound; final assembled acceptance remains separate.",
+      "pending": [
+        "Finalwhole-volumequestion-answerlinkchecks",
+        "Finalwhole-volumeinclusion",
+        "Finaloffline/production/browser/onlineacceptance"
+      ],
+      "figureAssets": [],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-056-jevons-and-nested-bars.png",
+          "sha256": "bb0d1587c5e7621dd0d5036381dcd7e1c0af1423a4dd6795f426dad3acb68c25"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-068-jevons-and-nested-bars.png",
+          "sha256": "ac57e7274d9dfa307b815083cf635db3d53b0c043bcaa86dc00dfa85ad75006d"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-056-recursion-detail.png",
+          "sha256": "40f3d4fb8e68f9d64c24c06d868e0c621e3d43631522d47c5a8ca18a6d786769"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-068-recursion-detail.png",
+          "sha256": "92de62e7c8248ded2bcea76b6bd1bf560049df0c4cdb45264a0d850a053d3bae"
+        }
+      ],
+      "endsMidSentence": true,
+      "followingPageContinuation": "CN057continues after variable set with the remaining operators/constants of the same recursive-expansion sentence.",
+      "syntaxCheck": {
+        "physicalPage": 56,
+        "markdownSha256": "48cc650b09257253847ae14d790289b2fc93aa2b5aeb40ffbeaa945f131efdda",
+        "htmlSha256": "9da0b25e1276b596f8f37e121c4be3a0179881ae02b8f0e411b7001654e32433",
+        "mathExpressions": 51,
+        "displayMath": 10,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-56.json",
+        "sha256": "8933a2194b325eb790e485f1078c14d43d39c9609ae1237a49d3f1d0d7fbc4f3",
+        "cases": [
+          {
+            "physicalPage": 56,
+            "width": 1280,
+            "markdownSha256": "48cc650b09257253847ae14d790289b2fc93aa2b5aeb40ffbeaa945f131efdda",
+            "documentWidth": 1280,
+            "math": 51,
+            "mathml": 51,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 51,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 56,
+            "width": 390,
+            "markdownSha256": "48cc650b09257253847ae14d790289b2fc93aa2b5aeb40ffbeaa945f131efdda",
+            "documentWidth": 390,
+            "math": 51,
+            "mathml": 51,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 51,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actual current1280/390 production-direct left/right screenshot views checked. All15display blocks3–17, nested/operand complement scope, formula16/17bothends and relocated epigraphs compared. Finalassembled/offline/onlineacceptance separate."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/56-1280.png",
+          "sha256": "cc911eb850cfe79918c37a37be49ebbcc71bd1812e71e64bc0d032084de917cb",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/56-390.png",
+          "sha256": "f1378cc439e3dc867d258dffefcbeba7eeeddd5982b6f912df9d529f47459680",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/56-390-right.png",
+          "sha256": "c74191078e47cb3408095a6a2869ca10ec18b76c8d39a329d9615f01e2afbeec",
+          "viewed": true
+        }
+      ],
+      "privateOriginalPageReviewSha256": "7b6389cd2419169f3054a4541434bbae4aec5d5f56bc1b9a9421f28ecc2083f6",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/056.json"
+    }
+  ],
+  "qualification": "Only these two complete physical pages. The Boole/Carroll epigraphs are present on CN055, relocated from EN065. Carroll consequent modalities and algebraic field terminology corrected; two repeated printed Chinese typos repaired separately. All15display blocks3–17 and inline formulas directly compared. CN056 ends mid-sentence, continued on057. No new general theorem proof or whole-section completion claimed."
+}

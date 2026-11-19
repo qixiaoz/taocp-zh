@@ -1,0 +1,1590 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-assigned-physical-page-source-review-and-private-two-width-proof",
+  "cnPhysicalPages": [
+    388,
+    389
+  ],
+  "cnPrintedPages": [
+    373,
+    374
+  ],
+  "masterSha256": null,
+  "mathExpressions": 45,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 1,
+  "logicalAssemblies": [
+    {
+      "file": "assets/volume4a/review/body-388-389-tree-table3-and-catalan-387-tail-389-assembly.json",
+      "sha256": "b1181700e5292d2bc2df4e363396ecb7ca396a8cc8bd428e2a4fce2f81e2f125"
+    }
+  ],
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 388,
+      "cnPrintedPage": 373,
+      "enPdfPages": [
+        465,
+        466
+      ],
+      "enPrintedPages": [
+        448,
+        449
+      ],
+      "pageMarkdownSha256": "c58ca2b76f1562dbff6375f7140a56676d758fdec5cb1bb115b17802651deddc",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/388.jpg",
+      "sourcePageImageSha256": "21aaa1874a60424825f058b45ba3feb386a64d36109fd49ae2743f50df040da0",
+      "enPageImages": [
+        {
+          "physicalPage": 465,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-465.png",
+          "sha256": "8e09a274eea58b440bc78f808021921cdb4000ea168c1f33c12303c920988c19"
+        },
+        {
+          "physicalPage": 466,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-466.png",
+          "sha256": "1daf7ed450b38b7cffbcb4fd14b9e31318f8a537b352568050b3a1e09ca1c07b"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-388",
+        "p-373"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-069",
+          "section": "7.2.1.6",
+          "cnPdfPage": 388,
+          "enPdfPages": [
+            465
+          ],
+          "location": "算法L与算法B的同名链接",
+          "original": "不能与算法B和表2中的链接……相比",
+          "final": "与算法 B 和表2中的链接 $l_1\\ldots l_n$ 和 $r_1\\ldots r_n$ 不能直接对应",
+          "basis": "原文 not comparable 紧接着给出编号差异：算法L的编号由中序／后序决定，算法B由前序决定，同名字段不能按相同编号和意义逐项对应。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "c58ca2b76f1562dbff6375f7140a56676d758fdec5cb1bb115b17802651deddc",
+          "cnPrintedPage": 373
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-binary-01.svg",
+          "sha256": "2f797c4d670742723f79735012473f73d33c8885a9e6bb712a9df9077a1fda18"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-forest-01.svg",
+          "sha256": "3b8eff87e3b98caa397c80d3ab004c26efa180b8840d97c75f9ddd49f29f6513"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-coforest-01.svg",
+          "sha256": "1636a88b632a8b868b5ab3ec95f70310c5b7adb60d848c030db0a0d30e632c5d"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table1-forest-14.svg",
+          "sha256": "6d29b3fe56e0dbafc14d33a7121ac99dc46560f2080231e17706cd5710728885"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-binary-02.svg",
+          "sha256": "da5792b543e44e06d0c71bd4d7cdf1f74192fc223530327e8e686fbc37b91a73"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-forest-02.svg",
+          "sha256": "f49ef4b9b5b3345bfacf8b97c97e98cea08c61e4887f4575322cab4f9d72baa2"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-coforest-02.svg",
+          "sha256": "8725952c2ccde5d855cf179f63675d7a52d824096bb4e5a08f2d7f17f821426b"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table1-forest-05.svg",
+          "sha256": "f6edc34caf94886f1d809c12a9f7548e5add02bb4f41d2bafb727e9822bc09c7"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-binary-03.svg",
+          "sha256": "b32f74c9d3cdc7072a8b70f5336fe1d5f6e9930a24769ea57643142611994e96"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-forest-03.svg",
+          "sha256": "7bcbc1aedc30a8555d0d3c707d2bcd564d4c4969067b9c1b3154fc10d65c4b4e"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-coforest-03.svg",
+          "sha256": "ad0cca84e0b08adfb87b20c9377f34112d40c0c539fa4ecd356653de257df06c"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table1-forest-07.svg",
+          "sha256": "ef1f09e6e817bd500fe7c8a8d98b86de4c7f3c8abe9ef8637a8f20e175494811"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-binary-04.svg",
+          "sha256": "0385c10a5394304fa5ca020d8013939edc8a7912611c9e0132dace410e1b466b"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-forest-04.svg",
+          "sha256": "8a9101be41f04b5e2ddabfe11f552b4495f3233b03fd58c11844e4f87a5f7499"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-coforest-04.svg",
+          "sha256": "129a3f414e3942654ea727bd865f5f7c248aa68c1068228001b08385194801af"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table1-forest-11.svg",
+          "sha256": "f52c3c29ecfa98c01242586334e0414d89fe372daee1189b074dbcc08e5d5327"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-binary-05.svg",
+          "sha256": "9a17ad22810b4a3f4a59923d460671e0bddcca23b4a666de2aac0366eadb0cc3"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-forest-05.svg",
+          "sha256": "37da6d2c0ba69162618b52ffd0f746a703af9238cf724e062fad2a952ec4f750"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-coforest-05.svg",
+          "sha256": "3aab3064ed846274c560415b40e30d9ceabb514506af00dc35400f2565dc9586"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table1-forest-03.svg",
+          "sha256": "2476bf6a41a496053b30f170c53462128bf02e62805028d2bc04ccdb4bfd4fc0"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-binary-06.svg",
+          "sha256": "985d9fd9161803306c8af22d0230d5cc7ba367da36d131ca05e1ab72a9396155"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-forest-06.svg",
+          "sha256": "41d93d69d3a0e9422578bbe490d672eb14c88ff6ae1cc954c930bb9f6065660a"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-coforest-06.svg",
+          "sha256": "9cff13c630c0c0090178ac953112d60d72c9841a89d9288f2645bc3513ea6149"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table1-forest-02.svg",
+          "sha256": "e443f7aaec5bf5e5f64154fa1d7fd505df298c870e434c8e11103833fa22e52d"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-binary-07.svg",
+          "sha256": "4cad683277e7b58acca492f406993de58e5e669b4a6c81c1ba070ec247db3e4c"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-forest-07.svg",
+          "sha256": "2195bf06c521e8260b9434e327a6543815da437ab16191acc9e47a0123ae86f0"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-coforest-07.svg",
+          "sha256": "1e6ce3c4c164905a134bbd1b41aaa55065f4f00dd17861b80d52ddb869f98ced"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table1-forest-10.svg",
+          "sha256": "c37bd0e53bfc2b570fa171c1da26dfd93bf33cca928d9bd53e1e7daa9d3570e9"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-binary-08.svg",
+          "sha256": "a8e88330c00b7c1c891c81a5434ed9714928c39f4883d35d32bdc53f31098a39"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-forest-08.svg",
+          "sha256": "e895a7cb4fc96be67a323efc2203e64dd9828031ebfb68d535ac421b4268395b"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-coforest-08.svg",
+          "sha256": "5157a47d663cdf95cbefade888ad22306cdd163a356fa2a84538b2bf2bb784a5"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table1-forest-12.svg",
+          "sha256": "25bcdcc8b7cf0e7eefaf891816382d3e62da902a15711b8b866259c3aa4e8b84"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-binary-09.svg",
+          "sha256": "326ebe9f3a17974fa198bf6a35be61be74e89066285200ec75e5cca9b4a4254d"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-forest-09.svg",
+          "sha256": "2fd5c681da08e80a1bf06e7841aae0bea5f0e777921d1c84562b2f4ac38a6299"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-coforest-09.svg",
+          "sha256": "28fa5f820103a2fd21df6300a6886f5cda9d79dd73be24e7bfd5531f6e50f0e7"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table1-forest-06.svg",
+          "sha256": "726a0d9bd35dcb2a5a2354ffc00e8d0d6adeeecb2c2c25d476441f5cedc61f53"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-binary-10.svg",
+          "sha256": "0dc303468b2b2826dae98d10946c227dcea4bb5efe6fa94a435fa5e768513bf1"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-forest-10.svg",
+          "sha256": "3ac940be291fc64424e8588faf960085730e7d0a7bb6ca8f73c2399d89dff6de"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-coforest-10.svg",
+          "sha256": "e462c07b12b63531ddcd1f96307bfde095ece72c3992e8fa576d8bd2151fe66e"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table1-forest-01.svg",
+          "sha256": "c497aea7066be09a61ffbab9af8043b46e9ca4ec1bbb1026e69090219b5db0a5"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-binary-11.svg",
+          "sha256": "3b279a18b6b3599840e5717b76ce5e926a1a977128368636059a692c6b5da572"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-forest-11.svg",
+          "sha256": "a4bb24288702954006f35337d652c8618a738c7e1ec59e87713e4542b1a0b4cc"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-coforest-11.svg",
+          "sha256": "9c99acbf47c1deeaac720d10f5d30fcd4258601936ccd51d9d100a04c23ba8c1"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table1-forest-09.svg",
+          "sha256": "b665463eef8ed4d7ff0f9297864c8b47ac0bba504d8640d5bbe009d37f2e8dec"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-binary-12.svg",
+          "sha256": "3bc8227bc7798fde7b67e63457d8a12a4bd8f504496767ae429206e50c2578a9"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-forest-12.svg",
+          "sha256": "3d46489b0d3ddbdb952c4c5e8648def862ab75a4744ddfcbca26d23905313771"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-coforest-12.svg",
+          "sha256": "5613ac38166c92380df68f001452653a47c1899049c73b42a2885aa62371f06c"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table1-forest-13.svg",
+          "sha256": "dc505c76625132449fa85c4c71b73095ada83d71c5e9554079dd859dd0987fd3"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-binary-13.svg",
+          "sha256": "866cb68399746e6aac9f0585c4f31dcbc203eb3060f7d2b871a70d4b4b2c2a98"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-forest-13.svg",
+          "sha256": "7a9c6492961e3a85d7ed829d1129bdc5732e72dda92eb22116878bac9f8103cb"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-coforest-13.svg",
+          "sha256": "02b89e7a8d7fd2f6c47dbac19da54b66a3fbe8041425ab28590544c154fb5e74"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table1-forest-04.svg",
+          "sha256": "511fb37b38e9a986ad2d1d53905d29d3e8099e6c9598b912a9ae70e56100a528"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-binary-14.svg",
+          "sha256": "ea15a7577dde98cd44682cc6214caf0f3b6502584d2075e6166a6b7987d97bba"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-forest-14.svg",
+          "sha256": "f7c040fcc5238ea2b5d6ff326b2e1aba15ec9042a4050ec8e4e5fa40e7f65da2"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table3-coforest-14.svg",
+          "sha256": "1d896bdd18af48dd72ff49ff5443349f4f1528573aaafb35fa829dfbfb1d1ff4"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-table1-forest-08.svg",
+          "sha256": "aeabe3b85b0a613074e06f7ab6fdc515b73565b2ff9649ecf56bd1124e7e5a4c"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 388,
+        "markdownSha256": "c58ca2b76f1562dbff6375f7140a56676d758fdec5cb1bb115b17802651deddc",
+        "htmlSha256": "478cd26bf95d6ab5467c06f4496b0de1bf245f06f6b981410620b7318118c96b",
+        "mathExpressions": 16,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 56,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/result.json",
+        "sha256": "b3dc21220e81731284e429710959f26613350cfc0d4f558479815c42880f943d",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 16,
+            "mathML": 16,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 728,
+                "content": 848,
+                "left": 0,
+                "right": 120,
+                "max": 120,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 388,
+            "width": 1280,
+            "pageMarkdownSha256": "c58ca2b76f1562dbff6375f7140a56676d758fdec5cb1bb115b17802651deddc",
+            "htmlSha256": "478cd26bf95d6ab5467c06f4496b0de1bf245f06f6b981410620b7318118c96b",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [],
+            "treeTables": [
+              {
+                "number": 3,
+                "fieldsMatch": true,
+                "imagesMatch": true,
+                "imageScaleMatch": true,
+                "observed": {
+                  "number": 3,
+                  "headingCount": 9,
+                  "fields": [
+                    [
+                      "10000",
+                      "2340",
+                      "0123",
+                      "1234",
+                      "0000"
+                    ],
+                    [
+                      "10003",
+                      "2400",
+                      "0122",
+                      "1243",
+                      "1000"
+                    ],
+                    [
+                      "10002",
+                      "4300",
+                      "0121",
+                      "1423",
+                      "2000"
+                    ],
+                    [
+                      "40001",
+                      "2300",
+                      "0120",
+                      "4123",
+                      "3000"
+                    ],
+                    [
+                      "40021",
+                      "3000",
+                      "0110",
+                      "4132",
+                      "3100"
+                    ],
+                    [
+                      "10023",
+                      "4000",
+                      "0111",
+                      "1432",
+                      "2100"
+                    ],
+                    [
+                      "10020",
+                      "3040",
+                      "0113",
+                      "1324",
+                      "0100"
+                    ],
+                    [
+                      "30010",
+                      "2040",
+                      "0103",
+                      "3124",
+                      "0200"
+                    ],
+                    [
+                      "40013",
+                      "2000",
+                      "0100",
+                      "4312",
+                      "3200"
+                    ],
+                    [
+                      "40123",
+                      "0000",
+                      "0000",
+                      "4321",
+                      "3210"
+                    ],
+                    [
+                      "30120",
+                      "0040",
+                      "0003",
+                      "3214",
+                      "0210"
+                    ],
+                    [
+                      "20100",
+                      "0340",
+                      "0023",
+                      "2134",
+                      "0010"
+                    ],
+                    [
+                      "20103",
+                      "0400",
+                      "0022",
+                      "2143",
+                      "1010"
+                    ],
+                    [
+                      "40102",
+                      "0300",
+                      "0020",
+                      "4213",
+                      "3010"
+                    ]
+                  ],
+                  "diagramAssets": [
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-01.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-01.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-01.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-14.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-02.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-02.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-02.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-05.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-03.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-03.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-03.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-07.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-04.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-04.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-04.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-11.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-05.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-05.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-05.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-03.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-06.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-06.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-06.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-02.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-07.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-07.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-07.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-10.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-08.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-08.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-08.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-12.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-09.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-09.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-09.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-06.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-10.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-10.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-10.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-01.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-11.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-11.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-11.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-09.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-12.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-12.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-12.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-13.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-13.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-13.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-13.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-04.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-14.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-14.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-14.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-08.svg",
+                      "loaded": true,
+                      "width": 68
+                    }
+                  ],
+                  "overflow": 120
+                },
+                "passed": true
+              }
+            ]
+          },
+          {
+            "documentWidth": 390,
+            "math": 16,
+            "mathML": 16,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 794,
+                "left": 0,
+                "right": 484,
+                "max": 484,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 388,
+            "width": 390,
+            "pageMarkdownSha256": "c58ca2b76f1562dbff6375f7140a56676d758fdec5cb1bb115b17802651deddc",
+            "htmlSha256": "478cd26bf95d6ab5467c06f4496b0de1bf245f06f6b981410620b7318118c96b",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [],
+            "treeTables": [
+              {
+                "number": 3,
+                "fieldsMatch": true,
+                "imagesMatch": true,
+                "imageScaleMatch": true,
+                "observed": {
+                  "number": 3,
+                  "headingCount": 9,
+                  "fields": [
+                    [
+                      "10000",
+                      "2340",
+                      "0123",
+                      "1234",
+                      "0000"
+                    ],
+                    [
+                      "10003",
+                      "2400",
+                      "0122",
+                      "1243",
+                      "1000"
+                    ],
+                    [
+                      "10002",
+                      "4300",
+                      "0121",
+                      "1423",
+                      "2000"
+                    ],
+                    [
+                      "40001",
+                      "2300",
+                      "0120",
+                      "4123",
+                      "3000"
+                    ],
+                    [
+                      "40021",
+                      "3000",
+                      "0110",
+                      "4132",
+                      "3100"
+                    ],
+                    [
+                      "10023",
+                      "4000",
+                      "0111",
+                      "1432",
+                      "2100"
+                    ],
+                    [
+                      "10020",
+                      "3040",
+                      "0113",
+                      "1324",
+                      "0100"
+                    ],
+                    [
+                      "30010",
+                      "2040",
+                      "0103",
+                      "3124",
+                      "0200"
+                    ],
+                    [
+                      "40013",
+                      "2000",
+                      "0100",
+                      "4312",
+                      "3200"
+                    ],
+                    [
+                      "40123",
+                      "0000",
+                      "0000",
+                      "4321",
+                      "3210"
+                    ],
+                    [
+                      "30120",
+                      "0040",
+                      "0003",
+                      "3214",
+                      "0210"
+                    ],
+                    [
+                      "20100",
+                      "0340",
+                      "0023",
+                      "2134",
+                      "0010"
+                    ],
+                    [
+                      "20103",
+                      "0400",
+                      "0022",
+                      "2143",
+                      "1010"
+                    ],
+                    [
+                      "40102",
+                      "0300",
+                      "0020",
+                      "4213",
+                      "3010"
+                    ]
+                  ],
+                  "diagramAssets": [
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-01.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-01.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-01.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-14.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-02.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-02.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-02.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-05.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-03.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-03.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-03.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-07.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-04.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-04.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-04.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-11.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-05.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-05.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-05.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-03.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-06.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-06.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-06.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-02.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-07.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-07.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-07.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-10.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-08.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-08.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-08.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-12.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-09.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-09.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-09.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-06.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-10.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-10.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-10.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-01.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-11.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-11.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-11.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-09.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-12.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-12.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-12.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-13.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-13.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-13.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-13.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-04.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-binary-14.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-forest-14.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table3-coforest-14.svg",
+                      "loaded": true,
+                      "width": 68
+                    },
+                    {
+                      "path": "volume4a/figures/7-2-1-6-table1-forest-08.svg",
+                      "loaded": true,
+                      "width": 68
+                    }
+                  ],
+                  "overflow": 484
+                },
+                "passed": true
+              }
+            ]
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/388-1280-walk0.png",
+          "sha256": "30713496721c0c7d15ac27fbb22a20e276d6f7f88b29caa93046271df04af92f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/388-1280-walk1.png",
+          "sha256": "ee7818babccb25fdb2065cebd9460a74ff406722ca612254ae75523384b3e251",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/388-390-walk0.png",
+          "sha256": "2c45a7af722fcfc172a4d589e0509a3e89c2a47d33fdc36331319f721e82707e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/388-390-walk1.png",
+          "sha256": "9507e318baedd51dbf783f9d3e60c4ea1bf6a214732de7fd4dc608b364725a84",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/388-390-walk2.png",
+          "sha256": "fd05c7ac89a34149da16bb15fd3f9396cfaf9e56ab7be0e51ac5a529c21ede4d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/388-1280-table0-pan0.png",
+          "sha256": "bad047b525ae6c7ac126323712400c36e266750a913e4eca59f9469be4ddb21c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/388-1280-table0-pan1.png",
+          "sha256": "c3f88f3438e92257a00cdaa66a362376f336033cb0b40be1f868d5797f2bfe59",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/388-390-table0-pan0.png",
+          "sha256": "ed5a5d64dbfb94c8c629d828b58d2d9697a48e9bb8232259368a7c0124df5628",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/388-390-table0-pan1.png",
+          "sha256": "5d9c957314e831248e15395fd82096ae4ab94a7df39ca8cd32f853da4ee52964",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/388-390-table0-pan2.png",
+          "sha256": "cff6ccdde860786fef11bec6a69d93e6a876e91c337e64a32a33ae822fbf0e4e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/388-390-table0-pan3.png",
+          "sha256": "ceb24dd7173ed65a56594a445a747956d517fbf5ad33ea0ddf4625eb8629a6cf",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-388-389-source-fields.json",
+        "sha256": "63758459842f0ac8778f6697b4b52c71c18f09d10463d239c0550e3be869f87b"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-388-389-tree-table3-and-catalan-387-tail-389-assembly.json",
+          "sha256": "b1181700e5292d2bc2df4e363396ecb7ca396a8cc8bd428e2a4fce2f81e2f125"
+        }
+      ],
+      "coveredRegions": [
+        "Table 3 all fourteen rows, full earlier and corrected dual columns, continuation of the coforest definition, distinct traversal conventions, start of prune-and-graft."
+      ],
+      "followingPageContinuation": "The phrase 另一个链接就 joins 变为零 on CN389.",
+      "qualification": "Full CN388–389 and matched EN465–468 visually compared, with the 2019-04-23 official Table 3 correction. All 70 editable numeric fields, nine headings, all 56 diagram assets in source order, and all 56 CSS display widths independently checked in physical and continuous desktop/mobile browser proofs.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/388-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "5c641ead0b8db99c818989b01a6287a258fe31c559c86f6d5732df51030f78f3",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "f6da556c2306cda878ec0732dabb1c84942a8749527898d6eb4a37f8f02b74d5",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/388.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 389,
+      "cnPrintedPage": 374,
+      "enPdfPages": [
+        466,
+        467,
+        468
+      ],
+      "enPrintedPages": [
+        449,
+        450,
+        451
+      ],
+      "pageMarkdownSha256": "8386b92b283a7bca5104d24b457ad983a2978ca0b317ff619e9df2d7c7b918c2",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": true,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/389.jpg",
+      "sourcePageImageSha256": "160e63dbed637369e9c2d2b3744d84cfddc2561c247b8f6395918bdd9a071931",
+      "enPageImages": [
+        {
+          "physicalPage": 466,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-466.png",
+          "sha256": "1daf7ed450b38b7cffbcb4fd14b9e31318f8a537b352568050b3a1e09ca1c07b"
+        },
+        {
+          "physicalPage": 467,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-467.png",
+          "sha256": "3408b8393b2a9cf7be49b9ecfec764d7a1c1e44e8c12bc6d510c26d7d0f3af6f"
+        },
+        {
+          "physicalPage": 468,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-468.png",
+          "sha256": "b914fdb735a47d3577865bd5c15f696ba157c49bfd6716a1150d40c079a238ae"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-389",
+        "p-374"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "figureAssets": [],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 389,
+        "markdownSha256": "8386b92b283a7bca5104d24b457ad983a2978ca0b317ff619e9df2d7c7b918c2",
+        "htmlSha256": "5215e65ba48a04e797b2459ede3ef06b373ab3664bb22d646861d60c2d48ee01",
+        "mathExpressions": 29,
+        "displayMath": 8,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/result.json",
+        "sha256": "b3dc21220e81731284e429710959f26613350cfc0d4f558479815c42880f943d",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 29,
+            "mathML": 29,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 728,
+                "content": 860,
+                "left": 0,
+                "right": 132,
+                "max": 132,
+                "pass": true
+              },
+              {
+                "client": 728,
+                "content": 739,
+                "left": 0,
+                "right": 11,
+                "max": 11,
+                "pass": true
+              },
+              {
+                "client": 728,
+                "content": 734,
+                "left": 0,
+                "right": 6,
+                "max": 6,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 389,
+            "width": 1280,
+            "pageMarkdownSha256": "8386b92b283a7bca5104d24b457ad983a2978ca0b317ff619e9df2d7c7b918c2",
+            "htmlSha256": "5215e65ba48a04e797b2459ede3ef06b373ab3664bb22d646861d60c2d48ee01",
+            "errors": [],
+            "passed": true,
+            "imageLinks": []
+          },
+          {
+            "documentWidth": 390,
+            "math": 29,
+            "mathML": 29,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 476,
+                "left": 0,
+                "right": 166,
+                "max": 166,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 860,
+                "left": 0,
+                "right": 550,
+                "max": 550,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 739,
+                "left": 0,
+                "right": 429,
+                "max": 429,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 630,
+                "left": 0,
+                "right": 320,
+                "max": 320,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 618,
+                "left": 0,
+                "right": 308,
+                "max": 308,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 734,
+                "left": 0,
+                "right": 424,
+                "max": 424,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 657,
+                "left": 0,
+                "right": 347,
+                "max": 347,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 664,
+                "left": 0,
+                "right": 354,
+                "max": 354,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 389,
+            "width": 390,
+            "pageMarkdownSha256": "8386b92b283a7bca5104d24b457ad983a2978ca0b317ff619e9df2d7c7b918c2",
+            "htmlSha256": "5215e65ba48a04e797b2459ede3ef06b373ab3664bb22d646861d60c2d48ee01",
+            "errors": [],
+            "passed": true,
+            "imageLinks": []
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-1280-walk0.png",
+          "sha256": "1fcf09e50c8f080ba4f56e2d14512fc39bf5a9596ec5a211d485acbae0692207",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-1280-walk1.png",
+          "sha256": "85cbef3c76da21d302e996266735daff74c22e68e8d93b7df46c7dff213ec59c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-1280-walk2.png",
+          "sha256": "234faad3b79af1c9e15781a5036e0928eed438eec3d8a006a53ac237f93c2c1d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-390-walk0.png",
+          "sha256": "0b1e0774bd3a03c81dbde2dd12d7be99fe2ae3838848c4de14c17a0a5374df2a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-390-walk1.png",
+          "sha256": "fdb97e37e9716c83cf9649d78ac470ea9d4a959ec4921d0826561b4786a52760",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-390-walk2.png",
+          "sha256": "f5e47b84b54b4fa3d7111f02844ace67b8df66038f7d4aaa081ab6e190a0b301",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-390-walk3.png",
+          "sha256": "8eb539f1fd190e0447f360f03e395d360536224c3b778b1d9a8f90c894181d5d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-1280-display1-right.png",
+          "sha256": "4042f249017996cb1091efc23bc1e5f4c76bbfd12bcae13becceac92b3e9eda0",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-1280-display2-right.png",
+          "sha256": "f808aebba0dc0371e5d7dee5e67eccd4c0e28fac5aa7bd39b8aa4f8a16b5542b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-1280-display5-right.png",
+          "sha256": "55666c4c5f6ef801691dea9a1a9bfe897f46c0a47a56a5375be74e4747fd7634",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-390-display0-right.png",
+          "sha256": "3480d48e5e153f2a50f010eaf8f8cffcf305e78d73853c94709d18febc1d749c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-390-display1-right.png",
+          "sha256": "effcd062b3a6965a2b9013669ff1a0a0a865cd7c7807b74e5192bd715ae3a9fc",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-390-display2-right.png",
+          "sha256": "c4f4d3d57e9e41a9916d0d5282f07f6e8287e1040af2af262b4cbcd9afcc77b7",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-390-display3-right.png",
+          "sha256": "5ca0e09e802495ff82e4d134f207f4d0a6f048cae6be395c5931c3575b75d9b7",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-390-display4-right.png",
+          "sha256": "88ea92b443d0449d6eecfd59e8716a315490b39ca417f52a9358c084f8c28ad1",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-390-display5-right.png",
+          "sha256": "5650fabfa75f49195a5ed71651b3650c635d13f4b7a0a0efa005b99d8727e91f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-390-display6-right.png",
+          "sha256": "5ea044bfe4d28cdaa0de89c2327f5e4056310a6bfae850f1f2c5da156041ad5a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/388-389/389-390-display7-right.png",
+          "sha256": "01cd3091556f8a319a426ad10f2bf6df195a5b6778b6f0220356f3c5a9bd6752",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-388-389-source-fields.json",
+        "sha256": "63758459842f0ac8778f6697b4b52c71c18f09d10463d239c0550e3be869f87b"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-388-389-tree-table3-and-catalan-387-tail-389-assembly.json",
+          "sha256": "b1181700e5292d2bc2df4e363396ecb7ca396a8cc8bd428e2a4fce2f81e2f125"
+        }
+      ],
+      "coveredRegions": [
+        "Finish the prune-and-graft paragraph; equations (15)–(21), all fourteen Catalan numbers, cited paper and the operation count."
+      ],
+      "followingPageContinuation": "CN390 supplies the zero-valued boundary cases for (21) and the triangular array (22).",
+      "qualification": "Full CN388–389 and matched EN465–468 visually compared, with the 2019-04-23 official Table 3 correction. All 70 editable numeric fields, nine headings, all 56 diagram assets in source order, and all 56 CSS display widths independently checked in physical and continuous desktop/mobile browser proofs.",
+      "privateOriginalPageReviewSha256": "efde6ec89824006254ddc2251b9b7b1117fabb5c5068244da7a2210d795091c0",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/389.json"
+    }
+  ],
+  "qualification": "Full CN388–389 and matched EN465–468 visually compared, with the 2019-04-23 official Table 3 correction. All 70 editable numeric fields, nine headings, all 56 diagram assets in source order, and all 56 CSS display widths independently checked in physical and continuous desktop/mobile browser proofs."
+}

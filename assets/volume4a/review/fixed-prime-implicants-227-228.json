@@ -1,0 +1,112 @@
+{
+  "scope": "All 20 three-variable monotone truth tables for the recurrence in (137), the two original example functions in fixed order, and the 12-edge complete 3×3 grid. No large Y12 diagram computation.",
+  "monotoneRecurrenceCases": 20,
+  "examples": [
+    {
+      "function": "f",
+      "truthValues": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "minimalSolutionMasks": [
+        3,
+        4
+      ],
+      "bddSize": 5,
+      "primeImplicantZddSize": 5,
+      "sharedShape": true,
+      "bdd": [
+        1,
+        [
+          2,
+          0,
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        1
+      ],
+      "primeImplicantZdd": [
+        1,
+        [
+          2,
+          0,
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        1
+      ]
+    },
+    {
+      "function": "g",
+      "truthValues": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minimalSolutionMasks": [
+        2,
+        5
+      ],
+      "bddSize": 6,
+      "primeImplicantZddSize": 5,
+      "sharedShape": false,
+      "bdd": [
+        1,
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          [
+            3,
+            0,
+            1
+          ],
+          1
+        ]
+      ],
+      "primeImplicantZdd": [
+        1,
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "gridEdgeSubsets": 4096,
+  "connectedSpanningSubgraphs": 431,
+  "spanningTrees": 192,
+  "pageMarkdownHashes": {
+    "227": "2d1ce4b62580049b328b922bb4d5fc451f67215ced115a42fae970f3809dae62",
+    "228": "c4cfb77e5b880ebee5431cbd7458a6be35f791671bda766ff5dfd11a69436fce"
+  },
+  "checkerSha256": "051c50ae8a6d722146a0152da4cbf28a54a9ec9edf88451d82afa77eb76e6649",
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+}

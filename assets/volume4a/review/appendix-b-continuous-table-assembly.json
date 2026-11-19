@@ -1,0 +1,1032 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "scope": "PrivatecontinuousAppendixBsourceboundassembly;notwholemaster/offline/routed/online",
+  "reviewerType": "model-source-review-and-actual-private-browser",
+  "humanSignOff": false,
+  "assembly": {
+    "schemaVersion": 1,
+    "scope": "PrivateeditablecontinuousAppendixBassembly;notwholemaster/offline/routed/online",
+    "candidateSha256": "2a8fe4e4f296adb2e4813f593c511b2cb21ea69244c2ad9e798a176a77b24934",
+    "frozenReceiptSha256": "b30f458817ce2396dccaccc9fe39ec58d7563496d82e2ad9a9e7440e9b7e009c",
+    "sourcePages": [
+      {
+        "cnPdfPage": 705,
+        "pageMarkdownSha256": "b8d59c297c88bc75d3ae59cd8e93d03108bda7cf7cc89d5b152cba9c852eab92",
+        "pageReviewSha256": "76fbab7dad766ec2c3fb3c81ef87091f060a4b0fa175735057fef28b0ce828b1",
+        "bodyRows": 21
+      },
+      {
+        "cnPdfPage": 706,
+        "pageMarkdownSha256": "d6c1809d7dc58d37629c4ec175769a27092c360206eeca4fdad66d3598e50712",
+        "pageReviewSha256": "2dd4a118fda63a03df37aac3bf2508eccf22d182ea91b32784ef4b17f5be7ab4",
+        "bodyRows": 38
+      },
+      {
+        "cnPdfPage": 707,
+        "pageMarkdownSha256": "32a30a797b5a57cf35cb69f40de3400ce525dd2accf1e81854ecc72956c3e332",
+        "pageReviewSha256": "b35a25bee7096350f7c8bdd4a909c6dbb788abab2a0d59e3901155570272554d",
+        "bodyRows": 36
+      },
+      {
+        "cnPdfPage": 708,
+        "pageMarkdownSha256": "85ee3c430fb50e51f77c7e2b24446150f91812acf76d1f426f9e0ae8b9bc3358",
+        "pageReviewSha256": "9454d8a93e8a6cd1adb566141bd11d8218f0653ec7e780dd3648e73077083b89",
+        "bodyRows": 40
+      },
+      {
+        "cnPdfPage": 709,
+        "pageMarkdownSha256": "028fca173606e8e3979b1f8974a93dd3f9ac8bb547f0192374529541ba2ada91",
+        "pageReviewSha256": "f1dabc34bb56564bcaa89523d5fdae77b2bcdd646ba65bad6cf929687a823956",
+        "bodyRows": 25
+      }
+    ],
+    "originalOptionalTableSha256": "db2fe66d121f0e8c5f76fbc821f9fd3a0acd9cc9f359e0b1c99f1048be6ad1fd",
+    "bodyRows": 160,
+    "columns": 3,
+    "pageRowGroups": [
+      {
+        "cnPdfPage": 705,
+        "printedPage": 690,
+        "rows": 21
+      },
+      {
+        "cnPdfPage": 706,
+        "printedPage": 691,
+        "rows": 38
+      },
+      {
+        "cnPdfPage": 707,
+        "printedPage": 692,
+        "rows": 36
+      },
+      {
+        "cnPdfPage": 708,
+        "printedPage": 693,
+        "rows": 40
+      },
+      {
+        "cnPdfPage": 709,
+        "printedPage": 694,
+        "rows": 25
+      }
+    ],
+    "operations": [
+      "Onlyoneheaderforfiveoriginalpageparts",
+      "PhysicalpageIDsontbody;printedpageIDsonthefirsttr;neverinsidecellcontent",
+      "AllrowcellcontentsandsourceorderunchangedexceptregisteredHTMLsafeTeXoperatoraliases",
+      "OriginalpagelinksusenativeHTMLwithidenticalvisibletextandfragmenttargets",
+      "Originalprefacelettertable/quotes/translatorfootnoteunchanged"
+    ],
+    "texOperatorAliases": [
+      {
+        "page": 706,
+        "row": 2,
+        "column": 2,
+        "original": "\\{a\\mid x<a<y\\}",
+        "assembled": "\\{a\\mid x\\lt a\\lt y\\}",
+        "reason": "HTML-safeequivalentTeXrelationoperator;notcontentcorrection"
+      },
+      {
+        "page": 706,
+        "row": 3,
+        "column": 2,
+        "original": "\\{a\\mid x\\le a<y\\}",
+        "assembled": "\\{a\\mid x\\le a\\lt y\\}",
+        "reason": "HTML-safeequivalentTeXrelationoperator;notcontentcorrection"
+      },
+      {
+        "page": 706,
+        "row": 4,
+        "column": 2,
+        "original": "\\{a\\mid x<a\\le y\\}",
+        "assembled": "\\{a\\mid x\\lt a\\le y\\}",
+        "reason": "HTML-safeequivalentTeXrelationoperator;notcontentcorrection"
+      },
+      {
+        "page": 706,
+        "row": 35,
+        "column": 2,
+        "original": "(k<0\\mathbin?0:x^{\\underline k}/k!)",
+        "assembled": "(k\\lt 0\\mathbin?0:x^{\\underline k}/k!)",
+        "reason": "HTML-safeequivalentTeXrelationoperator;notcontentcorrection"
+      },
+      {
+        "page": 706,
+        "row": 37,
+        "column": 2,
+        "original": "\\displaystyle\\sum_{0<k_1<\\cdots<k_{n-m}<n}k_1\\ldots k_{n-m}",
+        "assembled": "\\displaystyle\\sum_{0\\lt k_1\\lt \\cdots\\lt k_{n-m}\\lt n}k_1\\ldots k_{n-m}",
+        "reason": "HTML-safeequivalentTeXrelationoperator;notcontentcorrection"
+      },
+      {
+        "page": 707,
+        "row": 36,
+        "column": 2,
+        "original": "[x>0]-[x<0]",
+        "assembled": "[x>0]-[x\\lt 0]",
+        "reason": "HTML-safeequivalentTeXrelationoperator;notcontentcorrection"
+      }
+    ],
+    "nativeLinkWrappers": [
+      {
+        "page": 705,
+        "row": 5,
+        "column": 3,
+        "text": "78",
+        "href": "#p-78"
+      },
+      {
+        "page": 705,
+        "row": 12,
+        "column": 3,
+        "text": "60",
+        "href": "#p-60"
+      },
+      {
+        "page": 706,
+        "row": 6,
+        "column": 3,
+        "text": "172",
+        "href": "#p-172"
+      },
+      {
+        "page": 706,
+        "row": 18,
+        "column": 3,
+        "text": "10",
+        "href": "#p-10"
+      },
+      {
+        "page": 706,
+        "row": 19,
+        "column": 3,
+        "text": "10",
+        "href": "#p-10"
+      },
+      {
+        "page": 706,
+        "row": 20,
+        "column": 3,
+        "text": "10",
+        "href": "#p-10"
+      },
+      {
+        "page": 706,
+        "row": 21,
+        "column": 3,
+        "text": "384",
+        "href": "#p-384"
+      },
+      {
+        "page": 706,
+        "row": 28,
+        "column": 3,
+        "text": "327",
+        "href": "#p-327"
+      },
+      {
+        "page": 707,
+        "row": 2,
+        "column": 3,
+        "text": "331",
+        "href": "#p-331"
+      },
+      {
+        "page": 707,
+        "row": 7,
+        "column": 3,
+        "text": "40",
+        "href": "#p-40"
+      },
+      {
+        "page": 707,
+        "row": 8,
+        "column": 3,
+        "text": "110",
+        "href": "#p-110"
+      },
+      {
+        "page": 707,
+        "row": 9,
+        "column": 3,
+        "text": "40",
+        "href": "#p-40"
+      },
+      {
+        "page": 707,
+        "row": 10,
+        "column": 3,
+        "text": "51",
+        "href": "#p-51"
+      },
+      {
+        "page": 707,
+        "row": 11,
+        "column": 3,
+        "text": "109",
+        "href": "#p-109"
+      },
+      {
+        "page": 707,
+        "row": 12,
+        "column": 3,
+        "text": "40",
+        "href": "#p-40"
+      },
+      {
+        "page": 707,
+        "row": 13,
+        "column": 3,
+        "text": "51",
+        "href": "#p-51"
+      },
+      {
+        "page": 707,
+        "row": 14,
+        "column": 3,
+        "text": "109",
+        "href": "#p-109"
+      },
+      {
+        "page": 707,
+        "row": 15,
+        "column": 3,
+        "text": "40",
+        "href": "#p-40"
+      },
+      {
+        "page": 707,
+        "row": 16,
+        "column": 3,
+        "text": "110",
+        "href": "#p-110"
+      },
+      {
+        "page": 707,
+        "row": 18,
+        "column": 3,
+        "text": "111",
+        "href": "#p-111"
+      },
+      {
+        "page": 707,
+        "row": 19,
+        "column": 3,
+        "text": "111",
+        "href": "#p-111"
+      },
+      {
+        "page": 707,
+        "row": 20,
+        "column": 3,
+        "text": "122",
+        "href": "#p-122"
+      },
+      {
+        "page": 707,
+        "row": 24,
+        "column": 3,
+        "text": "117",
+        "href": "#p-117"
+      },
+      {
+        "page": 707,
+        "row": 26,
+        "column": 3,
+        "text": "116",
+        "href": "#p-116"
+      },
+      {
+        "page": 707,
+        "row": 27,
+        "column": 3,
+        "text": "118",
+        "href": "#p-118"
+      },
+      {
+        "page": 708,
+        "row": 11,
+        "column": 3,
+        "text": "227",
+        "href": "#p-227"
+      },
+      {
+        "page": 708,
+        "row": 15,
+        "column": 3,
+        "text": "10",
+        "href": "#p-10"
+      },
+      {
+        "page": 708,
+        "row": 20,
+        "column": 3,
+        "text": "20",
+        "href": "#p-20"
+      },
+      {
+        "page": 708,
+        "row": 21,
+        "column": 3,
+        "text": "10",
+        "href": "#p-10"
+      },
+      {
+        "page": 708,
+        "row": 22,
+        "column": 3,
+        "text": "10",
+        "href": "#p-10"
+      },
+      {
+        "page": 708,
+        "row": 23,
+        "column": 3,
+        "text": "10",
+        "href": "#p-10"
+      },
+      {
+        "page": 708,
+        "row": 24,
+        "column": 3,
+        "text": "14",
+        "href": "#p-14"
+      },
+      {
+        "page": 708,
+        "row": 25,
+        "column": 3,
+        "text": "132",
+        "href": "#p-132"
+      },
+      {
+        "page": 708,
+        "row": 26,
+        "column": 3,
+        "text": "12",
+        "href": "#p-12"
+      },
+      {
+        "page": 708,
+        "row": 27,
+        "column": 3,
+        "text": "21",
+        "href": "#p-21"
+      },
+      {
+        "page": 708,
+        "row": 28,
+        "column": 3,
+        "text": "21",
+        "href": "#p-21"
+      },
+      {
+        "page": 708,
+        "row": 29,
+        "column": 3,
+        "text": "21",
+        "href": "#p-21"
+      },
+      {
+        "page": 708,
+        "row": 30,
+        "column": 3,
+        "text": "21",
+        "href": "#p-21"
+      },
+      {
+        "page": 708,
+        "row": 31,
+        "column": 3,
+        "text": "21",
+        "href": "#p-21"
+      },
+      {
+        "page": 708,
+        "row": 32,
+        "column": 3,
+        "text": "22",
+        "href": "#p-22"
+      },
+      {
+        "page": 708,
+        "row": 33,
+        "column": 3,
+        "text": "22",
+        "href": "#p-22"
+      },
+      {
+        "page": 708,
+        "row": 34,
+        "column": 3,
+        "text": "22",
+        "href": "#p-22"
+      },
+      {
+        "page": 708,
+        "row": 35,
+        "column": 3,
+        "text": "22",
+        "href": "#p-22"
+      },
+      {
+        "page": 708,
+        "row": 36,
+        "column": 3,
+        "text": "227",
+        "href": "#p-227"
+      },
+      {
+        "page": 708,
+        "row": 37,
+        "column": 3,
+        "text": "229",
+        "href": "#p-229"
+      },
+      {
+        "page": 708,
+        "row": 38,
+        "column": 3,
+        "text": "227",
+        "href": "#p-227"
+      },
+      {
+        "page": 708,
+        "row": 39,
+        "column": 3,
+        "text": "227",
+        "href": "#p-227"
+      },
+      {
+        "page": 708,
+        "row": 40,
+        "column": 3,
+        "text": "227",
+        "href": "#p-227"
+      },
+      {
+        "page": 709,
+        "row": 1,
+        "column": 3,
+        "text": "227",
+        "href": "#p-227"
+      },
+      {
+        "page": 709,
+        "row": 2,
+        "column": 3,
+        "text": "227",
+        "href": "#p-227"
+      },
+      {
+        "page": 709,
+        "row": 3,
+        "column": 3,
+        "text": "227",
+        "href": "#p-227"
+      },
+      {
+        "page": 709,
+        "row": 4,
+        "column": 3,
+        "text": "227",
+        "href": "#p-227"
+      },
+      {
+        "page": 709,
+        "row": 5,
+        "column": 3,
+        "text": "227",
+        "href": "#p-227"
+      },
+      {
+        "page": 709,
+        "row": 6,
+        "column": 3,
+        "text": "227",
+        "href": "#p-227"
+      },
+      {
+        "page": 709,
+        "row": 7,
+        "column": 3,
+        "text": "228",
+        "href": "#p-228"
+      },
+      {
+        "page": 709,
+        "row": 8,
+        "column": 3,
+        "text": "230",
+        "href": "#p-230"
+      },
+      {
+        "page": 709,
+        "row": 9,
+        "column": 3,
+        "text": "230",
+        "href": "#p-230"
+      },
+      {
+        "page": 709,
+        "row": 10,
+        "column": 3,
+        "text": "230",
+        "href": "#p-230"
+      },
+      {
+        "page": 709,
+        "row": 11,
+        "column": 3,
+        "text": "230",
+        "href": "#p-230"
+      },
+      {
+        "page": 709,
+        "row": 12,
+        "column": 3,
+        "text": "560",
+        "href": "#p-560"
+      },
+      {
+        "page": 709,
+        "row": 13,
+        "column": 3,
+        "text": "560",
+        "href": "#p-560"
+      },
+      {
+        "page": 709,
+        "row": 14,
+        "column": 3,
+        "text": "9",
+        "href": "#p-9"
+      },
+      {
+        "page": 709,
+        "row": 15,
+        "column": 3,
+        "text": "110",
+        "href": "#p-110"
+      },
+      {
+        "page": 709,
+        "row": 16,
+        "column": 3,
+        "text": "181",
+        "href": "#p-181"
+      },
+      {
+        "page": 709,
+        "row": 17,
+        "column": 3,
+        "text": "28",
+        "href": "#p-28"
+      },
+      {
+        "page": 709,
+        "row": 18,
+        "column": 3,
+        "text": "563",
+        "href": "#p-563"
+      },
+      {
+        "page": 709,
+        "row": 22,
+        "column": 3,
+        "text": "28",
+        "href": "#p-28"
+      },
+      {
+        "page": 709,
+        "row": 23,
+        "column": 3,
+        "text": "28",
+        "href": "#p-28"
+      },
+      {
+        "page": 709,
+        "row": 24,
+        "column": 3,
+        "text": "401",
+        "href": "#p-401"
+      }
+    ],
+    "uniqueExplicitAnchors": 12,
+    "all160RawRowsComparedToExistingOptionalCandidate": true,
+    "pending": [
+      "ProductionHTMLcell/MathMLcomparison",
+      "Actualtablehorizontalendsandrowanchornavigation",
+      "Finalmaster/offline/routed/online"
+    ]
+  },
+  "syntax": {
+    "scope": "Privatelogicaltablecomparison;notmaster/offline/routed/online",
+    "sourceMarkdownSha256": "2a8fe4e4f296adb2e4813f593c511b2cb21ea69244c2ad9e798a176a77b24934",
+    "assemblyReceiptSha256": "807dd084e4ccb6691715d0646fd23fe2c5f68991af3a60006799cd033affed09",
+    "htmlSha256": "1ec12a2c6639e0eb8cbda1dff4d48cb29652894fc3040d36e425a828c4dacf3e",
+    "mathExpressions": 428,
+    "allMathMLExactlyEqualIncludingSixEquivalentTeXAliases": true,
+    "allBodyCellsExactlyEqualAfterRemovingOnlyTeXAnnotations": true,
+    "bodyCellCount": 502,
+    "formalRows": 160,
+    "prefaceRows": 11,
+    "tableCount": 2,
+    "uniqueExplicitAnchors": 12,
+    "htmlIds": 15,
+    "footnotes": 1,
+    "parseErrors": 0,
+    "pending": [
+      "Actualrowanchornavigationandtablehorizontalends",
+      "Finalmaster/offline/routed/online"
+    ]
+  },
+  "browser": {
+    "mainDOMReceiptSha256": "f7e299753f63b55dc425b5ea6e28dc56d52b331d123557c9d6f2dc5da7dc3147",
+    "wholeTableEndReceiptSha256": "5f66a2b9b6970efb5266a264871b2dd24907d28dcfd657b1bd056a4582d8ee94",
+    "nestedMathEndReceiptSha256": "33e0a55ba1bf939d79bde077c00b354c982b944db39beb614adbe7b851e7fa5a",
+    "widths": [
+      1280,
+      390
+    ],
+    "all428DOMTeXEqualAcrossWidths": true,
+    "allFontsLoaded": true,
+    "allLocalOverflowPortsReachable": true,
+    "originalPageFirstRows": [
+      {
+        "width": 1280,
+        "anchors": [
+          {
+            "printedPage": 690,
+            "tag": "A",
+            "top": 0.390625,
+            "firstCellTeX": null,
+            "physicalGroup": null,
+            "passed": true
+          },
+          {
+            "printedPage": 691,
+            "tag": "TR",
+            "top": 0.03125,
+            "firstCellTeX": "[x..y]",
+            "physicalGroup": "pdf-706",
+            "passed": true
+          },
+          {
+            "printedPage": 692,
+            "tag": "TR",
+            "top": 0.1875,
+            "firstCellTeX": "\\left\\langle\\begin{smallmatrix}n\\\\m\\end{smallmatrix}\\right\\rangle",
+            "physicalGroup": "pdf-707",
+            "passed": true
+          },
+          {
+            "printedPage": 693,
+            "tag": "TR",
+            "top": 0.265625,
+            "firstCellTeX": "\\zeta(x)",
+            "physicalGroup": "pdf-708",
+            "passed": true
+          },
+          {
+            "printedPage": 694,
+            "tag": "TR",
+            "top": -0.28125,
+            "firstCellTeX": "\\mathcal F\\oplus\\mathcal G",
+            "physicalGroup": "pdf-709",
+            "passed": true
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "anchors": [
+          {
+            "printedPage": 690,
+            "tag": "A",
+            "top": 0.390625,
+            "firstCellTeX": null,
+            "physicalGroup": null,
+            "passed": true
+          },
+          {
+            "printedPage": 691,
+            "tag": "TR",
+            "top": -0.078125,
+            "firstCellTeX": "[x..y]",
+            "physicalGroup": "pdf-706",
+            "passed": true
+          },
+          {
+            "printedPage": 692,
+            "tag": "TR",
+            "top": 0.078125,
+            "firstCellTeX": "\\left\\langle\\begin{smallmatrix}n\\\\m\\end{smallmatrix}\\right\\rangle",
+            "physicalGroup": "pdf-707",
+            "passed": true
+          },
+          {
+            "printedPage": 693,
+            "tag": "TR",
+            "top": 0.15625,
+            "firstCellTeX": "\\zeta(x)",
+            "physicalGroup": "pdf-708",
+            "passed": true
+          },
+          {
+            "printedPage": 694,
+            "tag": "TR",
+            "top": -0.390625,
+            "firstCellTeX": "\\mathcal F\\oplus\\mathcal G",
+            "physicalGroup": "pdf-709",
+            "passed": true
+          }
+        ]
+      }
+    ],
+    "wholeTableEnds": [
+      {
+        "width": 1280,
+        "end": "left",
+        "clientWidth": 728,
+        "scrollWidth": 735,
+        "scrollLeft": 0,
+        "passed": true
+      },
+      {
+        "width": 1280,
+        "end": "right",
+        "clientWidth": 728,
+        "scrollWidth": 735,
+        "scrollLeft": 7,
+        "passed": true
+      },
+      {
+        "width": 390,
+        "end": "left",
+        "clientWidth": 310,
+        "scrollWidth": 717,
+        "scrollLeft": 0,
+        "passed": true
+      },
+      {
+        "width": 390,
+        "end": "right",
+        "clientWidth": 310,
+        "scrollWidth": 717,
+        "scrollLeft": 407,
+        "passed": true
+      }
+    ],
+    "longestMathEnds": [
+      {
+        "width": 1280,
+        "tex": "\\Gamma(x+k)/\\Gamma(x)=\\displaystyle\\left(k\\ge0\\mathbin?\\prod_{j=0}^{k-1}(x+j):1/(x+k)^{\\overline{-k}}\\right)",
+        "end": "left",
+        "clipLeft": 461.0625,
+        "clipRight": 906.0625,
+        "endpointX": 461.0625,
+        "ports": [
+          {
+            "tag": "SPAN",
+            "clientWidth": 445,
+            "scrollWidth": 445,
+            "scrollLeft": 0
+          },
+          {
+            "tag": "TABLE",
+            "clientWidth": 728,
+            "scrollWidth": 735,
+            "scrollLeft": 0
+          }
+        ],
+        "rowTop": 376.453125,
+        "rowBottom": 491.859375,
+        "endpointVisible": true,
+        "passed": true
+      },
+      {
+        "width": 1280,
+        "tex": "\\Gamma(x+k)/\\Gamma(x)=\\displaystyle\\left(k\\ge0\\mathbin?\\prod_{j=0}^{k-1}(x+j):1/(x+k)^{\\overline{-k}}\\right)",
+        "end": "right",
+        "clipLeft": 454.0625,
+        "clipRight": 899.0625,
+        "endpointX": 899.125,
+        "ports": [
+          {
+            "tag": "SPAN",
+            "clientWidth": 445,
+            "scrollWidth": 445,
+            "scrollLeft": 0
+          },
+          {
+            "tag": "TABLE",
+            "clientWidth": 728,
+            "scrollWidth": 735,
+            "scrollLeft": 7
+          }
+        ],
+        "rowTop": 376.453125,
+        "rowBottom": 491.859375,
+        "endpointVisible": true,
+        "passed": true
+      },
+      {
+        "width": 390,
+        "tex": "\\Gamma(x+k)/\\Gamma(x)=\\displaystyle\\left(k\\ge0\\mathbin?\\prod_{j=0}^{k-1}(x+j):1/(x+k)^{\\overline{-k}}\\right)",
+        "end": "left",
+        "clipLeft": 216.0625,
+        "clipRight": 350,
+        "endpointX": 216.0625,
+        "ports": [
+          {
+            "tag": "SPAN",
+            "clientWidth": 445,
+            "scrollWidth": 445,
+            "scrollLeft": 0
+          },
+          {
+            "tag": "TABLE",
+            "clientWidth": 310,
+            "scrollWidth": 717,
+            "scrollLeft": 0
+          }
+        ],
+        "rowTop": 379.34375,
+        "rowBottom": 490.75,
+        "endpointVisible": true,
+        "passed": true
+      },
+      {
+        "width": 390,
+        "tex": "\\Gamma(x+k)/\\Gamma(x)=\\displaystyle\\left(k\\ge0\\mathbin?\\prod_{j=0}^{k-1}(x+j):1/(x+k)^{\\overline{-k}}\\right)",
+        "end": "right",
+        "clipLeft": 40,
+        "clipRight": 254.0625,
+        "endpointX": 254.125,
+        "ports": [
+          {
+            "tag": "SPAN",
+            "clientWidth": 445,
+            "scrollWidth": 445,
+            "scrollLeft": 0
+          },
+          {
+            "tag": "TABLE",
+            "clientWidth": 310,
+            "scrollWidth": 717,
+            "scrollLeft": 407
+          }
+        ],
+        "rowTop": 379.34375,
+        "rowBottom": 490.75,
+        "endpointVisible": true,
+        "passed": true
+      }
+    ],
+    "errors": [],
+    "acceptedScreens": [
+      {
+        "file": "page-690-1280.png",
+        "width": 1280,
+        "kind": "originalpagefirstrow",
+        "sha256": "40fab81e2b6e1dbc464bab6d1813608f02c1fadb4073ba330acb6e255a1706b7"
+      },
+      {
+        "file": "page-691-1280.png",
+        "width": 1280,
+        "kind": "originalpagefirstrow",
+        "sha256": "af227f410bffadb8c94b19604eec26fc012cbbd5484dffd52774da30e59ef150"
+      },
+      {
+        "file": "page-692-1280.png",
+        "width": 1280,
+        "kind": "originalpagefirstrow",
+        "sha256": "da0e84f03ae805ccd29e037bd2b97aeff85363d79832943f14f4600d7ee7ec05"
+      },
+      {
+        "file": "page-693-1280.png",
+        "width": 1280,
+        "kind": "originalpagefirstrow",
+        "sha256": "1122dc0aea4a1abef1317cedc31222c1b59e3b3fee3dcb0cfb656382a5149e50"
+      },
+      {
+        "file": "page-694-1280.png",
+        "width": 1280,
+        "kind": "originalpagefirstrow",
+        "sha256": "70c6345c4e1e4a8d474301c5a27e152c87b012e62a3714caec701bdf0ed02994"
+      },
+      {
+        "file": "page-690-390.png",
+        "width": 390,
+        "kind": "originalpagefirstrow",
+        "sha256": "179d260ee00e9267a15364787ea02098584ee29789c7410e9150b44a68707045"
+      },
+      {
+        "file": "page-691-390.png",
+        "width": 390,
+        "kind": "originalpagefirstrow",
+        "sha256": "0d6b453e069439310ebf83561e2a5df2b169b0acf90128e68fb87018bcdeec44"
+      },
+      {
+        "file": "page-692-390.png",
+        "width": 390,
+        "kind": "originalpagefirstrow",
+        "sha256": "77ffdd48c93729518ac8a36c6aa2c22b8f88a2db080701690159866d97ad3523"
+      },
+      {
+        "file": "page-693-390.png",
+        "width": 390,
+        "kind": "originalpagefirstrow",
+        "sha256": "b0c762fa37c1dfa448d26f027bb7b28ec210967c8b44353f44581c098db775a7"
+      },
+      {
+        "file": "page-694-390.png",
+        "width": 390,
+        "kind": "originalpagefirstrow",
+        "sha256": "782fcb9e4516c5b40660612f5f65ea0c36e2103c6e9183368d7907711636d610"
+      },
+      {
+        "file": "whole-table-left-1280.png",
+        "width": 1280,
+        "end": "left",
+        "sha256": "9add8ea39857d7b7aa3da51471685e329150d0d2379547617f0f8f5f7a0bcfb6"
+      },
+      {
+        "file": "whole-table-right-1280.png",
+        "width": 1280,
+        "end": "right",
+        "sha256": "9944d1441061fcc047a7b61eb44380e0d534b7199607cc89d4800bb6768ea3fd"
+      },
+      {
+        "file": "whole-table-left-390.png",
+        "width": 390,
+        "end": "left",
+        "sha256": "9febca1356d82a5fdfe2e44ed5d9362071eb85ad7d0ab0361a5a78f5f1e3e64e"
+      },
+      {
+        "file": "whole-table-right-390.png",
+        "width": 390,
+        "end": "right",
+        "sha256": "57a582074b1a6b3e9da5872874df22c3d2989749ef5c3b11d81edea94edcfef8"
+      },
+      {
+        "file": "nested-longest-math-left-1280.png",
+        "width": 1280,
+        "end": "left",
+        "sha256": "338d04994d71ebcf372e7ce75028e08b5759a55030b63e995f82dcadb5958970"
+      },
+      {
+        "file": "nested-longest-math-right-1280.png",
+        "width": 1280,
+        "end": "right",
+        "sha256": "51c655b0f5d07a77028096293081a8a85abb84c8ff0d02bae7d7f849972df48e"
+      },
+      {
+        "file": "nested-longest-math-left-390.png",
+        "width": 390,
+        "end": "left",
+        "sha256": "35baa7728903b7d7c56e0cb384d8de28eb284bedd58670737c7666ec1d54cd83"
+      },
+      {
+        "file": "nested-longest-math-right-390.png",
+        "width": 390,
+        "end": "right",
+        "sha256": "1202bdcfd997306a988c389df756b3d11d26df97798a1aefad334978d4379cc4"
+      }
+    ],
+    "modelActuallyViewedContactSheets": [
+      {
+        "file": "pages-1280-contact.png",
+        "sha256": "004906477b1a96bf5060af92d0766d528966627e701b30ba16f9c60714f17072"
+      },
+      {
+        "file": "pages-390-contact.png",
+        "sha256": "1e5d3a58a70efd176b69c3c81611b83b5b6464055d0dbea6fe4ba87941a644d2"
+      },
+      {
+        "file": "whole-table-current-contact.png",
+        "sha256": "4587f22e15573708afddd94d788a792a87845426aab6350bfa4db3c1a2ec941a"
+      },
+      {
+        "file": "nested-longest-math-current-contact.png",
+        "sha256": "4cf5cc5574bfc43ee570552440af3116849056a04d651a924f97816b89c5d631"
+      }
+    ],
+    "initialSelfPortOnlyLongestMathScreens": "Historicaldiagnostic;theoutertableclipped390rightendpoint;freshnestedancestorcapturesareeffective",
+    "pixelScope": "Fiveoriginalpagefirstrowviewports,whole-tablehorizontalendsandlongestmathematicalendpointstrips;notall160rowspixelsrereview"
+  },
+  "generatorSupport": {
+    "script": "scripts/book-anchors.mjs",
+    "sha256": "73fa938530b122c14f4449c0ae59850db2ebe033f253fc466df03c42abf30f0e",
+    "validHTMLPaginationAnchors": "tbodyphysicalpageandfirsttrprintedpage;noanchorsinsidecellcontent",
+    "oldVolumesUnchangedExplicitAnchorSequences": {
+      "volume1": 2998,
+      "volume2": 4788,
+      "volume3": 3478
+    },
+    "finalAllVolumeBuildPending": true
+  }
+}

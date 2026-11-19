@@ -1,0 +1,706 @@
+{
+  "volume": "volume4a",
+  "masterSha256": null,
+  "pageMarkdownHashes": {
+    "116": "1e403f412a2797e03fcde8667644d91b0b8f4f015d6f2bf7943075e845c56116",
+    "117": "7fc81da7f9c389047b558ca8194b5c76a9e9324f18a9fba902eea243c134192b"
+  },
+  "strictSourceLanguageAlphabet": {
+    "literal": "∀∃¬()≡∈∉+∧∨⇒⇔<≤=≠≥>abcdefghijklmnopqABCDEFGHIJKLMNOPQ0123456789",
+    "length": 63,
+    "distinctCharacters": 63,
+    "definition": "Source19symbols+17lowercasea..q+17uppercaseA..Q+10digits;displaysemicolon/periodexcludedfromLcharacters."
+  },
+  "sourceNineLiteralStatements": [
+    {
+      "equation": 62,
+      "literal": "048+1015≠1063",
+      "unicodeCodepoints": [
+        48,
+        52,
+        56,
+        43,
+        49,
+        48,
+        49,
+        53,
+        8800,
+        49,
+        48,
+        54,
+        51
+      ],
+      "length": 13,
+      "allCharactersInSourceAlphabet": true,
+      "balancedParentheses": true
+    },
+    {
+      "equation": 63,
+      "literal": "∀m∃n(m<n+1)",
+      "unicodeCodepoints": [
+        8704,
+        109,
+        8707,
+        110,
+        40,
+        109,
+        60,
+        110,
+        43,
+        49,
+        41
+      ],
+      "length": 11,
+      "allCharactersInSourceAlphabet": true,
+      "balancedParentheses": true
+    },
+    {
+      "equation": 64,
+      "literal": "∀n∃m(m+1<n)",
+      "unicodeCodepoints": [
+        8704,
+        110,
+        8707,
+        109,
+        40,
+        109,
+        43,
+        49,
+        60,
+        110,
+        41
+      ],
+      "length": 11,
+      "allCharactersInSourceAlphabet": true,
+      "balancedParentheses": true
+    },
+    {
+      "equation": 65,
+      "literal": "∀a∀b(b≥a+2⇒∃ab(a<ab∧ab<b))",
+      "unicodeCodepoints": [
+        8704,
+        97,
+        8704,
+        98,
+        40,
+        98,
+        8805,
+        97,
+        43,
+        50,
+        8658,
+        8707,
+        97,
+        98,
+        40,
+        97,
+        60,
+        97,
+        98,
+        8743,
+        97,
+        98,
+        60,
+        98,
+        41,
+        41
+      ],
+      "length": 26,
+      "allCharactersInSourceAlphabet": true,
+      "balancedParentheses": true
+    },
+    {
+      "equation": 66,
+      "literal": "∀A∀B(A≡B⇔¬∃n(n∈A∧n∉B∨n∈B∧n∉A))",
+      "unicodeCodepoints": [
+        8704,
+        65,
+        8704,
+        66,
+        40,
+        65,
+        8801,
+        66,
+        8660,
+        172,
+        8707,
+        110,
+        40,
+        110,
+        8712,
+        65,
+        8743,
+        110,
+        8713,
+        66,
+        8744,
+        110,
+        8712,
+        66,
+        8743,
+        110,
+        8713,
+        65,
+        41,
+        41
+      ],
+      "length": 30,
+      "allCharactersInSourceAlphabet": true,
+      "balancedParentheses": true
+    },
+    {
+      "equation": 67,
+      "literal": "∀A(∃n(n∈A)⇒∃m(m∈A∧∀n(n∈A⇒m≤n)))",
+      "unicodeCodepoints": [
+        8704,
+        65,
+        40,
+        8707,
+        110,
+        40,
+        110,
+        8712,
+        65,
+        41,
+        8658,
+        8707,
+        109,
+        40,
+        109,
+        8712,
+        65,
+        8743,
+        8704,
+        110,
+        40,
+        110,
+        8712,
+        65,
+        8658,
+        109,
+        8804,
+        110,
+        41,
+        41,
+        41
+      ],
+      "length": 31,
+      "allCharactersInSourceAlphabet": true,
+      "balancedParentheses": true
+    },
+    {
+      "equation": 68,
+      "literal": "∀A(∃n(n∈A)⇒∃m(m∈A∧∀n(n∈A⇒m≥n)))",
+      "unicodeCodepoints": [
+        8704,
+        65,
+        40,
+        8707,
+        110,
+        40,
+        110,
+        8712,
+        65,
+        41,
+        8658,
+        8707,
+        109,
+        40,
+        109,
+        8712,
+        65,
+        8743,
+        8704,
+        110,
+        40,
+        110,
+        8712,
+        65,
+        8658,
+        109,
+        8805,
+        110,
+        41,
+        41,
+        41
+      ],
+      "length": 31,
+      "allCharactersInSourceAlphabet": true,
+      "balancedParentheses": true
+    },
+    {
+      "equation": 69,
+      "literal": "∃P∀a((a∈P⇔a+3∉P)⇔a<1000)",
+      "unicodeCodepoints": [
+        8707,
+        80,
+        8704,
+        97,
+        40,
+        40,
+        97,
+        8712,
+        80,
+        8660,
+        97,
+        43,
+        51,
+        8713,
+        80,
+        41,
+        8660,
+        97,
+        60,
+        49,
+        48,
+        48,
+        48,
+        41
+      ],
+      "length": 24,
+      "allCharactersInSourceAlphabet": true,
+      "balancedParentheses": true
+    },
+    {
+      "equation": 70,
+      "literal": "∀A∀B(∀C∀c(C≡A∧c=1∨C≡B∧c=0⇒(∀n(n∈C⇔n+1∈C)⇔c=1))⇒¬A≡B)",
+      "unicodeCodepoints": [
+        8704,
+        65,
+        8704,
+        66,
+        40,
+        8704,
+        67,
+        8704,
+        99,
+        40,
+        67,
+        8801,
+        65,
+        8743,
+        99,
+        61,
+        49,
+        8744,
+        67,
+        8801,
+        66,
+        8743,
+        99,
+        61,
+        48,
+        8658,
+        40,
+        8704,
+        110,
+        40,
+        110,
+        8712,
+        67,
+        8660,
+        110,
+        43,
+        49,
+        8712,
+        67,
+        41,
+        8660,
+        99,
+        61,
+        49,
+        41,
+        41,
+        8658,
+        172,
+        65,
+        8801,
+        66,
+        41
+      ],
+      "length": 52,
+      "allCharactersInSourceAlphabet": true,
+      "balancedParentheses": true
+    }
+  ],
+  "source71FixedNumerics": {
+    "n": 621,
+    "r": 431,
+    "conditionRightHand": 620.9778290977271,
+    "conditionMargin": 0.022170902272932835,
+    "exponent": 426,
+    "exactIntegerPower2Exceeds10Power128": true,
+    "functionInputVariables": 3726,
+    "qualification": "Onlysubstitutionintooriginalprintedbound71andintegercomparison;notStockmeyer-Meyerlowerboundtheoremproof."
+  },
+  "question7": {
+    "existingAnswerReadOnly": {
+      "locator": "private-snapshot:volume4a/verified/482.md",
+      "sha256": "21f0b1ab0e749daf4671827f29d5a36a9602133567601265b555dc59aa5ed999",
+      "scope": "Onlyexistinganswer7fourassignments/normalizationparenthetical,nopage482newacceptanceorchange."
+    },
+    "all16Rows": [
+      {
+        "input": "0000",
+        "sourceCNIntermediateValues": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "providedOldEnglishBarX6Final": 0,
+        "existingCNAnswerNormalizedValues": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "normalizationComplementOnly": true
+      },
+      {
+        "input": "0001",
+        "sourceCNIntermediateValues": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "providedOldEnglishBarX6Final": 0,
+        "existingCNAnswerNormalizedValues": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "normalizationComplementOnly": true
+      },
+      {
+        "input": "0010",
+        "sourceCNIntermediateValues": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "providedOldEnglishBarX6Final": 1,
+        "existingCNAnswerNormalizedValues": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "normalizationComplementOnly": true
+      },
+      {
+        "input": "0011",
+        "sourceCNIntermediateValues": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "providedOldEnglishBarX6Final": 1,
+        "existingCNAnswerNormalizedValues": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "normalizationComplementOnly": true
+      },
+      {
+        "input": "0100",
+        "sourceCNIntermediateValues": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "providedOldEnglishBarX6Final": 0,
+        "existingCNAnswerNormalizedValues": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "normalizationComplementOnly": true
+      },
+      {
+        "input": "0101",
+        "sourceCNIntermediateValues": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "providedOldEnglishBarX6Final": 1,
+        "existingCNAnswerNormalizedValues": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "normalizationComplementOnly": true
+      },
+      {
+        "input": "0110",
+        "sourceCNIntermediateValues": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "providedOldEnglishBarX6Final": 1,
+        "existingCNAnswerNormalizedValues": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "normalizationComplementOnly": true
+      },
+      {
+        "input": "0111",
+        "sourceCNIntermediateValues": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "providedOldEnglishBarX6Final": 0,
+        "existingCNAnswerNormalizedValues": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "normalizationComplementOnly": true
+      },
+      {
+        "input": "1000",
+        "sourceCNIntermediateValues": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "providedOldEnglishBarX6Final": 1,
+        "existingCNAnswerNormalizedValues": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "normalizationComplementOnly": true
+      },
+      {
+        "input": "1001",
+        "sourceCNIntermediateValues": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "providedOldEnglishBarX6Final": 1,
+        "existingCNAnswerNormalizedValues": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "normalizationComplementOnly": true
+      },
+      {
+        "input": "1010",
+        "sourceCNIntermediateValues": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "providedOldEnglishBarX6Final": 1,
+        "existingCNAnswerNormalizedValues": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "normalizationComplementOnly": true
+      },
+      {
+        "input": "1011",
+        "sourceCNIntermediateValues": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "providedOldEnglishBarX6Final": 1,
+        "existingCNAnswerNormalizedValues": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "normalizationComplementOnly": true
+      },
+      {
+        "input": "1100",
+        "sourceCNIntermediateValues": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "providedOldEnglishBarX6Final": 0,
+        "existingCNAnswerNormalizedValues": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "normalizationComplementOnly": true
+      },
+      {
+        "input": "1101",
+        "sourceCNIntermediateValues": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "providedOldEnglishBarX6Final": 0,
+        "existingCNAnswerNormalizedValues": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "normalizationComplementOnly": true
+      },
+      {
+        "input": "1110",
+        "sourceCNIntermediateValues": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "providedOldEnglishBarX6Final": 0,
+        "existingCNAnswerNormalizedValues": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "normalizationComplementOnly": true
+      },
+      {
+        "input": "1111",
+        "sourceCNIntermediateValues": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "providedOldEnglishBarX6Final": 0,
+        "existingCNAnswerNormalizedValues": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "normalizationComplementOnly": true
+      }
+    ],
+    "qualification": "CNq7plainx6givescomplementofexistingnormalizedansweratall16inputs,notstrictsame-outputequivalence. OldENbarx6givesthenormalizedansweroutput. KeepCNoriginalandanswerbracket,reportequivalent-vs-normalizedscopequestion;single0000pointnotusedtoguessallinputs."
+  },
+  "questionAnswerStaticTargets": [
+    {
+      "questionId": "ex-7-1-2-1",
+      "answerId": "ans-7-1-2-1",
+      "existingVerifiedAnswerPhysicalPage": 482
+    },
+    {
+      "questionId": "ex-7-1-2-2",
+      "answerId": "ans-7-1-2-2",
+      "existingVerifiedAnswerPhysicalPage": 482
+    },
+    {
+      "questionId": "ex-7-1-2-3",
+      "answerId": "ans-7-1-2-3",
+      "existingVerifiedAnswerPhysicalPage": 482
+    },
+    {
+      "questionId": "ex-7-1-2-4",
+      "answerId": "ans-7-1-2-4",
+      "existingVerifiedAnswerPhysicalPage": 482
+    },
+    {
+      "questionId": "ex-7-1-2-5",
+      "answerId": "ans-7-1-2-5",
+      "existingVerifiedAnswerPhysicalPage": 482
+    },
+    {
+      "questionId": "ex-7-1-2-6",
+      "answerId": "ans-7-1-2-6",
+      "existingVerifiedAnswerPhysicalPage": 482
+    },
+    {
+      "questionId": "ex-7-1-2-7",
+      "answerId": "ans-7-1-2-7",
+      "existingVerifiedAnswerPhysicalPage": 482
+    },
+    {
+      "questionId": "ex-7-1-2-8",
+      "answerId": "ans-7-1-2-8",
+      "existingVerifiedAnswerPhysicalPage": 482
+    },
+    {
+      "questionId": "ex-7-1-2-9",
+      "answerId": "ans-7-1-2-9",
+      "existingVerifiedAnswerPhysicalPage": 482
+    },
+    {
+      "questionId": "ex-7-1-2-10",
+      "answerId": "ans-7-1-2-10",
+      "existingVerifiedAnswerPhysicalPage": 483
+    },
+    {
+      "questionId": "ex-7-1-2-11",
+      "answerId": "ans-7-1-2-11",
+      "existingVerifiedAnswerPhysicalPage": 483
+    },
+    {
+      "questionId": "ex-7-1-2-12",
+      "answerId": "ans-7-1-2-12",
+      "existingVerifiedAnswerPhysicalPage": 483
+    },
+    {
+      "questionId": "ex-7-1-2-13",
+      "answerId": "ans-7-1-2-13",
+      "existingVerifiedAnswerPhysicalPage": 483
+    },
+    {
+      "questionId": "ex-7-1-2-14",
+      "answerId": "ans-7-1-2-14",
+      "existingVerifiedAnswerPhysicalPage": 483
+    },
+    {
+      "questionId": "ex-7-1-2-15",
+      "answerId": "ans-7-1-2-15",
+      "existingVerifiedAnswerPhysicalPage": 483
+    }
+  ],
+  "actualPublicationRoundTripsPending": true,
+  "sourceCodeLocator": "private-snapshot:volume4a/tools/check-language-bound-question7-116-117.py",
+  "sourceCodeSha256": "b9e8b71e4e6233694142ec9c37dfb9186924af5e6bca44a817b80f88bb68e99d",
+  "qualification": "Literalcharset/parentheses/numericbound/fixedquestion7sourcecomparisonand15existingIDs only. Didnotsolveproves/programrequestsfrombook,determinetruthofallunboundedLsentences,constructgeneral6-bitencodingmap,provelowerboundorclaimallquestionanswerbrowserroundtrips.",
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+  "actualDOM": {
+    "file": "private-snapshot:volume4a/verified-render/language-dom-footnote-116.json",
+    "sha256": "6fcff6e80eb97b98a8c79a423ba5010b1b4d959023cc361e7782126b0830ba6c",
+    "wholePageCasesAdded": 0
+  }
+}

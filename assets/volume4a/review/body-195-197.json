@@ -1,0 +1,679 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-source-pages-195-to-197-reduction-and-meld",
+  "cnPhysicalPages": [
+    195,
+    196,
+    197
+  ],
+  "cnPrintedPages": [
+    180,
+    181,
+    182
+  ],
+  "masterSha256": null,
+  "mathExpressions": 210,
+  "privateBrowserCases": 6,
+  "substantiveCorrections": 4,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 195,
+      "cnPrintedPage": 180,
+      "enPdfPages": [
+        233,
+        234
+      ],
+      "enPrintedPages": [
+        216,
+        217
+      ],
+      "pageMarkdownSha256": "24aef41b1ea83206d7b662bef068dc62baa62dfb8351a67080e25c13722b0689",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-195.png",
+      "sourcePageImageSha256": "60afe2b51658eb8525b6f424821bc399c457c0df272e8b4d50aa98da58b242d9",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-233.png",
+          "sha256": "dc28f2b8ee53e7041ccb365c49b80cf7528d74061c2acef1995fde4ba4783acc",
+          "physicalPage": 233
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-234.png",
+          "sha256": "5257394c78aca8abe4652f2fbc5ef4c9d6596a726d53d1052cf1d66c208ea30c",
+          "physicalPage": 234
+        }
+      ],
+      "pageAnchors": [
+        "pdf-195",
+        "p-180"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.4 结点的等价性",
+          "enPosition": "PDF233／印刷216，约化说明",
+          "original": "判定两个结点是否相等",
+          "final": "判定两个结点是否等价",
+          "basis": "Equivalent 指可在约化时互相替代的结点，结点标识本身可以不同。",
+          "cnPrintedPage": 180
+        },
+        {
+          "location": "§7.1.4 变量字段自顶部向下递增",
+          "enPosition": "PDF234／印刷217，算法R前",
+          "original": "$\\mathtt{V}$ 字段是按自顶向下的递增次序从 $\\mathtt{V}(\\mathtt{ROOT})$ 上行至 $v_{\\max}$",
+          "final": "$\\mathtt{V}$ 字段自顶向下，从 $\\mathtt{V}(\\mathtt{ROOT})$ 递增到 $v_{\\max}$",
+          "basis": "递增是变量字段的次序，从根向下沿图移动。",
+          "cnPrintedPage": 180
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Beginning of page resumes the carry sentence from CN194, including barred c_j and the final carry c_n.",
+        "Full ordered graph discussion, original citation, sign-bit space and reachability conditions, all field names and terminal exceptions.",
+        "Algorithm R introduction, every assignment in R1/R2, and the first three substeps of R3."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 195,
+        "markdownSha256": "24aef41b1ea83206d7b662bef068dc62baa62dfb8351a67080e25c13722b0689",
+        "htmlSha256": "d3bf6518a0a3ff14368508c59d26d6b73dc55476c35c73692c9a21e8f20b17c1",
+        "mathExpressions": 73,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-195-196-197.json",
+        "sha256": "3d6f2077d30ddd0aa41af8fc35492b02131d23ab70c402e9e70ca81f9d190b5f",
+        "cases": [
+          {
+            "physicalPage": 195,
+            "width": 1280,
+            "markdownSha256": "24aef41b1ea83206d7b662bef068dc62baa62dfb8351a67080e25c13722b0689",
+            "documentWidth": 1280,
+            "math": 73,
+            "mathml": 73,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 73,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 195,
+            "width": 390,
+            "markdownSha256": "24aef41b1ea83206d7b662bef068dc62baa62dfb8351a67080e25c13722b0689",
+            "documentWidth": 390,
+            "math": 73,
+            "mathml": 73,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 73,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Current browser proofs read at 1280 and 390 and at the narrow horizontal final states. Both image links open, display and navigate back on both viewport sizes."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/195-1280.png",
+          "sha256": "22a39f803809680d155b19835481b600b836cec5bd88d6c76e72dec8ed18f858",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/195-390.png",
+          "sha256": "65990352fa4bc202c6acfc62550adb468d09dc6baf0d79a712795576fa953a4a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/195-390-right.png",
+          "sha256": "c1390932779d08075c565dfa9fd6f4256c267b655eeb0313c8e526235cca4f77",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-195-r1-r3.png",
+          "sha256": "e0fa3538cd1e3b2c2497bcec4007eaf3ba0e31ca283104f05921093f2596b14d"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete Chinese physical pages CN195–197 against their EN233–236 exact source locations. Pointer trace validation and paired truth diagrams have bounded coverage separate from source reading.",
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": true,
+      "endsMidSentence": false,
+      "followingPageContinuation": "CN194 last phrase 从右边算起 joins 第 j 个二进制位 in the first sentence. CN195 ends during R3 after the LO redirection. Join the R3 indented list to CN196 before R4 and keep hidden anchors outside the logical step list.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/195-selected-cn-before-translation-repair-77a48a9c3eb965dac8913e5d4431d20e8c64247458aeea280e521d93718a624d/195.md",
+        "sha256": "77a48a9c3eb965dac8913e5d4431d20e8c64247458aeea280e521d93718a624d",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-reduction-and-meld-195-197.json",
+          "sha256": "c5b8a221ddddc07dda1702d177993a14901eafdb01e0712fced5b1b525a9b030",
+          "scope": "Actual fixed Algorithm R seven-node example plus bounded truth trees; original Fig.24 / (38) input and word pairs, and 16 truth assignments at each of the 16 binary operations. No generic correctness or runtime claim."
+        },
+        {
+          "file": "assets/volume4a/review/body-195-197-wide-details.json",
+          "sha256": "d1115331ca137b5173b31d652134140f054bec183a659aebc0e82445a4d5d83f",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "a0e4376957caed99853b88fc3e8180e59341b19b3bd03a5d219969358909fd6a",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/195.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 196,
+      "cnPrintedPage": 181,
+      "enPdfPages": [
+        234,
+        235
+      ],
+      "enPrintedPages": [
+        217,
+        218
+      ],
+      "pageMarkdownSha256": "51a2247ca2e32c778ae7847d7d7e2d5938b186c3e4cfc3bca512715eab4d6b36",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-196.png",
+      "sourcePageImageSha256": "095f8e2d358076eda2df5f0a9d05e366b99052a79c200cfbf50ba443b7cda00e",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-234.png",
+          "sha256": "5257394c78aca8abe4652f2fbc5ef4c9d6596a726d53d1052cf1d66c208ea30c",
+          "physicalPage": 234
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-235.png",
+          "sha256": "53718034a0c7b22bfef8bea75675b4d7f5cc73d51214b31480833eac107be2e2",
+          "physicalPage": 235
+        }
+      ],
+      "pageAnchors": [
+        "pdf-196",
+        "p-181"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.4 限制后回收不可达结点",
+          "enPosition": "PDF235／印刷218，约化后限制",
+          "original": "重新处理在限制后变成不可达的所有结点",
+          "final": "回收在限制后变成不可达的所有结点",
+          "basis": "英文 recycle 指释放这些不可达结点，使其可再次使用。",
+          "cnPrintedPage": 181
+        },
+        {
+          "location": "§7.1.4 合并递推的适用条件",
+          "enPosition": "PDF235／印刷218，式(37)前",
+          "original": "当 $\\alpha$ 和 $\\alpha'$ 都不是汇结点时",
+          "final": "当至少有一个结点是分支结点时",
+          "basis": "not both sinks 包含一个汇点与一个分支点的组合，图24有 ⊥⋄φ、⊥⋄τ 等实例。",
+          "cnPrintedPage": 181
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Last four R3 actions and all R4 through R9 assignments, inequalities, complement markers and branch conditions.",
+        "Full advice, restriction and node recycling, BDD composition and exact three branches of (37).",
+        "Opening Fig.24 interpretation with f and g truth functions for the printed branching labels."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 196,
+        "markdownSha256": "51a2247ca2e32c778ae7847d7d7e2d5938b186c3e4cfc3bca512715eab4d6b36",
+        "htmlSha256": "995be115de822e14b45a4fc6f58850cecb7ac4e0afc94abbc2ae53a4ce6c1872",
+        "mathExpressions": 73,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-195-196-197.json",
+        "sha256": "3d6f2077d30ddd0aa41af8fc35492b02131d23ab70c402e9e70ca81f9d190b5f",
+        "cases": [
+          {
+            "physicalPage": 196,
+            "width": 1280,
+            "markdownSha256": "51a2247ca2e32c778ae7847d7d7e2d5938b186c3e4cfc3bca512715eab4d6b36",
+            "documentWidth": 1280,
+            "math": 73,
+            "mathml": 73,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 73,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 196,
+            "width": 390,
+            "markdownSha256": "51a2247ca2e32c778ae7847d7d7e2d5938b186c3e4cfc3bca512715eab4d6b36",
+            "documentWidth": 390,
+            "math": 73,
+            "mathml": 73,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 73,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Current browser proofs read at 1280 and 390 and at the narrow horizontal final states. Both image links open, display and navigate back on both viewport sizes."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/196-1280.png",
+          "sha256": "eadc078411de195fce53818b3a5151e133f513624beb8321883781013b7d254c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/196-390.png",
+          "sha256": "e3bc04c1061379af20549387ec77854902f0379d4cfc64875deb67cef7db6d13",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/196-390-right.png",
+          "sha256": "eba77ce12a61b907a6988ab2efee2a13188fc8006f52782061ef34eb5366521d",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-196-r3-r9.png",
+          "sha256": "5c381f68bc8ec00fa587ccab74482daa4be59620db03b5ab31e9b7fc74447340"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-196-meld-sink-phrase.png",
+          "sha256": "969d5b5fe2842b9cf88b127ba173459eab3b3bb4d38bc32b6e10197e7efbb235"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete Chinese physical pages CN195–197 against their EN233–236 exact source locations. Pointer trace validation and paired truth diagrams have bounded coverage separate from source reading.",
+      "startsMidParagraph": true,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "followingPageContinuation": "Starts during Algorithm R step R3, after CN195 LO redirection. Ends in the phrase 如果 f 和 g 是, joined to CN197 单个 BDD 基的一部分. Fig.24 physically precedes the prose continuation in CN, but the independent figure and anchors belong outside the complete sentence.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/196-selected-cn-before-translation-repair-7ea9db026650feba3f188ed7439fafff670cb24c0bfcf47c52b284adbcf020ea/196.md",
+        "sha256": "7ea9db026650feba3f188ed7439fafff670cb24c0bfcf47c52b284adbcf020ea",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-reduction-and-meld-195-197.json",
+          "sha256": "c5b8a221ddddc07dda1702d177993a14901eafdb01e0712fced5b1b525a9b030",
+          "scope": "Actual fixed Algorithm R seven-node example plus bounded truth trees; original Fig.24 / (38) input and word pairs, and 16 truth assignments at each of the 16 binary operations. No generic correctness or runtime claim."
+        },
+        {
+          "file": "assets/volume4a/review/body-195-197-wide-details.json",
+          "sha256": "d1115331ca137b5173b31d652134140f054bec183a659aebc0e82445a4d5d83f",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "129ab66d47f0fef611e51cfabf2fda0b9a19bf0245d0eab2d91947602e6a2425",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/196.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 197,
+      "cnPrintedPage": 182,
+      "enPdfPages": [
+        235,
+        236
+      ],
+      "enPrintedPages": [
+        218,
+        219
+      ],
+      "pageMarkdownSha256": "981596fd41eb0fbe107b76d4a895c91a7a6d8ed338701a789173d032baca2a00",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-197.png",
+      "sourcePageImageSha256": "aae96f824ff5a521ef28aea5f44a5fa7089c6bc258188d67ae85e2ada43580d4",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-235.png",
+          "sha256": "53718034a0c7b22bfef8bea75675b4d7f5cc73d51214b31480833eac107be2e2",
+          "physicalPage": 235
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-236.png",
+          "sha256": "676ca9f38730df4d8649fbcd0cd3cc7d6677aef62b26acb2ce0206f39b61d00e",
+          "physicalPage": 236
+        }
+      ],
+      "pageAnchors": [
+        "pdf-197",
+        "p-182",
+        "fig-7-24",
+        "eq-7-1-4-38"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/fig-7-24-bdd-meld.svg",
+          "sha256": "dc87b9888e952af6ecb51ad17478bb5b438e5db64c52b68d6690cff0bd1b2dd7",
+          "enPdfPage": 235,
+          "sourceBounds": [
+            [
+              33,
+              480,
+              438,
+              591
+            ]
+          ],
+          "nativePaths": 78,
+          "sourceDirectlyCompared": true,
+          "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+          "branchesPerDiagram": [
+            4,
+            6,
+            11
+          ],
+          "sinkPairs": [
+            "⊥⋄⊤",
+            "⊥⋄⊥",
+            "⊤⋄⊤",
+            "⊤⋄⊥"
+          ],
+          "methodDetails": "All bounded vector paths and individually mapped native glyph origins. Labels retain geometric association and use editable text, with the hollow meld diamonds drawn as clear matching vectors.",
+          "outlinedMeldDiamonds": 15
+        },
+        {
+          "file": "assets/volume4a/figures/diagram-7-1-4-38-meld-paired-beads.svg",
+          "sha256": "7a8a7b05224ea5a089913c8b4dbd071c08d1285b61599d6e99ad188100acb497",
+          "enPdfPage": 236,
+          "sourceBounds": [
+            [
+              100,
+              116,
+              337,
+              230
+            ]
+          ],
+          "nativePaths": 52,
+          "sourceDirectlyCompared": true,
+          "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+          "pairedWordsInSourceOrder": [
+            [
+              "0000011101110111",
+              "0110111111110110"
+            ],
+            [
+              "00000111",
+              "01101111"
+            ],
+            [
+              "01110111",
+              "11110110"
+            ],
+            [
+              "0000",
+              "0110"
+            ],
+            [
+              "0111",
+              "1111"
+            ],
+            [
+              "0111",
+              "0110"
+            ],
+            [
+              "00",
+              "01"
+            ],
+            [
+              "00",
+              "10"
+            ],
+            [
+              "01",
+              "11"
+            ],
+            [
+              "01",
+              "01"
+            ],
+            [
+              "11",
+              "10"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "methodDetails": "All bounded native paths and decoded original binary glyph identities, with editable pairs in source positions."
+        }
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Fig.24 all three original graphs showing four, six, and eleven branch nodes and original paired labels.",
+        "All fifteen paired-bead labels of (38) and correct order of the four sinks in (39).",
+        "Both Boolean reductions, the symmetric S1,4 function and exact f∨g-bar conclusion, with product-size discussion and all formulas."
+      ],
+      "ocrRepairsOfNote": [
+        "Both editions print the final last example as f∨g-bar, not uncomplemented g. Fig.24 initially used the very small default serif glyph for ⋄; replaced it with a clear matching hollow outline from fixed source origins and reviewed in a fresh browser. The unpublished original is retained in history."
+      ],
+      "syntaxCheck": {
+        "physicalPage": 197,
+        "markdownSha256": "981596fd41eb0fbe107b76d4a895c91a7a6d8ed338701a789173d032baca2a00",
+        "htmlSha256": "ab39e4ca161218737c564add8bd08c5dafd9964464bef57b31be327154c6d123",
+        "mathExpressions": 64,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 2,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-195-196-197.json",
+        "sha256": "3d6f2077d30ddd0aa41af8fc35492b02131d23ab70c402e9e70ca81f9d190b5f",
+        "cases": [
+          {
+            "physicalPage": 197,
+            "width": 1280,
+            "markdownSha256": "981596fd41eb0fbe107b76d4a895c91a7a6d8ed338701a789173d032baca2a00",
+            "documentWidth": 1280,
+            "math": 64,
+            "mathml": 64,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 64,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 197,
+            "width": 390,
+            "markdownSha256": "981596fd41eb0fbe107b76d4a895c91a7a6d8ed338701a789173d032baca2a00",
+            "documentWidth": 390,
+            "math": 64,
+            "mathml": 64,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 64,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Current browser proofs read at 1280 and 390 and at the narrow horizontal final states. Both image links open, display and navigate back on both viewport sizes."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/197-1280.png",
+          "sha256": "9b018abda84b42c9e613ace6bfe37b3831ecabeec4ef4884849c6bfe5e1de244",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/197-390.png",
+          "sha256": "355bb6e904a1b8257f1175fd5545b6e8f31c12deef43cf5c860915680baa1ee1",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/197-390-right.png",
+          "sha256": "518ce759e142b0cddf097abce480fbdfece0a8124f9dcb08ae818548242e6191",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-235-meld-detail.png",
+          "sha256": "d180171d6bbd2314c2b822e63dd8d0c956ba08c2f49c3ba407fe6e68a2308077"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-197-fig24-meld.png",
+          "sha256": "7b4e363970b877764bc03fecaf9981350092a8180d1c1ac8eb9cbb0dc58478af"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-236-meld-detail.png",
+          "sha256": "fbcbc0e77582d5ef7937717c78b65cc1e9e4568a43ccbb95f8b54c51817b5f69"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-197-38-pair-words.png",
+          "sha256": "999118b9456a22d90c3e70504f045eeda9dc97f09acca6d007937895c67157b2"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-197-conclusion-operator.png",
+          "sha256": "19fba310c6f541149ab903abf825ab8b3cd052356ac78e4e092376d36caee5f5"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-236-conclusion-operator.png",
+          "sha256": "03babb20939d09ab6d2c5fd96808bfc58e6e63249289ab8cb7d37f040d539224"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete Chinese physical pages CN195–197 against their EN233–236 exact source locations. Pointer trace validation and paired truth diagrams have bounded coverage separate from source reading.",
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "followingPageContinuation": "The first clause joins directly with CN196 如果 f 和 g 是. The Fig.24 image and caption follow the complete introductory paragraph. CN198 starts the next regular paragraph.",
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-reduction-and-meld-195-197.json",
+          "sha256": "c5b8a221ddddc07dda1702d177993a14901eafdb01e0712fced5b1b525a9b030",
+          "scope": "Actual fixed Algorithm R seven-node example plus bounded truth trees; original Fig.24 / (38) input and word pairs, and 16 truth assignments at each of the 16 binary operations. No generic correctness or runtime claim."
+        },
+        {
+          "file": "assets/volume4a/review/body-195-197-wide-details.json",
+          "sha256": "d1115331ca137b5173b31d652134140f054bec183a659aebc0e82445a4d5d83f",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        },
+        {
+          "file": "assets/volume4a/review/body-197-original-links.json",
+          "sha256": "40206cebab4951b3d62f3f41d301b2cae1ebb8e91722455923e3fd3cc19b4f78",
+          "scope": "Actual linked original image opening and back navigation in current private proofs. No published route or separate whole-page cases."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "194a82ea480759d14c3dd4b745e88c043a92c4929044d845d4458c42c784f1e5",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/197.json"
+    }
+  ],
+  "qualification": "Complete Chinese physical pages CN195–197 against their EN233–236 exact source locations. Pointer trace validation and paired truth diagrams have bounded coverage separate from source reading."
+}

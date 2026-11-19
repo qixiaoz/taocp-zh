@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "OnlySpecifiedFiniteSource162164165167Examples;NotAllFunctionsOrGeneralProofs",
+  "data": {
+    "checkerSha256": "e1950941cb808baf0d796a5dc9e82163af016cdd99bd1ca05d213c720b04ae27",
+    "factoryDependencySha256": "fe93efe5d116f8594d2b38df4b52ae1d51b4d3e06390d99ba0be97743dd877dd",
+    "pageMarkdownSha256": {
+      "560": "5a467ba88522344e55286263f0184516588d1557ee2ab222f33792f51352a0a2",
+      "561": "64070e59b8c20eb098bd1deac1dbcc9a1064a69c3463e9c81296730382eb92e6"
+    },
+    "164": [
+      {
+        "n": 1,
+        "naturalUSize": 3,
+        "naturalVJointComplementSize": 4,
+        "allPermutationsChecked": 1,
+        "minimumUSize": 3,
+        "minimumVJointSize": 4
+      },
+      {
+        "n": 2,
+        "naturalUSize": 5,
+        "naturalVJointComplementSize": 6,
+        "allPermutationsChecked": 2,
+        "minimumUSize": 5,
+        "minimumVJointSize": 6
+      },
+      {
+        "n": 3,
+        "naturalUSize": 7,
+        "naturalVJointComplementSize": 10,
+        "allPermutationsChecked": 6,
+        "minimumUSize": 6,
+        "minimumVJointSize": 8
+      },
+      {
+        "n": 4,
+        "naturalUSize": 11,
+        "naturalVJointComplementSize": 14,
+        "allPermutationsChecked": 24,
+        "minimumUSize": 8,
+        "minimumVJointSize": 10
+      },
+      {
+        "n": 5,
+        "naturalUSize": 15,
+        "naturalVJointComplementSize": 22,
+        "allPermutationsChecked": 120,
+        "minimumUSize": 9,
+        "minimumVJointSize": 12
+      },
+      {
+        "n": 6,
+        "naturalUSize": 23,
+        "naturalVJointComplementSize": 30,
+        "allPermutationsChecked": 720,
+        "minimumUSize": 11,
+        "minimumVJointSize": 14
+      },
+      {
+        "n": 7,
+        "naturalUSize": 31,
+        "naturalVJointComplementSize": 46
+      },
+      {
+        "n": 8,
+        "naturalUSize": 47,
+        "naturalVJointComplementSize": 62
+      },
+      {
+        "n": 9,
+        "naturalUSize": 63,
+        "naturalVJointComplementSize": 94
+      },
+      {
+        "n": 10,
+        "naturalUSize": 95,
+        "naturalVJointComplementSize": 126
+      }
+    ],
+    "165": {
+      "sourceDefinition": "ActualEN263Eq114binaryhalvesu_next=vANDv/v_next=uXORu;u0=v0=x1",
+      "rows": [
+        {
+          "m": 0,
+          "variables": 1,
+          "truthValuesEachFunction": 2,
+          "uSize": 3,
+          "vSize": 3,
+          "uJointComplementSize": 4,
+          "vJointComplementSize": 4
+        },
+        {
+          "m": 1,
+          "variables": 2,
+          "truthValuesEachFunction": 4,
+          "uSize": 4,
+          "vSize": 5,
+          "uJointComplementSize": 6,
+          "vJointComplementSize": 6
+        },
+        {
+          "m": 2,
+          "variables": 4,
+          "truthValuesEachFunction": 16,
+          "uSize": 8,
+          "vSize": 8,
+          "uJointComplementSize": 12,
+          "vJointComplementSize": 10
+        },
+        {
+          "m": 3,
+          "variables": 8,
+          "truthValuesEachFunction": 256,
+          "uSize": 14,
+          "vSize": 18,
+          "uJointComplementSize": 22,
+          "vJointComplementSize": 22
+        },
+        {
+          "m": 4,
+          "variables": 16,
+          "truthValuesEachFunction": 65536,
+          "uSize": 34,
+          "vSize": 34,
+          "uJointComplementSize": 54,
+          "vJointComplementSize": 42
+        }
+      ]
+    },
+    "167": {
+      "scope": "OnlyallorderedfullbinaryANDXORtreeswithorderedleavesupto5;notalltenoperators/generaltheoremproof",
+      "rows": [
+        {
+          "n": 1,
+          "fullOrderedANDXORTrees": 1,
+          "totalPermutationCases": 1,
+          "bothDPOptimumSizesAndChosenOrderMatched": true
+        },
+        {
+          "n": 2,
+          "fullOrderedANDXORTrees": 2,
+          "totalPermutationCases": 4,
+          "bothDPOptimumSizesAndChosenOrderMatched": true
+        },
+        {
+          "n": 3,
+          "fullOrderedANDXORTrees": 8,
+          "totalPermutationCases": 48,
+          "bothDPOptimumSizesAndChosenOrderMatched": true
+        },
+        {
+          "n": 4,
+          "fullOrderedANDXORTrees": 40,
+          "totalPermutationCases": 960,
+          "bothDPOptimumSizesAndChosenOrderMatched": true
+        },
+        {
+          "n": 5,
+          "fullOrderedANDXORTrees": 224,
+          "totalPermutationCases": 26880,
+          "bothDPOptimumSizesAndChosenOrderMatched": true
+        }
+      ]
+    },
+    "162E1": {
+      "allBoundary20VariableAssignments": 1048576,
+      "irrelevantInteriorVariables": 16,
+      "firstEscapeBoundaryAssignments": 806544,
+      "firstEscapeFullConfigurations": 52857667584,
+      "canonicalBDDSize": 101,
+      "noE2To26OrFull2Power36Reproduction": true
+    },
+    "qualifications": [
+      "Finitecheckedinstancesnotgeneralinductionproofsorallread-oncefunctions",
+      "166generalunshuffleand168analyticinequalityonlysourcecompared",
+      "LifeimagesandrenderedformulaDOMbindingseparate"
+    ]
+  },
+  "actualDisplayedE26ListAndXYConstraintChecked": true,
+  "actualDisplayed164And165KeyFormulasChecked": 7,
+  "evidenceSha256": "23b1cf4eac7a12151bab1707b736afc7b4e3280fb4b38c66443246815dfc1f78"
+}

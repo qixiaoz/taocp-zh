@@ -1,0 +1,527 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-assigned-physical-page-source-review-and-private-two-width-proof",
+  "cnPhysicalPages": [
+    386,
+    387
+  ],
+  "cnPrintedPages": [
+    371,
+    372
+  ],
+  "masterSha256": null,
+  "mathExpressions": 115,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 2,
+  "logicalAssemblies": [
+    {
+      "file": "assets/volume4a/review/body-386-387-tree-rotations-385-tail-387-assembly.json",
+      "sha256": "846822c20ed42d5a5074ba0022cad091dc4f9616f37270f08289e390550af450"
+    }
+  ],
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 386,
+      "cnPrintedPage": 371,
+      "enPdfPages": [
+        463,
+        464
+      ],
+      "enPrintedPages": [
+        446,
+        447
+      ],
+      "pageMarkdownSha256": "60a45d805607affdee4506a7276a35cf6af97c0180d2de6c82eac7daf8220b50",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/386.jpg",
+      "sourcePageImageSha256": "da8198311e54e6e020b7a22882f4243ee041c055172c5c78c69466449c73ae78",
+      "enPageImages": [
+        {
+          "physicalPage": 463,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-463.png",
+          "sha256": "d5a6aa36e7dcee421b5bb68d93fb05a4a566ed5766e2609310f1a3e0c69e2836"
+        },
+        {
+          "physicalPage": 464,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-464.png",
+          "sha256": "a0b588e8ef607f949d79ccbfa442b1d947db4a5e2d2e62616604e3644c1a15fd"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-386",
+        "p-371"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-eq12-left-tree-rotation.svg",
+          "sha256": "60975bcbb4bc7d9513a1f27f07a1e4625058baa135719954a21227d658953a94"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-eq13-left-forest-rotation.svg",
+          "sha256": "62d02fe407a0c0af39735282a4ef775ae2a38594c5e2ecfcff6aaaa70a81d07a"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 386,
+        "markdownSha256": "60a45d805607affdee4506a7276a35cf6af97c0180d2de6c82eac7daf8220b50",
+        "htmlSha256": "a9a89d496b4e33529f37b310a7498c63291f32f1c346bcf0667feaadc2899f4e",
+        "mathExpressions": 43,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 2,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/result.json",
+        "sha256": "e177bf55e7bc44c74c5472565a8de498f5051db3e4b11d019bff8225d92fb76d",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 43,
+            "mathML": 43,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 386,
+            "width": 1280,
+            "pageMarkdownSha256": "60a45d805607affdee4506a7276a35cf6af97c0180d2de6c82eac7daf8220b50",
+            "htmlSha256": "a9a89d496b4e33529f37b310a7498c63291f32f1c346bcf0667feaadc2899f4e",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq12-left-tree-rotation.svg",
+                "opened": true,
+                "screenshot": "386-1280-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq13-left-forest-rotation.svg",
+                "opened": true,
+                "screenshot": "386-1280-original-image1.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          },
+          {
+            "documentWidth": 390,
+            "math": 43,
+            "mathML": 43,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 404,
+                "left": 0,
+                "right": 94,
+                "max": 94,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 386,
+            "width": 390,
+            "pageMarkdownSha256": "60a45d805607affdee4506a7276a35cf6af97c0180d2de6c82eac7daf8220b50",
+            "htmlSha256": "a9a89d496b4e33529f37b310a7498c63291f32f1c346bcf0667feaadc2899f4e",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq12-left-tree-rotation.svg",
+                "opened": true,
+                "screenshot": "386-390-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq13-left-forest-rotation.svg",
+                "opened": true,
+                "screenshot": "386-390-original-image1.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/386-1280-walk0.png",
+          "sha256": "c61aa1e59f8db272969535cfdd1f7ce68e50870a8553b9247b489ff92c35dac6",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/386-1280-walk1.png",
+          "sha256": "06ea3a35a0e386a3bcd5b50b3af048517daad5525aa2a8caceb2a388cbc1ec7f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/386-1280-walk2.png",
+          "sha256": "cff21b7500b5a0ce0059151f3b4996bc46e7603ce0d8e81bd93608c707cdec7f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/386-390-walk0.png",
+          "sha256": "af9b696dc2f8edf45a682f7d208beba16235ec8f3d5aca0873cb73b91f59ad66",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/386-390-walk1.png",
+          "sha256": "8fad3a39d4fe3fd9534216abeb5221e59e51ca69a10017567feac79f0cdd6778",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/386-390-walk2.png",
+          "sha256": "6e5870534ec7a8181315fa703c45c513feca0d5b50b26ccd83629fbb488e8518",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/386-390-walk3.png",
+          "sha256": "2f39930d1979ca17e9dd4523a62ff97da3908346be057eee2a0a1a8edb88846a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/386-390-walk4.png",
+          "sha256": "b6f92f2f7dde5be9563e2b1295c9ed8b0aee782f3b56b8a49829cc7b4559d1af",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/386-390-display0-right.png",
+          "sha256": "c819d2a34c2945efd3da016a6f700d1ac4b068a7ce827835dfc403851624fbad",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/386-1280-original-image0.png",
+          "sha256": "07834ec208b9bb56b27bf6032828397f725c0b7f2021c8e4964be9b542c45a26",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/386-1280-original-image1.png",
+          "sha256": "ad14ecfcdc0d01da93e6337804b7a61d9f86a32f1dcbe8b11040de1f839969a9",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/386-390-original-image0-right.png",
+          "sha256": "2e5111962f57a64fc95c50fcc4b3b12747fb5e6aa33c0d2b2256ec8b78022351",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/386-390-original-image0.png",
+          "sha256": "db1d9bceb129400793ff14891bf15bd2b1de294bdd1a9d06a2c6ef1415f7d650",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/386-390-original-image1-right.png",
+          "sha256": "46b3b2c7d31d2b5408bfe192e379d931fe519bd2764f1b6714c53a706e4be498",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/386-390-original-image1.png",
+          "sha256": "34c06925174c2216b6282b3333b8c0a1cc969f4c05dd29be79077b658e9155a2",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-386-387-source-fields.json",
+        "sha256": "d62b370ee634e91804e539f2dc9633cdb3773747e59b50e2500ca3300d596982"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-386-387-tree-rotations-385-tail-387-assembly.json",
+          "sha256": "846822c20ed42d5a5074ba0022cad091dc4f9616f37270f08289e390550af450"
+        }
+      ],
+      "coveredRegions": [
+        "Algorithm N1–N5, full 14-item sequence, bibliographical aside, (12) and (13) labels, edges and connection direction, final rotation paragraph start."
+      ],
+      "followingPageContinuation": "The final open parentheses and noun phrase 旋转操作 join 的二叉树形式 on CN387; (14) stays within the complete prose and display sequence.",
+      "qualification": "Full CN386–387 compared with matched EN463–465. Both physical and continuous actual browser widths, independent asset links, formulas and scroll endpoints checked. Algorithm enumerations are limited to n=1 through 7.",
+      "privateOriginalPageReviewSha256": "9c35f659747386e30543ccfa821438a5343070321ab569448f0c144a8133d887",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/386.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 387,
+      "cnPrintedPage": 372,
+      "enPdfPages": [
+        464,
+        465
+      ],
+      "enPrintedPages": [
+        447,
+        448
+      ],
+      "pageMarkdownSha256": "6f7eb85939e67f25b13b9d848408e84512b52a97ad168be146150c52d3894472",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/387.jpg",
+      "sourcePageImageSha256": "895f2b8f769ca27887a6237989856ac5dd634bafe152cd63831d0f0c350f431a",
+      "enPageImages": [
+        {
+          "physicalPage": 464,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-464.png",
+          "sha256": "a0b588e8ef607f949d79ccbfa442b1d947db4a5e2d2e62616604e3644c1a15fd"
+        },
+        {
+          "physicalPage": 465,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-465.png",
+          "sha256": "8e09a274eea58b440bc78f808021921cdb4000ea168c1f33c12303c920988c19"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-387",
+        "p-372"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-067",
+          "section": "7.2.1.6",
+          "cnPdfPage": 387,
+          "enPdfPages": [
+            464
+          ],
+          "location": "四个森林图后说明的结点位置",
+          "original": "在 $n$ 位于左侧或顶部的极端情况下",
+          "final": "在 $n$ 位于右侧或顶部的极端情况下",
+          "basis": "EN464原图对应句为 either at the right or at the top；首个森林的结点n在最右，末个森林的结点n在顶部。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "6f7eb85939e67f25b13b9d848408e84512b52a97ad168be146150c52d3894472",
+          "cnPrintedPage": 372
+        },
+        {
+          "id": "volume4a-tail-068",
+          "section": "7.2.1.6",
+          "cnPdfPage": 387,
+          "enPdfPages": [
+            465
+          ],
+          "location": "算法L步骤L3两条分支的共同处理",
+          "original": "如果在两种情形都有 $m=0$",
+          "final": "在任一情形下，如果 $m=0$",
+          "basis": "EN465步骤L3原印 if m=0 in either case；按当前o_j的符号进入一条分支，当前分支的m为0即反向并递减j。有限运行仅核n=1至7。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "6f7eb85939e67f25b13b9d848408e84512b52a97ad168be146150c52d3894472",
+          "cnPrintedPage": 372
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-forest-rotation-expansion-series.svg",
+          "sha256": "ad31631e641fdf80cd1d6ea09c74f0c76167c2e7becf9ea5f3d56d6394743d03"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 387,
+        "markdownSha256": "6f7eb85939e67f25b13b9d848408e84512b52a97ad168be146150c52d3894472",
+        "htmlSha256": "6ac1a9b3d3bf7bc546eded2f62963ab6458b56f0df7caae5b2c1834410577ed0",
+        "mathExpressions": 72,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/result.json",
+        "sha256": "e177bf55e7bc44c74c5472565a8de498f5051db3e4b11d019bff8225d92fb76d",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 72,
+            "mathML": 72,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 387,
+            "width": 1280,
+            "pageMarkdownSha256": "6f7eb85939e67f25b13b9d848408e84512b52a97ad168be146150c52d3894472",
+            "htmlSha256": "6ac1a9b3d3bf7bc546eded2f62963ab6458b56f0df7caae5b2c1834410577ed0",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-forest-rotation-expansion-series.svg",
+                "opened": true,
+                "screenshot": "387-1280-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          },
+          {
+            "documentWidth": 390,
+            "math": 72,
+            "mathML": 72,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 387,
+            "width": 390,
+            "pageMarkdownSha256": "6f7eb85939e67f25b13b9d848408e84512b52a97ad168be146150c52d3894472",
+            "htmlSha256": "6ac1a9b3d3bf7bc546eded2f62963ab6458b56f0df7caae5b2c1834410577ed0",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-forest-rotation-expansion-series.svg",
+                "opened": true,
+                "screenshot": "387-390-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/387-1280-walk0.png",
+          "sha256": "6b5fcdb0b48c076437500088b2e6818e2283bfca3d731ae687022e7f6cf0b007",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/387-1280-walk1.png",
+          "sha256": "db354bdfc8d39fda0e2e0f2fd1cf4c2add6a2270a2dd8fdef37922ef4310b678",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/387-1280-walk2.png",
+          "sha256": "55aab5a18f6fc83f615f04ae1c09edc39eddab11a1332c91b475ccf3b467279d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/387-390-walk0.png",
+          "sha256": "787f49c772062855501188ac8d848c596c24ce3903d554109997f010d9b02666",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/387-390-walk1.png",
+          "sha256": "deb5f721859594d7f7ce0a9d00376e9d1ab2521a40507d17ee1eeb2349832fc1",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/387-390-walk2.png",
+          "sha256": "7ca96c00f51ed06a5b2092764c153acaf77a4970f4e4c49ee64af22e9cb679a8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/387-390-walk3.png",
+          "sha256": "87bc271bf24e756ba1df71f2d75f5944285191f092883f592310b7d380ee8557",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/387-390-walk4.png",
+          "sha256": "0b201e5feac987fe620c8d626c0bd95a7b0a2efee81c081e8baa8f13697a3bce",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/387-1280-original-image0.png",
+          "sha256": "592c7f2adb56ea6c3ca557ed9e6ae030d22884ccd4a547608ec761249f6bfc9f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/387-390-original-image0-right.png",
+          "sha256": "d84fb39c2b6011a8e606bad7c6ff6710b42049857be72c2aa998dea705c30bec",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/386-387/387-390-original-image0.png",
+          "sha256": "bae548e121e17ae36e35989e16db7ab217312e3a9ee55e6c951bbe957a48a738",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-386-387-source-fields.json",
+        "sha256": "d62b370ee634e91804e539f2dc9633cdb3773747e59b50e2500ca3300d596982"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-386-387-tree-rotations-385-tail-387-assembly.json",
+          "sha256": "846822c20ed42d5a5074ba0022cad091dc4f9616f37270f08289e390550af450"
+        }
+      ],
+      "coveredRegions": [
+        "Finish the rotation paragraph and (14); four forest stages, Algorithm L1–L5 and the opening of Table 3 explanation."
+      ],
+      "followingPageContinuation": "CN388 starts with Table 3 on the paper and completes 自右向左的反射 under it.",
+      "qualification": "Full CN386–387 compared with matched EN463–465. Both physical and continuous actual browser widths, independent asset links, formulas and scroll endpoints checked. Algorithm enumerations are limited to n=1 through 7.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/387-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "beaf0c7d7b40bbd47b7a749cac50fad7e60792323494e4f9070af0cc4531e32f",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "ed9ac48a1a7e0292825902ed02a36e0a1fc8e2ccc61a69539b90e691ed46c696",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/387.json"
+    }
+  ],
+  "qualification": "Full CN386–387 compared with matched EN463–465. Both physical and continuous actual browser widths, independent asset links, formulas and scroll endpoints checked. Algorithm enumerations are limited to n=1 through 7."
+}

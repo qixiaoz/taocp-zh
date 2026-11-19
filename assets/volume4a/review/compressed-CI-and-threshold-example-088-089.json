@@ -1,0 +1,1552 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+  "masterSha256": null,
+  "pageMarkdownHashes": {
+    "88": "669ba3b5f3ea796f0e164e3d15ff93aa9aa19e0346e7f40b9f666e0de2c9367d",
+    "89": "ff2abb13c65b578f225bc9cfd0c62b3660cda71d7451f40a7930bfd9f2eb65c3"
+  },
+  "printedCompressedCircuit": {
+    "asset": "assets/volume4a/figures/exercise-7-1-1-88-compressed-CI.svg",
+    "sha256": "3b2acf4d96086923e00a39060c279d1ab47fbc95e1aa2be906a4d220d2485518",
+    "sourceSelectionBBox": [
+      92,
+      282,
+      351,
+      333
+    ],
+    "nativeDrawingCount": 73,
+    "circuit": {
+      "wireY": [
+        285.8190002441406,
+        292.99102783203125,
+        300.1620178222656,
+        307.3330078125,
+        314.5040283203125,
+        321.676025390625,
+        328.8470153808594
+      ],
+      "wireCount": 7,
+      "comparatorCount": 18,
+      "inverterCount": 12,
+      "operations": [
+        {
+          "x": 106.52519989013672,
+          "type": "inverter",
+          "wire": 1
+        },
+        {
+          "x": 106.52519989013672,
+          "type": "inverter",
+          "wire": 3
+        },
+        {
+          "x": 106.52519989013672,
+          "type": "inverter",
+          "wire": 5
+        },
+        {
+          "x": 112.00420379638672,
+          "type": "comparator",
+          "wires": [
+            0,
+            6
+          ]
+        },
+        {
+          "x": 128.439208984375,
+          "type": "comparator",
+          "wires": [
+            0,
+            3
+          ]
+        },
+        {
+          "x": 144.87319946289062,
+          "type": "comparator",
+          "wires": [
+            0,
+            1
+          ]
+        },
+        {
+          "x": 144.87319946289062,
+          "type": "inverter",
+          "wire": 3
+        },
+        {
+          "x": 161.30819702148438,
+          "type": "inverter",
+          "wire": 1
+        },
+        {
+          "x": 164.04721069335938,
+          "type": "comparator",
+          "wires": [
+            3,
+            6
+          ]
+        },
+        {
+          "x": 166.78619384765625,
+          "type": "comparator",
+          "wires": [
+            0,
+            2
+          ]
+        },
+        {
+          "x": 183.22119140625,
+          "type": "inverter",
+          "wire": 3
+        },
+        {
+          "x": 188.69918823242188,
+          "type": "comparator",
+          "wires": [
+            1,
+            6
+          ]
+        },
+        {
+          "x": 194.17819213867188,
+          "type": "comparator",
+          "wires": [
+            0,
+            4
+          ]
+        },
+        {
+          "x": 210.6121826171875,
+          "type": "comparator",
+          "wires": [
+            1,
+            3
+          ]
+        },
+        {
+          "x": 216.09121704101562,
+          "type": "comparator",
+          "wires": [
+            0,
+            5
+          ]
+        },
+        {
+          "x": 232.52520751953125,
+          "type": "inverter",
+          "wire": 3
+        },
+        {
+          "x": 232.52520751953125,
+          "type": "inverter",
+          "wire": 5
+        },
+        {
+          "x": 232.52618408203125,
+          "type": "comparator",
+          "wires": [
+            1,
+            2
+          ]
+        },
+        {
+          "x": 248.960205078125,
+          "type": "comparator",
+          "wires": [
+            3,
+            4
+          ]
+        },
+        {
+          "x": 248.960205078125,
+          "type": "comparator",
+          "wires": [
+            5,
+            6
+          ]
+        },
+        {
+          "x": 265.3951721191406,
+          "type": "comparator",
+          "wires": [
+            3,
+            5
+          ]
+        },
+        {
+          "x": 270.8731994628906,
+          "type": "comparator",
+          "wires": [
+            4,
+            6
+          ]
+        },
+        {
+          "x": 287.3081970214844,
+          "type": "inverter",
+          "wire": 3
+        },
+        {
+          "x": 287.3081970214844,
+          "type": "inverter",
+          "wire": 4
+        },
+        {
+          "x": 292.78619384765625,
+          "type": "comparator",
+          "wires": [
+            1,
+            5
+          ]
+        },
+        {
+          "x": 298.26519775390625,
+          "type": "comparator",
+          "wires": [
+            2,
+            6
+          ]
+        },
+        {
+          "x": 314.6991882324219,
+          "type": "comparator",
+          "wires": [
+            2,
+            3
+          ]
+        },
+        {
+          "x": 320.1781921386719,
+          "type": "comparator",
+          "wires": [
+            1,
+            4
+          ]
+        },
+        {
+          "x": 336.6121826171875,
+          "type": "inverter",
+          "wire": 3
+        },
+        {
+          "x": 336.6121826171875,
+          "type": "inverter",
+          "wire": 4
+        }
+      ]
+    },
+    "cnPhysicalPage": 89,
+    "enPhysicalPage": 108,
+    "exercise": 88,
+    "sourceCodeLocator": "private-snapshot:volume4a/tools/reconstruct-CI-exercise88.py",
+    "sourceCodeSha256": "2da90cfafebd35320aca252a4d47dd87b61dc5e9218fae2b1708e450be7f54b7",
+    "baseCIFunctionCodeLocator": "private-snapshot:volume4a/tools/reconstruct-CI-069-073-074.py",
+    "baseCIFunctionCodeSha256": "41db3c0f63912ff10d8f3b5f84020ac2a34f2ff323e9f802023328a50aac2a29",
+    "sourceEnSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+    "allSevenWireComponentTracesMatchOriginalPrinted74": true,
+    "wireComponentTraces": [
+      [
+        [
+          "C",
+          0,
+          6
+        ],
+        [
+          "C",
+          0,
+          3
+        ],
+        [
+          "C",
+          0,
+          1
+        ],
+        [
+          "C",
+          0,
+          2
+        ],
+        [
+          "C",
+          0,
+          4
+        ],
+        [
+          "C",
+          0,
+          5
+        ]
+      ],
+      [
+        [
+          "I",
+          1
+        ],
+        [
+          "C",
+          0,
+          1
+        ],
+        [
+          "I",
+          1
+        ],
+        [
+          "C",
+          1,
+          6
+        ],
+        [
+          "C",
+          1,
+          3
+        ],
+        [
+          "C",
+          1,
+          2
+        ],
+        [
+          "C",
+          1,
+          5
+        ],
+        [
+          "C",
+          1,
+          4
+        ]
+      ],
+      [
+        [
+          "C",
+          0,
+          2
+        ],
+        [
+          "C",
+          1,
+          2
+        ],
+        [
+          "C",
+          2,
+          6
+        ],
+        [
+          "C",
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          "I",
+          3
+        ],
+        [
+          "C",
+          0,
+          3
+        ],
+        [
+          "I",
+          3
+        ],
+        [
+          "C",
+          3,
+          6
+        ],
+        [
+          "I",
+          3
+        ],
+        [
+          "C",
+          1,
+          3
+        ],
+        [
+          "I",
+          3
+        ],
+        [
+          "C",
+          3,
+          4
+        ],
+        [
+          "C",
+          3,
+          5
+        ],
+        [
+          "I",
+          3
+        ],
+        [
+          "C",
+          2,
+          3
+        ],
+        [
+          "I",
+          3
+        ]
+      ],
+      [
+        [
+          "C",
+          0,
+          4
+        ],
+        [
+          "C",
+          3,
+          4
+        ],
+        [
+          "C",
+          4,
+          6
+        ],
+        [
+          "I",
+          4
+        ],
+        [
+          "C",
+          1,
+          4
+        ],
+        [
+          "I",
+          4
+        ]
+      ],
+      [
+        [
+          "I",
+          5
+        ],
+        [
+          "C",
+          0,
+          5
+        ],
+        [
+          "I",
+          5
+        ],
+        [
+          "C",
+          5,
+          6
+        ],
+        [
+          "C",
+          3,
+          5
+        ],
+        [
+          "C",
+          1,
+          5
+        ]
+      ],
+      [
+        [
+          "C",
+          0,
+          6
+        ],
+        [
+          "C",
+          3,
+          6
+        ],
+        [
+          "C",
+          1,
+          6
+        ],
+        [
+          "C",
+          5,
+          6
+        ],
+        [
+          "C",
+          4,
+          6
+        ],
+        [
+          "C",
+          2,
+          6
+        ]
+      ]
+    ],
+    "all128OutputsMatchOriginalPrinted74": true,
+    "all128InputRows": [
+      {
+        "input": "0000000",
+        "originalPrinted74": "0000000",
+        "compressed88": "0000000"
+      },
+      {
+        "input": "0000001",
+        "originalPrinted74": "0000001",
+        "compressed88": "0000001"
+      },
+      {
+        "input": "0000010",
+        "originalPrinted74": "0000001",
+        "compressed88": "0000001"
+      },
+      {
+        "input": "0000011",
+        "originalPrinted74": "0000011",
+        "compressed88": "0000011"
+      },
+      {
+        "input": "0000100",
+        "originalPrinted74": "0000001",
+        "compressed88": "0000001"
+      },
+      {
+        "input": "0000101",
+        "originalPrinted74": "0000101",
+        "compressed88": "0000101"
+      },
+      {
+        "input": "0000110",
+        "originalPrinted74": "0000101",
+        "compressed88": "0000101"
+      },
+      {
+        "input": "0000111",
+        "originalPrinted74": "0000111",
+        "compressed88": "0000111"
+      },
+      {
+        "input": "0001000",
+        "originalPrinted74": "0000001",
+        "compressed88": "0000001"
+      },
+      {
+        "input": "0001001",
+        "originalPrinted74": "0000101",
+        "compressed88": "0000101"
+      },
+      {
+        "input": "0001010",
+        "originalPrinted74": "0000011",
+        "compressed88": "0000011"
+      },
+      {
+        "input": "0001011",
+        "originalPrinted74": "0000111",
+        "compressed88": "0000111"
+      },
+      {
+        "input": "0001100",
+        "originalPrinted74": "0000101",
+        "compressed88": "0000101"
+      },
+      {
+        "input": "0001101",
+        "originalPrinted74": "0000111",
+        "compressed88": "0000111"
+      },
+      {
+        "input": "0001110",
+        "originalPrinted74": "0000111",
+        "compressed88": "0000111"
+      },
+      {
+        "input": "0001111",
+        "originalPrinted74": "0001111",
+        "compressed88": "0001111"
+      },
+      {
+        "input": "0010000",
+        "originalPrinted74": "0000001",
+        "compressed88": "0000001"
+      },
+      {
+        "input": "0010001",
+        "originalPrinted74": "0010001",
+        "compressed88": "0010001"
+      },
+      {
+        "input": "0010010",
+        "originalPrinted74": "0010001",
+        "compressed88": "0010001"
+      },
+      {
+        "input": "0010011",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "0010100",
+        "originalPrinted74": "0010001",
+        "compressed88": "0010001"
+      },
+      {
+        "input": "0010101",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "0010110",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "0010111",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "0011000",
+        "originalPrinted74": "0010001",
+        "compressed88": "0010001"
+      },
+      {
+        "input": "0011001",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "0011010",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "0011011",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "0011100",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "0011101",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "0011110",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "0011111",
+        "originalPrinted74": "0000111",
+        "compressed88": "0000111"
+      },
+      {
+        "input": "0100000",
+        "originalPrinted74": "0000001",
+        "compressed88": "0000001"
+      },
+      {
+        "input": "0100001",
+        "originalPrinted74": "0010001",
+        "compressed88": "0010001"
+      },
+      {
+        "input": "0100010",
+        "originalPrinted74": "0000011",
+        "compressed88": "0000011"
+      },
+      {
+        "input": "0100011",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "0100100",
+        "originalPrinted74": "0000101",
+        "compressed88": "0000101"
+      },
+      {
+        "input": "0100101",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "0100110",
+        "originalPrinted74": "0000111",
+        "compressed88": "0000111"
+      },
+      {
+        "input": "0100111",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "0101000",
+        "originalPrinted74": "0010001",
+        "compressed88": "0010001"
+      },
+      {
+        "input": "0101001",
+        "originalPrinted74": "0000001",
+        "compressed88": "0000001"
+      },
+      {
+        "input": "0101010",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "0101011",
+        "originalPrinted74": "0000011",
+        "compressed88": "0000011"
+      },
+      {
+        "input": "0101100",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "0101101",
+        "originalPrinted74": "0000101",
+        "compressed88": "0000101"
+      },
+      {
+        "input": "0101110",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "0101111",
+        "originalPrinted74": "0000111",
+        "compressed88": "0000111"
+      },
+      {
+        "input": "0110000",
+        "originalPrinted74": "0010001",
+        "compressed88": "0010001"
+      },
+      {
+        "input": "0110001",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "0110010",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "0110011",
+        "originalPrinted74": "0110011",
+        "compressed88": "0110011"
+      },
+      {
+        "input": "0110100",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "0110101",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "0110110",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "0110111",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "0111000",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "0111001",
+        "originalPrinted74": "0010001",
+        "compressed88": "0010001"
+      },
+      {
+        "input": "0111010",
+        "originalPrinted74": "0110011",
+        "compressed88": "0110011"
+      },
+      {
+        "input": "0111011",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "0111100",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "0111101",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "0111110",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "0111111",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "1000000",
+        "originalPrinted74": "0000001",
+        "compressed88": "0000001"
+      },
+      {
+        "input": "1000001",
+        "originalPrinted74": "0010001",
+        "compressed88": "0010001"
+      },
+      {
+        "input": "1000010",
+        "originalPrinted74": "0000011",
+        "compressed88": "0000011"
+      },
+      {
+        "input": "1000011",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "1000100",
+        "originalPrinted74": "0000101",
+        "compressed88": "0000101"
+      },
+      {
+        "input": "1000101",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "1000110",
+        "originalPrinted74": "0000111",
+        "compressed88": "0000111"
+      },
+      {
+        "input": "1000111",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "1001000",
+        "originalPrinted74": "0000101",
+        "compressed88": "0000101"
+      },
+      {
+        "input": "1001001",
+        "originalPrinted74": "0000001",
+        "compressed88": "0000001"
+      },
+      {
+        "input": "1001010",
+        "originalPrinted74": "0000111",
+        "compressed88": "0000111"
+      },
+      {
+        "input": "1001011",
+        "originalPrinted74": "0000011",
+        "compressed88": "0000011"
+      },
+      {
+        "input": "1001100",
+        "originalPrinted74": "0000111",
+        "compressed88": "0000111"
+      },
+      {
+        "input": "1001101",
+        "originalPrinted74": "0000101",
+        "compressed88": "0000101"
+      },
+      {
+        "input": "1001110",
+        "originalPrinted74": "0001111",
+        "compressed88": "0001111"
+      },
+      {
+        "input": "1001111",
+        "originalPrinted74": "0000111",
+        "compressed88": "0000111"
+      },
+      {
+        "input": "1010000",
+        "originalPrinted74": "0010001",
+        "compressed88": "0010001"
+      },
+      {
+        "input": "1010001",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "1010010",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "1010011",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "1010100",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "1010101",
+        "originalPrinted74": "1010101",
+        "compressed88": "1010101"
+      },
+      {
+        "input": "1010110",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "1010111",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "1011000",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "1011001",
+        "originalPrinted74": "0010001",
+        "compressed88": "0010001"
+      },
+      {
+        "input": "1011010",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "1011011",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "1011100",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "1011101",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "1011110",
+        "originalPrinted74": "0000111",
+        "compressed88": "0000111"
+      },
+      {
+        "input": "1011111",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "1100000",
+        "originalPrinted74": "0010001",
+        "compressed88": "0010001"
+      },
+      {
+        "input": "1100001",
+        "originalPrinted74": "0000001",
+        "compressed88": "0000001"
+      },
+      {
+        "input": "1100010",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "1100011",
+        "originalPrinted74": "0000011",
+        "compressed88": "0000011"
+      },
+      {
+        "input": "1100100",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "1100101",
+        "originalPrinted74": "0000101",
+        "compressed88": "0000101"
+      },
+      {
+        "input": "1100110",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "1100111",
+        "originalPrinted74": "0000111",
+        "compressed88": "0000111"
+      },
+      {
+        "input": "1101000",
+        "originalPrinted74": "0000001",
+        "compressed88": "0000001"
+      },
+      {
+        "input": "1101001",
+        "originalPrinted74": "0010001",
+        "compressed88": "0010001"
+      },
+      {
+        "input": "1101010",
+        "originalPrinted74": "0000011",
+        "compressed88": "0000011"
+      },
+      {
+        "input": "1101011",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "1101100",
+        "originalPrinted74": "0000101",
+        "compressed88": "0000101"
+      },
+      {
+        "input": "1101101",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "1101110",
+        "originalPrinted74": "0000111",
+        "compressed88": "0000111"
+      },
+      {
+        "input": "1101111",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "1110000",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "1110001",
+        "originalPrinted74": "0010001",
+        "compressed88": "0010001"
+      },
+      {
+        "input": "1110010",
+        "originalPrinted74": "0110011",
+        "compressed88": "0110011"
+      },
+      {
+        "input": "1110011",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "1110100",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "1110101",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "1110110",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "1110111",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "1111000",
+        "originalPrinted74": "0010001",
+        "compressed88": "0010001"
+      },
+      {
+        "input": "1111001",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "1111010",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      },
+      {
+        "input": "1111011",
+        "originalPrinted74": "0110011",
+        "compressed88": "0110011"
+      },
+      {
+        "input": "1111100",
+        "originalPrinted74": "0010101",
+        "compressed88": "0010101"
+      },
+      {
+        "input": "1111101",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "1111110",
+        "originalPrinted74": "0010111",
+        "compressed88": "0010111"
+      },
+      {
+        "input": "1111111",
+        "originalPrinted74": "0010011",
+        "compressed88": "0010011"
+      }
+    ],
+    "originalPrinted74Data": {
+      "locator": "private-snapshot:volume4a/body-review/native-CI-069-073-074.json",
+      "sha256": "e04af8f60a6d328e03d2e00410483bad2e985af7a7af06ba422b5da61c0d6e6a"
+    },
+    "originalPrinted74Map": {
+      "locator": "private-snapshot:volume4a/body-review/CI-fixed-examples-074-075.json",
+      "sha256": "11f19e4feb57b85dce8d1a8b2a2be5802d81db8ed2808307e714fc287a825f10"
+    },
+    "qualification": "Onlythisprinted7-wirecompressioninstance:wiretracesandall128outputscomparedwiththeACTUALprinted74network,notadifferentliteralDK-orderretraction. No generalO(tlogt)delayproof. SameobservedENringlikefatstrokevsCNsoliddotdisplayqualificationas74applies;selectedCNsolidappearancepreserved. ActualCN/EN/currentSVGviewsrequiredforpageacceptance.",
+    "sourceAndCurrentRenderVisualReview": {
+      "reviewerType": "model-direct-CN-EN-current-render-comparison",
+      "widths": [
+        1280,
+        390
+      ],
+      "completeSevenWiresAndAllEighteenComparatorEndpointsAndTwelveInvertersCompared": true,
+      "qualification": "Native endpoint identity and finite-output checks support source image comparison; they are not by themselves visual acceptance. Selected CN solid dots retained; English Type3 stroked rings render differently."
+    }
+  },
+  "printedThreshold98": {
+    "sourceLocation": "CN089/printed74;EN109/printed92",
+    "rows": [
+      {
+        "input": "000000",
+        "originalSum": 0,
+        "signedSum": -20,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "000001",
+        "originalSum": 13,
+        "signedSum": -7,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "000010",
+        "originalSum": 11,
+        "signedSum": -9,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "000011",
+        "originalSum": 24,
+        "signedSum": 4,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "000100",
+        "originalSum": 7,
+        "signedSum": -13,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "000101",
+        "originalSum": 20,
+        "signedSum": 0,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "000110",
+        "originalSum": 18,
+        "signedSum": -2,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "000111",
+        "originalSum": 31,
+        "signedSum": 11,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "001000",
+        "originalSum": 5,
+        "signedSum": -15,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "001001",
+        "originalSum": 18,
+        "signedSum": -2,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "001010",
+        "originalSum": 16,
+        "signedSum": -4,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "001011",
+        "originalSum": 29,
+        "signedSum": 9,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "001100",
+        "originalSum": 12,
+        "signedSum": -8,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "001101",
+        "originalSum": 25,
+        "signedSum": 5,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "001110",
+        "originalSum": 23,
+        "signedSum": 3,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "001111",
+        "originalSum": 36,
+        "signedSum": 16,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "010000",
+        "originalSum": 3,
+        "signedSum": -17,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "010001",
+        "originalSum": 16,
+        "signedSum": -4,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "010010",
+        "originalSum": 14,
+        "signedSum": -6,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "010011",
+        "originalSum": 27,
+        "signedSum": 7,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "010100",
+        "originalSum": 10,
+        "signedSum": -10,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "010101",
+        "originalSum": 23,
+        "signedSum": 3,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "010110",
+        "originalSum": 21,
+        "signedSum": 1,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "010111",
+        "originalSum": 34,
+        "signedSum": 14,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "011000",
+        "originalSum": 8,
+        "signedSum": -12,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "011001",
+        "originalSum": 21,
+        "signedSum": 1,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "011010",
+        "originalSum": 19,
+        "signedSum": -1,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "011011",
+        "originalSum": 32,
+        "signedSum": 12,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "011100",
+        "originalSum": 15,
+        "signedSum": -5,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "011101",
+        "originalSum": 28,
+        "signedSum": 8,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "011110",
+        "originalSum": 26,
+        "signedSum": 6,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "011111",
+        "originalSum": 39,
+        "signedSum": 19,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "100000",
+        "originalSum": 2,
+        "signedSum": -18,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "100001",
+        "originalSum": 15,
+        "signedSum": -5,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "100010",
+        "originalSum": 13,
+        "signedSum": -7,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "100011",
+        "originalSum": 26,
+        "signedSum": 6,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "100100",
+        "originalSum": 9,
+        "signedSum": -11,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "100101",
+        "originalSum": 22,
+        "signedSum": 2,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "100110",
+        "originalSum": 20,
+        "signedSum": 0,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "100111",
+        "originalSum": 33,
+        "signedSum": 13,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "101000",
+        "originalSum": 7,
+        "signedSum": -13,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "101001",
+        "originalSum": 20,
+        "signedSum": 0,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "101010",
+        "originalSum": 18,
+        "signedSum": -2,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "101011",
+        "originalSum": 31,
+        "signedSum": 11,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "101100",
+        "originalSum": 14,
+        "signedSum": -6,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "101101",
+        "originalSum": 27,
+        "signedSum": 7,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "101110",
+        "originalSum": 25,
+        "signedSum": 5,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "101111",
+        "originalSum": 38,
+        "signedSum": 18,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "110000",
+        "originalSum": 5,
+        "signedSum": -15,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "110001",
+        "originalSum": 18,
+        "signedSum": -2,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "110010",
+        "originalSum": 16,
+        "signedSum": -4,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "110011",
+        "originalSum": 29,
+        "signedSum": 9,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "110100",
+        "originalSum": 12,
+        "signedSum": -8,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "110101",
+        "originalSum": 25,
+        "signedSum": 5,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "110110",
+        "originalSum": 23,
+        "signedSum": 3,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "110111",
+        "originalSum": 36,
+        "signedSum": 16,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "111000",
+        "originalSum": 10,
+        "signedSum": -10,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "111001",
+        "originalSum": 23,
+        "signedSum": 3,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "111010",
+        "originalSum": 21,
+        "signedSum": 1,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "111011",
+        "originalSum": 34,
+        "signedSum": 14,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "111100",
+        "originalSum": 17,
+        "signedSum": -3,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "111101",
+        "originalSum": 30,
+        "signedSum": 10,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "111110",
+        "originalSum": 28,
+        "signedSum": 8,
+        "sameBooleanValue": true
+      },
+      {
+        "input": "111111",
+        "originalSum": 41,
+        "signedSum": 21,
+        "sameBooleanValue": true
+      }
+    ],
+    "currentLiteralExpressionsConfirmed": true,
+    "qualification": "Only the printed six-variable numeric equivalence on 64 inputs, not a proof of the general self-dual threshold representation."
+  },
+  "code": {
+    "locator": "private-snapshot:volume4a/tools/bind-batch-088-089.py",
+    "sha256": "a92e5e37b3faa3d5cba74ed21abcf94bd30c2a4982d0d2ccd34bdd442048b117"
+  },
+  "qualification": "Original seven-wire compressed CI network compared to ACTUAL printed equation74: identical per-wire component sequences and 128 outputs. Not the different literal DK-order network. No proof of general CI depth bound/retraction characterization/threshold theorems/new exercise solutions. Bounded 73 native paths only; no full-page SVG/hidden text/raster/font embedding."
+}

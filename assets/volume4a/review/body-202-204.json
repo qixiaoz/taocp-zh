@@ -1,0 +1,600 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-source-pages-202-to-204-shared-bdd-base-unique-and-ref",
+  "cnPhysicalPages": [
+    202,
+    203,
+    204
+  ],
+  "cnPrintedPages": [
+    187,
+    188,
+    189
+  ],
+  "masterSha256": null,
+  "mathExpressions": 168,
+  "privateBrowserCases": 6,
+  "substantiveCorrections": 5,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 202,
+      "cnPrintedPage": 187,
+      "enPdfPages": [
+        241,
+        242
+      ],
+      "enPrintedPages": [
+        224,
+        225
+      ],
+      "pageMarkdownSha256": "9f0eaf3df219298e5ef30d29c5a8cdf217cee8d58890a72728b7144208037ccc",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-202.png",
+      "sourcePageImageSha256": "2fa0062ebb313df5f1b6f619c9df0c56ec72285f7651efc5d2c1af9476371e45",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-241.png",
+          "sha256": "dbf9270fa2981a2fd3b6a0666d6522df3850ee256dc75a7d1bea1801704bc0e4",
+          "physicalPage": 241
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-242.png",
+          "sha256": "7af97049f79cb80904dd63e07862fdc835359ee36f1d5f60a21edb9888bd6c5b",
+          "physicalPage": 242
+        }
+      ],
+      "pageAnchors": [
+        "pdf-202",
+        "p-187"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.4 保留操作数供以后使用",
+          "enPosition": "PDF241／印刷224，BDD基的综合",
+          "original": "我们可能要求就近保存 $f$ 和 $g$ 以备将来使用",
+          "final": "我们可能希望保留 $f$ 和 $g$ 以备将来使用",
+          "basis": "keep around 指操作后仍保留操作数供以后复用，无就近存放的条件。",
+          "cnPrintedPage": 187
+        },
+        {
+          "location": "§7.1.4 首个依赖变量的整数下标",
+          "enPosition": "PDF242／印刷225，式(50)后",
+          "original": "指向 $f$ 所依赖的第一个变量",
+          "final": "是 $f$ 所依赖的第一个变量的下标",
+          "basis": "indexes 指整数编号；中文实际选择的小写o字段记号不变。",
+          "cnPrintedPage": 187
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "Eq. (50)–(52) and caution on same source page",
+          "picked": "Selected CN prints f_o and g_o, four f occurrences and three g occurrences. Keep all seven literal integer order fields and the original variable v in x_v.",
+          "olderEnglish": "EN242 has f_v and g_v for the order fields in the same contexts.",
+          "disposition": "Remain consistent with selected CN localized notation. No global subscript normalization; both source clips and the finite cofactor check retained."
+        }
+      ],
+      "coveredRegions": [
+        "Original distinction between destructive disjoint synthesis and shared-base operations, all definition rows (50)–(54).",
+        "Both published indexing choices and all seven intentional CN o subscripts, exact barred x and g branch example.",
+        "The original AND termination examples, same- and different-root cofactors, and beginning of memo introduction."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 202,
+        "markdownSha256": "9f0eaf3df219298e5ef30d29c5a8cdf217cee8d58890a72728b7144208037ccc",
+        "htmlSha256": "176b89ff6a0a2e50226292da26d37e22205a461e7f0e8661b9029a90576c7b9a",
+        "mathExpressions": 77,
+        "displayMath": 5,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-202-203-204.json",
+        "sha256": "14a3df186649889d836aafc842328cbc4bacc53525ba9bead9ff6c94735b8b55",
+        "cases": [
+          {
+            "physicalPage": 202,
+            "width": 1280,
+            "markdownSha256": "9f0eaf3df219298e5ef30d29c5a8cdf217cee8d58890a72728b7144208037ccc",
+            "documentWidth": 1280,
+            "math": 77,
+            "mathml": 77,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 77,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 202,
+            "width": 390,
+            "markdownSha256": "9f0eaf3df219298e5ef30d29c5a8cdf217cee8d58890a72728b7144208037ccc",
+            "documentWidth": 390,
+            "math": 77,
+            "mathml": 77,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 77,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Full final page proof views at 1280, 390 initial and 390 right were visually inspected, plus the named wide viewport details. The original Chinese editor note was opened and returned at both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/202-1280.png",
+          "sha256": "661436b7f31419d889415faac444a06cb1d8789bf5567f8b55bf3416f6ef594c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/202-390.png",
+          "sha256": "bd9d2b6f7064ae3e3916c57e40cedabb0932b84993b870d6192949b1cc157773",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/202-390-right.png",
+          "sha256": "40efcb03e693fab1119fe752315984976bbadd87878118b66dab6a0f74a8f4c3",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/202-1280-wide-19-2.png",
+          "sha256": "b8bdaa7ad9fc75912b21cb2b2576ec47564e5511d9f6a9e73c9f5eac794cb2a1",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/202-390-wide-9-1.png",
+          "sha256": "8adc6e57287032f47b37532571795ede4b73e1e9daa3a6c5262b15273fdbd950",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/202-390-wide-19-1.png",
+          "sha256": "2a4090d07f9941df34dffcd12f221cbab3b9eb30e1ff74e9550d7a6750f78b24",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/202-390-wide-52-1.png",
+          "sha256": "decb4786437e0834ce8834af01c602d29c6190eb0d6d39601a6d106ad3c23745",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-202-o-fields.png",
+          "sha256": "7a0dfc3fd8b7168a6d57f38865a0c2095e01cc76e46f1cea4eb942b99e73018b"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-242-v-fields.png",
+          "sha256": "2f88eec4b49109c00aecac8c7bdbeb7e6e75a1fbac166f3a179b9a07147bece3"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN202–204 and matching actual EN241–245 source locations. Separate finite cofactor, unique-table memo-cache, and reference-count checks.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "followingPageContinuation": "Final phrase 于是当 directly joins CN203 随后出现同样的子问题时; do not insert anchors mid-sentence.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/202-selected-cn-before-translation-repair-b7262a2b068a15368cf610d56eb5c19eeefc08d97018db97ca62c4c51886896a/202.md",
+        "sha256": "b7262a2b068a15368cf610d56eb5c19eeefc08d97018db97ca62c4c51886896a",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-bdd-base-202-204.json",
+          "sha256": "48220139e49c44956633c5694dbbf49a6f69518073fbebea96d80398310b219f",
+          "scope": "Original Eq.(50)–(54) cofactor example, the finite three-variable Boolean family using per-level unique tables and a fixed direct memo table, and the Eq.(36) four-bit adder example. No garbage-collection implementation, general timing analysis, or historical measurements."
+        },
+        {
+          "file": "assets/volume4a/review/body-202-204-wide-details.json",
+          "sha256": "fa84dc016ca9d03d1722234f156216871529e826e8ebfff87af120f2324ab328",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "776f5b13d159d0810d018eb4930b95c7121638f1e5ff7e50b44436b3d5074d48",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/202.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 203,
+      "cnPrintedPage": 188,
+      "enPdfPages": [
+        243,
+        244
+      ],
+      "enPrintedPages": [
+        226,
+        227
+      ],
+      "pageMarkdownSha256": "d5cfc82f9e5ff5e5febea3ff3b457a2ef3b8bfac57a3823f4646f3774e18de95",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-203.png",
+      "sourcePageImageSha256": "943868d2bed03a270820a3c09850e2807ba652fc16ccc19f1aff02e9ff346acf",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-243.png",
+          "sha256": "c6f6989aa293d48b0a2e04bdf75a2d3c1e0bba2ab92d6199cdb920d125bde6ac",
+          "physicalPage": 243
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-244.png",
+          "sha256": "b2e25f52b3432965325ac2113d60050064d6123952b2ba4b0ea40e09afc76fe6",
+          "physicalPage": 244
+        }
+      ],
+      "pageAnchors": [
+        "pdf-203",
+        "p-188"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.4 已解子问题成为终止情形",
+          "enPosition": "PDF243／印刷226，页首",
+          "original": "以前解决的情形成为最终结果",
+          "final": "先前求解过的情形便成为终止情形",
+          "basis": "terminal 指命中备忘录就终止这一路递归，并非把该子问题当作整题的最终结果。",
+          "cnPrintedPage": 188
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Continuation of memoization, all source information for content lookup and address, and dictionary versus per-variable tables.",
+        "Memo-cache collision semantics, all six cases in (55), all U1–U3 actions and later reuse."
+      ],
+      "ocrRepairsOfNote": [
+        "Current proof restores original reference to finding by content without knowing address and the comparison with a single large dictionary. First shorter unaccepted text and proof are archived."
+      ],
+      "syntaxCheck": {
+        "physicalPage": 203,
+        "markdownSha256": "d5cfc82f9e5ff5e5febea3ff3b457a2ef3b8bfac57a3823f4646f3774e18de95",
+        "htmlSha256": "c720038b32dad32f38bc585ae33715b39072a8512f70e452bf2cfd8b40e02479",
+        "mathExpressions": 46,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-202-203-204.json",
+        "sha256": "14a3df186649889d836aafc842328cbc4bacc53525ba9bead9ff6c94735b8b55",
+        "cases": [
+          {
+            "physicalPage": 203,
+            "width": 1280,
+            "markdownSha256": "d5cfc82f9e5ff5e5febea3ff3b457a2ef3b8bfac57a3823f4646f3774e18de95",
+            "documentWidth": 1280,
+            "math": 46,
+            "mathml": 46,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 46,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 203,
+            "width": 390,
+            "markdownSha256": "d5cfc82f9e5ff5e5febea3ff3b457a2ef3b8bfac57a3823f4646f3774e18de95",
+            "documentWidth": 390,
+            "math": 46,
+            "mathml": 46,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 46,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Full final page proof views at 1280, 390 initial and 390 right were visually inspected, plus the named wide viewport details. The original Chinese editor note was opened and returned at both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/203-1280.png",
+          "sha256": "3052303c5f182f5c30c9a98d0470d1b2dfed197b1fa996abd4321caa6a9c6bb8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/203-390.png",
+          "sha256": "5ba71d0364fbcbb6d7ba9e8d0c7dff762d2d49067c04f8cadb31a52fd8054903",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/203-390-right.png",
+          "sha256": "4bb7987602dfdb9487627380299b288d71287b82eae344b9d21a1eb39816418e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/203-390-wide-20-1.png",
+          "sha256": "1f15aa598e090a65fa5d52466ed8e8620bc6773140c5c73efbfe54492a9565a8",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN202–204 and matching actual EN241–245 source locations. Separate finite cofactor, unique-table memo-cache, and reference-count checks.",
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "followingPageContinuation": "Follows CN202 于是当 in same sentence. The following CN204 opens a new improvement paragraph.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/203-selected-cn-before-translation-repair-8c6c52b1e3472c4207bccd53923866b759300abb4ff14fe9f0de233aac07d9dc/203.md",
+        "sha256": "8c6c52b1e3472c4207bccd53923866b759300abb4ff14fe9f0de233aac07d9dc",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-bdd-base-202-204.json",
+          "sha256": "48220139e49c44956633c5694dbbf49a6f69518073fbebea96d80398310b219f",
+          "scope": "Original Eq.(50)–(54) cofactor example, the finite three-variable Boolean family using per-level unique tables and a fixed direct memo table, and the Eq.(36) four-bit adder example. No garbage-collection implementation, general timing analysis, or historical measurements."
+        },
+        {
+          "file": "assets/volume4a/review/body-202-204-wide-details.json",
+          "sha256": "fa84dc016ca9d03d1722234f156216871529e826e8ebfff87af120f2324ab328",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "167b8e27df8c18b2f3b147ef35524527cdbbe66bfa13798d4c6069b84912a548",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/203.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 204,
+      "cnPrintedPage": 189,
+      "enPdfPages": [
+        244,
+        245
+      ],
+      "enPrintedPages": [
+        227,
+        228
+      ],
+      "pageMarkdownSha256": "f824ff8657f57abe8b13bf9d82bb7c3869036c98e1161b74a406cfdd15a804b4",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-204.png",
+      "sourcePageImageSha256": "e36e3ca7f5c5e9afa94ffed505fe64baa16a1117c5806b31744067d14653e686",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-244.png",
+          "sha256": "b2e25f52b3432965325ac2113d60050064d6123952b2ba4b0ea40e09afc76fe6",
+          "physicalPage": 244
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-245.png",
+          "sha256": "73c0656665051cf169d76983a7e203518589b7ee3d16f1b2f55b3eb918863e1b",
+          "physicalPage": 245
+        }
+      ],
+      "pageAnchors": [
+        "pdf-204",
+        "p-189"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.4 结点不可达时回收",
+          "enPosition": "PDF244／印刷227，动态分配段",
+          "original": "当结点不再使用时",
+          "final": "当结点不再可达时",
+          "basis": "no longer accessible 在此是从外部根经指针不能到达，当前是否使用不一定相同。",
+          "cnPrintedPage": 189
+        },
+        {
+          "location": "§7.1.4 乘积的各数位公式",
+          "enPosition": "PDF245／印刷228，式(56)前",
+          "original": "假定我们想要得到一个公式，来计算两个二进制数乘积",
+          "final": "假定我们想得到两个二进制数乘积的各个数位的公式",
+          "basis": "英文明确要每个结果位的布尔公式，后续用共享基表示各位。",
+          "cnPrintedPage": 189
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Memo ordering for commuting AND, all four binary operator names including literal BUTNOT, and comparison with original Algorithm S.",
+        "All REF fields and counting rules, note text, reference death and recovery, cleanup requirements, two quoted performance factors.",
+        "The product word equation (56) and introduction of individual output bits."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 204,
+        "markdownSha256": "f824ff8657f57abe8b13bf9d82bb7c3869036c98e1161b74a406cfdd15a804b4",
+        "htmlSha256": "9e8bdae6e746f23539bd5fa6dc047e9260853392ea5bd5f029e8553e69e1d9ca",
+        "mathExpressions": 45,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-202-203-204.json",
+        "sha256": "14a3df186649889d836aafc842328cbc4bacc53525ba9bead9ff6c94735b8b55",
+        "cases": [
+          {
+            "physicalPage": 204,
+            "width": 1280,
+            "markdownSha256": "f824ff8657f57abe8b13bf9d82bb7c3869036c98e1161b74a406cfdd15a804b4",
+            "documentWidth": 1280,
+            "math": 45,
+            "mathml": 45,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 1,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 45,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 204,
+            "width": 390,
+            "markdownSha256": "f824ff8657f57abe8b13bf9d82bb7c3869036c98e1161b74a406cfdd15a804b4",
+            "documentWidth": 390,
+            "math": 45,
+            "mathml": 45,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 1,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 45,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Full final page proof views at 1280, 390 initial and 390 right were visually inspected, plus the named wide viewport details. The original Chinese editor note was opened and returned at both widths."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/204-1280.png",
+          "sha256": "2c8f5d7c85b7bd7268055bc5bd4234936dd026846b435980c6b9ff2f787264c3",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/204-390.png",
+          "sha256": "b912a214d01bf226987ec84224050b577e5bd7e30760f3b7fbcf1f8f429db423",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/204-390-right.png",
+          "sha256": "0904b478b0b29a95fedde2501075231824f1c05ecdb5305f0421a6a844977b35",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-204-ref-counters.png",
+          "sha256": "cfcf6d195f72b742382135284445db35385852de3914ff82f1c39c7776d5a87a"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-204-ref-footnote.png",
+          "sha256": "e48929a61da884ba5f8ecb32e4671dea23d41a285b2d3240f5dab0834c41d928"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN202–204 and matching actual EN241–245 source locations. Separate finite cofactor, unique-table memo-cache, and reference-count checks.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": false,
+      "followingPageContinuation": "Eq. (56) and the original footnote are complete. CN205 continues the multiplication example with a base case and the recurrence (57).",
+      "translationFootnotes": [
+        {
+          "id": "v4a-p189-1",
+          "source": "selected Chinese editor note on the source counts of branch nodes labeled 2/3/4/6",
+          "bilingualCounterpart": false,
+          "sourceVerified": true
+        }
+      ],
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/204-selected-cn-before-translation-repair-a5bef8284313d5b0802bd72f454fa8a1f753818617298d5f80212c998c54c661/204.md",
+        "sha256": "a5bef8284313d5b0802bd72f454fa8a1f753818617298d5f80212c998c54c661",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-bdd-base-202-204.json",
+          "sha256": "48220139e49c44956633c5694dbbf49a6f69518073fbebea96d80398310b219f",
+          "scope": "Original Eq.(50)–(54) cofactor example, the finite three-variable Boolean family using per-level unique tables and a fixed direct memo table, and the Eq.(36) four-bit adder example. No garbage-collection implementation, general timing analysis, or historical measurements."
+        },
+        {
+          "file": "assets/volume4a/review/body-202-204-wide-details.json",
+          "sha256": "fa84dc016ca9d03d1722234f156216871529e826e8ebfff87af120f2324ab328",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        },
+        {
+          "file": "assets/volume4a/review/body-204-editor-footnote.json",
+          "sha256": "e02b3530915f9161229a726087ad00c35a86d41e7abf538d609187a4385bf9a0",
+          "scope": "Current private proof original footnote links exercised in both widths. This adds no whole-page cases."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "3f09c9fff8d234443d99e392872e4f38737b72f35215a5495e1dbb61dc9a8a8b",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/204.json"
+    }
+  ],
+  "qualification": "Complete CN202–204 and matching actual EN241–245 source locations. Separate finite cofactor, unique-table memo-cache, and reference-count checks."
+}

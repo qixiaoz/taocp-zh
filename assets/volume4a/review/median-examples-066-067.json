@@ -1,0 +1,310 @@
+{
+  "status": "specific-median-examples-and-one-counterexample-passed",
+  "volume": "volume4a",
+  "markdownSha256": {
+    "66": "b4b6122cfd25eed45456146d10fe73d0a8e879edd460923a3074c78479829cec",
+    "67": "9d07ae6d0e62830f4a958c68921f790eaf58ec70372c280abf458601366fab01"
+  },
+  "firstUnlabelledEquality66": {
+    "allZeroAssignment": {
+      "u": 0,
+      "v": 0,
+      "w": 0,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "chosenCNWithoutOuterComplement": 0,
+    "displayedRightSide": 1,
+    "correctedLeftWithComplement": 1,
+    "reason": "Only the missing outer overbar is changed; English supplied original has that bar and definition46 requires it."
+  },
+  "fiveVariableFormula49": {
+    "rhsTree": [
+      "v",
+      [
+        "x",
+        "y",
+        "z"
+      ],
+      [
+        "w",
+        "x",
+        [
+          "w",
+          "y",
+          "z"
+        ]
+      ]
+    ],
+    "median3OperationOccurrences": 4,
+    "booleanRows": [
+      {
+        "bits": "00000",
+        "median5": 0,
+        "formula49": 0,
+        "tenTermDNF": 0
+      },
+      {
+        "bits": "00001",
+        "median5": 0,
+        "formula49": 0,
+        "tenTermDNF": 0
+      },
+      {
+        "bits": "00010",
+        "median5": 0,
+        "formula49": 0,
+        "tenTermDNF": 0
+      },
+      {
+        "bits": "00011",
+        "median5": 0,
+        "formula49": 0,
+        "tenTermDNF": 0
+      },
+      {
+        "bits": "00100",
+        "median5": 0,
+        "formula49": 0,
+        "tenTermDNF": 0
+      },
+      {
+        "bits": "00101",
+        "median5": 0,
+        "formula49": 0,
+        "tenTermDNF": 0
+      },
+      {
+        "bits": "00110",
+        "median5": 0,
+        "formula49": 0,
+        "tenTermDNF": 0
+      },
+      {
+        "bits": "00111",
+        "median5": 1,
+        "formula49": 1,
+        "tenTermDNF": 1
+      },
+      {
+        "bits": "01000",
+        "median5": 0,
+        "formula49": 0,
+        "tenTermDNF": 0
+      },
+      {
+        "bits": "01001",
+        "median5": 0,
+        "formula49": 0,
+        "tenTermDNF": 0
+      },
+      {
+        "bits": "01010",
+        "median5": 0,
+        "formula49": 0,
+        "tenTermDNF": 0
+      },
+      {
+        "bits": "01011",
+        "median5": 1,
+        "formula49": 1,
+        "tenTermDNF": 1
+      },
+      {
+        "bits": "01100",
+        "median5": 0,
+        "formula49": 0,
+        "tenTermDNF": 0
+      },
+      {
+        "bits": "01101",
+        "median5": 1,
+        "formula49": 1,
+        "tenTermDNF": 1
+      },
+      {
+        "bits": "01110",
+        "median5": 1,
+        "formula49": 1,
+        "tenTermDNF": 1
+      },
+      {
+        "bits": "01111",
+        "median5": 1,
+        "formula49": 1,
+        "tenTermDNF": 1
+      },
+      {
+        "bits": "10000",
+        "median5": 0,
+        "formula49": 0,
+        "tenTermDNF": 0
+      },
+      {
+        "bits": "10001",
+        "median5": 0,
+        "formula49": 0,
+        "tenTermDNF": 0
+      },
+      {
+        "bits": "10010",
+        "median5": 0,
+        "formula49": 0,
+        "tenTermDNF": 0
+      },
+      {
+        "bits": "10011",
+        "median5": 1,
+        "formula49": 1,
+        "tenTermDNF": 1
+      },
+      {
+        "bits": "10100",
+        "median5": 0,
+        "formula49": 0,
+        "tenTermDNF": 0
+      },
+      {
+        "bits": "10101",
+        "median5": 1,
+        "formula49": 1,
+        "tenTermDNF": 1
+      },
+      {
+        "bits": "10110",
+        "median5": 1,
+        "formula49": 1,
+        "tenTermDNF": 1
+      },
+      {
+        "bits": "10111",
+        "median5": 1,
+        "formula49": 1,
+        "tenTermDNF": 1
+      },
+      {
+        "bits": "11000",
+        "median5": 0,
+        "formula49": 0,
+        "tenTermDNF": 0
+      },
+      {
+        "bits": "11001",
+        "median5": 1,
+        "formula49": 1,
+        "tenTermDNF": 1
+      },
+      {
+        "bits": "11010",
+        "median5": 1,
+        "formula49": 1,
+        "tenTermDNF": 1
+      },
+      {
+        "bits": "11011",
+        "median5": 1,
+        "formula49": 1,
+        "tenTermDNF": 1
+      },
+      {
+        "bits": "11100",
+        "median5": 1,
+        "formula49": 1,
+        "tenTermDNF": 1
+      },
+      {
+        "bits": "11101",
+        "median5": 1,
+        "formula49": 1,
+        "tenTermDNF": 1
+      },
+      {
+        "bits": "11110",
+        "median5": 1,
+        "formula49": 1,
+        "tenTermDNF": 1
+      },
+      {
+        "bits": "11111",
+        "median5": 1,
+        "formula49": 1,
+        "tenTermDNF": 1
+      }
+    ]
+  },
+  "tenPrimeTerms": [
+    [
+      "v",
+      "w",
+      "x"
+    ],
+    [
+      "v",
+      "w",
+      "y"
+    ],
+    [
+      "v",
+      "w",
+      "z"
+    ],
+    [
+      "v",
+      "x",
+      "y"
+    ],
+    [
+      "v",
+      "x",
+      "z"
+    ],
+    [
+      "v",
+      "y",
+      "z"
+    ],
+    [
+      "w",
+      "x",
+      "y"
+    ],
+    [
+      "w",
+      "x",
+      "z"
+    ],
+    [
+      "w",
+      "y",
+      "z"
+    ],
+    [
+      "x",
+      "y",
+      "z"
+    ]
+  ],
+  "printedConstruction2046": {
+    "fullyExpandedFormulaTreeOccurrences": [
+      0,
+      2,
+      6,
+      14,
+      30,
+      62,
+      126,
+      254,
+      510,
+      1022,
+      2046
+    ],
+    "recurrence": "T0=0;Tj=2*T(j−1)+2 for the ten three-literal terms",
+    "result": 2046,
+    "qualification": "Counts formula-tree copies of the previous g expression; does not count shared circuit nodes or prove shortestness."
+  },
+  "qualification": "Only the displayed all-zero counterexample, the concrete five-variable formula49/ten-term example, and its printed2046operation count are checked. General Post theorem and median algebra axioms50–55 are source-compared only, not proved by Boolean samples.",
+  "masterSha256": null,
+  "sourceCodeLocator": "private-snapshot:volume4a/tools/check-median-examples-066-067.py",
+  "sourceCodeSha256": "0e2fb54eb5c09bc6b3128628d018a0138291fc244631753d10a957dfc242350e"
+}

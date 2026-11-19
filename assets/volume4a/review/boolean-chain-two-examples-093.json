@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+  "cnPhysicalPage": 93,
+  "enPhysicalPages": [
+    113,
+    114
+  ],
+  "masterSha256": null,
+  "pageMarkdownSha256": "f1b64c49b28709c9542a02395dfb12e2f0c86eea4a528e1f6abea3b024e82a4d",
+  "originalEquation": 2,
+  "actualMDChainStringsConfirmed": true,
+  "all8InputRows": [
+    {
+      "input": "000",
+      "leftChain": [
+        0,
+        0,
+        0
+      ],
+      "rightChain": [
+        0,
+        0,
+        0
+      ],
+      "mux": 0
+    },
+    {
+      "input": "001",
+      "leftChain": [
+        0,
+        1,
+        1
+      ],
+      "rightChain": [
+        1,
+        0,
+        1
+      ],
+      "mux": 1
+    },
+    {
+      "input": "010",
+      "leftChain": [
+        0,
+        0,
+        0
+      ],
+      "rightChain": [
+        1,
+        0,
+        0
+      ],
+      "mux": 0
+    },
+    {
+      "input": "011",
+      "leftChain": [
+        0,
+        1,
+        1
+      ],
+      "rightChain": [
+        0,
+        0,
+        1
+      ],
+      "mux": 1
+    },
+    {
+      "input": "100",
+      "leftChain": [
+        0,
+        0,
+        0
+      ],
+      "rightChain": [
+        0,
+        0,
+        0
+      ],
+      "mux": 0
+    },
+    {
+      "input": "101",
+      "leftChain": [
+        0,
+        0,
+        0
+      ],
+      "rightChain": [
+        1,
+        1,
+        0
+      ],
+      "mux": 0
+    },
+    {
+      "input": "110",
+      "leftChain": [
+        1,
+        0,
+        1
+      ],
+      "rightChain": [
+        1,
+        1,
+        1
+      ],
+      "mux": 1
+    },
+    {
+      "input": "111",
+      "leftChain": [
+        1,
+        0,
+        1
+      ],
+      "rightChain": [
+        0,
+        0,
+        1
+      ],
+      "mux": 1
+    }
+  ],
+  "checkCode": {
+    "locator": "private-snapshot:volume4a/tools/bind-batch-092-093.py",
+    "sha256": "0c09ffe4d36fe44c0173889168ef301c37bc1c8f3812e5c49851c0ec0946fba7"
+  },
+  "qualification": "Only the two original three-step Boolean chains and their printed mux output on eight inputs. No general bent-function/Walsh transform/counting theorem or exercise answer enumeration. Source quote/instruction text is transcription, not an instruction to this agent."
+}

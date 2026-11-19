@@ -1,0 +1,1013 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-assigned-physical-page-source-review-and-private-two-width-proof",
+  "cnPhysicalPages": [
+    346,
+    347
+  ],
+  "cnPrintedPages": [
+    331,
+    332
+  ],
+  "masterSha256": null,
+  "mathExpressions": 100,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 1,
+  "logicalAssemblies": [
+    {
+      "file": "assets/volume4a/review/body-346-347-partition-growth-344-347-assembly.json",
+      "sha256": "a16b898d4e7b4e8be9a8e165affd63e2470950057a0c958b2ac3584f5b1c3148"
+    }
+  ],
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 346,
+      "cnPrintedPage": 331,
+      "enPdfPages": [
+        415,
+        416,
+        417
+      ],
+      "enPrintedPages": [
+        398,
+        399,
+        400
+      ],
+      "pageMarkdownSha256": "c7acc31f37f3bd1764d8c71e38ff884f688c967c0c9c195b03f1da3705e95cb7",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/346.jpg",
+      "sourcePageImageSha256": "6308dc7dbebfb2edb8a39ae68a78eb015abd2954bd75760c3db66dc90390e4ea",
+      "enPageImages": [
+        {
+          "physicalPage": 415,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-415.png",
+          "sha256": "a4a9b3fee5cc1ad258e5032cb79b9ff3e12202d83514d9ee3aea453d8dbcd56f"
+        },
+        {
+          "physicalPage": 416,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-416.png",
+          "sha256": "f84652da23929df76a268dc69e4a4a5f17f47a584e7cf3f4896676a5a8129966"
+        },
+        {
+          "physicalPage": 417,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-417.png",
+          "sha256": "3ddce253193e7ed7f810c49ff84f540c5ea1f9b9d743cf49b9b54f6a8a412f3d"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-346",
+        "p-331"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-033",
+          "section": "7.2.1.4",
+          "cnPdfPage": 346,
+          "enPdfPages": [
+            416
+          ],
+          "location": "计算分划数的复杂度",
+          "original": "次优方法",
+          "final": "近乎最优的方法",
+          "basis": "英文 near-optimum 与后面约 O(log p(n)) 的说明表明计算步数接近最优。中文“次优”遗漏了接近程度。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "c7acc31f37f3bd1764d8c71e38ff884f688c967c0c9c195b03f1da3705e95cb7",
+          "cnPrintedPage": 331
+        }
+      ],
+      "preservedVersionDifferences": [
+        "CN already contains Handbook of Combinatorics citation from the author’s earlier correction of EN printed p399. Preserve it. Source agreement confirms printed values at n=10^6; the exact value and sum of 250 terms were read from both sources."
+      ],
+      "figureAssets": [],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 346,
+        "markdownSha256": "c7acc31f37f3bd1764d8c71e38ff884f688c967c0c9c195b03f1da3705e95cb7",
+        "htmlSha256": "18b3b3501a91e25a5ad437fa7fed78c683c58dd7c02f9a204df6386c61dc2a3d",
+        "mathExpressions": 66,
+        "displayMath": 7,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/result.json",
+        "sha256": "80eaaf1c9853491accab0c99cd549d6b2df33d7c1c7026a29b34813cef1cd164",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 66,
+            "mathML": 66,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 728,
+                "content": 753,
+                "left": 0,
+                "right": 25,
+                "max": 25,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 346,
+            "width": 1280,
+            "pageMarkdownSha256": "c7acc31f37f3bd1764d8c71e38ff884f688c967c0c9c195b03f1da3705e95cb7",
+            "htmlSha256": "18b3b3501a91e25a5ad437fa7fed78c683c58dd7c02f9a204df6386c61dc2a3d",
+            "errors": [],
+            "passed": true,
+            "imageLinks": []
+          },
+          {
+            "documentWidth": 390,
+            "math": 66,
+            "mathML": 66,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 401,
+                "left": 0,
+                "right": 91,
+                "max": 91,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 753,
+                "left": 0,
+                "right": 443,
+                "max": 443,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 343,
+                "left": 0,
+                "right": 33,
+                "max": 33,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 612,
+                "left": 0,
+                "right": 302,
+                "max": 302,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 496,
+                "left": 0,
+                "right": 186,
+                "max": 186,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 472,
+                "left": 0,
+                "right": 162,
+                "max": 162,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 346,
+            "width": 390,
+            "pageMarkdownSha256": "c7acc31f37f3bd1764d8c71e38ff884f688c967c0c9c195b03f1da3705e95cb7",
+            "htmlSha256": "18b3b3501a91e25a5ad437fa7fed78c683c58dd7c02f9a204df6386c61dc2a3d",
+            "errors": [],
+            "passed": true,
+            "imageLinks": []
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/346-1280-walk0.png",
+          "sha256": "5f0afe849ad7648175cfc80f5b223ad730f4bcc8a7d224379d80705e68517efc",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/346-1280-walk1.png",
+          "sha256": "66ec19bdcc1c0928a20b0f07d3e5bcd0a7686c7c688b9bb0e2e0ffa66a149b9e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/346-1280-walk2.png",
+          "sha256": "3742cd777756d6012133f6dc73c7138fb5768718589c07b1b219afd47a1a3e65",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/346-390-walk0.png",
+          "sha256": "c89e2caf475a473130d5e40902be79805d58f0e95cb6332fd8f57975c04d09c1",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/346-390-walk1.png",
+          "sha256": "f8c7c708877ce0452680d690e6e1fc753ae1918336b9bbd7bcec4fedf6503aa3",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/346-390-walk2.png",
+          "sha256": "56e06a0188826d35adca02b66deda405a706e577e1542f4c8dee1140f51de3e5",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/346-390-walk3.png",
+          "sha256": "eb32a8ebb6ad6a31270cc9a6a490cd500bd7b475fa30a57309f4686f0ac8c4ac",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/346-390-walk4.png",
+          "sha256": "0ffd809455240f25a9c898f67d1f67a58f809be4e1aa7b26344df3871b084f40",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/346-1280-display1-right.png",
+          "sha256": "c755b2efecafb47a1c27c464dba151fb835558ee3a08c85b5166b85e9f410a0a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/346-390-display0-right.png",
+          "sha256": "7c677a0efebd422faf9133f52f2f30ad6a955823d70b29768d08373ac828d1cb",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/346-390-display1-right.png",
+          "sha256": "f72f11a099dbfdd67c0aa2e4a348c0f57b647f0dfb081c3a52938abef12d31b7",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/346-390-display3-right.png",
+          "sha256": "08910a1e004db240496093eac6a98852251af7cce1ea2f9e7425aa8a8ccf48fd",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/346-390-display4-right.png",
+          "sha256": "5d86fbd7388bef73490d0b6f78da6ffb00bce382544346945958af12087f1375",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/346-390-display5-right.png",
+          "sha256": "ba83cdc4c6084e40a1399d7c9e665fc0e4c1748021538a9ce16f58708b9dc699",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/346-390-display6-right.png",
+          "sha256": "06241f31eac3c047d82418ca2621e73085c15c0215d4337bb01f61b52b5838f2",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-346-347-source-fields.json",
+        "sha256": "1de219e473918078ef4241ab6df9504c6b4ee1f09373586f97ea543b7c2bfefb"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-346-347-partition-growth-344-347-assembly.json",
+          "sha256": "a16b898d4e7b4e8be9a8e165affd63e2470950057a0c958b2ac3584f5b1c3148"
+        }
+      ],
+      "coveredRegions": [
+        "Saddle point paragraph, (36)–(37) and printed estimates, Odlyzko citation, n=100 and n=10^6 examples, number-of-parts (38)–(41), theorem E (42)."
+      ],
+      "followingPageContinuation": "Begins by completing 推导得出, concludes with (42); Table 2 floats before continuation 其中 (43). Both joins present in 344–347 assembly.",
+      "qualification": "Direct source reading of complete CN346 and CN347, relevant EN415–418 and the actual private 1280/390 proofs. Reconstruction of p(100), 144 cells and 58 bar heights is finite; p(10^6) printed figures and limit-density curve were compared to both original pages.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/346-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "261eb4b8775fbfd67fec846111e336266ecd155e5251ebe7ba715f7cb06c5b28",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "a6a6d0e305c38e881c64b304dc3f57ba50f8736c5c7f341428754330fd9c7a82",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/346.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 347,
+      "cnPrintedPage": 332,
+      "enPdfPages": [
+        417,
+        418
+      ],
+      "enPrintedPages": [
+        400,
+        401
+      ],
+      "pageMarkdownSha256": "93dc5258c6a6c1f097e1b5e8b6abdc8bc96057e58d7bb8fd2c4e4ed88a3aabe3",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/347.jpg",
+      "sourcePageImageSha256": "96a74052916a388e6951e482d316c73e3b4fc01853205758f5e5fa40a0418db2",
+      "enPageImages": [
+        {
+          "physicalPage": 417,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-417.png",
+          "sha256": "3ddce253193e7ed7f810c49ff84f540c5ea1f9b9d743cf49b9b54f6a8a412f3d"
+        },
+        {
+          "physicalPage": 418,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-418.png",
+          "sha256": "df2e551b22f7d42887e3e6af20d70c67e9651d03e69725546cf13ef6a5e40487"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-347",
+        "p-332",
+        "fig-7-2-1-4-49"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-4-figure49-partition-count-distribution.svg",
+          "sha256": "9d3c762bc79d7bdfec9d09d55689a2b0d76ccca43b59569bc95fef5cf9a4708d"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 347,
+        "markdownSha256": "93dc5258c6a6c1f097e1b5e8b6abdc8bc96057e58d7bb8fd2c4e4ed88a3aabe3",
+        "htmlSha256": "4ee237629b773a00ca4e0217897d7d3201a600fd577ac1811cef65b90c2f4b2e",
+        "mathExpressions": 34,
+        "displayMath": 3,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/result.json",
+        "sha256": "80eaaf1c9853491accab0c99cd549d6b2df33d7c1c7026a29b34813cef1cd164",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 34,
+            "mathML": 34,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 728,
+                "content": 863,
+                "left": 0,
+                "right": 135,
+                "max": 135,
+                "pass": true
+              },
+              {
+                "client": 728,
+                "content": 879,
+                "left": 0,
+                "right": 151,
+                "max": 151,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 347,
+            "width": 1280,
+            "pageMarkdownSha256": "93dc5258c6a6c1f097e1b5e8b6abdc8bc96057e58d7bb8fd2c4e4ed88a3aabe3",
+            "htmlSha256": "4ee237629b773a00ca4e0217897d7d3201a600fd577ac1811cef65b90c2f4b2e",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-4-figure49-partition-count-distribution.svg",
+                "opened": true,
+                "screenshot": "347-1280-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ],
+            "partitionTable2": {
+              "formulaHeaders": [
+                "n",
+                "\\begin{vmatrix}n\\\\0\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\1\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\2\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\3\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\4\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\5\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\6\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\7\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\8\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\9\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\10\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\11\\end{vmatrix}"
+              ],
+              "rowLabels": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "values": [
+                [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  2,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  2,
+                  2,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  3,
+                  3,
+                  2,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  3,
+                  4,
+                  3,
+                  2,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  4,
+                  5,
+                  5,
+                  3,
+                  2,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  4,
+                  7,
+                  6,
+                  5,
+                  3,
+                  2,
+                  1,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  5,
+                  8,
+                  9,
+                  7,
+                  5,
+                  3,
+                  2,
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  5,
+                  10,
+                  11,
+                  10,
+                  7,
+                  5,
+                  3,
+                  2,
+                  1,
+                  1
+                ]
+              ],
+              "tableMatches": true
+            }
+          },
+          {
+            "documentWidth": 390,
+            "math": 34,
+            "mathML": 34,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 581,
+                "left": 0,
+                "right": 271,
+                "max": 271,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 863,
+                "left": 0,
+                "right": 553,
+                "max": 553,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 879,
+                "left": 0,
+                "right": 569,
+                "max": 569,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 347,
+            "width": 390,
+            "pageMarkdownSha256": "93dc5258c6a6c1f097e1b5e8b6abdc8bc96057e58d7bb8fd2c4e4ed88a3aabe3",
+            "htmlSha256": "4ee237629b773a00ca4e0217897d7d3201a600fd577ac1811cef65b90c2f4b2e",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-4-figure49-partition-count-distribution.svg",
+                "opened": true,
+                "screenshot": "347-390-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ],
+            "partitionTable2": {
+              "formulaHeaders": [
+                "n",
+                "\\begin{vmatrix}n\\\\0\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\1\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\2\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\3\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\4\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\5\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\6\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\7\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\8\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\9\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\10\\end{vmatrix}",
+                "\\begin{vmatrix}n\\\\11\\end{vmatrix}"
+              ],
+              "rowLabels": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "values": [
+                [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  2,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  2,
+                  2,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  3,
+                  3,
+                  2,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  3,
+                  4,
+                  3,
+                  2,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  4,
+                  5,
+                  5,
+                  3,
+                  2,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  4,
+                  7,
+                  6,
+                  5,
+                  3,
+                  2,
+                  1,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  5,
+                  8,
+                  9,
+                  7,
+                  5,
+                  3,
+                  2,
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  5,
+                  10,
+                  11,
+                  10,
+                  7,
+                  5,
+                  3,
+                  2,
+                  1,
+                  1
+                ]
+              ],
+              "tableMatches": true
+            }
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-1280-walk0.png",
+          "sha256": "0353fe4100e2a6cb53fda91f94494123ab65ba0cbfaf1f502a108d7252bc709a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-1280-walk1.png",
+          "sha256": "75311fca24ac61c0aabf11b171b538a1ab390049dc92778d87e573268c21a77d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-1280-walk2.png",
+          "sha256": "397605a7f6dcb74ef724c10473da43bb45ff58c62bb2835233c79e1f83b113ed",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-390-walk0.png",
+          "sha256": "06468d734476c0263dfea74d01e3879f4338007d7e1b5cb83524bff05f6c2975",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-390-walk1.png",
+          "sha256": "06007147d6db758e4851c74be281d1ebb23c704e0c6cfc605025541004257c13",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-390-walk2.png",
+          "sha256": "251b8d2ea763ea4e340dfc2776c12aba71233588c09c049db9217aa29e26bda6",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-1280-display1-right.png",
+          "sha256": "930cc10c3a8b68709bcc2b6c6da49203ae8690521164bec2bc032a1b915c5872",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-1280-display2-right.png",
+          "sha256": "fdafa7ab104413b78f60a72048e55e78e2a4af41c88d95b6603d8764b6a8151a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-390-display1-right.png",
+          "sha256": "da367889b83b7053eed01acb51dbf4483a78b68031134da54eab1395a0ec4efe",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-390-display2-right.png",
+          "sha256": "d44617de234035da0488602121c38cb2ba6065258e4c52276afc97c80a83566f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-1280-table0-pan0.png",
+          "sha256": "0353fe4100e2a6cb53fda91f94494123ab65ba0cbfaf1f502a108d7252bc709a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-1280-table0-pan1.png",
+          "sha256": "0353fe4100e2a6cb53fda91f94494123ab65ba0cbfaf1f502a108d7252bc709a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-390-table0-pan0.png",
+          "sha256": "06468d734476c0263dfea74d01e3879f4338007d7e1b5cb83524bff05f6c2975",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-390-table0-pan1.png",
+          "sha256": "1fc1af80d90f987fe4320494eb1a9083554c085c24fa9beec63bcfbb2fe6d92e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-390-table0-pan2.png",
+          "sha256": "a0dfb8342579456ddfb4da6623901d2e3e681e4ef270eb51a600d73540595d14",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-1280-original-image0.png",
+          "sha256": "745a7deabc7fa46072389a4c41f47d6b3d8b3ca2eda2e5daf5b9f6830b90a0c0",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-390-original-image0-right.png",
+          "sha256": "3bf6627132a402995e7ea96cabeef653f59cd5bfbe7431ee0de31aa2c44c7cd8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/346-347/347-390-original-image0.png",
+          "sha256": "a3283dbfce8adb41cc776b45b18d7a8e55472d24de0f02562d9ab35e3d880322",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-346-347-source-fields.json",
+        "sha256": "1de219e473918078ef4241ab6df9504c6b4ee1f09373586f97ea543b7c2bfefb"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-346-347-partition-growth-344-347-assembly.json",
+          "sha256": "a16b898d4e7b4e8be9a8e165affd63e2470950057a0c958b2ac3584f5b1c3148"
+        }
+      ],
+      "coveredRegions": [
+        "All 144 Table 2 counts and headers, (43), figure49 with labels and original-link pixels, inclusion–exclusion signs and indices and (44)."
+      ],
+      "followingPageContinuation": "Table 2 print float precedes 其中, rest of theorem E and its proof; CN348 starts a new proof paragraph.",
+      "qualification": "Direct source reading of complete CN346 and CN347, relevant EN415–418 and the actual private 1280/390 proofs. Reconstruction of p(100), 144 cells and 58 bar heights is finite; p(10^6) printed figures and limit-density curve were compared to both original pages.",
+      "privateOriginalPageReviewSha256": "323778355cd880fdbf1b12ff488f2b9cac75f9231284316473961ca1cdb71afb",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/347.json"
+    }
+  ],
+  "qualification": "Direct source reading of complete CN346 and CN347, relevant EN415–418 and the actual private 1280/390 proofs. Reconstruction of p(100), 144 cells and 58 bar heights is finite; p(10^6) printed figures and limit-density curve were compared to both original pages."
+}

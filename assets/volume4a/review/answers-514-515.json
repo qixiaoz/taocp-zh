@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "scope": "CompleteCN514515,91MMIXcompletionand92-106",
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignOff": false,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 514,
+      "cnPrintedPage": "499",
+      "enPdfPages": [
+        614,
+        615
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "e440d10c9474968772f9be0315dbbd9fee7c10c833f5c366a53ba270887e71e3",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "0e957005dbb2f05dcd0230c00451cf821c5c1c17919a7a260033d337fc13ec76",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "Complete Chinese source page and the available corresponding English contents directly compared; preserved edition differences are not asserted equal. No human sign-off.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "e309933ac676f44f31ca2da620765eadb0d012c35ee72807d6aa23b966e58443",
+      "enPageImages": [
+        {
+          "physicalPage": 614,
+          "sha256": "5e05e5dac3f2bd6c4df7c8d8887145b4d78e8ff1fba4bf0dbdf0c06cc60c1f46"
+        },
+        {
+          "physicalPage": 615,
+          "sha256": "a58e8364a53c80d514596f16edef4be1754be2db70ccf9cfa50bf7aed06c007e"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 514,
+        "markdownSha256": "e440d10c9474968772f9be0315dbbd9fee7c10c833f5c366a53ba270887e71e3",
+        "htmlSha256": "c9a47d67dcac5b34db83e969be60abaf0e2a486b6a32b745e6214983fd5ae8a2",
+        "mathExpressions": 71,
+        "displayMath": 4,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [
+          4,
+          9,
+          1
+        ],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "b71fe0422b62f580b981722320c110ceee7590c6085cf9636b3485720c9a9d57",
+      "syntaxEvidenceFile": "syntax-514-515.json",
+      "coveredRegions": [
+        "91remainingMMIXdeclarations/9instructionloop/timingcomplete,92-99completeincludingupdated96and98,100completeallBCDprose/twoalgorithms"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "94borrowdirection/printed499",
+          "enPosition": "EN615/printed598borrowfromfieldstotheright",
+          "original": "从字段向右的借位",
+          "final": "来自右侧字段的借位",
+          "basis": "bjisincomingborrowfromlesssignificantfields,noutgoingborrowfromcurrentfield."
+        },
+        {
+          "location": "98secondmaskexpansion/printed499",
+          "enPosition": "CN514andhistoricalofficialp27/2016-06-30bothprintwrong1;questionEN209/printed192",
+          "original": "t←(t−(t>>1))+t",
+          "final": "t←(t−(t>>7))+t",
+          "basis": "Firsttcontains0x80flags. Shift1expandsC0andfails32,256of65,536repeated-bytepairs;shift7expandsFFandallpairsmeetmax/min. Independentoriginaldomaincounterexamplex0/yall1confirmed. Projectcorrection,NOTauthorapprovederratum."
+        },
+        {
+          "location": "99eightproblempositions/printed499",
+          "enPosition": "EN615/printed598eachoftheeightbytes",
+          "original": "每一个全字",
+          "final": "八个字节中的每一个",
+          "basis": "Eachfiappliestooneoftheeightbytepositions,notaneight-byteword."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "96/98",
+          "disposition": "RetainselectedCN2016authorreplacementstructureagainstoldEN615;only98secondshiftcorrectedwithindependentsource/counterexamplebasis."
+        }
+      ],
+      "machineErrorsCorrected": [
+        "91programrecoveredreadingfirstcolumnthennext,notmachinebrokenTeXtable;allhexnibblesandPUT-rM/MUXoperandorderretained",
+        "95fullfourrotationsandzero-testpredicatefullyrestored",
+        "96actualcomplementidentityoverline(u+v)=baru-vandDeMorganbarscorrect;initialphantombaronvnotregisteredasbookerror",
+        "98sourcey_y→y_jminorprintrepairkeptseparatefromshiftissue",
+        "99allfive64bitconstantsandquotedASCIIbyteconditionsrecovered;100allmajoritybrackets/barx/baryprimecarryfieldsrestored"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "continuation": {
+        "previousCnPdfPage": 513,
+        "nextCnPdfPage": 515,
+        "scope": "514continues91withwholeMMIXcodebutnewblocksnotcut;106completeon515"
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "Finalmother/section713assembly/91codeinclusion/offline/routed/onlineacceptance"
+      ],
+      "numericChecks": {
+        "receipt": "root-answer-checks/514-515-fields.json",
+        "scope": "Onlyspecifiedoriginalwordfamiliesand104exhaustiveencodedcalendarpredicate"
+      },
+      "sourceEditionQualifications": {
+        "proofScope": "General105sorting/106FredmanWillard/generaloperationoptimalitysource-comparedonly."
+      },
+      "assets": []
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 515,
+      "cnPrintedPage": "500",
+      "enPdfPages": [
+        616
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "9d9dd1006ea68d44c1cfdb8455c11fa9089197e4c853fec4b974c10ef0ec854f",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "5b4dd52564c3ecf20866c6e3abc31e448ef5403aad0831e8a995baab771d6f95",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "Complete Chinese source page and the available corresponding English contents directly compared; preserved edition differences are not asserted equal. No human sign-off.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "7e262bf345d7ca41eb86e9b1551b9b23d0bdbed6f46b68352010a05d196e7aec",
+      "enPageImages": [
+        {
+          "physicalPage": 616,
+          "sha256": "83c18e0486871e47a8f173ddce74b8600a30edbf4c46eb59ce8a096241c0b93b"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 515,
+        "markdownSha256": "9d9dd1006ea68d44c1cfdb8455c11fa9089197e4c853fec4b974c10ef0ec854f",
+        "htmlSha256": "3428645602fccac6766ce8460436fea36f2f691d671745feb0763091dc2e721b",
+        "mathExpressions": 65,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "b71fe0422b62f580b981722320c110ceee7590c6085cf9636b3485720c9a9d57",
+      "syntaxEvidenceFile": "syntax-514-515.json",
+      "coveredRegions": [
+        "101fullmixedradixconstantandrepair,102bothfieldwidthalgorithmsandmoduliremark,103unaryalgorithm,104all19-operationfields/hexconstants,105fullsortingdiscussion/bibliography,106completebothlambdaand2^lambdaexplanations"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "102finalremark/printed500",
+          "enPosition": "EN616/printed599bytewisearithmeticonthecoordinatesoftori",
+          "original": "可以用乘法运算",
+          "final": "可以按字节进行算术运算",
+          "basis": "Arithmeticmeansthepackedmodularcoordinateoperationsjustshown;nomultiplicationalgorithmwasasserted."
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "machineErrorsCorrected": [
+        "101all5hexfieldbytesand8080808000/15bitcorrectionrestorednotMphantomglyphs",
+        "102both4bit/3bitrowsandallcarrybarsrecovered,21fieldh=(2^65-4)/7",
+        "104constants3bbeecc/1000220/19operationpredicateallsource-read,sourceyearrestriction1901..2099notmodernized",
+        "106last2^(lambda x)restorednotMphantompiandwholelastmultiplierline"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "continuation": {
+        "previousCnPdfPage": 514,
+        "nextCnPdfPage": 516,
+        "scope": "514continues91withwholeMMIXcodebutnewblocksnotcut;106completeon515"
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "Finalmother/section713assembly/91codeinclusion/offline/routed/onlineacceptance"
+      ],
+      "numericChecks": {
+        "receipt": "root-answer-checks/514-515-fields.json",
+        "scope": "Onlyspecifiedoriginalwordfamiliesand104exhaustiveencodedcalendarpredicate"
+      },
+      "sourceEditionQualifications": {
+        "proofScope": "General105sorting/106FredmanWillard/generaloperationoptimalitysource-comparedonly."
+      },
+      "assets": []
+    }
+  ],
+  "checks": {
+    "currentContentAccepted": true,
+    "original98": {
+      "oldShift1FailedPairs": 32256,
+      "candidateShift7All65536RepeatedBytePairsMatched": true,
+      "currentUsesShift7": true
+    },
+    "pageMarkdownSha256": {
+      "514": "e440d10c9474968772f9be0315dbbd9fee7c10c833f5c366a53ba270887e71e3",
+      "515": "9d9dd1006ea68d44c1cfdb8455c11fa9089197e4c853fec4b974c10ef0ec854f"
+    },
+    "checkerSha256": "c233868ce1733e3a3dd0f3dc94f28aaf92e433c379274c9bb9774c20295e6e0c",
+    "original91Code": {
+      "sourceLoopInstructions": [
+        "XOR t,x,y",
+        "MOR z,rodd,t",
+        "AND t,x,y",
+        "ADDU z,z,t",
+        "MOR m,ffhi,alf",
+        "PUT rM,m",
+        "MUX x,z,x",
+        "MUX y,y,z",
+        "SLU alf,alf,1"
+      ],
+      "sourceLoopCount9OmitLastSLUThenFirst4Gives66": true,
+      "actualWordFamilyCases": 6125,
+      "allWordByteOutputsMatchOriginalOddScalarScheme": true,
+      "primaryMORConstantByteTablesAll256CasesMatched": true,
+      "scope": "Literalused-opcodebitsemantics,nativePythonnotMMIXAL/fullISA;previousscalarCfull256^3statisticsseparate"
+    },
+    "original92to98": {
+      "all4225SignedIdentityPairsMatched": true,
+      "all65536RepeatedByteCeilAverageAndUpdatedComparatorAndLamportAndMinmaxPairsMatched": true,
+      "zeroByteFalsePositiveFoundAsSourceStates": true,
+      "all512DistinctByteFamilyChecksMatched": true
+    },
+    "original99": {
+      "all2048PositionByteConditionsMatchSourceFiveConstants": true
+    },
+    "original100": {
+      "BCDPackedWordPairs": 10404,
+      "allSumAndDifferenceResultsMatchedDirectDecimalIntegers": true
+    },
+    "original101": {
+      "mixedRadixWordOperationCases": 328050,
+      "allMatchDirectCanonicalClockArithmeticModuloDayField": true
+    },
+    "original102": {
+      "bothSumAndDifferenceFullThreeComponentFamilies": {
+        "4": 15625,
+        "3": 15625
+      },
+      "allMatchIndependentModulo5PerField": true
+    },
+    "original103": {
+      "all18UnaryBytePairsMatchSaturatingIncrementDecrement": true
+    },
+    "original104": {
+      "actualExhaustiveCalendarReceiptSha256": "f806f7fe39c4c3e3d12076fbf4692f9719a865f46d6cd7914ea988777229bd0d",
+      "all2097152EncodedInputsMatchedIndependentPredicate": true,
+      "validYearDomain1901Through2099Retained": true
+    },
+    "sourceVersions": {
+      "96and98SelectedCN2016AuthorUpdatesRetainedAgainstOldEnglish": true,
+      "officialHistoricalP27ImageSha256": "d7f1eaee07cde19bc785085cfa09761b9da07c8c4573115ffc9c2450d14aac97"
+    },
+    "qualifications": [
+      "Sourcegenericproofs/operationoptimality/105sorting/106generalFredmanWillardargumentcomparedonly",
+      "Everyword-familycheckonlyspecifiedboundedfamily;notall2^192bytevectors",
+      "Calendarall21bitencodingscheckedfororiginalrestrictedyearpredicate,notunboundedcalendaralgorithm",
+      "MORused-opcodedefinitionfromprimaryMMIXdocument,notfullISA/nativeMMIXAL"
+    ]
+  },
+  "confirmed98Correction": {
+    "status": "confirmed-project-correction-also-affects-historical-author-replacement",
+    "cnPhysicalPage": 514,
+    "sourceCNBeforeCorrectionMarkdownSha256": "751ea33fa8ef0f6b0c136c6391b4b1b4e6f8a444e221fee4f66ad60d2d24825b",
+    "currentMarkdownSha256": "e440d10c9474968772f9be0315dbbd9fee7c10c833f5c366a53ba270887e71e3",
+    "onlyChangedField": "Secondmask-expansionshift1to7;firstaverage-formulashift1unchanged",
+    "publicIndependentReceiptSha256": "922b39064b84916933fec273907358b019187531484e41a5348056d24c3212ed",
+    "rootCurrentFiniteCheckSha256": "42c42c60240c6b56870794035f44e73006cdad598ea29a9bbfee464a0dfe4cd0",
+    "qualification": "Independentreviewconfirmedonecounterexample;rootall65536repeated-bytepairscheckedcandidate. Historicalofficialp27actuallyprintswrong1,notapproved7.NofullISA/nativeMMIXALclaim."
+  },
+  "independent98Review": {
+    "file": "assets/volume4a/review/answer-98-byte-maxmin-independent.json",
+    "sha256": "922b39064b84916933fec273907358b019187531484e41a5348056d24c3212ed",
+    "scope": "Onlyoneoriginal-domaincounterexample,notrootall65536pairs"
+  },
+  "actualCalendarExhaustion": {
+    "allEncodedInputs": 2097152,
+    "validDates": 72684,
+    "allFlagsMatchedIndependentGregorianPredicate": true,
+    "yearRange": [
+      0,
+      4095
+    ],
+    "monthRange": [
+      0,
+      15
+    ],
+    "dayRange": [
+      0,
+      31
+    ],
+    "sourceValidYearRestriction": "1900<year<2100",
+    "current515MarkdownSha256": "9d9dd1006ea68d44c1cfdb8455c11fa9089197e4c853fec4b974c10ef0ec854f",
+    "cSourceSha256": "f51186630842adf3309b71281bd07721c2cc413fa84ed6c84146aa75e70df8a7",
+    "binarySha256": "bfa010c66d9042db212921c180d8ce2d4fcd72e183fbb090f9dfe6e90036f6b7",
+    "scope": "Onlyoriginal19-operationcalendarpredicatewithyearrestriction1901..2099;all21-bitencodingsexhaustive.Notgeneralprolepticcalendaralgorithm."
+  },
+  "browser": {
+    "widths": [
+      1280,
+      390
+    ],
+    "acceptedDistinctCases": 4,
+    "mathExpressionsPerPass": 136,
+    "errors": 0,
+    "wholePageOverflow": 0,
+    "actualFontFacesLoaded": true,
+    "evidenceSha256": "8fb0ef708f9ee297f3789d346bf832d2c24287646d391f1cf259b42d4a257e30",
+    "mathEndpointScreensActuallyViewed": 34,
+    "mathEndpointEvidenceSha256": {
+      "514": "e07c723caf8f8526f9b70daabd503821542e2009ff38a7cf87ae585c7d24821f",
+      "515": "08b880aa953fa4488ba341c3789faaf0172cc53e03d894766ba9d5cbafacf2a5"
+    },
+    "codeScreensActuallyViewed": 6,
+    "codeEvidenceSha256": "8cc66d2653d6f0c883c0a774f399da387fe740ef8eba6b84eb67dee9780116f9"
+  },
+  "sourceDetails": {
+    "cn-514-complement-identities.png": "8bbf7e4d61c81ba2c573f6cf185b7f2dac0c1937fa2dd5233cfc4fb8da6b51da",
+    "cn-514-flags-constants.png": "a3127ff39276ca9fbf570ff99a3ac4e8af7d18a49430db11065627af4b95c6e5",
+    "cn-515-mixed-radix-constants.png": "b090ff4f9f0f71fefee33f5cbaec06c77cc05def1244e5aab12d2d519832463c",
+    "cn-515-calendar-constants.png": "879375dda52c7ddb05881808fb1d224a183132fd7815919d3ec612c9b997a647",
+    "official-p27.png": "d7f1eaee07cde19bc785085cfa09761b9da07c8c4573115ffc9c2450d14aac97",
+    "cn-514-minmax-mask-shift.png": "b3c93fcb81f01f25e84bd2892a7ca8ea083e2b24ec105ce4d2c7b72772f0bb67",
+    "official-p27-minmax-mask-shift.png": "352171e4241eedc85daae50134942b09dc98d0b05b1be874b7f1358d43b70f5b"
+  },
+  "qualifications": [
+    "Historicalauthorreplacementitselfhaswrong98shift1;projectcorrected7notcalledofficiallyapproved",
+    "Originalsource-faithfuldraftandfailedhelperretained,actualcurrentrerender/checksrun",
+    "Fullwordfamiliesarespecifiedboundedsamples,nativeMMIXAL/fullISAnotclaimed",
+    "104all21bitencodingscheckedonlyfororiginalrestrictedyearpredicate",
+    "Generalproofs/optimality/source106argumentnotindependentlyproved",
+    "Finalmother/whole713/offline/routed/onlinepending"
+  ]
+}

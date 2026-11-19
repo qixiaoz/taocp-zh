@@ -1,0 +1,1145 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-assigned-physical-page-source-review-and-private-two-width-proof",
+  "cnPhysicalPages": [
+    425,
+    426,
+    427,
+    428
+  ],
+  "cnPrintedPages": [
+    410,
+    411,
+    412,
+    413
+  ],
+  "masterSha256": null,
+  "mathExpressions": 41,
+  "privateBrowserCases": 8,
+  "substantiveCorrections": 8,
+  "logicalAssemblies": [
+    {
+      "file": "assets/volume4a/review/body-425-428-dice-and-llull-425-428-assembly.json",
+      "sha256": "dfef190d5f811c84679551c5305312a5a8cf6e5bb58a71187f36f2b7b119b507"
+    }
+  ],
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.7",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 425,
+      "cnPrintedPage": 410,
+      "enPdfPages": [
+        510,
+        511
+      ],
+      "enPrintedPages": [
+        493,
+        494
+      ],
+      "pageMarkdownSha256": "edee3ac13eb1a83df64a81aeccc65c8b666f0ab3f677c16ac4e0540fb14618f2",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/425.jpg",
+      "sourcePageImageSha256": "20b0a4cb240ffc28131d320a7b25f497ba84a2aa720ef609cebc0eb12dce361a",
+      "enPageImages": [
+        {
+          "physicalPage": 510,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-510.png",
+          "sha256": "f5e8c7b31c8aa5340746b1cea7c1f7d07dd2c195573e5593470caddcc46dc323"
+        },
+        {
+          "physicalPage": 511,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-511.png",
+          "sha256": "a122548bd3ef632474cd8d27aa444dd3f7d21dff5ec35e0c6c6743db7949d4e8"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-425",
+        "p-410"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-129",
+          "section": "7.2.1.7",
+          "cnPdfPage": 425,
+          "enPdfPages": [
+            510
+          ],
+          "location": "式(11)所涉线性方程及整体",
+          "original": "210个有10个未知数的联立线性方程组",
+          "final": "由 $\\binom{10}{6}=210$ 个方程构成的联立线性方程组，共有10个未知数",
+          "basis": "EN510 的 210 simultaneous linear equations in 10 unknowns 是同一超定方程组。五个印例的顺序和右端逐项核，解也按原印逐项校对。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "edee3ac13eb1a83df64a81aeccc65c8b666f0ab3f677c16ac4e0540fb14618f2",
+          "cnPrintedPage": 410
+        },
+        {
+          "id": "volume4a-tail-130",
+          "section": "7.2.1.7",
+          "cnPdfPage": 425,
+          "enPdfPages": [
+            511
+          ],
+          "location": "两种美德配对的六颗骰子",
+          "original": "如果骰子所有六面上的点数之和为21",
+          "final": "如果代表两种美德的六颗骰子的点数之和为21",
+          "basis": "EN511 all six of their dice 指两种美德各自对应三颗骰子的点数。111与666以及124与455各自相加都为21。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "edee3ac13eb1a83df64a81aeccc65c8b666f0ab3f677c16ac4e0540fb14618f2",
+          "cnPrintedPage": 410
+        },
+        {
+          "id": "volume4a-tail-131",
+          "section": "7.2.1.7",
+          "cnPdfPage": 425,
+          "enPdfPages": [
+            510,
+            511
+          ],
+          "location": "韦伯尔德表的145与666",
+          "original": "二者均为“谦逊”，例为“爱”+“谦逊”",
+          "final": "“爱”可与“谦卑”配对",
+          "basis": "EN510 的145是 modesty，666是 humility。定稿分别用“谦逊”“谦卑”，EN511的爱与谦卑配对使用111与666。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "edee3ac13eb1a83df64a81aeccc65c8b666f0ab3f677c16ac4e0540fb14618f2",
+          "cnPrintedPage": 410
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 425,
+        "markdownSha256": "edee3ac13eb1a83df64a81aeccc65c8b666f0ab3f677c16ac4e0540fb14618f2",
+        "htmlSha256": "7a86631d35e310e29d0f71f497c167d643abb849c336f8193240ab3c114399fe",
+        "mathExpressions": 10,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/result.json",
+        "sha256": "1ae321e0e7ec393ab397ff597b86a83c39fe176046adc77ab91cf027e4ec2bdf",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 10,
+            "mathML": 10,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 425,
+            "width": 1280,
+            "pageMarkdownSha256": "edee3ac13eb1a83df64a81aeccc65c8b666f0ab3f677c16ac4e0540fb14618f2",
+            "htmlSha256": "7a86631d35e310e29d0f71f497c167d643abb849c336f8193240ab3c114399fe",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [],
+            "diceTables": {
+              "cells": 56,
+              "sourceOrderAndGlyphs": true
+            }
+          },
+          {
+            "documentWidth": 390,
+            "math": 10,
+            "mathML": 10,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 540,
+                "left": 0,
+                "right": 230,
+                "max": 230,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 454,
+                "left": 0,
+                "right": 144,
+                "max": 144,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 526,
+                "left": 0,
+                "right": 216,
+                "max": 216,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 425,
+            "width": 390,
+            "pageMarkdownSha256": "edee3ac13eb1a83df64a81aeccc65c8b666f0ab3f677c16ac4e0540fb14618f2",
+            "htmlSha256": "7a86631d35e310e29d0f71f497c167d643abb849c336f8193240ab3c114399fe",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [],
+            "diceTables": {
+              "cells": 56,
+              "sourceOrderAndGlyphs": true
+            }
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-1280-walk0.png",
+          "sha256": "fd63d015cc08520395cb11ab75023cb665a2c812bad2cc436bf80bc47c10848b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-1280-walk1.png",
+          "sha256": "06b73135e8616be3210c5205b8556156245cdafaffea50e5d290cc6399e34c42",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-1280-walk2.png",
+          "sha256": "27f5c7ecc60191e8a91c10a5b051ea5cd49032f19fcc99c365a89325bfe2de79",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-390-walk0.png",
+          "sha256": "c120f74825945f2cf836063aa26c4677c11fdfc799bbb5f91749060fad3c6005",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-390-walk1.png",
+          "sha256": "67e0450e2d1257ef1b8c21314bcb2f8ca03e9aa9485caaa68e46697403623675",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-390-walk2.png",
+          "sha256": "a6d364e27b82713eb292a966d1cd5f4cb224844f054f9910b0aaecec1e15c8a8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-390-walk3.png",
+          "sha256": "3034bd320ee41c4df5aba70ee8dbab3292245198190b7eeb9d4483124319d727",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-390-inline8-pan0.png",
+          "sha256": "96465c8ed86e2f0e3b587cf7abdc578a0f8f98cdd2d186487f11c80988a0c8b3",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-390-inline8-pan1.png",
+          "sha256": "8ccebf76ba4b38aac677507bcabf4c96971f693e2c0c4104e4b65aba967a30b0",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-1280-table0-pan0.png",
+          "sha256": "fd63d015cc08520395cb11ab75023cb665a2c812bad2cc436bf80bc47c10848b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-1280-table0-pan1.png",
+          "sha256": "fd63d015cc08520395cb11ab75023cb665a2c812bad2cc436bf80bc47c10848b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-1280-table1-pan0.png",
+          "sha256": "988bb458ed50a105ea1731c00d3cdbf431a9cadc90c74baf33088cf3a9c97d90",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-1280-table1-pan1.png",
+          "sha256": "988bb458ed50a105ea1731c00d3cdbf431a9cadc90c74baf33088cf3a9c97d90",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-390-table0-pan0.png",
+          "sha256": "3918196c677ac0a037b4fe30a81779b9d9739bc74622f162ae572c1c6ddcc9f6",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-390-table0-pan1.png",
+          "sha256": "a3cd22d5fbf6bce2a2525eabc05a0ece5d3a9d03c8860ab3c36402b17867f2d2",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-390-table0-pan2.png",
+          "sha256": "a0442b9440e05651f7155103d0a3b0866e87645a42e81aea567162c5d3135efc",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-390-table1-pan0.png",
+          "sha256": "b42c5de34c5cf07111a130e7fab04a7778e437e5f612dfe2767b895747317268",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-390-table1-pan1.png",
+          "sha256": "cd0ccbeaf3e43a6c7819345f824b2bbc9e61a344d21c53421741aef5285a0b21",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/425-390-table1-pan2.png",
+          "sha256": "fc996ce6945e8d528c2c532855f1af5651ad1c4f13c4f222494f9f3f3978aac3",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-425-428-source-fields.json",
+        "sha256": "ad5d2410177422b181b7fba377e69a01c177df8b80025f78930e02b3becb3c0b"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-425-428-dice-and-llull-425-428-assembly.json",
+          "sha256": "dfef190d5f811c84679551c5305312a5a8cf6e5bb58a71187f36f2b7b119b507"
+        }
+      ],
+      "coveredRegions": [
+        "The five printed Arabic rows and modern counterpart, all combinations count and stated solution, all 56 dice outcomes and linked Chinese virtues."
+      ],
+      "followingPageContinuation": "CN426 continues the Baldéric paragraph at 另一份.",
+      "qualification": "Whole original CN425–428 and matched EN510–514. Checked the five displayed equation rows, the two dice arrays, the medieval poem, the three original manuscript figures and actual current 1280/390 rendering.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/425-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "dc97cd4c2838cfb15c0aa285494714df5c09d304f3aa6efe943eccc042d0ced5",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "2ff462f942b35d242344cb946963c1b781ae7c9663d240a64717fbf61a17defa",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/425.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.7",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 426,
+      "cnPrintedPage": 411,
+      "enPdfPages": [
+        511,
+        512
+      ],
+      "enPrintedPages": [
+        494,
+        495
+      ],
+      "pageMarkdownSha256": "b2302b9cdbffceb733e339eefa568ee19248334c1ebfaddf7869a9d9f5f07770",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/426.jpg",
+      "sourcePageImageSha256": "8aab04a9cd02c755e6216baf544704e528611dba24178629e59a51ed6b4c76ed",
+      "enPageImages": [
+        {
+          "physicalPage": 511,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-511.png",
+          "sha256": "a122548bd3ef632474cd8d27aa444dd3f7d21dff5ec35e0c6c6743db7949d4e8"
+        },
+        {
+          "physicalPage": 512,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-512.png",
+          "sha256": "3c43272ac33b8f110fa28caf26d414bc56e6dac6705e606565d639bc2a0a6985"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-426",
+        "p-411"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-132",
+          "section": "7.2.1.7",
+          "cnPdfPage": 426,
+          "enPdfPages": [
+            511
+          ],
+          "location": "中古英语掷骰诗作者的语气",
+          "original": "约翰·利德盖特在15世纪早期写了一首",
+          "final": "传为约翰·利德盖特所作",
+          "basis": "EN511 attributed to John Lydgate 是传统归属，原文保留归属语气。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "b2302b9cdbffceb733e339eefa568ee19248334c1ebfaddf7869a9d9f5f07770",
+          "cnPrintedPage": 411
+        },
+        {
+          "id": "volume4a-tail-133",
+          "section": "7.2.1.7",
+          "cnPdfPage": 426,
+          "enPdfPages": [
+            512
+          ],
+          "location": "柳利所列七种美德开头",
+          "original": "忠诚、希望、慈善",
+          "final": "信仰、希望、仁爱、公正、谨慎、坚韧、自制",
+          "basis": "EN512 faith, hope, charity 表示神学美德中的信、望、爱。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "b2302b9cdbffceb733e339eefa568ee19248334c1ebfaddf7869a9d9f5f07770",
+          "cnPrintedPage": 411
+        },
+        {
+          "id": "volume4a-tail-134",
+          "section": "7.2.1.7",
+          "cnPdfPage": 426,
+          "enPdfPages": [
+            512
+          ],
+          "location": "柳利图64中amor和voluntas",
+          "original": "原来的“爱”（amor，即丘比特）现在被称为“意愿”",
+          "final": "原来的“爱”（*amor*）现在称为“意愿”（*voluntas*）",
+          "basis": "EN512 love (amor) … will (voluntas) 这里是图左列的抽象属性，由爱改称意愿。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "b2302b9cdbffceb733e339eefa568ee19248334c1ebfaddf7869a9d9f5f07770",
+          "cnPrintedPage": 411
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 426,
+        "markdownSha256": "b2302b9cdbffceb733e339eefa568ee19248334c1ebfaddf7869a9d9f5f07770",
+        "htmlSha256": "5ba8984c26cc857d2335703a3132436deb54bf06d52004a5618c66782cf885da",
+        "mathExpressions": 10,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/result.json",
+        "sha256": "1ae321e0e7ec393ab397ff597b86a83c39fe176046adc77ab91cf027e4ec2bdf",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 10,
+            "mathML": 10,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 426,
+            "width": 1280,
+            "pageMarkdownSha256": "b2302b9cdbffceb733e339eefa568ee19248334c1ebfaddf7869a9d9f5f07770",
+            "htmlSha256": "5ba8984c26cc857d2335703a3132436deb54bf06d52004a5618c66782cf885da",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [],
+            "diceTables": {
+              "cells": 56,
+              "sourceOrderAndGlyphs": true
+            }
+          },
+          {
+            "documentWidth": 390,
+            "math": 10,
+            "mathML": 10,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 559,
+                "left": 0,
+                "right": 249,
+                "max": 249,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 445,
+                "left": 0,
+                "right": 135,
+                "max": 135,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 426,
+            "width": 390,
+            "pageMarkdownSha256": "b2302b9cdbffceb733e339eefa568ee19248334c1ebfaddf7869a9d9f5f07770",
+            "htmlSha256": "5ba8984c26cc857d2335703a3132436deb54bf06d52004a5618c66782cf885da",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [],
+            "diceTables": {
+              "cells": 56,
+              "sourceOrderAndGlyphs": true
+            }
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/426-1280-walk0.png",
+          "sha256": "3b1224d389f3a6bc964a90e92f9627e30c533030ffb64969ce19a1e2336f5057",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/426-1280-walk1.png",
+          "sha256": "ef8d3780dbf4bcd415de65b0f2f49cbbd091698edc9143b1b661bfbcff70d8d6",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/426-1280-walk2.png",
+          "sha256": "f031cc93a1251339891ca50ff50d931c0842901e576eda9cd014eea6f56be39e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/426-390-walk0.png",
+          "sha256": "3a1398691415494b883a1e767a43b1cac0cae0f80306469306947a53e0bdae48",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/426-390-walk1.png",
+          "sha256": "3b6b2765aeca78c1e801c4dca0d7afe675864091b9de6ae48c6a22930696517b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/426-390-walk2.png",
+          "sha256": "695e86b9c8419767c91f063ec964a26a2a54c093558d297d65af8efef9cc7bc3",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/426-390-walk3.png",
+          "sha256": "86111d4532d9eafc23fc9d46e86b43c8db6ccc520ba645ada8b73f512430e2e3",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/426-390-walk4.png",
+          "sha256": "e892f809db63de461cb6d60aaefafaabaae6d401619f0bc4682ddc41503cdcc0",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/426-390-inline7-pan0.png",
+          "sha256": "e892f809db63de461cb6d60aaefafaabaae6d401619f0bc4682ddc41503cdcc0",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/426-390-inline7-pan1.png",
+          "sha256": "26903d1b44deb7bebca0569a1f32b167ef87b08d0186f17bfdd0dd47f3c03bab",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/426-1280-table0-pan0.png",
+          "sha256": "3b1224d389f3a6bc964a90e92f9627e30c533030ffb64969ce19a1e2336f5057",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/426-1280-table0-pan1.png",
+          "sha256": "3b1224d389f3a6bc964a90e92f9627e30c533030ffb64969ce19a1e2336f5057",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/426-390-table0-pan0.png",
+          "sha256": "3a1398691415494b883a1e767a43b1cac0cae0f80306469306947a53e0bdae48",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/426-390-table0-pan1.png",
+          "sha256": "a0003e1ef9c79e9fcfb01d12ecfc07f9fc89714eb20ddccc27f2714b0d414beb",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/426-390-table0-pan2.png",
+          "sha256": "4dfe3ccea63719965937e3c63472a471a347b9fd2b046f39a3d4db858de8eaef",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-425-428-source-fields.json",
+        "sha256": "ad5d2410177422b181b7fba377e69a01c177df8b80025f78930e02b3becb3c0b"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-425-428-dice-and-llull-425-428-assembly.json",
+          "sha256": "dfef190d5f811c84679551c5305312a5a8cf6e5bb58a71187f36f2b7b119b507"
+        }
+      ],
+      "coveredRegions": [
+        "The second arrangement of all 56 dice outcomes, seven lines of Middle English and their attribution, the Llull introduction and the opening figure explanation."
+      ],
+      "followingPageContinuation": "CN427 starts with floating Figure 64, followed by the list of the seven vices.",
+      "qualification": "Whole original CN425–428 and matched EN510–514. Checked the five displayed equation rows, the two dice arrays, the medieval poem, the three original manuscript figures and actual current 1280/390 rendering.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/426-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "2c7822f41c288f8202790edfef7e3bdfa43b061e86b94a5e70bd9bd0ee28b320",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "9ac2f4da81c5dd2eb15e84ab390fd1031a192657801db2a517ce739c3004c8ac",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/426.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.7",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 427,
+      "cnPrintedPage": 412,
+      "enPdfPages": [
+        512,
+        513,
+        514
+      ],
+      "enPrintedPages": [
+        495,
+        496,
+        497
+      ],
+      "pageMarkdownSha256": "ab94fc0d0b17ffaeff3fbc32db5a2466488e3282f8a6cdc3411139b8ec18d62c",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/427.jpg",
+      "sourcePageImageSha256": "3294405e4230995382603a8e0e5b0c79d6a9602585c5bdf0047cac5db5f31c63",
+      "enPageImages": [
+        {
+          "physicalPage": 512,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-512.png",
+          "sha256": "3c43272ac33b8f110fa28caf26d414bc56e6dac6705e606565d639bc2a0a6985"
+        },
+        {
+          "physicalPage": 513,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-513.png",
+          "sha256": "b6d5d42b76bf5429c1fdee9ab3cbd467beb7f966e792a4551df71cfbabffa414"
+        },
+        {
+          "physicalPage": 514,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-514.png",
+          "sha256": "582455f23eb2de40d49e596952a2c360e760f89ec8041561d3e0bcbc292d81ef"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-427",
+        "p-412",
+        "fig-64"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-135",
+          "section": "7.2.1.7",
+          "cnPdfPage": 427,
+          "enPdfPages": [
+            513
+          ],
+          "location": "柳利的著作主题之一",
+          "original": "法学、天文学、动物学",
+          "final": "法学、占星术、动物学",
+          "basis": "EN513 在 jurisprudence 与 zoology 之间印 astrology。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "ab94fc0d0b17ffaeff3fbc32db5a2466488e3282f8a6cdc3411139b8ec18d62c",
+          "cnPrintedPage": 412
+        },
+        {
+          "id": "volume4a-tail-136",
+          "section": "7.2.1.7",
+          "cnPdfPage": 427,
+          "enPdfPages": [
+            514
+          ],
+          "location": "图65三角形(B,C,D)所示四元素关系",
+          "original": "土壤生火、火生空气、空气生水、水生土壤；土壤克空气、火克水",
+          "final": "土壤与火相合，火与空气相合，空气与水相合，水与土壤相合。土壤与空气相对，火与水相对。",
+          "basis": "EN514 这六个关系用 concordant 和 contrary，属于对称的一致及相对关系。后文开始、中间、结束才讨论转换。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "ab94fc0d0b17ffaeff3fbc32db5a2466488e3282f8a6cdc3411139b8ec18d62c",
+          "cnPrintedPage": 412
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-7-fig64-llull-deus-and-virtues.svg",
+          "sha256": "6f6e0e61da1e9670909592da74cc047e9fb1d777d556b423c9cb75f5bd31917a"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 427,
+        "markdownSha256": "ab94fc0d0b17ffaeff3fbc32db5a2466488e3282f8a6cdc3411139b8ec18d62c",
+        "htmlSha256": "d5814ed219aeac3be596bcba6b269adb0f11a1c351d9c9039e9acd8baa0ebf68",
+        "mathExpressions": 16,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/result.json",
+        "sha256": "1ae321e0e7ec393ab397ff597b86a83c39fe176046adc77ab91cf027e4ec2bdf",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 16,
+            "mathML": 16,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 427,
+            "width": 1280,
+            "pageMarkdownSha256": "ab94fc0d0b17ffaeff3fbc32db5a2466488e3282f8a6cdc3411139b8ec18d62c",
+            "htmlSha256": "d5814ed219aeac3be596bcba6b269adb0f11a1c351d9c9039e9acd8baa0ebf68",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-7-fig64-llull-deus-and-virtues.svg",
+                "opened": true,
+                "screenshot": "427-1280-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          },
+          {
+            "documentWidth": 390,
+            "math": 16,
+            "mathML": 16,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 620,
+                "left": 0,
+                "right": 310,
+                "max": 310,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 427,
+            "width": 390,
+            "pageMarkdownSha256": "ab94fc0d0b17ffaeff3fbc32db5a2466488e3282f8a6cdc3411139b8ec18d62c",
+            "htmlSha256": "d5814ed219aeac3be596bcba6b269adb0f11a1c351d9c9039e9acd8baa0ebf68",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-7-fig64-llull-deus-and-virtues.svg",
+                "opened": true,
+                "screenshot": "427-390-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/427-1280-walk0.png",
+          "sha256": "e70212ca3dfe5cf4afe07bd08320fd7e12c98f03da45e7369ac12c3e582e927c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/427-1280-walk1.png",
+          "sha256": "276696845a53e05e1d5ac4801a381aa2c158b3d4fe3ec6991aa3c5f035565c18",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/427-390-walk0.png",
+          "sha256": "19d05b7fe2a6f21e99caf630a0ca51b7a4dad4bb554c5fc48fd5b9c791b08d6e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/427-390-walk1.png",
+          "sha256": "75025d9ec855ec3143654d53bb70f75e5a2ea39fccfee809a2988b295c339d91",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/427-390-walk2.png",
+          "sha256": "b079848e8d68cf4d7caeb156c8e2cdc8e73dec28ecdbafc3ef016dcf5f27a019",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/427-390-walk3.png",
+          "sha256": "7623d3579f72d68fc4bcd555e80f9b959d40aa4e24977fba0ec023d2919b73fb",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/427-390-display0-right.png",
+          "sha256": "ec1021cc448bddf2e47d2a61abf54f85fe6dd8ae0c40cd9bbf3edd9045dec926",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/427-1280-original-image0.png",
+          "sha256": "910a16a0cdd94b5a4d70cc3c15281ed529235dd133a34f469121c2c60fa53a99",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/427-390-original-image0-right.png",
+          "sha256": "f0777c5429c921f186671b9cdf3a0667efe2a3f60ca651b767d3da6eb3234cd7",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/427-390-original-image0.png",
+          "sha256": "336f297b408a3625165787b8f5aa72d72d6a90c0f2c3b29665d4f1f697ab371c",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-425-428-source-fields.json",
+        "sha256": "ad5d2410177422b181b7fba377e69a01c177df8b80025f78930e02b3becb3c0b"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-425-428-dice-and-llull-425-428-assembly.json",
+          "sha256": "dfef190d5f811c84679551c5305312a5a8cf6e5bb58a71187f36f2b7b119b507"
+        }
+      ],
+      "coveredRegions": [
+        "Original Figure 64 and hand lettering, two disjoint K7 diagrams, extended Llull system and three triads, element relations."
+      ],
+      "followingPageContinuation": "CN428 opens with the original Figure 65, supplying the referred illustrations.",
+      "qualification": "Whole original CN425–428 and matched EN510–514. Checked the five displayed equation rows, the two dice arrays, the medieval poem, the three original manuscript figures and actual current 1280/390 rendering.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/427-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "8f17d8bfbafb81eac7bed73c5cb4fb4e5a75de1651b26f626fedb5e4d7190460",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "b54cb0086a5c71088a58a7018b78293a05b07128631d63c9145b4b22328d6c48",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/427.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.7",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 428,
+      "cnPrintedPage": 413,
+      "enPdfPages": [
+        513,
+        514
+      ],
+      "enPrintedPages": [
+        496,
+        497
+      ],
+      "pageMarkdownSha256": "f6f61eedd01ba92f958cc73f26cbbbf7bc86b72d0889dd5034c91c9226b01bdc",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/428.jpg",
+      "sourcePageImageSha256": "9fd923072f33989177d34d1e7790e3143907f515b884acd0a367d40d03abe13c",
+      "enPageImages": [
+        {
+          "physicalPage": 513,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-513.png",
+          "sha256": "b6d5d42b76bf5429c1fdee9ab3cbd467beb7f966e792a4551df71cfbabffa414"
+        },
+        {
+          "physicalPage": 514,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-514.png",
+          "sha256": "582455f23eb2de40d49e596952a2c360e760f89ec8041561d3e0bcbc292d81ef"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-428",
+        "p-413",
+        "fig-65",
+        "fig-66"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-7-fig65-llull-concentric-diagrams.svg",
+          "sha256": "84d2c57a2e1099c0ac04ffb7f48ca044c0bec14d0d54d6211b6560e71f767a03"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-7-fig66-kircher-complete-bipartite.svg",
+          "sha256": "823dddeee9e2b9e6926052589967eff51998d28cf922f4f7537f100ccf44bf58"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 428,
+        "markdownSha256": "f6f61eedd01ba92f958cc73f26cbbbf7bc86b72d0889dd5034c91c9226b01bdc",
+        "htmlSha256": "d3617d2d113a6ca72959f90ab8e67c66cdeb5e489ca8d437faea9361693eb647",
+        "mathExpressions": 5,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 2,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/result.json",
+        "sha256": "1ae321e0e7ec393ab397ff597b86a83c39fe176046adc77ab91cf027e4ec2bdf",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 5,
+            "mathML": 5,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 428,
+            "width": 1280,
+            "pageMarkdownSha256": "f6f61eedd01ba92f958cc73f26cbbbf7bc86b72d0889dd5034c91c9226b01bdc",
+            "htmlSha256": "d3617d2d113a6ca72959f90ab8e67c66cdeb5e489ca8d437faea9361693eb647",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-7-fig65-llull-concentric-diagrams.svg",
+                "opened": true,
+                "screenshot": "428-1280-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-7-fig66-kircher-complete-bipartite.svg",
+                "opened": true,
+                "screenshot": "428-1280-original-image1.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          },
+          {
+            "documentWidth": 390,
+            "math": 5,
+            "mathML": 5,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 680,
+                "left": 0,
+                "right": 370,
+                "max": 370,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 370,
+                "left": 0,
+                "right": 60,
+                "max": 60,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 428,
+            "width": 390,
+            "pageMarkdownSha256": "f6f61eedd01ba92f958cc73f26cbbbf7bc86b72d0889dd5034c91c9226b01bdc",
+            "htmlSha256": "d3617d2d113a6ca72959f90ab8e67c66cdeb5e489ca8d437faea9361693eb647",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-7-fig65-llull-concentric-diagrams.svg",
+                "opened": true,
+                "screenshot": "428-390-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-7-fig66-kircher-complete-bipartite.svg",
+                "opened": true,
+                "screenshot": "428-390-original-image1.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/428-1280-walk0.png",
+          "sha256": "cf1bb5174747d4ae8fd9fdcd1e75a19c2acff5d799d7c075f3ce6bd83c850f49",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/428-1280-walk1.png",
+          "sha256": "01df87bb476c47281185730f7437530f220232699e85fdd0f9b9013435bd12e1",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/428-1280-walk2.png",
+          "sha256": "4a60396451daa48903181c4e611bc73ab79bf8fa5fe5f8e29c8ae04b4094ec11",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/428-390-walk0.png",
+          "sha256": "3b18aaf764e59a1d59a5db9a16462e6d6f5bd1462a7e67cb63446527ca44ae91",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/428-390-walk1.png",
+          "sha256": "63cf7d406e5d571a4a2f2e1f0f055b5ab673c632dea099e1a3eb981422dc2e28",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/428-390-walk2.png",
+          "sha256": "a07240bf3a77e88d398e19804315351e22a6da302c401c8557a3dac41b41abca",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/428-390-display0-right.png",
+          "sha256": "3beb534e80d94896d3138aedc0625303bd755d6615ae521e8842ef92bfaba433",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/428-390-display1-right.png",
+          "sha256": "c144b76fd63ca089d1fe0592f0b1a753f8603ad995b8f0a2a24a580ffb489ae4",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/428-1280-original-image0.png",
+          "sha256": "e56f4cdf04976459b1cde7ae4b85482dfab47abe93114fbb5c7047f6e8d70c66",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/428-1280-original-image1.png",
+          "sha256": "8befa43ea8f348ae2419447fcc117b3da3c745af24d1590f839044d4d62a939a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/428-390-original-image0-right.png",
+          "sha256": "bcacdba2e08e590584102a0282e68e00c660a35f79a5d0eae64dbd394ac0e5be",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/428-390-original-image0.png",
+          "sha256": "dc55e1361fde8883b762a8f924bcab0fc30e1a4c5fadfb3c7ac027229db58ebe",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/428-390-original-image1-right.png",
+          "sha256": "bb628d9d6daaf1d74ed751b7f0ada0151ddf8ab8170835d216c7b584a49f4879",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/425-428/428-390-original-image1.png",
+          "sha256": "3fa2fa7175b9e3b1b60bb8b9014089eee05a0b0c6f32b0d3b597a4aae451a2e0",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-425-428-source-fields.json",
+        "sha256": "ad5d2410177422b181b7fba377e69a01c177df8b80025f78930e02b3becb3c0b"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-425-428-dice-and-llull-425-428-assembly.json",
+          "sha256": "dfef190d5f811c84679551c5305312a5a8cf6e5bb58a71187f36f2b7b119b507"
+        }
+      ],
+      "coveredRegions": [
+        "Original Figure 65 wheel and manuscripts, right-hand vertical chart, Figure 66 nine-by-nine two-column diagram and manuscript labels."
+      ],
+      "followingPageContinuation": "CN429 starts with the Gardner epigraph and the Schillinger paragraph.",
+      "qualification": "Whole original CN425–428 and matched EN510–514. Checked the five displayed equation rows, the two dice arrays, the medieval poem, the three original manuscript figures and actual current 1280/390 rendering.",
+      "privateOriginalPageReviewSha256": "ed8cb9ab733f357d97ebc1c326591967d40867dfae73777c50e18a4250dd0bf5",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/428.json"
+    }
+  ],
+  "qualification": "Whole original CN425–428 and matched EN510–514. Checked the five displayed equation rows, the two dice arrays, the medieval poem, the three original manuscript figures and actual current 1280/390 rendering."
+}

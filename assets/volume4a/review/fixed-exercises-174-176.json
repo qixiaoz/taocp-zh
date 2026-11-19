@@ -1,0 +1,89 @@
+{
+  "scope": "Only the printed one mask in exercise 84, the width-2 illustration in exercise 113, and the three outputs of the literal exercise 115 input. No general extraction algorithm or exercise solution.",
+  "pageMarkdownHashes": {
+    "174": "cb2fe7748638ecb7760afb7befe4aa66ee9bd9af505bb0190c3c326a2c24f8bd",
+    "175": "cf628a76b7d71331242ced4e629b5d1f287380d7c1e96f678f735a96af198fde",
+    "176": "f010658b74410b0fa4fae7605750b3fe8c72ba6cfcd207b0bc9d8928638742ff"
+  },
+  "ex84": {
+    "mask": "01101110010",
+    "rightToLeftOnePositions": [
+      1,
+      4,
+      5,
+      6,
+      8,
+      9
+    ],
+    "outputLeft": [
+      9,
+      9,
+      8,
+      6,
+      6,
+      5,
+      4,
+      1,
+      1,
+      1,
+      null
+    ],
+    "outputRight": [
+      null,
+      9,
+      8,
+      8,
+      6,
+      5,
+      4,
+      4,
+      4,
+      1,
+      1
+    ]
+  },
+  "ex113": {
+    "inputAndFourRegisters": [
+      [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        3,
+        0,
+        0,
+        3
+      ],
+      [
+        3,
+        2,
+        1,
+        2,
+        0
+      ]
+    ]
+  },
+  "ex115": {
+    "input": "01110111001101000110",
+    "boundedWindowBits": 20,
+    "outputs": {
+      "a": "00000111000001000110",
+      "b": "00000111000000000110",
+      "c": "00000000001100000110"
+    },
+    "finalRunConvention": "Infinite trailing zeros after x0, no subsequent 1-block."
+  },
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+}

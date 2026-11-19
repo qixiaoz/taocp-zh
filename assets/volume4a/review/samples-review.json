@@ -1,0 +1,719 @@
+{
+  "status": "sample-independent-recalculation-passed",
+  "formula": {
+    "cnPage": 58,
+    "enPages": [
+      70,
+      71
+    ],
+    "equations": [
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "cnfAssignmentsChecked": 16,
+    "cnfTrueAssignments": [
+      "0000",
+      "0001",
+      "0100",
+      "0111",
+      "1100",
+      "1101",
+      "1110",
+      "1111"
+    ],
+    "printedTrueAssignments": [
+      "0000",
+      "0001",
+      "0100",
+      "0111",
+      "1100",
+      "1101",
+      "1110",
+      "1111"
+    ],
+    "implicantAssignments": [
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "before": false,
+        "after": false
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 1,
+        "before": false,
+        "after": false
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "z": 0,
+        "before": true,
+        "after": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "z": 1,
+        "before": true,
+        "after": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "z": 0,
+        "before": false,
+        "after": false
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "z": 1,
+        "before": true,
+        "after": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "z": 0,
+        "before": false,
+        "after": false
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "z": 1,
+        "before": true,
+        "after": true
+      }
+    ],
+    "qualification": "Finite checks support the explicit source examples; the general DNF/CNF definitions are checked from the original page images, not proved by finite sampling."
+  },
+  "program": {
+    "cnPage": 127,
+    "enPage": 154,
+    "equation": 26,
+    "instructions": [
+      "SRU $0,k,3",
+      "LDOU $1,pbase,$0",
+      "AND $0,k,#3f",
+      "SLU $1,$1,$0",
+      "BN $1,PRIME"
+    ],
+    "oddInputsChecked": 512,
+    "qualification": "All 512 odd candidates 1..1023 checked using source-defined P; printed table bits have not been individually visually checked in this fragment."
+  },
+  "structure": {
+    "cnPage": 184,
+    "enPage": 220,
+    "figure": 21,
+    "branchNodes": 4,
+    "terminals": 2,
+    "edges": 8,
+    "loEdges": "dashed",
+    "hiEdges": "solid",
+    "truthRows": [
+      {
+        "bits": [
+          0,
+          0,
+          0
+        ],
+        "bdd": false,
+        "majority": false
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1
+        ],
+        "bdd": false,
+        "majority": false
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0
+        ],
+        "bdd": false,
+        "majority": false
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1
+        ],
+        "bdd": true,
+        "majority": true
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0
+        ],
+        "bdd": false,
+        "majority": false
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1
+        ],
+        "bdd": true,
+        "majority": true
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0
+        ],
+        "bdd": true,
+        "majority": true
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1
+        ],
+        "bdd": true,
+        "majority": true
+      }
+    ],
+    "qualification": "Only formal figure21 is redrawn here; the storage layout and non-BDD counterexamples on the same page are outside this sample fragment."
+  },
+  "inputs": {
+    "private-snapshot:volume4a/samples/formula-058.md": "c3b6014a725bd7eaa47eef8f57cd2b50d93d8585c8878ea5724e9a102fcb9212",
+    "private-snapshot:volume4a/samples/program-127.md": "e97f2ae90a13038e7e7f26888b912ff104e01b516287f2e348fc556ac71192bc",
+    "private-snapshot:volume4a/samples/structure-184.md": "c6e82401b74a5d055f9d2531ecf3e62be2adf3aa18f8271a164b999708b71676",
+    "assets/volume4a/figures/fig-7-21-bdd.svg": "bb7fe56248b4e242e4fb2bd0bd73cb21177d01763999cd14dddb653c1d2c6b37"
+  },
+  "masterSha256": null,
+  "publicationEnabled": false,
+  "syntax": [
+    {
+      "name": "formula-058",
+      "markdownSha256": "c3b6014a725bd7eaa47eef8f57cd2b50d93d8585c8878ea5724e9a102fcb9212",
+      "mathExpressions": 33,
+      "display": 6,
+      "codeLines": [],
+      "mathErrors": 0
+    },
+    {
+      "name": "program-127",
+      "markdownSha256": "e97f2ae90a13038e7e7f26888b912ff104e01b516287f2e348fc556ac71192bc",
+      "mathExpressions": 3,
+      "display": 0,
+      "codeLines": [
+        5
+      ],
+      "mathErrors": 0
+    },
+    {
+      "name": "structure-184",
+      "markdownSha256": "c6e82401b74a5d055f9d2531ecf3e62be2adf3aa18f8271a164b999708b71676",
+      "mathExpressions": 1,
+      "display": 0,
+      "codeLines": [],
+      "mathErrors": 0
+    }
+  ],
+  "browser": [
+    {
+      "name": "formula-058",
+      "width": 1280,
+      "documentWidth": 1280,
+      "mathExpressions": 33,
+      "mathErrors": 0,
+      "missingImages": [],
+      "scrolls": [
+        {
+          "client": 760,
+          "content": 914,
+          "left": 0,
+          "right": 154,
+          "canReachRight": true
+        },
+        {
+          "client": 760,
+          "content": 760,
+          "left": 0,
+          "right": 0,
+          "canReachRight": true
+        },
+        {
+          "client": 760,
+          "content": 760,
+          "left": 0,
+          "right": 0,
+          "canReachRight": true
+        },
+        {
+          "client": 760,
+          "content": 760,
+          "left": 0,
+          "right": 0,
+          "canReachRight": true
+        },
+        {
+          "client": 760,
+          "content": 760,
+          "left": 0,
+          "right": 0,
+          "canReachRight": true
+        },
+        {
+          "client": 760,
+          "content": 760,
+          "left": 0,
+          "right": 0,
+          "canReachRight": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "formula-058",
+      "width": 390,
+      "documentWidth": 390,
+      "mathExpressions": 33,
+      "mathErrors": 0,
+      "missingImages": [],
+      "scrolls": [
+        {
+          "client": 358,
+          "content": 914,
+          "left": 0,
+          "right": 556,
+          "canReachRight": true
+        },
+        {
+          "client": 358,
+          "content": 633,
+          "left": 0,
+          "right": 275,
+          "canReachRight": true
+        },
+        {
+          "client": 358,
+          "content": 633,
+          "left": 0,
+          "right": 275,
+          "canReachRight": true
+        },
+        {
+          "client": 358,
+          "content": 426,
+          "left": 0,
+          "right": 68,
+          "canReachRight": true
+        },
+        {
+          "client": 358,
+          "content": 464,
+          "left": 0,
+          "right": 106,
+          "canReachRight": true
+        },
+        {
+          "client": 358,
+          "content": 553,
+          "left": 0,
+          "right": 195,
+          "canReachRight": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "program-127",
+      "width": 1280,
+      "documentWidth": 1280,
+      "mathExpressions": 3,
+      "mathErrors": 0,
+      "missingImages": [],
+      "scrolls": [
+        {
+          "client": 760,
+          "content": 760,
+          "left": 0,
+          "right": 0,
+          "canReachRight": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "program-127",
+      "width": 390,
+      "documentWidth": 390,
+      "mathExpressions": 3,
+      "mathErrors": 0,
+      "missingImages": [],
+      "scrolls": [
+        {
+          "client": 358,
+          "content": 489,
+          "left": 0,
+          "right": 131,
+          "canReachRight": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "structure-184",
+      "width": 1280,
+      "documentWidth": 1280,
+      "mathExpressions": 1,
+      "mathErrors": 0,
+      "missingImages": [],
+      "scrolls": [],
+      "errors": []
+    },
+    {
+      "name": "structure-184",
+      "width": 390,
+      "documentWidth": 390,
+      "mathExpressions": 1,
+      "mathErrors": 0,
+      "missingImages": [],
+      "scrolls": [],
+      "errors": []
+    }
+  ],
+  "review_method": "Model inspected original Chinese and corresponding English page images; this is not human sign-off.",
+  "overall_scope": "Three representative sample fragments only, not three complete source pages or whole sections.",
+  "productionSSR": {
+    "status": "passed",
+    "literalMath": true,
+    "productionConfig": "docs/.vitepress/config.mts",
+    "productionRenderer": "scripts/book-markdown.mjs",
+    "bookSamples": 3,
+    "syntheticTechnicalProbe": 1,
+    "qualification": "The HTML table probe is synthetic renderer coverage, never a source-book table or content-review sign-off.",
+    "syntax": [
+      {
+        "name": "formula-058",
+        "builtHtmlSha256": "5b2d7c1e65f2dc7eabb106b26e43c0d4746b408cf49018704f257faadce97f71",
+        "math": 33,
+        "mathml": 33,
+        "vPre": 33,
+        "tex": [
+          "0",
+          "\\begin{aligned}\nf(w,x,y,z)={}&(w\\lor x\\lor\\bar y\\lor z)\\land(w\\lor x\\lor\\bar y\\lor\\bar z)\\land(w\\lor\\bar x\\lor y\\lor\\bar z)\\land(w\\lor\\bar x\\lor\\bar y\\lor z)\\\\\n&\\land(\\bar w\\lor x\\lor y\\lor z)\\land(\\bar w\\lor x\\lor y\\lor\\bar z)\\land(\\bar w\\lor x\\lor\\bar y\\lor z)\\land(\\bar w\\lor x\\lor\\bar y\\lor\\bar z).\n\\end{aligned}\\tag{24}\n",
+          "\\bigvee_{j=1}^{m}\\bigwedge_{k=1}^{s_j}u_{jk}=(u_{11}\\land\\cdots\\land u_{1s_1})\\lor\\cdots\\lor(u_{m1}\\land\\cdots\\land u_{ms_m}),\\tag{25}\n",
+          "u_{jk}",
+          "x_i",
+          "\\bigwedge_{j=1}^{m}\\bigvee_{k=1}^{s_j}u_{jk}=(u_{11}\\lor\\cdots\\lor u_{1s_1})\\land\\cdots\\land(u_{m1}\\lor\\cdots\\lor u_{ms_m}).\\tag{26}\n",
+          "f(x,y,z)=(x\\land\\bar y\\land z)\\lor(y\\land z)\\lor(\\bar x\\land y\\land\\bar z)\n",
+          "x\\land\\bar y\\land z",
+          "f",
+          "(x,y,z)=(1,0,1)",
+          "f",
+          "x\\land z",
+          "f",
+          "x=z=1",
+          "y",
+          "y\\land z",
+          "\\bar x\\land y",
+          "f(x,y,z)=(x\\land z)\\lor(y\\land z)\\lor(\\bar x\\land y)\\tag{27}\n",
+          "x",
+          "y",
+          "z",
+          "\\bar x",
+          "f",
+          "f(x_1,\\ldots,x_n)",
+          "f(x)",
+          "x",
+          "n",
+          "x_1\\ldots x_n",
+          "wxyz",
+          "\\{0000,0001,0100,0111,1100,1101,1110,1111\\},\\tag{28}\n",
+          "2\\times2\\times2\\times2",
+          "8",
+          "8"
+        ],
+        "footnotes": 0,
+        "tableCodes": []
+      },
+      {
+        "name": "program-127",
+        "builtHtmlSha256": "64bbdbc0778745c67f007e5ec2faed9a1761d608c27711a0bbab5bbd0a31f9e4",
+        "math": 3,
+        "mathml": 3,
+        "vPre": 3,
+        "tex": [
+          "1",
+          "P_0",
+          "1"
+        ],
+        "footnotes": 0,
+        "tableCodes": []
+      },
+      {
+        "name": "structure-184",
+        "builtHtmlSha256": "2d70aee5964ee3fd533bf7fc35b289c44854d903e7efe4f2f6397166c143f897",
+        "math": 1,
+        "mathml": 1,
+        "vPre": 1,
+        "tex": [
+          "\\langle x_1x_2x_3\\rangle"
+        ],
+        "footnotes": 0,
+        "tableCodes": []
+      },
+      {
+        "name": "html-table-probe",
+        "builtHtmlSha256": "3d477f58f93fe55031d5d896090d453fc1a73789e947deb45581d2e826082012",
+        "math": 2,
+        "mathml": 2,
+        "vPre": 2,
+        "tex": [
+          "\\bar x\\lor y",
+          "\\bigvee_{j=1}^{m}\\bigwedge_{k=1}^{s_j}u_{jk}"
+        ],
+        "footnotes": 1,
+        "tableCodes": [
+          "AND  $0,k,#3f",
+          "BN   $1,PRIME"
+        ]
+      }
+    ],
+    "browser": [
+      {
+        "name": "formula-058",
+        "width": 1280,
+        "documentWidth": 1280,
+        "math": 33,
+        "mathml": 33,
+        "vPre": 33,
+        "mathErrors": 0,
+        "missingImages": [],
+        "footnotes": 0,
+        "tableCodes": [],
+        "ends": [
+          {
+            "client": 752,
+            "content": 914,
+            "left": 0,
+            "right": 162,
+            "reachable": true
+          },
+          {
+            "client": 752,
+            "content": 752,
+            "left": 0,
+            "right": 0,
+            "reachable": true
+          },
+          {
+            "client": 752,
+            "content": 752,
+            "left": 0,
+            "right": 0,
+            "reachable": true
+          },
+          {
+            "client": 752,
+            "content": 752,
+            "left": 0,
+            "right": 0,
+            "reachable": true
+          },
+          {
+            "client": 752,
+            "content": 752,
+            "left": 0,
+            "right": 0,
+            "reachable": true
+          },
+          {
+            "client": 752,
+            "content": 752,
+            "left": 0,
+            "right": 0,
+            "reachable": true
+          }
+        ],
+        "passed": true
+      },
+      {
+        "name": "program-127",
+        "width": 1280,
+        "documentWidth": 1280,
+        "math": 3,
+        "mathml": 3,
+        "vPre": 3,
+        "mathErrors": 0,
+        "missingImages": [],
+        "footnotes": 0,
+        "tableCodes": [],
+        "ends": [
+          {
+            "client": 752,
+            "content": 752,
+            "left": 0,
+            "right": 0,
+            "reachable": true
+          }
+        ],
+        "passed": true
+      },
+      {
+        "name": "structure-184",
+        "width": 1280,
+        "documentWidth": 1280,
+        "math": 1,
+        "mathml": 1,
+        "vPre": 1,
+        "mathErrors": 0,
+        "missingImages": [],
+        "footnotes": 0,
+        "tableCodes": [],
+        "ends": [],
+        "passed": true
+      },
+      {
+        "name": "html-table-probe",
+        "width": 1280,
+        "documentWidth": 1280,
+        "math": 2,
+        "mathml": 2,
+        "vPre": 2,
+        "mathErrors": 0,
+        "missingImages": [],
+        "footnotes": 1,
+        "tableCodes": [
+          "AND  $0,k,#3f",
+          "BN   $1,PRIME"
+        ],
+        "ends": [],
+        "passed": true
+      },
+      {
+        "name": "formula-058",
+        "width": 390,
+        "documentWidth": 390,
+        "math": 33,
+        "mathml": 33,
+        "vPre": 33,
+        "mathErrors": 0,
+        "missingImages": [],
+        "footnotes": 0,
+        "tableCodes": [],
+        "ends": [
+          {
+            "client": 342,
+            "content": 914,
+            "left": 0,
+            "right": 572,
+            "reachable": true
+          },
+          {
+            "client": 342,
+            "content": 633,
+            "left": 0,
+            "right": 291,
+            "reachable": true
+          },
+          {
+            "client": 342,
+            "content": 633,
+            "left": 0,
+            "right": 291,
+            "reachable": true
+          },
+          {
+            "client": 342,
+            "content": 426,
+            "left": 0,
+            "right": 84,
+            "reachable": true
+          },
+          {
+            "client": 342,
+            "content": 464,
+            "left": 0,
+            "right": 122,
+            "reachable": true
+          },
+          {
+            "client": 342,
+            "content": 553,
+            "left": 0,
+            "right": 211,
+            "reachable": true
+          }
+        ],
+        "passed": true
+      },
+      {
+        "name": "program-127",
+        "width": 390,
+        "documentWidth": 390,
+        "math": 3,
+        "mathml": 3,
+        "vPre": 3,
+        "mathErrors": 0,
+        "missingImages": [],
+        "footnotes": 0,
+        "tableCodes": [],
+        "ends": [
+          {
+            "client": 390,
+            "content": 551,
+            "left": 0,
+            "right": 161,
+            "reachable": true
+          }
+        ],
+        "passed": true
+      },
+      {
+        "name": "structure-184",
+        "width": 390,
+        "documentWidth": 390,
+        "math": 1,
+        "mathml": 1,
+        "vPre": 1,
+        "mathErrors": 0,
+        "missingImages": [],
+        "footnotes": 0,
+        "tableCodes": [],
+        "ends": [],
+        "passed": true
+      },
+      {
+        "name": "html-table-probe",
+        "width": 390,
+        "documentWidth": 390,
+        "math": 2,
+        "mathml": 2,
+        "vPre": 2,
+        "mathErrors": 0,
+        "missingImages": [],
+        "footnotes": 1,
+        "tableCodes": [
+          "AND  $0,k,#3f",
+          "BN   $1,PRIME"
+        ],
+        "ends": [],
+        "passed": true
+      }
+    ],
+    "errors": [],
+    "privateEvidenceSha256": "57ff6d73d260dda0df52a4b7f92bb3740f8c211cd9c06548c819d270563606df"
+  }
+}

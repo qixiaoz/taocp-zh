@@ -1,0 +1,516 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "two-complete-source-pages-opening7.1and7.1.1withTable1",
+  "cnPhysicalPages": [
+    53,
+    54
+  ],
+  "cnPrintedPages": [
+    38,
+    39
+  ],
+  "masterSha256": null,
+  "mathExpressions": 99,
+  "privateBrowserCases": 4,
+  "tableDetailViews": 2,
+  "substantiveCorrections": 6,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.1",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 53,
+      "cnPrintedPage": 38,
+      "enPdfPages": [
+        64,
+        65
+      ],
+      "enPrintedPages": [
+        47,
+        48
+      ],
+      "pageMarkdownSha256": "f42993158a7150cb7c3f632923e2bcadf4261cfdf4ca9dda1afbe395f8e6f3aa",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-053.png",
+      "sourcePageImageSha256": "211333b470d1e03ebbae11039f99bd41bb0b121b5450290d771a61de6f249aac",
+      "enPageImages": [
+        {
+          "physicalPage": 64,
+          "file": "private-snapshot:volume4a/body-review/en-064.png",
+          "sha256": "edb5b312b14647ae54cebbfb73966dcea99aac5c21fa12c17b31453dc502b998"
+        },
+        {
+          "physicalPage": 65,
+          "file": "private-snapshot:volume4a/body-review/en-065.png",
+          "sha256": "02fff9c7bf29d958e1a46159e3ec064eb86261928eb02a8264bceb836b60b5a7"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-053",
+        "p-38",
+        "sec-7-1",
+        "sec-7-1-1"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number,retained as a hidden anchor."
+      ],
+      "exercises": [],
+      "coveredRegions": [
+        "All three opening epigraphs/attributions/dates,selectedCNtitle forms retained except two explicit mistranslated phrases.",
+        "Whole7.1fourparagraphs and originalnumbering0/1; both common binary arithmetic/bitwise claims and author humility/stage metaphor.",
+        "Whole7.1.1truth-table paragraph with allfourfarguments/four-bit sequence and sixteenfunction count.",
+        "Boole history, literal∨ versusordinary+/times,mutual-exclusioncondition, x+(1−x)y and noresult2.",
+        "WholeEnglishand/or/disjointsets example;Jevonsrule and first distributiveidentity. Sentencecomplete but logicalJevonsparagraphcontinues054."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 38,
+          "location": "Swiftopeningepigraph",
+          "enPosition": "EN64/printed47menofwit",
+          "original": "你那些机警的男仆们",
+          "final": "你那些机智之士",
+          "basis": "Menofwit describes intelligent/witty men, not male servants. Remaining poetic bit/condescend wording and selectedCNworktitle are preserved."
+        },
+        {
+          "cnPrintedPage": 38,
+          "location": "Shannonopeningepigraph",
+          "enPosition": "EN64/printed47resultingunitsmaybecalledbinarydigits",
+          "original": "可以把得到的整数称为二进制数",
+          "final": "可以把所得单位称为二进制数字",
+          "basis": "Units are measurement units, not integer numbers; binarydigits is the wording of the provided English quotation."
+        },
+        {
+          "cnPrintedPage": 38,
+          "location": "7.1lastparagraphstage metaphor",
+          "enPosition": "EN64/printed47Butasbitplayersontheworldsstage,wedbetter...",
+          "original": "但是，当比特（bit）现身世界舞台时",
+          "final": "但是，作为世界舞台上的小角色",
+          "basis": "Bitplayers is an idiom for minor actors, applied here to us; it is not a sentence about bits appearing on stage. Wordplay explanation stays in the independent record, not added to body."
+        },
+        {
+          "cnPrintedPage": 38,
+          "location": "7.1lastsentencesinglebit versusgroup",
+          "enPosition": "EN64/printed47combineindividualbitsandsequencesofbits",
+          "original": "组合单独的二进制位组和位组序列",
+          "final": "组合单个二进制位和二进制位序列",
+          "basis": "The first object is one bit, not a group of bits; the second is a sequence of bits, not a sequence of groups."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "Booleand/orparagraph",
+          "selectedCN": "对不相交的集合使用普通英语",
+          "providedEN": "normalEnglishwithoutdisjointsetsqualification",
+          "decision": "Keep Chinese already matching author2013 clarification.",
+          "officialSource": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentVersionDate": "2023-02-09",
+            "documentPage": 6,
+            "englishPrintedPage": 48,
+            "reportedDate": "2013-07-15",
+            "sourceImage": "private-snapshot:volume4a/official-errata/all4a-pre-page6.png",
+            "sourceImageSha256": "6e3fcf8734b991ac32235e8889779784278f60ad55df10a035c94bf21d88c9de"
+          }
+        },
+        {
+          "location": "SwiftworktitleChineseform",
+          "selectedCN": "卡德摩斯与凡妮莎",
+          "providedEN": "CadenusandVanessa",
+          "decision": "Preserve selected Chinese title spelling; differing transliteration/name form remains unresolved, not silently replaced with a newly invented title."
+        }
+      ],
+      "ocrRepairsOfNote": [
+        "Allopeningquoteparagraphs/attributions separated; initial OCR merged them.",
+        "Sect7.1and7.1.1differentheadinglevels/uniquehiddenanchors;7.1anchorprecedesitsopeningquotes.",
+        "Allfargumentpositions and four-value concatenation read from both originals.",
+        "Bibliographic punctuation retains source positioning; firstunboundrenderwithtwoaddedcitationperiodsretainedhistorythenfixedbeforebrowseracceptance."
+      ],
+      "qualification": "Complete model direct CN053/EN064–065 page-image comparison. SelectedCNsource order retained, including quotation placement; no unsupported title-name substitution, no external quotation or general Boolean theorem proof added. Currentproductionrenderingandactualdesktop/narrowviewsarepassedandbound;finalassembledacceptancestillseparate.",
+      "pending": [
+        "Finalwhole-volumequestion-answerlinkchecks",
+        "Finalwhole-volumeinclusion",
+        "Finaloffline/production/browser/onlineacceptance"
+      ],
+      "figureAssets": [],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-053-quotations-detail.png",
+          "sha256": "3098930f5a8d738dc247e91e817ae623808192baac4b359398528d522ebc14a3"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-064-quotations-detail.png",
+          "sha256": "faa08f59372cb3c9606167d471b587080637d6a7b99b137f7c15fbd70885c38b"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-053-bit-players-detail.png",
+          "sha256": "fb105b5d44c02bc11c675b3b025a68c7fb6200644e64de58389fa0afeca214b0"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-064-bit-players-detail.png",
+          "sha256": "efc99d5a889cd92a5caaf62589519460ed8328c8d08c3bac77c4c6525b876f65"
+        }
+      ],
+      "containsSectionPrelude": "7.1",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/053-selected-cn-before-four-meaning-corrections-3ef1fa476012f50c855ea5d35b08adc8f355f227880d880745d4e4826f2d4b96/053.md",
+        "sha256": "3ef1fa476012f50c855ea5d35b08adc8f355f227880d880745d4e4826f2d4b96",
+        "onlyFourTargetedReplacements": true,
+        "qualification": "SelectedCNinitialsnapshot,notpriorbrowseracceptance."
+      },
+      "syntaxCheck": {
+        "physicalPage": 53,
+        "markdownSha256": "f42993158a7150cb7c3f632923e2bcadf4261cfdf4ca9dda1afbe395f8e6f3aa",
+        "htmlSha256": "72bdd593004c08cb01fbb7fa0878828640d410c93e9a716def99faa76cd34006",
+        "mathExpressions": 36,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-53.json",
+        "sha256": "d7e03d38fd0095b76ef12c77b14bdf1a70f26029cba2c9f4b75f9dbd495c1331",
+        "cases": [
+          {
+            "physicalPage": 53,
+            "width": 1280,
+            "markdownSha256": "f42993158a7150cb7c3f632923e2bcadf4261cfdf4ca9dda1afbe395f8e6f3aa",
+            "documentWidth": 1280,
+            "math": 36,
+            "mathml": 36,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 36,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 53,
+            "width": 390,
+            "markdownSha256": "f42993158a7150cb7c3f632923e2bcadf4261cfdf4ca9dda1afbe395f8e6f3aa",
+            "documentWidth": 390,
+            "math": 36,
+            "mathml": 36,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 36,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actualcurrent1280/390privateproduction-directscreenshotsviewedincludingrightends;054alsohasseparatecenteredoperatorviewsand35formulaHTMLtableDOMchecks. Old62-formulametricspasswasvisuallyfailedandretainedhistory. Finalassembled/offline/onlineacceptanceseparate."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/53-1280.png",
+          "sha256": "9e492d5c65793f7200bd9e3eb0da922e734cfe8084e5adefa39cfb2e938108ed",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/53-390.png",
+          "sha256": "f56bc896dd4605b01f4684f5c38821d0e982c720cdb1b89470a0662ee7db3268",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/53-390-right.png",
+          "sha256": "f56bc896dd4605b01f4684f5c38821d0e982c720cdb1b89470a0662ee7db3268",
+          "viewed": true
+        }
+      ],
+      "privateOriginalPageReviewSha256": "52c752e64e8e0877498c2130064e2a4b9b32dc5dba730652c05ffd6ee0d317a0",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/053.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.1",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 54,
+      "cnPrintedPage": 39,
+      "enPdfPages": [
+        65,
+        66
+      ],
+      "enPrintedPages": [
+        48,
+        49
+      ],
+      "pageMarkdownSha256": "b84b6b292038082a347ef5aa853b4b3096de1e1bb8c67b61248a0b1ca2a14fd1",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-054.png",
+      "sourcePageImageSha256": "2ecd302c41f0e02abdc7ef1a7f62d1e02b25fa6137f90b166409a2bc7cff469c",
+      "enPageImages": [
+        {
+          "physicalPage": 65,
+          "file": "private-snapshot:volume4a/body-review/en-065.png",
+          "sha256": "02fff9c7bf29d958e1a46159e3ec064eb86261928eb02a8264bceb836b60b5a7"
+        },
+        {
+          "physicalPage": 66,
+          "file": "private-snapshot:volume4a/body-review/en-066.png",
+          "sha256": "b1a587307adc375dae1675417370965cd4ac799146356b2fd4f9849864d739bc"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-054",
+        "p-39",
+        "tab-7-1-1-1"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers and printed page number,retained as a hidden anchor."
+      ],
+      "exercises": [],
+      "coveredRegions": [
+        "CompleteTable1:16rows,64bodycells/4headers,all64truthdigits,allnew/oldnotations,all16operatorglyphs andeveryCNname.",
+        "Glyphdistinctions:mathsfL/Randtheirbars,subset/supsetandtheirbars,bar-wedgeNAND/bar-veeNOR,three2014verticalstroke-negations.",
+        "Literalbaselinecaret in0110 versus truepowerx^y/y^x in1011/1101;singleversusdoublepipe,allnegations/bars/comparisonbounds/dottedminus.",
+        "Jevonsparagraphcontinuationfrom053andbothfull numbereddistributivelaws(1)/(2).",
+        "AllPeirce/Boolianhistoricalparagraph and bibliographypositions.",
+        "WholeGreekimplication/Philo/Galen/Bochenskihistorywithbothfalseinputs,noOCRspuriousbar.",
+        "Completeoperatorexplanation/0000/0001/0010 examples and allsixlastidentityclauses."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 39,
+          "location": "Peirce/Boolian spelling chronology",
+          "enPosition": "EN65/printed48,hisspellingwasinuseformanyyears,appearing...aslateas1963",
+          "original": "直到1963年，“Boolean”一词才出现在...非节略本字典中",
+          "final": "这种如今已不常见的拼写“Boolian”曾沿用多年，迟至1963年仍出现在...非节略本字典中",
+          "basis": "The English refers to continued late use of the old spelling Boolian, not the first1963appearance of Boolean. SelectedCNnames and year1963 retained."
+        },
+        {
+          "cnPrintedPage": 39,
+          "location": "Galen disjunction types",
+          "enPosition": "EN66/printed49,bothinclusiveandexclusivedisjunctionofpropositions",
+          "original": "涉及命题的合取和析取",
+          "final": "涉及命题的可兼析取和互斥析取",
+          "basis": "Both connectives in English are forms of disjunction, inclusive/exclusive; conjunction is a different operation and is not stated here."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "Table1new/oldnotation column rows0010/0100/0110",
+          "selectedCN": "Vertical crossing stroke on superset/subset/equivalence.",
+          "providedEN": "Diagonal crossing slash on these three signs.",
+          "decision": "Keep selectedCN already agreeing with author2014 typography correction. Local mathrlap+vertical rule preserves shape; operator-column overbars are a separate notation and remain overbars.",
+          "officialSource": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentVersionDate": "2023-02-09",
+            "documentPage": 6,
+            "englishPrintedPage": 49,
+            "reportedDate": "2014-10-16",
+            "sourceImage": "private-snapshot:volume4a/official-errata/all4a-pre-page6.png",
+            "sourceImageSha256": "6e3fcf8734b991ac32235e8889779784278f60ad55df10a035c94bf21d88c9de"
+          }
+        },
+        {
+          "location": "Opening epigraphs onEN65",
+          "selectedCN": "No Boole/Carroll pair of epigraphs in correspondingCN053–054.",
+          "providedEN": "Boole1854 and Carroll1871 epigraphs before Boolean history.",
+          "decision": "Retain chosenCNpageorder/content;do not invent an omittedCNtranslation. This observation concerns the corresponding opening pages,not a claim of absence from the entire volume."
+        }
+      ],
+      "ocrRepairsOfNote": [
+        "Machine table had L/R mistaken for bracket floor/projection and multiple lost bars; allrecovered individually.",
+        "Working0110x^2y is literal C-style baselinecaret,notexponent.",
+        "Working0010x÷y uses dottedminus,notdivision.",
+        "Working Philo spuriousbarx removed byactualCN/EN comparison.",
+        "Working final identities repeatedlyreplaced operatorswithbottom/perp; allsixrestored from original.",
+        "Table row0100TeX uses lt rather than a literalHTMLless-than,with exactsame mathematical comparison."
+      ],
+      "qualification": "Complete model direct source-image/bilingual Table1 and wholepage comparison. Actual initial HTML-cell visual failure retained; current corrected input has newly rendered63math/35tablemath with source-order/MathML/v-pre DOM check and fresh views. No source acceptance assigned from machine or syntax alone.",
+      "pending": [
+        "Finalwhole-volumequestion-answerlinkchecks",
+        "Finalwhole-volumeinclusion",
+        "Finaloffline/production/browser/onlineacceptance"
+      ],
+      "figureAssets": [],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-054-table-detail.png",
+          "sha256": "98502d07134c6b5bf1e29d4deb232ba63e5bbfaa53714b5bd37729c71a17f1dc"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-066-table-detail.png",
+          "sha256": "31c1531d219860bd03cbb616fcdc66ed01bed891130facc4c3abc618ec7869a4"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-054-prose-details.png",
+          "sha256": "242d23cf6dcd871b4b7d55c65f782813e8b3e7e0ae28267ec0a121b6f3712917"
+        }
+      ],
+      "startsWithTableBeforeParagraphContinuation": true,
+      "paragraphContinuationFromCnPage": 53,
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/054-selected-cn-before-two-meaning-corrections-101b98c47ab4e00d95359ecff660d45f29b940b5ece6143bb9ea41e3a7b3dde9/054.md",
+        "sha256": "101b98c47ab4e00d95359ecff660d45f29b940b5ece6143bb9ea41e3a7b3dde9",
+        "onlyTwoTargetedReplacements": true,
+        "qualification": "SelectedCNinitialsnapshot,notpriorbrowseracceptance."
+      },
+      "tableEvidence": {
+        "file": "private-snapshot:volume4a/verified-render/table-54.json",
+        "sha256": "cb15fca54b47b82531c31a092cdcf1c03770a5436b3e30c8bb7ac7c6a2ba2411",
+        "rows": 16,
+        "columns": 4,
+        "bodyCells": 64,
+        "tableMathExpressions": 35,
+        "mathmlExpressions": 35,
+        "vPreExpressions": 35,
+        "truthStrings": [
+          "0000",
+          "0001",
+          "0010",
+          "0011",
+          "0100",
+          "0101",
+          "0110",
+          "0111",
+          "1000",
+          "1001",
+          "1010",
+          "1011",
+          "1100",
+          "1101",
+          "1110",
+          "1111"
+        ],
+        "unrenderedDollars": false,
+        "scope": "ActualDOMcellordering,formula/MathML/v-prepresenceandcenteredoperatorview; sourcecontentseparatelycompared. No new general Boolean proof."
+      },
+      "tableDetailScreenshots": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/54-table-1280-operator.png",
+          "sha256": "07ca7a7b01760f6809fe94086d97ed2d5347a5eb88275bc2f316511e9f1f4f08",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/54-table-390-operator.png",
+          "sha256": "399062a1d6e9693b491b072ab4eeccb4cda256df6fe1f932e06b01c1b2118b54",
+          "viewed": true
+        }
+      ],
+      "visualFailureHistory": [
+        {
+          "inputMarkdownSha256": "4ed65d3b59cd899f0d507d1cf28ceb83c4c79bc96407ae0652cdf4f0544539a5",
+          "historyDirectory": "private-snapshot:volume4a/verified-history/054-html-less-than-unrendered-4ed65d3b59cd899f0d507d1cf28ceb83c4c79bc96407ae0652cdf4f0544539a5",
+          "syntaxMathExpressions": 62,
+          "browserMetricsStatus": "passed",
+          "actualVisualAcceptance": false,
+          "defect": "Literal<inHTMLtablecell0100causedonecompleteTeXcelltobeunrenderedandmadecolumn2verywide.",
+          "repair": "Use semantic-equivalent lt in the one cell,renderagainandtakefreshscreenshots/DOMtablecheck. Current63expressions/35tableformulas are newly bound,notoldhashreplacement."
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 54,
+        "markdownSha256": "b84b6b292038082a347ef5aa853b4b3096de1e1bb8c67b61248a0b1ca2a14fd1",
+        "htmlSha256": "514857a91df5654359231cce87736a298f031f9220231b60b9c3402b5d8eaee6",
+        "mathExpressions": 63,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-54.json",
+        "sha256": "6235e126352981393e271ad886a3dc523727c74e4a6c04c4fdda405ae616ebd9",
+        "cases": [
+          {
+            "physicalPage": 54,
+            "width": 1280,
+            "markdownSha256": "b84b6b292038082a347ef5aa853b4b3096de1e1bb8c67b61248a0b1ca2a14fd1",
+            "documentWidth": 1280,
+            "math": 63,
+            "mathml": 63,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 64,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 54,
+            "width": 390,
+            "markdownSha256": "b84b6b292038082a347ef5aa853b4b3096de1e1bb8c67b61248a0b1ca2a14fd1",
+            "documentWidth": 390,
+            "math": 63,
+            "mathml": 63,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 64,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actualcurrent1280/390privateproduction-directscreenshotsviewedincludingrightends;054alsohasseparatecenteredoperatorviewsand35formulaHTMLtableDOMchecks. Old62-formulametricspasswasvisuallyfailedandretainedhistory. Finalassembled/offline/onlineacceptanceseparate."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/54-1280.png",
+          "sha256": "0d19760f8b4305ba5593cdedfbd79700e1d9124ddbf396683b2beac2b55a1dbd",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/54-390.png",
+          "sha256": "6a8beaea700addf6bbdd0e4257b51023d1eb9167206d136077a561f68c9c2136",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/54-390-right.png",
+          "sha256": "fb9a0cca608ec28a6cb8adecfa0716c1052e63647b97d235b45446da41cba3ec",
+          "viewed": true
+        }
+      ],
+      "privateOriginalPageReviewSha256": "ad4b11452feb36f2865a41a143ec40503ad831589b69f75f3898193931c1721f",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/054.json"
+    }
+  ],
+  "qualification": "Only these two complete physical pages. Six wording corrections cite actual provided originals; unresolved Swift title form remains selectedCN. All16Boolean rows/64cells/35tablemath rendered, source visual comparison separate. Initial literal-less-than unrenderedcell/oldmetricspass preserved as visualfailure; current63-formula054 has freshbinding. No whole7.1.1 or wholevolume completion claimed."
+}

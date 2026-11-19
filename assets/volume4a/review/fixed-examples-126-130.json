@@ -1,0 +1,111 @@
+{
+  "scope": "Fixed original figure and data. Bounded simulations of formulas and the two printed MMIX instruction sequences, not native MMIX hardware or general theorem proof. EN154 Type3 recovery uses glyph positions with an image-verified two-symbol map; no text extraction acceptance for other fonts.",
+  "checkerSha256": "36d922ae1c08ad9e035caf6d2b39576c9d321c535f001b71b60aad407385638c",
+  "pageMarkdownHashes": {
+    "126": "6a5a1df6b975d7738c745f8acf9a81a90a9e4befc9cc6306d1f7bd348b43287a",
+    "127": "b174731a15d5e5169cb2ed226bf6f2f93da612afd5eb43dc8354e2d8e7f833f6",
+    "128": "7b623a231816f33d9f0d12cd420b938d5369200b871fe1842a6dbe1dc435cc16",
+    "129": "1faad6e2bbd677a8ae3607c64d2ebb614ee6627d25059e7e10f009d4e08862de",
+    "130": "ff08909a3207d9156ce81f4f6cf1688640e462bc358b312fe421af7ca9c457e8"
+  },
+  "figure": {
+    "scope": "Original English figure’s 64,000 square cells compared to the given formula in a finite periodic search. The Chinese chart is the same selected figure, with original CN scan retained in private evidence; no unprinted absolute coordinate origin inferred.",
+    "sourceAsset": {
+      "physicalPage": 153,
+      "xref": 653,
+      "encoding": "1-bit embedded image object",
+      "encodedSha256": "9a6bd2b74aa0ed76fddd82c77629e2d7d51e5eb7b01f2eb348c7a016a74f9ddb"
+    },
+    "dimensions": [
+      320,
+      200
+    ],
+    "blackCells": 26494,
+    "exactMatchingWindowStarts": [
+      [
+        1,
+        1
+      ]
+    ],
+    "finiteSearch": {
+      "xPeriod": 32768,
+      "yPeriod": 4096,
+      "anchorRow": 102
+    },
+    "vectorRedraw": {
+      "file": "assets/volume4a/figures/figure-11-bitwise-quilt.svg",
+      "sha256": "d31563e18dbb4a9050264652307f02accb57a6b4c712ee5fa38f1f4221b8237f",
+      "blackRuns": 7764
+    }
+  },
+  "imageComparison": {
+    "vectorAndEnglishExactCells": 64000,
+    "cnVisualSource": "private-snapshot:volume4a/body-review/cn-126-fig11-detail.png"
+  },
+  "primeTables": {
+    "literalWords": {
+      "P0": "0111011011010011001011010010011001011001010010001011011010000001",
+      "P1": "0100110000110010010100100110000110110000010000010110100110000100",
+      "P2": "1001001100101100001000000101101000000100100001101001000100100101",
+      "P3": "0010001010001000011000011001010010001011010000010001010001010010",
+      "P4": "0000110000000010010000100100110010000100100110010010110000010000",
+      "P5": "1101001001100000101001000100001000100001000100100101000100101000",
+      "P6": "1010000001000010000011000011011000010000001011010000001011010000",
+      "P7": "0000010100010000100010100100100000010100100100010010000010100110",
+      "Q0": "1000000101101101000100101001101001100100101101001100101101101110",
+      "Q1": "0010000110010110100000100000110110000110010010100100110000110010",
+      "Q2": "1010010010001001011000010010000001011010000001000011010011001001",
+      "Q3": "0100101000101000100000101101000100101001100001100001000101000100",
+      "Q4": "0000100000110100100110010010000100110010010000100100000000110000",
+      "Q5": "0001010010001010010010001000010001000010001001010000011001001011",
+      "Q6": "0000101101000000101101000000100001101100001100000100001000000101",
+      "Q7": "0110010100000100100010010010100000010010010100010000100010100000"
+    },
+    "sourceFont": 4316,
+    "glyphMap": {
+      "!": "0",
+      "U+0003": "1"
+    },
+    "inspectedBits": 1024,
+    "oddInputs": 512,
+    "oddPrimes": 171,
+    "simulatedInstructionSequences": [
+      26,
+      28
+    ]
+  },
+  "byteTables": {
+    "bigAndLittleEach": [
+      4,
+      8,
+      16,
+      32,
+      32
+    ],
+    "groups": [
+      "octa",
+      "tetra",
+      "wyde",
+      "byte",
+      "bit range"
+    ]
+  },
+  "otherExamples": {
+    "dateFieldCombinations": 1488,
+    "dateDomain": [
+      "1999–2002",
+      "1–12",
+      "1–31"
+    ],
+    "sourceEndianValue": "0123456789abcdef",
+    "byteOneBig": 35,
+    "byteOneLittle": 205,
+    "signedIntegerDomain": [
+      -1024,
+      1023
+    ],
+    "rightmostOperationsNonzeroValues": 2047
+  },
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+}

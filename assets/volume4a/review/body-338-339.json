@@ -1,0 +1,825 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-assigned-physical-page-source-review-and-private-two-width-proof",
+  "cnPhysicalPages": [
+    338,
+    339
+  ],
+  "cnPrintedPages": [
+    323,
+    324
+  ],
+  "masterSha256": null,
+  "mathExpressions": 92,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 2,
+  "logicalAssemblies": [],
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.3–7.2.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 338,
+      "cnPrintedPage": 323,
+      "enPdfPages": [
+        406,
+        407
+      ],
+      "enPrintedPages": [
+        389,
+        390
+      ],
+      "pageMarkdownSha256": "a0d76821684d285c5efb79338b1a7a2399366ce0bfbe2bc62aed6473c1244b03",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": true,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/338.jpg",
+      "sourcePageImageSha256": "9093523500ce12019ea2b6618119e95cfd97f57fbf39f8c3be3f1bed4d126fe9",
+      "enPageImages": [
+        {
+          "physicalPage": 406,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-406.png",
+          "sha256": "75f15c9cfd1735996bf7204e012a59cea51c055b5066b0cb2f5b4253b9cbe4e0"
+        },
+        {
+          "physicalPage": 407,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-407.png",
+          "sha256": "6c39ca118e39bdc3843a84db004fb86e20ac55d5960de008cae3909cfca8bc66"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-338",
+        "p-323",
+        "ex-7-2-1-3-107",
+        "ex-7-2-1-3-108",
+        "ex-7-2-1-3-109",
+        "ex-7-2-1-3-110",
+        "ex-7-2-1-3-111",
+        "sec-7-2-1-4",
+        "eq-7-2-1-4-1"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-026",
+          "section": "7.2.1.3",
+          "cnPdfPage": 338,
+          "enPdfPages": [
+            406
+          ],
+          "location": "习题110，手牌、起始牌与得分范围",
+          "original": "其中一张牌 $c_k$ 称为起始牌。对于 $C$ 的每一个子集 $S$ 以及 $k$ 的每一种选择",
+          "final": "其中玩家持有 $\\{c_1,c_2,c_3,c_4\\}$，而第5张牌 $c_5$ 称为起始牌",
+          "basis": "作者2022-05-24英印389修订明确固定第五张为起始牌，对每个子集求得分。相同地修改同花、头牌与末尾计数措辞，保留原先全部得分项目和17分例。",
+          "isAuthorOfficialErratum": true,
+          "authorChangeDate": "2022-05-24",
+          "authorChangeClassification": "amendpage",
+          "authorChangeEvidence": {
+            "classification": "amendpage",
+            "date": "2022-05-24",
+            "authorPrintedEnPage": 389,
+            "authorUrl": "https://cs.stanford.edu/~knuth/err4a.textxt",
+            "authorChangesDocumentPage": 5,
+            "authorImage": "private-snapshot:volume4a/tail-body-review/sources/author-errata-005.png",
+            "authorImageSha256": "74ce654dde1a142dd6089b4d9a48c4d167e8ce066f65c16001656df3c3901c59",
+            "authorTextSha256": "31d424785d8dbb87e2b63dd5f3421c26e4911e9fd6b8937395f6d9054782e3bc",
+            "updatedClauses": [
+              "Setup: define the four cards held and reserve fifth card c_5 as starter; sum over S with starter fixed.",
+              "Flush: replace excluded starter test by exact hand subset; indicator compares c_5.",
+              "Nobs: replace both c_k occurrences by c_5.",
+              "Final question: combinations; the fifth card is already distinguished."
+            ],
+            "countOfHandsWithDistinguishedStarterByEitherFormulation": 12994800
+          },
+          "pageMarkdownSha256": "a0d76821684d285c5efb79338b1a7a2399366ce0bfbe2bc62aed6473c1244b03",
+          "cnPrintedPage": 323
+        },
+        {
+          "id": "volume4a-tail-027",
+          "section": "7.2.1.3",
+          "cnPdfPage": 338,
+          "enPdfPages": [
+            406
+          ],
+          "location": "习题111，取补作用于每个成员",
+          "original": "其中 $B$ 是 $A$ 的补集",
+          "final": "其中 $B$ 由 $A$ 的各成员在原 $n$ 元素集合中取补所得",
+          "basis": "EN406明确B is the set of complements of A。影子作用于各原r组合的(n−r)补集构成的集合。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "a0d76821684d285c5efb79338b1a7a2399366ce0bfbe2bc62aed6473c1244b03",
+          "cnPrintedPage": 323
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-3-ex107-double-six-cycle.svg",
+          "sha256": "f66205a8a91f2a4096b28e31c2a90ca1b4340dcab924de8cc4129d5779dd15f0"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-4-urns-labelled-nine.svg",
+          "sha256": "8c93fa0dfc8c4f367418d7705e6ae6d67620d0e28368f0be0a8184076cea1152"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-4-urns-labelled-six.svg",
+          "sha256": "2768574f145212a214aec8a58597dbd0c891858c50c4adf4a4bb43f1a167f2cd"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 338,
+        "markdownSha256": "a0d76821684d285c5efb79338b1a7a2399366ce0bfbe2bc62aed6473c1244b03",
+        "htmlSha256": "e7d740b1f1db51f76ee44d433ec1e71f493a56e96053e15e4be0265f07caf099",
+        "mathExpressions": 48,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 3,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/result.json",
+        "sha256": "33a33630c64a39fb967622810f15a768f8bcf62edf41b38f03e5b6b9d7243e14",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 48,
+            "mathML": 48,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 1,
+            "ports": [
+              {
+                "client": 728,
+                "content": 750,
+                "left": 0,
+                "right": 22,
+                "max": 22,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 338,
+            "width": 1280,
+            "pageMarkdownSha256": "a0d76821684d285c5efb79338b1a7a2399366ce0bfbe2bc62aed6473c1244b03",
+            "htmlSha256": "e7d740b1f1db51f76ee44d433ec1e71f493a56e96053e15e4be0265f07caf099",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-3-ex107-double-six-cycle.svg",
+                "opened": true,
+                "screenshot": "338-1280-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-4-urns-labelled-nine.svg",
+                "opened": true,
+                "screenshot": "338-1280-original-image1.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-4-urns-labelled-six.svg",
+                "opened": true,
+                "screenshot": "338-1280-original-image2.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ],
+            "footnoteVisitAndReturn": {
+              "noteHit": true,
+              "originalHit": true,
+              "visibleIndex": "[1]"
+            }
+          },
+          {
+            "documentWidth": 390,
+            "math": 48,
+            "mathML": 48,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 1,
+            "ports": [
+              {
+                "client": 310,
+                "content": 398,
+                "left": 0,
+                "right": 88,
+                "max": 88,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 750,
+                "left": 0,
+                "right": 440,
+                "max": 440,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 338,
+            "width": 390,
+            "pageMarkdownSha256": "a0d76821684d285c5efb79338b1a7a2399366ce0bfbe2bc62aed6473c1244b03",
+            "htmlSha256": "e7d740b1f1db51f76ee44d433ec1e71f493a56e96053e15e4be0265f07caf099",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-3-ex107-double-six-cycle.svg",
+                "opened": true,
+                "screenshot": "338-390-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-4-urns-labelled-nine.svg",
+                "opened": true,
+                "screenshot": "338-390-original-image1.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-4-urns-labelled-six.svg",
+                "opened": true,
+                "screenshot": "338-390-original-image2.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ],
+            "footnoteVisitAndReturn": {
+              "noteHit": true,
+              "originalHit": true,
+              "visibleIndex": "[1]"
+            }
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-1280-walk0.png",
+          "sha256": "d7de8b04049f7343be6960f87c204789de11d844865fbe944541a0e6bcafebb9",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-1280-walk1.png",
+          "sha256": "fb4271ebf4aa5345247d7392bbe34492e68e7dfe56b4aa39ab9b75c461aef82e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-1280-walk2.png",
+          "sha256": "0ca238fc1eacd49475645ab4185eaf4f11c3be587bfcc60a942db1e1b3291c60",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-walk0.png",
+          "sha256": "19ab5d9d295569c02ee22736198b9a236a1825e0d2bdd959221a5f5986c685d4",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-walk1.png",
+          "sha256": "734cd57983122ad6d6b1b07393059ed9ed182abc9d49ac603938c1cae9a5e33d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-walk2.png",
+          "sha256": "673e6d46659e86dffb0c5784aff0b27e9cb30328137e784b08a8330624a3f360",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-walk3.png",
+          "sha256": "444258cd322e9910d1970c25ec9632e79ea9628d916447d3fcc12b0a96bb9c82",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-walk4.png",
+          "sha256": "41da929b9170b98418edf1c6df22d9ce4f74c9a505f70fa2b178fa0378451e73",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-display0-right.png",
+          "sha256": "74563fa1097e59b85564cda213dbdd421156468dc7922c22ad7be85df83a5b95",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-1280-inline17-pan0.png",
+          "sha256": "827973d9c9637d1a48b783badbc66699ebe1fcd556ac639d539ae0fc004c034b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-1280-inline17-pan1.png",
+          "sha256": "cccb8bc5b489b9dada4b4229deb7bf1fe7258e0c39c7c9cc15f86b78cf6b6e83",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-inline17-pan0.png",
+          "sha256": "49be8295b3341214d9ee7b1cc295a1a9046af5c918633aa3dd2703486303d7a0",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-inline17-pan1.png",
+          "sha256": "1f3d1e7550d05180271270222816cf905f867b677445dd53ded166c882553b09",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-inline17-pan2.png",
+          "sha256": "a0bbaa883d3619ae9c4c6e1d514f0efbf3c31430e530d16b691bb3ea80cb741a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-inline17-pan3.png",
+          "sha256": "88c7638d216153e62ea768ff48ec0abd357287a99934bf185098e617ef1fbd61",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-1280-original-image0.png",
+          "sha256": "f104c63e8701d0614300b8bd5e3fd5119cbd4eb55fcc178371d83bd07e45a40b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-1280-original-image1.png",
+          "sha256": "7aa29ff20919c497db970fe0a3ae045889418ca3dfcc70f7d82a14d0ec9285dc",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-1280-original-image2.png",
+          "sha256": "2d0b5be0cdef6b832e50b852bbaef2aaa4044c9be66d2c4362c2c60faee94655",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-original-image0-right.png",
+          "sha256": "dff24acd3ef280bdc271cbe26d25ee918c2d32d58d4c1789065e9cfc1c24e63c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-original-image0.png",
+          "sha256": "186c6119e22a8ef297788dfa470a31b671adbaf621c3964342cce37b8cd037a3",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-original-image1-right.png",
+          "sha256": "301c00ccb928dbb14408e5d3a1cca5cb255ad5ab349b37d03047a3eab5c3bc0d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-original-image1.png",
+          "sha256": "01afb80c18e07478ec4cdd654e4822615491045fc2afe2d41f7b6b8f25496d48",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-original-image2-right.png",
+          "sha256": "ec1ad7b3dea088b2342f7442673ea47aff0de22d8593c0a602b9af787cd0ee4a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-original-image2.png",
+          "sha256": "73f54112be597d796999e037c88cb952dcd3e6ec5e0e0e5ddb90ba9841e51d22",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-1280-footnote-note.png",
+          "sha256": "0ca238fc1eacd49475645ab4185eaf4f11c3be587bfcc60a942db1e1b3291c60",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-1280-footnote-return.png",
+          "sha256": "94bda9cc50363694b8f658c1493d19a48ade67fcebe9966e71ba686c1b835642",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-footnote-note.png",
+          "sha256": "41da929b9170b98418edf1c6df22d9ce4f74c9a505f70fa2b178fa0378451e73",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/338-390-footnote-return.png",
+          "sha256": "f1da2398b12e7d1954f70b1c77a837062a7785ba0009cbd7e4e6957544dd41bb",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-338-339-source-fields.json",
+        "sha256": "242dee9328a943eec287189c8be757a498f6da606dd2f87d55dba0318f5bb117"
+      },
+      "logicalAssemblies": [],
+      "coveredRegions": [
+        "Exercises107–111 and their ratings/recommendations, original domino figure, original 109 cycle, corrected 110 fixture and non-English editorial footnote, 111 hint.",
+        "Anchor and heading for §7.2.1.4, explanatory paragraph, 9 labelled and 6 unlabelled urn illustrations"
+      ],
+      "followingPageContinuation": "Ends equation (1) without split prose. Physical339 begins alternative urn cases.",
+      "qualification": "Complete CN338–339 with section boundary inside CN338, corresponding contents of EN406–408, author changes page and actual current browser proof at 1280 and 390. The private proof verified figure original links, Chinese editor footnote return and exact Twelvefold Way cells. Only the source instances were computed. No full enumeration of domino tours or card deals; final site and mother integration remain.",
+      "privateOriginalPageReviewSha256": "9fdb540225786bd2b8704a5ffaf7e5e9ef41ca7e04ea14c255b239f4a1abd1cf",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/338.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 339,
+      "cnPrintedPage": 324,
+      "enPdfPages": [
+        407,
+        408
+      ],
+      "enPrintedPages": [
+        390,
+        391
+      ],
+      "pageMarkdownSha256": "6a578d324bef08144da148a387ca650d846bec2cdf432cc613a47f4cb3f554aa",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/339.jpg",
+      "sourcePageImageSha256": "7532633e042ace907ef1ed63c01383d88f1e84322e13b8b2020b4cefcd246a38",
+      "enPageImages": [
+        {
+          "physicalPage": 407,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-407.png",
+          "sha256": "6c39ca118e39bdc3843a84db004fb86e20ac55d5960de008cae3909cfca8bc66"
+        },
+        {
+          "physicalPage": 408,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-408.png",
+          "sha256": "008ae8362c9742f79088f0ddc03a1bc382abc936fff7f515541f6ffc681399d7"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-339",
+        "p-324",
+        "eq-7-2-1-4-2",
+        "eq-7-2-1-4-3"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-4-urns-equivalent-right.svg",
+          "sha256": "f57de501704b08443199b2242a84cc2a3cf5a6315f9ee970e3b7662b26ec032f"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-4-urns-equivalent-left.svg",
+          "sha256": "78122767e64dc0b25383a118a6f5c398dbfb548182578115908ae815cadda1a1"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-4-urns-set-partitions-five.svg",
+          "sha256": "06254557000cd896f7d82923826982bf0dd8540ad92504d4118cd63d939a628d"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-4-urns-integer-partitions-three.svg",
+          "sha256": "b5ee1c9771b6997f917b4e34096ace0b1863e3d0177209f5d37dda15eaba784d"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 339,
+        "markdownSha256": "6a578d324bef08144da148a387ca650d846bec2cdf432cc613a47f4cb3f554aa",
+        "htmlSha256": "11978bc0976f20738889c3cab67b277adaddd0ede4255a3f6957db2b1412c56e",
+        "mathExpressions": 44,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 4,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/result.json",
+        "sha256": "33a33630c64a39fb967622810f15a768f8bcf62edf41b38f03e5b6b9d7243e14",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 44,
+            "mathML": 44,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 728,
+                "content": 757,
+                "left": 0,
+                "right": 29,
+                "max": 29,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 339,
+            "width": 1280,
+            "pageMarkdownSha256": "6a578d324bef08144da148a387ca650d846bec2cdf432cc613a47f4cb3f554aa",
+            "htmlSha256": "11978bc0976f20738889c3cab67b277adaddd0ede4255a3f6957db2b1412c56e",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-4-urns-equivalent-right.svg",
+                "opened": true,
+                "screenshot": "339-1280-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-4-urns-equivalent-left.svg",
+                "opened": true,
+                "screenshot": "339-1280-original-image1.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-4-urns-set-partitions-five.svg",
+                "opened": true,
+                "screenshot": "339-1280-original-image2.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-4-urns-integer-partitions-three.svg",
+                "opened": true,
+                "screenshot": "339-1280-original-image3.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ],
+            "twelvefoldWayTable": {
+              "rows": [
+                4,
+                4,
+                4,
+                4,
+                4
+              ],
+              "rowHeaders": 4,
+              "nowrap": true,
+              "viewportWidth": 728,
+              "contentWidth": 728
+            }
+          },
+          {
+            "documentWidth": 390,
+            "math": 44,
+            "mathML": 44,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 575,
+                "left": 0,
+                "right": 265,
+                "max": 265,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 757,
+                "left": 0,
+                "right": 447,
+                "max": 447,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 367,
+                "left": 0,
+                "right": 57,
+                "max": 57,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 339,
+            "width": 390,
+            "pageMarkdownSha256": "6a578d324bef08144da148a387ca650d846bec2cdf432cc613a47f4cb3f554aa",
+            "htmlSha256": "11978bc0976f20738889c3cab67b277adaddd0ede4255a3f6957db2b1412c56e",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-4-urns-equivalent-right.svg",
+                "opened": true,
+                "screenshot": "339-390-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-4-urns-equivalent-left.svg",
+                "opened": true,
+                "screenshot": "339-390-original-image1.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-4-urns-set-partitions-five.svg",
+                "opened": true,
+                "screenshot": "339-390-original-image2.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-4-urns-integer-partitions-three.svg",
+                "opened": true,
+                "screenshot": "339-390-original-image3.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ],
+            "twelvefoldWayTable": {
+              "rows": [
+                4,
+                4,
+                4,
+                4,
+                4
+              ],
+              "rowHeaders": 4,
+              "nowrap": true,
+              "viewportWidth": 310,
+              "contentWidth": 575
+            }
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-1280-walk0.png",
+          "sha256": "986789d70ebafc3cd1ecf0762f19aa988c9005a8e778753434b88cbae7b7268c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-1280-walk1.png",
+          "sha256": "fefde486f9000f71db6c42c8b74e486ac8eb276dd47604957e8b6671442432d1",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-1280-walk2.png",
+          "sha256": "5b67febf4eeccd45fa49d7de6bebfbd686584fe8c1fe3b8040a219de76754b96",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-390-walk0.png",
+          "sha256": "211364e07f5d6c7d9dde0c6a5e7418f761cf0b78e19dbdefb3c4a9ba08ad53a9",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-390-walk1.png",
+          "sha256": "315510e10f879f2ae63dea9efa144282a439252fb55081ae4c8b63659e981e7b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-390-walk2.png",
+          "sha256": "0aad344d70bc41acb654adedd9640d5591e0181feb725e306f194efc3c9842e0",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-390-walk3.png",
+          "sha256": "4a73ae6a848d82f16d3af06f7b8a4f7b74cd734f6b42632d59257c8e54855340",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-1280-display0-right.png",
+          "sha256": "01472c4c275a5dfe12c86eca86feffe2986b62d73a6a53ec4816cfe8111ad79e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-390-display0-right.png",
+          "sha256": "7e10bd574ee631d570ace817417acdd75fd2ebef94c40491301bc94e9f8e6c01",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-390-display1-right.png",
+          "sha256": "b6dec116d8d8db6ac621da953f42d597b9fd5df21e3fd3fed7fbf6d62c79260c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-1280-table0-pan0.png",
+          "sha256": "25b4af25cf9014991dea3f930a2e36d6b9ffd56ac5be93ce3faf6867703f179e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-1280-table0-pan1.png",
+          "sha256": "25b4af25cf9014991dea3f930a2e36d6b9ffd56ac5be93ce3faf6867703f179e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-390-table0-pan0.png",
+          "sha256": "8d8a325a5e50c0a56252ec667e61238c177cade293becafc992b7eb85534fcad",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-390-table0-pan1.png",
+          "sha256": "f21cfff9a8096013ffe138f29d99e95da6edeace65fb3ac83e0219ef90592e24",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-390-table0-pan2.png",
+          "sha256": "acefd1290ac7022dcd9e9bd7321bd685c5dc0a84f70e229a6b22f844066e50dd",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-1280-original-image0.png",
+          "sha256": "b592ef00f315ad03a2f42b3fa75fc1b28b089697895bbae2e8a936dcf20fd822",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-1280-original-image1.png",
+          "sha256": "7b28093c7acfeb5ae1f84aa6a742fc02ea8ec7202642d8a0f2112a0913d197e5",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-1280-original-image2.png",
+          "sha256": "60af7021c85746571622c84ba38ce92ac4d45faa09af3e75862180a6e88b5ca4",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-1280-original-image3.png",
+          "sha256": "053ca83981e54898fc9fbe99436d529052bf4bcba490a71bbc5934e85be2e94b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-390-original-image0.png",
+          "sha256": "81e6e86fe5a78ecc3b80f5f31b33546163cac5ba189ae78babee4603522ab052",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-390-original-image1.png",
+          "sha256": "1d02b99bbb4e5a7cfaa532d8091ad91ae596575d8aa5e4606e0a4a5f203e11a1",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-390-original-image2-right.png",
+          "sha256": "b28010bcbeab8c2ec0c95ab1f84e16fe89b01e07e6cb74b55cfdd4bf6bdb2298",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-390-original-image2.png",
+          "sha256": "a14449dc856d0a13a9b93567be69a4ceaea348e6cb897e8cded3f5ed9aa54203",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/338-339/339-390-original-image3.png",
+          "sha256": "2431d4d7ff04c13671de55a79f05663b92e523c4f9150c6aeb1952f2210df667",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-338-339-source-fields.json",
+        "sha256": "242dee9328a943eec287189c8be757a498f6da606dd2f87d55dba0318f5bb117"
+      },
+      "logicalAssemblies": [],
+      "coveredRegions": [
+        "Two equivalent inline urn figures, five and three full placements (2)/(3), whole editable twelvefold Table 1, Andrews epigraph, (4)/(5), and opening integer partition paragraph to the original physical break."
+      ],
+      "followingPageContinuation": "Ends after 非. Page340 begins 零项 and completes the definition paragraph; join will be supplied separately.",
+      "qualification": "Complete CN338–339 with section boundary inside CN338, corresponding contents of EN406–408, author changes page and actual current browser proof at 1280 and 390. The private proof verified figure original links, Chinese editor footnote return and exact Twelvefold Way cells. Only the source instances were computed. No full enumeration of domino tours or card deals; final site and mother integration remain.",
+      "privateOriginalPageReviewSha256": "8231a237f3126a49b473c0ed90661d4e5bc91fb047fd4bb63743ffea90ae2480",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/339.json"
+    }
+  ],
+  "qualification": "Complete CN338–339 with section boundary inside CN338, corresponding contents of EN406–408, author changes page and actual current browser proof at 1280 and 390. The private proof verified figure original links, Chinese editor footnote return and exact Twelvefold Way cells. Only the source instances were computed. No full enumeration of domino tours or card deals; final site and mother integration remain."
+}

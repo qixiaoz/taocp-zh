@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "OnlyIndependentSource176aVarianceFormulaAndGivenLegalDomainExample",
+  "sourcePageMarkdownSha256": {
+    "564": "92993ac35f6487552764c69062fbb4dd8c17870d2181835d37ef168f2b578969"
+  },
+  "data": {
+    "scope": "仅卷4A答176(a)的方差恒等式，两版实际裁图、原题函数域和一个可区分实例；未复核整页或一般散列结论。",
+    "sources": [
+      {
+        "file": "private-snapshot:volume4a/root-sources/cn-564-176a-variance-detail.png",
+        "sha256": "49810251057f94983c8d6b094cd693a994b7b130c7cab60e94b5f91cb20e9802"
+      },
+      {
+        "file": "private-snapshot:volume4a/root-sources/en-673-176a-variance-detail.png",
+        "sha256": "be4d7e3d482a492c0c0fff8811969408cd9a507977bfa37b80fb4c240787c836"
+      },
+      {
+        "file": "private-snapshot:volume4a/root-sources/en-288-564565-context.png",
+        "sha256": "09afe9716903fcd602a68a0a85380408a8be75361a1e23c6039e24753520880d"
+      }
+    ],
+    "printedInBothSources": "完整0..2^l−1索引用在未中心化和中心化两个和式，中心2^t/|I|。",
+    "verifiedDomain": {
+      "n": 4,
+      "t": 2,
+      "l": 3,
+      "a": 1,
+      "b": 0,
+      "mBits": "0110",
+      "epsilon": "9/10",
+      "leftDomainBound": 7,
+      "rightDomainBound": "18"
+    },
+    "pKeys": [
+      0,
+      1,
+      8,
+      9
+    ],
+    "qKeys": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "hDefinitionForTheseParameters": "h(x)=(x>>1)%8",
+    "pCounts": {
+      "support": [
+        0,
+        4
+      ],
+      "countByBin": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "center": "2",
+      "leftSumSquares": 8,
+      "printedRight": "32",
+      "supportOnlyRight": "8",
+      "lowerBoundStillValid": true
+    },
+    "qCounts": {
+      "support": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "countByBin": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "center": "1",
+      "leftSumSquares": 4,
+      "printedRight": "8",
+      "supportOnlyRight": "4",
+      "lowerBoundStillValid": true
+    },
+    "minimalSourceRepair": "首和保持全范围，因为I外的r_i均为0。仅第二个中心化的平方和改为i∈I；I非空且ΣI r_i=|P|=2^t，展开即ΣI r_i²−2^(2t)/|I|。此改动与紧接源式Σ_{i∈I} r_i²相合；s_j类比。下界链未改。"
+  },
+  "privateOriginalEvidenceSha256": "1fd584f37b7db40de67fd3a89959a9e63b0d35000a0df8d09196545e83ad01b2"
+}

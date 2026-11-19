@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "owner": "vol4a_tail_g62",
+  "physicalPages": [
+    641,
+    642,
+    643
+  ],
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignoff": false,
+  "masterSha256": null,
+  "sourceSha256": {
+    "cn": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "en": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+  },
+  "sourceReviewSpecification": {
+    "file": "private-snapshot:volume4a/tail-answers/checkpoints/specification-641-643.json",
+    "sha256": "4db8e1b8efc956a7fb71b9d9e911f20c4a00bb8783cebf35895e966def0278f2"
+  },
+  "sourcePageRecords": [
+    {
+      "physicalPage": 641,
+      "pageMarkdownSha256": "7ffbfa41df05a14a6233fc12c9f58e3472d2804121736fd2efedfe7cb0d9c5c5",
+      "pageReviewSha256": "0372b90a79470e0fc502d6abca0c5c9c410c40db7d5008c2426bf4f7cea8d5fb",
+      "answerAnchors": [
+        "ans-7-2-1-3-111",
+        "ans-7-2-1-4-1",
+        "ans-7-2-1-4-2",
+        "ans-7-2-1-4-3",
+        "ans-7-2-1-4-4",
+        "ans-7-2-1-4-5"
+      ],
+      "sourceEnPhysicalPages": [
+        763,
+        764
+      ],
+      "mathExpressions": 97
+    },
+    {
+      "physicalPage": 642,
+      "pageMarkdownSha256": "3914e7e1ddee3aab9d8ba286c380a1a9b9a69c9a707413c27c9fab1f5475e0b8",
+      "pageReviewSha256": "669b6b6487117b7d930e16838c76a515ad906c1421f7e3a27280ecc137bcddad",
+      "answerAnchors": [
+        "ans-7-2-1-4-6",
+        "ans-7-2-1-4-7",
+        "ans-7-2-1-4-8",
+        "ans-7-2-1-4-9",
+        "ans-7-2-1-4-10",
+        "ans-7-2-1-4-11",
+        "ans-7-2-1-4-12",
+        "ans-7-2-1-4-13",
+        "ans-7-2-1-4-14"
+      ],
+      "sourceEnPhysicalPages": [
+        764,
+        765,
+        766
+      ],
+      "mathExpressions": 75
+    },
+    {
+      "physicalPage": 643,
+      "pageMarkdownSha256": "3eaee049e3bd018a81d8922be057e382c7313c18c5657530f0b8f11a292ecaec",
+      "pageReviewSha256": "415ee3dd3eae8c56b7bf0228d41bb08c08fd4b7727d75c16de2ff94afc039ee4",
+      "answerAnchors": [
+        "ans-7-2-1-4-15",
+        "ans-7-2-1-4-16",
+        "ans-7-2-1-4-17",
+        "ans-7-2-1-4-18"
+      ],
+      "sourceEnPhysicalPages": [
+        766,
+        767
+      ],
+      "mathExpressions": 74
+    }
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "volume4a-tail-answer-001",
+      "section": "7.2.1.3",
+      "cnPdfPage": 641,
+      "enPdfPages": [
+        763
+      ],
+      "location": "答110底牌的同花说明",
+      "original": "简化版的克里比奇纸牌游戏（crib）中不允许出现四张同花牌",
+      "final": "在所谓底牌（crib hand）中，四点同花不计分",
+      "authorChangeDate": "2022-05-24",
+      "isAuthorOfficialErratum": true,
+      "basis": "作者变化记录第10页给底牌计分约定。题干与前一页已指定起始牌，答110的完整计数起始行由CN640所有者处理。",
+      "cnPrintedPage": 626,
+      "pageMarkdownSha256": "7ffbfa41df05a14a6233fc12c9f58e3472d2804121736fd2efedfe7cb0d9c5c5"
+    },
+    {
+      "id": "volume4a-tail-answer-002",
+      "section": "7.2.1.3",
+      "cnPdfPage": 641,
+      "enPdfPages": [
+        763
+      ],
+      "location": "答110底牌方差",
+      "original": "9.677",
+      "final": "9.667",
+      "isAuthorOfficialErratum": false,
+      "basis": "EN763印9.667。30格底牌频数直接算方差272070347317/28144137840，约9.66703435。",
+      "cnPrintedPage": 626,
+      "pageMarkdownSha256": "7ffbfa41df05a14a6233fc12c9f58e3472d2804121736fd2efedfe7cb0d9c5c5"
+    },
+    {
+      "id": "volume4a-tail-answer-003",
+      "section": "7.2.1.3",
+      "cnPdfPage": 641,
+      "enPdfPages": [
+        763
+      ],
+      "location": "答111下影子与A的关系",
+      "original": "这些子集必定不包含于A",
+      "final": "这些 $r$ 元子集都不属于 $A$",
+      "isAuthorOfficialErratum": false,
+      "basis": "EN763 must not be in A 指每个r子集与族A的成员关系。这正保证|A|与影子的基数相加不会重计。",
+      "cnPrintedPage": 626,
+      "pageMarkdownSha256": "7ffbfa41df05a14a6233fc12c9f58e3472d2804121736fd2efedfe7cb0d9c5c5"
+    },
+    {
+      "id": "volume4a-tail-answer-004",
+      "section": "7.2.1.4",
+      "cnPdfPage": 643,
+      "enPdfPages": [
+        767
+      ],
+      "location": "答18两种合并方向的分支",
+      "original": "在这两种方法中，都是强制跳转",
+      "final": "在两种方法中，分支选择都是唯一的",
+      "isAuthorOfficialErratum": false,
+      "basis": "EN767 the branching is forced 指边界比较确定唯一的分支选择，和前一段的唯一确定性一致。",
+      "cnPrintedPage": 628,
+      "pageMarkdownSha256": "3eaee049e3bd018a81d8922be057e382c7313c18c5657530f0b8f11a292ecaec"
+    }
+  ],
+  "privateBrowserCaseCount": 6,
+  "logicalCandidates": [],
+  "assets": [
+    {
+      "file": "assets/volume4a/figures/7-2-1-4-answer14-sylvester-hooks.svg",
+      "sha256": "1ec9dcff44e7b751e076f9605a8767766ec8055ba5ca72cae306b3147df4d4db",
+      "cnPdfPage": 642,
+      "enPdfPage": 765,
+      "nativePaths": 109,
+      "nodes": 99,
+      "hooks": [
+        19,
+        18,
+        16,
+        13,
+        12,
+        9,
+        5,
+        4,
+        3
+      ],
+      "dottedDurfeeRectangles": 1
+    },
+    {
+      "file": "assets/volume4a/figures/7-2-1-4-answer17-joint-ferrers.svg",
+      "sha256": "766c0e2dccc21c0a5dce78ca9a85eb13f843dc7322e1ee6507e3f3fa9e9c6984",
+      "cnPdfPage": 643,
+      "enPdfPage": 766,
+      "rowSizes": [
+        9,
+        8,
+        8,
+        7,
+        5,
+        5,
+        2
+      ],
+      "markedLocations": [
+        [
+          1,
+          9
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          2
+        ]
+      ],
+      "totalDots": 44
+    }
+  ],
+  "details": {
+    "answer110PrintedFrequencies": {
+      "tableValues": [
+        [
+          1009008,
+          99792,
+          2813796,
+          505008,
+          2855676,
+          697508,
+          1800268,
+          751324,
+          1137236,
+          361224,
+          388740,
+          51680,
+          317340,
+          19656,
+          90100,
+          9168,
+          58248,
+          11196,
+          2708,
+          0,
+          8068,
+          2496,
+          444,
+          356,
+          3680,
+          0,
+          0,
+          0,
+          76,
+          4
+        ],
+        [
+          1022208,
+          99792,
+          2839800,
+          508908,
+          2868960,
+          703496,
+          1787176,
+          755320,
+          1118336,
+          358368,
+          378240,
+          43880,
+          310956,
+          16548,
+          88132,
+          9072,
+          57288,
+          11196,
+          2264,
+          0,
+          7828,
+          2472,
+          444,
+          356,
+          3680,
+          0,
+          0,
+          0,
+          76,
+          4
+        ]
+      ],
+      "statistics": [
+        {
+          "cases": 12994800,
+          "meanExact": "60759/12740",
+          "meanRounded": "4.769",
+          "varianceExact": "16171881629/1655537520",
+          "varianceRounded": "9.768"
+        },
+        {
+          "cases": 12994800,
+          "meanExact": "1025467/216580",
+          "meanRounded": "4.735",
+          "varianceExact": "272070347317/28144137840",
+          "varianceRounded": "9.667"
+        }
+      ],
+      "method": "Exact weighted first and second moments; the 12,994,800 hands were not re-scored.",
+      "authorModernPage10Sha256": "d61ad827762355e4e41285e48e07f19be1a5078e9accf99067c3a7a0cdece26a"
+    },
+    "answer1CountTexGrid": [
+      [
+        "m^n",
+        "m^{\\underline n}",
+        "m!\\left\\{{n\\atop m}\\right\\}"
+      ],
+      [
+        "\\binom{m+n-1}{n}",
+        "\\binom mn",
+        "\\binom{n-1}{n-m}"
+      ],
+      [
+        "\\left\\{{n\\atop0}\\right\\}+\\cdots+\\left\\{{n\\atop m}\\right\\}",
+        "[m\\geq n]",
+        "\\left\\{{n\\atop m}\\right\\}"
+      ],
+      [
+        "\\left\\vert{m+n\\atop m}\\right\\vert",
+        "[m\\geq n]",
+        "\\left\\vert{n\\atop m}\\right\\vert"
+      ]
+    ],
+    "answer5CFiniteSourceStepSimulation": {
+      "1": {
+        "partitions": 1,
+        "branchCounts": {
+          "C4": 0,
+          "C5": 0,
+          "C6": 1
+        }
+      },
+      "2": {
+        "partitions": 2,
+        "branchCounts": {
+          "C4": 1,
+          "C5": 0,
+          "C6": 1
+        }
+      },
+      "3": {
+        "partitions": 3,
+        "branchCounts": {
+          "C4": 1,
+          "C5": 0,
+          "C6": 2
+        }
+      },
+      "4": {
+        "partitions": 5,
+        "branchCounts": {
+          "C4": 2,
+          "C5": 1,
+          "C6": 2
+        }
+      },
+      "5": {
+        "partitions": 7,
+        "branchCounts": {
+          "C4": 3,
+          "C5": 0,
+          "C6": 4
+        }
+      },
+      "6": {
+        "partitions": 11,
+        "branchCounts": {
+          "C4": 5,
+          "C5": 2,
+          "C6": 4
+        }
+      },
+      "7": {
+        "partitions": 15,
+        "branchCounts": {
+          "C4": 7,
+          "C5": 1,
+          "C6": 7
+        }
+      },
+      "8": {
+        "partitions": 22,
+        "branchCounts": {
+          "C4": 11,
+          "C5": 3,
+          "C6": 8
+        }
+      },
+      "9": {
+        "partitions": 30,
+        "branchCounts": {
+          "C4": 15,
+          "C5": 3,
+          "C6": 12
+        }
+      },
+      "10": {
+        "partitions": 42,
+        "branchCounts": {
+          "C4": 22,
+          "C5": 6,
+          "C6": 14
+        }
+      },
+      "11": {
+        "partitions": 56,
+        "branchCounts": {
+          "C4": 30,
+          "C5": 5,
+          "C6": 21
+        }
+      },
+      "12": {
+        "partitions": 77,
+        "branchCounts": {
+          "C4": 42,
+          "C5": 11,
+          "C6": 24
+        }
+      }
+    },
+    "answer11Coefficients": {
+      "degrees": [
+        100,
+        100
+      ],
+      "unbounded": 4563,
+      "limitedToTwoPerDenomination": 7
+    },
+    "answer17Example": {
+      "selectedRowSizes": [
+        9,
+        8,
+        8,
+        7,
+        5,
+        5,
+        2
+      ],
+      "columnSizes": [
+        7,
+        7,
+        6,
+        6,
+        6,
+        4,
+        4,
+        3,
+        1
+      ],
+      "markedOriginal": [
+        [
+          1,
+          9
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          2
+        ]
+      ]
+    },
+    "leftOwnerBoundary": {
+      "cnPdfPage": 640,
+      "enPdfPages": [
+        762,
+        763
+      ],
+      "qualification": "Read-only contextual location for answer 110 initial expression and separate author correction."
+    }
+  },
+  "qualification": "Whole source CN641–643 with actual matching EN763–767. Current private Chrome screenshots at 1280/390 with mathematical and figure details directly compared. Cards verification computes exact moments from the printed frequency tables."
+}

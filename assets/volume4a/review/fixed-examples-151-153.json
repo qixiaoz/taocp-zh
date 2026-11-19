@@ -1,0 +1,455 @@
+{
+  "scope": "Original heap and forest fixtures. Exact page display labels are bound separately. No claim about all arbitrary forest preprocessing, complexity, or replication of the proof in exercise 152.",
+  "pageMarkdownHashes": {
+    "151": "4bad9d358a79f0f1728e6823efb7ad19ab313247013b1e546b098206bc3a8244",
+    "152": "7b2207ce62dcfddb8ec4e8b0b972d119516c6651098476b1a720fed4d59e413d",
+    "153": "c57c2cb4d60c6e34de17671557bf932e3c55d3f03c2c86af94d6893e2e5cecd4"
+  },
+  "checkerSha256": "2c60063101ecff2668d99666c203f92ebcdaae7a10416363a86ac3000d0bfd08",
+  "table": {
+    "pi": {
+      "A": 1,
+      "C": 2,
+      "F": 3,
+      "D": 4,
+      "G": 5,
+      "J": 6,
+      "H": 7,
+      "B": 8,
+      "E": 9,
+      "I": 10,
+      "Λ": 0
+    },
+    "beta": {
+      "Λ": 0,
+      "A": 4,
+      "B": 8,
+      "C": 2,
+      "D": 4,
+      "E": 10,
+      "F": 3,
+      "G": 6,
+      "H": 7,
+      "I": 10,
+      "J": 6
+    },
+    "alpha": {
+      "A": 4,
+      "B": 8,
+      "C": 6,
+      "D": 4,
+      "E": 10,
+      "F": 7,
+      "G": 6,
+      "H": 5,
+      "I": 10,
+      "J": 6,
+      "Λ": 0
+    },
+    "tau": {
+      "1": "Λ",
+      "2": "A",
+      "3": "C",
+      "4": "Λ",
+      "5": "Λ",
+      "6": "D",
+      "7": "D",
+      "8": "Λ",
+      "9": "Λ",
+      "10": "B"
+    }
+  },
+  "originalForestOrderedPairs": 100,
+  "sidewaysPairs1To64": 2080,
+  "originalTenNodeBoundary": {
+    "ordinarySiblingOf10": 11,
+    "sidewaysParentChain": [
+      10,
+      12,
+      8
+    ]
+  },
+  "assets": [
+    {
+      "tag": 132,
+      "file": "assets/volume4a/figures/diagram-7-1-3-132-heap-decimal-binary.svg",
+      "sha256": "679e5e1e125021f848028aec22d0bf3753b223e5bdb9b018dba5ceae4809f6ff",
+      "panels": [
+        {
+          "labels": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              5,
+              10
+            ]
+          ]
+        },
+        {
+          "labels": [
+            "0001",
+            "0010",
+            "0011",
+            "0100",
+            "0101",
+            "0110",
+            "0111",
+            "1000",
+            "1001",
+            "1010"
+          ],
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              5,
+              10
+            ]
+          ]
+        }
+      ],
+      "method": "Editable original shape, lines, markers, dashed auxiliary nodes, labels, and arrows redrawn from source."
+    },
+    {
+      "tag": 133,
+      "file": "assets/volume4a/figures/diagram-7-1-3-133-sideways-heap-decimal-binary.svg",
+      "sha256": "78b5571ad73de9cedda619ba69489cbb7af64e81b45025237df224772e7c0d55",
+      "panels": [
+        {
+          "labels": [
+            8,
+            4,
+            12,
+            2,
+            6,
+            10,
+            1,
+            3,
+            5,
+            7,
+            9
+          ],
+          "edges": [
+            [
+              8,
+              4
+            ],
+            [
+              8,
+              12
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              12,
+              10
+            ],
+            [
+              10,
+              9
+            ]
+          ],
+          "auxiliaryNode": 12
+        },
+        {
+          "labels": [
+            "1000",
+            "0100",
+            "1100",
+            "0010",
+            "0110",
+            "1010",
+            "0001",
+            "0011",
+            "0101",
+            "0111",
+            "1001"
+          ],
+          "edges": [
+            [
+              8,
+              4
+            ],
+            [
+              8,
+              12
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              12,
+              10
+            ],
+            [
+              10,
+              9
+            ]
+          ],
+          "auxiliaryNode": "1100"
+        }
+      ],
+      "method": "Editable original shape, lines, markers, dashed auxiliary nodes, labels, and arrows redrawn from source."
+    },
+    {
+      "tag": 141,
+      "file": "assets/volume4a/figures/diagram-7-1-3-141-directed-preorder-forest.svg",
+      "sha256": "9b30ac52f57e8fedbcc04b4a4452dc47a82e9ad167c68aed3e742c7308c7d4f9",
+      "panels": [
+        {
+          "labels": [
+            "A",
+            "C",
+            "F",
+            "D",
+            "G",
+            "H",
+            "J",
+            "B",
+            "E",
+            "I"
+          ],
+          "edges": [
+            [
+              "C",
+              "A"
+            ],
+            [
+              "D",
+              "A"
+            ],
+            [
+              "F",
+              "C"
+            ],
+            [
+              "G",
+              "D"
+            ],
+            [
+              "H",
+              "D"
+            ],
+            [
+              "J",
+              "G"
+            ],
+            [
+              "E",
+              "B"
+            ],
+            [
+              "I",
+              "E"
+            ]
+          ],
+          "preorderRanks": {
+            "A": "1",
+            "C": "2",
+            "F": "3",
+            "D": "4",
+            "G": "5",
+            "J": "6",
+            "H": "7",
+            "B": "8",
+            "E": "9",
+            "I": "10"
+          }
+        }
+      ],
+      "method": "Editable original shape, lines, markers, dashed auxiliary nodes, labels, and arrows redrawn from source."
+    },
+    {
+      "tag": 142,
+      "file": "assets/volume4a/figures/diagram-7-1-3-142-forest-paths-sideways-heap.svg",
+      "sha256": "382939ea7cb2e8cce659bab313525adaf098343c676b1b9f054119e61af369ad",
+      "panels": [
+        {
+          "labels": [
+            "1000",
+            "0100",
+            "1100",
+            "0010",
+            "0110",
+            "1010",
+            "0001",
+            "0011",
+            "0101",
+            "0111",
+            "1001"
+          ],
+          "edges": [
+            [
+              8,
+              4
+            ],
+            [
+              8,
+              12
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              12,
+              10
+            ],
+            [
+              10,
+              9
+            ]
+          ],
+          "auxiliaryNode": "1100",
+          "mappedPaths": {
+            "8": "B→Λ",
+            "4": "D→A→Λ",
+            "2": "C→A",
+            "3": "F→C",
+            "6": "J→G→D",
+            "7": "H→D",
+            "10": "I→E→B"
+          }
+        }
+      ],
+      "method": "Editable original shape, lines, markers, dashed auxiliary nodes, labels, and arrows redrawn from source."
+    }
+  ],
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+}

@@ -1,0 +1,43 @@
+{
+  "scope": "Actual original question and both original-answer complement glyphs read; one finite2-adic inputx5 evaluated through the failing source branch. No exhaustive candidate/whole chain or machine ISA verification.",
+  "sourceImages": [
+    {
+      "file": "private-snapshot:volume3/chapter6-work/external-review-4a/en-210.png",
+      "sha256": "5bb5379a2b9b0e061b2133a47688981ce36a29e623f8d6f2c90605ce0345fd5f"
+    },
+    {
+      "file": "private-snapshot:volume4a/root-sources/en-618.png",
+      "sha256": "1a03346a3737cc484fdb765cd6fdbe5b0f71f65f17573f907a069c0c225c69ae"
+    },
+    {
+      "file": "private-snapshot:volume4a/root-sources/cn-517-right-run-end-complement.png",
+      "sha256": "0335eced61a2d131b785b69f5a782612b42a9fbe85e2a62f763718be8c15238a"
+    },
+    {
+      "file": "private-snapshot:volume4a/root-sources/en-618-right-run-end-complement-actual.png",
+      "sha256": "cbb5f14addee876d1d0766baab178a27fd4fc381f9c147d58d13ae90485feb97"
+    }
+  ],
+  "actualSourceRead": true,
+  "questionDomain": "EN210print193 exercise115(b): zero out1blocks followed by an odd number of0s before the next1block; explicitly infinitely many0s to the right ofx0. Finite integer5 is allowed.",
+  "sourceAnswer": "Both CN517print502 and EN618print601 put the complement onx before the left shift: x_r=x&((barx)<<1), then x_rprime=x_r&(x_r-1).",
+  "case": {
+    "x": 5,
+    "binary": "101",
+    "independentBlocks": "bit2 is followed by exactly one0 then the next1atbit0, so clearbit2; lowestbit0 has no next1block and is retained.",
+    "expected": 1,
+    "sourceXL": 10,
+    "sourceXR": 4,
+    "sourceXRprime": 0,
+    "sourceZE": 0,
+    "sourceZO": 0,
+    "originalFinalY": 5
+  },
+  "boundaryDiagnosis": "At positioni, a right end requiresx_i1 andx_(i-1)0; the explicit boundary makesx_-1=0. The source shifted complement has bit0=0 and so omits this real lowest endpoint before the subsequent remove-lowest operation.",
+  "candidateRightEndpointMask": {
+    "expression": "x&~(x<<1)",
+    "rightEndsForCase": 5,
+    "afterRemovingLowestForCase": 4
+  },
+  "conclusion": "No parity or original-domain boundary premise rescues the sourcex5 failure. Moving the complement after the entire shift restores the stated right-end condition, includingbit0. This receipt demonstrates the unique counterexample and endpoint correction; it does not claim general verification of every later chain operation."
+}

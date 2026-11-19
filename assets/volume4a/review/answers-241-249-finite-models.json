@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Specifiedfinitechecks only. Sourcehugequeen/hypergraphfamiliesandn5..7classcountsnotrecalculated.",
+  "models": {
+    "scope": "Specifiedfinite243closure/244actualgridprofiles/247directsweetdefinitionthrough4/249allorders through4/cachedSGBclosure andcoefficientarithmetic only",
+    "checkerSha256": "1d9df62743e4a7a826b25593cc09c96fb7d7ea68dfc571e254af5b1ef9ba04e2",
+    "sourcePageMarkdownSha256": {
+      "578": "686de20b5761626240c23aa1f9fe5325ab7a74ba927fa6a5d5f310e076d70849",
+      "579": "b2e3d486aae873d981a969a2929d4083dc84b14026be75e894a5253937020995"
+    },
+    "finiteClosureFamilies": 276,
+    "sigmaInputMeaning": "Bitsencodefamilyofprimeimplicants,notordinaryBooleantruthfunctionvalues;lowbit-firstmemberencodingmatchesodd/evenfamilypartition. Boundj=0..2^(n-1)-1.",
+    "sweetDirectDiagramComparisons": [
+      {
+        "variables": 0,
+        "allFamilyBitVectors": 2,
+        "clutters": 2,
+        "noncluttersRejected": 0,
+        "exactBDDvsZDDandCorrectedSigmaAgree": true,
+        "sweet": 2
+      },
+      {
+        "variables": 1,
+        "allFamilyBitVectors": 4,
+        "clutters": 3,
+        "noncluttersRejected": 1,
+        "exactBDDvsZDDandCorrectedSigmaAgree": true,
+        "sweet": 3
+      },
+      {
+        "variables": 2,
+        "allFamilyBitVectors": 16,
+        "clutters": 6,
+        "noncluttersRejected": 10,
+        "exactBDDvsZDDandCorrectedSigmaAgree": true,
+        "sweet": 6
+      },
+      {
+        "variables": 3,
+        "allFamilyBitVectors": 256,
+        "clutters": 20,
+        "noncluttersRejected": 236,
+        "exactBDDvsZDDandCorrectedSigmaAgree": true,
+        "sweet": 18
+      },
+      {
+        "variables": 4,
+        "allFamilyBitVectors": 65536,
+        "clutters": 168,
+        "noncluttersRejected": 65368,
+        "exactBDDvsZDDandCorrectedSigmaAgree": true,
+        "sweet": 106
+      }
+    ],
+    "ultrasweetAllPermutations": [
+      {
+        "variables": 0,
+        "allVariablePermutationsChecked": true,
+        "ultrasweet": 2
+      },
+      {
+        "variables": 1,
+        "allVariablePermutationsChecked": true,
+        "ultrasweet": 3
+      },
+      {
+        "variables": 2,
+        "allVariablePermutationsChecked": true,
+        "ultrasweet": 6
+      },
+      {
+        "variables": 3,
+        "allVariablePermutationsChecked": true,
+        "ultrasweet": 17
+      },
+      {
+        "variables": 4,
+        "allVariablePermutationsChecked": true,
+        "ultrasweet": 69
+      }
+    ],
+    "answer248ActualCounterexample": {
+      "primeFamily": [
+        2,
+        5
+      ],
+      "sweet": false
+    },
+    "figure22": {
+      "sourcePriorEvidenceSha256": "8430fdaf689ec88f6c4c7ade797f0373ab1326e300b70d8e4b9b43c1267b1de9",
+      "actualEdgeOrder": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "connectedSubgraphs": 431,
+      "spanningTrees": 192,
+      "zddConnectedProfile": [
+        1,
+        2,
+        2,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        2,
+        2,
+        2
+      ],
+      "bddTreeProfile": [
+        1,
+        2,
+        2,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        2,
+        2,
+        2
+      ],
+      "bddConnectedEqualsZddTreeSignature": true,
+      "parityMobiusTransformNotClaimed": true
+    },
+    "SGBCachedWordIntersectionClosure": {
+      "F2": 21234,
+      "F3": 21237,
+      "F4": 21237,
+      "stable": true,
+      "new": [
+        "***sp",
+        "*k*t*",
+        "c***f"
+      ],
+      "coefficients": [
+        1,
+        124,
+        2782,
+        7753,
+        4820,
+        5757
+      ],
+      "triplePatternWords": [
+        "clasp",
+        "crisp",
+        "grasp"
+      ],
+      "orderedPairMeetsActuallyComputed": 277648596,
+      "sourceWordDataSha256": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce",
+      "cppSha256": "ffc0fe3c956de362959f72b8410d27a451ad7709954985bf12a271924bdd3ed4"
+    },
+    "coefficientArithmetic": {
+      "queenMinimalDominatingCoefficientSum": 28281838,
+      "queenBipartiteMaximalCoefficientSum": 27567390,
+      "noThreeCollinearKernelCoefficientSum": 66509584
+    },
+    "qualifications": [
+      "247sourcefree k boundrequiresexplicitreportandindependentpeerbeforeacceptance",
+      "247n5..7/249n5..7countsnotindependentlyrecalculatedhere",
+      "LargequeenDomination/Bipartitecountsand4billioncollinear-freefamilyonlysourcecompared;sumcheckisnotenumeration",
+      "Historicalprimarypapers/authormemtimingsnotrecreated",
+      "Full242crosspageformula/full241/whole714/mother/offline/routed/onlinepending"
+    ]
+  },
+  "privateEvidenceSha256": "d259dcb7375667ae3042e44e90aefadc5ea6f98521efcd3fecaab77f20fa39fb",
+  "earlierPeerPendingClosed": "Actualtwo-source247indexpeer now separatelybound;source/currentMDunchanged.",
+  "allSourceResearchCountsIndependentlyReproduced": false
+}

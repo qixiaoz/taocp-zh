@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Only two234cycle conventions and236xvi source/finite proof,not fullpage or ZDDnode estimates",
+  "data": {
+    "234cycles": {
+      "scope": "Read-only peer on the printed postal lists, graph rule, answer 234 counts, and bounded independent cycle census. No full-page acceptance, no ZDD node estimate recomputation and no claim about the origin of the printed discrepancy.",
+      "sourceRenders": [
+        {
+          "file": "root-sources/en-057.png",
+          "sha256": "0efadb44e3481721cfb4e4d1ed52e260da2c8519d8ba9dc5346027e65a8bacf1"
+        },
+        {
+          "file": "body-review/cn-047.png",
+          "sha256": "a638e60aae894cc353d3e8a40963bf09fec249ce42fe1cd64ea1a52e72442a0c"
+        },
+        {
+          "file": "body-review/peer-en-293-q233-234-postal.png",
+          "sha256": "a7885da6c4eb0f8b6b98cb2a3b42d28e3fd6593cc71b314ec8a055f24ebe191a"
+        },
+        {
+          "file": "root-sources/en-685.png",
+          "sha256": "a15253e0682020d86d7314aaa2dadcfa6be8aee8740393b179943e015ae4e4d3"
+        },
+        {
+          "file": "root-sources/en-686.png",
+          "sha256": "9c563112bc17ccd5be734abfd4f82d5a8392bae351ea657292aa9fcc9ea97bac"
+        },
+        {
+          "file": "body-review/peer-cn-575-postal.png",
+          "sha256": "9647570b9193842e651e5fb359d52b0c7eb14a06a5094974c0add5a4c9c5b259"
+        }
+      ],
+      "rule": "Exercises 7–54(b,c) and 7.1.4-234 explicitly use codes as vertices, with XY→YZ. Answer 234 identifies this as the arc digraph of the letter digraph and explicitly permits revisiting letters in the latter. Closed edge-simple trails on letters are the same code-simple cycles.",
+      "snapshotSha256": "d2a5eb110baf4576ccde96560a003aa1e3b7a92ef61bea54ba9ce510c9088ea5",
+      "independentMethod": "For each code as the cycle-minimum, DFS traverses distinct code edges of the letter graph. Every return to the first letter counts one closed trail; permitted higher-ranked unused edges remain eligible after such a return. Fixing the minimum code removes rotations, not orientations. Per-length and optional-added-edge subset counts only are accumulated, together with one witness.",
+      "implementation": {
+        "file": "body-review/tools/peer-postal-cycle-count.cpp",
+        "sha256": "3c939a8641b61a9174e4eea9ed6a133bac1f2811819d62e12d483732bf36d816"
+      },
+      "printed": {
+        "49": {
+          "cycles": 437,
+          "length17": 37
+        },
+        "62": {
+          "cycles": 38336,
+          "length23": 192,
+          "length1": 1
+        }
+      },
+      "cycles": {
+        "49": {
+          "total": 437,
+          "lengthHistogram": {
+            "2": 2,
+            "3": 5,
+            "4": 3,
+            "5": 13,
+            "6": 8,
+            "7": 15,
+            "8": 26,
+            "9": 24,
+            "10": 51,
+            "11": 52,
+            "12": 43,
+            "13": 49,
+            "14": 35,
+            "15": 59,
+            "16": 15,
+            "17": 37
+          },
+          "longestExample": [
+            "AL",
+            "LA",
+            "AR",
+            "RI",
+            "ID",
+            "DC",
+            "CO",
+            "OK",
+            "KS",
+            "SC",
+            "CT",
+            "TN",
+            "NM",
+            "MI",
+            "IN",
+            "NC",
+            "CA"
+          ],
+          "longestLength": 17
+        },
+        "62": {
+          "total": 1910753,
+          "lengthHistogram": {
+            "1": 1,
+            "2": 3,
+            "3": 11,
+            "4": 13,
+            "5": 36,
+            "6": 64,
+            "7": 123,
+            "8": 285,
+            "9": 557,
+            "10": 1111,
+            "11": 2186,
+            "12": 4167,
+            "13": 7743,
+            "14": 13935,
+            "15": 24282,
+            "16": 40420,
+            "17": 63658,
+            "18": 94207,
+            "19": 134258,
+            "20": 174932,
+            "21": 216491,
+            "22": 249024,
+            "23": 262180,
+            "24": 258038,
+            "25": 182380,
+            "26": 121992,
+            "27": 49056,
+            "28": 9600
+          },
+          "longestExample": [
+            "AR",
+            "RI",
+            "IA",
+            "AA",
+            "AK",
+            "KS",
+            "SC",
+            "CA",
+            "AP",
+            "PW",
+            "WV",
+            "VA",
+            "AS",
+            "SD",
+            "DC",
+            "CO",
+            "OH",
+            "HI",
+            "IN",
+            "NC",
+            "CT",
+            "TN",
+            "NM",
+            "MN",
+            "NV",
+            "VI",
+            "IL",
+            "LA"
+          ],
+          "longestLength": 28,
+          "all8192AddedCodeSubsetsTested": true,
+          "subsetsReproducingPrintedTotal": 0,
+          "subsetsReproducingPrinted23Count": 96,
+          "totalsForSubsetsReproducingPrinted23Count": [
+            8523,
+            8789,
+            10478,
+            11133,
+            14132,
+            14299
+          ]
+        }
+      },
+      "validExamplesFromBook": {
+        "49": [
+          "AL",
+          "LA",
+          "AR",
+          "RI",
+          "IN",
+          "NV",
+          "VT",
+          "TN",
+          "NM",
+          "MI",
+          "ID",
+          "DC",
+          "CO",
+          "OK",
+          "KS",
+          "SC",
+          "CA"
+        ],
+        "62": [
+          "AP",
+          "PR",
+          "RI",
+          "IA",
+          "AL",
+          "LA",
+          "AS",
+          "SC",
+          "CT",
+          "TN",
+          "NM",
+          "MN",
+          "NV",
+          "VI",
+          "IN",
+          "NC",
+          "CO",
+          "OK",
+          "KS",
+          "SD",
+          "DC",
+          "CA",
+          "AA"
+        ]
+      },
+      "oneCycle": [
+        "AA"
+      ],
+      "finding": "The 49-code baseline and both printed sample cycles reproduce. With all 62 directly observed codes, the two counts 38,336 and 192 do not reproduce. No subset of the additional 13 by itself reproduces the printed total while holding the same 49 base codes and rule."
+    },
+    "234vertexsets": {
+      "scope": "Read-only follow-up of the previous Answer 234 source peer. The only added counting convention is deduplication of all represented cycles by their set of postal-code graph vertices. The original two lists and edge rule are unchanged.",
+      "precedingPeer": {
+        "file": "body-review/peer-answer234-postal-count-g62.json",
+        "sha256": "fae17a9c49a9fc5c0238085dad0c438188edde44966af60d7945a8cec07cc139"
+      },
+      "implementation": {
+        "file": "body-review/tools/peer-postal-cycle-vertexset-count.cpp",
+        "sha256": "96d91ff5aea74b3a6e4b11fb68d6edf4e69018d6b4c96737ccf81abe9d911a1d"
+      },
+      "independentRepresentation": "Insert the 64-bit mask of visited code vertices into a hash set only when a code-simple cycle closes. Increment its cardinality bin only on first insertion. No cycle orders are kept.",
+      "sets": {
+        "49": {
+          "distinctCodeVertexSets": 307,
+          "setsOf23": 0,
+          "lengthHistogram": {
+            "2": 2,
+            "3": 5,
+            "4": 3,
+            "5": 13,
+            "6": 8,
+            "7": 15,
+            "8": 26,
+            "9": 22,
+            "10": 43,
+            "11": 33,
+            "12": 33,
+            "13": 30,
+            "14": 26,
+            "15": 28,
+            "16": 9,
+            "17": 11
+          },
+          "inputSha256": "dc7303946ad159f05155d07adca4feb891ddf4c8a5984bf0ad468ac47c093fc3"
+        },
+        "62": {
+          "distinctCodeVertexSets": 66227,
+          "setsOf23": 1458,
+          "lengthHistogram": {
+            "1": 1,
+            "2": 3,
+            "3": 11,
+            "4": 13,
+            "5": 35,
+            "6": 59,
+            "7": 110,
+            "8": 243,
+            "9": 442,
+            "10": 826,
+            "11": 1444,
+            "12": 2343,
+            "13": 3525,
+            "14": 4910,
+            "15": 6318,
+            "16": 7461,
+            "17": 8144,
+            "18": 8051,
+            "19": 7215,
+            "20": 5796,
+            "21": 4163,
+            "22": 2662,
+            "23": 1458,
+            "24": 667,
+            "25": 248,
+            "26": 68,
+            "27": 10,
+            "28": 1
+          },
+          "inputSha256": "0ea29319ac3b38b218d5b99350638d0d6e98c643c4ea139c15aa41451b7aa3b4"
+        }
+      },
+      "printed": {
+        "total": 38336,
+        "length23": 192
+      },
+      "printedCountsNotReproducedByVertexSetDeduplication": true
+    },
+    "236xvi": {
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "answer": 236,
+      "part": "d(xvi)",
+      "observedFormula": "(f ∪ g)^# = (f^# ⊔ g^#)^↓",
+      "imageSha256": {
+        "en-293-236-xvi-large.png": "150adec1c5704f956a5bb602a1751f33b30d479586ef32f4cde75f154efc5f84",
+        "en-293-574575-question-context.png": "b769702ede0a93ab7bdc9a4e984cbc8efaaeff7986506cd06a60d53321537f70",
+        "cn-575-236cd-classification-detail.png": "302119b8032a95a6290addfd8c6b1c41d9a22f52ce1f17d4e67230d78cae2031",
+        "en-686-236cd-classification-detail.png": "518190f76a5454dd18e4358e7f2e15d2a1e96b7ddd8909b4edb38089d95b7b86",
+        "en-290.png": "1571236ab502234b0ed17bac4328b07703bc7626010f4b7fbd8ef4cb6087f4ca"
+      },
+      "observedSourceAnswer": "Both CN575 and EN686 cross out xvi and specify that it fails only when f or g is the empty family.",
+      "operatorSource": "EN293 printed 276 defines # by minimal hitting sets and ↓ by inclusion-minimal elements. EN290 printed 273 exercise203 defines ⊔ as {A ∪ B | A in f, B in g} without a disjointness condition, and ε is the singleton family containing the empty set.",
+      "reasoning": "Each finite hitting set A for f ∪ g hits f and g separately, and contains respective inclusion-minimal hitting sets B and C. Their union B ∪ C is itself a hitting set for f ∪ g and lies in A. Conversely any B ∪ C with B in f^# and C in g^# hits f ∪ g. The inclusion-minimal elements of these two collections therefore coincide. The proof also covers empty collections: the empty family has the vacuous hitting set ∅, so ∅^#=ε; ε is the identity of ⊔. A family containing the empty set has no hitting set and yields the empty family on either side if it is an operand.",
+      "sampleUniverse": [
+        "a",
+        "b",
+        "c"
+      ],
+      "finiteSamples": [
+        {
+          "f": [],
+          "g": [
+            [
+              "a"
+            ]
+          ],
+          "left": [
+            [
+              "a"
+            ]
+          ],
+          "right": [
+            [
+              "a"
+            ]
+          ]
+        },
+        {
+          "f": [
+            [
+              "a",
+              "b"
+            ]
+          ],
+          "g": [
+            [
+              "b",
+              "c"
+            ]
+          ],
+          "left": [
+            [
+              "b"
+            ],
+            [
+              "a",
+              "c"
+            ]
+          ],
+          "right": [
+            [
+              "b"
+            ],
+            [
+              "a",
+              "c"
+            ]
+          ]
+        }
+      ],
+      "bothEmptyFamiliesCheck": {
+        "f": [],
+        "g": [],
+        "left": [
+          []
+        ],
+        "right": [
+          []
+        ]
+      },
+      "conclusion": "The proposed project correction is supported by the definitions and finite examples. It is a mathematical correction to the answer classification, not an author erratum.",
+      "noSourceOrMotherEdits": true
+    }
+  },
+  "privateEvidenceSha256": {
+    "234cycles": "fae17a9c49a9fc5c0238085dad0c438188edde44966af60d7945a8cec07cc139",
+    "234vertexsets": "3036d7416d3c9d43cc791d620aadcbc6b12f513e5e5183a805d3112fe779ef4a",
+    "236xvi": "36bcd279a25033451416566f43959139d53c58e76fd9807acb6699fe8f983a94"
+  }
+}

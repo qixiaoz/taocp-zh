@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Exact8squareliteralpolynomial/16candidate/first3000wordcubes/r1bitauxiliarytablewithexplicitaddressinterpretations;43continues590",
+  "models": {
+    "checkerSha256": "6a3520003a1b20370f8eef9651243c9d147a8cb6f8efc3ab8ae954286d181683",
+    "pageMarkdownSha256": "c3f0900e99aaab558ae58532db5e9e6be03d402c8c492b6ad7b295fff4a7ecae",
+    "answer39": {
+      "all64LiteralManuscriptCoefficientsMatchOriginalExample": true,
+      "bothEightEntryOuterVectorsMatch": true,
+      "exactRowAndColumnInnerProductPolynomialsMatchEightSquareIdentity": true,
+      "sixteenCandidate": [
+        0,
+        1,
+        11,
+        2,
+        14,
+        15,
+        13,
+        4,
+        9,
+        10,
+        7,
+        12,
+        5,
+        6,
+        3,
+        8
+      ],
+      "all120SixteenCandidatePairsChecked": true,
+      "failurePairs": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          11,
+          14
+        ]
+      ],
+      "onlyXor5Fails": true,
+      "noGlobalSixteenNonexistenceProof": true
+    },
+    "answer40": {
+      "selectedCNQuestionMaskExponent": "5j+5",
+      "attachedENQuestionMaskExponent": "5j",
+      "currentCNAll32BinarySubsetsInOrder": true,
+      "oldENLiteralVariantOnly16DistinctTwice": true,
+      "noFullHardwareProgramWExecution": true
+    },
+    "answer41": {
+      "sourceWordFileSha256": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce",
+      "first3000SourceExclusionsAllThirteenMatch": true,
+      "sourceSixteenWordListMatchesCube": true,
+      "sourceExamples": [
+        {
+          "endpoints": [
+            "fired",
+            "wands"
+          ],
+          "endpointMembershipFirst3000": [
+            true,
+            true
+          ],
+          "correctWords": [
+            "fared",
+            "fares",
+            "finds",
+            "fined",
+            "fines",
+            "fired",
+            "fires",
+            "wands",
+            "waned",
+            "wanes",
+            "wards",
+            "wares",
+            "winds",
+            "wines",
+            "wired",
+            "wires"
+          ],
+          "count": 16
+        },
+        {
+          "endpoints": [
+            "paced",
+            "links"
+          ],
+          "endpointMembershipFirst3000": [
+            true,
+            true
+          ],
+          "correctWords": [
+            "laced",
+            "laces",
+            "lacks",
+            "lanes",
+            "licks",
+            "lined",
+            "lines",
+            "links",
+            "paced",
+            "paces",
+            "packs",
+            "panes",
+            "picks",
+            "pined",
+            "pines",
+            "pinks"
+          ],
+          "count": 16
+        },
+        {
+          "endpoints": [
+            "paled",
+            "mints"
+          ],
+          "endpointMembershipFirst3000": [
+            true,
+            true
+          ],
+          "correctWords": [
+            "males",
+            "malts",
+            "manes",
+            "miles",
+            "mined",
+            "mines",
+            "mints",
+            "paled",
+            "pales",
+            "panes",
+            "pants",
+            "piled",
+            "piles",
+            "pined",
+            "pines",
+            "pints"
+          ],
+          "count": 16
+        },
+        {
+          "endpoints": [
+            "fires",
+            "wandd"
+          ],
+          "endpointMembershipFirst3000": [
+            true,
+            false
+          ],
+          "correctWords": [
+            "fared",
+            "fares",
+            "finds",
+            "fined",
+            "fines",
+            "fired",
+            "fires",
+            "wands",
+            "waned",
+            "wanes",
+            "wards",
+            "wares",
+            "winds",
+            "wines",
+            "wired",
+            "wires"
+          ],
+          "count": 16
+        }
+      ],
+      "additionalConcreteWordNonwordExampleKeptInReportOnly": [
+        "fires",
+        "wandd"
+      ],
+      "beforeTranscriptionRawReceiptSha256": "f83c77e80014f94cdc4514930f314ebea2ad164a2d4230b894cc4d474adcf81c",
+      "originalRawPageMarkdownSha256IsNullAndUnchanged": true,
+      "rawActualEnumerationResults": {
+        "firstWords": 3000,
+        "allCorrectEndpointPairs": 4498500,
+        "allFiveDifferentPositionsPairsActuallyScanned": 2817657,
+        "remainingCornerLookups": 87347367,
+        "atMostFourDifferentPositionsHaveAtMostSixteenCorners": true,
+        "actualMaximumFullDimension": 16,
+        "maximumEndpointPairs": 9,
+        "firstMaximumPair": [
+          "winds",
+          "fared"
+        ],
+        "allFullDimensionPairsActuallyEnumerated": true
+      },
+      "rawCheckerSourceSha256": "1d8cbdac4b3b835bc4b5efebec72f21f19991b1010f647dbf84f7d86acaab7bd",
+      "rawExecutableSha256": "dd940c0b88c8a58dba81cfc2b0f1f158d7540d53d42731c3a41fcd134c5e117a",
+      "upperBoundProof": "All4,498,500correctendpointpairscovered:2,817,657five-differencepairshaveall32cornersactuallylookedup;remainingpairsmax16cornersbydimension.16attained.Originalrawnumericreceiptpredatespageauthoringandisnotretagged."
+    },
+    "answer42": {
+      "allEightSourceStatesAndAllTwentyOneRenderedTexFieldsMatch": true,
+      "allFourBraceGroupAssignmentsPreserved": true,
+      "r1LiteralModels": [
+        {
+          "n": 3,
+          "completed": true,
+          "actualVisitedWords": 8,
+          "allOriginalGrayWordsInOrder": true,
+          "maxAuxiliaryBitChangesPerStep": 2,
+          "lowP_AIdentityAlwaysHolds": true,
+          "unobservableTerminatingTailOperationsSkipped": [],
+          "stopAttemptStep": 8,
+          "stopGrayBit": 3
+        },
+        {
+          "n": 4,
+          "completed": true,
+          "actualVisitedWords": 16,
+          "allOriginalGrayWordsInOrder": true,
+          "maxAuxiliaryBitChangesPerStep": 2,
+          "lowP_AIdentityAlwaysHolds": true,
+          "unobservableTerminatingTailOperationsSkipped": [],
+          "stopAttemptStep": 16,
+          "stopGrayBit": 4
+        },
+        {
+          "n": 5,
+          "completed": true,
+          "actualVisitedWords": 32,
+          "allOriginalGrayWordsInOrder": true,
+          "maxAuxiliaryBitChangesPerStep": 2,
+          "lowP_AIdentityAlwaysHolds": true,
+          "unobservableTerminatingTailOperationsSkipped": [],
+          "stopAttemptStep": 32,
+          "stopGrayBit": 5
+        },
+        {
+          "completed": false,
+          "firstUndefinedLiteralLookup": {
+            "n": 6,
+            "step": 61,
+            "programCounter": "110",
+            "j": 3,
+            "nextFocusIndex": 4,
+            "operation": "read-next-bit"
+          },
+          "grayPrefixLengthBeforeUndefined": 61
+        }
+      ],
+      "r1EndpointDeadTailCompletion": {
+        "n": 6,
+        "completed": true,
+        "actualVisitedWords": 64,
+        "allOriginalGrayWordsInOrder": true,
+        "maxAuxiliaryBitChangesPerStep": 2,
+        "lowP_AIdentityAlwaysHolds": true,
+        "unobservableTerminatingTailOperationsSkipped": [
+          {
+            "n": 6,
+            "step": 61,
+            "programCounter": "110",
+            "j": 3,
+            "nextFocusIndex": 4,
+            "operation": "read-next-bit"
+          },
+          {
+            "n": 6,
+            "step": 62,
+            "programCounter": "111",
+            "j": 3,
+            "nextFocusIndex": 4,
+            "operation": "read-next-bit"
+          },
+          {
+            "n": 6,
+            "step": 63,
+            "programCounter": "101",
+            "j": 3,
+            "nextFocusIndex": 4,
+            "operation": "reset-next-bit"
+          }
+        ],
+        "stopAttemptStep": 64,
+        "stopGrayBit": 6
+      },
+      "bothOriginalSourceBoundsAreInclusive": true,
+      "endpointQualification": "Atn6theliteral4-rowtablelooksforf4atstep61,p110,j3,beforestopa6atstep64. Explicitfinitecompletion skips3subsequentlyunobservableauxiliarytailoperations,requiresnoextraauxbitandgeneratesall64words. Thiscompletionnotassertedexplicitinprintedtable,nogeneral-rorone-auxbitoptimizedimplementationclaim."
+    },
+    "qualification": [
+      "43onlyfirstestimateandnewChinesehistoryopening,rest590notyetaccepted.",
+      "CurrentSet→置值headertranslationisoneexplicitsourcecorrection.",
+      "8squarepolynomialidentityexact,16nonexistence/historicalreferencesonlysourcecompared.",
+      "Wordmaximumfromfrozenactualdatasetbeforetranscription,nowcurrentpagewordfields/exclusionsverifiedwithoutalteringoldnullpageSHA.",
+      "42endpointliteralarrayboundissuepreservedandclearlyqualified,noinventedbodyinstructions."
+    ]
+  },
+  "privateEvidenceSha256": "49d8ff1bdef28bb8d55b98885896fc3c73bfb66b893a1fda10c00537bef83aa1",
+  "explicitAddressCompletion": {
+    "scope": "Actual independent explicit2-bit address completion of originalr1table; not assertion of author implementation",
+    "pageMarkdownSha256": "c3f0900e99aaab558ae58532db5e9e6be03d402c8c492b6ad7b295fff4a7ecae",
+    "sourceModelSha256": "6a3520003a1b20370f8eef9651243c9d147a8cb6f8efc3ab8ae954286d181683",
+    "derivedFunctionSourceSha256": "9d450a0c98880fae1e301ffa3bd5a43047f471bb36d4c05f3414164a320522f7",
+    "addressConvention": "Allnext-focusaddresses(j+1)maskedmod4,nostatebitsadded",
+    "originalUnboundedAndDeadTailReceiptSha256": "49d8ff1bdef28bb8d55b98885896fc3c73bfb66b893a1fda10c00537bef83aa1",
+    "runs": [
+      {
+        "n": 3,
+        "completed": true,
+        "actualVisitedWords": 8,
+        "allOriginalGrayWordsInOrder": true,
+        "maxAuxiliaryBitChangesPerStep": 2,
+        "lowP_AIdentityAlwaysHolds": true,
+        "unobservableTerminatingTailOperationsSkipped": [],
+        "stopAttemptStep": 8,
+        "stopGrayBit": 3
+      },
+      {
+        "n": 4,
+        "completed": true,
+        "actualVisitedWords": 16,
+        "allOriginalGrayWordsInOrder": true,
+        "maxAuxiliaryBitChangesPerStep": 2,
+        "lowP_AIdentityAlwaysHolds": true,
+        "unobservableTerminatingTailOperationsSkipped": [],
+        "stopAttemptStep": 16,
+        "stopGrayBit": 4
+      },
+      {
+        "n": 5,
+        "completed": true,
+        "actualVisitedWords": 32,
+        "allOriginalGrayWordsInOrder": true,
+        "maxAuxiliaryBitChangesPerStep": 2,
+        "lowP_AIdentityAlwaysHolds": true,
+        "unobservableTerminatingTailOperationsSkipped": [],
+        "stopAttemptStep": 32,
+        "stopGrayBit": 5
+      },
+      {
+        "n": 6,
+        "completed": true,
+        "actualVisitedWords": 64,
+        "allOriginalGrayWordsInOrder": true,
+        "maxAuxiliaryBitChangesPerStep": 2,
+        "lowP_AIdentityAlwaysHolds": true,
+        "unobservableTerminatingTailOperationsSkipped": [],
+        "stopAttemptStep": 64,
+        "stopGrayBit": 6
+      }
+    ],
+    "qualification": "All64n6outputsand≤2auxiliary-bitbudgetholdwithexplicitmodularaddresscompletionaswellasdead-tail-skipcompletion. Ordinaryunboundedarrayindexingliteralmodelrequiresf4atstep61;sourceboundretained,nochoiceclaimedasauthorshardware."
+  },
+  "addressEvidenceSha256": "b7e63fbebbe066cbc0a54d13742092d09202dc584a0f2ac190eb348a07e83d04",
+  "beforeTranscriptionRawWordReceiptSha256": "f83c77e80014f94cdc4514930f314ebea2ad164a2d4230b894cc4d474adcf81c",
+  "originalRawWordPageSha256RemainsNull": true,
+  "allOriginalGeneralAndHistoricalClaimsIndependentlyProved": false
+}

@@ -1,0 +1,531 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignOff": false,
+  "scope": "CompleteCN556557/138de/139through146/full147T1T5andmappingintro;mappingcontinues558",
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 556,
+      "cnPrintedPage": "541",
+      "enPdfPages": [
+        663,
+        664
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "c82228ccc7ea6373cd0791363593bfcba0f106b7fdeb26dca4daa6a69f69e259",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "33392d0ae02cd5d3ecace2d1b2029e713fb4ce86817d5e341da169fcf8d907f9",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "Complete Chinese source page and the available corresponding English contents directly compared; preserved edition differences are not asserted equal. No human sign-off.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "448fba3ec06b31ddea76d6fe1388c1c1e25807f3abf5c841b9a34da5729897cd",
+      "enPageImages": [
+        {
+          "physicalPage": 663,
+          "sha256": "442132c8d863fc59917bcc8ede562781eef0278273a06be3420b7943fb3cb311"
+        },
+        {
+          "physicalPage": 664,
+          "sha256": "5bfb62bf00ad104a9b0cfc541c5d8dbb5f1fe63833d4647bd7d3296f2b5c3200"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 556,
+        "markdownSha256": "c82228ccc7ea6373cd0791363593bfcba0f106b7fdeb26dca4daa6a69f69e259",
+        "htmlSha256": "e120ea3b94645b2031ff6e58caf8e75ba928f12c7b234a5e029c856461a5044a",
+        "mathExpressions": 116,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "bac28ba718b03d98593da17816d02aecaf1849af417206ce3121ef6087b80cef",
+      "syntaxEvidenceFile": "syntax-556-557.json",
+      "coveredRegions": [
+        "138(d)fullinitializationandmainloop/allrotations/unaugmentedELIMexception;(e)fullspacebounds/bothbinomialcallcounts/timebounds/HWBremark/FriedmanSupowithistoricalnote;139entiremulti-rootmulti-sinkregionalinterpretation;140allreweighting/lowerbound/cutmeaning/citation;141complete22variableexpression/5inputcore/40statement/consecutiveblock/citation;142(a)allthresholds/oddm/strictinequality/prefixsum/organpipeandceil;(b)allweights/indexdomains/sets/pairings/fullmatrixweightandlastFalseTrueargument"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "139regionalQDDinterpretation/printed541",
+          "enPosition": "EN663printed646,consider nodes to be at level0 and as sinks",
+          "original": "考虑在第0层的xa上分支的所有QDD结点，以及在xb+1上分支为汇结点的所有结点",
+          "final": "把所有在xa上分支的QDD结点视为第0层，把所有在xb+1上分支的结点视为汇结点",
+          "basis": "Restorewhichnodesaretreatedasregionalrootsandfrontiersinks;notanewjumpalgorithm."
+        },
+        {
+          "location": "140on-demandgeneration/printed541",
+          "enPosition": "EN663printed646,on the fly as needed",
+          "original": "当需要时通过不停地产生",
+          "final": "通过在需要时即时产生",
+          "basis": "On-the-flygenerationisondemand,nottheuninterruptedgenerationimpliedby不停地."
+        },
+        {
+          "location": "140heuristicpurpose/printed541",
+          "enPosition": "EN663printed646,lower bound that focuses the search yet is not difficult to compute",
+          "original": "把注意力集中到仍然不难计算的搜索，寻找一个有效的下界",
+          "final": "寻找一个仍然不难计算、又能有效聚焦搜索的下界",
+          "basis": "Thecomputational-easequalifierbelongstothelowerbound,whosesearch-focusingeffectisdesired."
+        },
+        {
+          "location": "140cutlayerdefinition/printed541",
+          "enPosition": "EN663printed646,begins with X on top l levels and q on next level",
+          "original": "对于f的带X的QDD，在它的顶部l层上有下一层的q个非常量结点",
+          "final": "f的QDD在顶部l层以X开头、下一层有q个非常量结点",
+          "basis": "Restoretheprefixvariable-setandnextlayerrelationship;max(q,n-l)unchanged."
+        },
+        {
+          "location": "142(b)I/Juniverse/printed541",
+          "enPosition": "EN663664printed646647;bothoriginaldomains0<=i,j<2m",
+          "original": "I和J是{1,...,2m}的子集",
+          "final": "I和J是{0,...,2m-1}的子集",
+          "basis": "Followthetwice-explicit0baseddomaininthevariabledefinitionandfullmatrixsum;thereisnoexplicitrenumbering.Sourcebothhavethismismatch.Notanofficialcorrectionclaim."
+        },
+        {
+          "location": "142(b)x0scope/printed541",
+          "enPosition": "EN664printed647,x0=0 and xij=0 if in Xl minus Xprime",
+          "original": "如果xij在Xl减Xprime中，x0=0且xij=0",
+          "final": "置x0=0，并且当xij在Xl减Xprime中时置xij=0",
+          "basis": "Englishfixesx0unconditionally;restorethisoutsideconditiononmatrixvariables."
+        },
+        {
+          "location": "142(b)fullmatrixsum/printed541",
+          "enPosition": "EN664printed647;bothoriginalsomitfirstm",
+          "original": "(2^(2m)-1)(1+2^(2m+1)m)",
+          "final": "m(2^(2m)-1)(1+2^(2m+1)m)",
+          "basis": "Four-blockpairinggiveseachrowandcolumnmonebits:sum=m*sum2^i+m*m*2^(2m+1)*sum2^j.Rootm1..6finitepathsandindependentm2fourlegalprefixassignmentsgive1950ratherthan975form2;onlythisidentitycorrected,notafullgeneralBDDlowerboundproof."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "138historicalnote",
+          "en": "Explicitlydescribesmethodform=1",
+          "cn": "Single-functioncontextofquestion138impliesm1withoutrepeatingthequalifier",
+          "treatment": "KeepselectedChinese;reporttheEnglishscopeforhistoricalreference,nogeneralBDDbaseperformanceclaim."
+        }
+      ],
+      "machineErrorsCorrected": [
+        "Restore138bothbinomialcallcountsandnestedpower2^(2^(n-k));ordinaryQknotspuriousbars;allold-RHSy/wrotationsandunaugmentedELIMexception",
+        "Restore141entireB(g)=40=Bmin(g)clauseomittedfromworkingdraft;all5coreargumentsandouter22variableexpression",
+        "Restore142strictthreshold/ceilnotambiguoussquarebrackets;allfourpairedvariables/complements/tindicesandbothboxedterminalsymbols"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "continuation": {
+        "previousCnPdfPage": 555,
+        "nextCnPdfPage": 557,
+        "scope": "138(d)continuesasnewparagraph;complete138candidatejoins554intro/555dataandELIM/556loopanalysis.142bodyendscomplete;142historicalnoteisnextpage."
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "Whole714/mother/offline/routed/onlineacceptance"
+      ],
+      "numericChecks": {
+        "receipt": "root-answer-checks/556-557-fields.json",
+        "scope": "273completefinitecharts/3250cofactoredges/2coloredregionalexamples;141composite40;142oddm3/5/7and126balancedprefixassignmentsm1..6;143all1048576inputsandgiven80/1913;144145quasiprofile31/107/39111;522inequalitycuts.Notgeneralcomplexityoroptimumproof."
+      },
+      "sourceEditionQualifications": {
+        "142b": "Independentpeeronlysourcefragmentsandm2arithmetic;rootrow/columnalgebraandm1..6checksseparatelyjustifyfactorM.Noauthor-intentorfullgeneralboundclaim.",
+        "138nuRho": "Populationcountandtrailingzerointerpretationreproducestheentireactual16-orderexampleinEN285question138c;allrhsrotationsusesnapshottedoldvalues."
+      },
+      "assets": []
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 557,
+      "cnPrintedPage": "542",
+      "enPdfPages": [
+        664,
+        665
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "415e1e2ef68a4d38902bf938c5b928ee941ca71b054f4bb58dc6ee564fa503a7",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "3bef0079e5d092b6a266b37c6473c156254888c105aca62cb4417351e43711a9",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "Complete Chinese source page and the available corresponding English contents directly compared; preserved edition differences are not asserted equal. No human sign-off.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "6e6d3b16bf040f6841be6b4ac76ad1760e7865ed3a4511a32c560fe36955ce39",
+      "enPageImages": [
+        {
+          "physicalPage": 664,
+          "sha256": "5bfb62bf00ad104a9b0cfc541c5d8dbb5f1fe63833d4647bd7d3296f2b5c3200"
+        },
+        {
+          "physicalPage": 665,
+          "sha256": "5420e6a9d714910296b4a21b5d07feb8a38313eb413ff8c936b139fd4933435b"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 557,
+        "markdownSha256": "415e1e2ef68a4d38902bf938c5b928ee941ca71b054f4bb58dc6ee564fa503a7",
+        "htmlSha256": "6bf5731d4a3c778dd02e4e86dcd19fd8b98a89f8366cbbe0ee5529029771bf95",
+        "mathExpressions": 117,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "bac28ba718b03d98593da17816d02aecaf1849af417206ce3121ef6087b80cef",
+      "syntaxEvidenceFile": "syntax-556-557.json",
+      "coveredRegions": [
+        "142completehistoricalnoteandself-dualitysourcequestion;143all20givenbestweights/all21profilevalues/all20worstweights/entirealternative20weightfunction/citation;144complete9entryquasiprofileand5QDDfunctions;145allfourbittarget/order/31/107andtwelvebit24variableorder/39111/bothgeneralbibliographicstatements;146allinequalitiesandcompletealpha/beta/gammaconstruction;147allT1T5/allREFdecrementsandUNIQUEincrements/INSERTkeysemantics/internalorder/inversemappingparagraphendingUNIQUE(v,p,q)"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "147T5/printed542",
+          "enPosition": "EN665printed648,recycle node p",
+          "original": "重复处理结点p",
+          "final": "回收结点p供重用",
+          "basis": "Restorememory-recyclestep,ratherthanrepeatingnodeprocessing;LINKtraversalandREFinstructionsunchanged."
+        },
+        {
+          "location": "147INSERTdescription/printed542",
+          "enPosition": "EN665printed648,the key will not already be present",
+          "original": "这个键码将不再是当前的",
+          "final": "表中尚不会有这个键码",
+          "basis": "Restoreabsenceofduplicatekeyintheuniquetable,notastale-keyinterpretation."
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "machineErrorsCorrected": [
+        "Restoreentire143alternative20weightvectorlostafterx6inmachine;rootfirstunaccepteddraftx11wasmisread244,actuallyCNandENhighboth224;all1048576inputsnowequivalent;notabookerratum",
+        "Restore145twelvebitvalue39111notworking39-11;all24variableordermembers",
+        "Restore146allbeta/gammaandthreeunions/bounds;147allcircledvariables/Lambda/assignmentarrows/q0=q1=q/r0=r1=r/HI/REFandrho=pi^-1"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": true,
+      "continuation": {
+        "previousCnPdfPage": 556,
+        "nextCnPdfPage": 558,
+        "scope": "147T1T5fullyon557butexternal-mappingexplanatoryparagraphcontinues558afterUNIQUE(v,p,q);donotfillunseenCNcontinuationfromEnglish."
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "Whole714/mother/offline/routed/onlineacceptance"
+      ],
+      "numericChecks": {
+        "receipt": "root-answer-checks/556-557-fields.json",
+        "scope": "273completefinitecharts/3250cofactoredges/2coloredregionalexamples;141composite40;142oddm3/5/7and126balancedprefixassignmentsm1..6;143all1048576inputsandgiven80/1913;144145quasiprofile31/107/39111;522inequalitycuts.Notgeneralcomplexityoroptimumproof."
+      },
+      "sourceEditionQualifications": {
+        "143DigitCorrection": "Rootunacceptedmisread244failedfiniteequivalence,thenactualCN557andEN664highimagesrestoredoriginal224;historykept.Nooriginalbookcorrection.",
+        "AdditionOrder": "OriginalEN233Eq36actuallyread;MSB-firstnumberingisessential.InitialcheckerLSB-firstassumptiongave42ratherthan31;checkerfixedaftersourceview,manuscriptnotchanged.Nofalseauthorerratum.",
+        "141Notation": "Size40wascomputedforthegiven22variablecompositeexpression,notitsfiveinputcore;sourceGnotationretained.",
+        "147": "LiteralT1T5sourcecomparisonanddisplayproofonly,nogeneralmanagerorREFexecutionclaim."
+      },
+      "assets": []
+    }
+  ],
+  "numericChecks": {
+    "checkerSha256": "1e00c59f394d85facf4df06f257538930cb9f47d1464597ed14e97874494adcf",
+    "factoryDependencySha256": "fe93efe5d116f8594d2b38df4b52ae1d51b4d3e06390d99ba0be97743dd877dd",
+    "pageMarkdownSha256": {
+      "556": "c82228ccc7ea6373cd0791363593bfcba0f106b7fdeb26dca4daa6a69f69e259",
+      "557": "415e1e2ef68a4d38902bf938c5b928ee941ca71b054f4bb58dc6ee564fa503a7"
+    },
+    "138": {
+      "completeSourceUnpackElimJumpUpChartBooleanFunctionCases": 273,
+      "functionScope": "AllNonconstantFunctionsThrough3PlusTwoOriginalFourVariableTruthTablesAndFiveVariableHWB",
+      "directDistinctCofactorEdgeComparisons": 3250,
+      "allSource16FiveVariableOrdersMatched": [
+        "12345",
+        "21345",
+        "32145",
+        "31245",
+        "43125",
+        "41325",
+        "42135",
+        "42315",
+        "54231",
+        "52431",
+        "53241",
+        "53421",
+        "51342",
+        "51432",
+        "51243",
+        "51234"
+      ],
+      "allSubsetPrefixBitmapsAndAugmentedUnaugmentedCallBinomialsMatched": true,
+      "rhsRotationUsesSimultaneousOldYbAndOldWValues": true,
+      "nuRhoInterpretation": "populationcountandtrailingzeros;all16originalquestion138cordersmatched",
+      "generalTimeAndSpaceAsymptoticsSourceOnly": true
+    },
+    "139": {
+      "twoMultiRootMultiSinkColoredTruthTableExamplesMatchedDirectRegionalCharts": true,
+      "generalizationNotProvedForArbitraryBDDBase": true
+    },
+    "140": {
+      "generalShortestPathAndHeuristicArgumentsOnlySourceCompared": true
+    },
+    "141": {
+      "given22VariableCompositeNaturalOrderBDDSize": 40,
+      "sourceGNotationPreserved": true,
+      "globalMinimumAndConsecutiveBlockImpossibilitySourceOnly": true
+    },
+    "142a": [
+      {
+        "m": 3,
+        "restrictedSubfunctionsDistinct": 3,
+        "lowerBound": 2,
+        "organPipePrefixCuts": [
+          {
+            "k": 1,
+            "distinctCeilValues": 4
+          }
+        ]
+      },
+      {
+        "m": 5,
+        "restrictedSubfunctionsDistinct": 7,
+        "lowerBound": 6,
+        "organPipePrefixCuts": [
+          {
+            "k": 1,
+            "distinctCeilValues": 4
+          },
+          {
+            "k": 2,
+            "distinctCeilValues": 6
+          },
+          {
+            "k": 3,
+            "distinctCeilValues": 8
+          }
+        ]
+      },
+      {
+        "m": 7,
+        "restrictedSubfunctionsDistinct": 21,
+        "lowerBound": 20,
+        "organPipePrefixCuts": [
+          {
+            "k": 1,
+            "distinctCeilValues": 4
+          },
+          {
+            "k": 2,
+            "distinctCeilValues": 6
+          },
+          {
+            "k": 3,
+            "distinctCeilValues": 8
+          },
+          {
+            "k": 4,
+            "distinctCeilValues": 10
+          },
+          {
+            "k": 5,
+            "distinctCeilValues": 12
+          }
+        ]
+      }
+    ],
+    "142b": {
+      "balancedPathFiniteExamples": [
+        {
+          "m": 1,
+          "paths": 2,
+          "actualBalancedWeight": 27,
+          "sourcePrintedWeight": 27,
+          "sourceEqualityHolds": true
+        },
+        {
+          "m": 2,
+          "paths": 4,
+          "actualBalancedWeight": 1950,
+          "sourcePrintedWeight": 975,
+          "sourceEqualityHolds": false
+        },
+        {
+          "m": 3,
+          "paths": 8,
+          "actualBalancedWeight": 72765,
+          "sourcePrintedWeight": 24255,
+          "sourceEqualityHolds": false
+        },
+        {
+          "m": 4,
+          "paths": 16,
+          "actualBalancedWeight": 2089980,
+          "sourcePrintedWeight": 522495,
+          "sourceEqualityHolds": false
+        },
+        {
+          "m": 5,
+          "paths": 32,
+          "actualBalancedWeight": 52382715,
+          "sourcePrintedWeight": 10476543,
+          "sourceEqualityHolds": false
+        },
+        {
+          "m": 6,
+          "paths": 64,
+          "actualBalancedWeight": 1207689210,
+          "sourcePrintedWeight": 201281535,
+          "sourceEqualityHolds": false
+        }
+      ],
+      "currentCorrectedFactorM": true,
+      "rowColumnSumAlgebra": "Everyrowandcolumnhasmonebits;sum=m*sum(2^i)+m*m*2^(2m+1)*sum(2^j).",
+      "independentM2PeerSha256": "ed9fcd7adeae9ed7b772413b2b2c1032cea9f2a48cd3ad8ae39fea9f4221c9b3",
+      "indexUniverseCorrection": "I/J0..2m-1matchesexplicitvariableandmatrixsumdomains;source1..2mrecorded",
+      "x0ScopeRestoredUnconditionalAsEnglish": true,
+      "generalExponentialLowerBoundNotReproved": true
+    },
+    "143": {
+      "givenOrganPipeProfile": [
+        1,
+        2,
+        2,
+        4,
+        3,
+        6,
+        4,
+        8,
+        5,
+        10,
+        4,
+        8,
+        3,
+        6,
+        2,
+        4,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "givenOrganPipeSize": 80,
+      "givenWorstOrderSize": 1913,
+      "alternativeIntegerWeightsAllInputValuesEquivalent": 1048576,
+      "globalExtremalitySourceOnlyNotAll20FactorialOrdersSearched": true
+    },
+    "144and145": {
+      "fourBitAdditionFullFiveOutputQuasiProfile": [
+        5,
+        7,
+        7,
+        10,
+        6,
+        9,
+        5,
+        4,
+        2
+      ],
+      "source36MSBFirstInterleavedFourBitForestSize": 31,
+      "source36PhysicalEnglishPage": 233,
+      "LSBFirstAssumptionFailedAndWasNotManuscriptError": true,
+      "givenFourBitWorstForestSize": 107,
+      "givenTwelveBit24VariableWorstForestSize": 39111,
+      "allFourBitSumInputOutputValuesChecked": 1280,
+      "twelveBitFullTruthEnumerationNotPerformed": true,
+      "generalExtremalTheoremsSourceOnly": true
+    },
+    "146": {
+      "allNonconstantTwoThreeVariableSingleRootCutInequalityCases": 522,
+      "generalBDDBaseConverseConstructionSourceOnly": true
+    },
+    "147": {
+      "T1T5andReferenceCounterInstructionsComparedToOriginalsOnly": true,
+      "fullAlgorithmRuntimeOrReferenceManagerExecutionNotClaimed": true,
+      "mappingParagraphContinues558": true
+    },
+    "qualifications": [
+      "CurrentUnboundDraftsNotPageAcceptance",
+      "142bIndexAndFactorMCorrectionsHaveSourceAndIndependentM2Evidence;NotFullGenericLowerBoundReproof",
+      "Whole714/Mother/Offline/Routed/OnlineAcceptancePending"
+    ]
+  },
+  "numericChecksSha256": "e78ab4bc66ca82356f04ac1f3178250ad919a60515b86c2ea09858a1340a8a61",
+  "browser": {
+    "widths": [
+      1280,
+      390
+    ],
+    "acceptedDistinctPageCases": 4,
+    "mathExpressionsPerPass": 233,
+    "errors": 0,
+    "wholePageOverflow": 0,
+    "mathmlContainsProse": 0,
+    "actualFontFacesLoaded": true,
+    "evidenceSha256": "994053d86e78859f61c889273bba1f0228300a90629bf98a9ab4cc61a55c5064",
+    "wholeScreensActuallyViewed": 12,
+    "mathEndpointScreensActuallyViewed": 32,
+    "mathEndpointEvidenceSha256": {
+      "556": "5e4904c36b48125749ae1b594b4eb0623df39ae9a5291642d3ce6ae42ae0ac3e",
+      "557": "f80eb6dbdfe577ca3b435cbe9c96a997baae48417c90376f5b8046b1d0e59b47"
+    },
+    "circledUAndVLabelsActuallyViewed": true
+  },
+  "completeAnswer138Proof": {
+    "scope": "PrivateCompleteAnswer138CandidateNotMother",
+    "candidateSha256": "04e436a64bbbe808d581052acb25515e47ed97be4ef79baf6ba0c6351ce0a12f",
+    "sourcePageMarkdownSha256": {
+      "554": "ba791e5ce223bf489ecea2e3ac3055b61bb8065d5a0bad624b0f580543dd0c07",
+      "555": "c98e88449287e8530282161dbe3df47aa63bbcc7164287a98f5e28b378269974",
+      "556": "c82228ccc7ea6373cd0791363593bfcba0f106b7fdeb26dca4daa6a69f69e259"
+    },
+    "assemblyReceiptSha256": "b788543607eeca1a0caaafa0a90e3b0d09032452e6d2718b8f66c9a7ccd48c86",
+    "renderEvidenceSha256": "d7f887738b1ca9072c32525880e2cf6b6d5dc74a3befd79dd791a3acbf5e0702",
+    "actualBrowserEvidenceSha256": "659a406d990b47c15df8c0ee17e511771e0592aa72c8ddcdeaa868d0109dc5e9",
+    "mathExpressions": 161,
+    "codeBlocks": 1,
+    "allSourceTeXCodeImagesAndNonWhitespaceBodyPreserved": true,
+    "bothWidthCandidateScreensActuallyViewed": true,
+    "displayTransforms": [
+      "Reuseproved138aactual例如(92)joinandcoarse555pageanchorbeforewholeintro",
+      "Appendremaining555bcdand556deparagraphswithoutchangingnonwhitespacebody",
+      "Physical556anchorsremainbeforeinitializationparagraph;allTeXCodeImagesPreserved"
+    ],
+    "finalMotherUse": "Thisfull138candidatesupersedes138ainthefinalmother;keeptheold138apartialproofashistory,donotincludeanswer138twice.",
+    "additionalPhysicalPageCoverage": 0,
+    "pending": [
+      "Whole714/mother/offline/routed/onlineacceptance"
+    ]
+  },
+  "extraActualContextImages": {
+    "en-285-556-context.png": "c707c14c589f82f29492e306ef48e2f3a41b04dbabaf82826d06720d56865b30",
+    "en-286-556-context.png": "39af911d9d1d8d8a5021a993cf8414afbeb8ce49f982e86e95ae68ebc115e390",
+    "en-233-556-addition-context.png": "85e240231bd141c582881c26d1f477efdbec76b0f75678ab8ed0549b9ec16717",
+    "en-234-556-addition-context.png": "fa08db222fdf44f153d4077103860bf14f07b39e6f1bcade8c3d038bb09f9ad1",
+    "en-235-556-addition-context.png": "7158700c40968c262958a1dde2ba25b4a17f17ba68bd43063373dc76152a9368",
+    "cn-557-143-alternative-weights-detail.png": "5b9f7c38836b3271af659a43f6ff78d66ad47ba22da23915c43a7aa07d027491",
+    "en-664-143-alternative-weights-complete-detail.png": "fba41eb1c07e2a16d6dc0af498e3b47128a945c74777708d75467340d4aee627",
+    "en-663-142a-ceil-detail.png": "4d3e169be8d90aa8420da6a78b39007954cdd959e587ddd8ed4b8cfd56901f67"
+  },
+  "qualifications": [
+    "NineSpecifiedSubstantiveCorrectionsOnly;OriginalFailedDraftsAndCheckerAssumptionsPreserved",
+    "Root143x11Misread244RestoredToActualOriginal224;NotBookError",
+    "OriginalAddition36ActuallyMSBFirst;InitialLSB42AssumptionWasCheckerErrorNotSourceError",
+    "142bOnlyIndexConsistency/X0Scope/WeightIdentityCorrected;NotGenericLowerBoundRefutationOrFullRepair",
+    "OriginalFiniteChartsAndGivenOrdersVerified;GeneralAsymptotics/GlobalOptimality/147ManagerRuntimeOnlySourceCompared",
+    "Whole714/mother/offline/routed/onlineacceptancePending"
+  ]
+}

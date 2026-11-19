@@ -1,0 +1,1059 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-assigned-physical-page-source-review-and-private-two-width-proof",
+  "cnPhysicalPages": [
+    400,
+    401,
+    402
+  ],
+  "cnPrintedPages": [
+    385,
+    386,
+    387
+  ],
+  "masterSha256": null,
+  "mathExpressions": 216,
+  "privateBrowserCases": 6,
+  "substantiveCorrections": 8,
+  "logicalAssemblies": [
+    {
+      "file": "assets/volume4a/review/body-400-402-spanning-trees-and-algorithm-s-400-402-assembly.json",
+      "sha256": "97a9ed8780b4e7d233d8c911e43c3052e25ff801e51eff1e4096c1e7abc8448a"
+    }
+  ],
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 400,
+      "cnPrintedPage": 385,
+      "enPdfPages": [
+        480,
+        481
+      ],
+      "enPrintedPages": [
+        463,
+        464
+      ],
+      "pageMarkdownSha256": "fe78146515cc66372c5591619f28a9be6472d63920f2de64eff829f89869044b",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/400.jpg",
+      "sourcePageImageSha256": "aa3f14c35b9e935eeee3263ec3d465f4b0425487d3b8895334d3dc9df150548f",
+      "enPageImages": [
+        {
+          "physicalPage": 480,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-480.png",
+          "sha256": "f6ba0fc6c35aa31f7e3a6c432612c4a0223f58b00ba8d40537b180c6c044da27"
+        },
+        {
+          "physicalPage": 481,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-481.png",
+          "sha256": "0c4265222e52fd6c0914952c9af88f3fb9b1287831c816058ce61c17dda832b0"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-400",
+        "p-385"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-080",
+          "section": "7.2.1.6",
+          "cnPdfPage": 400,
+          "enPdfPages": [
+            480
+          ],
+          "location": "列举含边p的五棵生成树",
+          "original": "pqs、pqt、pts、ptr、prs 等树生成了G",
+          "final": "$pqs,pqt,pts,ptr,prs$ 都是 $G$ 的生成树",
+          "basis": "EN480 span G 指五棵树均在同一个图内覆盖全部顶点。有限枚举原图的5棵含p的生成树，与此列表相符。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "fe78146515cc66372c5591619f28a9be6472d63920f2de64eff829f89869044b",
+          "cnPrintedPage": 385
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-eq48-spanning-example.svg",
+          "sha256": "96ed4ac78948b8764aa46d8586ae5aad6c113d5eb8de8ec4c6bc441b480c78c6"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-eq49-spanning-contract-p.svg",
+          "sha256": "d3f77335e0a8b2567967a50aff94349e14ced68cef2b08b56d8b4c6c94b0f4a7"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-eq50-spanning-delete-p.svg",
+          "sha256": "fa379f472e5764222be9ad9378a7ca5b650bdb55f6710c13d988b2b52145fb5e"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 400,
+        "markdownSha256": "fe78146515cc66372c5591619f28a9be6472d63920f2de64eff829f89869044b",
+        "htmlSha256": "1186b8459e488cd7fc504422f943fa1c281340ae4e091411e4bbaf4263a03ac1",
+        "mathExpressions": 50,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 3,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/result.json",
+        "sha256": "4665b98437a03ab4f6098da2a2774585a393f3f2184faab79e52d92bfc5449a6",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 50,
+            "mathML": 50,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 400,
+            "width": 1280,
+            "pageMarkdownSha256": "fe78146515cc66372c5591619f28a9be6472d63920f2de64eff829f89869044b",
+            "htmlSha256": "1186b8459e488cd7fc504422f943fa1c281340ae4e091411e4bbaf4263a03ac1",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq48-spanning-example.svg",
+                "opened": true,
+                "screenshot": "400-1280-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq49-spanning-contract-p.svg",
+                "opened": true,
+                "screenshot": "400-1280-original-image1.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq50-spanning-delete-p.svg",
+                "opened": true,
+                "screenshot": "400-1280-original-image2.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          },
+          {
+            "documentWidth": 390,
+            "math": 50,
+            "mathML": 50,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 400,
+            "width": 390,
+            "pageMarkdownSha256": "fe78146515cc66372c5591619f28a9be6472d63920f2de64eff829f89869044b",
+            "htmlSha256": "1186b8459e488cd7fc504422f943fa1c281340ae4e091411e4bbaf4263a03ac1",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq48-spanning-example.svg",
+                "opened": true,
+                "screenshot": "400-390-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq49-spanning-contract-p.svg",
+                "opened": true,
+                "screenshot": "400-390-original-image1.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq50-spanning-delete-p.svg",
+                "opened": true,
+                "screenshot": "400-390-original-image2.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/400-1280-walk0.png",
+          "sha256": "a0d19cadb022eb4337b09bfecf93bfb64a86e83254fc7eefd7849550aa5313f2",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/400-1280-walk1.png",
+          "sha256": "047692b88ed27ae4f262528aba7cc0333c977b6d432e0a3f4d3c57672d2809be",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/400-1280-walk2.png",
+          "sha256": "af7c67405dd0ae0a899eb257eb7201ec9490f501bedf19e18aefdf1bd0ee21f6",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/400-390-walk0.png",
+          "sha256": "ed89e7ecf574eecb6d46d629e10a10a09dea1ed0fb80beefe1a189e9b602a492",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/400-390-walk1.png",
+          "sha256": "62ed49d44ce244202b8fe11cf39123d22c9b8d836113f4531d36671e80e0b3bc",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/400-390-walk2.png",
+          "sha256": "c03764f31cf5987fe6b8a714bc054cd3c2fb93149ca99da039e9f5901f395e5a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/400-390-walk3.png",
+          "sha256": "326f813eb53378c363d57ad51a6f7132dccbf7c0468c7f76c8632ace913b8854",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/400-390-walk4.png",
+          "sha256": "2f63215decf7ac0b2f22c68df0e3c72a12aea6493edd8be70a9f14f98a8be44f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/400-1280-original-image0.png",
+          "sha256": "ba6cdf87de8ba130071c82d2ed0c18ff2f09ad15ab334f839c4f129df655596f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/400-1280-original-image1.png",
+          "sha256": "cc3893933c23080c769982ebc592065da8822b2f24e6e374fb968ed6b786362b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/400-1280-original-image2.png",
+          "sha256": "704a126e12d57f5432686d47c1f6d600258c4f10f992cd5f5ed30f203835f2aa",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/400-390-original-image0.png",
+          "sha256": "9b16f60c72c4159ac0c7c81ab6b3393b7ee44d152106ca622e2d406055212b9a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/400-390-original-image1.png",
+          "sha256": "dde58072f037638b2123cb8153490334f244a8daf5d807437773b0820cfc8191",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/400-390-original-image2.png",
+          "sha256": "e0ea2aeab44c6270a18def22c422565ed00e724df29435ff9290fd9be7095bae",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-400-402-source-fields.json",
+        "sha256": "f0a009f7a6e2d517b25b1be30b96af6c99cbf5e109fda8844040fb8c791304d8"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-400-402-spanning-trees-and-algorithm-s-400-402-assembly.json",
+          "sha256": "97a9ed8780b4e7d233d8c911e43c3052e25ff801e51eff1e4096c1e7abc8448a"
+        }
+      ],
+      "coveredRegions": [
+        "Smith’s recursion and reduced graphs, all edges and labels of (48)–(50), complete two tree lists and pointer records before array."
+      ],
+      "followingPageContinuation": "CN401 completes 可以用 with the degree vector and 14-column array.",
+      "qualification": "Full CN400–402 and matched EN480–483, including real two-width proofs, the five original-image links, 70 displayed arc-array slots, and both located author changes. The independent enumeration applies only to the source example, all connected simple graphs up to four vertices and one stated multigraph.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/400-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "0a838de060c790d58ccd8ad3c663cfe8c48c4a425af309c359d2525db46fce24",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "dd4c629ae6036e37f521f4a6eb7cd1499cfa92f995d3a987720867a8115c9bbd",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/400.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 401,
+      "cnPrintedPage": 386,
+      "enPdfPages": [
+        481,
+        482
+      ],
+      "enPrintedPages": [
+        464,
+        465
+      ],
+      "pageMarkdownSha256": "f736178f5a2591096033e0788d7012eca4ee47a3ecfbef90caf9ce696f8ea3f7",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/401.jpg",
+      "sourcePageImageSha256": "e9888698f8c5110b2635af2f9ef79297e6b15117c74b9f78f8078a25c03cbeb7",
+      "enPageImages": [
+        {
+          "physicalPage": 481,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-481.png",
+          "sha256": "0c4265222e52fd6c0914952c9af88f3fb9b1287831c816058ce61c17dda832b0"
+        },
+        {
+          "physicalPage": 482,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-482.png",
+          "sha256": "62e0d2eb006051b573133f64aecbe970b20ac4fec7179fd206d637529a1d6b06"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-401",
+        "p-386"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-081",
+          "section": "7.2.1.6",
+          "cnPdfPage": 401,
+          "enPdfPages": [
+            481
+          ],
+          "location": "算法S标题后保证的遍历顺序",
+          "original": "算法将访问它的所有生成树",
+          "final": "算法按旋转门格雷码顺序访问它的所有生成树",
+          "basis": "作者2022年12月15日补上旋转门格雷码顺序；CN400对应叙述和S5的单边替换具体规定此顺序。",
+          "isAuthorOfficialErratum": true,
+          "authorChangeDate": "2022-12-15",
+          "authorChangeClassification": "algorithm output order already described by its steps",
+          "authorChangeEvidence": {
+            "printedEnPage": 464,
+            "image": "private-snapshot:volume4a/tail-body-review/sources/author-modern-errata-006.png",
+            "imageSha256": "01bd7d5c47bc330f54b2a70bfaa8099afcf83c49ad0a7a3c4a5268dbbab58bc6",
+            "documentPhysicalPage": 6,
+            "url": "https://cs.stanford.edu/~knuth/all4a.ps.gz",
+            "old": "trees.",
+            "new": "trees in a revolving-door Gray code order."
+          },
+          "pageMarkdownSha256": "f736178f5a2591096033e0788d7012eca4ee47a3ecfbef90caf9ce696f8ea3f7",
+          "cnPrintedPage": 386
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 401,
+        "markdownSha256": "f736178f5a2591096033e0788d7012eca4ee47a3ecfbef90caf9ce696f8ea3f7",
+        "htmlSha256": "143dad3cd63d75e5e2b4466951e49823ece468afdefe1f0df15900e23c32b8dc",
+        "mathExpressions": 101,
+        "displayMath": 3,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/result.json",
+        "sha256": "4665b98437a03ab4f6098da2a2774585a393f3f2184faab79e52d92bfc5449a6",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 101,
+            "mathML": 101,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 401,
+            "width": 1280,
+            "pageMarkdownSha256": "f736178f5a2591096033e0788d7012eca4ee47a3ecfbef90caf9ce696f8ea3f7",
+            "htmlSha256": "143dad3cd63d75e5e2b4466951e49823ece468afdefe1f0df15900e23c32b8dc",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [],
+            "spanningArcTable": {
+              "passed": true,
+              "rowCount": 5,
+              "entries": 70,
+              "observed": [
+                [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12",
+                  "13"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "1",
+                  "2",
+                  "1",
+                  "3",
+                  "2",
+                  "3",
+                  "2",
+                  "4",
+                  "3",
+                  "4"
+                ],
+                [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "p",
+                  "p",
+                  "q",
+                  "q",
+                  "r",
+                  "r",
+                  "s",
+                  "s",
+                  "t",
+                  "t"
+                ],
+                [
+                  "5",
+                  "4",
+                  "6",
+                  "10",
+                  "9",
+                  "7",
+                  "8",
+                  "0",
+                  "13",
+                  "11",
+                  "12",
+                  "1",
+                  "3",
+                  "2"
+                ],
+                [
+                  "7",
+                  "11",
+                  "13",
+                  "12",
+                  "1",
+                  "0",
+                  "2",
+                  "5",
+                  "6",
+                  "4",
+                  "3",
+                  "9",
+                  "10",
+                  "8"
+                ]
+              ]
+            }
+          },
+          {
+            "documentWidth": 390,
+            "math": 101,
+            "mathML": 101,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 628,
+                "left": 0,
+                "right": 318,
+                "max": 318,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 313,
+                "left": 0,
+                "right": 3,
+                "max": 3,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 401,
+            "width": 390,
+            "pageMarkdownSha256": "f736178f5a2591096033e0788d7012eca4ee47a3ecfbef90caf9ce696f8ea3f7",
+            "htmlSha256": "143dad3cd63d75e5e2b4466951e49823ece468afdefe1f0df15900e23c32b8dc",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [],
+            "spanningArcTable": {
+              "passed": true,
+              "rowCount": 5,
+              "entries": 70,
+              "observed": [
+                [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12",
+                  "13"
+                ],
+                [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "1",
+                  "2",
+                  "1",
+                  "3",
+                  "2",
+                  "3",
+                  "2",
+                  "4",
+                  "3",
+                  "4"
+                ],
+                [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "p",
+                  "p",
+                  "q",
+                  "q",
+                  "r",
+                  "r",
+                  "s",
+                  "s",
+                  "t",
+                  "t"
+                ],
+                [
+                  "5",
+                  "4",
+                  "6",
+                  "10",
+                  "9",
+                  "7",
+                  "8",
+                  "0",
+                  "13",
+                  "11",
+                  "12",
+                  "1",
+                  "3",
+                  "2"
+                ],
+                [
+                  "7",
+                  "11",
+                  "13",
+                  "12",
+                  "1",
+                  "0",
+                  "2",
+                  "5",
+                  "6",
+                  "4",
+                  "3",
+                  "9",
+                  "10",
+                  "8"
+                ]
+              ]
+            }
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/401-1280-walk0.png",
+          "sha256": "91c613e7d58c50b65524d276b4e337fc4452f2e4a155e41543a00477f9faabf2",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/401-1280-walk1.png",
+          "sha256": "343dd52bf5ed52d284ab37f33e6bcb6c9b1eadbba12daae48c0ecf62e1275d37",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/401-1280-walk2.png",
+          "sha256": "219b54c4352fc1d02ed9a8ac2e4ef6d725ae6ee74f96e1e5c95c9347c9bae71f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/401-390-walk0.png",
+          "sha256": "7e2e88bd8fcb0021b660889db01dae1f74d731c669a7a14aace655ec8fe0dac8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/401-390-walk1.png",
+          "sha256": "f862130b55d2b3984ed9c72640cc91c20f37dce91b8f132038ab662444f659a2",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/401-390-walk2.png",
+          "sha256": "dd7732d58e1ba387327f59092b9c8b7de617596ddfea261ff4a94bb6a997cea7",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/401-390-walk3.png",
+          "sha256": "47326e58f9c38f82996568d4bd18fb0bf8bf841339918a6099f36bd61e308e4c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/401-390-walk4.png",
+          "sha256": "c26747cf862cd0800d4e86b7a43962fd93ac6f513d0dd2a5153808571a59fda3",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/401-390-display0-right.png",
+          "sha256": "08d3645aa4951e4ae0accd0b4eda6281b57f0f68dd90db8a28db3148f040bf7a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/401-390-display1-right.png",
+          "sha256": "3e85428c4932475cd71f1ca79cc85c1957e853aced6a6da44f8cdc62fdae5593",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-400-402-source-fields.json",
+        "sha256": "f0a009f7a6e2d517b25b1be30b96af6c99cbf5e109fda8844040fb8c791304d8"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-400-402-spanning-trees-and-algorithm-s-400-402-assembly.json",
+          "sha256": "97a9ed8780b4e7d233d8c911e43c3052e25ff801e51eff1e4096c1e7abc8448a"
+        }
+      ],
+      "coveredRegions": [
+        "Fourteen heads/arcs, degree and linked fields, (51) and (52), Algorithm S introduction and S1–S7."
+      ],
+      "followingPageContinuation": "CN402 continues with S8 and S9, completing the algorithm.",
+      "qualification": "Full CN400–402 and matched EN480–483, including real two-width proofs, the five original-image links, 70 displayed arc-array slots, and both located author changes. The independent enumeration applies only to the source example, all connected simple graphs up to four vertices and one stated multigraph.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/401-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "c7fa2dd8746e8f243b7ca8bdcefa31cdfac73cb5e7235b844a5aa6ac3cee3eef",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "1e92f4e1d557385c42b7906eb060348b64ee03e6334da10dc0c3ac9d1de9ed0a",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/401.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 402,
+      "cnPrintedPage": 387,
+      "enPdfPages": [
+        482,
+        483
+      ],
+      "enPrintedPages": [
+        465,
+        466
+      ],
+      "pageMarkdownSha256": "c251a48de559e80a1dd4e160f72bb7fc853ad7c3c74cb31949b79c2b04b07eb8",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/402.jpg",
+      "sourcePageImageSha256": "f933031da6ebd67f6e3cde1976c5953aa418c9e74727f380ad264d8784c6ffe9",
+      "enPageImages": [
+        {
+          "physicalPage": 482,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-482.png",
+          "sha256": "62e0d2eb006051b573133f64aecbe970b20ac4fec7179fd206d637529a1d6b06"
+        },
+        {
+          "physicalPage": 483,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-483.png",
+          "sha256": "28625d529f120856a5a6b6f43a7a3a96e89afb9c64c9dc20c7bbc3d9db5d1f5c"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-402",
+        "p-387"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-082",
+          "section": "7.2.1.6",
+          "cnPdfPage": 402,
+          "enPdfPages": [
+            483
+          ],
+          "location": "式(53)之前分解树的内部结点范围",
+          "original": "没有1度结点的树",
+          "final": "一棵树，其内部结点均有至少两个子结点",
+          "basis": "作者2025年8月5日把限制收窄到内部结点。两种超边都定义k≥2；例如(53)的所有叶结点与父结点各有一条相接边。",
+          "isAuthorOfficialErratum": true,
+          "authorChangeDate": "2025-08-05",
+          "authorChangeClassification": "restrict one-child exclusion to internal vertices",
+          "authorChangeEvidence": {
+            "printedEnPage": 466,
+            "image": "private-snapshot:volume4a/tail-body-review/sources/author-modern-errata-006.png",
+            "imageSha256": "01bd7d5c47bc330f54b2a70bfaa8099afcf83c49ad0a7a3c4a5268dbbab58bc6",
+            "documentPhysicalPage": 6,
+            "url": "https://cs.stanford.edu/~knuth/all4a.ps.gz",
+            "old": "nodes of degree 1",
+            "new": "inner nodes of degree 1"
+          },
+          "pageMarkdownSha256": "c251a48de559e80a1dd4e160f72bb7fc853ad7c3c74cb31949b79c2b04b07eb8",
+          "cnPrintedPage": 387
+        },
+        {
+          "id": "volume4a-tail-083",
+          "section": "7.2.1.6",
+          "cnPdfPage": 402,
+          "enPdfPages": [
+            483
+          ],
+          "location": "串并联图准树的端点连通条件",
+          "original": "这些边都没有连接s和t",
+          "final": "由这些边构成的子图中 $s$ 与 $t$ 不连通",
+          "basis": "原文 do not connect s to t 指整个选边集合不产生s到t的路径；(54)中D的两条边都不是单独直连两端，放在一起却连通。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "c251a48de559e80a1dd4e160f72bb7fc853ad7c3c74cb31949b79c2b04b07eb8",
+          "cnPrintedPage": 387
+        },
+        {
+          "id": "volume4a-tail-084",
+          "section": "7.2.1.6",
+          "cnPdfPage": 402,
+          "enPdfPages": [
+            483
+          ],
+          "location": "串行超边准树递归递交哪类子配置",
+          "original": "而一棵准树对应于作为前面例外的生成树",
+          "final": "串行超边的准树对应于某一个主要子图的准树与其余主要子图的生成树",
+          "basis": "EN483的一处例外取准树才能切断串联端点。独立核B的2棵生成树与5棵准树和D的1棵生成树与2棵准树。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "c251a48de559e80a1dd4e160f72bb7fc853ad7c3c74cb31949b79c2b04b07eb8",
+          "cnPrintedPage": 387
+        },
+        {
+          "id": "volume4a-tail-085",
+          "section": "7.2.1.6",
+          "cnPdfPage": 402,
+          "enPdfPages": [
+            483
+          ],
+          "location": "并行超边生成树递归递交哪类子配置",
+          "original": "一棵生成树对应于前面作为例外的准树",
+          "final": "并行超边的生成树对应于某一个主要子图的生成树与其余主要子图的准树",
+          "basis": "EN483的一处例外取生成树，使并联端点连通，选择两棵则成圈。独立核A、C的全部印例边集。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "c251a48de559e80a1dd4e160f72bb7fc853ad7c3c74cb31949b79c2b04b07eb8",
+          "cnPrintedPage": 387
+        },
+        {
+          "id": "volume4a-tail-086",
+          "section": "7.2.1.6",
+          "cnPdfPage": 402,
+          "enPdfPages": [
+            483
+          ],
+          "location": "串并联数据字段 t_p 的零值范围",
+          "original": "对于串行超边为1，对于并行超边为0",
+          "final": "$t_p$ 对于串行超边为1，其余为0",
+          "basis": "对应英文 0 otherwise，零值涵盖非串行超边；CN底本只明列并行超边，未涉及叶。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "c251a48de559e80a1dd4e160f72bb7fc853ad7c3c74cb31949b79c2b04b07eb8",
+          "cnPrintedPage": 387
+        },
+        {
+          "id": "volume4a-tail-087",
+          "section": "7.2.1.6",
+          "cnPdfPage": 402,
+          "enPdfPages": [
+            483
+          ],
+          "location": "串并联数据字段 v_p 的当前配置",
+          "original": "若有p的生成树则为1；若有准树则为0",
+          "final": "$v_p$ 在 $p$ 处取生成树时为1，取准树时为0",
+          "basis": "此处是当前选择，非存在性；例如例图A同时有19种生成树及10种准树两类。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "c251a48de559e80a1dd4e160f72bb7fc853ad7c3c74cb31949b79c2b04b07eb8",
+          "cnPrintedPage": 387
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-eq53-series-parallel-decomposition-tree.svg",
+          "sha256": "31c9ca5484741caac174c9dc754eec254b09fde97d6ccce5bb846709202ead7b"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-eq54-series-parallel-subgraphs.svg",
+          "sha256": "f8c360e5355229ec8e5643ae442f4613667155713063b20a157b4a4487f6855c"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 402,
+        "markdownSha256": "c251a48de559e80a1dd4e160f72bb7fc853ad7c3c74cb31949b79c2b04b07eb8",
+        "htmlSha256": "5e0c33a6c7af08358b3850bb793c47aef78fb34d4182e9e979e14a4043d639d9",
+        "mathExpressions": 65,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 2,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/result.json",
+        "sha256": "4665b98437a03ab4f6098da2a2774585a393f3f2184faab79e52d92bfc5449a6",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 65,
+            "mathML": 65,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 402,
+            "width": 1280,
+            "pageMarkdownSha256": "c251a48de559e80a1dd4e160f72bb7fc853ad7c3c74cb31949b79c2b04b07eb8",
+            "htmlSha256": "5e0c33a6c7af08358b3850bb793c47aef78fb34d4182e9e979e14a4043d639d9",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq53-series-parallel-decomposition-tree.svg",
+                "opened": true,
+                "screenshot": "402-1280-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq54-series-parallel-subgraphs.svg",
+                "opened": true,
+                "screenshot": "402-1280-original-image1.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          },
+          {
+            "documentWidth": 390,
+            "math": 65,
+            "mathML": 65,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 402,
+            "width": 390,
+            "pageMarkdownSha256": "c251a48de559e80a1dd4e160f72bb7fc853ad7c3c74cb31949b79c2b04b07eb8",
+            "htmlSha256": "5e0c33a6c7af08358b3850bb793c47aef78fb34d4182e9e979e14a4043d639d9",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq53-series-parallel-decomposition-tree.svg",
+                "opened": true,
+                "screenshot": "402-390-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-eq54-series-parallel-subgraphs.svg",
+                "opened": true,
+                "screenshot": "402-390-original-image1.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/402-1280-walk0.png",
+          "sha256": "84565dbf3956fa1e153691ecaa464f8063346100c42ece2119a6d6439fe9ce3c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/402-1280-walk1.png",
+          "sha256": "53a14bb856f8aaaecc28097bd987ef0ea462e18e740ebd54b7907cdbb5f53a11",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/402-1280-walk2.png",
+          "sha256": "46344a1e509ddb9fcad524575c27b757fa6733e32bca5dd1359a52b9ffd01b24",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/402-390-walk0.png",
+          "sha256": "cff3062edfca2b753cde8b40157a3e4bce1d26a9ae96a1b1b22ca84b9968a082",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/402-390-walk1.png",
+          "sha256": "1025e033a9abb1db390f3c097c2967640776ecf515ec84c2cbaf8f19cc003b95",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/402-390-walk2.png",
+          "sha256": "34a6195b9401adcd5103d1e1798e149881178ecd0f9885016b8dc5ef36264b01",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/402-390-walk3.png",
+          "sha256": "9310578cc23a40d89751790d6ce60aec550f5f0b1e3f23fd2814b60569092d72",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/402-390-walk4.png",
+          "sha256": "4e0a6116f3136a7ba71769c4ee8faa5c9f6da6b61da3d5af594d2252f2d005d3",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/402-1280-original-image0.png",
+          "sha256": "80dd6d2c8b8c3dbeb55e5d54e64e80eb275e2e1bc981cca9b23114a6d828a5ca",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/402-1280-original-image1.png",
+          "sha256": "a2a342625b64493ed324fb63767ecb40357587872625685481f8afa9d9b04354",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/402-390-original-image0.png",
+          "sha256": "98857decdc5a8ee518fa27d2713d7b6cf3bd23b62bad1e206bd0faf7ae8f0f48",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/402-390-original-image1-right.png",
+          "sha256": "dd99417ffddc21ff139ccb8b80b2ea93569ec2fc792fc17b0f984027cd203b88",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/400-402/402-390-original-image1.png",
+          "sha256": "e04352599f1d6bdc2be9d84b2da0f800d1a7b31c479a00c40ff699b1a6404a7b",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-400-402-source-fields.json",
+        "sha256": "f0a009f7a6e2d517b25b1be30b96af6c99cbf5e109fda8844040fb8c791304d8"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-400-402-spanning-trees-and-algorithm-s-400-402-assembly.json",
+          "sha256": "97a9ed8780b4e7d233d8c911e43c3052e25ff801e51eff1e4096c1e7abc8448a"
+        }
+      ],
+      "coveredRegions": [
+        "Algorithm S8 and S9, bridge note, definition of series-parallel graph and near trees, full tree groups in (53) and (54), all five metadata fields."
+      ],
+      "followingPageContinuation": "CN403 introduces the cyclic sibling property and equation (55).",
+      "qualification": "Full CN400–402 and matched EN480–483, including real two-width proofs, the five original-image links, 70 displayed arc-array slots, and both located author changes. The independent enumeration applies only to the source example, all connected simple graphs up to four vertices and one stated multigraph.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/402-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "90a2abf1ed52c42c2060b97e3eca27d41ab039a551d9ac85f2153d7502e96141",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "84b38313539ed004b79aa1f5f7084c89c61cf9a17f26b0b8af54e298bc27609d",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/402.json"
+    }
+  ],
+  "qualification": "Full CN400–402 and matched EN480–483, including real two-width proofs, the five original-image links, 70 displayed arc-array slots, and both located author changes. The independent enumeration applies only to the source example, all connected simple graphs up to four vertices and one stated multigraph."
+}

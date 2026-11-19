@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "bounded-author-wording-revision-of-reviewed-pages",
+  "cnPhysicalPages": [
+    228,
+    229
+  ],
+  "masterSha256": null,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 228,
+      "cnPrintedPage": 213,
+      "enPdfPages": [
+        273,
+        274
+      ],
+      "enPrintedPages": [
+        256,
+        257
+      ],
+      "pageMarkdownSha256": "b8afe4240c346e3b6d721edbcb9c6691e47c249948234046e6d2bb539b866d2b",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-228.png",
+      "sourcePageImageSha256": "9c8258d6a0bc725cc5f4ad6925514dbe1b37ef54c8bcd19e331b0177dcb879fe",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-273.png",
+          "sha256": "55b2571fcbf128ad1fcf99ccd887cc2073a2a55cdf733a88579562db4fc461a0",
+          "physicalPage": 273
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-274.png",
+          "sha256": "431fde153ae071fd4c9622f4a62f57630d73ad7e829a4dce411d4165456d980c",
+          "physicalPage": 274
+        }
+      ],
+      "pageAnchors": [
+        "pdf-228",
+        "p-213"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.4 推论 S 生成树中保留的对象",
+          "enPosition": "PDF273／印刷256，推论S证明",
+          "original": "都至少有这样一棵子树，加入弧",
+          "final": "都至少有一片子森林，加入弧",
+          "basis": "采用作者2018-10-17勘误 one subforest。沿生成树两端间的路径去掉一条旧边，加入新弧前是含全体顶点的两棵树。",
+          "cnPrintedPage": 213
+        },
+        {
+          "location": "§7.1.4 Y₁₂ 的 ZDD 大小单位",
+          "enPosition": "PDF273／印刷256，Y函数算例",
+          "original": "只有 217 388 个素蕴涵元",
+          "final": "只有 217 388 个结点",
+          "basis": "Z(PI(Y₁₂)) 按定义是素蕴涵元族的ZDD结点数；真正的素蕴涵元数2,178,889,774已在同段给出。",
+          "cnPrintedPage": 213
+        },
+        {
+          "location": "§7.1.4 历史回顾中的 Patricia 树",
+          "enPosition": "PDF274／印刷257，历史回顾末段",
+          "original": "Patrician 树",
+          "final": "Patricia 树",
+          "basis": "作者预勘误第13页明确将 Patrician trees 改作 Patricia trees。",
+          "cnPrintedPage": 213,
+          "authorErrataDate": "2021-01-11"
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Theorem S corollary and complete proof; Figure 22 reference, shared storage and separate cache/reordering cautions.",
+        "Three distinct Y12 counts and measured cost. Full Shannon, Lee, Akers, Cobham, Fortune/Hopcroft/Schmidt, and Bryant history through his original synthesis operations."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 228,
+        "markdownSha256": "b8afe4240c346e3b6d721edbcb9c6691e47c249948234046e6d2bb539b866d2b",
+        "htmlSha256": "36e3fcf5ed8bdfdd8074089f64c700b00980e73b401554048c81bc02617fecaf",
+        "mathExpressions": 37,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-228-229.json",
+        "sha256": "a7608d19b365991fb548aed3d23f06b8a113e8be8d5666c1b2f081cc0f00ed97",
+        "cases": [
+          {
+            "physicalPage": 228,
+            "width": 1280,
+            "markdownSha256": "b8afe4240c346e3b6d721edbcb9c6691e47c249948234046e6d2bb539b866d2b",
+            "documentWidth": 1280,
+            "math": 37,
+            "mathml": 37,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 37,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 228,
+            "width": 390,
+            "markdownSha256": "b8afe4240c346e3b6d721edbcb9c6691e47c249948234046e6d2bb539b866d2b",
+            "documentWidth": 390,
+            "math": 37,
+            "mathml": 37,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 37,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Fresh isolated browser at 1280/390. Direct visual inspection of the exact revised prose in the attached two detail images. Math tokens, code, anchors and links byte-preserved in the source and matched in the independent HTML."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/228-1280-revision-detail.png",
+          "sha256": "c10c88170fba0dcd0e80d856f41c47c82fd77b4c94e0d741404a187db9b3ff2e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/228-390-revision-detail.png",
+          "sha256": "f90d23b8df2b629d80e4cd19e5abe1bb66e65a42b3515d4ec6bd39fb74e16fab",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/228-1280.png",
+          "sha256": "7aab2c586d02a09b0257fd6700b7b8b6d5a81806af20cf75f57b43bae59ae2c3",
+          "viewed": false
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/228-390.png",
+          "sha256": "6d47b1b1b6ec9ff11cdeeeba77c2134512fa302d045d2bd6325f13ad93f5fa8f",
+          "viewed": false
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/228-390-right.png",
+          "sha256": "d57da2ca68045e513dfaf9e322543ade82ae4fec763f1a6fb44a7a328d2f4993",
+          "viewed": false
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-228-corollary-y12.png",
+          "sha256": "988edb3e68638da8bfb7e5341b8fd08eedc9e0606756c92cd75cb74c73104afa"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/author-pre-012-multiplication.png",
+          "sha256": "fb6146aeb306c72a41b5320d44f5ac50256226a29e5907663146d7aefe8d96fa"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/author-pre-013-multiplication.png",
+          "sha256": "052aa15562e349f9ce17f7bb9d445feaeeaf0d9d42953b112c5a9cc6a0c6b5c6",
+          "physicalPage": 13,
+          "viewed": true
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "CN226–228 checked in full against original EN271–274 page images. Complete paths/distance graphics, authored footnote, and selected finite computations were checked independently.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/228-selected-cn-before-translation-repair-aedd8aefa5222608c2e5bf3c7b81cffc4b2ec6dd473624914cc4f55d5ced3af5/228.md",
+        "sha256": "aedd8aefa5222608c2e5bf3c7b81cffc4b2ec6dd473624914cc4f55d5ced3af5",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-prime-implicants-227-228.json",
+          "sha256": "1f43e6c80f53789effa173ee90c1fb07ce3cf4717e720dbab97038756526e9b7",
+          "scope": "All 20 three-variable monotone truth tables for the recurrence in (137), the two original example functions in fixed order, and the 12-edge complete 3×3 grid. No large Y12 diagram computation.",
+          "historicalPageEvidence": true
+        },
+        {
+          "file": "assets/volume4a/review/body-226-228-wide-details.json",
+          "sha256": "f413a74b24499de80da53a587afcfd833e0a87cb3270901953d92cee311f58e3",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate.",
+          "historicalPageEvidence": true
+        }
+      ],
+      "boundedAuthorWordingRevision": {
+        "correction": {
+          "location": "§7.1.4 历史回顾中的 Patricia 树",
+          "enPosition": "PDF274／印刷257，历史回顾末段",
+          "original": "Patrician 树",
+          "final": "Patricia 树",
+          "basis": "作者预勘误第13页明确将 Patrician trees 改作 Patricia trees。",
+          "cnPrintedPage": 213,
+          "authorErrataDate": "2021-01-11"
+        },
+        "replacesOnlyOneSourceOccurrence": true,
+        "identicalRenderedMathTexTokens": 37,
+        "identicalRenderedCodeBlocks": 0,
+        "identicalAnchors": true,
+        "identicalLinks": true,
+        "priorEvidence": {
+          "markdown": {
+            "file": "private-snapshot:volume4a/verified-history/official-228-229-prechange/228.md",
+            "sha256": "c4cfb77e5b880ebee5431cbd7458a6be35f791671bda766ff5dfd11a69436fce"
+          },
+          "review": {
+            "file": "private-snapshot:volume4a/verified-history/official-228-229-prechange/228.json",
+            "sha256": "14d45974438f90301def6fdce1871a6f0b3ec1bbdf6940512548a3bcfb4e1583"
+          },
+          "html": {
+            "file": "private-snapshot:volume4a/verified-history/official-228-229-prechange/228.html",
+            "sha256": "0467bfca75305b59af0c46bb4e1da945920910443485556698deee4eaec0ed8a"
+          },
+          "publicBatch": {
+            "file": "assets/volume4a/review/body-226-228.json",
+            "sha256": "fbed8ba378a8694357a34ec9621fbe4b6b121602bcaa4ff45cb99ab34b0ee938"
+          }
+        },
+        "publicRevisionLedger": "assets/volume4a/review/body-revision-228-229-author-wording.json"
+      },
+      "privateOriginalPageReviewSha256": "b303a8750bc6fd46a254332b3890da7a9713058f9476d5ec18b8ef4624b9e3f5",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/228.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 229,
+      "cnPrintedPage": 214,
+      "enPdfPages": [
+        274,
+        275,
+        276
+      ],
+      "enPrintedPages": [
+        257,
+        258,
+        259
+      ],
+      "pageMarkdownSha256": "4d9a4eb05afb925e319d1a446abde3df55bdc2c552913c1eef412a7a11f58941",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-229.png",
+      "sourcePageImageSha256": "ecc2ead8cc7ea5168baa90ec4891190c7f5cebc1d590eed6f171eb3b46044fad",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-274.png",
+          "sha256": "431fde153ae071fd4c9622f4a62f57630d73ad7e829a4dce411d4165456d980c",
+          "physicalPage": 274
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-275.png",
+          "sha256": "7ddd9d3e144c0b0553af33bea3659dfd2c9f53c9e7e826254ad3fb2c7e98e3a2",
+          "physicalPage": 275
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-276.png",
+          "sha256": "42b304a7100764be5160bece0fcfdae36afe1a92087a0c32013fe0d318e71412",
+          "physicalPage": 276
+        }
+      ],
+      "pageAnchors": [
+        "pdf-229",
+        "p-214",
+        "ex-7-1-4-1",
+        "ex-7-1-4-2",
+        "ex-7-1-4-3",
+        "ex-7-1-4-4"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.4 ZDD 引入年份",
+          "enPosition": "PDF275／印刷258，历史回顾",
+          "original": "凑真一在 1953 年引入了 ZDD",
+          "final": "凑真一在 1993 年引入了 ZDD",
+          "basis": "中文原页确印1953。英文及同节前文所引1993年会议论文一致。",
+          "cnPrintedPage": 214
+        },
+        {
+          "location": "§7.1.4 罗贝尔·福尔泰期刊题名",
+          "enPosition": "PDF275／印刷258，罗贝尔·福尔泰引文",
+          "original": "Cahiers du Centre d’Etudes Recherche Operationelle",
+          "final": "Cahiers du Centre d’Etudes de Recherche Operationelle",
+          "basis": "作者预勘误第13页明确在 Recherche 前补 de。",
+          "cnPrintedPage": 214,
+          "authorErrataDate": "2020-03-26"
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Full closing historical sequence, ZDD date, cited works and original caution.",
+        "Exercise 1–4 headings, marks, stem and three packed fields of 4 before the original page break."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 229,
+        "markdownSha256": "4d9a4eb05afb925e319d1a446abde3df55bdc2c552913c1eef412a7a11f58941",
+        "htmlSha256": "2452ed637073de2db352420207b5f81fa4075b97121aa625b83db7838cb36b93",
+        "mathExpressions": 7,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-228-229.json",
+        "sha256": "a7608d19b365991fb548aed3d23f06b8a113e8be8d5666c1b2f081cc0f00ed97",
+        "cases": [
+          {
+            "physicalPage": 229,
+            "width": 1280,
+            "markdownSha256": "4d9a4eb05afb925e319d1a446abde3df55bdc2c552913c1eef412a7a11f58941",
+            "documentWidth": 1280,
+            "math": 7,
+            "mathml": 7,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 7,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 229,
+            "width": 390,
+            "markdownSha256": "4d9a4eb05afb925e319d1a446abde3df55bdc2c552913c1eef412a7a11f58941",
+            "documentWidth": 390,
+            "math": 7,
+            "mathml": 7,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 7,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Fresh isolated browser at 1280/390. Direct visual inspection of the exact revised prose in the attached two detail images. Math tokens, code, anchors and links byte-preserved in the source and matched in the independent HTML."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/229-1280-revision-detail.png",
+          "sha256": "fdeb4cf768f1494f5a01764ca8c195c209a77deed681a075e77aab138e0762c9",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/229-390-revision-detail.png",
+          "sha256": "e36f77b6523fb120eaff06ddfe7446356bbcfc67d8c1abe5dfc533c3c9ee2756",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/229-1280.png",
+          "sha256": "ebc181dee70ca4baa9f6efdbe4fcf265723fb500a3c27d9ed2e69a815d30b6cd",
+          "viewed": false
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/229-390.png",
+          "sha256": "3d8a82860972cff2689706e7b01036c0807d752f38352fe78a7771a4b9298ff9",
+          "viewed": false
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/229-390-right.png",
+          "sha256": "3d1c383fc50046587c5b7093a630a615b557411b363417a2aad3f46a3608aa6a",
+          "viewed": false
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-229-intro-year.png",
+          "sha256": "105b32fa8ea837e9695884bbab21769fa59b25934d0ae113a350667a0d3d9bd8"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-229-ex4-fields.png",
+          "sha256": "abe7d3c1e08b7c7109814df7ecd35a70b8f62aba12884f436e11a3fdda8288d4"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/author-pre-013-multiplication.png",
+          "sha256": "052aa15562e349f9ce17f7bb9d445feaeeaf0d9d42953b112c5a9cc6a0c6b5c6",
+          "physicalPage": 13,
+          "viewed": true
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Whole CN229–231 compared with EN274–278 original images. The first 37 exercise targets and the original FBDD were checked separately from rendered scrolling.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "exerciseCoverage": {
+        "newExerciseNumbers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "continuingPreviousExerciseNumbers": [],
+        "exerciseLinksHavePrivateTargetCount": 4
+      },
+      "followingPageContinuation": "习题4继续至物理230的1变0及补函数说明，题锚仅在229。",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/229-selected-cn-before-translation-repair-9696548a8593a5e97f5cca25b2910628730944cf73b9a804bcaaae6f6a9d151f/229.md",
+        "sha256": "9696548a8593a5e97f5cca25b2910628730944cf73b9a804bcaaae6f6a9d151f",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/exercises-7-1-4-1-37-fixed.json",
+          "sha256": "600679285be5e61744d93d87b44be87a3742b36149d76c64a774e8329fc04db6",
+          "scope": "Question numbering, source-certified recommendations/levels, private answer-anchor target presence, split exercise 4 and the single numeric bound from exercise 27. Full production route behavior and exercise solutions are outside this supplemental check.",
+          "historicalPageEvidence": true
+        },
+        {
+          "file": "assets/volume4a/review/body-229-231-wide-details.json",
+          "sha256": "b7974a41fa8a52dae7818c06441c921be5137019930d3949e7b6f4ba9d7aef2b",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate.",
+          "historicalPageEvidence": true
+        }
+      ],
+      "boundedAuthorWordingRevision": {
+        "correction": {
+          "location": "§7.1.4 罗贝尔·福尔泰期刊题名",
+          "enPosition": "PDF275／印刷258，罗贝尔·福尔泰引文",
+          "original": "Cahiers du Centre d’Etudes Recherche Operationelle",
+          "final": "Cahiers du Centre d’Etudes de Recherche Operationelle",
+          "basis": "作者预勘误第13页明确在 Recherche 前补 de。",
+          "cnPrintedPage": 214,
+          "authorErrataDate": "2020-03-26"
+        },
+        "replacesOnlyOneSourceOccurrence": true,
+        "identicalRenderedMathTexTokens": 7,
+        "identicalRenderedCodeBlocks": 0,
+        "identicalAnchors": true,
+        "identicalLinks": true,
+        "priorEvidence": {
+          "markdown": {
+            "file": "private-snapshot:volume4a/verified-history/official-228-229-prechange/229.md",
+            "sha256": "ffaffff7af0d608e00728026e82b490a89ac9b7628560d45f8af4d03a088dfee"
+          },
+          "review": {
+            "file": "private-snapshot:volume4a/verified-history/official-228-229-prechange/229.json",
+            "sha256": "c336add21dc96e67b0ffac4a924c6938609c09484e06cfcc853403800bf5f40c"
+          },
+          "html": {
+            "file": "private-snapshot:volume4a/verified-history/official-228-229-prechange/229.html",
+            "sha256": "8df48a4f130274a8457ad07499226e207d9aecb471eaf45418b8584ac0a580c7"
+          },
+          "publicBatch": {
+            "file": "assets/volume4a/review/body-229-231.json",
+            "sha256": "4a0e60041daddcd1e3b23ab6cf10c77c95325cdd76012a0b3ff11c3a2ec0dd93"
+          }
+        },
+        "publicRevisionLedger": "assets/volume4a/review/body-revision-228-229-author-wording.json"
+      },
+      "privateOriginalPageReviewSha256": "bd7d820dc4633b97804d14661cb701930add3b10551c1a76fa3c3f3ed2ce0cfa",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/229.json"
+    }
+  ],
+  "qualification": "Same two complete source page records, with two independently viewed later author wording corrections and four current rendered cases. Archived batches are retained byte-for-byte. No additional coverage is counted."
+}

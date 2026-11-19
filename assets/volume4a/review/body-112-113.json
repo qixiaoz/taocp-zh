@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "two-complete-source-pages-ninevariable-implications-and-partialdecomposition",
+  "cnPhysicalPages": [
+    112,
+    113
+  ],
+  "cnPrintedPages": [
+    97,
+    98
+  ],
+  "masterSha256": null,
+  "mathExpressions": 203,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 5,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.2",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 112,
+      "cnPrintedPage": 97,
+      "enPdfPages": [
+        135,
+        136
+      ],
+      "enPrintedPages": [
+        118,
+        119
+      ],
+      "pageMarkdownSha256": "2f90e43cb041fb10af1a205230bc34b5de1065f62d5f6c0c2686f74611a8a9b0",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-112.png",
+      "sourcePageImageSha256": "6e7ceec3337edeed7b05263d243ed65dfb1db10a4b532f8a21c652a3b808d76c",
+      "enPageImages": [
+        {
+          "physicalPage": 135,
+          "file": "private-snapshot:volume4a/body-review/en-135.png",
+          "sha256": "7f64a76f05a934d99bf18927e10bbf756cac84212effc7457709c8b459a66594"
+        },
+        {
+          "physicalPage": 136,
+          "file": "private-snapshot:volume4a/body-review/en-136.png",
+          "sha256": "30f7bc9928bf8d79eb0f17d9b7e6d95d379c40efdbdc5c11198baa202e8de3ee"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-112",
+        "p-97"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeatedrunningheader/printednumberonly,retainedashiddenanchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 97,
+          "location": "Continuedcountofgood8bitassignments",
+          "enPosition": "EN135/printed118lastpartofgoodpairsparagraph",
+          "original": "有88对值对应于一组优良对",
+          "final": "有88种取值对应于一组优良对",
+          "basis": "English88ofthe256possibilitiesforf0..f7refersfull8-bitassignments,not88individualpairs;restorecountedobject. Actual256assignmentcountfinds88goodsets."
+        },
+        {
+          "cnPrintedPage": 97,
+          "location": "Tenconsecutivegoodtrialprobability",
+          "enPosition": "EN135/printed118tentimesinarow",
+          "original": "在一行中求出优良对10次",
+          "final": "连续10次求出优良对",
+          "basis": "In a row is temporalconsecutiveness,notspatialone-rowlocation. Preserve(88/256)^10andapprox0.00002."
+        },
+        {
+          "cnPrintedPage": 97,
+          "location": "Interpretationof[perX>0]",
+          "enPosition": "EN136/printed119beforeperimplicationlist",
+          "original": "f说明，如果在K3,3的二部子图中存在完全匹配，那么它的边是由变量x1…x9指定的",
+          "final": "f说明由变量x1…x9指定边的K3,3二部子图中是否存在完全匹配",
+          "basis": "English f tells whether there is a perfectmatching in the subgraph whose edges are specified by variables. Restorewhetherpredicateandedge-definitionrelativeclause,insteadofif-matchthenedgespecified. Formulaand180listunchanged."
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [],
+      "pending": [
+        "Finalwhole-volumeinclusion",
+        "Finaloffline/production/browser/onlineacceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 112,
+        "markdownSha256": "2f90e43cb041fb10af1a205230bc34b5de1065f62d5f6c0c2686f74611a8a9b0",
+        "htmlSha256": "1e4715c1555e93ea7dd0552ef545ebdb2a0993bad20d80ee8119cec4ed84382b",
+        "mathExpressions": 115,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-112.json",
+        "sha256": "79c70e5b8a45bb691067003437549829b971228072668e26e1b8922d382b1458",
+        "cases": [
+          {
+            "physicalPage": 112,
+            "width": 1280,
+            "markdownSha256": "2f90e43cb041fb10af1a205230bc34b5de1065f62d5f6c0c2686f74611a8a9b0",
+            "documentWidth": 1280,
+            "math": 115,
+            "mathml": 115,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 117,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 112,
+            "width": 390,
+            "markdownSha256": "2f90e43cb041fb10af1a205230bc34b5de1065f62d5f6c0c2686f74611a8a9b0",
+            "documentWidth": 390,
+            "math": 115,
+            "mathml": 115,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 117,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Fresh112afteroriginalendcommainmathratherthanwrappingasstandaloneline. Actualcurrentfull1280/narrowleft/rightviewsread,all108mathcellswholeRHSstringsandstar/oddcyclewordingcompared. NoSSR/wholevolume/offline/online acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/112-1280.png",
+          "sha256": "33a543525aeca46373435f55e07542659ce0f89ac5dd3cd3d218f534942e2879",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/112-390.png",
+          "sha256": "6d4cccae555a4796d506bd2566f8f2eded9e9b98ec90e8cf3c05b1f94b739bc0",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/112-390-right.png",
+          "sha256": "6f868df4128731667554132cc5dd2058c464f1ea8798194244b90ac331bc2b7b",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/nine-variable-implications-112-113.json",
+        "sha256": "718813a4bd213a2fc346ff9f83d018c44538f70f8a93e6e0d6bebd39e93c3515"
+      },
+      "additionalDOMCheck": {
+        "file": "private-snapshot:volume4a/verified-render/implication-dom-112-113.json",
+        "sha256": "1966e9db028b23eddcf28d11de351fca926c27874665a28c22c6493f3c2e8c1c",
+        "wholePageCasesAdded": 0
+      },
+      "originalReportedRandomStatistics": {
+        "sourceCompared": true,
+        "independentlyReproduced": false,
+        "reason": "Authorrandomseed/trialorder/toleranceexperimentsnotprovided;finitefulltruth-listverificationdoesnotreproducerandomsamplingmetrics."
+      },
+      "qualification": "Complete modeldirectCN/ENandcurrentproduction-directrendercomparison. Fixedoriginal512-inputfunctiontablesand88of256patternarithmeticnotgeneralrandomsearch/partitiontheorems. Fivecleartranslation/referencefixes;originalsamplingnumberspreservedasreported,notclaimedrecomputed. No human signoff/master/wholevolume/offline/online acceptance.",
+      "coveredRegions": [
+        "111end仅+11288count/consecutive10probability/59membershipimplication/xmnotY.",
+        "Wholepi512bitsoriginalprefixsuffix/n9/source252,170,1.52,max8samplingdescription/binomn2=36exercise73reference.",
+        "Whole60detmatrix/all9row-majorentries/123nonebadbut12implies4..9/all36sourceRHSstrings198total.",
+        "Detrandom3.6/t10allbut8/Hornclauses/less50sampledtripleclaim/trivialYemptyZall.",
+        "[perX>0]permanentpredicate/matchinginterpretation/all36sourceRHSstrings180total/lastoriginalcommacontinues113."
+      ],
+      "ocrRepairsOfNote": [
+        "Y=emptysetnotM0;plainf/x/RHSindicesnotphantombars/underlines.",
+        "All72editablemathcellsin112complete;machineoverrunsjoinedentriesandlostsmallRHSdigitsnotaccepted.",
+        "Originalmatrix60pmatrixactuallyprinted,notremoveparenslikematrix111."
+      ],
+      "followingPageContinuation": "111仅+112有88种取值;112endsperlistoriginalcomma,113它们中仅122continues. Finalcomma includedinsidefinalmathcelltopreserveline/punctuation,notlost.",
+      "priorUnacceptedProof": {
+        "file": "private-snapshot:volume4a/verified-history/112-unaccepted-wrapped-comma-after-first-browser",
+        "markdownSha256": "70ea29c04096a4c02a98dc4fbc5d3cb9fc611582d2fc2ec599a045ced6fa9f0d",
+        "htmlSha256": "ccf7b2fc11842eca655dd62ac680e5c8613ea3ef492576be51783c88dcec3830",
+        "syntaxSha256": "194074ee8ffec9c34f2755df6db090c4997ce25e78e73363bf00e1fed2d84d28",
+        "browserSha256": "87276de2a06063b845bbb2e2f27b05e8a694886712b05557ef3bc5aba780850e",
+        "disposition": "Owninitialfinalcommaoutsidecellmathwrappedtoownline;technicalpassbutlayoutunaccepted. Retainold112MD/HTML/screens/QA;current112fresh2cases,113exactunchangedoldsubsetonly. Earlierprebrowserstandalonecommadraftalso retained112-unaccepted-trailing-comma-before-first-browser."
+      },
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/112-selected-cn-before-translation-repairs-df600494a9f2546368c6a3eeaf4bad905df8b01353fc79569dcd033d68daf120/112.md",
+        "sha256": "df600494a9f2546368c6a3eeaf4bad905df8b01353fc79569dcd033d68daf120",
+        "qualification": "ReconstructednormalizedselectedCNbeforelocalizedrepairs,notoldacceptedproof."
+      },
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-112-det-implications-full.png",
+          "sha256": "f82d08c36fe0de6813e976df74580e0edfd74bfc21a3b63de8f0b0e099a7fd35"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-136-det-implications-full.png",
+          "sha256": "86f43cf65ea2a04ef356040716d5753f825f649ba4aef6b8dd604d1cb900010d"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-112-per-implications-full.png",
+          "sha256": "77f4f439b40b589b5da9a81ec2ccc084fb17e7f7c86b378da3726d3d836c7cd0"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-136-per-all-rows-detail.png",
+          "sha256": "61c56fda886d45f8929ee3dd979a5e4fc8fc834644ae5c353574ed2219ec7d73"
+        }
+      ],
+      "privateOriginalPageReviewSha256": "e0a9cd58bc2b08b55de1c491dc471e77aa54d278e6955c4d1aeff990f86e84c5",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/112.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.2",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 113,
+      "cnPrintedPage": 98,
+      "enPdfPages": [
+        136,
+        137
+      ],
+      "enPrintedPages": [
+        119,
+        120
+      ],
+      "pageMarkdownSha256": "14efebf4cd097090ae6d00723f1e78ec1531e34737fe503d109a1936ea068954",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-113.png",
+      "sourcePageImageSha256": "a4bb43778ac9b2173d035fea3f0c23d876427f58b08f6264c5505585ea966382",
+      "enPageImages": [
+        {
+          "physicalPage": 136,
+          "file": "private-snapshot:volume4a/body-review/en-136.png",
+          "sha256": "30f7bc9928bf8d79eb0f17d9b7e6d95d379c40efdbdc5c11198baa202e8de3ee"
+        },
+        {
+          "physicalPage": 137,
+          "file": "private-snapshot:volume4a/body-review/en-137.png",
+          "sha256": "86acf5fe73a45e31614800e1c755a8458c2f186ffe6ecef0fa734cb7f026035e"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-113",
+        "p-98"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeatedrunningheader/printednumberonly,retainedashiddenanchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 98,
+          "location": "Bipartitegraphcriterion",
+          "enPosition": "EN137/printed120partialdecompositionparagraphend",
+          "original": "它不包含奇数个圈",
+          "final": "它不包含奇长度的圈",
+          "basis": "Englishnooddcyclesmeansnoodd-lengthcycle,notoddnumberofcycles. Restorelengthparitycondition,preserveifandonlyifandDFSargument."
+        },
+        {
+          "cnPrintedPage": 98,
+          "location": "Depthfirstsearchcrossreference",
+          "enPosition": "EN137/printed120line16/sourceofficialhistoricalp9",
+          "original": "见7.4.1节",
+          "final": "见7.4.1.2节",
+          "basis": "Author2021-11-11Page120line16explicitSection7.4.1->Section7.4.1.2. ExactsameDFSreferenceinprovidedCN/EN,applyshortreferenceupdate.",
+          "officialSource": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentVersionDate": "2023-02-09",
+            "documentPage": 9,
+            "sourceImage": "private-snapshot:volume4a/body-review/official-pre-page9-m-index.png",
+            "sourceImageSha256": "ef98632a631a4e88ad613da4b286deeb310a4b202cdbe21ca8a4c360cfb65be6"
+          },
+          "authorReportedDate": "2021-11-11"
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [],
+      "pending": [
+        "Finalwhole-volumeinclusion",
+        "Finaloffline/production/browser/onlineacceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 113,
+        "markdownSha256": "14efebf4cd097090ae6d00723f1e78ec1531e34737fe503d109a1936ea068954",
+        "htmlSha256": "9db4a1c0f9effe2c90c3737545ceb995dd5db4ccd4bf3437dc6f0f33dc6acb15",
+        "mathExpressions": 88,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-112-113.json",
+        "sha256": "87276de2a06063b845bbb2e2f27b05e8a694886712b05557ef3bc5aba780850e",
+        "cases": [
+          {
+            "physicalPage": 113,
+            "width": 1280,
+            "markdownSha256": "14efebf4cd097090ae6d00723f1e78ec1531e34737fe503d109a1936ea068954",
+            "documentWidth": 1280,
+            "math": 88,
+            "mathml": 88,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 89,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 113,
+            "width": 390,
+            "markdownSha256": "14efebf4cd097090ae6d00723f1e78ec1531e34737fe503d109a1936ea068954",
+            "documentWidth": 390,
+            "math": 88,
+            "mathml": 88,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 89,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Onlyexactunchanged113subsetoforiginal112113execution,explicitlyexcludeold112comma-wrapdraft,notnew113execution. Actualcurrentfull1280/narrowleft/rightviewsread,all108mathcellswholeRHSstringsandstar/oddcyclewordingcompared. NoSSR/wholevolume/offline/online acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/113-1280.png",
+          "sha256": "5415153f593b0c434858c4c2552173419108d44e4913901be9558606a12267ca",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/113-390.png",
+          "sha256": "93b3f65abeebc48b64d693894fabda1a37a386fbe017568579a934e7cb4867b9",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/113-390-right.png",
+          "sha256": "4772dfa451e4af46d6f2aaa5fbf5d96c9bc7562cada56f24f2389b45c9ff40fe",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/nine-variable-implications-112-113.json",
+        "sha256": "718813a4bd213a2fc346ff9f83d018c44538f70f8a93e6e0d6bebd39e93c3515"
+      },
+      "additionalDOMCheck": {
+        "file": "private-snapshot:volume4a/verified-render/implication-dom-112-113.json",
+        "sha256": "1966e9db028b23eddcf28d11de351fca926c27874665a28c22c6493f3c2e8c1c",
+        "wholePageCasesAdded": 0
+      },
+      "originalReportedRandomStatistics": {
+        "sourceCompared": true,
+        "independentlyReproduced": false,
+        "reason": "Authorrandomseed/trialorder/toleranceexperimentsnotprovided;finitefulltruth-listverificationdoesnotreproducerandomsamplingmetrics."
+      },
+      "qualification": "Complete modeldirectCN/ENandcurrentproduction-directrendercomparison. Fixedoriginal512-inputfunctiontablesand88of256patternarithmeticnotgeneralrandomsearch/partitiontheorems. Fivecleartranslation/referencefixes;originalsamplingnumberspreservedasreported,notclaimedrecomputed. No human signoff/master/wholevolume/offline/online acceptance.",
+      "coveredRegions": [
+        "Continuedper122/t10dynamicthresholdnote/indecomposabilityclaimkeptsource.",
+        "Fullnestedmedian9variableexample/exceptionpairsubsetZ5/212implications/185sampleddiscoveries/Y4Z5/one-or-twocolumnverification2^n.",
+        "Wholecomparisonpredicateall9variablesplusx9/36sourceRHSstrings184total/145sampledfinds/threeexactZsets/Ashenhurstfoundoneotherslater.",
+        "Advancedstarpartialfunctiondecomposition/assignstars/twocolumncondition/incompatibleiffsome0versus1/equivalentdisjointsubcubes/graphedgeu-vnotM=.",
+        "Bipartiteiffassignstars/wholegeneralizedconsensussqcup/ex7.1.1-32/alltwooriginalbibliographies/odd-lengthcycles/DFSupdatedreference.",
+        "Fourpairsbadiffthreearemutuallyincompatible/starsmoredifficult/ex72/allpartialdecompositionchoicesneedexploration.",
+        "Generalizedtwohoutputs/symmetric3variables/S12S13sumcharacterization/fourstepsoriginalnotecomplete."
+      ],
+      "ocrRepairsOfNote": [
+        "Plainf,Y,ZratherthanMbar;comparisonplusx9retained.",
+        "Undirectededgeu-vnotM=u=v;allstarsliteralbackticksretained.",
+        "Generalizedconsensusoperatorissqcup,noinventedfunctionhats."
+      ],
+      "followingPageContinuation": "113endscompletefourstepsymmetrictripleparenthetical. EN137CurtisgeneralizationstartsCN114,notincludedoracceptedhere.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/113-selected-cn-before-translation-repairs-76e86f02f3a51edfd042fe3f5bd4491f9fe550eb5738f0e59aa80189b776d8f1/113.md",
+        "sha256": "76e86f02f3a51edfd042fe3f5bd4491f9fe550eb5738f0e59aa80189b776d8f1",
+        "qualification": "ReconstructednormalizedselectedCNbeforelocalizedrepairs,notoldacceptedproof."
+      },
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-113-comparison-implications-full.png",
+          "sha256": "488fb11baea6cb63d50323f921ab7481fa986563a9b64073e7c450fb7a8ab290"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-137-comparison-implications-full.png",
+          "sha256": "b78f304f277c88cf949c28b8f5f577a0ea567d6bda2816e829fe66d9f4241f64"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-113-partial-incompatible-odd-cycles-full.png",
+          "sha256": "e05178b35a3723bd10cc9acb1a230a7572c72352d97bb7e2941bdb07bb1b512c"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-137-partial-incompatible-odd-cycles-full.png",
+          "sha256": "2d77ab50e33a2783bf1f2d31845521a5f5772667508307bf21f6e84adf06bbe4"
+        }
+      ],
+      "privateOriginalPageReviewSha256": "519bb84154fc13c91c9fed6c0c621d6e63d3af9e50460dc4cd2bfa67abfbd3c1",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/113.json"
+    }
+  ],
+  "qualification": "Onlythese2physicalpagescomplete. Three108cellfixedlists/198,180,184/one212nestedmedian/4specifiedpartitionsand88of256numericalchecks,notgeneraltheoremorunprovidedrandomseedexperiments. Fiveexplicittranslation/referencefixes.112fresh2cases/113exactunchangedold2case subsetonly;114notcovered. No master/offline/wholevolume/onlineacceptance."
+}

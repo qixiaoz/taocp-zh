@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "LaterindependentactualKrestartpeercheck;nopagecoverageincrease",
+  "current597PageMarkdownSha256": "c7da94af9cc206a0ef61550c347ef2f6c3ed7dab36e5ac9ecdd8f9e4c363a891",
+  "prior597PublicReceiptSha256": "7885763424b65dc2d4ba2da7ee1444ee6d48f779504d954e8d137a66afd2d987",
+  "privateReceiptSha256": "cfe07659c4104926a096df9897733561cd1aa3163c90f08e6de4e9f9705072a4",
+  "checkerSha256": "28bfdecfb6045cd28bbd1550b77a7dce0575536d9dc2ba7ceb29f8f01a377d55",
+  "baselineInputPureFunctionSourceSha256": "f256b217585d1a0344fd80314a85b6c584657f713cad46d1ecfb19d7c1b34755",
+  "actualResults": {
+    "scope": "Independent finite restart of original K steps, no reinitialization, all ordered forests with 0–7 nodes. No general proof.",
+    "cases": [
+      {
+        "n": 0,
+        "forestCount": 1,
+        "visitsInEachDirection": 1,
+        "fullByteEquivalentWithoutIgnoringInitiallyUnassignedLR": 1
+      },
+      {
+        "n": 1,
+        "forestCount": 1,
+        "visitsInEachDirection": 2,
+        "fullByteEquivalentWithoutIgnoringInitiallyUnassignedLR": 1
+      },
+      {
+        "n": 2,
+        "forestCount": 2,
+        "visitsInEachDirection": 7,
+        "fullByteEquivalentWithoutIgnoringInitiallyUnassignedLR": 1
+      },
+      {
+        "n": 3,
+        "forestCount": 5,
+        "visitsInEachDirection": 29,
+        "fullByteEquivalentWithoutIgnoringInitiallyUnassignedLR": 1
+      },
+      {
+        "n": 4,
+        "forestCount": 14,
+        "visitsInEachDirection": 131,
+        "fullByteEquivalentWithoutIgnoringInitiallyUnassignedLR": 1
+      },
+      {
+        "n": 5,
+        "forestCount": 42,
+        "visitsInEachDirection": 625,
+        "fullByteEquivalentWithoutIgnoringInitiallyUnassignedLR": 1
+      },
+      {
+        "n": 6,
+        "forestCount": 132,
+        "visitsInEachDirection": 3099,
+        "fullByteEquivalentWithoutIgnoringInitiallyUnassignedLR": 1
+      },
+      {
+        "n": 7,
+        "forestCount": 429,
+        "visitsInEachDirection": 15818,
+        "fullByteEquivalentWithoutIgnoringInitiallyUnassignedLR": 1
+      }
+    ],
+    "examples": [
+      {
+        "rawForest": "(())",
+        "initial": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            null,
+            0
+          ],
+          [
+            2,
+            null,
+            0
+          ]
+        ],
+        "firstExit": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ]
+        ],
+        "secondExit": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "forward": [
+          0,
+          2,
+          3
+        ],
+        "reverse": [
+          3,
+          2,
+          0
+        ]
+      },
+      {
+        "rawForest": "(())(()(()()))",
+        "initial": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            7,
+            null,
+            0,
+            null,
+            null,
+            4,
+            3,
+            2
+          ],
+          [
+            2,
+            null,
+            7,
+            6,
+            5,
+            null,
+            null,
+            0
+          ]
+        ],
+        "firstExit": [
+          [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            6,
+            2,
+            0,
+            7,
+            6,
+            4,
+            3,
+            1
+          ],
+          [
+            2,
+            7,
+            1,
+            6,
+            5,
+            0,
+            0,
+            3
+          ]
+        ],
+        "secondExit": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            7,
+            2,
+            0,
+            7,
+            6,
+            4,
+            3,
+            2
+          ],
+          [
+            2,
+            7,
+            7,
+            6,
+            5,
+            0,
+            0,
+            0
+          ]
+        ],
+        "forward": [
+          0,
+          64,
+          96,
+          112,
+          120,
+          104,
+          108,
+          124,
+          116,
+          100,
+          68,
+          70,
+          102,
+          118,
+          126,
+          110,
+          106,
+          122,
+          114,
+          98,
+          66,
+          2,
+          3,
+          67,
+          99,
+          115,
+          123,
+          107,
+          111,
+          127,
+          119,
+          103,
+          71
+        ],
+        "reverse": [
+          71,
+          103,
+          119,
+          127,
+          111,
+          107,
+          123,
+          115,
+          99,
+          67,
+          3,
+          2,
+          66,
+          98,
+          114,
+          122,
+          106,
+          110,
+          126,
+          118,
+          102,
+          70,
+          68,
+          100,
+          116,
+          124,
+          108,
+          104,
+          120,
+          112,
+          96,
+          64,
+          0
+        ]
+      }
+    ],
+    "preservedAtSecondExit": [
+      "a",
+      "f",
+      "all l/r entries defined by K1 or the initial sibling conditions"
+    ],
+    "rawArrayQualification": "For forests with edges, some l/r entries are unspecified after K1 but later contain stale values. Active fringe and every initially specified internal entry match; byte comparison including previously unspecified l/r entries generally differs.",
+    "duplicateEndpoint": "A second call from K2 visits the previous run’s final subforest as its first subforest, then visits reverse order ending at all-zero.",
+    "baselineModelSha256": "f256b217585d1a0344fd80314a85b6c584657f713cad46d1ecfb19d7c1b34755"
+  },
+  "previous597SourceOnlyKDeclarationRemainsHistorical": true
+}

@@ -1,0 +1,86 @@
+{
+  "purpose": "parent-requested independent read-only onecase check; not Vol3 or4A whole-page acceptance",
+  "sourceImagesActuallyViewed": [
+    {
+      "file": "en-218.png",
+      "sha256": "34fe43389b59866b7762cfd5780da181dcefc16978046a238800ff4c4a752a92"
+    },
+    {
+      "file": "532.jpg",
+      "sha256": "cd2fa2968413d48e19931a28b57f6761a151798608cb9d4615ed1c2919a009ce"
+    },
+    {
+      "file": "en-636.png",
+      "sha256": "e1c26202876622fb55e29a6cd5edaed285208be5d8c39f6e1480a3f0f248e45d"
+    },
+    {
+      "file": "cn-532-Kuhn-clause199.png",
+      "sha256": "a121e404e1dfaf9a2be05efb7c329b857402e0008be9a6fcbfe922c945a7af7a"
+    },
+    {
+      "file": "en-636-Kuhn-clause199.png",
+      "sha256": "038146c47f97531d09df183e3f323dd0e802a7b7e28a8fa251c26d6a16d7e9a2"
+    }
+  ],
+  "sourceQuestionDomain": {
+    "enPdfPage": 218,
+    "enPrintedPage": "201",
+    "exercise": "7.1.3-199",
+    "constraints": "alpha1 and alpha2 bytes; alpha1>=hex80; hex80<=alpha2<hexc0; first two bytes of at least one legitimate UTF8 string",
+    "hiddenAdditionalExclusionFound": false,
+    "scope": "No additional exclusion in the actual full question199. Neighbor198 states Unicode range below0x110000; CN532answer197 explicitly excludes only0xd800<=x<0xe000 from UCS;0xd000 outside."
+  },
+  "bothAnswerSourcesActuallyPrint": {
+    "cnPdfPage": 532,
+    "cnPrintedPage": "517",
+    "enPdfPage": 636,
+    "enPrintedPage": "619",
+    "kuhnConstantHex": "20",
+    "appendedTo": "original bitwise-AND signed expression <0"
+  },
+  "oneTestedPair": {
+    "alpha1Hex": "ed",
+    "alpha2Hex": "80",
+    "validUtf8Hex": "ed8080",
+    "decodedScalarHex": "d000",
+    "originalThreeAndOperandsDecimal": [
+      -44,
+      -1808,
+      -2
+    ],
+    "baseDecimal": -1840,
+    "baseHexSigned": "-0x730",
+    "deltaHex": "0x20",
+    "oldExtraClauseDecimal": 0,
+    "oldFinalDecimal": 0,
+    "oldAccepts": false,
+    "proposedConstantHex": "1f",
+    "proposedExtraClauseDecimal": -1,
+    "proposedFinalDecimal": -1840,
+    "proposedAccepts": true,
+    "pythonCodecRoundTripVerified": true,
+    "signed64MatchesUnboundedTwosComplement": true
+  },
+  "surrogateRangeCheckWithoutEnumeration": {
+    "fixedFirstByteHex": "ed",
+    "secondByteIntervalHex": [
+      "a0",
+      "bf"
+    ],
+    "deltaRangeHex": [
+      "0",
+      "1f"
+    ],
+    "proposedExtraClauseRangeDecimal": [
+      0,
+      31
+    ],
+    "reason": "(0xED00+a2) xor0xEDA0 =a2 xor0xA0 ranges0..0x1F for a2 A0..BF. Therefore0x1F-delta nonnegative; bitwise AND with any base cannot be negative, so the final<0 rejects all these surrogate prefixes. This is interval reasoning, not8192-pair execution."
+  },
+  "conclusion": "One valid non-surrogate source-domain pair disproves the printed20 clause under the printed strict<0. Changing20to1f repairs this boundary pair and preserves rejection ofEDA0..EDBF; full global classification not rerun or claimed.",
+  "writeActions": "none to4A manuscript/report or Vol3 report; private peer receipt only",
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false,
+  "reviewerType": "independent-model-direct-source-image-comparison",
+  "humanSignOff": false
+}

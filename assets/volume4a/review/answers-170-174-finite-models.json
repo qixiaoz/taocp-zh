@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "SpecifiedFinite170172173174InstancesOnly;NotGeneralProofsOrAllVariableCounts",
+  "data": {
+    "checkerSha256": "322193001994f3540e51c4b00e79592eeda52ac01e21b6862a303d0e60627489",
+    "pageMarkdownSha256": {
+      "562": "b288f910afa463ef841fd6238d3de4d8d7cafd3d6a648e226b2bbf6b34035925",
+      "563": "678386d442116340bcec7ad86175be02ec43eeda9aa2bec4a80b531c43424ad8"
+    },
+    "170and172": {
+      "finiteSkinnyChainAndHornFamilies": [
+        {
+          "n": 1,
+          "allChainTruthFunctions": 2,
+          "allOddThresholds": 1,
+          "allSignedFunctionsChecked": 2,
+          "HornFunctions": 2,
+          "BothFunctionAndComplementHorn": 2
+        },
+        {
+          "n": 2,
+          "allChainTruthFunctions": 8,
+          "allOddThresholds": 2,
+          "allSignedFunctionsChecked": 8,
+          "HornFunctions": 7,
+          "BothFunctionAndComplementHorn": 6
+        },
+        {
+          "n": 3,
+          "allChainTruthFunctions": 32,
+          "allOddThresholds": 4,
+          "allSignedFunctionsChecked": 32,
+          "HornFunctions": 23,
+          "BothFunctionAndComplementHorn": 14
+        },
+        {
+          "n": 4,
+          "allChainTruthFunctions": 128,
+          "allOddThresholds": 8,
+          "allSignedFunctionsChecked": 128,
+          "HornFunctions": 73,
+          "BothFunctionAndComplementHorn": 30
+        },
+        {
+          "n": 5,
+          "allChainTruthFunctions": 512,
+          "allOddThresholds": 16,
+          "allSignedFunctionsChecked": 512,
+          "HornFunctions": 227,
+          "BothFunctionAndComplementHorn": 62
+        },
+        {
+          "n": 6,
+          "allChainTruthFunctions": 2048,
+          "allOddThresholds": 32,
+          "allSignedFunctionsChecked": 2048,
+          "HornFunctions": 697,
+          "BothFunctionAndComplementHorn": 126
+        },
+        {
+          "n": 7,
+          "allChainTruthFunctions": 8192,
+          "allOddThresholds": 64
+        },
+        {
+          "n": 8,
+          "allChainTruthFunctions": 32768,
+          "allOddThresholds": 128
+        }
+      ],
+      "sourceN10": {
+        "t": 791,
+        "dualThreshold": 233,
+        "all1024InputsMatchPrintedDNFAndCNF": true,
+        "all1024VariableComplementMasksHorn": 84,
+        "bothHornMasks": [
+          232,
+          233,
+          234,
+          236
+        ],
+        "allMaskVariablesOneBased": [
+          [
+            3,
+            4,
+            5,
+            7
+          ],
+          [
+            3,
+            4,
+            5,
+            7,
+            10
+          ],
+          [
+            3,
+            4,
+            5,
+            7,
+            9
+          ],
+          [
+            3,
+            4,
+            5,
+            7,
+            8
+          ]
+        ]
+      },
+      "all170dInputOddThresholdCasesThrough8": 43690
+    },
+    "173": [
+      {
+        "n": 2,
+        "oddThresholds": 2,
+        "eachAllVariablePermutations": 2,
+        "distinctReorderableMonotoneFunctions": 2,
+        "printedOrderedBellFormula": 2,
+        "allStabilizerFactorialsAndNoOtherSkinnyInEachOrbit": true
+      },
+      {
+        "n": 3,
+        "oddThresholds": 4,
+        "eachAllVariablePermutations": 6,
+        "distinctReorderableMonotoneFunctions": 8,
+        "printedOrderedBellFormula": 8,
+        "allStabilizerFactorialsAndNoOtherSkinnyInEachOrbit": true
+      },
+      {
+        "n": 4,
+        "oddThresholds": 8,
+        "eachAllVariablePermutations": 24,
+        "distinctReorderableMonotoneFunctions": 46,
+        "printedOrderedBellFormula": 46,
+        "allStabilizerFactorialsAndNoOtherSkinnyInEachOrbit": true
+      },
+      {
+        "n": 5,
+        "oddThresholds": 16,
+        "eachAllVariablePermutations": 120,
+        "distinctReorderableMonotoneFunctions": 332,
+        "printedOrderedBellFormula": 332,
+        "allStabilizerFactorialsAndNoOtherSkinnyInEachOrbit": true
+      },
+      {
+        "n": 6,
+        "oddThresholds": 32,
+        "eachAllVariablePermutations": 720,
+        "distinctReorderableMonotoneFunctions": 2874,
+        "printedOrderedBellFormula": 2874,
+        "allStabilizerFactorialsAndNoOtherSkinnyInEachOrbit": true
+      }
+    ],
+    "174": {
+      "sourceTable56NumericAnd42BlankCellsMatchedIndependentDP": true,
+      "columnTotals": [
+        1,
+        1,
+        2,
+        3,
+        8,
+        17,
+        56,
+        155,
+        608,
+        2073,
+        9440,
+        38227,
+        198272,
+        929569
+      ],
+      "a_p_q_r_finiteBijections": [
+        {
+          "n": 1,
+          "allReachableReducedSkinnyBDDs": 2,
+          "aToPDellacAndQGenocchiAndRPistolImages": 2,
+          "allImageSetsInjective": true,
+          "allDumontFixedPointConditionsChecked": true,
+          "allDellacPermutationsIndependentlyEnumerated": 2
+        },
+        {
+          "n": 2,
+          "allReachableReducedSkinnyBDDs": 8,
+          "aToPDellacAndQGenocchiAndRPistolImages": 8,
+          "allImageSetsInjective": true,
+          "allDumontFixedPointConditionsChecked": true,
+          "allDellacPermutationsIndependentlyEnumerated": 24
+        },
+        {
+          "n": 3,
+          "allReachableReducedSkinnyBDDs": 56,
+          "aToPDellacAndQGenocchiAndRPistolImages": 56,
+          "allImageSetsInjective": true,
+          "allDumontFixedPointConditionsChecked": true,
+          "allDellacPermutationsIndependentlyEnumerated": 720
+        },
+        {
+          "n": 4,
+          "allReachableReducedSkinnyBDDs": 608,
+          "aToPDellacAndQGenocchiAndRPistolImages": 608,
+          "allImageSetsInjective": true,
+          "allDumontFixedPointConditionsChecked": true,
+          "allDellacPermutationsIndependentlyEnumerated": 40320
+        },
+        {
+          "n": 5,
+          "allReachableReducedSkinnyBDDs": 9440,
+          "aToPDellacAndQGenocchiAndRPistolImages": 9440,
+          "allImageSetsInjective": true,
+          "allDumontFixedPointConditionsChecked": true
+        }
+      ],
+      "all14PathStatesAnd13WordTransitionsMatched": true,
+      "sourceExample": {
+        "a": [
+          3,
+          1,
+          2,
+          3,
+          4,
+          3
+        ],
+        "p": [
+          3,
+          1,
+          2,
+          5,
+          4,
+          6
+        ],
+        "inverseP": [
+          2,
+          3,
+          1,
+          5,
+          4,
+          6
+        ],
+        "q": [
+          6,
+          1,
+          5,
+          3,
+          7,
+          4,
+          8,
+          2
+        ],
+        "r": [
+          2,
+          8,
+          4,
+          6,
+          6,
+          8,
+          8,
+          8
+        ]
+      },
+      "editorFootnoteNineGenocchiValues": [
+        1,
+        1,
+        3,
+        17,
+        155,
+        2073,
+        38227,
+        929569,
+        28820619
+      ],
+      "finiteBernoulliAndTangentSeriesBothMatch": true
+    },
+    "limits": [
+      "No170DNFglobalminimumproof/general171regular-readoncetheorem",
+      "173boundedfinitepermutationsnotgeneralgroupcountproof",
+      "174boundedfinitebijectionsnotgeneralinvertibilityorallunrestrictedpistolstheory",
+      "OriginalCNeditorfootnotepreserved;historicalbibliographicclaimsnotresearch-updated",
+      "ActualHTMLmath/table/images/footnoteroundtripacceptanceisseparate"
+    ]
+  },
+  "sourceEvidenceSha256": "5b1c5dc855be7b4a83a5022aa6e4df739818ef823762154b06c13cf1789a3e45"
+}

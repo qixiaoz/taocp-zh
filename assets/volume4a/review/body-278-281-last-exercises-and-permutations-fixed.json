@@ -1,0 +1,524 @@
+{
+  "scope": "Fixed statements and sample inputs from CN278–281, direct exercise target presence, and bounded independent execution. No general proof of all exercises or whole book assembly.",
+  "pageMarkdownHashes": {
+    "278": "15bc9eaec491562cf555b8d639c9d8ad0a1d88fd4ea750b2f0fdd667adc46d7d",
+    "279": "e775e3b56a0f73e99fbaf5bf997faf27d1a8bf2780aa60696231981f19badf2c",
+    "280": "d26e14e639e801e6f61c96a4b419d19281b39c3f46287681b0875ad60d9e2011",
+    "281": "f044e59dfa89c4b998fe0d57b4453e2748bdeb65a88770272ae89afee3e4dd65"
+  },
+  "exercise84Figure": {
+    "file": "assets/volume4a/figures/fig-7-37-loony-loop.svg",
+    "sha256": "1f17df19fb761fdd99caa3eddc57f411f4d1aff5ef3a69b9e15c5693c2c1a6ee",
+    "enPdfPage": 333,
+    "sourceBounds": [
+      [
+        230,
+        106,
+        393,
+        217
+      ]
+    ],
+    "nativePaths": 32,
+    "sourceDirectlyCompared": true,
+    "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+    "strokeWidths": [
+      1.56,
+      2.34
+    ]
+  },
+  "exercise85FiniteOperations": 125,
+  "exercise89OriginalMorse": ".--..--.-.",
+  "exercise97FixedCycles": {
+    "2": "0011",
+    "3": "00011101",
+    "4": "0000101001111011",
+    "5": "00000110001011011111001110101001"
+  },
+  "exercise101GivenDigitFactors": [
+    "3",
+    "1415926535897932384626433832795",
+    "02884197"
+  ],
+  "exercise104FixedWordList": {
+    "sha256": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce",
+    "primes": 1274,
+    "smallestNonPrime": "abaca",
+    "largestPrime": "rutty"
+  },
+  "exercise109FixedCases": [
+    {
+      "n": 0,
+      "m": 1,
+      "side": 1,
+      "uniqueWindows": 1
+    },
+    {
+      "n": 1,
+      "m": 2,
+      "side": 4,
+      "uniqueWindows": 16
+    },
+    {
+      "n": 2,
+      "m": 4,
+      "side": 16,
+      "uniqueWindows": 256
+    },
+    {
+      "n": 3,
+      "m": 8,
+      "side": 64,
+      "uniqueWindows": 4096
+    }
+  ],
+  "exercise111ExactWays": [
+    "123+45-67+8-9",
+    "123+4-5+67-89",
+    "123-45-67+89",
+    "123-4-5-6-7+8-9",
+    "12+3+4+5-6-7+89",
+    "12+3-4+5+67+8+9",
+    "12-3-4+5-6+7+89",
+    "1+23-4+56+7+8+9",
+    "1+23-4+5+6+78-9",
+    "1+2+34-5+67-8+9",
+    "1+2+3-4+5+6+78+9",
+    "-1+2-3+4+5+6+78+9"
+  ],
+  "permutationL": {
+    "fixedPrintedOrder": [
+      [
+        1,
+        2,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        2
+      ],
+      [
+        1,
+        3,
+        2,
+        2
+      ],
+      [
+        2,
+        1,
+        2,
+        3
+      ],
+      [
+        2,
+        1,
+        3,
+        2
+      ],
+      [
+        2,
+        2,
+        1,
+        3
+      ],
+      [
+        2,
+        2,
+        3,
+        1
+      ],
+      [
+        2,
+        3,
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        2,
+        1
+      ],
+      [
+        3,
+        1,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        2,
+        1
+      ]
+    ],
+    "finiteCases": [
+      {
+        "length": 1,
+        "alphabetSize": 4,
+        "inputs": 4,
+        "outputs": 4
+      },
+      {
+        "length": 2,
+        "alphabetSize": 4,
+        "inputs": 10,
+        "outputs": 16
+      },
+      {
+        "length": 3,
+        "alphabetSize": 4,
+        "inputs": 20,
+        "outputs": 64
+      },
+      {
+        "length": 4,
+        "alphabetSize": 4,
+        "inputs": 35,
+        "outputs": 256
+      },
+      {
+        "length": 5,
+        "alphabetSize": 4,
+        "inputs": 56,
+        "outputs": 1024
+      },
+      {
+        "length": 6,
+        "alphabetSize": 4,
+        "inputs": 84,
+        "outputs": 4096
+      }
+    ]
+  },
+  "privateTargets": [
+    {
+      "page": 278,
+      "exercise": 82,
+      "grade": "M25",
+      "recommended": true,
+      "privateAnswerPage": 596
+    },
+    {
+      "page": 278,
+      "exercise": 83,
+      "grade": "41",
+      "recommended": false,
+      "privateAnswerPage": 596
+    },
+    {
+      "page": 278,
+      "exercise": 84,
+      "grade": "25",
+      "recommended": true,
+      "privateAnswerPage": 596
+    },
+    {
+      "page": 278,
+      "exercise": 85,
+      "grade": "M25",
+      "recommended": true,
+      "privateAnswerPage": 596
+    },
+    {
+      "page": 278,
+      "exercise": 86,
+      "grade": "26",
+      "recommended": true,
+      "privateAnswerPage": 597
+    },
+    {
+      "page": 278,
+      "exercise": 87,
+      "grade": "27",
+      "recommended": false,
+      "privateAnswerPage": 597
+    },
+    {
+      "page": 278,
+      "exercise": 88,
+      "grade": "25",
+      "recommended": true,
+      "privateAnswerPage": 597
+    },
+    {
+      "page": 278,
+      "exercise": 89,
+      "grade": "25",
+      "recommended": true,
+      "privateAnswerPage": 597
+    },
+    {
+      "page": 278,
+      "exercise": 90,
+      "grade": "26",
+      "recommended": false,
+      "privateAnswerPage": 598
+    },
+    {
+      "page": 278,
+      "exercise": 91,
+      "grade": "34",
+      "recommended": true,
+      "privateAnswerPage": 598
+    },
+    {
+      "page": 278,
+      "exercise": 92,
+      "grade": "M30",
+      "recommended": false,
+      "privateAnswerPage": 598
+    },
+    {
+      "page": 278,
+      "exercise": 93,
+      "grade": "M28",
+      "recommended": true,
+      "privateAnswerPage": 598
+    },
+    {
+      "page": 278,
+      "exercise": 94,
+      "grade": "22",
+      "recommended": false,
+      "privateAnswerPage": 598
+    },
+    {
+      "page": 278,
+      "exercise": 95,
+      "grade": "M24",
+      "recommended": true,
+      "privateAnswerPage": 598
+    },
+    {
+      "page": 279,
+      "exercise": 96,
+      "grade": "M28",
+      "recommended": true,
+      "privateAnswerPage": 599
+    },
+    {
+      "page": 279,
+      "exercise": 97,
+      "grade": "M29",
+      "recommended": false,
+      "privateAnswerPage": 599
+    },
+    {
+      "page": 279,
+      "exercise": 98,
+      "grade": "M34",
+      "recommended": false,
+      "privateAnswerPage": 600
+    },
+    {
+      "page": 279,
+      "exercise": 99,
+      "grade": "M23",
+      "recommended": true,
+      "privateAnswerPage": 600
+    },
+    {
+      "page": 279,
+      "exercise": 100,
+      "grade": "40",
+      "recommended": false,
+      "privateAnswerPage": 601
+    },
+    {
+      "page": 279,
+      "exercise": 101,
+      "grade": "M30",
+      "recommended": true,
+      "privateAnswerPage": 601
+    },
+    {
+      "page": 279,
+      "exercise": 102,
+      "grade": "HM28",
+      "recommended": false,
+      "privateAnswerPage": 601
+    },
+    {
+      "page": 279,
+      "exercise": 103,
+      "grade": "M20",
+      "recommended": false,
+      "privateAnswerPage": 601
+    },
+    {
+      "page": 279,
+      "exercise": 104,
+      "grade": "17",
+      "recommended": false,
+      "privateAnswerPage": 601
+    },
+    {
+      "page": 279,
+      "exercise": 105,
+      "grade": "M31",
+      "recommended": false,
+      "privateAnswerPage": 601
+    },
+    {
+      "page": 279,
+      "exercise": 106,
+      "grade": "M30",
+      "recommended": true,
+      "privateAnswerPage": 601
+    },
+    {
+      "page": 279,
+      "exercise": 107,
+      "grade": "HM30",
+      "recommended": false,
+      "privateAnswerPage": 602
+    },
+    {
+      "page": 280,
+      "exercise": 108,
+      "grade": "M35",
+      "recommended": false,
+      "privateAnswerPage": 602
+    },
+    {
+      "page": 280,
+      "exercise": 109,
+      "grade": "M22",
+      "recommended": false,
+      "privateAnswerPage": 602
+    },
+    {
+      "page": 280,
+      "exercise": 110,
+      "grade": "M25",
+      "recommended": false,
+      "privateAnswerPage": 602
+    },
+    {
+      "page": 280,
+      "exercise": 111,
+      "grade": "20",
+      "recommended": false,
+      "privateAnswerPage": 603
+    },
+    {
+      "page": 280,
+      "exercise": 112,
+      "grade": "25",
+      "recommended": true,
+      "privateAnswerPage": 603
+    }
+  ],
+  "script": {
+    "file": "private-snapshot:volume4a/body-review/tools/check-278-281-last-body-examples.py",
+    "sha256": "c4f580aa5f0d44ff181672f48a66d6069acfbc83fe94e9bb576ae863f9bb256f"
+  },
+  "supplementalChecks": [
+    {
+      "file": "private-snapshot:volume4a/body-review/links-278.json",
+      "sha256": "9624eaece71f67c7421aec09f238125ddc6ad738a1d63a3eb29cb8ee61b8c8a0",
+      "evidence": {
+        "scope": "Actual linked original image opening and back navigation in current private proofs. No published route or separate whole-page cases.",
+        "pageMarkdownHashes": {
+          "278": "15bc9eaec491562cf555b8d639c9d8ad0a1d88fd4ea750b2f0fdd667adc46d7d"
+        },
+        "cases": [
+          {
+            "physicalPage": 278,
+            "width": 1280,
+            "images": [
+              {
+                "file": "assets/volume4a/figures/fig-7-37-loony-loop.svg",
+                "sha256": "1f17df19fb761fdd99caa3eddc57f411f4d1aff5ef3a69b9e15c5693c2c1a6ee",
+                "openedVisible": true,
+                "returned": true
+              }
+            ]
+          },
+          {
+            "physicalPage": 278,
+            "width": 390,
+            "images": [
+              {
+                "file": "assets/volume4a/figures/fig-7-37-loony-loop.svg",
+                "sha256": "1f17df19fb761fdd99caa3eddc57f411f4d1aff5ef3a69b9e15c5693c2c1a6ee",
+                "openedVisible": true,
+                "returned": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "private-snapshot:volume4a/body-review/wide-278-279-280-281.json",
+      "sha256": "3ffa5312a7eeb0ff194348fcf8015f69383562ae650e91bc3a50c110d7f1db49",
+      "evidence": {
+        "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate.",
+        "pageMarkdownHashes": {
+          "278": "15bc9eaec491562cf555b8d639c9d8ad0a1d88fd4ea750b2f0fdd667adc46d7d",
+          "279": "e775e3b56a0f73e99fbaf5bf997faf27d1a8bf2780aa60696231981f19badf2c",
+          "280": "d26e14e639e801e6f61c96a4b419d19281b39c3f46287681b0875ad60d9e2011",
+          "281": "f044e59dfa89c4b998fe0d57b4453e2748bdeb65a88770272ae89afee3e4dd65"
+        },
+        "records": [
+          {
+            "physicalPage": 278,
+            "width": 390,
+            "index": 6,
+            "tag": null,
+            "client": 310,
+            "total": 630,
+            "scrollLeft": 160,
+            "file": "private-snapshot:volume4a/verified-render/278-390-wide-6-1.png",
+            "sha256": "487a578146679a82e94e36951b74f1d5a9cf9c514c1b54e7d113ed59d4bcfd75"
+          },
+          {
+            "physicalPage": 280,
+            "width": 1280,
+            "index": 59,
+            "tag": null,
+            "client": 728,
+            "total": 863,
+            "scrollLeft": 135,
+            "file": "private-snapshot:volume4a/verified-render/280-1280-wide-59-2.png",
+            "sha256": "e4edd11ce0dfad3e7d61e332ee35352e67c84722ce71c27b7d8a90d0a7183c63"
+          },
+          {
+            "physicalPage": 280,
+            "width": 390,
+            "index": 59,
+            "tag": null,
+            "client": 310,
+            "total": 863,
+            "scrollLeft": 277,
+            "file": "private-snapshot:volume4a/verified-render/280-390-wide-59-1.png",
+            "sha256": "cda9e8da34f8733677244fd5cb0bccfba03d01ab4b7da846dc8c2b8ba12d68e2"
+          },
+          {
+            "physicalPage": 280,
+            "width": 390,
+            "index": 67,
+            "tag": null,
+            "client": 310,
+            "total": 629,
+            "scrollLeft": 160,
+            "file": "private-snapshot:volume4a/verified-render/280-390-wide-67-1.png",
+            "sha256": "b1972d81ff62aca0ffd682f3f9d4366e97d3de7ba071fb830ac17392bf071c00"
+          }
+        ]
+      }
+    }
+  ],
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+}

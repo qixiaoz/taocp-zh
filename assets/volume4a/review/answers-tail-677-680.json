@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "owner": "vol4a_tail_g62",
+  "physicalPages": [
+    677,
+    678,
+    679,
+    680
+  ],
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignoff": false,
+  "masterSha256": null,
+  "sourceSha256": {
+    "cn": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "en": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+  },
+  "sourceReviewSpecification": {
+    "file": "private-snapshot:volume4a/tail-tree-answers/checkpoints/specification-677-680.json",
+    "sha256": "0b0cb7b55cf4f672dea80a153c6dcffe03719753b6aa6037d5f432356704c86a"
+  },
+  "sourcePageRecords": [
+    {
+      "physicalPage": 677,
+      "pageMarkdownSha256": "43193aa1734e9f5a330a47af9448ba5ecba02ac09b33ae74ad0fb1ea83b4f3a6",
+      "pageReviewSha256": "bc33f4da4ace71182b5ccff59cb3bed0252959f3eeb1deb9ea11debb535df41c",
+      "answerAnchors": [
+        "ans-7-2-1-6-33",
+        "ans-7-2-1-6-34",
+        "ans-7-2-1-6-35",
+        "ans-7-2-1-6-36",
+        "ans-7-2-1-6-37"
+      ],
+      "sourceEnPhysicalPages": [
+        806,
+        807
+      ],
+      "mathExpressions": 85,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 678,
+      "pageMarkdownSha256": "8d0d2bf398b5cbe55c21123b3b8a7a4bae5d6be5a61476c4de587c8bea530679",
+      "pageReviewSha256": "811ea43762129f28a57a2eef5f5972861f0203699e25e9b0ff2c4bbbe0e19593",
+      "answerAnchors": [],
+      "sourceEnPhysicalPages": [
+        807,
+        808
+      ],
+      "mathExpressions": 50,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 679,
+      "pageMarkdownSha256": "b309bbbcb360b7eb821bc20b8d73a498d294cc26f7bd25241816905c82ad01eb",
+      "pageReviewSha256": "d9d993553c899d30ed758393e5407b0e7bf8969a272799eb9a7822934a9a33d0",
+      "answerAnchors": [
+        "ans-7-2-1-6-38",
+        "ans-7-2-1-6-39",
+        "ans-7-2-1-6-40",
+        "ans-7-2-1-6-41",
+        "ans-7-2-1-6-42"
+      ],
+      "sourceEnPhysicalPages": [
+        808,
+        809
+      ],
+      "mathExpressions": 66,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 680,
+      "pageMarkdownSha256": "808e20b9346952a831b7ea324fa705419c15b4958b78e148b0e937201388ca93",
+      "pageReviewSha256": "02ee336fed95a53f7b9991c660102e280a04f5646bcabd98a45122e2ff855d77",
+      "answerAnchors": [
+        "ans-7-2-1-6-43",
+        "ans-7-2-1-6-44",
+        "ans-7-2-1-6-45",
+        "ans-7-2-1-6-46"
+      ],
+      "sourceEnPhysicalPages": [
+        809,
+        810,
+        811
+      ],
+      "mathExpressions": 88,
+      "negativeAnswerLocators": []
+    }
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "volume4a-tail-tree-answer-001",
+      "section": "7.2.1.6",
+      "cnPdfPage": 677,
+      "enPdfPages": [
+        806
+      ],
+      "location": "答33(e)阿贝尔差商极限末指数",
+      "original": "(n-1)y^{n-1}",
+      "final": "(n-1)y^{n-2}",
+      "basis": "对(x+y)^(n−1)求x=0导数，结果为(n−1)y^(n−2)。n=3,y=3时左和与正确值6，原印18。n2…15逐递推、多个y整点验算。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 662,
+      "pageMarkdownSha256": "43193aa1734e9f5a330a47af9448ba5ecba02ac09b33ae74ad0fb1ea83b4f3a6"
+    },
+    {
+      "id": "volume4a-tail-tree-answer-002",
+      "section": "7.2.1.6",
+      "cnPdfPage": 677,
+      "enPdfPages": [
+        807
+      ],
+      "location": "答36赋零次数渐近比的t取值域",
+      "original": "对任意t≥1后一近似式不另限域",
+      "final": "\\approx\\frac{(t-1)^{t-1}}{t^t-(t-1)^{t-1}},\\qquad t\\geq2.",
+      "basis": "t=1时每阶恰一个一叉树，原比式分母为零。对n≥1，原精确式分子正好加n−1个1，故正文另列该值，保t≥1的算法推广。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 662,
+      "pageMarkdownSha256": "43193aa1734e9f5a330a47af9448ba5ecba02ac09b33ae74ad0fb1ea83b4f3a6"
+    },
+    {
+      "id": "volume4a-tail-tree-answer-003",
+      "section": "7.2.1.6",
+      "cnPdfPage": 678,
+      "enPdfPages": [
+        808
+      ],
+      "location": "答37的C_pq^(t)特例度数规格",
+      "original": "n_0=(t-1)q+1",
+      "final": "$n_0=q+1$、$n_t=p$",
+      "basis": "对t≥1、p≥0和q≥(t−1)p，递推串A含p个t和q个0。恢复末0后度谱q+1个0和p个t，其余均0，根数q+1−(t−1)p。代入一般森林式恰还原答36。t=3,p=1,q=2时实际1，旧代数给3。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 663,
+      "pageMarkdownSha256": "8d0d2bf398b5cbe55c21123b3b8a7a4bae5d6be5a61476c4de587c8bea530679"
+    },
+    {
+      "id": "volume4a-tail-tree-answer-004",
+      "section": "7.2.1.6",
+      "cnPdfPage": 678,
+      "enPdfPages": [
+        808
+      ],
+      "location": "答37子森林度谱移位的符号",
+      "original": "\\boldsymbol f_j=\\boldsymbol e_j-(j-1)\\boldsymbol e_0",
+      "final": "\\boldsymbol f_j=\\boldsymbol e_j+(j-1)\\boldsymbol e_0",
+      "basis": "删度j的内结点并删j−1叶时，结点数和度数和同减j，根数保持。例n=(4,1,1),j=2时C(n)=15，正确移位给3，恰合紧接原下降幂比1/5；旧符号给5。含对应项的有限整式证据已登记。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 663,
+      "pageMarkdownSha256": "8d0d2bf398b5cbe55c21123b3b8a7a4bae5d6be5a61476c4de587c8bea530679"
+    },
+    {
+      "id": "volume4a-tail-tree-answer-005",
+      "section": "7.2.1.6",
+      "cnPdfPage": 679,
+      "enPdfPages": [
+        809
+      ],
+      "location": "答37按最后内结点分类的范围",
+      "original": "无条件的 $C(\\boldsymbol n)=\\sum_j C(\\boldsymbol n;j)$",
+      "final": "若至少有一个内部结点，便有 $C(\\boldsymbol n)=\\sum_{j=1}^t C(\\boldsymbol n;j)$",
+      "basis": "C(n;j)只数存在最后内部结点的森林。纯叶度谱有一个森林而全部C(n;j)=0，故分解须明确假设存在内部结点。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 664,
+      "pageMarkdownSha256": "b309bbbcb360b7eb821bc20b8d73a498d294cc26f7bd25241816905c82ad01eb"
+    },
+    {
+      "id": "volume4a-tail-tree-answer-006",
+      "section": "7.2.1.6",
+      "cnPdfPage": 679,
+      "enPdfPages": [
+        809
+      ],
+      "location": "答37末尾插入内部结点的移位",
+      "original": "C(\\boldsymbol n+\\boldsymbol e_j;j)",
+      "final": "C(\\boldsymbol n+\\boldsymbol f_2;2)=\\cdots",
+      "basis": "从z个尾0中任选一个，把所选0改成度j结点后接j个0，增加的是f_j，根数不变。j=1时f₁=e₁，保首项。n=(3,0,0)时右端3，旧n+e₂只给2，改用f₂后为3。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 664,
+      "pageMarkdownSha256": "b309bbbcb360b7eb821bc20b8d73a498d294cc26f7bd25241816905c82ad01eb"
+    }
+  ],
+  "privateBrowserCaseCount": 8,
+  "logicalCandidates": [
+    {
+      "physicalPages": [
+        677,
+        678,
+        679,
+        680
+      ],
+      "applyMode": "whole-pages",
+      "startInclusive": "<a id=\"pdf-677\"></a>",
+      "endExclusive": "<a id=\"pdf-681\"></a>",
+      "candidateFile": "private-snapshot:volume4a/tail-tree-answers/logical/answers-7-2-1-6-677-680-continued37-42-46.md",
+      "candidateSha256": "679bf12342aedce3cecbdea2ef1c699334c6ff4727020fa57fe4f2750020aa3f",
+      "placement": "Place CN678 anchors before complete beginning of answer 37; place CN679 anchors before the complete sentence beginning 事实上，在实际所关心…; place CN680 anchors before the full answer 42. The parent may next position the adjacent CN681 anchors before complete answer 46 without duplicating the q-binomial note.",
+      "logicalBrowserProof": {
+        "viewports": [
+          1280,
+          390
+        ],
+        "file": "private-snapshot:volume4a/tail-tree-answers/browser/677-680-logical/result.json",
+        "sha256": "44e85440ca4033d507b3e84e8c1b9b9bb7353c840182867ccd98367a26003ea4"
+      },
+      "logicalSyntaxProof": {
+        "file": "private-snapshot:volume4a/tail-tree-answers/logical-proof-677-680/verified-render/syntax-677.json",
+        "sha256": "a927160adf986c643b578447d2b950c34e84c7c07e983502938823092040ece2"
+      }
+    }
+  ],
+  "assets": [],
+  "details": {
+    "finiteChecks": {
+      "answer33e": {
+        "qRecurrenceN": [
+          2,
+          15
+        ],
+        "polynomialIdentitySampleY": [
+          -1,
+          7
+        ],
+        "n3Y3LeftAndCurrent": 6,
+        "n3Y3Printed": 18
+      },
+      "answer36": {
+        "triangleRows": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3,
+            3
+          ],
+          [
+            1,
+            4,
+            7
+          ],
+          [
+            1,
+            5,
+            12,
+            12
+          ],
+          [
+            1,
+            6,
+            18,
+            30
+          ],
+          [
+            1,
+            7,
+            25,
+            55,
+            55
+          ],
+          [
+            1,
+            8,
+            33,
+            88,
+            143
+          ]
+        ],
+        "specializationCases": 78,
+        "unaryExactMean": "n−1"
+      },
+      "answer37": {
+        "tarySignature": "t≥1, p≥0, q≥(t−1)p. The degree word A has p occurrences of t and q occurrences of 0; restoring one terminal zero gives n0=q+1, nt=p and R=q+1−(t−1)p. For t=1 n0 and n1 are still distinct coordinate positions.",
+        "ternarySmallCounterexample": {
+          "p": 1,
+          "q": 2,
+          "asPrintedN0": 5,
+          "asPrintedC": 3,
+          "currentN0": 3,
+          "currentC": 1
+        },
+        "shift": "f_j=e_j+(j−1)e0; |n| and weighted norm each decrease by j when subtracting f_j, so the root count is unchanged.",
+        "ratioCounterexample": {
+          "n": [
+            4,
+            1,
+            1
+          ],
+          "j": 2,
+          "C": 15,
+          "printedShiftC": 5,
+          "currentShiftC": 3,
+          "publishedFallingRatio": "1/5"
+        },
+        "finiteRatioCases": 73,
+        "finiteLastInternalInsertionCases": 150,
+        "pureLeafLastInternalExample": {
+          "n": [
+            3,
+            0,
+            0
+          ],
+          "j": 2,
+          "printedUnitVectorCount": 2,
+          "currentRootPreservingShiftCount": 3,
+          "targetCount": 3,
+          "COfAllLeafForest": 1,
+          "SumOfAllLastInternalCounts": 0
+        },
+        "lastInternalInsertion": "For each of z trailing zero slots of the source degree word, replace that 0 by j followed by j zeros. The total degree signature increases by e_j+(j−1)e0, and reverse the operation after identifying the last internal node.",
+        "KLZOpenIssue": "The source keeps D(n−n′) under equal root counts of n and n′. The vector n−n′ has zero roots, and the source has defined D only for forest specifications. The printed formulas are preserved, with no guessed replacement."
+      },
+      "answer44": {
+        "CatalanTwoSumsN": [
+          2,
+          24
+        ]
+      },
+      "answer45": {
+        "priorExecutionReceipt": {
+          "file": "private-snapshot:volume4a/root-answer-checks/673-generators-fields-before-transcription.json",
+          "sha256": "73220451520ccb5343abae58a20f5479bb13f12de799c2d142afcc9a34ae1b0d"
+        },
+        "priorCurrentBinding": {
+          "file": "private-snapshot:volume4a/root-answer-checks/673-generators-fields-current.json",
+          "sha256": "14a11de330f67cea0816dfb89a0bceb75f7821d9230c7ea2e5cda299790c89e7"
+        },
+        "priorKCasesN": [
+          3,
+          10
+        ],
+        "priorKVisits": 23710,
+        "K4Condition": "Same-address reuses one array load, as in the source count; literal repeated-read model recorded separately.",
+        "BStarCatalanVisits": {
+          "1": 1,
+          "2": 2,
+          "3": 5,
+          "4": 14,
+          "5": 42,
+          "6": 132,
+          "7": 429,
+          "8": 1430
+        },
+        "BStarMemoryCountsIndependentlyMeasured": false
+      },
+      "answer46": {
+        "CarlitzRiordanPolynomialIdentityRange": "0≤p≤q≤10, exact coefficients, including cancellations of negative powers"
+      }
+    },
+    "finiteCheckEvidence": {
+      "file": "private-snapshot:volume4a/tail-tree-answers/checkpoints/677-680-finite-answers.json",
+      "sha256": "ab3c32495136d927a5a74644159971c8b22edea6e4d4eee180241d6e141b1e24"
+    },
+    "authorPre37AlreadyIncludedInSelectedChinese": {
+      "date": "2012-06-09",
+      "englishPrintedPage": 790,
+      "answer": 36,
+      "file": "private-snapshot:volume4a/tail-answers/sources/author-pre-37.png",
+      "sha256": "13d053825006703dc01de85cd8603e6dfd285a5e422bd518f8ce7518e77f8275"
+    },
+    "retainedQuestion": {
+      "cnPhysical": 679,
+      "enPhysical": 809,
+      "location": "§7.2.1.6答37 K/L/Z一般情况的三条式",
+      "printedArgument": "D(n−n′) under equal root counts of n and n′",
+      "disposition": "Preserved both source formulas and their stated summation conditions, pending clarification of D at zero roots. This limitation is outside the local shift corrections."
+    },
+    "unchangedScreenByteReuse": {
+      "file": "private-snapshot:volume4a/tail-tree-answers/checkpoints/unchanged-rendered-screens-for-label-revision.json",
+      "sha256": "aee26866a2dd3c5d61c962fbc2a04baa753d19fb2cca63c87f6b316d7f8475e8"
+    },
+    "physicalProofLabels": [
+      "B1*.",
+      "B2*.",
+      "B3*.",
+      "B4*."
+    ],
+    "logicalScreensViewed": [
+      "677-1280-walk5.png",
+      "677-390-walk14.png"
+    ]
+  },
+  "qualification": "Whole selected CN677–680 and corresponding portions of EN806–811, compared with actual current physical and continuous local proofs at 1280 and 390 pixels. Independent checks cover the 30 ternary counts and specified forest-signature identities, both Catalan finite sums, B* visits and the Carlitz–Riordan coefficient examples. Shared earlier K model results are identified by their prior immutable fingerprints."
+}

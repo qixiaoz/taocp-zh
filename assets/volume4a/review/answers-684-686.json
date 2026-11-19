@@ -1,0 +1,532 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "owner": "vol4a_body_g62",
+  "physicalPages": [
+    684,
+    685,
+    686
+  ],
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignoff": false,
+  "masterSha256": null,
+  "sourceSha256": {
+    "cn": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "en": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+  },
+  "sourceReviewSpecification": {
+    "file": "private-snapshot:volume4a/assigned-answers-681-700/checkpoints/specification-684-686.json",
+    "sha256": "258f782225da23f87b318db462abbd3fa2c16933a5ca21afc17438c428c72c53"
+  },
+  "sourcePageRecords": [
+    {
+      "physicalPage": 684,
+      "pageMarkdownSha256": "f460178dbdf757addac3bcd1225a0d83d08eef59b48411f57f72db219be0821e",
+      "pageReviewSha256": "3d859ad4ec7fa198629ad39932b8f699e19c79e77d2a6697ee4e4451c750a7b8",
+      "answerAnchors": [
+        "ans-7-2-1-6-61",
+        "ans-7-2-1-6-62",
+        "ans-7-2-1-6-63",
+        "ans-7-2-1-6-64",
+        "ans-7-2-1-6-65",
+        "ans-7-2-1-6-66"
+      ],
+      "sourceEnPhysicalPages": [
+        814,
+        815
+      ],
+      "mathExpressions": 78,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 685,
+      "pageMarkdownSha256": "2568e10fea5076fa2b3e26cf54aeb33e34ec9ddd1b26232eebe6b327d4618c40",
+      "pageReviewSha256": "32df28993e51dfeda8ddd4b88dc6630d0b5145ecb317f6b744d107c2dbc92499",
+      "answerAnchors": [
+        "ans-7-2-1-6-67",
+        "ans-7-2-1-6-68",
+        "ans-7-2-1-6-69",
+        "ans-7-2-1-6-70",
+        "ans-7-2-1-6-71",
+        "ans-7-2-1-6-72",
+        "ans-7-2-1-6-73",
+        "ans-7-2-1-6-74",
+        "ans-7-2-1-6-75"
+      ],
+      "sourceEnPhysicalPages": [
+        815,
+        816
+      ],
+      "mathExpressions": 58,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 686,
+      "pageMarkdownSha256": "60128d139588f5e6c097cfab786c1652b6355bc1aa59fd3ecfd46bb7e3fba238",
+      "pageReviewSha256": "f8c54d680ed5aa602d5784bacb3ce065c647d804f3263348c60a081e5a7f38d1",
+      "answerAnchors": [
+        "ans-7-2-1-6-76",
+        "ans-7-2-1-6-77",
+        "ans-7-2-1-6-78",
+        "ans-7-2-1-6-79",
+        "ans-7-2-1-6-80",
+        "ans-7-2-1-6-81"
+      ],
+      "sourceEnPhysicalPages": [
+        817,
+        818
+      ],
+      "mathExpressions": 62,
+      "negativeAnswerLocators": []
+    }
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "answers-685-66-parallel-order",
+      "section": "7.2.1.6",
+      "cnPdfPage": 685,
+      "location": "答66末段，英文印798",
+      "original": "对边和（或）并联的超边添加了一种顺序",
+      "final": "为并联的边和（或）超边规定了顺序",
+      "basis": "英文限定词“that are joined in parallel”修饰边、超边两者，与平面嵌入说明一致。",
+      "cnPrintedPage": 670,
+      "pageMarkdownSha256": "2568e10fea5076fa2b3e26cf54aeb33e34ec9ddd1b26232eebe6b327d4618c40"
+    },
+    {
+      "id": "answers-686-75-comma",
+      "section": "7.2.1.6",
+      "cnPdfPage": 686,
+      "location": "答75极限前，英文印799–800",
+      "original": "M_{jn}/M_n",
+      "final": "M_{j,n}/M_n",
+      "basis": "作者2015-12-09勘误第37页明确答75所有双下标M插入逗号、去分组圆括号。中文其余公式已有逗号，保留早先正确位置。",
+      "cnPrintedPage": 671,
+      "pageMarkdownSha256": "60128d139588f5e6c097cfab786c1652b6355bc1aa59fd3ecfd46bb7e3fba238"
+    },
+    {
+      "id": "answers-686-75-one-positions",
+      "section": "7.2.1.6",
+      "cnPdfPage": 686,
+      "location": "答75首段，英文印800",
+      "original": "相关序列 z₁…zₙ₋₁ 是位串",
+      "final": "给出了位串 $\\mathtt1^j\\mathtt0\\mathtt1^{n-1-j}$ 中1的位置",
+      "basis": "两源把n−1个位置与n位串写成同一对象。答74正定义z为1的位置；此串恰有n−1个1。依原(36)精确生成1–12阶的行，逐项核答75行差和8阶例。",
+      "cnPrintedPage": 671,
+      "pageMarkdownSha256": "60128d139588f5e6c097cfab786c1652b6355bc1aa59fd3ecfd46bb7e3fba238"
+    }
+  ],
+  "privateBrowserCaseCount": 6,
+  "logicalCandidates": [],
+  "assets": [
+    {
+      "cnPdfPage": 684,
+      "answer": 63,
+      "file": "assets/volume4a/figures/7-2-1-6-ans63-labelled-trees.svg",
+      "sha256": "e78eb519190f39fb50dd460df1c338abb236c5626feadeadaa04ad052d347396",
+      "trees": [
+        [
+          3,
+          [
+            1,
+            [
+              2,
+              0
+            ]
+          ]
+        ],
+        [
+          [
+            1,
+            [
+              2,
+              0
+            ]
+          ],
+          3
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            3,
+            [
+              2,
+              0
+            ]
+          ]
+        ],
+        [
+          1,
+          [
+            [
+              2,
+              0
+            ],
+            3
+          ]
+        ],
+        [
+          1,
+          [
+            [
+              3,
+              2
+            ],
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            [
+              2,
+              3
+            ],
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            2,
+            [
+              3,
+              0
+            ]
+          ]
+        ],
+        [
+          1,
+          [
+            2,
+            [
+              0,
+              3
+            ]
+          ]
+        ]
+      ],
+      "count": 10,
+      "sourceComparison": "Direct CN684 printed669 and EN815 printed798 diagrams; source ordering, rooted incidence and left-to-right leaf labels when shown."
+    },
+    {
+      "cnPdfPage": 684,
+      "answer": 66,
+      "file": "assets/volume4a/figures/7-2-1-6-ans66-schroeder-contractions.svg",
+      "sha256": "06011b01769ae90a0e14b806b7d5023e3b6c07e150816db32039dedb9a0634c8",
+      "trees": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          0,
+          [
+            0,
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        [
+          0,
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          0,
+          [
+            [
+              0,
+              0
+            ],
+            0
+          ]
+        ],
+        [
+          0,
+          [
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            [
+              0,
+              0
+            ]
+          ],
+          0
+        ],
+        [
+          [
+            [
+              0,
+              0
+            ],
+            0
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          0,
+          0
+        ]
+      ],
+      "count": 11,
+      "sourceComparison": "Direct CN684 printed669 and EN815 printed798 diagrams; source ordering, rooted incidence and left-to-right leaf labels when shown."
+    }
+  ],
+  "details": {
+    "author2015IndexedNotation": {
+      "file": "private-snapshot:volume4a/assigned-answers-681-700/sources/official-pre-37.png",
+      "sha256": "13d053825006703dc01de85cd8603e6dfd285a5e422bd518f8ce7518e77f8275",
+      "reference": "2015-12-09, early corrections print37, English print799–800"
+    },
+    "finiteChecks": {
+      "file": "private-snapshot:volume4a/assigned-answers-681-700/checkpoints/684-686-finite.json",
+      "sha256": "de8d27265c544d12375368a931e06e213293c80880266a8afb5783b32c25467d",
+      "result": {
+        "rangeOfResult": "Finite enumerations of input n in ranges listed. Open limiting questions in 76 are transcribed.",
+        "cycleLemma61": {
+          "length": 7,
+          "digits": [
+            0,
+            3
+          ],
+          "positiveForestCountWords": 1464,
+          "sourceCircularShiftPositionsVerified": true
+        },
+        "christmasTree36AndAlgorithmX": {
+          "n": [
+            1,
+            12
+          ],
+          "rightmostWords": 1911,
+          "allRowsAndAlgorithmXAgree": true,
+          "answer69": {
+            "order8DerivedOrder6Rows": 20,
+            "order8DerivedOrder7Rows": 35
+          },
+          "answer75N8": [
+            20,
+            40,
+            54,
+            62,
+            66,
+            68,
+            69
+          ]
+        },
+        "answer73To74": {
+          "bodyInput": "011001001000011111101101011100",
+          "left": "011001001000000000100101001100",
+          "right": "111001011011111111101101011100",
+          "onePositions": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            22,
+            24,
+            26,
+            27,
+            28
+          ],
+          "summands": [
+            0,
+            40116600,
+            40116600,
+            2704156,
+            705432,
+            705432,
+            184756,
+            136136,
+            87516,
+            51766,
+            28886,
+            15444,
+            8008,
+            4070,
+            2046,
+            512,
+            256,
+            64,
+            16,
+            8,
+            4
+          ],
+          "independentBallotPathRank": 84867708
+        },
+        "answer76PrintedFixedPointPrefix": "1313351313351335355713133513133513353557131335133535571335355735575779",
+        "answer79": {
+          "permutation": [
+            1,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            20,
+            23,
+            25,
+            29,
+            30,
+            2,
+            3,
+            6,
+            9,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            22,
+            24,
+            26,
+            27,
+            28
+          ],
+          "rowInsertionTableau": [
+            [
+              1,
+              2,
+              3,
+              6,
+              8,
+              9,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              21,
+              22,
+              24,
+              26,
+              27,
+              28
+            ],
+            [
+              4,
+              5,
+              7,
+              10,
+              20,
+              23,
+              25,
+              29,
+              30
+            ]
+          ]
+        },
+        "currentMarkdownSha256": {
+          "684": "f460178dbdf757addac3bcd1225a0d83d08eef59b48411f57f72db219be0821e",
+          "685": "2568e10fea5076fa2b3e26cf54aeb33e34ec9ddd1b26232eebe6b327d4618c40",
+          "686": "60128d139588f5e6c097cfab786c1652b6355bc1aa59fd3ecfd46bb7e3fba238"
+        },
+        "checkerSha256": "9757d1c133ef2cd966f3d6bb628f7c6c00b123ffd63f9de278cf78b5e6b69160"
+      }
+    },
+    "figureSourceAndTopology": {
+      "file": "private-snapshot:volume4a/assigned-answers-681-700/checkpoints/684-figures.json",
+      "sha256": "75280481454b804c2603ee59779006e6bbae9bd61e200de4a27f7f7dc91ff523"
+    },
+    "physicalSeams": [
+      {
+        "left": 684,
+        "right": 685,
+        "answer": 66,
+        "boundary": "同答66，上一页(b)结束后续独立的串行–并行图注。",
+        "action": "保留段落和页定位。"
+      },
+      {
+        "left": 685,
+        "right": 686,
+        "answer": 75,
+        "boundary": "「我们还有」后紧接三等项的行差显示式。",
+        "action": "可将686双锚移至75完整逻辑段前，勿插入公式。"
+      }
+    ]
+  },
+  "qualification": "逐页模型对中英实际图像，检查当前Markdown两宽实际渲染、数学横移端点、两张重绘树图和原图新窗口，以及30格P图表。有限结果不判定原著的极限猜想。"
+}

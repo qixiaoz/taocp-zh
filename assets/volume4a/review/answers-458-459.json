@@ -1,0 +1,633 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "scope": "CompleteChinese458-459,answers138-145and7.1.1answers1-3plus4(a)",
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignOff": false,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 458,
+      "cnPrintedPage": "443",
+      "enPdfPages": [
+        549,
+        550
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "7ceb8a366152af6ad9c21405e474e8b87e7c822c0661fa735f04b26dd3b2378b",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "abb3782f6e94037313b1f3e9f3943346b199b85a466df8af5301a7b824015b6b",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "Complete Chinese source page and the available corresponding English contents directly compared; preserved edition differences are not asserted equal. No human sign-off.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "b9d403cd1596dc3f17d51101de21ed280c7d34b42567db443db82b15272fb0c7",
+      "enPageImages": [
+        {
+          "physicalPage": 549,
+          "sha256": "8f19bafc220c30a4102ae1efb86e0df7a7bce1354a827b2af5ac1b6d602b3588"
+        },
+        {
+          "physicalPage": 550,
+          "sha256": "b1eb7d04ab909b4efe372004a6b8a966b53daadb0e5f00088b28b861c42a12fc"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 458,
+        "markdownSha256": "7ceb8a366152af6ad9c21405e474e8b87e7c822c0661fa735f04b26dd3b2378b",
+        "htmlSha256": "d32159d6c8c8a131083c1d28c11db2af722d41e49c14029a9f65eb294244dfc7",
+        "mathExpressions": 89,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "63e5f852d5e0cfaf63b15abcf70e55871f3c082e6e963182b59b351066bf561e",
+      "coveredRegions": [
+        "Complete138Smithnormalform explanation,allfour3x3matrices,20labels,sixneighborincrementsand original bibliography",
+        "139allfourlabeled/unlabeledcounts,denominator and expectation",
+        "140allinducedtriplecountidentities,bars,binomialindices,varianceexponentsand bibliography",
+        "141alleighteight-digitdegree sequences and originalunsimplifiedN1/Nstatistics,allfourgraphs",
+        "142openingparagraph throughnot-necessarily-inducedsubgraphs;continues459"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "Answer7-141 / Chinese printed443",
+          "enPosition": "English printed533 / PDF550(old convention)",
+          "original": "W8for the eight-vertex example",
+          "final": "W7",
+          "basis": "Selected Chinese question88onphysical049explicitly defines W_n=K1joinC_nwithnspokes. Eight-vertexdegree73333333is seven-rimwheel;W8underthisdefinitionhasninevertices. Answer140(a)alreadyusesupdatedW7,while141retainsoldEnglishindex. Local notation consistency correction,not an asserted official141erratum."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "cn": "138sixneighborincrementsinclude(1,6);140(a)usesnrimverticesandW7;142explicitlyreferences140",
+          "en": "OldEnglish549hasincorrectneighbors/repeated-neighborconclusion;550hasoldwheelindicesandpreviousanswer",
+          "disposition": "Retain Chinese author2015-10-27,2015-12-23and2011-05-24changes;actualofficialpage21topdirectlyviewed."
+        }
+      ],
+      "machineErrorsCorrected": [
+        "Recovered+1rather than machine-1inAfirstrowmiddle,fullmatrix dimensionsand allprimes/double brackets",
+        "Removed phantom complement overG in140counts,restored allP3complementbarsand numericcoefficients",
+        "Recovered all eight8-digitsequences and unsimplifiedstatistics;no fractions silently reduced",
+        "FourclearEnglishnativegraphpanels restore faint/damagedChinese strokesand vertices,withoutinventingedges"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "continuation": {
+        "nextCnPdfPage": 459,
+        "answerContinues": "7-142"
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "Final mother/actual source question links",
+        "Whole-volume offline,routed andonline acceptance"
+      ],
+      "numericChecks": {
+        "receipt": "root-answer-checks/458-numerics.json",
+        "smith": "UAVexactdiag1/2/10;detU=detV=1,detA20,gcdallj-minors1/2/20;20labelclassesallsixdistinctneighbors",
+        "graphs": "Four8vertex14edgegraphs,degree65433322/64444222/64443331/55543222;allhaveinducedtriplecounts7/21/21/7andautomorphismcounts12/2/4/2",
+        "sequences": "Exhaustivenonincreasing8-termdegreecandidates0..7withsum28/squares112giveexactlytheeightprintedsequences",
+        "wheel": "Rimn4..12trianglecountn/P3countchoose(n,2);W7hassevenindependenttriples",
+        "identities": "1249graph-atlasgraphsorders3..7satisfythethreeinducedtripleandtwo-edgeidentities"
+      },
+      "sourceEditionQualifications": {
+        "statistics": "EightN1/Nnonisomorphic-countstatisticswerecomparedinbothsourceimages;notindependentlyenumeratedall8vertexisomorphismclassesorprovedmaximalsymmetrywithineachclass.",
+        "presentation": "Eight source inline statistics presented as an editable eight-row table;four entire native panels translated into2x2grid,originalpanelpathsandorderpreserved."
+      },
+      "assets": [
+        "assets/volume4a/figures/answer-7-141-proportional-graphs.svg"
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 459,
+      "cnPrintedPage": "444",
+      "enPdfPages": [
+        550,
+        551
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "1392894320d497985a214d963dae979e73cd79efa3f772bbdafd49512e7265ee",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "32024ea01af9631da4e9a4a65853cebe17c79434b9255b8486bbaba91793b0fc",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "Complete Chinese source page and the available corresponding English contents directly compared; preserved edition differences are not asserted equal. No human sign-off.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "73e02e61f96075684dd994030aabfa7685fafc99ad049c40f0a9f7294281a478",
+      "enPageImages": [
+        {
+          "physicalPage": 550,
+          "sha256": "b1eb7d04ab909b4efe372004a6b8a966b53daadb0e5f00088b28b861c42a12fc"
+        },
+        {
+          "physicalPage": 551,
+          "sha256": "f6db6f8c718363cfa0593c8b7c2fae225b1b36ade61b0e8b047aec7e72235475"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 459,
+        "markdownSha256": "1392894320d497985a214d963dae979e73cd79efa3f772bbdafd49512e7265ee",
+        "htmlSha256": "3d7ea9c41f8ffcbdc46e2112e904fe89ee778214edb75744c3c60e464749dec3",
+        "mathExpressions": 98,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "6f445bc93a458744865ee2e8dd1eeaab434f0c16bb6f26b3550d36e7495e1e29",
+      "coveredRegions": [
+        "Complete142remainingproofand143-145,including n/k,bothmatrixconflictconditions,allmajorityvoteassignmentsand bibliography",
+        "Section7.1.1heading,completeanswers1-3and4(a)",
+        "All16dualoperation symbols,alloverbars and sans-serifprojectionL/Rdistinctfromsubset/superset",
+        "Complete16NANDformulaentriesfromsource2-columnlist,allparentheses,operandordersand operators"
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [
+        {
+          "cn": "145includesAlonso/Reingold2013reference",
+          "en": "SuppliedoldEnglish551endsatMisra/Gries1982reference",
+          "disposition": "Retain Chinese extra bibliography,matchingauthor2013-07-15historicalofficialchangelistpage21."
+        }
+      ],
+      "machineErrorsCorrected": [
+        "Recovered n/knotOCRm/kandallassignmentarrowsin145",
+        "Removed machineoverbars fromthe y,x,x,y,y,xpronounlist",
+        "Restoredall16dualityoperatorswithcorrectbars;notfloor/sqsubsetglyphs",
+        "Machineworkingdraftcontainedonly6of16NANDformulaentries;all16recoveredindividuallyfromChineseoriginalandclearEnglishoriginalimages"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "continuation": {
+        "previousCnPdfPage": 458,
+        "previousAnswerContinues": "7-142",
+        "nextCnPdfPage": 460,
+        "answerContinues": "7-1-1-4",
+        "part": "4(b)startsChinese460"
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "Final mother/actual source question links",
+        "Whole-volume offline,routed andonline acceptance"
+      ],
+      "numericChecks": {
+        "receipt": "root-answer-checks/459-numerics.json",
+        "NAND": "All16expressionsparsedfromcurrentMD,64truthassignmentsmatch0000..1111inbookorder;dynamicprogrammingover16truthmasksgivesexactminimumtreeNANDcountsfor16of16,withx/yonlyandnoconstantsorsharedsubexpressionreuse",
+        "duality": "Complementofreversed4-bittruthtablemapsall16sourcelabelsexactly",
+        "majority": "All25410ternaryarrayslength1..10withguaranteedstrictmajorityreturnthatcandidate;withoutmajoritynotclaimed",
+        "partialMatrices": "All19683partiallyspecified3x3binarymatrices:minimaldistinctcompletedrowsequalsconflictgraphchromaticnumber"
+      },
+      "sourceEditionQualifications": {
+        "representation": "Two source columns of eightNANDformulas linearized in column-reading order as an editable16-rowtable;formula contents and labels retained. Righthand table edge actually captured after local horizontal scroll.",
+        "headingNormalization": "Before acceptance,unpublished helper anchor removed and answer heading normalized to existing third-level nesting. Old draft/HTML/browser evidence preserved underverified-history/459-before-answer-heading-normalization;currentHTMLandbrowserproofactuallyregenerated.",
+        "pageScope": "English551alsohas4(b),butthisChinesephysicalpageendsexactlyafter4(a);4(b)belongsChinese460."
+      }
+    }
+  ],
+  "browser": {
+    "widths": [
+      1280,
+      390
+    ],
+    "cases": 4,
+    "mathExpressionsPerPass": 187,
+    "errors": 0,
+    "missingImages": 0,
+    "wholePageOverflow": 0,
+    "actualFontFacesLoaded": true,
+    "evidenceSha256": {
+      "458": "9bd01d3f1b3bc54fd3e2b0812b1533335d016fbe9a0339a819e13c62911ef482",
+      "459": "4ca63dd6438213a5fb2e73c76a8fe2df4c747eda999c71e7e85e9dc1a724975a"
+    },
+    "mathEndpointEvidenceSha256": {
+      "458": "4a233c07e6d68d6d6e3b66b01e9513d8a8dea4115160be730110d009804972f0",
+      "459": "da077b4e87c47da8d09ca6ab458a447559e8dee892d01059db6baabcee77c48b"
+    },
+    "mathEndpointScreensActuallyViewed": 24,
+    "nandTable390RightEndActuallyViewed": true,
+    "nandTable390ScrollMetrics": {
+      "clientWidth": 310,
+      "contentWidth": 339,
+      "actualRightScroll": 29
+    }
+  },
+  "checks": {
+    "458": {
+      "inputMarkdownSha256": "7ceb8a366152af6ad9c21405e474e8b87e7c822c0661fa735f04b26dd3b2378b",
+      "figure": {
+        "asset": "assets/volume4a/figures/answer-7-141-proportional-graphs.svg",
+        "sha256": "45b5b31e222499b1b39161a59dccd2dc38d4d82fef2eb5c3369f38bcb2b2bbcd",
+        "enPdfPage": 550,
+        "sourceEnSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+        "panels": [
+          {
+            "sourceBounds": [
+              50,
+              300,
+              101,
+              349
+            ],
+            "translation": [
+              -25.5,
+              -284.5
+            ],
+            "nativePaths": 12,
+            "vertices": 8,
+            "edges": 14,
+            "degreeSequence": "65433322",
+            "inducedTripleCountsByEdges": {
+              "0": 7,
+              "1": 21,
+              "2": 21,
+              "3": 7
+            },
+            "automorphismCount": 12,
+            "nativeEndpointTraceDetails": {
+              "traces": 14,
+              "uniqueEdges": 14,
+              "retraced": []
+            }
+          },
+          {
+            "sourceBounds": [
+              122,
+              295,
+              173,
+              368
+            ],
+            "translation": [
+              2.5,
+              -291.5
+            ],
+            "nativePaths": 13,
+            "vertices": 8,
+            "edges": 14,
+            "degreeSequence": "64444222",
+            "inducedTripleCountsByEdges": {
+              "0": 7,
+              "1": 21,
+              "2": 21,
+              "3": 7
+            },
+            "automorphismCount": 2,
+            "nativeEndpointTraceDetails": {
+              "traces": 14,
+              "uniqueEdges": 14,
+              "retraced": []
+            }
+          },
+          {
+            "sourceBounds": [
+              194,
+              295,
+              254,
+              368
+            ],
+            "translation": [
+              -174.0,
+              -211.5
+            ],
+            "nativePaths": 12,
+            "vertices": 8,
+            "edges": 14,
+            "degreeSequence": "64443331",
+            "inducedTripleCountsByEdges": {
+              "0": 7,
+              "1": 21,
+              "2": 21,
+              "3": 7
+            },
+            "automorphismCount": 4,
+            "nativeEndpointTraceDetails": {
+              "traces": 14,
+              "uniqueEdges": 14,
+              "retraced": []
+            }
+          },
+          {
+            "sourceBounds": [
+              308,
+              314,
+              388,
+              350
+            ],
+            "translation": [
+              -198.0,
+              -212.0
+            ],
+            "nativePaths": 10,
+            "vertices": 8,
+            "edges": 14,
+            "degreeSequence": "55543222",
+            "inducedTripleCountsByEdges": {
+              "0": 7,
+              "1": 21,
+              "2": 21,
+              "3": 7
+            },
+            "automorphismCount": 2,
+            "nativeEndpointTraceDetails": {
+              "traces": 14,
+              "uniqueEdges": 14,
+              "retraced": []
+            }
+          }
+        ],
+        "nativePaths": 47,
+        "presentation": "Only translation of whole native panels into2x2grid; no bitmap,pageSVG,font,textorclipping. Source unlabelled panels retain left-to-right order top row then bottom row."
+      },
+      "smithExample": {
+        "UAV": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            10
+          ]
+        ],
+        "determinantA": 20,
+        "determinantsUandV": [
+          1,
+          1
+        ],
+        "gcdAllJMinors": [
+          1,
+          2,
+          20
+        ],
+        "invariantFactors": [
+          1,
+          2,
+          10
+        ],
+        "neighborClasses": {
+          "sourceCoordinateIncrements": [
+            [
+              5,
+              6
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "labels": 20,
+          "distinctNeighborsEach": 6,
+          "qualifiedScope": "All20label classes; no new proof of the entire cited tiling or classification."
+        }
+      },
+      "degreeSequencesWithStarConditions": [
+        "73333333",
+        "65433322",
+        "64444222",
+        "64443331",
+        "55543222",
+        "55533331",
+        "55444321",
+        "44444440"
+      ],
+      "eightVertexNonisomorphicGraphStatistics": "Original N1/N values compared in both supplied source images; not independently enumerated all8vertexisomorphismclasses or maximal symmetry within each class.",
+      "wheelConventionChecks": [
+        {
+          "rimVertices": 4,
+          "totalVertices": 5,
+          "triangles": 4,
+          "inducedP3": 6
+        },
+        {
+          "rimVertices": 5,
+          "totalVertices": 6,
+          "triangles": 5,
+          "inducedP3": 10
+        },
+        {
+          "rimVertices": 6,
+          "totalVertices": 7,
+          "triangles": 6,
+          "inducedP3": 15
+        },
+        {
+          "rimVertices": 7,
+          "totalVertices": 8,
+          "triangles": 7,
+          "inducedP3": 21
+        },
+        {
+          "rimVertices": 8,
+          "totalVertices": 9,
+          "triangles": 8,
+          "inducedP3": 28
+        },
+        {
+          "rimVertices": 9,
+          "totalVertices": 10,
+          "triangles": 9,
+          "inducedP3": 36
+        },
+        {
+          "rimVertices": 10,
+          "totalVertices": 11,
+          "triangles": 10,
+          "inducedP3": 45
+        },
+        {
+          "rimVertices": 11,
+          "totalVertices": 12,
+          "triangles": 11,
+          "inducedP3": 55
+        },
+        {
+          "rimVertices": 12,
+          "totalVertices": 13,
+          "triangles": 12,
+          "inducedP3": 66
+        }
+      ],
+      "tripleAndTwoEdgeIdentities": {
+        "atlasGraphs": 1249,
+        "maxOrder": 7
+      },
+      "correction141": {
+        "printed": "W8",
+        "final": "W7",
+        "basis": "Actual selected Chinese question88onphysical049defines W_n=K1 join C_n with n spokes. The target8vertexdegree73333333is wheel with7rimvertices. OldEnglishW8uses oldorder-indexconvention. This is a consistency correction,not an asserted official141erratum."
+      }
+    },
+    "459": {
+      "inputMarkdownSha256": "1392894320d497985a214d963dae979e73cd79efa3f772bbdafd49512e7265ee",
+      "nandTable4a": [
+        {
+          "operation": "\\bot",
+          "truthTable": "0000",
+          "nandOccurrences": 5,
+          "minimumNandOccurrences": 5
+        },
+        {
+          "operation": "\\wedge",
+          "truthTable": "0001",
+          "nandOccurrences": 3,
+          "minimumNandOccurrences": 3
+        },
+        {
+          "operation": "\\overline\\supset",
+          "truthTable": "0010",
+          "nandOccurrences": 5,
+          "minimumNandOccurrences": 5
+        },
+        {
+          "operation": "\\mathsf L",
+          "truthTable": "0011",
+          "nandOccurrences": 0,
+          "minimumNandOccurrences": 0
+        },
+        {
+          "operation": "\\overline\\subset",
+          "truthTable": "0100",
+          "nandOccurrences": 5,
+          "minimumNandOccurrences": 5
+        },
+        {
+          "operation": "\\mathsf R",
+          "truthTable": "0101",
+          "nandOccurrences": 0,
+          "minimumNandOccurrences": 0
+        },
+        {
+          "operation": "\\oplus",
+          "truthTable": "0110",
+          "nandOccurrences": 5,
+          "minimumNandOccurrences": 5
+        },
+        {
+          "operation": "\\vee",
+          "truthTable": "0111",
+          "nandOccurrences": 3,
+          "minimumNandOccurrences": 3
+        },
+        {
+          "operation": "\\overline\\vee",
+          "truthTable": "1000",
+          "nandOccurrences": 6,
+          "minimumNandOccurrences": 6
+        },
+        {
+          "operation": "\\equiv",
+          "truthTable": "1001",
+          "nandOccurrences": 5,
+          "minimumNandOccurrences": 5
+        },
+        {
+          "operation": "\\overline{\\mathsf R}",
+          "truthTable": "1010",
+          "nandOccurrences": 1,
+          "minimumNandOccurrences": 1
+        },
+        {
+          "operation": "\\subset",
+          "truthTable": "1011",
+          "nandOccurrences": 2,
+          "minimumNandOccurrences": 2
+        },
+        {
+          "operation": "\\overline{\\mathsf L}",
+          "truthTable": "1100",
+          "nandOccurrences": 1,
+          "minimumNandOccurrences": 1
+        },
+        {
+          "operation": "\\supset",
+          "truthTable": "1101",
+          "nandOccurrences": 2,
+          "minimumNandOccurrences": 2
+        },
+        {
+          "operation": "\\overline\\wedge",
+          "truthTable": "1110",
+          "nandOccurrences": 1,
+          "minimumNandOccurrences": 1
+        },
+        {
+          "operation": "\\top",
+          "truthTable": "1111",
+          "nandOccurrences": 2,
+          "minimumNandOccurrences": 2
+        }
+      ],
+      "minimumFormulaMethod": "Dynamic programming over all16truth masks with x/y only, tree expressions, cost counts NAND occurrences; no shared-expression reuse or constants.",
+      "dualOperationMasksInSourceOrder": [
+        15,
+        7,
+        11,
+        3,
+        13,
+        5,
+        9,
+        1,
+        14,
+        6,
+        10,
+        2,
+        12,
+        4,
+        8,
+        0
+      ],
+      "majorityVote145": {
+        "ternaryArraysWithStrictMajority": 25410,
+        "lengths": "1..10",
+        "allMajorityCandidatesCorrect": true,
+        "withoutGuaranteedMajority": "Not claimed; algorithm returns a candidate and source question precondition matters."
+      },
+      "partialMatrix144": {
+        "all3x3PartialBinaryMatrices": 19683,
+        "starSymbol": "Each unspecified entry independently completed by0or1",
+        "minimumDistinctRowsEqualsConflictGraphChromaticNumber": true
+      },
+      "proofScope": "Finite checks support source transcription,not independent proofs of all general matrix/theorem statements."
+    }
+  },
+  "numericEvidenceSha256": {
+    "458": "f7a19e8862be08e74c6a39ee1418c4e6ec4cf69d1c9f7d73ed4219401a7eb149",
+    "459": "8f6dac8bcd65ed964ac8f7327ff96a5be06ea86456e81646f9d3fea1f0f53057"
+  },
+  "qualifications": [
+    "Private source-page proofs,not whole-volume/routed website acceptance",
+    "N1/N8vertexnonisomorphicstatistics source-compared,not exhaustively recounted",
+    "Boolean4(b)startsChinese460,not included in459"
+  ]
+}

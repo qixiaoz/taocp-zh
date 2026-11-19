@@ -1,0 +1,731 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-source-pages-174-to-176-bitwise-exercises85-130",
+  "cnPhysicalPages": [
+    174,
+    175,
+    176
+  ],
+  "cnPrintedPages": [
+    159,
+    160,
+    161
+  ],
+  "masterSha256": null,
+  "mathExpressions": 274,
+  "privateBrowserCases": 6,
+  "substantiveCorrections": 4,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.3",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 174,
+      "cnPrintedPage": 159,
+      "enPdfPages": [
+        208,
+        209
+      ],
+      "enPrintedPages": [
+        191,
+        192
+      ],
+      "pageMarkdownSha256": "cb2fe7748638ecb7760afb7befe4aa66ee9bd9af505bb0190c3c326a2c24f8bd",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-174.png",
+      "sourcePageImageSha256": "8ad24b2c795cbdbbe1366b64b495476d153b5de5bae4a8cfc38cdc9faf95ed6e",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-208.png",
+          "sha256": "e9911db4bc87975e02902f20ea99770c3905a60d56f71804cb6c9bef046bb86c",
+          "physicalPage": 208
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-209.png",
+          "sha256": "66ff44f94cca89d36cb047c95ba559f2feeefa113f51dddfb0b57bc6288381fb",
+          "physicalPage": 209
+        }
+      ],
+      "pageAnchors": [
+        "pdf-174",
+        "p-159",
+        "ex-7-1-3-85",
+        "ex-7-1-3-86",
+        "ex-7-1-3-87",
+        "ex-7-1-3-88",
+        "ex-7-1-3-89",
+        "ex-7-1-3-90",
+        "ex-7-1-3-91",
+        "ex-7-1-3-92",
+        "ex-7-1-3-93",
+        "ex-7-1-3-94",
+        "ex-7-1-3-95",
+        "ex-7-1-3-96",
+        "ex-7-1-3-97",
+        "ex-7-1-3-98",
+        "ex-7-1-3-99"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.3 习题86的跨页计数",
+          "enPosition": "PDF208／印刷191，题86末",
+          "original": "当 $a[i,j,k]$ 和 $a[i',j',k']$ 处于不同页面时，这类分配使用什么策略，使得满足 $|i-i'|+|j-j'|+|k-k'|=1$ 的遍历所有 $i,j,k,i',j',k'$ 的和的计数次数达到最小",
+          "final": "对所有满足 $|i-i'|+|j-j'|+|k-k'|=1$ 的下标 $i,j,k,i',j',k'$，统计 $a[i,j,k]$ 和 $a[i',j',k']$ 分处不同页面的次数。这类分配采用什么策略能使次数最少",
+          "basis": "英文原题要求最小化跨页相邻对的计数和。",
+          "cnPrintedPage": 159
+        },
+        {
+          "location": "§7.1.3 习题91的平均值",
+          "enPosition": "PDF208／印刷191，题91",
+          "original": "计算按位平均值",
+          "final": "计算按字节平均值",
+          "basis": "bytewise 与每个 8 位字节的加权混合相符。",
+          "cnPrintedPage": 159
+        },
+        {
+          "location": "§7.1.3 习题95的判定目标",
+          "enPosition": "PDF208／印刷191，题95",
+          "original": "如果 $x=(x_7\\ldots x_1x_0)_{256}$ 的所有字节各不相同，按位运算方法说明了什么",
+          "final": "有什么按位运算的方法能判定 $x=(x_7\\ldots x_1x_0)_{256}$ 的所有字节是否互异",
+          "basis": "字节是否互异是方法要判定的条件。",
+          "cnPrintedPage": 159
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Q84 continuation including both all-zero conventions, the exact 11-bit mask and both 11-place index samples.",
+        "Q85–86 neighboring address equation, all 15 ordered address bits, translation of the objective and its summation range.",
+        "Q87–98 exact byte conditions, original citation, nested ternary with literal star and 8-bit modular definitions.",
+        "Q99 begins with all six named bitwise operations, then the current statement continues on CN175."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 174,
+        "markdownSha256": "cb2fe7748638ecb7760afb7befe4aa66ee9bd9af505bb0190c3c326a2c24f8bd",
+        "htmlSha256": "5bf9febd2e5de030e6dd7b4e34b5b8dfb72cb03ea8513b6e61d45a6e835c8db6",
+        "mathExpressions": 90,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-174-175-176.json",
+        "sha256": "120ad8a9579539dfe0b70702de404fc0224fe8978e4e76fa87ac93b33994ea57",
+        "cases": [
+          {
+            "physicalPage": 174,
+            "width": 1280,
+            "markdownSha256": "cb2fe7748638ecb7760afb7befe4aa66ee9bd9af505bb0190c3c326a2c24f8bd",
+            "documentWidth": 1280,
+            "math": 90,
+            "mathml": 90,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 90,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 174,
+            "width": 390,
+            "markdownSha256": "cb2fe7748638ecb7760afb7befe4aa66ee9bd9af505bb0190c3c326a2c24f8bd",
+            "documentWidth": 390,
+            "math": 90,
+            "mathml": 90,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 90,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Final 1280/390 states and narrow right positions were seen. The two supplemental mid/right formula views on 175 and 176 were also seen. CN175 was viewed again after the wording change; unchanged 174/176 current proofs are hash-identical to those already viewed."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/174-1280.png",
+          "sha256": "974ba6c8e0ced4ae69acb1a8ea95bfffb994fe0787ab2b2a53904ce2e8ccec4a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/174-390.png",
+          "sha256": "4badd652c888119c06fd25d023448b596252a246ddeb28d5e2b7a6914017602c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/174-390-right.png",
+          "sha256": "be005472e1b32c79d97867bce9f26b2909c28bb93403747655a2fb0807e1d1e7",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-208-ex84-full-arrows.png",
+          "sha256": "ee8b5559bd3cbe115417893fb2e8eb779de6bb08e5f11bf3b6d8c90d3f64f7e9"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN174–176 and matching EN208–211 original pages checked directly, with the exact current private rendered math. Finite numeric checks are confined to the samples printed in Q84, Q113 and Q115.",
+      "startsMidParagraph": true,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "exerciseCoverage": {
+        "firstNewExercise": 85,
+        "lastNewExercise": 99,
+        "recommended": [
+          87,
+          91,
+          92,
+          99
+        ],
+        "originalNoIndependentAnswer": [],
+        "linkedCurrentAnswerCandidates": {
+          "85": 513,
+          "86": 513,
+          "87": 513,
+          "88": 513,
+          "89": 513,
+          "90": 513,
+          "91": 513,
+          "92": 514,
+          "93": 514,
+          "94": 514,
+          "95": 514,
+          "96": 514,
+          "97": 514,
+          "98": 514,
+          "99": 514
+        }
+      },
+      "followingPageContinuation": "Q84 follows the extrema definitions of CN173. Q99’s six operation display belongs to the text continued in CN175 at 能从任意字节序列; keep the one question anchor on CN174.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/174-selected-cn-before-translation-repair-fef2492ce0670b9dd049c853d71eb468c11b237f9deb6125e4f741aa862b719f/174.md",
+        "sha256": "fef2492ce0670b9dd049c853d71eb468c11b237f9deb6125e4f741aa862b719f",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-exercises-174-176.json",
+          "sha256": "b5bfac79adce1116adb25f2c694c365a3c7f55cd2d4bbb3634089c5cdbdbe534",
+          "scope": "Only the printed one mask in exercise 84, the width-2 illustration in exercise 113, and the three outputs of the literal exercise 115 input. No general extraction algorithm or exercise solution."
+        },
+        {
+          "file": "assets/volume4a/review/body-174-176-wide-details.json",
+          "sha256": "396a18d2f73a0608575bdf248020a6b0371b691db8efe0fb8995c483e40f104e",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "bd370259f8a78a3a2d9fc0076b0cf2443736ab4de430ecc77b894d6968b20f0c",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/174.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.3",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 175,
+      "cnPrintedPage": 160,
+      "enPdfPages": [
+        209,
+        210
+      ],
+      "enPrintedPages": [
+        192,
+        193
+      ],
+      "pageMarkdownSha256": "cf628a76b7d71331242ced4e629b5d1f287380d7c1e96f678f735a96af198fde",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-175.png",
+      "sourcePageImageSha256": "b0c953c2582a6bcd1f099196aec586873aa7597421049f06ddb60feac0bb96e5",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-209.png",
+          "sha256": "66ff44f94cca89d36cb047c95ba559f2feeefa113f51dddfb0b57bc6288381fb",
+          "physicalPage": 209
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-210.png",
+          "sha256": "87a99ae812b170db11225a670fa7b9bde43aa8a3c43f56530d9249fe7e501f2a",
+          "physicalPage": 210
+        }
+      ],
+      "pageAnchors": [
+        "pdf-175",
+        "p-160",
+        "ex-7-1-3-100",
+        "ex-7-1-3-101",
+        "ex-7-1-3-102",
+        "ex-7-1-3-103",
+        "ex-7-1-3-104",
+        "ex-7-1-3-105",
+        "ex-7-1-3-106",
+        "ex-7-1-3-107",
+        "ex-7-1-3-108",
+        "ex-7-1-3-109",
+        "ex-7-1-3-110",
+        "ex-7-1-3-111",
+        "ex-7-1-3-112",
+        "ex-7-1-3-113"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.3 习题103的结果角色",
+          "enPosition": "PDF209／印刷192，题103第二段",
+          "original": "给定 $u=(u_7\\ldots u_0)_{256}$ 和 $v=(v_7\\ldots v_0)_{256}$",
+          "final": "加和减的结果分别为 $u=(u_7\\ldots u_0)_{256}$ 和 $v=(v_7\\ldots v_0)_{256}$",
+          "basis": "giving u and v 明示它们是加减计算各自的结果。",
+          "cnPrintedPage": 160
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Q99 eight independent conditions, distinct short ASCII literal characters and the final shift of the flag word.",
+        "Q100–108 both base-10/base-16 BCD values, mixed-radix fields, mod-5 packed sizes, unary outputs, dates and order-of-byte inequalities.",
+        "Q109–113 exact nested exponent, pattern symbols and full strong-broadword-chain example and task."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 175,
+        "markdownSha256": "cf628a76b7d71331242ced4e629b5d1f287380d7c1e96f678f735a96af198fde",
+        "htmlSha256": "e9c5a5fc86f63459af6752a84c828f23892e1322d6c205c9ce29adc1e682f9f8",
+        "mathExpressions": 79,
+        "displayMath": 3,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-174-175-176.json",
+        "sha256": "120ad8a9579539dfe0b70702de404fc0224fe8978e4e76fa87ac93b33994ea57",
+        "cases": [
+          {
+            "physicalPage": 175,
+            "width": 1280,
+            "markdownSha256": "cf628a76b7d71331242ced4e629b5d1f287380d7c1e96f678f735a96af198fde",
+            "documentWidth": 1280,
+            "math": 79,
+            "mathml": 79,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 79,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 175,
+            "width": 390,
+            "markdownSha256": "cf628a76b7d71331242ced4e629b5d1f287380d7c1e96f678f735a96af198fde",
+            "documentWidth": 390,
+            "math": 79,
+            "mathml": 79,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 79,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Final 1280/390 states and narrow right positions were seen. The two supplemental mid/right formula views on 175 and 176 were also seen. CN175 was viewed again after the wording change; unchanged 174/176 current proofs are hash-identical to those already viewed."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/175-1280.png",
+          "sha256": "e060190064b776b738befdfbb01a5dd9120399e7be67b4ffaa08446e48939283",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/175-390.png",
+          "sha256": "329aa83a8873965669705b2d05ac2d6d20657a8946596d65764a8570aeec87f5",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/175-390-right.png",
+          "sha256": "aa1437731aa7007dcd5d4a75522b301356b139eb686bb515342461ab0c00de21",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/175-1280-wide-2-2.png",
+          "sha256": "e619b7800882125af64d90d8513edb7decd3611c2a4d971d76964d33df1e653c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/175-390-wide-2-1.png",
+          "sha256": "d962cb19a7f65785594eca3a807f3b5f03729a75b79e8400302f22ef791fdadd",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN174–176 and matching EN208–211 original pages checked directly, with the exact current private rendered math. Finite numeric checks are confined to the samples printed in Q84, Q113 and Q115.",
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "exerciseCoverage": {
+        "firstNewExercise": 100,
+        "lastNewExercise": 113,
+        "recommended": [
+          101,
+          103,
+          107,
+          110
+        ],
+        "originalNoIndependentAnswer": [],
+        "linkedCurrentAnswerCandidates": {
+          "100": 514,
+          "101": 515,
+          "102": 515,
+          "103": 515,
+          "104": 515,
+          "105": 515,
+          "106": 515,
+          "107": 516,
+          "108": 516,
+          "109": 516,
+          "110": 516,
+          "111": 516,
+          "112": 516,
+          "113": 516
+        }
+      },
+      "followingPageContinuation": "Begins with the final two paragraphs of Q99, so its title/grade remains only in CN174.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/175-selected-cn-before-translation-repair-30ba673232b9947a23feaad57e7e3cdbdf4bc1a53edbdfc90339b165b37ec91e/175.md",
+        "sha256": "30ba673232b9947a23feaad57e7e3cdbdf4bc1a53edbdfc90339b165b37ec91e",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-exercises-174-176.json",
+          "sha256": "b5bfac79adce1116adb25f2c694c365a3c7f55cd2d4bbb3634089c5cdbdbe534",
+          "scope": "Only the printed one mask in exercise 84, the width-2 illustration in exercise 113, and the three outputs of the literal exercise 115 input. No general extraction algorithm or exercise solution."
+        },
+        {
+          "file": "assets/volume4a/review/body-175-176-source-exception-and-history.json",
+          "sha256": "7f1ba2eb443f58be07a2befc152e98e8690b23053cf1d38cbcca781b52ae90c4",
+          "scope": "Source absence for Q129 and history of the provisional Q103 clarification only."
+        },
+        {
+          "file": "assets/volume4a/review/body-174-176-wide-details.json",
+          "sha256": "396a18d2f73a0608575bdf248020a6b0371b691db8efe0fb8995c483e40f104e",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "19a340711fadf2161c6486779c40ff0aad4f7956c0bc6efa6622be55f9d7e480",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/175.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.3",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 176,
+      "cnPrintedPage": 161,
+      "enPdfPages": [
+        210,
+        211
+      ],
+      "enPrintedPages": [
+        193,
+        194
+      ],
+      "pageMarkdownSha256": "f010658b74410b0fa4fae7605750b3fe8c72ba6cfcd207b0bc9d8928638742ff",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-176.png",
+      "sourcePageImageSha256": "5d41a376f9de40b94ba93d6d95c3854f43e9924d130086e56e21445fd4a18cd2",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-210.png",
+          "sha256": "87a99ae812b170db11225a670fa7b9bde43aa8a3c43f56530d9249fe7e501f2a",
+          "physicalPage": 210
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-211.png",
+          "sha256": "85f25ef6429f0179506e044843912b6b1939628d357555b9ab591e0086250da2",
+          "physicalPage": 211
+        }
+      ],
+      "pageAnchors": [
+        "pdf-176",
+        "p-161",
+        "ex-7-1-3-114",
+        "ex-7-1-3-115",
+        "ex-7-1-3-116",
+        "ex-7-1-3-117",
+        "ex-7-1-3-118",
+        "ex-7-1-3-119",
+        "ex-7-1-3-120",
+        "ex-7-1-3-121",
+        "ex-7-1-3-122",
+        "ex-7-1-3-123",
+        "ex-7-1-3-124",
+        "ex-7-1-3-125",
+        "ex-7-1-3-126",
+        "ex-7-1-3-127",
+        "ex-7-1-3-128",
+        "ex-7-1-3-129",
+        "ex-7-1-3-130"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [
+        {
+          "location": "Exercise 127 original boardword typo",
+          "picked": "广义字操作",
+          "olderEnglish": "boardword",
+          "authorChangeDate": "2011-02-24",
+          "officialSource": {
+            "file": "private-snapshot:volume4a/body-review/official-pre-page11-theorem-r.png",
+            "sha256": "802dfa194aa6ffca6ac815c155b1c05c7529e39abece046816e42bac2c545e40",
+            "documentPage": 11,
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz"
+          },
+          "disposition": "Chinese already conveys author’s corrected broadword operation."
+        }
+      ],
+      "coveredRegions": [
+        "Q114 exact lane grouping; Q115 three conditions and all four original 20-bit strings, negated variables and lower-bit boundary.",
+        "Q116–124 exact powers, regular-language expression and all three memory/register/current-instruction clauses.",
+        "Q125–130 exact bounds, original AC0 subscript and Q129 without a standalone source answer."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 176,
+        "markdownSha256": "f010658b74410b0fa4fae7605750b3fe8c72ba6cfcd207b0bc9d8928638742ff",
+        "htmlSha256": "afc30d10cb91d54393e260b85378412ac60e377148184fd36971ced16f8d018b",
+        "mathExpressions": 105,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-174-175-176.json",
+        "sha256": "120ad8a9579539dfe0b70702de404fc0224fe8978e4e76fa87ac93b33994ea57",
+        "cases": [
+          {
+            "physicalPage": 176,
+            "width": 1280,
+            "markdownSha256": "f010658b74410b0fa4fae7605750b3fe8c72ba6cfcd207b0bc9d8928638742ff",
+            "documentWidth": 1280,
+            "math": 105,
+            "mathml": 105,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 105,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 176,
+            "width": 390,
+            "markdownSha256": "f010658b74410b0fa4fae7605750b3fe8c72ba6cfcd207b0bc9d8928638742ff",
+            "documentWidth": 390,
+            "math": 105,
+            "mathml": 105,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 105,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Final 1280/390 states and narrow right positions were seen. The two supplemental mid/right formula views on 175 and 176 were also seen. CN175 was viewed again after the wording change; unchanged 174/176 current proofs are hash-identical to those already viewed."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/176-1280.png",
+          "sha256": "f7e4e9ee8f53da3bc31c3c83c394c5f4f57fb0e7ece45cd17778f58c10c63920",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/176-390.png",
+          "sha256": "e3542c8e5ec6d25f9366579ae085c0c202c9cb9074e05ce01cd36703fd027d43",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/176-390-right.png",
+          "sha256": "ad7331992cd3b7fe43da0486750d95af5f42a9168cc23fe69d54223e2df4f7b2",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/176-1280-wide-22-2.png",
+          "sha256": "b1bae86dae1245f91b2a07fc983b86e6c160d23a06121e352c291ed6c0f486e9",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/176-390-wide-22-1.png",
+          "sha256": "e7e7b1255fd31684adb98be9d323721785cddca7c78a585994ffe9525a47f5a2",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-210-q115-bits-formula.png",
+          "sha256": "70cb042af88d60a1710ff96b2dfa69097f25d5ac534749b89cda91a3d8003b98"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-176-q115-exact.png",
+          "sha256": "d4c6194dc2f86769f87d36dd7d390ce924242795b487e734fa36cbcf36c68c84"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-211-q124-bound-detail.png",
+          "sha256": "d1d7f2ee64e17e39b54d94d1d572f6cace10371dc3c2a52554fbb57692f78f41"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-176-q123-124-powers.png",
+          "sha256": "5382ef699efb50e9052ff3419df8afcf7dae7d66a429088422f793250fbe0089"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-518-ans128-next130.png",
+          "sha256": "79e8fb15b6f4fa5160d4a160c263ff3ef13b975a66d93f829e7d79e7c74b58c9"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-620-ans128-next130.png",
+          "sha256": "cec412500e280d35c2f99eb57bb711e07650d2714b5d4531dc839774fce58404"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/official-pre-page11-theorem-r.png",
+          "sha256": "802dfa194aa6ffca6ac815c155b1c05c7529e39abece046816e42bac2c545e40"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN174–176 and matching EN208–211 original pages checked directly, with the exact current private rendered math. Finite numeric checks are confined to the samples printed in Q84, Q113 and Q115.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "exerciseCoverage": {
+        "firstNewExercise": 114,
+        "lastNewExercise": 130,
+        "recommended": [
+          115,
+          120,
+          121
+        ],
+        "originalNoIndependentAnswer": [
+          129
+        ],
+        "linkedCurrentAnswerCandidates": {
+          "114": 516,
+          "115": 517,
+          "116": 517,
+          "117": 517,
+          "118": 517,
+          "119": 517,
+          "120": 517,
+          "121": 517,
+          "122": 517,
+          "123": 517,
+          "124": 517,
+          "125": 518,
+          "126": 518,
+          "127": 518,
+          "128": 518,
+          "130": 518
+        }
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-exercises-174-176.json",
+          "sha256": "b5bfac79adce1116adb25f2c694c365a3c7f55cd2d4bbb3634089c5cdbdbe534",
+          "scope": "Only the printed one mask in exercise 84, the width-2 illustration in exercise 113, and the three outputs of the literal exercise 115 input. No general extraction algorithm or exercise solution."
+        },
+        {
+          "file": "assets/volume4a/review/body-175-176-source-exception-and-history.json",
+          "sha256": "7f1ba2eb443f58be07a2befc152e98e8690b23053cf1d38cbcca781b52ae90c4",
+          "scope": "Source absence for Q129 and history of the provisional Q103 clarification only."
+        },
+        {
+          "file": "assets/volume4a/review/body-174-176-wide-details.json",
+          "sha256": "396a18d2f73a0608575bdf248020a6b0371b691db8efe0fb8995c483e40f104e",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "b987095961789beb7cc16150ab31a1fc663b3b59f65a781321df5c3d1bb6574e",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/176.json"
+    }
+  ],
+  "qualification": "Complete CN174–176 and matching EN208–211 original pages checked directly, with the exact current private rendered math. Finite numeric checks are confined to the samples printed in Q84, Q113 and Q115."
+}

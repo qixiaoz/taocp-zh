@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Only source210reachable-terminal microexample and211217two minimal source formula repairs",
+  "data": {
+    "210": {
+      "scope": "卷4A答210中Z(g)≤Z(f)按可达汇计数的一变量微例。未作570整页、一般ZDD算法或计算复杂度重新证明；未改正文。",
+      "sourceImages": [
+        {
+          "file": "private-snapshot:volume4a/root-sources/cn-570-210-Z-bound-detail.png",
+          "sha256": "c5bf465f437479f213a6f11b9c2440b211c8e0e615ce903cecc08b88b2911e24"
+        },
+        {
+          "file": "private-snapshot:volume4a/root-sources/en-680-210-Z-bound-detail.png",
+          "sha256": "6ad60e9528868c2f3f4dec77b3d9e83110cdd0675a448b6019813fef88e42a5c"
+        },
+        {
+          "file": "private-snapshot:volume4a/scans/566.jpg",
+          "sha256": "f1d9aefe9da1f00468cc8e765bd83d6aa8fc302cd4fe937b550fc2682b3ae591"
+        },
+        {
+          "file": "private-snapshot:volume4a/root-sources/en-675-187-all-panels-detail.png",
+          "sha256": "2383c010103385f13a8544c7d72a4e281ba8ac5324c6d8ec8747dabab9f2840c"
+        }
+      ],
+      "countingConventionCrossReference": {
+        "file": "private-snapshot:volume4a/verified/566.md",
+        "sha256": "312acdfb584522d09f638e0f0197378e2bf98f1d5b4b3bd54aa3a69a5f85fec2"
+      },
+      "literalObservation": "答210两源均印Z(g)≤Z(f)，且只对根可达的新链执行化简。答187两源的十六图按可达结点计大小：底/顶各自成为第1及第9个单汇图时都印1；第11个图i=1，两链同去顶，只印2；第3个图i=1，低链底、高链顶，印3。第16个双变量常1图两层分支加单个顶汇，印3。这同时直接展示同子节点在ZDD中只要高链非底就可以保留。",
+      "independentExample": {
+        "variableCount": 1,
+        "familyF": [
+          [],
+          [
+            1
+          ]
+        ],
+        "truthF": [
+          1,
+          1
+        ],
+        "rootF": [
+          1,
+          "⊤",
+          "⊤"
+        ],
+        "reachableF": 2,
+        "c1": 1,
+        "branchScores": {
+          "lo": 0,
+          "hi": 1
+        },
+        "optimalFamilyG": [
+          [
+            1
+          ]
+        ],
+        "truthG": [
+          0,
+          1
+        ],
+        "rootG": [
+          1,
+          "⊥",
+          "⊤"
+        ],
+        "reachableG": 3,
+        "nonterminalCounts": [
+          1,
+          1
+        ]
+      },
+      "qualification": "可达的⊥汇从无到有，严格总结点不增的说法遇到此口径反例。仅比较该例中非终端仍相等；若计两个固定预留汇，该例也均为3。微例不推翻原算法的线性步骤量级，也不单独宣布一般替代上界。"
+    },
+    "211217": {
+      "scope": "Read-only peer for two expressions and their definitions, using the listed actual PDF renders. It confers no full-page acceptance and does not reproduce timings, diagram counts, or enumeration of coverings.",
+      "sourceImages": [
+        {
+          "file": "root-sources/cn-570-211-detail.png",
+          "location": "CN 570, answer 211",
+          "sha256": "2c8e515d8243245a08e28ae2be50d3bb9eb9dfd6b275d472d7ce958d7d215013"
+        },
+        {
+          "file": "root-sources/en-680-211-detail.png",
+          "location": "EN 680, answer 211",
+          "sha256": "513fdb9ae34ccbbe8c43d34bb7c9feb5e1ba4101cb710ec065a6bf132d21cbef"
+        },
+        {
+          "file": "body-review/peer-cn-223-211-217.png",
+          "location": "CN 223, (123) and q-prime definition",
+          "sha256": "e879ecb311d9d79d3032662eb148d58c42cfa2641d0bcc3348512d62a9cad685"
+        },
+        {
+          "file": "root-sources/cn-571-217-conjunction-detail.png",
+          "location": "CN 571, answer 217",
+          "sha256": "33d435758a182937626cdf6bdbfd0ccff22dd993f453fd71af275b2f9325d34c"
+        },
+        {
+          "file": "root-sources/en-681-217-conjunction-detail.png",
+          "location": "EN 681, answer 217",
+          "sha256": "c7cfc4a2c2a20acbde11075995a65b34259115868c4e4254b25d8c1492b54819"
+        },
+        {
+          "file": "body-review/peer-cn-224-211-217.png",
+          "location": "CN 224, (128)–(130) and rows versus columns",
+          "sha256": "7006264edbcb3d9c26ceb3f14d831e41e21e26196a405b46cae3d1e13f8d12ad"
+        }
+      ],
+      "answer211": {
+        "bothPrint": "b_k >= q_k - 1 >= z_k for 0 <= k < n",
+        "cn223Definition": "q'_k counts distinct nonzero (n-k)-order subtables, and (123) gives q'_k >= z_k",
+        "singleCounterexample": {
+          "matrix": [
+            [
+              1
+            ]
+          ],
+          "function": "x_1",
+          "k": 0,
+          "b_k": 1,
+          "q_k": 1,
+          "q'_k": 1,
+          "z_k": 1,
+          "printedChain": "1 >= 0 >= 1"
+        },
+        "reason": "At a level k < n, if a cofactor is nonzero there is a valid set of the remaining rows. Flipping x_(k+1) in that set removes or adds a row with a 1, so it cannot stay an exact cover. Thus each distinct nonzero subtable contributes a level-k BDD node, and the existing (123) supplies the second inequality.",
+        "minimalReading": "b_k >= q'_k >= z_k, with the original range and no-all-zero-row hypothesis"
+      },
+      "answer217": {
+        "bothPrint": "conjunction of S_1(X_j) for j from 1 through 468",
+        "cn224Definition": "The n columns index covered cells, and the m decision variables x_i index rows (placements). Formula (129) has one S_1(X_j) for each column. The chessboard has 8*8 = 64 cells; adding one- and three-cell pieces only extends the placement rows.",
+        "placementCountCheck": {
+          "monomino": 64,
+          "domino": 112,
+          "straightTromino": 96,
+          "bentTromino": 196,
+          "total": 468
+        },
+        "minimalReading": "change the upper bound from 468 to 64"
+      }
+    }
+  },
+  "privateEvidenceSha256": {
+    "210": "7c1ababc8848437bd3109b00827756549b3d26f4681f0f870ed93305cf62dae4",
+    "211217": "0b2dce0a0b4b16b83619ed37737dc0ac78bbae053950b317029ca79501e0d2aa"
+  }
+}

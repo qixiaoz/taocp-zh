@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Onlyactual240cdirectionandone/twoisolatedvertexexamples,notwhole577",
+  "data": {
+    "scope": "Read-only narrow source peer on the polarity and family type in Answer 240(c), with two isolated-vertex fixtures. No whole-page acceptance, large graph enumeration, timing, or change to the parent draft.",
+    "sourceCrops": [
+      {
+        "file": "root-sources/cn-577-240bc-detail.png",
+        "sha256": "458bcb3630309a0c9b502af30aae8c5ab3c3431991abe7d6bd33b0c465f93ebd"
+      },
+      {
+        "file": "root-sources/en-688-240-bc-detail.png",
+        "sha256": "e31cb7e44ce42951112d054d14adb918e392eadc860c465a1a9dfffc74c6853d"
+      }
+    ],
+    "literalChinese": "那些不是由大小为 k=1,2,3,… 的子集控制的顶点 d_k 的集合",
+    "literalEnglish": "the sets of vertices d_k that are dominated by subsets of size k=1,2,3,…",
+    "formalCheck": "h is the family of closed neighborhoods. The family intersection operation is pairwise set intersection, so wp sqcap h is exactly the targets contained in some closed neighborhood. Pairwise family union extends targets dominated by chosen subsets. The textual negation contradicts this.",
+    "testedExamples": [
+      {
+        "graph": {
+          "vertices": [
+            "a"
+          ],
+          "edges": []
+        },
+        "h": [
+          [
+            "a"
+          ]
+        ],
+        "d1": [
+          [],
+          [
+            "a"
+          ]
+        ],
+        "setsNotDominatedByOne": []
+      },
+      {
+        "graph": {
+          "vertices": [
+            "a",
+            "b"
+          ],
+          "edges": []
+        },
+        "h": [
+          [
+            "a"
+          ],
+          [
+            "b"
+          ]
+        ],
+        "d1": [
+          [],
+          [
+            "a"
+          ],
+          [
+            "b"
+          ]
+        ],
+        "setsNotDominatedByOne": [
+          [
+            "a",
+            "b"
+          ]
+        ],
+        "d2": [
+          [],
+          [
+            "a"
+          ],
+          [
+            "b"
+          ],
+          [
+            "a",
+            "b"
+          ]
+        ]
+      }
+    ],
+    "minimalRepair": "Remove the negation 不是. Place d_k as the family of vertex sets dominated by a size-k subset; no changes to recurrence, count, drawing, or runtime are supported by this peer."
+  },
+  "privateEvidenceSha256": "1f3821783d7cf93283a2a5803341f63f32fb96a88780999b08f4452b9a5c8e5d"
+}

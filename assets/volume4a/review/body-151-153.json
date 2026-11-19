@@ -1,0 +1,947 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-source-pages-151-to-153-heaps-and-forest-ancestor-algorithm",
+  "cnPhysicalPages": [
+    151,
+    152,
+    153
+  ],
+  "cnPrintedPages": [
+    136,
+    137,
+    138
+  ],
+  "masterSha256": null,
+  "mathExpressions": 179,
+  "privateBrowserCases": 6,
+  "substantiveCorrections": 4,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.3",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 151,
+      "cnPrintedPage": 136,
+      "enPdfPages": [
+        180,
+        181,
+        182
+      ],
+      "enPrintedPages": [
+        163,
+        164,
+        165
+      ],
+      "pageMarkdownSha256": "4bad9d358a79f0f1728e6823efb7ad19ab313247013b1e546b098206bc3a8244",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-151.png",
+      "sourcePageImageSha256": "98fa1df529cf06bd203cf5a762f67cf3ccd8d616fcb3bc6995905b09e1333589",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-180.png",
+          "sha256": "00e1b598005dbf6f3650a7838173d3e9f6abef153f095973333b89b33db2afb7",
+          "physicalPage": 180
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-181.png",
+          "sha256": "57735787ceeed1daf9a93cf9917475254346c60eb54a30fff037397c9e3124c2",
+          "physicalPage": 181
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-182.png",
+          "sha256": "36a6e0163dab8cb13b22443ebbd1c5204f1efbad95fbc3d6bc5a84597df87be4",
+          "physicalPage": 182
+        }
+      ],
+      "pageAnchors": [
+        "pdf-151",
+        "p-136",
+        "eq-7-1-3-132",
+        "eq-7-1-3-133"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [
+        {
+          "tag": 132,
+          "file": "assets/volume4a/figures/diagram-7-1-3-132-heap-decimal-binary.svg",
+          "sha256": "679e5e1e125021f848028aec22d0bf3753b223e5bdb9b018dba5ceae4809f6ff",
+          "panels": [
+            {
+              "labels": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  4,
+                  8
+                ],
+                [
+                  4,
+                  9
+                ],
+                [
+                  5,
+                  10
+                ]
+              ]
+            },
+            {
+              "labels": [
+                "0001",
+                "0010",
+                "0011",
+                "0100",
+                "0101",
+                "0110",
+                "0111",
+                "1000",
+                "1001",
+                "1010"
+              ],
+              "edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  4,
+                  8
+                ],
+                [
+                  4,
+                  9
+                ],
+                [
+                  5,
+                  10
+                ]
+              ]
+            }
+          ],
+          "method": "Editable original shape, lines, markers, dashed auxiliary nodes, labels, and arrows redrawn from source.",
+          "sourceDirectlyCompared": true
+        },
+        {
+          "tag": 133,
+          "file": "assets/volume4a/figures/diagram-7-1-3-133-sideways-heap-decimal-binary.svg",
+          "sha256": "78b5571ad73de9cedda619ba69489cbb7af64e81b45025237df224772e7c0d55",
+          "panels": [
+            {
+              "labels": [
+                8,
+                4,
+                12,
+                2,
+                6,
+                10,
+                1,
+                3,
+                5,
+                7,
+                9
+              ],
+              "edges": [
+                [
+                  8,
+                  4
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  4,
+                  2
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  2,
+                  1
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  6,
+                  5
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  12,
+                  10
+                ],
+                [
+                  10,
+                  9
+                ]
+              ],
+              "auxiliaryNode": 12
+            },
+            {
+              "labels": [
+                "1000",
+                "0100",
+                "1100",
+                "0010",
+                "0110",
+                "1010",
+                "0001",
+                "0011",
+                "0101",
+                "0111",
+                "1001"
+              ],
+              "edges": [
+                [
+                  8,
+                  4
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  4,
+                  2
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  2,
+                  1
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  6,
+                  5
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  12,
+                  10
+                ],
+                [
+                  10,
+                  9
+                ]
+              ],
+              "auxiliaryNode": "1100"
+            }
+          ],
+          "method": "Editable original shape, lines, markers, dashed auxiliary nodes, labels, and arrows redrawn from source.",
+          "sourceDirectlyCompared": true
+        }
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.3范昂德博厄斯子结构",
+          "enPosition": "PDF181／印刷164，数据结构段",
+          "original": "对于大小为 $\\sqrt N$ 的区间子集，递归地建立有 $\\sqrt N$ 个子结构的完整结构",
+          "final": "对于每个大小为 $\\sqrt N$ 的区间内的子集，递归地建立一个子结构，共有 $\\sqrt N$ 个子结构",
+          "basis": "递归对象是各区间中的子集，另有辅助结构记录哪些区间被占用。",
+          "cnPrintedPage": 136
+        },
+        {
+          "location": "§7.1.3图式 (132) 后的兄弟结点",
+          "enPosition": "PDF181／印刷164，图式(132)后",
+          "original": "兄弟结点（即结点 $j\\oplus1$，如果 $j\\ne1$）",
+          "final": "兄弟结点（即结点 $j\\oplus1$，如果 $j\\ne1$ 且该编号不超过 $n$）",
+          "basis": "原例n=10，j=10时兄弟候选11不在有限堆中；保留同号运算和已有根条件。",
+          "cnPrintedPage": 136
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "All n coordinate indices in (130)/(131) and ∧∨ vs ⇒ source restriction. Data representation and van Emde Boas structure.",
+        "(132)/(133) complete decimal and binary shapes, four panels and precise auxiliary 12 node. Original parent/child formula (134)/(135)."
+      ],
+      "ocrRepairsOfNote": [
+        "Preserve original structural directions/labels. Initial artwork corrections are recorded at verified-history/151-153-initial-heap-left-edge-and-path-label/reason.json."
+      ],
+      "syntaxCheck": {
+        "physicalPage": 151,
+        "markdownSha256": "4bad9d358a79f0f1728e6823efb7ad19ab313247013b1e546b098206bc3a8244",
+        "htmlSha256": "f94fbe11f8267a08e7c2c61fbb3299e9b1ce1b2a2797895bfb79faf49468eee8",
+        "mathExpressions": 46,
+        "displayMath": 4,
+        "parseErrors": 0,
+        "images": 2,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-151-152-153.json",
+        "sha256": "f613b55735bf5716cc5a9ee895c9073fd5bcc73079c330d6454816208ba4083b",
+        "cases": [
+          {
+            "physicalPage": 151,
+            "width": 1280,
+            "markdownSha256": "4bad9d358a79f0f1728e6823efb7ad19ab313247013b1e546b098206bc3a8244",
+            "documentWidth": 1280,
+            "math": 46,
+            "mathml": 46,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 46,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 151,
+            "width": 390,
+            "markdownSha256": "4bad9d358a79f0f1728e6823efb7ad19ab313247013b1e546b098206bc3a8244",
+            "documentWidth": 390,
+            "math": 46,
+            "mathml": 46,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 46,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actual current 1280 and 390 left/right screenshots inspected. Frame references contain scoped local link and horizontal scroll checks. Both tree proofs refreshed after sole-left-child edge positioning; original evidence only historical."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/151-1280.png",
+          "sha256": "3b631c4b773af2d46bed64f4f10bdf3b35e6d067a2323d10d3f5e04ca9cecbed",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/151-390.png",
+          "sha256": "9f80670ac83e979e64e817adc7ff24faaaf5f35793661eb93358e9623346db54",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/151-390-right.png",
+          "sha256": "ce73229257b146dbd1af70b766e8aa8c5b01e6e95a3da75132c9ab9ac9b708e2",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN151–153 original pages, corresponding English passages, diagrams and two-width proofs. Numeric fixtures are limited to original forest and bounded heap inputs.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "followingPageContinuation": "Ends at (135). CN152 continues sideways heap descendants.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/151-selected-cn-before-translation-repair-cfe01a7444dc57921bd680182b0f6f196dedf66d8e4dbb363e1a126f9ea712e7/151.md",
+        "sha256": "cfe01a7444dc57921bd680182b0f6f196dedf66d8e4dbb363e1a126f9ea712e7",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-examples-151-153.json",
+          "sha256": "b163954970f5c6c4bf2d2833db3d5bfee2b627c085f0126bb6588dd06c55b360",
+          "scope": "Original heap and forest fixtures. Exact page display labels are bound separately. No claim about all arbitrary forest preprocessing, complexity, or replication of the proof in exercise 152."
+        },
+        {
+          "file": "assets/volume4a/review/body-151-153-wide-details.json",
+          "sha256": "4ca5dcbdeec0eda2a0422d47187eece9fcf02fb025a270a28a4214b6f0f00609",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        },
+        {
+          "file": "assets/volume4a/review/body-151-153-original-links.json",
+          "sha256": "abcb654bf8dc1187fde60dbc5b82a4d539324328097fe1cbb15440141518f052",
+          "scope": "Actual linked original image opening and back navigation in current private proofs. No published route or separate whole-page cases."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "79386d7017a988b4a399df2b27c0af5aca456c746ee2757a4fec0bca054d5976",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/151.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.3",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 152,
+      "cnPrintedPage": 137,
+      "enPdfPages": [
+        182,
+        183
+      ],
+      "enPrintedPages": [
+        165,
+        166
+      ],
+      "pageMarkdownSha256": "7b2207ce62dcfddb8ec4e8b0b972d119516c6651098476b1a720fed4d59e413d",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-152.png",
+      "sourcePageImageSha256": "15b3eb94ddb34430412e280bd1dabb7e09ff488abd94176325990b7eb44fb55c",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-182.png",
+          "sha256": "36a6e0163dab8cb13b22443ebbd1c5204f1efbad95fbc3d6bc5a84597df87be4",
+          "physicalPage": 182
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-183.png",
+          "sha256": "0d663d920457fbbce31a8b98ef4ae948b47b50f052506fd47404983565c28612",
+          "physicalPage": 183
+        }
+      ],
+      "pageAnchors": [
+        "pdf-152",
+        "p-137",
+        "eq-7-1-3-141"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [
+        {
+          "tag": 141,
+          "file": "assets/volume4a/figures/diagram-7-1-3-141-directed-preorder-forest.svg",
+          "sha256": "9b30ac52f57e8fedbcc04b4a4452dc47a82e9ad167c68aed3e742c7308c7d4f9",
+          "panels": [
+            {
+              "labels": [
+                "A",
+                "C",
+                "F",
+                "D",
+                "G",
+                "H",
+                "J",
+                "B",
+                "E",
+                "I"
+              ],
+              "edges": [
+                [
+                  "C",
+                  "A"
+                ],
+                [
+                  "D",
+                  "A"
+                ],
+                [
+                  "F",
+                  "C"
+                ],
+                [
+                  "G",
+                  "D"
+                ],
+                [
+                  "H",
+                  "D"
+                ],
+                [
+                  "J",
+                  "G"
+                ],
+                [
+                  "E",
+                  "B"
+                ],
+                [
+                  "I",
+                  "E"
+                ]
+              ],
+              "preorderRanks": {
+                "A": "1",
+                "C": "2",
+                "F": "3",
+                "D": "4",
+                "G": "5",
+                "J": "6",
+                "H": "7",
+                "B": "8",
+                "E": "9",
+                "I": "10"
+              }
+            }
+          ],
+          "method": "Editable original shape, lines, markers, dashed auxiliary nodes, labels, and arrows redrawn from source.",
+          "sourceDirectlyCompared": true
+        }
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.3式 (136) 的子孙范围",
+          "enPosition": "PDF182／印刷165，式(136)后",
+          "original": "这些结点是包含 $j$ 自身的“兼容”子孙",
+          "final": "这里的子孙包含 $j$ 自身",
+          "basis": "inclusive 表示统计时包含自身，与本页后面的先辈定义一致。",
+          "cnPrintedPage": 137
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Original closed interval and floor conditions in (136)–(138). Forest definitions and all directions in (139).",
+        "Mapping three parameters and each limit. (140) set sum, (141) all ten vertices and their preorder ranks; every arc is child→parent."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 152,
+        "markdownSha256": "7b2207ce62dcfddb8ec4e8b0b972d119516c6651098476b1a720fed4d59e413d",
+        "htmlSha256": "45f6c9d762b542e7ebf67338400cf28a443abc863965eaedc4eaf1ebb2b302ed",
+        "mathExpressions": 44,
+        "displayMath": 6,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-151-152-153.json",
+        "sha256": "f613b55735bf5716cc5a9ee895c9073fd5bcc73079c330d6454816208ba4083b",
+        "cases": [
+          {
+            "physicalPage": 152,
+            "width": 1280,
+            "markdownSha256": "7b2207ce62dcfddb8ec4e8b0b972d119516c6651098476b1a720fed4d59e413d",
+            "documentWidth": 1280,
+            "math": 44,
+            "mathml": 44,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 44,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 152,
+            "width": 390,
+            "markdownSha256": "7b2207ce62dcfddb8ec4e8b0b972d119516c6651098476b1a720fed4d59e413d",
+            "documentWidth": 390,
+            "math": 44,
+            "mathml": 44,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 44,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actual current 1280 and 390 left/right screenshots inspected. Frame references contain scoped local link and horizontal scroll checks. Current exact MD, HTML and figure (141) remained unchanged while 151 and 153 were refreshed."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/152-1280.png",
+          "sha256": "14ab74bb88f9afe92e434d74ec8952ff9a2f8635df419f938d6af16d451cea66",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/152-390.png",
+          "sha256": "71ffa08ac63cab1d3aaded455bafacd19093f23a5cc4d02c1280d71f3b100c91",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/152-390-right.png",
+          "sha256": "9aba5d9fb2890181e3a0b126303b0621ab750a7768130ef036ccfdfc5ac0be79",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN151–153 original pages, corresponding English passages, diagrams and two-width proofs. Numeric fixtures are limited to original forest and bounded heap inputs.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "followingPageContinuation": "Ends with (141) forest figure; CN153 begins its rank table.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/152-selected-cn-before-translation-repair-f374086d69c4d0978589e03c787df3563866b4babc175093d02a54202b235bb6/152.md",
+        "sha256": "f374086d69c4d0978589e03c787df3563866b4babc175093d02a54202b235bb6",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-examples-151-153.json",
+          "sha256": "b163954970f5c6c4bf2d2833db3d5bfee2b627c085f0126bb6588dd06c55b360",
+          "scope": "Original heap and forest fixtures. Exact page display labels are bound separately. No claim about all arbitrary forest preprocessing, complexity, or replication of the proof in exercise 152."
+        },
+        {
+          "file": "assets/volume4a/review/body-151-153-wide-details.json",
+          "sha256": "4ca5dcbdeec0eda2a0422d47187eece9fcf02fb025a270a28a4214b6f0f00609",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        },
+        {
+          "file": "assets/volume4a/review/body-151-153-original-links.json",
+          "sha256": "abcb654bf8dc1187fde60dbc5b82a4d539324328097fe1cbb15440141518f052",
+          "scope": "Actual linked original image opening and back navigation in current private proofs. No published route or separate whole-page cases."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "8dde6193a5818495d556b4fa9604e4c54ff59b00919c0939ee025bbe47d37636",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/152.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.3",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 153,
+      "cnPrintedPage": 138,
+      "enPdfPages": [
+        183,
+        184
+      ],
+      "enPrintedPages": [
+        166,
+        167
+      ],
+      "pageMarkdownSha256": "c57c2cb4d60c6e34de17671557bf932e3c55d3f03c2c86af94d6893e2e5cecd4",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-153.png",
+      "sourcePageImageSha256": "0dfef48227d87c5f9e75983d2dba0ca062ae5f78606089216e9f2439475673ab",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-183.png",
+          "sha256": "0d663d920457fbbce31a8b98ef4ae948b47b50f052506fd47404983565c28612",
+          "physicalPage": 183
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-184.png",
+          "sha256": "9b3c1d8b7cafbe4d95d11e72df1dacba4186f2a24b09aac4ef3aeedb9d100d7a",
+          "physicalPage": 184
+        }
+      ],
+      "pageAnchors": [
+        "pdf-153",
+        "p-138",
+        "eq-7-1-3-142",
+        "alg-7-1-3-V"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [
+        {
+          "tag": 142,
+          "file": "assets/volume4a/figures/diagram-7-1-3-142-forest-paths-sideways-heap.svg",
+          "sha256": "382939ea7cb2e8cce659bab313525adaf098343c676b1b9f054119e61af369ad",
+          "panels": [
+            {
+              "labels": [
+                "1000",
+                "0100",
+                "1100",
+                "0010",
+                "0110",
+                "1010",
+                "0001",
+                "0011",
+                "0101",
+                "0111",
+                "1001"
+              ],
+              "edges": [
+                [
+                  8,
+                  4
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  4,
+                  2
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  2,
+                  1
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  6,
+                  5
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  12,
+                  10
+                ],
+                [
+                  10,
+                  9
+                ]
+              ],
+              "auxiliaryNode": "1100",
+              "mappedPaths": {
+                "8": "B→Λ",
+                "4": "D→A→Λ",
+                "2": "C→A",
+                "3": "F→C",
+                "6": "J→G→D",
+                "7": "H→D",
+                "10": "I→E→B"
+              }
+            }
+          ],
+          "method": "Editable original shape, lines, markers, dashed auxiliary nodes, labels, and arrows redrawn from source.",
+          "sourceDirectlyCompared": true
+        }
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.3图式 (142) 的路径标签",
+          "enPosition": "PDF183／印刷166，式(143)后",
+          "original": "表现为结点 $0110=\\beta J=\\beta G$",
+          "final": "标在结点 $0110=\\beta J=\\beta G$ 旁",
+          "basis": "appears with node 指路径标于结点旁。",
+          "cnPrintedPage": 138
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Complete pi, beta, alpha rows and all tau entries, and explicit examples for A and H.",
+        "Seven exact labels in (142), dashed auxiliary 1100, all terms and endpoints in (143). Algorithm V complete with lambda0 convention, V1–V5 and reference."
+      ],
+      "ocrRepairsOfNote": [
+        "Preserve original structural directions/labels. Initial artwork corrections are recorded at verified-history/151-153-initial-heap-left-edge-and-path-label/reason.json."
+      ],
+      "syntaxCheck": {
+        "physicalPage": 153,
+        "markdownSha256": "c57c2cb4d60c6e34de17671557bf932e3c55d3f03c2c86af94d6893e2e5cecd4",
+        "htmlSha256": "ce1a5dfa1118b1a5728d11082f291407303ef3ee522150382a8777f7b93de6cf",
+        "mathExpressions": 89,
+        "displayMath": 3,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-151-152-153.json",
+        "sha256": "f613b55735bf5716cc5a9ee895c9073fd5bcc73079c330d6454816208ba4083b",
+        "cases": [
+          {
+            "physicalPage": 153,
+            "width": 1280,
+            "markdownSha256": "c57c2cb4d60c6e34de17671557bf932e3c55d3f03c2c86af94d6893e2e5cecd4",
+            "documentWidth": 1280,
+            "math": 89,
+            "mathml": 89,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 89,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 153,
+            "width": 390,
+            "markdownSha256": "c57c2cb4d60c6e34de17671557bf932e3c55d3f03c2c86af94d6893e2e5cecd4",
+            "documentWidth": 390,
+            "math": 89,
+            "mathml": 89,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 89,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Actual current 1280 and 390 left/right screenshots inspected. Frame references contain scoped local link and horizontal scroll checks. Most prominent top path label no longer overlaps the boundary edge, both current screens and scroll supplements fresh."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/153-1280.png",
+          "sha256": "ecfaa35485503ff13c9f7b2d0b6874bbb969ef225e4cd3b4e9039236818e0f5a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/153-390.png",
+          "sha256": "7b950d9d143fda0646836e6804dcdf7769fc18ddec7a1836b3d55b00a556c13a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/153-390-right.png",
+          "sha256": "9d36fc8cb1c05b17b7910d1af5144122be37f4fe4a6761f821f9c459639210f7",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/153-wide-inspection.png",
+          "sha256": "fe08ce80274c0c7ccfea063cc1736149e10ec67a9cc54fc7fd2c5a14a87fcd19",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN151–153 original pages, corresponding English passages, diagrams and two-width proofs. Numeric fixtures are limited to original forest and bounded heap inputs.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "followingPageContinuation": "CN153 completes Algorithm V and ends before navigation piles on CN154.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/153-selected-cn-before-translation-repair-a412e7acece9178af74f2e39cf71a92e7f8da5e3f801bee9f3b9c5daec2eac30/153.md",
+        "sha256": "a412e7acece9178af74f2e39cf71a92e7f8da5e3f801bee9f3b9c5daec2eac30",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-examples-151-153.json",
+          "sha256": "b163954970f5c6c4bf2d2833db3d5bfee2b627c085f0126bb6588dd06c55b360",
+          "scope": "Original heap and forest fixtures. Exact page display labels are bound separately. No claim about all arbitrary forest preprocessing, complexity, or replication of the proof in exercise 152."
+        },
+        {
+          "file": "assets/volume4a/review/body-151-153-wide-details.json",
+          "sha256": "4ca5dcbdeec0eda2a0422d47187eece9fcf02fb025a270a28a4214b6f0f00609",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        },
+        {
+          "file": "assets/volume4a/review/body-151-153-original-links.json",
+          "sha256": "abcb654bf8dc1187fde60dbc5b82a4d539324328097fe1cbb15440141518f052",
+          "scope": "Actual linked original image opening and back navigation in current private proofs. No published route or separate whole-page cases."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "dc486233dc9d97f7ac78c3d6c5dff8e2b8f721c4e9883f7fb29e945cdb0151e3",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/153.json"
+    }
+  ],
+  "qualification": "Complete CN151–153 original pages, corresponding English passages, diagrams and two-width proofs. Numeric fixtures are limited to original forest and bounded heap inputs."
+}

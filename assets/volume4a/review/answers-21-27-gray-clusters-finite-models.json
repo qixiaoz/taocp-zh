@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "21through27finitechecksandindependentnarrow21bsource/generalproof;28continues587",
+  "finite": {
+    "checkerSha256": "d12d4f49be282d10893af2f92e37f7550b3fe1d32dcf5cd60a8ea58d31f860f6",
+    "pageMarkdownSha256": "e8e190cebe762fa7f5068a6b086476909d7c215d8078c67b72a95e10f61bc49b",
+    "answer21": {
+      "allPatternsIncludingEmpty": 9841,
+      "originalExampleClusters": 10,
+      "allRecurrenceAndUnrolledSumsMatch": true,
+      "means": [
+        {
+          "n": 1,
+          "allPatterns": 3,
+          "allDimensionMeansMatch": true
+        },
+        {
+          "n": 2,
+          "allPatterns": 9,
+          "allDimensionMeansMatch": true
+        },
+        {
+          "n": 3,
+          "allPatterns": 27,
+          "allDimensionMeansMatch": true
+        },
+        {
+          "n": 4,
+          "allPatterns": 81,
+          "allDimensionMeansMatch": true
+        },
+        {
+          "n": 5,
+          "allPatterns": 243,
+          "allDimensionMeansMatch": true
+        },
+        {
+          "n": 6,
+          "allPatterns": 729,
+          "allDimensionMeansMatch": true
+        },
+        {
+          "n": 7,
+          "allPatterns": 2187,
+          "allDimensionMeansMatch": true
+        },
+        {
+          "n": 8,
+          "allPatterns": 6561,
+          "allDimensionMeansMatch": true
+        }
+      ],
+      "sourceB_tPrimeZeroEndpointQualification": [
+        {
+          "pattern": "1",
+          "actualClusters": 1,
+          "tPrime": 0,
+          "printedHalfPower": 0.5,
+          "qualification": "Printedwithout-leading-stariffalsofailsatthisboundary; correctedleading-starconditiondoesnotmatchandC=1doesnotattainhalf-power."
+        },
+        {
+          "pattern": "01",
+          "actualClusters": 1,
+          "tPrime": 0,
+          "printedHalfPower": 0.5,
+          "qualification": "Printedwithout-leading-stariffalsofailsatthisboundary; correctedleading-starconditiondoesnotmatchandC=1doesnotattainhalf-power."
+        },
+        {
+          "pattern": "10",
+          "actualClusters": 1,
+          "tPrime": 0,
+          "printedHalfPower": 0.5,
+          "qualification": "Printedwithout-leading-stariffalsofailsatthisboundary; correctedleading-starconditiondoesnotmatchandC=1doesnotattainhalf-power."
+        },
+        {
+          "pattern": "11",
+          "actualClusters": 1,
+          "tPrime": 0,
+          "printedHalfPower": 0.5,
+          "qualification": "Printedwithout-leading-stariffalsofailsatthisboundary; correctedleading-starconditiondoesnotmatchandC=1doesnotattainhalf-power."
+        },
+        {
+          "pattern": "1*",
+          "actualClusters": 1,
+          "tPrime": 0,
+          "printedHalfPower": 0.5,
+          "qualification": "Printedwithout-leading-stariffalsofailsatthisboundary; correctedleading-starconditiondoesnotmatchandC=1doesnotattainhalf-power."
+        }
+      ],
+      "correctedLeadingStarMinimumIffCheckedForPositiveTPrime": true,
+      "printedLiteralMinimumIffCounterexamples": [
+        {
+          "pattern": "*01",
+          "actualClusters": 2,
+          "tPrime": 1,
+          "printedSuffixPatternMatches": true
+        },
+        {
+          "pattern": "*11",
+          "actualClusters": 2,
+          "tPrime": 1,
+          "printedSuffixPatternMatches": true
+        },
+        {
+          "pattern": "0*01",
+          "actualClusters": 2,
+          "tPrime": 1,
+          "printedSuffixPatternMatches": true
+        },
+        {
+          "pattern": "0*11",
+          "actualClusters": 2,
+          "tPrime": 1,
+          "printedSuffixPatternMatches": true
+        },
+        {
+          "pattern": "1*01",
+          "actualClusters": 2,
+          "tPrime": 1,
+          "printedSuffixPatternMatches": true
+        },
+        {
+          "pattern": "1*11",
+          "actualClusters": 2,
+          "tPrime": 1,
+          "printedSuffixPatternMatches": true
+        },
+        {
+          "pattern": "*001",
+          "actualClusters": 2,
+          "tPrime": 1,
+          "printedSuffixPatternMatches": true
+        },
+        {
+          "pattern": "*010",
+          "actualClusters": 2,
+          "tPrime": 1,
+          "printedSuffixPatternMatches": true
+        },
+        {
+          "pattern": "*011",
+          "actualClusters": 2,
+          "tPrime": 1,
+          "printedSuffixPatternMatches": true
+        },
+        {
+          "pattern": "*01*",
+          "actualClusters": 2,
+          "tPrime": 1,
+          "printedSuffixPatternMatches": true
+        }
+      ]
+    },
+    "answer22": {
+      "allPrunedPrefixPartitions": 710,
+      "eligibleConsecutivePairs": 5070,
+      "allOriginalSuffixAdjacencyAndGrayConsecutivenessMatch": true,
+      "fullGrayTrieTheoremNotIndependentlyProved": true
+    },
+    "answer23": {
+      "nRange": [
+        1,
+        12
+      ],
+      "allFlippedGrayCoordinates": 90114
+    },
+    "answer24": {
+      "nonnegativeOrdinaryInputs": 8192,
+      "allEvenSignedSolutionsAndComplementPairMatch": true,
+      "signEqualsPopulationParityNotNumericParity": true,
+      "firstExamples": [
+        {
+          "l": 0,
+          "evenSolution": 0,
+          "otherSolution": -1,
+          "numericParity": 0,
+          "populationParity": 0
+        },
+        {
+          "l": 1,
+          "evenSolution": -2,
+          "otherSolution": 1,
+          "numericParity": 1,
+          "populationParity": 1
+        },
+        {
+          "l": 2,
+          "evenSolution": -4,
+          "otherSolution": 3,
+          "numericParity": 0,
+          "populationParity": 1
+        },
+        {
+          "l": 3,
+          "evenSolution": 2,
+          "otherSolution": -3,
+          "numericParity": 1,
+          "populationParity": 0
+        },
+        {
+          "l": 4,
+          "evenSolution": -8,
+          "otherSolution": 7,
+          "numericParity": 0,
+          "populationParity": 1
+        },
+        {
+          "l": 5,
+          "evenSolution": 6,
+          "otherSolution": -7,
+          "numericParity": 1,
+          "populationParity": 0
+        },
+        {
+          "l": 6,
+          "evenSolution": 4,
+          "otherSolution": -5,
+          "numericParity": 0,
+          "populationParity": 0
+        },
+        {
+          "l": 7,
+          "evenSolution": -6,
+          "otherSolution": 5,
+          "numericParity": 1,
+          "populationParity": 1
+        }
+      ],
+      "allGeneral2adicInfiniteInputsNotEnumerated": true
+    },
+    "answer25": {
+      "nRange": [
+        1,
+        9
+      ],
+      "allIntegerPairs": 174251,
+      "allPrintedBinaryDistanceExtremaMatch": true,
+      "results": [
+        {
+          "n": 1,
+          "allDistanceExtremaMatch": true,
+          "minimumByT": {
+            "1": 1
+          },
+          "maximumByT": {
+            "1": 1
+          }
+        },
+        {
+          "n": 2,
+          "allDistanceExtremaMatch": true,
+          "minimumByT": {
+            "1": 1,
+            "2": 2
+          },
+          "maximumByT": {
+            "1": 3,
+            "2": 2
+          }
+        },
+        {
+          "n": 3,
+          "allDistanceExtremaMatch": true,
+          "minimumByT": {
+            "1": 1,
+            "2": 2,
+            "3": 3
+          },
+          "maximumByT": {
+            "1": 7,
+            "2": 6,
+            "3": 5
+          }
+        },
+        {
+          "n": 4,
+          "allDistanceExtremaMatch": true,
+          "minimumByT": {
+            "1": 1,
+            "2": 2,
+            "3": 3,
+            "4": 6
+          },
+          "maximumByT": {
+            "1": 15,
+            "2": 14,
+            "3": 13,
+            "4": 10
+          }
+        },
+        {
+          "n": 5,
+          "allDistanceExtremaMatch": true,
+          "minimumByT": {
+            "1": 1,
+            "2": 2,
+            "3": 3,
+            "4": 6,
+            "5": 11
+          },
+          "maximumByT": {
+            "1": 31,
+            "2": 30,
+            "3": 29,
+            "4": 26,
+            "5": 21
+          }
+        },
+        {
+          "n": 6,
+          "allDistanceExtremaMatch": true,
+          "minimumByT": {
+            "1": 1,
+            "2": 2,
+            "3": 3,
+            "4": 6,
+            "5": 11,
+            "6": 22
+          },
+          "maximumByT": {
+            "1": 63,
+            "2": 62,
+            "3": 61,
+            "4": 58,
+            "5": 53,
+            "6": 42
+          }
+        },
+        {
+          "n": 7,
+          "allDistanceExtremaMatch": true,
+          "minimumByT": {
+            "1": 1,
+            "2": 2,
+            "3": 3,
+            "4": 6,
+            "5": 11,
+            "6": 22,
+            "7": 43
+          },
+          "maximumByT": {
+            "1": 127,
+            "2": 126,
+            "3": 125,
+            "4": 122,
+            "5": 117,
+            "6": 106,
+            "7": 85
+          }
+        },
+        {
+          "n": 8,
+          "allDistanceExtremaMatch": true,
+          "minimumByT": {
+            "1": 1,
+            "2": 2,
+            "3": 3,
+            "4": 6,
+            "5": 11,
+            "6": 22,
+            "7": 43,
+            "8": 86
+          },
+          "maximumByT": {
+            "1": 255,
+            "2": 254,
+            "3": 253,
+            "4": 250,
+            "5": 245,
+            "6": 234,
+            "7": 213,
+            "8": 170
+          }
+        },
+        {
+          "n": 9,
+          "allDistanceExtremaMatch": true,
+          "minimumByT": {
+            "1": 1,
+            "2": 2,
+            "3": 3,
+            "4": 6,
+            "5": 11,
+            "6": 22,
+            "7": 43,
+            "8": 86,
+            "9": 171
+          },
+          "maximumByT": {
+            "1": 511,
+            "2": 510,
+            "3": 509,
+            "4": 506,
+            "5": 501,
+            "6": 490,
+            "7": 469,
+            "8": 426,
+            "9": 341
+          }
+        }
+      ],
+      "mAryGeneralizationSourceOnly": true
+    },
+    "answer26": {
+      "allNFrom1Through1024": 1024,
+      "actualAdjacentEdges": 523776,
+      "allActualBlockOrdersCoverAndChangeOneBit": true,
+      "chosenGammaIsBitReversedReflectedGray": true,
+      "arbitraryGammaGeneralProofNotIndependentlyReproved": true
+    },
+    "answer27": {
+      "allRankedFractionsThroughN10": 2046,
+      "allExactRanksMatchDirectRecursiveSets": true,
+      "n100OriginalFraction": "373065177/1113604409",
+      "originalGeneralMonotoneFunctionOrderingSourceOnly": true
+    },
+    "qualification": [
+      "28onlyinitialperiodiclineon586,fullmedianargumentcontinues587notaccepted.",
+      "21b printed ending lacks prior free position; leading-star candidate finite checked and old source counterexamples listed. Currentmanuscriptadoptsoneleadingstarwithseparateindependentactualsource/generaletproof.",
+      "24signmodelnonnegativefinitebinarylonly;otherordinarynegative/fullygeneral2adicdomainnotasserted.",
+      "Originalhistoricalbibliographyandm-aryboundnotindependentlyrederived."
+    ]
+  },
+  "privateFiniteEvidenceSha256": "f459c2669d7ba49a32a649d3c5ee3b869d9ba9cf16f775c3e3e1b0083e829843",
+  "independent21b": {
+    "scope": "Targeted independent peer review of 4A §7.2.1.1 answer21(b). Consults 21(a) only for its given formula. No full-page clearance, manuscript edits or publisher errata claim.",
+    "actualRead": [
+      {
+        "file": "root-sources/cn-586-21b-detail.png",
+        "sha256": "3f24aa65b81bb886ddc2272d0c35b81c927c6337f886b0d97b73fcc707f9c791",
+        "physicalPage": 586,
+        "printedPage": 571,
+        "source": "Chinese answer21(b) crop"
+      },
+      {
+        "file": "root-sources/en-698-21b-detail-v2.png",
+        "sha256": "d362d2cf53b70b6bb881766f0417817fed9862cd5c44cec43783171b52094601",
+        "physicalPage": 698,
+        "printedPage": 681,
+        "source": "English answer21(b) enlarged crop"
+      },
+      {
+        "file": "root-sources/en-698.png",
+        "sha256": "739f5c659e6d36d3aebf30ccf138031e993dea21c333c6f51c24cfb95d8a4318",
+        "physicalPage": 698,
+        "printedPage": 681,
+        "source": "English answer21(a)(b) region containing definition and full bracketed sentence"
+      },
+      {
+        "file": "assigned-answers-601-640/sources/cn-273.png",
+        "sha256": "ac357bb7293238f3ff022b3b197a15024f67d6607c625d67972e3ade6114b881",
+        "physicalPage": 273,
+        "printedPage": 258,
+        "source": "Chinese actual problem21 region"
+      },
+      {
+        "file": "assigned-answers-601-640/sources/en-327.png",
+        "sha256": "8d06b8d9a17617cffe7d8f0ceafdafc3460bd4177fefa6044dad149122aefb6d",
+        "physicalPage": 327,
+        "printedPage": 310,
+        "source": "English actual problem21 region"
+      }
+    ],
+    "sourceOriginal": "C(α)=2^(t′−1) iff α ends in 10^j *^k (no star before 1).",
+    "projectReplacement": "C(α)=2^(t′−1) iff α ends in *10^j *^k, j,k≥0.",
+    "reasoning": [
+      "The exercise uses literal stars for free bits and defines t′ as the count to the left of the last fixed bit. Appended free bits merely replace each reflected Gray prefix with one consecutive block, so stripping trailing stars preserves C and gives t=t′.",
+      "By printed (a), C=2^t−2^(t−1)e_t−⋯−e_1, e_i is 1 iff the suffix after the i-th star matches the bitstring 1 then only zeros, of the same suffix length.",
+      "For t>0 the final star has only fixed bits after it. Thus e_t=1 iff it is followed by 10^j; adding the stripped stars gives precisely the proposed ending. If e_t=1, for each earlier star the later fixed 1 lies after the first position of that star's suffix, so no earlier suffix matches 10…0 and all earlier e_i are 0.",
+      "If e_t=0, all earlier possible subtractions total at most 2^(t−1)−1, so C≥2^(t−1)+1. If t′=0, C=1 and equality to 1/2 cannot hold, and the proposed pattern also cannot match. If there is no fixed bit, the sole entire-cube cluster has the same outcome under t′=0."
+    ],
+    "microexample": {
+      "pattern": "*11",
+      "actualReflectedGrayOrder": [
+        "000",
+        "001",
+        "011",
+        "010",
+        "110",
+        "111",
+        "101",
+        "100"
+      ],
+      "matchingIndicesZeroBased": [
+        2,
+        5
+      ],
+      "clusters": 2,
+      "tPrime": 1,
+      "lowerBound": 1,
+      "originalPredicate": true,
+      "correctedPredicate": false
+    },
+    "unchangedParts": "Retain original (a), (c), and both inequalities in (b)."
+  },
+  "privateIndependentEvidenceSha256": "c45e5f7875c072859dfa5a7e2696e9cb9e8d40e639f416dc28edade8f84d92fa",
+  "allOriginalGeneralResultsIndependentlyProved": false
+}

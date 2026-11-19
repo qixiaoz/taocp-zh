@@ -1,0 +1,1296 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "owner": "vol4a_body_g62",
+  "physicalPages": [
+    690,
+    691,
+    692,
+    693
+  ],
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignoff": false,
+  "masterSha256": null,
+  "sourceSha256": {
+    "cn": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "en": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+  },
+  "sourceReviewSpecification": {
+    "file": "private-snapshot:volume4a/assigned-answers-681-700/checkpoints/specification-690-693.json",
+    "sha256": "7a8277bef6e23a75e93e75d6975c7214d4b57108ce8af0b9d5885e7ed8926434"
+  },
+  "sourcePageRecords": [
+    {
+      "physicalPage": 690,
+      "pageMarkdownSha256": "9eb0e4a1a8b932e511d544aa35dd38911c847c1d25bffc8a97ffc0f68124c01f",
+      "pageReviewSha256": "395996d5b5389b6d3c731aea4f516eff887539e9beda1bc57c0db2086b7b0a71",
+      "answerAnchors": [
+        "ans-7-2-1-6-103",
+        "ans-7-2-1-6-104"
+      ],
+      "sourceEnPhysicalPages": [
+        821,
+        822
+      ],
+      "mathExpressions": 93,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 691,
+      "pageMarkdownSha256": "56c4825088ccd8fdfce094c1bda1bb69e1baf22fd6f078194033d1d200a7db85",
+      "pageReviewSha256": "93674ff8d70e1ddff591c0c4f8d5295f31c82f57e02c5a07ace55bd8d1db3006",
+      "answerAnchors": [
+        "ans-7-2-1-6-105",
+        "ans-7-2-1-6-106"
+      ],
+      "sourceEnPhysicalPages": [
+        822,
+        823,
+        824
+      ],
+      "mathExpressions": 118,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 692,
+      "pageMarkdownSha256": "20fb92e825d12ccd99f6b8b21dfccfc84b2a64602b810f5e82351d14c742a9c5",
+      "pageReviewSha256": "90da74bf15c342ef7f0d172442692fb57c5396bd51e7d47f2fba9ce89f37aed6",
+      "answerAnchors": [
+        "ans-7-2-1-6-107",
+        "ans-7-2-1-6-108"
+      ],
+      "sourceEnPhysicalPages": [
+        824,
+        825
+      ],
+      "mathExpressions": 128,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 693,
+      "pageMarkdownSha256": "e9647ec187b2d7d8062f5f44b0233dce3c66953f226b80b4a900c07a29132cf5",
+      "pageReviewSha256": "2161518be95110636c1ab8e28212be12f34cf8e280f12503803663268c8b1a54",
+      "answerAnchors": [
+        "ans-7-2-1-6-109",
+        "ans-7-2-1-6-110",
+        "ans-7-2-1-6-111",
+        "ans-7-2-1-6-112",
+        "ans-7-2-1-6-113",
+        "ans-7-2-1-6-114",
+        "ans-7-2-1-6-115",
+        "ans-7-2-1-6-116",
+        "ans-7-2-1-6-117",
+        "ans-7-2-1-6-118",
+        "ans-7-2-1-6-119"
+      ],
+      "sourceEnPhysicalPages": [
+        825,
+        826
+      ],
+      "mathExpressions": 84,
+      "negativeAnswerLocators": []
+    }
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "answers-690-104-normalized-vector",
+      "section": "7.2.1.6",
+      "cnPdfPage": 690,
+      "location": "答104(a)首部，英文印805",
+      "original": "\\max(x_1,\\ldots,x_n)=x_m=1",
+      "final": "\\max(|x_1|,\\ldots,|x_n|)=x_m=1",
+      "basis": "为同段按行对角占优推论取绝对值最大的分量再缩放为正1。旧写仍足以处理非正非对角项的拉普拉斯矩阵，新增绝对值供任意符号对称矩阵使用。",
+      "cnPrintedPage": 675,
+      "pageMarkdownSha256": "9eb0e4a1a8b932e511d544aa35dd38911c847c1d25bffc8a97ffc0f68124c01f"
+    },
+    {
+      "id": "answers-691-104-diagonal-dominance",
+      "section": "7.2.1.6",
+      "cnPdfPage": 691,
+      "location": "答104(a)中括注，英文印806",
+      "original": "c_{mm}\\ge|\\sum_{j\\ne m}c_{mj}|",
+      "final": "c_{mm}\\ge\\sum_{j\\ne m}|c_{mj}|",
+      "basis": "两源将绝对值套在整个和上。反例对称矩阵[[0,1,-1],[1,2,1],[-1,1,0]]满足原条件，(1,0,1)二次型为−2。逐项绝对值之和与答104(a)取最大分量的证明相符。",
+      "cnPrintedPage": 676,
+      "pageMarkdownSha256": "56c4825088ccd8fdfce094c1bda1bb69e1baf22fd6f078194033d1d200a7db85"
+    },
+    {
+      "id": "answers-691-105-xor-minus",
+      "section": "7.2.1.6",
+      "cnPdfPage": 691,
+      "location": "答105(h)奇积谱式，英文印806",
+      "original": "d'-\\alpha'_j n'[j=0]",
+      "final": "d'-\\alpha'_j-n'[j=0]",
+      "basis": "两源均漏去n′项之前的负号。由奇积邻接矩阵A′⊗(J″−A″)+(J′−A′)⊗A″同对角化。K₂与K₂的奇积为C₄，旧j=k=0得2而非0。有限核所有不超过5个结点的图册正则图有序对。",
+      "cnPrintedPage": 676,
+      "pageMarkdownSha256": "56c4825088ccd8fdfce094c1bda1bb69e1baf22fd6f078194033d1d200a7db85"
+    },
+    {
+      "id": "answers-692-106-cycle-fourier",
+      "section": "7.2.1.6",
+      "cnPdfPage": 692,
+      "location": "答106(b)(c)周期谱解，英文印807",
+      "original": "x_n=x_0；0\\le j<\\lceil n/2\\rceil时取cos 2kθ，其余取sin kθ",
+      "final": "$\\lfloor n/2\\rfloor<j<n$，可用 $x_k=\\sin 2k\\theta$",
+      "basis": "双语旧式的正弦缺因子2，偶n漏j=n/2的非零余弦；修正为完整周期条件与互补索引。在n=4原j=2正弦给2而非对应投影4。逐个验证n=3–20向量的两个周期边界、特征残差及满秩。",
+      "cnPrintedPage": 677,
+      "pageMarkdownSha256": "20fb92e825d12ccd99f6b8b21dfccfc84b2a64602b810f5e82351d14c742a9c5"
+    },
+    {
+      "id": "answers-692-106-largest-grid-prime",
+      "section": "7.2.1.6",
+      "cnPdfPage": 692,
+      "location": "答106末段矩形栅格有限断言，英文印807",
+      "original": "m≤n≤10中最大素因数1009",
+      "final": "最大素因数是 $9\\,131\\,809$",
+      "basis": "核完整1≤m≤n≤10的55个矩形，逐格比较整数矩阵树余子式与独立整系数结式，完整分解确认新最大素数只在(7,8)。保留原正确的(6,9)、1009及结式662913。",
+      "cnPrintedPage": 677,
+      "pageMarkdownSha256": "20fb92e825d12ccd99f6b8b21dfccfc84b2a64602b810f5e82351d14c742a9c5"
+    },
+    {
+      "id": "answers-693-110-edge-bundle",
+      "section": "7.2.1.6",
+      "cnPdfPage": 693,
+      "location": "答110 情形2，英文印809",
+      "original": "G的每条多边都是一座桥",
+      "final": "每组平行边合起来是一座桥",
+      "basis": "英文 multi-edge 指所有平行边作为一个边组，全组删除才会使G₂不连通。保持原方法与论证。",
+      "cnPrintedPage": 678,
+      "pageMarkdownSha256": "e9647ec187b2d7d8062f5f44b0233dce3c66953f226b80b4a900c07a29132cf5"
+    },
+    {
+      "id": "answers-693-110-path-end",
+      "section": "7.2.1.6",
+      "cnPdfPage": 693,
+      "location": "答110 情形2唯一路径，英文印809",
+      "original": "1\\le j<4",
+      "final": "1\\le j<r",
+      "basis": "中文印4，英文明示r；上下文已指定唯一路径终点v_r，同一条件对该路径的内部边成立。",
+      "cnPrintedPage": 678,
+      "pageMarkdownSha256": "e9647ec187b2d7d8062f5f44b0233dce3c66953f226b80b4a900c07a29132cf5"
+    }
+  ],
+  "privateBrowserCaseCount": 8,
+  "logicalCandidates": [],
+  "assets": [
+    {
+      "cnPdfPage": 692,
+      "file": "assets/volume4a/figures/7-2-1-6-ans107-tree-fork.svg",
+      "sha256": "d85a444b423b4ce7db1ecb25be324b1bd241a9d405d14d0ced7b44466da5e299",
+      "title": "带叉的自由树",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "source": "中文物理692／印677，英文物理824–825／印807–808"
+    },
+    {
+      "cnPdfPage": 692,
+      "file": "assets/volume4a/figures/7-2-1-6-ans107-triangle-two-leaves.svg",
+      "sha256": "169b25c184d69cf82cf0e92b68153c9651b83437c74a7152f581a87ecd4d0db8",
+      "title": "有两个叶结点的三角形图",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "source": "中文物理692／印677，英文物理824–825／印807–808"
+    },
+    {
+      "cnPdfPage": 692,
+      "file": "assets/volume4a/figures/7-2-1-6-ans107-triangle-length2-path.svg",
+      "sha256": "b069652cac2ef7a70e1ed81a6312e2f04111f28fa8305aca5afa34d1a43ed670",
+      "title": "附加二边路径的三角形图",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "source": "中文物理692／印677，英文物理824–825／印807–808"
+    },
+    {
+      "cnPdfPage": 692,
+      "file": "assets/volume4a/figures/7-2-1-6-ans107-four-cycle-leaf.svg",
+      "sha256": "588858e22b20c50802fa0b3313501b2da3aac6d64b5c9117a816fb8289c6a329",
+      "title": "附加一个叶结点的四边形图",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "source": "中文物理692／印677，英文物理824–825／印807–808"
+    },
+    {
+      "cnPdfPage": 692,
+      "file": "assets/volume4a/figures/7-2-1-6-ans107-triangle-separated-leaves.svg",
+      "sha256": "b5c4b27f1a1d030100d1976dc2e7b75afe197fbdafa7c11124b94efdb2bd0de5",
+      "title": "不同底端各接一个叶结点的三角形图",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "source": "中文物理692／印677，英文物理824–825／印807–808"
+    },
+    {
+      "cnPdfPage": 692,
+      "file": "assets/volume4a/figures/7-2-1-6-ans108-self-complementary-digraph.svg",
+      "sha256": "d975dafb45eb544fc67cb5376a30acc822a9828a9a395d6f380fa30ee51c4c62",
+      "title": "三顶点自补有向图",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "source": "中文物理692／印677，英文物理824–825／印807–808"
+    }
+  ],
+  "details": {
+    "finiteChecks": {
+      "file": "private-snapshot:volume4a/assigned-answers-681-700/checkpoints/690-693-finite.json",
+      "sha256": "75926a4d262683d86ac4bdf4a72ddb63ce47f2322e8888fe2d775dfa3016d079",
+      "result": {
+        "scope": "Finite samples and explicit algebra as listed; no arbitrary graph completeness or runtime claim.",
+        "sandpile103": {
+          "tableCellCount": 80,
+          "checkedTransitions": 64,
+          "checkedInTwoTopplingOrders": true,
+          "states": [
+            [
+              "0000",
+              "0001",
+              "0010",
+              "0011",
+              "0100",
+              "0101",
+              "0110",
+              "0111",
+              "1000",
+              "1001",
+              "1010",
+              "1011",
+              "1100",
+              "1101",
+              "1110",
+              "1111"
+            ],
+            [
+              "0001",
+              "0010",
+              "0011",
+              "0001",
+              "0101",
+              "0110",
+              "0111",
+              "0101",
+              "1001",
+              "1010",
+              "1011",
+              "1001",
+              "1101",
+              "1110",
+              "1111",
+              "1101"
+            ],
+            [
+              "0010",
+              "0011",
+              "0001",
+              "0010",
+              "0110",
+              "0111",
+              "0101",
+              "0110",
+              "1010",
+              "1011",
+              "1001",
+              "1010",
+              "1110",
+              "1111",
+              "1101",
+              "1110"
+            ],
+            [
+              "0100",
+              "0101",
+              "0110",
+              "0111",
+              "1000",
+              "1001",
+              "1010",
+              "1011",
+              "1100",
+              "1101",
+              "1110",
+              "1111",
+              "0100",
+              "0101",
+              "0110",
+              "0111"
+            ],
+            [
+              "1000",
+              "1001",
+              "1010",
+              "1011",
+              "1100",
+              "1101",
+              "1110",
+              "1111",
+              "0100",
+              "0101",
+              "0110",
+              "0111",
+              "1000",
+              "1001",
+              "1010",
+              "1011"
+            ]
+          ],
+          "recurrentStates": [
+            "0101",
+            "0110",
+            "0111",
+            "1001",
+            "1010",
+            "1011",
+            "1101",
+            "1110",
+            "1111"
+          ]
+        },
+        "contradiction104": {
+          "matrix": [
+            [
+              0,
+              1,
+              -1
+            ],
+            [
+              1,
+              2,
+              1
+            ],
+            [
+              -1,
+              1,
+              0
+            ]
+          ],
+          "testVector": [
+            1,
+            0,
+            1
+          ],
+          "quadraticForm": -2
+        },
+        "xor105h": {
+          "testSpecimensNmax": 5,
+          "orderedPairs": 144,
+          "sourceCounterexample": "K2 xor K2 = C4; source at j=k=0 gives 2 instead of 0.",
+          "generalBasis": "A_XOR=A′⊗(J″−A″)+(J′−A′)⊗A″; simultaneously diagonalize each A′, J′ and A″, J″."
+        },
+        "cycle106": {
+          "dimensions": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "independentPeriodicEigenvectors": true,
+          "residualTolerance": 1e-12
+        },
+        "grids106": {
+          "standaloneReceiptSha256": "3f775c33cca543e2a1cea4f5888f9f3d0199a2450de9e79d977c25cdcb4a767a",
+          "result": {
+            "bounds": "1 <= m <= n <= 10 inclusive, all 55 rectangular grids",
+            "sourcePrintedMaximum": 1009,
+            "actualLargestPrimeFactor": 9131809,
+            "maxOccursAt": [
+              [
+                7,
+                8
+              ]
+            ],
+            "occurrencesOf1009": [
+              [
+                6,
+                9
+              ]
+            ],
+            "authorsOriginalResultantSixNine": 662913,
+            "largestFactorsFromResultant": [
+              {
+                "indices": [
+                  7,
+                  8
+                ],
+                "resultant": 3969204704513,
+                "factors": {
+                  "97": 1,
+                  "4481": 1,
+                  "9131809": 1
+                }
+              }
+            ],
+            "rows": [
+              {
+                "m": 1,
+                "n": 1,
+                "treeCount": 1,
+                "factors": {}
+              },
+              {
+                "m": 1,
+                "n": 2,
+                "treeCount": 1,
+                "factors": {}
+              },
+              {
+                "m": 2,
+                "n": 2,
+                "treeCount": 4,
+                "factors": {
+                  "2": 2
+                }
+              },
+              {
+                "m": 1,
+                "n": 3,
+                "treeCount": 1,
+                "factors": {}
+              },
+              {
+                "m": 2,
+                "n": 3,
+                "treeCount": 15,
+                "factors": {
+                  "3": 1,
+                  "5": 1
+                }
+              },
+              {
+                "m": 3,
+                "n": 3,
+                "treeCount": 192,
+                "factors": {
+                  "2": 6,
+                  "3": 1
+                }
+              },
+              {
+                "m": 1,
+                "n": 4,
+                "treeCount": 1,
+                "factors": {}
+              },
+              {
+                "m": 2,
+                "n": 4,
+                "treeCount": 56,
+                "factors": {
+                  "2": 3,
+                  "7": 1
+                }
+              },
+              {
+                "m": 3,
+                "n": 4,
+                "treeCount": 2415,
+                "factors": {
+                  "3": 1,
+                  "5": 1,
+                  "7": 1,
+                  "23": 1
+                }
+              },
+              {
+                "m": 4,
+                "n": 4,
+                "treeCount": 100352,
+                "factors": {
+                  "2": 11,
+                  "7": 2
+                }
+              },
+              {
+                "m": 1,
+                "n": 5,
+                "treeCount": 1,
+                "factors": {}
+              },
+              {
+                "m": 2,
+                "n": 5,
+                "treeCount": 209,
+                "factors": {
+                  "11": 1,
+                  "19": 1
+                }
+              },
+              {
+                "m": 3,
+                "n": 5,
+                "treeCount": 30305,
+                "factors": {
+                  "5": 1,
+                  "11": 1,
+                  "19": 1,
+                  "29": 1
+                }
+              },
+              {
+                "m": 4,
+                "n": 5,
+                "treeCount": 4140081,
+                "factors": {
+                  "3": 2,
+                  "11": 1,
+                  "19": 1,
+                  "31": 1,
+                  "71": 1
+                }
+              },
+              {
+                "m": 5,
+                "n": 5,
+                "treeCount": 557568000,
+                "factors": {
+                  "2": 12,
+                  "3": 2,
+                  "5": 3,
+                  "11": 2
+                }
+              },
+              {
+                "m": 1,
+                "n": 6,
+                "treeCount": 1,
+                "factors": {}
+              },
+              {
+                "m": 2,
+                "n": 6,
+                "treeCount": 780,
+                "factors": {
+                  "2": 2,
+                  "3": 1,
+                  "5": 1,
+                  "13": 1
+                }
+              },
+              {
+                "m": 3,
+                "n": 6,
+                "treeCount": 380160,
+                "factors": {
+                  "2": 8,
+                  "3": 3,
+                  "5": 1,
+                  "11": 1
+                }
+              },
+              {
+                "m": 4,
+                "n": 6,
+                "treeCount": 170537640,
+                "factors": {
+                  "2": 3,
+                  "3": 1,
+                  "5": 1,
+                  "7": 2,
+                  "13": 1,
+                  "23": 1,
+                  "97": 1
+                }
+              },
+              {
+                "m": 5,
+                "n": 6,
+                "treeCount": 74795194705,
+                "factors": {
+                  "5": 1,
+                  "7": 2,
+                  "11": 2,
+                  "19": 2,
+                  "29": 1,
+                  "241": 1
+                }
+              },
+              {
+                "m": 6,
+                "n": 6,
+                "treeCount": 32565539635200,
+                "factors": {
+                  "2": 18,
+                  "3": 5,
+                  "5": 2,
+                  "11": 2,
+                  "13": 2
+                }
+              },
+              {
+                "m": 1,
+                "n": 7,
+                "treeCount": 1,
+                "factors": {}
+              },
+              {
+                "m": 2,
+                "n": 7,
+                "treeCount": 2911,
+                "factors": {
+                  "41": 1,
+                  "71": 1
+                }
+              },
+              {
+                "m": 3,
+                "n": 7,
+                "treeCount": 4768673,
+                "factors": {
+                  "7": 1,
+                  "13": 2,
+                  "29": 1,
+                  "139": 1
+                }
+              },
+              {
+                "m": 4,
+                "n": 7,
+                "treeCount": 7022359583,
+                "factors": {
+                  "41": 1,
+                  "71": 1,
+                  "769": 1,
+                  "3137": 1
+                }
+              },
+              {
+                "m": 5,
+                "n": 7,
+                "treeCount": 10021992194369,
+                "factors": {
+                  "41": 1,
+                  "71": 1,
+                  "281": 1,
+                  "1471": 1,
+                  "8329": 1
+                }
+              },
+              {
+                "m": 6,
+                "n": 7,
+                "treeCount": 14143261515284447,
+                "factors": {
+                  "7": 1,
+                  "13": 3,
+                  "29": 1,
+                  "41": 1,
+                  "71": 1,
+                  "139": 1,
+                  "181": 1,
+                  "433": 1
+                }
+              },
+              {
+                "m": 7,
+                "n": 7,
+                "treeCount": 19872369301840986112,
+                "factors": {
+                  "2": 18,
+                  "7": 3,
+                  "13": 2,
+                  "29": 4,
+                  "43": 2
+                }
+              },
+              {
+                "m": 1,
+                "n": 8,
+                "treeCount": 1,
+                "factors": {}
+              },
+              {
+                "m": 2,
+                "n": 8,
+                "treeCount": 10864,
+                "factors": {
+                  "2": 4,
+                  "7": 1,
+                  "97": 1
+                }
+              },
+              {
+                "m": 3,
+                "n": 8,
+                "treeCount": 59817135,
+                "factors": {
+                  "3": 1,
+                  "5": 1,
+                  "7": 1,
+                  "17": 1,
+                  "23": 1,
+                  "31": 1,
+                  "47": 1
+                }
+              },
+              {
+                "m": 4,
+                "n": 8,
+                "treeCount": 289143013376,
+                "factors": {
+                  "2": 14,
+                  "7": 2,
+                  "47": 1,
+                  "79": 1,
+                  "97": 1
+                }
+              },
+              {
+                "m": 5,
+                "n": 8,
+                "treeCount": 1342421467113969,
+                "factors": {
+                  "3": 2,
+                  "11": 1,
+                  "19": 1,
+                  "31": 3,
+                  "71": 1,
+                  "79": 1,
+                  "4271": 1
+                }
+              },
+              {
+                "m": 6,
+                "n": 8,
+                "treeCount": 6136973985625588560,
+                "factors": {
+                  "2": 4,
+                  "3": 1,
+                  "5": 1,
+                  "7": 2,
+                  "13": 1,
+                  "17": 1,
+                  "23": 1,
+                  "31": 1,
+                  "47": 1,
+                  "97": 2,
+                  "7489": 1
+                }
+              },
+              {
+                "m": 7,
+                "n": 8,
+                "treeCount": 27873182693625548898079,
+                "factors": {
+                  "41": 1,
+                  "71": 1,
+                  "97": 1,
+                  "769": 1,
+                  "3137": 1,
+                  "4481": 1,
+                  "9131809": 1
+                }
+              },
+              {
+                "m": 8,
+                "n": 8,
+                "treeCount": 126231322912498539682594816,
+                "factors": {
+                  "2": 36,
+                  "7": 2,
+                  "17": 2,
+                  "47": 2,
+                  "79": 2,
+                  "97": 2
+                }
+              },
+              {
+                "m": 1,
+                "n": 9,
+                "treeCount": 1,
+                "factors": {}
+              },
+              {
+                "m": 2,
+                "n": 9,
+                "treeCount": 40545,
+                "factors": {
+                  "3": 2,
+                  "5": 1,
+                  "17": 1,
+                  "53": 1
+                }
+              },
+              {
+                "m": 3,
+                "n": 9,
+                "treeCount": 750331584,
+                "factors": {
+                  "2": 6,
+                  "3": 2,
+                  "17": 1,
+                  "19": 1,
+                  "37": 1,
+                  "109": 1
+                }
+              },
+              {
+                "m": 4,
+                "n": 9,
+                "treeCount": 11905151192865,
+                "factors": {
+                  "3": 2,
+                  "5": 1,
+                  "7": 1,
+                  "17": 2,
+                  "23": 1,
+                  "53": 1,
+                  "71": 1,
+                  "1511": 1
+                }
+              },
+              {
+                "m": 5,
+                "n": 9,
+                "treeCount": 179796299139278305,
+                "factors": {
+                  "5": 1,
+                  "11": 1,
+                  "19": 2,
+                  "29": 1,
+                  "251": 1,
+                  "449": 1,
+                  "631": 1,
+                  "4391": 1
+                }
+              },
+              {
+                "m": 6,
+                "n": 9,
+                "treeCount": 2662079368040434932480,
+                "factors": {
+                  "2": 8,
+                  "3": 7,
+                  "5": 1,
+                  "11": 1,
+                  "17": 2,
+                  "19": 1,
+                  "37": 1,
+                  "53": 1,
+                  "73": 1,
+                  "109": 1,
+                  "1009": 1
+                }
+              },
+              {
+                "m": 7,
+                "n": 9,
+                "treeCount": 39067130344394503972142977,
+                "factors": {
+                  "7": 1,
+                  "13": 2,
+                  "29": 1,
+                  "127": 1,
+                  "139": 1,
+                  "181": 1,
+                  "12853": 1,
+                  "150893": 1,
+                  "183763": 1
+                }
+              },
+              {
+                "m": 8,
+                "n": 9,
+                "treeCount": 570929651486775190858844600865,
+                "factors": {
+                  "3": 2,
+                  "5": 1,
+                  "7": 1,
+                  "17": 4,
+                  "23": 1,
+                  "31": 1,
+                  "47": 1,
+                  "53": 1,
+                  "71": 1,
+                  "271": 1,
+                  "1511": 1,
+                  "3617": 1,
+                  "116191": 1
+                }
+              },
+              {
+                "m": 9,
+                "n": 9,
+                "treeCount": 8326627661691818545121844900397056,
+                "factors": {
+                  "2": 24,
+                  "3": 6,
+                  "17": 4,
+                  "19": 4,
+                  "37": 4,
+                  "53": 2,
+                  "109": 2
+                }
+              },
+              {
+                "m": 1,
+                "n": 10,
+                "treeCount": 1,
+                "factors": {}
+              },
+              {
+                "m": 2,
+                "n": 10,
+                "treeCount": 151316,
+                "factors": {
+                  "2": 2,
+                  "11": 1,
+                  "19": 1,
+                  "181": 1
+                }
+              },
+              {
+                "m": 3,
+                "n": 10,
+                "treeCount": 9411975375,
+                "factors": {
+                  "3": 1,
+                  "5": 3,
+                  "11": 1,
+                  "19": 1,
+                  "29": 1,
+                  "41": 1,
+                  "101": 1
+                }
+              },
+              {
+                "m": 4,
+                "n": 10,
+                "treeCount": 490179860527896,
+                "factors": {
+                  "2": 3,
+                  "3": 2,
+                  "7": 1,
+                  "11": 1,
+                  "19": 1,
+                  "31": 1,
+                  "71": 1,
+                  "181": 1,
+                  "11681": 1
+                }
+              },
+              {
+                "m": 5,
+                "n": 10,
+                "treeCount": 24080189412483072000,
+                "factors": {
+                  "2": 16,
+                  "3": 2,
+                  "5": 3,
+                  "11": 3,
+                  "19": 2,
+                  "41": 1,
+                  "59": 1,
+                  "281": 1
+                }
+              },
+              {
+                "m": 6,
+                "n": 10,
+                "treeCount": 1154617875754582889149500,
+                "factors": {
+                  "2": 2,
+                  "3": 1,
+                  "5": 3,
+                  "7": 2,
+                  "11": 2,
+                  "13": 1,
+                  "19": 2,
+                  "29": 1,
+                  "41": 1,
+                  "101": 1,
+                  "181": 1,
+                  "241": 1,
+                  "5281": 1
+                }
+              },
+              {
+                "m": 7,
+                "n": 10,
+                "treeCount": 54740416599810921320592441119,
+                "factors": {
+                  "41": 3,
+                  "71": 2,
+                  "281": 1,
+                  "1471": 1,
+                  "2521": 1,
+                  "2801": 1,
+                  "6481": 1,
+                  "8329": 1
+                }
+              },
+              {
+                "m": 8,
+                "n": 10,
+                "treeCount": 2580716459066338161324165906475056,
+                "factors": {
+                  "2": 4,
+                  "3": 2,
+                  "7": 1,
+                  "11": 1,
+                  "19": 1,
+                  "31": 3,
+                  "71": 1,
+                  "79": 2,
+                  "97": 1,
+                  "181": 1,
+                  "4271": 1,
+                  "11681": 1,
+                  "1059439": 1
+                }
+              },
+              {
+                "m": 9,
+                "n": 10,
+                "treeCount": 121316352059447360262303173959408358625,
+                "factors": {
+                  "3": 2,
+                  "5": 3,
+                  "11": 1,
+                  "17": 1,
+                  "19": 4,
+                  "29": 1,
+                  "41": 1,
+                  "53": 1,
+                  "101": 1,
+                  "251": 1,
+                  "449": 1,
+                  "631": 1,
+                  "1601": 1,
+                  "4391": 1,
+                  "1390681": 1
+                }
+              },
+              {
+                "m": 10,
+                "n": 10,
+                "treeCount": 5694319004079097795957215725765328371712000,
+                "factors": {
+                  "2": 34,
+                  "3": 2,
+                  "5": 3,
+                  "11": 4,
+                  "19": 4,
+                  "41": 2,
+                  "59": 2,
+                  "101": 2,
+                  "181": 2,
+                  "281": 2
+                }
+              }
+            ],
+            "methods": "Independent exact integer matrix-tree cofactors (Bareiss) and integer Sylvester determinants of Chebyshev polynomials; factorization confirmed by 64-bit deterministic Miller–Rabin and exact products. No residual exceeded the primality test domain.",
+            "sourceHashes": {
+              "cn-692": "668a15f29faf476b8fdbb8f06b18bcdfcddfa715b09e51d29ca94788ec043637",
+              "en-824": "083d912500311510476217af1b29efa3ee3206717ccf4e2aa80cd867346f5298"
+            },
+            "methodsFileSha256": "90ee4d211ae9b9df4ebc024b076911bdf6e64d9ab7a14f985525a4fa83b0589e"
+          }
+        },
+        "drawnGraphs107And108": {
+          "undirectedSpectra": [
+            [
+              0.0,
+              0.5188056959079843,
+              1.0,
+              2.3111078174659836,
+              4.170086486626028
+            ],
+            [
+              0.0,
+              1.0,
+              1.0,
+              3.0,
+              5.0
+            ],
+            [
+              0.0,
+              0.5188056959079843,
+              2.3111078174659836,
+              3.0,
+              4.170086486626028
+            ],
+            [
+              0.0,
+              0.8299135133739721,
+              2.0,
+              2.6888921825340164,
+              4.481194304092016
+            ],
+            [
+              0.0,
+              0.6972243622680054,
+              1.381966011250105,
+              3.618033988749895,
+              4.302775637731995
+            ]
+          ],
+          "directedExampleIsSelfComplementary": true,
+          "fourRootedCountsInMatrixOrder": [
+            6,
+            2,
+            4,
+            12
+          ]
+        },
+        "currentMarkdownSha256": {
+          "690": "9eb0e4a1a8b932e511d544aa35dd38911c847c1d25bffc8a97ffc0f68124c01f",
+          "691": "56c4825088ccd8fdfce094c1bda1bb69e1baf22fd6f078194033d1d200a7db85",
+          "692": "20fb92e825d12ccd99f6b8b21dfccfc84b2a64602b810f5e82351d14c742a9c5",
+          "693": "e9647ec187b2d7d8062f5f44b0233dce3c66953f226b80b4a900c07a29132cf5"
+        },
+        "checkerSha256": "f0cc357f41db416c5c15fc75b69a502bf64fe8effd0b48251e5c14a133d5d08c"
+      }
+    },
+    "figures": {
+      "file": "private-snapshot:volume4a/assigned-answers-681-700/checkpoints/692-figures.json",
+      "sha256": "859b15d060a5a96b1854aa71aa2b98d28ea72b16cee5b266172fb1471cd5c425",
+      "largeImageClicks": 12
+    },
+    "physicalSeams": [
+      {
+        "left": 690,
+        "right": 691,
+        "answer": 104,
+        "boundary": "括注开头「（顺｜便说一下」，同词。",
+        "action": "连接「顺便」，将691双锚移至答104(a)完整段前。"
+      },
+      {
+        "left": 691,
+        "right": 692,
+        "answer": 106,
+        "boundary": "(a)第一段结束后从「根据习题104(b)」续第二段。"
+      },
+      {
+        "left": 692,
+        "right": 693,
+        "answer": 108,
+        "boundary": "定向圈的投影末句后另起D*段与历史注。"
+      },
+      {
+        "left": 693,
+        "right": 694,
+        "answer": 119,
+        "boundary": "Γ_n递推说明后一段括注说通常的二项式树T_n。"
+      }
+    ]
+  },
+  "qualification": "直接看双语原图和当前渲染，80格可编辑四位表与各矩阵式的长行两端可达，六图在两宽分别打开。数值复算的全域仅为所声明的有限55格或其他指定小图范围。"
+}

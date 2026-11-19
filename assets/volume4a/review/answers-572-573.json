@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "CompleteCN572573answers218225prefix;3translationitems;223sourcequantitiespreservedandexplicitlyunreproduced",
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 572,
+      "cnPrintedPage": "557",
+      "enPdfPages": [
+        682,
+        683
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "ef25289971b44b0d0dd5b6d3d57f8f08ad07b6293faeb7791063db548a12a452",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "ff94af61cc660eed46d8084f7db562d7a6f814b985641944c530272c65f10124",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "Complete Chinese pages and available corresponding English contents actually source-compared. Independent numerical results have explicitly recorded disagreements on223; source comparison is not mathematical proof or human sign-off.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "8a34eac06e0dd5c8a43d8ce38a38480515255bb0977b520c4d4c4483199c537c",
+      "enPageImages": [
+        {
+          "physicalPage": 682,
+          "sha256": "4411a27d39267ad9846cfd002a902e9cf4e7472923d6ae68587b4a37e22c79d3"
+        },
+        {
+          "physicalPage": 683,
+          "sha256": "a10c5f4a9138e00785bb77168d51b3b322a81fe504cc18c45cdf6f1fc3b10641"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 572,
+        "markdownSha256": "ef25289971b44b0d0dd5b6d3d57f8f08ad07b6293faeb7791063db548a12a452",
+        "htmlSha256": "fbdca0471ccb1fdcf324e4fd19f3cf97db83033bd650290f142aa7b7fdc7db49",
+        "mathExpressions": 51,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "e11b2ed7354c2413617b55e86a4a8ea655cc44f4ee5904e5198d94079df75465",
+      "syntaxEvidenceFile": "syntax-572-573.json",
+      "coveredRegions": [
+        "218 complete actual7row/9bit/6position incidence table/general rows/count/sourceN12sizes and timings",
+        "219 all five counts/two 7-node word examples",
+        "220 complete a2/b2/z2 explanation and23firstletters;all v5/w5/x5/y5/z5 cases and examples",
+        "221 complete example/candidate count/probability numerator and denominator/hints/five contributions/whole triple sum/full average z-profile",
+        "222a all subwords/power set/count/cost;222b Fmeetwp comparison/full X sizes;222c pattern/3matching words/timing/alternative formula until source允"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "221 举例引语／557",
+          "enPosition": "EN682／665，For definiteness",
+          "original": "为了保证确定性",
+          "final": "具体起见",
+          "basis": "Original introduces a concrete case; does not claim deterministic behavior of the random sample."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "218 incidence matrix wording",
+          "selectedCN": "关联矩阵",
+          "sourceEN2011": "the matrix",
+          "treatment": "Keep selected CN already adopting author2017-05-31 incidence-matrix wording;not a new correction."
+        }
+      ],
+      "machineErrorsCorrected": [
+        "218 restore all63 binarydigits and42placementcharacters;N12 is n not machine m;do not add missing Langford rows absent in actual source",
+        "219 WORDS notW0RDS/no phantom bars on word examples",
+        "220 literal q,u,x and all five ending-letter subscript examples;no 9.4.xOCR",
+        "221 numerator and denominator both11881376;676=26^2 not26^21;full alternating signs/upper sums/combinations/profile no phantom bars",
+        "222b result is same as Fmeetwp, not same asF;222c P not phantom negation;all formulas closed despite source word split"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": true,
+      "continuation": {
+        "previousCnPdfPage": 571,
+        "nextCnPdfPage": 573,
+        "scope": "Ends midword允/许 in222c, not an open formula. Full222 candidate joins exact nonwhitespace body;573anchor coarse before whole222c paragraph."
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "Source223model/corpus/order discrepancy clarification",
+        "Whole714/mother/offline/routed/onlineacceptance"
+      ],
+      "numericChecks": {
+        "receipts": [
+          "root-answer-checks/572-573-SGB-word-models.json",
+          "root-answer-checks/572-573-probability-and-matrix-models.json"
+        ],
+        "scope": "Actual matrix128 row selections, registered corpus219220222 all specified values/patterns,223all n100 triples and25difference-partition corpus membership,221r3 rational Bonferroni interval only. Several223printed quantities not reproduced and preserved.",
+        "allPrintedNumericalValuesMatched": false
+      },
+      "sourceEditionQualifications": {
+        "Probability": "r3 exact rational mean188.759... agrees source≈188.8. Printed188.86 is a3, first entry of third profile block, not r3; initial private checker confused them, history retained, source manuscript never changed. Entire7151.986 and all130 profile positions not independently computed.",
+        "Langford": "Only actual seven-row sample and N12row formula187 computed. Large108144/192636/2198195 and timings source compared only.",
+        "AdditionalActualContext": [
+          {
+            "file": "scans/244.jpg",
+            "sha256": "8df74df4fa30bfe60080ad68594ad47a43634e15af31e8453ed54a0f943d546f",
+            "scope": "Only222223 definitions, not244full-page acceptance"
+          },
+          {
+            "file": "root-sources/en-292-223-definition-exact.png",
+            "sha256": "aba9b4260130fcd368c36ebc306d13ac5c033305a94aa113dc6ea186c7c69523",
+            "scope": "Question223exactly2matches and8variant context"
+          }
+        ]
+      },
+      "assets": []
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 573,
+      "cnPrintedPage": "558",
+      "enPdfPages": [
+        683,
+        684
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "8e574108b55de1f79296ac427baf137f1b465755808edcac2f6975ad92d3ea6f",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "21443fef60e0111192e70e1783e5c5483a0311f02ab3363001a39c829ef3ac46",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "Complete Chinese pages and available corresponding English contents actually source-compared. Independent numerical results have explicitly recorded disagreements on223; source comparison is not mathematical proof or human sign-off.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "65b0288ae08cb197c4b9df20330eea0a54df859a35d7f4ed25c4d79e34077dd0",
+      "enPageImages": [
+        {
+          "physicalPage": 683,
+          "sha256": "a10c5f4a9138e00785bb77168d51b3b322a81fe504cc18c45cdf6f1fc3b10641"
+        },
+        {
+          "physicalPage": 684,
+          "sha256": "08fed595eac0bc579beb3135b4bedb82b314dc80d5e32a75dacd63dc6ab8b103"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 573,
+        "markdownSha256": "8e574108b55de1f79296ac427baf137f1b465755808edcac2f6975ad92d3ea6f",
+        "htmlSha256": "708c49d34088498896aad0883780dfe62f3fa5879e20823b22210006a7bb6eed",
+        "mathExpressions": 85,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "a251f1ed91d955d084c5cdf3dfeb98c2f9b0537e11934ed09b20b7741caeca73",
+      "syntaxEvidenceFile": "syntax-573.json",
+      "coveredRegions": [
+        "222c remainder/all two Q formulas/sizes/cardinalities;222d six vowel groups/counts/sizes/whole wryly pun",
+        "222e-f all three-letter patterns/P2/P2prime/set difference vs lifted meet/atc context/correct at-least-two counts",
+        "222g ten b-to-o words;h all four vowel patterns;i all30/27 counts/louis luaus/complement",
+        "223a full distance identity;223b whole set-of-medians/inequalities/commonintersection/three count/node arrays/seven examples/tetch parent trio/cost disclaimer",
+        "223c all nine corpus membership counts/while parent trio/first three nonmedian sourcewords",
+        "224 full forest/nodes/LO-right-sibling/HI-first-child/two terminalcases/arbitrary arc-order sourcephrase",
+        "225 opening two complete paragraphs/firstfrontierdefinition/mateindices/endpoint invariants/initialsource-t specialcase/bracketed t>l storage statement"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "222d 未译副词／558",
+          "enPosition": "EN683／666，said the author wryly",
+          "original": "道出了创建者wryly",
+          "final": "作者挖苦地（wryly）说",
+          "basis": "Complete the clause while retaining original wryly spelling as the original vowel/letter joke, without introducing an explanatory footnote into body."
+        },
+        {
+          "location": "223b 非穷尽列举／558",
+          "enPosition": "EN683–684／666–667，Among the86153medians ... are",
+          "original": "86153个中位数中的5字母单词是",
+          "final": "86153个中位数中包括以下5字母单词",
+          "basis": "Restore nonexclusive among wording;do not add an unprinted new-word condition or imply only seven English words exist."
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "machineErrorsCorrected": [
+        "All code pattern stars kept literally;not italic markup/b*1ls;all Q/P2 primes and ordinary intersection vs lifted meet restored",
+        "223 source arrays and5757 totals retained despite model discrepancy;no speculative numeric substitutions",
+        "224 restore boxed false/true targets omitted bymachine;225 source edgeu_k-v_k notequals;allmatebrackets/assignment indices no phantom negations",
+        "Private raw HTMLcode originally allowed Markdown emphasis to consume7literal stars across6patterns;all7nowescapedasentities and actual six current DOMcodes checked. Not a source-book correction."
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "endsMidParagraph": false,
+      "continuation": {
+        "previousCnPdfPage": 572,
+        "nextCnPdfPage": 574,
+        "scope": "Starts许 after572允, full222candidate closes wholec. Ends whole225initialization paragraph;225updates/table continue574,not accepted here."
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "Source223model/corpus/order discrepancy clarification",
+        "Whole714/mother/offline/routed/onlineacceptance"
+      ],
+      "numericChecks": {
+        "receipts": [
+          "root-answer-checks/572-573-SGB-word-models.json",
+          "root-answer-checks/572-573-probability-and-matrix-models.json"
+        ],
+        "scope": "Actual matrix128 row selections, registered corpus219220222 all specified values/patterns,223all n100 triples and25difference-partition corpus membership,221r3 rational Bonferroni interval only. Several223printed quantities not reproduced and preserved.",
+        "allPrintedNumericalValuesMatched": false
+      },
+      "sourceEditionQualifications": {
+        "Source223Unreproduced": "Originalnumbersunchanged. Strict n100five-letter47/115nodes is narrower than a partial-pattern model;independent peer and root both reproduce source595nodes for384three-letter+224four-letter+47five-letter patterns, with each parent missing a selected majority position. Does not establish author internal implementation. Corpus membership rows still unreproduced as recorded;do not label all223values verified.",
+        "Source224Order": "Preserve source arc-order claim. For a three-edge forest with paths{ab,ac}, if order means variable order, preorder/postorder yield different rootLO structure. If it means only node IDs/input enumeration, that counterexample does not apply; no chosen rewrite or all-forest proof.",
+        "Source225": "Only actual source initialization/frontier prose compared;no complete SIMPATH general implementation claim before574 continuation.",
+        "WordCorpus": {
+          "filename": "sgb-words.txt",
+          "sha256": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce",
+          "orderedUniqueWords": 5757
+        },
+        "IndependentPartialModelPeer": {
+          "file": "peer-v4a-573-223-first100-g62-readonly.json",
+          "sha256": "e333cf83caa85ed453845611af8c48053d4c288b5d56a69470979f9d44422b9a"
+        }
+      },
+      "assets": []
+    }
+  ],
+  "finiteEvidenceSha256": {
+    "572-573-SGB-word-models.json": "175e9ddf74abbc15ca2ee42a3b05f1756be2cadc91b8d7fb24e352e1e027cbfb",
+    "572-573-probability-and-matrix-models.json": "a557e698ee4180e05f35cc1d048c00628203f1af5a80bfa65946a4343926f3dc"
+  },
+  "browser": {
+    "widths": [
+      1280,
+      390
+    ],
+    "acceptedDistinctPageCases": 4,
+    "mathExpressionsPerPass": 136,
+    "errors": 0,
+    "wholePageOverflow": 0,
+    "mathmlContainsProse": 0,
+    "wholeScreensActuallyViewed": 12,
+    "mathEndpointScreensActuallyViewed": 14,
+    "currentRawMatrixAndPatternDOMFieldsCompared": true,
+    "focusedLiteralPatternScreensActuallyViewed": 4,
+    "literalPatternEvidenceSha256": "89b6e78a6c7587b1e2d03016d084fe268bb2a3b1bbff5f016dc8cd339c031522",
+    "origin": "Unchanged572originaltwo+fresh573twoafter7starentityescape;old573historyexcluded",
+    "evidenceSha256": "d44cf1edd2bb42db2479de0e0e7874c3884caeda74d260300f8ca97b7a83802a",
+    "actualDOMEvidenceSha256": {
+      "572": "a842ccdec9d4ddf7b0f9f9d834e95db71a82a9da128bc0f2d1aa65901ab3bb44",
+      "573": "0215234673239b40f413454de59472fd31bc953df1de04faa9470ae154ec1f4a"
+    }
+  },
+  "completeAnswer222": {
+    "scope": "PrivateCompleteAnswer222CandidateNotMother",
+    "candidateSha256": "f26e18d80a30c1a39b4543eaffda34395286c246a67d6cd432b2d35406030cda",
+    "sourcePageMarkdownSha256": {
+      "572": "ef25289971b44b0d0dd5b6d3d57f8f08ad07b6293faeb7791063db548a12a452",
+      "573": "8e574108b55de1f79296ac427baf137f1b465755808edcac2f6975ad92d3ea6f"
+    },
+    "assemblyReceiptSha256": "5e66d62ee2373f21cd77d51aa1a9dfae9ac99cedd99a32e3b5dec38f434e93a3",
+    "renderEvidenceSha256": "6085aac596542ebe9990948614f470c18b0898fdfa028cb7ea8332edc92eae1e",
+    "browserEvidenceSha256": "39d4cad92feec90a67d2f7a8296a5fd05f3ecd82599969b779e1a30518b57935",
+    "mathExpressions": 48,
+    "images": 0,
+    "footnotes": 0,
+    "allSourceRenderedTexCodeImagesEqual": true,
+    "allNonWhitespaceBodyPreserved": true,
+    "actualBothWidthWordJunctionScreensViewed": true,
+    "allSixLiteralPatternCodesActuallyComparedBothWidths": true,
+    "displayTransforms": [
+      "Joinphysical572final允andphysical573opening许withoutspace",
+      "Movephysical573anchorscoarsebeforewhole222cparagraph",
+      "Literal7starssafelyescapedwithentitiesinsixcodeelements;finalrenderedcodemustmatchsourcepatterns"
+    ],
+    "additionalPhysicalPageCoverage": 0,
+    "pending": [
+      "Whole714/mother/offline/routed/onlineacceptance"
+    ]
+  },
+  "knownUnreproduced223": "595reproducedforconcretepartialpatternmodelwithindependentpeer,notassumedauthorimplementation;two membership rows remain unreproduced/sourceunchanged.",
+  "known224Qualification": "Arcorder-vs-variableorder meaning unresolved;sourceunchanged.",
+  "pending": [
+    "Source223model/corpus/order clarification",
+    "225continuation574",
+    "Mother/inclusionreceipts",
+    "Whole714/offline/routed/onlineacceptance"
+  ]
+}

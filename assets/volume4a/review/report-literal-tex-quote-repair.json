@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "scope": "Report literal-TeX presentation fix only; all book source bytes and frozen original review records unchanged.",
+  "item": "volume4a-tail-answer-048",
+  "location": "§7.2.1.5 / 中文印刷649 / 答52(a)",
+  "reportBeforeSha256": "4493890e5898d41549fad1c074e1468b6a56742c534331073ee772a294e58f00",
+  "reportAfterRepairSha256": "5dba7aad8bc8bf30df10d4b6c5d792c50c70e3aff54f65a1fb1eac889fd44718",
+  "change": "Use Markdown inline code for both original and corrected literal TeX; protect the original code token with an ancestor span carrying v-pre. This preserves all original backslashes through Markdown and stops Vue interpolation. No TeX characters or editorial claims changed.",
+  "qualification": "The earlier stray-fence repair exposed this formerly mis-fenced quotation. Both formatting adjustments have separate original fingerprints.",
+  "initialMarkdownCodeAttempt": {
+    "reportSha256": "85887ee7d107fbb42f555fbbabb3d419cd6bd102e4fd8d16295ee3a8525dea04",
+    "addedCodeDelimiters": 4,
+    "qualification": "Markdown code does not by itself disable Vue interpolation; retained as an intermediate step, not a successful Vue compile."
+  },
+  "markdownCodeDelimiters": 4,
+  "intermediateNativeCodeAttempt": {
+    "reportSha256": "b2da5b1f0425752b14e5aa52943ca3a74485657bb5595e9a39811e6cacd82ce4",
+    "vueCompilePassed": true,
+    "literalTeXExact": false,
+    "qualification": "Native HTML code disabled Vue interpolation but Markdown still consumed two brace-escape backslashes. This intermediate is preserved, not accepted as exact literal presentation."
+  },
+  "nativeVPreSpanWrapperCount": 1
+}

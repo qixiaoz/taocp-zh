@@ -1,0 +1,571 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-source-pages-251-to-253-binary-Gray-code-and-rings",
+  "cnPhysicalPages": [
+    251,
+    252,
+    253
+  ],
+  "cnPrintedPages": [
+    236,
+    237,
+    238
+  ],
+  "masterSha256": null,
+  "mathExpressions": 113,
+  "privateBrowserCases": 6,
+  "substantiveCorrections": 4,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.1",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 251,
+      "cnPrintedPage": 236,
+      "enPdfPages": [
+        300,
+        301
+      ],
+      "enPrintedPages": [
+        283,
+        284
+      ],
+      "pageMarkdownSha256": "cfa033109522aca3dcc2903d9ec1d8a4ae245fa1df57e2e70e5bb56939117f75",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-251.png",
+      "sourcePageImageSha256": "f789f60353626a6e1bb73b5f0c909193012dd635725ba746866ab1247b44a2b3",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-300.png",
+          "sha256": "9ad6a501294d8377a43496978f612ce7192a4562aa48912f4ceb5d14ca299624",
+          "physicalPage": 300
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-301.png",
+          "sha256": "f230e7762b7d61d6c23d392f2200412d473ac7b8e580580c7162888167adcc01",
+          "physicalPage": 301
+        }
+      ],
+      "pageAnchors": [
+        "pdf-251",
+        "p-236"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Complete bilingual formulas (5)–(12); forward, inverse and xor operations; exact displayed 12-bit example and the brace over the n-1 zeros."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 251,
+        "markdownSha256": "cfa033109522aca3dcc2903d9ec1d8a4ae245fa1df57e2e70e5bb56939117f75",
+        "htmlSha256": "720dc97284079c262977d7bda56fe2a9b3487d1402f704c2e92344bbe6394c09",
+        "mathExpressions": 53,
+        "displayMath": 9,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-251-252-253.json",
+        "sha256": "d664d8d4ac2a0b6eafbaab0e22fde5b81a96cc88c8d394224156b76b178e5f9a",
+        "cases": [
+          {
+            "physicalPage": 251,
+            "width": 1280,
+            "markdownSha256": "cfa033109522aca3dcc2903d9ec1d8a4ae245fa1df57e2e70e5bb56939117f75",
+            "documentWidth": 1280,
+            "math": 53,
+            "mathml": 53,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 53,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 251,
+            "width": 390,
+            "markdownSha256": "cfa033109522aca3dcc2903d9ec1d8a4ae245fa1df57e2e70e5bb56939117f75",
+            "documentWidth": 390,
+            "math": 53,
+            "mathml": 53,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 53,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Complete 1280/390 and scrolled phone right images directly inspected. Both footnote links and the Figure 31 enlargement were exercised at both widths. All wide equation ends were reachable."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/251-1280.png",
+          "sha256": "3a5daab3a52c7f69cbf8d3f3e022070a4bb8cfff3e1543b00c093a750d8c77d2",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/251-390.png",
+          "sha256": "32f319e1272a9972ae4bfda03778ce790fb8ccf1547b333778e756b8d6028053",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/251-390-right.png",
+          "sha256": "873f0458914edcc32692f0dd1dc5d7cc0a81ee48b3b4fe2e4cc13f5698ae9749",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-251-gray-exact.png",
+          "sha256": "4bc6932797fb5e8d80422c8ca53dc22eb4c8ef17b528a8df1f3554a9f10c8e53"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-301-gray-exact.png",
+          "sha256": "e142943cf3050ae8f76c6be1f0dae134ca399906c68c16d0696287c1459da402"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN251–253 checked against EN300–304 and the author pre-errata. The original ring illustration, original author note and Chinese editor note are included. Limited semantic checks are separately stated.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/body-251-253-gray-code-rings-and-parity.json",
+          "sha256": "0959a8f5d28f6d1aed860d39511ee6904e25bc22fe88fe3601efabbbdfc6b471",
+          "scope": "Bounded Algorithms G, binary Gray formulas, Chinese ring-state moves and Walsh samples. Source chart print lag and the specification/visiting phase are kept explicit. No physical puzzle timing or broader theorem claim."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "cf2366a2856cd59faa38e5755703113c930216cabb1fc9370a7eb533ec25676c",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/251.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.1",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 252,
+      "cnPrintedPage": 237,
+      "enPdfPages": [
+        301,
+        302
+      ],
+      "enPrintedPages": [
+        284,
+        285
+      ],
+      "pageMarkdownSha256": "adfa09d5b390afa2dcf83d361fb345242614493f886de6dda238a6c419fd706f",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-252.png",
+      "sourcePageImageSha256": "f34bed979032e0b3ba9c92303bc5cb8f7f3780849a9dd3edabb81cd25208a0ff",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-301.png",
+          "sha256": "f230e7762b7d61d6c23d392f2200412d473ac7b8e580580c7162888167adcc01",
+          "physicalPage": 301
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-302.png",
+          "sha256": "71f7cec4ac023dc527e69ebcc754b64fe7576a50987f235b997f3852c8b8da73",
+          "physicalPage": 302
+        }
+      ],
+      "pageAnchors": [
+        "pdf-252",
+        "p-237",
+        "fig-7-31"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/fig-7-31-chinese-ring-puzzle.svg",
+          "sha256": "af958b337b11a95ee9eec7f4574ff9f4c40f95ffb912ea74336211ae847ccedb",
+          "enPdfPage": 302,
+          "sourceBounds": [
+            [
+              85,
+              273,
+              238,
+              354
+            ]
+          ],
+          "nativePaths": 36,
+          "sourceDirectlyCompared": true,
+          "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+          "ringCount": 7,
+          "stateLeftToRight": "1011000"
+        }
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "§7.2.1.1 中国环的英国旧称",
+          "enPosition": "PDF302／印刷285；作者2021-08-19",
+          "original": "英国人过去也称它为 “tiring irons”",
+          "final": "英国人过去也称它为 “tarrying irons” 或 “tiring irons”",
+          "basis": "作者预勘误第13页补列 tarrying irons 并保留 tiring irons。",
+          "cnPrintedPage": 237
+        }
+      ],
+      "preservedVersionDifferences": [
+        "The Chinese and English historical paragraphs use different given-name forms for the same Schäffler bibliography: 特奥多尔 and Otto. The selected Chinese form is retained."
+      ],
+      "coveredRegions": [
+        "Gray and telegraph history with literal citation ranges; ring puzzle rules and illustrated state 1011000; Louis Gros and Dudeney; both original footnotes; one incomplete last sentence."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 252,
+        "markdownSha256": "adfa09d5b390afa2dcf83d361fb345242614493f886de6dda238a6c419fd706f",
+        "htmlSha256": "7b3013d06f1cc126d2a84e465b354fde42ba3be81e22a407cff700b13a6fc749",
+        "mathExpressions": 10,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-251-252-253.json",
+        "sha256": "d664d8d4ac2a0b6eafbaab0e22fde5b81a96cc88c8d394224156b76b178e5f9a",
+        "cases": [
+          {
+            "physicalPage": 252,
+            "width": 1280,
+            "markdownSha256": "adfa09d5b390afa2dcf83d361fb345242614493f886de6dda238a6c419fd706f",
+            "documentWidth": 1280,
+            "math": 10,
+            "mathml": 10,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 2,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 10,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 252,
+            "width": 390,
+            "markdownSha256": "adfa09d5b390afa2dcf83d361fb345242614493f886de6dda238a6c419fd706f",
+            "documentWidth": 390,
+            "math": 10,
+            "mathml": 10,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 2,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 10,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Complete 1280/390 and scrolled phone right images directly inspected. Both footnote links and the Figure 31 enlargement were exercised at both widths. All wide equation ends were reachable."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/252-1280.png",
+          "sha256": "ad630266a56c3c835994ab1ab13a2c4f3d2e1340bb2b8fb0c3dcb02588c91444",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/252-390.png",
+          "sha256": "aad73f833b0aa83feebbce67a8153d95b1b6e6843d2a41a43d020a800f9d2a82",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/252-390-right.png",
+          "sha256": "a4595f5817d37a07e0c021363b846193e1092683d4446be0313c1c16b3975955",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-252-fig31.png",
+          "sha256": "2191e6d1ce19dbc86167ce9353e1e46afb8852fa2358901a9ac22db8ad3a3045"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-302-fig31.png",
+          "sha256": "03e9975b6af9c97af023ebae4683055c8f94b57edb240b81dbacd0c1b0bc4320"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/author-pre-013-gray.png",
+          "sha256": "69c519ccdb95989d6f02f6b2ba247e1aa4982b7aa6edca5e6b5968b47aa9b3d0"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN251–253 checked against EN300–304 and the author pre-errata. The original ring illustration, original author note and Chinese editor note are included. Limited semantic checks are separately stated.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "followingPageContinuation": "CN253 first words finish the statement that the other legal move is an undoable backward step. The two CN252 notes stay independently scoped.",
+      "translationFootnotes": [
+        "v4a-p237-2"
+      ],
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/252-selected-cn-before-translation-repair-a6c5450d85b127f145fc43cba56be4ca42e71b254e6a2b764922a1fb3d3e8564/252.md",
+        "sha256": "a6c5450d85b127f145fc43cba56be4ca42e71b254e6a2b764922a1fb3d3e8564",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/body-251-253-gray-code-rings-and-parity.json",
+          "sha256": "0959a8f5d28f6d1aed860d39511ee6904e25bc22fe88fe3601efabbbdfc6b471",
+          "scope": "Bounded Algorithms G, binary Gray formulas, Chinese ring-state moves and Walsh samples. Source chart print lag and the specification/visiting phase are kept explicit. No physical puzzle timing or broader theorem claim."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "6735ac285f66e25779f666f382b7bdd3306a35da3ec1a2adabddf2b350229590",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/252.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.1",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 253,
+      "cnPrintedPage": 238,
+      "enPdfPages": [
+        302,
+        303,
+        304
+      ],
+      "enPrintedPages": [
+        285,
+        286,
+        287
+      ],
+      "pageMarkdownSha256": "3cf1509074858290bc96c8dc4b14f40650cd00f2136d7960200817156fc59720",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-253.png",
+      "sourcePageImageSha256": "f800910256c5daa118389c943569960dc82ab60c10b7fe1a3263e29bd27521ad",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-302.png",
+          "sha256": "71f7cec4ac023dc527e69ebcc754b64fe7576a50987f235b997f3852c8b8da73",
+          "physicalPage": 302
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-303.png",
+          "sha256": "b2b03ff6febbd0fab66f2ddcf21cfc8457b4ac72bc6ff18452fbbedc752ced21",
+          "physicalPage": 303
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-304.png",
+          "sha256": "59b0fb82a8437cb7942b59765880ae76670e413b25f293c958f4bbb7a05511fe",
+          "physicalPage": 304
+        }
+      ],
+      "pageAnchors": [
+        "pdf-253",
+        "p-238",
+        "alg-7-2-1-1-G"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.2.1.1 (b)类移动的起始位置",
+          "enPosition": "PDF302／印刷285，末段",
+          "original": "终止于位置 $(10^{j-1})_2$（$1\\le j<n$）的 (b) 类移动",
+          "final": "从末尾为 $(10^{j-1})_2$（$1\\le j<n$）的位置出发的 (b) 类移动",
+          "basis": "from a position that ends in 修饰出发状态，所述二进制串是该状态的末尾。",
+          "cnPrintedPage": 238
+        },
+        {
+          "location": "§7.2.1.1 沃利斯的年份",
+          "enPosition": "PDF303／印刷286，算法G前",
+          "original": "约翰·沃利斯在 1963 年",
+          "final": "约翰·沃利斯在 1693 年",
+          "basis": "英文原页明确为1693，中文数字倒置。",
+          "cnPrintedPage": 238
+        },
+        {
+          "location": "§7.2.1.1 算法G的校验位、式(14)及初始化",
+          "enPosition": "PDF303／印刷286；作者2020-06-23",
+          "original": "每次只改变一位，并维持奇校验位 $a_{-1}$，使得\n\n$$\na_{-1}=1\\oplus a_{n-1}\\oplus\\cdots\\oplus a_1\\oplus a_0.\n\\tag{14}\n$$\n\n它依次对位置 $\\rho(1),\\rho(2),\\rho(3),\\ldots,\\rho(2^n-1)$ 的各位取补，然后终止。\n\n**G1.** ［初始化。］对 $0\\le j<n$，置 $a_j\\leftarrow0$；也置 $a_{-1}\\leftarrow0$。",
+          "final": "每次只改变一位。访问时，算法维持偶校验位 $a_{-1}$，使得\n\n$$\na_{-1}=a_{n-1}\\oplus\\cdots\\oplus a_1\\oplus a_0.\n\\tag{14}\n$$\n\n它依次对位置 $\\rho(1),\\rho(2),\\rho(3),\\ldots,\\rho(2^n-1)$ 的各位取补，然后终止。\n\n**G1.** ［初始化。］对 $-1\\le j<n$，置 $a_j\\leftarrow0$。",
+          "basis": "作者预勘误第14页2020年整组更新。G2访问时为偶校验，G3翻转后暂为奇校验，G5改一位后回到G2。第31页同日更新答8。",
+          "cnPrintedPage": 238
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Legal ring moves and ruler function; 1693 date; complete Algorithm G; complete inclusion-exclusion formulas and epigraph; Walsh recurrence to Eq. (15)."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 253,
+        "markdownSha256": "3cf1509074858290bc96c8dc4b14f40650cd00f2136d7960200817156fc59720",
+        "htmlSha256": "76375d54c5403c48efdea0b6aa61e48d1755ba5b9090b341e61c1639a6119ee7",
+        "mathExpressions": 50,
+        "displayMath": 5,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-251-252-253.json",
+        "sha256": "d664d8d4ac2a0b6eafbaab0e22fde5b81a96cc88c8d394224156b76b178e5f9a",
+        "cases": [
+          {
+            "physicalPage": 253,
+            "width": 1280,
+            "markdownSha256": "3cf1509074858290bc96c8dc4b14f40650cd00f2136d7960200817156fc59720",
+            "documentWidth": 1280,
+            "math": 50,
+            "mathml": 50,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 50,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 253,
+            "width": 390,
+            "markdownSha256": "3cf1509074858290bc96c8dc4b14f40650cd00f2136d7960200817156fc59720",
+            "documentWidth": 390,
+            "math": 50,
+            "mathml": 50,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 50,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Complete 1280/390 and scrolled phone right images directly inspected. Both footnote links and the Figure 31 enlargement were exercised at both widths. All wide equation ends were reachable."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/253-1280.png",
+          "sha256": "310ad25d002157a90805431b0c4d8ef503244d72571155a3f628e0fb4112deea",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/253-390.png",
+          "sha256": "36a9ae4030079bbfb255def4cefe032bf8299e237c8d2c6059d10b4c263fd488",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/253-390-right.png",
+          "sha256": "45a0b795efebc9ab584a08ad628e1af12bc4b5ed66a4afc42a5965d7ef039fe1",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-253-algorithm-g.png",
+          "sha256": "8e46b7eda71a6282901170e016f0a50962f6f3dd8559eb44cb8b5dd4543c0c92"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-303-algorithm-g.png",
+          "sha256": "856856a21358b2790419284ff0a486404fcf99c206862b02e14f2fc5856e610b"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/author-pre-014-gray.png",
+          "sha256": "602b455b1993aac68758723f16b0d5958673ed3740c70448e5614eab88d5e26c"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/author-pre-031-gray-answer8.png",
+          "sha256": "1ea6a967bdc1346fc60ec607822802d26c12d0173d515da6b52eb815d3f6f361"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Complete CN251–253 checked against EN300–304 and the author pre-errata. The original ring illustration, original author note and Chinese editor note are included. Limited semantic checks are separately stated.",
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/253-selected-cn-before-translation-repair-1cecdb426aa41c9e67a12c270defb486c46a66faf77899573e8e0b8ea541a4a4/253.md",
+        "sha256": "1cecdb426aa41c9e67a12c270defb486c46a66faf77899573e8e0b8ea541a4a4",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/body-251-253-gray-code-rings-and-parity.json",
+          "sha256": "0959a8f5d28f6d1aed860d39511ee6904e25bc22fe88fe3601efabbbdfc6b471",
+          "scope": "Bounded Algorithms G, binary Gray formulas, Chinese ring-state moves and Walsh samples. Source chart print lag and the specification/visiting phase are kept explicit. No physical puzzle timing or broader theorem claim."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "cb720e1c89fbe62371daa440b4d473391491768acb9ace040ed29723f46ab530",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/253.json"
+    }
+  ],
+  "qualification": "Complete CN251–253 checked against EN300–304 and the author pre-errata. The original ring illustration, original author note and Chinese editor note are included. Limited semantic checks are separately stated."
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Only247actualsourceupperbound/definition/n1n2domain,notwhole579",
+  "data": {
+    "scope": "Read-only source and arity peer for Answer 247. Verified exact glyph and exponent position, Theorem S family type, n=1–2 input bounds, and the one-variable family fixture only. No full-page or large family census.",
+    "sourceImages": [
+      {
+        "file": "root-sources/cn-579-247-recurrence-detail.png",
+        "sha256": "7482e56164f4b9527c73874daf16c2e7a1afc1118ee2372330f4beaa969e48aa"
+      },
+      {
+        "file": "root-sources/en-691-247-recurrence-detail.png",
+        "sha256": "b781f0e42fb7fd0ef884cb0950cb07eb7a81c954a9ade34be1e96c77aba95c73"
+      },
+      {
+        "file": "body-review/peer-en-273-theorem-s-247.png",
+        "sha256": "817764df044ae81e47a10fc26b3fa6fff18252c15fa1b65971a3029d3d0acbef"
+      }
+    ],
+    "printedBoth": {
+      "upper": "2^{k-1}",
+      "lower": "j=0",
+      "innerRange": "i is a strict bitwise subset of j",
+      "oddInput": "x_(2j+1)",
+      "evenInput": "x_(2i+2)"
+    },
+    "visualReading": "The letter is k. The minus and 1 are entirely on the raised exponent line next to k in both printed images. The glyph is 2^(k−1), with no subtraction at the baseline after the power.",
+    "definition": "Theorem S says f is monotone and its BDD equals the ZDD of PI(f); the two PI subfamilies by presence of the first variable are encoded by the odd/even family membership bits, not the ordinary output truth table of f.",
+    "arityReason": "A fixed coordinate has 2^(n−1) subsets of the remaining variables. Both input half vectors therefore index j=0 through 2^(n−1)−1. Setting k=n alone in the original superscript would still use x_(2^n+1).",
+    "oneVariableAcceptedPIPresenceVectorsInEmptyThenSingletonOrder": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "testedSmallArities": [
+      {
+        "n": 1,
+        "inputPositions": 2,
+        "jDomain": [
+          0
+        ],
+        "oddFamilyPositions": [
+          1
+        ],
+        "evenFamilyPositions": [
+          2
+        ],
+        "invalidIfKSimplySetToN": {
+          "j": 1,
+          "oddPosition": 3,
+          "outOfRangeBy": 1
+        }
+      },
+      {
+        "n": 2,
+        "inputPositions": 4,
+        "jDomain": [
+          0,
+          1
+        ],
+        "oddFamilyPositions": [
+          1,
+          3
+        ],
+        "evenFamilyPositions": [
+          2,
+          4
+        ],
+        "invalidIfKSimplySetToN": {
+          "j": 2,
+          "oddPosition": 5,
+          "outOfRangeBy": 1
+        }
+      }
+    ],
+    "minimalRereading": "Only the upper limit becomes 2^(n−1)−1. Keep j=0 and the strict bit-subset index conditions."
+  },
+  "privateEvidenceSha256": "e54bbd020b3d4562dcfd8a2c7987c8f0f75eed497e5515de2a521bd806336ee1"
+}

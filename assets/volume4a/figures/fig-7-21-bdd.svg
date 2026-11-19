@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220" role="img" aria-labelledby="title desc">
+  <title id="title">图21：三变量过半数函数的二元决策图</title>
+  <desc id="desc">实线表示HI分支，虚线表示LO分支。根节点1的LO到左节点2、HI到右节点2。左节点2的LO到假终点、HI到节点3。右节点2的LO到节点3、HI到真终点。节点3的LO到假终点、HI到真终点。</desc>
+  <rect width="240" height="220" fill="white"/>
+  <g fill="none" stroke="#111" stroke-width="1.5">
+    <path d="M129 37 L168 78 M170 104 L170 180 M81 101 L111 130 M129 155 L161 184"/>
+    <path d="M111 37 L72 78 M70 104 L70 180 M159 101 L129 130 M111 155 L79 184" stroke-dasharray="3 3"/>
+  </g>
+  <g fill="white" stroke="#111" stroke-width="1.5">
+    <circle cx="120" cy="28" r="14"/>
+    <circle cx="70" cy="90" r="14"/>
+    <circle cx="170" cy="90" r="14"/>
+    <circle cx="120" cy="143" r="14"/>
+    <rect x="57" y="180" width="26" height="26"/>
+    <rect x="157" y="180" width="26" height="26"/>
+  </g>
+  <g fill="#111" font-family="'Times New Roman',serif" font-size="22" text-anchor="middle" dominant-baseline="central">
+    <text x="120" y="28">1</text>
+    <text x="70" y="90">2</text>
+    <text x="170" y="90">2</text>
+    <text x="120" y="143">3</text>
+    <text x="70" y="193">⊥</text>
+    <text x="170" y="193">⊤</text>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+{
+  "volume": "volume4a",
+  "section": "7.2.1.6",
+  "cnPdfPage": 404,
+  "cnPrintedPage": 389,
+  "enPdfPage": 486,
+  "tabNumber": 5,
+  "masterSha256": null,
+  "pageMarkdownSha256": "25274175efa87c5a8a157ea450639c9308eafb8568f82a43d8d2cae7da8734db",
+  "evidenceType": "post-acceptance independent exact graph arithmetic supplement",
+  "initialPageBatch": {
+    "file": "assets/volume4a/review/body-403-404.json",
+    "sha256": "e123589fc9c68e49d2cc3e700d985dcb36dc5686019a3cbe9de7a3331ff61b8f"
+  },
+  "initialSourceFields": {
+    "file": "assets/volume4a/review/body-403-404-source-fields.json",
+    "sha256": "dabf2d505d94de0afca9969e9dfba777957bf7793961b06b9ebc46510c635783"
+  },
+  "appliesTo": "The last two table rows now also have an exact independent count. The prior page bytes and source/browser acceptance are unchanged.",
+  "graphBase": {
+    "officialSite": "https://cs.stanford.edu/~knuth/sgb.html",
+    "archiveSha256": "f2e2784b083db9d7b2cc705d34e9e8b4fdf9cc6dcd0d2dfe0c88a3875482017a",
+    "milesDataSha256": "2888d2e90769c61abd63ba361204aaec7082b594288e0e4a41cf7151adc96542",
+    "compiledHelperSourceSha256": "3bc6256a2f161019c0e8e91b5da739ea6dc5ed5b12578328e88d6d89a217688b",
+    "edgeDumpSha256": "972f65ad881e185054bfe371f308144e91941d05010f8330b514beb576e01ccb"
+  },
+  "graphs": {
+    "plane_miles": {
+      "n": 16,
+      "arcs": 74,
+      "m": 37,
+      "spanningTrees": 179678881,
+      "parallelEndpointPairs": 0,
+      "maximumEdgeMultiplicity": 1,
+      "parallelCopiesBeyondFirst": 0,
+      "subexpression": "plane_miles(16,0,0,1,0,0,0)",
+      "expected": 179678881,
+      "tableRow": 15
+    },
+    "random_graph": {
+      "n": 16,
+      "arcs": 74,
+      "m": 37,
+      "spanningTrees": 59933756,
+      "parallelEndpointPairs": 5,
+      "maximumEdgeMultiplicity": 3,
+      "parallelCopiesBeyondFirst": 6,
+      "subexpression": "random_graph(16,37,1,0,0,0,0,0,0,0)",
+      "expected": 59933756,
+      "tableRow": 14
+    }
+  },
+  "method": "Run the two printed GraphBase calls with the locally archived edition. Check that every undirected edge has reciprocal arcs; retain all multiplicities. Take the exact integer Laplacian cofactor for each graph.",
+  "runtimeRatios": "The printed ratio validation from the original record still applies. No timing measurement was rerun."
+}

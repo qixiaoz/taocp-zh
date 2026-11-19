@@ -1,0 +1,876 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Only specified finite ZDD models184–200, independent theta prefix and printed191-bound incompatibility; no general proof or complete manager",
+  "data": {
+    "566": {
+      "checkerSha256": "cd63a591a105b58c9327c0e3f248d971735aa98115de79be7b05da48a55b26cd",
+      "factoryModuleSha256": "33b997470b5e4f4e6459a8263a74f03e843deefcc40567ed99f90774f8ec606a",
+      "pageMarkdownSha256": "312acdfb584522d09f638e0f0197378e2bf98f1d5b4b3bd54aa3a69a5f85fec2",
+      "184": [
+        {
+          "side": 1,
+          "allInputs": 2,
+          "profiles": {
+            "bdd": [
+              1,
+              2
+            ],
+            "zdd": [
+              1,
+              2
+            ],
+            "qdd": [
+              1,
+              2
+            ]
+          },
+          "truePermutationMatrices": 1
+        },
+        {
+          "side": 2,
+          "allInputs": 16,
+          "profiles": {
+            "bdd": [
+              1,
+              2,
+              2,
+              2,
+              2
+            ],
+            "zdd": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "qdd": [
+              1,
+              2,
+              3,
+              3,
+              2
+            ]
+          },
+          "truePermutationMatrices": 2
+        },
+        {
+          "side": 3,
+          "allInputs": 512,
+          "profiles": {
+            "bdd": [
+              1,
+              2,
+              3,
+              3,
+              5,
+              5,
+              3,
+              3,
+              2,
+              2
+            ],
+            "zdd": [
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            "qdd": [
+              1,
+              2,
+              4,
+              4,
+              6,
+              6,
+              4,
+              4,
+              3,
+              2
+            ]
+          },
+          "truePermutationMatrices": 6
+        },
+        {
+          "side": 4,
+          "allInputs": 65536,
+          "profiles": {
+            "bdd": [
+              1,
+              2,
+              3,
+              4,
+              4,
+              7,
+              9,
+              9,
+              6,
+              9,
+              9,
+              7,
+              4,
+              4,
+              3,
+              2,
+              2
+            ],
+            "zdd": [
+              1,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "qdd": [
+              1,
+              2,
+              4,
+              5,
+              5,
+              8,
+              10,
+              10,
+              7,
+              10,
+              10,
+              8,
+              5,
+              5,
+              4,
+              3,
+              2
+            ]
+          },
+          "truePermutationMatrices": 24
+        }
+      ],
+      "185": {
+        "allSymmetricFunctionsFinite": [
+          {
+            "variables": 1,
+            "allSymmetricTruthVectors": 4,
+            "maximumBDDAndZDD": 3
+          },
+          {
+            "variables": 2,
+            "allSymmetricTruthVectors": 8,
+            "maximumBDDAndZDD": 5
+          },
+          {
+            "variables": 3,
+            "allSymmetricTruthVectors": 16,
+            "maximumBDDAndZDD": 7
+          },
+          {
+            "variables": 4,
+            "allSymmetricTruthVectors": 32,
+            "maximumBDDAndZDD": 10
+          },
+          {
+            "variables": 5,
+            "allSymmetricTruthVectors": 64,
+            "maximumBDDAndZDD": 14
+          },
+          {
+            "variables": 6,
+            "allSymmetricTruthVectors": 128,
+            "maximumBDDAndZDD": 19
+          },
+          {
+            "variables": 7,
+            "allSymmetricTruthVectors": 256,
+            "maximumBDDAndZDD": 25
+          },
+          {
+            "variables": 8,
+            "allSymmetricTruthVectors": 512,
+            "maximumBDDAndZDD": 31
+          }
+        ],
+        "deBruijnWindowInstances": [
+          {
+            "degree": 1,
+            "verifiedCycleLength": 4,
+            "sourceVector": "011",
+            "allRequiredTuplesOnce": 2
+          },
+          {
+            "degree": 2,
+            "verifiedCycleLength": 8,
+            "sourceVector": "00101110",
+            "allRequiredTuplesOnce": 6
+          },
+          {
+            "degree": 3,
+            "verifiedCycleLength": 16,
+            "sourceVector": "00010011010111100",
+            "allRequiredTuplesOnce": 14
+          },
+          {
+            "degree": 4,
+            "verifiedCycleLength": 32,
+            "sourceVector": "0000100011001010011101011011111000",
+            "allRequiredTuplesOnce": 30
+          },
+          {
+            "degree": 5,
+            "verifiedCycleLength": 64,
+            "sourceVector": "0000010000110001010001110010010110011010011110101011101101111110000",
+            "allRequiredTuplesOnce": 62
+          },
+          {
+            "degree": 6,
+            "verifiedCycleLength": 128,
+            "sourceVector": "000000100000110000101000011100010010001011000110100011110010011001010100101110011011001110100111110101011010111101101110111111100000",
+            "allRequiredTuplesOnce": 126
+          }
+        ],
+        "authorSigmaNotationAdopted": true
+      },
+      "186": {
+        "onlyAssignmentBinary": "001000",
+        "all64InputsRepresented": true,
+        "ZDDSignature": [
+          3,
+          0,
+          1
+        ]
+      },
+      "187188": {
+        "sizes": [
+          1,
+          4,
+          3,
+          4,
+          3,
+          4,
+          4,
+          5,
+          1,
+          4,
+          2,
+          3,
+          2,
+          5,
+          3,
+          3
+        ],
+        "families": [
+          [],
+          [
+            [
+              "1",
+              "2"
+            ]
+          ],
+          [
+            [
+              "1",
+              ""
+            ]
+          ],
+          [
+            [
+              "1",
+              ""
+            ],
+            [
+              "1",
+              "2"
+            ]
+          ],
+          [
+            [
+              "",
+              "2"
+            ]
+          ],
+          [
+            [
+              "",
+              "2"
+            ],
+            [
+              "1",
+              "2"
+            ]
+          ],
+          [
+            [
+              "",
+              "2"
+            ],
+            [
+              "1",
+              ""
+            ]
+          ],
+          [
+            [
+              "",
+              "2"
+            ],
+            [
+              "1",
+              ""
+            ],
+            [
+              "1",
+              "2"
+            ]
+          ],
+          [
+            [
+              "",
+              ""
+            ]
+          ],
+          [
+            [
+              "",
+              ""
+            ],
+            [
+              "1",
+              "2"
+            ]
+          ],
+          [
+            [
+              "",
+              ""
+            ],
+            [
+              "1",
+              ""
+            ]
+          ],
+          [
+            [
+              "",
+              ""
+            ],
+            [
+              "1",
+              ""
+            ],
+            [
+              "1",
+              "2"
+            ]
+          ],
+          [
+            [
+              "",
+              ""
+            ],
+            [
+              "",
+              "2"
+            ]
+          ],
+          [
+            [
+              "",
+              ""
+            ],
+            [
+              "",
+              "2"
+            ],
+            [
+              "1",
+              "2"
+            ]
+          ],
+          [
+            [
+              "",
+              ""
+            ],
+            [
+              "",
+              "2"
+            ],
+            [
+              "1",
+              ""
+            ]
+          ],
+          [
+            [
+              "",
+              ""
+            ],
+            [
+              "",
+              "2"
+            ],
+            [
+              "1",
+              ""
+            ],
+            [
+              "1",
+              "2"
+            ]
+          ]
+        ],
+        "nativeEvidenceSha256": "ac5211437c13b5ac3f9dfc3a4ab9e59b51399cca2cfd3ad80f9938b77fd1684f",
+        "all64NativeTruthValuesAlsoCheckedSeparately": true
+      },
+      "189": {
+        "finiteClassifications": [
+          {
+            "variables": 0,
+            "allFunctions": 2,
+            "identicalBDDAndZDD": 2,
+            "QEqualsB": 2,
+            "QEqualsZ": 2,
+            "withoutFalseZDDSink": 1,
+            "allOneZProfiles": 2,
+            "allZTransformProfileAndQuasiRelationsVerified": true
+          },
+          {
+            "variables": 1,
+            "allFunctions": 4,
+            "identicalBDDAndZDD": 2,
+            "QEqualsB": 2,
+            "QEqualsZ": 2,
+            "withoutFalseZDDSink": 2,
+            "allOneZProfiles": 1,
+            "allZTransformProfileAndQuasiRelationsVerified": true
+          },
+          {
+            "variables": 2,
+            "allFunctions": 16,
+            "identicalBDDAndZDD": 2,
+            "QEqualsB": 2,
+            "QEqualsZ": 4,
+            "withoutFalseZDDSink": 6,
+            "allOneZProfiles": 3,
+            "allZTransformProfileAndQuasiRelationsVerified": true
+          },
+          {
+            "variables": 3,
+            "allFunctions": 256,
+            "identicalBDDAndZDD": 2,
+            "QEqualsB": 2,
+            "QEqualsZ": 16,
+            "withoutFalseZDDSink": 42,
+            "allOneZProfiles": 17,
+            "allZTransformProfileAndQuasiRelationsVerified": true
+          },
+          {
+            "variables": 4,
+            "allFunctions": 65536,
+            "identicalBDDAndZDD": 2,
+            "QEqualsB": 2,
+            "QEqualsZ": 256,
+            "withoutFalseZDDSink": 1806,
+            "allOneZProfiles": 155,
+            "allZTransformProfileAndQuasiRelationsVerified": true
+          }
+        ],
+        "givenPlainX2Example": {
+          "mask": 196,
+          "BDDProfile": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "ZDDProfile": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "graphsDifferent": true
+        }
+      },
+      "190": {
+        "allFunctionsThrough4Classified": true,
+        "selectedCNN0ExtensionValidatedWithEmptyXORConvention": true
+      },
+      "191": {
+        "sequenceThrough9": [
+          1,
+          2,
+          6,
+          42,
+          1806,
+          3263442,
+          10650056950806,
+          113423713055421844361000442,
+          12864938683278671740537145998360961546653259485195806,
+          165506647324519964198468195444439180017513152706377497841851388766535868639572406808911988131737645185442
+        ],
+        "thetaIndependentInterval": {
+          "precision": 130,
+          "recurrenceIndex": 8,
+          "sourceGivenFortyDigits": "1.5979102180318731783380701181574553123622",
+          "lower": "1.597910218031873178338070118157455312362224953182114196591393094229616195622794968761147062819635182505661841719780589702659319804",
+          "upper": "1.597910218031873178338070118157455312362224953182114196591393094229616195622794968761147062819635182505661846433969683388162865512",
+          "method": "u_n=l_n+1/2; u_next=u^2+1/4. Exact positive logarithmic tail <=1/[8*2^n*u^2*(1-1/(2u^2))], plus Decimal roundoff padding1e-115. This does not use the source claimed epsilon bound."
+        },
+        "knownSourceErrorBoundIncompatibility": {
+          "bothActualSourcesPrintSameStrictUpper": true,
+          "sourceTreatment": "Keep literal original bound and document incompatibility; no replacement constant chosen.",
+          "algebraFromSameSourceRecurrence": "epsilon_next=2*y*epsilon-epsilon^2-1/4",
+          "contradiction": "If0<epsilon<1/(8*y),then epsilon_next<0,contrary to next positive error; also applies to any sufficiently-large-n interpretation.",
+          "exactRationalGivenPrefixCounterexamples": [
+            {
+              "n": 0,
+              "exactRationalComparison": true,
+              "epsilonLowerApprox": "0.09791021803187318",
+              "sourceUpperMaximumApprox": "0.0782271735854853"
+            },
+            {
+              "n": 1,
+              "exactRationalComparison": true,
+              "epsilonLowerApprox": "0.05331706489066848",
+              "sourceUpperMaximumApprox": "0.04895592549738919"
+            },
+            {
+              "n": 2,
+              "exactRationalComparison": true,
+              "epsilonLowerApprox": "0.019428033861898147",
+              "sourceUpperMaximumApprox": "0.019173461130447367"
+            },
+            {
+              "n": 3,
+              "exactRationalComparison": true,
+              "epsilonLowerApprox": "0.0029418887044149696",
+              "sourceUpperMaximumApprox": "0.0029409728937662078"
+            },
+            {
+              "n": 4,
+              "exactRationalComparison": true,
+              "epsilonLowerApprox": "6.919458442159435e-05",
+              "sourceUpperMaximumApprox": "6.919457249494067e-05"
+            },
+            {
+              "n": 5,
+              "exactRationalComparison": true,
+              "epsilonLowerApprox": "3.8303110902062816e-08",
+              "sourceUpperMaximumApprox": "3.830311090206079e-08"
+            }
+          ]
+        }
+      },
+      "192193": {
+        "allBinaryStringsLength0Through12InvolutionCases": 8191,
+        "givenInput": "11001001000011111",
+        "givenOutput": "10101101000010110",
+        "allFunctionProfileDualitiesThrough4": true,
+        "zeroSinkCountsPreserved": true,
+        "quasiProfileDifferencesAtMost1": true,
+        "exactWeightThresholdCasesN0To8": 45
+      },
+      "194": {
+        "allOneZProfileCountsN1To4": [
+          1,
+          3,
+          17,
+          155
+        ],
+        "matchesSourceGenocchiG2nPlus2": true
+      },
+      "qualifications": [
+        "Finite classifications not general proofs or global variable-order optimum.",
+        "Source191strict epsilon bound is demonstrably inconsistent and preserved/documented, not passed as mathematically correct.",
+        "Actual current HTML/figure/pixel checks remain separate.",
+        "No full new physical page acceptance/mother/offline/routed/online claim."
+      ]
+    },
+    "567": {
+      "checkerSha256": "69828fa34362d08ba5d218c4ce53227b586b6b4d3e4e5f41cd2777119817798b",
+      "factoryModuleSha256": "33b997470b5e4f4e6459a8263a74f03e843deefcc40567ed99f90774f8ec606a",
+      "sourcePageMarkdownSha256": "37e405131b86b5edef8845a1f043632f2f94441b0561a0292db4f0abed8cd70d",
+      "195": {
+        "source3M2Orders": [
+          {
+            "images": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "profile": [
+              1,
+              2,
+              4,
+              4,
+              3,
+              2,
+              2
+            ],
+            "size": 18
+          },
+          {
+            "images": [
+              4,
+              2,
+              5,
+              6,
+              3,
+              1
+            ],
+            "profile": [
+              1,
+              2,
+              3,
+              2,
+              3,
+              2,
+              2
+            ],
+            "size": 15
+          },
+          {
+            "images": [
+              5,
+              6,
+              1,
+              2,
+              3,
+              4
+            ],
+            "profile": [
+              1,
+              2,
+              4,
+              8,
+              12,
+              2,
+              2
+            ],
+            "size": 31
+          }
+        ],
+        "all720M2VariableOrdersMinimumMaximum": [
+          15,
+          31
+        ],
+        "givenM4Images": [
+          8,
+          5,
+          17,
+          2,
+          20,
+          19,
+          18,
+          16,
+          15,
+          13,
+          14,
+          12,
+          11,
+          9,
+          10,
+          4,
+          7,
+          6,
+          3,
+          1
+        ],
+        "allM4TruthInputs": 1048576,
+        "givenM4Size": 116,
+        "globalM4OrderOptimumNotProved": true,
+        "referenceDefinition104Sha256": "153113a071fc71b906a11a40ba1e8cb799ea8548203901da2f78abc80fe50864"
+      },
+      "196": {
+        "targetDomainOneHotInterpretation": true,
+        "meaning": "Selector bits separate; each e_j is one-hot on the2^m target variables. No all-ambient-variable elementary-function extension assertion.",
+        "cases": [
+          {
+            "addresses": 1,
+            "targetVariables": 2,
+            "totalVariables": 3,
+            "allInputs": 8,
+            "ZFunction": 5,
+            "ZComplement": 7
+          },
+          {
+            "addresses": 2,
+            "targetVariables": 4,
+            "totalVariables": 6,
+            "allInputs": 64,
+            "ZFunction": 9,
+            "ZComplement": 20
+          },
+          {
+            "addresses": 3,
+            "targetVariables": 8,
+            "totalVariables": 11,
+            "allInputs": 2048,
+            "ZFunction": 17,
+            "ZComplement": 58
+          }
+        ]
+      },
+      "197": {
+        "twoIndexingFiniteCases": [
+          {
+            "variables": 1,
+            "allFunctions": 4,
+            "twoLegalIndexings": [
+              "encounter",
+              "sorted"
+            ],
+            "literalFailsAnySupportOrZeroIndex": {
+              "encounter": 3,
+              "sorted": 3
+            },
+            "correctedAllSupportMasksZeroIndicesAndNonterminalZProfilesMatch": true
+          },
+          {
+            "variables": 2,
+            "allFunctions": 16,
+            "twoLegalIndexings": [
+              "encounter",
+              "sorted"
+            ],
+            "literalFailsAnySupportOrZeroIndex": {
+              "encounter": 15,
+              "sorted": 15
+            },
+            "correctedAllSupportMasksZeroIndicesAndNonterminalZProfilesMatch": true
+          },
+          {
+            "variables": 3,
+            "allFunctions": 256,
+            "twoLegalIndexings": [
+              "encounter",
+              "sorted"
+            ],
+            "literalFailsAnySupportOrZeroIndex": {
+              "encounter": 254,
+              "sorted": 255
+            },
+            "correctedAllSupportMasksZeroIndicesAndNonterminalZProfilesMatch": true
+          },
+          {
+            "variables": 4,
+            "allFunctions": 65536,
+            "twoLegalIndexings": [
+              "encounter",
+              "sorted"
+            ],
+            "literalFailsAnySupportOrZeroIndex": {
+              "encounter": 65528,
+              "sorted": 65535
+            },
+            "correctedAllSupportMasksZeroIndicesAndNonterminalZProfilesMatch": true
+          }
+        ],
+        "oneVariableMinimalCounterexample": {
+          "variables": 1,
+          "truthTable": "01",
+          "lowIndex": 0,
+          "highIndex": 1,
+          "terminalZeroIndex": 0,
+          "literalRootDEP": [
+            0
+          ],
+          "correctRootDEP": [
+            1
+          ],
+          "literalRootZeroIndex": 0,
+          "correctRootZeroIndex": -1
+        },
+        "threeComparisonOperandsUseNodeIndicesNotDEPMasks": true,
+        "allRHSUnionShiftDEPsUnchanged": true,
+        "independentPeerSha256": "abd67b3679d1be35e6cb166c35f685520d3a73bac28e6d8775f5d0c884576bd3",
+        "literalGenericELIMMemoryManagerNotExecuted": true
+      },
+      "198199200": {
+        "finiteStructureSemantics": [
+          {
+            "variables": 2,
+            "families": 16,
+            "allFamilyPairsEachOfFourOperations": 256,
+            "MUXTriples": 4096,
+            "allResultFamilyTruthValuesMatch": true
+          },
+          {
+            "variables": 3,
+            "families": 256,
+            "allFamilyPairsEachOfFourOperations": 65536,
+            "MUXTriples": 0,
+            "allResultFamilyTruthValuesMatch": true
+          }
+        ],
+        "MUXConvention": "Selector false->g,true->h:((not f)ANDg)OR(fANDh).",
+        "ANDCurrentMinVariableInterpretation": "Fork variable read from currently aligned operands as source(52),not a stale-register execution assumption.",
+        "noREFGCOrRuntimeCacheAllocationVerification": true,
+        "fixedFiniteVariableUniverse": true
+      },
+      "qualifications": [
+        "Actual primary source images/bilingual scope/currentHTML/browser are separate.",
+        "Finite model output not all-variable general proof.",
+        "Source given optimal/worst phrases retained as dated source claims; M2 exhaustive720 only, M4 one given order.",
+        "Master profile terminal count z_n is separately measured from canonical structure,not inferred from DEP.",
+        "No mother/offline/routed/online acceptance yet."
+      ]
+    }
+  },
+  "familySlotRepresentation": "187188 family arrays in private model have two variable positions; empty-string denotes absent element, not an actual subset element.",
+  "actualCurrentDOMFields": {
+    "195GivenM4Order": [
+      8,
+      5,
+      17,
+      2,
+      20,
+      19,
+      18,
+      16,
+      15,
+      13,
+      14,
+      12,
+      11,
+      9,
+      10,
+      4,
+      7,
+      6,
+      3,
+      1
+    ],
+    "195AllThreeProfilesMatch": true,
+    "192SeventeenBitOutputMatch": true,
+    "191FortyThetaDigitsMatch": true,
+    "197ComparisonOperandsOnlyIndices": true,
+    "198BothReferences201AndSelectedCNLetterO": true
+  },
+  "evidenceSha256": {
+    "566": "4c817d789a563c2bdd96e1093529c60234fcf6180b3a581ac0436fb14d1fbdd3",
+    "567": "a4b9da620854121985df8f92ae7404aa95f669bc517fd3840c675d5e2e5e25df"
+  }
+}

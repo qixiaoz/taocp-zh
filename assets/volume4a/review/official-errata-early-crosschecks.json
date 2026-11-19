@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "official-primary-errata-image-crosschecks",
+  "retrievedDate": "2026-11-17",
+  "primaryIndexURL": "https://cs.stanford.edu/~knuth/taocp.html",
+  "earliestErrata": {
+    "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+    "documentLastUpdated": "2023-02-09",
+    "downloadBytes": 224630,
+    "downloadSha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+    "uncompressedPSSha256": "b3d7dd1301dfe75532880930f81d6efd42b3e7dcd4e29e05327dafb0422da038",
+    "renderMethod": "Ghostscript -dSAFER；直接查看实际勘误第3、4页。",
+    "renderedEvidence": [
+      {
+        "documentPage": 3,
+        "privateLocator": "private-snapshot:volume4a/official-errata/all4a-pre-page3.png",
+        "sha256": "795c1bdb1594a9b807e671ffafc7cd227257d050499fb3d64ed686df4876bb99"
+      },
+      {
+        "documentPage": 4,
+        "privateLocator": "private-snapshot:volume4a/official-errata/all4a-pre-page4.png",
+        "sha256": "80f1cd93e7f255723700672ab7f79342ecf7ce53528807752a7da669e57b14cc"
+      }
+    ]
+  },
+  "laterErrata": {
+    "url": "https://cs.stanford.edu/~knuth/err4a.textxt",
+    "downloadSha256": "31d424785d8dbb87e2b63dd5f3421c26e4911e9fd6b8937395f6d9054782e3bc",
+    "note": "作者网页将其列为2021年之后的勘误；所查文件未发现本次词立方计数差异的条目。"
+  },
+  "findings": [
+    {
+      "id": "notes-resolved-rating",
+      "englishPrintedPage": "xii",
+      "line": "16",
+      "reportedDate": "2011-06-16",
+      "oldRating": 45,
+      "newRating": 40,
+      "cnPhysicalPage": 10,
+      "effect": "官方条目确认新评级为40；不能仅凭此条断定中文版为何把此前评级写成50。"
+    },
+    {
+      "id": "notes-open-problem-rating",
+      "englishPrintedPage": "xii",
+      "line": "20",
+      "reportedDate": "2013-01-30",
+      "cnPhysicalPage": 10,
+      "officialKeyPhrase": "number of different attacks",
+      "meaning": "作者插入的新句指等级46以上未解决问题，依据至今未奏效的不同攻题途径数量分级；不是尝试求解的人数。",
+      "effect": "本卷自身的作者原始勘误可用于订正中文版的“人数”错译，不借卷2的措辞作推断。"
+    },
+    {
+      "id": "loyd-year",
+      "englishPrintedPage": 1,
+      "line": "18",
+      "reportedDate": "2011-04-23",
+      "oldValue": 1927,
+      "newValue": 1926,
+      "cnPhysicalPage": 16,
+      "cnValue": 1926,
+      "effect": "中文版已纳入此项作者订正，应保留中文，不能依照所给早期英文版回改。"
+    },
+    {
+      "id": "langford-memory-accesses",
+      "englishPrintedPage": 2,
+      "line": "-17",
+      "reportedDate": "2017-06-01",
+      "oldValue": 3200,
+      "newValue": 3500,
+      "cnPhysicalPage": 17,
+      "cnValue": 3500,
+      "effect": "中文版已纳入此项作者订正，应保留中文，不能依照所给早期英文版回改。"
+    },
+    {
+      "id": "langford-lexicographic-maximum",
+      "englishPrintedPage": 3,
+      "location": "replacement for display4",
+      "reportedDate": "2020-05-15",
+      "cnPhysicalPage": 17,
+      "cnPrintedPage": 2,
+      "oldMaximumString": "xvwsquntkigrdapaodgiknqsvxwutmrpohljcfbecbhmfejl",
+      "newMaximumString": "xvwsquntkigrdapaodgiknqsvxwutmrpoljecfhbcebmfjlh",
+      "newStringLength": 48,
+      "all24LabelsTwiceAtDistanceKPlus1": true,
+      "newGreaterThanOld": true,
+      "effect": "所给中文2019年版和英文2011年版均早于本条，均含合法但并非最大的旧串；依作者明确技术订正替换。",
+      "qualification": "独立检验只证明新串合法且大于旧串，从而否定旧串的最大性；新串的全局最大性依据作者原始勘误，不冒充独立极值证明。"
+    },
+    {
+      "id": "ozanam-year",
+      "englishPrintedPage": 3,
+      "line": "-12",
+      "reportedDate": "2018-05-30",
+      "oldValue": 1725,
+      "newValue": 1723,
+      "cnPhysicalPage": 18,
+      "cnValue": 1723,
+      "effect": "中文版已纳入此项作者订正，应保留中文，不能依照所给早期英文版回改。"
+    },
+    {
+      "id": "backtrack-cost-reference",
+      "englishPrintedPage": 6,
+      "line": "-19",
+      "reportedDate": "2015-08-19",
+      "oldSection": "7.2.3",
+      "newSection": "7.2.2",
+      "cnPhysicalPage": 20,
+      "cnSection": "7.2.2",
+      "effect": "中文版已纳入此项作者订正，应保留中文，不能依照所给早期英文版回改。"
+    },
+    {
+      "id": "word-cube-dancing-links-reference",
+      "englishPrintedPage": 11,
+      "line": "2after10",
+      "reportedDate": "2015-08-13",
+      "oldSection": "7.2.2.2",
+      "newSection": "7.2.2.1",
+      "cnPhysicalPage": 23,
+      "cnSection": "7.2.2.1",
+      "effect": "中文版已纳入此项作者订正，应保留中文，不能依照所给早期英文版回改。"
+    }
+  ],
+  "unresolved": {
+    "cnPhysicalPage": 23,
+    "cnPrintedCount": 83567,
+    "suppliedEnglishPrintedCount": 83576,
+    "qualification": "所查最早期和2021年之后两份官方文件中未见本计数的订正；未发现条目不证明任一数字正确，仍待固定原始数据或独立枚举。",
+    "additionalPrimaryEvidence": {
+      "url": "https://ptgmedia.pearsoncmg.com/imprint_downloads/informit/bookreg/9780201038040/9780201038040_v4A_pages_i-16.pdf",
+      "publisher": "Pearson / InformIT",
+      "documentPurpose": "Official replacement pages for missing pages in selected printings, used only as numeric corroboration, not a new transcription base.",
+      "release": "Third digital release, March2017",
+      "sha256": "41b5b84a145df3d0e79b15839b209db4f49fa60f1afa4977d3dc4f654e6ed8a2",
+      "physicalPage": 27,
+      "printedPage": 11,
+      "count": 83576,
+      "sameWORDS3000Count": 3,
+      "sameFixedWORDS5757Definition": true,
+      "sameEquation10Words": true,
+      "renderedEvidenceSha256": "4a058b7a08a0adfcaf722cbc3af47da08e1d49fdeb6670a8157632c08dc0afd1",
+      "privateEvidenceLocator": "private-snapshot:volume4a/official-errata/publisher-printed11.png",
+      "qualification": "The provided English2011and official publisher2017both state83576 for the identical fixed collection/rule. No full cube enumeration is claimed here."
+    }
+  },
+  "scope": "官方勘误仅用于解决当前遇到的差异和作者明确指出的错误，不把后来新增材料一律补进2019年中文底本。两份用户提供的原PDF保持不变。",
+  "masterSha256": null
+}

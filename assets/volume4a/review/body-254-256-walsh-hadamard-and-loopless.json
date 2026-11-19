@@ -1,0 +1,1082 @@
+{
+  "scope": "Complete fixed Figure 32 steps, both 8-by-8 matrices, both printed tables and a stated finite run of Algorithm L. No implementation timing or extension beyond these examples.",
+  "pageMarkdownHashes": {
+    "254": "9de4326ae53c567b90f5f7111732d2c891948e8b96f97f8201b36ef02c77767b",
+    "255": "365f891f6668ffa276bd77134d442499e2754d9a32dc663aa2ffc64eccea2ab0",
+    "256": "b3b37fb9557c8ac149041526c4d70f58e9cfbd0e6d29db862961d244e9c880b8"
+  },
+  "figure": {
+    "file": "assets/volume4a/figures/fig-7-32-walsh-functions.svg",
+    "sha256": "30971f89b0f63e4e9d4752a1c5d4ef5306f875a39b36f9ab6866f1bd7ee301e7",
+    "enPdfPage": 304,
+    "sourceBounds": [
+      [
+        239,
+        64,
+        387,
+        323
+      ]
+    ],
+    "nativePaths": 148,
+    "sourceDirectlyCompared": true,
+    "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+    "rows": [
+      {
+        "k": 0,
+        "midpointValues": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "visibleFilledMarkers": 1,
+        "cosineSourcePathItems": 1
+      },
+      {
+        "k": 1,
+        "midpointValues": [
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "visibleFilledMarkers": 3,
+        "cosineSourcePathItems": 31
+      },
+      {
+        "k": 2,
+        "midpointValues": [
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "visibleFilledMarkers": 3,
+        "cosineSourcePathItems": 32
+      },
+      {
+        "k": 3,
+        "midpointValues": [
+          1,
+          1,
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "visibleFilledMarkers": 5,
+        "cosineSourcePathItems": 32
+      },
+      {
+        "k": 4,
+        "midpointValues": [
+          1,
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          1
+        ],
+        "visibleFilledMarkers": 5,
+        "cosineSourcePathItems": 32
+      },
+      {
+        "k": 5,
+        "midpointValues": [
+          1,
+          -1,
+          -1,
+          1,
+          -1,
+          1,
+          1,
+          -1
+        ],
+        "visibleFilledMarkers": 7,
+        "cosineSourcePathItems": 32
+      },
+      {
+        "k": 6,
+        "midpointValues": [
+          1,
+          -1,
+          1,
+          -1,
+          -1,
+          1,
+          -1,
+          1
+        ],
+        "visibleFilledMarkers": 7,
+        "cosineSourcePathItems": 32
+      },
+      {
+        "k": 7,
+        "midpointValues": [
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          -1
+        ],
+        "visibleFilledMarkers": 9,
+        "cosineSourcePathItems": 32
+      }
+    ],
+    "sourceAxes": 48,
+    "sourceGrayCurves": 8,
+    "sourceFilledEndpointMarkers": 40
+  },
+  "matrix20Walsh": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    [
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    [
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1
+    ]
+  ],
+  "matrix21Hadamard": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1
+    ],
+    [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    [
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ]
+  ],
+  "walshRowIndicesInH3": [
+    0,
+    4,
+    6,
+    2,
+    3,
+    7,
+    5,
+    1
+  ],
+  "matrixComparison": "Recurrence (15) evaluated on 8 exact rationals for W; bit parity inner product for H; KaTeX data-tex exact for both.",
+  "threeStageHadamard": {
+    "rows": 8,
+    "columns": 4,
+    "termCountsPerRow": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "independentButterflies": [
+      [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          -1,
+          1,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          -1,
+          -1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          -1,
+          1,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          -1,
+          -1,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          -1
+        ],
+        [
+          1,
+          1,
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        [
+          1,
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          1,
+          -1,
+          1,
+          -1,
+          -1,
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          -1,
+          1,
+          -1,
+          1,
+          1,
+          -1
+        ]
+      ]
+    ]
+  },
+  "algorithmL": {
+    "sizes": [
+      {
+        "digits": 0,
+        "numberOfVisits": 1,
+        "terminalFocus": 0
+      },
+      {
+        "digits": 1,
+        "numberOfVisits": 2,
+        "terminalFocus": 1
+      },
+      {
+        "digits": 2,
+        "numberOfVisits": 4,
+        "terminalFocus": 2
+      },
+      {
+        "digits": 3,
+        "numberOfVisits": 8,
+        "terminalFocus": 3
+      },
+      {
+        "digits": 4,
+        "numberOfVisits": 16,
+        "terminalFocus": 4
+      },
+      {
+        "digits": 5,
+        "numberOfVisits": 32,
+        "terminalFocus": 5
+      },
+      {
+        "digits": 6,
+        "numberOfVisits": 64,
+        "terminalFocus": 6
+      },
+      {
+        "digits": 7,
+        "numberOfVisits": 128,
+        "terminalFocus": 7
+      },
+      {
+        "digits": 8,
+        "numberOfVisits": 256,
+        "terminalFocus": 8
+      },
+      {
+        "digits": 9,
+        "numberOfVisits": 512,
+        "terminalFocus": 9
+      },
+      {
+        "digits": 10,
+        "numberOfVisits": 1024,
+        "terminalFocus": 10
+      },
+      {
+        "digits": 11,
+        "numberOfVisits": 2048,
+        "terminalFocus": 11
+      },
+      {
+        "digits": 12,
+        "numberOfVisits": 4096,
+        "terminalFocus": 12
+      },
+      {
+        "digits": 13,
+        "numberOfVisits": 8192,
+        "terminalFocus": 13
+      },
+      {
+        "digits": 14,
+        "numberOfVisits": 16384,
+        "terminalFocus": 14
+      }
+    ],
+    "visitTotal": 32767,
+    "focusTable": {
+      "rows": 8,
+      "columns": 16,
+      "underlinedEntries": 32,
+      "visits": [
+        [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            2,
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            3,
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            3,
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            3,
+            2,
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            4,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            2,
+            4,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            2,
+            4,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2,
+            4,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            4,
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            4,
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            4,
+            2,
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            4,
+            1,
+            2,
+            3,
+            4
+          ]
+        ]
+      ]
+    }
+  },
+  "sourceImageHashes": {
+    "cn-254-fig32.png": "c67c9aff2bf4c0518ee4637c39d3832e2cf37da4c10482cb5563da8e13956407",
+    "en-304-fig32.png": "b27ec011291d417750d9b6ab843ccb42f840f850e630ca22d9cf6cc18105c23c",
+    "cn-255-matrices20-21.png": "52483fda6fbc1da414a6ceb313bcfc77a53a91a8716496795ad6a310f9cfac8c",
+    "en-305-matrix20.png": "e3e47d00ac5a41ab6b789adad55a4b291d93689f59bbc1b91a02062a69d64f79",
+    "en-306-matrix21.png": "7d2a4a4a3dfa91d7ee4081bf398c2967484bd9ec074a815d24ae1f04bcd0f308",
+    "cn-256-fast-transform-table.png": "5ff46bdc9f981924938fb1cdef25bc06387c87c52d76fe45a84557b27349b605",
+    "en-306-fast-transform-table.png": "46db94dc4b92db99be551f444d684e7588c18d25cc0dfec12b0e4aa9df1a1c34",
+    "cn-256-focus-table.png": "27505e35f2c7ebc9d7a61fc510799ee6ab8ad20e300808f6916469c530e016e5",
+    "en-307-focus-table.png": "71a73a190c8f03fe90e21c9f07a4a781a48a250cf4fc06ab733ce187c25947ee"
+  },
+  "sourceCheckScript": {
+    "file": "private-snapshot:volume4a/body-review/tools/check-254-256-walsh-matrix-loopless.py",
+    "sha256": "d8ad67399a0f58e3d13b18ae4a751b65bdb53f57c0a5ea7d7f16948ef94898dd"
+  },
+  "browserSupplements": [
+    {
+      "file": "private-snapshot:volume4a/body-review/links-254.json",
+      "sha256": "fde37a5c3b4028d79c690c5c36e1e8c5f44289947bffad07585d874f40cc78ee",
+      "evidence": {
+        "scope": "Actual linked original image opening and back navigation in current private proofs. No published route or separate whole-page cases.",
+        "pageMarkdownHashes": {
+          "254": "9de4326ae53c567b90f5f7111732d2c891948e8b96f97f8201b36ef02c77767b"
+        },
+        "cases": [
+          {
+            "physicalPage": 254,
+            "width": 1280,
+            "images": [
+              {
+                "file": "assets/volume4a/figures/fig-7-32-walsh-functions.svg",
+                "sha256": "30971f89b0f63e4e9d4752a1c5d4ef5306f875a39b36f9ab6866f1bd7ee301e7",
+                "openedVisible": true,
+                "returned": true
+              }
+            ]
+          },
+          {
+            "physicalPage": 254,
+            "width": 390,
+            "images": [
+              {
+                "file": "assets/volume4a/figures/fig-7-32-walsh-functions.svg",
+                "sha256": "30971f89b0f63e4e9d4752a1c5d4ef5306f875a39b36f9ab6866f1bd7ee301e7",
+                "openedVisible": true,
+                "returned": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "private-snapshot:volume4a/body-review/wide-254-255-256.json",
+      "sha256": "5cf866fe152668229458845536a25372b3b96f8b9a3fbbac743f6d6a6008e53f",
+      "evidence": {
+        "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate.",
+        "pageMarkdownHashes": {
+          "254": "9de4326ae53c567b90f5f7111732d2c891948e8b96f97f8201b36ef02c77767b",
+          "255": "365f891f6668ffa276bd77134d442499e2754d9a32dc663aa2ffc64eccea2ab0",
+          "256": "b3b37fb9557c8ac149041526c4d70f58e9cfbd0e6d29db862961d244e9c880b8"
+        },
+        "records": [
+          {
+            "physicalPage": 256,
+            "width": 1280,
+            "index": 2,
+            "tag": null,
+            "client": 728,
+            "total": 931,
+            "scrollLeft": 203,
+            "file": "private-snapshot:volume4a/verified-render/256-1280-wide-2-2.png",
+            "sha256": "9cad82462ab971f7469a7be8d79caea357cbdfa4dc3e995683e222a0cc394ba5"
+          },
+          {
+            "physicalPage": 256,
+            "width": 390,
+            "index": 2,
+            "tag": null,
+            "client": 310,
+            "total": 907,
+            "scrollLeft": 299,
+            "file": "private-snapshot:volume4a/verified-render/256-390-wide-2-1.png",
+            "sha256": "5864921c383defa3a44c06cc83609464aadc78c0e72c7ad96908f2a9a688c7ba"
+          }
+        ]
+      }
+    }
+  ],
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+}

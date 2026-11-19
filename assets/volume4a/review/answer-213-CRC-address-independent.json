@@ -1,0 +1,123 @@
+{
+  "purpose": "parent-requested independent read-only CRC213 address onecase; no Vol3/4A page acceptance",
+  "sourceImagesActuallyViewed": [
+    {
+      "file": "533.jpg",
+      "sha256": "61e6a0f14852e2323aed3b14b65f5dba38d21bad5f5625ab5b372d8014ee905f"
+    },
+    {
+      "file": "en-637.png",
+      "sha256": "0c89e83fcad5070fd587955d9d331c99a82ec11b3e272c86c31680d575350ef7"
+    },
+    {
+      "file": "en-200.png",
+      "sha256": "c0b152b16e6df7a0aeb1d8463702fb844076290a1d725264809afc46dc0b3038"
+    }
+  ],
+  "sourceActualContext": {
+    "cnPdfPage": 533,
+    "cnPrintedPage": "518",
+    "enPdfPage": 637,
+    "enPrintedPage": "620",
+    "equation183EnPdfPage": 200,
+    "equation183EnPrintedPage": "183",
+    "registerNn": "-n, n counts bytes",
+    "registerData": "octabyte following given n bytes, first byte alpha_(n-1), big endian",
+    "readingOrder": "left program column completely, then right column; second ADD is left column last, following LDOU is right column first",
+    "sourceEquation183": "leading-zero padded n multiple8; begin c0,n=n-8,t=alpha_(n+7)..alpha_n; while n>0 computeu/v, decrease n8, load next octabyte and updatecarry",
+    "n16SatisfiesPaddingCondition": true
+  },
+  "source14InstructionCanonicalRows": [
+    "SET c,0",
+    "LDOU t,data,nn",
+    "ADD nn,nn,8",
+    "BZ nn,2F",
+    "1H MXOR u,aa,t",
+    "MXOR v,bb,t",
+    "ADD nn,nn,8",
+    "LDOU t,data,nn",
+    "XOR u,u,c",
+    "SLU c,v,56",
+    "SRU v,v,8",
+    "XOR u,u,v",
+    "XOR t,t,u",
+    "PBN nn,1B"
+  ],
+  "sourceCanonicalRowsSha256": "72ddaabc649541a7c05977e086922f4a33010f0bdadeb0fdc9ead4a6476fc3c4",
+  "oneCase": {
+    "inputBytesHex": "00000000000000000000000000000001",
+    "followingOctabyteHex": "0000000000000000",
+    "startAddressHex": "1000",
+    "dataAddressHex": "1010",
+    "nBytes": 16,
+    "originalTrace": [
+      {
+        "operation": "initial LDOU",
+        "nnDecimal": -16,
+        "effectiveAddressHex": "1000",
+        "inputOrFollowing": "first input octabyte, allzero"
+      },
+      {
+        "operation": "initial ADD",
+        "nnDecimal": -8
+      },
+      {
+        "operation": "BZ nn,2F",
+        "taken": false
+      },
+      {
+        "operation": "MXORu/v of first octabyte",
+        "u": 0,
+        "v": 0
+      },
+      {
+        "operation": "second ADD",
+        "nnDecimal": 0
+      },
+      {
+        "operation": "next LDOU",
+        "nnDecimal": 0,
+        "effectiveAddressHex": "1010",
+        "inputOrFollowing": "following octabyte, allzero; second input octabyte1008 skipped"
+      },
+      {
+        "operation": "PBN nn,1B",
+        "taken": false
+      }
+    ],
+    "originalObservedOctabytesBothZero": true,
+    "originalCRCConsequenceHex": "0000",
+    "expectedBySourceEquation180Hex": "8005",
+    "polynomialReason": "message polynomial is1 (only final byte01); multiplyx16, then x16=p(x)+x15+x2+1 overGF2, hence remainder8005",
+    "proposedAdjacentSwapOnly": [
+      "LDOU t,data,nn",
+      "ADD nn,nn,8"
+    ],
+    "candidateAddressTrace": [
+      {
+        "operation": "initial LDOU",
+        "nnDecimal": -16,
+        "effectiveAddressHex": "1000"
+      },
+      {
+        "operation": "initial ADD",
+        "nnDecimal": -8
+      },
+      {
+        "operation": "next LDOU before secondADD",
+        "nnDecimal": -8,
+        "effectiveAddressHex": "1008",
+        "inputOrFollowing": "correct second input octabyte, finalbyte01"
+      },
+      {
+        "operation": "second ADD after LDOU",
+        "nnDecimal": 0
+      }
+    ]
+  },
+  "conclusion": "Under actual printed n/data contract, current two-column instruction order definitely skips1008 andreads1010 for n16. Adjacent load-before-ADD repairs this concrete address step. No claim of global program/CRC/ISA validation.",
+  "methodLimit": "Only one n16 pointer trace and one source polynomial identity. No full CRC/MMIX execution, generic fixtures, or exhaustive sweep.",
+  "writeActions": "private peer receipt only; no4A source/report or Vol3 report changed",
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false
+}

@@ -1,0 +1,686 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "scope": "Onlythetwoexplicitprinted93/94XORexamplesand14three-variable95NPNclasses;nogeneral92proofandnon6familycountenumeration.",
+  "markdownSha256": "b29c76f19ca197f1302fd36714f65f28a2647c102e5b95f0369c852d55e91224",
+  "sourceCodeLocator": "private-snapshot:volume4a/tools/check-Sasaki-NPN-078.py",
+  "sourceCodeSha256": "31a9748d72108787ee56acf20309584781321f266f0bc62acb1758a0c7cdad4a",
+  "sasakiExamples": [
+    {
+      "equation": 93,
+      "ast": [
+        "median",
+        [
+          [
+            "not",
+            [
+              "var",
+              0
+            ]
+          ],
+          [
+            "median",
+            [
+              [
+                "var",
+                0
+              ],
+              [
+                "var",
+                1
+              ],
+              [
+                "not",
+                [
+                  "var",
+                  2
+                ]
+              ]
+            ]
+          ],
+          [
+            "median",
+            [
+              [
+                "var",
+                0
+              ],
+              [
+                "var",
+                2
+              ],
+              [
+                "not",
+                [
+                  "var",
+                  1
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "inputCount": 8,
+      "allRows": [
+        {
+          "input": "000",
+          "output": 0
+        },
+        {
+          "input": "001",
+          "output": 1
+        },
+        {
+          "input": "010",
+          "output": 1
+        },
+        {
+          "input": "011",
+          "output": 0
+        },
+        {
+          "input": "100",
+          "output": 1
+        },
+        {
+          "input": "101",
+          "output": 0
+        },
+        {
+          "input": "110",
+          "output": 0
+        },
+        {
+          "input": "111",
+          "output": 1
+        }
+      ],
+      "allEqualXor": true
+    },
+    {
+      "equation": 94,
+      "ast": [
+        "median",
+        [
+          [
+            "not",
+            [
+              "var",
+              0
+            ]
+          ],
+          [
+            "median",
+            [
+              [
+                "var",
+                0
+              ],
+              [
+                "var",
+                1
+              ],
+              [
+                "var",
+                2
+              ],
+              [
+                "not",
+                [
+                  "var",
+                  3
+                ]
+              ],
+              [
+                "not",
+                [
+                  "var",
+                  4
+                ]
+              ]
+            ]
+          ],
+          [
+            "median",
+            [
+              [
+                "var",
+                0
+              ],
+              [
+                "var",
+                2
+              ],
+              [
+                "var",
+                3
+              ],
+              [
+                "not",
+                [
+                  "var",
+                  4
+                ]
+              ],
+              [
+                "not",
+                [
+                  "var",
+                  1
+                ]
+              ]
+            ]
+          ],
+          [
+            "median",
+            [
+              [
+                "var",
+                0
+              ],
+              [
+                "var",
+                3
+              ],
+              [
+                "var",
+                4
+              ],
+              [
+                "not",
+                [
+                  "var",
+                  1
+                ]
+              ],
+              [
+                "not",
+                [
+                  "var",
+                  2
+                ]
+              ]
+            ]
+          ],
+          [
+            "median",
+            [
+              [
+                "var",
+                0
+              ],
+              [
+                "var",
+                4
+              ],
+              [
+                "var",
+                1
+              ],
+              [
+                "not",
+                [
+                  "var",
+                  2
+                ]
+              ],
+              [
+                "not",
+                [
+                  "var",
+                  3
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "inputCount": 32,
+      "allRows": [
+        {
+          "input": "00000",
+          "output": 0
+        },
+        {
+          "input": "00001",
+          "output": 1
+        },
+        {
+          "input": "00010",
+          "output": 1
+        },
+        {
+          "input": "00011",
+          "output": 0
+        },
+        {
+          "input": "00100",
+          "output": 1
+        },
+        {
+          "input": "00101",
+          "output": 0
+        },
+        {
+          "input": "00110",
+          "output": 0
+        },
+        {
+          "input": "00111",
+          "output": 1
+        },
+        {
+          "input": "01000",
+          "output": 1
+        },
+        {
+          "input": "01001",
+          "output": 0
+        },
+        {
+          "input": "01010",
+          "output": 0
+        },
+        {
+          "input": "01011",
+          "output": 1
+        },
+        {
+          "input": "01100",
+          "output": 0
+        },
+        {
+          "input": "01101",
+          "output": 1
+        },
+        {
+          "input": "01110",
+          "output": 1
+        },
+        {
+          "input": "01111",
+          "output": 0
+        },
+        {
+          "input": "10000",
+          "output": 1
+        },
+        {
+          "input": "10001",
+          "output": 0
+        },
+        {
+          "input": "10010",
+          "output": 0
+        },
+        {
+          "input": "10011",
+          "output": 1
+        },
+        {
+          "input": "10100",
+          "output": 0
+        },
+        {
+          "input": "10101",
+          "output": 1
+        },
+        {
+          "input": "10110",
+          "output": 1
+        },
+        {
+          "input": "10111",
+          "output": 0
+        },
+        {
+          "input": "11000",
+          "output": 0
+        },
+        {
+          "input": "11001",
+          "output": 1
+        },
+        {
+          "input": "11010",
+          "output": 1
+        },
+        {
+          "input": "11011",
+          "output": 0
+        },
+        {
+          "input": "11100",
+          "output": 1
+        },
+        {
+          "input": "11101",
+          "output": 0
+        },
+        {
+          "input": "11110",
+          "output": 0
+        },
+        {
+          "input": "11111",
+          "output": 1
+        }
+      ],
+      "allEqualXor": true
+    }
+  ],
+  "classes95": [
+    {
+      "tex": "0",
+      "printedClassSize": 2,
+      "actualClassSize": 2,
+      "truth": "00000000",
+      "ast": [
+        "const",
+        0
+      ]
+    },
+    {
+      "tex": "x\\wedge(y\\oplus z)",
+      "printedClassSize": 24,
+      "actualClassSize": 24,
+      "truth": "00000110",
+      "ast": [
+        "and",
+        [
+          "var",
+          0
+        ],
+        [
+          "xor",
+          [
+            "var",
+            1
+          ],
+          [
+            "var",
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "tex": "x",
+      "printedClassSize": 6,
+      "actualClassSize": 6,
+      "truth": "00001111",
+      "ast": [
+        "var",
+        0
+      ]
+    },
+    {
+      "tex": "x\\oplus(y\\wedge z)",
+      "printedClassSize": 24,
+      "actualClassSize": 24,
+      "truth": "00011110",
+      "ast": [
+        "xor",
+        [
+          "var",
+          0
+        ],
+        [
+          "and",
+          [
+            "var",
+            1
+          ],
+          [
+            "var",
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "tex": "x\\wedge y",
+      "printedClassSize": 24,
+      "actualClassSize": 24,
+      "truth": "00000011",
+      "ast": [
+        "and",
+        [
+          "var",
+          0
+        ],
+        [
+          "var",
+          1
+        ]
+      ]
+    },
+    {
+      "tex": "(x\\wedge y)\\vee(\\bar x\\wedge z)",
+      "printedClassSize": 24,
+      "actualClassSize": 24,
+      "truth": "01010011",
+      "ast": [
+        "or",
+        [
+          "and",
+          [
+            "var",
+            0
+          ],
+          [
+            "var",
+            1
+          ]
+        ],
+        [
+          "and",
+          [
+            "not",
+            [
+              "var",
+              0
+            ]
+          ],
+          [
+            "var",
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "tex": "x\\oplus y",
+      "printedClassSize": 6,
+      "actualClassSize": 6,
+      "truth": "00111100",
+      "ast": [
+        "xor",
+        [
+          "var",
+          0
+        ],
+        [
+          "var",
+          1
+        ]
+      ]
+    },
+    {
+      "tex": "(x\\vee y)\\wedge(x\\oplus z)",
+      "printedClassSize": 48,
+      "actualClassSize": 48,
+      "truth": "00011010",
+      "ast": [
+        "and",
+        [
+          "or",
+          [
+            "var",
+            0
+          ],
+          [
+            "var",
+            1
+          ]
+        ],
+        [
+          "xor",
+          [
+            "var",
+            0
+          ],
+          [
+            "var",
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "tex": "x\\wedge y\\wedge z",
+      "printedClassSize": 16,
+      "actualClassSize": 16,
+      "truth": "00000001",
+      "ast": [
+        "and",
+        [
+          "and",
+          [
+            "var",
+            0
+          ],
+          [
+            "var",
+            1
+          ]
+        ],
+        [
+          "var",
+          2
+        ]
+      ]
+    },
+    {
+      "tex": "(x\\oplus y)\\vee(x\\oplus z)",
+      "printedClassSize": 8,
+      "actualClassSize": 8,
+      "truth": "01111110",
+      "ast": [
+        "or",
+        [
+          "xor",
+          [
+            "var",
+            0
+          ],
+          [
+            "var",
+            1
+          ]
+        ],
+        [
+          "xor",
+          [
+            "var",
+            0
+          ],
+          [
+            "var",
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "tex": "x\\oplus y\\oplus z",
+      "printedClassSize": 2,
+      "actualClassSize": 2,
+      "truth": "01101001",
+      "ast": [
+        "xor",
+        [
+          "xor",
+          [
+            "var",
+            0
+          ],
+          [
+            "var",
+            1
+          ]
+        ],
+        [
+          "var",
+          2
+        ]
+      ]
+    },
+    {
+      "tex": "\\langle xyz\\rangle",
+      "printedClassSize": 8,
+      "actualClassSize": 8,
+      "truth": "00010111",
+      "ast": [
+        "median",
+        [
+          [
+            "var",
+            0
+          ],
+          [
+            "var",
+            1
+          ],
+          [
+            "var",
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "tex": "x\\wedge(y\\vee z)",
+      "printedClassSize": 48,
+      "actualClassSize": 48,
+      "truth": "00000111",
+      "ast": [
+        "and",
+        [
+          "var",
+          0
+        ],
+        [
+          "or",
+          [
+            "var",
+            1
+          ],
+          [
+            "var",
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "tex": "S_1(x,y,z)",
+      "printedClassSize": 16,
+      "actualClassSize": 16,
+      "truth": "01101000",
+      "ast": [
+        "exactone"
+      ]
+    }
+  ],
+  "classSizesSum": 256,
+  "all14OrbitsPairwiseDisjoint": true,
+  "all256ThreeVariableFunctionsCovered": true,
+  "groupOperationCount": 96,
+  "qualification": "ActualcurrentMDright-sideTeXandHTML95formula/sizefieldsparsed. Exact14representativeorbitsverifiedunder6variablepermutations/8inputcomplements/2outputcomplements. Not extrapolated to table3/4/5n6counts,notalln theoremproof.",
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+  "reviewerType": "model-direct-source-image-comparison-with-limited-explicit-example-checks",
+  "humanSignOff": false
+}

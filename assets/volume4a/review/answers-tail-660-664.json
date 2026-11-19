@@ -1,0 +1,719 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "owner": "vol4a_tail_g62",
+  "physicalPages": [
+    660,
+    661,
+    662,
+    663,
+    664
+  ],
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignoff": false,
+  "masterSha256": null,
+  "sourceSha256": {
+    "cn": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "en": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+  },
+  "sourceReviewSpecification": {
+    "file": "private-snapshot:volume4a/tail-answers/checkpoints/specification-660-664.json",
+    "sha256": "69e582f64359eb444ed4a68b4f970f82f05dc7c10919dda1a34340d8eb7a7d37"
+  },
+  "sourcePageRecords": [
+    {
+      "physicalPage": 660,
+      "pageMarkdownSha256": "1a8bceb5f30417aea1e9c7def923b6283e08187119bba70d36b7d42724bd51b4",
+      "pageReviewSha256": "ef01abf43123519b300b8f5d89ac974998314ec785b83aefd91fec282fdf0746",
+      "answerAnchors": [
+        "ans-7-2-1-5-29",
+        "ans-7-2-1-5-30"
+      ],
+      "sourceEnPhysicalPages": [
+        786,
+        787
+      ],
+      "mathExpressions": 63,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 661,
+      "pageMarkdownSha256": "d0bee77cc0691ee815bece821274800e7c4bd116351faf76bd78479d077b9d2b",
+      "pageReviewSha256": "dd36832a698630c37c121da9cd785346e86b1312d34da45de8908e83dbaa15bd",
+      "answerAnchors": [
+        "ans-7-2-1-5-31",
+        "ans-7-2-1-5-32",
+        "ans-7-2-1-5-33",
+        "ans-7-2-1-5-34",
+        "ans-7-2-1-5-35",
+        "ans-7-2-1-5-36",
+        "ans-7-2-1-5-37"
+      ],
+      "sourceEnPhysicalPages": [
+        787,
+        788
+      ],
+      "mathExpressions": 57,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 662,
+      "pageMarkdownSha256": "8dde9d0d647fc67b5faf409f001b0ab1f63ff9b2052f521f5a9f6ad9c17020ed",
+      "pageReviewSha256": "72e719d516b00aafd6e190108f5b04a1e93e36ef6b002ee9a2d2a35409c726ee",
+      "answerAnchors": [
+        "ans-7-2-1-5-38",
+        "ans-7-2-1-5-39",
+        "ans-7-2-1-5-40",
+        "ans-7-2-1-5-41",
+        "ans-7-2-1-5-42",
+        "ans-7-2-1-5-43",
+        "ans-7-2-1-5-44"
+      ],
+      "sourceEnPhysicalPages": [
+        788,
+        789
+      ],
+      "mathExpressions": 82,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 663,
+      "pageMarkdownSha256": "318bdd6478b2b38921fcab53501657724d497325c2d97073a551c491844381c9",
+      "pageReviewSha256": "41fff20935aed3bd25c3bb8b803cb479a5f68be57de21422145eb8243de47652",
+      "answerAnchors": [
+        "ans-7-2-1-5-45",
+        "ans-7-2-1-5-46",
+        "ans-7-2-1-5-47",
+        "ans-7-2-1-5-48",
+        "ans-7-2-1-5-49",
+        "ans-7-2-1-5-50"
+      ],
+      "sourceEnPhysicalPages": [
+        789,
+        790
+      ],
+      "mathExpressions": 49,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 664,
+      "pageMarkdownSha256": "eaff2fd5f84f66665486c09bb2592649ab4ea8cee7e8c8cd058599d4e0480cd0",
+      "pageReviewSha256": "1e336adebe2b8c165cb09399b970c766845adc95795ea75a698ef72b255c9107",
+      "answerAnchors": [
+        "ans-7-2-1-5-51",
+        "ans-7-2-1-5-52"
+      ],
+      "sourceEnPhysicalPages": [
+        790,
+        791
+      ],
+      "mathExpressions": 59,
+      "negativeAnswerLocators": []
+    }
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "volume4a-tail-answer-034",
+      "section": "7.2.1.5",
+      "cnPdfPage": 660,
+      "enPdfPages": [
+        786
+      ],
+      "location": "答29(b)首个行间空隙，两处",
+      "original": "i_2-i_1+1",
+      "final": "$(i_2-i_1-1)+2(i_3-i_2-1)",
+      "basis": "相邻选中行之间有i₂−i₁−1个未选行。连续取1、2时为零，旧式得2。文字与紧随指数两处同步，有限逐集合计算通过。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 645,
+      "pageMarkdownSha256": "1a8bceb5f30417aea1e9c7def923b6283e08187119bba70d36b7d42724bd51b4"
+    },
+    {
+      "id": "volume4a-tail-answer-035",
+      "section": "7.2.1.5",
+      "cnPdfPage": 660,
+      "enPdfPages": [
+        786
+      ],
+      "location": "答29(c)附加生成式的因子、指数及上界",
+      "original": "\\sum_{t\\ge0}z^t\\prod_j(1-y^{a_j+m-j+t})/(1-y)=\\sum_{k=0}^n\\cdots",
+      "final": "(1-z)\\sum_{t=0}^\\infty z^t\\prod_{j=1}^m\\frac{1-y^{a_j+j-m+t}}{1-y}",
+      "basis": "由原习题(c)逐t式，指数是aⱼ+j−m+t，车数决定上限m。生成 t!_y/(t−k)!_y 得k!_y z^k/∏_{s=0}^k(1−y^s z)，故移s=0公因子到左边。取m=2,a=(0,0),t=1,y=1能区分旧指数的2与实际0；m=1,a=(1),y=2时原左z¹系数3，右为2，恰差z⁰系数1。当前右端上限一并取m。对207组有限行形/y逐个核z⁰…z⁵；文献归属按原书抄录。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 645,
+      "pageMarkdownSha256": "1a8bceb5f30417aea1e9c7def923b6283e08187119bba70d36b7d42724bd51b4"
+    },
+    {
+      "id": "volume4a-tail-answer-036",
+      "section": "7.2.1.5",
+      "cnPdfPage": 660,
+      "enPdfPages": [
+        786
+      ],
+      "location": "答29(c)剩余的k行",
+      "original": "将k个车放到k个未用列的小于等于t的列",
+      "final": "用其余 $k$ 行在编号至多为 $t$ 的列内放置 $k$ 个车",
+      "basis": "EN为k unused rows。原先m−k个车已在不同的行，待填的是余下行，列需位于新增的t列。",
+      "isAuthorOfficialErratum": false,
+      "cnPrintedPage": 645,
+      "pageMarkdownSha256": "1a8bceb5f30417aea1e9c7def923b6283e08187119bba70d36b7d42724bd51b4"
+    },
+    {
+      "id": "volume4a-tail-answer-037",
+      "section": "7.2.1.5",
+      "cnPdfPage": 660,
+      "enPdfPages": [
+        786
+      ],
+      "location": "答29(d)固定y的充分取值域",
+      "original": "任意非零y",
+      "final": "任选一个正实数 $y$",
+      "basis": "R(2)与R(4)在y=−1都退化为1，原多项式不同。对于固定正实y≠1，题(c)使两边在无限多个y^t处相等，按乘积的根还原aⱼ+j−m；y=1直接比较t的线性因子。故取任一正实数足够。此处仅记录该充分域。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 645,
+      "pageMarkdownSha256": "1a8bceb5f30417aea1e9c7def923b6283e08187119bba70d36b7d42724bd51b4"
+    },
+    {
+      "id": "volume4a-tail-answer-038",
+      "section": "7.2.1.5",
+      "cnPdfPage": 661,
+      "enPdfPages": [
+        787
+      ],
+      "location": "答30(c)添q阶乘的原书定位",
+      "original": "当z=0时成立。",
+      "final": "答1.2.6–62定义了 $n!_q$",
+      "basis": "作者2025-08-05补入定义位置。保留另一个原有的1.2.6–58初值引文。",
+      "isAuthorOfficialErratum": true,
+      "authorSource": {
+        "kind": "Changes to Volume 4A, second printing onward",
+        "date": "2025-08-05",
+        "pdfPage": 10,
+        "englishPrintPage": 770,
+        "file": "private-snapshot:volume4a/tail-answers/sources/author-modern-10.png",
+        "sha256": "d61ad827762355e4e41285e48e07f19be1a5078e9accf99067c3a7a0cdece26a",
+        "printedReplacement": "when z=0. → when z=0, and answer 1.2.6–62 defines n!_q."
+      },
+      "cnPrintedPage": 646,
+      "pageMarkdownSha256": "d0bee77cc0691ee815bece821274800e7c4bd116351faf76bd78479d077b9d2b"
+    },
+    {
+      "id": "volume4a-tail-answer-039",
+      "section": "7.2.1.5",
+      "cnPdfPage": 661,
+      "enPdfPages": [
+        787
+      ],
+      "location": "答34(d)韵式的合并关系",
+      "original": "都使用了相当容易的格式……的组合方式",
+      "final": "合并韵脚所得的格式",
+      "basis": "作者2011-02-25在早期Changes把“all used the”改为“all used coalescences of the”。按韵脚等价块合并恢复译义，原14位示例未改。",
+      "isAuthorOfficialErratum": true,
+      "authorSource": {
+        "kind": "Changes to Volume 4A, first printing",
+        "date": "2011-02-25",
+        "pdfPage": 35,
+        "englishPrintPage": 770,
+        "file": "private-snapshot:volume4a/tail-answers/sources/author-pre-35.png",
+        "sha256": "445cf7fbe23ee769c54c2ce4f9486b7bdec7b6709ca30c0ab8bc6b0b0a6dcda2",
+        "printedReplacement": "all used the → all used coalescences of the"
+      },
+      "cnPrintedPage": 646,
+      "pageMarkdownSha256": "d0bee77cc0691ee815bece821274800e7c4bd116351faf76bd78479d077b9d2b"
+    },
+    {
+      "id": "volume4a-tail-answer-040",
+      "section": "7.2.1.5",
+      "cnPdfPage": 661,
+      "enPdfPages": [
+        788
+      ],
+      "location": "答36恰k块生成函数的排列权重",
+      "original": "单块EGF的k次幂",
+      "final": ")^k/k!$ 是恰分成 $k$ 块",
+      "basis": "块无序，k次幂按有序块枚举，须除k!。最小例仅允许单元素块时，两个元素恰有一个两块分划，原z²的EGF对应两个。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 646,
+      "pageMarkdownSha256": "d0bee77cc0691ee815bece821274800e7c4bd116351faf76bd78479d077b9d2b"
+    },
+    {
+      "id": "volume4a-tail-answer-041",
+      "section": "7.2.1.5",
+      "cnPdfPage": 662,
+      "enPdfPages": [
+        788
+      ],
+      "location": "答38(b)限制增长串允许的最大值",
+      "original": "\\max(a_1,\\ldots,a_n)\\leq m",
+      "final": "\\max(a_1,\\ldots,a_n)\\leq m-1",
+      "basis": "串从0编号，最大值加1才是块数。题端1≤kᵢ≤m；m=1时只能恒等循环，旧条件却纳入两块的串。对n≤6逐循环核总数与题答所列斯特林和。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 647,
+      "pageMarkdownSha256": "8dde9d0d647fc67b5faf409f001b0ab1f63ff9b2052f521f5a9f6ad9c17020ed"
+    },
+    {
+      "id": "volume4a-tail-answer-042",
+      "section": "7.2.1.5",
+      "cnPdfPage": 662,
+      "enPdfPages": [
+        788
+      ],
+      "location": "答40系数的首个斯特林修正",
+      "original": "1+n/12+O(n^{-2})",
+      "final": "1-\\frac{1}{12n}+O(n^{-2})",
+      "basis": "题给精确系数c^(n−1)/(n−1)!，倒数斯特林展开首项为−1/(12n)。在c=2、n=64/256/1024复算n倍相对差，接近−1/12。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 647,
+      "pageMarkdownSha256": "8dde9d0d647fc67b5faf409f001b0ab1f63ff9b2052f521f5a9f6ad9c17020ed"
+    },
+    {
+      "id": "volume4a-tail-answer-043",
+      "section": "7.2.1.5",
+      "cnPdfPage": 662,
+      "enPdfPages": [
+        789
+      ],
+      "location": "答42末括注Gamma自变量",
+      "original": "\\Gamma((x-1)/2)",
+      "final": "\\Gamma((x+1)/2)",
+      "basis": "当奇整数x=n时，阶乘((n−1)/2)!对应Γ((n+1)/2)。n=5时精确系数1/2，原Γ(2)=1会给1。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 647,
+      "pageMarkdownSha256": "8dde9d0d647fc67b5faf409f001b0ab1f63ff9b2052f521f5a9f6ad9c17020ed"
+    },
+    {
+      "id": "volume4a-tail-answer-044",
+      "section": "7.2.1.5",
+      "cnPdfPage": 663,
+      "enPdfPages": [
+        790
+      ],
+      "location": "答48展开指数中的积分变量",
+      "original": "e^{kx}",
+      "final": "\\frac{e^{kz}}{k!\\,z^{x+1}}",
+      "basis": "两原页第一项逐项展开误用指数kx，下一行均用kz。由exp(exp(z))的指数级数，z是第一行的自变量，阶乘和外部z幂不变。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 648,
+      "pageMarkdownSha256": "318bdd6478b2b38921fcab53501657724d497325c2d97073a551c491844381c9"
+    },
+    {
+      "id": "volume4a-tail-answer-045",
+      "section": "7.2.1.5",
+      "cnPdfPage": 663,
+      "enPdfPages": [
+        790
+      ],
+      "location": "答50树函数奇点的局部分支性质",
+      "original": "二次奇点",
+      "final": "树函数在 $z=e^{-1}$ 处有二次分支点",
+      "basis": "由z=Te^(−T)在T=1处一阶导数为0、二阶导数非零。原文绕过奇点进入另一层说明它是二叶分支。",
+      "isAuthorOfficialErratum": false,
+      "cnPrintedPage": 648,
+      "pageMarkdownSha256": "318bdd6478b2b38921fcab53501657724d497325c2d97073a551c491844381c9"
+    },
+    {
+      "id": "volume4a-tail-answer-046",
+      "section": "7.2.1.5",
+      "cnPdfPage": 664,
+      "enPdfPages": [
+        791
+      ],
+      "location": "答51负鞍点的相对指数尺度",
+      "original": "e^{-\\sqrt n}",
+      "final": "e^{-2\\sqrt n}",
+      "basis": "σ’=−1−σ。两个鞍点的实指数模之对数差为−σ−1/2−(n+1)ln(1+1/σ)=−2√n+O(n^−1/2)，而高斯宽度之比趋1。保留小n仍可能显著的原注。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 649,
+      "pageMarkdownSha256": "eaff2fd5f84f66665486c09bb2592649ab4ea8cee7e8c8cd058599d4e0480cd0"
+    },
+    {
+      "id": "volume4a-tail-answer-047",
+      "section": "7.2.1.5",
+      "cnPdfPage": 664,
+      "enPdfPages": [
+        791
+      ],
+      "location": "答51主鞍点因子指数",
+      "original": "e^{(n+\\sigma)/2}",
+      "final": "e^{(n+1+\\sigma)/2}",
+      "basis": "σ²+σ=n+1，故σ+σ²/2=(n+1+σ)/2。原因子漏e^(1/2)，n=64/256/1024的对合精确数也核对了对应的主因子与b₁乘积。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 649,
+      "pageMarkdownSha256": "eaff2fd5f84f66665486c09bb2592649ab4ea8cee7e8c8cd058599d4e0480cd0"
+    },
+    {
+      "id": "volume4a-tail-answer-048",
+      "section": "7.2.1.5",
+      "cnPdfPage": 664,
+      "enPdfPages": [
+        791
+      ],
+      "location": "答52(a)累积量中的斯特林指标",
+      "original": "\\bigl\\{{k\\atop j}\\bigr\\}",
+      "final": "\\kappa_j&=e^\\xi\\sum_k\\begin{Bmatrix}j\\\\k\\end{Bmatrix}",
+      "basis": "j次系数来自(e^t−1)^k/k!，应为S(j,k)。例如精确κ₁=ξe^ξ。三组有理ξ的1–6阶系数复算。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 649,
+      "pageMarkdownSha256": "eaff2fd5f84f66665486c09bb2592649ab4ea8cee7e8c8cd058599d4e0480cd0"
+    },
+    {
+      "id": "volume4a-tail-answer-049",
+      "section": "7.2.1.5",
+      "cnPdfPage": 664,
+      "enPdfPages": [
+        791
+      ],
+      "location": "答52(b)累积量下标",
+      "original": "\\kappa=j=\\varpi_j",
+      "final": "\\kappa_j=\\varpi_j[j\\ne0]",
+      "basis": "原打印出等号，所指第j个累积量，第一段已定义κⱼ。由(b)的G(z)求lnG(e^t)=exp(exp(t)−1)−1，系数为Bellⱼ。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 649,
+      "pageMarkdownSha256": "eaff2fd5f84f66665486c09bb2592649ab4ea8cee7e8c8cd058599d4e0480cd0"
+    },
+    {
+      "id": "volume4a-tail-answer-050",
+      "section": "7.2.1.5",
+      "cnPdfPage": 664,
+      "enPdfPages": [
+        791
+      ],
+      "location": "答52(a)产生e倍贝尔数的参数条件",
+      "original": "\\xi e^\\xi=1\\text{，则 }\\kappa_j=e\\varpi",
+      "final": "$\\xi=1$，则 $\\kappa_j=e\\varpi_j[j\\ne0]$",
+      "basis": "正确系数式取ξ=1才给全部Bellⱼ乘e。原条件ξe^ξ=1意味着κ₁=1而非e。下文取ξe^ξ=n的均值和方差原条件保持，概率分母括号完整呈现。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 649,
+      "pageMarkdownSha256": "eaff2fd5f84f66665486c09bb2592649ab4ea8cee7e8c8cd058599d4e0480cd0"
+    }
+  ],
+  "privateBrowserCaseCount": 10,
+  "logicalCandidates": [
+    {
+      "physicalPages": [
+        660,
+        661,
+        662,
+        663,
+        664
+      ],
+      "applyMode": "whole-pages",
+      "startInclusive": "<a id=\"pdf-660\"></a>",
+      "endExclusive": "<a id=\"pdf-665\"></a>",
+      "candidateFile": "private-snapshot:volume4a/tail-answers/logical/answers-7-2-1-5-660-664-continued30-50.md",
+      "candidateSha256": "ae682f3076dd7608628da6d97b77359e01e8fb3ecbd67c85656f604b29e00da8",
+      "placement": "Place CN661 anchors before complete answer 30; place CN664 anchors before complete answer 50 and join 这个树函数 within the sentence. CN660 opens with the remainder of answer 28 after the prior candidate.",
+      "logicalBrowserProof": {
+        "file": "private-snapshot:volume4a/tail-answers/browser/660-664-logical/result.json",
+        "sha256": "da3f44679a71d60a6b61d901753798e085d0333bb9ae824769649338e0355c39",
+        "viewports": [
+          1280,
+          390
+        ]
+      },
+      "logicalSyntaxProof": {
+        "file": "private-snapshot:volume4a/tail-answers/logical-proof-660-664/verified-render/syntax-660.json",
+        "sha256": "13d9a575757d07fd5bdc34809a7489eba567f2ada1438f3a6fb168d981b32572"
+      }
+    }
+  ],
+  "assets": [],
+  "details": {
+    "boundedChecks": {
+      "answer29": {
+        "rSubsetComparisons": 219,
+        "rookIdentityGeometrySpecializations": 207,
+        "yValues": [
+          1,
+          2,
+          3
+        ],
+        "seriesCoefficients": [
+          0,
+          5
+        ],
+        "oneRowExample": {
+          "a": [
+            1
+          ],
+          "y": 2,
+          "lhsConstantAndLinearBeforeMultiplying": [
+            1,
+            3
+          ],
+          "rhsConstantAndLinear": [
+            1,
+            2
+          ]
+        },
+        "rootOfUnityCounterexample": {
+          "y": -1,
+          "shapes": [
+            [
+              2
+            ],
+            [
+              4
+            ]
+          ],
+          "specializedPoly": "1",
+          "fullPolynomialsDiffer": true
+        }
+      },
+      "answer36": {
+        "onlySingletonAllowed": true,
+        "k": 2,
+        "correctCount": 1,
+        "printedPowerWouldCount": 2
+      },
+      "answer38": {
+        "identitySigmaCyclesNTo6": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            2,
+            4
+          ],
+          [
+            3,
+            3,
+            5
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            4,
+            2,
+            8
+          ],
+          [
+            4,
+            3,
+            14
+          ],
+          [
+            4,
+            4,
+            15
+          ],
+          [
+            5,
+            1,
+            1
+          ],
+          [
+            5,
+            2,
+            16
+          ],
+          [
+            5,
+            3,
+            41
+          ],
+          [
+            5,
+            4,
+            51
+          ],
+          [
+            5,
+            5,
+            52
+          ],
+          [
+            6,
+            1,
+            1
+          ],
+          [
+            6,
+            2,
+            32
+          ],
+          [
+            6,
+            3,
+            122
+          ],
+          [
+            6,
+            4,
+            187
+          ],
+          [
+            6,
+            5,
+            202
+          ],
+          [
+            6,
+            6,
+            203
+          ]
+        ],
+        "printedCycleVerified": true
+      },
+      "answer40": {
+        "coefficientExact": "c^(n-1)/(n-1)!",
+        "numericStirlingResidualAtC2": [
+          {
+            "n": 64,
+            "nTimesExactOverLeadingMinusOne": "-0.0832784261622477242399514281344280694384500041050580874807369743027301739081936917867277453552534528"
+          },
+          {
+            "n": 256,
+            "nTimesExactOverLeadingMinusOne": "-0.0833197290653323137127911671011170137830425385190175424166586189358801821596834420904174335113555968"
+          },
+          {
+            "n": 1024,
+            "nTimesExactOverLeadingMinusOne": "-0.0833299399344210231570898631080959246289040301449524057637045256146584949710939694761719673793287168"
+          }
+        ]
+      },
+      "answer42": {
+        "integerN5": "[z^4] exp(z^2) = 1/2; Gamma(3)=2; printed denominator Gamma(2)=1"
+      },
+      "answer50": {
+        "p4Coefficients": [
+          64,
+          113,
+          70,
+          15
+        ]
+      },
+      "answer51": {
+        "exactSaddleIdentity": "g(sigma)=(n+1+sigma)/2-(n+1) log(sigma)",
+        "negativeSaddleLogRatio": "-sigma-1/2-(n+1)log(1+1/sigma)=-2sqrt(n)+O(n^-1/2)",
+        "a2WidthRatioLimit": 1,
+        "sampleSaddleChecks": [
+          {
+            "n": 64,
+            "normalizedLogRatio": "-1.07876615557663058787770936275856006525110100765835703527955060151082469858330400055438690305151016",
+            "correctedMainTimes1PlusB1OverExact": "0.9999978736265784509513043475630441950354227840250819379822843067379245064264591728026207915794126022",
+            "printedOverExact": "0.6065293700019592560497220792043411677005788019556219651646645343238137995226082179985005691082310358"
+          },
+          {
+            "n": 256,
+            "normalizedLogRatio": "-1.08218425677247316007908374024145841165847437765757770356957369867022196521745321860489342006289488",
+            "correctedMainTimes1PlusB1OverExact": "0.9999999083395250944688224152639934475375077130397665181945805695867309942891425355314416109966305289",
+            "printedOverExact": "0.6065306041177451095786936083963852176867415873622072360197099871167558080435337311680105420291918877"
+          },
+          {
+            "n": 1024,
+            "normalizedLogRatio": "-1.08304560449133351100077509075458724845869568423761098661158119362028965999756460989191372207114656",
+            "correctedMainTimes1PlusB1OverExact": "0.9999999954594685936461438130311809137991675789216542359321838197956776505144654362873681373707107095",
+            "printedOverExact": "0.6065306569586619142620639136272321650981229181030658713986560029973158277086921773624603288640087063"
+          }
+        ]
+      },
+      "answer52": {
+        "formalCumulants": [
+          {
+            "xi": "1/2",
+            "kappaOverExpXiOrders1To6": [
+              "1/2",
+              "3/4",
+              "11/8",
+              "49/16",
+              "257/32",
+              "1539/64"
+            ]
+          },
+          {
+            "xi": "1",
+            "kappaOverExpXiOrders1To6": [
+              "1",
+              "2",
+              "5",
+              "15",
+              "52",
+              "203"
+            ]
+          },
+          {
+            "xi": "3/2",
+            "kappaOverExpXiOrders1To6": [
+              "3/2",
+              "15/4",
+              "93/8",
+              "681/16",
+              "5691/32",
+              "53079/64"
+            ]
+          }
+        ],
+        "meanExact": "kappa1=xi exp(xi)",
+        "varianceExact": "kappa2=(xi+1) xi exp(xi)",
+        "varianceLocalMassScale": "1/(sqrt(2pi)*sigma)"
+      }
+    },
+    "boundedCheckEvidence": {
+      "file": "private-snapshot:volume4a/tail-answers/checkpoints/660-664-finite-answers.json",
+      "sha256": "a2ed0f41159242705dbf795c9ebf8620526d2cebdd822774912afb8c6e2d799d"
+    },
+    "translatorFootnote": {
+      "id": "v4a-answer-34-portuguese",
+      "cnPdfPage": 661,
+      "englishCounterpart": null
+    },
+    "tightSourceFigures": [
+      {
+        "file": "private-snapshot:volume4a/tail-answers/sources/en-786-29-identity.png",
+        "sha256": "ff96ad97105d7c791657207e976f30e472efcc2db0000cfda46aa87d919fa4e7"
+      },
+      {
+        "file": "private-snapshot:volume4a/tail-answers/sources/en-791-51-52-cumulants.png",
+        "sha256": "d3c6fb5a107aaf950fc02080b0581a996f9b2b189852b9fc3846bf56cd833472"
+      }
+    ],
+    "logicalScreensViewed": [
+      "660-1280-walk3.png",
+      "660-390-walk24.png"
+    ]
+  },
+  "qualification": "Whole selected CN660–664 and equivalent EN786–791 source paragraphs matched to the current two-width local proof, with preserved translator footnote and limited exact coefficient, rook and cumulant comparisons. Finite checks support the stated local corrections without replacing the book’s derivations.",
+  "reportCountRevision": {
+    "location": "Answer 29(c) finite rook specialization count in the correction basis",
+    "oldNarrativeCount": 195,
+    "effectiveCount": 207,
+    "previousReceiptSha256": "0f551698fd423e27cb8caa9075f02011f022b2a513c372108ad49e67a9448dd0",
+    "previousPageReviewSha256": "65afef1cdb66468c6e947af34b7f2d6fdbce80a7275a7a213f4678b01b55d75d",
+    "changesPageContentOrReviewCoverage": false,
+    "reusedCurrentEvidenceBecauseReviewedBytesUnchanged": true
+  }
+}

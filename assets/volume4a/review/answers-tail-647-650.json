@@ -1,0 +1,479 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "owner": "vol4a_tail_g62",
+  "physicalPages": [
+    647,
+    648,
+    649,
+    650
+  ],
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignoff": false,
+  "masterSha256": null,
+  "sourceSha256": {
+    "cn": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "en": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+  },
+  "sourceReviewSpecification": {
+    "file": "private-snapshot:volume4a/tail-answers/checkpoints/specification-647-650.json",
+    "sha256": "e057763eb2aacf674f989def57bbc3660ebd9ac3c4d34855e85561312071d8a1"
+  },
+  "sourcePageRecords": [
+    {
+      "physicalPage": 647,
+      "pageMarkdownSha256": "4b5e67e6ba9b190ae8308bd151b1a1dd57d3780aad82e0c181eaa8b9d3c3fb05",
+      "pageReviewSha256": "cae1aca3f9c72b6fefc403776ce5cd033e0a43e4c9350f5a388af53f93105f09",
+      "answerAnchors": [
+        "ans-7-2-1-4-40",
+        "ans-7-2-1-4-41",
+        "ans-7-2-1-4-42",
+        "ans-7-2-1-4-43",
+        "ans-7-2-1-4-44",
+        "ans-7-2-1-4-45",
+        "ans-7-2-1-4-46",
+        "ans-7-2-1-4-47",
+        "ans-7-2-1-4-48",
+        "ans-7-2-1-4-49"
+      ],
+      "sourceEnPhysicalPages": [
+        770,
+        771
+      ],
+      "mathExpressions": 67,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 648,
+      "pageMarkdownSha256": "798cdc4f4d452d61c6ebd01e12703fce494e1d27c01fb6b0af23765139ef7c9a",
+      "pageReviewSha256": "266a47a41d172f888d8367decf8af050df1fa1463339d301d2704f7569959220",
+      "answerAnchors": [
+        "ans-7-2-1-4-50",
+        "ans-7-2-1-4-52",
+        "ans-7-2-1-4-53",
+        "ans-7-2-1-4-54",
+        "ans-7-2-1-4-55"
+      ],
+      "sourceEnPhysicalPages": [
+        771,
+        772,
+        773
+      ],
+      "mathExpressions": 107,
+      "negativeAnswerLocators": [
+        {
+          "number": 51,
+          "cnPage": 648,
+          "enPage": 772,
+          "adjacentAnswers": [
+            50,
+            52
+          ]
+        }
+      ]
+    },
+    {
+      "physicalPage": 649,
+      "pageMarkdownSha256": "f30e1eac70c7a85e890a775f8ec277caf58ce4e3f4b03953b64f87de0a87e94b",
+      "pageReviewSha256": "3a1f6ce377316ea62631c956baddd37e2ccebeef994d44743f6457e79614b0b3",
+      "answerAnchors": [
+        "ans-7-2-1-4-56"
+      ],
+      "sourceEnPhysicalPages": [
+        773,
+        774
+      ],
+      "mathExpressions": 122,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 650,
+      "pageMarkdownSha256": "3cc8849a4f468dc59839ff1167637b0a8f3d883bb4b067d414b31401e253409a",
+      "pageReviewSha256": "b0fdc80711a8d6816d194268b73cbc75b2ff4117b4e484dcf2556b7dd908a9ca",
+      "answerAnchors": [
+        "ans-7-2-1-4-57",
+        "ans-7-2-1-4-58",
+        "ans-7-2-1-4-59",
+        "ans-7-2-1-4-60",
+        "ans-7-2-1-4-62"
+      ],
+      "sourceEnPhysicalPages": [
+        774,
+        775
+      ],
+      "mathExpressions": 82,
+      "negativeAnswerLocators": [
+        {
+          "number": 61,
+          "cnPage": 650,
+          "enPage": 775,
+          "adjacentAnswers": [
+            60,
+            62
+          ]
+        },
+        {
+          "number": 63,
+          "cnPages": [
+            650,
+            651
+          ],
+          "enPage": 775,
+          "adjacentAnswers": [
+            62,
+            64
+          ]
+        }
+      ]
+    }
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "volume4a-tail-answer-012",
+      "section": "7.2.1.4",
+      "cnPdfPage": 648,
+      "enPdfPages": [
+        772
+      ],
+      "location": "答50(f)系数提取的自变量",
+      "original": "[z^n]G_k(n)/p(n)",
+      "final": "[z^n]G_k(z)/p(n)",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "basis": "同页(e)把Gₖ(z)定义为关于z的生成函数，故取zⁿ系数的自变量为z。保留系数次数及两个n。",
+      "cnPrintedPage": 633,
+      "pageMarkdownSha256": "798cdc4f4d452d61c6ebd01e12703fce494e1d27c01fb6b0af23765139ef7c9a"
+    },
+    {
+      "id": "volume4a-tail-answer-013",
+      "section": "7.2.1.4",
+      "cnPdfPage": 648,
+      "enPdfPages": [
+        772
+      ],
+      "location": "答52两组分划的归属",
+      "original": "它们中的……个满足a₁=14",
+      "final": "另有 $\\left\\vert{50+10\\atop10}\\right\\vert$ 个满足",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "basis": "计数分别来自64的所有分划，a₁≤13与a₁=14互不重叠。有限复算从候选分组数出逆字典序精确位次1 000 000。",
+      "cnPrintedPage": 633,
+      "pageMarkdownSha256": "798cdc4f4d452d61c6ebd01e12703fce494e1d27c01fb6b0af23765139ef7c9a"
+    },
+    {
+      "id": "volume4a-tail-answer-014",
+      "section": "7.2.1.4",
+      "cnPdfPage": 648,
+      "enPdfPages": [
+        772
+      ],
+      "location": "答55(a)相邻单位转移后前缀和的例外",
+      "original": "除k=l和k=l+1外",
+      "final": "对于所有 $k\\ne l$",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "basis": "按题55(a)，第l处减1、第l+1处加1，故前缀和差为[k≥l]−[k≥l+1]=[k=l]，γ的前缀和夹在两者之间。用(3,1)转(2,2)核三前缀。",
+      "cnPrintedPage": 633,
+      "pageMarkdownSha256": "798cdc4f4d452d61c6ebd01e12703fce494e1d27c01fb6b0af23765139ef7c9a"
+    },
+    {
+      "id": "volume4a-tail-answer-015",
+      "section": "7.2.1.4",
+      "cnPdfPage": 650,
+      "enPdfPages": [
+        774
+      ],
+      "location": "答57盖尔—赖瑟矩阵计数所用的对称函数",
+      "original": "单项式对称方程",
+      "final": "单项式对称函数",
+      "isAuthorOfficialErratum": false,
+      "basis": "EN774 monomial symmetric function 与公式中初等对称函数同属基底，待查的是该函数在乘积中的系数。",
+      "cnPrintedPage": 635,
+      "pageMarkdownSha256": "3cc8849a4f468dc59839ff1167637b0a8f3d883bb4b067d414b31401e253409a"
+    }
+  ],
+  "privateBrowserCaseCount": 8,
+  "logicalCandidates": [
+    {
+      "physicalPages": [
+        647,
+        648,
+        649,
+        650
+      ],
+      "applyMode": "whole-pages",
+      "startInclusive": "<a id=\"pdf-647\"></a>",
+      "endExclusive": "<a id=\"pdf-651\"></a>",
+      "candidateFile": "private-snapshot:volume4a/tail-answers/logical/answers-7-2-1-4-647-650-continued49-55-56.md",
+      "candidateSha256": "2fc060cd4b1c101eb48b881a3f3688f817910f766a490be4793297f0ee75ebc2",
+      "placement": "Move the CN648 anchors before complete answer 49, CN649 before complete answer 55, and CN650 before complete step M5 of answer 56.",
+      "logicalBrowserProof": {
+        "file": "private-snapshot:volume4a/tail-answers/browser/647-650-logical/result.json",
+        "sha256": "db5a10b7d7c8dfda12c321b8a1d7d378e4092ae4b8bf085e2f7d6a97997f501a",
+        "viewports": [
+          1280,
+          390
+        ]
+      },
+      "logicalSyntaxProof": {
+        "file": "private-snapshot:volume4a/tail-answers/logical-proof-647-650/verified-render/syntax-647.json",
+        "sha256": "6764d65b496be199203949e4af24c48f9ddab41f21f9f5eb8750d32c02ec1758"
+      }
+    }
+  ],
+  "assets": [],
+  "details": {
+    "answer44FiniteSmallestParts": {
+      "n": [
+        1,
+        24
+      ],
+      "twoAndThreeSmallestExact": true
+    },
+    "answer52ExactOrder": {
+      "partition": [
+        14,
+        11,
+        9,
+        6,
+        4,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "total": 1741630,
+      "ordinaryLexRank": 741631,
+      "reverseLexRank": 1000000
+    },
+    "answer53ExactOrder": {
+      "partition": [
+        32,
+        13,
+        12,
+        8,
+        7,
+        6,
+        5,
+        5,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "conditionalFirstPart": 32,
+      "conditionalLexRank": 1000000,
+      "conjugate": [
+        20,
+        8,
+        8,
+        8,
+        8,
+        6,
+        5,
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "answer55FiniteRewrites": {
+      "ePairsChecked": 25,
+      "fPairsChecked": 20,
+      "qAndRRange": [
+        0,
+        4
+      ],
+      "mixedRelationDiagrams": [
+        [
+          "011^q1011^r10",
+          "101^q0111^r10",
+          "011^q1101^r01",
+          "101^q1011^r01"
+        ],
+        [
+          "010^q1011^r10",
+          "100^q0111^r10",
+          "010^q1101^r01",
+          "010^{q-1}10011^r01",
+          "100^q1011^r01"
+        ]
+      ],
+      "sampleChangedPrefixSums": [
+        1,
+        0,
+        0
+      ]
+    },
+    "answer59PrintedPaths": {
+      "paths": [
+        [
+          "1111111",
+          "211111",
+          "22111",
+          "2221",
+          "322",
+          "3211",
+          "31111",
+          "4111",
+          "511",
+          "421",
+          "331",
+          "43",
+          "52",
+          "61",
+          "7"
+        ],
+        [
+          "1111111",
+          "211111",
+          "22111",
+          "2221",
+          "322",
+          "421",
+          "511",
+          "4111",
+          "31111",
+          "3211",
+          "331",
+          "43",
+          "52",
+          "61",
+          "7"
+        ],
+        [
+          "1111111",
+          "211111",
+          "31111",
+          "22111",
+          "2221",
+          "322",
+          "3211",
+          "4111",
+          "421",
+          "331",
+          "43",
+          "52",
+          "511",
+          "61",
+          "7"
+        ],
+        [
+          "1111111",
+          "211111",
+          "31111",
+          "22111",
+          "2221",
+          "322",
+          "421",
+          "4111",
+          "3211",
+          "331",
+          "43",
+          "52",
+          "511",
+          "61",
+          "7"
+        ]
+      ],
+      "eachCoversAll15AndSymmetric": true,
+      "localDifference2OnEachEdge": true,
+      "presentation": "Same four source lines in one aligned display. It fits the desktop column and pans together on mobile."
+    },
+    "answer60SevenPatchLists": [
+      [
+        "M(4,18)",
+        "443322",
+        "4432221",
+        "444222",
+        "4442211"
+      ],
+      [
+        "M(5,11)",
+        "62111",
+        "6221",
+        "52211",
+        "5222"
+      ],
+      [
+        "M(5,20)",
+        "5552111",
+        "555221",
+        "5542211",
+        "554222"
+      ],
+      [
+        "M(6,13)",
+        "62221",
+        "6322",
+        "72211",
+        "7222"
+      ],
+      [
+        "L(4,14)",
+        "43322",
+        "432221",
+        "44222",
+        "442211"
+      ],
+      [
+        "L(5,15)",
+        "552111",
+        "55221",
+        "542211",
+        "54222"
+      ],
+      [
+        "L(7,12)",
+        "72111",
+        "7221",
+        "62211",
+        "6222"
+      ]
+    ],
+    "authorPrePage35Sha256": "445cf7fbe23ee769c54c2ce4f9486b7bdec7b6709ca30c0ab8bc6b0b0a6dcda2"
+  },
+  "qualification": "Whole CN647–650 with matched EN770–775, actual current dual-width reading proof, bounded exact ranks and source diagram strings. The three missing standalone answers were confirmed by both editions."
+}

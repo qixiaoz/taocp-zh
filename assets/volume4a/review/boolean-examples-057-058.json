@@ -1,0 +1,597 @@
+{
+  "status": "specific-current-source-examples-passed",
+  "markdownSha256": {
+    "57": "4d15f6d824c589b714489a16ce1984ef77e3d750b8196b68b54c06befbd6bc7c",
+    "58": "dbd3350d05ab21eaf5196eb9703298fcc6ae22d84a59f839f351f57bcfcd06b6"
+  },
+  "truth22": "1100100100001111",
+  "truth28": [
+    "0000",
+    "0001",
+    "0100",
+    "0111",
+    "1100",
+    "1101",
+    "1110",
+    "1111"
+  ],
+  "minterms23": [
+    [
+      [
+        "w",
+        true
+      ],
+      [
+        "x",
+        true
+      ],
+      [
+        "y",
+        true
+      ],
+      [
+        "z",
+        true
+      ]
+    ],
+    [
+      [
+        "w",
+        true
+      ],
+      [
+        "x",
+        true
+      ],
+      [
+        "y",
+        true
+      ],
+      [
+        "z",
+        false
+      ]
+    ],
+    [
+      [
+        "w",
+        true
+      ],
+      [
+        "x",
+        false
+      ],
+      [
+        "y",
+        true
+      ],
+      [
+        "z",
+        true
+      ]
+    ],
+    [
+      [
+        "w",
+        true
+      ],
+      [
+        "x",
+        false
+      ],
+      [
+        "y",
+        false
+      ],
+      [
+        "z",
+        false
+      ]
+    ],
+    [
+      [
+        "w",
+        false
+      ],
+      [
+        "x",
+        false
+      ],
+      [
+        "y",
+        true
+      ],
+      [
+        "z",
+        true
+      ]
+    ],
+    [
+      [
+        "w",
+        false
+      ],
+      [
+        "x",
+        false
+      ],
+      [
+        "y",
+        true
+      ],
+      [
+        "z",
+        false
+      ]
+    ],
+    [
+      [
+        "w",
+        false
+      ],
+      [
+        "x",
+        false
+      ],
+      [
+        "y",
+        false
+      ],
+      [
+        "z",
+        true
+      ]
+    ],
+    [
+      [
+        "w",
+        false
+      ],
+      [
+        "x",
+        false
+      ],
+      [
+        "y",
+        false
+      ],
+      [
+        "z",
+        false
+      ]
+    ]
+  ],
+  "clauses24": [
+    [
+      [
+        "w",
+        false
+      ],
+      [
+        "x",
+        false
+      ],
+      [
+        "y",
+        true
+      ],
+      [
+        "z",
+        false
+      ]
+    ],
+    [
+      [
+        "w",
+        false
+      ],
+      [
+        "x",
+        false
+      ],
+      [
+        "y",
+        true
+      ],
+      [
+        "z",
+        true
+      ]
+    ],
+    [
+      [
+        "w",
+        false
+      ],
+      [
+        "x",
+        true
+      ],
+      [
+        "y",
+        false
+      ],
+      [
+        "z",
+        true
+      ]
+    ],
+    [
+      [
+        "w",
+        false
+      ],
+      [
+        "x",
+        true
+      ],
+      [
+        "y",
+        true
+      ],
+      [
+        "z",
+        false
+      ]
+    ],
+    [
+      [
+        "w",
+        true
+      ],
+      [
+        "x",
+        false
+      ],
+      [
+        "y",
+        false
+      ],
+      [
+        "z",
+        false
+      ]
+    ],
+    [
+      [
+        "w",
+        true
+      ],
+      [
+        "x",
+        false
+      ],
+      [
+        "y",
+        false
+      ],
+      [
+        "z",
+        true
+      ]
+    ],
+    [
+      [
+        "w",
+        true
+      ],
+      [
+        "x",
+        false
+      ],
+      [
+        "y",
+        true
+      ],
+      [
+        "z",
+        false
+      ]
+    ],
+    [
+      [
+        "w",
+        true
+      ],
+      [
+        "x",
+        false
+      ],
+      [
+        "y",
+        true
+      ],
+      [
+        "z",
+        true
+      ]
+    ]
+  ],
+  "fourVariableRows": [
+    {
+      "bits": "0000",
+      "dnf": true,
+      "cnf": true,
+      "table": true
+    },
+    {
+      "bits": "0001",
+      "dnf": true,
+      "cnf": true,
+      "table": true
+    },
+    {
+      "bits": "0010",
+      "dnf": false,
+      "cnf": false,
+      "table": false
+    },
+    {
+      "bits": "0011",
+      "dnf": false,
+      "cnf": false,
+      "table": false
+    },
+    {
+      "bits": "0100",
+      "dnf": true,
+      "cnf": true,
+      "table": true
+    },
+    {
+      "bits": "0101",
+      "dnf": false,
+      "cnf": false,
+      "table": false
+    },
+    {
+      "bits": "0110",
+      "dnf": false,
+      "cnf": false,
+      "table": false
+    },
+    {
+      "bits": "0111",
+      "dnf": true,
+      "cnf": true,
+      "table": true
+    },
+    {
+      "bits": "1000",
+      "dnf": false,
+      "cnf": false,
+      "table": false
+    },
+    {
+      "bits": "1001",
+      "dnf": false,
+      "cnf": false,
+      "table": false
+    },
+    {
+      "bits": "1010",
+      "dnf": false,
+      "cnf": false,
+      "table": false
+    },
+    {
+      "bits": "1011",
+      "dnf": false,
+      "cnf": false,
+      "table": false
+    },
+    {
+      "bits": "1100",
+      "dnf": true,
+      "cnf": true,
+      "table": true
+    },
+    {
+      "bits": "1101",
+      "dnf": true,
+      "cnf": true,
+      "table": true
+    },
+    {
+      "bits": "1110",
+      "dnf": true,
+      "cnf": true,
+      "table": true
+    },
+    {
+      "bits": "1111",
+      "dnf": true,
+      "cnf": true,
+      "table": true
+    }
+  ],
+  "implicantExampleRows": [
+    {
+      "bits": [
+        0,
+        0,
+        0
+      ],
+      "before": false,
+      "after": false
+    },
+    {
+      "bits": [
+        0,
+        0,
+        1
+      ],
+      "before": false,
+      "after": false
+    },
+    {
+      "bits": [
+        0,
+        1,
+        0
+      ],
+      "before": true,
+      "after": true
+    },
+    {
+      "bits": [
+        0,
+        1,
+        1
+      ],
+      "before": true,
+      "after": true
+    },
+    {
+      "bits": [
+        1,
+        0,
+        0
+      ],
+      "before": false,
+      "after": false
+    },
+    {
+      "bits": [
+        1,
+        0,
+        1
+      ],
+      "before": true,
+      "after": true
+    },
+    {
+      "bits": [
+        1,
+        1,
+        0
+      ],
+      "before": false,
+      "after": false
+    },
+    {
+      "bits": [
+        1,
+        1,
+        1
+      ],
+      "before": true,
+      "after": true
+    }
+  ],
+  "threeVariablePolynomialRows": [
+    {
+      "bits": [
+        0,
+        0,
+        0
+      ],
+      "threeLines": [
+        1,
+        1,
+        1
+      ],
+      "polynomial": 1
+    },
+    {
+      "bits": [
+        0,
+        0,
+        1
+      ],
+      "threeLines": [
+        1,
+        1,
+        1
+      ],
+      "polynomial": 1
+    },
+    {
+      "bits": [
+        0,
+        1,
+        0
+      ],
+      "threeLines": [
+        1,
+        1,
+        1
+      ],
+      "polynomial": 1
+    },
+    {
+      "bits": [
+        0,
+        1,
+        1
+      ],
+      "threeLines": [
+        0,
+        0,
+        0
+      ],
+      "polynomial": 0
+    },
+    {
+      "bits": [
+        1,
+        0,
+        0
+      ],
+      "threeLines": [
+        1,
+        1,
+        1
+      ],
+      "polynomial": 1
+    },
+    {
+      "bits": [
+        1,
+        0,
+        1
+      ],
+      "threeLines": [
+        0,
+        0,
+        0
+      ],
+      "polynomial": 0
+    },
+    {
+      "bits": [
+        1,
+        1,
+        0
+      ],
+      "threeLines": [
+        0,
+        0,
+        0
+      ],
+      "polynomial": 0
+    },
+    {
+      "bits": [
+        1,
+        1,
+        1
+      ],
+      "threeLines": [
+        1,
+        1,
+        1
+      ],
+      "polynomial": 1
+    }
+  ],
+  "qualification": "Only concrete printed examples are evaluated from current source-derived TeX. The general normal-form/uniqueness/lower-bound claims and prime-status theory are source comparisons, not newly proved. Historical sample records remain under their original input hashes.",
+  "volume": "volume4a",
+  "cnPhysicalPages": [
+    57,
+    58
+  ],
+  "masterSha256": null,
+  "sourceCodeLocator": "private-snapshot:volume4a/tools/check-057-058-source-examples.py",
+  "sourceCodeSha256": "d723f46f090732505f6c710039a63ff59c6b8b937d590689bae0f7326f978d83"
+}

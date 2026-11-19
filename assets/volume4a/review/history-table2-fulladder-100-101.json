@@ -1,0 +1,747 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+  "masterSha256": null,
+  "pageMarkdownHashes": {
+    "100": "37fbe087990be7950380ad77994d41fd916a82ffce677c4a774b2d9c55ab2f5a",
+    "101": "759f9b9d0730397796dd9fe225a06a7509c20b16918fa4cb22a2986819989be6"
+  },
+  "printedHarvard20": {
+    "all16BooleanRows": [
+      {
+        "input": "0000",
+        "g1": 0,
+        "g2": 1,
+        "g3": 1,
+        "equation20": 1,
+        "target": 1
+      },
+      {
+        "input": "0001",
+        "g1": 0,
+        "g2": 0,
+        "g3": 1,
+        "equation20": 1,
+        "target": 1
+      },
+      {
+        "input": "0010",
+        "g1": 0,
+        "g2": 1,
+        "g3": 1,
+        "equation20": 1,
+        "target": 1
+      },
+      {
+        "input": "0011",
+        "g1": 0,
+        "g2": 1,
+        "g3": 1,
+        "equation20": 0,
+        "target": 0
+      },
+      {
+        "input": "0100",
+        "g1": 0,
+        "g2": 1,
+        "g3": 0,
+        "equation20": 1,
+        "target": 1
+      },
+      {
+        "input": "0101",
+        "g1": 0,
+        "g2": 0,
+        "g3": 0,
+        "equation20": 0,
+        "target": 0
+      },
+      {
+        "input": "0110",
+        "g1": 0,
+        "g2": 1,
+        "g3": 0,
+        "equation20": 0,
+        "target": 0
+      },
+      {
+        "input": "0111",
+        "g1": 0,
+        "g2": 1,
+        "g3": 0,
+        "equation20": 1,
+        "target": 1
+      },
+      {
+        "input": "1000",
+        "g1": 0,
+        "g2": 1,
+        "g3": 0,
+        "equation20": 1,
+        "target": 1
+      },
+      {
+        "input": "1001",
+        "g1": 0,
+        "g2": 0,
+        "g3": 0,
+        "equation20": 0,
+        "target": 0
+      },
+      {
+        "input": "1010",
+        "g1": 0,
+        "g2": 1,
+        "g3": 0,
+        "equation20": 0,
+        "target": 0
+      },
+      {
+        "input": "1011",
+        "g1": 0,
+        "g2": 1,
+        "g3": 0,
+        "equation20": 1,
+        "target": 1
+      },
+      {
+        "input": "1100",
+        "g1": 1,
+        "g2": 1,
+        "g3": 0,
+        "equation20": 0,
+        "target": 0
+      },
+      {
+        "input": "1101",
+        "g1": 1,
+        "g2": 0,
+        "g3": 0,
+        "equation20": 1,
+        "target": 1
+      },
+      {
+        "input": "1110",
+        "g1": 1,
+        "g2": 1,
+        "g3": 0,
+        "equation20": 0,
+        "target": 0
+      },
+      {
+        "input": "1111",
+        "g1": 1,
+        "g2": 1,
+        "g3": 0,
+        "equation20": 0,
+        "target": 0
+      }
+    ],
+    "costModelSharingSimulated": false,
+    "printed20CostReplaced": false,
+    "qualification": "Only printed Boolean function output verified, not historical cost model/sharing-scope disambiguation or minimal cost20/18."
+  },
+  "printedNORExamplesAll8Rows": [
+    {
+      "input": "000",
+      "or3": 0,
+      "median": 0,
+      "S1": 0,
+      "xEquivalentY": 1
+    },
+    {
+      "input": "001",
+      "or3": 1,
+      "median": 0,
+      "S1": 1,
+      "xEquivalentY": 1
+    },
+    {
+      "input": "010",
+      "or3": 1,
+      "median": 0,
+      "S1": 1,
+      "xEquivalentY": 0
+    },
+    {
+      "input": "011",
+      "or3": 1,
+      "median": 1,
+      "S1": 0,
+      "xEquivalentY": 0
+    },
+    {
+      "input": "100",
+      "or3": 1,
+      "median": 0,
+      "S1": 1,
+      "xEquivalentY": 0
+    },
+    {
+      "input": "101",
+      "or3": 1,
+      "median": 1,
+      "S1": 0,
+      "xEquivalentY": 0
+    },
+    {
+      "input": "110",
+      "or3": 1,
+      "median": 1,
+      "S1": 0,
+      "xEquivalentY": 1
+    },
+    {
+      "input": "111",
+      "or3": 1,
+      "median": 1,
+      "S1": 0,
+      "xEquivalentY": 1
+    }
+  ],
+  "printedFullAdder23All8Rows": [
+    {
+      "input": "000",
+      "steps": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "z1": 0,
+      "z0": 0,
+      "sum": 0
+    },
+    {
+      "input": "001",
+      "steps": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "z1": 0,
+      "z0": 1,
+      "sum": 1
+    },
+    {
+      "input": "010",
+      "steps": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "z1": 0,
+      "z0": 1,
+      "sum": 1
+    },
+    {
+      "input": "011",
+      "steps": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "z1": 1,
+      "z0": 0,
+      "sum": 2
+    },
+    {
+      "input": "100",
+      "steps": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "z1": 0,
+      "z0": 1,
+      "sum": 1
+    },
+    {
+      "input": "101",
+      "steps": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "z1": 1,
+      "z0": 0,
+      "sum": 2
+    },
+    {
+      "input": "110",
+      "steps": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "z1": 1,
+      "z0": 0,
+      "sum": 2
+    },
+    {
+      "input": "111",
+      "steps": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "z1": 1,
+      "z0": 1,
+      "sum": 3
+    }
+  ],
+  "table2": {
+    "all117LiteralCells": [
+      [
+        0,
+        2,
+        12,
+        0,
+        2,
+        12,
+        0,
+        2,
+        12
+      ],
+      [
+        1,
+        2,
+        100,
+        1,
+        2,
+        100,
+        1,
+        2,
+        100
+      ],
+      [
+        2,
+        5,
+        1140,
+        2,
+        5,
+        1140,
+        2,
+        17,
+        5350
+      ],
+      [
+        3,
+        20,
+        11570,
+        3,
+        20,
+        11570,
+        3,
+        1789,
+        6702242
+      ],
+      [
+        4,
+        93,
+        109826,
+        4,
+        93,
+        109826,
+        4,
+        614316,
+        4288259592
+      ],
+      [
+        5,
+        389,
+        995240,
+        5,
+        366,
+        936440,
+        5,
+        0,
+        0
+      ],
+      [
+        6,
+        1988,
+        8430800,
+        6,
+        1730,
+        7236880,
+        6,
+        0,
+        0
+      ],
+      [
+        7,
+        11382,
+        63401728,
+        7,
+        8782,
+        47739088,
+        7,
+        0,
+        0
+      ],
+      [
+        8,
+        60713,
+        383877392,
+        8,
+        40297,
+        250674320,
+        8,
+        0,
+        0
+      ],
+      [
+        9,
+        221541,
+        1519125536,
+        9,
+        141422,
+        955812256,
+        9,
+        0,
+        0
+      ],
+      [
+        10,
+        293455,
+        2123645248,
+        10,
+        273277,
+        1945383936,
+        10,
+        0,
+        0
+      ],
+      [
+        11,
+        26535,
+        195366784,
+        11,
+        145707,
+        1055912608,
+        11,
+        0,
+        0
+      ],
+      [
+        12,
+        1,
+        1920,
+        12,
+        4423,
+        31149120,
+        12,
+        0,
+        0
+      ]
+    ],
+    "columnSums": [
+      {
+        "metric": "C",
+        "classes": 616126,
+        "functions": 4294967296
+      },
+      {
+        "metric": "L",
+        "classes": 616126,
+        "functions": 4294967296
+      },
+      {
+        "metric": "D",
+        "classes": 616126,
+        "functions": 4294967296
+      }
+    ],
+    "peer": {
+      "locator": "private-snapshot:volumes3-4a/peer-body101-table2-root-readonly.json",
+      "sha256": "5da3ec520678c5963f66980108857b9135d86d6189dea81a23201bbbe6481249",
+      "receipt": {
+        "kind": "independent-source-table-readonly",
+        "reviewer": "root",
+        "scope": "Only Table2 title, C/L/D grouped headers, all13rows and117 numeric cells actually compared in both original page images. No full-page acceptance,2^32-function enumeration,616126-class classification or optimality computation. No source manuscript/report/asset/existing proof edits.",
+        "actualImagesRead": [
+          {
+            "file": "private-snapshot:volume4a/scans/101.jpg",
+            "physicalPage": 101,
+            "printedPage": 86,
+            "language": "cn",
+            "sha256": "bbdad8e5f21356df86e63effb7d6ad630faad479ffe582b37e61782ae290ab93"
+          },
+          {
+            "file": "private-snapshot:volume4a/body-review/en-122.png",
+            "physicalPage": 122,
+            "printedPage": 105,
+            "language": "en",
+            "sha256": "9053aa5ac61b1e9b7daeb17afd50415472c7b024fb5d81281686d0ef339597f2"
+          }
+        ],
+        "titleCN": "表2 具有给定复杂性的5变量函数的数目",
+        "titleEN": "Table2 THE NUMBER OF FIVE-VARIABLE FUNCTIONS WITH GIVEN COMPLEXITY",
+        "headersInSourceOrder": [
+          "C(f)",
+          "类 / Classes",
+          "函数 / Functions",
+          "L(f)",
+          "类 / Classes",
+          "函数 / Functions",
+          "D(f)",
+          "类 / Classes",
+          "函数 / Functions"
+        ],
+        "bothSourcesNumericRows": [
+          [
+            0,
+            2,
+            12,
+            0,
+            2,
+            12,
+            0,
+            2,
+            12
+          ],
+          [
+            1,
+            2,
+            100,
+            1,
+            2,
+            100,
+            1,
+            2,
+            100
+          ],
+          [
+            2,
+            5,
+            1140,
+            2,
+            5,
+            1140,
+            2,
+            17,
+            5350
+          ],
+          [
+            3,
+            20,
+            11570,
+            3,
+            20,
+            11570,
+            3,
+            1789,
+            6702242
+          ],
+          [
+            4,
+            93,
+            109826,
+            4,
+            93,
+            109826,
+            4,
+            614316,
+            4288259592
+          ],
+          [
+            5,
+            389,
+            995240,
+            5,
+            366,
+            936440,
+            5,
+            0,
+            0
+          ],
+          [
+            6,
+            1988,
+            8430800,
+            6,
+            1730,
+            7236880,
+            6,
+            0,
+            0
+          ],
+          [
+            7,
+            11382,
+            63401728,
+            7,
+            8782,
+            47739088,
+            7,
+            0,
+            0
+          ],
+          [
+            8,
+            60713,
+            383877392,
+            8,
+            40297,
+            250674320,
+            8,
+            0,
+            0
+          ],
+          [
+            9,
+            221541,
+            1519125536,
+            9,
+            141422,
+            955812256,
+            9,
+            0,
+            0
+          ],
+          [
+            10,
+            293455,
+            2123645248,
+            10,
+            273277,
+            1945383936,
+            10,
+            0,
+            0
+          ],
+          [
+            11,
+            26535,
+            195366784,
+            11,
+            145707,
+            1055912608,
+            11,
+            0,
+            0
+          ],
+          [
+            12,
+            1,
+            1920,
+            12,
+            4423,
+            31149120,
+            12,
+            0,
+            0
+          ]
+        ],
+        "all117CellsEqualAcrossBothActuallyViewedSources": true,
+        "importantDistinctions": "C/L first differ at row5:C=(389,995240),L=(366,936440).C12=(1,1920),L12=(4423,31149120).D3=(1789,6702242),D4=(614316,4288259592);D5..12allzero.",
+        "arithmeticColumnSumsOnly": [
+          {
+            "group": "C(f)",
+            "classes": 616126,
+            "functions": 4294967296
+          },
+          {
+            "group": "L(f)",
+            "classes": 616126,
+            "functions": 4294967296
+          },
+          {
+            "group": "D(f)",
+            "classes": 616126,
+            "functions": 4294967296
+          }
+        ],
+        "arithmeticDoesNotProveUnderlyingEnumeration": true,
+        "additionalCompleteRootCNPageCoverage": 0
+      }
+    },
+    "actualDOM": {
+      "locator": "private-snapshot:volume4a/verified-render/table2-dom-101.json",
+      "sha256": "0985a05aa69874a4f36da9f8c0603f658e000ed6885c09168258936e9e31604c",
+      "widths": [
+        1280,
+        390
+      ],
+      "wholePageCasesAdded": 0
+    }
+  },
+  "fixedProvidedN5RepresentativeOrbit": {
+    "locator": "private-snapshot:volume4a/body-review/fixed-169ae443-orbit.json",
+    "sha256": "015fd4d92de328f794d0c7638a20df87bb632b652738d256a86fb8ea60fa597e",
+    "record": {
+      "fixedProvidedTruthTableHex": "169ae443",
+      "n": 5,
+      "permutations": 120,
+      "inputComplementChoices": 32,
+      "outputComplementChoices": 2,
+      "transformations": 7680,
+      "distinctTruthTables": 1920,
+      "mapping": "Truth-table bits indexed lexicographically x00000..11111. For every permutation p and 5bit mask m, transformed at x is original at (x[p0] XOR m0,...,x[p4] XOR m4); also complement all32 outputbits.",
+      "orbitDecimalSortedSHA256": "3a12bf393b992f47181960451ce37dd3de98c138484c2268c901a1f68b6d807f",
+      "codeLocator": "private-snapshot:volume4a/tools/verify-fixed-169ae443-orbit.py",
+      "codeSha256": "28bf4a65919b9e499a2c479ae24f171eb7bafc9e39304c6d756aba693f22eb51",
+      "scope": "Only one printed representative orbit/cardinality1920. Does not prove its C=12/L=12 or all2^32 functions/616126-class classification."
+    }
+  },
+  "ANDSharingLanguageQuestion": {
+    "locator": "private-snapshot:volume3/chapter6-work/external-review-4a/Harvard-100-AND-input-restriction-language-scope.json",
+    "sha256": "5bb5a0fe9928f6f213bd68d3cab99d9d29180a41ef55de4269e151f44d5dd2d5",
+    "receipt": {
+      "reviewDate": "2026-11-18",
+      "reviewerType": "model-direct-original-image-language-only-peer-review",
+      "scope": "只读CN100/EN121 Harvard历史代价段的AND输入限制句及相邻定义/原例。非整页验收、非任何20→18复算、非一般代价模型或历史电路事实考证。",
+      "sourceImages": [
+        {
+          "file": "private-snapshot:volume4a/scans/100.jpg",
+          "sha256": "76b7725fe15804711adc2c6fe3269bf3bbe87120dede1f0a3c69dc3d3e1af1aa"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-121.png",
+          "sha256": "f0ffdbbf0f1c8282d692b2cbd82287977bb90136d5b41f08fd8b96a0c1e01f45"
+        }
+      ],
+      "englishFragment": "every input to AND had to be the output of either NOT or NAND that wasn’t also used elsewhere",
+      "chineseFragment": "AND的每个输入必须或者是NOT或者是尚未在别处使用的NAND的输出",
+      "directObservations": [
+        "英文实际在NOT or/NAND间换行，没有额外逗号、括号或both，that后是单数wasn’t。",
+        "前文列NOT/NAND/OR/AND四门成本1/2/k/0；NOT/NAND/OR输入另允许变量/补或前门输出。后文两简单成本例没有共享候选输入，不区分附加限制作用于两者还是仅NAND。",
+        "中文线性措辞把尚未在别处使用的直接放在NAND前；没有明确补充NOT也受此约束。"
+      ],
+      "englishGrammarAssessment": "either NOT or NAND可整体充当关系从句that的先行项，因而广范围读法自然；关系从句也可就近附着NAND，单数wasn’t不排除任一读法。只有这一段的实际措辞与不共享原例不足以唯一消歧。",
+      "conclusion": "在本次有限原段范围内，无法声称原英文已明确限制NOT与NAND两者均不得在别处使用。若正文将范围改为两者皆受限，应明确是本项目解释并另给依据；就本次源读应保留范围疑点，不作确定译错登记。",
+      "mathematicalModelRun": false,
+      "contentOrAssetEdited": false,
+      "notClaimed": [
+        "CN100整页接受",
+        "作者原意已被证实",
+        "NOT可共享或不可共享的模型哪一个历史正确",
+        "20或18代价结论"
+      ]
+    },
+    "disposition": "Preserve selectedCN. English restriction can scope over either/or or only NAND; original examples/language do not uniquely decide. No source correction or added interpretation in body."
+  },
+  "checkCode": {
+    "locator": "private-snapshot:volume4a/tools/bind-batch-100-101.py",
+    "sha256": "604ff7973e3d1f2ae4e6a79a5d5e8a9cccd35454390c6d3460e162e6abfd2d88"
+  },
+  "qualification": "Fixed original Boolean identities/one representative orbit/table literal sums only. No historical hardware/source1951/1963 independent research, cost-model disambiguation,2^32 classification or global C/L/D optimality/fulladder lower-bound proof."
+}

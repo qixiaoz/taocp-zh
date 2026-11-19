@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "pageMarkdownHashes": {
+    "82": "461b9937532063a06953753de4838a3121774dce37a029c7a91f4fc18ea87b60",
+    "83": "b2ac671e89626d63b5e0bc18bee239cec56d4da0dacf71f79f36a282369f3ef7"
+  },
+  "scope": "Onlyprinted5bitbuddyexample/35original3bitcodesandthereorderednon-shellingexample/36given4-bitfunctionandlist. NotgeneralconsensusAlgorithmE/shadowtheorems/asymptotic34/shelling37proof.",
+  "sourceCodeLocator": "private-snapshot:volume4a/tools/check-subcube-shadow-examples-082-083.py",
+  "sourceCodeSha256": "ccdbb94a047ce5933ba3eca3dc2ea13ea2c9676ff18fd30fc51022e7286610ef",
+  "buddy30": {
+    "starMask": "00101",
+    "bitMask": "01000",
+    "pattern": "01*0*",
+    "buddies": [
+      {
+        "bit": 4,
+        "printed": "11*0*",
+        "recomputed": "11*0*"
+      },
+      {
+        "bit": 3,
+        "printed": "00*0*",
+        "recomputed": "00*0*"
+      },
+      {
+        "bit": 1,
+        "printed": "01*1*",
+        "recomputed": "01*1*"
+      }
+    ]
+  },
+  "actualFiveComplementBkOccurrencesIn35": true,
+  "truncatedSubtractionNotDivision": true,
+  "original35": {
+    "bitCodes": [
+      "1100",
+      "0110",
+      "0011"
+    ],
+    "shadows": [
+      "0000",
+      "1000",
+      "0100"
+    ],
+    "starMasks": [
+      "0011",
+      "0001",
+      "1000"
+    ],
+    "cubes": [
+      "11**",
+      "011*",
+      "*011"
+    ],
+    "originalMonotoneCubes": [
+      "11**",
+      "*11*",
+      "**11"
+    ],
+    "pairChecks": [
+      {
+        "j": 1,
+        "k": 2,
+        "difference": "1000",
+        "popcount": 1,
+        "beta": "1000"
+      },
+      {
+        "j": 1,
+        "k": 3,
+        "difference": "1100",
+        "popcount": 2,
+        "beta": "0000"
+      },
+      {
+        "j": 2,
+        "k": 3,
+        "difference": "0100",
+        "popcount": 1,
+        "beta": "0100"
+      }
+    ],
+    "unionCount": 8,
+    "shelling": true,
+    "pairwiseDisjoint": true
+  },
+  "actualOrthogonalDNF35": [
+    [
+      1,
+      2
+    ],
+    [
+      -1,
+      2,
+      3
+    ],
+    [
+      -2,
+      3,
+      4
+    ]
+  ],
+  "all16TruthCases35": [
+    {
+      "input": "0000",
+      "output": 0
+    },
+    {
+      "input": "0001",
+      "output": 0
+    },
+    {
+      "input": "0010",
+      "output": 0
+    },
+    {
+      "input": "0011",
+      "output": 1
+    },
+    {
+      "input": "0100",
+      "output": 0
+    },
+    {
+      "input": "0101",
+      "output": 0
+    },
+    {
+      "input": "0110",
+      "output": 1
+    },
+    {
+      "input": "0111",
+      "output": 1
+    },
+    {
+      "input": "1000",
+      "output": 0
+    },
+    {
+      "input": "1001",
+      "output": 0
+    },
+    {
+      "input": "1010",
+      "output": 0
+    },
+    {
+      "input": "1011",
+      "output": 1
+    },
+    {
+      "input": "1100",
+      "output": 1
+    },
+    {
+      "input": "1101",
+      "output": 1
+    },
+    {
+      "input": "1110",
+      "output": 1
+    },
+    {
+      "input": "1111",
+      "output": 1
+    }
+  ],
+  "reordered35": {
+    "bitCodes": [
+      "1100",
+      "0011",
+      "0110"
+    ],
+    "shadows": [
+      "0000",
+      "0000",
+      "1001"
+    ],
+    "starMasks": [
+      "0011",
+      "1100",
+      "0000"
+    ],
+    "cubes": [
+      "11**",
+      "**11",
+      "0110"
+    ],
+    "originalMonotoneCubes": [
+      "11**",
+      "**11",
+      "*11*"
+    ],
+    "pairChecks": [
+      {
+        "j": 1,
+        "k": 2,
+        "difference": "1100",
+        "popcount": 2,
+        "beta": "0000"
+      },
+      {
+        "j": 1,
+        "k": 3,
+        "difference": "1000",
+        "popcount": 1,
+        "beta": "1000"
+      },
+      {
+        "j": 2,
+        "k": 3,
+        "difference": "0001",
+        "popcount": 1,
+        "beta": "0001"
+      }
+    ],
+    "unionCount": 8,
+    "shelling": false,
+    "pairwiseDisjoint": false
+  },
+  "example36": {
+    "bitCodes": [
+      "1100",
+      "1011",
+      "0111",
+      "0011"
+    ],
+    "shadows": [
+      "0000",
+      "0100",
+      "1000",
+      "1100"
+    ],
+    "starMasks": [
+      "0011",
+      "0000",
+      "0000",
+      "0000"
+    ],
+    "cubes": [
+      "11**",
+      "1011",
+      "0111",
+      "0011"
+    ],
+    "originalMonotoneCubes": [
+      "11**",
+      "1*11",
+      "*111",
+      "**11"
+    ],
+    "pairChecks": [
+      {
+        "j": 1,
+        "k": 2,
+        "difference": "0100",
+        "popcount": 1,
+        "beta": "0100"
+      },
+      {
+        "j": 1,
+        "k": 3,
+        "difference": "1000",
+        "popcount": 1,
+        "beta": "1000"
+      },
+      {
+        "j": 2,
+        "k": 3,
+        "difference": "1000",
+        "popcount": 1,
+        "beta": "1000"
+      },
+      {
+        "j": 1,
+        "k": 4,
+        "difference": "1100",
+        "popcount": 2,
+        "beta": "0000"
+      },
+      {
+        "j": 2,
+        "k": 4,
+        "difference": "1000",
+        "popcount": 1,
+        "beta": "1000"
+      },
+      {
+        "j": 3,
+        "k": 4,
+        "difference": "0100",
+        "popcount": 1,
+        "beta": "0100"
+      }
+    ],
+    "unionCount": 7,
+    "shelling": true,
+    "pairwiseDisjoint": true
+  },
+  "example36DerivedDirectlyFromPrintedFAndXPrimeRule": true,
+  "qualification": "Sourcebits/printedshadowtuple/actualDNFandfixedcodeordersparsedfromcurrentMD. OriginalsourceS3is0100. Beta arithmeticonlycheckedontheactualfixedsourcecodepairs. Source comparison and renderedliteral/barmathchecksseparatelybound;nogeneralalgorithmproof.",
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+  "reviewerType": "model-direct-source-image-comparison-with-limited-printed-subcube-example-checks",
+  "humanSignOff": false
+}

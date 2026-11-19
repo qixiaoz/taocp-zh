@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "owner": "vol4a_body_g62",
+  "physicalPages": [
+    687,
+    688,
+    689
+  ],
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignoff": false,
+  "masterSha256": null,
+  "sourceSha256": {
+    "cn": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "en": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+  },
+  "sourceReviewSpecification": {
+    "file": "private-snapshot:volume4a/assigned-answers-681-700/checkpoints/specification-687-689.json",
+    "sha256": "6e37429dd3ac0eb5d74616efba23063d7febaa7eee5971b9f6c443b409ca415b"
+  },
+  "sourcePageRecords": [
+    {
+      "physicalPage": 687,
+      "pageMarkdownSha256": "18a1802a5b2c5c951b6384b1a2815f1bd9ee0aa24b7e62fefcd1f4cb9f815cf5",
+      "pageReviewSha256": "9dc2b067822b762c4f39c4da745f0cc99700393323b2029e99b5fe12adf52266",
+      "answerAnchors": [
+        "ans-7-2-1-6-82",
+        "ans-7-2-1-6-83",
+        "ans-7-2-1-6-84",
+        "ans-7-2-1-6-85",
+        "ans-7-2-1-6-86",
+        "ans-7-2-1-6-87",
+        "ans-7-2-1-6-88",
+        "ans-7-2-1-6-89",
+        "ans-7-2-1-6-90"
+      ],
+      "sourceEnPhysicalPages": [
+        818,
+        819
+      ],
+      "mathExpressions": 95,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 688,
+      "pageMarkdownSha256": "c1d4cb7c8b9db753306e224d07b4ddb4609034c0cf164ddeafe0c6686811d7e6",
+      "pageReviewSha256": "678c9e211ba5a26b8da3bfeb97797ecf3594083bfc5accb73bf4a63438a11f27",
+      "answerAnchors": [
+        "ans-7-2-1-6-91",
+        "ans-7-2-1-6-92",
+        "ans-7-2-1-6-93",
+        "ans-7-2-1-6-94",
+        "ans-7-2-1-6-95",
+        "ans-7-2-1-6-96"
+      ],
+      "sourceEnPhysicalPages": [
+        819,
+        820
+      ],
+      "mathExpressions": 113,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 689,
+      "pageMarkdownSha256": "da981acdad235f003a7218cdefcd5ed61f57caa131e18ce6bbafd7c474428eb7",
+      "pageReviewSha256": "05c7f90ee1923544cd11afbea9d998b49e994230ac39b8cf024f7d29917fe623",
+      "answerAnchors": [
+        "ans-7-2-1-6-97",
+        "ans-7-2-1-6-98",
+        "ans-7-2-1-6-99",
+        "ans-7-2-1-6-100",
+        "ans-7-2-1-6-102"
+      ],
+      "sourceEnPhysicalPages": [
+        820,
+        821
+      ],
+      "mathExpressions": 92,
+      "negativeAnswerLocators": [
+        {
+          "exerciseAnchor": "ex-7-2-1-6-101",
+          "answerAnchor": null,
+          "evidence": "CN689印674及EN821印804原文都从100跳至102，开放题101没有独立答案；不构造虚假锚点。"
+        }
+      ]
+    }
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "answers-687-85-restore-basis-reference",
+      "section": "7.2.1.6",
+      "cnPdfPage": 687,
+      "location": "答85原末段，英文印801–802",
+      "original": "满足m=1和x_{j1}=(-1)^{j-1}的基",
+      "final": "\\bigl(e_j+(-1)^{j-1}e_n\\bigr)_{1\\le j<n}",
+      "basis": "作者2015替换首10行后，CN末段仍引用已删矩阵中的x坐标；按旧英文矩阵同行的单位块和原交替系数明写对应基。独立完整枚举n=1–13的0/1向量同M_n。",
+      "cnPrintedPage": 672,
+      "pageMarkdownSha256": "18a1802a5b2c5c951b6384b1a2815f1bd9ee0aa24b7e62fefcd1f4cb9f815cf5"
+    },
+    {
+      "id": "answers-688-90-author-second-centroid",
+      "section": "7.2.1.6",
+      "cnPdfPage": 688,
+      "location": "答90(c)，英文印802和作者2020-09-01勘误",
+      "original": "未写第二形心对应关系",
+      "final": "如果 $p''_j=0$，则 $p_{j+m+1}=0'$ 是第二个形心。",
+      "basis": "采用作者早期勘误第37页的新增说明，保留原索引和0′记法。",
+      "cnPrintedPage": 673,
+      "pageMarkdownSha256": "c1d4cb7c8b9db753306e224d07b4ddb4609034c0cf164ddeafe0c6686811d7e6"
+    },
+    {
+      "id": "answers-688-91-author-wilf",
+      "section": "7.2.1.6",
+      "cnPdfPage": 688,
+      "location": "答91附录引文，英文印802和作者2021-05-12勘误",
+      "original": "第25章。］",
+      "final": "关于随机自由树，见赫伯特·威尔夫，*Journal of Algorithms* **2** (1981)，204–207。",
+      "basis": "采用作者早期勘误第37页的新文献，保留原定向树的递归程序。",
+      "cnPrintedPage": 673,
+      "pageMarkdownSha256": "c1d4cb7c8b9db753306e224d07b4ddb4609034c0cf164ddeafe0c6686811d7e6"
+    },
+    {
+      "id": "answers-688-95-vertex-pointers",
+      "section": "7.2.1.6",
+      "cnPdfPage": 688,
+      "location": "答95辅助表，英文印803",
+      "original": "保存弧指针的辅助表",
+      "final": "保存顶点指针的辅助表",
+      "basis": "双语原称弧指针。赋值b_w←v、b_w←v′和u←b_u的元素都是顶点，弧指针另由e及f保存；该表表示带哨兵的顶点队列。",
+      "cnPrintedPage": 673,
+      "pageMarkdownSha256": "c1d4cb7c8b9db753306e224d07b4ddb4609034c0cf164ddeafe0c6686811d7e6"
+    },
+    {
+      "id": "answers-689-96-order",
+      "section": "7.2.1.6",
+      "cnPdfPage": 689,
+      "location": "答96(a)续首，英文印803",
+      "original": "初始生成树中边的次数",
+      "final": "初始生成树中边的顺序",
+      "basis": "英文明确“order of the edges”；后面直接比较普通次序和风琴管顺序，两者边集合相同。",
+      "cnPrintedPage": 674,
+      "pageMarkdownSha256": "da981acdad235f003a7218cdefcd5ed61f57caa131e18ce6bbafd7c474428eb7"
+    }
+  ],
+  "privateBrowserCaseCount": 6,
+  "logicalCandidates": [],
+  "assets": [
+    {
+      "cnPdfPage": 689,
+      "file": "assets/volume4a/figures/7-2-1-6-ans98-dual-planar-graph.svg",
+      "sha256": "1f1b3fc091390b157467f1ede725524c5972f7d3efa41569efc14191360f596d",
+      "source": "CN689印674和EN820印803图，逐条照看五顶点与a至g边，双弧间不增虚结点；实际两宽打开原图。"
+    }
+  ],
+  "details": {
+    "authorEarly": {
+      "file": "private-snapshot:volume4a/assigned-answers-681-700/sources/official-pre-37.png",
+      "sha256": "13d053825006703dc01de85cd8603e6dfd285a5e422bd518f8ce7518e77f8275",
+      "coverage": "答85整段替换前十行，答90/91增文。"
+    },
+    "finiteChecks": {
+      "file": "private-snapshot:volume4a/assigned-answers-681-700/checkpoints/687-689-finite.json",
+      "sha256": "c793cfa87599447e8b704f3ee3be9e4ee978f07d5b3ba39b6bada4bb89307094",
+      "result": {
+        "scope": "Finite computations, excludes graph algorithm S timings and this is not a proof of all dimensions.",
+        "answer82TruthTableSize": 256,
+        "answer85n1to13Counts": [
+          1,
+          2,
+          3,
+          6,
+          10,
+          20,
+          35,
+          70,
+          126,
+          252,
+          462,
+          924,
+          1716
+        ],
+        "answer86": {
+          "sourceWords": "(())((())((()(()))())(()(())))",
+          "parents": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            3,
+            2,
+            1,
+            8,
+            9,
+            8,
+            1,
+            12,
+            0,
+            14
+          ],
+          "levels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            3,
+            2,
+            1,
+            2,
+            3,
+            2,
+            1,
+            2,
+            0,
+            1
+          ]
+        },
+        "algorithmO": {
+          "n": [
+            1,
+            10
+          ],
+          "rootedTreeCountsStartingAt1": [
+            1,
+            1,
+            2,
+            4,
+            9,
+            20,
+            48,
+            115,
+            286,
+            719,
+            1842
+          ],
+          "Q1to10": [
+            0,
+            0,
+            1,
+            2,
+            5,
+            9,
+            22,
+            48,
+            118,
+            288
+          ],
+          "checkedAssignments": [
+            "O4 frequency",
+            "O5 direct and both branches",
+            "Q formula",
+            "canonical enumeration"
+          ]
+        },
+        "answer91W": {
+          "nodeRange": [
+            3,
+            9
+          ],
+          "exactUniformSupportCounts": [
+            2,
+            4,
+            9,
+            20,
+            48,
+            115,
+            286
+          ]
+        },
+        "answer98": {
+          "edges": "a..g in source print geometry",
+          "spanningTreeComplementCounts": {
+            "primalTrees": 19,
+            "dualTrees": 10
+          }
+        },
+        "currentMarkdownSha256": {
+          "687": "18a1802a5b2c5c951b6384b1a2815f1bd9ee0aa24b7e62fefcd1f4cb9f815cf5",
+          "688": "c1d4cb7c8b9db753306e224d07b4ddb4609034c0cf164ddeafe0c6686811d7e6",
+          "689": "da981acdad235f003a7218cdefcd5ed61f57caa131e18ce6bbafd7c474428eb7"
+        },
+        "checkerSha256": "40ef3703f63079ff21674548613f53cd19a46a3a6f70c655dc859dd82baf65e6"
+      }
+    },
+    "physicalSeams": [
+      {
+        "left": 687,
+        "right": 688,
+        "answer": 90,
+        "boundary": "(a)之后接(b)，原独立款。"
+      },
+      {
+        "left": 688,
+        "right": 689,
+        "answer": 96,
+        "boundary": "(a)末之后接「然而」新段，随后(b)。"
+      }
+    ]
+  },
+  "qualification": "直接核中英原图与当前两宽实际全页像素和横移，重绘平面图并两次点击，以有限模型复核布尔式、定向树、父序列和一组图的生成树补集。算法S的作者运行时间按原文保留。"
+}

@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "scope": "Additional actual generator checks for answers74-76; not MMIX execution or whole-book acceptance",
+  "sourceIndexURL": "https://cs.stanford.edu/~knuth/sgb.html",
+  "sourceArchiveURL": "https://cs.stanford.edu/pub/sgb/sgb.tar.gz",
+  "archiveSha256": "f2e2784b083db9d7b2cc705d34e9e8b4fdf9cc6dcd0d2dfe0c88a3875482017a",
+  "archiveOriginalFilesUnchanged": true,
+  "standardSGBTestsPassed": true,
+  "CStandard": "C90, per author instructions",
+  "methodSources": [
+    {
+      "repositoryPath": "assets/volume4a/review/sgb-check-roget.c",
+      "sha256": "34494a26cccda0a390f76283e12fc517f9af74012db1873ed0a267b79907974a"
+    },
+    {
+      "repositoryPath": "assets/volume4a/review/sgb-check-board.c",
+      "sha256": "f2e8010bb0b8ff70ad7dc978c653dd6057092e56f10d378d4be0c11a4141058a"
+    }
+  ],
+  "inputHashes": {
+    "roget.dat": "74282a7b5905a758107a18fa9d2932962bd432942944c92afcb724567b938c41",
+    "gb_roget.w": "e56cf6929d465801cf69c97dc9e2042e3c99a12b56a8f0bcab26b778245906cd",
+    "gb_basic.w": "0e2ed79569be07d72383b3ed9f83311aa6d26ad10bd9ba9b01513df7ad4b66e5",
+    "gb_graph.w": "9ea2fae0fd65d3a4cb451d3f206eea55175dd646560134b6daf16d313809f9cf",
+    "gb_flip.w": "8e4faad04360d1ca35fad7c6c49281b63d3074f9f329444031f9ab09fd94611d",
+    "gb_io.w": "6d6ca1b3a1e065fb52049715c78e6fa21e26f09a97453a1e78336aec02dc0a4d"
+  },
+  "answerPageMarkdownSha256": "7606e89d8f3874711da5009d3f15d1ca7f4e9f132b0bb5bf8e4a4b2d6f5306f7",
+  "roget": {
+    "id": "roget(1022,0,0,0)",
+    "vertices": 1022,
+    "arcs": 5075,
+    "maximumOutdegree": 22,
+    "badnessOutdegree": 22,
+    "maximumOtherOutdegree": 20
+  },
+  "board": {
+    "schemaVersion": 1,
+    "archiveSha256": "f2e2784b083db9d7b2cc705d34e9e8b4fdf9cc6dcd0d2dfe0c88a3875482017a",
+    "sourceBasicSha256": "0e2ed79569be07d72383b3ed9f83311aa6d26ad10bd9ba9b01513df7ad4b66e5",
+    "programSha256": "f2e8010bb0b8ff70ad7dc978c653dd6057092e56f10d378d4be0c11a4141058a",
+    "outputSha256": "2190e242eff938fdde503bbc26bffe3c9b2706e02d0fb1048d4dd865ff929baa",
+    "answerPageMarkdownSha256": "7606e89d8f3874711da5009d3f15d1ca7f4e9f132b0bb5bf8e4a4b2d6f5306f7",
+    "ordinaryParameters": {
+      "m": 4,
+      "n": 5
+    },
+    "all13SourceBoardConfigurations": [
+      {
+        "case": "a",
+        "id": "board(5,0,0,0,-1,0,0)",
+        "vertices": 5,
+        "arcs": 20,
+        "isomorphicToSourceRequestedGraph": true
+      },
+      {
+        "case": "b",
+        "id": "board(5,0,0,0,1,0,0)",
+        "vertices": 5,
+        "arcs": 8,
+        "isomorphicToSourceRequestedGraph": true
+      },
+      {
+        "case": "c",
+        "id": "board(5,0,0,0,1,1,0)",
+        "vertices": 5,
+        "arcs": 10,
+        "isomorphicToSourceRequestedGraph": true
+      },
+      {
+        "case": "d",
+        "id": "board(5,0,0,0,-1,0,1)",
+        "vertices": 5,
+        "arcs": 10,
+        "isomorphicToSourceRequestedGraph": true
+      },
+      {
+        "case": "e",
+        "id": "board(5,0,0,0,1,0,1)",
+        "vertices": 5,
+        "arcs": 4,
+        "isomorphicToSourceRequestedGraph": true
+      },
+      {
+        "case": "f",
+        "id": "board(5,0,0,0,1,1,1)",
+        "vertices": 5,
+        "arcs": 5,
+        "isomorphicToSourceRequestedGraph": true
+      },
+      {
+        "case": "g",
+        "id": "board(4,5,0,0,1,0,0)",
+        "vertices": 20,
+        "arcs": 62,
+        "isomorphicToSourceRequestedGraph": true
+      },
+      {
+        "case": "h",
+        "id": "board(4,5,0,0,1,2,0)",
+        "vertices": 20,
+        "arcs": 70,
+        "isomorphicToSourceRequestedGraph": true
+      },
+      {
+        "case": "i",
+        "id": "board(4,5,0,0,1,3,0)",
+        "vertices": 20,
+        "arcs": 80,
+        "isomorphicToSourceRequestedGraph": true
+      },
+      {
+        "case": "j",
+        "id": "board(4,5,0,0,-1,0,0)",
+        "vertices": 20,
+        "arcs": 140,
+        "isomorphicToSourceRequestedGraph": true
+      },
+      {
+        "case": "k",
+        "id": "board(4,5,0,0,1,3,1)",
+        "vertices": 20,
+        "arcs": 40,
+        "isomorphicToSourceRequestedGraph": true
+      },
+      {
+        "case": "l",
+        "id": "board(5,0,0,0,2,0,0)",
+        "vertices": 5,
+        "arcs": 0,
+        "isomorphicToSourceRequestedGraph": true
+      },
+      {
+        "case": "m",
+        "id": "board(2,-5,0,0,1,0,0)",
+        "vertices": 32,
+        "arcs": 160,
+        "isomorphicToSourceRequestedGraph": true
+      }
+    ],
+    "smallCycleMultiplicity": {
+      "C1": {
+        "id": "board(1,0,0,0,1,1,0)",
+        "vertices": 1,
+        "arcs": 2,
+        "directed": false,
+        "arcPairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "C2": {
+        "id": "board(2,0,0,0,1,1,0)",
+        "vertices": 2,
+        "arcs": 4,
+        "directed": false,
+        "arcPairs": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "orientedPath_n1_n2ArcCounts": [
+        0,
+        1
+      ]
+    },
+    "negativeSlidingNoLoopsCases": 2,
+    "supportsCorrectionAnswer76_eTo_c": true,
+    "qualification": "Actual official C90SGB execution,long-valued arguments and structural graph comparison. Host C layout is not MMIX32-bit hardware. Fixed examples,not all dimensions."
+  },
+  "outputHashes": {
+    "roget": "9079b1bcbfedda30b276617174c4bd7d4605816804b16e3c9f1b1a1aa082dafc",
+    "board": "2190e242eff938fdde503bbc26bffe3c9b2706e02d0fb1048d4dd865ff929baa"
+  },
+  "qualifications": [
+    "Frozen source examples, not current-world authoritative data",
+    "Actual host C runtime and official library; different from the book MMIX32-bit memory-layout example",
+    "GraphBase arcs are paired for undirected edges: C1two arcs represent one loop; C2four arcs represent two parallel edges",
+    "Original single-page records retain their earlier finite-review scope; these are newly performed additional checks"
+  ]
+}

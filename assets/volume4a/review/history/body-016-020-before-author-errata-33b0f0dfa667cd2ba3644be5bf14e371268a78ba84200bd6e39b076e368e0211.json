@@ -1,0 +1,3613 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "five-complete-source-pages-reviewed-before-master-assembly",
+  "cnPhysicalPages": [
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "cnPrintedPages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "masterSha256": null,
+  "mathExpressions": 146,
+  "privateProofBrowserCases": 10,
+  "substantiveCorrections": 3,
+  "preservedDifferences": 4,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 16,
+      "cnPrintedPage": 1,
+      "section": "7",
+      "enPdfPages": [
+        18,
+        19
+      ],
+      "enPrintedPages": [
+        1,
+        2
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "2e30b041e5865fd31e6736d2f2ba0db922a53d513f8e5bee7ec728af39911e49",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "startsInsideAlgorithm": false,
+      "endsInsideAlgorithm": false,
+      "coveredRegions": [
+        "Chapter7 heading and all four epigraphs, including quoted-work titles, acts/lines and dates.",
+        "Langford-pair definition and n=3,4 example.",
+        "All five combinatorial problem categories.",
+        "Parity obstruction argument for n=5,6 and the necessary n mod4 condition.",
+        "Davies construction reference and all12 printed Langford counts in equation1."
+      ],
+      "substantiveCorrections": [
+        {
+          "section": "7",
+          "cnPrintedPage": 1,
+          "enPosition": "English printed2 / PDF19, first paragraph",
+          "original": "因此，我们不能恰好填满每对奇偶数间的5个位置.",
+          "final": "因此，我们不能恰好填满奇数号和偶数号各5个位置。",
+          "basis": "English explicitly states five slots of each parity. For n=5 each odd-labelled pair uses0 or2 positions of a given parity, while each even-labelled pair uses1, so every parity receives an even number of occupied positions and cannot receive5. Chinese original wording 每对奇偶数间 misidentifies these two classes as an interval between a pair."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "Fourth chapter epigraph",
+          "cn": "小萨姆·劳埃德（1926）",
+          "en": "SAM LOYD, JR (1927)",
+          "decision": "Preserve the Chinese date1926; record the disagreement rather than silently substituting an unverified bibliographic correction.",
+          "status": "source-version-disagreement-unresolved"
+        }
+      ],
+      "unverifiedPageRegions": [],
+      "numericChecks": {
+        "langfordSmallCounts": [
+          {
+            "n": 3,
+            "allOrientedSolutions": 2,
+            "reversalClasses": 1
+          },
+          {
+            "n": 4,
+            "allOrientedSolutions": 2,
+            "reversalClasses": 1
+          },
+          {
+            "n": 7,
+            "allOrientedSolutions": 52,
+            "reversalClasses": 26
+          },
+          {
+            "n": 8,
+            "allOrientedSolutions": 300,
+            "reversalClasses": 150
+          }
+        ],
+        "qualification": "Only n=3,4,7,8 independently recomputed; the remaining8 table counts were visually compared with CN16/EN19 and are not claimed independently recalculated."
+      },
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-016.png",
+      "sourcePageImageSha256": "3e26fb865929c63121fa5866de742c470a08fba67bde19c5282ac6bae8c60ccc",
+      "enPageImages": [
+        {
+          "physicalPage": 18,
+          "file": "private-snapshot:volume4a/body-review/en-018.png",
+          "sha256": "591cdddf61b1b5742476198b8fffc52e758640981fc642a4f355f88e0272f6ab"
+        },
+        {
+          "physicalPage": 19,
+          "file": "private-snapshot:volume4a/body-review/en-019.png",
+          "sha256": "d3ce3e83cf742cb9f51a65a6f87f2ed531fbf786f668e5d606ae1b7de45565be"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-016",
+        "p-1",
+        "sec-7"
+      ],
+      "pageFurnitureOmitted": [
+        "Printed page number retained as hidden anchor."
+      ],
+      "qualification": "Complete source-page model review, not human sign-off. Binding applies to this page Markdown and observed page images, not final whole-volume assembly or online site.",
+      "pending": [
+        "Final whole-volume inclusion",
+        "Cross-page reference targets",
+        "Whole-volume source/render/browser/online checks"
+      ],
+      "representationRevision": {
+        "kind": "explicit-Chinese-prose-sentence-punctuation",
+        "authorization": "Root task instructed consistent Chinese prose sentence ends with 。; source math/code/URLs/English bibliography punctuation stays unchanged.",
+        "oldPageMarkdownSha256": "8af93dc2426c5528830bacbe8492ce829d110d3c8e8c6569efb0d63b9ccf1939",
+        "newPageMarkdownSha256": "2e30b041e5865fd31e6736d2f2ba0db922a53d513f8e5bee7ec728af39911e49",
+        "changedSentenceDots": 19,
+        "oldCodePointOffsets": [
+          115,
+          227,
+          303,
+          385,
+          428,
+          479,
+          567,
+          619,
+          639,
+          658,
+          687,
+          882,
+          894,
+          964,
+          1063,
+          1092,
+          1155,
+          1205,
+          1259
+        ],
+        "allOtherCodePointsUnchanged": true,
+        "history": "private-snapshot:volume4a/verified-history/016-before-prose-punctuation-8af93dc2426c5528830bacbe8492ce829d110d3c8e8c6569efb0d63b9ccf1939",
+        "qualification": "Presentation only, not an additional original-book correction. Old source-image review and old render evidence keep their original input hashes. New syntax/browser checks are recorded separately."
+      },
+      "syntaxCheck": {
+        "physicalPage": 16,
+        "markdownSha256": "2e30b041e5865fd31e6736d2f2ba0db922a53d513f8e5bee7ec728af39911e49",
+        "htmlSha256": "b674ce69295ddd27bea8f277d9b123ee61e063876ea3d3f583127899a068ba8e",
+        "mathExpressions": 31,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-16-17-18-19.json",
+        "sha256": "b0afdab07e77a883245fb6a3bd8aaff4a583f3da1c44c88048326a1f47a1d284",
+        "cases": [
+          {
+            "physicalPage": 16,
+            "width": 1280,
+            "markdownSha256": "2e30b041e5865fd31e6736d2f2ba0db922a53d513f8e5bee7ec728af39911e49",
+            "documentWidth": 1280,
+            "math": 31,
+            "mathml": 31,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 24,
+                "content": 24,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 179,
+                "content": 179,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 12,
+                "content": 12,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 12,
+                "content": 12,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 65,
+                "content": 65,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 20,
+                "content": 20,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 20,
+                "content": 20,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 20,
+                "content": 20,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 98,
+                "content": 98,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 50,
+                "content": 50,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 174,
+                "content": 174,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 22,
+                "content": 22,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 115,
+                "content": 115,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 19,
+                "content": 19,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 110,
+                "content": 110,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 72,
+                "content": 72,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 25,
+                "content": 27,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 728,
+                "content": 728,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          },
+          {
+            "physicalPage": 16,
+            "width": 390,
+            "markdownSha256": "2e30b041e5865fd31e6736d2f2ba0db922a53d513f8e5bee7ec728af39911e49",
+            "documentWidth": 390,
+            "math": 31,
+            "mathml": 31,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 24,
+                "content": 24,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 179,
+                "content": 179,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 12,
+                "content": 12,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 12,
+                "content": 12,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 65,
+                "content": 65,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 20,
+                "content": 20,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 20,
+                "content": 20,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 20,
+                "content": 20,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 98,
+                "content": 98,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 50,
+                "content": 50,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 174,
+                "content": 174,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 22,
+                "content": 22,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 115,
+                "content": 115,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 19,
+                "content": 19,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 110,
+                "content": 110,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 72,
+                "content": 72,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 25,
+                "content": 27,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 659,
+                "left": 0,
+                "right": 349,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          }
+        ],
+        "qualification": "Actual new private proofs after punctuation revision; not final whole-volume SSR/online acceptance."
+      },
+      "privateOriginalPageReviewSha256": "55c0e413d74db7d85470b3b2eccbc506ad73845b2b930a285dfea66803ee0ef1",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/016.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 17,
+      "cnPrintedPage": 2,
+      "section": "7",
+      "enPdfPages": [
+        19,
+        20
+      ],
+      "enPrintedPages": [
+        2,
+        3
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "91d529121f968b32e973a3503e0ab63b5d65f9a8cf3f410285012039914869c3",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "coveredRegions": [
+        "Bracketed L23/L24 provenance and asymptotic estimate.",
+        "Exact-cover/dancing-links discussion and all memory-access/MIP-year figures.",
+        "Equation2:32 bar values,16 pair endpoints and7-wide connection structure; redrawnSVG.",
+        "Both balance equalities, minimum-width claim and exercise7 reference.",
+        "Equation3 all32 integers, example count12016 and maximal weighted sum.",
+        "Equation4 both48-character strings, a..x mapping and final optimization paragraph."
+      ],
+      "substantiveCorrections": [
+        {
+          "section": "7",
+          "cnPrintedPage": 2,
+          "enPosition": "English printed3 / PDF20, paragraph above equation3",
+          "original": "可以证明，这个最大的可能值是5258.",
+          "final": "可以证明，这个最大的可能值是5268。",
+          "basis": "EN20 explicitly prints5268. CN17 and EN20 give the identical32-entry arrangement in equation3; direct integer summation of sum(k*a[k],k=1..32) equals5268, already exceeding5258.",
+          "qualification": "The example value is independently computed. The English source states global optimality; this check does not claim an independent proof of the global maximum or the count12016."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "Langford n=16 dancing-links cost",
+          "cn": "3500 memory accesses per pairing",
+          "en": "3200 memory accesses per pairing",
+          "decision": "Preserve Chinese3500; no common algorithm implementation/version or independent benchmark establishes that it is an error.",
+          "status": "source-version-disagreement-unresolved"
+        }
+      ],
+      "unverifiedPageRegions": [],
+      "numericChecks": {
+        "diagram2": {
+          "sequence": [
+            16,
+            6,
+            9,
+            15,
+            2,
+            3,
+            8,
+            2,
+            6,
+            3,
+            13,
+            10,
+            9,
+            12,
+            14,
+            8,
+            11,
+            16,
+            1,
+            15,
+            1,
+            5,
+            10,
+            7,
+            13,
+            4,
+            12,
+            5,
+            11,
+            14,
+            4,
+            7
+          ],
+          "pairs": {
+            "1": [
+              19,
+              21
+            ],
+            "2": [
+              5,
+              8
+            ],
+            "3": [
+              6,
+              10
+            ],
+            "4": [
+              26,
+              31
+            ],
+            "5": [
+              22,
+              28
+            ],
+            "6": [
+              2,
+              9
+            ],
+            "7": [
+              24,
+              32
+            ],
+            "8": [
+              7,
+              16
+            ],
+            "9": [
+              3,
+              13
+            ],
+            "10": [
+              12,
+              23
+            ],
+            "11": [
+              17,
+              29
+            ],
+            "12": [
+              14,
+              27
+            ],
+            "13": [
+              11,
+              25
+            ],
+            "14": [
+              15,
+              30
+            ],
+            "15": [
+              4,
+              20
+            ],
+            "16": [
+              1,
+              18
+            ]
+          },
+          "maxUnfinishedPairs": 7,
+          "weightSumLeft": 136,
+          "weightSumRight": 136,
+          "weightedSum": 4488,
+          "leverMomentLeft": 1059.0,
+          "leverMomentRight": 1059.0,
+          "qualification": "The input sequence and pair endpoints were read from CN17/EN20. Finite checks validate this arrangement and its displayed width, not global minimal width among all Langford pairings."
+        },
+        "arrangement3": {
+          "values": [
+            2,
+            3,
+            4,
+            2,
+            1,
+            3,
+            1,
+            4,
+            16,
+            13,
+            15,
+            5,
+            14,
+            7,
+            9,
+            6,
+            11,
+            5,
+            12,
+            10,
+            8,
+            7,
+            6,
+            13,
+            9,
+            16,
+            15,
+            14,
+            11,
+            8,
+            10,
+            12
+          ],
+          "weightedSum": 5268,
+          "pairDistancesVerified": true,
+          "qualification": "Achievable value verified, not a new global optimum/count proof."
+        },
+        "lexicographicExamples4": {
+          "strings": [
+            "abacbdecfgdoersfpgqtuwxvjklonhmirpsjqkhltiunmwvx",
+            "xvwsquntkigrdapaodgiknqsvxwutmrpohljcfbecbhmfejl"
+          ],
+          "lengthEach": 48,
+          "all24LabelsTwiceAndDistanceKPlus1": true,
+          "qualification": "Validity checked, not independent proof of lexicographic extremality."
+        },
+        "MIPYear": {
+          "secondsPerYear": 31556952,
+          "instructionsPerSecond": 1000000,
+          "product": 31556952000000
+        },
+        "claimLimits": [
+          "No independent proof of the globally minimal width7.",
+          "No independent proof of the global maximum5268 or its12016 arrangements.",
+          "No independent proof that the two n24 strings are lexicographic extrema."
+        ]
+      },
+      "images": [
+        {
+          "path": "assets/volume4a/figures/diagram-7-2-langford.svg",
+          "sha256": "378607af464e42eaea1475c58cbb3d8b8cbcfdbfdef3e0628efcd65dfa3d2851",
+          "sourceKind": "redrawn-structural-diagram",
+          "sourceEquationNumber": 2
+        }
+      ],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-017.png",
+      "sourcePageImageSha256": "e2ed327d26c56d27e1cb6adc44dea713b80e8707d999f5a60ced7f7b9a028959",
+      "enPageImages": [
+        {
+          "physicalPage": 19,
+          "file": "private-snapshot:volume4a/body-review/en-019.png",
+          "sha256": "d3ce3e83cf742cb9f51a65a6f87f2ed531fbf786f668e5d606ae1b7de45565be"
+        },
+        {
+          "physicalPage": 20,
+          "file": "private-snapshot:volume4a/body-review/en-020.png",
+          "sha256": "3440c60e815e9c85bc62b57a823f75851f9783ee2ded958056cc97ac44483431"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-017",
+        "p-2",
+        "eq-7-2"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated book/chapter headers and printed page number, retained as hidden anchor."
+      ],
+      "qualification": "Complete source-page model review, not human sign-off. Binding applies to this page and observed images only.",
+      "pending": [
+        "Final whole-volume inclusion",
+        "Cross-page reference targets",
+        "Whole-volume source/render/browser/online checks"
+      ],
+      "representationRevision": {
+        "kind": "explicit-Chinese-prose-sentence-punctuation",
+        "authorization": "Root task instructed consistent Chinese prose sentence ends with 。; source math/code/URLs/English bibliography punctuation stays unchanged.",
+        "oldPageMarkdownSha256": "b57c3ae670fbc685c0f456a1ba665f61ac84a2269f2cfa7cc8d2131a4c33de11",
+        "newPageMarkdownSha256": "91d529121f968b32e973a3503e0ab63b5d65f9a8cf3f410285012039914869c3",
+        "changedSentenceDots": 24,
+        "oldCodePointOffsets": [
+          157,
+          220,
+          246,
+          260,
+          300,
+          350,
+          437,
+          495,
+          561,
+          600,
+          630,
+          671,
+          761,
+          808,
+          837,
+          1133,
+          1253,
+          1323,
+          1339,
+          1345,
+          1464,
+          1640,
+          1912,
+          1955
+        ],
+        "allOtherCodePointsUnchanged": true,
+        "history": "private-snapshot:volume4a/verified-history/017-before-prose-punctuation-b57c3ae670fbc685c0f456a1ba665f61ac84a2269f2cfa7cc8d2131a4c33de11",
+        "qualification": "Presentation only, not an additional original-book correction. Old source-image review and old render evidence keep their original input hashes. New syntax/browser checks are recorded separately."
+      },
+      "syntaxCheck": {
+        "physicalPage": 17,
+        "markdownSha256": "91d529121f968b32e973a3503e0ab63b5d65f9a8cf3f410285012039914869c3",
+        "htmlSha256": "6372e31163fd95244ec998d9cb1cc2af661baaf0907973a9cff8f7cd7e7f11ca",
+        "mathExpressions": 28,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-16-17-18-19.json",
+        "sha256": "b0afdab07e77a883245fb6a3bd8aaff4a583f3da1c44c88048326a1f47a1d284",
+        "cases": [
+          {
+            "physicalPage": 17,
+            "width": 1280,
+            "markdownSha256": "91d529121f968b32e973a3503e0ab63b5d65f9a8cf3f410285012039914869c3",
+            "documentWidth": 1280,
+            "math": 28,
+            "mathml": 28,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 31,
+                "content": 33,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 31,
+                "content": 33,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 25,
+                "content": 27,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 116,
+                "content": 116,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 64,
+                "content": 64,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 31,
+                "content": 33,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 31,
+                "content": 33,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 76,
+                "content": 76,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 167,
+                "content": 167,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 31,
+                "content": 33,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 25,
+                "content": 27,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 68,
+                "content": 68,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 139,
+                "content": 139,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 64,
+                "content": 64,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 39,
+                "content": 41,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 196,
+                "content": 196,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 632,
+                "content": 632,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 338,
+                "content": 338,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 530,
+                "content": 530,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 155,
+                "content": 155,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 101,
+                "content": 103,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 89,
+                "content": 91,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 728,
+                "content": 803,
+                "left": 0,
+                "right": 75,
+                "reachable": true
+              },
+              {
+                "client": 64,
+                "content": 64,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 115,
+                "content": 115,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 133,
+                "content": 133,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 728,
+                "content": 728,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          },
+          {
+            "physicalPage": 17,
+            "width": 390,
+            "markdownSha256": "91d529121f968b32e973a3503e0ab63b5d65f9a8cf3f410285012039914869c3",
+            "documentWidth": 390,
+            "math": 28,
+            "mathml": 28,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 31,
+                "content": 33,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 31,
+                "content": 33,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 25,
+                "content": 27,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 116,
+                "content": 116,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 64,
+                "content": 64,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 31,
+                "content": 33,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 31,
+                "content": 33,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 76,
+                "content": 76,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 167,
+                "content": 167,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 31,
+                "content": 33,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 25,
+                "content": 27,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 68,
+                "content": 68,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 139,
+                "content": 139,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 64,
+                "content": 64,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 39,
+                "content": 41,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 196,
+                "content": 196,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 632,
+                "left": 0,
+                "right": 322,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 338,
+                "left": 0,
+                "right": 28,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 530,
+                "left": 0,
+                "right": 220,
+                "reachable": true
+              },
+              {
+                "client": 155,
+                "content": 155,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 101,
+                "content": 103,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 89,
+                "content": 91,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 803,
+                "left": 0,
+                "right": 493,
+                "reachable": true
+              },
+              {
+                "client": 64,
+                "content": 64,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 115,
+                "content": 115,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 133,
+                "content": 133,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 675,
+                "left": 0,
+                "right": 365,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          }
+        ],
+        "qualification": "Actual new private proofs after punctuation revision; not final whole-volume SSR/online acceptance."
+      },
+      "privateOriginalPageReviewSha256": "5bd747e0569d26e3f7837c748776190a8bfae6bd7160c6c022893c3113b338a0",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/017.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 18,
+      "cnPrintedPage": 3,
+      "section": "7",
+      "enPdfPages": [
+        20,
+        21,
+        22
+      ],
+      "enPrintedPages": [
+        3,
+        4,
+        5
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "12b64de033cc25c5569bd22b646c7b64d29629481c9f53dfb2bac0b9886ac491",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-018.png",
+      "sourcePageImageSha256": "95720b108aa74802d6abe8d69820d50385ad46c25fdf87c58d882313752b6991",
+      "enPageImages": [
+        {
+          "physicalPage": 20,
+          "file": "private-snapshot:volume4a/body-review/en-020.png",
+          "sha256": "3440c60e815e9c85bc62b57a823f75851f9783ee2ded958056cc97ac44483431"
+        },
+        {
+          "physicalPage": 21,
+          "file": "private-snapshot:volume4a/body-review/en-021.png",
+          "sha256": "19f47bfc0529e1bf7ac4fe7c5e1e1ee6450c7c08cb3a09e13ebd77aaf42be8e7"
+        },
+        {
+          "physicalPage": 22,
+          "file": "private-snapshot:volume4a/body-review/en-022.png",
+          "sha256": "26cae6b6f4599390cec5fa75c4eb112c05e67471dac8b532ad6aa1f7f0c22100"
+        }
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated book/chapter headers and printed page number, retained as hidden anchor."
+      ],
+      "qualification": "Complete original-page model comparison; not human sign-off or a proof of every historical/mathematical assertion. Per-page bindings do not imply final mother/site acceptance.",
+      "pending": [
+        "Final whole-volume inclusion",
+        "Cross-page continuity and reference targets",
+        "Whole-volume source/render/browser/online checks"
+      ],
+      "startsMidParagraph": false,
+      "endsMidParagraph": true,
+      "coveredRegions": [
+        "Orthogonal Latin-squares topic and complete Ozanam card challenge.",
+        "Euler36-officers story,1779/1771 dates,1782 bibliography and all listed construction orders.",
+        "Complete36 Latin/Greek officer labels and all4 rank/suit mappings.",
+        "Equation5 all48 array entries and their orthogonality/diagonal properties.",
+        "Lowercase latin terminology,Clausen/Schumacher/Gauss andTarry bibliographic/history paragraphs.",
+        "Beginning of Petersen/Wernicke/MacNeish references through Jahresbericht at physical-page boundary."
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [
+        {
+          "location": "Ozanam Recreations mathematiques et physiques volume4 citation",
+          "cn": "Paris:1723",
+          "en": "Paris:1725",
+          "decision": "Preserve Chinese1723. The two supplied editions disagree; no independent bibliographic evidence establishes an emendation.",
+          "status": "source-version-disagreement-unresolved"
+        }
+      ],
+      "numericChecks": {
+        "equation5": {
+          "latinRows": [
+            [
+              "d",
+              "a",
+              "b",
+              "c"
+            ],
+            [
+              "c",
+              "b",
+              "a",
+              "d"
+            ],
+            [
+              "a",
+              "d",
+              "c",
+              "b"
+            ],
+            [
+              "b",
+              "c",
+              "d",
+              "a"
+            ]
+          ],
+          "greekRowsASCII": [
+            [
+              "g",
+              "d",
+              "b",
+              "a"
+            ],
+            [
+              "b",
+              "a",
+              "g",
+              "d"
+            ],
+            [
+              "a",
+              "b",
+              "d",
+              "g"
+            ],
+            [
+              "d",
+              "g",
+              "a",
+              "b"
+            ]
+          ],
+          "greekASCIIMap": {
+            "a": "alpha",
+            "b": "beta",
+            "g": "gamma",
+            "d": "delta"
+          },
+          "eachArrayRowsColumnsMainDiagonalsDistinct": true,
+          "orderedPairsUnique": 16,
+          "rankMapping": {
+            "a": "A",
+            "b": "K",
+            "c": "Q",
+            "d": "J"
+          },
+          "suitMapping": {
+            "alpha": "clubs",
+            "beta": "spades",
+            "gamma": "diamonds",
+            "delta": "hearts"
+          }
+        }
+      },
+      "pageAnchors": [
+        "pdf-018",
+        "p-3"
+      ],
+      "continuation": {
+        "nextCnPdfPage": 19,
+        "lastText": "奥古斯特·韦尼克［Jahresbericht",
+        "kind": "bibliographic-title-split-across-page",
+        "nextPageBeginsWithFigureBeforeContinuingText": true,
+        "note": "Keep the page-level text bounded as observed; final assembly must join the bibliographic continuation without dropping the floating figure1."
+      },
+      "representationRevision": {
+        "kind": "explicit-Chinese-prose-sentence-punctuation",
+        "authorization": "Root task instructed consistent Chinese prose sentence ends with 。; source math/code/URLs/English bibliography punctuation stays unchanged.",
+        "oldPageMarkdownSha256": "e1511ef78f6cd41855ab618a24537d6d673d7513a2121ad596ea0a6997d1ee17",
+        "newPageMarkdownSha256": "12b64de033cc25c5569bd22b646c7b64d29629481c9f53dfb2bac0b9886ac491",
+        "changedSentenceDots": 27,
+        "oldCodePointOffsets": [
+          51,
+          74,
+          219,
+          277,
+          297,
+          341,
+          409,
+          439,
+          480,
+          717,
+          736,
+          782,
+          824,
+          911,
+          1227,
+          1268,
+          1287,
+          1336,
+          1421,
+          2051,
+          2091,
+          2150,
+          2193,
+          2253,
+          2269,
+          2432,
+          2468
+        ],
+        "allOtherCodePointsUnchanged": true,
+        "history": "private-snapshot:volume4a/verified-history/018-before-prose-punctuation-e1511ef78f6cd41855ab618a24537d6d673d7513a2121ad596ea0a6997d1ee17",
+        "qualification": "Presentation only, not an additional original-book correction. Old source-image review and old render evidence keep their original input hashes. New syntax/browser checks are recorded separately."
+      },
+      "syntaxCheck": {
+        "physicalPage": 18,
+        "markdownSha256": "12b64de033cc25c5569bd22b646c7b64d29629481c9f53dfb2bac0b9886ac491",
+        "htmlSha256": "0bb5fe587cda6ca706d3bf91ec36267be3cf356cf04c031176dee05d3c1ab72e",
+        "mathExpressions": 26,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-16-17-18-19.json",
+        "sha256": "b0afdab07e77a883245fb6a3bd8aaff4a583f3da1c44c88048326a1f47a1d284",
+        "cases": [
+          {
+            "physicalPage": 18,
+            "width": 1280,
+            "markdownSha256": "12b64de033cc25c5569bd22b646c7b64d29629481c9f53dfb2bac0b9886ac491",
+            "documentWidth": 1280,
+            "math": 26,
+            "mathml": 26,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 48,
+                "content": 48,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 369,
+                "content": 369,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 117,
+                "content": 117,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 173,
+                "content": 173,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 117,
+                "content": 117,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 728,
+                "content": 1151,
+                "left": 0,
+                "right": 423,
+                "reachable": true
+              },
+              {
+                "client": 135,
+                "content": 135,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 55,
+                "content": 55,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 55,
+                "content": 55,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 52,
+                "content": 52,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 60,
+                "content": 60,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 59,
+                "content": 59,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 59,
+                "content": 59,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 56,
+                "content": 56,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 728,
+                "content": 728,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 152,
+                "content": 152,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 48,
+                "content": 48,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 48,
+                "content": 48,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 173,
+                "content": 173,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          },
+          {
+            "physicalPage": 18,
+            "width": 390,
+            "markdownSha256": "12b64de033cc25c5569bd22b646c7b64d29629481c9f53dfb2bac0b9886ac491",
+            "documentWidth": 390,
+            "math": 26,
+            "mathml": 26,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 48,
+                "content": 48,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 369,
+                "left": 0,
+                "right": 59,
+                "reachable": true
+              },
+              {
+                "client": 117,
+                "content": 117,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 173,
+                "content": 173,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 117,
+                "content": 117,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 1151,
+                "left": 0,
+                "right": 841,
+                "reachable": true
+              },
+              {
+                "client": 135,
+                "content": 135,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 55,
+                "content": 55,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 55,
+                "content": 55,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 52,
+                "content": 52,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 60,
+                "content": 60,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 59,
+                "content": 59,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 59,
+                "content": 59,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 56,
+                "content": 56,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 702,
+                "left": 0,
+                "right": 392,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 152,
+                "content": 152,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 48,
+                "content": 48,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 48,
+                "content": 48,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 173,
+                "content": 173,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          }
+        ],
+        "qualification": "Actual new private proofs after punctuation revision; not final whole-volume SSR/online acceptance."
+      },
+      "privateOriginalPageReviewSha256": "cf09d6af841df419afaee66f5a0106f40c463cc868556731c7890ab51f3c0ebb",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/018.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 19,
+      "cnPrintedPage": 4,
+      "section": "7",
+      "enPdfPages": [
+        21,
+        22,
+        23
+      ],
+      "enPrintedPages": [
+        4,
+        5,
+        6
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "a2fab29c40a52de99b4855fc9da347a853847d0318d2ed3e25b44a54b4b35000",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-019.png",
+      "sourcePageImageSha256": "e7ad352d706f51f9e1fb48963227edc228eb60a63ca08eb0cfeb7cdc510d300f",
+      "enPageImages": [
+        {
+          "physicalPage": 21,
+          "file": "private-snapshot:volume4a/body-review/en-021.png",
+          "sha256": "19f47bfc0529e1bf7ac4fe7c5e1e1ee6450c7c08cb3a09e13ebd77aaf42be8e7"
+        },
+        {
+          "physicalPage": 22,
+          "file": "private-snapshot:volume4a/body-review/en-022.png",
+          "sha256": "26cae6b6f4599390cec5fa75c4eb112c05e67471dac8b532ad6aa1f7f0c22100"
+        },
+        {
+          "physicalPage": 23,
+          "file": "private-snapshot:volume4a/body-review/en-023.png",
+          "sha256": "065a630ddf0896dff2f653c00356f0938dd821c59b47cc419d8809a751ac3bc2"
+        }
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated book/chapter headers and printed page number, retained as hidden anchor."
+      ],
+      "qualification": "Complete original-page model comparison; not human sign-off or a proof of every historical/mathematical assertion. Per-page bindings do not imply final mother/site acceptance.",
+      "pending": [
+        "Final whole-volume inclusion",
+        "Cross-page continuity and reference targets",
+        "Whole-volume source/render/browser/online checks"
+      ],
+      "startsMidParagraph": true,
+      "endsMidParagraph": false,
+      "coveredRegions": [
+        "Formal figure1:complete4x4 card image,rank/suit placements and searchable caption.",
+        "Continuation of Wernicke andMacNeish references and unsettled Euler conjecture.",
+        "Paige/Tompkins1957SWAC experiment,5hours and4.8e11hour estimate.",
+        "Bose/Shrikhande/Parker construction theorem and all publication references.",
+        "Parkeremployment/idiom correction andUNIVAC1206 computation.",
+        "Equation6:all100Lentries and10x10M template with90blankcells."
+      ],
+      "substantiveCorrections": [
+        {
+          "section": "7",
+          "cnPrintedPage": 4,
+          "enPosition": "English printed5 / PDF22, final paragraph",
+          "original": "但是，帕克使用了UNIVAC，并很快把程序设计技巧引入图像处理，用一台UNIVAC1206军用计算机在一小时内解决了佩奇和汤普金斯求欧拉猜测反例的问题.",
+          "final": "但是，帕克供职于UNIVAC，并很快把程序设计技巧用于解决佩奇和汤普金斯的问题，用一台UNIVAC1206军用计算机在不到一小时内解决了求欧拉猜测反例的问题。",
+          "basis": "English explicitly says Parker worked for UNIVAC, an employer, and brought his programming skills into the picture, an idiom meaning into this problem, not image processing. The same sentence says in less than an hour. No image-processing operation occurs in the described orthogonal-Latin-square search."
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "numericChecks": {
+        "equation6": {
+          "L": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            [
+              1,
+              8,
+              3,
+              2,
+              5,
+              4,
+              7,
+              6,
+              9,
+              0
+            ],
+            [
+              2,
+              9,
+              5,
+              6,
+              3,
+              0,
+              8,
+              4,
+              7,
+              1
+            ],
+            [
+              3,
+              7,
+              0,
+              9,
+              8,
+              6,
+              1,
+              5,
+              2,
+              4
+            ],
+            [
+              4,
+              6,
+              7,
+              5,
+              2,
+              9,
+              0,
+              8,
+              1,
+              3
+            ],
+            [
+              5,
+              0,
+              9,
+              4,
+              7,
+              8,
+              3,
+              1,
+              6,
+              2
+            ],
+            [
+              6,
+              5,
+              4,
+              7,
+              1,
+              3,
+              2,
+              9,
+              0,
+              8
+            ],
+            [
+              7,
+              4,
+              1,
+              8,
+              0,
+              2,
+              9,
+              3,
+              5,
+              6
+            ],
+            [
+              8,
+              3,
+              6,
+              0,
+              9,
+              1,
+              5,
+              2,
+              4,
+              7
+            ],
+            [
+              9,
+              2,
+              8,
+              1,
+              6,
+              7,
+              4,
+              0,
+              3,
+              5
+            ]
+          ],
+          "LrowsAndColumnsArePermutationsOf0To9": true,
+          "Mrows": 10,
+          "Mcolumns": 10,
+          "MfixedFirstColumn": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "MblankCells": 90
+        }
+      },
+      "pageAnchors": [
+        "pdf-019",
+        "p-4",
+        "fig-7-1"
+      ],
+      "images": [
+        {
+          "path": "assets/volume4a/figures/fig-7-1-court-cards.png",
+          "sha256": "befd355896b3d04ab575eac1111bd37f62764b5c284755e6e5d7ed6ff6263293",
+          "kind": "original-source-artwork-crop",
+          "originalCnPdfPage": 19,
+          "pdfClipPoints": [
+            44,
+            74,
+            220,
+            336
+          ],
+          "renderScale": 4,
+          "pixels": [
+            704,
+            1048
+          ],
+          "reason": "Playing-card face artwork retained from original clear scan; rank and suit layout separately checked against equation5 and EN21."
+        }
+      ],
+      "continuation": {
+        "previousCnPdfPage": 18,
+        "firstText": "der Deutschen Math.-Vereinigung19(1910),264–267",
+        "firstBlockIsFloatingFigure": true,
+        "kind": "bibliographic-title-continuation-after-float"
+      },
+      "representationRevision": {
+        "kind": "explicit-Chinese-prose-sentence-punctuation",
+        "authorization": "Root task instructed consistent Chinese prose sentence ends with 。; source math/code/URLs/English bibliography punctuation stays unchanged.",
+        "oldPageMarkdownSha256": "cd24c51704c9447b5fa31982096315e9fceec7819109c92b93e14746f50d3912",
+        "newPageMarkdownSha256": "a2fab29c40a52de99b4855fc9da347a853847d0318d2ed3e25b44a54b4b35000",
+        "changedSentenceDots": 13,
+        "oldCodePointOffsets": [
+          293,
+          313,
+          340,
+          440,
+          496,
+          520,
+          585,
+          793,
+          825,
+          843,
+          927,
+          1001,
+          1043
+        ],
+        "allOtherCodePointsUnchanged": true,
+        "history": "private-snapshot:volume4a/verified-history/019-before-prose-punctuation-cd24c51704c9447b5fa31982096315e9fceec7819109c92b93e14746f50d3912",
+        "qualification": "Presentation only, not an additional original-book correction. Old source-image review and old render evidence keep their original input hashes. New syntax/browser checks are recorded separately."
+      },
+      "syntaxCheck": {
+        "physicalPage": 19,
+        "markdownSha256": "a2fab29c40a52de99b4855fc9da347a853847d0318d2ed3e25b44a54b4b35000",
+        "htmlSha256": "2f4a35b87000aed316c0065aec2fd09cc7504bb589ce093515439edac8f1a827",
+        "mathExpressions": 9,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-16-17-18-19.json",
+        "sha256": "b0afdab07e77a883245fb6a3bd8aaff4a583f3da1c44c88048326a1f47a1d284",
+        "cases": [
+          {
+            "physicalPage": 19,
+            "width": 1280,
+            "markdownSha256": "a2fab29c40a52de99b4855fc9da347a853847d0318d2ed3e25b44a54b4b35000",
+            "documentWidth": 1280,
+            "math": 9,
+            "mathml": 9,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 70,
+                "content": 70,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 70,
+                "content": 70,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 93,
+                "content": 93,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 70,
+                "content": 70,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 15,
+                "content": 15,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 24,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 728,
+                "content": 968,
+                "left": 0,
+                "right": 240,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          },
+          {
+            "physicalPage": 19,
+            "width": 390,
+            "markdownSha256": "a2fab29c40a52de99b4855fc9da347a853847d0318d2ed3e25b44a54b4b35000",
+            "documentWidth": 390,
+            "math": 9,
+            "mathml": 9,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 70,
+                "content": 70,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 70,
+                "content": 70,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 93,
+                "content": 93,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 53,
+                "content": 53,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 70,
+                "content": 70,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 15,
+                "content": 15,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 24,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 968,
+                "left": 0,
+                "right": 658,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          }
+        ],
+        "qualification": "Actual new private proofs after punctuation revision; not final whole-volume SSR/online acceptance."
+      },
+      "privateOriginalPageReviewSha256": "2de7bf903d0a9f460062f921b249dfdd65ada77f6108cb1a743a22be02be9c00",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/019.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 20,
+      "cnPrintedPage": 5,
+      "section": "7",
+      "enPdfPages": [
+        23,
+        24
+      ],
+      "enPrintedPages": [
+        6,
+        7
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "77ad755b63546f867dd53f7039f4c5060fca48d46ef889ea933f544d3f298259",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "coveredRegions": [
+        "First-column normalization and complete backtracking trial rows, including leading zero digits.",
+        "Search-tree size,memory-access estimate and source7.2.2reference.",
+        "Definition and complete count/distribution of808transversals, including0859734216example.",
+        "Exact-cover reformulation and equation7 all200L/Mmatrixentries.",
+        "All quoted computation costs/reduction factors and finalT1T2toT1+T2conclusion."
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [
+        {
+          "location": "Paragraph on estimating the backtracking search tree",
+          "cn": "在7.2.2节",
+          "en": "In Section7.2.3",
+          "decision": "Preserve the Chinese7.2.2reference. The English2011publication describes future material; do not assume unchanged section planning or build an unverified cross-volume link.",
+          "status": "source-version-disagreement-unresolved"
+        }
+      ],
+      "unverifiedPageRegions": [],
+      "numericChecks": {
+        "L": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          [
+            1,
+            8,
+            3,
+            2,
+            5,
+            4,
+            7,
+            6,
+            9,
+            0
+          ],
+          [
+            2,
+            9,
+            5,
+            6,
+            3,
+            0,
+            8,
+            4,
+            7,
+            1
+          ],
+          [
+            3,
+            7,
+            0,
+            9,
+            8,
+            6,
+            1,
+            5,
+            2,
+            4
+          ],
+          [
+            4,
+            6,
+            7,
+            5,
+            2,
+            9,
+            0,
+            8,
+            1,
+            3
+          ],
+          [
+            5,
+            0,
+            9,
+            4,
+            7,
+            8,
+            3,
+            1,
+            6,
+            2
+          ],
+          [
+            6,
+            5,
+            4,
+            7,
+            1,
+            3,
+            2,
+            9,
+            0,
+            8
+          ],
+          [
+            7,
+            4,
+            1,
+            8,
+            0,
+            2,
+            9,
+            3,
+            5,
+            6
+          ],
+          [
+            8,
+            3,
+            6,
+            0,
+            9,
+            1,
+            5,
+            2,
+            4,
+            7
+          ],
+          [
+            9,
+            2,
+            8,
+            1,
+            6,
+            7,
+            4,
+            0,
+            3,
+            5
+          ]
+        ],
+        "M": [
+          [
+            0,
+            2,
+            8,
+            5,
+            9,
+            4,
+            7,
+            3,
+            6,
+            1
+          ],
+          [
+            1,
+            7,
+            4,
+            9,
+            3,
+            6,
+            5,
+            0,
+            2,
+            8
+          ],
+          [
+            2,
+            5,
+            6,
+            4,
+            8,
+            7,
+            0,
+            1,
+            9,
+            3
+          ],
+          [
+            3,
+            6,
+            9,
+            0,
+            4,
+            5,
+            8,
+            2,
+            1,
+            7
+          ],
+          [
+            4,
+            8,
+            1,
+            7,
+            5,
+            3,
+            6,
+            9,
+            0,
+            2
+          ],
+          [
+            5,
+            1,
+            7,
+            8,
+            0,
+            2,
+            9,
+            4,
+            3,
+            6
+          ],
+          [
+            6,
+            9,
+            0,
+            2,
+            7,
+            1,
+            3,
+            8,
+            4,
+            5
+          ],
+          [
+            7,
+            3,
+            5,
+            1,
+            2,
+            0,
+            4,
+            6,
+            8,
+            9
+          ],
+          [
+            8,
+            0,
+            2,
+            3,
+            6,
+            9,
+            1,
+            7,
+            5,
+            4
+          ],
+          [
+            9,
+            4,
+            3,
+            6,
+            1,
+            8,
+            2,
+            5,
+            7,
+            0
+          ]
+        ],
+        "latinRowsColumnsChecked": true,
+        "uniqueOrderedPairs": 100,
+        "transversals": 808,
+        "byFirstColumnValue": [
+          79,
+          96,
+          76,
+          87,
+          70,
+          84,
+          83,
+          75,
+          95,
+          63
+        ],
+        "printedExample": {
+          "values": [
+            0,
+            8,
+            5,
+            9,
+            7,
+            3,
+            4,
+            2,
+            1,
+            6
+          ],
+          "rowIndices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            9,
+            8,
+            4,
+            7
+          ],
+          "valid": true
+        },
+        "reductionRatio": 1176470588235.2942,
+        "seconds": 0.154,
+        "qualification": "All808 transversals were independently enumerated and the displayed mate was checked. Global uniqueness of the normalized mate and quoted operation counts are source claims, not independently benchmarked or proved by this script."
+      },
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-020.png",
+      "sourcePageImageSha256": "9d6c83b3ca46afd38edb4550e4731cdf0617669e070cfc787f1ec58543452dc4",
+      "enPageImages": [
+        {
+          "physicalPage": 23,
+          "file": "private-snapshot:volume4a/body-review/en-023.png",
+          "sha256": "065a630ddf0896dff2f653c00356f0938dd821c59b47cc419d8809a751ac3bc2"
+        },
+        {
+          "physicalPage": 24,
+          "file": "private-snapshot:volume4a/body-review/en-024.png",
+          "sha256": "825b33ed6ed8924a1acf597c8c5ebab5cc816e98bcf5ceae69b1ab241a7ad7ce"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-020",
+        "p-5"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated book/chapter headers and printed page number, retained as hidden anchor."
+      ],
+      "qualification": "Complete source-page model review, not human sign-off or independent verification of quoted historical operation counts/global uniqueness. Binding applies to this page only.",
+      "pending": [
+        "Final whole-volume inclusion",
+        "Cross-volume reference verification",
+        "Whole-volume source/render/browser/online checks"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 20,
+        "markdownSha256": "77ad755b63546f867dd53f7039f4c5060fca48d46ef889ea933f544d3f298259",
+        "htmlSha256": "aa8ef68b869fd8b7af09b431c23c1da3e81b13de6d9a71569ebf52f8d3c0da2f",
+        "mathExpressions": 52,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-20.json",
+        "sha256": "2414b2472716098420f87d698d2aa78bb0a7f4c27901ce4fb4ec7b86c116422c",
+        "cases": [
+          {
+            "physicalPage": 20,
+            "width": 1280,
+            "markdownSha256": "77ad755b63546f867dd53f7039f4c5060fca48d46ef889ea933f544d3f298259",
+            "documentWidth": 1280,
+            "math": 52,
+            "mathml": 52,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 24,
+                "content": 24,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 91,
+                "content": 91,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 15,
+                "content": 15,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 24,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 48,
+                "content": 48,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 65,
+                "content": 65,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 24,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 93,
+                "content": 93,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 24,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 76,
+                "content": 76,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 15,
+                "content": 15,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 26,
+                "content": 26,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 15,
+                "content": 15,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 12,
+                "content": 12,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 12,
+                "content": 12,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 24,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 15,
+                "content": 15,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 149,
+                "content": 149,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 322,
+                "content": 322,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 15,
+                "content": 15,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 24,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 15,
+                "content": 15,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 728,
+                "content": 877,
+                "left": 0,
+                "right": 149,
+                "reachable": true
+              },
+              {
+                "client": 85,
+                "content": 85,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 76,
+                "content": 76,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 38,
+                "content": 38,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 38,
+                "content": 38,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 93,
+                "content": 93,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 43,
+                "content": 45,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 69,
+                "content": 71,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          },
+          {
+            "physicalPage": 20,
+            "width": 390,
+            "markdownSha256": "77ad755b63546f867dd53f7039f4c5060fca48d46ef889ea933f544d3f298259",
+            "documentWidth": 390,
+            "math": 52,
+            "mathml": 52,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 24,
+                "content": 24,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 91,
+                "content": 91,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 15,
+                "content": 15,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 24,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 48,
+                "content": 48,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 65,
+                "content": 65,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 24,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 93,
+                "content": 93,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 24,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 76,
+                "content": 76,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 15,
+                "content": 15,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 109,
+                "content": 109,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 26,
+                "content": 26,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 11,
+                "content": 11,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 15,
+                "content": 15,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 12,
+                "content": 12,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 12,
+                "content": 12,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 24,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 15,
+                "content": 15,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 149,
+                "content": 149,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 322,
+                "left": 0,
+                "right": 12,
+                "reachable": true
+              },
+              {
+                "client": 15,
+                "content": 15,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 24,
+                "content": 24,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 15,
+                "content": 15,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 877,
+                "left": 0,
+                "right": 567,
+                "reachable": true
+              },
+              {
+                "client": 85,
+                "content": 85,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 76,
+                "content": 76,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 38,
+                "content": 38,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 38,
+                "content": 38,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 93,
+                "content": 93,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 43,
+                "content": 45,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              },
+              {
+                "client": 69,
+                "content": 71,
+                "left": 0,
+                "right": 2,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          }
+        ],
+        "qualification": "Actual private individual-page proofs, not final whole-volume SSR/online acceptance."
+      },
+      "privateOriginalPageReviewSha256": "47c3b88fd3b7457a302d9d7f98264ec995b60dae9dde258b5ee122801e4658c2",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/020.json"
+    }
+  ],
+  "qualification": "These five full Chinese pages only. Model original-image comparisons, finite recomputation and private direct-render/browser checks; not human sign-off or final master/SSR/site deployment acceptance."
+}

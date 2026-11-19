@@ -1,0 +1,49 @@
+{
+  "scope": "Actual question/CN answer/official historical replacement read and one original-domain x0/yall1-byte counterexample, with direct word arithmetic and independent per-byte max/min. Not exhaustive correction verification or MMIX execution.",
+  "sourceImages": [
+    {
+      "file": "private-snapshot:volume3/chapter6-work/external-review-4a/en-209.png",
+      "sha256": "d6029814ba5fa385feee4c8d6e782a500b771928a9c1e00cd4ee07be720c5a66"
+    },
+    {
+      "file": "private-snapshot:volume3/chapter6-work/external-review-4a/official-all4a-pre-027.png",
+      "sha256": "94c0c41b36af2d0e43d97346ce176f3cf960d6771717397d7304450b95349dfb"
+    },
+    {
+      "file": "private-snapshot:volume4a/scans/514.jpg",
+      "sha256": "e309933ac676f44f31ca2da620765eadb0d012c35ee72807d6aa23b966e58443"
+    }
+  ],
+  "actualSourceRead": true,
+  "questionDomain": "EN209 print192 exercise98: arbitraryoctabytes x,y with bytes0..255; z_j=max(x_j,y_j),w_j=min(x_j,y_j). No exclusion of0/1 bytes.",
+  "sourceAnswer": "CN514 print499 and officialall4a-prephysical27/printed27 dated2016-06-30 both explicitly print second t expansion (t-(t>>1))+t. The first shift is also1 and is unchanged by the candidate.",
+  "officialQualification": "The historical official page itself prints1, not7; its adjacent explanatory y_y is also literal original typography. This receipt does not call7 an official erratum.",
+  "input": {
+    "h": "8080808080808080",
+    "x": "0000000000000000",
+    "y": "0101010101010101"
+  },
+  "independentExpected": {
+    "z": "0101010101010101",
+    "w": "0000000000000000"
+  },
+  "wordArithmeticTraces": [
+    {
+      "expansionShift": 1,
+      "firstT": "8080808080808080",
+      "expandedT": "c0c0c0c0c0c0c0c0",
+      "v": "0000000000000000",
+      "z": "0000000000000000",
+      "w": "0101010101010101"
+    },
+    {
+      "expansionShift": 7,
+      "firstT": "8080808080808080",
+      "expandedT": "ffffffffffffffff",
+      "v": "0101010101010101",
+      "z": "0101010101010101",
+      "w": "0000000000000000"
+    }
+  ],
+  "conclusion": "The original expansion gives only high two bits per byte, misses every input1 bit and produces z0,w1 contrary to max1/min0. No domain premise or byte order interpretation rescues this repeated-byte case. Replacing only the second shift1 by7 yields the required result for this example; candidate general correctness is not asserted here."
+}

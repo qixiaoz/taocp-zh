@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": "bb25d9dbb1d0252e5309b3e48cd50a890ff5673ec609a08d76618432207399f1",
+  "scope": "Current complete continuous offline proof and full source-content comparison after actual Chrome box-border repair. Selected real-browser observations have a separate record.",
+  "renderer": {
+    "schemaVersion": 1,
+    "sourceSha256": "bb25d9dbb1d0252e5309b3e48cd50a890ff5673ec609a08d76618432207399f1",
+    "htmlSha256": "8b8345a33b0f3ab8581d59b99970788f9482f2ca57c5c282eca699ef70eb81b6",
+    "pandocVersion": "pandoc 3.9.0.2",
+    "mathml": 45488,
+    "warnings": 0,
+    "duplicateIds": [],
+    "missingImages": [],
+    "unresolvedFragments": [],
+    "qualification": "Offline proof for this exact source. Unresolved answer fragments are expected only for explicitly partial section proofs; they must be zero for a complete-volume proof.",
+    "rawHtmlBlocksRenderedUsingProduction": 10946,
+    "writerTextPresentationRepairs": [
+      {
+        "original": "↔︎",
+        "sourceExact": "↔",
+        "count": 15,
+        "reason": "Generated arrow presentation selector only; original source has no arrow-plus-U+FE0E sequence. All pre-existing dice/text presentation selectors remain unchanged; no general punctuation normalization."
+      },
+      {
+        "original": "↩︎",
+        "sourceExact": "↩",
+        "count": 51,
+        "reason": "Generated arrow presentation selector only; original source has no arrow-plus-U+FE0E sequence. All pre-existing dice/text presentation selectors remain unchanged; no general punctuation normalization."
+      }
+    ],
+    "originalNonArrowPresentationSelectorsPreserved": 345,
+    "rawHtmlMathExpressions": 1407,
+    "rawHtmlMethod": "Disable Pandoc markdown_in_html_blocks; render complete original HTML blocks with actual configured production rules before writing them as atomic raw HTML. Keeps cross-cell brackets and all original fields.",
+    "nativeFirstPassWarnings": 146,
+    "nativeMathmlExpressions": 42947,
+    "nativeScrollContainers": 44081,
+    "printedEquationTagsPreservedByKatex": 837,
+    "boxedFormulasPreservedByKatex": 159,
+    "fragmentNavigationRevealsSkippedSections": "CSS section:has(:target),section:target; no added navigation script",
+    "sourceParsingEscapes": [],
+    "preparedPandocInputSha256": "bb25d9dbb1d0252e5309b3e48cd50a890ff5673ec609a08d76618432207399f1",
+    "pandocReader": "markdown+tex_math_dollars+raw_html+intraword_underscores-implicit_figures-fancy_lists-smart-blank_before_header-markdown_in_html_blocks-native_divs-native_spans",
+    "difficultyNavigationEscapes": [],
+    "sourceBytesUnchangedAfterRender": true
+  },
+  "compatibilityChangeCount": 912,
+  "katexFallbackCount": 1134,
+  "boxedFormulaCount": 159,
+  "comparison": {
+    "sourceSha256": "bb25d9dbb1d0252e5309b3e48cd50a890ff5673ec609a08d76618432207399f1",
+    "offlineHtmlSha256": "8b8345a33b0f3ab8581d59b99970788f9482f2ca57c5c282eca699ef70eb81b6",
+    "rendererSha256": "66582b047b943f9bdcca09323b452b1e9221162f1d87430eaa74f57ad6d5e884",
+    "method": "Use configured website markdown-it renderer with bookDirectHTML:true and replace only its math token renderers by empty placeholders. Strip exact math/UI footnote/permalink classes, compare all remaining visible text with whitespace runs normalized, and mark code positions while comparing code itself independently.",
+    "mathTokens": 45488,
+    "expectedMathShouldBe": 45488,
+    "removedMathElements": {
+      "expected": 45488,
+      "actual": 93244
+    },
+    "strictVisibleTextEqual": true,
+    "visibleTextDifference": null,
+    "math": {
+      "expected": 45488,
+      "actual": 45488,
+      "sequenceEqual": true,
+      "multisetEqual": true,
+      "missing": 0,
+      "extra": 0
+    },
+    "images": {
+      "expected": 628,
+      "actual": 628,
+      "sequenceEqual": true
+    },
+    "code": {
+      "expectedPre": 111,
+      "actualPre": 111,
+      "strictBlocksEqual": true,
+      "blocksEqualAfterOptionalSingleTerminalLf": true,
+      "expectedInline": 2142,
+      "actualInline": 2142,
+      "inlineEqual": true
+    },
+    "paragraphPunctuationNormalization": "none; only whitespace runs normalized. If smart typography differs, inspect exact changes separately rather than ignoring all punctuation.",
+    "qualification": "Current frozen native offline proof only. Mathematical equivalence/render correctness and responsive UI are separate checks."
+  },
+  "writerSourceSha256": "7f9848ddec8dc74ae1d12d0b4e32845e31e857917305b743d8ddd37746c20759",
+  "evidence": [
+    {
+      "checkpoint": "volume4a-offline.json",
+      "sha256": "9532b4509aa2fcb83c1a2a01fa5a992fa86010e0e587c55f00f3cff7af43aaec"
+    },
+    {
+      "checkpoint": "comparison-initial.json",
+      "sha256": "6e1aa24b1f3c48eebe22cf57037be565734f1bf26ef4f6a265514e943be62c92"
+    },
+    {
+      "checkpoint": "volume4a-offline.html",
+      "sha256": "8b8345a33b0f3ab8581d59b99970788f9482f2ca57c5c282eca699ef70eb81b6"
+    }
+  ],
+  "boxBorderAdjustment": {
+    "priorHtmlSha256": "c6a101dfd83c62bae7bbf58e0e4de7764e6982dbab0c724db161997d90ed88f0",
+    "intermediateHtmlSha256": "e5e30db4919915f26d7f63eebf2bdca9e9e1719e01ea1effd84300910446d088",
+    "currentHtmlSha256": "8b8345a33b0f3ab8581d59b99970788f9482f2ca57c5c282eca699ef70eb81b6",
+    "priorProofSummarySha256": "6cc646728484cf9e5051332fafc9ec477a3e8ade7276849d29d07b676256baac",
+    "reason": "Chrome did not paint original native MathML menclose box borders in the observed 42-box long expression. Use the already installed KaTeX HTML+MathML renderer for all 159 original boxed-formula inputs, including unbraced digit arguments. Full original TeX and source bytes remain unchanged; 227 box objects are preserved.",
+    "newBrowserConfirmation": "Recorded separately, not inferred from this static comparison."
+  },
+  "qualification": "All 45488 TeX items match after declared presentation compatibility; all nonmath prose and punctuation compare exactly except whitespace runs, all 111 code blocks byte exact, 2142 inline codes and 628 image occurrences match. Old and intermediate evidence keeps its own HTML hashes."
+}

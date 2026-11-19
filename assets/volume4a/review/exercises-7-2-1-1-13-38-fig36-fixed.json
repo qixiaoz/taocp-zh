@@ -1,0 +1,528 @@
+{
+  "scope": "Finite fixed examples, four-bit figure leaf topology and exercise answer-anchor presence only. No general exercise solution or production navigation claim.",
+  "pageMarkdownHashes": {
+    "272": "642b3f802143692249fa57ed615a59c3050f35bcef60cb187ab9acc3bbfa8760",
+    "273": "0d80f6106c5e5c0eb2ba81f2ae4e92c18c838525aabf0f136772f742c4520671",
+    "274": "32280c8b67f532934d2721d981f900ceeb5ea7bad9206ed1dcf136ea71146f52"
+  },
+  "Karnaugh": {
+    "rows": [
+      [
+        "0000",
+        "0001",
+        "0011",
+        "0010"
+      ],
+      [
+        "0100",
+        "0101",
+        "0111",
+        "0110"
+      ],
+      [
+        "1100",
+        "1101",
+        "1111",
+        "1110"
+      ],
+      [
+        "1000",
+        "1001",
+        "1011",
+        "1010"
+      ]
+    ],
+    "cyclicDirectionsChecked": 64
+  },
+  "octacode": {
+    "words": 256,
+    "distanceHistogram": {
+      "6": 14336,
+      "8": 3840,
+      "10": 14336,
+      "16": 128
+    },
+    "weightPolynomial": [
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          8
+        ],
+        "multiplicity": 1
+      },
+      {
+        "powers": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "multiplicity": 1
+      },
+      {
+        "powers": [
+          0,
+          4,
+          0,
+          4
+        ],
+        "multiplicity": 14
+      },
+      {
+        "powers": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "multiplicity": 1
+      },
+      {
+        "powers": [
+          1,
+          1,
+          3,
+          3
+        ],
+        "multiplicity": 56
+      },
+      {
+        "powers": [
+          1,
+          3,
+          3,
+          1
+        ],
+        "multiplicity": 56
+      },
+      {
+        "powers": [
+          3,
+          1,
+          1,
+          3
+        ],
+        "multiplicity": 56
+      },
+      {
+        "powers": [
+          3,
+          3,
+          1,
+          1
+        ],
+        "multiplicity": 56
+      },
+      {
+        "powers": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "multiplicity": 14
+      },
+      {
+        "powers": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "multiplicity": 1
+      }
+    ],
+    "exercise20Input": "1100100100001111",
+    "nearestCodeword": [
+      "1100110000001111"
+    ],
+    "closestBitDistance": 2
+  },
+  "clusters": {
+    "pattern": "**10**0*",
+    "clusterStarts": [
+      48,
+      54,
+      62,
+      70,
+      78,
+      176,
+      182,
+      190,
+      198,
+      206
+    ],
+    "clusterCount": 10
+  },
+  "figure": {
+    "file": "assets/volume4a/figures/fig-7-36-gray-binary-tries.svg",
+    "sha256": "414972100619b1124f833023a576dd55747c9a72f5493ac926e15695d6253e6b",
+    "enPdfPage": 327,
+    "sourceBounds": [
+      [
+        115,
+        528,
+        364,
+        588
+      ]
+    ],
+    "nativePaths": 36,
+    "sourceDirectlyCompared": true,
+    "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+    "normalLeafOrder": [
+      "00**",
+      "010*",
+      "011*",
+      "100*",
+      "1010",
+      "1011",
+      "11**"
+    ],
+    "grayLeafOrder": [
+      "00**",
+      "011*",
+      "010*",
+      "11**",
+      "1010",
+      "1011",
+      "100*"
+    ],
+    "fourDimensionalSubcubes": {
+      "00**": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "010*": [
+        4,
+        5
+      ],
+      "011*": [
+        6,
+        7
+      ],
+      "100*": [
+        8,
+        9
+      ],
+      "1010": [
+        10
+      ],
+      "1011": [
+        11
+      ],
+      "11**": [
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "exercise27S2": [
+    "1/3",
+    "3/7",
+    "3/5",
+    "1"
+  ],
+  "exercise28Medians": [
+    "0100",
+    "0110"
+  ],
+  "grayFieldFixedWidths": {
+    "2": 3,
+    "3": 7,
+    "5": 31,
+    "6": 63
+  },
+  "f3": [
+    1,
+    6,
+    2,
+    3,
+    5,
+    7,
+    4
+  ],
+  "f4FixedPoint": "1011",
+  "exerciseLinks": {
+    "272": [
+      {
+        "q": 13,
+        "grade": "21",
+        "recommended": false,
+        "privateAnswerPage": 584
+      },
+      {
+        "q": 14,
+        "grade": "20",
+        "recommended": false,
+        "privateAnswerPage": 584
+      },
+      {
+        "q": 15,
+        "grade": "25",
+        "recommended": true,
+        "privateAnswerPage": 584
+      },
+      {
+        "q": 16,
+        "grade": "23",
+        "recommended": false,
+        "privateAnswerPage": 585
+      },
+      {
+        "q": 17,
+        "grade": "20",
+        "recommended": false,
+        "privateAnswerPage": 585
+      },
+      {
+        "q": 18,
+        "grade": "20",
+        "recommended": true,
+        "privateAnswerPage": 585
+      },
+      {
+        "q": 19,
+        "grade": "23",
+        "recommended": false,
+        "privateAnswerPage": 585
+      }
+    ],
+    "273": [
+      {
+        "q": 20,
+        "grade": "M36",
+        "recommended": false,
+        "privateAnswerPage": 585
+      },
+      {
+        "q": 21,
+        "grade": "M30",
+        "recommended": false,
+        "privateAnswerPage": 586
+      },
+      {
+        "q": 22,
+        "grade": "22",
+        "recommended": true,
+        "privateAnswerPage": 586
+      },
+      {
+        "q": 23,
+        "grade": "20",
+        "recommended": false,
+        "privateAnswerPage": 586
+      },
+      {
+        "q": 24,
+        "grade": "M21",
+        "recommended": false,
+        "privateAnswerPage": 586
+      },
+      {
+        "q": 25,
+        "grade": "M25",
+        "recommended": true,
+        "privateAnswerPage": 586
+      },
+      {
+        "q": 26,
+        "grade": "25",
+        "recommended": false,
+        "privateAnswerPage": 586
+      },
+      {
+        "q": 27,
+        "grade": "20",
+        "recommended": true,
+        "privateAnswerPage": 586
+      }
+    ],
+    "274": [
+      {
+        "q": 28,
+        "grade": "M27",
+        "recommended": false,
+        "privateAnswerPage": 586
+      },
+      {
+        "q": 29,
+        "grade": "M24",
+        "recommended": false,
+        "privateAnswerPage": 587
+      },
+      {
+        "q": 30,
+        "grade": "M27",
+        "recommended": true,
+        "privateAnswerPage": 587
+      },
+      {
+        "q": 31,
+        "grade": "HM35",
+        "recommended": false,
+        "privateAnswerPage": 587
+      },
+      {
+        "q": 32,
+        "grade": "M20",
+        "recommended": false,
+        "privateAnswerPage": 587
+      },
+      {
+        "q": 33,
+        "grade": "M20",
+        "recommended": true,
+        "privateAnswerPage": 587
+      },
+      {
+        "q": 34,
+        "grade": "M21",
+        "recommended": false,
+        "privateAnswerPage": 588
+      },
+      {
+        "q": 35,
+        "grade": "HM23",
+        "recommended": false,
+        "privateAnswerPage": 588
+      },
+      {
+        "q": 36,
+        "grade": "21",
+        "recommended": false,
+        "privateAnswerPage": 588
+      },
+      {
+        "q": 37,
+        "grade": "HM23",
+        "recommended": false,
+        "privateAnswerPage": 588
+      },
+      {
+        "q": 38,
+        "grade": "M25",
+        "recommended": true,
+        "privateAnswerPage": 588
+      }
+    ]
+  },
+  "script": {
+    "file": "private-snapshot:volume4a/body-review/tools/check-272-274-source-examples.py",
+    "sha256": "52e39615fdfea7ec261464b962bd0eb686be9d067d2edee8d103580a31145741"
+  },
+  "supplementalBrowserChecks": [
+    {
+      "file": "private-snapshot:volume4a/body-review/links-273.json",
+      "sha256": "c269347e82ca29c10ac54af7a7bdce415691f975306403e69e06538ffefeaa7c",
+      "record": {
+        "scope": "Actual linked original image opening and back navigation in current private proofs. No published route or separate whole-page cases.",
+        "pageMarkdownHashes": {
+          "273": "0d80f6106c5e5c0eb2ba81f2ae4e92c18c838525aabf0f136772f742c4520671"
+        },
+        "cases": [
+          {
+            "physicalPage": 273,
+            "width": 1280,
+            "images": [
+              {
+                "file": "assets/volume4a/figures/fig-7-36-gray-binary-tries.svg",
+                "sha256": "414972100619b1124f833023a576dd55747c9a72f5493ac926e15695d6253e6b",
+                "openedVisible": true,
+                "returned": true
+              }
+            ]
+          },
+          {
+            "physicalPage": 273,
+            "width": 390,
+            "images": [
+              {
+                "file": "assets/volume4a/figures/fig-7-36-gray-binary-tries.svg",
+                "sha256": "414972100619b1124f833023a576dd55747c9a72f5493ac926e15695d6253e6b",
+                "openedVisible": true,
+                "returned": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "file": "private-snapshot:volume4a/body-review/wide-272-273-274.json",
+      "sha256": "a5b392e6f00607096b2ab6862e1e8bac55f771350236b0283fc4d425c38191ae",
+      "record": {
+        "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate.",
+        "pageMarkdownHashes": {
+          "272": "642b3f802143692249fa57ed615a59c3050f35bcef60cb187ab9acc3bbfa8760",
+          "273": "0d80f6106c5e5c0eb2ba81f2ae4e92c18c838525aabf0f136772f742c4520671",
+          "274": "32280c8b67f532934d2721d981f900ceeb5ea7bad9206ed1dcf136ea71146f52"
+        },
+        "records": [
+          {
+            "physicalPage": 272,
+            "width": 1280,
+            "index": 35,
+            "tag": null,
+            "client": 728,
+            "total": 780,
+            "scrollLeft": 52,
+            "file": "private-snapshot:volume4a/verified-render/272-1280-wide-35-2.png",
+            "sha256": "7aa9fc170c7430a2a30086d06bd34a18da4c964be3b41f51dd659646dda10110"
+          },
+          {
+            "physicalPage": 272,
+            "width": 1280,
+            "index": 51,
+            "tag": null,
+            "client": 728,
+            "total": 795,
+            "scrollLeft": 67,
+            "file": "private-snapshot:volume4a/verified-render/272-1280-wide-51-2.png",
+            "sha256": "f03e1ecf1dadede78be6be81bde533f606656d3e29e0ecd2f09bb0ca5096554e"
+          },
+          {
+            "physicalPage": 272,
+            "width": 390,
+            "index": 35,
+            "tag": null,
+            "client": 310,
+            "total": 780,
+            "scrollLeft": 235,
+            "file": "private-snapshot:volume4a/verified-render/272-390-wide-35-1.png",
+            "sha256": "51480a7ceb024b442ccbcba770e4b95cc5cd5eaa9b4cbdefd817edd3a205b7d3"
+          },
+          {
+            "physicalPage": 272,
+            "width": 390,
+            "index": 51,
+            "tag": null,
+            "client": 310,
+            "total": 795,
+            "scrollLeft": 243,
+            "file": "private-snapshot:volume4a/verified-render/272-390-wide-51-1.png",
+            "sha256": "c800cc484a50ab1bd118917d7268cfee8b8e222ea2ab1d1bd1286c3f6a6e045e"
+          },
+          {
+            "physicalPage": 274,
+            "width": 390,
+            "index": 35,
+            "tag": null,
+            "client": 310,
+            "total": 706,
+            "scrollLeft": 198,
+            "file": "private-snapshot:volume4a/verified-render/274-390-wide-35-1.png",
+            "sha256": "116482a204196bd32f991fb5c3e6f1a2e0189968d82dadf4bb7220f804cdcb4b"
+          }
+        ]
+      }
+    }
+  ],
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+}

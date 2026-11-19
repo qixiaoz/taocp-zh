@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "two-complete-source-pages-decoder-counting-proof-prime-example",
+  "cnPhysicalPages": [
+    104,
+    105
+  ],
+  "cnPrintedPages": [
+    89,
+    90
+  ],
+  "masterSha256": null,
+  "mathExpressions": 146,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 3,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.2",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 104,
+      "cnPrintedPage": 89,
+      "enPdfPages": [
+        126,
+        127
+      ],
+      "enPrintedPages": [
+        109,
+        110
+      ],
+      "pageMarkdownSha256": "153113a071fc71b906a11a40ba1e8cb799ea8548203901da2f78abc80fe50864",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-104.png",
+      "sourcePageImageSha256": "c892f5d76504a3ec7823f8236c6ba1f229b9f9df427126db74666e8ac85c58be",
+      "enPageImages": [
+        {
+          "physicalPage": 126,
+          "file": "private-snapshot:volume4a/body-review/en-126.png",
+          "sha256": "c0a5fc1e6d3e1846c9880609521be440c8d783b3b0dbfb610b5f0c17dd77ca8e"
+        },
+        {
+          "physicalPage": 127,
+          "file": "private-snapshot:volume4a/body-review/en-127.png",
+          "sha256": "7df4c64f699b16d3058fb86ea1a1e9b892fcdbb8cf70760f91c3e621f2268efa"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-104",
+        "p-89"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed page number, retained as hidden page anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 89,
+          "location": "After31decoderportrole",
+          "enPosition": "EN126/printed109immediatelyafter31",
+          "original": "第k个输入",
+          "final": "第k个输出",
+          "basis": "ProvidedEnglish explicitly kth output,consistent with decoded d0..d(2^m-1)outputvector andindex-choicefunction. Restore input/output role,formula31 unchanged."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "Multiplexerseealso reference",
+          "selectedCN": "Exercise78",
+          "providedOldEnglish": "Exercise79",
+          "officialReportedDate": "2014-01-03",
+          "officialSource": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentVersionDate": "2023-02-09",
+            "documentPage": 9,
+            "sourceImage": "private-snapshot:volume4a/body-review/official-pre-page9-m-index.png",
+            "sourceImageSha256": "ef98632a631a4e88ad613da4b286deeb310a4b202cdbe21ca8a4c360cfb65be6"
+          },
+          "disposition": "SelectedCNalreadyauthorcorrectedreference,do not revertoldEN."
+        }
+      ],
+      "figureAssets": [],
+      "pending": [
+        "Finalwhole-volumeinclusion",
+        "Finaloffline/production/browser/onlineacceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 104,
+        "markdownSha256": "153113a071fc71b906a11a40ba1e8cb799ea8548203901da2f78abc80fe50864",
+        "htmlSha256": "e9efd46bac5bc4b677f66419e3673ed4088cefbae098f10dd217e053b09c757d",
+        "mathExpressions": 74,
+        "displayMath": 4,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-104-105.json",
+        "sha256": "f6099b8a5d66bc985fb6662b4c093d7b7c81278613b615bb34e485335dd06dd6",
+        "cases": [
+          {
+            "physicalPage": 104,
+            "width": 1280,
+            "markdownSha256": "153113a071fc71b906a11a40ba1e8cb799ea8548203901da2f78abc80fe50864",
+            "documentWidth": 1280,
+            "math": 74,
+            "mathml": 74,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 75,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 104,
+            "width": 390,
+            "markdownSha256": "153113a071fc71b906a11a40ba1e8cb799ea8548203901da2f78abc80fe50864",
+            "documentWidth": 390,
+            "math": 74,
+            "mathml": 74,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 75,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Onlyexactunchanged104subsetofold104/105execution,explicitlyexcludeold105wrongcolumn-parenthesesdraft,notnew104execution. Source equations/inequalitydirection/inversepermutationminusnotation/sixclauses/nakedcolumntypes/matrixbits compared; no assembled/offline/online acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/104-1280.png",
+          "sha256": "35c78a43da6b6b4b2784fa2972a9eea0adf76f46ca4da1fea7ef3a4a18b13f5c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/104-390.png",
+          "sha256": "72f75a72ece99fe0de4b619620099876e858f1ee5a76f5ba1cfefdac9eb7eb9d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/104-390-right.png",
+          "sha256": "da9115175f1307392e381f8be07e12fa7231b7a32672a4b04bdaba39ff8a4743",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/permutation-prime-example-104-105.json",
+        "sha256": "8fed230b1e21ce0bc888caefdf5d171f2ff53cb70515c5363eb0dd84c990e778",
+        "scope": "Only original6steppermutation16inputs/96renamingvalues/fixedprime64numbers/128tablebits/sixDNFrectangles;notgeneralcounting or asymptoticproof."
+      },
+      "qualification": "Complete model direct CN/EN physical-page source and current render comparison. Three minimum source translation repairs registered, source bound32 remains inequality. Initial105transcriptionincorrectlyintroducedbinomialparenthesesaroundcolumn types,keptunacceptedhistoryandfreshproofedafterrestoringunbracketed2rowcolumns. General source proofs compared without newly claiming independentproof. No master/offline/wholevolume/online acceptance.",
+      "coveredRegions": [
+        "Whole n-to2^n decoder/one-hotvector/allceil/floor splits/recurrence30t0t1base/n>=2/asymptote.",
+        "Whole m-bit storageaccess/m+2^m inputs/31fullORbounds/dkoutputrole/cost3n and2n upperbounds/reference78chosenCN.",
+        "TheoremSall32factorials/exponents/inequality/countconditions/sourceproofr-1tor/newlastselfAND/normalizationandpermutationsetup.",
+        "Full33bothinverse-π superscriptminus/currentsourceconvention/pi1..n,n+rfixed/originalproofdistinctness assumption.",
+        "All12editable34chainfields/5->6->7->8->9->5cycle/indexrenaming,notMpartialtable."
+      ],
+      "ocrRepairsOfNote": [
+        "30 firstceil(n/2),secondfloor(n/2),notbothmachineambiguousbrackets.",
+        "Allc/n/r ordinary,32factorial(r-1),2r+1exponentand2rpowerexact.",
+        "33inverseπsuperscriptminus preservedassource,notlostminus;parentheticala=bπminus.",
+        "34original6lines/permuted6linesallpresent,actualbaronlyfinalrightoperand."
+      ],
+      "proofs": [
+        {
+          "theorem": "S",
+          "startsHere": true,
+          "completeAfterThisPage": false,
+          "continuesAtCnPhysicalPage": 105
+        }
+      ],
+      "followingPageContinuation": "104endscomplete34exampletable,TheoremSproofcontinuesat105newparagraph. No duplicatedtable/insertioninsideformula.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/104-selected-cn-before-translation-repairs-51aa0bc66a69ca78fcc873f5ed4f5172320738f3004a817dda27ecedc1f6999a/104.md",
+        "sha256": "51aa0bc66a69ca78fcc873f5ed4f5172320738f3004a817dda27ecedc1f6999a",
+        "qualification": "Reconstructednormalizedselected-CNbeforetranslationrepairs,notanoldacceptedrenderedproof;column-types remain correct naked source stacks."
+      },
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-104-decoder-output-detail.png",
+          "sha256": "19b0206908e6f0bef5e49891522de3d5dddf1fb8b702c57b0f2080a8cabbbafe"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-126-decoder-output-full-detail.png",
+          "sha256": "4a291a902ad7d7c2b14426d0dc2ef7d9c726a0331b3c16437420eb2122129880"
+        }
+      ],
+      "privateOriginalPageReviewSha256": "da37e9ea6c95fb025471963fff4866ca746851fd80894e8a9550305268d1c784",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/104.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.2",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 105,
+      "cnPrintedPage": 90,
+      "enPdfPages": [
+        127,
+        128
+      ],
+      "enPrintedPages": [
+        110,
+        111
+      ],
+      "pageMarkdownSha256": "f03f19cb70d8f179b522314b05503bf0f6829e3587c7975a17f85e506756e6bb",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-105.png",
+      "sourcePageImageSha256": "3ef5c48f24926441136efa77c32cf115a4320328f5b89d754be6b79d6e37d170",
+      "enPageImages": [
+        {
+          "physicalPage": 127,
+          "file": "private-snapshot:volume4a/body-review/en-127.png",
+          "sha256": "7df4c64f699b16d3058fb86ea1a1e9b892fcdbb8cf70760f91c3e621f2268efa"
+        },
+        {
+          "physicalPage": 128,
+          "file": "private-snapshot:volume4a/body-review/en-128.png",
+          "sha256": "d1f64bc9ee20e9b5999315e9a312756d17f044260798031c5a8a6efd9ee47259"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-105",
+        "p-90"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed page number, retained as hidden page anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 90,
+          "location": "Firstparagraphcyclesrelativeclause",
+          "enPosition": "EN127/printed110paragraphafter34",
+          "original": "它不带有任何循环，凭借它的项由本身间接地定义",
+          "final": "它不带有任何使某项由自身间接定义的循环",
+          "basis": "English cycles by which an entry is defined indirectly in terms of itself is the excluded cycle kind. Restore relative-clause attachment/negation scope,not a statement that an entry is indirectly self-defined. Printedxi-to-originalxiπmapping unchanged."
+        },
+        {
+          "cnPrintedPage": 90,
+          "location": "TheoremSproofconclusionabout32",
+          "enPosition": "EN127/printed110Equation(32)follows",
+          "original": "式(32)成为等式",
+          "final": "式(32)由此成立",
+          "basis": "Follows means the inequality just established follows; not that the <= bound becomes equality. Preserve the actual inequality and all numericalfactors."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "Lupanovjournalspelling",
+          "selectedCN": "Izvestiia",
+          "providedOldEnglish": "Isvestiia",
+          "officialReportedDate": "2013-01-14",
+          "officialSource": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentVersionDate": "2023-02-09",
+            "documentPage": 9,
+            "sourceImage": "private-snapshot:volume4a/body-review/official-pre-page9-m-index.png",
+            "sourceImageSha256": "ef98632a631a4e88ad613da4b286deeb310a4b202cdbe21ca8a4c360cfb65be6"
+          },
+          "disposition": "SelectedCNalreadyusesauthorcorrectedzspelling;preserveitsLatintranscription,notnewcorrection."
+        }
+      ],
+      "figureAssets": [],
+      "pending": [
+        "Finalwhole-volumeinclusion",
+        "Finaloffline/production/browser/onlineacceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 105,
+        "markdownSha256": "f03f19cb70d8f179b522314b05503bf0f6829e3587c7975a17f85e506756e6bb",
+        "htmlSha256": "d1fe8f6ccf9b67c180338e2e2b1f51a189cd95eb0557fc65b74cc04aa8deac90",
+        "mathExpressions": 72,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-105.json",
+        "sha256": "3212f4d13f6caa3dbc2ad058f13196d2d0fee99d78579a3009f1e2856e3cd21f",
+        "cases": [
+          {
+            "physicalPage": 105,
+            "width": 1280,
+            "markdownSha256": "f03f19cb70d8f179b522314b05503bf0f6829e3587c7975a17f85e506756e6bb",
+            "documentWidth": 1280,
+            "math": 72,
+            "mathml": 72,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 73,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 105,
+            "width": 390,
+            "markdownSha256": "f03f19cb70d8f179b522314b05503bf0f6829e3587c7975a17f85e506756e6bb",
+            "documentWidth": 390,
+            "math": 72,
+            "mathml": 72,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 73,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Freshcorrected105executionaftercolumn-type-parenthesesdraft,allactualfull1280/narrowleft/rightviewsread. Source equations/inequalitydirection/inversepermutationminusnotation/sixclauses/nakedcolumntypes/matrixbits compared; no assembled/offline/online acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/105-1280.png",
+          "sha256": "b7dcf27b0babfcf58996e1927633c06cb6bc3d5801f965393deebb2e16df1adc",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/105-390.png",
+          "sha256": "3df75f908453e0f9aa34ada21134543324a324fb1826e213ed88802e3db84b3e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/105-390-right.png",
+          "sha256": "5a1cd551ad849a08167f6ee2fa4aab53db84aded4a48735e9b9762800866c984",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/permutation-prime-example-104-105.json",
+        "sha256": "8fed230b1e21ce0bc888caefdf5d171f2ff53cb70515c5363eb0dd84c990e778",
+        "scope": "Only original6steppermutation16inputs/96renamingvalues/fixedprime64numbers/128tablebits/sixDNFrectangles;notgeneralcounting or asymptoticproof."
+      },
+      "qualification": "Complete model direct CN/EN physical-page source and current render comparison. Three minimum source translation repairs registered, source bound32 remains inequality. Initial105transcriptionincorrectlyintroducedbinomialparenthesesaroundcolumn types,keptunacceptedhistoryandfreshproofedafterrestoringunbracketed2rowcolumns. General source proofs compared without newly claiming independentproof. No master/offline/wholevolume/online acceptance.",
+      "coveredRegions": [
+        "Fulljprime/kprimeout-of-orderindices/no-selfcycleclause/originalxiπ/Cnrcountnormalhalf/4operators/4^rbound/32followsinequality/r=floor2^n/n/endmarker.",
+        "WholeShannon/Lupanovintro/bibliography/primepredicate35/64bitencodedfunction.",
+        "All36header64bits/function64bits/twogroupsandall7naked2rowcolumnlabels,notbinomialcoefficients.",
+        "37allsixORrectangles/rowsetsandcolumnsets/firsttype10/then01/last11/three-mintermexample.",
+        "Fullgeneral2^kby2^(n-k)array/lbalancedfloorceilgroups/mrows/2^mcoltypes/nonzero-t/g_itandh_itORdefinitions/allconjunctionsOR/parameter1<=k<=n-2,1<=l<=2^k/lastthen-forcontinuation."
+      ],
+      "ocrRepairsOfNote": [
+        "NoMphantombars/hatsoncirc/x/r/f/gtit;allfournormalopsAND/OR/BUTNOT/XORretained.",
+        "35completeis-primepredicatefromsource,notMcut-offbracket.",
+        "36machineplaceholderreplacedwithall128sourcebits/editabletwo-groupstructure.",
+        "37has6terms,notM7includingduplicated11term;allleadingzero-bitpatternsintact."
+      ],
+      "continuedProofs": [
+        {
+          "theorem": "S",
+          "startCnPhysicalPage": 104,
+          "completeAfterFirstTwoParagraphs": true
+        }
+      ],
+      "laterWordingReferenceOnly": [
+        {
+          "location": "AlreadyreviewedCN094after6/ENprinted98line8",
+          "authorReportedDate": "2024-06-15",
+          "officialSource": {
+            "url": "https://cs.stanford.edu/~knuth/all4a.ps.gz",
+            "sha256": "e261de3f83dbc40f5b37565b86f60492667a120391e8fe6553b48fb4d3ec066b",
+            "documentVersionDate": "2025-09-09",
+            "documentPage": 4,
+            "sourceImage": "private-snapshot:volume4a/body-review/official-current-cost-word-reference.png",
+            "sourceImageSha256": "aaa654b591551b45659a98b17f2f89a6353de073d80d490c4a6e5672603ec4f5"
+          },
+          "selectedCN": "它的复杂性最多是4",
+          "officialWordImprovement": "its complexity -> its cost",
+          "disposition": "Rootexplicitlychose report-onlylaterwordingreference: complexity/costarealreadydefinedaliasesofC,unchanged4. Preserve selectedCN094,currentMD/hash/proofs. Not new mathematical correction or pending defect.",
+          "unchangedCN094PageMarkdownSha256": "7c11a531b217861fad1f2c1a4eec9a2665b820cf55a8a1c8b3a5e8002a7e1c98"
+        }
+      ],
+      "followingPageContinuation": "105endsThenfor/然后对midsentence;106continues1<=i<=lgroupconstruction. Do notpunctuateorclaim106transcribed.",
+      "priorUnacceptedProof": {
+        "file": "private-snapshot:volume4a/verified-history/105-unaccepted-column-types-with-binomial-parentheses",
+        "oldMarkdownSha256": "b7d589ed4afc57283ae0d54d387ae078b939ff1ed2c50ef4f4f821fa98525037",
+        "oldHTMLSha256": "44c885a12d2b3ea3e5bc14153a5306bfd127fbc80ff16dc26de64e61b9c5ff8e",
+        "oldSyntaxSha256": "8d9773435a2761e6e3febc09b2942fcea519c58b9b0a88d9dd56f8b01cd20b32",
+        "oldBrowserSha256": "f6099b8a5d66bc985fb6662b4c093d7b7c81278613b615bb34e485335dd06dd6",
+        "disposition": "Owninitialtranscriptionusedbinomandaddedparentheses,despitesourceunbracketedcolumnstack. Technicalpassedbutsource-semanticvisualfailed;oldMD/HTML/screens/QAretained,only105freshcheckedaftersevenreplacements.104originalexactsubsetremainsvalid."
+      },
+      "additionalDOMCheck": {
+        "file": "private-snapshot:volume4a/verified-render/prime-matrix-dom-105.json",
+        "sha256": "75ee75ea3d04b3a9c59bc38786c5b02759784c0dd6a265fed00357340041cab6",
+        "wholePageCasesAdded": 0
+      },
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/105-selected-cn-before-translation-repairs-3ca44bb95c435d34f58e12ac4ad7d80b4d7106976f77a10d854103146fbaf56a/105.md",
+        "sha256": "3ca44bb95c435d34f58e12ac4ad7d80b4d7106976f77a10d854103146fbaf56a",
+        "qualification": "Reconstructednormalizedselected-CNbeforetranslationrepairs,notanoldacceptedrenderedproof;column-types remain correct naked source stacks."
+      },
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-105-cycle-and-follows-detail.png",
+          "sha256": "bfaf1529aea28153b3e65877194fc5ef8bd8964956e5c03804be8249f887be0a"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-127-cycle-and-follows-detail.png",
+          "sha256": "bded9dafb4ef3a76ac385726adeebdbf9692228f58405691721361cbbf4c9f0e"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-105-prime-matrix36-detail.png",
+          "sha256": "df2cb34d1a557efeea277fc1bcfb3d3220223a268bf2e74c79d168c97d2ea33b"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-127-prime-matrix36-detail.png",
+          "sha256": "918effa437de587b02ce24c5ba5a0900a74b223561120a871c5f016c83353c15"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-105-prime-expression37-detail.png",
+          "sha256": "f7e1bda444c5d4a62379de96c339b168e4ecb67262922a5c8c2bfca888455667"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-128-prime-expression37-detail.png",
+          "sha256": "f8ca43a68ceff554b62fc7c69ff8813aa1a4e9a53b643bb45c45ba52e8f36ba7"
+        }
+      ],
+      "privateOriginalPageReviewSha256": "bdd75662d753b950f79a7c5e440e5837263ce45d8e8f9fdbd854e9b75dbedac2",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/105.json"
+    }
+  ],
+  "qualification": "Onlythese2completephysicalpages;TheoremSsourceproofandfixedprintedexamplescompared,notnewgeneralasymptoticproof. Decoderinput/output,cycleclause,follows/equality3translationrepairs.105initialowncolumn-parenthesismistakekeptunacceptedhistory/current105fresh2cases;104unchangedoriginal2casesonly.106notyetcovered. Finalwholevolume/offline/online separate."
+}

@@ -1,0 +1,864 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "owner": "vol4a_tail_g62",
+  "physicalPages": [
+    651,
+    652,
+    653,
+    654,
+    655
+  ],
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignoff": false,
+  "masterSha256": null,
+  "sourceSha256": {
+    "cn": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "en": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+  },
+  "sourceReviewSpecification": {
+    "file": "private-snapshot:volume4a/tail-answers/checkpoints/specification-651-655.json",
+    "sha256": "b8693060af835cde62f6c09ba5f63a828b0d8904a534c2638dac8cef0fb31604"
+  },
+  "sourcePageRecords": [
+    {
+      "physicalPage": 651,
+      "pageMarkdownSha256": "5677df355421254e5651b33338336aab249560ffeefa9dce7c2262e3c4acb184",
+      "pageReviewSha256": "98b88345a4fda993c509a5d8f40288a9cbda5a4c484374c9f300829660688ef4",
+      "answerAnchors": [
+        "ans-7-2-1-4-64",
+        "ans-7-2-1-4-65",
+        "ans-7-2-1-4-66"
+      ],
+      "sourceEnPhysicalPages": [
+        775,
+        776
+      ],
+      "mathExpressions": 129,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 652,
+      "pageMarkdownSha256": "6d93545c76da5bcd34b80f252078623c14a307400adc4669499bed91ef214366",
+      "pageReviewSha256": "ecd7eb27ad2487e148c97add6a935453c34efcf439112e126756cadc09ba005b",
+      "answerAnchors": [
+        "ans-7-2-1-4-67",
+        "ans-7-2-1-4-68",
+        "ans-7-2-1-4-69"
+      ],
+      "sourceEnPhysicalPages": [
+        776,
+        777
+      ],
+      "mathExpressions": 109,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 653,
+      "pageMarkdownSha256": "86ffa3ee65612ada88a2b4e849e8e9e59457f75c8330bd54597492926ac23f6c",
+      "pageReviewSha256": "610540236596baacb1c33c9703cccc0a6e559175a0825772f8001ca937eac9ad",
+      "answerAnchors": [
+        "ans-7-2-1-4-70",
+        "ans-7-2-1-4-71",
+        "ans-7-2-1-4-72",
+        "ans-7-2-1-4-73",
+        "ans-7-2-1-5-1",
+        "ans-7-2-1-5-2"
+      ],
+      "sourceEnPhysicalPages": [
+        777,
+        778
+      ],
+      "mathExpressions": 69,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 654,
+      "pageMarkdownSha256": "11cdda939f97ab8aaa884f404a9dbf25e4e595936ae57a129a8432a83611ebea",
+      "pageReviewSha256": "92e0f4331a6b06f3a98738b6429fed86b0f17ef3c7510938881f0a783c3e089a",
+      "answerAnchors": [
+        "ans-7-2-1-5-3",
+        "ans-7-2-1-5-4",
+        "ans-7-2-1-5-5",
+        "ans-7-2-1-5-6",
+        "ans-7-2-1-5-7",
+        "ans-7-2-1-5-8",
+        "ans-7-2-1-5-9",
+        "ans-7-2-1-5-10"
+      ],
+      "sourceEnPhysicalPages": [
+        778,
+        779
+      ],
+      "mathExpressions": 121,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 655,
+      "pageMarkdownSha256": "ce53339f82afe71ec984fee21c27db5bc01eccaa94d158c94498d151c69194e8",
+      "pageReviewSha256": "7b86bbd6a0a01749ad97497351e0b1a7ff5298002eacf6a0396438115ad9fdee",
+      "answerAnchors": [
+        "ans-7-2-1-5-11",
+        "ans-7-2-1-5-12",
+        "ans-7-2-1-5-13"
+      ],
+      "sourceEnPhysicalPages": [
+        780,
+        781
+      ],
+      "mathExpressions": 97,
+      "negativeAnswerLocators": []
+    }
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "volume4a-tail-answer-016",
+      "cnPdfPage": 651,
+      "section": "7.2.1.4",
+      "enPdfPages": [
+        776
+      ],
+      "location": "答64 K5概述的奇偶指示量",
+      "original": "$c_t-[t\\text{ 为偶数}]$",
+      "final": "$c_t-[c_t\\text{ 为偶数}]$",
+      "basis": "两源同印下标t。九个展开分支取的是最大部分的重数cₜ。n=4时，在211中t=2，cₜ=1，原概述回到1111，(1c1)实际给22。逐项比较n=2…64递推列，并实际覆盖全部九分支。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 636,
+      "pageMarkdownSha256": "5677df355421254e5651b33338336aab249560ffeefa9dce7c2262e3c4acb184"
+    },
+    {
+      "id": "volume4a-tail-answer-017",
+      "cnPdfPage": 652,
+      "section": "7.2.1.4",
+      "enPdfPages": [
+        776
+      ],
+      "location": "答66下降计数边界",
+      "original": "位于 $x_j$ 右侧的下降数",
+      "final": "从 $x_j$ 开始向右数的下降数",
+      "basis": "按同行314592687的下降下标1、5、8及各加数，位置j处的下降须计入tⱼ。精确复算九偏移的和为14，所得各z幂次与两源分子一致。",
+      "isAuthorOfficialErratum": false,
+      "cnPrintedPage": 637,
+      "pageMarkdownSha256": "6d93545c76da5bcd34b80f252078623c14a307400adc4669499bed91ef214366"
+    },
+    {
+      "id": "volume4a-tail-answer-018",
+      "cnPdfPage": 652,
+      "section": "7.2.1.4",
+      "enPdfPages": [
+        777
+      ],
+      "location": "答67最小和所取的子多重集范围",
+      "original": "这个子多重集不是所列前缀多重集",
+      "final": "超出",
+      "basis": "EN原意是M的子多重集不包含在较小部分组成的前缀多重集中。必须至少选取一个不小于pⱼ的元素；仅要求和前缀整体不相等会把更小的前缀子多重集算进来。",
+      "isAuthorOfficialErratum": false,
+      "cnPrintedPage": 637,
+      "pageMarkdownSha256": "6d93545c76da5bcd34b80f252078623c14a307400adc4669499bed91ef214366"
+    },
+    {
+      "id": "volume4a-tail-answer-019",
+      "cnPdfPage": 653,
+      "section": "7.2.1.4",
+      "enPdfPages": [
+        778
+      ],
+      "location": "答70循环移位后出现空格的位置",
+      "original": "在一个点上引入一个空栅格",
+      "final": "使一个点的上方出现空格",
+      "basis": "EN为above a dot，给定的x₁₀空且x₁₁非空正对应原图中移动后同一列的纵向邻接。两个6×6索引阵列已逐格用循环置换复算。",
+      "isAuthorOfficialErratum": false,
+      "cnPrintedPage": 638,
+      "pageMarkdownSha256": "86ffa3ee65612ada88a2b4e849e8e9e59457f75c8330bd54597492926ac23f6c"
+    },
+    {
+      "id": "volume4a-tail-answer-020",
+      "cnPdfPage": 654,
+      "section": "7.2.1.5",
+      "enPdfPages": [
+        779
+      ],
+      "location": "答6链的最小元素约束分组",
+      "original": "并对其最小元素进行了排序",
+      "final": "给同长度链的最小元素排序",
+      "basis": "原书示例只在长度相同的组三次加约束1≺3≺5、7≺10、13≺17，不限制异长链之间的最小元素先后。这给出式(48)中每种长度的cⱼ!。",
+      "isAuthorOfficialErratum": false,
+      "cnPrintedPage": 639,
+      "pageMarkdownSha256": "11cdda939f97ab8aaa884f404a9dbf25e4e595936ae57a129a8432a83611ebea"
+    },
+    {
+      "id": "volume4a-tail-answer-021",
+      "cnPdfPage": 654,
+      "section": "7.2.1.5",
+      "enPdfPages": [
+        779
+      ],
+      "location": "答8块之间排序与块内置换",
+      "original": "根据各块最小元素的递减顺序，对每个块进行排序，然后以所有可能方式对非最小块进行排列",
+      "final": "按块的最小元素递减排列各块，并以所有可能方式排列每块中除最小元素以外的元素",
+      "basis": "按EN的blocks与non-smallest block elements还原两个层次。示例各块最小元4,3,1，内部自由度3!·1!·2!=12，独立生成与原示例及另11例相符。",
+      "isAuthorOfficialErratum": false,
+      "cnPrintedPage": 639,
+      "pageMarkdownSha256": "11cdda939f97ab8aaa884f404a9dbf25e4e595936ae57a129a8432a83611ebea"
+    },
+    {
+      "id": "volume4a-tail-answer-022",
+      "cnPdfPage": 654,
+      "section": "7.2.1.5",
+      "enPdfPages": [
+        779
+      ],
+      "location": "答8末句循环数",
+      "original": "恰好有 $k$ 个循环",
+      "final": "恰有 $m$ 个循环",
+      "basis": "作者2024-02-27 Changes第二份PDF，第10页，英文印刷页762答8末行，把k cycles改为m cycles。",
+      "isAuthorOfficialErratum": true,
+      "authorSource": {
+        "kind": "Changes to Volume 4A, second printing onward",
+        "date": "2024-02-27",
+        "pdfPage": 10,
+        "englishPrintPage": 762,
+        "file": "private-snapshot:volume4a/tail-answers/sources/author-modern-10.png",
+        "sha256": "d61ad827762355e4e41285e48e07f19be1a5078e9accf99067c3a7a0cdece26a",
+        "printedReplacement": "k cycles → m cycles"
+      },
+      "cnPrintedPage": 639,
+      "pageMarkdownSha256": "11cdda939f97ab8aaa884f404a9dbf25e4e595936ae57a129a8432a83611ebea"
+    },
+    {
+      "id": "volume4a-tail-answer-023",
+      "cnPdfPage": 654,
+      "section": "7.2.1.5",
+      "enPdfPages": [
+        779
+      ],
+      "location": "答9零元素均值的长度变量两处",
+      "original": "如果 $m>0$；所有 $\\varpi_m$ 种情形",
+      "final": "如果 $n>0$，则0的平均数目为",
+      "basis": "EN均用n。当前正文相邻第二处同时改为“在所有 $\\varpi_n$ 种情形中”。独立枚举长度1…8的限制增长串的0总数，与式中两个Bell数项相符。",
+      "isAuthorOfficialErratum": false,
+      "cnPrintedPage": 639,
+      "pageMarkdownSha256": "11cdda939f97ab8aaa884f404a9dbf25e4e595936ae57a129a8432a83611ebea"
+    },
+    {
+      "id": "volume4a-tail-answer-024",
+      "cnPdfPage": 654,
+      "section": "7.2.1.5",
+      "enPdfPages": [
+        779
+      ],
+      "location": "答10半标记树构造的输入",
+      "original": "给定 $\\{1,\\ldots,n\\}$ 的一个排列",
+      "final": "给定 $\\{1,\\ldots,n\\}$ 的一个分划",
+      "basis": "EN是a partition。逐块取最小元素定义父结点。按正文式(2)顺序，独立计算15棵树并与各原图轮廓和叶标签逐一比较。",
+      "isAuthorOfficialErratum": false,
+      "cnPrintedPage": 639,
+      "pageMarkdownSha256": "11cdda939f97ab8aaa884f404a9dbf25e4e595936ae57a129a8432a83611ebea"
+    },
+    {
+      "id": "volume4a-tail-answer-025",
+      "cnPdfPage": 655,
+      "section": "7.2.1.5",
+      "enPdfPages": [
+        780
+      ],
+      "location": "答11计数中先作归一串条件筛选",
+      "original": "在划分为最多10个块的64855个集合分划中，可以从其中的900个获得纯字母算术，其中……",
+      "final": "的64855个至多10块的集合分划中，有900个给出纯字母算术题",
+      "basis": "EN先对集合分划按归一串是否在交换两个加数时保持不变筛选，再从组中求解。用四个交换对及五个固定位置对称计数得固定64855，其余分为两个13788536的组。900/563527仅对源页。",
+      "isAuthorOfficialErratum": false,
+      "cnPrintedPage": 640,
+      "pageMarkdownSha256": "ce53339f82afe71ec984fee21c27db5bc01eccaa94d158c94498d151c69194e8"
+    },
+    {
+      "id": "volume4a-tail-answer-026",
+      "cnPdfPage": 655,
+      "section": "7.2.1.5",
+      "enPdfPages": [
+        780
+      ],
+      "location": "答12(f)两个块在另一分划中的关系",
+      "original": "满足 $B_1\\ne B_2$",
+      "final": "$B_1$ 和 $B_2$ 属于不同的块",
+      "basis": "B₁、B₂是公共细分的两个已区分的块。此处判断两者是否在Π′下同属一个块，结合公共细分的定义及下一句所需的块合并。",
+      "isAuthorOfficialErratum": false,
+      "cnPrintedPage": 640,
+      "pageMarkdownSha256": "ce53339f82afe71ec984fee21c27db5bc01eccaa94d158c94498d151c69194e8"
+    },
+    {
+      "id": "volume4a-tail-answer-027",
+      "cnPdfPage": 655,
+      "section": "7.2.1.5",
+      "enPdfPages": [
+        780
+      ],
+      "location": "答12(f)有限格术语",
+      "original": "下半模块",
+      "final": "下半模格",
+      "basis": "EN为lower semimodular，依格论术语还原为下半模格。∨细分、∧合并的原排列序保留。",
+      "isAuthorOfficialErratum": false,
+      "cnPrintedPage": 640,
+      "pageMarkdownSha256": "ce53339f82afe71ec984fee21c27db5bc01eccaa94d158c94498d151c69194e8"
+    },
+    {
+      "id": "volume4a-tail-answer-028",
+      "cnPdfPage": 655,
+      "section": "7.2.1.5",
+      "enPdfPages": [
+        780
+      ],
+      "location": "答13定义阶数所取的元素",
+      "original": "一个t块分划的j个元素",
+      "final": "最大的 $j$ 个元素",
+      "basis": "EN为j largest elements。结合下一元素n−j和实际小分划阶数，必须从n起逐个往下查单元素块。",
+      "isAuthorOfficialErratum": false,
+      "cnPrintedPage": 640,
+      "pageMarkdownSha256": "ce53339f82afe71ec984fee21c27db5bc01eccaa94d158c94498d151c69194e8"
+    },
+    {
+      "id": "volume4a-tail-answer-029",
+      "cnPdfPage": 655,
+      "section": "7.2.1.5",
+      "enPdfPages": [
+        781
+      ],
+      "location": "答13相邻秩分划的覆盖关系",
+      "original": "Π包含的分划",
+      "final": "$\\Pi$ 所覆盖的分划",
+      "basis": "EN为partitions covered by Π，下一句确认为仅合并两个块所成的格覆盖，区别于任意粗化。",
+      "isAuthorOfficialErratum": false,
+      "cnPrintedPage": 640,
+      "pageMarkdownSha256": "ce53339f82afe71ec984fee21c27db5bc01eccaa94d158c94498d151c69194e8"
+    }
+  ],
+  "privateBrowserCaseCount": 10,
+  "logicalCandidates": [
+    {
+      "physicalPages": [
+        651,
+        652,
+        653,
+        654,
+        655
+      ],
+      "applyMode": "whole-pages",
+      "startInclusive": "<a id=\"pdf-651\"></a>",
+      "endExclusive": "<a id=\"pdf-656\"></a>",
+      "candidateFile": "private-snapshot:volume4a/tail-answers/logical/answers-7-2-1-4-to-7-2-1-5-651-655-continued66-10.md",
+      "candidateSha256": "2b62f9adacbec7d3f09c3d61350d6abe3815b7d6f75fd0ff160686e214d1091b",
+      "placement": "Place CN652 immediately before the complete answer 7.2.1.4–66 and CN655 immediately before the complete answer 7.2.1.5–10. Preserve the standalone CN653 boundary including the transition to §7.2.1.5, and CN654 before answer 3.",
+      "logicalBrowserProof": {
+        "file": "private-snapshot:volume4a/tail-answers/browser/651-655-logical/result.json",
+        "sha256": "047104cb94f4f53e6d17678681abb6429a1e7e4422a1846c1123e2bb4db8436f",
+        "viewports": [
+          1280,
+          390
+        ]
+      },
+      "logicalSyntaxProof": {
+        "file": "private-snapshot:volume4a/tail-answers/logical-proof-651-655/verified-render/syntax-651.json",
+        "sha256": "cdce43f26d9418e2a1bf9cbe3b1d8cf25dd752613a8fbc5ca230e8da8a2cbd3f"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "sha256": "e8a9b1ba174c954510651549cd187e03024580111bcc2ee401d214cad867f572",
+      "enPdfPage": 780,
+      "selectionBounds": [
+        57,
+        94,
+        388,
+        130
+      ],
+      "nativePaths": 135,
+      "manualLabels": [
+        [
+          "57.999199",
+          "110.390991",
+          "1"
+        ],
+        [
+          "63.460381",
+          "110.390991",
+          "2"
+        ],
+        [
+          "68.921562",
+          "110.390991",
+          "3"
+        ],
+        [
+          "74.382744",
+          "110.390991",
+          "4"
+        ],
+        [
+          "88.479195",
+          "110.40509",
+          "1"
+        ],
+        [
+          "93.922112",
+          "110.40509",
+          "2"
+        ],
+        [
+          "99.365013",
+          "115.847961",
+          "3"
+        ],
+        [
+          "113.439201",
+          "110.40509",
+          "1"
+        ],
+        [
+          "118.882118",
+          "115.847961",
+          "2"
+        ],
+        [
+          "124.325035",
+          "110.40509",
+          "3"
+        ],
+        [
+          "138.3992",
+          "108.399292",
+          "1"
+        ],
+        [
+          "144.108612",
+          "115.846375",
+          "2"
+        ],
+        [
+          "149.569794",
+          "115.846375",
+          "3"
+        ],
+        [
+          "163.599213",
+          "110.367493",
+          "1"
+        ],
+        [
+          "169.067627",
+          "121.304382",
+          "2"
+        ],
+        [
+          "183.099182",
+          "115.850891",
+          "1"
+        ],
+        [
+          "188.542084",
+          "110.40802",
+          "2"
+        ],
+        [
+          "193.985016",
+          "110.40802",
+          "3"
+        ],
+        [
+          "219.236603",
+          "108.399292",
+          "2"
+        ],
+        [
+          "208.06601",
+          "115.846375",
+          "1"
+        ],
+        [
+          "213.527161",
+          "115.846375",
+          "3"
+        ],
+        [
+          "233.319183",
+          "115.850891",
+          "1"
+        ],
+        [
+          "238.787598",
+          "115.850891",
+          "2"
+        ],
+        [
+          "263.936584",
+          "108.399292",
+          "3"
+        ],
+        [
+          "252.76593",
+          "115.846375",
+          "1"
+        ],
+        [
+          "258.227112",
+          "115.846375",
+          "2"
+        ],
+        [
+          "278.019196",
+          "115.850891",
+          "1"
+        ],
+        [
+          "283.462097",
+          "115.850891",
+          "2"
+        ],
+        [
+          "288.904999",
+          "115.850891",
+          "3"
+        ],
+        [
+          "302.979187",
+          "115.839233",
+          "1"
+        ],
+        [
+          "308.449493",
+          "121.309509",
+          "2"
+        ],
+        [
+          "322.479187",
+          "121.311035",
+          "1"
+        ],
+        [
+          "327.949554",
+          "110.370483",
+          "2"
+        ],
+        [
+          "341.919189",
+          "121.311035",
+          "1"
+        ],
+        [
+          "347.389496",
+          "115.840759",
+          "2"
+        ],
+        [
+          "361.419189",
+          "121.311035",
+          "1"
+        ],
+        [
+          "366.889526",
+          "121.311035",
+          "2"
+        ],
+        [
+          "380.919189",
+          "126.830994",
+          "1"
+        ]
+      ],
+      "zeroExtentPathsPreserved": 24,
+      "sourceEnSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "method": "Only bounded native drawing primitives, including native arrowheads and zero-extent strokes; manual source labels. No page SVG, font definitions, bitmap, hidden clip or prose.",
+      "file": "assets/volume4a/figures/7-2-1-5-answer10-semialabeled-trees.svg",
+      "cnPdfPage": 655,
+      "panels": [
+        {
+          "partition": "1234",
+          "nodes": 5,
+          "edges": 4,
+          "leafLabels": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "partition": "123|4",
+          "nodes": 5,
+          "edges": 4,
+          "leafLabels": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "partition": "124|3",
+          "nodes": 5,
+          "edges": 4,
+          "leafLabels": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "partition": "12|34",
+          "nodes": 5,
+          "edges": 4,
+          "leafLabels": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "partition": "12|3|4",
+          "nodes": 5,
+          "edges": 4,
+          "leafLabels": [
+            1,
+            2
+          ]
+        },
+        {
+          "partition": "134|2",
+          "nodes": 5,
+          "edges": 4,
+          "leafLabels": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "partition": "13|24",
+          "nodes": 5,
+          "edges": 4,
+          "leafLabels": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "partition": "13|2|4",
+          "nodes": 5,
+          "edges": 4,
+          "leafLabels": [
+            1,
+            2
+          ]
+        },
+        {
+          "partition": "14|23",
+          "nodes": 5,
+          "edges": 4,
+          "leafLabels": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "partition": "1|234",
+          "nodes": 5,
+          "edges": 4,
+          "leafLabels": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "partition": "1|23|4",
+          "nodes": 5,
+          "edges": 4,
+          "leafLabels": [
+            1,
+            2
+          ]
+        },
+        {
+          "partition": "14|2|3",
+          "nodes": 5,
+          "edges": 4,
+          "leafLabels": [
+            1,
+            2
+          ]
+        },
+        {
+          "partition": "1|24|3",
+          "nodes": 5,
+          "edges": 4,
+          "leafLabels": [
+            1,
+            2
+          ]
+        },
+        {
+          "partition": "1|2|34",
+          "nodes": 5,
+          "edges": 4,
+          "leafLabels": [
+            1,
+            2
+          ]
+        },
+        {
+          "partition": "1|2|3|4",
+          "nodes": 5,
+          "edges": 4,
+          "leafLabels": [
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "details": {
+    "finiteChecks": {
+      "K5": {
+        "n": [
+          2,
+          64
+        ],
+        "caseCounts": {
+          "1a": 63,
+          "1c1": 1123,
+          "2a": 3220,
+          "1d1": 3220,
+          "1c2": 522,
+          "1b1": 1966,
+          "1d2": 1966,
+          "2b": 1092,
+          "1b2": 496
+        },
+        "firstPrintedParityCounterexample": [
+          2,
+          1,
+          1
+        ],
+        "asPrintedNext": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "explicitBranchNext": [
+          2,
+          2
+        ],
+        "comparison": "all nine case actions against corrected delete-and-restore transformation and complete exact recurrence sequences for n=2..64"
+      },
+      "answer66": {
+        "permutation": [
+          3,
+          1,
+          4,
+          5,
+          9,
+          2,
+          6,
+          8,
+          7
+        ],
+        "descents": [
+          1,
+          5,
+          8
+        ],
+        "offsetsInPermutationOrder": [
+          3,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0
+        ],
+        "majorIndex": 14,
+        "numeratorExponents": [
+          2,
+          1,
+          3,
+          2,
+          2,
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      "answer70": {
+        "eachArrayCells": 36,
+        "checkedDiagonalPermutation": true
+      },
+      "answer3": {
+        "digits": "010220345041",
+        "zeroBasedRank": 999999
+      },
+      "answer4": {
+        "observedCorpus": "private-snapshot:volume4a/official-errata/sgb-words.txt",
+        "observedCorpusSha256": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce",
+        "corpusSize": 5757,
+        "patternTypes": 52,
+        "positiveTypes": 34,
+        "zeroTypes": 18,
+        "allFrequenciesMatch": true
+      },
+      "answer8": {
+        "distinctOutputs": 12,
+        "sampleFound": "457938126"
+      },
+      "answer9": {
+        "finiteZeroMomentsN": [
+          1,
+          8
+        ]
+      },
+      "answer13": {
+        "orderRecurrenceComparedToRGSN": [
+          1,
+          6
+        ],
+        "sigma43": "122333",
+        "sigma53": "1223332233322333333333333"
+      }
+    },
+    "finiteCheckEvidence": "private-snapshot:volume4a/tail-answers/checkpoints/651-655-finite-answers.json",
+    "finiteCheckEvidenceSha256": "851b97b4ab577f46356cda408133f9776f47aff2f6869052ac81836f8f296b4b",
+    "answer11InvolutionCount": {
+      "upToTenBlocks": 27641927,
+      "invariant": 64855,
+      "eachNontrivialOrientation": 13788536,
+      "method": "Choose moved 2-cycles assigned to paired blocks, partition them into block pairs times two choices per additional member, and partition the other 2-cycles and five fixed points into invariant blocks subject to at most ten total blocks.",
+      "alphameticSolvingNotRerun": true
+    },
+    "fractionEndpointEvidence": {
+      "file": "private-snapshot:volume4a/tail-answers/browser/651-655-fraction/result.json",
+      "sha256": "fbf5c948598ec43b172905a9d72396f3033ffa6114947ae34cfcec70f333588c",
+      "screens": [
+        {
+          "file": "private-snapshot:volume4a/tail-answers/browser/651-655-fraction/652-390-pan1-0.png",
+          "sha256": "7d02599caeb3ac477221b83f37de4e07e0948dd7850cbc1ddf75dc1cf36d0a12"
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-answers/browser/651-655-fraction/652-390-pan1-2.png",
+          "sha256": "d8b370667fd2ccad22020977c39d085fcf4ee59e9ccef97ee7de539caad3f4be"
+        }
+      ]
+    },
+    "logicalScreensViewed": [
+      "651-1280-walk4.png",
+      "651-1280-walk11.png",
+      "651-390-walk6.png",
+      "651-390-walk22.png",
+      "651-390-walk23.png"
+    ]
+  },
+  "qualification": "Whole selected CN651–655 and equivalent EN775–781 material, checked against the actual current desktop and mobile proof. Exact bounded checks include K5, the 52 GraphBase pattern frequencies, the paired Ferrers arrays, restricted-growth rank and Stirling strings, and all 15 semilabeled diagrams. The published 2^30 sieve and alphametic solver counts were transcribed and compared with EN, without running those computations."
+}

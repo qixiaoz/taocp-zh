@@ -1,0 +1,148 @@
+{
+  "scope": "All 64 fixed three-bit multiplier inputs and source layer counts, all 4,096 triples of two-variable MUX operands, all chosen n=3 existential cases, and elementary quantifier and 4-vertex kernel adjacency checks.",
+  "drawings": [
+    {
+      "file": "assets/volume4a/figures/diagram-7-1-4-58-shared-multiplier-bdd.svg",
+      "sha256": "dda2b23f481106c739cc27da942f40346f187c88aded7cafe0bd1df6a5181a37",
+      "enPdfPage": 245,
+      "sourceBounds": [
+        [
+          145,
+          511,
+          385,
+          608
+        ]
+      ],
+      "nativePaths": 194,
+      "sourceDirectlyCompared": true,
+      "method": "Bounded native paths, fill/stroke and dash patterns; editable text from directly read source labels. No page prose.",
+      "branchesByInputRank": {
+        "1": 4,
+        "2": 7,
+        "3": 13,
+        "4": 16,
+        "5": 8,
+        "6": 2
+      },
+      "physicallyDrawnTerminals": {
+        "⊥": 10,
+        "⊤": 6
+      },
+      "orderedRootLabels": [
+        "F6",
+        "F1",
+        "F5",
+        "F3",
+        "F2",
+        "F4"
+      ],
+      "displayAdaptation": "Retyped original arithmetic and root labels, all bounded source graph primitives retained."
+    },
+    {
+      "file": "assets/volume4a/figures/glyph-7-1-4-66-difference.svg",
+      "sha256": "df68aa33de094d12c3aaf68c0df5ba3284809c85c6925da06fa4c06e732c7199",
+      "enPdfPage": 248,
+      "sourceBounds": [
+        94.95,
+        158.1,
+        100.45,
+        165.55
+      ],
+      "method": "Original bounded black vector strokes from Eq.(66) on a transparent SVG canvas.",
+      "nativePaths": 1,
+      "sourceDirectlyCompared": true,
+      "title": "布尔差量词"
+    },
+    {
+      "file": "assets/volume4a/figures/glyph-7-1-4-66-yes.svg",
+      "sha256": "90892401b9e762fe8cb09b8b8db3336d73e6ae4f89d122bb88f7cd8e2361de22",
+      "enPdfPage": 248,
+      "sourceBounds": [
+        187.08,
+        158.0,
+        193.24,
+        165.53
+      ],
+      "method": "Original bounded black vector strokes from Eq.(66) on a transparent SVG canvas.",
+      "nativePaths": 2,
+      "sourceDirectlyCompared": true,
+      "title": "是量词"
+    },
+    {
+      "file": "assets/volume4a/figures/glyph-7-1-4-66-no.svg",
+      "sha256": "118b6ceaa512b6a1059800049dab5e240bc58a520a113f77c51d12b9375aa523",
+      "enPdfPage": 248,
+      "sourceBounds": [
+        278.79,
+        157.95,
+        283.68,
+        165.5
+      ],
+      "method": "Original bounded black vector strokes from Eq.(66) on a transparent SVG canvas.",
+      "nativePaths": 1,
+      "sourceDirectlyCompared": true,
+      "title": "否量词"
+    }
+  ],
+  "multiplier": {
+    "inputs": 64,
+    "bddNodes": 52,
+    "branchLevels": {
+      "6": 2,
+      "5": 8,
+      "4": 16,
+      "3": 13,
+      "2": 7,
+      "1": 4
+    }
+  },
+  "ternaryOperandTriples": 4096,
+  "existsConjunctionCases": 2048,
+  "quantifierTruthValues": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "adjacencyOnAllFourVertexGraphs": {
+    "graphCount": 64,
+    "kernelPairsCompared": 151
+  },
+  "scientificScope": "No proof of the general complexity or original m=n=16 estimates, and no reproduction of the 49-vertex adjacency BDD here.",
+  "equation66GlyphsMarkdownOccurrences": {
+    "difference": 5,
+    "yes": 1,
+    "no": 3
+  },
+  "pageMarkdownHashes": {
+    "205": "efac2300a280b4aaedd02f66494281eae43bf8d7982f61da44eb1d8e4be246b2",
+    "206": "c29d618e50e476381ad0e3aba2acdfa86fe1b8c1703658e67ffa5a5288eba756",
+    "207": "95555fef805d1da2454bfe0a2618db7546b04899bdf511fdf5812a63f97c3df7"
+  },
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+}

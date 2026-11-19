@@ -1,0 +1,8660 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "reviewerType": "model-independent-limited-source-and-fixed-four-variable-recomputation",
+  "scope": "Only supplied CN217/EN260-261 sifting definition/J1-J7 and supplied CN553/EN660 answer134 printed count, with original function EN284 question134. No original75parallel-line recount, full-page source acceptance/otheranswers/classification/minimum-general-proof or body/manuscript/report/progress edits.",
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+  "sourceObservations": {
+    "bothAnswerSourcesLiterallyPrint": "Five / 5条",
+    "bothSourceProfiles": [
+      1,
+      2,
+      3,
+      2,
+      2
+    ],
+    "sourceUnimprovabilityQuantifier": "on any variable / 任何变量",
+    "definition": "Remove the selected variable and insert it at all other levels, preserving relative order of other variables; choose minimum BDD size. J2 traverses up to1 andJ5 down ton.",
+    "optionalAcceleration": "1.2s/1.1s/1.05s early exit is separately introduced after complete J,not mandatory definition.",
+    "noAdditionalRestrictionFound": "No definition-level restriction to adjacent insertion, fixeddirection, selected subset ofvariables or strict-only accepted intermediate swaps. Printed J may choose equal-minimum placements; equal cost is not a strict size improvement.",
+    "wholeRudellProcedureQualification": "Following EN261 paragraph separately describes applying J exactly n times, once pervariable. This checker tests the answer134 literal any-variable/full-single-sift condition,not tie-dependent sequential fullpasses."
+  },
+  "literalFunction": "x1 XOR ((x2 XOR (x1 OR ((NOT x2) AND x3))) AND (x3 XOR x4))",
+  "all16TruthValues": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "independent32CofactorWeights": [
+    {
+      "fromMask": 0,
+      "addVariable": 1,
+      "remainingVariables": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "allDistinctCofactors": [
+        "0010011010011111"
+      ],
+      "dependingOnAddedVariable": [
+        "0010011010011111"
+      ],
+      "weight": 1
+    },
+    {
+      "fromMask": 0,
+      "addVariable": 2,
+      "remainingVariables": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "allDistinctCofactors": [
+        "0010011010011111"
+      ],
+      "dependingOnAddedVariable": [
+        "0010011010011111"
+      ],
+      "weight": 1
+    },
+    {
+      "fromMask": 0,
+      "addVariable": 3,
+      "remainingVariables": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "allDistinctCofactors": [
+        "0010011010011111"
+      ],
+      "dependingOnAddedVariable": [
+        "0010011010011111"
+      ],
+      "weight": 1
+    },
+    {
+      "fromMask": 0,
+      "addVariable": 4,
+      "remainingVariables": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "allDistinctCofactors": [
+        "0010011010011111"
+      ],
+      "dependingOnAddedVariable": [
+        "0010011010011111"
+      ],
+      "weight": 1
+    },
+    {
+      "fromMask": 1,
+      "addVariable": 2,
+      "remainingVariables": [
+        2,
+        3,
+        4
+      ],
+      "allDistinctCofactors": [
+        "00100110",
+        "10011111"
+      ],
+      "dependingOnAddedVariable": [
+        "00100110",
+        "10011111"
+      ],
+      "weight": 2
+    },
+    {
+      "fromMask": 1,
+      "addVariable": 3,
+      "remainingVariables": [
+        2,
+        3,
+        4
+      ],
+      "allDistinctCofactors": [
+        "00100110",
+        "10011111"
+      ],
+      "dependingOnAddedVariable": [
+        "00100110",
+        "10011111"
+      ],
+      "weight": 2
+    },
+    {
+      "fromMask": 1,
+      "addVariable": 4,
+      "remainingVariables": [
+        2,
+        3,
+        4
+      ],
+      "allDistinctCofactors": [
+        "00100110",
+        "10011111"
+      ],
+      "dependingOnAddedVariable": [
+        "00100110",
+        "10011111"
+      ],
+      "weight": 2
+    },
+    {
+      "fromMask": 2,
+      "addVariable": 1,
+      "remainingVariables": [
+        1,
+        3,
+        4
+      ],
+      "allDistinctCofactors": [
+        "00101001",
+        "01101111"
+      ],
+      "dependingOnAddedVariable": [
+        "00101001",
+        "01101111"
+      ],
+      "weight": 2
+    },
+    {
+      "fromMask": 2,
+      "addVariable": 3,
+      "remainingVariables": [
+        1,
+        3,
+        4
+      ],
+      "allDistinctCofactors": [
+        "00101001",
+        "01101111"
+      ],
+      "dependingOnAddedVariable": [
+        "00101001",
+        "01101111"
+      ],
+      "weight": 2
+    },
+    {
+      "fromMask": 2,
+      "addVariable": 4,
+      "remainingVariables": [
+        1,
+        3,
+        4
+      ],
+      "allDistinctCofactors": [
+        "00101001",
+        "01101111"
+      ],
+      "dependingOnAddedVariable": [
+        "00101001",
+        "01101111"
+      ],
+      "weight": 2
+    },
+    {
+      "fromMask": 3,
+      "addVariable": 3,
+      "remainingVariables": [
+        3,
+        4
+      ],
+      "allDistinctCofactors": [
+        "0010",
+        "0110",
+        "1001",
+        "1111"
+      ],
+      "dependingOnAddedVariable": [
+        "0010",
+        "0110",
+        "1001"
+      ],
+      "weight": 3
+    },
+    {
+      "fromMask": 3,
+      "addVariable": 4,
+      "remainingVariables": [
+        3,
+        4
+      ],
+      "allDistinctCofactors": [
+        "0010",
+        "0110",
+        "1001",
+        "1111"
+      ],
+      "dependingOnAddedVariable": [
+        "0010",
+        "0110",
+        "1001"
+      ],
+      "weight": 3
+    },
+    {
+      "fromMask": 4,
+      "addVariable": 1,
+      "remainingVariables": [
+        1,
+        2,
+        4
+      ],
+      "allDistinctCofactors": [
+        "00011011",
+        "10100111"
+      ],
+      "dependingOnAddedVariable": [
+        "00011011",
+        "10100111"
+      ],
+      "weight": 2
+    },
+    {
+      "fromMask": 4,
+      "addVariable": 2,
+      "remainingVariables": [
+        1,
+        2,
+        4
+      ],
+      "allDistinctCofactors": [
+        "00011011",
+        "10100111"
+      ],
+      "dependingOnAddedVariable": [
+        "00011011",
+        "10100111"
+      ],
+      "weight": 2
+    },
+    {
+      "fromMask": 4,
+      "addVariable": 4,
+      "remainingVariables": [
+        1,
+        2,
+        4
+      ],
+      "allDistinctCofactors": [
+        "00011011",
+        "10100111"
+      ],
+      "dependingOnAddedVariable": [
+        "00011011",
+        "10100111"
+      ],
+      "weight": 2
+    },
+    {
+      "fromMask": 5,
+      "addVariable": 2,
+      "remainingVariables": [
+        2,
+        4
+      ],
+      "allDistinctCofactors": [
+        "0001",
+        "0111",
+        "1010",
+        "1011"
+      ],
+      "dependingOnAddedVariable": [
+        "0001",
+        "0111",
+        "1011"
+      ],
+      "weight": 3
+    },
+    {
+      "fromMask": 5,
+      "addVariable": 4,
+      "remainingVariables": [
+        2,
+        4
+      ],
+      "allDistinctCofactors": [
+        "0001",
+        "0111",
+        "1010",
+        "1011"
+      ],
+      "dependingOnAddedVariable": [
+        "0001",
+        "0111",
+        "1010",
+        "1011"
+      ],
+      "weight": 4
+    },
+    {
+      "fromMask": 6,
+      "addVariable": 1,
+      "remainingVariables": [
+        1,
+        4
+      ],
+      "allDistinctCofactors": [
+        "0010",
+        "0111",
+        "1001",
+        "1011"
+      ],
+      "dependingOnAddedVariable": [
+        "0010",
+        "0111",
+        "1001",
+        "1011"
+      ],
+      "weight": 4
+    },
+    {
+      "fromMask": 6,
+      "addVariable": 4,
+      "remainingVariables": [
+        1,
+        4
+      ],
+      "allDistinctCofactors": [
+        "0010",
+        "0111",
+        "1001",
+        "1011"
+      ],
+      "dependingOnAddedVariable": [
+        "0010",
+        "0111",
+        "1001",
+        "1011"
+      ],
+      "weight": 4
+    },
+    {
+      "fromMask": 7,
+      "addVariable": 4,
+      "remainingVariables": [
+        4
+      ],
+      "allDistinctCofactors": [
+        "00",
+        "01",
+        "10",
+        "11"
+      ],
+      "dependingOnAddedVariable": [
+        "01",
+        "10"
+      ],
+      "weight": 2
+    },
+    {
+      "fromMask": 8,
+      "addVariable": 1,
+      "remainingVariables": [
+        1,
+        2,
+        3
+      ],
+      "allDistinctCofactors": [
+        "00100111",
+        "01011011"
+      ],
+      "dependingOnAddedVariable": [
+        "00100111",
+        "01011011"
+      ],
+      "weight": 2
+    },
+    {
+      "fromMask": 8,
+      "addVariable": 2,
+      "remainingVariables": [
+        1,
+        2,
+        3
+      ],
+      "allDistinctCofactors": [
+        "00100111",
+        "01011011"
+      ],
+      "dependingOnAddedVariable": [
+        "00100111",
+        "01011011"
+      ],
+      "weight": 2
+    },
+    {
+      "fromMask": 8,
+      "addVariable": 3,
+      "remainingVariables": [
+        1,
+        2,
+        3
+      ],
+      "allDistinctCofactors": [
+        "00100111",
+        "01011011"
+      ],
+      "dependingOnAddedVariable": [
+        "00100111",
+        "01011011"
+      ],
+      "weight": 2
+    },
+    {
+      "fromMask": 9,
+      "addVariable": 2,
+      "remainingVariables": [
+        2,
+        3
+      ],
+      "allDistinctCofactors": [
+        "0010",
+        "0101",
+        "0111",
+        "1011"
+      ],
+      "dependingOnAddedVariable": [
+        "0010",
+        "0111",
+        "1011"
+      ],
+      "weight": 3
+    },
+    {
+      "fromMask": 9,
+      "addVariable": 3,
+      "remainingVariables": [
+        2,
+        3
+      ],
+      "allDistinctCofactors": [
+        "0010",
+        "0101",
+        "0111",
+        "1011"
+      ],
+      "dependingOnAddedVariable": [
+        "0010",
+        "0101",
+        "0111",
+        "1011"
+      ],
+      "weight": 4
+    },
+    {
+      "fromMask": 10,
+      "addVariable": 1,
+      "remainingVariables": [
+        1,
+        3
+      ],
+      "allDistinctCofactors": [
+        "0001",
+        "0110",
+        "0111",
+        "1011"
+      ],
+      "dependingOnAddedVariable": [
+        "0001",
+        "0110",
+        "0111",
+        "1011"
+      ],
+      "weight": 4
+    },
+    {
+      "fromMask": 10,
+      "addVariable": 3,
+      "remainingVariables": [
+        1,
+        3
+      ],
+      "allDistinctCofactors": [
+        "0001",
+        "0110",
+        "0111",
+        "1011"
+      ],
+      "dependingOnAddedVariable": [
+        "0001",
+        "0110",
+        "0111",
+        "1011"
+      ],
+      "weight": 4
+    },
+    {
+      "fromMask": 11,
+      "addVariable": 3,
+      "remainingVariables": [
+        3
+      ],
+      "allDistinctCofactors": [
+        "00",
+        "01",
+        "10",
+        "11"
+      ],
+      "dependingOnAddedVariable": [
+        "01",
+        "10"
+      ],
+      "weight": 2
+    },
+    {
+      "fromMask": 12,
+      "addVariable": 1,
+      "remainingVariables": [
+        1,
+        2
+      ],
+      "allDistinctCofactors": [
+        "0011",
+        "0101",
+        "1101"
+      ],
+      "dependingOnAddedVariable": [
+        "0011",
+        "1101"
+      ],
+      "weight": 2
+    },
+    {
+      "fromMask": 12,
+      "addVariable": 2,
+      "remainingVariables": [
+        1,
+        2
+      ],
+      "allDistinctCofactors": [
+        "0011",
+        "0101",
+        "1101"
+      ],
+      "dependingOnAddedVariable": [
+        "0101",
+        "1101"
+      ],
+      "weight": 2
+    },
+    {
+      "fromMask": 13,
+      "addVariable": 2,
+      "remainingVariables": [
+        2
+      ],
+      "allDistinctCofactors": [
+        "00",
+        "01",
+        "11"
+      ],
+      "dependingOnAddedVariable": [
+        "01"
+      ],
+      "weight": 1
+    },
+    {
+      "fromMask": 14,
+      "addVariable": 1,
+      "remainingVariables": [
+        1
+      ],
+      "allDistinctCofactors": [
+        "00",
+        "01",
+        "10",
+        "11"
+      ],
+      "dependingOnAddedVariable": [
+        "01",
+        "10"
+      ],
+      "weight": 2
+    }
+  ],
+  "all24OrdersAndInsertionChecks": [
+    {
+      "order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "profile": [
+        1,
+        2,
+        3,
+        2,
+        2
+      ],
+      "size": 10,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                1,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                1,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": true
+    },
+    {
+      "order": [
+        1,
+        2,
+        4,
+        3
+      ],
+      "profile": [
+        1,
+        2,
+        3,
+        2,
+        2
+      ],
+      "size": 10,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": true
+    },
+    {
+      "order": [
+        1,
+        3,
+        2,
+        4
+      ],
+      "profile": [
+        1,
+        2,
+        3,
+        2,
+        2
+      ],
+      "size": 10,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                1,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": true
+    },
+    {
+      "order": [
+        1,
+        3,
+        4,
+        2
+      ],
+      "profile": [
+        1,
+        2,
+        4,
+        1,
+        2
+      ],
+      "size": 10,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                3,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                3,
+                4,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                1,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    },
+    {
+      "order": [
+        1,
+        4,
+        2,
+        3
+      ],
+      "profile": [
+        1,
+        2,
+        3,
+        2,
+        2
+      ],
+      "size": 10,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": true
+    },
+    {
+      "order": [
+        1,
+        4,
+        3,
+        2
+      ],
+      "profile": [
+        1,
+        2,
+        4,
+        1,
+        2
+      ],
+      "size": 10,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                4,
+                3,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    },
+    {
+      "order": [
+        2,
+        1,
+        3,
+        4
+      ],
+      "profile": [
+        1,
+        2,
+        3,
+        2,
+        2
+      ],
+      "size": 10,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                1,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                1,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                1,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                1,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": true
+    },
+    {
+      "order": [
+        2,
+        1,
+        4,
+        3
+      ],
+      "profile": [
+        1,
+        2,
+        3,
+        2,
+        2
+      ],
+      "size": 10,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                1,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                1,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": true
+    },
+    {
+      "order": [
+        2,
+        3,
+        1,
+        4
+      ],
+      "profile": [
+        1,
+        2,
+        4,
+        2,
+        2
+      ],
+      "size": 11,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                1,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                1,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 11,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    },
+    {
+      "order": [
+        2,
+        3,
+        4,
+        1
+      ],
+      "profile": [
+        1,
+        2,
+        4,
+        2,
+        2
+      ],
+      "size": 11,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                1,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                3,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                4,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 11,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 11,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    },
+    {
+      "order": [
+        2,
+        4,
+        1,
+        3
+      ],
+      "profile": [
+        1,
+        2,
+        4,
+        2,
+        2
+      ],
+      "size": 11,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 11,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                1,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": true
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    },
+    {
+      "order": [
+        2,
+        4,
+        3,
+        1
+      ],
+      "profile": [
+        1,
+        2,
+        4,
+        2,
+        2
+      ],
+      "size": 11,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                3,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 11,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 11,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    },
+    {
+      "order": [
+        3,
+        1,
+        2,
+        4
+      ],
+      "profile": [
+        1,
+        2,
+        3,
+        2,
+        2
+      ],
+      "size": 10,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    },
+    {
+      "order": [
+        3,
+        1,
+        4,
+        2
+      ],
+      "profile": [
+        1,
+        2,
+        4,
+        1,
+        2
+      ],
+      "size": 10,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                3,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                3,
+                4,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    },
+    {
+      "order": [
+        3,
+        2,
+        1,
+        4
+      ],
+      "profile": [
+        1,
+        2,
+        4,
+        2,
+        2
+      ],
+      "size": 11,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                1,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                3,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                3,
+                4,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 9,
+          "strictImprovementPossible": true
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    },
+    {
+      "order": [
+        3,
+        2,
+        4,
+        1
+      ],
+      "profile": [
+        1,
+        2,
+        4,
+        2,
+        2
+      ],
+      "size": 11,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                3,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                4,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 11,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                3,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                3,
+                4,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 9,
+          "strictImprovementPossible": true
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    },
+    {
+      "order": [
+        3,
+        4,
+        1,
+        2
+      ],
+      "profile": [
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "size": 8,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                3,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                3,
+                4,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                3,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                4,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": true
+    },
+    {
+      "order": [
+        3,
+        4,
+        2,
+        1
+      ],
+      "profile": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "size": 9,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                3,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                3,
+                4,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                3,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                4,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                4,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                4,
+                3,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 9,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                3,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                3,
+                4,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 9,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    },
+    {
+      "order": [
+        4,
+        1,
+        2,
+        3
+      ],
+      "profile": [
+        1,
+        2,
+        3,
+        2,
+        2
+      ],
+      "size": 10,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    },
+    {
+      "order": [
+        4,
+        1,
+        3,
+        2
+      ],
+      "profile": [
+        1,
+        2,
+        4,
+        1,
+        2
+      ],
+      "size": 10,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                4,
+                3,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    },
+    {
+      "order": [
+        4,
+        2,
+        1,
+        3
+      ],
+      "profile": [
+        1,
+        2,
+        4,
+        2,
+        2
+      ],
+      "size": 11,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                4,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                4,
+                3,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 9,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                1,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                2,
+                1,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": true
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    },
+    {
+      "order": [
+        4,
+        2,
+        3,
+        1
+      ],
+      "profile": [
+        1,
+        2,
+        4,
+        2,
+        2
+      ],
+      "size": 11,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                3,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                4,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                4,
+                3,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 9,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 11,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    },
+    {
+      "order": [
+        4,
+        3,
+        1,
+        2
+      ],
+      "profile": [
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "size": 8,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                4,
+                3,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                3,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": true
+    },
+    {
+      "order": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "profile": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "size": 9,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                4,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                4,
+                3,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                3,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                4,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                4,
+                3,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 9,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                3,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                3,
+                4,
+                2,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "size": 9
+            },
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 9,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    }
+  ],
+  "profileCandidateCount": 8,
+  "profileOrdersUnimprovableByFullSingleVariableSift": [
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      1,
+      2,
+      4,
+      3
+    ],
+    [
+      1,
+      3,
+      2,
+      4
+    ],
+    [
+      1,
+      4,
+      2,
+      3
+    ],
+    [
+      2,
+      1,
+      3,
+      4
+    ],
+    [
+      2,
+      1,
+      4,
+      3
+    ]
+  ],
+  "unimprovableProfileCount": 6,
+  "sourcePrintedCount": 5,
+  "improvableOtherTwoProfileOrders": [
+    {
+      "order": [
+        3,
+        1,
+        2,
+        4
+      ],
+      "profile": [
+        1,
+        2,
+        3,
+        2,
+        2
+      ],
+      "size": 10,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                4,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                3,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                2,
+                1,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                3,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                3,
+                1,
+                4,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                3,
+                1,
+                2,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    },
+    {
+      "order": [
+        4,
+        1,
+        2,
+        3
+      ],
+      "profile": [
+        1,
+        2,
+        3,
+        2,
+        2
+      ],
+      "size": 10,
+      "allVariableInsertionChecks": [
+        {
+          "variable": 1,
+          "allFourInsertions": [
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                3,
+                1
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 2,
+          "allFourInsertions": [
+            {
+              "order": [
+                2,
+                4,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                2,
+                1,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                2,
+                2
+              ],
+              "size": 11
+            },
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        },
+        {
+          "variable": 3,
+          "allFourInsertions": [
+            {
+              "order": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                4,
+                3,
+                1,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                2,
+                1,
+                2
+              ],
+              "size": 8
+            },
+            {
+              "order": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "profile": [
+                1,
+                2,
+                4,
+                1,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 8,
+          "strictImprovementPossible": true
+        },
+        {
+          "variable": 4,
+          "allFourInsertions": [
+            {
+              "order": [
+                4,
+                1,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                4,
+                2,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            },
+            {
+              "order": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "profile": [
+                1,
+                2,
+                3,
+                2,
+                2
+              ],
+              "size": 10
+            }
+          ],
+          "minimumSize": 10,
+          "strictImprovementPossible": false
+        }
+      ],
+      "unimprovableByAnySingleVariableFullSift": false
+    }
+  ],
+  "symmetry": {
+    "originalQuestionHintConfirmedOnAll16Inputs": true,
+    "identity": "f(x1,x2,x3,x4)=f(x1,x2,NOT x4,NOT x3)",
+    "all24ProfilesInvariantUnderSwap34": true,
+    "threePairedStationaryOrders": [
+      [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          4,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          3,
+          2,
+          4
+        ],
+        [
+          1,
+          4,
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          2,
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          1,
+          4,
+          3
+        ]
+      ]
+    ],
+    "qualification": "Fixed instance sourcehint/explicit24profiles: candidates arepaired withno fixed ordering,so a five-count cannot fit the computed criterion. No general BDD symmetry theorem claimedproved."
+  },
+  "conclusion": "No extra source restriction found that reduces the count to5. Under the actual full single-variable-sifting definition, independent cofactor/24order computation agrees withroot:8profile paths,6unimprovable;3124/4123eachcanimprove. Both providedbook sources print5. This is a finite common-source count discrepancy; rootownsdispositionandno sourcebodyisalteredbythispeer.",
+  "codeSha256": "3dd89a13febfa9175403ba151c3689e6530a8bf6582f86ed39d1164e97972b15",
+  "sourceImages": [
+    {
+      "sha256": "2800c469959e6a0728be778a2acdb203c1439ea0fb47b4521ddc2837d256eea8",
+      "physicalPage": 217,
+      "language": "cn",
+      "actuallyViewed": true
+    },
+    {
+      "sha256": "dc68198ae5de4b9d6b673cac32006ac1444bd816201becef8fef8bce34d59592",
+      "physicalPage": 260,
+      "language": "en",
+      "actuallyViewed": true
+    },
+    {
+      "sha256": "ec5a6aad28f87e73b6fa1681c3bf3c639310dbfeab47e874ea57c98ac62b5f18",
+      "physicalPage": 261,
+      "language": "en",
+      "actuallyViewed": true
+    },
+    {
+      "sha256": "75648dc11f05fa76b26cbcbe70efb675d775c7d50ebab5b32ff0fc9931b7383d",
+      "physicalPage": 553,
+      "language": "cn",
+      "actuallyViewed": true
+    },
+    {
+      "sha256": "d316b1f9c4e807ef3c2b061ec664928a35b584038a3bab15ea8537124f61e155",
+      "physicalPage": 660,
+      "language": "en",
+      "actuallyViewed": true
+    },
+    {
+      "sha256": "35f3fd0ead91a0c262454a47b5c71eeb5aa81700ad74d90749f801eee4639eba",
+      "physicalPage": 284,
+      "language": "en",
+      "actuallyViewed": true
+    }
+  ],
+  "masterSha256": null,
+  "sourcePageMarkdownSha256": {
+    "553": "50227cb1ca013642edee50c52f425fc11ad37c76442b3a5a9529ecb165deecd8"
+  },
+  "privateOriginalEvidenceSha256": "2b51a93863bea2aa9962e42106f8d8d32dae6aeee730f938f38d9912a05c1877",
+  "currentCorrectedCount": 6,
+  "humanSignOff": false
+}

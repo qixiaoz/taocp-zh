@@ -1,0 +1,603 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-source-pages-217-to-219-sifting-state-orders-read-once",
+  "cnPhysicalPages": [
+    217,
+    218,
+    219
+  ],
+  "cnPrintedPages": [
+    202,
+    203,
+    204
+  ],
+  "masterSha256": null,
+  "mathExpressions": 111,
+  "privateBrowserCases": 6,
+  "substantiveCorrections": 3,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 217,
+      "cnPrintedPage": 202,
+      "enPdfPages": [
+        260,
+        261
+      ],
+      "enPrintedPages": [
+        243,
+        244
+      ],
+      "pageMarkdownSha256": "71e893c4590660a5a3e285d497a77fa77bb020e5ad3152705058290652b01be5",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-217.png",
+      "sourcePageImageSha256": "6289fd7ae28499ecd470de5e2826d5cd0c361f71c70a0e9e3cad246653ff3a44",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-260.png",
+          "sha256": "a5fdcba87db04badaf18b1cb4cf220440a05423a23fa3112b4eff7aaa075041a",
+          "physicalPage": 260
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-261.png",
+          "sha256": "75f826144f44422637bf5c94f62199f3d2dca2e9ec77154b0df51b30bed85d5a",
+          "physicalPage": 261
+        }
+      ],
+      "pageAnchors": [
+        "pdf-217",
+        "p-202"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.4 动态重排前的顺序可见性",
+          "enPosition": "PDF260／印刷243，动态重排首段",
+          "original": "没有合适的顺序有时是显而易见的",
+          "final": "有时看不出哪一种次序合适",
+          "basis": "原文 sometimes no suitable ordering is apparent 指尚未辨认出合适顺序。",
+          "cnPrintedPage": 202
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "式103后向下跳转增长率",
+          "cn": "B(f)^2/8",
+          "enEarlier": "B(f)^2/2",
+          "basis": "令 u=n−2m，原精确式为4u−3和2u²−2u+1，比值导出1/8。保留已正确的所选中文版。"
+        }
+      ],
+      "coveredRegions": [
+        "Opening continuation of Eq.(103), both exact BDD counts and the selected approximation; inverse jump bounds and reference.",
+        "Dynamic reordering motivation and every Algorithm J step J1–J7, original loop thresholds and CN218 sentence carry."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 217,
+        "markdownSha256": "71e893c4590660a5a3e285d497a77fa77bb020e5ad3152705058290652b01be5",
+        "htmlSha256": "e65501f710a57915aecfdb6c08175265825382574ff15ab3cd1786eedaca3c2d",
+        "mathExpressions": 58,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-217-218-219.json",
+        "sha256": "5695a81baf73346b46b159f7f4750564e17f2a83a4ace3c77d5d08c34d55008b",
+        "cases": [
+          {
+            "physicalPage": 217,
+            "width": 1280,
+            "markdownSha256": "71e893c4590660a5a3e285d497a77fa77bb020e5ad3152705058290652b01be5",
+            "documentWidth": 1280,
+            "math": 58,
+            "mathml": 58,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 58,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 217,
+            "width": 390,
+            "markdownSha256": "71e893c4590660a5a3e285d497a77fa77bb020e5ad3152705058290652b01be5",
+            "documentWidth": 390,
+            "math": 58,
+            "mathml": 58,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 58,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Final independent 1280 and 390 full pages, narrow right positions, and the specified intermediate/wide details directly inspected."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/217-1280.png",
+          "sha256": "b4e31137b6afa98463042261cce72dd7bf5d7ea9e4ae8518c5bfe6ed795ba91f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/217-390.png",
+          "sha256": "8c0b37aab5b7227cdfbdd70995617d1b4e7edd05e620dfe85223eb4958c9e818",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/217-390-right.png",
+          "sha256": "7ee34a4ac75555e033d644159a21565eb36910c506e76edcfb33a8b29e6949fd",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-217-eq103-jwrap.png",
+          "sha256": "a557d1f6cb61f3111a06f0953de760184389022b1db7f13125549d3917cc27aa"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-260-eq103-approximation-full.png",
+          "sha256": "8acc0c53b01c769bb2705ed7528d96216df56f280a08ea3623e9eb81b75e2f4f"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Actual complete CN217–219 checked against EN260–263 and fresh desktop/mobile renders. State reorder sizes, the exact fixed Algorithm J run and finite read-once examples checked separately.",
+      "startsMidParagraph": true,
+      "startsMidSentence": false,
+      "endsMidParagraph": true,
+      "endsMidSentence": true,
+      "followingPageContinuation": "开头是物理216的式103第二行，装订为一个对齐式，页锚置式外；末句至218「缩短运行时间」。",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/217-selected-cn-before-translation-repair-e3a13187257178c5189eeb62ee19f9da43705161621de0e1127c8f6533d18d5c/217.md",
+        "sha256": "e3a13187257178c5189eeb62ee19f9da43705161621de0e1127c8f6533d18d5c",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-state-orders-readonce-217-219.json",
+          "sha256": "ea1a71572c8e6b49ce6bfebd84983fbf7de671e00961fbcf4db635c0b15004c9",
+          "scope": "All printed state order tokens and their seven fixed independent-set sizes, WV positions and exact 4663-swap run using the original graph; limited Eq.103 and read-once counts. No original measured timings or global ordering optimum."
+        },
+        {
+          "file": "assets/volume4a/review/body-217-219-wide-details.json",
+          "sha256": "5c3181e7304145ad95128e82c23de44d1b39b1319369102f227ab11b5803a81c",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "c4323bc13ba9e59dd426b53e4c56c42f9131b95ea56aa79c2f98af6b0e3cc60f",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/217.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 218,
+      "cnPrintedPage": 203,
+      "enPdfPages": [
+        261,
+        262
+      ],
+      "enPrintedPages": [
+        244,
+        245
+      ],
+      "pageMarkdownSha256": "4beaf0ad813b178e906f04dcff581f0c46b320bbe122bb6f8e8c1b04af913e85",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-218.png",
+      "sourcePageImageSha256": "fc64633f16411ecf009c840a2c20ef756872602753e85aa7a1c40e907bc6069d",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-261.png",
+          "sha256": "75f826144f44422637bf5c94f62199f3d2dca2e9ec77154b0df51b30bed85d5a",
+          "physicalPage": 261
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-262.png",
+          "sha256": "6541b22a2ab318243b6125bf5f1992997f96c10e82f776b15012a1985fbc1843",
+          "physicalPage": 262
+        }
+      ],
+      "pageAnchors": [
+        "pdf-218",
+        "p-203",
+        "eq-7-1-4-104",
+        "eq-7-1-4-106",
+        "eq-7-1-4-107",
+        "eq-7-1-4-108"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [
+        {
+          "location": "§7.1.4 州图求值与字母顺序式号",
+          "enPosition": "PDF262／印刷245，自动移动段",
+          "original": "从按字母顺序的排列 $(105)$ 开始对 $(107)$ 求值",
+          "final": "从字母顺序 $(107)$ 开始对 $(105)$ 求值",
+          "basis": "式105定义独立集函数，式107列出州名的字母顺序，原中文互倒。",
+          "cnPrintedPage": 203
+        },
+        {
+          "location": "§7.1.4 WV 插入位置表末格",
+          "enPosition": "PDF261／印刷244，WV 表末格",
+          "original": "436 442 453</code></pre>",
+          "final": "436 442 451</code></pre>",
+          "basis": "两原版在 IL 后的最后插入位均印453。以式104的 IL、WV、WI 及源图49点107边，邻接递推和逐子句合取均得451，前20格逐格全符。",
+          "cnPrintedPage": 203
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "Continuation of Algorithm J timing sentence; sifting once per variable.",
+        "Full fixed state orders (104), (106)–(108); independent-set formula (105); all 21 WV slots and original run, timing, and thresholds."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 218,
+        "markdownSha256": "4beaf0ad813b178e906f04dcff581f0c46b320bbe122bb6f8e8c1b04af913e85",
+        "htmlSha256": "9b447cd7bbbb3ef94b688f826382fe041f3b401c22d6a419fbb0ce8a60280d7c",
+        "mathExpressions": 23,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-217-218-219.json",
+        "sha256": "5695a81baf73346b46b159f7f4750564e17f2a83a4ace3c77d5d08c34d55008b",
+        "cases": [
+          {
+            "physicalPage": 218,
+            "width": 1280,
+            "markdownSha256": "4beaf0ad813b178e906f04dcff581f0c46b320bbe122bb6f8e8c1b04af913e85",
+            "documentWidth": 1280,
+            "math": 23,
+            "mathml": 23,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 28,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 218,
+            "width": 390,
+            "markdownSha256": "4beaf0ad813b178e906f04dcff581f0c46b320bbe122bb6f8e8c1b04af913e85",
+            "documentWidth": 390,
+            "math": 23,
+            "mathml": 23,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 28,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Final independent 1280 and 390 full pages, narrow right positions, and the specified intermediate/wide details directly inspected."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/218-1280.png",
+          "sha256": "2dc56419e4950973ad2ca273dcfb9d56642dfa5911799ac86f6d9f899e947a2e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/218-390.png",
+          "sha256": "28138f0676951a80b07ba657722b16f9461fa064aca4afe791a44dc891d81f32",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/218-390-right.png",
+          "sha256": "23f57418c8838d21beccf6417e1d82e05a660d0d4ce37e42b2a299f14a48727e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/218-1280-wide-5-2.png",
+          "sha256": "5f20eb51c93cbb1891d8b0cfce665fd03b6f120957ed24726273ec3194e87862",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/218-390-wide-5-1.png",
+          "sha256": "7fe3eab92794ec6d3a1e6961fda5d7345e227a9598b2066f9002801b1c5f9794",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/218-390-wide-9-1.png",
+          "sha256": "30f5a27433f74cc5295a6dd264f2733fdd949ffd2fcfaf4e7738f873d8d0ee0c",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-218-orders-a.png",
+          "sha256": "16d89f1b9cf3ed6a1e62a1cfa8c0615969c311a2bdbd36e9327d9e425e1c4f2c"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-218-orders-b.png",
+          "sha256": "f83366e0011e5eaf718db9a3a71f73ed08d25327e6bde253755c11cf9d501751"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-261-wv-table.png",
+          "sha256": "487fdad3d0583802b4fd2ac2fe91dafd5586181e453407f565abc5073c2401bb"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Actual complete CN217–219 checked against EN260–263 and fresh desktop/mobile renders. State reorder sizes, the exact fixed Algorithm J run and finite read-once examples checked separately.",
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/218-selected-cn-before-translation-repair-a611b839eb1a73af50a9306d4dcf889f70fb54b7ac205bb69659842fc0ffac1b/218.md",
+        "sha256": "a611b839eb1a73af50a9306d4dcf889f70fb54b7ac205bb69659842fc0ffac1b",
+        "qualification": "Normalized selected Chinese wording before local translation repairs."
+      },
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-state-orders-readonce-217-219.json",
+          "sha256": "ea1a71572c8e6b49ce6bfebd84983fbf7de671e00961fbcf4db635c0b15004c9",
+          "scope": "All printed state order tokens and their seven fixed independent-set sizes, WV positions and exact 4663-swap run using the original graph; limited Eq.103 and read-once counts. No original measured timings or global ordering optimum."
+        },
+        {
+          "file": "assets/volume4a/review/body-217-219-wide-details.json",
+          "sha256": "5c3181e7304145ad95128e82c23de44d1b39b1319369102f227ab11b5803a81c",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "0e502a31a6cfc1cabd14be119fcbe7152945bc83bf56cf4dbd7e9b2ff735b50f",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/218.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 219,
+      "cnPrintedPage": 204,
+      "enPdfPages": [
+        262,
+        263
+      ],
+      "enPrintedPages": [
+        245,
+        246
+      ],
+      "pageMarkdownSha256": "266f91c153943f09f6ba0579f7c18172120f7762f52ae1d362cf6aaa574668ee",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-219.png",
+      "sourcePageImageSha256": "8c4e0c00291db26cad59088226039f5f8c11a36dcb826590a00e17c6c86afefc",
+      "enPageImages": [
+        {
+          "file": "private-snapshot:volume4a/body-review/en-262.png",
+          "sha256": "6541b22a2ab318243b6125bf5f1992997f96c10e82f776b15012a1985fbc1843",
+          "physicalPage": 262
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-263.png",
+          "sha256": "97db94656a272d07f15bc2eddd63bc699bea9778bb956be09443c41ae6c4fe67",
+          "physicalPage": 263
+        }
+      ],
+      "pageAnchors": [
+        "pdf-219",
+        "p-204",
+        "eq-7-1-4-109",
+        "eq-7-1-4-110",
+        "eq-7-1-4-111"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number, retained in hidden anchors."
+      ],
+      "figureAssets": [],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [],
+      "coveredRegions": [
+        "All 49 state codes in each of (109), (110), (111), original optimization windows, counts and COLOR figures.",
+        "The full read-once definition, ten operators, case distinctions in (112)/(113), two recurrences (114), u3 example and four Fibonacci sizes in (115)."
+      ],
+      "ocrRepairsOfNote": [],
+      "syntaxCheck": {
+        "physicalPage": 219,
+        "markdownSha256": "266f91c153943f09f6ba0579f7c18172120f7762f52ae1d362cf6aaa574668ee",
+        "htmlSha256": "cad23423add0eacc0e3fae7bbf2b20b17659656893ffb9fce80736aa178925ec",
+        "mathExpressions": 30,
+        "displayMath": 4,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [
+          2,
+          2,
+          2
+        ],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-217-218-219.json",
+        "sha256": "5695a81baf73346b46b159f7f4750564e17f2a83a4ace3c77d5d08c34d55008b",
+        "cases": [
+          {
+            "physicalPage": 219,
+            "width": 1280,
+            "markdownSha256": "266f91c153943f09f6ba0579f7c18172120f7762f52ae1d362cf6aaa574668ee",
+            "documentWidth": 1280,
+            "math": 30,
+            "mathml": 30,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 33,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 219,
+            "width": 390,
+            "markdownSha256": "266f91c153943f09f6ba0579f7c18172120f7762f52ae1d362cf6aaa574668ee",
+            "documentWidth": 390,
+            "math": 30,
+            "mathml": 30,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 33,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Final independent 1280 and 390 full pages, narrow right positions, and the specified intermediate/wide details directly inspected."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/219-1280.png",
+          "sha256": "10aa2736cfeaf2fb6f8f0d231166de65b2d1fcf5d27e101e1529ca55961ce73a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/219-390.png",
+          "sha256": "68efe85068c8c02ba901931b68cf4b0022bb1b105d8ceabb4d60513694a1cffd",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/219-390-right.png",
+          "sha256": "c83f369816fb9097e6a5021cbd94e3de95eee16a092681d2486a8a111b4f5078",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/219-1280-wide-26-2.png",
+          "sha256": "09741782bab79bc92b961649cc8f336e241cece19ad44c706f4fe91ab35b80dd",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/219-390-wide-25-1.png",
+          "sha256": "edf73ffed554017e135d8de368902364fe80a7a039d9a53144f1662fc8a7cd3a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/219-390-wide-26-1.png",
+          "sha256": "bb1c8784a24489d6d229cdbfe82f4cf4946e31b22fbffcf5f000860dac4d4e49",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/219-390-wide-27-1.png",
+          "sha256": "b78df7f1c5a0b3142abbe52b61ed21d6a9b07d0e01f895a5fae3404cf0780fc1",
+          "viewed": true
+        }
+      ],
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-219-orders.png",
+          "sha256": "9e4ba2cb311498c4e0a167bf8e7cbc759e2af4ae67346b4dedb4abd74f6878b1"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-219-readonce-ops.png",
+          "sha256": "cb9229f10364bd545cb48635fc453432b804b6ba849ec93a050fb7b97e5f4f36"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-263-readonce-ops.png",
+          "sha256": "47dd1692ac64ce4116c44198f130bf72eb9d2fc45cd294bb2e77a6cada19df20"
+        }
+      ],
+      "pending": [
+        "Final bound whole-volume inclusion, offline proof, production SSR, and online validation"
+      ],
+      "qualification": "Actual complete CN217–219 checked against EN260–263 and fresh desktop/mobile renders. State reorder sizes, the exact fixed Algorithm J run and finite read-once examples checked separately.",
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "supplementalEvidence": [
+        {
+          "file": "assets/volume4a/review/fixed-state-orders-readonce-217-219.json",
+          "sha256": "ea1a71572c8e6b49ce6bfebd84983fbf7de671e00961fbcf4db635c0b15004c9",
+          "scope": "All printed state order tokens and their seven fixed independent-set sizes, WV positions and exact 4663-swap run using the original graph; limited Eq.103 and read-once counts. No original measured timings or global ordering optimum."
+        },
+        {
+          "file": "assets/volume4a/review/body-217-219-wide-details.json",
+          "sha256": "5c3181e7304145ad95128e82c23de44d1b39b1319369102f227ab11b5803a81c",
+          "scope": "Supplemental screenshots at interior narrow and right desktop positions of long math, text, code and tables, with actual horizontal offsets and current source fingerprints. Whole-page cases are separate."
+        }
+      ],
+      "privateOriginalPageReviewSha256": "09c63d88fb2ccf83c711a95e32572e77e1c383518b34e8f971249c5c83d7c4b5",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/219.json"
+    }
+  ],
+  "qualification": "Actual complete CN217–219 checked against EN260–263 and fresh desktop/mobile renders. State reorder sizes, the exact fixed Algorithm J run and finite read-once examples checked separately."
+}

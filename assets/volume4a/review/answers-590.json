@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "CompleteCN590;43continuationand44–51withnooriginal48answer",
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 590,
+      "cnPrintedPage": "575",
+      "enPdfPages": [
+        703,
+        704
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "bca7c1c55e9cb5b4dab5dad1aab3656ece2579a85fd7a295070d74cd59d72778",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "f254101e3d830ee9c5d73a280a8120c0b7652a3c19030ef306334235e8dad7bc",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "CompleteCN590andcorrespondingEN703704actuallysource-imagecompared. Updated43 separately matched actual author2014 erratum image; CN259/275/276 and EN330 only definition/question context, not body-page acceptance. No human signoff.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "9b5e5e6676aac475df2558e7eae7a15a8b8a39f6957e1ffd890315d5312fba85",
+      "enPageImages": [
+        {
+          "physicalPage": 703,
+          "sha256": "aea4eaefc05c48c879e2a3f244b1c98b2323f91668a4e996b088f0daf6ead19f"
+        },
+        {
+          "physicalPage": 704,
+          "sha256": "e84ccfac8ab151d4135cae73548cde8495e902b7f969d3066626e16ebdc41bd0"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 590,
+        "markdownSha256": "bca7c1c55e9cb5b4dab5dad1aab3656ece2579a85fd7a295070d74cd59d72778",
+        "htmlSha256": "1e048881947ad88db1a54f2dc3ff8e18f4588276a1de7b903cc5ce9c317c31c2",
+        "mathExpressions": 101,
+        "displayMath": 6,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "bfd203b5a008d829854dccd4ff94525695aca8889aacc235904d8f64335c88c8",
+      "syntaxEvidenceFile": "syntax-590.json",
+      "coveredRegions": [
+        "43wholeliteralChinesecontinuation/popcountconditions/2011/d6exact23digits/MathCompcitation",
+        "44fullanswer;orderedpairprojectrepairwithquestion275synchronizedbybodyowner",
+        "45aallsourcehexprefix/tail/32elements/Gamma4;45bfulltworemovalsandinsertions;45cmultigraphallquantifiers/even-degree/componentmeaning",
+        "45dwholePlow-bitrestriction/signatures/workingcycle/twocases/l-subscript/not1/allreplacementedgeendpoints;c2statement;45eallmatchingcontextcounts/exponent/cross-reference",
+        "46entirecontroller/rho/Iversonnotpower2/brackets/t/exponent/citation",
+        "47allstrict/factorialmatchingbounds/upperasymptotic/fullk-factorproduct/equalfinalsquares/rjchoice/alphadefinition/allweights/correctedk+4factor/finalasymptotic",
+        "49whole0P,1barPconstruction/endpointcondition/n1n2classificationqualification",
+        "50wholeeven-ltransitionword/allalphaR/j/n/n+1positions",
+        "51allfloor/ceil/prime/subscript/underlining/last0/dchoice/oddlsum;sourcebracketcontinues591"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "7.2.1.1答44／575",
+          "enPosition": "EN703／686; d definition CN259／244 and question CN275／260, EN330／313",
+          "original": "一对完全匹配（原题以无序两两组合数计上界）",
+          "final": "一对有序的完全匹配；原题由正文负责同步为2 binom(M(n),2)+[n=1]",
+          "basis": "Different rooted delta strings preserve orientation. Q2 has two strings0101/1010 but one unordered pair; Q1 uses the same edge twice. For n≥2 alternate ordered distinct matchings from fixed0 uniquely reconstruct every delta; n1 contributes one separate case. Independent peer actually read definition, question and answer; root separately enumerated Q1–4."
+        },
+        {
+          "location": "7.2.1.1答45(c)／575",
+          "enPosition": "EN703／686 connectedcomponents",
+          "original": "不改变连通子图",
+          "final": "不改变连通分量",
+          "basis": "The source argument preserves the graph connected-component partition, not every connected subgraph; English explicitly states connected components."
+        },
+        {
+          "location": "7.2.1.1答45(d)路径顶点条件／575",
+          "enPosition": "EN703／686 path through vertices of G with v0=v−1=0",
+          "original": "经过G的顶点和v0=v−1=0的路径",
+          "final": "在G中满足v0=v−1=0的顶点间构造路径",
+          "basis": "English with modifies all path vertices; conjunction 和 loses the restriction needed for later higher-coordinate cube-edge splices."
+        },
+        {
+          "location": "7.2.1.1答45(d)情形2第一替换边／575",
+          "enPosition": "EN703／686 both sources print v⊕3",
+          "original": "u⊕2—v⊕3",
+          "final": "u⊕2—v⊕2",
+          "basis": "Original duplicates v⊕3, omits v⊕2 and joins endpoints differing in two cube coordinates. Equal masks join four distinct exposed endpoints into one cube cycle; independent peer and two finite coordinate-swapped local examples agree. This is a project mathematical correction, not claimed author erratum or full global construction replay."
+        },
+        {
+          "location": "7.2.1.1答47化简式／575",
+          "enPosition": "EN704／687 both sources print k−4",
+          "original": "2^(−2+(k−4)/2^k)",
+          "final": "2^(−2+(k+4)/2^k)",
+          "basis": "Exact weighted exponent sum is2−(k+4)/2^k. k4, r=(4m,2m,m,m) gives2^(−3/2), not2^(−2); sqrt2 discrepancy cannot be O(k/n) at fixedk. Independent peer agrees. Final n/(4e)+O((logn)^2) asymptotic unchanged."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "答43续段",
+          "selectedCN": "2011exactd6=71676427445141767741440/HaanpaaOstergard/popcountpaths/MathComp83(2014)979995",
+          "oldEN": "AttachedEN703containsolderestimate/feasibility/1972Winkerparagraph",
+          "treatment": "KeepselectedChineseexistingupdatedparagraph;author2014-09-15erratumphysical32actuallyconfirmsexactsamefacts. No new translation invention and no independent d6 enumeration."
+        }
+      ],
+      "machineErrorsCorrected": [
+        "Restoreall23exactd6digitsandnuxsubscriptnotation",
+        "RestoreGamma4withoutphantombar;hexspaces/sourceonlyprefixellipsisandtail",
+        "Restoreu_l≠v_lletterlnotnumeral1;completeedgeoperators",
+        "Restore46wholeIversonbrackets/rho/2-powerexponentsandall47nestedfactorialbounds",
+        "Restore50number/answeranchor/fulltransitionword;51primeonc_(j+2+d),floorversusceilingandoriginaln3exception"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "endsMidParagraph": true,
+      "continuation": {
+        "previousCnPdfPage": 589,
+        "nextCnPdfPage": 591,
+        "scope": "43startsafter589comma;logicaljoinpending. Endsoriginal51historicalbracketat推论B是,continues591;no inventedclosingornewfootnote."
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "43logicaljoin589590",
+        "51historycontinuation591/logicaljoin",
+        "body275question44synchronization",
+        "Wholemaster/offline/routed/onlineacceptance"
+      ],
+      "numericChecks": {
+        "receipts": [
+          {
+            "file": "root-answer-checks/590-finite-models-before-transcription.json",
+            "sha256": "f06fac5f672ae85459a9fbc4e067e9309e9ad1b8aba77fc1dff1175de04d81d0"
+          },
+          {
+            "file": "root-answer-checks/590-finite-models-current.json",
+            "sha256": "840f7264506321e92925479843f833a61516262da6ab37f1d70daab17d4be164"
+          }
+        ],
+        "scope": "Allfixed-originQ1–4delta/orderedmatchinginjectivity;M1–5exactpermanent;all1024r2vertices/32cycles/cyclicGamma4/groundsplices/Gprimeeveryedge/contextcounts;two local45dsplices;controllersk2,4,6,8;exactweightk4–40even;49dimension2–10finitecycles;16453evenmarkedextensionsonreflectedinputs1–4;51arithmeticn1–100.",
+        "allOriginalGeneralAsymptoticAndHistoricalClaimsIndependentlyProved": false
+      },
+      "sourceEditionQualifications": {
+        "d6": "Actualauthor2014sourceconfirmsupdatedChinese;notindependenthugecountcomputation.",
+        "corrections": "44/45d/47mathematicalrepairsareprojectcorrections,nonauthorattribution. Original44upperboundisdisprovedatn1n2;notassertedfalseforalln≥3.",
+        "finiteExecution": "Rawactualexecutionpredates590transcriptionwithnullpageSHAandremainsunchanged. Currentwrapperchecksinput/checker/literalmanuscriptfields/actualDOMhasheswithoutretaggingoldrun.",
+        "checkerHistory": "Initialcheckerexpectedall32cyclesstartatGamma4zero. Archivedchecker-onlyfailure;currentfreshmodelscomparecyclicrotations.No590manuscriptexistedthen.",
+        "pixels": "6wholeviewportcapturesand18currentmathendpointimagesactuallyviewed;two101mathcasespassed;singlehexcodefieldexactbothwidths;noimagesororiginalclicks.",
+        "independentPeerSha256": {
+          "ordered44": "f2a1692082b12c7a1660bcda1da4b2d32b45315e2b4bbf7a2d764fa36f87e642",
+          "swap45dExponent47": "081c8fd0404cff715e9c2d6798de13bf9682f60643be7cf507b2d676fd26d7f2"
+        },
+        "additionalActualSources": [
+          {
+            "file": "scans/259.jpg",
+            "sha256": "4f193c5f517ac7abd1bf095915c69438e33b09869b73ffdb4b73ebcef8b4971c"
+          },
+          {
+            "file": "scans/275.jpg",
+            "sha256": "ea4225e1fb0b3a58b5a24343bd0e5aaedb99408b6881c51000a3bed8693085d4"
+          },
+          {
+            "file": "scans/276.jpg",
+            "sha256": "11ccd436fccc195b3bb906f5c2558f43ccab7ea4db3f39ab7d96cca2d435e914"
+          },
+          {
+            "file": "root-sources/en-330-question-context.png",
+            "sha256": "4ab6a9ba5fc762fb5fbc31f509925f9cc5bb3779baab47458bb629e0b8c599b4"
+          },
+          {
+            "file": "root-sources/official-pre-43-p32.png",
+            "sha256": "e2259b23c924eb7730f68a751aadfd2dc92738dbd45bffeb3674efb9ad7479e3"
+          },
+          {
+            "file": "root-sources/cn-275-45a-matching-detail.png",
+            "sha256": "b02398e45f455d002ef8b984768cf85a094542e74276b75f4cd6c9cc2269f269"
+          },
+          {
+            "file": "root-sources/en-330-45a-matching-detail.png",
+            "sha256": "490586960cfa26f2187a49b204ae6b96b58c8e7a7b27b2383d3f63f6c5badbb9"
+          },
+          {
+            "file": "root-sources/cn-590-45d-swap-detail.png",
+            "sha256": "0518ad5814ed7e6dd01425cd88d9f5aed5c1ea8b27ad10e87c8f5efc0b707030"
+          },
+          {
+            "file": "root-sources/en-703-45d-swap-detail.png",
+            "sha256": "1720d6ce04b6d7459616d95ad0507459084a3cef3de570593d81b78347ead20c"
+          },
+          {
+            "file": "root-sources/cn-590-47-exponent-detail.png",
+            "sha256": "3175de573420c7083669226e76b55ab53df42c4061ae2c0592daf69475dde92b"
+          },
+          {
+            "file": "root-sources/en-704-47-exponent-detail.png",
+            "sha256": "8c8d08dfcff97d8bd4fc70aeb25d5bb221437516bfe4f6d3c0a503619f65b589"
+          }
+        ]
+      },
+      "exerciseAnswerExistence": {
+        "section": "7.2.1.1",
+        "noIndependentAnswer": [
+          48
+        ],
+        "evidence": "ActualCN276question48HM48exists;bothactualCN590andEN704answersjump47→49. Do not invent48answeroranswerlink."
+      }
+    }
+  ],
+  "browser": {
+    "widths": [
+      1280,
+      390
+    ],
+    "acceptedDistinctPageCases": 2,
+    "mathExpressionsPerPass": 101,
+    "errors": 0,
+    "wholePageOverflow": 0,
+    "wholeViewportScreensActuallyViewed": 6,
+    "currentMathEndpointScreensActuallyViewed": 18,
+    "images": 0,
+    "browserEvidenceSha256": "3d57c8537deb4b702ea9c72fde8b370db4b7f908bf8fd2fadbc6b77f58082b4c",
+    "actualDOMFieldsEvidenceSha256": "829dd0cb707989c1c00c66338e1f49a76d6c127837e650bbc14a6609ab276152",
+    "currentMathEndpointEvidenceSha256": "81b0dde557ab199c2caaeff3c991d980fac5549bf44c85da342d348f66d2b628",
+    "actualCodeFieldsPerWidth": 1,
+    "cases": [
+      {
+        "physicalPage": 590,
+        "fontFailures": [],
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "math": 101,
+        "mathErrors": 0,
+        "overflowPorts": 11,
+        "images": [],
+        "mathmlContainsProse": 0,
+        "passed": true
+      },
+      {
+        "physicalPage": 590,
+        "fontFailures": [],
+        "viewport": 390,
+        "documentWidth": 390,
+        "math": 101,
+        "mathErrors": 0,
+        "overflowPorts": 18,
+        "images": [],
+        "mathmlContainsProse": 0,
+        "passed": true
+      }
+    ]
+  },
+  "pending": [
+    "43logicaljoin589590",
+    "51historycontinuation591/logicaljoin",
+    "body275question44synchronization",
+    "Wholemaster/offline/routed/onlineacceptance"
+  ]
+}

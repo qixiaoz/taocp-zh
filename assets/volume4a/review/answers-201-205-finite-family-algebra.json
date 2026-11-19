@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Only specified finite family algebra201203204205, no206 complexity proof or202 mutable swap/ref verification",
+  "data": {
+    "checkerSha256": "2e3e5d6b439579cb6a0634eee4240c24d86636eb6c09099099b907f6470d3135",
+    "moduleSha256": "33b997470b5e4f4e6459a8263a74f03e843deefcc40567ed99f90774f8ec606a",
+    "sourcePageMarkdownSha256": {
+      "568": "ccea134337effc548284bf4c5e5d42e6543542ec837a046cee5111b558d25fc2",
+      "569": "d87a3994ce84168055cebbc0ca6c6672eb6bcdc9082eeabef06dc335bca15cb4"
+    },
+    "models205": [
+      {
+        "variables": 1,
+        "allFamilies": 4,
+        "allPairs": 16,
+        "operations": [
+          "JOIN",
+          "MEET",
+          "DELTA",
+          "DISJOIN",
+          "DIV",
+          "MOD"
+        ],
+        "allResultTruthSetsAndTwo204gIdentitiesMatch": true,
+        "quotientZeroOnlyFixedFiniteUniverse": true
+      },
+      {
+        "variables": 2,
+        "allFamilies": 16,
+        "allPairs": 256,
+        "operations": [
+          "JOIN",
+          "MEET",
+          "DELTA",
+          "DISJOIN",
+          "DIV",
+          "MOD"
+        ],
+        "allResultTruthSetsAndTwo204gIdentitiesMatch": true,
+        "quotientZeroOnlyFixedFiniteUniverse": true
+      },
+      {
+        "variables": 3,
+        "allFamilies": 256,
+        "allPairs": 65536,
+        "operations": [
+          "JOIN",
+          "MEET",
+          "DELTA",
+          "DISJOIN",
+          "DIV",
+          "MOD"
+        ],
+        "allResultTruthSetsAndTwo204gIdentitiesMatch": true,
+        "quotientZeroOnlyFixedFiniteUniverse": true
+      }
+    ],
+    "models203204": {
+      "allTwoVariableTriples": 4096,
+      "actualSourceCounterexamples": {
+        "203c_iv": {
+          "f": [
+            0
+          ],
+          "g": [],
+          "h": [
+            1
+          ],
+          "left": [
+            0
+          ],
+          "right": [
+            0,
+            1
+          ]
+        },
+        "203c_iii": {
+          "f": [
+            1,
+            2
+          ],
+          "g": [
+            0
+          ],
+          "h": [
+            0
+          ],
+          "left": [
+            1,
+            2
+          ],
+          "right": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "source203aAnd204bGivenFamiliesMatch": true,
+      "classifications203e": [
+        {
+          "variables": 2,
+          "allFamilies": 16,
+          "partIVAllSolutions": 2,
+          "partVAllSolutions": 5,
+          "partVConstructedWithPrimesOnRemainingDomain": 8,
+          "partVIThreeVariableAllSolutions": 0,
+          "unitEmptyAndFiniteUniversalIdentitiesMatch": true,
+          "singletonDeltaSelfCharacterizationMatch": true
+        },
+        {
+          "variables": 3,
+          "allFamilies": 256,
+          "partIVAllSolutions": 4,
+          "partVAllSolutions": 25,
+          "partVConstructedWithPrimesOnRemainingDomain": 64,
+          "partVIThreeVariableAllSolutions": 4,
+          "unitEmptyAndFiniteUniversalIdentitiesMatch": true,
+          "singletonDeltaSelfCharacterizationMatch": true
+        }
+      ]
+    },
+    "models201": [
+      {
+        "variables": 1,
+        "tautologyNodes": 2,
+        "newProjectionNodesExcludingTautologyAndFalse": 1,
+        "allInputTruthValuesConstructed": 2,
+        "partialTautologyShortcutPairs": 20
+      },
+      {
+        "variables": 2,
+        "tautologyNodes": 3,
+        "newProjectionNodesExcludingTautologyAndFalse": 3,
+        "allInputTruthValuesConstructed": 4,
+        "partialTautologyShortcutPairs": 276
+      },
+      {
+        "variables": 3,
+        "tautologyNodes": 4,
+        "newProjectionNodesExcludingTautologyAndFalse": 6,
+        "allInputTruthValuesConstructed": 8,
+        "partialTautologyShortcutPairs": 65812
+      },
+      {
+        "variables": 4,
+        "tautologyNodes": 5,
+        "newProjectionNodesExcludingTautologyAndFalse": 10,
+        "allInputTruthValuesConstructed": 16,
+        "partialTautologyShortcutPairs": 65812
+      },
+      {
+        "variables": 5,
+        "tautologyNodes": 6,
+        "newProjectionNodesExcludingTautologyAndFalse": 15,
+        "allInputTruthValuesConstructed": 32,
+        "partialTautologyShortcutPairs": 65812
+      },
+      {
+        "variables": 6,
+        "tautologyNodes": 7,
+        "newProjectionNodesExcludingTautologyAndFalse": 21,
+        "allInputTruthValuesConstructed": 64,
+        "partialTautologyShortcutPairs": 65812
+      },
+      {
+        "variables": 7,
+        "tautologyNodes": 8,
+        "newProjectionNodesExcludingTautologyAndFalse": 28,
+        "allInputTruthValuesConstructed": 128,
+        "partialTautologyShortcutPairs": 65812
+      },
+      {
+        "variables": 8,
+        "tautologyNodes": 9,
+        "newProjectionNodesExcludingTautologyAndFalse": 36,
+        "allInputTruthValuesConstructed": 256,
+        "partialTautologyShortcutPairs": 65812
+      }
+    ],
+    "qualifications": [
+      "Finite immutable structure semantics, not REF/GC/mutable swap T4 execution",
+      "Division by empty is modeled only in a fixed finite universe",
+      "203e(v) finite construction primes restricted to remaining-variable domain already covers every solution in n2/n3; not all unrestricted prime triples enumerated",
+      "No independent general asymptotic proof;206 replacement is official2025 source update, not proved by these finite cases",
+      "Source191 remains separately unresolved; unrelated to this batch"
+    ]
+  },
+  "evidenceSha256": "92302a7e035f64797ed95c78f6e1ee94fb44863d9f8d5eafb76be19a9bc7177b",
+  "currentDOMTwoMUXShortcutsAnd203eUnionAndTwo205dRecurrencesCompared": true
+}

@@ -1,0 +1,62 @@
+{
+  "kind": "independent-readonly-peer-source-and-single-constant-boundary-review",
+  "volume": "volume4a",
+  "section": "7.1.4 answer9",
+  "sourceActuallyViewed": [
+    {
+      "file": "en-224-BDD-sequential-constants.png",
+      "sha256": "466f2c6e8e316a98bcd5a55af2218e2bcd0cb4a38a30f91b41af539666e35880"
+    },
+    {
+      "file": "en-276-BDD-questions1-20.png",
+      "sha256": "42b304a7100764be5160bece0fcfdae36afe1a92087a0c32013fe0d318e71412"
+    },
+    {
+      "file": "535.jpg",
+      "sha256": "dbc62bde3d36b35f39eee86ec91a6c439bfe3314daf33e793c61e8f2fbbf6252"
+    },
+    {
+      "file": "en-639.png",
+      "sha256": "b78b970175f8595f806970ccee6eac5453f200b5e8c937ba418e37bb49e6007a"
+    }
+  ],
+  "sourceLocations": {
+    "questionEnPdfPage": 276,
+    "questionEnPrintedPage": "259",
+    "representationEnPdfPage": 224,
+    "representationEnPrintedPage": "207",
+    "answerCnPdfPage": 535,
+    "answerCnPrintedPage": "520",
+    "answerEnPdfPage": 639,
+    "answerEnPrintedPage": "622"
+  },
+  "question": "lexicographically largest x with f(x)=0, no nonconstant exclusion in the actual question",
+  "actualSequentialConvention": {
+    "falseSink": "I0",
+    "trueSink": "I1",
+    "sinkVariables": "n+1",
+    "sinkBranches": "lk=hk=k",
+    "root": "I_(s-1)",
+    "trueConstantTechnicality": "explicitly s=2 even though ordinary BDD size is1",
+    "falseConstant": "s=1 since otherwise s is BDD size"
+  },
+  "bothAnswersActuallyPrint": "no solution if s=1",
+  "boundedConstantCase": {
+    "n": 1,
+    "falseConstant": {
+      "s": 1,
+      "original": "immediately says no solution, but x1=1 is valid and lexicographically largest",
+      "guard2": "k=0,j=1,v0=2; step(i) x1=1,j=2; step(ii) stops, correct"
+    },
+    "trueConstant": {
+      "s": 2,
+      "original": "k=1,j=1,v1=2; step(i) x1=1,j=2; step(ii) does not stop; h1=1 makes step(iii) x2=0,k=1, already outside n; sink branches keep k=1 so no future step(ii) stop",
+      "guard2": "correctly rejects before entering traversal"
+    }
+  },
+  "minimalCandidate": "change only guard s=1 to s=2; all s>=3 branch instructions are unchanged",
+  "noConventionRescueFoundInActuallyViewedScope": true,
+  "qualification": "Only the two constant-function boundary paths and the source conventions were checked; no general algorithmI/ISA/BDD model or exhaustive enumeration. No Vol4A manuscript/report edits and no author-official-erratum claim.",
+  "reviewerKind": "model-direct-image-review",
+  "humanSignoff": false
+}

@@ -1,0 +1,191 @@
+{
+  "tool": "缓存 Playwright 与全新独立 Chrome 上下文",
+  "model": "gpt-6.2-sol",
+  "reasoningEffort": "ultra",
+  "base": "/taocp-zh",
+  "scope": "两次正式构建先后验收同一组44项。第一次通过39项，最终构建补验5项并额外验证目录和页脚的n。",
+  "baseline": {
+    "path": "首次正式预览验收.json",
+    "sha256": "e13eaa9fab91b05d9f6301b74f4039211d599bdbe0205113c404f5e8184ae906"
+  },
+  "current": [
+    {
+      "path": "final-current-preview/result.json",
+      "sha256": "639df51fe0df5f23e441a5fa9906b22a2d1b807823783f68615c06423e719f43"
+    },
+    {
+      "path": "final-current-index-svg/result.json",
+      "sha256": "33063fd744585c3ac5154eefe7bc46bca61ac19d373bf0253c4ec13752da26bf"
+    }
+  ],
+  "checkScripts": [
+    {
+      "path": "check-final-reader-spots.mjs",
+      "sha256": "c0f37b00fc4c615959408e8499ddfd1a394a744d9be8b8cc770315fe56095a7a"
+    },
+    {
+      "path": "check-final-index-and-svg.mjs",
+      "sha256": "39b6209668b82be2739fffd6c97d9f8b293a027c7458e8fc2f473f8cf19c270f"
+    }
+  ],
+  "covered": [
+    {
+      "name": "index-click-1280",
+      "run": "final-current-index-svg",
+      "cases": [
+        "index-click-1280"
+      ]
+    },
+    {
+      "name": "exercise-answer-390",
+      "run": "final-current-preview",
+      "cases": [
+        "exercise-answer-390"
+      ]
+    },
+    {
+      "name": "footnote-390",
+      "run": "final-current-preview",
+      "cases": [
+        "footnote-390"
+      ]
+    },
+    {
+      "name": "index-click-390",
+      "run": "final-current-index-svg",
+      "cases": [
+        "index-click-390"
+      ]
+    },
+    {
+      "name": "lazy-image-reserved-space",
+      "run": "final-current-index-svg",
+      "cases": [
+        "delayed-svg-1280",
+        "delayed-svg-390"
+      ]
+    }
+  ],
+  "additionalCheck": {
+    "name": "n-navigation-display",
+    "width": 1280,
+    "passed": true,
+    "label": "生成所有 n 元组",
+    "footer": "7.2.1.1　生成所有 n 元组",
+    "selected": "/taocp-zh/volume4a/sec-7-2-1-1.html",
+    "sidebarShot": {
+      "filename": "n-sidebar-1280.png",
+      "sha256": "33bb2352ea743ed8d26819f7d1972f8a6a04c8084e0a4d778f170272e00c6a4f"
+    },
+    "footerShot": {
+      "filename": "n-footer-1280.png",
+      "sha256": "857bbc8c0c7ea233ea3a804c64b94828c55e1608c3f2359ceeb04c7dccb3dae9"
+    }
+  },
+  "initialCombinedFixture": {
+    "description": "中途截留插图时路由已更改URL，等待装载标题超时。保留两个旧失败条目。后续两宽分别实际索引点击，再冷打开p-367做延迟图，限定测试口径。",
+    "failedCases": [
+      "index-and-delayed-svg-1280",
+      "index-and-delayed-svg-390"
+    ]
+  },
+  "controlledImageGeometry": [
+    {
+      "width": 1280,
+      "asset": "/taocp-zh/assets/7-2-1-6-eq4-binary-tree.BHOgvrrA.svg",
+      "reserved": [
+        712,
+        342.28125
+      ],
+      "loaded": [
+        712,
+        342.28125
+      ],
+      "anchorShift": 0,
+      "followingCaptionShift": 0
+    },
+    {
+      "width": 390,
+      "asset": "/taocp-zh/assets/7-2-1-6-eq4-binary-tree.BHOgvrrA.svg",
+      "reserved": [
+        342,
+        164.40625
+      ],
+      "loaded": [
+        342,
+        164.40625
+      ],
+      "anchorShift": 0,
+      "followingCaptionShift": 0
+    }
+  ],
+  "checkedPixels": [
+    {
+      "path": "final-current-preview/n-sidebar-1280.png",
+      "sha256": "33bb2352ea743ed8d26819f7d1972f8a6a04c8084e0a4d778f170272e00c6a4f",
+      "description": "目录编号列与标题列对齐，n 是斜体"
+    },
+    {
+      "path": "final-current-preview/n-footer-1280.png",
+      "sha256": "857bbc8c0c7ea233ea3a804c64b94828c55e1608c3f2359ceeb04c7dccb3dae9",
+      "description": "上一节显示普通 n，标签可点击进入前一节"
+    },
+    {
+      "path": "final-current-preview/answer-120-390.png",
+      "sha256": "d364c42ebe819e7198c01322fa78c7e3ff6a12097096c12737b6cee94df3ba0b",
+      "description": "答案120在可读范围，附图清晰"
+    },
+    {
+      "path": "final-current-preview/exercise-120-back-390.png",
+      "sha256": "ce63555f5a0ef9939c2deadfb45ef369eb0454348ee03987c089aafee4ef3b7b",
+      "description": "回链返回题120与答案入口"
+    },
+    {
+      "path": "final-current-preview/footnote-target-390.png",
+      "sha256": "43ffffbb33f5acaf537e4b589c499e6842e04d3780c7daf13d1ac7468be91c4b",
+      "description": "脚注1与回链可见"
+    },
+    {
+      "path": "final-current-preview/footnote-return-390.png",
+      "sha256": "4a3c7b942d789505f9af9aa2b2642c6ee8430a176fd37dd5587d473b57294b39",
+      "description": "回到正文脚注1上标"
+    },
+    {
+      "path": "final-current-index-svg/index-p385-1280.png",
+      "sha256": "c48311ec1459120ce054d52c2ca171661531c6338d287e86ebc9998cc74236d7",
+      "description": "索引打开p-385，段首可见"
+    },
+    {
+      "path": "final-current-index-svg/index-p385-390.png",
+      "sha256": "dff9e62a7a096552a0bcb963789da632ec356ceeddf31a45fdb564d388ba9b6a",
+      "description": "索引打开p-385，段首可见"
+    },
+    {
+      "path": "final-current-index-svg/pending-tree-1280.png",
+      "sha256": "9cbdcc8bbc6c0a8301342d6ce470910ded8f1943d455d77fb0f91d2405468b93",
+      "description": "响应未释放，插图占位已建立"
+    },
+    {
+      "path": "final-current-index-svg/loaded-tree-1280.png",
+      "sha256": "d655dc5b3d90b43a7f0be722476bd7a1b24ec890cd3f7ba93b4c535cd36c8d79",
+      "description": "插图绘出后式号及正文位置保持"
+    },
+    {
+      "path": "final-current-index-svg/pending-tree-390.png",
+      "sha256": "3b76afb984cd204f107610729c4ae2505530f150544bcdeaeef0b1f9893e3d32",
+      "description": "响应未释放，插图占位已建立"
+    },
+    {
+      "path": "final-current-index-svg/loaded-tree-390.png",
+      "sha256": "2bc5ff6413f2dbf63d855df5ab27cb3c4ca6b542afff11a8dbd34c6524366281",
+      "description": "插图绘出后式号及正文位置保持"
+    }
+  ],
+  "browserProcessesClosed": true,
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": "bb25d9dbb1d0252e5309b3e48cd50a890ff5673ec609a08d76618432207399f1",
+  "privateFinalReceiptSha256": "12690970ad7bf7273382b9610fd5cb63804eaa58e048607356f3aa352167657e",
+  "humanSignOff": false,
+  "qualification": "39 baseline cases and 5 later bounded completions were performed on two actual formal builds; they are not a claim that all 44 ran in one final session. The later code change is limited to sidebar/footer n display; all reader setting components and book content remain byte-identical. Report-only formatting repairs after this run do not change those reading pages."
+}

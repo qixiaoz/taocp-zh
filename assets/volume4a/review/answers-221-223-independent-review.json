@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Only221r3 component and223n100 partial/full pattern scopes;not fullpages or allmembership",
+  "data": {
+    "221": {
+      "volume": "volume4a",
+      "section": "7.1.4",
+      "answer": 221,
+      "scope": "r3 contribution and distinction from first component of the average profile’s third block",
+      "imageSha256": {
+        "572.jpg": "8a34eac06e0dd5c8a43d8ce38a38480515255bb0977b520c4d4c4483199c537c",
+        "en-682.png": "4411a27d39267ad9846cfd002a902e9cf4e7472923d6ae68587b4a37e22c79d3",
+        "en-683.png": "a10c5f4a9138e00785bb77168d51b3b322a81fe504cc18c45cdf6f1fc3b10641"
+      },
+      "cnPrintedPage": 557,
+      "enPrintedPages": [
+        665,
+        666
+      ],
+      "cnPhysicalPage": 572,
+      "enPhysicalPages": [
+        682,
+        683
+      ],
+      "directSourceObservation": "Both prints give the individual r3 estimate about 188.8. 188.86 is the first component in the third position block. With the order j=1..26 that is a3; r3 is j=18 and lies in the ellipsis.",
+      "position": 3,
+      "letterIndex": 18,
+      "sampleUniverse": 11881376,
+      "sampledWithoutReplacement": 5757,
+      "prefixCount": 676,
+      "eligiblePerPrefix": 6084,
+      "strictlyLaterPerPrefix": 5408,
+      "bound": {
+        "suffixSizesIncluded": [
+          1,
+          28
+        ],
+        "evenTerms": 18,
+        "oddTerms": 19,
+        "remainingFromSuffixSize": 29,
+        "remainingUpper": "2.752704828013228157078054890178208514215450045E-15",
+        "lower": "188.7590857885300645382203577601402752906652766",
+        "upper": "188.7590857885300672909251857733684323687201667",
+        "bothRoundToOneDecimal": "188.8"
+      },
+      "qualification": "Only the r3 component was computed. No numerical check of a3 or the overall average profile or total.",
+      "changesToAnswerOrReport": false
+    },
+    "223": {
+      "scope": "卷4A第223题实际双语题端、实际双语答端以及前100父词的穷举。未动正文，未重算n=1000/5757。",
+      "sourceImages": [
+        {
+          "file": "private-snapshot:volume4a/scans/244.jpg",
+          "sha256": "8df74df4fa30bfe60080ad68594ad47a43634e15af31e8453ed54a0f943d546f"
+        },
+        {
+          "file": "private-snapshot:volume4a/root-sources/en-292-223-definition-exact.png",
+          "sha256": "aba9b4260130fcd368c36ebc306d13ac5c033305a94aa113dc6ea186c7c69523"
+        },
+        {
+          "file": "private-snapshot:volume4a/scans/573.jpg",
+          "sha256": "65b0288ae08cb197c4b9df20330eea0a54df859a35d7f4ed25c4d79e34077dd0"
+        },
+        {
+          "file": "private-snapshot:volume4a/root-sources/en-683.png",
+          "sha256": "a10c5f4a9138e00785bb77168d51b3b322a81fe504cc18c45cdf6f1fc3b10641"
+        },
+        {
+          "file": "private-snapshot:volume4a/root-sources/en-684.png",
+          "sha256": "08fed595eac0bc579beb3135b4bedb82b314dc80d5e32a75dacd63dc6ab8b103"
+        }
+      ],
+      "code": {
+        "file": "private-snapshot:volumes3-4a/peer-v4a-573-223-first100-g62.py",
+        "sha256": "e1d26d52814aa23e606d35447661ee199fbf2fc7ee7b25296be387116ee2bc51"
+      },
+      "corpus": {
+        "file": "private-snapshot:volume4a/official-errata/sgb-words.txt",
+        "sha256": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce"
+      },
+      "checkedParentTriples": 161700,
+      "sourceLiteral": "题端要求每个位置恰好两父匹配µ，答223(b)另给∀父≠µ以及三父无共同元素，报告n=100的595结点和47个五字母解；(c)原印成员(1,14,47)。",
+      "fiveLetterExactMembersAmongBookPrefixes": [
+        [
+          "while"
+        ],
+        [
+          "hears",
+          "mines",
+          "while"
+        ],
+        [
+          "grout",
+          "hears",
+          "lanes",
+          "liven",
+          "manes",
+          "mines",
+          "shale",
+          "shill",
+          "shorn",
+          "stile",
+          "thong",
+          "tomes",
+          "while",
+          "whore"
+        ]
+      ],
+      "whilePrintedWitnessRanks": {
+        "while": 31,
+        "white": 58,
+        "whole": 57,
+        "still": 23
+      },
+      "computedVariantsUnderPositionMajorAlphabeticalVariables": {
+        "strictFiveLetterOnly": {
+          "cardinality": 47,
+          "ZDDNodes": 115
+        },
+        "literalWholeSetDifferentAndPartialAllowed": {
+          "cardinalityByLength0Through5": [
+            1,
+            62,
+            498,
+            836,
+            433,
+            47
+          ],
+          "ZDDNodes": 989
+        },
+        "partialAllowedEachParentMissesOneSelectedPosition": {
+          "cardinalityByLength0Through5": [
+            0,
+            0,
+            0,
+            384,
+            224,
+            47
+          ],
+          "ZDDNodes": 595
+        }
+      },
+      "qualification": "595可在一个明确的部分模式族上复现：全异位置留空，同时每个父词必须在至少一个已选多数位置提供少数字母。该变体在五字母上等价答端的三个不等约束，但在不满五位时比字面上的整个集合不相等强，因而不能据此断言作者系统的具体实施。595不是严格五字母族的大小。c的三个成员数仍无法照原值复现；不据此改书或推断剩余规模。"
+    }
+  },
+  "privateEvidenceSha256": {
+    "221": "45096500a761ef956311efa2239ef9b719fd3d551d316c20ecc39c335517d788",
+    "223": "e333cf83caa85ed453845611af8c48053d4c288b5d56a69470979f9d44422b9a"
+  }
+}

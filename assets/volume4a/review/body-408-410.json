@@ -1,0 +1,1015 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-assigned-physical-page-source-review-and-private-two-width-proof",
+  "cnPhysicalPages": [
+    408,
+    409,
+    410
+  ],
+  "cnPrintedPages": [
+    393,
+    394,
+    395
+  ],
+  "masterSha256": null,
+  "mathExpressions": 178,
+  "privateBrowserCases": 6,
+  "substantiveCorrections": 6,
+  "logicalAssemblies": [
+    {
+      "file": "assets/volume4a/review/body-408-410-tree-exercises22-35-407-tail-410-assembly.json",
+      "sha256": "a9eae821f1b79ce84e80f3c9e10bc74cd70238aa2e3a436eadf30b25298c25ef"
+    }
+  ],
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 408,
+      "cnPrintedPage": 393,
+      "enPdfPages": [
+        490,
+        491
+      ],
+      "enPrintedPages": [
+        473,
+        474
+      ],
+      "pageMarkdownSha256": "4fe63d9f366c522abe5f118b6c944acd9491a01ba808e3d93c8f8e0fafc59776",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": true,
+      "endsMidParagraph": true,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/408.jpg",
+      "sourcePageImageSha256": "b9736b290a2741a6b0e057c73f78c902ecaafea746bf8317b567c0c8947b9866",
+      "enPageImages": [
+        {
+          "physicalPage": 490,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-490.png",
+          "sha256": "70460fdc2f552162c7d9af3a88d4035d2876f13d5bdd6a165d25bd1e2103f023"
+        },
+        {
+          "physicalPage": 491,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-491.png",
+          "sha256": "9eca30f5ee5d1a1355a0af8f510aef4de93f3f9980d137ee420dc6b81fd0da1d"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-408",
+        "p-393",
+        "ex-7-2-1-6-23",
+        "ex-7-2-1-6-24",
+        "ex-7-2-1-6-25",
+        "ex-7-2-1-6-26",
+        "fig-60",
+        "ex-7-2-1-6-27"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-095",
+          "section": "7.2.1.6",
+          "cnPdfPage": 408,
+          "enPdfPages": [
+            490
+          ],
+          "location": "习题26(a)非交叉条件的作用范围",
+          "original": "存在一个森林F……当且仅当Π满足非交叉性质……时，有……",
+          "final": "当且仅当 $\\Pi$ 满足以下非交叉性质",
+          "basis": "英文先规定带兄弟等价关系的森林，再把存在性与非交叉性等价。恢复此量词与公式顺序。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "4fe63d9f366c522abe5f118b6c944acd9491a01ba808e3d93c8f8e0fafc59776",
+          "cnPrintedPage": 393
+        },
+        {
+          "id": "volume4a-tail-096",
+          "section": "7.2.1.6",
+          "cnPdfPage": 408,
+          "enPdfPages": [
+            491
+          ],
+          "location": "习题26(i)的格论术语",
+          "original": "半模块法则",
+          "final": "半模律",
+          "basis": "EN491明确 semimodular law；标准格论术语是半模律。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "4fe63d9f366c522abe5f118b6c944acd9491a01ba808e3d93c8f8e0fafc59776",
+          "cnPrintedPage": 393
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-fig60-kreweras-lattice.svg",
+          "sha256": "ec10c8930cea1a373f9b8b4e04b68939132e6a13c643f364c3aa010693bfadfc"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 408,
+        "markdownSha256": "4fe63d9f366c522abe5f118b6c944acd9491a01ba808e3d93c8f8e0fafc59776",
+        "htmlSha256": "e610e5155ac2b4272c8b9df09af32ab56274b70bad1933a4f909d93173a6b854",
+        "mathExpressions": 78,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/result.json",
+        "sha256": "3e44040e5ce75ce26f05d907e9761ae2ac870f9ed5a1db38d07103e0fbdd7047",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 78,
+            "mathML": 78,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 728,
+                "content": 831,
+                "left": 0,
+                "right": 103,
+                "max": 103,
+                "pass": true
+              },
+              {
+                "client": 728,
+                "content": 813,
+                "left": 0,
+                "right": 85,
+                "max": 85,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 408,
+            "width": 1280,
+            "pageMarkdownSha256": "4fe63d9f366c522abe5f118b6c944acd9491a01ba808e3d93c8f8e0fafc59776",
+            "htmlSha256": "e610e5155ac2b4272c8b9df09af32ab56274b70bad1933a4f909d93173a6b854",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-fig60-kreweras-lattice.svg",
+                "opened": true,
+                "screenshot": "408-1280-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          },
+          {
+            "documentWidth": 390,
+            "math": 78,
+            "mathML": 78,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 831,
+                "left": 0,
+                "right": 521,
+                "max": 521,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 519,
+                "left": 0,
+                "right": 209,
+                "max": 209,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 813,
+                "left": 0,
+                "right": 503,
+                "max": 503,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 408,
+            "width": 390,
+            "pageMarkdownSha256": "4fe63d9f366c522abe5f118b6c944acd9491a01ba808e3d93c8f8e0fafc59776",
+            "htmlSha256": "e610e5155ac2b4272c8b9df09af32ab56274b70bad1933a4f909d93173a6b854",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-fig60-kreweras-lattice.svg",
+                "opened": true,
+                "screenshot": "408-390-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-1280-walk0.png",
+          "sha256": "ede23426343ba8f90ca49d43b54ebf54817f993c0bb59f9f2228f407d664f400",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-1280-walk1.png",
+          "sha256": "4d8bfedc2727dd14f9e7368fac2342b0df41021e9e6e80952756c47ab63fc397",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-1280-walk2.png",
+          "sha256": "cdc1423b9259ff62609156a08cd18763a039feff08cf525da11b604030485090",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-390-walk0.png",
+          "sha256": "a48d9b225791594f427cddffa9abdef966111f700fb6ae660b94db1b8f74f02b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-390-walk1.png",
+          "sha256": "592e5da6e27b12e54d8a75f40e3a1a5c452b480a1b3368e048dcc9654a6f8e5a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-390-walk2.png",
+          "sha256": "48227743e232e84561f7f3fbd397fd2f53ce7917362fde7b0a5ee708cbaa6b28",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-390-walk3.png",
+          "sha256": "fcfbdf60faab09843d07b0453e04df168361e464ec79b0466baa1f6b6ab2dc66",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-390-walk4.png",
+          "sha256": "4e293ff2f36998e99a815c8f0e64b70873166ac723063b2778145c9145ec164b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-1280-display1-right.png",
+          "sha256": "f4895edee3ea16d51ac8616814e5df6f65575deb176f9cc03d5cb216b61c2a72",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-390-display0-right.png",
+          "sha256": "d493874828f9a14b55f1876a3d4a2d4f6f0f28e725e6af185199529f32a35622",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-390-display1-right.png",
+          "sha256": "90b5f270bc8f9e51b46e7d6b292d8bbf88b4f90790cde4393a754caca0ec5e92",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-1280-inline3-pan0.png",
+          "sha256": "ede23426343ba8f90ca49d43b54ebf54817f993c0bb59f9f2228f407d664f400",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-1280-inline3-pan1.png",
+          "sha256": "f01ee35e1c79bcf069ef25b1f986e8660cd8d769618e9dcd80cd79ab875754dc",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-390-inline3-pan0.png",
+          "sha256": "a48d9b225791594f427cddffa9abdef966111f700fb6ae660b94db1b8f74f02b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-390-inline3-pan1.png",
+          "sha256": "88884d6beb692a0d39f60f82d76e8bb875f9eca4633a2ad567637eb992d0f21d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-390-inline3-pan2.png",
+          "sha256": "622c0e1f89d8228948f0bd0c0cb9ee27dde697bf5bdf517371c530d3c7c32041",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-390-inline3-pan3.png",
+          "sha256": "1742bc743364d8b0ffa55f701ce5895489e484e3a2f94067221122fb95555a35",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-1280-original-image0.png",
+          "sha256": "713343557b5b40ef8edf85326f076a91b230799f0c296969a0f003e724ea3b24",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-390-original-image0-right.png",
+          "sha256": "5851e22b172add588e4f558bb89466ab3bf66927ade386ec70263a71bc1d78a4",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/408-390-original-image0.png",
+          "sha256": "707be6f637d47caf01e78a905b75446f895953b2d077b7116006768254da4d01",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-408-410-source-fields.json",
+        "sha256": "09c17d6663c30287bd96fd63ebc3c4ed9fbfaa3ee9859673a7e475746d3be819"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-408-410-tree-exercises22-35-407-tail-410-assembly.json",
+          "sha256": "a9eae821f1b79ce84e80f3c9e10bc74cd70238aa2e3a436eadf30b25298c25ef"
+        }
+      ],
+      "coveredRegions": [
+        "Exercise 22 continuation; 23–26, complete (a)–(i) and original Fig. 60; opening of exercise 27."
+      ],
+      "followingPageContinuation": "CN409 continues exercise 27 with parts (a)–(h) and Fig. 61.",
+      "qualification": "Full CN408–410 and actual matching EN490–493 plus author changes. All plotted nodes and cover edges, ten dotted edges in the Tamari panels, original editor notes and return navigation were verified. Candidate source formula spacing and final rendered original clicks were independently checked.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/408-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "b1d7cef5d5c7f8dc0a1e8b66f037883b2d2414d26267f8ba18340b2d0ced7dbe",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "1875784662941f025f69d902f29dc0eb5a9f17e7057b8f0099d99878a37074af",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/408.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 409,
+      "cnPrintedPage": 394,
+      "enPdfPages": [
+        491,
+        492
+      ],
+      "enPrintedPages": [
+        474,
+        475
+      ],
+      "pageMarkdownSha256": "ab899cc4146f3b5c6f975e1e793eb5d30b0a7dd9b6ee5d29d87a4a3b4e445084",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": true,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/409.jpg",
+      "sourcePageImageSha256": "c0fc6ff7781714f93f23a88fc3031ccaad5667ce44a76a1db380753e50bc1a39",
+      "enPageImages": [
+        {
+          "physicalPage": 491,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-491.png",
+          "sha256": "9eca30f5ee5d1a1355a0af8f510aef4de93f3f9980d137ee420dc6b81fd0da1d"
+        },
+        {
+          "physicalPage": 492,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-492.png",
+          "sha256": "7bb1af5caddf2890c90cc03487491b205d0cd5076f383f6e0875c3a63159b6e2"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-409",
+        "p-394",
+        "fig-61",
+        "ex-7-2-1-6-28",
+        "fig-62"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-097",
+          "section": "7.2.1.6",
+          "cnPdfPage": 409,
+          "enPdfPages": [
+            491
+          ],
+          "location": "习题27(h)的极大链",
+          "original": "这些路径称为栅格中的最大链",
+          "final": "这些路径称为栅格中的极大链",
+          "basis": "原文 maximal chains。覆盖链从底到顶且无法插入元素；题目自身询问其中最长和最短，不能统称最大。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "ab899cc4146f3b5c6f975e1e793eb5d30b0a7dd9b6ee5d29d87a4a3b4e445084",
+          "cnPrintedPage": 394
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-fig61-tamari-lattice.svg",
+          "sha256": "ccf6cfc95e87d8b9bc4f853fea7814aa6abb782cda238c587f74573cc4e34748"
+        },
+        {
+          "file": "assets/volume4a/figures/7-2-1-6-fig62-stanley-lattice.svg",
+          "sha256": "995d5add1369aa98f11452e27953f5d0faa1d616996083c3a0468c522dec6f80"
+        }
+      ],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 409,
+        "markdownSha256": "ab899cc4146f3b5c6f975e1e793eb5d30b0a7dd9b6ee5d29d87a4a3b4e445084",
+        "htmlSha256": "383ca69a59660433ffac50dced2396b18aa4260c4cfccf10fbd9225cfc4ba5b6",
+        "mathExpressions": 38,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 2,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/result.json",
+        "sha256": "3e44040e5ce75ce26f05d907e9761ae2ac870f9ed5a1db38d07103e0fbdd7047",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 38,
+            "mathML": 38,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [],
+            "renderedWords": [],
+            "page": 409,
+            "width": 1280,
+            "pageMarkdownSha256": "ab899cc4146f3b5c6f975e1e793eb5d30b0a7dd9b6ee5d29d87a4a3b4e445084",
+            "htmlSha256": "383ca69a59660433ffac50dced2396b18aa4260c4cfccf10fbd9225cfc4ba5b6",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-fig61-tamari-lattice.svg",
+                "opened": true,
+                "screenshot": "409-1280-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-fig62-stanley-lattice.svg",
+                "opened": true,
+                "screenshot": "409-1280-original-image1.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          },
+          {
+            "documentWidth": 390,
+            "math": 38,
+            "mathML": 38,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 342,
+                "left": 0,
+                "right": 32,
+                "max": 32,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 711,
+                "left": 0,
+                "right": 401,
+                "max": 401,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 409,
+            "width": 390,
+            "pageMarkdownSha256": "ab899cc4146f3b5c6f975e1e793eb5d30b0a7dd9b6ee5d29d87a4a3b4e445084",
+            "htmlSha256": "383ca69a59660433ffac50dced2396b18aa4260c4cfccf10fbd9225cfc4ba5b6",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-fig61-tamari-lattice.svg",
+                "opened": true,
+                "screenshot": "409-390-original-image0.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              },
+              {
+                "href": "/assets/volume4a/figures/7-2-1-6-fig62-stanley-lattice.svg",
+                "opened": true,
+                "screenshot": "409-390-original-image1.png",
+                "rightEdgeReachable": true,
+                "readingPageRetained": true
+              }
+            ]
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/409-1280-walk0.png",
+          "sha256": "fc1751e87d8bff079e48b45ecb3cf85068137e05f600966fa6016ea46da76e52",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/409-1280-walk1.png",
+          "sha256": "49639d153974ff5e6c83813f7eee9d61ab586cd51f40456b1ec7411503e1059b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/409-1280-walk2.png",
+          "sha256": "7deb3a5ac150be7bddefc374c306eeaab6e2795512362c43ef50334f94e7dbc1",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/409-390-walk0.png",
+          "sha256": "557aa8f31037cb504f7f7832045a3e8390f353c490df25eb761ec4b27fc6301c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/409-390-walk1.png",
+          "sha256": "92d816530f331c7aa533198fcec70236f6ea03c8f34d0fc07464d6cf32aa5e58",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/409-390-walk2.png",
+          "sha256": "27ba97c5226044b160fa902a3359a7e34462f3fd06e18a7028f8a53fea6c159f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/409-390-walk3.png",
+          "sha256": "87e83ff429e1e00bb9968a86f39fd0c41b2ae29873ac397da2c02384ea4e21f7",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/409-390-display0-right.png",
+          "sha256": "1069f74f25fdec99df4698f42b1231bd679087777220b7763d13c1f8c04fe0a7",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/409-390-inline0-pan0.png",
+          "sha256": "557aa8f31037cb504f7f7832045a3e8390f353c490df25eb761ec4b27fc6301c",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/409-390-inline0-pan1.png",
+          "sha256": "e1fecee6d6cf6d1f161e998771eaaeeea7aea44d5f09e02c0dc20cf4ecc0e71e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/409-1280-original-image0.png",
+          "sha256": "9555a52545aa4fc8199564bf1ee0553166815ac0fac7e9fe505cf98f05dd7a0a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/409-1280-original-image1.png",
+          "sha256": "d320e49216cead1101ed669db846f145363827901e84fe06cc9c53aefb9fbe85",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/409-390-original-image0-right.png",
+          "sha256": "dcb481be2deda6ed16da7b79a5a1123d4016f397d989034209a89bfe9e820d8d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/409-390-original-image0.png",
+          "sha256": "7613bd8c2054a72281aecbdd5d5d18e1ad4b4efcff817d74b4b446f319b06851",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/409-390-original-image1-right.png",
+          "sha256": "83f0512862fc60443603e92559e99bc9adadd5dea5a47293d16b57e2cb627ef9",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/409-390-original-image1.png",
+          "sha256": "5faf243a97690d2a5180ffb24ee399ccecc6329b794b093668ee1fd16e17f6c0",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-408-410-source-fields.json",
+        "sha256": "09c17d6663c30287bd96fd63ebc3c4ed9fbfaa3ee9859673a7e475746d3be819"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-408-410-tree-exercises22-35-407-tail-410-assembly.json",
+          "sha256": "a9eae821f1b79ce84e80f3c9e10bc74cd70238aa2e3a436eadf30b25298c25ef"
+        }
+      ],
+      "coveredRegions": [
+        "Exercise 27(a)–(h), full two-part Fig. 61; exercise 28(a)–(e), Fig. 62 and official caption variables already selected."
+      ],
+      "followingPageContinuation": "CN410 starts exercise 29 with the two Chinese editor notes.",
+      "qualification": "Full CN408–410 and actual matching EN490–493 plus author changes. All plotted nodes and cover edges, ten dotted edges in the Tamari panels, original editor notes and return navigation were verified. Candidate source formula spacing and final rendered original clicks were independently checked.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/409-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "5ec7c5a881b0b238bc177d97be0e4796fdbf74c86225c5603cc17e13e4766088",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "4d99e1ef3dd20e74e8d42c4d5ff9eedf4a5ee2f2400b0ee81ba2e44ff9e009ef",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/409.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 410,
+      "cnPrintedPage": 395,
+      "enPdfPages": [
+        492,
+        493
+      ],
+      "enPrintedPages": [
+        475,
+        476
+      ],
+      "pageMarkdownSha256": "7df7dcf3070782ab00f87fa1645c0280a15b961005a11ac790471b45d2ae8259",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/410.jpg",
+      "sourcePageImageSha256": "f873f6efb10b44473236d91446a4eda65fdbf827dc45fd60e5d5e17a75b3418a",
+      "enPageImages": [
+        {
+          "physicalPage": 492,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-492.png",
+          "sha256": "7bb1af5caddf2890c90cc03487491b205d0cd5076f383f6e0875c3a63159b6e2"
+        },
+        {
+          "physicalPage": 493,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-493.png",
+          "sha256": "21fb209793cce9b0b76b292d5653fe3198c2b7a5bc170e2d649f827f16f63ae4"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-410",
+        "p-395",
+        "ex-7-2-1-6-29",
+        "ex-7-2-1-6-30",
+        "ex-7-2-1-6-31",
+        "ex-7-2-1-6-32",
+        "ex-7-2-1-6-33",
+        "ex-7-2-1-6-34",
+        "ex-7-2-1-6-35"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-098",
+          "section": "7.2.1.6",
+          "cnPdfPage": 410,
+          "enPdfPages": [
+            492
+          ],
+          "location": "习题30定义及实例如作者改为树冠",
+          "original": "森林的足印是由 $f_1\\ldots f_n$ 定义的位串，例串以三个0收尾",
+          "final": "森林的树冠是由下式定义的二进制位串 $f_1\\ldots f_{n-1}$",
+          "basis": "作者2020年8月13日改用 canopy 和n−1位。按前序最后一结点必为叶，旧第n位固定为0；31位新例由32位印例删除最后的0，四分问照作者保留。",
+          "isAuthorOfficialErratum": true,
+          "authorChangeDate": "2020-08-13",
+          "authorChangeClassification": "canopy name and omit fixed terminal bit",
+          "authorChangeEvidence": {
+            "printedEnPage": 475,
+            "documentPhysicalPage": 18,
+            "image": "private-snapshot:volume4a/tail-body-review/sources/author-pre-errata-018.png",
+            "imageSha256": "42e6b7f896603d4b4ac7fe44b10d0b614659f48a86542cd4b2b52b8ee9839963",
+            "oldExample": "10101101111110000101010001011000",
+            "newExample": "1010110111111000010101000101100",
+            "url": "https://cs.stanford.edu/~knuth/taocp.html"
+          },
+          "pageMarkdownSha256": "7df7dcf3070782ab00f87fa1645c0280a15b961005a11ac790471b45d2ae8259",
+          "cnPrintedPage": 395
+        },
+        {
+          "id": "volume4a-tail-099",
+          "section": "7.2.1.6",
+          "cnPdfPage": 410,
+          "enPdfPages": [
+            493
+          ],
+          "location": "习题33(e)克雷韦拉斯极大链计数",
+          "original": "克雷韦拉斯栅格中的最大链的数量",
+          "final": "克雷韦拉斯栅格中的极大链数",
+          "basis": "原文 maximal chains，沿用前一题说明的极大链。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "7df7dcf3070782ab00f87fa1645c0280a15b961005a11ac790471b45d2ae8259",
+          "cnPrintedPage": 395
+        },
+        {
+          "id": "volume4a-tail-100",
+          "section": "7.2.1.6",
+          "cnPdfPage": 410,
+          "enPdfPages": [
+            493
+          ],
+          "location": "习题34斯坦利极大链计数",
+          "original": "斯坦利栅格中最大链的数量",
+          "final": "斯坦利栅格中极大链的数量",
+          "basis": "原文明确 maximal chains，对计数对象采用前一题的术语。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "7df7dcf3070782ab00f87fa1645c0280a15b961005a11ac790471b45d2ae8259",
+          "cnPrintedPage": 395
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 410,
+        "markdownSha256": "7df7dcf3070782ab00f87fa1645c0280a15b961005a11ac790471b45d2ae8259",
+        "htmlSha256": "10c4bb016e3c6a167c6b6bbbd6f97483230a6ce02e1f153ef8575013963a3474",
+        "mathExpressions": 62,
+        "displayMath": 4,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/result.json",
+        "sha256": "3e44040e5ce75ce26f05d907e9761ae2ac870f9ed5a1db38d07103e0fbdd7047",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 62,
+            "mathML": 62,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 2,
+            "ports": [],
+            "renderedWords": [],
+            "page": 410,
+            "width": 1280,
+            "pageMarkdownSha256": "7df7dcf3070782ab00f87fa1645c0280a15b961005a11ac790471b45d2ae8259",
+            "htmlSha256": "10c4bb016e3c6a167c6b6bbbd6f97483230a6ce02e1f153ef8575013963a3474",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [],
+            "editorFootnoteTrips": [
+              {
+                "reached": true,
+                "returned": true
+              },
+              {
+                "reached": true,
+                "returned": true
+              }
+            ]
+          },
+          {
+            "documentWidth": 390,
+            "math": 62,
+            "mathML": 62,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 2,
+            "ports": [
+              {
+                "client": 310,
+                "content": 370,
+                "left": 0,
+                "right": 60,
+                "max": 60,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 354,
+                "left": 0,
+                "right": 44,
+                "max": 44,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 328,
+                "left": 0,
+                "right": 18,
+                "max": 18,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 467,
+                "left": 0,
+                "right": 157,
+                "max": 157,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 682,
+                "left": 0,
+                "right": 372,
+                "max": 372,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 442,
+                "left": 0,
+                "right": 132,
+                "max": 132,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 410,
+            "width": 390,
+            "pageMarkdownSha256": "7df7dcf3070782ab00f87fa1645c0280a15b961005a11ac790471b45d2ae8259",
+            "htmlSha256": "10c4bb016e3c6a167c6b6bbbd6f97483230a6ce02e1f153ef8575013963a3474",
+            "errors": [],
+            "passed": true,
+            "imageLinks": [],
+            "editorFootnoteTrips": [
+              {
+                "reached": true,
+                "returned": true
+              },
+              {
+                "reached": true,
+                "returned": true
+              }
+            ]
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-1280-walk0.png",
+          "sha256": "c377020070884615202cb9e67874625ffe600852b1cc3909e0a93a94154eda56",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-1280-walk1.png",
+          "sha256": "c481b2c693352d8fe366cc3c0dfc12958fee5903609a1f08ae82ed652ce5d4f8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-1280-walk2.png",
+          "sha256": "6fe67d74c4ee33bfe906bc42cb175637bd061b5258f69c1f91741e292ce76842",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-390-walk0.png",
+          "sha256": "55c9efd507fac7cfb97becbbdfb89e36c021ad111becad14d1fddc681a75eec1",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-390-walk1.png",
+          "sha256": "1d66475870e65a78f24f134a0098ae9fe1626c0b242d8857c1db7abdbe70819a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-390-walk2.png",
+          "sha256": "7dc8ac6c4175d384b33e656c438199783131272e840c12139a45cb4572f1f7ca",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-390-walk3.png",
+          "sha256": "e55c06a1cfc78b84c4012044ba890cb90c16138d46704ebd1a955a926f788108",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-390-walk4.png",
+          "sha256": "1171c35ebbd0f8882832a6e2673029b0a0db8bc4ceb8a90f0376e70785fceafd",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-390-walk5.png",
+          "sha256": "6caa9127130721b4a0a8d6842a4531ee158bc972081c545f2b85d08fbec43b39",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-390-display0-right.png",
+          "sha256": "f2966ffd63a8bcec84763d4b054794e6adc5919f4dea21f8ba49362578556be4",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-390-display1-right.png",
+          "sha256": "795da3f3a4b5843ae311e58dee3d37cc875e44d6134ea44dcfead6baa5fcd062",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-390-display2-right.png",
+          "sha256": "8f0c32d69a43d09b23dba1830ed9bdd4780a73c6082aa16c68891a92c9de1253",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-390-display3-right.png",
+          "sha256": "b0aaf7ef290800f55b712c29b5cb008b48b9e4162f0f9c55a18325081afb1e8a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-390-inline4-pan0.png",
+          "sha256": "586257fb245a0f5257947f1b6bb9e1b66b3d1f31bb0c0e2337a3649defdd1dad",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-390-inline4-pan1.png",
+          "sha256": "eb15b4a2720897b575629e9aa7528f1cd12a2e101a1679d9a89a9ea0cd65ef01",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-390-inline56-pan0.png",
+          "sha256": "3435e94f0c4c5a63a5dab71e691ebbb326c0915cb1b233f0eb7bb2f475267ee8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/408-410/410-390-inline56-pan1.png",
+          "sha256": "5ed611c9bb5ea829fb12766499bd129c314b761f7afb17a40b108fc017caa469",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-408-410-source-fields.json",
+        "sha256": "09c17d6663c30287bd96fd63ebc3c4ed9fbfaa3ee9859673a7e475746d3be819"
+      },
+      "logicalAssemblies": [
+        {
+          "file": "assets/volume4a/review/body-408-410-tree-exercises22-35-407-tail-410-assembly.json",
+          "sha256": "a9eae821f1b79ce84e80f3c9e10bc74cd70238aa2e3a436eadf30b25298c25ef"
+        }
+      ],
+      "coveredRegions": [
+        "Exercises 29–35, original editor notes and their markers, author replacement of canopy notation and example, 31 height, 32 semidistributivity, 33–34 maximal chains."
+      ],
+      "followingPageContinuation": "CN411 starts the independent exercise 36.",
+      "qualification": "Full CN408–410 and actual matching EN490–493 plus author changes. All plotted nodes and cover edges, ten dotted edges in the Tamari panels, original editor notes and return navigation were verified. Candidate source formula spacing and final rendered original clicks were independently checked.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/410-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "025611d089a366a52b335da145df8911db9f1e65b2ee7e26600070005a3cf343",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "6363d005755313bd2b0b2c58ba1ed7873cc923edcfe828d5a83fab7c39da227f",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/410.json"
+    }
+  ],
+  "qualification": "Full CN408–410 and actual matching EN490–493 plus author changes. All plotted nodes and cover edges, ten dotted edges in the Tamari panels, original editor notes and return navigation were verified. Candidate source formula spacing and final rendered original clicks were independently checked."
+}

@@ -1,0 +1,742 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "scope": "Complete Chinese450-451, answers65(d)-78 and79solution1",
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignOff": false,
+  "pages": [
+    {
+      "cnPdfPage": 450,
+      "cnPrintedPage": "435",
+      "enPdfPages": [
+        540,
+        541
+      ],
+      "pageMarkdownSha256": "f273bf6b2360befd0040e80a2551b1ecf6f4ef4f904ae0fcb2ae1e20ec0bd1ad",
+      "sourcePageImageSha256": "d1f9c1b9c21779236bfbaf978a91b0b24d1063dbe39d713740257b079c188ed0",
+      "enPageImages": [
+        {
+          "physicalPage": 540,
+          "sha256": "f6999b3c5dcb72b20ea73518c8385503c3edd0cedd9ca206c7561a8341b1c3f6"
+        },
+        {
+          "physicalPage": 541,
+          "sha256": "1a5290d69c05ac90743d7afdb8bcf8d02af1513163cfa051629f916d3d52a8f4"
+        }
+      ],
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "coveredRegions": [
+        "Complete answer65(d), entire displayed spectral trace and original Hoffman/Singleton bibliography",
+        "Complete answers66-70 including all50-vertex construction parameters and original historical Aschbacher reference",
+        "Original answer71 introduction, all six declaration lines and first17 machine instructions",
+        "Every code label/opcode/operand, original semicolon separators,32-bit offsets and Chinese comments",
+        "Matrix P upper minus directly magnified on both sources; retain P^{-}, do not invent exponent1"
+      ],
+      "substantiveCorrections": [],
+      "preservedVersionDifferences": [
+        {
+          "cn": "ASIZE IS20 in code declarations",
+          "en": "Old supplied English540 has ASIZE IS24",
+          "disposition": "Keep Chinese20, exact author2011-05-23 correction independently viewed in original historical changelist page20."
+        }
+      ],
+      "unverifiedPageRegions": [],
+      "syntaxCheck": {
+        "physicalPage": 450,
+        "markdownSha256": "f273bf6b2360befd0040e80a2551b1ecf6f4ef4f904ae0fcb2ae1e20ec0bd1ad",
+        "htmlSha256": "a023076cb475a3480877cff001565c73cb2040a82cf41a82849bac5a17d057af",
+        "mathExpressions": 32,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [
+          25
+        ],
+        "unexpectedControls": 0
+      },
+      "continuation": {
+        "previousCnPdfPage": 449,
+        "previousAnswerContinues": "7-65",
+        "nextCnPdfPage": 451,
+        "answerContinues": "7-71",
+        "programNextInstruction": "LDTU a,arcs,u",
+        "logicalGroup": "answer-7-71.mmix"
+      }
+    },
+    {
+      "cnPdfPage": 451,
+      "cnPrintedPage": "436",
+      "enPdfPages": [
+        541,
+        542
+      ],
+      "pageMarkdownSha256": "7606e89d8f3874711da5009d3f15d1ca7f4e9f132b0bb5bf8e4a4b2d6f5306f7",
+      "sourcePageImageSha256": "71eb9da2ea499f4a614fa591d6d335f2109fca8fe20b4091c06d0c39aa6ce768",
+      "enPageImages": [
+        {
+          "physicalPage": 541,
+          "sha256": "1a5290d69c05ac90743d7afdb8bcf8d02af1513163cfa051629f916d3d52a8f4"
+        },
+        {
+          "physicalPage": 542,
+          "sha256": "676f4c239c459c363128b6b107c39eb53b4bd12743a7c25b3556d8a6061471df"
+        }
+      ],
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "coveredRegions": [
+        "Complete remaining15 machine instructions plus Success LOC pseudo-op, all original labels and comments",
+        "Complete answers72-78, including all13 seven-parameter board configurations and all negated-adjacency symbols",
+        "Original corrected5-vertex bull figure and complete Sachs/Ringel reference note",
+        "Answer79 first solution paragraph through0-edge condition",
+        "Actual Chinese question75/76 conditions on CN048 inspected to resolve the reference mismatch"
+      ],
+      "substantiveCorrections": [
+        {
+          "section": "第7章答案76",
+          "cnPrintedPage": "436",
+          "enLocation": "PDF541 printed524 answer76; actual source question75(c)/(e) on CN048 printed33",
+          "original": "习题75(e)答案中的C1和C2",
+          "final": "习题75(c)答案中的C1和C2",
+          "basis": "Question75(c) asks for cycles C_n and the corresponding configuration has wraparound;75(e) is an oriented unwrapped path. Supplied English explicitly references75(c). Restore the correct source target rather than linking to the path case."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "cn": "Corrected bull diagram and searchable name公牛",
+          "en": "Old supplied English541 earlier drawing differs",
+          "disposition": "Keep Chinese figure; author2012-09-17 correction on actual official changelist page20 confirms replacement and bull name."
+        }
+      ],
+      "unverifiedPageRegions": [],
+      "syntaxCheck": {
+        "physicalPage": 451,
+        "markdownSha256": "7606e89d8f3874711da5009d3f15d1ca7f4e9f132b0bb5bf8e4a4b2d6f5306f7",
+        "htmlSha256": "c2f4e0d7153c7998627227612d35fbbd8d6c91aba5c1d4ab3cdcb06a25baaccb",
+        "mathExpressions": 76,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 1,
+        "codeLines": [
+          16
+        ],
+        "unexpectedControls": 0
+      },
+      "continuation": {
+        "previousCnPdfPage": 450,
+        "previousAnswerContinues": "7-71",
+        "logicalGroup": "answer-7-71.mmix",
+        "nextCnPdfPage": 452,
+        "answerContinues": "7-79",
+        "part": "Solution2 begins in a new paragraph"
+      }
+    }
+  ],
+  "browser": {
+    "widths": [
+      1280,
+      390
+    ],
+    "cases": 4,
+    "mathExpressionsPerPass": 108,
+    "fontFailures": [],
+    "parseErrors": 0,
+    "missingImages": 0,
+    "wholePageOverflow": 0,
+    "evidenceSha256": "ac59d0729145f23f9864adc9ce0e67add425a73f68ed0169ae334723280453fb"
+  },
+  "program": {
+    "sourceFragments": [
+      450,
+      451
+    ],
+    "physicalPrintedLines": 41,
+    "instructions": 32,
+    "LOC_pseudoOp": 1,
+    "sourceFields": [
+      {
+        "index": 0,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 9,
+        "label": "AlgB",
+        "opcode": "BZ",
+        "operands": "n,Success",
+        "comment": "如果图为空，则退出。"
+      },
+      {
+        "index": 1,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 10,
+        "label": "",
+        "opcode": "MUL",
+        "operands": "$0,n,VSIZE",
+        "comment": "B1. 初始化。"
+      },
+      {
+        "index": 2,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 11,
+        "label": "",
+        "opcode": "ADDU",
+        "operands": "v,v0,$0",
+        "comment": "v ← v0+n。"
+      },
+      {
+        "index": 3,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 12,
+        "label": "",
+        "opcode": "SET",
+        "operands": "w,v0",
+        "comment": "w ← v0。"
+      },
+      {
+        "index": 4,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 13,
+        "label": "1H",
+        "opcode": "STT",
+        "operands": "mone,color,w",
+        "comment": "COLOR(w) ← -1。"
+      },
+      {
+        "index": 5,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 14,
+        "label": "",
+        "opcode": "ADDU",
+        "operands": "w,w,VSIZE",
+        "comment": "w ← w+1。"
+      },
+      {
+        "index": 6,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 15,
+        "label": "",
+        "opcode": "CMP",
+        "operands": "$0,w,v",
+        "comment": ""
+      },
+      {
+        "index": 7,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 16,
+        "label": "",
+        "opcode": "PBNZ",
+        "operands": "$0,1B",
+        "comment": "重复，直到w=v。"
+      },
+      {
+        "index": 8,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 17,
+        "label": "0H",
+        "opcode": "SUBU",
+        "operands": "w,w,VSIZE",
+        "comment": "w ← w-1。"
+      },
+      {
+        "index": 9,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 18,
+        "label": "3H",
+        "opcode": "LDT",
+        "operands": "$0,color,w",
+        "comment": "B3. 当需要时着色w。"
+      },
+      {
+        "index": 10,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 19,
+        "label": "",
+        "opcode": "PBNN",
+        "operands": "$0,2F",
+        "comment": "如果COLOR(w) ≥ 0，转到B2。"
+      },
+      {
+        "index": 11,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 20,
+        "label": "",
+        "opcode": "STCO",
+        "operands": "0,link,w",
+        "comment": "COLOR(w) ← 0，LINK(w) ← Λ。"
+      },
+      {
+        "index": 12,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 21,
+        "label": "",
+        "opcode": "SET",
+        "operands": "s,w",
+        "comment": "s ← w。"
+      },
+      {
+        "index": 13,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 22,
+        "label": "4H",
+        "opcode": "SET",
+        "operands": "u,s",
+        "comment": "B4. 栈 ⇒ u。置u ← s。"
+      },
+      {
+        "index": 14,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 23,
+        "label": "",
+        "opcode": "LDTU",
+        "operands": "s,link,s",
+        "comment": "s ← LINK(s)。"
+      },
+      {
+        "index": 15,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 24,
+        "label": "",
+        "opcode": "LDT",
+        "operands": "$1,color,u",
+        "comment": ""
+      },
+      {
+        "index": 16,
+        "cnPdfPage": 450,
+        "printedLineWithinFragment": 25,
+        "label": "",
+        "opcode": "NEG",
+        "operands": "$1,1,$1",
+        "comment": "$1 ← 1-COLOR(u)。"
+      },
+      {
+        "index": 17,
+        "cnPdfPage": 451,
+        "printedLineWithinFragment": 1,
+        "label": "",
+        "opcode": "LDTU",
+        "operands": "a,arcs,u",
+        "comment": "a ← ARCS(u)。"
+      },
+      {
+        "index": 18,
+        "cnPdfPage": 451,
+        "printedLineWithinFragment": 2,
+        "label": "5H",
+        "opcode": "BZ",
+        "operands": "a,8F",
+        "comment": "B5. 处理完u了吗？如果a=Λ，转到B8。"
+      },
+      {
+        "index": 19,
+        "cnPdfPage": 451,
+        "printedLineWithinFragment": 3,
+        "label": "5H",
+        "opcode": "LDTU",
+        "operands": "v,tip,a",
+        "comment": "v ← TIP(a)。"
+      },
+      {
+        "index": 20,
+        "cnPdfPage": 451,
+        "printedLineWithinFragment": 4,
+        "label": "6H",
+        "opcode": "LDT",
+        "operands": "$0,color,v",
+        "comment": "B6. 处理v。"
+      },
+      {
+        "index": 21,
+        "cnPdfPage": 451,
+        "printedLineWithinFragment": 5,
+        "label": "",
+        "opcode": "CMP",
+        "operands": "$2,$0,$1",
+        "comment": "（此处程序显得有点机灵。）"
+      },
+      {
+        "index": 22,
+        "cnPdfPage": 451,
+        "printedLineWithinFragment": 6,
+        "label": "",
+        "opcode": "PBZ",
+        "operands": "$2,7F",
+        "comment": "如果COLOR(v)=1-COLOR(u)，转到B7。"
+      },
+      {
+        "index": 23,
+        "cnPdfPage": 451,
+        "printedLineWithinFragment": 7,
+        "label": "",
+        "opcode": "BNN",
+        "operands": "$0,Failure",
+        "comment": "如果COLOR(v)=COLOR(u)，算法以失败终止。"
+      },
+      {
+        "index": 24,
+        "cnPdfPage": 451,
+        "printedLineWithinFragment": 8,
+        "label": "",
+        "opcode": "STT",
+        "operands": "$1,color,v",
+        "comment": "COLOR(v) ← 1-COLOR(u)。"
+      },
+      {
+        "index": 25,
+        "cnPdfPage": 451,
+        "printedLineWithinFragment": 9,
+        "label": "",
+        "opcode": "STTU",
+        "operands": "s,link,v",
+        "comment": "LINK(v) ← s。"
+      },
+      {
+        "index": 26,
+        "cnPdfPage": 451,
+        "printedLineWithinFragment": 10,
+        "label": "",
+        "opcode": "SET",
+        "operands": "s,v",
+        "comment": "s ← v。"
+      },
+      {
+        "index": 27,
+        "cnPdfPage": 451,
+        "printedLineWithinFragment": 11,
+        "label": "7H",
+        "opcode": "LDTU",
+        "operands": "a,next,a",
+        "comment": "B7. 对a循环。置a ← NEXT(a)。"
+      },
+      {
+        "index": 28,
+        "cnPdfPage": 451,
+        "printedLineWithinFragment": 12,
+        "label": "",
+        "opcode": "PBNZ",
+        "operands": "a,5B",
+        "comment": "如果a≠Λ，转到B5。"
+      },
+      {
+        "index": 29,
+        "cnPdfPage": 451,
+        "printedLineWithinFragment": 13,
+        "label": "8H",
+        "opcode": "PBNZ",
+        "operands": "s,4B",
+        "comment": "B8. 栈非空吗？如果s≠Λ，转到B4。"
+      },
+      {
+        "index": 30,
+        "cnPdfPage": 451,
+        "printedLineWithinFragment": 14,
+        "label": "2H",
+        "opcode": "CMP",
+        "operands": "$0,w,v0",
+        "comment": "B2. 完成？"
+      },
+      {
+        "index": 31,
+        "cnPdfPage": 451,
+        "printedLineWithinFragment": 15,
+        "label": "",
+        "opcode": "PBNZ",
+        "operands": "$0,0B",
+        "comment": "如果w≠v0，那么w减一，转到B3。"
+      },
+      {
+        "index": 32,
+        "cnPdfPage": 451,
+        "printedLineWithinFragment": 16,
+        "label": "Success",
+        "opcode": "LOC",
+        "operands": "@",
+        "comment": "（算法以成功终止。）"
+      }
+    ],
+    "numericLocalBranches": [
+      {
+        "fromIndex": 7,
+        "target": "1B",
+        "resolvedIndex": 4
+      },
+      {
+        "fromIndex": 10,
+        "target": "2F",
+        "resolvedIndex": 30
+      },
+      {
+        "fromIndex": 18,
+        "target": "8F",
+        "resolvedIndex": 29
+      },
+      {
+        "fromIndex": 22,
+        "target": "7F",
+        "resolvedIndex": 27
+      },
+      {
+        "fromIndex": 28,
+        "target": "5B",
+        "resolvedIndex": 19
+      },
+      {
+        "fromIndex": 29,
+        "target": "4B",
+        "resolvedIndex": 13
+      },
+      {
+        "fromIndex": 31,
+        "target": "0B",
+        "resolvedIndex": 8
+      }
+    ],
+    "repeated5HLabelsAreIntentional": true,
+    "externalInputs": [
+      "n",
+      "v0",
+      "Pool",
+      "Failure"
+    ],
+    "jointProgramSha256": "e16f65813f8f87b8724d3f4eb1cd5e53fc94e291429e0fe7ac50e37109e76e67",
+    "localB6DecisionCases": [
+      {
+        "COLOR_u": 0,
+        "COLOR_v": -1,
+        "CMP_to_desired": -1,
+        "outcome": "color-and-push"
+      },
+      {
+        "COLOR_u": 0,
+        "COLOR_v": 0,
+        "CMP_to_desired": -1,
+        "outcome": "Failure"
+      },
+      {
+        "COLOR_u": 0,
+        "COLOR_v": 1,
+        "CMP_to_desired": 0,
+        "outcome": "skip-to-B7"
+      },
+      {
+        "COLOR_u": 1,
+        "COLOR_v": -1,
+        "CMP_to_desired": -1,
+        "outcome": "color-and-push"
+      },
+      {
+        "COLOR_u": 1,
+        "COLOR_v": 0,
+        "CMP_to_desired": 0,
+        "outcome": "skip-to-B7"
+      },
+      {
+        "COLOR_u": 1,
+        "COLOR_v": 1,
+        "CMP_to_desired": 1,
+        "outcome": "Failure"
+      }
+    ],
+    "notPerformed": "No MMIXAL assembler or full hardware/MMIX simulator execution; direct source-field comparison, branch-target and local-decision validation only."
+  },
+  "renderedCode": {
+    "status": "Exact pre/code contents compared with the current source fences",
+    "pages": [
+      {
+        "physicalPage": 450,
+        "sourceSha256": "74597fb1cdfa1b64bf66ad1c5bc7e2da0ae9902c04a19c4c2be800d97c42184e",
+        "renderedCodeSha256": "74597fb1cdfa1b64bf66ad1c5bc7e2da0ae9902c04a19c4c2be800d97c42184e",
+        "exactCodeTextAndInternalSpacesEqual": true,
+        "lines": 25
+      },
+      {
+        "physicalPage": 451,
+        "sourceSha256": "ea9fdb71b1bd27a225fc74a3e2dd7e8c65f4715b1f57c23faba1853c59e319f1",
+        "renderedCodeSha256": "ea9fdb71b1bd27a225fc74a3e2dd7e8c65f4715b1f57c23faba1853c59e319f1",
+        "exactCodeTextAndInternalSpacesEqual": true,
+        "lines": 16
+      }
+    ],
+    "qualification": "Not MMIX execution or whole-site acceptance"
+  },
+  "logicalProgramAssembly": {
+    "schemaVersion": 1,
+    "status": "Private continuous candidate, not full mother",
+    "candidateSha256": "3e4a0d1d48cd5876cb531ff433bb6cb81a59fd1bb4ba45bf7686f784efb94bfc",
+    "sourcePages": [
+      {
+        "cnPdfPage": 450,
+        "markdownSha256": "f273bf6b2360befd0040e80a2551b1ecf6f4ef4f904ae0fcb2ae1e20ec0bd1ad"
+      },
+      {
+        "cnPdfPage": 451,
+        "markdownSha256": "7606e89d8f3874711da5009d3f15d1ca7f4e9f132b0bb5bf8e4a4b2d6f5306f7"
+      }
+    ],
+    "programSha256": "e16f65813f8f87b8724d3f4eb1cd5e53fc94e291429e0fe7ac50e37109e76e67",
+    "combinedPrintedProgramLines": 41,
+    "sourceContentNonWhitespacePreserved": true,
+    "pageAnchorRelocation": {
+      "anchors": [
+        "pdf-451",
+        "p-436"
+      ],
+      "from": "Before second source-program fragment",
+      "to": "Before complete logical program",
+      "reason": "No anchor inside a code block. Original page451 begins at LDTU a,arcs,u; line-specific provenance remains in the program field record. Page anchor precision is the logical program start, not an invented exact first-line position."
+    },
+    "pending": [
+      "Full mother assembly",
+      "Actual source question links",
+      "Full-book offline and routed/online checks"
+    ]
+  },
+  "finiteChecks": {
+    "degree7MooreConstruction": {
+      "vertices": 50,
+      "edges": 175,
+      "allDegrees": 7,
+      "girth": 5,
+      "exactAdjacencyIdentity": true,
+      "crossEdgesOnly": {
+        "edges": 125,
+        "bipartite": true,
+        "girth": 6
+      }
+    },
+    "scaledSpectralCongruence": {
+      "statement": "32E-15 is divisible by odd s; source unscaled wording retained",
+      "odd_s1to101And_m1to5": true,
+      "integerMultiplicityCandidates": [
+        {
+          "s": 1,
+          "d": 1,
+          "N": 2,
+          "positiveMultiplicity": 0,
+          "negativeMultiplicity": 1
+        },
+        {
+          "s": 3,
+          "d": 3,
+          "N": 10,
+          "positiveMultiplicity": 5,
+          "negativeMultiplicity": 4
+        },
+        {
+          "s": 5,
+          "d": 7,
+          "N": 50,
+          "positiveMultiplicity": 28,
+          "negativeMultiplicity": 21
+        },
+        {
+          "s": 15,
+          "d": 57,
+          "N": 3250,
+          "positiveMultiplicity": 1729,
+          "negativeMultiplicity": 1520
+        }
+      ],
+      "qualification": "Finite rational checks only; no57-degree graph existence claim"
+    },
+    "selfComplementaryExamplesThrough5Vertices": [
+      0,
+      1,
+      4,
+      5,
+      5
+    ],
+    "sachsFirstConstructionFiniteChecks_k0to10": [
+      {
+        "k": 0,
+        "vertices": 1,
+        "degree": 0,
+        "edges": 0,
+        "specifiedPermutationComplementsGraph": true
+      },
+      {
+        "k": 1,
+        "vertices": 5,
+        "degree": 2,
+        "edges": 5,
+        "specifiedPermutationComplementsGraph": true
+      },
+      {
+        "k": 2,
+        "vertices": 9,
+        "degree": 4,
+        "edges": 18,
+        "specifiedPermutationComplementsGraph": true
+      },
+      {
+        "k": 3,
+        "vertices": 13,
+        "degree": 6,
+        "edges": 39,
+        "specifiedPermutationComplementsGraph": true
+      },
+      {
+        "k": 4,
+        "vertices": 17,
+        "degree": 8,
+        "edges": 68,
+        "specifiedPermutationComplementsGraph": true
+      },
+      {
+        "k": 5,
+        "vertices": 21,
+        "degree": 10,
+        "edges": 105,
+        "specifiedPermutationComplementsGraph": true
+      },
+      {
+        "k": 6,
+        "vertices": 25,
+        "degree": 12,
+        "edges": 150,
+        "specifiedPermutationComplementsGraph": true
+      },
+      {
+        "k": 7,
+        "vertices": 29,
+        "degree": 14,
+        "edges": 203,
+        "specifiedPermutationComplementsGraph": true
+      },
+      {
+        "k": 8,
+        "vertices": 33,
+        "degree": 16,
+        "edges": 264,
+        "specifiedPermutationComplementsGraph": true
+      },
+      {
+        "k": 9,
+        "vertices": 37,
+        "degree": 18,
+        "edges": 333,
+        "specifiedPermutationComplementsGraph": true
+      },
+      {
+        "k": 10,
+        "vertices": 41,
+        "degree": 20,
+        "edges": 410,
+        "specifiedPermutationComplementsGraph": true
+      }
+    ]
+  },
+  "qualification": "Source-page and bounded finite checks, no assembler/hardware run, not a full mother or release acceptance.",
+  "additionalActualGeneratorValidation": {
+    "record": "assets/volume4a/review/sgb-runtime-validation.json",
+    "scope": "New official C90SGB runtime checks confirm answer74and all13board configurations, plus the answer76 reference correction. Original source-page records were not relabelled as MMIX hardware execution."
+  }
+}

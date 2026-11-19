@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "scope": "CompleteCN532533,answers195-213",
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignOff": false,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 532,
+      "cnPrintedPage": "517",
+      "enPdfPages": [
+        635,
+        636
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "9e0460fad1a4ca7cb2804cfd9e49838183f23b0a7f800c65c838bd6799428ecb",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "5b6ba709754343763bd89cdc3a3d99c34ed6cef75d322520221ec690d1878078",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "Complete Chinese source page and the available corresponding English contents directly compared; preserved edition differences are not asserted equal. No human sign-off.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "cd2fa2968413d48e19931a28b57f6761a151798608cb9d4615ed1c2919a009ce",
+      "enPageImages": [
+        {
+          "physicalPage": 635,
+          "sha256": "2b248947f75dec1f31b9f73da824e23e7b44e499e86d77561d64cfb93402033d"
+        },
+        {
+          "physicalPage": 636,
+          "sha256": "e1c26202876622fb55e29a6cd5edaed285208be5d8c39f6e1480a3f0f248e45d"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 532,
+        "markdownSha256": "9e0460fad1a4ca7cb2804cfd9e49838183f23b0a7f800c65c838bd6799428ecb",
+        "htmlSha256": "0051f41cc291ebb6470a298f356a2d11ce3e9cde5865f8a7e650cc52e313e37e",
+        "mathExpressions": 91,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [
+          2
+        ],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "d9c63ad3f343bf8016bcacd3e26750e13191408885ee289266bae910f5f026bf",
+      "syntaxEvidenceFile": "syntax-532-533.json",
+      "coveredRegions": [
+        "195N1-N4andbasisconclusioncomplete;196abc/197abc/198/199/200..207complete"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "199Kuhnextra-clause/printed517",
+          "enPosition": "CN532/EN636bothprint20;originaldomainEN218",
+          "original": "#20-((256alpha1+alpha2)XOR#eda0)",
+          "final": "#1f-((256alpha1+alpha2)XOR#eda0)",
+          "basis": "LegalED80prefix(U+D000,thirdbyte80)satisfiesbasebutoriginal20guardzeroincorrectlyrejects;1facceptsandstillrejectsEDA0..EDBF.All8192originalprefixdomainpairschecked,separateindependentactualimageonecase/rangeconfirmation;projectcorrectionnotauthorofficialerratum."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "196vs197198",
+          "disposition": "Legacy31bitup6byteUTFschemein196keptdistinctfromlaterrestrictedUCSdomain,notmodernized"
+        },
+        {
+          "location": "203formatter",
+          "disposition": "SelectedCNhaswhole2018sevencommandprogramandb0804020108040201;do not mix oldENeightcommandswithnewb;authoractualprephysical11and28confirm."
+        }
+      ],
+      "machineErrorsCorrected": [
+        "Nsubscript/beta/gamma/theta/lowbit/negativefieldrestoredfromactualsource",
+        "196197UTFhexexamplesandsurrogateboundariesrecovered",
+        "204m/207inversefieldsrawmissingTAOCPtokensrestoredfromactualsourcewithoutnewOCR",
+        "205moriginalmixedfourf0/four0fbytesconfirmed;unbounddraft17hexandallf0interpretationsretracted",
+        "2078instructionsrestoredwithsentencepunctuationoutsideoperands"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "continuation": {
+        "previousCnPdfPage": 531,
+        "nextCnPdfPage": 533,
+        "scope": "Eachanswercompletewithinpage;534startsnewepigraphand214"
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "Finalmother/whole713assembly/offline/routed/onlineacceptance"
+      ],
+      "numericChecks": {
+        "receipt": "root-answer-checks/532-533-fields.json",
+        "scope": "195all4x4/all1..3matrices66218;196legacy31bit132116samples;197allvalidUCS1112064;1998192prefixes;20366620selected7commandformatterfixtures;204..212basis/finitewordfamilies;2133008alignedstreams269632usedopcodeexecutions"
+      },
+      "sourceEditionQualifications": {
+        "extraContextActuallyViewed": "EN199200204217218219originaldomains/MOR-MXOR/suffixparity/CRC;CN182selected203sevencommandsandactualauthorprephysical11/28updates,notadditionalfullpageacceptance",
+        "proofScope": "Genericproofs/minimality/complexitysourceonly;limitedfinitefixturesseparatelydeclared;notnativeMMIXAL/fullISA/all2^64inputs"
+      },
+      "assets": []
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "cnPdfPage": 533,
+      "cnPrintedPage": "518",
+      "enPdfPages": [
+        636,
+        637
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "26bcfa1540f775347517b2c2fc0a25cd9138ffea3873a0e2450f15d21c359be6",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "sourceReviewSpecSha256": "46161be059af0d43b0157e4549793f5f39c89bf662c46e5efa77e5bb4e5ac99d",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "reviewMeaning": "Complete Chinese source page and the available corresponding English contents directly compared; preserved edition differences are not asserted equal. No human sign-off.",
+      "fullPageContentTranscribed": true,
+      "sourcePageImageSha256": "61e6a0f14852e2323aed3b14b65f5dba38d21bad5f5625ab5b372d8014ee905f",
+      "enPageImages": [
+        {
+          "physicalPage": 636,
+          "sha256": "e1c26202876622fb55e29a6cd5edaed285208be5d8c39f6e1480a3f0f248e45d"
+        },
+        {
+          "physicalPage": 637,
+          "sha256": "0c89e83fcad5070fd587955d9d331c99a82ec11b3e272c86c31680d575350ef7"
+        }
+      ],
+      "syntaxCheck": {
+        "physicalPage": 533,
+        "markdownSha256": "26bcfa1540f775347517b2c2fc0a25cd9138ffea3873a0e2450f15d21c359be6",
+        "htmlSha256": "f99b08d5129f1e620524ef7ebce4c70f8d89d09aaa3ae8a58c9cc8d9d6fbf805",
+        "mathExpressions": 40,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [
+          3,
+          1,
+          1,
+          1,
+          14,
+          12
+        ],
+        "unexpectedControls": 0
+      },
+      "syntaxEvidenceSha256": "d9c63ad3f343bf8016bcacd3e26750e13191408885ee289266bae910f5f026bf",
+      "syntaxEvidenceFile": "syntax-532-533.json",
+      "coveredRegions": [
+        "20812instructionsand6constantscomplete;209..212formulas/4shortprogramscomplete;213complete14+12instructionprogramand5constants"
+      ],
+      "substantiveCorrections": [
+        {
+          "location": "213loopnext-octabyteload/printed518",
+          "enPosition": "EN637printed620sameADDthenLDOU;EN200actualn/datacontract",
+          "original": "MXORv;ADDnn,nn,8;LDOUt,data,nn",
+          "final": "MXORv;LDOUt,data,nn;ADDnn,nn,8",
+          "basis": "n16/start1000/data1010sourcejumps1000to1010skipping1008.Withfirst15byteszero/final01andfollowing8zero,CRC0000instead8005.Independentactualsourceaddressreviewconfirms.Adjacentswaponly,initialADDandother24instructionsunchanged;3008finitefixturesmatchpolynomialremainder,notfullISA/generalprooforofficialerratum."
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "machineErrorsCorrected": [
+        "208rawmissingmiddle4instructionsrestoredfromactualsourcewithoutnewOCR",
+        "208m3mixedfourf0/four0fbytesconfirmed",
+        "212B_jupper/lower/ordinaryintegerproductsandshiftboundsrecovered",
+        "213twooriginalcolumnsrestoredleftthenrightbeforeexplicitprojectadjacentswap"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "continuation": {
+        "previousCnPdfPage": 532,
+        "nextCnPdfPage": 534,
+        "scope": "Eachanswercompletewithinpage;534startsnewepigraphand214"
+      },
+      "unverifiedPageRegions": [],
+      "qualification": "Source-page acceptance and syntax are separate. Final master inclusion, cross-page joins, whole-volume proofs, routed website and online acceptance remain pending.",
+      "pending": [
+        "Finalmother/whole713assembly/offline/routed/onlineacceptance"
+      ],
+      "numericChecks": {
+        "receipt": "root-answer-checks/532-533-fields.json",
+        "scope": "195all4x4/all1..3matrices66218;196legacy31bit132116samples;197allvalidUCS1112064;1998192prefixes;20366620selected7commandformatterfixtures;204..212basis/finitewordfamilies;2133008alignedstreams269632usedopcodeexecutions"
+      },
+      "sourceEditionQualifications": {
+        "extraContextActuallyViewed": "EN199200204217218219originaldomains/MOR-MXOR/suffixparity/CRC;CN182selected203sevencommandsandactualauthorprephysical11/28updates,notadditionalfullpageacceptance",
+        "proofScope": "Genericproofs/minimality/complexitysourceonly;limitedfinitefixturesseparatelydeclared;notnativeMMIXAL/fullISA/all2^64inputs"
+      },
+      "assets": []
+    }
+  ],
+  "checks": {
+    "pageMarkdownSha256": {
+      "532": "9e0460fad1a4ca7cb2804cfd9e49838183f23b0a7f800c65c838bd6799428ecb",
+      "533": "26bcfa1540f775347517b2c2fc0a25cd9138ffea3873a0e2450f15d21c359be6"
+    },
+    "checkerSha256": "590accd044ef13cfa23e860845c0be1dd6399f610d8c8626811bc9b12903422b",
+    "original195": {
+      "allBinaryMatrices4x4AndAllSizes1to3": 66218,
+      "allRecordedThetaSpansMatchDirectKernelAndNonzeroGammaHaveDistinctLowBitsAndCorrectRank": true,
+      "notGeneralDimensionProof": true
+    },
+    "original196197198199": {
+      "legacy31BitSixByteSampleIntegersDecodeAndLexOrder": 132116,
+      "everyByteInConcatenatedSampleStreamLocatesOriginalStart": 3654,
+      "all1112064ValidOriginalUCSCodepointsUTF16MatchIndependentPythonUTF16BE": 1112064,
+      "allSameValidCodepointsFirstByte198LengthMatched": 1112064,
+      "all65536UTF16UnitLowSurrogateXorTestsMatched": true,
+      "all65536Original199BooleanEquivalencesMatched": true,
+      "actualOriginal199PrefixDomainCases": 8192,
+      "withoutSurrogateClauseAcceptedPrefixes": 3168,
+      "sourceKuhn20Failures": [
+        {
+          "alpha1": 237,
+          "alpha2": 128,
+          "sourceResult": 0,
+          "wanted": true
+        }
+      ],
+      "candidateKuhn1fAcceptsAllOriginalValidNonSurrogatePrefixes": 3136,
+      "currentKuhnConstantIs1f": true,
+      "independent199SourceReviewPending": false,
+      "original196ExtendedDomainKeptDistinctFrom198RestrictedDomain": true,
+      "198ConstantMinimalityAndGeneralLexProofSourceOnly": true
+    },
+    "original200201202203": {
+      "all8ScalarTriplesAt8ByteBitPositionsS2Matched": true,
+      "all2048BytePositionsHexNonzeroToFMatched": true,
+      "all65536RepeatedWydeWordsAnd64BasisNonzeroToFFFFMatched": true,
+      "hexAsciiTetrabyteFixtures": 66620,
+      "selectedCN203SevenCommand2018MOR_t_b_sAndB0804020108040201Retained": true
+    },
+    "original204to212": {
+      "all64BasisOutshuffleInverseInshuffleTripleZipInverseAnd8x8TransposeMatched": true,
+      "all65536FiniteLow16BitWordsSuffixParityMatchedSource36FromLowBitThroughK": true,
+      "selector210DistinctByteFamilyCases": 2048,
+      "original211BasisAndDenseTruthFixtures": 194,
+      "allOriginalClosureAndGF2CoefficientTransformsMatchIndependentSubsets": true,
+      "polynomial212All4096BasisPairsMatchTruncatedGF2Convolution": true,
+      "notNativeISAOrAll2^64FunctionsExhaustion": true
+    },
+    "original213": {
+      "sourceCodeBlocks": [
+        14,
+        12
+      ],
+      "literalExecutableInstructions": 26,
+      "originalControlledN16Case": {
+        "sourceCRC": 0,
+        "sourceReadAddresses": [
+          4096,
+          4112
+        ],
+        "correctCRC": 32773,
+        "candidateReadAddresses": [
+          4096,
+          4104
+        ],
+        "followingOctabyteExplicitZeros": true
+      },
+      "currentLoopReadBeforeIncrementCandidate": true,
+      "independent213BoundaryReviewPending": false,
+      "sourcePolynomial": "x^16+x^15+x^2+1",
+      "all256SourceMatrixA_BByteIdentitiesMatchedAgainstPolynomialRemainder": true,
+      "finiteAlignedBigEndianByteStringFixtures": 3008,
+      "usedOpcodeInstructionExecutions": 269632,
+      "lengths": [
+        8,
+        16,
+        24,
+        64
+      ],
+      "allCRCsMatchIndependentPolynomialLongDivisionOfMessageTimesX16": true,
+      "qualification": "Originalleading-zero-padding/multiple8inputdomain;fixturewordloads/signednnbranches,notnativeMMIXAL/fullISA/generalperformanceproof"
+    },
+    "qualifications": [
+      "AdditionalEN199200204217218219areoriginaldomaincontextonly,notadditionalCNpageacceptance",
+      "199sourceKuhn20boundaryfailureconfirmed;project1fcorrectionindependentlychecked,notauthorofficialerratum",
+      "NoOCRrerun:532missing2tokens204m/207inversefieldsand533missing208middle4instructionsrestoredfromactualsourceimages",
+      "203entireselectedCN2018seveninstructionprogramretainedagainstoldEN8commands;initialmixededitionhelperfailurepreserved",
+      "213projectadjacentLDOU_ADDswapindependentlysourceconfirmed/currentcontentusedinfixtures;notauthorofficialerratum",
+      "Finalmother/whole713/offline/routed/onlinepending"
+    ]
+  },
+  "browser": {
+    "widths": [
+      1280,
+      390
+    ],
+    "acceptedDistinctCases": 4,
+    "mathExpressionsPerPass": 131,
+    "errors": 0,
+    "wholePageOverflow": 0,
+    "actualFontFacesLoaded": true,
+    "evidenceSha256": "739a977bc2e6e36c3d421d5d2f4fc828cafb0ac9f5ee78890b9104ab992bb4be",
+    "mathEndpointScreensActuallyViewed": 6,
+    "mathEndpointEvidenceSha256": {
+      "532": "ed88da17ddcd823872544f8cc2377b53cd6bde2138aa497f6b68e2da906ec5c3",
+      "533": "fd982131f7e9dada6fab84f7d791e3c967b5b469f92a0e839b8aca0ef72b41cc"
+    },
+    "codeFullScreensActuallyViewed": 14,
+    "codeRightScreensActuallyViewed": 4,
+    "codeFullEvidenceSha256": {
+      "532": "4d731b595f743e6cf4030931de64227f0af1191ae934491828e86a6dd95ac5dc",
+      "533": "de1863d85e43e086aedadae9bd8ad74a3f1ba5f894685f65b5fc8c03c4422600"
+    },
+    "codeRightEvidenceSha256": "b1ac61f6268153100b05f4e127b470f1ce96d45503200409c8b6bf5e79fb76be"
+  },
+  "independentReviews": [
+    {
+      "file": "answer-199-Kuhn-boundary-independent.json",
+      "sha256": "a7cde1ea8aafd2b98489d2786a18c8d1f6c35a9d60cbb0b7a1bce5d8a7c8bf2c"
+    },
+    {
+      "file": "answer-213-CRC-address-independent.json",
+      "sha256": "139190545c3a4118be542ab5a119598aa17de49afd426270c5cdc9028a6ffcf9"
+    }
+  ],
+  "sourceDetails": {
+    "cn-532-shuffle-masks205.png": "f9aba3bddb74752bec47b3daa529e8f0f8a208d31ff7be9239cee213da6eb271",
+    "cn-532-Kuhn-clause199.png": "a121e404e1dfaf9a2be05efb7c329b857402e0008be9a6fcbfe922c945a7af7a",
+    "en-636-transpose-mask208.png": "5f1f3a9d28bac9c619d550772f3dc25adf07e15f42985bd5e3ff0cd3c1c0dfb1",
+    "official-203-question-update.png": "0517f0f0fbd878974e87e28235b993ea59af09e5382b1883edecf0f4171fcdcc",
+    "official-203-question-update-p11.png": "802dfa194aa6ffca6ac815c155b1c05c7529e39abece046816e42bac2c545e40",
+    "en-636-Kuhn-clause199.png": "038146c47f97531d09df183e3f323dd0e802a7b7e28a8fa251c26d6a16d7e9a2",
+    "en-636-shuffle-masks205.png": "e27c264dd38739a8fbb6c3167e5cb73ba26c2c4bb49d7f3e03b8ea694e02ac3f",
+    "cn-533-transpose-mask208.png": "fb5cd8ee481e7e90f4a62cdab90e61e2ef859e9bbe07671f17b49c7a4bc18d3f"
+  },
+  "qualifications": [
+    "199and213independentlyconfirmedprojectcorrections,notauthorofficialerrata",
+    "WholeCN2018formatterversionretained;oldENandnewconstantsnotmixed",
+    "205/208mixedmasksrestoredfromsources;failedunbounddraftinterpretationspreservedprivately",
+    "Allgenericproofs/minimality/complexitysourceonly;notnativeMMIXAL/fullISA/all2^64exhaustion",
+    "Finalmother/whole713/offline/routed/onlinepending"
+  ]
+}

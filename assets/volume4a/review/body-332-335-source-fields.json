@@ -1,0 +1,484 @@
+{
+  "volume": "volume4a",
+  "section": "7.2.1.3",
+  "cnPdfPages": [
+    332,
+    333,
+    334,
+    335
+  ],
+  "cnPrintedPages": [
+    317,
+    318,
+    319,
+    320
+  ],
+  "enPdfPages": [
+    398,
+    399,
+    400,
+    401,
+    402,
+    403
+  ],
+  "enPrintedPages": [
+    381,
+    382,
+    383,
+    384,
+    385,
+    386
+  ],
+  "sourceSha256": {
+    "cn": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "en": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+  },
+  "pageMarkdownSha256": {
+    "332": "591101707a4d1fcfd1e39c1e25ed5fda3687937d6cae71c929d958f850bd1e33",
+    "333": "93be02506e25ec6d9916188badc6d27231ccd0424b05b37ee46661972ed9bf6e",
+    "334": "7c9e03188383bd46a5de5db59db7c4ac242b7d769bf07565bc922af87405e461",
+    "335": "a242fc9c33048b48f6a7a4287d145b25f97756dc79f84e636c1529f90f48b803"
+  },
+  "knownOfficialDifficultyAlreadyInChinese": {
+    "332": [
+      {
+        "question": 23,
+        "inSuppliedEnglish": "M23",
+        "inSelectedChinese": "M24",
+        "authorDate": "2015-08-05",
+        "englishPrintedPage": 381,
+        "authorChangesUrl": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+        "authorChangesRenderedDocumentPhysicalPage": 16,
+        "image": "private-snapshot:volume4a/tail-body-review/sources/author-pre-errata-016.png",
+        "imageSha256": "9cefe5239fd09bb04fdfbdc7dfac224dfb20a1de557cb08f04fe1dca8ae8f26d"
+      }
+    ],
+    "334": [
+      {
+        "question": 56,
+        "inSuppliedEnglish": "M49",
+        "inSelectedChinese": "M41",
+        "authorDate": "2015-03-18",
+        "englishPrintedPage": 384,
+        "authorChangesUrl": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+        "authorChangesRenderedDocumentPhysicalPage": 16,
+        "image": "private-snapshot:volume4a/tail-body-review/sources/author-pre-errata-016.png",
+        "imageSha256": "9cefe5239fd09bb04fdfbdc7dfac224dfb20a1de557cb08f04fe1dca8ae8f26d"
+      }
+    ]
+  },
+  "finiteExamples": {
+    "ex27": {
+      "original11Subsets": [
+        "0000",
+        "0001",
+        "0011",
+        "0010",
+        "0110",
+        "0101",
+        "0100",
+        "1100",
+        "1010",
+        "1001",
+        "1000"
+      ],
+      "allOriginalTenTransitionsValid": true
+    },
+    "ex29": {
+      "boxedExample": "+00++-+++-000-",
+      "boxedExampleBlocksFromLeft": [
+        [
+          0,
+          1,
+          "L"
+        ],
+        [
+          8,
+          10,
+          "L"
+        ],
+        [
+          13,
+          14,
+          "R"
+        ]
+      ],
+      "originalChain": [
+        "-+00++-",
+        "-0+0-+-",
+        "-0+-0--",
+        "-0+--+0",
+        "-0+--0+",
+        "-00+++-"
+      ],
+      "sourceChainBlocksFromLeft": [
+        [
+          [
+            1,
+            2,
+            "L"
+          ]
+        ],
+        [
+          [
+            2,
+            3,
+            "L"
+          ],
+          [
+            4,
+            5,
+            "R"
+          ]
+        ],
+        [
+          [
+            2,
+            4,
+            "L"
+          ],
+          [
+            5,
+            7,
+            "R"
+          ]
+        ],
+        [
+          [
+            5,
+            6,
+            "L"
+          ]
+        ],
+        [
+          [
+            2,
+            5,
+            "L"
+          ]
+        ],
+        []
+      ],
+      "checkedFiveTransitionsAndTerminal": true,
+      "zeroPositions0Based": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "ex39": {
+      "originalBitString": "11001001000011111101101010",
+      "length": 26,
+      "weight": 14
+    },
+    "ex48": {
+      "printedBeta": [
+        "0110",
+        "0101",
+        "1100",
+        "1001",
+        "0011",
+        "1010"
+      ],
+      "printedBothLanguagesLambda": [
+        "0120",
+        "0102",
+        "1200",
+        "1002",
+        "0012",
+        "1020"
+      ],
+      "pointwiseOrderPreservingSubstitution": [
+        "0120",
+        "0102",
+        "1200",
+        "1002",
+        "0012",
+        "1020"
+      ],
+      "literalSequentialSwapWitness": [
+        "0120",
+        "0102",
+        "2100",
+        "2001",
+        "0021",
+        "1020"
+      ],
+      "printedTransitionsChangingMoreThanTwoPositions": [
+        {
+          "transitionIndex": 2,
+          "from": "0102",
+          "to": "1200",
+          "positionsLeftIndexed1": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "transitionIndex": 5,
+          "from": "0012",
+          "to": "1020",
+          "positionsLeftIndexed1": [
+            1,
+            3,
+            4
+          ]
+        }
+      ],
+      "qualification": "Original example through a pointwise left-to-right replacement agrees with both sources. Beginning at the printed initial word and continuing with the positional exchanges gives a different sequence. In particular, two successive pairs in the printed list change three positions. Keep printed example and report mismatch pending an author correction.",
+      "readOnlyChineseAnswer": {
+        "cnPdfPage": 630,
+        "cnPrintedPage": 615,
+        "image": "private-snapshot:volume4a/scans/630.jpg",
+        "imageSha256": "4b22334d8362e0ec25b582b08d64ced7da7a5c34056c0dc5c1e17c0b93cd5cb0",
+        "scope": "Original answer states the kth word is of the form π_k α_j ↑ β_(k−1). It does not contain a corrected table of its six example values. No answer page accepted here."
+      }
+    },
+    "ex53": {
+      "sourceDeltaSequence": "2345354325234514535254234535542553543245253545145352542345355425535432452535451453525423453554",
+      "visitedWords": [
+        "221100",
+        "221010",
+        "220110",
+        "202110",
+        "022110",
+        "021210",
+        "201210",
+        "210210",
+        "212010",
+        "212100",
+        "122100",
+        "122010",
+        "120210",
+        "102210",
+        "012210",
+        "012201",
+        "021201",
+        "201201",
+        "202101",
+        "022101",
+        "022011",
+        "202011",
+        "220011",
+        "220101",
+        "221001",
+        "212001",
+        "122001",
+        "120201",
+        "210201",
+        "120201",
+        "102201",
+        "102021",
+        "012021",
+        "102021",
+        "100221",
+        "010221",
+        "001221",
+        "002121",
+        "002211",
+        "020211",
+        "200211",
+        "200121",
+        "020121",
+        "021021",
+        "201021",
+        "210021",
+        "120021",
+        "120012",
+        "102012",
+        "012012",
+        "010212",
+        "100212",
+        "100122",
+        "010122",
+        "001122",
+        "001212",
+        "002112",
+        "020112",
+        "200112",
+        "201012",
+        "021012",
+        "201012",
+        "210012",
+        "210102",
+        "120102",
+        "210102",
+        "211002",
+        "121002",
+        "112002",
+        "110202",
+        "110022",
+        "101022",
+        "011022",
+        "011202",
+        "101202",
+        "102102",
+        "012102",
+        "021102",
+        "201102",
+        "201120",
+        "210120",
+        "120120",
+        "121020",
+        "211020",
+        "211200",
+        "121200",
+        "112200",
+        "112020",
+        "110220",
+        "101220",
+        "011220",
+        "012120",
+        "102120",
+        "012120",
+        "021120"
+      ],
+      "adjacentSteps": 94,
+      "distinctWords": 90,
+      "backtrackingIndices1Based": [
+        29,
+        33,
+        61,
+        65,
+        93
+      ],
+      "evenInversionWords": 48,
+      "oddInversionWords": 42
+    },
+    "ex64": {
+      "subcubes": [
+        "00**",
+        "01**",
+        "0*1*",
+        "0**1",
+        "0**0",
+        "0*0*",
+        "*00*",
+        "*01*",
+        "*0*1",
+        "*0*0",
+        "**00",
+        "**01",
+        "**11",
+        "**10",
+        "*1*0",
+        "*1*1",
+        "*11*",
+        "*10*",
+        "1*0*",
+        "1**0",
+        "1**1",
+        "1*1*",
+        "11**",
+        "10**"
+      ],
+      "closed25ThStateEqualsFirst": true,
+      "prefixesContiguous": true,
+      "all24TransitionsValid": true
+    },
+    "ex66": {
+      "rowPairs": [
+        [
+          "001",
+          "010"
+        ],
+        [
+          "101",
+          "010"
+        ],
+        [
+          "101",
+          "110"
+        ],
+        [
+          "001",
+          "110"
+        ],
+        [
+          "001",
+          "100"
+        ],
+        [
+          "011",
+          "100"
+        ],
+        [
+          "010",
+          "100"
+        ]
+      ],
+      "distinctBinarySubspaces": 7,
+      "successiveOneBit": true
+    },
+    "ex67": {
+      "originalCycle": [
+        "010101110",
+        "010110110",
+        "011010110",
+        "011011010",
+        "011101010",
+        "010111010"
+      ],
+      "allSixPrintedTransitionsValid": true,
+      "qualification": "No uniqueness assertion beyond transcription of the source statement."
+    },
+    "qualification": "Finite examples already given in the text. No general results were independently proved and no exercises were solved."
+  },
+  "answerTargetCoverage": "Exercise labels and target ids were checked in the current draft. Only the explicitly listed original answer (48) was seen as a cross-reference for this batch. No answer page has been accepted in this task.",
+  "previousCandidateProof": {
+    "markdown334Sha256": "fbc60fd3e79410cd3d788905d8cc71ae73b8a2eb868044a1b6947041ed685b3d",
+    "html334Sha256": "dec3ee32c028a23bd9f00351f6e04280a87c97acd9eee9ee278dd23f64a2292c",
+    "previousBrowserResultSha256": "a0c514275a8dcc5811b45692a61a5b4ea0013c344af8c4bd99bca847ca2ffb19",
+    "previousLocator": "private-snapshot:volume4a/tail-body-review/history/332-335-before-334-name-ocr",
+    "shaMatchingCurrentScreenshots": {
+      "332": {
+        "captured": 29,
+        "samePixels": 29
+      },
+      "333": {
+        "captured": 17,
+        "samePixels": 17
+      },
+      "334": {
+        "captured": 41,
+        "samePixels": 36
+      },
+      "335": {
+        "captured": 41,
+        "samePixels": 41
+      }
+    },
+    "newVisualReview": "Name restored to 马歇尔 from a separate detail crop. Current print shape was directly inspected in 390 and 1280 screenshots."
+  },
+  "correctNameDetail": {
+    "image": "private-snapshot:volume4a/tail-body-review/sources/cn-334-ex56-name.png",
+    "sha256": "0cec2625cac48086cca581f78a42d95a7330fc9f649efff7ff5667a6d65db2da"
+  },
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignoff": false,
+  "sourceReviewBindingPending": false,
+  "masterSha256": null,
+  "qualification": "Complete original Chinese questions 23–82, English pages 398–403 as located by question number, current handwritten reconstructions and actual two-width displays. Exercise 48 printed discrepancy preserved; ratings already present in the Chinese edition retained. Limited printed-example checks only. Answer routing and integrated mother, offline, production and live acceptance remain."
+}

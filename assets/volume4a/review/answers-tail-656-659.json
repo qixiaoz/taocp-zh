@@ -1,0 +1,679 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "owner": "vol4a_tail_g62",
+  "physicalPages": [
+    656,
+    657,
+    658,
+    659
+  ],
+  "reviewerType": "model-direct-page-image-comparison",
+  "humanSignoff": false,
+  "masterSha256": null,
+  "sourceSha256": {
+    "cn": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+    "en": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d"
+  },
+  "sourceReviewSpecification": {
+    "file": "private-snapshot:volume4a/tail-answers/checkpoints/specification-656-659.json",
+    "sha256": "7c04ca37d09c01594b87d9d92e93227f818646eb26f735796f54141b4d0328d2"
+  },
+  "sourcePageRecords": [
+    {
+      "physicalPage": 656,
+      "pageMarkdownSha256": "fa6aa3803d098c4e0841c8e95d4562b39ac5c3b53210efb516b9ab850fd29357",
+      "pageReviewSha256": "be499b0f9ea9a8bfd4cb9007a9654d62274a1f94606018eb02069d19cb6e04de",
+      "answerAnchors": [
+        "ans-7-2-1-5-14",
+        "ans-7-2-1-5-15",
+        "ans-7-2-1-5-16",
+        "ans-7-2-1-5-17",
+        "ans-7-2-1-5-18",
+        "ans-7-2-1-5-19"
+      ],
+      "sourceEnPhysicalPages": [
+        781,
+        782
+      ],
+      "mathExpressions": 142,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 657,
+      "pageMarkdownSha256": "337e5dda2d89222609aac2f399eadcdc07b13b057f27a4fb23bac5b005260d59",
+      "pageReviewSha256": "9b0cfc06934f2d0cdb56082d2e0187feb04a047306bec2bccb122aa5305fba17",
+      "answerAnchors": [
+        "ans-7-2-1-5-20",
+        "ans-7-2-1-5-21",
+        "ans-7-2-1-5-22",
+        "ans-7-2-1-5-23",
+        "ans-7-2-1-5-24",
+        "ans-7-2-1-5-25"
+      ],
+      "sourceEnPhysicalPages": [
+        782,
+        783
+      ],
+      "mathExpressions": 63,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 658,
+      "pageMarkdownSha256": "a9f98119ed27f6fe58cb58d574a7755362d7d2441f2e3fd2c3bb5f6e06dc56be",
+      "pageReviewSha256": "07fcde5ab3d96b607d16fa4cf25232eb840d62aecca93981a6057235beaade24",
+      "answerAnchors": [
+        "ans-7-2-1-5-26",
+        "ans-7-2-1-5-27"
+      ],
+      "sourceEnPhysicalPages": [
+        783,
+        784
+      ],
+      "mathExpressions": 89,
+      "negativeAnswerLocators": []
+    },
+    {
+      "physicalPage": 659,
+      "pageMarkdownSha256": "bbac2015348472f52a91e85cdf8a1d7010b3750bfb2a308076a120846fb4944f",
+      "pageReviewSha256": "17b4d06fdf75b198e696295e77b0a363358de35acde10db238f54a086436b40b",
+      "answerAnchors": [
+        "ans-7-2-1-5-28"
+      ],
+      "sourceEnPhysicalPages": [
+        784,
+        785
+      ],
+      "mathExpressions": 58,
+      "negativeAnswerLocators": []
+    }
+  ],
+  "substantiveCorrections": [
+    {
+      "id": "volume4a-tail-answer-030",
+      "section": "7.2.1.5",
+      "cnPdfPage": 656,
+      "enPdfPages": [
+        782
+      ],
+      "location": "答18交错路径端点颜色的底数",
+      "original": "(1)^{0+1+\\cdots+(n-1)}",
+      "final": "(-1)^{0+1+\\cdots+(n-1)}",
+      "basis": "两源印+1。每次一位改变±1使和的奇偶翻转，必有δₙ=0或与固定端点01…(n−1)的符号一致。n=3的五串δ₃=−1，有012→011→001→000→010；原印错误排除该例。n=4端点偶、δ₄=−1，确应排除。原答32六期与端点四期精确给12模类4、6、7、9。",
+      "isAuthorOfficialErratum": false,
+      "isProjectMathematicalCorrection": true,
+      "cnPrintedPage": 641,
+      "pageMarkdownSha256": "fa6aa3803d098c4e0841c8e95d4562b39ac5c3b53210efb516b9ab850fd29357"
+    },
+    {
+      "id": "volume4a-tail-answer-031",
+      "section": "7.2.1.5",
+      "cnPdfPage": 658,
+      "enPdfPages": [
+        784
+      ],
+      "location": "答27(b)P图表的次序",
+      "original": "在图表P中使用递增顺序",
+      "final": "让图表 $P$ 采用递减次序",
+      "basis": "EN784明印decreasing order in P、increasing in Q。比如k=7时P横行为7、5；逐项以倒序行插入重建15对P/Q。",
+      "isAuthorOfficialErratum": false,
+      "cnPrintedPage": 643,
+      "pageMarkdownSha256": "a9f98119ed27f6fe58cb58d574a7755362d7d2441f2e3fd2c3bb5f6e06dc56be"
+    },
+    {
+      "id": "volume4a-tail-answer-032",
+      "section": "7.2.1.5",
+      "cnPdfPage": 659,
+      "enPdfPages": [
+        785
+      ],
+      "location": "答27(b)偶数步新单元格的行定位",
+      "original": "把数k/2放在了tₖ右侧的一个新单元格",
+      "final": "在第 $t_k$ 行右端新增一格并填入 $k/2$",
+      "basis": "EN785在row tₖ右端。tₖ是行号，不能把它当成记录中的数值或某一格。",
+      "isAuthorOfficialErratum": false,
+      "cnPrintedPage": 644,
+      "pageMarkdownSha256": "bbac2015348472f52a91e85cdf8a1d7010b3750bfb2a308076a120846fb4944f"
+    },
+    {
+      "id": "volume4a-tail-answer-033",
+      "section": "7.2.1.5",
+      "cnPdfPage": 659,
+      "enPdfPages": [
+        785
+      ],
+      "location": "答27末行范莱文论文页数",
+      "original": "论文 #R15",
+      "final": "论文 #R15, 1–32",
+      "basis": "作者2021-03-03 Changes第一份PDF的第35页，英文印刷页768答27末行明确增补该论文页数。",
+      "isAuthorOfficialErratum": true,
+      "authorSource": {
+        "kind": "Changes to Volume 4A, first printing",
+        "date": "2021-03-03",
+        "pdfPage": 35,
+        "englishPrintPage": 768,
+        "file": "private-snapshot:volume4a/tail-answers/sources/author-pre-35.png",
+        "sha256": "445cf7fbe23ee769c54c2ce4f9486b7bdec7b6709ca30c0ab8bc6b0b0a6dcda2",
+        "printedReplacement": "paper #R15 → #R15, 1–32"
+      },
+      "cnPrintedPage": 644,
+      "pageMarkdownSha256": "bbac2015348472f52a91e85cdf8a1d7010b3750bfb2a308076a120846fb4944f"
+    }
+  ],
+  "privateBrowserCaseCount": 8,
+  "logicalCandidates": [
+    {
+      "physicalPages": [
+        656,
+        657,
+        658,
+        659
+      ],
+      "applyMode": "whole-pages",
+      "startInclusive": "<a id=\"pdf-656\"></a>",
+      "endExclusive": "<a id=\"pdf-660\"></a>",
+      "candidateFile": "private-snapshot:volume4a/tail-answers/logical/answers-7-2-1-5-656-659-continued19-25-27.md",
+      "candidateSha256": "a9d93cd5a04aed4058bcf24afec530e55eefb2294143550f48eb8c6a8414130d",
+      "placement": "Anchor CN657 before answer 19, CN658 before answer 25, and CN659 before answer 27; complete each answer in logical sequence. Answer 28(d/e), starting on CN660, remains adjacent after answer 28(c).",
+      "logicalBrowserProof": {
+        "file": "private-snapshot:volume4a/tail-answers/browser/656-659-logical/result.json",
+        "sha256": "d82e0ee8b12c728b7d80e77c9a2c01b5cbf771ed89afad59ff58eaa43434cf2e",
+        "viewports": [
+          1280,
+          390
+        ]
+      },
+      "logicalSyntaxProof": {
+        "file": "private-snapshot:volume4a/tail-answers/logical-proof-656-659/verified-render/syntax-656.json",
+        "sha256": "b5601380ef5e6482a3b644c676f4f6ba1be78efe422179f8e2c8e4e85acf5a22"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/volume4a/figures/7-2-1-5-answer27-rook-staircase.svg",
+      "sha256": "0da5fb9f7f50ad53f7aae1f45547a3de8f93c2af0c178eec080f3ee45c1e60dc",
+      "cnPdfPage": 658,
+      "enPdfPage": 784,
+      "rookCoordinates": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "boundarySteps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "nominalStaircaseSlots": 45,
+      "strictlyOffDiagonalSlots": 36
+    },
+    {
+      "file": "assets/volume4a/figures/7-2-1-5-answer28-rook-row-exchange.svg",
+      "sha256": "00532d2f7bae95f516728f2196fc825372f8bde33202b896dce12b72294a51e2",
+      "cnPdfPage": 659,
+      "enPdfPage": 785,
+      "panels": [
+        [
+          [
+            9,
+            8,
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          ],
+          [
+            5,
+            3,
+            [
+              1,
+              2
+            ]
+          ]
+        ],
+        [
+          [
+            5,
+            3,
+            [
+              1,
+              2
+            ]
+          ],
+          [
+            9,
+            8,
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          ]
+        ],
+        [
+          [
+            9,
+            2,
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            5,
+            4,
+            [
+              1,
+              2,
+              3
+            ]
+          ]
+        ],
+        [
+          [
+            5,
+            2,
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            9,
+            4,
+            [
+              1,
+              2,
+              3
+            ]
+          ]
+        ]
+      ],
+      "cells": 56,
+      "rooks": 8,
+      "freeCells": 28,
+      "doubleArrows": 2
+    }
+  ],
+  "details": {
+    "finiteChecks": {
+      "E": {
+        "n": [
+          1,
+          8
+        ],
+        "bellCountDistinctRGSOrder": true,
+        "lastStrings": [
+          "0",
+          "01",
+          "010",
+          "0101",
+          "01011",
+          "010110",
+          "0101101",
+          "01011011"
+        ]
+      },
+      "answer16": {
+        "sequenceCount": 25,
+        "eachAdjacentDiffersInOnePosition": true
+      },
+      "answer18": {
+        "modulus": 12,
+        "excludedResidues": [
+          4,
+          6,
+          7,
+          9
+        ],
+        "sourceDeltaMod6": [
+          1,
+          0,
+          -1,
+          -1,
+          0,
+          1
+        ],
+        "independentlyEnumeratedDeltaN": [
+          1,
+          8
+        ],
+        "n3Witness": [
+          "012",
+          "011",
+          "001",
+          "000",
+          "010"
+        ],
+        "n4Delta": -1,
+        "n4EndpointSign": 1
+      },
+      "answer21": {
+        "exactInvolutionCountsN0To10": [
+          1,
+          1,
+          2,
+          3,
+          7,
+          12,
+          31,
+          59,
+          164,
+          339,
+          999
+        ]
+      },
+      "answer27": {
+        "loopRowsChecked": 15,
+        "printedTableauPairsChecked": 15,
+        "unprintedEmptyCases": [
+          0,
+          1,
+          17,
+          18
+        ],
+        "rookCoordinates": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            8,
+            9
+          ]
+        ],
+        "pathShapeSequence": [
+          "0",
+          "0",
+          "1",
+          "1",
+          "11",
+          "1",
+          "2",
+          "2",
+          "21",
+          "11",
+          "11",
+          "11",
+          "11",
+          "1",
+          "1",
+          "0",
+          "1",
+          "0",
+          "0"
+        ]
+      },
+      "answer28": {
+        "distinctBoardPolynomials": 7,
+        "boardShapesChecked": 13,
+        "polynomialsCoefficientTriples": {
+          "1": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "2": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "3": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              2,
+              1
+            ],
+            [
+              0,
+              3,
+              1
+            ]
+          ],
+          "2,1": [
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              2,
+              1
+            ],
+            [
+              0,
+              3,
+              1
+            ]
+          ],
+          "3,1": [
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              3,
+              1
+            ],
+            [
+              0,
+              4,
+              1
+            ]
+          ],
+          "3,1,1": [
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              3,
+              2
+            ],
+            [
+              1,
+              4,
+              1
+            ],
+            [
+              0,
+              5,
+              1
+            ]
+          ],
+          "3,2,1": [
+            [
+              3,
+              0,
+              1
+            ],
+            [
+              2,
+              1,
+              3
+            ],
+            [
+              2,
+              2,
+              3
+            ],
+            [
+              2,
+              3,
+              1
+            ],
+            [
+              1,
+              3,
+              3
+            ],
+            [
+              1,
+              4,
+              2
+            ],
+            [
+              1,
+              5,
+              1
+            ],
+            [
+              0,
+              6,
+              1
+            ]
+          ]
+        }
+      }
+    },
+    "finiteCheckEvidence": {
+      "file": "private-snapshot:volume4a/tail-answers/checkpoints/656-659-finite-answers.json",
+      "sha256": "4d4f3c7ed2fea9d2c1ad31087713720f96688f76767b5c8d4c786f4bd22707c4"
+    },
+    "bellQuestion24SeparateEffectiveRevisionPendingAtRoot": {
+      "file": "private-snapshot:volume4a/tail-answers/checkpoints/answer24-bell-hint-375-peer.json",
+      "sha256": "14af323b8b64daa06ada3496d81810e818bbb52ae4d3b3247d64f9c38f09115e",
+      "answerScope": "CN657 recovers the printed underscored powers. The proposed change to the exponent defining g_j belongs to CN375 question, not counted as a new answer correction."
+    },
+    "answer19AuthorAlreadyInSelectedChinese": {
+      "file": "private-snapshot:volume4a/tail-answers/sources/author-pre-35.png",
+      "sha256": "445cf7fbe23ee769c54c2ce4f9486b7bdec7b6709ca30c0ab8bc6b0b0a6dcda2",
+      "date": "2015-10-01",
+      "englishPrintPage": 765
+    },
+    "logicalScreensViewed": [
+      "656-1280-walk3.png",
+      "656-1280-walk9.png",
+      "656-390-walk6.png",
+      "656-390-walk16.png",
+      "656-390-walk21.png"
+    ],
+    "publishedGrayPathsN5": 1927683326,
+    "largeGrayPathCountIndependentlyRecomputed": false
+  },
+  "qualification": "Whole CN656–659 and corresponding EN781–785 compared against the current reading proof at 1280/390px. Limited exact checks cover Algorithm E, small self-conjugacy counts, the parity obstruction, both tableau tables and sample rook polynomials, and distinguish the published much larger Gray-path count."
+}

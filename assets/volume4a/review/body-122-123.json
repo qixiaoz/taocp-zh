@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "two-complete-source-pages-exercises71-through86partial",
+  "cnPhysicalPages": [
+    122,
+    123
+  ],
+  "cnPrintedPages": [
+    107,
+    108
+  ],
+  "masterSha256": null,
+  "mathExpressions": 194,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 2,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.2",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 122,
+      "cnPrintedPage": 107,
+      "enPdfPages": [
+        147,
+        148
+      ],
+      "enPrintedPages": [
+        130,
+        131
+      ],
+      "pageMarkdownSha256": "3bb85f56c1ca523375ccc723ab53e82f67f3bd17e96e313a873cc6d241211abf",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-122.png",
+      "sourcePageImageSha256": "2d1965ad7c6aca797e5a3803ea47a83413c39923ffbea9f6575bc5743e366a87",
+      "enPageImages": [
+        {
+          "physicalPage": 147,
+          "file": "private-snapshot:volume4a/body-review/en-147.png",
+          "sha256": "1bceebda3f0e3f40556d6fa6237e1e730017448fa2920fb604060af4e35b64a3"
+        },
+        {
+          "physicalPage": 148,
+          "file": "private-snapshot:volume4a/body-review/en-148.png",
+          "sha256": "8de01322982bc18ae5d9e12ce8ed8fd2667d53650904a0111bab474d3b3f258a"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-122",
+        "p-107",
+        "ex-7-1-2-71",
+        "ex-7-1-2-72",
+        "ex-7-1-2-73",
+        "ex-7-1-2-74",
+        "ex-7-1-2-75",
+        "ex-7-1-2-76",
+        "ex-7-1-2-77",
+        "ex-7-1-2-78",
+        "ex-7-1-2-79"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header/printed number only, retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 107,
+          "location": "Exercise79 mate necessary once-use condition",
+          "enPosition": "EN148/printed131 exercise79 paragraph",
+          "original": "仅当布尔链中每个变量只使用一次时，它们才可能是伙伴",
+          "final": "仅当这两个变量在布尔链中都只使用一次时，它们才可能是伙伴",
+          "basis": "Two variables can be mates only if they are each used only once in the chain restricts the pair u,v. Original CN wrongly extends necessary condition to every variable in the whole chain. Restore pair scope, no graph/bound changes."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "Exercise76 grade/cost/one-bit explanation",
+          "selectedCN": [
+            "M26",
+            "O(n²)",
+            "one-bit comparison quantity AND to every x XOR y component"
+          ],
+          "providedOldEnglish": [
+            "M25",
+            "O(n/log n)²",
+            "no explicit componentwise-AND sentence"
+          ],
+          "officialAuthorChangeDate": "2011-10-16",
+          "officialSource": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentVersionDate": "2023-02-09",
+            "documentPage": 10,
+            "sourceImage": "private-snapshot:volume4a/body-review/official-pre-page10-q58-reference-full.png",
+            "sourceImageSha256": "03fbab6862e02af961fe0d2df7e256d5520e72bad7302874265076c7bd79395e"
+          },
+          "disposition": "CN already incorporates all three author changes; preserve selectedCN, not new project correction."
+        },
+        {
+          "location": "Exercise78 cardinality notation",
+          "selectedCN": "2|S|-2",
+          "providedOldEnglish": "2||S||-2",
+          "officialAuthorChangeDate": "2013-11-15",
+          "officialSource": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentVersionDate": "2023-02-09",
+            "documentPage": 10,
+            "sourceImage": "private-snapshot:volume4a/body-review/official-pre-page10-q58-reference-full.png",
+            "sourceImageSha256": "03fbab6862e02af961fe0d2df7e256d5520e72bad7302874265076c7bd79395e"
+          },
+          "disposition": "CN already author corrected, keep ordinary set cardinality."
+        }
+      ],
+      "figureAssets": [],
+      "pending": [
+        "Final whole-volume inclusion",
+        "Final offline/production/browser/online acceptance",
+        "Final published question-answer route and actual roundtrips"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 122,
+        "markdownSha256": "3bb85f56c1ca523375ccc723ab53e82f67f3bd17e96e313a873cc6d241211abf",
+        "htmlSha256": "c0a8d65be3f2108216509dfda9abaf75d82bec249bee57b166ea492883d24130",
+        "mathExpressions": 85,
+        "displayMath": 3,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-122-123.json",
+        "sha256": "5f2ad0df36ff89f104d84db3a59a52679fc1699e2b159fdc14d959eb6b4bd974",
+        "cases": [
+          {
+            "physicalPage": 122,
+            "width": 1280,
+            "markdownSha256": "3bb85f56c1ca523375ccc723ab53e82f67f3bd17e96e313a873cc6d241211abf",
+            "documentWidth": 1280,
+            "math": 85,
+            "mathml": 85,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 85,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 122,
+            "width": 390,
+            "markdownSha256": "3bb85f56c1ca523375ccc723ab53e82f67f3bd17e96e313a873cc6d241211abf",
+            "documentWidth": 390,
+            "math": 85,
+            "mathml": 85,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 85,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Fresh current122123 all four whole-page cases. Complete1280/narrow-left/narrow-right views directly compared; local math ends/primes/bars/ceil/sqcup/sqcap/inequalities/source truth-word list read. Private direct proof only, no SSR/published roundtrip."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/122-1280.png",
+          "sha256": "f979947e00f370acbd2668d191cb24ea72411fab0cd28bc809075d101c7dde0e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/122-390.png",
+          "sha256": "35b2b414f3041b5d33a79ef8d7890b1ae4d7d8800b96d76780a6e29587e6f173",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/122-390-right.png",
+          "sha256": "1fd5157e29fae4837d453283a88b50eefa45f6303233888a60b184b6a5be3c27",
+          "viewed": true
+        }
+      ],
+      "fixedExamples": {
+        "file": "assets/volume4a/review/fixed-exercises-122-123.json",
+        "sha256": "a8f6246b71901711d07e7fd1ccead6a926f699308a0a153d5020212ee4bb2de5",
+        "qualification": "Only original fixed n=3 monotone truth-word list and majority/parity notation examples; literal operator/index inventory and static16 question/answerIDs. No32768-family legitimacy count, general bound/decomposition proofs or published roundtrips."
+      },
+      "qualification": "Complete direct CN/EN source and current production-direct model review. Original book exercise proof/design/modify instructions are data, no independent general bound/decomposition proof or all legitimate family enumeration. No human signoff/master/offline/full-volume/online acceptance.",
+      "coveredRegions": [
+        "71 all four random-function probability/expected-time questions, independent point values/p and t,n roles.",
+        "72 all three partial values0/1/* with p/q/r;73 all distinct triple condition m!=i!=j!=m/n choose2 tests;74 original successive-triple selection method/75 all-equalS0,n.",
+        "76 full F=f(u)ORf(v)/n=m+2^m/i1..m,x0..2^m-1 and j/y vectors, strict cost<2C(f).",
+        "76a full z_l vector equation/XOR comparison predicate/0<=l<=2^m/vector length2^m/one-bit AND to each xXORy component. b gi adjacent XOR/-1 and2^m zero sentinels/allcl. c primed/double-primed c definitions/[j>l]/both final XOR sums through2^m. d asymptotic 2^n/n+O(2^n logn/n²) and existence comparison. e original m1 f=(iANDx0)ORx1.",
+        "77 AND/OR/NOT only and three assignment forms/no phantombars/odd parity and complement even parity/n>=2/4(n-1) bound.",
+        "78 selector inputs/k in nonemptyS/dontcare outsideS/cardinality2|S|-2/asymptotic multiplexer reference39.",
+        "79 unique simple path mate definition/necessary once-use for the pair only/not sufficient/Fig9two original examples/no mates lower bound2n-2/all-equal2n-3."
+      ],
+      "exerciseCoverage": {
+        "completeQuestionNumbers": [
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79
+        ],
+        "recommendationArrows": [
+          71,
+          73,
+          76,
+          77
+        ]
+      },
+      "ocrRepairsOfNote": [
+        "73 missing difficulty close bracket/recommendation arrow and binomial restored from actual source.",
+        "76 ordinary f not M tilde/bars/plain x0,cl zero sentinels and z_l index restored/0<=l<=2^m not M exponentm_l.",
+        "77 only x_j(i) complemented in NOT assignment; all ordinary output variables restored without phantom M bars.",
+        "78 y_k and all-equalS0,n unbarred, source cardinality |S| not operator norm."
+      ],
+      "followingPageContinuation": "122 ends complete79b;123 starts new80. No mid-sentence boundary.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/122-selected-cn-before-translation-repair-c0b6566da17c3fcaa84fe204c67fb33cf86341de6a0eb8b135712dc8805b8e61/122.md",
+        "sha256": "c0b6566da17c3fcaa84fe204c67fb33cf86341de6a0eb8b135712dc8805b8e61",
+        "qualification": "Reconstructed normalized selectedCN before single local translation repair, not old accepted proof."
+      },
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-122-Uhlig76-full.png",
+          "sha256": "b20645eae239c2e6610c3666aa0604fdb51976b9d17b2bb77eb33aced6018a11"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-148-Uhlig76-full.png",
+          "sha256": "2bd9d0152822377e62177bfb36df1f319945c6b9e4589e0e1567803f37849d40"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-122-mates79-full.png",
+          "sha256": "5b90a3b7da2b54448329d38ea4b3a2105a8ddb3994b2c5aa5c4219df8310df08"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-148-mates79-full.png",
+          "sha256": "cc2e860c57e8d203c137b4010eb5a73107c2e65d79ddb7a4ed011a9cbe276889"
+        }
+      ],
+      "privateOriginalPageReviewSha256": "0eb7ca4d45e7990648abadf35fd66cfbc8dd00acba8a25883fbccf0cf43dbfc4",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/122.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.1.2",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 123,
+      "cnPrintedPage": 108,
+      "enPdfPages": [
+        149,
+        150
+      ],
+      "enPrintedPages": [
+        132,
+        133
+      ],
+      "pageMarkdownSha256": "8aa3db7046a2b212807da393261602867a67c2516e92eb9413fa027db4a6462b",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-123.png",
+      "sourcePageImageSha256": "c5eefb290a3e34bb9b4b9e0c7bd23170c1a67e7fab6815fb8a5416d072d5d6f8",
+      "enPageImages": [
+        {
+          "physicalPage": 149,
+          "file": "private-snapshot:volume4a/body-review/en-149.png",
+          "sha256": "056ca9e467fa5189a0ec46a349d5879da9bf3d396ad52fbae11700033974dce5"
+        },
+        {
+          "physicalPage": 150,
+          "file": "private-snapshot:volume4a/body-review/en-150.png",
+          "sha256": "9b667a8ab1eca0b707f8602d82e7a27da67a87bec867e3aedaf56f123505bc6d"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-123",
+        "p-108",
+        "ex-7-1-2-80",
+        "ex-7-1-2-81",
+        "ex-7-1-2-82",
+        "ex-7-1-2-83",
+        "ex-7-1-2-84",
+        "ex-7-1-2-85",
+        "ex-7-1-2-86"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header/printed number only, retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 108,
+          "location": "Exercise85b size condition on family members",
+          "enPosition": "EN149/printed132 exercise85b",
+          "original": "包含所有小于等于1的集合",
+          "final": "包含所有大小小于等于1的集合",
+          "basis": "contains all sets of size<=1 explicitly compares set sizes. Restore omitted 大小; preserve inclusion of empty/singleton sets, closure and ceil mapping; no family-count solution added."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "Exercise80 grade",
+          "selectedCN": "M29",
+          "providedOldEnglish": "M27",
+          "officialAuthorChangeDate": "2011-10-24",
+          "officialSource": {
+            "url": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentVersionDate": "2023-02-09",
+            "documentPage": 10,
+            "sourceImage": "private-snapshot:volume4a/body-review/official-pre-page10-q58-reference-full.png",
+            "sourceImageSha256": "03fbab6862e02af961fe0d2df7e256d5520e72bad7302874265076c7bd79395e"
+          },
+          "disposition": "CN already author revised grade; preserve selectedCN, not new project correction."
+        }
+      ],
+      "figureAssets": [],
+      "pending": [
+        "Final whole-volume inclusion",
+        "Final offline/production/browser/online acceptance",
+        "Final published question-answer route and actual roundtrips"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 123,
+        "markdownSha256": "8aa3db7046a2b212807da393261602867a67c2516e92eb9413fa027db4a6462b",
+        "htmlSha256": "7aec893c68d59cf7e537b813f84e34bf50d92e2dca2b07beb99cf4d553eca359",
+        "mathExpressions": 109,
+        "displayMath": 5,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-122-123.json",
+        "sha256": "5f2ad0df36ff89f104d84db3a59a52679fc1699e2b159fdc14d959eb6b4bd974",
+        "cases": [
+          {
+            "physicalPage": 123,
+            "width": 1280,
+            "markdownSha256": "8aa3db7046a2b212807da393261602867a67c2516e92eb9413fa027db4a6462b",
+            "documentWidth": 1280,
+            "math": 109,
+            "mathml": 109,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 109,
+              "allReachable": true
+            }
+          },
+          {
+            "physicalPage": 123,
+            "width": 390,
+            "markdownSha256": "8aa3db7046a2b212807da393261602867a67c2516e92eb9413fa027db4a6462b",
+            "documentWidth": 390,
+            "math": 109,
+            "mathml": 109,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "errors": [],
+            "passed": true,
+            "mathEndChecks": {
+              "count": 109,
+              "allReachable": true
+            }
+          }
+        ],
+        "qualification": "Fresh current122123 all four whole-page cases. Complete1280/narrow-left/narrow-right views directly compared; local math ends/primes/bars/ceil/sqcup/sqcap/inequalities/source truth-word list read. Private direct proof only, no SSR/published roundtrip."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/verified-render/123-1280.png",
+          "sha256": "21252908d9a916b44c2bd3bda12f4b93bf4660c0fc131eb78d5f4f0df6edaea8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/123-390.png",
+          "sha256": "f88b125acb0b85bce7ebc7e4a7858155554e3ea3ca8143c0e940a03bd2ae0e83",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/verified-render/123-390-right.png",
+          "sha256": "789206ce3c37718e76d9a231e2956f9d5b8e604b69bd66567173cc269b23c46d",
+          "viewed": true
+        }
+      ],
+      "fixedExamples": {
+        "file": "assets/volume4a/review/fixed-exercises-122-123.json",
+        "sha256": "a8f6246b71901711d07e7fd1ccead6a926f699308a0a153d5020212ee4bb2de5",
+        "qualification": "Only original fixed n=3 monotone truth-word list and majority/parity notation examples; literal operator/index inventory and static16 question/answerIDs. No32768-family legitimacy count, general bound/decomposition proofs or published roundtrips."
+      },
+      "qualification": "Complete direct CN/EN source and current production-direct model review. Original book exercise proof/design/modify instructions are data, no independent general bound/decomposition proof or all legitimate family enumeration. No human signoff/master/offline/full-volume/online acceptance.",
+      "coveredRegions": [
+        "80 all symmetric weight-string notation/Salpha=a_nux/majority0011/parity0101/alpha-rightprime delete last and leftprime delete first/cofactor0/1/swap f and complement identity/alpha double trimmed.",
+        "80a full alternating parity/n>=2/not parity and S_alpha-rightprime not constant condition/max two +2 terms/min two +3 and double trim+5;80b S_k and S_ge_k lower-bound request.",
+        "81 prefix c+d>=2n-2;82 original strict-language62–70 questions;83 canalizing term定向 consistent prioraccepted078/strict bound;84 monotone circle operator/C+ and separateANDp/ORq/min strictbound.",
+        "85 legitimate-family lattice joins/meet definitions/inclusion direction/opposite bigwedge and bigvee/0,1 and all projections/closure. a full20 original hex words including leading zeros/original order/5 required truth words/2^15 containing families. b ceil A/ceil infinity1/family calligraphicA/sets size<=1/intersection closure/A,Bmembership/L definition with original A union infinity notation. c hats/all source gate replacements/both l inequalities/bigvee i=n+1..l/hat-parent XOR and circ_i OR vs AND conditions.",
+        "86 heading and graph N=n choose2/xuv undirected edge/triangle indicator/all4 original triangle terms n4/source Omega(n/logn)^3. a full r-family/delta unionofpairwise intersections/r-closedandstrongclosed/atleast2/strong(r+1) task. b full completebipartiteKmn condition r>max(m,n)."
+      ],
+      "exerciseCoverage": {
+        "completeQuestionNumbers": [
+          80,
+          81,
+          82,
+          83,
+          84,
+          85
+        ],
+        "partialQuestionNumbers": [
+          86
+        ],
+        "question86CoveredParts": [
+          "heading",
+          "graph and triangle function",
+          "a",
+          "b"
+        ],
+        "continuesAtCnPhysicalPage": 124,
+        "recommendationArrows": [
+          80,
+          82,
+          85
+        ]
+      },
+      "ocrRepairsOfNote": [
+        "80 no phantom bars over alpha/Salpha/C; original prime side and f complement preserved; no boxed display.",
+        "84 circle_i and missing OR symbol restored.",
+        "85a all20 words faithfully recovered including 0f,7f,ff and omitted(a) label; no M malformed7±/±±.",
+        "85b ceil brackets are source function notation, not arbitrary rounded brackets; both sqcap/sqcup gate replacement symbols restored, not machine missing blanks.",
+        "86 edge relation is source undirected edge dash, not equality/inequality/minus arithmetic; full triangle predicate bracket and four triples recovered."
+      ],
+      "followingPageContinuation": "123 ends complete86b only;124 begins86c, do not claim whole86 complete or repeat86anchor.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/verified-history/123-selected-cn-before-translation-repair-23932bcad2a2cf3f7662da37dbda12c1a1bf118b0dde25673fd1aa53f4562e8e/123.md",
+        "sha256": "23932bcad2a2cf3f7662da37dbda12c1a1bf118b0dde25673fd1aa53f4562e8e",
+        "qualification": "Reconstructed normalized selectedCN before single local translation repair, not old accepted proof."
+      },
+      "enlargedSourceEvidence": [
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-123-symmetric80-full.png",
+          "sha256": "455458ec9419f7b23bfbb25f9d6b0d85fab3f0c6983c1e9ecfefe760ad195bf6"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/cn-123-legitimate85-full.png",
+          "sha256": "d880056a62621cd2dc871237c277a49c4f9c371f1d44f8253018f8e367440e1c"
+        },
+        {
+          "file": "private-snapshot:volume4a/body-review/en-149-legitimate85-full.png",
+          "sha256": "b69722ab83312aa1dc4cb447d9a07da3584aa76a9c3e82bb6bbc967f5ca11545"
+        }
+      ],
+      "privateOriginalPageReviewSha256": "bb759705de61f653173d2e8db2cde3d9664f3fbbb1f33e24e6596aa2aabafaa1",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/123.json"
+    }
+  ],
+  "qualification": "Only two complete physical pages:71–85 complete,86 heading/a/bonly. Two localized scope/size translation repairs. Original20 fixed monotone truth words confirmed, not32768-family legitimacy enumeration/general theorem proof. No124/whole86/fullsection/master/offline/online acceptance."
+}

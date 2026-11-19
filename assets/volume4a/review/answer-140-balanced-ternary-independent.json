@@ -1,0 +1,76 @@
+{
+  "scope": "Actual original question/mapping/both answer formula readings and one legal x=y=z=+1 example. Not all27 inputs, a universal full-adder proof, optimal gate-cost proof, or machine ISA execution.",
+  "sourceImages": [
+    {
+      "file": "en-212.png",
+      "sha256": "cba76f9c51314de9cba0a7dadb7812c642c76c65c6a664a0e23ed3b3669392df"
+    },
+    {
+      "file": "en-178.png",
+      "sha256": "edc8309a60de28925059bae4969ccb5a3aa7ed400f0d73a3f421b77260e29d39"
+    },
+    {
+      "file": "520.jpg",
+      "sha256": "0b8a17f65b7e50fcd78e7c6fa656585c79e6ff039ff530293a37742f5e8201cf"
+    },
+    {
+      "file": "en-622.png",
+      "sha256": "60d39aba4c012e43a3ab8a0c5eb16079991e84d7481c985a288cc4072a491934"
+    }
+  ],
+  "actualSourceRead": true,
+  "domain": "EN212print195 exercise140: x,y,z,u,v in{0,+1,-1}, require3u+v=x+y+z; no exclusion of three+1 inputs. EN178print161(111)maps0->00,+1->01,-1->10, value=right-left. Both answer texts explicitly require this representation.",
+  "sourceGlyphReading": "CN520print505 and EN622print605 both print u_r=a0 AND complement(b1), while u_l=a1 AND complement(b0). The complement is onb1, not a0.",
+  "case": {
+    "inputs": [
+      1,
+      1,
+      1
+    ],
+    "inputCodes": [
+      "01",
+      "01",
+      "01"
+    ],
+    "binaryLeftBitSum": "00",
+    "binaryRightBitSum": "11",
+    "a1a0b1b0": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sourceUCode": [
+      0,
+      0
+    ],
+    "sourceVCode": [
+      0,
+      0
+    ],
+    "t1t2t3t4": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "source3uPlusV": 0,
+    "requiredSum": 3
+  },
+  "candidateOneFieldChange": {
+    "expression": "u_r=complement(a0) AND b1",
+    "uCode": [
+      0,
+      1
+    ],
+    "vCodeUnchanged": [
+      0,
+      0
+    ],
+    "candidate3uPlusV": 3,
+    "matchesThisOriginalDomainExample": true
+  },
+  "conclusion": "No hidden sign or encoding constraint in the listed original sources rescues the source+1,+1,+1 failure. Moving the complement fromb1 toa0 in u_r restores this one example without changingu_l or thet/v formulas. The scope stops at this counterexample.",
+  "reviewerType": "independent-model-direct-source-image-comparison",
+  "humanSignOff": false
+}

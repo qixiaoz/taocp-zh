@@ -1,0 +1,644 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "complete-assigned-physical-page-source-review-and-private-two-width-proof",
+  "cnPhysicalPages": [
+    411,
+    412
+  ],
+  "cnPrintedPages": [
+    396,
+    397
+  ],
+  "masterSha256": null,
+  "mathExpressions": 136,
+  "privateBrowserCases": 4,
+  "substantiveCorrections": 2,
+  "logicalAssemblies": [],
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 411,
+      "cnPrintedPage": 396,
+      "enPdfPages": [
+        493,
+        494
+      ],
+      "enPrintedPages": [
+        476,
+        477
+      ],
+      "pageMarkdownSha256": "657ff8ca7522b9ce3c904716c3f72c2ae147ea2e6bd681f11e9103d81cccb502",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/411.jpg",
+      "sourcePageImageSha256": "e7b7f7342cffc6c389fc5cf288c6e0302d044ddce44560ae1d799c641a6c89fb",
+      "enPageImages": [
+        {
+          "physicalPage": 493,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-493.png",
+          "sha256": "21fb209793cce9b0b76b292d5653fe3198c2b7a5bc170e2d649f827f16f63ae4"
+        },
+        {
+          "physicalPage": 494,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-494.png",
+          "sha256": "5fd93a770170d7908878816296279bbe8f24e6958619a9ddf95541903f8c42a6"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-411",
+        "p-396",
+        "ex-7-2-1-6-36",
+        "ex-7-2-1-6-37",
+        "ex-7-2-1-6-38",
+        "ex-7-2-1-6-39",
+        "ex-7-2-1-6-40",
+        "ex-7-2-1-6-41",
+        "ex-7-2-1-6-42",
+        "ex-7-2-1-6-43",
+        "ex-7-2-1-6-44",
+        "ex-7-2-1-6-45",
+        "ex-7-2-1-6-46",
+        "ex-7-2-1-6-47",
+        "ex-7-2-1-6-48",
+        "ex-7-2-1-6-49",
+        "ex-7-2-1-6-50",
+        "ex-7-2-1-6-51",
+        "ex-7-2-1-6-52",
+        "ex-7-2-1-6-53"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-101",
+          "section": "7.2.1.6",
+          "cnPdfPage": 411,
+          "enPdfPages": [
+            493
+          ],
+          "location": "题40(a)按位与零的含义",
+          "original": "二进制表示之间没有共同的二进制位",
+          "final": "的二进制表示在任何同一位上都不同时为1",
+          "basis": "按位与结果为0只排除共同置1的位，允许相同位置均为0；对应源式p & (q+1)=0。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "657ff8ca7522b9ce3c904716c3f72c2ae147ea2e6bd681f11e9103d81cccb502",
+          "cnPrintedPage": 396
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 411,
+        "markdownSha256": "657ff8ca7522b9ce3c904716c3f72c2ae147ea2e6bd681f11e9103d81cccb502",
+        "htmlSha256": "02711efb608953c6745d81622b9ac7dad81d34ba58350bb2a4651f7256a25db0",
+        "mathExpressions": 64,
+        "displayMath": 2,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/result.json",
+        "sha256": "c887ef959a4575eee83dfe4ba9ced5363ae5d6769fb7f24907af24844b3338c3",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 64,
+            "mathML": 64,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 728,
+                "content": 856,
+                "left": 0,
+                "right": 128,
+                "max": 128,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 411,
+            "width": 1280,
+            "pageMarkdownSha256": "657ff8ca7522b9ce3c904716c3f72c2ae147ea2e6bd681f11e9103d81cccb502",
+            "htmlSha256": "02711efb608953c6745d81622b9ac7dad81d34ba58350bb2a4651f7256a25db0",
+            "errors": [],
+            "passed": true,
+            "imageLinks": []
+          },
+          {
+            "documentWidth": 390,
+            "math": 64,
+            "mathML": 64,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 714,
+                "left": 0,
+                "right": 404,
+                "max": 404,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 856,
+                "left": 0,
+                "right": 546,
+                "max": 546,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 404,
+                "left": 0,
+                "right": 94,
+                "max": 94,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 464,
+                "left": 0,
+                "right": 154,
+                "max": 154,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 411,
+            "width": 390,
+            "pageMarkdownSha256": "657ff8ca7522b9ce3c904716c3f72c2ae147ea2e6bd681f11e9103d81cccb502",
+            "htmlSha256": "02711efb608953c6745d81622b9ac7dad81d34ba58350bb2a4651f7256a25db0",
+            "errors": [],
+            "passed": true,
+            "imageLinks": []
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/411-1280-walk0.png",
+          "sha256": "daf93e9953e264a70f8bfb1a19928376d26ebc2e19d322ecec073997b80cb3a3",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/411-1280-walk1.png",
+          "sha256": "5204aa0d66e104341cd108155639f488f4a1b925d92336a1fa0984dfae10f773",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/411-1280-walk2.png",
+          "sha256": "47f3f27b6ccba24ab2a725b19d0493566c7ea7514f737e75df2491804d7e0dfa",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/411-390-walk0.png",
+          "sha256": "86c9d0e2da01944ea61eaedd8e386d1bda7f50f8aed4d5def79185bb5b733330",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/411-390-walk1.png",
+          "sha256": "01b500e9404ee9548d40e17760864bd45bdd723fcacd60bdc296b182bdb6dd44",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/411-390-walk2.png",
+          "sha256": "fb83a8fd0096a62ee31db635addab6034d9bc0457fdb7c8e30cac1b3de62d4df",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/411-390-walk3.png",
+          "sha256": "5483e2146fcea256a1b99ec03ce3932458b0d2e47d4ed6d699422e45cd2ff218",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/411-390-walk4.png",
+          "sha256": "f7f63f959dcb0ece303ba877aaf4e49e465e536bd309b7e90cf89e324f420cff",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/411-390-walk5.png",
+          "sha256": "b8b7806c17b3bb09838b213c268a5f79134af6495610cc6a90b63d0bfce2e1e5",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/411-1280-display1-right.png",
+          "sha256": "ce9fdb8c0666cb152a146c74321338df10bcf397cd94cf9ab38584b33d93dca3",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/411-390-display0-right.png",
+          "sha256": "edb125274f6602806837a04fbe89cd56ee4c336340f0eb63f7a8035e5d09a1c7",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/411-390-display1-right.png",
+          "sha256": "03fb0d24a7cda8fbe115205114a75183350d5cceeb2447b15a3f09fe3e30d42e",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/411-390-inline27-pan0.png",
+          "sha256": "1f9bc65c21deafad51f194b1c57b3ff1f8de4d5c35dc10ca0808e1a27d746885",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/411-390-inline27-pan1.png",
+          "sha256": "d35095df214378b820802ab2f3833f842ef685e182eeb1f48fc256fc6070736b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/411-390-inline32-pan0.png",
+          "sha256": "11928da3e501890945a1474deab488ca10d24d640a287f30887c32506a5fbcfb",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/411-390-inline32-pan1.png",
+          "sha256": "805070b9aa0d045cadcb0285dd0f23e64677bf2fa4ce90fa6092b6dc2262b53d",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-411-412-source-fields.json",
+        "sha256": "b67e2e0bdfe984878ddeb9e17bea73e59a62918b4d4f12234b2bbe3714680f16"
+      },
+      "logicalAssemblies": [],
+      "coveredRegions": [
+        "All exercises 36–53, all generalized Catalan polynomials and exponent indices in exercise 46, scope of the bitwise AND explanation, reference to the Kruskal function."
+      ],
+      "followingPageContinuation": "CN412 starts exercise 54.",
+      "qualification": "Complete CN411–412 and matched EN493–495 actually compared, including all eight original bracket groups and both reading widths. Numeric/structural spot checks apply to the exact finite scopes recorded below.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/411-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "f48e36903ce288c208c3155b8d1703288a98ab4021ed862293576c0336063b0e",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "4129fab0eab980403f294a650ef9cf4f39b3b51b362ea13c1e870eb4c6c5dd1b",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/411.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7.2.1.6",
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "reviewerType": "model-direct-page-image-comparison",
+      "humanSignoff": false,
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "cnPdfPage": 412,
+      "cnPrintedPage": 397,
+      "enPdfPages": [
+        494,
+        495
+      ],
+      "enPrintedPages": [
+        477,
+        478
+      ],
+      "pageMarkdownSha256": "f02c4d43ed84c1d022a83476e524d294fbee6df5421e9beee4766874f1ca99ff",
+      "masterSha256": null,
+      "fullPageContentTranscribed": true,
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "startsMidSentence": false,
+      "endsMidParagraph": false,
+      "endsMidSentence": false,
+      "unverifiedPageRegions": [],
+      "sourcePageImage": "private-snapshot:volume4a/scans/412.jpg",
+      "sourcePageImageSha256": "4412c0285cb297cba4806ebabb021338141a4550f1b467c819199d011a5a1505",
+      "enPageImages": [
+        {
+          "physicalPage": 494,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-494.png",
+          "sha256": "5fd93a770170d7908878816296279bbe8f24e6958619a9ddf95541903f8c42a6"
+        },
+        {
+          "physicalPage": 495,
+          "file": "private-snapshot:volume4a/tail-body-review/sources/en-495.png",
+          "sha256": "b65a07674f47fd4b450fb16c943c31b3067eb31230fbb31d09a55a661ccd1a44"
+        }
+      ],
+      "pageAnchors": [
+        "pdf-412",
+        "p-397",
+        "ex-7-2-1-6-54",
+        "ex-7-2-1-6-55",
+        "ex-7-2-1-6-56",
+        "ex-7-2-1-6-57",
+        "ex-7-2-1-6-58",
+        "ex-7-2-1-6-59",
+        "ex-7-2-1-6-60",
+        "ex-7-2-1-6-61",
+        "ex-7-2-1-6-62"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated running header and printed number only; retained as hidden anchors."
+      ],
+      "substantiveCorrections": [
+        {
+          "id": "volume4a-tail-102",
+          "section": "7.2.1.6",
+          "cnPdfPage": 412,
+          "enPdfPages": [
+            495
+          ],
+          "location": "题61(c)特例的结点计数",
+          "original": "我们得到随机n结点t叉树",
+          "final": "具有 $n$ 个内部结点的扩展 $t$ 叉树",
+          "basis": "题中给出n_t=n，明指n个t度内部结点；总数为N=tn+1，其余为0度外部结点。保持同一例和所有参数。",
+          "isAuthorOfficialErratum": false,
+          "pageMarkdownSha256": "f02c4d43ed84c1d022a83476e524d294fbee6df5421e9beee4766874f1ca99ff",
+          "cnPrintedPage": 397
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "figureAssets": [],
+      "pending": [
+        "Final mother assembly and SHA binding",
+        "Whole-volume offline, production, reader and online acceptance"
+      ],
+      "syntaxCheck": {
+        "physicalPage": 412,
+        "markdownSha256": "f02c4d43ed84c1d022a83476e524d294fbee6df5421e9beee4766874f1ca99ff",
+        "htmlSha256": "6667aa8fbe5494d4550a8674a6a823fcaeb03248cc27e354613535dc05146f65",
+        "mathExpressions": 72,
+        "displayMath": 3,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/result.json",
+        "sha256": "c887ef959a4575eee83dfe4ba9ced5363ae5d6769fb7f24907af24844b3338c3",
+        "cases": [
+          {
+            "documentWidth": 1280,
+            "math": 72,
+            "mathML": 72,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 728,
+                "content": 760,
+                "left": 0,
+                "right": 32,
+                "max": 32,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 412,
+            "width": 1280,
+            "pageMarkdownSha256": "f02c4d43ed84c1d022a83476e524d294fbee6df5421e9beee4766874f1ca99ff",
+            "htmlSha256": "6667aa8fbe5494d4550a8674a6a823fcaeb03248cc27e354613535dc05146f65",
+            "errors": [],
+            "passed": true,
+            "imageLinks": []
+          },
+          {
+            "documentWidth": 390,
+            "math": 72,
+            "mathML": 72,
+            "parseErrors": 0,
+            "missingImages": 0,
+            "footnotes": 0,
+            "ports": [
+              {
+                "client": 310,
+                "content": 657,
+                "left": 0,
+                "right": 347,
+                "max": 347,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 760,
+                "left": 0,
+                "right": 450,
+                "max": 450,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 698,
+                "left": 0,
+                "right": 388,
+                "max": 388,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 381,
+                "left": 0,
+                "right": 71,
+                "max": 71,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 397,
+                "left": 0,
+                "right": 87,
+                "max": 87,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 334,
+                "left": 0,
+                "right": 24,
+                "max": 24,
+                "pass": true
+              },
+              {
+                "client": 310,
+                "content": 333,
+                "left": 0,
+                "right": 23,
+                "max": 23,
+                "pass": true
+              }
+            ],
+            "renderedWords": [],
+            "page": 412,
+            "width": 390,
+            "pageMarkdownSha256": "f02c4d43ed84c1d022a83476e524d294fbee6df5421e9beee4766874f1ca99ff",
+            "htmlSha256": "6667aa8fbe5494d4550a8674a6a823fcaeb03248cc27e354613535dc05146f65",
+            "errors": [],
+            "passed": true,
+            "imageLinks": []
+          }
+        ],
+        "qualification": "Private page proof in installed Chrome, with fonts loaded and stable frames; actual selected pixels directly inspected. Not final site acceptance."
+      },
+      "visualEvidence": [
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-1280-walk0.png",
+          "sha256": "a8c67f84e9f5a86f5b6db187743e6f1726c6a4a6800c26566a7df41a2e5d2573",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-1280-walk1.png",
+          "sha256": "6f0d3cf1d82c6ab508a069ef1f52b6b320f6b0fc134a7c5820af4c700eb87a2f",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-1280-walk2.png",
+          "sha256": "3a34993f730b2603e98982d4ac6405df2bcf1606e7afc984b57dfcea3568481b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-walk0.png",
+          "sha256": "e5516bdad84f5a8ed2dfa964fd9a3b1b801ab462c817e43e5d45ce83124109d8",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-walk1.png",
+          "sha256": "f66a1e84fdc66eef0196ed0cccb0a50df6ddc2db1bfd5f6be70f7c77033c2289",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-walk2.png",
+          "sha256": "0bfec5e6d88cca2712b83ffe0260d22949ff37dac867a80418afc3e8d8e6cdcf",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-walk3.png",
+          "sha256": "d520f2a772235845e3ad02a6d20ad1a70ea4ef31d2a549733147f9f7f1835019",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-walk4.png",
+          "sha256": "684132dd048a28051ff89fff788f41b7d0f02d2ae772535b37a34c893f153dde",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-walk5.png",
+          "sha256": "b9a0dc01c78c8efd43e0eb12f2413975a137806514f6c74974f23e6128e2662d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-1280-display1-right.png",
+          "sha256": "e8ede7635f48d464224481e24f8792e79d0ab5fdd0f3046c67dea76508102ebf",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-display0-right.png",
+          "sha256": "b9a5155e9142430ad8ef7f3e4fce1e2b7efeddf7798c3dd3067b2363029b471b",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-display1-right.png",
+          "sha256": "b88649b4ca8e5d005bf0741ada3c2c6724c9401cf352d20b2be7fa6b8f6e93be",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-display2-right.png",
+          "sha256": "5ab9c44fe5463416c79a0901e96029680396222d6d9af9f2e02def1a47beb763",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-inline13-pan0.png",
+          "sha256": "e80819256b03853f32c24b58d4f651d512a31396f6aaf7c1918998bdd34e2e0a",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-inline13-pan1.png",
+          "sha256": "35a34f28153fb4ac568eafb28eb0bd5c6c3e8ed021473d213bfb2f88bb9361a5",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-inline13-pan2.png",
+          "sha256": "991d8f2be111ba3e77d3e293f4f49d0c90aacfb06bd73dfa941061dccfa3b010",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-inline27-pan0.png",
+          "sha256": "c12b45c0aa7acbb95b5757227a23335571e1bfcdbb92741a9befd25144939be6",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-inline27-pan1.png",
+          "sha256": "db70fdd622bc418c74c4d3e8fe16206b94d79d3bb79b600e9d7414449fd37e43",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-inline67-pan0.png",
+          "sha256": "b9a0dc01c78c8efd43e0eb12f2413975a137806514f6c74974f23e6128e2662d",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-inline67-pan1.png",
+          "sha256": "7d70dbf6847998fb894ce04ed5c4f0004a509766cd7a873c5ee5d7db68381088",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-inline68-pan0.png",
+          "sha256": "7d70dbf6847998fb894ce04ed5c4f0004a509766cd7a873c5ee5d7db68381088",
+          "viewed": true
+        },
+        {
+          "file": "private-snapshot:volume4a/tail-body-review/browser/411-412/412-390-inline68-pan1.png",
+          "sha256": "b779f28f0e5650c9859a99d30ef05ad90298dd3da679dc700b3c3fdc3bc9aa87",
+          "viewed": true
+        }
+      ],
+      "specificExampleChecks": {
+        "file": "assets/volume4a/review/body-411-412-source-fields.json",
+        "sha256": "b67e2e0bdfe984878ddeb9e17bea73e59a62918b4d4f12234b2bbe3714680f16"
+      },
+      "logicalAssemblies": [],
+      "coveredRegions": [
+        "Exercises 54–62, all limits and coefficient terms, exact eight grouped atom strings and original arithmetic, all labels and both cyclic variables."
+      ],
+      "followingPageContinuation": "CN413 starts exercise 63 with an inline decorated tree.",
+      "qualification": "Complete CN411–412 and matched EN493–495 actually compared, including all eight original bracket groups and both reading widths. Numeric/structural spot checks apply to the exact finite scopes recorded below.",
+      "selectedCNBeforeCorrections": {
+        "file": "private-snapshot:volume4a/tail-body-review/history/412-normalized-selected-cn-before-local-corrections.md",
+        "sha256": "84c041439454dbdfcf9dc1a7dd45bd7369db66d14e4d5c0a64c2b096784f7854",
+        "qualification": "Reconstructed normalized selected Chinese wording, not an old accepted page proof."
+      },
+      "privateOriginalPageReviewSha256": "0014c6ecfb26bcc589ab76048695459cfec6922575cb8bd3c76576b3d8caa7a1",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/412.json"
+    }
+  ],
+  "qualification": "Complete CN411–412 and matched EN493–495 actually compared, including all eight original bracket groups and both reading widths. Numeric/structural spot checks apply to the exact finite scopes recorded below."
+}

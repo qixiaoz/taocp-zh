@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "humanSignOff": false,
+  "scope": "Finite4cubeclassification/all4edgetransformations/all91392pathprefixgraph/finitecounttransfers/matchingextensions/lifts/nonlocalinstances",
+  "models": {
+    "scope": "Current591literalrepresentativestable/currentDOMmatchedtoactualpriorfiniteexecutionandseparatecurrentHamiltonpathrun",
+    "pageMarkdownSha256": "fa9872b0d3438722201d91460f8c340038b2590f0c2be039e8aa327b6adaecf6",
+    "htmlSha256": "f161e1d1bcecc382d338424f5740b5dd6a6b2583a7a3bb29c06c42b4e3fa45aa",
+    "beforeTranscriptionReceiptSha256": "e38e31045901a9f752cac35d71678d147e518700301a4e32477fda839e45d7ec",
+    "originalRawPageSha256RemainsNull": true,
+    "priorModels": {
+      "scope": "Finite source-oriented591checks; no5bit237675orbitrecomputation/generaldimensionproof/linear-timeFinkalgorithm/hardwaretiming",
+      "pageMarkdownSha256": null,
+      "masterSha256": null,
+      "checkerSha256": "187a0702a364a100bd334f59e673ef63235059848c6607b7451f0397fb67a69e",
+      "answer52ProjectionCases": 258273,
+      "answer53Transfers": [
+        {
+          "n": 1,
+          "sortedEvenTuples": 1,
+          "allExactlyReachableBySourcePairTransfers": true
+        },
+        {
+          "n": 2,
+          "sortedEvenTuples": 1,
+          "allExactlyReachableBySourcePairTransfers": true
+        },
+        {
+          "n": 3,
+          "sortedEvenTuples": 1,
+          "allExactlyReachableBySourcePairTransfers": true
+        },
+        {
+          "n": 4,
+          "sortedEvenTuples": 4,
+          "allExactlyReachableBySourcePairTransfers": true
+        },
+        {
+          "n": 5,
+          "sortedEvenTuples": 28,
+          "allExactlyReachableBySourcePairTransfers": true
+        },
+        {
+          "n": 6,
+          "sortedEvenTuples": 550,
+          "allExactlyReachableBySourcePairTransfers": true
+        }
+      ],
+      "answer53SourceExamplesSatisfyNecessaryPrefixAndNewCoordinateObstructions": true,
+      "answer55AllCompleteMatchingsExtension": [
+        {
+          "n": 1,
+          "allCompleteGraphQ": 1,
+          "allCubeR": 1,
+          "everyQHasHamiltonianAlternatingUnion": true,
+          "witnessDistribution": {
+            "1": 1
+          },
+          "n1UsesDoubledSingleEdgeCycleConvention": true
+        },
+        {
+          "n": 2,
+          "allCompleteGraphQ": 3,
+          "allCubeR": 2,
+          "everyQHasHamiltonianAlternatingUnion": true,
+          "witnessDistribution": {
+            "1": 2,
+            "2": 1
+          },
+          "n1UsesDoubledSingleEdgeCycleConvention": false
+        },
+        {
+          "n": 3,
+          "allCompleteGraphQ": 105,
+          "allCubeR": 9,
+          "everyQHasHamiltonianAlternatingUnion": true,
+          "witnessDistribution": {
+            "2": 9,
+            "1": 6,
+            "3": 20,
+            "4": 33,
+            "5": 24,
+            "7": 6,
+            "8": 6,
+            "6": 1
+          },
+          "n1UsesDoubledSingleEdgeCycleConvention": false
+        }
+      ],
+      "answer56": {
+        "fixedOriginOrientedCycles": 2688,
+        "canonicalCoordinateRenamings": 112,
+        "completeOrbits": [
+          {
+            "class": "A",
+            "sourceRepresentative": "0102101302012023",
+            "sourceAutomorphisms": 2,
+            "actualOrbitSize": 384,
+            "computedStabilizer": 2
+          },
+          {
+            "class": "B",
+            "sourceRepresentative": "0102303132101232",
+            "sourceAutomorphisms": 2,
+            "actualOrbitSize": 384,
+            "computedStabilizer": 2
+          },
+          {
+            "class": "C",
+            "sourceRepresentative": "0102030130321013",
+            "sourceAutomorphisms": 2,
+            "actualOrbitSize": 384,
+            "computedStabilizer": 2
+          },
+          {
+            "class": "D",
+            "sourceRepresentative": "0102013201020132",
+            "sourceAutomorphisms": 4,
+            "actualOrbitSize": 192,
+            "computedStabilizer": 4
+          },
+          {
+            "class": "E",
+            "sourceRepresentative": "0102032021202302",
+            "sourceAutomorphisms": 4,
+            "actualOrbitSize": 192,
+            "computedStabilizer": 4
+          },
+          {
+            "class": "F",
+            "sourceRepresentative": "0102013102010232",
+            "sourceAutomorphisms": 4,
+            "actualOrbitSize": 192,
+            "computedStabilizer": 4
+          },
+          {
+            "class": "G",
+            "sourceRepresentative": "0102030201020302",
+            "sourceAutomorphisms": 8,
+            "actualOrbitSize": 96,
+            "computedStabilizer": 8
+          },
+          {
+            "class": "H",
+            "sourceRepresentative": "0102101301021013",
+            "sourceAutomorphisms": 8,
+            "actualOrbitSize": 96,
+            "computedStabilizer": 8
+          },
+          {
+            "class": "I",
+            "sourceRepresentative": "0102013121012132",
+            "sourceAutomorphisms": 1,
+            "actualOrbitSize": 768,
+            "computedStabilizer": 1
+          }
+        ],
+        "numberOfClasses": 9
+      },
+      "answer57": {
+        "1": {
+          "components": 481,
+          "isolated": 480,
+          "isolatedClasses": {
+            "G": 96,
+            "F": 192,
+            "D": 192
+          },
+          "componentPatterns": [
+            {
+              "size": 1,
+              "classCounts": {
+                "D": 1
+              },
+              "numberOfComponents": 192
+            },
+            {
+              "size": 1,
+              "classCounts": {
+                "F": 1
+              },
+              "numberOfComponents": 192
+            },
+            {
+              "size": 1,
+              "classCounts": {
+                "G": 1
+              },
+              "numberOfComponents": 96
+            },
+            {
+              "size": 2208,
+              "classCounts": {
+                "A": 384,
+                "B": 384,
+                "C": 384,
+                "E": 192,
+                "H": 96,
+                "I": 768
+              },
+              "numberOfComponents": 1
+            }
+          ],
+          "acceptedDirectedCutReconstructions": 15360,
+          "allVerticesConnected": false
+        },
+        "2": {
+          "components": 384,
+          "isolated": 288,
+          "isolatedClasses": {
+            "G": 96,
+            "F": 192
+          },
+          "componentPatterns": [
+            {
+              "size": 1,
+              "classCounts": {
+                "F": 1
+              },
+              "numberOfComponents": 192
+            },
+            {
+              "size": 1,
+              "classCounts": {
+                "G": 1
+              },
+              "numberOfComponents": 96
+            },
+            {
+              "size": 9,
+              "classCounts": {
+                "A": 6,
+                "E": 3
+              },
+              "numberOfComponents": 64
+            },
+            {
+              "size": 30,
+              "classCounts": {
+                "C": 24,
+                "H": 6
+              },
+              "numberOfComponents": 16
+            },
+            {
+              "size": 84,
+              "classCounts": {
+                "B": 24,
+                "D": 12,
+                "I": 48
+              },
+              "numberOfComponents": 16
+            }
+          ],
+          "acceptedDirectedCutReconstructions": 9984,
+          "allVerticesConnected": false
+        },
+        "3": {
+          "components": 1,
+          "isolated": 0,
+          "isolatedClasses": {},
+          "componentPatterns": [
+            {
+              "size": 2688,
+              "classCounts": {
+                "A": 384,
+                "B": 384,
+                "C": 384,
+                "D": 192,
+                "E": 192,
+                "F": 192,
+                "G": 96,
+                "H": 96,
+                "I": 768
+              },
+              "numberOfComponents": 1
+            }
+          ],
+          "acceptedDirectedCutReconstructions": 27648,
+          "allVerticesConnected": true
+        },
+        "4": {
+          "components": 1,
+          "isolated": 0,
+          "isolatedClasses": {},
+          "componentPatterns": [
+            {
+              "size": 2688,
+              "classCounts": {
+                "A": 384,
+                "B": 384,
+                "C": 384,
+                "D": 192,
+                "E": 192,
+                "F": 192,
+                "G": 96,
+                "H": 96,
+                "I": 768
+              },
+              "numberOfComponents": 1
+            }
+          ],
+          "acceptedDirectedCutReconstructions": 27648,
+          "allVerticesConnected": true
+        }
+      },
+      "answer58OddReplacementLifts": [
+        {
+          "n": 1,
+          "allOddZeroReplacementSubsetsOnReflectedInput": 2
+        },
+        {
+          "n": 2,
+          "allOddZeroReplacementSubsetsOnReflectedInput": 2
+        },
+        {
+          "n": 3,
+          "allOddZeroReplacementSubsetsOnReflectedInput": 8
+        },
+        {
+          "n": 4,
+          "allOddZeroReplacementSubsetsOnReflectedInput": 128
+        }
+      ],
+      "answer59SourceBaseAndThreeZeroReplacements": [
+        {
+          "n": 5,
+          "vertices": 32,
+          "zeroTransitions": 6,
+          "allCyclicSubcubeWindowsT2ToNMinus1Excluded": true
+        },
+        {
+          "n": 6,
+          "vertices": 64,
+          "zeroTransitions": 6,
+          "allCyclicSubcubeWindowsT2ToNMinus1Excluded": true
+        },
+        {
+          "n": 7,
+          "vertices": 128,
+          "zeroTransitions": 6,
+          "allCyclicSubcubeWindowsT2ToNMinus1Excluded": true
+        },
+        {
+          "n": 8,
+          "vertices": 256,
+          "zeroTransitions": 6,
+          "allCyclicSubcubeWindowsT2ToNMinus1Excluded": true
+        }
+      ],
+      "answer61OnlyInitialInterleavingDefinitionSourceCompared": true,
+      "allOriginalGeneralOrHistoricalClaimsProved": false
+    },
+    "currentHamiltonPaths": {
+      "scope": "All labeled4cube Hamiltonian paths and exact source prefix-reversal graph; separate current execution after transcription, not5cube/global theorem",
+      "pageMarkdownSha256": "fa9872b0d3438722201d91460f8c340038b2590f0c2be039e8aa327b6adaecf6",
+      "masterSha256": null,
+      "checkerSha256": "f1289fafe89a7bcb20277a3cfb001da356c4b547331579b279debcdf945a878a",
+      "fixedOriginHamiltonianPaths": 5712,
+      "startTranslations": 16,
+      "totalPaths": 91392,
+      "prefixLengths": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "betaRequiredNonempty": false,
+      "normalizedPrefixChanges": 22848,
+      "translatedDirectedPrefixChanges": 365568,
+      "connectedComponents": 1,
+      "entirePrefixReversalIncludedAsEmptyBeta": true,
+      "all91392FullArraysNotMaterialized": true,
+      "normalizationProof": "Every path has a unique initial vertex s and unique fixed-zero path obtained by XOR s. Prefix reversal beginning at p[k−1] changes s to s XOR p[k−1]; exact normalized destination is looked up among all5712 paths."
+    },
+    "currentHamiltonPathReceiptSha256": "25103eea18ffd0b8462d6e45d338e7678213fdacfb0e0b571ac5db8d8bbc51ba",
+    "all9LiteralRepresentativesAndAutomorphismCountsExactlyMatched": true,
+    "actual93TeXAnd9CodeFieldsEqualAcrossWidths": true,
+    "allOriginalGeneralClaimsIndependentlyProved": false
+  },
+  "privateEvidenceSha256": "e3cb3087706885597b2c02ac3b284cf3d9e61457fbde4c1ed6f786de759ddc3c",
+  "fiveCube237675OrbitsAndAllGeneralTheoremsNotRecomputed": true
+}

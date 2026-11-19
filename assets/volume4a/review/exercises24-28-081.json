@@ -1,0 +1,760 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "masterSha256": null,
+  "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+  "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+  "pageMarkdownSha256": "9c7d78d4db79e43814205b4e001bbe6ddb28fe7e6b371d1b81064c951548ba17",
+  "exercise24NativeTree": {
+    "asset": "assets/volume4a/figures/exercise-7-1-1-24-alternating-binary-tree.svg",
+    "sha256": "d05a0d33ece40b3b769a0cb19f09fa38510c895c382ec3eeb11d9a3d6d71a4c1",
+    "cnPhysicalPage": 81,
+    "enPhysicalPage": 98,
+    "sourceEnglishPDFSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+    "sourceSelectionBBox": [
+      260,
+      390,
+      389,
+      432
+    ],
+    "nativeDrawingCount": 37,
+    "sourceCodeLocator": "private-snapshot:volume4a/tools/reconstruct-exercise-24-binary-tree.py",
+    "sourceCodeSha256": "69b6ac5ec38499de1b794e8a030224c8f945af0e06c89ce88bc3af17fd802de3",
+    "logicalVertices": 15,
+    "logicalEdges": 14,
+    "nodeCenters": [
+      [
+        323.7086944580078,
+        396.9255065917969
+      ],
+      [
+        291.85169982910156,
+        404.8905029296875
+      ],
+      [
+        355.5666961669922,
+        404.8905029296875
+      ],
+      [
+        275.9226837158203,
+        412.8545227050781
+      ],
+      [
+        307.7806854248047,
+        412.8545227050781
+      ],
+      [
+        339.63771057128906,
+        412.8545227050781
+      ],
+      [
+        371.4956817626953,
+        412.8545227050781
+      ],
+      [
+        267.95819091796875,
+        424.801025390625
+      ],
+      [
+        283.88720703125,
+        424.801025390625
+      ],
+      [
+        299.8161926269531,
+        424.801025390625
+      ],
+      [
+        315.74420166015625,
+        424.801025390625
+      ],
+      [
+        331.6731872558594,
+        424.801025390625
+      ],
+      [
+        347.6022033691406,
+        424.801025390625
+      ],
+      [
+        363.53118896484375,
+        424.801025390625
+      ],
+      [
+        379.460205078125,
+        424.801025390625
+      ]
+    ],
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        9,
+        4
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        13,
+        6
+      ],
+      [
+        6,
+        14
+      ]
+    ],
+    "root": 0,
+    "depths": {
+      "0": 0,
+      "1": 1,
+      "2": 1,
+      "3": 2,
+      "4": 2,
+      "5": 2,
+      "6": 2,
+      "7": 3,
+      "8": 3,
+      "9": 3,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3,
+      "14": 3
+    },
+    "nodeLabels": {
+      "0": "∧",
+      "1": "∨",
+      "2": "∨",
+      "3": "∧",
+      "4": "∧",
+      "5": "∧",
+      "6": "∧",
+      "7": "x0",
+      "8": "x1",
+      "9": "x2",
+      "10": "x3",
+      "11": "x4",
+      "12": "x5",
+      "13": "x6",
+      "14": "x7"
+    },
+    "leafOrder": [
+      "x0",
+      "x1",
+      "x2",
+      "x3",
+      "x4",
+      "x5",
+      "x6",
+      "x7"
+    ],
+    "operatorCounts": {
+      "AND": 5,
+      "OR": 2
+    },
+    "sourceText": [
+      {
+        "label": "∧",
+        "bbox": [
+          320.8883972167969,
+          393.07781982421875,
+          326.5284118652344,
+          401.1778259277344
+        ],
+        "origin": [
+          320.8883972167969,
+          399.1378173828125
+        ],
+        "visibleSvgFontSize": 8.0,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "∨",
+        "bbox": [
+          289.0306091308594,
+          401.0423278808594,
+          294.6706237792969,
+          409.142333984375
+        ],
+        "origin": [
+          289.0306091308594,
+          407.1023254394531
+        ],
+        "visibleSvgFontSize": 8.0,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "∨",
+        "bbox": [
+          352.7461853027344,
+          401.0423278808594,
+          358.3861999511719,
+          409.142333984375
+        ],
+        "origin": [
+          352.7461853027344,
+          407.1023254394531
+        ],
+        "visibleSvgFontSize": 8.0,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "∧",
+        "bbox": [
+          273.101806640625,
+          409.0067138671875,
+          278.7418212890625,
+          417.1067199707031
+        ],
+        "origin": [
+          273.101806640625,
+          415.06671142578125
+        ],
+        "visibleSvgFontSize": 8.0,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "∧",
+        "bbox": [
+          304.9595031738281,
+          409.0067138671875,
+          310.5995178222656,
+          417.1067199707031
+        ],
+        "origin": [
+          304.9595031738281,
+          415.06671142578125
+        ],
+        "visibleSvgFontSize": 8.0,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "∧",
+        "bbox": [
+          336.8172912597656,
+          409.0067138671875,
+          342.4573059082031,
+          417.1067199707031
+        ],
+        "origin": [
+          336.8172912597656,
+          415.06671142578125
+        ],
+        "visibleSvgFontSize": 8.0,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "∧",
+        "bbox": [
+          368.67498779296875,
+          409.0067138671875,
+          374.31500244140625,
+          417.1067199707031
+        ],
+        "origin": [
+          368.67498779296875,
+          415.06671142578125
+        ],
+        "visibleSvgFontSize": 8.0,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "x",
+        "bbox": [
+          263.50238037109375,
+          421.0792236328125,
+          268.24237060546875,
+          428.2792053222656
+        ],
+        "origin": [
+          263.50238037109375,
+          426.6592102050781
+        ],
+        "visibleSvgFontSize": 7.82,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "0",
+        "bbox": [
+          268.3641052246094,
+          423.1777648925781,
+          272.02410888671875,
+          429.1777648925781
+        ],
+        "origin": [
+          268.3641052246094,
+          427.6777648925781
+        ],
+        "visibleSvgFontSize": 5.85,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "x",
+        "bbox": [
+          279.4311828613281,
+          421.0792236328125,
+          284.1711730957031,
+          428.2792053222656
+        ],
+        "origin": [
+          279.4311828613281,
+          426.6592102050781
+        ],
+        "visibleSvgFontSize": 7.82,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "1",
+        "bbox": [
+          284.29736328125,
+          423.1777648925781,
+          287.9573669433594,
+          429.1777648925781
+        ],
+        "origin": [
+          284.29736328125,
+          427.6777648925781
+        ],
+        "visibleSvgFontSize": 5.85,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "x",
+        "bbox": [
+          295.360107421875,
+          421.0792236328125,
+          300.10009765625,
+          428.2792053222656
+        ],
+        "origin": [
+          295.360107421875,
+          426.6592102050781
+        ],
+        "visibleSvgFontSize": 7.82,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "2",
+        "bbox": [
+          300.23077392578125,
+          423.1777648925781,
+          303.8907775878906,
+          429.1777648925781
+        ],
+        "origin": [
+          300.23077392578125,
+          427.6777648925781
+        ],
+        "visibleSvgFontSize": 5.85,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "x",
+        "bbox": [
+          311.28900146484375,
+          421.0792236328125,
+          316.02899169921875,
+          428.2792053222656
+        ],
+        "origin": [
+          311.28900146484375,
+          426.6592102050781
+        ],
+        "visibleSvgFontSize": 7.82,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "3",
+        "bbox": [
+          316.16412353515625,
+          423.1777648925781,
+          319.8241271972656,
+          429.1777648925781
+        ],
+        "origin": [
+          316.16412353515625,
+          427.6777648925781
+        ],
+        "visibleSvgFontSize": 5.85,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "x",
+        "bbox": [
+          327.2178039550781,
+          421.0792236328125,
+          331.9577941894531,
+          428.2792053222656
+        ],
+        "origin": [
+          327.2178039550781,
+          426.6592102050781
+        ],
+        "visibleSvgFontSize": 7.82,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "4",
+        "bbox": [
+          332.09747314453125,
+          423.1777648925781,
+          335.7574768066406,
+          429.1777648925781
+        ],
+        "origin": [
+          332.09747314453125,
+          427.6777648925781
+        ],
+        "visibleSvgFontSize": 5.85,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "x",
+        "bbox": [
+          343.1466979980469,
+          421.0792236328125,
+          347.8866882324219,
+          428.2792053222656
+        ],
+        "origin": [
+          343.1466979980469,
+          426.6592102050781
+        ],
+        "visibleSvgFontSize": 7.82,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "5",
+        "bbox": [
+          348.03082275390625,
+          423.1777648925781,
+          351.6908264160156,
+          429.1777648925781
+        ],
+        "origin": [
+          348.03082275390625,
+          427.6777648925781
+        ],
+        "visibleSvgFontSize": 5.85,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "x",
+        "bbox": [
+          359.0755920410156,
+          421.0792236328125,
+          363.8155822753906,
+          428.2792053222656
+        ],
+        "origin": [
+          359.0755920410156,
+          426.6592102050781
+        ],
+        "visibleSvgFontSize": 7.82,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "6",
+        "bbox": [
+          363.9642028808594,
+          423.1777648925781,
+          367.62420654296875,
+          429.1777648925781
+        ],
+        "origin": [
+          363.9642028808594,
+          427.6777648925781
+        ],
+        "visibleSvgFontSize": 5.85,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "x",
+        "bbox": [
+          375.0044860839844,
+          421.0792236328125,
+          379.7444763183594,
+          428.2792053222656
+        ],
+        "origin": [
+          375.0044860839844,
+          426.6592102050781
+        ],
+        "visibleSvgFontSize": 7.82,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      },
+      {
+        "label": "7",
+        "bbox": [
+          379.8975524902344,
+          423.1777648925781,
+          383.55755615234375,
+          429.1777648925781
+        ],
+        "origin": [
+          379.8975524902344,
+          427.6777648925781
+        ],
+        "visibleSvgFontSize": 5.85,
+        "nominalType3SizeIgnored": 0.05999999865889549
+      }
+    ],
+    "sourceSubscriptDigitGlyphMap": {
+      "6": 0,
+      "2": 1,
+      "0": 2,
+      "3": 3,
+      "7": 4,
+      "8": 5,
+      "4": 6,
+      "9": 7
+    },
+    "qualification": "Bounded37nativepaths/14logicaledges/15nodebackdropsandoutlinesretained. Sevenoperatorlabels/eightxlabels/eightsubscriptdigitsvisuallyread,notType3nominalfontsize. Onlygivenk3tree/topology/operator-placement,notexerciseprime-implicantcountsolved. ActualCN/EN/currentSVGviewsrequiredforacceptance."
+  },
+  "labelSizingEvidence": {
+    "sourceInkFile": "private-snapshot:volume4a/body-review/tree24-source-glyph-ink.json",
+    "sourceInkSha256": "217dd4c55774506eecb6006ca5d6e797ad52c9fad502d63d44a98a5daa6cdf9a",
+    "oldChromeMetricFile": "private-snapshot:volume4a/body-review/tree24-chrome-font-metrics.json",
+    "oldChromeMetricSha256": "aab4b4bcb16b67070fbe0799daa3201f38ac3158e1224135d862005fbdb5235c",
+    "sourceLeafXInkHeightPt": 3.55,
+    "sourceSubscriptInkHeightPtRange": [
+      3.9,
+      4.1
+    ],
+    "initialChromeSubscriptInkHeightPtRange": [
+      4.93,
+      5.03
+    ],
+    "chosenFinalFonts": {
+      "operator": 8.0,
+      "x": 7.82,
+      "subscript": 5.85
+    },
+    "qualification": "Sourceleafx/digitvisibleinkmeasured40px/pt;oldmetadatafontsizeisinitialcandidate,notanactualType3pointsize. Operatorglyphbboxinkincludesnodeoutline,notusedasexactglyphheight;final8ptsymbolsvisuallyfitoriginalnodeoutlines. FinalcurrentSVG/sourcecomparisonatbothwidthsrequiredandseparatelyrecorded."
+  },
+  "exercise28FixedEquality": {
+    "schemaVersion": 1,
+    "volume": "volume4a",
+    "masterSha256": null,
+    "scope": "Onlytheprinted5-variablegexampleequalityinexercise28,notgeneralprimecoverbijectionoralgorithmXproof.",
+    "pageMarkdownSha256": "9c7d78d4db79e43814205b4e001bbe6ddb28fe7e6b371d1b81064c951548ba17",
+    "sourceCodeLocator": "private-snapshot:volume4a/tools/check-exercise28-example.py",
+    "sourceCodeSha256": "db5509839a8a9c40b1016aba619c549096d2c9393ddd60abf85a3fcd977e686e",
+    "eightCNFClausesReadFromActualMD": [
+      [
+        1,
+        2
+      ],
+      [
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5
+      ],
+      [
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "twoDNFTermsReadFromActualMD": [
+      [
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "inputCount": 32,
+    "allRows": [
+      {
+        "input": "00000",
+        "output": 0
+      },
+      {
+        "input": "00001",
+        "output": 0
+      },
+      {
+        "input": "00010",
+        "output": 0
+      },
+      {
+        "input": "00011",
+        "output": 0
+      },
+      {
+        "input": "00100",
+        "output": 0
+      },
+      {
+        "input": "00101",
+        "output": 0
+      },
+      {
+        "input": "00110",
+        "output": 0
+      },
+      {
+        "input": "00111",
+        "output": 0
+      },
+      {
+        "input": "01000",
+        "output": 0
+      },
+      {
+        "input": "01001",
+        "output": 0
+      },
+      {
+        "input": "01010",
+        "output": 0
+      },
+      {
+        "input": "01011",
+        "output": 0
+      },
+      {
+        "input": "01100",
+        "output": 0
+      },
+      {
+        "input": "01101",
+        "output": 0
+      },
+      {
+        "input": "01110",
+        "output": 0
+      },
+      {
+        "input": "01111",
+        "output": 0
+      },
+      {
+        "input": "10000",
+        "output": 0
+      },
+      {
+        "input": "10001",
+        "output": 0
+      },
+      {
+        "input": "10010",
+        "output": 0
+      },
+      {
+        "input": "10011",
+        "output": 0
+      },
+      {
+        "input": "10100",
+        "output": 0
+      },
+      {
+        "input": "10101",
+        "output": 0
+      },
+      {
+        "input": "10110",
+        "output": 0
+      },
+      {
+        "input": "10111",
+        "output": 1
+      },
+      {
+        "input": "11000",
+        "output": 0
+      },
+      {
+        "input": "11001",
+        "output": 0
+      },
+      {
+        "input": "11010",
+        "output": 0
+      },
+      {
+        "input": "11011",
+        "output": 1
+      },
+      {
+        "input": "11100",
+        "output": 0
+      },
+      {
+        "input": "11101",
+        "output": 0
+      },
+      {
+        "input": "11110",
+        "output": 0
+      },
+      {
+        "input": "11111",
+        "output": 1
+      }
+    ],
+    "mismatches": 0
+  },
+  "qualification": "Only the fixedk3tree15nodes/14edges/7operators/8leavesandthegivenfive-variablegCNF-DNFequalityall32inputs. Notex24generalprimecount,ex27generalalgorithm/runtimeprooforex28generalbijectionproof. Graphnative37pathsandall23labelsbounded,notwholepageSVG/raster/fontembedding."
+}

@@ -1,0 +1,139 @@
+{
+  "status": "official-fixed-word-graph-finite-checks-passed",
+  "sourceURL": "https://cs.stanford.edu/~knuth/sgb-words.txt",
+  "sourceSha256": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce",
+  "rule": "Undirected edges connect distinct words differing at exactly1position. Prefix WORDS(n) follows the given official file order.",
+  "vertices": 5757,
+  "edges": 14135,
+  "componentSizeFrequency": {
+    "1": 671,
+    "2": 103,
+    "3": 42,
+    "4": 13,
+    "5": 6,
+    "6": 4,
+    "7": 6,
+    "8": 1,
+    "15": 3,
+    "17": 1,
+    "19": 1,
+    "24": 1,
+    "4493": 1
+  },
+  "prefixGraphs": {
+    "5000": {
+      "largestComponent": 3825,
+      "components": 800
+    },
+    "4000": {
+      "largestComponent": 2986,
+      "components": 689
+    },
+    "3000": {
+      "largestComponent": 2056,
+      "components": 629
+    },
+    "2000": {
+      "largestComponent": 1186,
+      "components": 542
+    },
+    "1000": {
+      "largestComponent": 224,
+      "components": 446
+    },
+    "500": {
+      "largestComponent": 14,
+      "components": 327
+    }
+  },
+  "distances": {
+    "tears->smile": 6,
+    "tears->happy": 6,
+    "smile->happy": 10,
+    "world->court": 6,
+    "world->happy": null
+  },
+  "chains": {
+    "11": {
+      "words": [
+        "tears",
+        "sears",
+        "stars",
+        "stare",
+        "stale",
+        "stile",
+        "smile"
+      ],
+      "allSGB": true,
+      "allEdgesValid": true,
+      "length": 6
+    },
+    "12": {
+      "words": [
+        "basic",
+        "basis",
+        "bases",
+        "based",
+        "baked",
+        "naked",
+        "named",
+        "names",
+        "games"
+      ],
+      "allSGB": true,
+      "allEdgesValid": true,
+      "length": 8
+    },
+    "13": {
+      "words": [
+        "chaos",
+        "chose",
+        "chore",
+        "score",
+        "store",
+        "stare",
+        "spare",
+        "space",
+        "peace"
+      ],
+      "allSGB": true,
+      "allEdgesValid": true,
+      "length": 8
+    },
+    "14": {
+      "words": [
+        "words",
+        "dross",
+        "soars",
+        "orcas",
+        "crash",
+        "sharp",
+        "graph"
+      ],
+      "allSGB": true,
+      "allEdgesValid": true,
+      "length": 6
+    },
+    "21": {
+      "words": [
+        "login",
+        "logic",
+        "yogic",
+        "yogis",
+        "yogas",
+        "togas"
+      ],
+      "allSGB": true,
+      "allEdgesValid": true,
+      "length": 5
+    }
+  },
+  "directedWordsToGraphDistance": 6,
+  "conditionalTwoCoordinateMoves": {
+    "eligibleWords": 4809,
+    "eligibleGiantWords": 4493,
+    "uniformWordConditionalProbability": 0.934289873154502,
+    "qualification": "Finite conditional count under uniform choice among the eligible fixed SGB words. This does not impose a distribution on an arbitrary user-selected word."
+  },
+  "qualification": "Default frequency-prefix graphs and displayed path validity only; the separate766-word TeX-weighted subset was not reconstructed from the plain rank list, so subset membership/count claims are not independently certified here."
+}

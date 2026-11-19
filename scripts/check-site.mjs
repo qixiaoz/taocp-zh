@@ -12,6 +12,7 @@ import { unzipSync } from 'fflate';
 import { createMarkdownRenderer, resolveConfig } from 'vitepress';
 import { normalizeMathSyntax } from './book-markdown.mjs';
 import { volumes, enabledVolumes, volumeManifestFile } from './book-volumes.mjs';
+import { sourceAnchorIds } from './book-anchors.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DOCS = path.join(ROOT, 'docs');
@@ -34,7 +35,7 @@ async function readEditorial(file) {
   return bytes.toString('utf8');
 }
 const rel = file => path.relative(ROOT, file).split(path.sep).join('/');
-const ids = text => [...text.matchAll(/<a\s+id="([^"]+)"[^>]*>/g)].map(x => x[1]);
+const ids = sourceAnchorIds;
 const counts = values => { const m = new Map(); for (const v of values) m.set(v, (m.get(v) ?? 0) + 1); return m; };
 const compact = value => value.replace(/\s+/gu, '');
 const textExtensions = /\.(?:html?|css|[cm]?js|jsonl?|svg|txt|xml|md|map)$/i;

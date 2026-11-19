@@ -1,0 +1,1244 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "status": "three-complete-body-pages-reviewed",
+  "cnPhysicalPages": [
+    21,
+    22,
+    23
+  ],
+  "cnPrintedPages": [
+    6,
+    7,
+    8
+  ],
+  "masterSha256": null,
+  "mathExpressions": 42,
+  "privateProofBrowserCases": 6,
+  "originalChineseTranslatorFootnotes": 1,
+  "substantiveCorrections": 8,
+  "preservedQuotedWordingDifferences": 1,
+  "officiallyResolvedSectionReferences": 1,
+  "pages": [
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7",
+      "cnPdfPage": 21,
+      "cnPrintedPage": 6,
+      "enPdfPages": [
+        24,
+        25,
+        26
+      ],
+      "enPrintedPages": [
+        7,
+        8,
+        9
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "97b7a69fdf35c26280ae6ba5a45ee4e9e52a7f53c722fff96741cbe0324ca4d2",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "fullPageContentTranscribed": true,
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-021.png",
+      "sourcePageImageSha256": "1044b0afe0ef1518def3cec3e191f4dc85d38f60a8fa3d7b8291172849cd5a67",
+      "enPageImages": [
+        {
+          "physicalPage": 24,
+          "file": "private-snapshot:volume4a/body-review/en-024.png",
+          "sha256": "825b33ed6ed8924a1acf597c8c5ebab5cc816e98bcf5ceae69b1ab241a7ad7ce"
+        },
+        {
+          "physicalPage": 25,
+          "file": "private-snapshot:volume4a/body-review/en-025.png",
+          "sha256": "bd50621dc03d2af33e8420d4939c2b70bed9189bc00240e51484cf5e639d3f73"
+        },
+        {
+          "physicalPage": 26,
+          "file": "private-snapshot:volume4a/body-review/en-026.png",
+          "sha256": "25776c5b1402f4e08fc290abee49a5d8dd139b7aa538cf4459f44e7f1b7a2231"
+        }
+      ],
+      "unverifiedPageRegions": [],
+      "pageAnchors": [
+        "pdf-021",
+        "p-6"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers/printed page number; original page is retained as a hidden anchor."
+      ],
+      "qualification": "Complete Chinese page model source-image comparison, including explicitly preserved wording questions; not human sign-off or whole-volume mathematical/SSR/publication acceptance.",
+      "pending": [
+        "Final whole-volume inclusion",
+        "Adjacent-page continuity and reference targets",
+        "Whole-volume offline/production/browser/online checks"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "coveredRegions": [
+        "Final moral of the Latin-square computation story.",
+        "Puzzles versus reality topic and complete methodological discussion.",
+        "Palluel1788experiment,four breeds/diets/times and16versus64sheep.",
+        "Discretegeometry/coding examples,Skolem/Steiner/Groth and exact-cover applications.",
+        "Importance of basic concepts,actual problem solving and organized thinking.",
+        "CompleteHavelquotation and author comments,with preserved wording qualification."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 6,
+          "enPosition": "English printed8/PDF25,experiment discussion",
+          "original": "离散几何编码及纠错编码",
+          "final": "离散几何及纠错编码",
+          "basis": "English says discrete geometry and error-correcting codes: two fields, not two kinds of coding. The extra 编码 attached to geometry changes that division."
+        },
+        {
+          "cnPrintedPage": 6,
+          "enPosition": "English printed8/PDF25,exact-cover applications",
+          "original": "对基层选区选举人辖区人数的公平分配",
+          "final": "把基层投票区公平地分配到选举区",
+          "basis": "English explicitly apportions voter precincts to electoral districts, not the number of people into precincts. Restore the units and destination stated in the source."
+        },
+        {
+          "cnPrintedPage": 6,
+          "enPosition": "English printed8/PDF25,paragraph beginningThe applications",
+          "original": "应用并不是最重要的事情，也不是最困难的事情。",
+          "final": "应用并不是最重要的事情，谜题也不是。",
+          "basis": "English neither are the puzzles continues the not most important predicate and adds puzzles as its second subject; it says nothing about applications being the most difficult."
+        },
+        {
+          "cnPrintedPage": 6,
+          "enPosition": "English printed8/PDF25,paragraph beginningStill",
+          "original": "讨论求解那些不能实际解决任何问题的问题是愚蠢的；多少以一种官能形式激发灰质细胞",
+          "final": "只讨论问题求解却不实际解决任何问题是愚蠢的；以多少有条理的方式激发灰质细胞",
+          "basis": "English contrasts discussing problem solving with actually solving problems, not discussing unsolvable problems. The phrase more or less organized fashion concerns organization, not sensory/organic function."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "Havelquotation and following list",
+          "cn": "一台等候发现的指令机器；要有体验、勇气和同情心",
+          "en": "a machine with instructions for use waiting to be discovered; for taste,courage,and compassion",
+          "decision": "Preserve the supplied Chinese literary quotation/list wording pending an independent check of the original Havelquotation. The wording difference is recorded rather than silently retranslating an external quotation.",
+          "status": "preserved-quotation-wording-difference"
+        }
+      ],
+      "numericChecks": {
+        "experimentFactors": [
+          4,
+          4,
+          4
+        ],
+        "fullFactorialCombinations": 64,
+        "latinSquareRuns": 16,
+        "qualification": "Arithmetic of the stated design only, not independent verification of the1788historical experiment."
+      },
+      "syntaxCheck": {
+        "physicalPage": 21,
+        "markdownSha256": "97b7a69fdf35c26280ae6ba5a45ee4e9e52a7f53c722fff96741cbe0324ca4d2",
+        "htmlSha256": "2cea130357f05c909e571ea1ab7470e3cd098876c84c6c21cec192e3c23a5e65",
+        "mathExpressions": 1,
+        "displayMath": 0,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-21-22-23.json",
+        "sha256": "fa3004c42c4c34d1fa8f1afba3c7aa63fd0c93c7ca5a469669e5e0d492823456",
+        "cases": [
+          {
+            "physicalPage": 21,
+            "width": 1280,
+            "markdownSha256": "97b7a69fdf35c26280ae6ba5a45ee4e9e52a7f53c722fff96741cbe0324ca4d2",
+            "documentWidth": 1280,
+            "math": 1,
+            "mathml": 1,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 48,
+                "content": 48,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          },
+          {
+            "physicalPage": 21,
+            "width": 390,
+            "markdownSha256": "97b7a69fdf35c26280ae6ba5a45ee4e9e52a7f53c722fff96741cbe0324ca4d2",
+            "documentWidth": 390,
+            "math": 1,
+            "mathml": 1,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 48,
+                "content": 48,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          }
+        ],
+        "qualification": "Actual private page proof, not final whole-volume SSR/online acceptance."
+      },
+      "privateOriginalPageReviewSha256": "73df321bc3e72b237f76a69b370bd8d5f20febdceedfb0377e6ac8afc4d2c325",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/021.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7",
+      "cnPdfPage": 22,
+      "cnPrintedPage": 7,
+      "enPdfPages": [
+        26,
+        27
+      ],
+      "enPrintedPages": [
+        9,
+        10
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "516aeb00190bf8c9811c894c9e65d2621bc36b9b8f29fb0a54ac614d7df117f0",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "fullPageContentTranscribed": true,
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-022.png",
+      "sourcePageImageSha256": "3fef5aace46f568cd612e6f1a10787dde7a09f635c1a0b248802124d1d9310da",
+      "enPageImages": [
+        {
+          "physicalPage": 26,
+          "file": "private-snapshot:volume4a/body-review/en-026.png",
+          "sha256": "25776c5b1402f4e08fc290abee49a5d8dd139b7aa538cf4459f44e7f1b7a2231"
+        },
+        {
+          "physicalPage": 27,
+          "file": "private-snapshot:volume4a/body-review/en-027.png",
+          "sha256": "97fa78ca952edc62cba3ad6f4ba54fbcc89d0646626d76dca9108a095806fce3"
+        }
+      ],
+      "unverifiedPageRegions": [],
+      "pageAnchors": [
+        "pdf-022",
+        "p-7"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers/printed page number; original page is retained as a hidden anchor."
+      ],
+      "qualification": "Complete Chinese page model source-image comparison, including explicitly preserved wording questions; not human sign-off or whole-volume mathematical/SSR/publication acceptance.",
+      "pending": [
+        "Final whole-volume inclusion",
+        "Adjacent-page continuity and reference targets",
+        "Whole-volume offline/production/browser/online checks"
+      ],
+      "originalFootnotesPresent": true,
+      "originalFootnoteCount": 1,
+      "originalFootnotes": [
+        {
+          "id": "p7-1",
+          "printedMarker": "①",
+          "kind": "Chinese translator note",
+          "reference": "ideal（理想）",
+          "qualification": "This translation-specific note is checked against CN22; no corresponding English author note is invented."
+        }
+      ],
+      "startsMidParagraph": false,
+      "endsMidParagraph": false,
+      "coveredRegions": [
+        "Brewster/Gardner1963quotation and response.",
+        "Author1976essay reference,too-elegant puzzles and messy real examples.",
+        "CompleteSGBprogram/data examples:highways,economy,fiction,thesaurus,football,MonaLisa.",
+        "Five-letter word list equation8 and all dates/counts.",
+        "All deliberately retained five-letter English wordplays and Chinese glosses.",
+        "Carroll1879quotation and original Chinese translator footnote."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 7,
+          "enPosition": "English printed9/PDF26,Brewsterquotation",
+          "original": "要听从时下的娱乐。",
+          "final": "屈从于即时娱乐。",
+          "basis": "English Succumbing to instant recreation is a critical fragment, not an imperative to follow contemporary recreation. Restore both the negative evaluation and instantaneous sense of instant."
+        },
+        {
+          "cnPrintedPage": 7,
+          "enPosition": "English printed9/PDF26,SGBexamples",
+          "original": "彼得·罗杰1879年编辑的《词典》条目",
+          "final": "彼得·罗杰《词典》1879年版的条目",
+          "basis": "English identifies the1879edition of Roget’s Thesaurus; it does not date an editing action by Roget to1879. The correction changes only the attachment of the date and introduces no new biography."
+        }
+      ],
+      "preservedVersionDifferences": [],
+      "numericChecks": {
+        "frozenWordCount": 5757,
+        "collectionYears": [
+          1972,
+          1992
+        ],
+        "qualification": "Word-list identity separately checked against the official frozen data in page23; no claim that all dictionary selection judgements are mathematically certified."
+      },
+      "syntaxCheck": {
+        "physicalPage": 22,
+        "markdownSha256": "516aeb00190bf8c9811c894c9e65d2621bc36b9b8f29fb0a54ac614d7df117f0",
+        "htmlSha256": "bd0c891217d3bdbb7ebd5a48e42770a01e8700f8bab82a8cd4c5e44862efbea9",
+        "mathExpressions": 15,
+        "displayMath": 1,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-21-22-23.json",
+        "sha256": "fa3004c42c4c34d1fa8f1afba3c7aa63fd0c93c7ca5a469669e5e0d492823456",
+        "cases": [
+          {
+            "physicalPage": 22,
+            "width": 1280,
+            "markdownSha256": "516aeb00190bf8c9811c894c9e65d2621bc36b9b8f29fb0a54ac614d7df117f0",
+            "documentWidth": 1280,
+            "math": 15,
+            "mathml": 15,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 1,
+            "ends": [
+              {
+                "client": 728,
+                "content": 795,
+                "left": 0,
+                "right": 67,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 297,
+                "content": 297,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 392,
+                "content": 392,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          },
+          {
+            "physicalPage": 22,
+            "width": 390,
+            "markdownSha256": "516aeb00190bf8c9811c894c9e65d2621bc36b9b8f29fb0a54ac614d7df117f0",
+            "documentWidth": 390,
+            "math": 15,
+            "mathml": 15,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 1,
+            "ends": [
+              {
+                "client": 310,
+                "content": 795,
+                "left": 0,
+                "right": 485,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 297,
+                "content": 297,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 392,
+                "left": 0,
+                "right": 82,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          }
+        ],
+        "qualification": "Actual private page proof, not final whole-volume SSR/online acceptance."
+      },
+      "privateOriginalPageReviewSha256": "4fd24d538f98390779f856e50af0db375464c119ed6f964ed41870c588de58dc",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/022.json"
+    },
+    {
+      "schemaVersion": 1,
+      "volume": "volume4a",
+      "section": "7",
+      "cnPdfPage": 23,
+      "cnPrintedPage": 8,
+      "enPdfPages": [
+        27,
+        28
+      ],
+      "enPrintedPages": [
+        10,
+        11
+      ],
+      "cnSourceSha256": "721be3f074e8507b682fe6811f6c7758d93f6d727e724eefaeee33e98aa5ed3b",
+      "enSourceSha256": "71d214a013e75cba9f7cb0d423a03fa8e78c8da86534ff428e93c1d10c332b2d",
+      "pageMarkdownSha256": "fad04b4d4aaa9b85c862f2b2d4b4c7e8772a0b678695d5d3ccaabf942dd1109c",
+      "masterSha256": null,
+      "reviewerType": "model-direct-page-image-comparison",
+      "status": {
+        "transcribed": true,
+        "machineChecked": true,
+        "originalPageVisualReview": true,
+        "bilingualVerification": true
+      },
+      "fullPageContentTranscribed": true,
+      "sourcePageImage": "private-snapshot:volume4a/body-review/cn-023.png",
+      "sourcePageImageSha256": "66c31d263fd30fd63d94cd3b2c12c18230e3c949a66b92f324a2b6db3912f490",
+      "enPageImages": [
+        {
+          "physicalPage": 27,
+          "file": "private-snapshot:volume4a/body-review/en-027.png",
+          "sha256": "97fa78ca952edc62cba3ad6f4ba54fbcc89d0646626d76dca9108a095806fce3"
+        },
+        {
+          "physicalPage": 28,
+          "file": "private-snapshot:volume4a/body-review/en-028.png",
+          "sha256": "210c27f86c875129b9fe10d805ed40828326f4d870a39b60e628c3b165243da3"
+        }
+      ],
+      "unverifiedPageRegions": [],
+      "pageAnchors": [
+        "pdf-023",
+        "p-8"
+      ],
+      "pageFurnitureOmitted": [
+        "Repeated page headers/printed page number; original page is retained as a hidden anchor."
+      ],
+      "qualification": "Complete Chinese page model source-image comparison, including explicitly preserved wording questions; not human sign-off or whole-volume mathematical/SSR/publication acceptance.",
+      "pending": [
+        "Final whole-volume inclusion",
+        "Adjacent-page continuity and reference targets",
+        "Whole-volume offline/production/browser/online checks"
+      ],
+      "originalFootnotesPresent": false,
+      "startsMidParagraph": false,
+      "endsMidParagraph": true,
+      "continuation": {
+        "nextCnPdfPage": 24,
+        "lastText": "回忆一下",
+        "kind": "graph-definition-paragraph-continues"
+      },
+      "coveredRegions": [
+        "Barnard1984epigraph,proper names and all lexical restrictions.",
+        "Euclidean vectors and complete sqrt2415calculation.",
+        "Original website/file citation and all seven fixed word-rank landmarks.",
+        "Dictionary filtering and WORDS(n)definition.",
+        "All20/24/25letter-covering examples.",
+        "Complete word square9 and25word cube10entries.",
+        "Cube counts,basic dancing-links reference and graph-topic introduction to page end."
+      ],
+      "substantiveCorrections": [
+        {
+          "cnPrintedPage": 8,
+          "enPosition": "English printed10/PDF27,lexical restrictions",
+          "original": "缩写词",
+          "final": "缩约词",
+          "basis": "The supplied English specifically says contractions, not abbreviations. Restore the linguistic category in the word-list definition."
+        },
+        {
+          "cnPrintedPage": 8,
+          "enPosition": "English printed11/PDF28 and official publisherreplacementPDF27/printed11, paragraph after equation10",
+          "original": "83567个对称词立方",
+          "final": "83576个对称词立方",
+          "basis": "The supplied English2011prints83576. The official publisher’s March2017third digital release replacement pages retain the identical equation10example,WORDS3000count3and frozenWORDS5757rule, and explicitly reaffirm83576. This rules out merely copying the older English section-reference plan as evidence.",
+          "sourceURL": "https://ptgmedia.pearsoncmg.com/imprint_downloads/informit/bookreg/9780201038040/9780201038040_v4A_pages_i-16.pdf",
+          "sourceSha256": "41b5b84a145df3d0e79b15839b209db4f49fa60f1afa4977d3dc4f654e6ed8a2",
+          "qualification": "This numerical correction follows two primary published versions with the identical stated collection/rule. The full83576cube enumeration has not been independently rerun."
+        }
+      ],
+      "preservedVersionDifferences": [
+        {
+          "location": "Basic dancing-links reference afterequation10",
+          "cn": "7.2.2.1",
+          "en": "7.2.2.2",
+          "status": "resolved-Chinese-already-incorporates-official-author-correction",
+          "resolution": {
+            "sourceURL": "https://cs.stanford.edu/~knuth/all4a-pre.ps.gz",
+            "sourceSha256": "b2926739eaeb9aaceb7c613a42b8287367ea7d8ce4d8e57775a7e353d9c2f40d",
+            "documentPage": 4,
+            "englishPrintedPage": 11,
+            "line": "2after10",
+            "reportedDate": "2015-08-13",
+            "findingID": "word-cube-dancing-links-reference",
+            "decision": "Keep the Chinese updated reference7.2.2.1."
+          }
+        }
+      ],
+      "numericChecks": {
+        "status": "fixed-official-word-data-and-finite-examples-verified",
+        "sourceURL": "https://cs.stanford.edu/~knuth/sgb-words.txt",
+        "retrievedDate": "2026-11-17",
+        "bytes": 34542,
+        "sha256": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce",
+        "words": 5757,
+        "bookRankAnchorsMatched": {
+          "1": "which",
+          "5757": "pupal",
+          "1000": "ditch",
+          "2000": "galls",
+          "3000": "visas",
+          "4000": "faker",
+          "5000": "pismo"
+        },
+        "furthestPair": {
+          "all5757SquaredEuclideanDistancesChecked": true,
+          "maxSquaredDistance": 2415,
+          "pairs": [
+            [
+              "abuzz",
+              "yucca"
+            ]
+          ],
+          "seconds": 1.376
+        },
+        "coveringExamples": [
+          {
+            "words": [
+              "third",
+              "flock",
+              "began",
+              "jumps"
+            ],
+            "differentLetters": 20,
+            "allSGB": true
+          },
+          {
+            "words": [
+              "becks",
+              "fjord",
+              "glitz",
+              "nymph",
+              "squaw"
+            ],
+            "differentLetters": 24,
+            "allSGB": true
+          },
+          {
+            "words": [
+              "waqfs",
+              "gyved",
+              "bronx",
+              "chimp",
+              "klutz"
+            ],
+            "differentLetters": 25,
+            "allSGB": false
+          }
+        ],
+        "wordSquare9": {
+          "words": [
+            "class",
+            "light",
+            "agree",
+            "sheep",
+            "steps"
+          ],
+          "ranks": {
+            "class": 98,
+            "light": 48,
+            "agree": 372,
+            "sheep": 256,
+            "steps": 162
+          },
+          "rowsEqualColumns": true
+        },
+        "wordCube10": {
+          "rows": [
+            [
+              "types",
+              "yeast",
+              "pasta",
+              "ester",
+              "start"
+            ],
+            [
+              "yeast",
+              "earth",
+              "armor",
+              "stove",
+              "three"
+            ],
+            [
+              "pasta",
+              "armor",
+              "smoke",
+              "token",
+              "arena"
+            ],
+            [
+              "ester",
+              "stove",
+              "token",
+              "event",
+              "rents"
+            ],
+            [
+              "start",
+              "three",
+              "arena",
+              "rents",
+              "tease"
+            ]
+          ],
+          "maxUsedWordRank": 2968,
+          "all125CellsInvariantUnderAxisPermutations": true,
+          "allWordsWithinWORDS3000": true
+        },
+        "fullSymmetricCubeCountsIndependentlyEnumerated": false,
+        "qualification": "The official data match every supplied-book rank landmark and the frozen5757-word definition. All pairwise distances and the displayed examples are independently checked. This is not an enumeration of all symmetric cubes or a new proof of counts3/83576."
+      },
+      "additionalPrimaryEvidence": [
+        {
+          "url": "https://ptgmedia.pearsoncmg.com/imprint_downloads/informit/bookreg/9780201038040/9780201038040_v4A_pages_i-16.pdf",
+          "publisher": "Pearson / InformIT",
+          "documentPurpose": "Official replacement pages for missing pages in selected printings, used only as numeric corroboration, not a new transcription base.",
+          "release": "Third digital release, March2017",
+          "sha256": "41b5b84a145df3d0e79b15839b209db4f49fa60f1afa4977d3dc4f654e6ed8a2",
+          "physicalPage": 27,
+          "printedPage": 11,
+          "count": 83576,
+          "sameWORDS3000Count": 3,
+          "sameFixedWORDS5757Definition": true,
+          "sameEquation10Words": true,
+          "renderedEvidenceSha256": "4a058b7a08a0adfcaf722cbc3af47da08e1d49fdeb6670a8157632c08dc0afd1",
+          "privateEvidenceLocator": "private-snapshot:volume4a/official-errata/publisher-printed11.png",
+          "qualification": "The provided English2011and official publisher2017both state83576 for the identical fixed collection/rule. No full cube enumeration is claimed here."
+        }
+      ],
+      "sourceData": {
+        "url": "https://cs.stanford.edu/~knuth/sgb-words.txt",
+        "sha256": "52a04f4fb860953c2a29c2769014bd8b12d090a19e7577a460a2a2586bd6d4ce",
+        "bytes": 34542,
+        "retrievedDate": "2026-11-17",
+        "bookIdentityChecks": "5757five-letter lowercase unique words,first/last and ranks1000..5000all match the supplied book.",
+        "qualification": "The official fixed file is a validation dataset, not an additional book transcription source."
+      },
+      "syntaxCheck": {
+        "physicalPage": 23,
+        "markdownSha256": "fad04b4d4aaa9b85c862f2b2d4b4c7e8772a0b678695d5d3ccaabf942dd1109c",
+        "htmlSha256": "7d0b46c8f6801cb49d3a515cef6ff869bc7440c6ab410d3c9be9953c9583cc43",
+        "mathExpressions": 26,
+        "displayMath": 3,
+        "parseErrors": 0,
+        "images": 0,
+        "codeLines": [],
+        "unexpectedControls": 0
+      },
+      "pageBrowserCheck": {
+        "file": "private-snapshot:volume4a/verified-render/browser-21-22-23.json",
+        "sha256": "fa3004c42c4c34d1fa8f1afba3c7aa63fd0c93c7ca5a469669e5e0d492823456",
+        "cases": [
+          {
+            "physicalPage": 23,
+            "width": 1280,
+            "markdownSha256": "fad04b4d4aaa9b85c862f2b2d4b4c7e8772a0b678695d5d3ccaabf942dd1109c",
+            "documentWidth": 1280,
+            "math": 26,
+            "mathml": 26,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 70,
+                "content": 70,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 728,
+                "content": 738,
+                "left": 0,
+                "right": 10,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 325,
+                "content": 325,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 114,
+                "content": 114,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 114,
+                "content": 114,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 86,
+                "content": 86,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 245,
+                "content": 245,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 346,
+                "content": 346,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 280,
+                "content": 280,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 134,
+                "content": 134,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 728,
+                "content": 728,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 728,
+                "content": 728,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 145,
+                "content": 145,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 48,
+                "content": 48,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 145,
+                "content": 145,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 145,
+                "content": 145,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          },
+          {
+            "physicalPage": 23,
+            "width": 390,
+            "markdownSha256": "fad04b4d4aaa9b85c862f2b2d4b4c7e8772a0b678695d5d3ccaabf942dd1109c",
+            "documentWidth": 390,
+            "math": 26,
+            "mathml": 26,
+            "mathErrors": 0,
+            "missingImages": [],
+            "footnotes": 0,
+            "ends": [
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 70,
+                "content": 70,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 738,
+                "left": 0,
+                "right": 428,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 325,
+                "left": 0,
+                "right": 15,
+                "reachable": true
+              },
+              {
+                "client": 114,
+                "content": 114,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 13,
+                "content": 13,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 114,
+                "content": 114,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 86,
+                "content": 86,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 245,
+                "content": 245,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 346,
+                "left": 0,
+                "right": 36,
+                "reachable": true
+              },
+              {
+                "client": 57,
+                "content": 57,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 280,
+                "content": 280,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 134,
+                "content": 134,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 310,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 310,
+                "content": 510,
+                "left": 0,
+                "right": 200,
+                "reachable": true
+              },
+              {
+                "client": 145,
+                "content": 145,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 48,
+                "content": 48,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 145,
+                "content": 145,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              },
+              {
+                "client": 145,
+                "content": 145,
+                "left": 0,
+                "right": 0,
+                "reachable": true
+              }
+            ],
+            "errors": [],
+            "passed": true
+          }
+        ],
+        "qualification": "Actual private page proof, not final whole-volume SSR/online acceptance."
+      },
+      "privateOriginalPageReviewSha256": "0c944f017db12bbd1cb8dd57160dd89fad46987c24fbea2276deb6422217df6b",
+      "privateOriginalPageReviewLocator": "private-snapshot:volume4a/verified/023.json"
+    }
+  ],
+  "qualification": "Only these3pages; model source comparison and qualified primary/numeric evidence. Full83576word-cube count not independently enumerated; literary Havel wording preserved as recorded. No whole-volume acceptance."
+}
