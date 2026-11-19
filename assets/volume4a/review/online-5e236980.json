@@ -1,0 +1,640 @@
+{
+  "schemaVersion": 1,
+  "volume": "volume4a",
+  "commit": "5e2369806658b0876886404dc4a050fb447e93a8",
+  "masterSha256": "bb25d9dbb1d0252e5309b3e48cd50a890ff5673ec609a08d76618432207399f1",
+  "status": "passed",
+  "scope": "Actual public Pages acceptance after the exact commit Actions build and deploy succeeded. Whole archive equality is payload-based, not ZIP container metadata.",
+  "actions": {
+    "conclusion": "success",
+    "databaseId": 44633578395,
+    "headSha": "5e2369806658b0876886404dc4a050fb447e93a8",
+    "jobs": [
+      {
+        "completedAt": "2026-11-19T23:09:57Z",
+        "conclusion": "success",
+        "databaseId": 135946297379,
+        "name": "build",
+        "startedAt": "2026-11-19T22:59:02Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-19T22:59:04Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-19T22:59:02Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:59:08Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v4",
+            "number": 2,
+            "startedAt": "2026-11-19T22:59:04Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:59:09Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v4",
+            "number": 3,
+            "startedAt": "2026-11-19T22:59:08Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:59:10Z",
+            "conclusion": "success",
+            "name": "Run actions/configure-pages@v5",
+            "number": 4,
+            "startedAt": "2026-11-19T22:59:09Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T22:59:14Z",
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 5,
+            "startedAt": "2026-11-19T22:59:10Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T23:09:40Z",
+            "conclusion": "success",
+            "name": "Run npm run docs:build",
+            "number": 6,
+            "startedAt": "2026-11-19T22:59:14Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T23:09:54Z",
+            "conclusion": "success",
+            "name": "Run actions/upload-pages-artifact@v3",
+            "number": 7,
+            "startedAt": "2026-11-19T23:09:40Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T23:09:55Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v4",
+            "number": 13,
+            "startedAt": "2026-11-19T23:09:54Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T23:09:55Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v4",
+            "number": 14,
+            "startedAt": "2026-11-19T23:09:55Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T23:09:55Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 15,
+            "startedAt": "2026-11-19T23:09:55Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/qixiaoz/taocp-zh/actions/runs/44633578395/job/135946297379"
+      },
+      {
+        "completedAt": "2026-11-19T23:10:18Z",
+        "conclusion": "success",
+        "databaseId": 135951988733,
+        "name": "deploy",
+        "startedAt": "2026-11-19T23:10:01Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-19T23:10:03Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-19T23:10:02Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T23:10:16Z",
+            "conclusion": "success",
+            "name": "Deploy",
+            "number": 2,
+            "startedAt": "2026-11-19T23:10:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-19T23:10:16Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-11-19T23:10:16Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/qixiaoz/taocp-zh/actions/runs/44633578395/job/135951988733"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/qixiaoz/taocp-zh/actions/runs/44633578395"
+  },
+  "actualOnlineBrowser": {
+    "mode": "full",
+    "scope": "Actual browser selected desktop/mobile routed pages, index, search, original image and complete four-volume archive byte comparison",
+    "base": "https://qixiaoz.github.io/taocp-zh",
+    "version": "5e2369806658b0876886404dc4a050fb447e93a8",
+    "masterSha256": "bb25d9dbb1d0252e5309b3e48cd50a890ff5673ec609a08d76618432207399f1",
+    "status": "captured-passing-awaiting-model-pixel-review",
+    "rows": [
+      {
+        "kind": "page",
+        "width": 1440,
+        "route": "/volume4a/frontmatter",
+        "status": 200,
+        "expectedMath": 200,
+        "math": 200,
+        "katexErrors": 0,
+        "viewport": 1440,
+        "pageWidth": 1440,
+        "brand": "计算机程序设计艺术",
+        "forbiddenNavigation": [],
+        "screenshot": "volume4a__frontmatter-1440.png",
+        "screenshotSha256": "7b2f0ce1d1563eba53735505154f61f27206f0e91ddf8749ff0e1c594f4cd97d",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "width": 1440,
+        "route": "/volume4a/sec-7-1-1",
+        "status": 200,
+        "expectedMath": 2504,
+        "math": 2504,
+        "katexErrors": 0,
+        "viewport": 1440,
+        "pageWidth": 1440,
+        "brand": "计算机程序设计艺术",
+        "forbiddenNavigation": [],
+        "screenshot": "volume4a__sec-7-1-1-1440.png",
+        "screenshotSha256": "90d579dbe11f60126586645dc486e8c46d40eaead184caf92efd0a3d78311710",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "width": 1440,
+        "route": "/volume4a/sec-7-1-3",
+        "status": 200,
+        "expectedMath": 3139,
+        "math": 3139,
+        "katexErrors": 0,
+        "viewport": 1440,
+        "pageWidth": 1440,
+        "brand": "计算机程序设计艺术",
+        "forbiddenNavigation": [],
+        "screenshot": "volume4a__sec-7-1-3-1440.png",
+        "screenshotSha256": "dbf1ddd41efb6f210d43674b8093a2088b18c59244d652d2473963845a2c82b4",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "width": 1440,
+        "route": "/volume4a/sec-7-2-1-6",
+        "status": 200,
+        "expectedMath": 1963,
+        "math": 1963,
+        "katexErrors": 0,
+        "viewport": 1440,
+        "pageWidth": 1440,
+        "brand": "计算机程序设计艺术",
+        "forbiddenNavigation": [],
+        "screenshot": "volume4a__sec-7-2-1-6-1440.png",
+        "screenshotSha256": "e1624291f69d149d0dbf3cac6ac6ba0c6cd53869f5fb814996ce72971d61fea2",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "width": 1440,
+        "route": "/volume4a/answers/7-2-1-6",
+        "status": 200,
+        "expectedMath": 2082,
+        "math": 2082,
+        "katexErrors": 0,
+        "viewport": 1440,
+        "pageWidth": 1440,
+        "brand": "计算机程序设计艺术",
+        "forbiddenNavigation": [],
+        "screenshot": "volume4a__answers__7-2-1-6-1440.png",
+        "screenshotSha256": "b9cc111f6896a2d4715f0bdba5bba8d555b6b81eb21d2793878b38079dbd0a76",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "width": 1440,
+        "route": "/volume4a/sec-app-b",
+        "status": 200,
+        "expectedMath": 428,
+        "math": 428,
+        "katexErrors": 0,
+        "viewport": 1440,
+        "pageWidth": 1440,
+        "brand": "计算机程序设计艺术",
+        "forbiddenNavigation": [],
+        "screenshot": "volume4a__sec-app-b-1440.png",
+        "screenshotSha256": "c2e8772271f6d4cf422f6db9c456f804866932fbf2610ee5fed7c308cf27896f",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "width": 1440,
+        "route": "/volume4a/sec-index",
+        "status": 200,
+        "expectedMath": 144,
+        "math": 144,
+        "katexErrors": 0,
+        "viewport": 1440,
+        "pageWidth": 1440,
+        "brand": "计算机程序设计艺术",
+        "forbiddenNavigation": [],
+        "screenshot": "volume4a__sec-index-1440.png",
+        "screenshotSha256": "9e7af5071652f7e54c84ecbc67fe5ca018b0da3e719ba49d70fb76720ff0e2e6",
+        "passed": true
+      },
+      {
+        "kind": "index-click",
+        "width": 1440,
+        "anchor": "p-368",
+        "top": 134.25,
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "width": 390,
+        "route": "/volume4a/frontmatter",
+        "status": 200,
+        "expectedMath": 200,
+        "math": 200,
+        "katexErrors": 0,
+        "viewport": 390,
+        "pageWidth": 390,
+        "brand": "计算机程序设计艺术",
+        "forbiddenNavigation": [],
+        "screenshot": "volume4a__frontmatter-390.png",
+        "screenshotSha256": "2f1a12b54623132594138476977f424d2b04e55af0029a08dfb3b8995077cedf",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "width": 390,
+        "route": "/volume4a/sec-7-1-1",
+        "status": 200,
+        "expectedMath": 2504,
+        "math": 2504,
+        "katexErrors": 0,
+        "viewport": 390,
+        "pageWidth": 390,
+        "brand": "计算机程序设计艺术",
+        "forbiddenNavigation": [],
+        "screenshot": "volume4a__sec-7-1-1-390.png",
+        "screenshotSha256": "d42f0a6274a23c88c910a2bcdd337690801e9a7031c2404e26a66afb6f416660",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "width": 390,
+        "route": "/volume4a/sec-7-1-3",
+        "status": 200,
+        "expectedMath": 3139,
+        "math": 3139,
+        "katexErrors": 0,
+        "viewport": 390,
+        "pageWidth": 390,
+        "brand": "计算机程序设计艺术",
+        "forbiddenNavigation": [],
+        "screenshot": "volume4a__sec-7-1-3-390.png",
+        "screenshotSha256": "473f5e66ee83d49eaf832b27c44491aa600429eda60d1422d3c995d86cb9f7f3",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "width": 390,
+        "route": "/volume4a/sec-7-2-1-6",
+        "status": 200,
+        "expectedMath": 1963,
+        "math": 1963,
+        "katexErrors": 0,
+        "viewport": 390,
+        "pageWidth": 390,
+        "brand": "计算机程序设计艺术",
+        "forbiddenNavigation": [],
+        "screenshot": "volume4a__sec-7-2-1-6-390.png",
+        "screenshotSha256": "8a635a3bb2ff85a9699ad8b56bba532da5c63fda21c8de76dc9309a0659f1f0e",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "width": 390,
+        "route": "/volume4a/answers/7-2-1-6",
+        "status": 200,
+        "expectedMath": 2082,
+        "math": 2082,
+        "katexErrors": 0,
+        "viewport": 390,
+        "pageWidth": 390,
+        "brand": "计算机程序设计艺术",
+        "forbiddenNavigation": [],
+        "screenshot": "volume4a__answers__7-2-1-6-390.png",
+        "screenshotSha256": "55fca1b8c3bf60eb90eacab334393d0780eabda392935d40c94bdaaf8a7b5ab4",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "width": 390,
+        "route": "/volume4a/sec-app-b",
+        "status": 200,
+        "expectedMath": 428,
+        "math": 428,
+        "katexErrors": 0,
+        "viewport": 390,
+        "pageWidth": 390,
+        "brand": "计算机程序设计艺术",
+        "forbiddenNavigation": [],
+        "screenshot": "volume4a__sec-app-b-390.png",
+        "screenshotSha256": "7d52d864b56f04d12f913108cd1ccb6bbabd9f4165504902d1247df9b187a030",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "width": 390,
+        "route": "/volume4a/sec-index",
+        "status": 200,
+        "expectedMath": 144,
+        "math": 144,
+        "katexErrors": 0,
+        "viewport": 390,
+        "pageWidth": 390,
+        "brand": "计算机程序设计艺术",
+        "forbiddenNavigation": [],
+        "screenshot": "volume4a__sec-index-390.png",
+        "screenshotSha256": "c57d93f2f6de2ada0d04c534574b2d0e34cc60912590c56f168bd88600a3154e",
+        "passed": true
+      },
+      {
+        "kind": "index-click",
+        "width": 390,
+        "anchor": "p-368",
+        "top": 133.859375,
+        "passed": true
+      },
+      {
+        "kind": "Chinese-search",
+        "query": "布尔代数",
+        "results": [
+          {
+            "text": "#7.1.1 布尔代数基础",
+            "href": "/taocp-zh/volume4a/sec-7-1-1.html#_7-1-1-布尔代数基础"
+          },
+          {
+            "text": "#7.1.2 布尔函数求值",
+            "href": "/taocp-zh/volume4a/sec-7-1-2.html#_7-1-2-布尔函数求值"
+          },
+          {
+            "text": "#7.1.1 布尔代数基础习题",
+            "href": "/taocp-zh/volume4a/sec-7-1-1.html#习题"
+          },
+          {
+            "text": "#7.2.1.7 历史与扩展文献",
+            "href": "/taocp-zh/volume4a/sec-7-2-1-7.html#_7-2-1-7-历史与扩展文献"
+          },
+          {
+            "text": "#索引",
+            "href": "/taocp-zh/volume2/sec-index.html#索引"
+          },
+          {
+            "text": "#索引",
+            "href": "/taocp-zh/volume4a/sec-index.html#索引"
+          },
+          {
+            "text": "#7.1.4 节",
+            "href": "/taocp-zh/volume4a/answers/7-1-4.html#_7-1-4-节"
+          },
+          {
+            "text": "#4.6 多项式算术",
+            "href": "/taocp-zh/volume2/sec-4-6.html#_4-6-多项式算术"
+          },
+          {
+            "text": "#7.1.4 二元决策图",
+            "href": "/taocp-zh/volume4a/sec-7-1-4.html#_7-1-4-二元决策图"
+          },
+          {
+            "text": "#4.6.3 幂的计算",
+            "href": "/taocp-zh/volume2/sec-4-6-3.html#_4-6-3-幂的计算"
+          },
+          {
+            "text": "#7.1.4 二元决策图习题",
+            "href": "/taocp-zh/volume4a/sec-7-1-4.html#习题"
+          },
+          {
+            "text": "#4.6.1 多项式除法",
+            "href": "/taocp-zh/volume2/sec-4-6-1.html#_4-6-1-多项式除法"
+          },
+          {
+            "text": "#索引",
+            "href": "/taocp-zh/volume3/sec-index.html#索引"
+          },
+          {
+            "text": "#全卷目录",
+            "href": "/taocp-zh/volume4a/#全卷目录"
+          },
+          {
+            "text": "#计算机程序设计艺术 卷 4A：组合算法（一）目录",
+            "href": "/taocp-zh/volume4a/frontmatter.html#目录"
+          },
+          {
+            "text": "#第 7 章 组合查找",
+            "href": "/taocp-zh/volume4a/sec-7.html#第-7-章-组合查找"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "kind": "original-image-click-and-bytes",
+        "href": "../linked-assets/volume4a/figures/frontispiece-hommage-a-bach.png",
+        "status": 200,
+        "sha256": "699ddc87b9e0a06ae53e1020a1bc111f043b54e5d3f147e05a2b515c38837999",
+        "bytesEqual": true,
+        "loaded": true,
+        "passed": true
+      },
+      {
+        "kind": "existing-volume",
+        "route": "/volume1/sec-1-2-6.html",
+        "status": 200,
+        "passed": true
+      },
+      {
+        "kind": "existing-volume",
+        "route": "/volume2/sec-4-2-2.html",
+        "status": 200,
+        "passed": true
+      },
+      {
+        "kind": "existing-volume",
+        "route": "/volume3/sec-5-4-6.html",
+        "status": 200,
+        "passed": true
+      }
+    ],
+    "archives": [
+      {
+        "volume": "volume1",
+        "url": "https://qixiaoz.github.io/taocp-zh/downloads/taocp-volume1.zip?v=5e2369806658b0876886404dc4a050fb447e93a8",
+        "status": 200,
+        "bytes": 14972564,
+        "entries": 268,
+        "masterSha256": "ff31566c52de1643b13d8461c49a9b946bd379885aaa0a6fa762ebc7ab995da5",
+        "reportSha256": "bb4a7994d11e149d74930d05dd9fbd5868463b6a3d55e4d4fa757f520ad5610b",
+        "assetsCompared": 265,
+        "allPayloadsByteEqual": true
+      },
+      {
+        "volume": "volume2",
+        "url": "https://qixiaoz.github.io/taocp-zh/downloads/taocp-volume2.zip?v=5e2369806658b0876886404dc4a050fb447e93a8",
+        "status": 200,
+        "bytes": 6033044,
+        "entries": 806,
+        "masterSha256": "c8ec35b2d7d5fdcc32c8059dd7197227f387a443b96eea49b61af8e2fcfca163",
+        "reportSha256": "a5bff3ee08512414ebe7291d336b1483c3a86100dd423d57080d73d4f696a124",
+        "assetsCompared": 803,
+        "allPayloadsByteEqual": true
+      },
+      {
+        "volume": "volume3",
+        "url": "https://qixiaoz.github.io/taocp-zh/downloads/taocp-volume3.zip?v=5e2369806658b0876886404dc4a050fb447e93a8",
+        "status": 200,
+        "bytes": 11604588,
+        "entries": 709,
+        "masterSha256": "ff100229d58ca6fafd4b938e81ec558098ad2a9a0c410701b2eeb74aeab0b814",
+        "reportSha256": "19470618dba3a81bd2ebf1d3f1a0f334c85b4972bbf3fb7eb43d1bc480dd606e",
+        "assetsCompared": 706,
+        "allPayloadsByteEqual": true
+      },
+      {
+        "volume": "volume4a",
+        "url": "https://qixiaoz.github.io/taocp-zh/downloads/taocp-volume4a.zip?v=5e2369806658b0876886404dc4a050fb447e93a8",
+        "status": 200,
+        "bytes": 10534534,
+        "entries": 1243,
+        "masterSha256": "bb25d9dbb1d0252e5309b3e48cd50a890ff5673ec609a08d76618432207399f1",
+        "reportSha256": "b60fab9cdedcf220890a48c3b8f72f9900953668da19254e981dab8a13df7f1b",
+        "assetsCompared": 1240,
+        "allPayloadsByteEqual": true
+      }
+    ],
+    "errors": [],
+    "consoleWarnings": [],
+    "browserAuxiliaryDiagnostics": [],
+    "failedResources": [],
+    "failure": null
+  },
+  "actualSelectedPixelReview": {
+    "schemaVersion": 1,
+    "passed": true,
+    "reviewerType": "modelactualimage",
+    "model": "gpt-6.2-sol",
+    "reasoningEffort": "ultra",
+    "commit": "5e2369806658b0876886404dc4a050fb447e93a8",
+    "masterSha256": "bb25d9dbb1d0252e5309b3e48cd50a890ff5673ec609a08d76618432207399f1",
+    "rawResultSha256": "356a138bc19e8978fb170bdb40d348d28429df1ebd4d7db20b501b54460a33ec",
+    "actionsRun": 44633578395,
+    "widths": [
+      1440,
+      390
+    ],
+    "routes": [
+      "/volume4a/frontmatter",
+      "/volume4a/sec-7-2-1-6",
+      "/volume4a/sec-app-b",
+      "/volume4a/sec-index"
+    ],
+    "contacts": [
+      {
+        "route": "/volume4a/frontmatter",
+        "filename": "contact-frontmatter-1440-390.png",
+        "sha256": "5b5421dfd1de34af0b0b46782fa4219ca793611107f11cdfc654049c00113dd3",
+        "screenshots": [
+          {
+            "width": 1440,
+            "filename": "volume4a__frontmatter-1440.png",
+            "sha256": "7b2f0ce1d1563eba53735505154f61f27206f0e91ddf8749ff0e1c594f4cd97d"
+          },
+          {
+            "width": 390,
+            "filename": "volume4a__frontmatter-390.png",
+            "sha256": "2f1a12b54623132594138476977f424d2b04e55af0029a08dfb3b8995077cedf"
+          }
+        ],
+        "observation": "两宽导航品牌九字同为一行。桌面卷前标题、卷别、正文两侧导航和前言完整，手机标题两行自然折行，前言正文和入口位于可读区域。"
+      },
+      {
+        "route": "/volume4a/sec-7-2-1-6",
+        "filename": "contact-sec-7-2-1-6-1440-390.png",
+        "sha256": "e13a0c2f8120bc084db4d24b3815316351df1028ef9c9eb57e4c0fd1070ed2a5",
+        "screenshots": [
+          {
+            "width": 1440,
+            "filename": "volume4a__sec-7-2-1-6-1440.png",
+            "sha256": "e1624291f69d149d0dbf3cac6ac6ba0c6cd53869f5fb814996ce72971d61fea2"
+          },
+          {
+            "width": 390,
+            "filename": "volume4a__sec-7-2-1-6-390.png",
+            "sha256": "8a635a3bb2ff85a9699ad8b56bba532da5c63fda21c8de76dc9309a0659f1f0e"
+          }
+        ],
+        "observation": "桌面章节目录编号与标题分列，7.2.1.6突出显示，7.2.1.5长标题在标题列换行。手机章节目录与本页目录入口可见。树的括号配对插图两宽皆见完整的号位、灰线及左右端，正文式号(1)可读。"
+      },
+      {
+        "route": "/volume4a/sec-app-b",
+        "filename": "contact-sec-app-b-1440-390.png",
+        "sha256": "9c3a37911033deb7c7bb2ce3516b19899f6b150e5114ffec17a746812d71657d",
+        "screenshots": [
+          {
+            "width": 1440,
+            "filename": "volume4a__sec-app-b-1440.png",
+            "sha256": "c2e8772271f6d4cf422f6db9c456f804866932fbf2610ee5fed7c308cf27896f"
+          },
+          {
+            "width": 390,
+            "filename": "volume4a__sec-app-b-390.png",
+            "sha256": "7d52d864b56f04d12f913108cd1ccb6bbabd9f4165504902d1247df9b187a030"
+          }
+        ],
+        "observation": "两宽首屏表头、可见表体的斜体／花体符号及文字未见横向裁切。截图显示附录B开头两列表，不作完整160行连续表的线上视觉结论。"
+      },
+      {
+        "route": "/volume4a/sec-index",
+        "filename": "contact-sec-index-1440-390.png",
+        "sha256": "cc64959a5a683924f50eb22a6512ad18083a15477158caf51378d79aab25d6b4",
+        "screenshots": [
+          {
+            "width": 1440,
+            "filename": "volume4a__sec-index-1440.png",
+            "sha256": "9e7af5071652f7e54c84ecbc67fe5ca018b0da3e719ba49d70fb76720ff0e2e6"
+          },
+          {
+            "width": 390,
+            "filename": "volume4a__sec-index-390.png",
+            "sha256": "c57d93f2f6de2ada0d04c534574b2d0e34cc60912590c56f168bd88600a3154e"
+          }
+        ],
+        "observation": "两宽索引首屏字母、希腊符号、上下标和页码均可读。手机数字链接自然换行，未见横向裁切。"
+      }
+    ],
+    "scope": "已直接查看4条线上路由两宽的8个首屏。合图使用原始像素，无裁切、缩放或重绘。其余6张仅核现有SHA。另由原浏览器记录证明实际原图点击、索引及搜索操作，4个线上ZIP均比对解压内容。此像素结论只覆盖所列8个首屏。",
+    "rawBrowserRowsPassed": 21,
+    "rawArchivePayloadComparisonsPassed": 4
+  },
+  "rawOnlineResultSha256": "356a138bc19e8978fb170bdb40d348d28429df1ebd4d7db20b501b54460a33ec",
+  "qualification": "This record describes the named deployed release before this evidence and its report closure were added. The later metadata-only publication has separate private checks, without relabeling these historical payload hashes."
+}
