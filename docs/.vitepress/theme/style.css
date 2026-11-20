@@ -230,26 +230,47 @@ html.dark {
   max-width: none;
 }
 
+.vp-doc .book-math {
+  /* Keep KaTeX's 2px baseline cell and accent overhang inside the scroll box.
+     Offset the extra space at the edges to preserve the formula's layout. */
+  --book-math-edge-space: max(2px, 0.34em);
+}
+
 .vp-doc .book-math-inline {
   display: inline-block;
-  max-width: 100%;
+  max-width: calc(100% + var(--book-math-edge-space));
   overflow-x: auto;
   overflow-y: hidden;
   vertical-align: middle;
   padding-block: 0.12em;
+  padding-inline-end: var(--book-math-edge-space);
+  margin-inline-end: calc(-1 * var(--book-math-edge-space));
   line-height: normal;
+}
+
+.vp-doc .book-math-display {
+  max-width: none;
+  margin-inline: calc(-1 * var(--book-math-edge-space));
 }
 
 /* A long equation starts at the scroll origin; short equations stay centered. */
 .vp-doc .book-math-display > .katex-display {
+  box-sizing: border-box;
   width: max-content;
   min-width: 100%;
   margin: 0;
+  padding-inline: var(--book-math-edge-space);
   text-align: center;
 }
 
 .vp-doc .book-math .katex {
   white-space: nowrap;
+}
+
+/* A KaTeX vertical phantom contributes height but has no visible width. */
+.vp-doc .book-math .katex-html .rlap > .katex-inner:has(> [style='color:transparent;']:only-child) {
+  max-inline-size: 0;
+  overflow: clip;
 }
 
 /* KaTeX positions equation numbers absolutely inside katex-html. Include
