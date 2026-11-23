@@ -17,7 +17,8 @@ export const volumes = [
       math: 'assets/review/完整公式语法检查.json',
       numbered: 'assets/review/编号项逐条复核.jsonl',
       figures: 'assets/review/原图与图题索引.json',
-      mathCountNote: 'The earlier Pandoc proof had 12,692 expressions. The website recovers seven expressions with spaces before closing dollars. The two nested-delimiter repairs preserve the count, and both renderers include the HTML table formula. The restored product sign in §1.2.3 exercise 35 adds one expression to each current rendering. Formula fidelity is checked individually.'
+      readerExamples: 'assets/review/reader-typesetting.json',
+      mathCountNote: 'The earlier punctuation edition had 12,700 website expressions and 12,693 in Pandoc. The current source incorporates the delimiter repairs. See the edition-specific typesetting record for changes to formula boundaries and original-page checks.'
     }
   },
   {

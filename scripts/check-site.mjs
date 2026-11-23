@@ -277,7 +277,8 @@ async function checkVolume(volume, manifest, navigation) {
     for (const id of ids(original)) check(navigation.anchorRoutes[id] === page.route, 'wrong-anchor-route', { ...ctx, id });
     const originalWithoutNotes = extractFootnotes(original).body;
     const generated = extractFootnotes(stripFrontmatter(markdown));
-    const refs = [...new Set([...originalWithoutNotes.matchAll(/\[\^([^\]]+)\](?!:)/g)].map(m => m[1]))];
+    const references = [...originalWithoutNotes.matchAll(/\[\^([^\]\n]+)\]/g)].map(m => m[1]);
+    const refs = [...new Set(references)];
     equalList(refs, [...generated.notes.keys()], 'footnote-distribution-changed', ctx);
     for (const [id, value] of generated.notes) check(compact(value) === compact(globalFootnotes.get(id) ?? ''), 'footnote-text-changed', { ...ctx, id });
     let comparable = generated.body;
@@ -290,7 +291,7 @@ async function checkVolume(volume, manifest, navigation) {
     equalList(sourceRender.formulas.map(mathKey), expected.formulas.map(mathKey), 'formula-changed-during-split', ctx);
     equalSequence(sourceRender.code, expected.code, 'code-content-changed-during-split', ctx);
     expectedMathAll.push(...expected.formulas); sourceMathAll.push(...sourceRender.formulas);
-    const data = { ...page, markdown, file, expected, originalIds: ids(original), footnoteRefs: [...originalWithoutNotes.matchAll(/\[\^([^\]]+)\](?!:)/g)].length };
+    const data = { ...page, markdown, file, expected, originalIds: ids(original), footnoteRefs: references.length };
     generatedPages.push(data);
     report.pages.push({ route: page.route, sourceRange: range, explicitIds: ids(original).length, formulas: expected.formulas.length, images: expected.images.length, sourceTextPreserved: a === b });
   }
@@ -387,6 +388,8 @@ async function checkVolume(volume, manifest, navigation) {
   let annotationWhitespaceCondensed = 0;
   const pageByHtml = new Map(generatedPages.map(p => [p.route.slice(1) + '.html', p]));
   pageByHtml.set(volume.reportRoute.slice(1) + '.html', reportPage);
+  const examples = volume.evidence.readerExamples ? (await json(volume.evidence.readerExamples)).renderedExamples : [];
+  const checkedExamples = new Set();
   const builtZipFile = path.join(dist, 'downloads', volume.zipName);
   const builtZipData = await fs.readFile(builtZipFile);
   check(builtZipData.equals(zipData) && hash(builtZipData) === manifest.download.sha256, 'built-download-bytes-changed', { file: rel(builtZipFile) });
@@ -446,6 +449,25 @@ async function checkVolume(volume, manifest, navigation) {
     const page = pageByHtml.get(name);
     if (!page) continue;
     check(scope.length === 1, 'missing-book-content-container', { file: name });
+    // These original-page examples catch a missing math span even when the
+    // website faithfully renders the same transcription error as the master.
+    for (const example of examples.filter(row => row.route === page.route)) {
+      checkedExamples.add(example);
+      const paragraph = scope.find('p').filter((_, el) => $(el).text().includes(example.paragraph));
+      const context = { file: name, printedPage: example.printedPage, paragraph: example.paragraph };
+      check(paragraph.length === 1, 'reader-example-paragraph', context);
+      const math = paragraph.find('.book-math-inline').toArray().map(el => $(el).attr('data-tex').replace(/\s+/g, ''));
+      let start = 0;
+      for (const tex of example.mathInOrder) {
+        const found = math.indexOf(tex.replace(/\s+/g, ''), start);
+        check(found >= start, 'reader-example-inline-math', { ...context, tex });
+        if (found >= start) start = found + 1;
+      }
+      if (example.exactMathCount !== undefined) check(math.length === example.exactMathCount, 'reader-example-formula-count', context);
+      const prose = paragraph.clone();
+      prose.find('.book-math').remove();
+      for (const text of example.plain) check(prose.text().includes(text), 'reader-example-plain-text', { ...context, text });
+    }
     const contentIds = scope.find('[id]').toArray().map(el => $(el).attr('id'));
     for (const id of page.originalIds) check(contentIds.includes(id), 'missing-built-source-anchor', { file: name, id });
     equalSequence(page.originalIds, contentIds.filter(id => (page.isReport ? page.originalIds : originalIds).includes(id)), 'built-source-anchor-order-changed', { file: name });
@@ -515,6 +537,8 @@ async function checkVolume(volume, manifest, navigation) {
   }
   for (const page of generatedPages) check(htmlPages.has(page.route.slice(1) + '.html'), 'missing-built-book-page', { route: page.route });
   check(htmlPages.has(volume.reportRoute.slice(1) + '.html'), 'missing-built-report-page', { route: volume.reportRoute });
+  check(checkedExamples.size === examples.length, 'reader-example-route-missing', { expected: examples.length, visited: checkedExamples.size });
+  if (examples.length) report.checks.originalPageReaderExamples = checkedExamples.size;
   for (const link of links) {
     const target = resolveBuilt(link.href, link.from);
     if (!target) continue;

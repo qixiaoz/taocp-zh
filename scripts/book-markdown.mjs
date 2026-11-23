@@ -2,7 +2,7 @@ import { load } from 'cheerio';
 import katex from 'katex';
 import { reserveBookImageSpace } from './book-images.mjs';
 
-// These two source expressions contain nested Markdown delimiters. Their TeX
+// Two expressions in earlier editions contain nested Markdown delimiters. Their TeX
 // content is retained while the website gets one delimiter pair per expression.
 const nestedDelimiters = [
   ['$T _ { $n$ }$', '$T _ { n }$'],
@@ -17,7 +17,7 @@ export function normalizeMathSyntax(source) {
     for (const [original, corrected] of nestedDelimiters) {
       result = result.replaceAll(original, corrected);
     }
-    // The master has seven unambiguous TeX expressions with a space immediately
+    // Earlier editions had seven unambiguous TeX expressions with a space immediately
     // before the closing dollar. This is presentation-only whitespace.
     return result.replace(
       /(?<![\\$])\$(?!\$)([^$\n]*\\[A-Za-z][^$\n]*?[^\s$])[ \t]+\$(?!\$)/g,

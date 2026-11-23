@@ -174,7 +174,8 @@ for (const page of pages) {
     anchorRoutes[page.anchor] = page.route;
     page.anchors.push(page.anchor);
   }
-  const refs = [...new Set([...page.raw.matchAll(/\[\^([^\]]+)\](?!:)/g)].map(x => x[1]))];
+  // All definitions have been extracted. A reference in prose can be followed by a colon.
+  const refs = [...new Set([...page.raw.matchAll(/\[\^([^\]\n]+)\]/g)].map(x => x[1]))];
   page.footnotes = refs;
   for (const key of refs) {
     assert(footnotes.has(key), `Missing definition of ${key} in ${page.route}`);
