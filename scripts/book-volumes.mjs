@@ -17,7 +17,7 @@ export const volumes = [
       math: 'assets/review/完整公式语法检查.json',
       numbered: 'assets/review/编号项逐条复核.jsonl',
       figures: 'assets/review/原图与图题索引.json',
-      mathCountNote: 'The editorial count used Pandoc. The website fixes seven space-before-closing-dollar expressions and two nested-delimiter expressions without changing their non-delimiter contents. Seven recovered formulas explain the net increase; the HTML table formula is counted in both totals. Every formula is compared individually, rather than relying on the count.'
+      mathCountNote: 'The earlier Pandoc proof had 12,692 expressions. The website recovers seven expressions with spaces before closing dollars. The two nested-delimiter repairs preserve the count, and both renderers include the HTML table formula. The restored product sign in §1.2.3 exercise 35 adds one expression to each current rendering. Formula fidelity is checked individually.'
     }
   },
   {

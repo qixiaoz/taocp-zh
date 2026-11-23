@@ -76,6 +76,8 @@ export default defineConfig({
     lineNumbers: false,
     languageAlias: { mixal: 'text', fortran: 'text' },
     config(md) {
+      // In technical prose, punctuation next to a label is literal text.
+      md.core.ruler.disable('emoji')
       md.use(footnote)
       installBookMarkdown(md, { literalMath: true })
     }

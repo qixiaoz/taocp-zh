@@ -212,6 +212,13 @@ async function checkVolume(volume, manifest, navigation) {
     captured = [];
     const env = { path: file, relativePath: path.relative(DOCS, file) };
     const tokens = md.parse(stripFrontmatter(raw), env);
+    for (const token of tokens) {
+      for (const inline of token.children ?? []) {
+        if (inline.type === 'emoji') fail('automatic-emoji-in-book', {
+          file: rel(file), line: token.map ? token.map[0] + 1 : null, content: inline.content
+        });
+      }
+    }
     const html = md.renderer.render(tokens, md.options, env);
     const $ = load(html);
     // Production Vue SSR expands only these JSON string literals. Restore the

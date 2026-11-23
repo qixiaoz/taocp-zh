@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "scope": "Targeted visual verification of two Chinese source pages and English corresponding passages, not a complete new review of the volume.",
+  "sourceFile": "计算机程序设计艺术·卷1·基本算法.md",
+  "beforeSourceSha256": "ff31566c52de1643b13d8461c49a9b946bd379885aaa0a6fa762ebc7ab995da5",
+  "sourceSha256": "92e5ca1de2477211e58222025c416a6237df9e5d081578364322ef536d5a0832",
+  "chinesePrintedPages": [
+    23,
+    29
+  ],
+  "chinesePhysicalPages": [
+    40,
+    46
+  ],
+  "changes": [
+    {
+      "sourceLine": 1281,
+      "location": "关系说明",
+      "cnPdfPage": 40,
+      "cnPrintedPage": 23,
+      "enPdfPages": [
+        51,
+        52
+      ],
+      "before": "其中 $S^{\\prime}(j)$ 是关系“存在整数$i$使得 $R ( i )$ 和 $S ( i , j )$ 同时为真”，而 $R^{\\prime}(i,j)$ 是关系 ${ } ^ { \\alpha } \\bar { R } ( i )$ 与$S(i,j)$ 同时为真”.例如，如果求和是 $\\textstyle \\sum _ { i = 1 } ^ { n } \\sum _ { j = 1 } ^ { i } a _ { i j }$ ，那么 $S ^ { \\prime } ( j )$ 是关系“存在整数$i$使得$1 \\leq i \\leq n$ 且 $1\\le j\\le i\\text{”}$ ，也就是 $1 \\leq j \\leq n$ ；而 $R^{\\prime}(i,j)$ 是关系 $\\text{“}1\\le i\\le n$ 且 $1 \\leq j \\leq i$ ，也就是 $j \\leq i \\leq n .$ 因此，",
+      "after": "其中 $S^{\\prime}(j)$ 是关系“存在整数 $i$ 使得 $R(i)$ 和 $S(i,j)$ 同时为真”，而 $R^{\\prime}(i,j)$ 是关系“$R(i)$ 与 $S(i,j)$ 同时为真”。例如，如果求和是 $\\textstyle \\sum_{i=1}^{n} \\sum_{j=1}^{i} a_{ij}$，那么 $S^{\\prime}(j)$ 是关系“存在整数 $i$ 使得 $1\\leq i\\leq n$ 且 $1\\leq j\\leq i$”，也就是 $1\\leq j\\leq n$；而 $R^{\\prime}(i,j)$ 是关系“$1\\leq i\\leq n$ 且 $1\\leq j\\leq i$”，也就是 $j\\leq i\\leq n$。因此，"
+    },
+    {
+      "sourceLine": 1288,
+      "location": "注记",
+      "cnPdfPage": 40,
+      "cnPrintedPage": 23,
+      "enPdfPages": [
+        51,
+        52
+      ],
+      "before": "[注记:和($b$)的变量代换一样，交换求和次序的操作对于无穷级数未必是正确的。如果级数绝对收敛，即 $\\textstyle \\sum _ { R ( i ) } \\sum _ { S ( j ) } | a _ { i j } |$ 存在，可以证明式 $( 7 )$ 和(9)成立。此外，如果 $R ( i )$ 和 S($j$) 中的任何一个使式 $( 7 )$ 一侧的和成为有限和，且出现的每个无限和都收敛，那么交换求和次序是正确的。特别地，式(8)对于收敛的无限和总是成立的.]",
+      "after": "［注记：和（$b$）的变量代换一样，交换求和次序的操作对于无穷级数未必是正确的。如果级数绝对收敛，即 $\\textstyle \\sum _ { R ( i ) } \\sum _ { S ( j ) } | a _ { i j } |$ 存在，可以证明式 $( 7 )$ 和 (9) 成立。此外，如果 $R ( i )$ 和 $S(j)$ 中的任何一个使式 $( 7 )$ 一侧的和成为有限和，且出现的每个无限和都收敛，那么交换求和次序是正确的。特别地，式 (8) 对于收敛的无限和总是成立的。］"
+    },
+    {
+      "sourceLine": 1290,
+      "location": "规则（d）",
+      "cnPdfPage": 40,
+      "cnPrintedPage": 23,
+      "enPdfPages": [
+        51,
+        52
+      ],
+      "before": "(d) 处理求和范围。 对于任意关系 $R(j)$ 和 S($j$)，有",
+      "after": "(d) 处理求和范围。对于任意关系 $R(j)$ 和 $S(j)$，有"
+    },
+    {
+      "sourceLine": 1304,
+      "location": "式（12）后的正文",
+      "cnPdfPage": 40,
+      "cnPrintedPage": 23,
+      "enPdfPages": [
+        51,
+        52
+      ],
+      "before": "其中假定 $1 \\leq m \\leq n .$ 本例中， $\\text{\" }R(j)$ 且 $S ( j ) ^ { n }$ 就是 $j = m$ ，所以右边第二个和式化简为 $a _ { m } .$ 在式(11)的多数应用中，或者 $j$ 只有一两个取值能同时满足 $R(j)$ 和 S($j$)，或者 $R(j)$ 和 $S(j)$ 不可能同时为真。如果是后面一种情况，等式(11)右端就没有第二项和了。",
+      "after": "其中假定 $1 \\leq m \\leq n$。本例中，“$R(j)$ 且 $S(j)$”就是 $j=m$，所以右边第二个和式化简为 $a_m$。在式 (11) 的多数应用中，或者 $j$ 只有一两个取值能同时满足 $R(j)$ 和 $S(j)$，或者 $R(j)$ 和 $S(j)$ 不可能同时为真。如果是后面一种情况，等式 (11) 右端就没有第二项和了。"
+    },
+    {
+      "sourceLine": 1626,
+      "location": "题 35",
+      "cnPdfPage": 46,
+      "cnPrintedPage": 29,
+      "enPdfPages": [
+        59
+      ],
+      "before": "35\\. [HM20] <a id=\"ex-1-2-3-35\"></a>[答案](#ans-1-2-3-35) 记号 $\\operatorname { s u p } _ { R ( j ) } a _ { j }$ 表示满足 $R ( j )$ 的元素 $a _ { j }$ 的最小上界(上确界)，其用法完全类似于 $\\sum$ 记号和Ⅱ记号.(当仅有有限多个$j$满足 $R ( j )$ 时，通常用 $\\operatorname { m a x } _ { R ( j ) } a _ { j }$ 表示这个量.）说明如何改变规则($a$)($b$)($c$)(d),使其适用于该记号的处理。特别讨论由规则($a$)类推得到的下述规则:",
+      "after": "35\\. [HM20] <a id=\"ex-1-2-3-35\"></a>[答案](#ans-1-2-3-35) 记号 $\\operatorname { s u p } _ { R ( j ) } a _ { j }$ 表示满足 $R ( j )$ 的元素 $a _ { j }$ 的最小上界（上确界），其用法完全类似于 $\\sum$ 记号和 $\\prod$ 记号。（当仅有有限多个 $j$ 满足 $R ( j )$ 时，通常用 $\\operatorname { m a x } _ { R ( j ) } a _ { j }$ 表示这个量。）说明如何改变规则（$a$）、（$b$）、（$c$）、（d），使其适用于该记号的处理。特别讨论由规则（$a$）类推得到的下述规则："
+    },
+    {
+      "sourceLine": 1636,
+      "location": "行列式与矩阵",
+      "cnPdfPage": 46,
+      "cnPrintedPage": 29,
+      "enPdfPages": [
+        59
+      ],
+      "before": "行列式与矩阵。下面这些有趣的习题是为至少知道行列式、具备初等矩阵论入门知识的读者提供的。要计算行列式的值，就要灵活综合运用下列运算:($a$)提取一行或者一列的公因数(式);($b$)把一行(列)的若干倍加到另一行(列);($c$)按照余子式(cofactor)展开。运算($c$)最简单、最常见的用法是，当行列式左上角的元素为+1而整个第一行或者第一列的其余元素均为0时，直接删除第一行和第一列;然后计算所得的更小的行列式。一般地，在一个 $n \\times n$ 行列式中，元素 $a _ { i j }$ 的余子式是 $( - 1 ) ^ { i + j }$ 乘以删除 $a _ { i j }$ 所在的行和列后得到的 $(n - 1) \\times (n - 1)$ 行列式。行列式的值等于 $\\textstyle \\sum a _ { i j } \\cdot \\operatorname { c o f a c t o r } ( a _ { i j } )$ ，在求和中保持下标$i$或者 $j$ 之一不变，而另一个下标从1变到 $n .$",
+      "after": "行列式与矩阵。下面这些有趣的习题是为至少知道行列式、具备初等矩阵论入门知识的读者提供的。要计算行列式的值，就要灵活综合运用下列运算：（$a$）提取一行或者一列的公因数（式）；（$b$）把一行（列）的若干倍加到另一行（列）；（$c$）按照余子式（cofactor）展开。运算（$c$）最简单、最常见的用法是，当行列式左上角的元素为 +1 而整个第一行或者第一列的其余元素均为 0 时，直接删除第一行和第一列；然后计算所得的更小的行列式。一般地，在一个 $n \\times n$ 行列式中，元素 $a _ { i j }$ 的余子式是 $( - 1 ) ^ { i + j }$ 乘以删除 $a _ { i j }$ 所在的行和列后得到的 $(n - 1) \\times (n - 1)$ 行列式。行列式的值等于 $\\textstyle \\sum a _ { i j } \\cdot \\operatorname { c o f a c t o r } ( a _ { i j } )$，在求和中保持下标 $i$ 或者 $j$ 之一不变，而另一个下标从 1 变到 $n$。"
+    },
+    {
+      "sourceLine": 1638,
+      "location": "逆矩阵后的正文",
+      "cnPdfPage": 46,
+      "cnPrintedPage": 29,
+      "enPdfPages": [
+        59
+      ],
+      "before": "如果矩阵 $\\left( b_{ij} \\right)$ 是矩阵 $\\left( a _ { i j } \\right)$ 的逆矩阵，那么 $b _ { i j }$ 等于 $a _ { j i }$ (不是 $a_{ij})$ 的余子式除以整个矩阵的行列式。下面的几类矩阵特别重要:",
+      "after": "如果矩阵 $\\left( b_{ij} \\right)$ 是矩阵 $\\left( a _ { i j } \\right)$ 的逆矩阵，那么 $b _ { i j }$ 等于 $a _ { j i }$（不是 $a_{ij}$）的余子式除以整个矩阵的行列式。下面的几类矩阵特别重要："
+    }
+  ],
+  "allOtherLinesUnchanged": true,
+  "anchorSequenceUnchanged": true,
+  "editorialConvention": "Use Chinese sentence punctuation in corrected Chinese running prose. Preserve math, program literals, English references and technical field notation in their own conventions.",
+  "rendererIssue": {
+    "cause": "VitePress markdown-it-emoji converted punctuation shortcuts in plain text next to inline math.",
+    "previousConversions": [
+      {
+        "route": "/volume1/sec-1-2-3",
+        "shortcut": ";(",
+        "count": 2
+      },
+      {
+        "route": "/volume1/sec-1-3-1",
+        "shortcut": ":(",
+        "count": 1
+      }
+    ],
+    "correction": "Disable automatic emoji substitutions in the common Markdown renderer. Literal source symbols are preserved."
+  }
+}
