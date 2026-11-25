@@ -60,6 +60,30 @@ function equalSequence(expected, actual, kind, context) {
     ...(index < 0 ? {} : { index, expected: expected[index], actual: actual[index] })
   });
 }
+
+function checkIndexEntryLinks($, scope, markdown, file) {
+  const expected = new Map();
+  for (const line of markdown.split('\n')) {
+    const id = line.match(/<a id="(idx-en-\d+)">/)?.[1];
+    if (id) expected.set(id, [...line.matchAll(/\]\([^()\s]*#((?:idx-en-|pdf-|p-)[^()\s]+)\)/g)].map(m => m[1]));
+  }
+  if (!expected.size) return;
+  // A malformed nested Markdown link can leave its label readable but lose
+  // its destination. Check the links of each entry, excluding its subentries.
+  for (const item of scope.find('li').toArray()) {
+    const entry = $(item);
+    const content = entry.children('p').first();
+    const direct = content.length ? content : entry;
+    const id = direct.children('a[id^="idx-en-"]').first().attr('id');
+    if (!expected.has(id)) continue;
+    const links = direct.children('a[href]').toArray()
+      .map(el => ($(el).attr('href') ?? '').split('#').at(-1))
+      .filter(target => /^(?:idx-en-|pdf-|p-)/.test(target));
+    equalSequence(expected.get(id), links, 'rendered-index-entry-links', { file, id });
+    expected.delete(id);
+  }
+  check(expected.size === 0, 'missing-index-entries', { file, ids: [...expected.keys()] });
+}
 async function walk(directory, skip = new Set()) {
   const output = [];
   for (const item of await fs.readdir(directory, { withFileTypes: true })) {
@@ -188,6 +212,7 @@ async function checkVolume(volume, manifest, navigation) {
   const pages = manifest.sectionRoutes;
   check(Array.isArray(pages) && pages.length > 0, 'missing-page-manifest');
   const originalIds = ids(source);
+  const originalIdSet = new Set(originalIds);
   check(originalIds.filter(id => /^pdf-\d+$/.test(id)).length === volume.expectedSourcePages, 'source-page-count-mismatch', { expected: volume.expectedSourcePages, actual: originalIds.filter(id => /^pdf-\d+$/.test(id)).length });
   const missingSourcePages = Array.from({ length: volume.expectedSourcePages }, (_, index) => `pdf-${String(index + 1).padStart(3, '0')}`).filter(id => !originalIds.includes(id));
   check(!missingSourcePages.length, 'missing-physical-page-anchors', { anchors: missingSourcePages });
@@ -449,6 +474,7 @@ async function checkVolume(volume, manifest, navigation) {
     const page = pageByHtml.get(name);
     if (!page) continue;
     check(scope.length === 1, 'missing-book-content-container', { file: name });
+    if (page.kind === 'index') checkIndexEntryLinks($, scope, page.markdown, name);
     // These original-page examples catch a missing math span even when the
     // website faithfully renders the same transcription error as the master.
     for (const example of examples.filter(row => row.route === page.route)) {
@@ -468,9 +494,12 @@ async function checkVolume(volume, manifest, navigation) {
       prose.find('.book-math').remove();
       for (const text of example.plain) check(prose.text().includes(text), 'reader-example-plain-text', { ...context, text });
     }
-    const contentIds = scope.find('[id]').toArray().map(el => $(el).attr('id'));
-    for (const id of page.originalIds) check(contentIds.includes(id), 'missing-built-source-anchor', { file: name, id });
-    equalSequence(page.originalIds, contentIds.filter(id => (page.isReport ? page.originalIds : originalIds).includes(id)), 'built-source-anchor-order-changed', { file: name });
+    const idNodes = scope.find('[id]').toArray();
+    const contentIds = idNodes.map(el => $(el).attr('id'));
+    const contentById = new Map(idNodes.map((el, index) => [contentIds[index], el]));
+    for (const id of page.originalIds) check(contentById.has(id), 'missing-built-source-anchor', { file: name, id });
+    const sourceIdsForPage = page.isReport ? new Set(page.originalIds) : originalIdSet;
+    equalSequence(page.originalIds, contentIds.filter(id => sourceIdsForPage.has(id)), 'built-source-anchor-order-changed', { file: name });
     equalRenderedCode(page.expected.renderedCode, renderedCode($, scope), { file: name });
     const actualText = visibleText($, scope);
     check(actualText === page.expected.text, 'rendered-prose-changed', { file: name, ...(actualText === page.expected.text ? {} : firstDifference(page.expected.text, actualText)) });
@@ -516,8 +545,8 @@ async function checkVolume(volume, manifest, navigation) {
     equalSequence(expectedDigests, actualDigests, 'rendered-image-content-changed', { file: name });
     for (const id of page.originalIds.filter(x => /^(?:ex|ans)-/.test(x))) {
       const counterpart = id.startsWith('ex-') ? id.replace(/^ex-/, 'ans-') : id.replace(/^ans-/, 'ex-');
-      if (!originalIds.includes(counterpart)) continue;
-      const anchor = scope.find('[id]').filter((_, el) => $(el).attr('id') === id).first();
+      if (!originalIdSet.has(counterpart)) continue;
+      const anchor = $(contentById.get(id));
       const block = anchor.closest('p,li,td,th,h1,h2,h3,h4,h5,h6');
       const hasBacklink = node => node.find('a[href]').toArray().some(el => decodeURIComponent($(el).attr('href')).endsWith('#' + counterpart));
       const hasContent = node => !!node.text().trim() || !!node.find('img,math,pre,code,table').length;

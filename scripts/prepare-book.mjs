@@ -79,9 +79,10 @@ for (let i = 0; i < lines.length; i++) {
   const match = lines[i].trim().match(sectionPattern);
   if (!match) continue;
   const anchor = match[1];
+  const unnumberedKey = volume.unnumberedSections?.[anchor];
   // Lettered parts such as 4.3.3 A–E remain stable in-page targets. Only
   // numbered sections and the configured book divisions create routes.
-  if (!/^sec-\d+(?:-\d+)*$/.test(anchor)
+  if (!unnumberedKey && !/^sec-\d+(?:-\d+)*$/.test(anchor)
     && ![volume.answerStartAnchor, ...volume.appendixAnchors, ...volume.indexAnchors].includes(anchor)) continue;
   let headingLine = i + 1;
   while (headingLine < lines.length && !/^#{1,6}\s+/.test(lines[headingLine])) headingLine++;
@@ -89,7 +90,7 @@ for (let i = 0; i < lines.length; i++) {
   assert(headingLine < i + headingLookahead, `No heading within the configured range after ${anchor}`);
   const title = lines[headingLine].replace(/^#+\s+/, '').trim().replace(/\\\*/g, '*');
   const kind = volume.appendixAnchors.includes(anchor) ? 'appendix' : volume.indexAnchors.includes(anchor) ? 'index' : anchor === volume.answerStartAnchor ? 'answers-index' : 'body';
-  const section = /^sec-\d/.test(anchor) ? anchor.slice(4).replaceAll('-', '.') : null;
+  const section = unnumberedKey ?? (/^sec-\d/.test(anchor) ? anchor.slice(4).replaceAll('-', '.') : null);
   let start = includeLeadingPageAnchors(i);
   const leadAnchor = volume.leadInAnchors?.[anchor];
   if (leadAnchor) {
@@ -108,13 +109,15 @@ assert(Number.isInteger(answerStart) && Number.isInteger(answerEnd) && answerEnd
 // Answer headings are inconsistent in the master. Its verified ans-* anchors
 // are authoritative; use the adjacent original heading where one exists.
 const answerSections = new Set();
+const unnumberedTitles = new Map(boundaries.filter(p => volume.unnumberedSections?.[p.anchor]).map(p => [p.section, p.title]));
 for (let i = answerStart + 1; i < answerEnd; i++) {
-  for (const match of lines[i].matchAll(/<a id="ans-(intro|[\d-]+)-\d+"><\/a>/g)) {
+  for (const match of lines[i].matchAll(/<a id="ans-([a-z]+|[\d-]+)-\d+"><\/a>/g)) {
     const sectionKey = match[1];
+    if (!/^(?:intro|[\d-]+)$/.test(sectionKey) && !unnumberedTitles.has(sectionKey)) continue;
     if (answerSections.has(sectionKey)) continue;
     answerSections.add(sectionKey);
     let start = i, headingLine = null;
-    const expected = sectionKey === 'intro' ? '习题说明' : `${sectionKey.replaceAll('-', '.')}节`;
+    const expected = unnumberedTitles.get(sectionKey) ?? (sectionKey === 'intro' ? '习题说明' : `${sectionKey.replaceAll('-', '.')}节`);
     let prev = i - 1;
     while (prev >= answerStart && !lines[prev].trim()) prev--;
     if ((lines[prev] ?? '').replace(/^#+\s*/, '').replace(/\s/g, '') === expected) {
@@ -123,7 +126,8 @@ for (let i = answerStart + 1; i < answerEnd; i++) {
     // 1.2.11.2 has its first answer anchor embedded in the source heading.
     // Preserve that line rather than silently editing the editorial master.
     const section = sectionKey === 'intro' ? 'intro' : sectionKey.replaceAll('-', '.');
-    const title = sectionKey === 'intro' ? '习题说明的答案' : `${section} 节习题答案`;
+    const title = unnumberedTitles.has(sectionKey) ? `${expected}习题答案`
+      : sectionKey === 'intro' ? '习题说明的答案' : `${section} 节习题答案`;
     boundaries.push({ start: includeLeadingPageAnchors(start), route: `${prefix}/answers/${sectionKey}`, title, kind: 'answers', section, anchor: `answers-${sectionKey}`, headingLine });
   }
 }
@@ -279,6 +283,7 @@ function bodyTree(chapter) {
 }
 const sidebar = [
   { text: '卷前与目录', items: [{ text: '全卷目录', link: `${prefix}/` }, { text: '卷前', link: `${prefix}/frontmatter` }] },
+  ...pages.filter(p => volume.unnumberedSections?.[p.anchor]).map(p => ({ text: p.title, link: p.route })),
   ...volume.chapterRoots.map(bodyTree),
   { text: '习题答案', link: `${prefix}/${volume.answerStartAnchor}`, collapsed: true, items: pages.filter(p => p.kind === 'answers').map(p => ({ text: p.title, link: p.route })) },
   { text: '附录与索引', items: pages.filter(p => ['appendix', 'index'].includes(p.kind)).map(p => ({ text: p.title, link: p.route })) },

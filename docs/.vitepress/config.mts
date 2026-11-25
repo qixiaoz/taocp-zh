@@ -3,9 +3,11 @@ import type { DefaultTheme } from 'vitepress'
 import footnote from 'markdown-it-footnote'
 import navigation from './book-navigation.json'
 import { installBookMarkdown } from '../../scripts/book-markdown.mjs'
+import { createBookMathModules } from '../../scripts/book-math-modules.mjs'
 import { READER_INIT_SCRIPT } from './theme/reader-preferences'
 
 const publishedVolumes = navigation.volumes
+const bookMathModules = createBookMathModules()
 const multipleVolumes = publishedVolumes.length > 1
 const siteTitle = multipleVolumes ? '《计算机程序设计艺术》中文阅读' : '《计算机程序设计艺术》卷1'
 const readingNav = multipleVolumes
@@ -68,6 +70,7 @@ export default defineConfig({
     ['script', {}, READER_INIT_SCRIPT]
   ],
   vite: {
+    plugins: [bookMathModules.plugin],
     build: { assetsInlineLimit: 0 }
   },
   markdown: {
@@ -80,6 +83,7 @@ export default defineConfig({
       md.core.ruler.disable('emoji')
       md.use(footnote)
       installBookMarkdown(md, { literalMath: true })
+      bookMathModules.install(md)
     }
   },
   themeConfig: {

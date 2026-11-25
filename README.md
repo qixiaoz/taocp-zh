@@ -2,7 +2,7 @@
 
 在线阅读地址为 [qixiaoz.github.io/taocp-zh](https://qixiaoz.github.io/taocp-zh/)。
 
-网站收录卷一《基本算法》、卷二《半数值算法》、卷三《排序与查找》和卷4A《组合算法（一）》的卷前说明、正文、习题答案、附录和索引。阅读界面采用 VitePress 默认主题，参考 [《软件设计的哲学》中文版网站](https://cactus-proj.github.io/A-Philosophy-of-Software-Design-zh/) 的目录和导航方式。
+网站收录卷一《基本算法》、卷二《半数值算法》、卷三《排序与查找》、卷4A《组合算法（一）》和卷4B《组合算法（二）》的卷前说明、正文、习题答案、附录和索引。阅读界面采用 VitePress 默认主题，参考 [《软件设计的哲学》中文版网站](https://cactus-proj.github.io/A-Philosophy-of-Software-Design-zh/) 的目录和导航方式。
 
 卷一正文底本为高德纳著、李伯民、范明、蒋爱军译的人民邮电出版社第三版，以英文第三版对校。中文扫描底本的印刷第 340–363 页缺失，采用苏运霖旧译本与英文第三版补配。补配区间内部的原版分页不可考。来源、校订依据和复核范围见各卷独立校订报告。
 
@@ -14,10 +14,13 @@
 | 卷二·半数值算法 | [卷二目录](https://qixiaoz.github.io/taocp-zh/volume2/) | [整卷 Markdown](计算机程序设计艺术·卷2·半数值算法.md) | [卷二报告](校订报告·卷2.md) |
 | 卷三·排序与查找 | [卷三目录](https://qixiaoz.github.io/taocp-zh/volume3/) | [整卷 Markdown](计算机程序设计艺术·卷3·排序与查找.md) | [卷三报告](校订报告·卷3.md) |
 | 卷4A·组合算法（一） | [卷4A目录](https://qixiaoz.github.io/taocp-zh/volume4a/) | [整卷 Markdown](计算机程序设计艺术·卷4A·组合算法（一）.md) | [卷4A报告](校订报告·卷4A.md) |
+| 卷4B·组合算法（二） | [卷4B目录](https://qixiaoz.github.io/taocp-zh/volume4b/) | [整卷 Markdown](计算机程序设计艺术·卷4B·组合算法（二）.md) | [卷4B报告](校订报告·卷4B.md) |
 
 卷三以贾洪峰译、人民邮电出版社2017年第二版为中文底本，对照所附英文第二版数字本。625个中文物理页保留原页锚点，620个阅读内容页均对照中文原图；其中600页核查对应英文内容，两页目录仅核英文节题，18页索引仅作英文条目点核。所附英文第7–14页经用户批准翻译补配卷前，图表A另按英文原图补配并登记独立来源。967题中有908个真实答案，59题无独立答案的两源依据单独登记。
 
 卷4A以李伯民、贾洪峰译、人民邮电出版社2019年第一版为中文底本，对照所附2011年英文第一版并分别记录作者勘误。746个中文物理页保留定位；741个阅读内容页均由模型查看中文原图，709页核对对应英文内容，32页索引仅作英文条目点核。1,502题中有1,490个真实独立答案，12题原书无独立答案；51条原书脚注、68幅正式编号图、30张正式编号表及附录B无号连续表均保留。源稿、离线整卷、网站及线上验证各自登记证据，不表示人工逐页签核或所有一般数学结论均已重新证明。
+
+卷 4B 从 2022 年 10 月首次数字发行的英文原书独立译出，页码依英文版。回溯、舞蹈链、可满足性正文与全卷 1,205 道题、1,204 个独立答案、附录 A–E、总索引与卷末排印记均已收入。简体中文术语、算法步骤、公式与程序排版沿用前四卷。译文的原页依据和实质订正见[卷 4B 翻译与校订报告](校订报告·卷4B.md)。
 
 ## 本地运行
 
@@ -35,13 +38,13 @@ npm run docs:build
 npm run docs:preview
 ```
 
-`docs:build` 会从根目录的整卷 Markdown 生成分节正文、答案页、目录、校订说明和配套资源下载，随后构建网站并核对源页锚点、题答链接、公式及图片。四卷公式编译使用12 GiB的Node堆上限及 `buildConcurrency: 1`；实际四卷构建在8 GiB时耗尽堆，12 GiB已通过打包与页面生成。堆上限不表示预先占满。现有公开仓库的 `ubuntu-latest` 发布任务使用GitHub标准托管环境，规格见[GitHub官方文档](https://docs.github.com/en/actions/reference/runners/github-hosted-runners#standard-github-hosted-runners-for-public-repositories)。
+`docs:build` 会从根目录的整卷 Markdown 生成分节正文、答案页、目录、校订说明和配套资源下载，随后构建网站并核对源页锚点、题答链接、公式及图片。公式编译使用12 GiB的Node堆上限及 `buildConcurrency: 1`；实际四卷构建在8 GiB时耗尽堆，12 GiB已通过打包与页面生成。五卷合编时，各分节的 KaTeX HTML 与 MathML 按公式去重，导航与首屏共用同一份数据。堆上限不表示预先占满。现有公开仓库的 `ubuntu-latest` 发布任务使用GitHub标准托管环境，规格见[GitHub官方文档](https://docs.github.com/en/actions/reference/runners/github-hosted-runners#standard-github-hosted-runners-for-public-repositories)。
 
 ## 更新内容
 
-正文和校订依据分别维护在上表的各卷母稿、报告中。卷一资源位于 `assets/figures/`、`assets/review/`，后续各卷资源分别位于 `assets/volume2/`、`assets/volume3/`、`assets/volume4a/`。扫描底本、OCR、原页裁图和工作校样不进入公开仓库或下载包。
+正文和校订依据分别维护在上表的各卷母稿、报告中。卷一资源位于 `assets/figures/`、`assets/review/`，后续各卷资源分别位于 `assets/volume2/`、`assets/volume3/`、`assets/volume4a/`、`assets/volume4b/`。扫描底本、OCR、原页裁图和工作校样不进入公开仓库或下载包。
 
-四卷中文阅读版依中文版 PDF 排正文句读及中西文间距。句末用实心句点，正文括注和式号用窄式括号。分项字母用正体，变量与自变量一起排入行内数学，mod 运算符用正体。各卷校订报告列有原页抽核位置、变更行号和母稿指纹。
+卷一至卷 4A 的中文阅读版依中文版 PDF 排正文句读及中西文间距，卷 4B 自译稿沿用相同的约定。句末用实心句点，正文括注和式号用窄式括号。分项字母用正体，变量与自变量一起排入行内数学，mod 运算符用正体。各卷校订报告列有原页抽核位置、变更行号和母稿指纹。
 
 `scripts/book-volumes.mjs` 配置各卷输入、章节范围、路由、资产和下载文件；`scripts/prepare-book.mjs` 汇总生成分节和导航。生成目录不手改，构建不反写母稿。新增卷须独立配置并完成自身来源与内容校订，再显式打开发布开关。
 

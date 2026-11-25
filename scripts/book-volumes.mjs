@@ -68,6 +68,27 @@ export const volumes = [
     evidence: {
       mathCountNote: 'Volume 4A uses its own 746-page source and original chapter 7 numbering. Author errata, source-image comparison, finite recomputation, syntax and rendered equality are distinct forms of evidence; source questions remain explicit.'
     }
+  },
+  {
+    id: 'volume4b', enabled: true, title: '卷4B·组合算法（二）',
+    book: '计算机程序设计艺术·卷4B·组合算法（二）.md', report: '校订报告·卷4B.md',
+    routePrefix: '/volume4b', reportRoute: '/volume4b/corrections', zipName: 'taocp-volume4b.zip',
+    assetRoots: ['assets/volume4b'], reviewRoot: 'assets/volume4b/review',
+    reviewPublicPrefix: '/review/volume4b',
+    // Chapter 7 and §7.2 begin in 4A. MPR is an independent, unnumbered section.
+    chapterRoots: ['7.2.2'], unnumberedSections: { 'sec-mpr': 'mpr' },
+    answerStartAnchor: 'sec-answers', answerEndAnchor: 'sec-app-a',
+    appendixAnchors: ['sec-app-a', 'sec-app-b', 'sec-app-c', 'sec-app-d', 'sec-app-e'],
+    indexAnchors: ['sec-index'], frontmatterHeadingLine: 2,
+    leadInAnchors: {
+      'sec-7-2-2': 'lead-sec-7-2-2',
+      'sec-7-2-2-1': 'lead-sec-7-2-2-1',
+      'sec-7-2-2-2': 'lead-sec-7-2-2-2'
+    },
+    expectedSourcePages: 734, sourcePageLanguage: 'EN',
+    evidence: {
+      mathCountNote: 'The translation is based on the English first digital release of October 2022. Review coverage refers to English source pages and Chinese translation proofs.'
+    }
   }
 ];
 

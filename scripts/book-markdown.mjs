@@ -70,25 +70,30 @@ export function installBookMarkdown(md, { literalMath = false } = {}) {
   const cache = new Map();
   const renderMath = (tex, display, env) => {
     const literal = literalMath && !env?.bookDirectHTML;
-    const key = `${literal}\0${display}\0${tex}`;
-    if (cache.has(key)) return cache.get(key);
-    const markup = katex.renderToString(tex, {
-      displayMode: display,
-      output: 'htmlAndMathml',
-      throwOnError: true,
-      strict: 'ignore',
-      trust: false
-    });
+    const key = `${display}\0${tex}`;
+    let markup = cache.get(key);
+    if (markup === undefined) {
+      markup = katex.renderToString(tex, {
+        displayMode: display,
+        output: 'htmlAndMathml',
+        throwOnError: true,
+        strict: 'ignore',
+        trust: false
+      });
+      cache.set(key, markup);
+    }
     const tag = display ? 'div' : 'span';
     const mode = display ? 'display' : 'inline';
     const attributes = `class="book-math book-math-${mode}" data-tex="${md.utils.escapeHtml(tex)}" data-math-display="${mode}"`;
     // KaTeX's trusted renderer already produced the complete HTML/MathML. Keep
     // those children out of Vue's compiler AST while preserving exact SSR DOM.
-    const result = literal
+    if (literal && env.bookMathIndex) {
+      const index = env.bookMathIndex(key, markup);
+      return `<${tag} ${attributes} :v-pre="''" v-html="bookFormulae[${index}]"></${tag}>`;
+    }
+    return literal
       ? `<${tag} ${attributes} :v-pre="''" v-html="${md.utils.escapeHtml(JSON.stringify(markup))}"></${tag}>`
       : `<${tag} class="book-math book-math-${mode}" v-pre data-tex="${md.utils.escapeHtml(tex)}" data-math-display="${mode}">${markup}</${tag}>`;
-    cache.set(key, result);
-    return result;
   };
   md.renderer.rules.math_inline = (tokens, index, _options, env) => renderMath(tokens[index].content, false, env);
   md.renderer.rules.math_block = (tokens, index, _options, env) => renderMath(tokens[index].content, true, env) + '\n';

@@ -10,17 +10,17 @@ import { selectVolumes } from './book-volumes.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const sha = value => createHash('sha256').update(value).digest('hex');
 
-export function sourceLinePages(source) {
+export function sourceLinePages(source, pageLanguage = 'CN') {
   let current = { source: null, cnPdfPage: null, enPdfPage: null };
   return source.split('\n').map(line => {
     // Source page anchors may follow a section anchor, or occur within prose.
     // EN supplements must clear the last CN page instead of inheriting it.
     // Retain the original first-anchor-per-line convention for collapsed CN
     // anchors; this remains a line/block diagnostic, not exact token offsets.
-    const anchor = line.match(/<a\s+id=["'](pdf|sup-en)-(\d+)["']/);
+    const anchor = line.match(/<(?:a|p|table|tbody|tr)\s+id=["'](pdf|sup-en)-(\d+)["']/);
     if (anchor) {
       const [, kind, page] = anchor;
-      current = kind === 'pdf'
+      current = kind === 'pdf' && pageLanguage === 'CN'
         ? { source: 'CN', cnPdfPage: Number(page), enPdfPage: null }
         : { source: 'EN', cnPdfPage: null, enPdfPage: Number(page) };
     }
@@ -51,7 +51,7 @@ export function inspectTokens(tokens, linePages = []) {
 async function inspectVolume(volume) {
 const book = volume.book;
 const source = await fs.readFile(path.join(root, book), 'utf8');
-const pages = sourceLinePages(source);
+const pages = sourceLinePages(source, volume.sourcePageLanguage);
 const standard = await createMarkdownRenderer(root, { math: true });
 const baseline = inspectTokens(standard.parse(source, {}), pages);
 disposeMdItInstance();
