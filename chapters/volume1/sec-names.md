@@ -1,0 +1,652 @@
+<a id="pdf-520"></a><a id="p-503"></a>
+
+<a id="sec-names"></a>
+
+# 人名索引
+
+- 阿贝尔, Niels Henrik Abel, [45](./sec-1-2-6.md#p-45), [314](./sec-2-3-4-4.md#p-314), [391](./answers/1-2-9.md#p-391).
+- 阿波斯托尔, Tom Mike Apostol, [22](./sec-1-2-3.md#p-22).
+- 阿伯加斯特, Louis François Antoine Arbogast, [41](./sec-1-2-5.md#p-41), [83](./sec-1-2-10.md#p-83), [378](./answers/1-2-5.md#p-378).
+- 阿呆, Brutus Cyclops Dull, [88](./sec-1-2-11-1.md#p-88).
+- 阿尔佩恩, Steven Robert Alpern, [416](./answers/1-3-3.md#p-416).
+- 阿伦斯, Roger Michael Aarons, [418](./answers/1-4-1.md#p-418).
+- 阿伦斯, Wilhelm Ernst Martin Georg Ahrens, [130](./sec-1-3-2.md#p-130).
+- 阿罗约, Saulo Araújo, [449](./answers/2-3-1.md#p-449).
+- 阿切尔比, Fabio Acerbi, [471](./answers/2-3-4-4.md#p-471).
+- 埃伯利, Jakob Aebly, [425](./answers/2-1.md#p-425).
+- 埃德尔曼, Paul Henry Edelman, [476](./answers/2-3-4-6.md#p-476).
+- 埃德温, Joel Dyne Erdwinn, [185](./sec-1-4-5.md#p-185).
+- 埃尔代伊, Arthur Erdélyi, [314](./sec-2-3-4-4.md#p-314).
+- 埃尔米特, Charles Hermite, [38](./sec-1-2-5.md#p-38), [374](./answers/1-2-4.md#p-374).
+- 埃瑟林顿, Ivor Malcolm Haddon Etherington, [314](./sec-2-3-4-4.md#p-314).
+- 埃斯利, Peter Eisele, [376](./answers/1-2-4.md#p-376).
+- 爱比克泰德, Epictetus of Hierapolis, [1](./sec-1.md#p-1).
+- 爱德华兹, Daniel James Edwards, [332](./sec-2-3-5.md#p-332).
+- 爱伦法斯特, Tatyana van Aardenne-Ehrenfest, [297](./sec-2-3-4-2.md#p-297), [299](./sec-2-3-4-2.md#p-299).
+- 艾达, Augusta Ada LoveLace, [1](./sec-1.md#p-1).
+- 艾弗森, Kenneth Eugene Iverson, [26](./sec-1-2-3.md#p-26), [31](./sec-1-2-4.md#p-31), [48](./sec-1-2-6.md#p-48), [359](./sec-2-6.md#p-359)–[360](./sec-2-6.md#p-360).
+- 艾侯, Alfred Vaino Aho, [446](./answers/2-2-6.md#p-446).
+- 艾萨克斯, Irving Martin Isaacs, [478](./answers/2-3-4-6.md#p-478).
+- 艾森斯坦, Ferdinand Gotthold Max Eisenstein, [375](./answers/1-2-4.md#p-375).
+- 奥德里兹科, Andrew Michael Odlyzko, [96](./sec-1-2-11-3.md#p-96), [449](./answers/2-3-1.md#p-449).
+- 奥顿堡, Henry Oldenburg, [45](./sec-1-2-6.md#p-45).
+- 奥尔德姆, Jeffrey David Oldham, [ix](./frontmatter.md#p-ix).
+- 奥里斯姆, Nicole Oresme, [17](./sec-1-2-2.md#p-17).
+- 奥利瓦雷斯, Patricio Vicente Poblete Olivares, [414](./answers/1-3-3.md#p-414).
+- 奥林, James Berger Orlin, [464](./answers/2-3-4-2.md#p-464).
+- 奥皮亚奈, Thomas Hay O'Beirne, [409](./answers/1-3-2.md#p-409).
+- 奥特, Richard Robert Otter, [312](./sec-2-3-4-4.md#p-312), [468](./answers/2-3-4-3.md#p-468).
+- 奥图, Ekow Joseph Otoo, [446](./answers/2-2-6.md#p-446).
+- 巴贝奇, Charles Babbage, [1](./sec-1.md#p-1), [184](./sec-1-4-4.md#p-184).
+- 巴顿, David Elliott Barton, [52](./sec-1-2-6.md#p-52), [426](./answers/2-2-1.md#p-426).
+- 巴赫曼, Paul Gustav Heinrich Bachmann, [85](./sec-1-2-10.md#p-85).
+- 巴克斯, John Warner Backus, [185](./sec-1-4-5.md#p-185).
+- 巴里, David McAlister Barry, [217](./sec-2-2-3.md#p-217).
+- 巴林顿, David Arno Barrington, [417](./answers/1-3-3.md#p-417).
+- 巴内特, Michael Peter Barnett, [361](./sec-2-6.md#p-361).
+- 巴尼斯, Ernest William Barnes, [398](./answers/1-2-11-3.md#p-398).
+- 拜恩斯托克, Daniel Bienstock, [405](./answers/1-3-2.md#p-405).
+- 拜尔蒂斯, Alfs Teodors Berztiss, [361](./sec-2-6.md#p-361).
+- 班尼特, John Makepeace Bennett, [185](./sec-1-4-5.md#p-185).
+- 邦孔帕尼, Prince Baldassarre Boncompagni, [63](./sec-1-2-8.md#p-63).
+- 保尔, Thomas Jaudou Ball, [292](./sec-2-3-4-1.md#p-292).
+- 鲍勃罗, Daniel Gureasko Bobrow, [331](./sec-2-3-5.md#p-331), [360](./sec-2-6.md#p-360).
+- 鲍尔, Walter William Rouse Ball, [130](./sec-1-3-2.md#p-130).
+- 鲍格朗, François Bergeron, [311](./sec-2-3-4-4.md#p-311).
+- 贝尔, Eric Temple Bell, [69](./sec-1-2-8.md#p-69).
+- 贝尔格, Richard Beigel, [365](./answers/1-1.md#p-365).
+- 贝尔曼, Richard Ernest Bellman, [xii](./frontmatter.md#p-xii).
+- 贝利, Michael John Bailey, [361](./sec-2-6.md#p-361).
+- 比内, Jacques Philippe Marie Binet, [28](./sec-1-2-3.md#p-28), [321](./sec-2-3-4-6.md#p-321), [372](./answers/1-2-3.md#p-372).
+- 比奇洛, Richard Henry Bigelow, [447](./answers/2-3.md#p-447).
+- 边奈美, Irénée Jules Bienaymé, [78](./sec-1-2-10.md#p-78).
+- 波利亚, George Pólya, [13](./sec-1-2-1.md#p-13), [74](./sec-1-2-9.md#p-74), [312](./sec-2-3-4-4.md#p-312), [320](./sec-2-3-4-5.md#p-320), [321](./sec-2-3-4-6.md#p-321), [390](./answers/1-2-9.md#p-390).
+- 波隆斯基, Ivan Paul Polonsky, [360](./sec-2-6.md#p-360).
+- 波洛, Hercule Poirot, [xiii](./frontmatter.md#p-xiii).
+- 波帕尔, Yves Poupard, [476](./answers/2-3-4-6.md#p-476).
+
+- 伯恩斯坦, S. Bernstein, [83](./sec-1-2-10.md#p-83).
+- 伯格曼, George Mark Bergman, [388](./answers/1-2-8.md#p-388), [472](./answers/2-3-4-4.md#p-472).
+- 伯克, John Burke, [247](./sec-2-3.md#p-247).
+- 伯克斯, Arthur Walter Burks, [284](./sec-2-3-3.md#p-284).
+- 伯利坎普, Elwyn Ralph Berlekamp, [217](./sec-2-2-3.md#p-217).
+- 伯曼, Martin Fredric Berman, [413](./answers/1-3-2.md#p-413).
+- 伯努利, Daniel Bernoulli, [66](./sec-1-2-8.md#p-66).
+- 伯努利, Jacques (= Jakob = James ) Bernoulli, [89](./sec-1-2-11-2.md#p-89), [92](./sec-1-2-11-2.md#p-92).
+- 伯努利, Jean (= Johann = John ) Bernoulli III, [389](./answers/1-2-8.md#p-389).
+- 勃洛夫, Gerrit Anne Blaauw, [358](./sec-2-6.md#p-358).
+- 博尔斯, David Alan Boles, [354](./sec-2-5.md#p-354).
+- 博尔夏特, Carl Wilhelm Borchardt, [320](./sec-2-3-4-5.md#p-320), [464](./answers/2-3-4-2.md#p-464).
+- 博格, Robert Berger, [304](./sec-2-3-4-3.md#p-304).
+- 布劳威尔, Luitzen Egbertus Jan Brouwer, [320](./sec-2-3-4-5.md#p-320).
+- 布勒森, Peter Barrus Burleson, [361](./sec-2-6.md#p-361).
+- 布里格斯, Henry Briggs, [20](./sec-1-2-2.md#p-20).
+- 布利克莱, Andrzej Jacek Blikle, [261](./sec-2-3-1.md#p-261).
+- 布鲁诺, Francesco Faà di Bruno, [378](./answers/1-2-5.md#p-378).
+- 布伦纳, Norman Mitchell Brenner, [413](./answers/1-3-2.md#p-413).
+- 布伦特, Richard Peirce Brent, [448](./answers/2-3.md#p-448).
+- 布罗林, Duane Marvin Broline, [478](./answers/2-3-4-6.md#p-478).
+- 布思罗伊德, John Boothroyd, [143](./sec-1-3-3.md#p-143).
+- 布希, Conrad Heinrich Edmund Friedrich Busche, [34](./sec-1-2-4.md#p-34).
+- 查克拉瓦尔蒂, Gurugovinda Chakravarti, [42](./sec-1-2-6.md#p-42).
+- 陈天机, Tien Chi Chen, [368](./answers/1-2-2.md#p-368).
+- 楚泽, Konrad Zuse, [358](./sec-2-6.md#p-358).
+- 崔特, Alan Levi Tritter, [458](./answers/2-3-2.md#p-458).
+- 达尔, Ole-Johan Dahl, [185](./sec-1-4-5.md#p-185), [361](./sec-2-6.md#p-361).
+- 达姆, David Michael Dahm, [339](./sec-2-4.md#p-339), [340](./sec-2-4.md#p-340).
+- 戴克斯特拉, Edsger Wybe Dijkstra, [13](./sec-1-2-1.md#p-13), [153](./sec-1-4-1.md#p-153), [185](./sec-1-4-5.md#p-185), [186](./sec-1-4-5.md#p-186), [192](./sec-2-2-1.md#p-192), [359](./sec-2-6.md#p-359), [361](./sec-2-6.md#p-361), [432](./answers/2-2-2.md#p-432), [461](./answers/2-3-4-1.md#p-461), [481](./answers/2-3-5.md#p-481).
+- 戴维, Florence Nightingale David, [52](./sec-1-2-6.md#p-52).
+- 戴维斯, David Julian Meredith Davies, [349](./sec-2-5.md#p-349).
+- 戴维斯, Philip Jacob Davis, [40](./sec-1-2-5.md#p-40).
+- 道森, Reed Dawson, [464](./answers/2-3-4-2.md#p-464).
+- 德·布鲁因, Nicolaas Govert de Bruijn, [96](./sec-1-2-11-3.md#p-96), [97](./sec-1-2-11-3.md#p-97), [297](./sec-2-3-4-2.md#p-297), [299](./sec-2-3-4-2.md#p-299), [374](./answers/1-2-4.md#p-374), [396](./answers/1-2-11-2.md#p-396), [431](./answers/2-2-2.md#p-431), [449](./answers/2-3-1.md#p-449).
+- 德·摩根, Augustus De Morgan, [13](./sec-1-2-1.md#p-13).
+- 德怀尔, Barry Dwyer, [451](./answers/2-3-1.md#p-451).
+- 德穆思, Howard B. Demuth, [96](./sec-1-2-11-3.md#p-96).
+- 德瓦列茨基, Aryeh Dvoretzky, [472](./answers/2-3-4-4.md#p-472).
+- 德肖维茨, Nachum Dershowitz, [409](./answers/1-3-2.md#p-409), [468](./answers/2-3-4-3.md#p-468), [476](./answers/2-3-4-6.md#p-476).
+- 邓拉普, James Robert Dunlap, [358](./sec-2-6.md#p-358).
+- 狄克曼, Karl Daniel Dickman, [415](./answers/1-3-3.md#p-415).
+- 狄克逊, Alfred Cardew Dixon, [384](./answers/1-2-6.md#p-384).
+- 狄克逊, Robert Dan Dixon, [400](./answers/1-3-1.md#p-400).
+- 迪克森, Leonard Eugene Dickson, [64](./sec-1-2-8.md#p-64), [379](./answers/1-2-6.md#p-379).
+- 迪亚科尼斯, Persi Warren Diaconis, [385](./answers/1-2-6.md#p-385).
+- 迪尤尔, Robert Berriedale Keith Dewar, [489](./answers/2-5.md#p-489).
+- 棣莫弗, Abraham de Moivre, [59](./sec-1-2-6.md#p-59), [66](./sec-1-2-8.md#p-66), [69](./sec-1-2-8.md#p-69), [84](./sec-1-2-10.md#p-84), [146](./sec-1-3-3.md#p-146), [370](./answers/1-2-3.md#p-370), [385](./answers/1-2-6.md#p-385), [425](./answers/2-1.md#p-425).
+- 蒂勒, Thorvald Nicolai Thiele, [82](./sec-1-2-10.md#p-82).
+- 蒂莫西, Timothy Howard Merrett, [446](./answers/2-2-6.md#p-446).
+- 丁佩里奥, Mary Evelyn d'Imperio, [361](./sec-2-6.md#p-361).
+- 杜格尔, John Dougall, [384](./answers/1-2-6.md#p-384).
+- 杜卡, Jacques Dutka, [40](./sec-1-2-5.md#p-40), [51](./sec-1-2-6.md#p-51).
+- 杜兰, Barry Durand, [466](./answers/2-3-4-2.md#p-466).
+- 杜立德, M. H. Doolittle, [241](./sec-2-2-6.md#p-241).
+- 多兰, Robert William Doran, [185](./sec-1-4-5.md#p-185).
+- 多伊奇, Laurence Peter Deutsch, [328](./sec-2-3-5.md#p-328), [331](./sec-2-3-5.md#p-331).
+
+<a id="pdf-521"></a><a id="p-504"></a>
+
+- 厄尔曼, Jeffrey David Ullman, [446](./answers/2-2-6.md#p-446).
+- 厄雷, Jackson Clark Earley, [361](./sec-2-6.md#p-361).
+- 厄廷格豪森, Andreas Freiherr von Ettingshausen, [43](./sec-1-2-6.md#p-43).
+- 恩格斯, Robert William Engles, [361](./sec-2-6.md#p-361).
+- 法伯, David Jack Farber, [360](./sec-2-6.md#p-360).
+- 法恩, Nathan Jacob Fine, [379](./answers/1-2-6.md#p-379).
+- 法里, John Farey, [411](./answers/1-3-2.md#p-411).
+- 范·维京格尔藤, Adriaan van Wijngaarden, [361](./sec-2-6.md#p-361).
+- 范德蒙德, Alexandre-Théophile Vandermonde, [29](./sec-1-2-3.md#p-29), [47](./sec-1-2-6.md#p-47), [55](./sec-1-2-6.md#p-55), [56](./sec-1-2-6.md#p-56).
+- 范德瓦尔登, Bartel Leendert van der Waerden, [304](./sec-2-3-4-3.md#p-304).
+- 菲西, Faith Ellen Fich, [414](./answers/1-3-3.md#p-414).
+- 斐波那契, Leonardo Fibonacci, [63](./sec-1-2-8.md#p-63), [66](./sec-1-2-8.md#p-66).
+- 斐狄亚斯, Phidias, [64](./sec-1-2-8.md#p-64).
+- 费马, Pierre de Fermat, [13](./sec-1-2-1.md#p-13).
+- 费曼, Richard Feynman, [20](./sec-1-2-2.md#p-20).
+- 费舍尔, Michael John Fischer, [280](./sec-2-3-3.md#p-280).
+- 冯·诺依曼, John von Neumann, [13](./sec-1-2-1.md#p-13), [185](./sec-1-4-5.md#p-185), [186](./sec-1-4-5.md#p-186), [358](./sec-2-6.md#p-358).
+- 冯·施陶特, Karl Georg Christian von Staudt, [320](./sec-2-3-4-5.md#p-320).
+- 冯·谢格奈, Johann Andreas von Segner, [320](./sec-2-3-4-5.md#p-320).
+- 弗格森, David Elton Ferguson, [186](./sec-1-4-5.md#p-186), [265](./sec-2-3-1.md#p-265).
+- 弗拉若莱, Philippe Patrick Michel Flajolet, [393](./answers/1-2-10.md#p-393), [398](./answers/1-2-11-3.md#p-398), [430](./answers/2-2-2.md#p-430), [449](./answers/2-3-1.md#p-449).
+- 弗莱彻, William Fletcher, [417](./answers/1-3-3.md#p-417).
+- 弗兰克尔, Aviezri S. Fraenkel, [200](./sec-2-2-2.md#p-200).
+- 弗雷德曼, Michael Lawrence Fredman, [405](./answers/1-3-2.md#p-405).
+- 弗里德曼, Daniel Paul Friedman, [331](./sec-2-3-5.md#p-331).
+- 弗洛伊德, Robert W. Floyd, [viii](./frontmatter.md#p-viii), [13](./sec-1-2-1.md#p-13), [15](./sec-1-2-1.md#p-15), [331](./sec-2-3-5.md#p-331), [365](./answers/1-1.md#p-365), [400](./answers/1-3-1.md#p-400).
+- 弗兹, Robert Furch, [96](./sec-1-2-11-3.md#p-96).
+- 福德, Henry George Forder, [475](./answers/2-3-4-5.md#p-475).
+- 福尔摩斯, Sherlock Holmes, [363](./sec-2-6.md#p-363).
+- 福冈博文, Hirobumi Fukuoka, [399](./answers/1-3-1.md#p-399).
+- 福克斯, David Raymond Fuchs, [162](./sec-1-4-3.md#p-162).
+- 福斯特, Frederic Gordon Foster, [80](./sec-1-2-10.md#p-80).
+- 福斯特曼, Wilhelm A. Förstemann, [384](./answers/1-2-6.md#p-384).
+- 傅里叶, Joseph Fourier, [21](./sec-1-2-2.md#p-21).
+- 富勒, John Fuller, [ix](./frontmatter.md#p-ix).
+- 盖茨, Bill Gates, [ix](./frontmatter.md#p-ix).
+- 盖斯凯尔, Robert Eugene Gaskell, [68](./sec-1-2-8.md#p-68).
+- 盖伊, Richard Kenneth Guy, [14](./sec-1-2-1.md#p-14), [63](./sec-1-2-8.md#p-63), [217](./sec-2-2-3.md#p-217), [478](./answers/2-3-4-6.md#p-478).
+- 冈田幸千生, Satio Okada, [463](./answers/2-3-4-2.md#p-463).
+- 高德纳, Donald Ervin Knuth, [ix](./frontmatter.md#p-ix), [8](./sec-1-2.md#p-8), [26](./sec-1-2-3.md#p-26), [52](./sec-1-2-6.md#p-52), [96](./sec-1-2-11-3.md#p-96), [155](./sec-1-4-1.md#p-155), [162](./sec-1-4-3.md#p-162), [236](./sec-2-2-5.md#p-236), [311](./sec-2-3-4-4.md#p-311), [358](./sec-2-6.md#p-358), [361](./sec-2-6.md#p-361), [368](./answers/1-2-2.md#p-368), [379](./answers/1-2-6.md#p-379), [392](./answers/1-2-9.md#p-392), [396](./answers/1-2-11-2.md#p-396), [414](./answers/1-3-3.md#p-414), [415](./answers/1-3-3.md#p-415), [449](./answers/2-3-1.md#p-449), [461](./answers/2-3-4-1.md#p-461), [464](./answers/2-3-4-2.md#p-464), [471](./answers/2-3-4-4.md#p-471), [474](./answers/2-3-4-5.md#p-474).
+- 高尔, John Clifford Gower, [359](./sec-2-6.md#p-359).
+- 高尔顿, Francis Galton, [447](./answers/2-3.md#p-447).
+- 高精蘭, Nancy Jill Carter Knuth, [viii](./frontmatter.md#p-viii), xvi.
+- 高斯, Carl Friedrich Gauss, [38](./sec-1-2-5.md#p-38), [45](./sec-1-2-6.md#p-45), [75](./sec-1-2-9.md#p-75), [384](./answers/1-2-6.md#p-384), [391](./answers/1-2-9.md#p-391).
+- 高志成, Zhicheng Gao, [449](./answers/2-3-1.md#p-449).
+- 哥德巴赫, Christian Goldbach, [38](./sec-1-2-5.md#p-38), [320](./sec-2-3-4-5.md#p-320), [369](./answers/1-2-3.md#p-369).
+- 哥斯廷, Herman Heine Goldstine, [13](./sec-1-2-1.md#p-13), [185](./sec-1-4-5.md#p-185), [186](./sec-1-4-5.md#p-186).
+- 戈德堡, Joel Goldberg, [418](./answers/1-4-1.md#p-418).
+- 戈登, Peter Gordon, [ix](./frontmatter.md#p-ix).
+- 戈隆比克, Martin Charles Golumbic, [474](./answers/2-3-4-5.md#p-474).
+- 戈洛姆, Alan Joseph Golomb, [148](./sec-1-3-3.md#p-148).
+- 戈帕拉, Gopāla, [63](./sec-1-2-8.md#p-63).
+- 格贝里希, Carl Luther Gerberich, [360](./sec-2-6.md#p-360).
+- 格拉布内, Peter Johannes Grabner, [398](./answers/1-2-11-3.md#p-398).
+- 格拉西, Charles Roger Glassey, [320](./sec-2-3-4-5.md#p-320).
+- 格兰巴姆, Branko Grünbaum, [303](./sec-2-3-4-3.md#p-303), [467](./answers/2-3-4-3.md#p-467).
+- 格里斯沃尔德, Ralph Edward Griswold, [360](./sec-2-6.md#p-360).
+- 格伦特尔, Herber Leo Gelernter, [360](./sec-2-6.md#p-360).
+- 格纳特, Gaston Henry Gonnet, [311](./sec-2-3-4-4.md#p-311).
+- 格涅坚科, Boris Vladimirovich Gnedenko, [84](./sec-1-2-10.md#p-84).
+- 葛恩, Saul Gorn, [360](./sec-2-6.md#p-360).
+- 葛立恒, Ronald Graham, [8](./sec-1-2.md#p-8).
+
+- 贡恰罗夫, Vasilii Leonidovich Goncharov, [393](./answers/1-2-10.md#p-393).
+- 古德, Irving John Good, [296](./sec-2-3-4-2.md#p-296), [311](./sec-2-3-4-4.md#p-311), [378](./answers/1-2-5.md#p-378), [464](./answers/2-3-4-2.md#p-464).
+- 古德曼, Alan Joseph Goldman, [469](./answers/2-3-4-4.md#p-469).
+- 古尔德, Henry Wadsworth Gould, [46](./sec-1-2-6.md#p-46), [49](./sec-1-2-6.md#p-49), [96](./sec-1-2-11-3.md#p-96), [380](./answers/1-2-6.md#p-380), [386](./answers/1-2-7.md#p-386).
+- 古尔登, Xavier Richard Gourdon, [415](./answers/1-3-3.md#p-415).
+- 古斯塔夫森, Fred Gehrung Gustavson, [242](./sec-2-2-6.md#p-242).
+- 関孝和, Takakazu Seki, [89](./sec-1-2-11-2.md#p-89), [92](./sec-1-2-11-2.md#p-92).
+- 哈代, Godfrey Harold Hardy, [10](./sec-1-2-1.md#p-10), [320](./sec-2-3-4-5.md#p-320), [386](./answers/1-2-7.md#p-386), [411](./answers/1-3-2.md#p-411).
+- 哈德勒, Karl-Peter Fritz Hadeler, [376](./answers/1-2-4.md#p-376).
+- 哈登, Bruce Kenneth Haddon, [489](./answers/2-5.md#p-489).
+- 哈尔德, Anders Hald, [82](./sec-1-2-10.md#p-82).
+- 哈夫曼, David Albert Huffman, [317](./sec-2-3-4-5.md#p-317).
+- 哈格曼, Louis Alfred Hageman, [466](./answers/2-3-4-2.md#p-466).
+- 哈拉里, Frank Harary, [321](./sec-2-3-4-6.md#p-321).
+- 哈拉尤达, Halāyudha, [42](./sec-1-2-6.md#p-42).
+- 哈梅尔, Georg Hamel, [376](./answers/1-2-4.md#p-376).
+- 哈特马尼斯, Juris Hartmanis, [362](./sec-2-6.md#p-362).
+- 海尔斯, John Owen Hiles, [331](./sec-2-3-5.md#p-331).
+- 海涅, Heine, [384](./answers/1-2-6.md#p-384).
+- 海萨姆, Ibn al-Haytham, [130](./sec-1-3-2.md#p-130).
+- 海廷, Arend Heyting, [320](./sec-2-3-4-5.md#p-320).
+- 汉金, Leon Henkin, [13](./sec-1-2-1.md#p-13).
+- 汉克尔, Hermann Hankel, [39](./sec-1-2-5.md#p-39).
+- 汉明, Richard Hamming, [20](./sec-1-2-2.md#p-20).
+- 汉森, James Rone Hansen, [360](./sec-2-6.md#p-360).
+- 汉森, Wilfred James Hansen, [331](./sec-2-3-5.md#p-331).
+- 豪塔斯, Matheus Lodewijk Johannes Hautus, [383](./answers/1-2-6.md#p-383).
+- 贺斯汀, Israel Nathan Herstein, [416](./answers/1-3-3.md#p-416).
+- 赫伯特, George Herbert, [xi](./frontmatter.md#p-xi).
+- 赫尔曼, Herbert Hellerman, [359](./sec-2-6.md#p-359).
+- 赫尔维茨, Adolf Hurwitz, [34](./sec-1-2-4.md#p-34), [383](./answers/1-2-6.md#p-383).
+- 赫罗斯, Charles Haros, [411](./answers/1-3-2.md#p-411).
+- 赫马坎德拉, Āchārya Hemacandra, [63](./sec-1-2-8.md#p-63).
+- 赫宁, James Jay Horning, [186](./sec-1-4-5.md#p-186).
+- 黑尔, David Edwin George Hare, [311](./sec-2-3-4-4.md#p-311).
+- 亨利兹, Peter Karl Eugen Henrici, [69](./sec-1-2-8.md#p-69).
+- 胡德强, Te Chiang Hu, [320](./sec-2-3-4-5.md#p-320), [474](./answers/2-3-4-5.md#p-474).
+- 花拉子米, Al-Khwārizmi, [1](./sec-1.md#p-1), [63](./sec-1-2-8.md#p-63).
+- 华林, Edward Waring, [62](./sec-1-2-7.md#p-62), [369](./answers/1-2-3.md#p-369).
+- 华兹华斯, William Wordsworth, [111](./sec-1-3-1.md#p-111).
+- 怀尔斯, Andrew John Wiles, [364](./sec-answers.md#p-364).
+- 怀曼, Max Wyman, [52](./sec-1-2-6.md#p-52).
+- 怀斯, David Stephen Wise, [200](./sec-2-2-2.md#p-200), [331](./sec-2-3-5.md#p-331), [341](./sec-2-4.md#p-341), [482](./answers/2-4.md#p-482).
+- 怀斯曼, Neil Ernest Wiseman, [331](./sec-2-3-5.md#p-331).
+- 怀特, Jesse Bowdle Wright, [284](./sec-2-3-3.md#p-284).
+- 黄秉超, Huang Bing-Chao, [142](./sec-1-3-3.md#p-142).
+- 黄光明, Frank Kwangming Hwang, [320](./sec-2-3-4-5.md#p-320), [474](./answers/2-3-4-5.md#p-474).
+- 黄显贵, Hsien-Kuei, [52](./sec-1-2-6.md#p-52).
+- 惠勒, David John Wheeler, [185](./sec-1-4-5.md#p-185), [186](./sec-1-4-5.md#p-186), [358](./sec-2-6.md#p-358).
+- 惠尼罕, Michael James Whinihan, [68](./sec-1-2-8.md#p-68).
+- 惠特沃思, William Allen Whitworth, [146](./sec-1-3-3.md#p-146).
+- 霍尔, Charles Antony Richard Hoare, [13](./sec-1-2-1.md#p-13), [185](./sec-1-4-5.md#p-185), [361](./sec-2-6.md#p-361).
+- 霍尔特, Anatol Wolf Holt, [360](./sec-2-6.md#p-360).
+- 霍里夫, Micha Hofri, [405](./answers/1-3-2.md#p-405).
+- 霍普, Grace M. Hopper, [184](./sec-1-4-4.md#p-184).
+- 霍普克洛夫特, John Edward Hopcroft, [446](./answers/2-2-6.md#p-446).
+- 基尔霍夫, Gustav Robert Kirchhoff, [320](./sec-2-3-4-5.md#p-320), [464](./answers/2-3-4-2.md#p-464).
+- 基尔默, Joyce Kilmer, [187](./sec-2.md#p-187).
+- 吉尔, Stanley Gill, [185](./sec-1-4-5.md#p-185), [186](./sec-1-4-5.md#p-186), [358](./sec-2-6.md#p-358).
+- 吉拉尔, Albert Girard, [390](./answers/1-2-9.md#p-390).
+- 加伯斯, George Gasper Jr., [384](./answers/1-2-6.md#p-384).
+- 加德纳, Martin Gardner, [14](./sec-1-2-1.md#p-14), [63](./sec-1-2-8.md#p-63), [467](./answers/2-3-4-3.md#p-467).
+- 加勒, Bernard Aaron Galler, [280](./sec-2-3-3.md#p-280).
+- 加威克, Jan Vaumund Garwick, [198](./sec-2-2-2.md#p-198), [358](./sec-2-6.md#p-358).
+- 贾宪, Chia Hsien, [42](./sec-1-2-6.md#p-42).
+- 姜, Tat Ong Cheam, [352](./sec-2-5.md#p-352).
+
+<a id="pdf-522"></a><a id="p-505"></a>
+
+- 杰弗瑞, David John Jeffrey, [311](./sec-2-3-4-4.md#p-311).
+- 金, James Cornelius King, [15](./sec-1-2-1.md#p-15).
+- 卡茨, Leo Katz, [470](./answers/2-3-4-4.md#p-470).
+- 卡恩, Arthur Bertram Kahn, [213](./sec-2-2-3.md#p-213).
+- 卡尔, John Weber Carr III, [358](./sec-2-6.md#p-358).
+- 卡赫里曼尼恩, Harry George Kahrimanian, [359](./sec-2-6.md#p-359).
+- 卡拉马特, Jovan Karamata, [52](./sec-1-2-6.md#p-52).
+- 卡莱尔, Thomas Carlyle, [xi](./frontmatter.md#p-xi).
+- 卡里兹, Leonard Carlitz, [76](./sec-1-2-9.md#p-76), [392](./answers/1-2-9.md#p-392), [398](./answers/1-2-11-3.md#p-398).
+- 卡利克, Bruce Kallick, [319](./sec-2-3-4-5.md#p-319).
+- 卡伦, Christopher Cullen, [59](./sec-1-2-6.md#p-59).
+- 卡罗尔, Lewis Carroll, [363](./sec-2-6.md#p-363).
+- 卡曼, Christian Kramp, [38](./sec-1-2-5.md#p-38), [381](./answers/1-2-6.md#p-381).
+- 卡佩利, Alfredo Capelli, [40](./sec-1-2-5.md#p-40).
+- 卡朋特, Brian Edward Carpenter, [185](./sec-1-4-5.md#p-185).
+- 卡普, Richard Manning Karp, [320](./sec-2-3-4-5.md#p-320).
+- 卡普兰斯基, Irving Kaplansky, [148](./sec-1-3-3.md#p-148), [416](./answers/1-3-3.md#p-416).
+- 卡塔兰, Eugéne Charles Catalan, [321](./sec-2-3-4-6.md#p-321).
+- 卡西尼, Jean Domenico Cassini, [64](./sec-1-2-8.md#p-64).
+- 卡约里, Florian Cajori, [18](./sec-1-2-2.md#p-18).
+- 开普勒, Johannes Kepler, [63](./sec-1-2-8.md#p-63), [64](./sec-1-2-8.md#p-64).
+- 凯勒, Helen Adams Keller, [98](./sec-1-2-11-3.md#p-98).
+- 凯利, Arthur Cayley, [312](./sec-2-3-4-4.md#p-312), [320](./sec-2-3-4-5.md#p-320), [321](./sec-2-3-4-6.md#p-321), [475](./answers/2-3-4-5.md#p-475).
+- 凯利, Thomas Cayley, [466](./answers/2-3-4-2.md#p-466).
+- 凯特, Esko George Cate, [414](./answers/1-3-3.md#p-414).
+- 坎贝尔, John Arthur Campbell, [352](./sec-2-5.md#p-352).
+- 康福特, Webb T. Comfort, [361](./sec-2-6.md#p-361).
+- 康威, John Horton Conway, [14](./sec-1-2-1.md#p-14), [63](./sec-1-2-8.md#p-63), [217](./sec-2-2-3.md#p-217), [321](./sec-2-3-4-6.md#p-321), [478](./answers/2-3-4-6.md#p-478).
+- 康威, Melvin Edward Conway, [121](./sec-1-3-2.md#p-121), [185](./sec-1-4-5.md#p-185).
+- 考克基, Josef Kaucký, [49](./sec-1-2-6.md#p-49).
+- 考克斯特, Harold Scott MacDonald Coxeter, [63](./sec-1-2-8.md#p-63), [130](./sec-1-3-2.md#p-130), [321](./sec-2-3-4-6.md#p-321).
+- 考莱斯, Robert Malcolm Corless, [311](./sec-2-3-4-4.md#p-311).
+- 柯尔莫哥洛夫, Andrey Nikolaevich Kolmogorov, [83](./sec-1-2-10.md#p-83), [84](./sec-1-2-10.md#p-84), [362](./sec-2-6.md#p-362).
+- 柯南·道尔, Arthur Conan Doyle, [363](./sec-2-6.md#p-363).
+- 柯西, Augustin Louis Cauchy, [28](./sec-1-2-3.md#p-28), [72](./sec-1-2-9.md#p-72), [371](./answers/1-2-3.md#p-371), [372](./answers/1-2-3.md#p-372), [384](./answers/1-2-6.md#p-384), [398](./answers/1-2-11-3.md#p-398), [411](./answers/1-3-2.md#p-411).
+- 科昂, Jacques Cohen, [489](./answers/2-5.md#p-489).
+- 科恩, Jacques Cohen, [331](./sec-2-3-5.md#p-331), [361](./sec-2-6.md#p-361).
+- 科克曼, Thomas Penyngton Kirkman, [321](./sec-2-3-4-6.md#p-321), [475](./answers/2-3-4-5.md#p-475).
+- 科林斯, George Edwin Collins, [360](./sec-2-6.md#p-360).
+- 科尼格, Dénes Kőnig, [301](./sec-2-3-4-2.md#p-301), [302](./sec-2-3-4-3.md#p-302), [320](./sec-2-3-4-5.md#p-320).
+- 科斯特尔, Cornelis Hermanus Antonius Koster, [361](./sec-2-6.md#p-361).
+- 科泽尔卡, Robert Marvin Kozelka, [432](./answers/2-2-2.md#p-432).
+- 克拉克, Douglas Wells Clark, [481](./answers/2-3-5.md#p-481).
+- 克拉那, David Anthony Klarner, [69](./sec-1-2-8.md#p-69).
+- 克拉滕特勒, Christian Krattenthaler, [30](./sec-1-2-3.md#p-30).
+- 克拉维约, Christopher Clavius, [128](./sec-1-3-2.md#p-128).
+- 克莱特曼, Daniel J. Kleitman, [434](./answers/2-2-3.md#p-434), [474](./answers/2-3-4-5.md#p-474).
+- 克雷恩, Steven Crain, [488](./answers/2-5.md#p-488).
+- 克雷尔, August Leopold Crelle, [46](./sec-1-2-6.md#p-46).
+- 克雷韦拉斯, Germain Kreweras, [476](./answers/2-3-4-6.md#p-476).
+- 克里斯蒂, Agatha Christie, [xiii](./frontmatter.md#p-xiii).
+- 克鲁斯卡尔, Joseph Bernard Kruskal, [304](./sec-2-3-4-3.md#p-304).
+- 克罗, Donald Warren Crowe, [478](./answers/2-3-4-6.md#p-478).
+- 克罗格达尔, Stein Krogdahl, [492](./answers/2-5.md#p-492).
+- 克罗内克, Leopold Kronecker, [26](./sec-1-2-3.md#p-26), [48](./sec-1-2-6.md#p-48).
+- 克诺普, Konrad Hermann Theodor Knopp, [38](./sec-1-2-5.md#p-38), [391](./answers/1-2-9.md#p-391).
+- 克斯琴霍夫, Peter Kirschenhofer, [398](./answers/1-2-11-3.md#p-398).
+- 孔祥重, Hsiang-Tsung Kung, [448](./answers/2-3.md#p-448).
+- 库克, Theodore Andera Cook, [64](./sec-1-2-8.md#p-64).
+- 库默尔, Ernst Edward Kummer, [55](./sec-1-2-6.md#p-55).
+- 奎克, Jonathan Horatio Quick, [394](./answers/1-2-10.md#p-394).
+- 拉贝尔, Gilbert Labelle, [311](./sec-2-3-4-4.md#p-311).
+- 拉茨, Yoav Raz, [424](./answers/1-4-4.md#p-424).
+- 拉菲尔, Bertram Raphael, [360](./sec-2-6.md#p-360).
+
+- 拉哈曼, Mizanur Rahman, [384](./answers/1-2-6.md#p-384).
+- 拉马丹, Prakash Viriyur Ramanan, [427](./answers/2-2-1.md#p-427).
+- 拉马努金, Srinivasa Ramanujan, [10](./sec-1-2-1.md#p-10), [96](./sec-1-2-11-3.md#p-96), [97](./sec-1-2-11-3.md#p-97).
+- 拉梅, Gabriel Lamé, [321](./sec-2-3-4-6.md#p-321).
+- 拉米斯, Christian Ramus, [56](./sec-1-2-6.md#p-56).
+- 拉姆肖, Lyle Harold Ramshaw, [382](./answers/1-2-6.md#p-382).
+- 拉诺斯, James Richard Larus, [292](./sec-2-3-4-1.md#p-292).
+- 拉普拉斯, Pierre Simon Laplace, [69](./sec-1-2-8.md#p-69), [463](./answers/2-3-4-2.md#p-463).
+- 拉塞尔, David Lewis Russell, [488](./answers/2-5.md#p-488).
+- 拉塞尔, Lawford John Russell, [162](./sec-1-4-3.md#p-162).
+- 莱布尼茨, Gottfried Wilhelm Leibniz, [1](./sec-1.md#p-1), [40](./sec-1-2-5.md#p-40).
+- 莱顿, Frank Thomson Leighton, [352](./sec-2-5.md#p-352)–[353](./sec-2-5.md#p-353).
+- 莱杰, Émile Léger, [63](./sec-1-2-8.md#p-63).
+- 莱默, Derrick Henry Lehmer, [363](./sec-2-6.md#p-363).
+- 莱斯, Stephan Oswald Rice, [449](./answers/2-3-1.md#p-449).
+- 莱文, Jan van Leeuwen, [474](./answers/2-3-4-5.md#p-474).
+- 莱因戈尔德, Edward Martin Reingold, [18](./sec-1-2-2.md#p-18), [409](./answers/1-3-2.md#p-409).
+- 赖尔登, John Riordan, [473](./answers/2-3-4-5.md#p-473).
+- 赖特, Edward Maitland Wright, [386](./answers/1-2-7.md#p-386), [411](./answers/1-3-2.md#p-411).
+- 兰伯特, Leslie B. Lamport, [481](./answers/2-3-5.md#p-481).
+- 兰德尔, Brian Randell, [162](./sec-1-4-3.md#p-162), [352](./sec-2-5.md#p-352).
+- 朗坦, A. Lentin, [417](./answers/1-3-3.md#p-417).
+- 劳埃德, Stuart Phinney Lloyd, [147](./sec-1-3-3.md#p-147), [148](./sec-1-3-3.md#p-148).
+- 勒鲁, Pierre Leroux, [311](./sec-2-3-4-4.md#p-311).
+- 勒让德, Adrien-Marie Legendre, [35](./sec-1-2-4.md#p-35), [39](./sec-1-2-5.md#p-39), [40](./sec-1-2-5.md#p-40).
+- 勒什鲍, Warren Lushbaugh, [14](./sec-1-2-1.md#p-14).
+- 勒维克, William Judson LeVeque, [364](./sec-answers.md#p-364).
+- 雷纳, Alan Lewine Leiner, [186](./sec-1-4-5.md#p-186).
+- 雷尼, Alfréd Rényi, [473](./answers/2-3-4-5.md#p-473).
+- 雷尼, George Neal Raney, [309](./sec-2-3-4-4.md#p-309), [311](./sec-2-3-4-4.md#p-311), [472](./answers/2-3-4-4.md#p-472).
+- 雷诺曼, C. Lenormand, [417](./answers/1-3-3.md#p-417).
+- 黎曼, Georg Friedrich Bernhard Riemann, [60](./sec-1-2-7.md#p-60).
+- 李斯亭, Johann Benedict Listing, [320](./sec-2-3-4-5.md#p-320).
+- 里本伯姆, Paulo Ribenboim, [364](./sec-answers.md#p-364).
+- 里德, Ronald Cedric Read, [449](./answers/2-3-1.md#p-449).
+- 里夫斯, Colin Morrison Reeves, [349](./sec-2-5.md#p-349).
+- 里利乌斯, Aloysius Lilius, [128](./sec-1-3-2.md#p-128).
+- 里奇, Dennis MacAlistair Ritchie, [361](./sec-2-6.md#p-361).
+- 里士满, Lawrence Bruce Richmond, [449](./answers/2-3-1.md#p-449).
+- 利特尔伍德, John Edensor Littlewood, [320](./sec-2-3-4-5.md#p-320).
+- 利维, Silvio Vieira Ferreira Levy, [ix](./frontmatter.md#p-ix).
+- 列奥纳多, Leonardo Pisano, [63](./sec-1-2-8.md#p-63).
+- 列维, Paul Lévy, [84](./sec-1-2-10.md#p-84).
+- 林奇, William Charles Lynch, [465](./answers/2-3-4-2.md#p-465).
+- 林斯基, Vladislav Sergeevich Linsky, [368](./answers/1-2-2.md#p-368).
+- 卢恩, Hans Peter Luhn, [358](./sec-2-6.md#p-358).
+- 卢卡斯, François Édouard Anatole Lucas, [55](./sec-1-2-6.md#p-55), [63](./sec-1-2-8.md#p-63), [64](./sec-1-2-8.md#p-64), [68](./sec-1-2-8.md#p-68), [217](./sec-2-2-3.md#p-217), [388](./answers/1-2-8.md#p-388).
+- 卢卡西维茨, Jan Łukasiewicz, [267](./sec-2-3-2.md#p-267).
+- 鲁索, Cecil Clyde Rousseau, [398](./answers/1-2-11-3.md#p-398).
+- 伦奇, John William Wrench, Jr., [376](./answers/1-2-4.md#p-376).
+- 罗宾逊, Raphael Mitchel Robinson, [467](./answers/2-3-4-3.md#p-467).
+- 罗布森, John Michael Robson, [351](./sec-2-5.md#p-351), [354](./sec-2-5.md#p-354), [356](./sec-2-5.md#p-356), [451](./answers/2-3-1.md#p-451), [481](./answers/2-3-5.md#p-481).
+- 罗德里格斯, Benjamin Olinde Rodrigues, [321](./sec-2-3-4-6.md#p-321).
+- 罗基奇, Tomas Gerhard Rokicki, [162](./sec-1-4-3.md#p-162).
+- 罗见今, Jianjin Luo, [321](./sec-2-3-4-6.md#p-321).
+- 罗杰斯, Leonard James Rogers, [384](./answers/1-2-6.md#p-384).
+- 罗森堡, Arnold Leonard Rosenberg, [445](./answers/2-2-6.md#p-445).
+- 罗森斯泰, Pierre Rosenstiehl, [195](./sec-2-2-1.md#p-195).
+- 罗思, Heinrich August Rothe, [49](./sec-1-2-6.md#p-49), [58](./sec-1-2-6.md#p-58), [381](./answers/1-2-6.md#p-381).
+- 罗斯, Douglas Taylor Ross, [352](./sec-2-5.md#p-352), [358](./sec-2-6.md#p-358), [361](./sec-2-6.md#p-361).
+- 罗斯, Piet Bernard Marie Roes, [80](./sec-1-2-10.md#p-80).
+- 洛卜史塔, Bram Jan Loopstra, [186](./sec-1-4-5.md#p-186).
+- 洛根, Benjamin Franklin Logan, [58](./sec-1-2-6.md#p-58).
+- 洛朗, Pierre Alphonse Laurent, [370](./answers/1-2-3.md#p-370).
+- 洛瓦茨, László Lovász, [385](./answers/1-2-6.md#p-385).
+- 玛德尼克, Stuart Elliot Madnick, [360](./sec-2-6.md#p-360).
+
+<a id="pdf-523"></a><a id="p-506"></a>
+
+- 马丁, Alain Jean Martin, [481](./answers/2-3-5.md#p-481).
+- 马丁, Johannes Jakob Martin, [489](./answers/2-5.md#p-489).
+- 马尔可夫, Andrei Andreevich Markov, [6](./sec-1-1.md#p-6), [300](./sec-2-3-4-2.md#p-300), [389](./answers/1-2-8.md#p-389).
+- 马格林, Barry Herbert Margolin, [352](./sec-2-5.md#p-352).
+- 马哈维拉, Mahāvira, [42](./sec-1-2-6.md#p-42).
+- 马季亚谢维奇, Yuri Matiyasevich, [68](./sec-1-2-8.md#p-68).
+- 马科维茨, Harry Max Markowitz, [361](./sec-2-6.md#p-361).
+- 马可夫斯基, George Markowsky, [63](./sec-1-2-8.md#p-63), [319](./sec-2-3-4-5.md#p-319).
+- 马洛斯, Colin Lingwood Mallows, [426](./answers/2-2-1.md#p-426).
+- 马若利科, Francesco Maurolico, [13](./sec-1-2-1.md#p-13).
+- 麦基曼, William Marshall McKeeman, [186](./sec-1-4-5.md#p-186).
+- 麦吉特, John Edward Meggitt, [368](./answers/1-2-2.md#p-368).
+- 麦卡恩, Anthony Paul McCann, [489](./answers/2-5.md#p-489).
+- 麦卡锡, John McCarthy, [360](./sec-2-6.md#p-360)–[361](./sec-2-6.md#p-361).
+- 麦克罗伊, Malcolm Douglas McIlroy, [458](./answers/2-3-2.md#p-458), [462](./answers/2-3-4-2.md#p-462).
+- 麦克马洪, Percy Alexander MacMahon, [384](./answers/1-2-6.md#p-384), [468](./answers/2-3-4-3.md#p-468).
+- 麦克伊利斯, Robert McEliece, [373](./answers/1-2-4.md#p-373).
+- 梅尔维尔, Robert Christian Melville, [428](./answers/2-2-1.md#p-428).
+- 梅利克斯, Barry James Mailloux, [361](./sec-2-6.md#p-361).
+- 梅林顿, Maxine Merrington, [52](./sec-1-2-6.md#p-52).
+- 蒙罗, James Ian Munro, [414](./answers/1-3-3.md#p-414).
+- 米尔斯基, Leon Mirsky, [467](./answers/2-3-4-3.md#p-467).
+- 米克, Homer Vergil Meek, [186](./sec-1-4-5.md#p-186).
+- 米勒, Kenneth William Miller, [98](./sec-1-2-11-3.md#p-98).
+- 米里, George Mealy, [361](./sec-2-6.md#p-361).
+- 米利曼诺夫, Dmitri Mirimanoff, [425](./answers/2-1.md#p-425).
+- 米歇尔, William Charles Mitchell, [415](./answers/1-3-3.md#p-415).
+- 闵斯基, Marvin Lee Minsky, [332](./sec-2-3-5.md#p-332).
+- 莫茨金, Theodor Motzkin, [472](./answers/2-3-4-4.md#p-472).
+- 莫德尔, Louis Joel Mordell, [375](./answers/1-2-4.md#p-375).
+- 莫里森, Philip Morrison, [184](./sec-1-4-4.md#p-184).
+- 莫里斯, Francis Lockwood Morris, [13](./sec-1-2-1.md#p-13), [489](./answers/2-5.md#p-489).
+- 莫里斯, Joseph Martin Morris, [451](./answers/2-3-1.md#p-451).
+- 莫纳, Jack Newton Forsythe Merner, [185](./sec-1-4-5.md#p-185).
+- 莫奇利, John William Mauchly, [185](./sec-1-4-5.md#p-185), [358](./sec-2-6.md#p-358).
+- 莫泽, Leo Moser, [52](./sec-1-2-6.md#p-52).
+- 默慈金, Theodore Samuel Motzkin, [68](./sec-1-2-8.md#p-68).
+- 默克, Owen Russell Mock, [186](./sec-1-4-5.md#p-186).
+- 穆恩, John Wesley Moon, [321](./sec-2-3-4-6.md#p-321).
+- 穆哈默德, John Llewelyn Mohammed, [417](./answers/1-3-3.md#p-417).
+- 纳戈尔内, Nikolai Makarovich Nagorny, [6](./sec-1-1.md#p-6).
+- 纳哈培蒂安, Armen Nahapetian, [461](./answers/2-3-4-1.md#p-461).
+- 纳皮尔, John Napier, [18](./sec-1-2-2.md#p-18).
+- 纳什, Paul Nash, [442](./answers/2-2-5.md#p-442).
+- 那罗延, Tadepalli Venkata Narayana, [476](./answers/2-3-4-6.md#p-476).
+- 奈加特, Kristen Nygaard, [185](./sec-1-4-5.md#p-185), [361](./sec-2-6.md#p-361).
+- 内维尔, Eric Harold Neville, [470](./answers/2-3-4-4.md#p-470).
+- 尼达姆, Joseph Needham, [47](./sec-1-2-6.md#p-47).
+- 尼尔森, Norman Russell Nielsen, [352](./sec-2-5.md#p-352).
+- 尼古劳, Alexandru Nicolau, [489](./answers/2-5.md#p-489).
+- 尼科梅彻斯, Nicomachus, [14](./sec-1-2-1.md#p-14).
+- 尼利, Michael Neely, [354](./sec-2-5.md#p-354).
+- 尼云, Ivan Morton Niven, [69](./sec-1-2-8.md#p-69).
+- 牛顿, Isaac Newton, [17](./sec-1-2-2.md#p-17), [45](./sec-1-2-6.md#p-45), [390](./answers/1-2-9.md#p-390).
+- 纽厄尔, Allen Newell, [185](./sec-1-4-5.md#p-185), [358](./sec-2-6.md#p-358), [360](./sec-2-6.md#p-360).
+- 诺尔, Peter Naur, [13](./sec-1-2-1.md#p-13).
+- 诺尔顿, Kenneth Charles Knowlton, [361](./sec-2-6.md#p-361).
+- 欧几里得, Euclid, [2](./sec-1-1.md#p-2), [3](./sec-1-1.md#p-3).
+- 欧拉, Leonhard Euler, [38](./sec-1-2-5.md#p-38), [40](./sec-1-2-5.md#p-40), [41](./sec-1-2-5.md#p-41), [45](./sec-1-2-6.md#p-45), [59](./sec-1-2-6.md#p-59), [60](./sec-1-2-7.md#p-60), [69](./sec-1-2-8.md#p-69), [88](./sec-1-2-11-1.md#p-88), [296](./sec-2-3-4-2.md#p-296), [320](./sec-2-3-4-5.md#p-320), [369](./answers/1-2-3.md#p-369), [386](./answers/1-2-7.md#p-386), [390](./answers/1-2-9.md#p-390), [425](./answers/2-1.md#p-425), [478](./answers/2-3-4-6.md#p-478).
+- 欧廷格, Anthony Gervin Oettinger, [360](./sec-2-6.md#p-360).
+- 帕夫拉克, Zdzisław Pawlak, [360](./sec-2-6.md#p-360).
+- 帕克, Douglass Stott Parker, Jr., [474](./answers/2-3-4-5.md#p-474).
+- 帕罗, Jean Marcel Pallo, [460](./answers/2-3-3.md#p-460).
+- 帕米利, Richard Paine Parmelee, [352](./sec-2-5.md#p-352).
+- 帕斯卡, Blaise Pascal, [13](./sec-1-2-1.md#p-13), [42](./sec-1-2-6.md#p-42).
+
+- 帕塔许尼克, Oren Patashnik, [8](./sec-1-2.md#p-8).
+- 帕特, Yale Nance Patt, [400](./answers/1-3-1.md#p-400).
+- 派克, John Edward L. Peck, [361](./sec-2-6.md#p-361).
+- 潘洛斯, Roger Penrose, [467](./answers/2-3-4-3.md#p-467).
+- 庞加莱, Jules Henri Poincaré, [385](./answers/1-2-6.md#p-385).
+- 佩利, Alan Jay Perlis, [255](./sec-2-3-1.md#p-255), [359](./sec-2-6.md#p-359).
+- 佩罗特, J.-F. Perrot, [417](./answers/1-3-3.md#p-417).
+- 皮尔士, Charles Santiago Sanders Peirce, [472](./answers/2-3-4-4.md#p-472).
+- 皮托利诺, Joseph Anthony Petolino, [407](./answers/1-3-2.md#p-407).
+- 平加拉, Acārya Pingala, [42](./sec-1-2-6.md#p-42).
+- 婆什迦罗, Bhāskara, [43](./sec-1-2-6.md#p-43).
+- 普法夫, Joseph Authony Pfaff, [381](./answers/1-2-6.md#p-381).
+- 普福鲁克, Georg Christian Pflug, [349](./sec-2-5.md#p-349).
+- 普拉特, Vaughan Ronald Pratt, [36](./sec-1-2-5.md#p-36), [427](./answers/2-2-1.md#p-427), [471](./answers/2-3-4-4.md#p-471).
+- 普里姆, Robert Clay Prim, [293](./sec-2-3-4-1.md#p-293).
+- 普林茨, Dietrich Gunter Prinz, [185](./sec-1-4-5.md#p-185).
+- 普罗丁格, Helmut Prodinger, [398](./answers/1-2-11-3.md#p-398).
+- 普吕佛, Ernst Paul Heinz Prüfer, [321](./sec-2-3-4-6.md#p-321).
+- 齐肯多夫, Edouard Zeckendorf, [388](./answers/1-2-8.md#p-388).
+- 齐默尔曼, Seth Zimmerman, [321](./sec-2-3-4-6.md#p-321).
+- 乔拉, Paromita Chowla, [244](./sec-2-2-6.md#p-244).
+- 切比雪夫, Chebyshev, [78](./sec-1-2-10.md#p-78).
+- 切尔诺夫, Herman Chernoff, [394](./answers/1-2-10.md#p-394).
+- 切尼, Christopher John Cheney, [331](./sec-2-3-5.md#p-331).
+- 切尼, Ednah Dow Littlehale Cheney, [298](./sec-2-3-4-2.md#p-298).
+- 琼克斯, Henricus Bernardus Mmaria Jonkers, [489](./answers/2-5.md#p-489).
+- 琼斯, Clifford Bryn Jones, [13](./sec-1-2-1.md#p-13).
+- 琼斯, Mary Whitmore Jones, [298](./sec-2-3-4-2.md#p-298).
+- 裘努埃, François Genuys, [186](./sec-1-4-5.md#p-186).
+- 瑞德海法, Raymond Moos Redheffer, [385](./answers/1-2-6.md#p-385).
+- 若尔当, Marie Ennemond Camille Jordan, [306](./sec-2-3-4-4.md#p-306), [320](./sec-2-3-4-5.md#p-320).
+- 萨比, Carlos Samuel Subi, [417](./answers/1-3-3.md#p-417).
+- 萨米特, Jean Elaine Sammet, [361](./sec-2-6.md#p-361), [457](./answers/2-3-2.md#p-457).
+- 塞尔弗里奇, John Lewis Selfridge, [62](./sec-1-2-7.md#p-62).
+- 塞格纳, Johann Andreas von Segner, [425](./answers/2-1.md#p-425).
+- 塞凯赖什, Gy .orgy Szekeres, [473](./answers/2-3-4-5.md#p-473).
+- 桑顿, Charles Thornton, [255](./sec-2-3-1.md#p-255), [359](./sec-2-6.md#p-359).
+- 沙措夫, Martin Schatzoff, [352](./sec-2-5.md#p-352).
+- 沙基昌, Jichang Sha, [434](./answers/2-2-3.md#p-434).
+- 沙姆斯, Armin Shams-Baragh, [416](./answers/1-3-3.md#p-416).
+- 莎士比亚, William Shakespeare, [187](./sec-2.md#p-187), [364](./sec-answers.md#p-364).
+- 舍尔克, Scherk Heinrich Ferdinand, [384](./answers/1-2-6.md#p-384).
+- 圣玛丽, Camille Flye Sainte-Marie, [465](./answers/2-3-4-2.md#p-465).
+- 施蒂克贝格, Ludwig Stickelberger, [40](./sec-1-2-5.md#p-40).
+- 施赖埃尔, Otto Schreier, [304](./sec-2-3-4-3.md#p-304).
+- 施赖伯, Peter Schreiber, [64](./sec-1-2-8.md#p-64).
+- 施罗德, Friedrich Wilhelm Karl Ernst Schröder, [471](./answers/2-3-4-4.md#p-471).
+- 施瓦茨, Eugene Sidney Schwartz, [319](./sec-2-3-4-5.md#p-319).
+- 施瓦茨, Hermann Amandus Schwarz, [28](./sec-1-2-3.md#p-28).
+- 施魏因兹, Ferdinand Schweins, [383](./answers/1-2-6.md#p-383).
+- 施文克, Allen John Schwenk, [389](./answers/1-2-8.md#p-389).
+- 史蒂格勒, Stephen Mack Stigler, [351](./sec-2-5.md#p-351), [352](./sec-2-5.md#p-352).
+- 史威普, Earl Justin Schweppe, [359](./sec-2-6.md#p-359).
+- 朔尔, Amir Schoor, [445](./answers/2-2-6.md#p-445).
+- 斯蒂尔, Guy Lewis Steele, Jr., [481](./answers/2-3-5.md#p-481).
+- 斯蒂芬森, Johan Frederik Steffensen, [395](./answers/1-2-11-1.md#p-395).
+- 斯蒂芬斯, Elisabeth Francisca Maria Steffens, [481](./answers/2-3-5.md#p-481).
+- 斯蒂文森, Francis Robert Stevenson, [461](./answers/2-3-4-1.md#p-461).
+- 斯科尔滕, Carel Steven Scholten, [186](./sec-1-4-5.md#p-186), [481](./answers/2-3-5.md#p-481).
+- 斯洛恩, Neil James Alexander Sloane, [473](./answers/2-3-4-5.md#p-473).
+- 斯皮伯, Jürgen Spieß, [72](./sec-1-2-9.md#p-72).
+- 斯塔韦尔, Tor B. Staver, [463](./answers/2-3-4-2.md#p-463).
+- 斯坦利, Richard Peter Stanley, [321](./sec-2-3-4-6.md#p-321), [471](./answers/2-3-4-4.md#p-471), [476](./answers/2-3-4-6.md#p-476).
+- 斯特恩斯, Richard Edwin Stearns, [362](./sec-2-6.md#p-362).
+- 斯特林, James Stirling, [37](./sec-1-2-5.md#p-37)–[38](./sec-1-2-5.md#p-38), [53](./sec-1-2-6.md#p-53), [54](./sec-1-2-6.md#p-54), [58](./sec-1-2-6.md#p-58), [69](./sec-1-2-8.md#p-69), [91](./sec-1-2-11-2.md#p-91), [145](./sec-1-3-3.md#p-145).
+- 斯特洛伊克, Dirk Jan Struik, [45](./sec-1-2-6.md#p-45), [376](./answers/1-2-4.md#p-376), [390](./answers/1-2-9.md#p-390).
+
+<a id="pdf-524"></a><a id="p-507"></a>
+
+- 斯特洛伊克, Dirk Jan Struik, [45](./sec-1-2-6.md#p-45), [376](./answers/1-2-4.md#p-376), [390](./answers/1-2-9.md#p-390).
+- 斯图尔特, Alan Stuart, [80](./sec-1-2-10.md#p-80).
+- 斯托拉斯基, Kenneth Barry Stolarsky, [389](./answers/1-2-8.md#p-389).
+- 斯威夫特, Charles James Swift, [186](./sec-1-4-5.md#p-186).
+- 斯威夫特, Jonathan Swift, [508](./sec-index.md#p-508).
+- 斯文森, William John Swainson, [262](./sec-2-3-1.md#p-262).
+- 苏比尔拉, Edward Szpilrajn, [213](./sec-2-2-3.md#p-213).
+- 苏瑞, Subhash Suri, [405](./answers/1-3-2.md#p-405).
+- 苏泽兰, Ivan Sutherland, [359](./sec-2-6.md#p-359).
+- 索尔顿, Gerard Anton Salton, [278](./sec-2-3-3.md#p-278), [359](./sec-2-6.md#p-359).
+- 索里亚, Michele Soria, [393](./answers/1-2-10.md#p-393).
+- 塔克, Alan Curtiss Tucker, [320](./sec-2-3-4-5.md#p-320).
+- 塔迈里, Dov Tamari, [460](./answers/2-3-3.md#p-460).
+- 塔特, William Thomas Tutte, [464](./answers/2-3-4-2.md#p-464).
+- 塔扬, Robert Endre Tarjan, [195](./sec-2-2-1.md#p-195), [462](./answers/2-3-4-2.md#p-462).
+- 特里戈米, Francesco Giacomo Filippo Tricomi, [96](./sec-1-2-11-3.md#p-96), [97](./sec-1-2-11-3.md#p-97).
+- 特里林, Laurent Trilling, [361](./sec-2-6.md#p-361).
+- 特姆, Nicolaas Maria Temme, [52](./sec-1-2-6.md#p-52), [96](./sec-1-2-11-3.md#p-96).
+- 特威格, David William Twigg, [414](./answers/1-3-3.md#p-414).
+- 图灵, Alan Turing, [13](./sec-1-2-1.md#p-13), [14](./sec-1-2-1.md#p-14), [155](./sec-1-4-1.md#p-155), [185](./sec-1-4-5.md#p-185), [359](./sec-2-6.md#p-359).
+- 吐德哈特, Isaac Todhunter, [146](./sec-1-3-3.md#p-146).
+- 吐温, Mark Twain, [43](./sec-1-2-6.md#p-43).
+- 托德, John Todd, [371](./answers/1-2-3.md#p-371).
+- 托勒里, Gabriele Torelli, [56](./sec-1-2-6.md#p-56), [383](./answers/1-2-6.md#p-383).
+- 托雷利, Lars-Erik Thorelli, [480](./answers/2-3-5.md#p-480), [489](./answers/2-5.md#p-489).
+- 托斯卡诺, Letterio Toscano, [40](./sec-1-2-5.md#p-40).
+- 瓦德勒, Philip Lee Wadler, [481](./answers/2-3-5.md#p-481).
+- 瓦尔迪, Ilan Vardi, [396](./answers/1-2-11-2.md#p-396).
+- 瓦格纳, Peter Wegner, [243](./sec-2-2-6.md#p-243).
+- 王浩, Hao Wang, [302](./sec-2-3-4-3.md#p-302)–[303](./sec-2-3-4-3.md#p-303).
+- 威尔弗, Herbert Saul Wilf, [51](./sec-1-2-6.md#p-51), [52](./sec-1-2-6.md#p-52), [74](./sec-1-2-9.md#p-74), [379](./answers/1-2-6.md#p-379).
+- 威尔克斯, Maurice Vincent Wilkes, [185](./sec-1-4-5.md#p-185), [358](./sec-2-6.md#p-358).
+- 威尔逊, John Wilson, [40](./sec-1-2-5.md#p-40).
+- 威尔逊, Paul Robinson Wilson, [354](./sec-2-5.md#p-354).
+- 维克托里斯, Victorius, [409](./answers/1-3-2.md#p-409).
+- 维森鲍姆, Joseph Weizenbaum, [326](./sec-2-3-5.md#p-326), [359](./sec-2-6.md#p-359)–[361](./sec-2-6.md#p-361).
+- 韦伯, Helmut Weber, [361](./sec-2-6.md#p-361).
+- 韦德伯恩, Joseph Henry Maclagan Wedderburn, [468](./answers/2-3-4-3.md#p-468).
+- 韦格布里特, Eliot Ben Wegbreit, [489](./answers/2-5.md#p-489).
+- 韦兰德, Richard Joel Weiland, [484](./answers/2-5.md#p-484).
+- 韦特, William McCastline Waite, [328](./sec-2-3-5.md#p-328), [331](./sec-2-3-5.md#p-331), [489](./answers/2-5.md#p-489).
+- 温德利, Peter F. Windley, [414](./answers/1-3-3.md#p-414).
+- 温克勒, Phyllis Astrid Benson Winkler, [ix](./frontmatter.md#p-ix).
+- 沃德, Martin Ward, [459](./answers/2-3-3.md#p-459).
+- 沃尔, Hubert Stanley Wall, [377](./answers/1-2-5.md#p-377).
+- 沃夫纳格, Vauvenargues, [xi](./frontmatter.md#p-xi).
+- 沃利斯, John Wallis, [17](./sec-1-2-2.md#p-17), [41](./sec-1-2-5.md#p-41), [92](./sec-1-2-11-2.md#p-92).
+- 沃隆蒂斯, Vidar Michael Wolontis, [185](./sec-1-4-5.md#p-185).
+- 沃伦, Don Wyman Warren, [284](./sec-2-3-3.md#p-284).
+- 沃森, Dan Caldwell Watson, [200](./sec-2-2-2.md#p-200).
+- 沃森, George Neville Watson, [398](./answers/1-2-11-3.md#p-398).
+- 沃森, Henry William Watson, [302](./sec-2-3-4-3.md#p-302).
+- 沃斯, Niklaus Emil Wirth, [153](./sec-1-4-1.md#p-153), [361](./sec-2-6.md#p-361).
+- 沃特曼, David Barkley Wortman, [186](./sec-1-4-5.md#p-186).
+- 乌斯宾斯基, Vladimir Andreevich Uspensky, [362](./sec-2-6.md#p-362).
+- 伍德沃德, Philip Mayne Woodward, [360](./sec-2-6.md#p-360).
+- 伍尔曼, Eric Wolman, [354](./sec-2-5.md#p-354).
+- 伍兹, Mary Lee Woods, [185](./sec-1-4-5.md#p-185).
+- 希尔, Robert Hill, [409](./answers/1-3-2.md#p-409).
+- 希尔伯特, David Hilbert, [30](./sec-1-2-3.md#p-30).
+- 希尔弗, Roland Lazarus Silver, [417](./answers/1-3-3.md#p-417).
+
+- 西尔维斯特, James Joseph Sylvester, [321](./sec-2-3-4-6.md#p-321), [370](./answers/1-2-3.md#p-370), [464](./answers/2-3-4-2.md#p-464), [466](./answers/2-3-4-2.md#p-466).
+- 西蒙, Herbert Alexander Simon, [185](./sec-1-4-5.md#p-185), [358](./sec-2-6.md#p-358).
+- 西蒙诺维茨, Miklós Simonovits, [397](./answers/1-2-11-3.md#p-397).
+- 喜帕恰斯, Hipparchus, [471](./answers/2-3-4-4.md#p-471).
+- 小埃文斯, Arthur Evans, Jr., [162](./sec-1-4-3.md#p-162).
+- 小贝克, Henry Givens Baker, Jr., [481](./answers/2-3-5.md#p-481).
+- 小德尔, Phillip DeVere Deuel, Jr., [442](./answers/2-2-5.md#p-442).
+- 小高斯珀, Ralph William Gosper, Jr., [51](./sec-1-2-6.md#p-51).
+- 小科夫曼, Edward Grady Coffman, Jr., [352](./sec-2-5.md#p-352)–[353](./sec-2-5.md#p-353).
+- 小劳松, Harold Wilbur Lawson, Jr., [339](./sec-2-4.md#p-339), [361](./sec-2-6.md#p-361).
+- 小伦奇, John William Wrench, Jr., [494](./sec-app-a.md#p-494).
+- 小珀德姆, Paul Walton Purdom, Jr., [351](./sec-2-5.md#p-351), [352](./sec-2-5.md#p-352).
+- 小萨特思韦特, Edwin Hallowell Satterthwaite, Jr., [186](./sec-1-4-5.md#p-186).
+- 小斯特朗, Hovey Raymond Strong, Jr., [445](./answers/2-2-6.md#p-445).
+- 小汤奇, Frederic McLanahan Tonge, Jr., [360](./sec-2-6.md#p-360).
+- 小扬, David Monaghan Young, Jr., [466](./answers/2-3-4-2.md#p-466).
+- 小野寺力夫, Rikio Onodera, [463](./answers/2-3-4-2.md#p-463).
+- 肖, John Clifford Shaw, [185](./sec-1-4-5.md#p-185), [358](./sec-2-6.md#p-358).
+- 肖, John Edward Shore, [349](./sec-2-5.md#p-349), [352](./sec-2-5.md#p-352).
+- 肖尔, Herbert Schorr, [328](./sec-2-3-5.md#p-328), [331](./sec-2-3-5.md#p-331).
+- 谢夫勒, Alejandro Alberto Schäffer, [405](./answers/1-3-2.md#p-405).
+- 谢拉德, Charles Fordemwalt Schlatter, [359](./sec-2-6.md#p-359).
+- 谢拉德, William J0seph Schlatter, [359](./sec-2-6.md#p-359).
+- 谢泼德, Geoffrey Colin Shephard, [303](./sec-2-3-4-3.md#p-303), [467](./answers/2-3-4-3.md#p-467).
+- 辛格, Parmanand Singh, [63](./sec-1-2-8.md#p-63).
+- 秀尔, Peter Williston Shor, [405](./answers/1-3-2.md#p-405).
+- 薛普, Lawrence Alan Shepp, [147](./sec-1-3-3.md#p-147), [148](./sec-1-3-3.md#p-148).
+- 雅各布, Simon Jacob, [64](./sec-1-2-8.md#p-64).
+- 雅卡尔, Joseph Marie Jacquard, [184](./sec-1-4-4.md#p-184).
+- 雅可比, Carl Jacobi, [384](./answers/1-2-6.md#p-384).
+- 雅克, A. Jacques, [417](./answers/1-3-3.md#p-417).
+- 雅克, Philippe Pierre Jacquet, [405](./answers/1-3-2.md#p-405).
+- 亚当斯, Charles William Adams, [185](./sec-1-4-5.md#p-185).
+- 亚尔登, Dov Jarden, [68](./sec-1-2-8.md#p-68), [388](./answers/1-2-8.md#p-388).
+- 杨辉, Yang Hui, [42](./sec-1-2-6.md#p-42).
+- 姚储枫, Francis Yao, [iv](./frontmatter.md#p-iv).
+- 姚期智, Andrew Chi-Chih Yao, [430](./answers/2-2-2.md#p-430).
+- 叶戈雷切夫, Georgii Petrovich Egorychev, [392](./answers/1-2-9.md#p-392).
+- 伊利弗, John Kenneth Iliffe, [361](./sec-2-6.md#p-361).
+- 伊泰, Alon Itai, [424](./answers/1-4-4.md#p-424).
+- 英格尔斯, Daniel Henry Holmes Ingalls, [413](./answers/1-3-2.md#p-413).
+- 英韦, Victor Huse Yngve, [360](./sec-2-6.md#p-360).
+- 尤德, Michael Franz Yoder, [375](./answers/1-2-4.md#p-375).
+- 尤勒, Horace Scudder Uhler, [376](./answers/1-2-4.md#p-376).
+- 玉置惠子, Jeanne Keiko Tamaki, [474](./answers/2-3-4-5.md#p-474).
+- 约翰斯通, Mark Stuart Johnstone, [354](./sec-2-5.md#p-354).
+- 约翰逊, Lyle Robert Johnson, [359](./sec-2-6.md#p-359)–[360](./sec-2-6.md#p-360).
+- 泽贝尔, Sandy Zabell, [385](./answers/1-2-6.md#p-385).
+- 泽丹, Hussain Zedan, [459](./answers/2-3-3.md#p-459).
+- 泽尔伯格, Doron Zeilberger, [51](./sec-1-2-6.md#p-51).
+- 泽尔丹, John Riordan, [313](./sec-2-3-4-4.md#p-313), [388](./answers/1-2-8.md#p-388).
+- 泽夫, Derek Alan Zave, [72](./sec-1-2-9.md#p-72).
+- 泽马内克, Heinz Zemanek, [1](./sec-1.md#p-1).
+- 扎克斯, Shmuel Zaks, [476](./answers/2-3-4-6.md#p-476).
+- 扎韦, Derek Alan Zave, [489](./answers/2-5.md#p-489).
+- 詹金斯, David Philip Jenkins, [360](./sec-2-6.md#p-360).
+- 钟金芳蓉, Graham Chung, Fan Rong King, [405](./answers/1-3-2.md#p-405).
+- 钟开莱, Kai Lai Chung, [84](./sec-1-2-10.md#p-84).
+- 朱世杰, Shih-Chieh Zhu, [42](./sec-1-2-6.md#p-42), [47](./sec-1-2-6.md#p-47), [55](./sec-1-2-6.md#p-55).
+- 卓亚, André Joyal, [311](./sec-2-3-4-4.md#p-311).
+- 佐迪, Jane Griffin Jodeit, [361](./sec-2-6.md#p-361).
+- 佐恩, Max Zorn, [434](./answers/2-2-3.md#p-434).

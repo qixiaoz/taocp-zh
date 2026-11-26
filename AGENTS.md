@@ -19,6 +19,7 @@
 | `计算机程序设计艺术·卷2·半数值算法.md`、`校订报告·卷2.md` | 卷二独立母稿和报告；资源及公开复核记录位于 `assets/volume2/`。 |
 | `计算机程序设计艺术·卷4B·组合算法（二）.md`、`校订报告·卷4B.md` | 卷 4B 的独立中译稿与报告。依英文初版页码定位，插图与校订记录在 `assets/volume4b/`。 |
 | `scripts/book-volumes.mjs` | 各卷发布开关、来源路径、章节边界、路由、资产及 ZIP 配置。 |
+| `chapters/volume*/` | 供 GitHub 逐节阅读和 Raw 下载的 Markdown 与分卷目录。从母稿运行 `npm run book:prepare` 更新并随源稿提交，图片引用仓库原有资产。 |
 | `assets/figures/` | 随书交付的插图；正文使用相对路径。 |
 | `assets/review/` | 可公开的校对依据与状态记录；生成器会收录到网站及下载包。 |
 | `source_cn/`、`source_en/` | 本地中文底本、补配本和英文对校本；不进入发布。 |

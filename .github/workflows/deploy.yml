@@ -26,6 +26,8 @@ jobs:
       - uses: actions/configure-pages@v5
       - run: npm ci
       - run: npm run docs:build
+        env:
+          TAOCP_CHECK_CHAPTERS: 'true'
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs/.vitepress/dist

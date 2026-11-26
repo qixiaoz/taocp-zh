@@ -13,6 +13,7 @@ import { sourceAnchorIds } from './book-anchors.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DOCS = path.join(ROOT, 'docs');
+const chapters = new Map();
 const sha = data => createHash('sha256').update(data).digest('hex');
 const read = async name => {
   const bytes = await fs.readFile(path.join(ROOT, name));
@@ -216,14 +217,19 @@ function linkedAssetPath(from, asset) {
   // Give original-resolution links their own stable public byte-for-byte copy.
   return assetPath(from, 'linked-assets/' + asset.slice('assets/'.length));
 }
-function rewriteBook(text, route) {
+function rewriteBook(text, route, forWebsite = true) {
+  const from = forWebsite ? route : '/chapters' + route;
+  const originalImage = asset => forWebsite ? linkedAssetPath(from, asset) : assetPath(from, asset);
   return text
-    .replace(/(\[!\[[^\n]*?\]\(assets\/[^)\n]+\)\])\((assets\/[^)\n]+)\)/g, (_, image, asset) => `${image}(${linkedAssetPath(route, asset)})`)
-    .replace(/\]\(#([^\s)]+)\)/g, (_, id) => `](${resolveAnchor(id, route, true)})`)
-    .replace(/href="#([^"\s]+)"/g, (_, id) => `href="${resolveAnchor(id, route, true).replace(/\.md(?=#)/, '.html')}"`)
-    .replace(/(<a\b[^>]*?href=")(assets\/[^"\n]+)(")/g, (_, prefix, asset, suffix) => `${prefix}${linkedAssetPath(route, asset)}${suffix}`)
-    .replace(/\]\((assets\/[^\s)]+)\)/g, (_, asset) => `](${assetPath(route, asset)})`)
-    .replace(/src="(assets\/[^"\n]+)"/g, (_, asset) => `src="${assetPath(route, asset)}"`);
+    .replace(/(\[!\[[^\n]*?\]\(assets\/[^)\n]+\)\])\((assets\/[^)\n]+)\)/g, (_, image, asset) => `${image}(${originalImage(asset)})`)
+    .replace(/\]\(#([^\s)]+)\)/g, (_, id) => `](${resolveAnchor(id, route, forWebsite)})`)
+    .replace(/href="#([^"\s]+)"/g, (_, id) => {
+      const target = resolveAnchor(id, route, forWebsite);
+      return `href="${forWebsite ? target.replace(/\.md(?=#)/, '.html') : target}"`;
+    })
+    .replace(/(<a\b[^>]*?href=")(assets\/[^"\n]+)(")/g, (_, prefix, asset, suffix) => `${prefix}${originalImage(asset)}${suffix}`)
+    .replace(/\]\((assets\/[^\s)]+)\)/g, (_, asset) => `](${assetPath(from, asset)})`)
+    .replace(/src="(assets\/[^"\n]+)"/g, (_, asset) => `src="${assetPath(from, asset)}"`);
 }
 const removedReportLinks = [];
 function cleanReport(text, forWebsite) {
@@ -250,7 +256,7 @@ for (const old of priorPages) {
   if (!currentRoutes.has(old.route) && old.route.startsWith(prefix + '/') && /^\/volume\d+[a-z]?\/[a-z0-9/-]+$/.test(old.route)) await fs.rm(path.join(DOCS, old.route.slice(1) + '.md'), { force: true });
 }
 for (const page of pages) {
-  let body = rewriteBook(page.raw, page.route);
+  let body = page.raw;
   if (page.headingLine !== null) {
     const original = lines[page.headingLine].trimEnd();
     const normalized = original.replace(/^#{1,6}\s+/, '');
@@ -262,7 +268,9 @@ for (const page of pages) {
   }
   if (page.kind === 'answers' && page.headingLine !== null) body = `<a id="${page.anchor}"></a>\n\n` + body;
   const frontmatter = `---\ntitle: ${JSON.stringify(page.title)}\nbookPage: true\n---\n\n`;
-  page.markdown = frontmatter + body.trim() + '\n';
+  body = body.trim() + '\n';
+  page.markdown = frontmatter + rewriteBook(body, page.route);
+  chapters.set(`chapters${page.route}.md`, rewriteBook(body, page.route, false));
   page.sha256 = sha(page.markdown);
   page.bytes = Buffer.byteLength(page.markdown);
   await write(page.file, page.markdown);
@@ -298,6 +306,7 @@ function directoryItems(items, depth = 0) {
 let directory = `# 全卷目录\n\n[开始阅读](./frontmatter.md)\n\n`;
 directory += directoryItems(sidebar.slice(1));
 await write(`docs${prefix}/index.md`, `---\ntitle: 全卷目录\n---\n\n${directory}`);
+chapters.set(`chapters${prefix}/README.md`, `# ${volume.title}\n\n[卷前](./frontmatter.md)\n\n` + directoryItems(sidebar.slice(1)));
 
 const assetFiles = [];
 async function collectAssets(folder) {
@@ -401,6 +410,31 @@ for (const folder of ['docs/assets', 'docs/public/review', 'docs/public/linked-a
 }
 const built = [];
 for (const volume of selected) built.push(await prepareVolume(volume));
+// The chapter edition is checked into Git so each section has a GitHub Raw URL.
+// Prepare updates the working copy; the publication workflow checks its checkout.
+const updateChapters = process.env.TAOCP_CHECK_CHAPTERS !== 'true';
+const chapterDir = path.join(ROOT, 'chapters');
+const existingChapters = await fs.readdir(chapterDir, { recursive: true, withFileTypes: true }).catch(error => {
+  if (error.code === 'ENOENT') return [];
+  throw error;
+});
+const stale = [];
+for (const entry of existingChapters) {
+  const file = posix(path.relative(ROOT, path.join(entry.parentPath, entry.name)));
+  assert(!entry.isSymbolicLink(), `Unexpected symlink in chapters: ${file}`);
+  if (!entry.isFile() || !/^chapters\/volume\d+[a-z]?\/(?:README|frontmatter|sec-[\w-]+|answers\/[\w-]+)\.md$/.test(file) || chapters.has(file)) continue;
+  if (updateChapters) await fs.unlink(path.join(ROOT, file));
+  else stale.push(file);
+}
+for (const [file, content] of chapters) {
+  const current = await fs.readFile(path.join(ROOT, file), 'utf8').catch(error => {
+    if (error.code !== 'ENOENT') throw error;
+  });
+  if (current === content) continue;
+  if (updateChapters) await write(file, content);
+  else stale.push(file);
+}
+assert(!stale.length, `Run npm run book:prepare and commit the updated chapter files: ${stale.join(', ')}`);
 const first = built.find(item => item.navigation.id === 'volume1') ?? built[0];
 const allNavigation = { ...first.navigation, version: 2, volumes: built.map(item => item.navigation),
   sidebar: built.length === 1 ? first.navigation.sidebar : Object.fromEntries(built.flatMap(({ navigation }) => [[navigation.routePrefix + '/', navigation.sidebar], [navigation.reportRoute, navigation.sidebar]])) };

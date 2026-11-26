@@ -211,6 +211,12 @@ async function checkVolume(volume, manifest, navigation) {
   check(navigation.source.sha256 === hash(source), 'stale-navigation');
   const pages = manifest.sectionRoutes;
   check(Array.isArray(pages) && pages.length > 0, 'missing-page-manifest');
+  const chapterFile = route => path.join(ROOT, 'chapters', route + '.md');
+  const chapterIndex = chapterFile(volume.routePrefix + '/README');
+  const chapterLinks = [...(await fs.readFile(chapterIndex, 'utf8')).matchAll(/\]\(([^)]+)\)/g)];
+  equalList(pages.map(page => chapterFile(page.route)),
+    chapterLinks.map(([, href]) => path.resolve(path.dirname(chapterIndex), href)),
+    'chapter-directory-coverage', { file: rel(chapterIndex) });
   const originalIds = ids(source);
   const originalIdSet = new Set(originalIds);
   check(originalIds.filter(id => /^pdf-\d+$/.test(id)).length === volume.expectedSourcePages, 'source-page-count-mismatch', { expected: volume.expectedSourcePages, actual: originalIds.filter(id => /^pdf-\d+$/.test(id)).length });
@@ -312,6 +318,21 @@ async function checkVolume(volume, manifest, navigation) {
     check(a === b, 'section-text-changed', { ...ctx, ...(a === b ? {} : firstDifference(a, b)) });
     const expected = expectedRender(markdown, file);
     const sourceWithNotes = originalWithoutNotes + '\n' + refs.map(id => globalFootnotes.get(id) ?? '').join('\n');
+    const chapter = await fs.readFile(chapterFile(page.route), 'utf8');
+    check(sourceCanonical(chapter) === sourceCanonical(markdown), 'chapter-text-changed', ctx);
+    equalSequence(ids(markdown), ids(chapter), 'chapter-anchor-changed', ctx);
+    // Compare destinations in source order, including raw HTML and linked images.
+    // Resolve repository links directly, without VitePress's .html or asset aliases.
+    const destinations = /(?:\]\(|\b(?:href|src)=")((?:#|assets\/|\.\.?\/)[^)"\s]+)/g;
+    const expectedDestinations = [...sourceWithNotes.matchAll(destinations)].map(([, href]) => {
+      if (href.startsWith('#')) return chapterFile(manifest.anchorRoutes[href.slice(1)]) + href;
+      return path.resolve(ROOT, href);
+    });
+    const chapterDestinations = [...chapter.matchAll(destinations)].map(([, href]) => {
+      const target = resolveSourceLink(chapterFile(page.route), href);
+      return target.file + (target.fragment ? '#' + target.fragment : '');
+    });
+    equalSequence(expectedDestinations, chapterDestinations, 'chapter-link-target-changed', ctx);
     const sourceRender = expectedRender(sourceWithNotes, path.resolve(ROOT, sourceFile));
     equalList(sourceRender.formulas.map(mathKey), expected.formulas.map(mathKey), 'formula-changed-during-split', ctx);
     equalSequence(sourceRender.code, expected.code, 'code-content-changed-during-split', ctx);
