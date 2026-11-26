@@ -5,13 +5,14 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { createMarkdownRenderer, resolveConfig, disposeMdItInstance } from 'vitepress';
+import { readChapters } from './book-chapters.mjs';
 import { selectVolumes } from './book-volumes.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const sha = value => createHash('sha256').update(value).digest('hex');
 
-export function sourceLinePages(source, pageLanguage = 'CN') {
-  let current = { source: null, cnPdfPage: null, enPdfPage: null };
+export function sourceLinePages(source, pageLanguage = 'CN', previous = { source: null, cnPdfPage: null, enPdfPage: null }) {
+  let current = previous;
   return source.split('\n').map(line => {
     // Source page anchors may follow a section anchor, or occur within prose.
     // EN supplements must clear the last CN page instead of inheriting it.
@@ -49,17 +50,34 @@ export function inspectTokens(tokens, linePages = []) {
 }
 
 async function inspectVolume(volume) {
-const book = volume.book;
-const source = await fs.readFile(path.join(root, book), 'utf8');
-const pages = sourceLinePages(source, volume.sourcePageLanguage);
+const book = await readChapters(root, volume);
+const sources = [];
+let previous;
+for (const chapter of book.pages) {
+  const text = await fs.readFile(path.join(root, chapter.chapterFile), 'utf8');
+  const pages = sourceLinePages(text, volume.sourcePageLanguage, previous);
+  previous = pages.at(-1);
+  sources.push({ file: chapter.chapterFile, text, pages });
+}
+function inspectSections(renderer) {
+  const combined = { counts: {}, formulas: [], unconsumed: [], rawHtml: [] };
+  for (const { file, text, pages } of sources) {
+    const result = inspectTokens(renderer.parse(text, {}), pages);
+    for (const key of Object.keys(result.counts)) combined.counts[key] = (combined.counts[key] ?? 0) + result.counts[key];
+    for (const key of ['formulas', 'unconsumed', 'rawHtml']) {
+      for (const token of result[key]) combined[key].push({ ...token, sourceFile: file });
+    }
+  }
+  return combined;
+}
 const standard = await createMarkdownRenderer(root, { math: true });
-const baseline = inspectTokens(standard.parse(source, {}), pages);
+const baseline = inspectSections(standard);
 disposeMdItInstance();
 let configured = null;
 try {
   const config = await resolveConfig(path.join(root, 'docs'), 'build');
   const renderer = await createMarkdownRenderer(config.srcDir, config.markdown, config.site.base);
-  configured = inspectTokens(renderer.parse(source, {}), pages);
+  configured = inspectSections(renderer);
 } catch (e) {
   console.warn('Configured renderer unavailable:', e.message);
 }
@@ -72,7 +90,7 @@ function difference(a, b) {
     return true;
   });
 }
-const result = { source: { file: book, sha256: sha(source) }, baseline, configured,
+const result = { source: { index: book.indexFile, chapters: book.pages.map(({ chapterFile, chapterSha256 }) => ({ file: chapterFile, sha256: chapterSha256 })) }, baseline, configured,
   differences: configured ? { removedFromDefault: difference(baseline.formulas, configured.formulas), addedByConfiguration: difference(configured.formulas, baseline.formulas) } : null,
   note: 'Token counts are diagnostic, not human verification. HTML-block math rendered by a custom renderer may be absent from parser tokens; final HTML must also be inspected.' };
 disposeMdItInstance();
@@ -102,7 +120,7 @@ for (const volume of selected) {
   await fs.writeFile(output, JSON.stringify(result, null, 2) + '\n');
   // Preserve the existing diagnostic path for volume one.
   if (!outputName && volume.id === 'volume1') await fs.writeFile(path.join(root, 'docs/.vitepress/math-input-audit.json'), JSON.stringify(result, null, 2) + '\n');
-  const summary = { volume: volume.id, output: path.relative(root, output), source: result.source,
+  const summary = { volume: volume.id, output: path.relative(root, output), index: result.source.index, sections: result.source.chapters.length,
     baseline: result.baseline.counts, configured: result.configured?.counts,
     differences: result.differences && Object.fromEntries(Object.entries(result.differences).map(([key, value]) => [key, value.length])) };
   audits.push(summary);

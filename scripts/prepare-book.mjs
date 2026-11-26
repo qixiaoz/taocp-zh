@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Build enabled volumes from their immutable book and report masters.
+/** Build enabled volumes directly from their ordered manuscript sections.
  * No source PDF, OCR working file or local tool is part of the publication.
  * Run: node scripts/prepare-book.mjs
  */
@@ -9,11 +9,11 @@ import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { zipSync, unzipSync } from 'fflate';
 import { volumes, enabledVolumes, volumeManifestFile } from './book-volumes.mjs';
+import { readChapters, bindChapters, websiteChapter } from './book-chapters.mjs';
 import { sourceAnchorIds } from './book-anchors.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DOCS = path.join(ROOT, 'docs');
-const chapters = new Map();
 const sha = data => createHash('sha256').update(data).digest('hex');
 const read = async name => {
   const bytes = await fs.readFile(path.join(ROOT, name));
@@ -26,210 +26,37 @@ const read = async name => {
   return bytes.toString('utf8');
 };
 const assert = (ok, message) => { if (!ok) throw new Error(message); };
-const posix = value => value.split(path.sep).join('/');
 const write = async (name, data) => {
   const file = path.join(ROOT, name);
   await fs.mkdir(path.dirname(file), { recursive: true });
   await fs.writeFile(file, data);
 };
 async function prepareVolume(volume) {
-const BOOK = volume.book;
+const BOOK = volume.archiveBook;
 const REPORT = volume.report;
 const prefix = volume.routePrefix;
-const source = await read(BOOK);
+const book = await readChapters(ROOT, volume);
+const { pages, anchorRoutes } = book;
 const report = await read(REPORT);
-const sourceHash = sha(source);
 const reportHash = sha(report);
-const originalLines = source.match(/[^\n]*\n|[^\n]+$/g) ?? [];
-const lineOffsets = [0];
-for (const line of originalLines) lineOffsets.push(lineOffsets.at(-1) + line.length);
-const lines = [...originalLines];
-const footnotes = new Map();
-
-// A footnote definition may follow a section boundary even though its reference
-// belongs to the preceding section. Extract once, then attach to its reference.
-for (let i = 0; i < lines.length; i++) {
-  const match = lines[i].match(/^\[\^([^\]]+)\]:/);
-  if (!match) continue;
-  let end = i + 1;
-  while (end < lines.length) {
-    if (/^(?: {4}|\t)\S/.test(lines[end])) { end++; continue; }
-    if (!lines[end].trim() && /^(?: {4}|\t)\S/.test(lines[end + 1] ?? '')) { end += 2; continue; }
-    break;
-  }
-  assert(!footnotes.has(match[1]), `Duplicate footnote definition: ${match[1]}`);
-  footnotes.set(match[1], { text: lines.slice(i, end).join(''), sourceLine: i + 1, routes: [] });
-  for (let j = i; j < end; j++) lines[j] = '';
-}
-
-const pageAnchorLine = value => /^(?:\s*<a\s+id="(?:pdf-[\d]+|p-[\w-]+|alt-[\d]+)"><\/a>)+\s*$/.test(value);
-function includeLeadingPageAnchors(index) {
-  let start = index;
-  for (let j = index - 1; j >= 0; j--) {
-    if (!lines[j].trim() || pageAnchorLine(lines[j])) start = j;
-    else break;
-  }
-  return start;
-}
-const boundaries = [{ start: 0, route: `${prefix}/frontmatter`, title: '卷前', kind: 'frontmatter', section: null, anchor: 'pdf-001', headingLine: volume.frontmatterHeadingLine }];
-// Some source pages put their page and section anchors on the same line.
-// Keep that line intact while recognizing the section that follows the pages.
-const sectionPattern = /^(?:<a id="(?:pdf-\d+|p-[^"]+)"><\/a>\s*)*<a id="(sec-[^"]+)"><\/a>\s*$/;
-let answerStart, answerEnd;
-for (let i = 0; i < lines.length; i++) {
-  const match = lines[i].trim().match(sectionPattern);
-  if (!match) continue;
-  const anchor = match[1];
-  const unnumberedKey = volume.unnumberedSections?.[anchor];
-  // Lettered parts such as 4.3.3 A–E remain stable in-page targets. Only
-  // numbered sections and the configured book divisions create routes.
-  if (!unnumberedKey && !/^sec-\d+(?:-\d+)*$/.test(anchor)
-    && ![volume.answerStartAnchor, ...volume.appendixAnchors, ...volume.indexAnchors].includes(anchor)) continue;
-  let headingLine = i + 1;
-  while (headingLine < lines.length && !/^#{1,6}\s+/.test(lines[headingLine])) headingLine++;
-  const headingLookahead = volume.headingLookahead?.[anchor] ?? 5;
-  assert(headingLine < i + headingLookahead, `No heading within the configured range after ${anchor}`);
-  const title = lines[headingLine].replace(/^#+\s+/, '').trim().replace(/\\\*/g, '*');
-  const kind = volume.appendixAnchors.includes(anchor) ? 'appendix' : volume.indexAnchors.includes(anchor) ? 'index' : anchor === volume.answerStartAnchor ? 'answers-index' : 'body';
-  const section = unnumberedKey ?? (/^sec-\d/.test(anchor) ? anchor.slice(4).replaceAll('-', '.') : null);
-  let start = includeLeadingPageAnchors(i);
-  const leadAnchor = volume.leadInAnchors?.[anchor];
-  if (leadAnchor) {
-    const marker = `<a id="${leadAnchor}"></a>`;
-    const positions = lines.flatMap((line, index) => line.trim() === marker ? [index] : []);
-    assert(positions.length === 1 && positions[0] < i, `Missing or misplaced section lead-in ${leadAnchor}`);
-    assert(!lines.slice(positions[0] + 1, i).some(line => sectionPattern.test(line.trim())), `Section lead-in crosses another section: ${leadAnchor}`);
-    start = includeLeadingPageAnchors(positions[0]);
-  }
-  boundaries.push({ start, route: `${prefix}/${anchor}`, title, kind, section, anchor, headingLine });
-  if (anchor === volume.answerStartAnchor) answerStart = i;
-  if (anchor === volume.answerEndAnchor) answerEnd = i;
-}
-assert(Number.isInteger(answerStart) && Number.isInteger(answerEnd) && answerEnd > answerStart, `Answer section boundaries were not found for ${volume.id}`);
-
-// Answer headings are inconsistent in the master. Its verified ans-* anchors
-// are authoritative; use the adjacent original heading where one exists.
-const answerSections = new Set();
-const unnumberedTitles = new Map(boundaries.filter(p => volume.unnumberedSections?.[p.anchor]).map(p => [p.section, p.title]));
-for (let i = answerStart + 1; i < answerEnd; i++) {
-  for (const match of lines[i].matchAll(/<a id="ans-([a-z]+|[\d-]+)-\d+"><\/a>/g)) {
-    const sectionKey = match[1];
-    if (!/^(?:intro|[\d-]+)$/.test(sectionKey) && !unnumberedTitles.has(sectionKey)) continue;
-    if (answerSections.has(sectionKey)) continue;
-    answerSections.add(sectionKey);
-    let start = i, headingLine = null;
-    const expected = unnumberedTitles.get(sectionKey) ?? (sectionKey === 'intro' ? '习题说明' : `${sectionKey.replaceAll('-', '.')}节`);
-    let prev = i - 1;
-    while (prev >= answerStart && !lines[prev].trim()) prev--;
-    if ((lines[prev] ?? '').replace(/^#+\s*/, '').replace(/\s/g, '') === expected) {
-      start = prev; headingLine = prev;
-    }
-    // 1.2.11.2 has its first answer anchor embedded in the source heading.
-    // Preserve that line rather than silently editing the editorial master.
-    const section = sectionKey === 'intro' ? 'intro' : sectionKey.replaceAll('-', '.');
-    const title = unnumberedTitles.has(sectionKey) ? `${expected}习题答案`
-      : sectionKey === 'intro' ? '习题说明的答案' : `${section} 节习题答案`;
-    boundaries.push({ start: includeLeadingPageAnchors(start), route: `${prefix}/answers/${sectionKey}`, title, kind: 'answers', section, anchor: `answers-${sectionKey}`, headingLine });
-  }
-}
-boundaries.sort((a, b) => a.start - b.start);
-assert(new Set(boundaries.map(x => x.start)).size === boundaries.length, 'Two routes overlap at a source boundary');
-
-// Check the actual block state at each cut, not just the number of delimiters.
-const boundarySet = new Set(boundaries.map(x => x.start));
-let fence = null, displayMath = false;
-const htmlStack = [];
-for (let i = 0; i < lines.length; i++) {
-  if (boundarySet.has(i)) assert(!fence && !displayMath && !htmlStack.length, `Unsafe split inside code, math or HTML at source line ${i + 1}`);
-  const line = lines[i];
-  const fm = line.match(/^ {0,3}(`{3,}|~{3,})/);
-  if (fm) {
-    if (!fence) fence = fm[1];
-    else if (fm[1][0] === fence[0] && fm[1].length >= fence.length) fence = null;
-    continue;
-  }
-  if (fence) continue;
-  if (/^\s*\$\$\s*$/.test(line)) { displayMath = !displayMath; continue; }
-  if (displayMath) continue;
-  for (const tag of line.matchAll(/<(\/?)(table|details|pre)\b[^>]*>/g)) {
-    if (tag[1]) { assert(htmlStack.pop() === tag[2], `Unbalanced ${tag[2]} at source line ${i + 1}`); }
-    else htmlStack.push(tag[2]);
-  }
-}
-assert(!fence && !displayMath && !htmlStack.length, 'Source has an unclosed code, math or HTML block');
-
-const pages = boundaries.map((boundary, i) => {
-  const end = boundaries[i + 1]?.start ?? lines.length;
-  return { ...boundary, end, file: `docs${boundary.route}.md`, sourceStartLine: boundary.start + 1, sourceEndLine: end, sourceRange: { start: lineOffsets[boundary.start], end: lineOffsets[end] }, raw: lines.slice(boundary.start, end).join('') };
-});
-assert(pages.map(x => x.raw).join('') === lines.join(''), 'Source partition is not lossless');
-const anchorRoutes = {};
-const originalAnchors = sourceAnchorIds(source);
-assert(new Set(originalAnchors).size === originalAnchors.length, 'The master has duplicate explicit anchors');
-const sourcePageAnchors = originalAnchors.filter(id => /^pdf-\d+$/.test(id));
-assert(sourcePageAnchors.length === volume.expectedSourcePages, `Source page anchor count differs from the confirmed count for ${volume.id}`);
-assert(Array.from({ length: volume.expectedSourcePages }, (_, index) => `pdf-${String(index + 1).padStart(3, '0')}`).every(id => sourcePageAnchors.includes(id)), `A physical source page anchor is missing from ${volume.id}`);
-for (const page of pages) {
-  page.anchors = sourceAnchorIds(page.raw);
-  for (const anchor of page.anchors) {
-    assert(!anchorRoutes[anchor], `Duplicate split anchor ${anchor}`);
-    anchorRoutes[anchor] = page.route;
-  }
-  if (page.kind === 'answers') {
-    anchorRoutes[page.anchor] = page.route;
-    page.anchors.push(page.anchor);
-  }
-  // All definitions have been extracted. A reference in prose can be followed by a colon.
-  const refs = [...new Set([...page.raw.matchAll(/\[\^([^\]\n]+)\]/g)].map(x => x[1]))];
-  page.footnotes = refs;
-  for (const key of refs) {
-    assert(footnotes.has(key), `Missing definition of ${key} in ${page.route}`);
-    footnotes.get(key).routes.push(page.route);
-    page.raw += `\n${footnotes.get(key).text}\n`;
-  }
-}
-for (const [key, def] of footnotes) assert(def.routes.length, `Unreferenced footnote definition ${key}`);
-assert(originalAnchors.every(x => anchorRoutes[x]), 'An original anchor was lost');
-
-const badLinks = [];
+const sourceInfo = { directory: path.posix.dirname(book.indexFile), index: book.indexFile,
+  indexSha256: book.indexSha256, sha256: sha(JSON.stringify([book.indexSha256, ...pages.map(p => [p.chapterFile, p.chapterSha256])])) };
 const linkedAssets = new Set();
-let originalInternalLinks = 0, crossPageLinks = 0, samePageLinks = 0;
 function relativeRoute(from, to, fragment = '') {
   if (from === to) return `#${fragment}`;
   let target = path.posix.relative(path.posix.dirname(from), to) + '.md';
   if (!target.startsWith('.')) target = './' + target;
   return target + (fragment ? `#${fragment}` : '');
 }
-function resolveAnchor(anchor, from, record = false) {
-  const route = anchorRoutes[anchor];
-  if (!route) { badLinks.push({ from, anchor }); return '#' + anchor; }
-  if (record) { originalInternalLinks++; if (route === from) samePageLinks++; else crossPageLinks++; }
-  return relativeRoute(from, route, anchor);
+function resolveReportLink(href, forWebsite) {
+  const [file, id] = href.split('#');
+  const target = book.byFile.get(file);
+  assert(target && id && target.route === anchorRoutes[id], `Broken report link: ${href}`);
+  return forWebsite ? relativeRoute(volume.reportRoute, target.route, id) : BOOK + '#' + id;
 }
 function assetPath(from, asset) {
   const target = path.posix.relative(path.posix.dirname(from), '/' + asset);
   return target.startsWith('.') ? target : './' + target;
-}
-function linkedAssetPath(from, asset) {
-  assert(asset.startsWith('assets/'), `Unexpected linked asset: ${asset}`);
-  linkedAssets.add(asset);
-  // Unlike img.src, an anchor's href is not rewritten to Vite's hashed asset.
-  // Give original-resolution links their own stable public byte-for-byte copy.
-  return assetPath(from, 'linked-assets/' + asset.slice('assets/'.length));
-}
-function rewriteBook(text, route, forWebsite = true) {
-  const from = forWebsite ? route : '/chapters' + route;
-  const originalImage = asset => forWebsite ? linkedAssetPath(from, asset) : assetPath(from, asset);
-  return text
-    .replace(/(\[!\[[^\n]*?\]\(assets\/[^)\n]+\)\])\((assets\/[^)\n]+)\)/g, (_, image, asset) => `${image}(${originalImage(asset)})`)
-    .replace(/\]\(#([^\s)]+)\)/g, (_, id) => `](${resolveAnchor(id, route, forWebsite)})`)
-    .replace(/href="#([^"\s]+)"/g, (_, id) => {
-      const target = resolveAnchor(id, route, forWebsite);
-      return `href="${forWebsite ? target.replace(/\.md(?=#)/, '.html') : target}"`;
-    })
-    .replace(/(<a\b[^>]*?href=")(assets\/[^"\n]+)(")/g, (_, prefix, asset, suffix) => `${prefix}${originalImage(asset)}${suffix}`)
-    .replace(/\]\((assets\/[^\s)]+)\)/g, (_, asset) => `](${assetPath(from, asset)})`)
-    .replace(/src="(assets\/[^"\n]+)"/g, (_, asset) => `src="${assetPath(from, asset)}"`);
 }
 const removedReportLinks = [];
 function cleanReport(text, forWebsite) {
@@ -238,7 +65,7 @@ function cleanReport(text, forWebsite) {
       removedReportLinks.push(href);
       return label;
     }
-    if (forWebsite && href.startsWith(BOOK + '#')) return `[${label}](${resolveAnchor(href.slice(BOOK.length + 1), volume.reportRoute)})`;
+    if (href.startsWith(sourceInfo.directory + '/')) return `[${label}](${resolveReportLink(href, forWebsite)})`;
     // Review Markdown is a downloadable source, and .jsonl is an unknown
     // suffix. Native links prevent both being rewritten into page routes.
     if (forWebsite && href.startsWith(volume.reviewRoot + '/') && /\.(?:jsonl|md)$/.test(href)) return `<a href="${assetPath(volume.reportRoute, volume.reviewPublicPrefix.slice(1) + '/' + href.slice(volume.reviewRoot.length + 1).split('/').map(encodeURIComponent).join('/'))}" download>${label}</a>`;
@@ -256,21 +83,8 @@ for (const old of priorPages) {
   if (!currentRoutes.has(old.route) && old.route.startsWith(prefix + '/') && /^\/volume\d+[a-z]?\/[a-z0-9/-]+$/.test(old.route)) await fs.rm(path.join(DOCS, old.route.slice(1) + '.md'), { force: true });
 }
 for (const page of pages) {
-  let body = page.raw;
-  if (page.headingLine !== null) {
-    const original = lines[page.headingLine].trimEnd();
-    const normalized = original.replace(/^#{1,6}\s+/, '');
-    // A plain source heading (the 2.3.4.4 answers) is promoted without changing
-    // its wording. All other source headings and prose retain their spelling.
-    body = body.replace(original, '# ' + normalized);
-  } else {
-    body = `# ${page.title}\n\n<a id="${page.anchor}"></a>\n\n` + body;
-  }
-  if (page.kind === 'answers' && page.headingLine !== null) body = `<a id="${page.anchor}"></a>\n\n` + body;
   const frontmatter = `---\ntitle: ${JSON.stringify(page.title)}\nbookPage: true\n---\n\n`;
-  body = body.trim() + '\n';
-  page.markdown = frontmatter + rewriteBook(body, page.route);
-  chapters.set(`chapters${page.route}.md`, rewriteBook(body, page.route, false));
+  page.markdown = frontmatter + websiteChapter(page, book, linkedAssets);
   page.sha256 = sha(page.markdown);
   page.bytes = Buffer.byteLength(page.markdown);
   await write(page.file, page.markdown);
@@ -296,9 +110,6 @@ const sidebar = [
   { text: '习题答案', link: `${prefix}/${volume.answerStartAnchor}`, collapsed: true, items: pages.filter(p => p.kind === 'answers').map(p => ({ text: p.title, link: p.route })) },
   { text: '附录与索引', items: pages.filter(p => ['appendix', 'index'].includes(p.kind)).map(p => ({ text: p.title, link: p.route })) },
 ];
-const publicPages = pages.map(({ raw, markdown, start, end, headingLine, ...meta }) => meta);
-const navigation = { version: 1, id: volume.id, title: volume.title, routePrefix: prefix, reportRoute: volume.reportRoute, source: { file: BOOK, sha256: sourceHash }, pages: publicPages, sidebar, anchorRoutes, downloads: { bundle: `/downloads/${volume.zipName}` } };
-
 function directoryItems(items, depth = 0) {
   return items.map(item => `${'  '.repeat(depth)}- ${item.link ? `[${item.text}](${item.link.endsWith('.zip') ? '.' + item.link : relativeRoute(`${prefix}/index`, item.link === prefix + '/' ? `${prefix}/index` : item.link)})` : item.text}\n${item.items ? directoryItems(item.items, depth + 1) : ''}`).join('');
 }
@@ -306,7 +117,7 @@ function directoryItems(items, depth = 0) {
 let directory = `# 全卷目录\n\n[开始阅读](./frontmatter.md)\n\n`;
 directory += directoryItems(sidebar.slice(1));
 await write(`docs${prefix}/index.md`, `---\ntitle: 全卷目录\n---\n\n${directory}`);
-chapters.set(`chapters${prefix}/README.md`, `# ${volume.title}\n\n[卷前](./frontmatter.md)\n\n` + directoryItems(sidebar.slice(1)));
+
 
 const assetFiles = [];
 async function collectAssets(folder) {
@@ -325,12 +136,23 @@ async function collectAssets(folder) {
 }
 for (const root of volume.assetRoots) await collectAssets(root);
 const knownAssets = new Set(assetFiles.map(x => x.path));
-const referencedAssets = new Set([...source.matchAll(/(?:\]\(|src=")(assets\/[^\s)"]+)/g)].map(x => x[1]));
-const missingAssets = [...referencedAssets].filter(x => !knownAssets.has(x));
-assert(!missingAssets.length, `Missing assets: ${missingAssets.join(', ')}`);
-assert([...linkedAssets].every(asset => knownAssets.has(asset)), 'A linked original-resolution asset is missing');
-assert(!badLinks.length, `Unresolved internal links: ${JSON.stringify(badLinks)}`);
-
+// Binding is an archive operation. Site rendering above reads each chapter directly.
+const bound = bindChapters(book);
+const source = bound.map(section => section.text).join('');
+const sourceHash = sha(source);
+const archive = { file: BOOK, sha256: sourceHash, bytes: Buffer.byteLength(source), lines: bound.at(-1).sourceEndLine };
+const publicPages = pages.map(({ raw, body, notes, markdown, ...meta }, i) => {
+  const { text, ...ranges } = bound[i];
+  return { ...meta, ...ranges };
+});
+const navigation = { version: 2, id: volume.id, title: volume.title, routePrefix: prefix, reportRoute: volume.reportRoute,
+  source: sourceInfo, archive, pages: publicPages, sidebar, anchorRoutes, downloads: { bundle: `/downloads/${volume.zipName}` } };
+const originalAnchors = sourceAnchorIds(source);
+const physical = originalAnchors.filter(id => /^pdf-\d+$/.test(id));
+assert(physical.length === volume.expectedSourcePages && physical.every((id, i) => id === 'pdf-' + String(i + 1).padStart(3, '0')),
+  'Missing or out-of-order physical page in ' + volume.id);
+const referencedAssets = new Set([...source.matchAll(/(?:\]\(|src="|href=")(assets\/[^\s)"]+)/g)].map(x => x[1]));
+assert([...referencedAssets, ...linkedAssets].every(asset => knownAssets.has(asset)), 'Missing chapter asset in ' + volume.id);
 const zipFiles = {
   [BOOK]: [Buffer.from(source), { mtime: new Date('2026-01-01T00:00:00Z') }],
   [REPORT]: [Buffer.from(cleanReport(report, false)), { mtime: new Date('2026-01-01T00:00:00Z') }],
@@ -340,40 +162,27 @@ for (const asset of assetFiles) zipFiles[asset.path] = [asset.data, { mtime: new
 const zipped = zipSync(zipFiles, { level: 6 });
 await write(`docs/public/downloads/${volume.zipName}`, zipped);
 const unpacked = unzipSync(zipped);
-assert(sha(unpacked[BOOK]) === sourceHash, 'Download archive changed the book master');
+assert(sha(unpacked[BOOK]) === sourceHash, 'Download ZIP changed the assembled Markdown');
 assert(assetFiles.every(x => sha(unpacked[x.path]) === x.sha256), 'Download archive changed an asset');
 assert(Object.keys(unpacked).every(x => !/(?:^|\/)(?:\.work|source_cn|source_en)(?:\/|$)/.test(x)), 'Private source leaked into archive');
 
-const footnoteDistribution = [...footnotes].map(([id, def]) => ({ id, sourceLine: def.sourceLine, routes: def.routes }));
+const footnoteDistribution = pages.flatMap(p => p.footnotes.map(id => ({ id, routes: [p.route] })));
 const manifest = {
-  version: 1,
-  source: { file: BOOK, sha256: sourceHash, bytes: Buffer.byteLength(source), lines: originalLines.length },
+  version: 2, source: sourceInfo, archive,
   editorialReport: { file: REPORT, sha256: reportHash,
     websiteFile: `docs${volume.reportRoute}.md`, websiteSha256: sha(websiteReport),
     downloadSha256: sha(cleanReport(report, false)) },
-  counts: { pages: pages.length, body: pages.filter(p => p.kind === 'body').length, answers: answerSections.size, originalExplicitAnchors: originalAnchors.length, pdfPageAnchors: originalAnchors.filter(x => x.startsWith('pdf-')).length, exerciseAnchors: originalAnchors.filter(x => x.startsWith('ex-')).length, answerAnchors: originalAnchors.filter(x => x.startsWith('ans-')).length, originalInternalLinks, crossPageLinks, samePageLinks, footnoteDefinitions: footnotes.size, footnoteReferences: footnoteDistribution.reduce((n, x) => n + x.routes.length, 0), assets: assetFiles.length, referencedBookAssets: referencedAssets.size },
-  checks: { sourcePartitionLossless: true, sourceAnchorsPreserved: true, cutsOutsideCodeMathAndTables: true, badLinks, missingAssets, downloadBookIdentical: true },
-  sectionRoutes: publicPages,
-  anchorRoutes,
-  footnotes: footnoteDistribution,
-  transformationCounts: {
-    rewrittenCrossPageLinks: crossPageLinks,
-    rewrittenImageReferences: [...source.matchAll(/(?:\]\(|src=")assets\//g)].length,
-    attachedFootnoteDefinitions: footnoteDistribution.reduce((n, x) => n + x.routes.length, 0),
-    movedFootnoteDefinitions: footnoteDistribution.filter(x => !pages.find(p => x.sourceLine >= p.sourceStartLine && x.sourceLine <= p.sourceEndLine)?.footnotes.includes(x.id)).length,
-    promotedPageHeadings: pages.filter(p => p.headingLine !== null && !/^# /.test(lines[p.headingLine])).length,
-    addedPageTitles: pages.filter(p => p.headingLine === null).length,
-    addedAnswerSectionAnchors: answerSections.size,
-    stableLinkedAssets: linkedAssets.size,
-    latexEdits: 0,
-    codeEdits: 0,
-  },
+  counts: { pages: pages.length, body: pages.filter(p => p.kind === 'body').length, answers: pages.filter(p => p.kind === 'answers').length,
+    originalExplicitAnchors: originalAnchors.length, pdfPageAnchors: physical.length,
+    exerciseAnchors: originalAnchors.filter(x => x.startsWith('ex-')).length, answerAnchors: originalAnchors.filter(x => x.startsWith('ans-')).length,
+    footnoteDefinitions: footnoteDistribution.length, assets: assetFiles.length, referencedBookAssets: referencedAssets.size },
+  sectionRoutes: publicPages, anchorRoutes, footnotes: footnoteDistribution,
   removedReportLinks: [...new Set(removedReportLinks)],
   assets: assetFiles.map(({ data, ...entry }) => entry),
   linkedAssets: [...linkedAssets].map(asset => ({ source: asset, publicPath: '/linked-assets/' + asset.slice('assets/'.length), sha256: assetFiles.find(x => x.path === asset).sha256 })),
   download: { path: `/downloads/${volume.zipName}`, bytes: zipped.length, sha256: sha(zipped), files: Object.keys(unpacked).length },
 };
-assert(sha(await read(BOOK)) === sourceHash && sha(await read(REPORT)) === reportHash, 'An editorial master changed during preparation');
+assert(sha(await read(REPORT)) === reportHash, 'Editorial report changed during preparation');
 await write(`.work/site/source-manifest-${volume.id}.json`, JSON.stringify(manifest, null, 2) + '\n');
 const publicManifest = { ...manifest, volume: { id: volume.id, routePrefix: prefix, reportRoute: volume.reportRoute, expectedSourcePages: volume.expectedSourcePages }, removedReportLinks: { count: new Set(removedReportLinks).size } };
 await write(volumeManifestFile(volume), JSON.stringify(publicManifest, null, 2) + '\n');
@@ -381,7 +190,7 @@ if (volume.id === 'volume1') {
   await write('.work/site/source-manifest.json', JSON.stringify(manifest, null, 2) + '\n');
   await write('docs/.vitepress/book-manifest.json', JSON.stringify(publicManifest, null, 2) + '\n');
 }
-console.log(JSON.stringify({ volume: volume.id, ...manifest.counts, downloadBytes: zipped.length, sourceSha256: sourceHash, badLinks: badLinks.length, missingAssets: missingAssets.length }, null, 2));
+console.log(JSON.stringify({ volume: volume.id, ...manifest.counts, downloadBytes: zipped.length, sourceSha256: sourceHash }, null, 2));
 return { navigation, manifest: publicManifest };
 }
 
@@ -410,33 +219,8 @@ for (const folder of ['docs/assets', 'docs/public/review', 'docs/public/linked-a
 }
 const built = [];
 for (const volume of selected) built.push(await prepareVolume(volume));
-// The chapter edition is checked into Git so each section has a GitHub Raw URL.
-// Prepare updates the working copy; the publication workflow checks its checkout.
-const updateChapters = process.env.TAOCP_CHECK_CHAPTERS !== 'true';
-const chapterDir = path.join(ROOT, 'chapters');
-const existingChapters = await fs.readdir(chapterDir, { recursive: true, withFileTypes: true }).catch(error => {
-  if (error.code === 'ENOENT') return [];
-  throw error;
-});
-const stale = [];
-for (const entry of existingChapters) {
-  const file = posix(path.relative(ROOT, path.join(entry.parentPath, entry.name)));
-  assert(!entry.isSymbolicLink(), `Unexpected symlink in chapters: ${file}`);
-  if (!entry.isFile() || !/^chapters\/volume\d+[a-z]?\/(?:README|frontmatter|sec-[\w-]+|answers\/[\w-]+)\.md$/.test(file) || chapters.has(file)) continue;
-  if (updateChapters) await fs.unlink(path.join(ROOT, file));
-  else stale.push(file);
-}
-for (const [file, content] of chapters) {
-  const current = await fs.readFile(path.join(ROOT, file), 'utf8').catch(error => {
-    if (error.code !== 'ENOENT') throw error;
-  });
-  if (current === content) continue;
-  if (updateChapters) await write(file, content);
-  else stale.push(file);
-}
-assert(!stale.length, `Run npm run book:prepare and commit the updated chapter files: ${stale.join(', ')}`);
 const first = built.find(item => item.navigation.id === 'volume1') ?? built[0];
 const allNavigation = { ...first.navigation, version: 2, volumes: built.map(item => item.navigation),
   sidebar: built.length === 1 ? first.navigation.sidebar : Object.fromEntries(built.flatMap(({ navigation }) => [[navigation.routePrefix + '/', navigation.sidebar], [navigation.reportRoute, navigation.sidebar]])) };
 await write('docs/.vitepress/book-navigation.json', JSON.stringify(allNavigation, null, 2) + '\n');
-await write('docs/.vitepress/books-manifest.json', JSON.stringify({ version: 2, volumes: built.map(({ navigation, manifest }) => ({ id: navigation.id, title: navigation.title, routePrefix: navigation.routePrefix, reportRoute: navigation.reportRoute, manifest: volumeManifestFile(navigation), source: manifest.source, download: manifest.download })) }, null, 2) + '\n');
+await write('docs/.vitepress/books-manifest.json', JSON.stringify({ version: 2, volumes: built.map(({ navigation, manifest }) => ({ id: navigation.id, title: navigation.title, routePrefix: navigation.routePrefix, reportRoute: navigation.reportRoute, manifest: volumeManifestFile(navigation), source: manifest.source, archive: manifest.archive, download: manifest.download })) }, null, 2) + '\n');

@@ -1,9 +1,10 @@
+
 <a id="pdf-615"></a>
 <a id="p-609"></a>
 
 <a id="sec-index"></a>
 
-# 索引
+## 索引
 
 > 如果你在索引中没有找到, 那就要仔细查找整个目录了.
 >
@@ -1204,5 +1205,22 @@
 - 作为森林的检索结构, [387](./sec-6-3.md#p-387)–[388](./sec-6-3.md#p-388), [397](./sec-6-3.md#p-397).
 - 坐标, [440](./sec-6-5.md#p-440)–[442](./sec-6-5.md#p-442).
 
+<!-- archive-footnote: p17-1 -->
+<!-- archive-footnote: p27-1 -->
+<!-- archive-footnote: p165-1 -->
+<!-- archive-footnote: v3-5-4-run -->
+<!-- archive-footnote: v3-5-4-first-three-way -->
+<!-- archive-footnote: p238-1 -->
+<!-- archive-footnote: p240-1 -->
+<!-- archive-footnote: v3-p266-editor-date -->
+<!-- archive-footnote: v3-5-5-sort-out -->
+<!-- archive-footnote: v3-p327-1 -->
+<!-- archive-footnote: v3-p329-1 -->
+<!-- archive-footnote: v3-p332-1 -->
+<!-- archive-footnote: v3-p337-1 -->
+<!-- archive-footnote: v3-p420-1 -->
+<!-- archive-footnote: v3-p518-1 -->
+<!-- archive-footnote: v3-p569-1 -->
+<!-- archive-footnote: v3-p585-1 -->
 
 <a id="pdf-625"></a>

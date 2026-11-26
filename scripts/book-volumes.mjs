@@ -5,13 +5,13 @@
 export const volumes = [
   {
     id: 'volume1', enabled: true, title: '卷一·基本算法',
-    book: '计算机程序设计艺术·卷1·基本算法.md', report: '校订报告.md',
+    archiveBook: '计算机程序设计艺术·卷1·基本算法.md', report: '校订报告.md',
     routePrefix: '/volume1', reportRoute: '/corrections', zipName: 'taocp-volume1.zip',
     assetRoots: ['assets/figures', 'assets/review'], reviewRoot: 'assets/review',
     reviewPublicPrefix: '/review',
-    chapterRoots: ['1', '2'], answerStartAnchor: 'sec-answers', answerEndAnchor: 'sec-app-a',
+    chapterRoots: ['1', '2'], answerStartAnchor: 'sec-answers',
     appendixAnchors: ['sec-app-a', 'sec-app-b', 'sec-app-c'],
-    indexAnchors: ['sec-names', 'sec-index'], frontmatterHeadingLine: 2,
+    indexAnchors: ['sec-names', 'sec-index'],
     expectedSourcePages: 534,
     evidence: {
       math: 'assets/review/完整公式语法检查.json',
@@ -23,14 +23,12 @@ export const volumes = [
   },
   {
     id: 'volume2', enabled: true, title: '卷二·半数值算法',
-    book: '计算机程序设计艺术·卷2·半数值算法.md', report: '校订报告·卷2.md',
+    archiveBook: '计算机程序设计艺术·卷2·半数值算法.md', report: '校订报告·卷2.md',
     routePrefix: '/volume2', reportRoute: '/volume2/corrections', zipName: 'taocp-volume2.zip',
     assetRoots: ['assets/volume2'], reviewRoot: 'assets/volume2/review',
     reviewPublicPrefix: '/review/volume2',
-    chapterRoots: ['3', '4'], answerStartAnchor: 'sec-answers', answerEndAnchor: 'sec-app-a',
+    chapterRoots: ['3', '4'], answerStartAnchor: 'sec-answers',
     appendixAnchors: ['sec-app-a', 'sec-app-b', 'sec-app-c', 'sec-mix-reference'], indexAnchors: ['sec-names', 'sec-index'],
-    frontmatterHeadingLine: 2,
-    leadInAnchors: { 'sec-4-2-2': 'lead-sec-4-2-2' },
     // Includes retained anchors for omitted packaging and document information.
     expectedSourcePages: 618,
     evidence: {
@@ -40,14 +38,13 @@ export const volumes = [
   },
   {
     id: 'volume3', enabled: true, title: '卷三·排序与查找',
-    book: '计算机程序设计艺术·卷3·排序与查找.md', report: '校订报告·卷3.md',
+    archiveBook: '计算机程序设计艺术·卷3·排序与查找.md', report: '校订报告·卷3.md',
     routePrefix: '/volume3', reportRoute: '/volume3/corrections', zipName: 'taocp-volume3.zip',
     assetRoots: ['assets/volume3'], reviewRoot: 'assets/volume3/review',
     reviewPublicPrefix: '/review/volume3',
-    chapterRoots: ['5', '6'], answerStartAnchor: 'sec-answers', answerEndAnchor: 'sec-app-a',
+    chapterRoots: ['5', '6'], answerStartAnchor: 'sec-answers',
     appendixAnchors: ['sec-app-a', 'sec-app-b', 'sec-app-c'],
-    indexAnchors: ['sec-names', 'sec-index'], frontmatterHeadingLine: 2,
-    leadInAnchors: { 'sec-6-2-4': 'lead-sec-6-2-4', 'sec-6-3': 'lead-sec-6-3' },
+    indexAnchors: ['sec-names', 'sec-index'],
     expectedSourcePages: 625,
     evidence: {
       figures: 'assets/volume3/review/formal-figures.json',
@@ -56,14 +53,13 @@ export const volumes = [
   },
   {
     id: 'volume4a', enabled: true, title: '卷4A·组合算法（一）',
-    book: '计算机程序设计艺术·卷4A·组合算法（一）.md', report: '校订报告·卷4A.md',
+    archiveBook: '计算机程序设计艺术·卷4A·组合算法（一）.md', report: '校订报告·卷4A.md',
     routePrefix: '/volume4a', reportRoute: '/volume4a/corrections', zipName: 'taocp-volume4a.zip',
     assetRoots: ['assets/volume4a'], reviewRoot: 'assets/volume4a/review',
     reviewPublicPrefix: '/review/volume4a',
-    chapterRoots: ['7'], answerStartAnchor: 'sec-answers', answerEndAnchor: 'sec-app-a',
+    chapterRoots: ['7'], answerStartAnchor: 'sec-answers',
     appendixAnchors: ['sec-app-a', 'sec-app-b', 'sec-app-c', 'sec-app-d'],
-    indexAnchors: ['sec-names', 'sec-index'], frontmatterHeadingLine: 2,
-    headingLookahead: { 'sec-7-1': 13 },
+    indexAnchors: ['sec-names', 'sec-index'],
     expectedSourcePages: 746,
     evidence: {
       mathCountNote: 'Volume 4A uses its own 746-page source and original chapter 7 numbering. Author errata, source-image comparison, finite recomputation, syntax and rendered equality are distinct forms of evidence; source questions remain explicit.'
@@ -71,20 +67,15 @@ export const volumes = [
   },
   {
     id: 'volume4b', enabled: true, title: '卷4B·组合算法（二）',
-    book: '计算机程序设计艺术·卷4B·组合算法（二）.md', report: '校订报告·卷4B.md',
+    archiveBook: '计算机程序设计艺术·卷4B·组合算法（二）.md', report: '校订报告·卷4B.md',
     routePrefix: '/volume4b', reportRoute: '/volume4b/corrections', zipName: 'taocp-volume4b.zip',
     assetRoots: ['assets/volume4b'], reviewRoot: 'assets/volume4b/review',
     reviewPublicPrefix: '/review/volume4b',
     // Chapter 7 and §7.2 begin in 4A. MPR is an independent, unnumbered section.
     chapterRoots: ['7.2.2'], unnumberedSections: { 'sec-mpr': 'mpr' },
-    answerStartAnchor: 'sec-answers', answerEndAnchor: 'sec-app-a',
+    answerStartAnchor: 'sec-answers',
     appendixAnchors: ['sec-app-a', 'sec-app-b', 'sec-app-c', 'sec-app-d', 'sec-app-e'],
-    indexAnchors: ['sec-index'], frontmatterHeadingLine: 2,
-    leadInAnchors: {
-      'sec-7-2-2': 'lead-sec-7-2-2',
-      'sec-7-2-2-1': 'lead-sec-7-2-2-1',
-      'sec-7-2-2-2': 'lead-sec-7-2-2-2'
-    },
+    indexAnchors: ['sec-index'],
     expectedSourcePages: 734, sourcePageLanguage: 'EN',
     evidence: {
       mathCountNote: 'The translation is based on the English first digital release of October 2022. Review coverage refers to English source pages and Chinese translation proofs.'
@@ -96,14 +87,14 @@ export function enabledVolumes() {
   const selected = volumes.filter(volume => volume.enabled);
   if (!selected.length) throw new Error('No volume is enabled for publication');
   const unique = key => new Set(selected.map(volume => volume[key])).size === selected.length;
-  for (const key of ['id', 'book', 'report', 'routePrefix', 'reportRoute', 'zipName']) {
+  for (const key of ['id', 'archiveBook', 'report', 'routePrefix', 'reportRoute', 'zipName']) {
     if (!unique(key)) throw new Error(`Duplicate volume configuration: ${key}`);
   }
   for (const volume of selected) {
     if (!/^volume\d+[a-z]?$/.test(volume.id) || !/^\/volume\d+[a-z]?$/.test(volume.routePrefix)) throw new Error(`Invalid volume id or route: ${volume.id}`);
     if (!Number.isInteger(volume.expectedSourcePages) || volume.expectedSourcePages < 1) throw new Error(`Source page count must be confirmed for ${volume.id}`);
     if (!volume.chapterRoots.length || !volume.assetRoots.length) throw new Error(`Missing chapter or asset configuration for ${volume.id}`);
-    for (const value of [volume.book, volume.report, ...volume.assetRoots, volume.reviewRoot]) {
+    for (const value of [volume.archiveBook, volume.report, ...volume.assetRoots, volume.reviewRoot]) {
       if (value.startsWith('/') || value.split('/').some(part => part === '..') || value.includes('\\')) throw new Error(`Unsafe configured input path: ${value}`);
     }
     if (!volume.assetRoots.every(root => root === 'assets' || root.startsWith('assets/'))) throw new Error(`Assets must stay under assets/: ${volume.id}`);

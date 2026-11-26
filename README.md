@@ -8,15 +8,15 @@
 
 卷二以巫斌、范明译、人民邮电出版社2016年第三版为中文底本，对照英文第三版数字版。中文618个物理页分别登记，610个阅读内容页直接对照原图；省略包装及制档信息，保留空白页疑点、原页锚点和MIX参考折页。校订由模型查看原图完成，具体覆盖、实质订正、保留疑点及构建验收分别登记，不表示人类逐页签核或所有原书结论均已证明。
 
-要单独读取一节 Markdown，可从下表的「分节目录」选择正文、习题答案、附录或索引。在 GitHub 文件页点 **Raw** 即可只获取所选文件。
+分节 Markdown 是本项目的母稿。要单独下载一节，可从下表的「分节目录」选择正文、习题答案、附录或索引。在 GitHub 文件页点 **Raw** 即可只获取所选文件。
 
-| 分册 | 分节 Markdown | 在线阅读 | 母稿 | 校订报告 |
+| 分册 | 分节 Markdown | 在线阅读 | 整卷下载 | 校订报告 |
 |---|---|---|---|---|
-| 卷一·基本算法 | [分节目录](chapters/volume1/README.md) | [卷一目录](https://qixiaoz.github.io/taocp-zh/volume1/) | [整卷 Markdown](计算机程序设计艺术·卷1·基本算法.md) | [卷一报告](校订报告.md) |
-| 卷二·半数值算法 | [分节目录](chapters/volume2/README.md) | [卷二目录](https://qixiaoz.github.io/taocp-zh/volume2/) | [整卷 Markdown](计算机程序设计艺术·卷2·半数值算法.md) | [卷二报告](校订报告·卷2.md) |
-| 卷三·排序与查找 | [分节目录](chapters/volume3/README.md) | [卷三目录](https://qixiaoz.github.io/taocp-zh/volume3/) | [整卷 Markdown](计算机程序设计艺术·卷3·排序与查找.md) | [卷三报告](校订报告·卷3.md) |
-| 卷4A·组合算法（一） | [分节目录](chapters/volume4a/README.md) | [卷4A目录](https://qixiaoz.github.io/taocp-zh/volume4a/) | [整卷 Markdown](计算机程序设计艺术·卷4A·组合算法（一）.md) | [卷4A报告](校订报告·卷4A.md) |
-| 卷4B·组合算法（二） | [分节目录](chapters/volume4b/README.md) | [卷4B目录](https://qixiaoz.github.io/taocp-zh/volume4b/) | [整卷 Markdown](计算机程序设计艺术·卷4B·组合算法（二）.md) | [卷4B报告](校订报告·卷4B.md) |
+| 卷一·基本算法 | [分节目录](chapters/volume1/README.md) | [卷一目录](https://qixiaoz.github.io/taocp-zh/volume1/) | [整卷 ZIP](https://qixiaoz.github.io/taocp-zh/downloads/taocp-volume1.zip) | [卷一报告](校订报告.md) |
+| 卷二·半数值算法 | [分节目录](chapters/volume2/README.md) | [卷二目录](https://qixiaoz.github.io/taocp-zh/volume2/) | [整卷 ZIP](https://qixiaoz.github.io/taocp-zh/downloads/taocp-volume2.zip) | [卷二报告](校订报告·卷2.md) |
+| 卷三·排序与查找 | [分节目录](chapters/volume3/README.md) | [卷三目录](https://qixiaoz.github.io/taocp-zh/volume3/) | [整卷 ZIP](https://qixiaoz.github.io/taocp-zh/downloads/taocp-volume3.zip) | [卷三报告](校订报告·卷3.md) |
+| 卷4A·组合算法（一） | [分节目录](chapters/volume4a/README.md) | [卷4A目录](https://qixiaoz.github.io/taocp-zh/volume4a/) | [整卷 ZIP](https://qixiaoz.github.io/taocp-zh/downloads/taocp-volume4a.zip) | [卷4A报告](校订报告·卷4A.md) |
+| 卷4B·组合算法（二） | [分节目录](chapters/volume4b/README.md) | [卷4B目录](https://qixiaoz.github.io/taocp-zh/volume4b/) | [整卷 ZIP](https://qixiaoz.github.io/taocp-zh/downloads/taocp-volume4b.zip) | [卷4B报告](校订报告·卷4B.md) |
 
 卷三以贾洪峰译、人民邮电出版社2017年第二版为中文底本，对照所附英文第二版数字本。625个中文物理页保留原页锚点，620个阅读内容页均对照中文原图；其中600页核查对应英文内容，两页目录仅核英文节题，18页索引仅作英文条目点核。所附英文第7–14页经用户批准翻译补配卷前，图表A另按英文原图补配并登记独立来源。967题中有908个真实答案，59题无独立答案的两源依据单独登记。
 
@@ -40,11 +40,13 @@ npm run docs:build
 npm run docs:preview
 ```
 
-`docs:build` 会从根目录的整卷 Markdown 生成分节正文、答案页、目录、校订说明和配套资源下载，随后构建网站并核对源页锚点、题答链接、公式及图片。公式编译使用12 GiB的Node堆上限及 `buildConcurrency: 1`；实际四卷构建在8 GiB时耗尽堆，12 GiB已通过打包与页面生成。五卷合编时，各分节的 KaTeX HTML 与 MathML 按公式去重，导航与首屏共用同一份数据。堆上限不表示预先占满。现有公开仓库的 `ubuntu-latest` 发布任务使用GitHub标准托管环境，规格见[GitHub官方文档](https://docs.github.com/en/actions/reference/runners/github-hosted-runners#standard-github-hosted-runners-for-public-repositories)。
+`docs:build` 会按各卷目录读取分节母稿，生成正文、答案页、目录和校订说明，再为每卷合并整卷 Markdown 并打包配套资源，随后构建网站并核对源页锚点、题答链接、公式及图片。公式编译使用12 GiB的Node堆上限及 `buildConcurrency: 1`；实际四卷构建在8 GiB时耗尽堆，12 GiB已通过打包与页面生成。五卷合编时，各分节的 KaTeX HTML 与 MathML 按公式去重，导航与首屏共用同一份数据。堆上限不表示预先占满。现有公开仓库的 `ubuntu-latest` 发布任务使用GitHub标准托管环境，规格见[GitHub官方文档](https://docs.github.com/en/actions/reference/runners/github-hosted-runners#standard-github-hosted-runners-for-public-repositories)。
 
 ## 更新内容
 
-修改整卷母稿或分节规则后，运行 `npm run book:prepare`，将 `chapters/` 的变动随母稿一同提交。本地开发和构建也会自动更新分节文件。GitHub Actions 发布前会逐文件核对分节版是否与母稿同步。
+直接编辑 `chapters/<卷号>/` 下的 Markdown。各卷 `README.md` 中的分节链接决定收录范围、节名和装订顺序。增删或移动分节时同步更新目录与跨节链接，再运行 `npm run docs:build`。
+
+分节使用相对路径链接其他章节和插图，脚注定义放在引用它的分节。少量原书脚注的印刷位置在另一节，`<!-- archive-footnote: 标识 -->` 标记整卷中的原位置，`<!-- section-footnotes -->` 下保存这些脚注的唯一定义。普通新增脚注可以直接在本节定义。合并下载包时，构建器还原卷内锚点、图片路径和原书标题层级。
 
 正文和校订依据分别维护在上表的各卷母稿、报告中。卷一资源位于 `assets/figures/`、`assets/review/`，后续各卷资源分别位于 `assets/volume2/`、`assets/volume3/`、`assets/volume4a/`、`assets/volume4b/`。扫描底本、OCR、原页裁图和工作校样不进入公开仓库或下载包。
 
@@ -60,7 +62,7 @@ npm run docs:preview
 
 阅读设置组件位于 `docs/.vitepress/theme/ReaderControls.vue`，偏好校验与首屏初始化位于 `reader-preferences.ts`。新增或调整设置后，应检查首次载入、刷新、跨节导航、存储不可用以及桌面和手机端的布局。
 
-网页公式使用 KaTeX 在构建时排版，并附带可访问的 MathML。卷一母稿已校正原有的两处嵌套美元分隔符及闭合分隔符前的空白。当前卷一网页和整卷 Pandoc 校样各有 12,943 处数学表达式。各卷的实际数量、源区间和资源去向分别记录在生成清单中；整卷下载内容按各自母稿的 SHA-256 校验。
+网页公式使用 KaTeX 在构建时排版，并附带可访问的 MathML。卷一母稿已校正原有的两处嵌套美元分隔符及闭合分隔符前的空白。当前卷一网页和整卷 Pandoc 校样各有 12,943 处数学表达式。各卷的实际数量、源区间和资源去向分别记录在生成清单中；构建清单分别记录分节母稿与合并下载文件的 SHA-256。
 
 公开本地图片在渲染时读取原始尺寸并预留宽高比，避免懒加载后撑开页面、使索引或题答跳转偏移。该处理位于 `scripts/book-images.mjs`，不改写母稿或图像字节。
 

@@ -12,6 +12,7 @@ import { unzipSync } from 'fflate';
 import { createMarkdownRenderer, resolveConfig } from 'vitepress';
 import { normalizeMathSyntax } from './book-markdown.mjs';
 import { volumes, enabledVolumes, volumeManifestFile } from './book-volumes.mjs';
+import { readChapters, bindChapters } from './book-chapters.mjs';
 import { sourceAnchorIds } from './book-anchors.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -198,25 +199,42 @@ function resolveSourceLink(fromFile, href) {
 }
 
 async function checkVolume(volume, manifest, navigation) {
-  const sourceFile = manifest.source.file;
-  check(!path.isAbsolute(sourceFile) && !sourceFile.includes('..'), 'unsafe-source-manifest-path', { sourceFile });
-  const source = await readEditorial(sourceFile);
-  report.source = { file: sourceFile, sha256: hash(source) };
-  check(hash(source) === manifest.source.sha256, 'stale-source-manifest');
+  const book = await readChapters(ROOT, volume);
+  const sourceFile = volume.archiveBook;
+  const source = bindChapters(book).map(section => section.text).join('');
+  const sourceHash = hash(JSON.stringify([book.indexSha256, ...book.pages.map(p => [p.chapterFile, p.chapterSha256])]));
+  report.source = { index: book.indexFile, sha256: sourceHash };
+  check(sourceHash === manifest.source.sha256 && book.indexSha256 === manifest.source.indexSha256, 'stale-chapter-manifest');
+  check(hash(source) === manifest.archive.sha256, 'stale-archive-manifest');
   const originalReport = await readEditorial(volume.report);
   check(hash(originalReport) === manifest.editorialReport.sha256, 'stale-editorial-report-manifest');
   check(manifest.editorialReport.websiteFile === `docs${volume.reportRoute}.md`, 'configured-report-file-mismatch');
   const websiteReport = await read(`docs${volume.reportRoute}.md`);
   check(hash(websiteReport) === manifest.editorialReport.websiteSha256, 'generated-report-hash-mismatch');
-  check(navigation.source.sha256 === hash(source), 'stale-navigation');
+  check(navigation.source.sha256 === sourceHash, 'stale-navigation');
   const pages = manifest.sectionRoutes;
   check(Array.isArray(pages) && pages.length > 0, 'missing-page-manifest');
   const chapterFile = route => path.join(ROOT, 'chapters', route + '.md');
   const chapterIndex = chapterFile(volume.routePrefix + '/README');
   const chapterLinks = [...(await fs.readFile(chapterIndex, 'utf8')).matchAll(/\]\(([^)]+)\)/g)];
-  equalList(pages.map(page => chapterFile(page.route)),
+  equalSequence(pages.map(page => chapterFile(page.route)),
     chapterLinks.map(([, href]) => path.resolve(path.dirname(chapterIndex), href)),
     'chapter-directory-coverage', { file: rel(chapterIndex) });
+  // A file-only link opens a chapter at its start. In a bound volume that
+  // destination is an explicit anchor; standalone answer groups use the first answer.
+  function archiveTargets(text, page) {
+    return text.replace(/(\]\(|\b(?:href|src)=")((?:[^)\s"#]+\.(?:md|html)(?:#[^)"\s]+)?|#answers-[\w-]+))(?=[)"])/g, (all, opener, href) => {
+      const [file, fragment] = href.split('#');
+      if (/^(?:[a-z]+:|\/)/i.test(file)) return all;
+      const route = file ? path.posix.join(path.posix.dirname(page.route), file.replace(/\.(md|html)$/, '')) : page.route;
+      const target = book.byRoute.get(route);
+      if (!target) return all;
+      const id = fragment || target.anchor;
+      check(target.anchors.includes(id), 'chapter-link-fragment-mismatch', { route: page.route, href });
+      const boundId = target.kind === 'answers' && id === target.anchor ? target.anchors.find(x => x.startsWith('ans-')) : id;
+      return opener + '#' + boundId;
+    });
+  }
   const originalIds = ids(source);
   const originalIdSet = new Set(originalIds);
   check(originalIds.filter(id => /^pdf-\d+$/.test(id)).length === volume.expectedSourcePages, 'source-page-count-mismatch', { expected: volume.expectedSourcePages, actual: originalIds.filter(id => /^pdf-\d+$/.test(id)).length });
@@ -314,12 +332,16 @@ async function checkVolume(volume, manifest, navigation) {
     for (const [id, value] of generated.notes) check(compact(value) === compact(globalFootnotes.get(id) ?? ''), 'footnote-text-changed', { ...ctx, id });
     let comparable = generated.body;
     if (page.kind === 'answers' && comparable.includes(`# ${page.title}\n`) && !originalWithoutNotes.includes(page.title)) comparable = comparable.replace(`# ${page.title}\n`, '');
-    const a = sourceCanonical(originalWithoutNotes), b = sourceCanonical(comparable);
+    const a = sourceCanonical(originalWithoutNotes), b = sourceCanonical(archiveTargets(comparable, page));
     check(a === b, 'section-text-changed', { ...ctx, ...(a === b ? {} : firstDifference(a, b)) });
     const expected = expectedRender(markdown, file);
     const sourceWithNotes = originalWithoutNotes + '\n' + refs.map(id => globalFootnotes.get(id) ?? '').join('\n');
-    const chapter = await fs.readFile(chapterFile(page.route), 'utf8');
-    check(sourceCanonical(chapter) === sourceCanonical(markdown), 'chapter-text-changed', ctx);
+    const master = book.byRoute.get(page.route);
+    check(master?.chapterSha256 === page.chapterSha256 && master.chapterFile === page.chapterFile, 'chapter-source-hash', ctx);
+    const chapterText = (await readEditorial(page.chapterFile)).replaceAll('\r\n', '\n');
+    const parts = extractFootnotes(chapterText.replace(/^<!-- (?:archive-footnote: [^\s]+|section-footnotes) -->\n/gm, ''));
+    const chapter = archiveTargets(parts.body + '\n' + refs.map(id => parts.notes.get(id) ?? '').join('\n'), page);
+    check(sourceCanonical(chapter) === sourceCanonical(archiveTargets(markdown, page)), 'chapter-text-changed', ctx);
     equalSequence(ids(markdown), ids(chapter), 'chapter-anchor-changed', ctx);
     // Compare destinations in source order, including raw HTML and linked images.
     // Resolve repository links directly, without VitePress's .html or asset aliases.
@@ -329,6 +351,7 @@ async function checkVolume(volume, manifest, navigation) {
       return path.resolve(ROOT, href);
     });
     const chapterDestinations = [...chapter.matchAll(destinations)].map(([, href]) => {
+      if (href.startsWith('#')) return chapterFile(manifest.anchorRoutes[href.slice(1)]) + href;
       const target = resolveSourceLink(chapterFile(page.route), href);
       return target.file + (target.fragment ? '#' + target.fragment : '');
     });
@@ -355,6 +378,7 @@ async function checkVolume(volume, manifest, navigation) {
   equalRenderedCode(originalReportExpected.renderedCode, reportExpected.renderedCode, { report: volume.reportRoute, stage: 'report-cleanup' });
   const reportPage = { route: volume.reportRoute, file: reportFile, expected: reportExpected, originalIds: ids(websiteReport), isReport: true };
 
+  const fileAnchors = new Map(generatedPages.map(p => [p.file, new Set(ids(p.markdown))]));
   for (const page of generatedPages) {
     for (const href of [...page.expected.links, ...page.expected.images]) {
       const target = resolveSourceLink(page.file, href);
@@ -371,8 +395,7 @@ async function checkVolume(volume, manifest, navigation) {
       check(exists, 'missing-generated-link-target', { route: page.route, href });
       if (target.fragment && target.fragment.startsWith('fn')) continue; // Plugin-generated IDs are audited in dist.
       if (target.fragment && exists && target.file.endsWith('.md')) {
-        const targetText = await fs.readFile(target.file, 'utf8');
-        check(ids(targetText).includes(target.fragment) || !originalIds.includes(target.fragment), 'broken-generated-anchor-link', { route: page.route, href });
+        check(!originalIdSet.has(target.fragment) || fileAnchors.get(target.file)?.has(target.fragment), 'broken-generated-anchor-link', { route: page.route, href });
       }
     }
   }
@@ -424,7 +447,7 @@ async function checkVolume(volume, manifest, navigation) {
   const numbered = volume.evidence.numbered ? (await read(volume.evidence.numbered)).trim().split('\n').filter(Boolean).map(JSON.parse) : [];
   for (const entry of numbered) for (const part of entry.parts) check(part.matches_final && originalIds.includes(part.page_anchor), 'numbered-item-evidence-anchor-missing', { id: entry.id, anchor: part.page_anchor });
   report.checks.numberedItems = { evidenceConfigured: !!volume.evidence.numbered, recordedItems: numbered.length, sourcePageAnchorsPresent: numbered.every(entry => entry.parts.every(part => originalIds.includes(part.page_anchor))),
-    scope: 'Existing editorial evidence is preserved with the unchanged master and its page anchors. Website QA does not claim a new manual bilingual review.' };
+    scope: 'Historical editorial evidence retains its edition hash and physical page anchors. Website QA does not claim a new manual bilingual review.' };
   if (sourceOnly) return;
 
   const dist = config.outDir;
@@ -629,7 +652,7 @@ try {
     try {
       const manifest = await json(volumeManifestFile(volume));
       const ownNavigation = navigation.volumes.find(item => item.id === volume.id);
-      check(manifest.source.file === volume.book && manifest.editorialReport.file === volume.report, 'configured-source-mismatch');
+      check(manifest.source.index === 'chapters/' + volume.id + '/README.md' && manifest.archive.file === volume.archiveBook && manifest.editorialReport.file === volume.report, 'configured-source-mismatch');
       check(manifest.volume.id === volume.id && manifest.volume.routePrefix === volume.routePrefix && manifest.volume.reportRoute === volume.reportRoute, 'configured-volume-route-mismatch');
       check(ownNavigation?.routePrefix === volume.routePrefix && ownNavigation?.reportRoute === volume.reportRoute, 'configured-navigation-route-mismatch');
       check(manifest.download.path === `/downloads/${volume.zipName}`, 'configured-download-path-mismatch');

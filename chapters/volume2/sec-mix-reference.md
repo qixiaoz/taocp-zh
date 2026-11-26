@@ -1,8 +1,9 @@
+
 <a id="pdf-615"></a><a id="pdf-616"></a>
 
 <a id="sec-mix-reference"></a>
 
-# MIX 指令参考表
+## MIX 指令参考表
 
 字符代码:
 
@@ -177,3 +178,45 @@ $\mathrm{CI}$ = 比较指示器
 
 
 <a id="pdf-617"></a><a id="pdf-618"></a>
+
+<!-- archive-footnote: v2-3-4-1-table-1 -->
+
+<!-- archive-footnote: v2-3-4-1-marsaglia -->
+
+<!-- archive-footnote: v2-p134-1 -->
+
+<!-- archive-footnote: v2-p145-1 -->
+
+<!-- archive-footnote: v2-p154-1 -->
+
+<!-- archive-footnote: v2-p163-1 -->
+
+<!-- archive-footnote: v2-p170-1 -->
+
+<!-- archive-footnote: v2-p182-1 -->
+
+<!-- archive-footnote: v2-p215-1 -->
+
+<!-- archive-footnote: v2-p220-1 -->
+
+<!-- archive-footnote: v2-p220-2 -->
+
+<!-- archive-footnote: v2-p251-1 -->
+
+<!-- archive-footnote: v2-p262-1 -->
+
+<!-- archive-footnote: v2-p280-1 -->
+
+<!-- archive-footnote: v2-p300-1 -->
+
+<!-- archive-footnote: v2-p304-1 -->
+
+<!-- archive-footnote: v2-p313-1 -->
+
+<!-- archive-footnote: v2-p316-1 -->
+
+<!-- archive-footnote: v2-p316-2 -->
+
+<!-- archive-footnote: v2-p323-1 -->
+
+<!-- archive-footnote: v2-p419-series -->

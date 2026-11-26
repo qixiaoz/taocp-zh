@@ -1,10 +1,11 @@
+
 <a id="pdf-375"></a><a id="p-358"></a><a id="pdf-376"></a><a id="p-359"></a><a id="pdf-377"></a><a id="p-360"></a><a id="pdf-378"></a><a id="p-361"></a><a id="pdf-379"></a><a id="p-362"></a><a id="pdf-380"></a><a id="p-363"></a>
 
 <a id="alt-452"></a>
 
 <a id="sec-2-6"></a>
 
-# 2.6 历史和文献
+### 2.6 历史和文献
 
 保存在连续内存单元中的信息的线性表和矩形数组, 从最早期的存储程序计算机问世以来, 就已被广泛地应用了, 而且最早的关于程序设计的一些论文, 就已经给出过遍历这些结构的基本算法. [例如, 见 J. von Neumann,Collected Works 5, 113–116 (写于 1946 年); M. V. Wilkes, D. J. Wheeler, S. Gill ,The Preparation of Programs for an Electronic Digital Computer(Reading, Mass. : Addison-Wesley, 1951), 子程序 V-1; 特别是写于 1945 年的 Konrad Zuse 的著作, Berichte der Gesellschaft für Mathematik und Datenverarbeitung 63 (Bonn:1972).]Zuse 是使用动态可变长度表建立非平凡算法的头一个人. 在使用变址寄存器之前, 顺序线性表的操作, 乃是通过对机器语言指令本身实施算术运算完成的, 而且这种类型的操作, 成为早期追求一台这样的计算机的动机之一, 即它的程序与程序所加工的数据, 共享内存空间.
 

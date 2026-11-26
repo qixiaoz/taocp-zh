@@ -1,8 +1,9 @@
+
 <a id="pdf-116"></a><a id="p-99"></a>
 
 <a id="sec-1-3"></a>
 
-# 1.3　MIX
+### 1.3　MIX
 
 在本书中, 我们经常需要用到计算机的内部机器语言. 我们用的是一台虚拟的计算机, 称为 `MIX`, 它酷似 20 世纪 60 年代和 70 年代的每一种计算机, 要说有何不同的话, 或许就是它更精巧. `MIX` 机器语言有很强大的设计功能, 足以对大多数算法编写出简短的程序; 同时这种语言非常简单, 很容易掌握它的运算与操作指令.
 
@@ -11,5 +12,7 @@
 ![建设中](../../assets/figures/p011-construction.svg) 然而必须承认, `MIX` 如今已完全过时. 所以本书以后的版本将改用一台新计算机, 称为 `MMIX`, 即 2009 的罗马数字表示. `MMIX` 将是一台所谓的精简指令集计算机 (RISC), 用 64 位的字作算术运算. `MMIX` 比 `MIX` 更精致, 它会与 20 世纪 90 年代的主流计算机相似.
 
 把本书中的各种材料从 `MIX` 转换到 `MMIX` 将是一项长期的任务; 我请求志愿者协助这一工作. 同时, 我希望读者愿意继续和过气的 `MIX` 架构再共处几年时间——这种架构依然值得了解, 因为它有助于为今后的发展提供背景基础. [^p99-1]
+
+<!-- section-footnotes -->
 
 [^p99-1]: 人民邮电出版社将重新出版高德纳于 2005 年出版的 *Art of Computer Programming, Volume 1, Fascicle 1: MMIX – A RISC Computer for the New Millennium*, 同时引进 Martin Ruckert 于 2015 年出版的 *MMIX Supplement: Supplement to The Art of Computer Programming Volumes 1, 2, 3 by Donald E. Knuth*. 配合两本书, 读者可以使用 `MMIX` 语言完成本套丛书前 3 卷的所有程序. ——编者注

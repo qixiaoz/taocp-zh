@@ -1,8 +1,12 @@
+
+<!-- archive-footnote: v4a-p694-1 -->
+
+
 <a id="pdf-710"></a><a id="p-695"></a>
 
 <a id="sec-app-c"></a>
 
-# 附录 C 算法和定理索引
+## 附录 C 算法和定理索引
 
 - 算法 7B, [17](./sec-7.md#p-17)–[18](./sec-7.md#p-18).
 - 程序 7B, [435](./answers/7.md#p-435)–[436](./answers/7.md#p-436).
