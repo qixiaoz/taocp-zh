@@ -216,10 +216,10 @@ D. E. K.
 <tr><td>　<a href="./sec-mpr.md#p-9">应用</a></td><td>9</td></tr>
 <tr><td>　<a href="./sec-mpr.md#p-11">几乎必然、甚至相当必然的命题</a></td><td>11</td></tr>
 <tr><td>　<a href="./sec-mpr.md#p-12">习题</a></td><td>12</td></tr>
-<tr><td><a href="https://qixiaoz.github.io/taocp-zh/volume4a/sec-7.html#sec-7"><strong>第 7 章　组合查找</strong></a></td><td>[4A.1]</td></tr>
-<tr><td>　<a href="https://qixiaoz.github.io/taocp-zh/volume4a/sec-7-2.html#sec-7-2"><strong>7.2　生成所有可能的组合对象</strong></a></td><td>[4A.281]</td></tr>
-<tr><td>　　<a href="https://qixiaoz.github.io/taocp-zh/volume4a/sec-7-2-1.html#sec-7-2-1"><strong>7.2.1　生成基本组合模式</strong></a></td><td>[4A.281]</td></tr>
-<tr><td>　　<a href="./sec-7-2-2.md#p-30"><strong>7.2.2　回溯程序设计</strong></a></td><td>30</td></tr>
+<tr><td><a href="https://qixiaoz.github.io/taocp-zh/volume4a/sec-7.html#sec-7"><strong><samp>第 7 章</samp>　组合查找</strong></a></td><td>[4A.1]</td></tr>
+<tr><td>　<a href="https://qixiaoz.github.io/taocp-zh/volume4a/sec-7-2.html#sec-7-2"><strong><samp>7.2</samp>　生成所有可能的组合对象</strong></a></td><td>[4A.281]</td></tr>
+<tr><td>　　<a href="https://qixiaoz.github.io/taocp-zh/volume4a/sec-7-2-1.html#sec-7-2-1"><strong><samp>7.2.1</samp>　生成基本组合模式</strong></a></td><td>[4A.281]</td></tr>
+<tr><td>　　<a href="./sec-7-2-2.md#p-30"><strong><samp>7.2.2</samp>　回溯程序设计</strong></a></td><td>30</td></tr>
 <tr><td>　　　<a href="./sec-7-2-2.md#p-32">数据结构</a></td><td>32</td></tr>
 <tr><td>　　　<a href="./sec-7-2-2.md#p-33">沃克的方法</a></td><td>33</td></tr>
 <tr><td>　　　<a href="./sec-7-2-2.md#p-34">排列和兰福德配对</a></td><td>34</td></tr>
@@ -235,7 +235,7 @@ D. E. K.
 <tr><td>　　　<a href="./sec-7-2-2.md#p-52">问题的分解</a></td><td>52</td></tr>
 <tr><td>　　　<a href="./sec-7-2-2.md#p-53">历史注记</a></td><td>53</td></tr>
 <tr><td>　　　<a href="./sec-7-2-2.md#p-55">习题</a></td><td>55</td></tr>
-<tr><td>　　　<a href="./sec-7-2-2-1.md#p-65"><strong>7.2.2.1　舞蹈链</strong></a></td><td>65</td></tr>
+<tr><td>　　　<a href="./sec-7-2-2-1.md#p-65"><strong><samp>7.2.2.1</samp>　舞蹈链</strong></a></td><td>65</td></tr>
 <tr><td>　　　　<a href="./sec-7-2-2-1.md#p-66">恰当覆盖问题</a></td><td>66</td></tr>
 <tr><td>　　　　<a href="./sec-7-2-2-1.md#p-70">次要项</a></td><td>70</td></tr>
 <tr><td>　　　　<a href="./sec-7-2-2-1.md#p-73">进度报告</a></td><td>73</td></tr>
@@ -261,7 +261,7 @@ D. E. K.
 <tr><td>　　　　<a href="./sec-7-2-2-1.md#p-124">习题——第一组</a></td><td>124</td></tr>
 <tr><td>　　　　<a href="./sec-7-2-2-1.md#p-156">习题——第二组</a></td><td>156</td></tr>
 <tr><td>　　　　<a href="./sec-7-2-2-1.md#p-174">习题——第三组</a></td><td>174</td></tr>
-<tr><td>　　　<a href="./sec-7-2-2-2.md#p-185"><strong>7.2.2.2　可满足性</strong></a></td><td>185</td></tr>
+<tr><td>　　　<a href="./sec-7-2-2-2.md#p-185"><strong><samp>7.2.2.2</samp>　可满足性</strong></a></td><td>185</td></tr>
 <tr><td>　　　　<a href="./sec-7-2-2-2.md#p-188">应用实例</a></td><td>188</td></tr>
 <tr><td>　　　　<a href="./sec-7-2-2-2.md#p-211">回溯算法</a></td><td>211</td></tr>
 <tr><td>　　　　<a href="./sec-7-2-2-2.md#p-231">随机子句</a></td><td>231</td></tr>
@@ -283,14 +283,14 @@ D. E. K.
 </tbody>
 <tbody id="pdf-019">
 <tr id="p-xvii"><td><a href="./sec-answers.md#p-370"><strong>习题答案</strong></a></td><td>370</td></tr>
-<tr><td><a href="./sec-app-a.md#p-656"><strong>附录 A　数值表</strong></a></td><td>656</td></tr>
+<tr><td><a href="./sec-app-a.md#p-656"><strong><samp>附录 A</samp>　数值表</strong></a></td><td>656</td></tr>
 <tr><td><a href="./sec-app-a.md#p-656">　1.　基本常数 (十进制)</a></td><td>656</td></tr>
 <tr><td><a href="./sec-app-a.md#p-657">　2.　基本常数 (十六进制)</a></td><td>657</td></tr>
 <tr><td><a href="./sec-app-a.md#p-658">　3.　调和数、伯努利数、斐波那契数</a></td><td>658</td></tr>
-<tr><td><a href="./sec-app-b.md#p-660"><strong>附录 B　记号索引</strong></a></td><td>660</td></tr>
-<tr><td><a href="./sec-app-c.md#p-666"><strong>附录 C　算法与定理索引</strong></a></td><td>666</td></tr>
-<tr><td><a href="./sec-app-d.md#p-667"><strong>附录 D　组合问题索引</strong></a></td><td>667</td></tr>
-<tr><td><a href="./sec-app-e.md#p-671"><strong>附录 E　答案中谜题的解</strong></a></td><td>671</td></tr>
+<tr><td><a href="./sec-app-b.md#p-660"><strong><samp>附录 B</samp>　记号索引</strong></a></td><td>660</td></tr>
+<tr><td><a href="./sec-app-c.md#p-666"><strong><samp>附录 C</samp>　算法与定理索引</strong></a></td><td>666</td></tr>
+<tr><td><a href="./sec-app-d.md#p-667"><strong><samp>附录 D</samp>　组合问题索引</strong></a></td><td>667</td></tr>
+<tr><td><a href="./sec-app-e.md#p-671"><strong><samp>附录 E</samp>　答案中谜题的解</strong></a></td><td>671</td></tr>
 <tr><td><a href="./sec-index.md#p-674"><strong>索引与词汇表</strong></a></td><td>674</td></tr>
 </tbody>
 </table>

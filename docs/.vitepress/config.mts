@@ -14,26 +14,25 @@ const readingNav = multipleVolumes
   ? publishedVolumes.map(volume => ({ text: volume.title.split('·')[0], link: `${volume.routePrefix}/frontmatter`, activeMatch: `^${volume.routePrefix}/` }))
   : [{ text: '章节正文', link: '/volume1/frontmatter', activeMatch: '^/volume1/' }]
 
-// Format only the sidebar display: source headings and generated metadata keep
-// their original spelling. Sibling titles share a number column, including the
-// optional difficulty marker and the longer numbers in the answer list.
+// Use the same padded number field as the two public chapter directories.
+const directoryLabels = new Map(publishedVolumes.flatMap(volume =>
+  volume.pages.map(page => [page.route, page.directoryLabel] as const)))
+const escapeLabel = (text: string) => text.replace(/[&<>"']/g, char => ({
+  '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+})[char]!)
+
 function formatSidebar(items: DefaultTheme.SidebarItem[]): DefaultTheme.SidebarItem[] {
-  const parts = items.map(item => item.text?.match(/^(\*?\d+(?:\.\d+)+)\s*(.+)$/u))
-  const numberWidth = Math.max(0, ...parts.map(part => part?.[1].length ?? 0))
-  const escape = (text: string) => text.replace(/[&<>"']/g, char => ({
-    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
-  })[char]!)
-  // This source heading contains $n$. Sidebar and footer labels are plain
-  // theme text, so present the symbol here without changing book metadata.
-  const label = (text: string) => escape(text).replaceAll('$n$', '<i>n</i>')
-  return items.map((item, index) => ({
-    ...item,
-    docFooterText: (item.docFooterText ?? item.text)?.replaceAll('$n$', 'n'),
-    text: parts[index]
-      ? `<span class="book-nav-number" style="--book-nav-number-width:${numberWidth}ch">${escape(parts[index]![1])}</span> <span class="book-nav-label">${label(parts[index]![2])}</span>`
-      : item.text,
-    ...(item.items ? { items: formatSidebar(item.items) } : {})
-  }))
+  return items.map(item => {
+    const parts = directoryLabels.get(item.link ?? '')?.match(/^<samp>([^<>]+)<\/samp>　(.+)$/u)
+    return {
+      ...item,
+      docFooterText: (item.docFooterText ?? item.text)?.replaceAll('$n$', 'n'),
+      text: parts
+        ? `<samp class="book-nav-number">${escapeLabel(parts[1].replaceAll('&nbsp;', '\u00a0'))}</samp> <span class="book-nav-label">${escapeLabel(parts[2]).replaceAll('$n$', '<i>n</i>')}</span>`
+        : item.text,
+      ...(item.items ? { items: formatSidebar(item.items) } : {})
+    }
+  })
 }
 
 const sidebar = Array.isArray(navigation.sidebar)

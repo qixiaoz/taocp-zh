@@ -2,6 +2,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
+import { formatDirectory, formatPrintedContents, tocTitle } from './book-toc.mjs';
 import { sourceAnchorIds } from './book-anchors.mjs';
 
 const posix = path.posix;
@@ -76,13 +77,16 @@ export async function readChapters(root, volume) {
   disk.delete('README.md');
   const indexFile = folder + '/README.md';
   const { text: index, sha256: indexSha256 } = await readMarkdown(path.join(root, indexFile));
+  assert(formatDirectory(index) === index, 'Run npm run book:toc to align ' + indexFile);
   const pages = [], anchorRoutes = Object.create(null), relocatedNotes = new Map(), noteIds = new Set();
   for (const match of index.matchAll(/\[([^\]\n]+)\]\(\.\/([^)\n]+)\.md\)/g)) {
-    const [, title, key] = match;
+    const [, label, key] = match;
+    const title = tocTitle(label);
     assert(/^(?:frontmatter|sec-[a-z0-9-]+|answers\/[a-z0-9-]+)$/.test(key) && disk.delete(key + '.md'), 'Invalid, missing or repeated chapter in ' + indexFile + ': ' + key);
     const chapterFile = folder + '/' + key + '.md';
     const route = volume.routePrefix + '/' + key;
     const { text, sha256: chapterSha256 } = await readMarkdown(path.join(root, chapterFile));
+    if (key === 'frontmatter') assert(formatPrintedContents(text) === text, 'Run npm run book:toc to align ' + chapterFile);
     const parts = text.split(appendixNotes);
     assert(parts.length <= 2, 'Repeated footnotes separator in ' + chapterFile);
     const raw = parts[0];
@@ -114,13 +118,13 @@ export async function readChapters(root, volume) {
       assert(!anchorRoutes[id], 'Duplicate anchor in ' + chapterFile + ': ' + id);
       anchorRoutes[id] = route;
     }
-    const page = { route, title, file: 'docs' + route + '.md', chapterFile, chapterSha256,
+    const page = { route, title, directoryLabel: label, file: 'docs' + route + '.md', chapterFile, chapterSha256,
       ...pageMetadata(volume, key), anchors, footnotes, raw, body, notes };
     assert(anchors.includes(page.anchor), 'Missing section anchor in ' + chapterFile + ': ' + page.anchor);
     pages.push(page);
   }
   assert(!disk.size && pages.length && pages[0].kind === 'frontmatter', 'Incomplete contents in ' + indexFile + ': ' + [...disk].join(', '));
-  return { pages, anchorRoutes, relocatedNotes, indexFile, indexSha256,
+  return { pages, anchorRoutes, relocatedNotes, index, indexFile, indexSha256,
     byFile: new Map(pages.map(p => [p.chapterFile, p])), byRoute: new Map(pages.map(p => [p.route, p])) };
 }
 

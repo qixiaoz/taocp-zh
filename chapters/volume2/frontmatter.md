@@ -122,55 +122,55 @@
 
 | 章节 | 页码 |
 |---|---:|
-| [第 3 章　随机数](./sec-3.md#sec-3) | 1 |
-| [3.1　引言](./sec-3-1.md#sec-3-1) | 1 |
-| [3.2　生成均匀的随机数](./sec-3-2.md#sec-3-2) | 8 |
-| [3.2.1　线性同余法](./sec-3-2-1.md#sec-3-2-1) | 8 |
-| [3.2.1.1　模的选择](./sec-3-2-1-1.md#sec-3-2-1-1) | 9 |
-| [3.2.1.2　乘数的选择](./sec-3-2-1-2.md#sec-3-2-1-2) | 13 |
-| [3.2.1.3　势](./sec-3-2-1-3.md#sec-3-2-1-3) | 18 |
-| [3.2.2　其他方法](./sec-3-2-2.md#sec-3-2-2) | 20 |
-| [3.3　统计检验](./sec-3-3.md#sec-3-3) | 32 |
-| [3.3.1　研究随机数据的一般检验过程](./sec-3-3-1.md#sec-3-3-1) | 32 |
-| [3.3.2　经验检验](./sec-3-3-2.md#sec-3-3-2) | 46 |
-| [\*3.3.3　理论检验](./sec-3-3-3.md#sec-3-3-3) | 60 |
-| [3.3.4　谱检验](./sec-3-3-4.md#sec-3-3-4) | 70 |
-| [3.4　其他类型的随机量](./sec-3-4.md#sec-3-4) | 90 |
-| [3.4.1　数值分布](./sec-3-4-1.md#sec-3-4-1) | 90 |
-| [3.4.2　随机抽样和洗牌](./sec-3-4-2.md#sec-3-4-2) | 107 |
-| [\*3.5　什么是随机序列？](./sec-3-5.md#sec-3-5) | 113 |
-| [3.6　小结](./sec-3-6.md#sec-3-6) | 139 |
-| [第 4 章　算术](./sec-4.md#sec-4) | 147 |
-| [4.1　按位记数系统](./sec-4-1.md#sec-4-1) | 147 |
-| [4.2　浮点算术](./sec-4-2.md#sec-4-2) | 163 |
-| [4.2.1　单精度计算](./sec-4-2-1.md#sec-4-2-1) | 163 |
-| [4.2.2　浮点算术的精度](./sec-4-2-2.md#sec-4-2-2) | 175 |
-| [\*4.2.3　双精度计算](./sec-4-2-3.md#sec-4-2-3) | 188 |
-| [4.2.4　浮点数的分布](./sec-4-2-4.md#sec-4-2-4) | 194 |
-| [4.3　多精度算术](./sec-4-3.md#sec-4-3) | 203 |
-| [4.3.1　经典算法](./sec-4-3-1.md#sec-4-3-1) | 203 |
-| [\*4.3.2　模算术](./sec-4-3-2.md#sec-4-3-2) | 218 |
-| [\*4.3.3　乘法有多快？](./sec-4-3-3.md#sec-4-3-3) | 225 |
-| [4.4　进制转换](./sec-4-4.md#sec-4-4) | 245 |
-| [4.5　有理数算术](./sec-4-5.md#sec-4-5) | 254 |
-| [4.5.1　分数](./sec-4-5-1.md#sec-4-5-1) | 254 |
-| [4.5.2　最大公因数](./sec-4-5-2.md#sec-4-5-2) | 256 |
-| [\*4.5.3　对欧几里得算法的分析](./sec-4-5-3.md#sec-4-5-3) | 274 |
-| [4.5.4　分解素因数](./sec-4-5-4.md#sec-4-5-4) | 293 |
-| [4.6　多项式算术](./sec-4-6.md#sec-4-6) | 324 |
-| [4.6.1　多项式除法](./sec-4-6-1.md#sec-4-6-1) | 325 |
-| [\*4.6.2　多项式的因子分解](./sec-4-6-2.md#sec-4-6-2) | 340 |
-| [4.6.3　幂的计算](./sec-4-6-3.md#sec-4-6-3) | 358 |
-| [4.6.4　多项式求值](./sec-4-6-4.md#sec-4-6-4) | 378 |
-| [\*4.7　对幂级数的操作](./sec-4-7.md#sec-4-7) | 409 |
+| [<samp>第 3 章</samp>　随机数](./sec-3.md#sec-3) | 1 |
+| [<samp>&nbsp;3.1&nbsp;&nbsp;&nbsp;&nbsp;</samp>　引言](./sec-3-1.md#sec-3-1) | 1 |
+| [<samp>&nbsp;3.2&nbsp;&nbsp;&nbsp;&nbsp;</samp>　生成均匀的随机数](./sec-3-2.md#sec-3-2) | 8 |
+| [<samp>&nbsp;3.2.1&nbsp;&nbsp;</samp>　线性同余法](./sec-3-2-1.md#sec-3-2-1) | 8 |
+| [<samp>&nbsp;3.2.1.1</samp>　模的选择](./sec-3-2-1-1.md#sec-3-2-1-1) | 9 |
+| [<samp>&nbsp;3.2.1.2</samp>　乘数的选择](./sec-3-2-1-2.md#sec-3-2-1-2) | 13 |
+| [<samp>&nbsp;3.2.1.3</samp>　势](./sec-3-2-1-3.md#sec-3-2-1-3) | 18 |
+| [<samp>&nbsp;3.2.2&nbsp;&nbsp;</samp>　其他方法](./sec-3-2-2.md#sec-3-2-2) | 20 |
+| [<samp>&nbsp;3.3&nbsp;&nbsp;&nbsp;&nbsp;</samp>　统计检验](./sec-3-3.md#sec-3-3) | 32 |
+| [<samp>&nbsp;3.3.1&nbsp;&nbsp;</samp>　研究随机数据的一般检验过程](./sec-3-3-1.md#sec-3-3-1) | 32 |
+| [<samp>&nbsp;3.3.2&nbsp;&nbsp;</samp>　经验检验](./sec-3-3-2.md#sec-3-3-2) | 46 |
+| [<samp>*3.3.3&nbsp;&nbsp;</samp>　理论检验](./sec-3-3-3.md#sec-3-3-3) | 60 |
+| [<samp>&nbsp;3.3.4&nbsp;&nbsp;</samp>　谱检验](./sec-3-3-4.md#sec-3-3-4) | 70 |
+| [<samp>&nbsp;3.4&nbsp;&nbsp;&nbsp;&nbsp;</samp>　其他类型的随机量](./sec-3-4.md#sec-3-4) | 90 |
+| [<samp>&nbsp;3.4.1&nbsp;&nbsp;</samp>　数值分布](./sec-3-4-1.md#sec-3-4-1) | 90 |
+| [<samp>&nbsp;3.4.2&nbsp;&nbsp;</samp>　随机抽样和洗牌](./sec-3-4-2.md#sec-3-4-2) | 107 |
+| [<samp>*3.5&nbsp;&nbsp;&nbsp;&nbsp;</samp>　什么是随机序列？](./sec-3-5.md#sec-3-5) | 113 |
+| [<samp>&nbsp;3.6&nbsp;&nbsp;&nbsp;&nbsp;</samp>　小结](./sec-3-6.md#sec-3-6) | 139 |
+| [<samp>第 4 章</samp>　算术](./sec-4.md#sec-4) | 147 |
+| [<samp>&nbsp;4.1&nbsp;&nbsp;&nbsp;&nbsp;</samp>　按位记数系统](./sec-4-1.md#sec-4-1) | 147 |
+| [<samp>&nbsp;4.2&nbsp;&nbsp;&nbsp;&nbsp;</samp>　浮点算术](./sec-4-2.md#sec-4-2) | 163 |
+| [<samp>&nbsp;4.2.1&nbsp;&nbsp;</samp>　单精度计算](./sec-4-2-1.md#sec-4-2-1) | 163 |
+| [<samp>&nbsp;4.2.2&nbsp;&nbsp;</samp>　浮点算术的精度](./sec-4-2-2.md#sec-4-2-2) | 175 |
+| [<samp>*4.2.3&nbsp;&nbsp;</samp>　双精度计算](./sec-4-2-3.md#sec-4-2-3) | 188 |
+| [<samp>&nbsp;4.2.4&nbsp;&nbsp;</samp>　浮点数的分布](./sec-4-2-4.md#sec-4-2-4) | 194 |
+| [<samp>&nbsp;4.3&nbsp;&nbsp;&nbsp;&nbsp;</samp>　多精度算术](./sec-4-3.md#sec-4-3) | 203 |
+| [<samp>&nbsp;4.3.1&nbsp;&nbsp;</samp>　经典算法](./sec-4-3-1.md#sec-4-3-1) | 203 |
+| [<samp>*4.3.2&nbsp;&nbsp;</samp>　模算术](./sec-4-3-2.md#sec-4-3-2) | 218 |
+| [<samp>*4.3.3&nbsp;&nbsp;</samp>　乘法有多快？](./sec-4-3-3.md#sec-4-3-3) | 225 |
+| [<samp>&nbsp;4.4&nbsp;&nbsp;&nbsp;&nbsp;</samp>　进制转换](./sec-4-4.md#sec-4-4) | 245 |
+| [<samp>&nbsp;4.5&nbsp;&nbsp;&nbsp;&nbsp;</samp>　有理数算术](./sec-4-5.md#sec-4-5) | 254 |
+| [<samp>&nbsp;4.5.1&nbsp;&nbsp;</samp>　分数](./sec-4-5-1.md#sec-4-5-1) | 254 |
+| [<samp>&nbsp;4.5.2&nbsp;&nbsp;</samp>　最大公因数](./sec-4-5-2.md#sec-4-5-2) | 256 |
+| [<samp>*4.5.3&nbsp;&nbsp;</samp>　对欧几里得算法的分析](./sec-4-5-3.md#sec-4-5-3) | 274 |
+| [<samp>&nbsp;4.5.4&nbsp;&nbsp;</samp>　分解素因数](./sec-4-5-4.md#sec-4-5-4) | 293 |
+| [<samp>&nbsp;4.6&nbsp;&nbsp;&nbsp;&nbsp;</samp>　多项式算术](./sec-4-6.md#sec-4-6) | 324 |
+| [<samp>&nbsp;4.6.1&nbsp;&nbsp;</samp>　多项式除法](./sec-4-6-1.md#sec-4-6-1) | 325 |
+| [<samp>*4.6.2&nbsp;&nbsp;</samp>　多项式的因子分解](./sec-4-6-2.md#sec-4-6-2) | 340 |
+| [<samp>&nbsp;4.6.3&nbsp;&nbsp;</samp>　幂的计算](./sec-4-6-3.md#sec-4-6-3) | 358 |
+| [<samp>&nbsp;4.6.4&nbsp;&nbsp;</samp>　多项式求值](./sec-4-6-4.md#sec-4-6-4) | 378 |
+| [<samp>*4.7&nbsp;&nbsp;&nbsp;&nbsp;</samp>　对幂级数的操作](./sec-4-7.md#sec-4-7) | 409 |
 | [习题答案](./sec-answers.md#sec-answers) | 420 |
-| [附录 A　数值表](./sec-app-a.md#sec-app-a) | 572 |
-| [附录 B　记号索引](./sec-app-b.md#sec-app-b) | 576 |
+| [<samp>附录 A</samp>　数值表](./sec-app-a.md#sec-app-a) | 572 |
+| [<samp>附录 B</samp>　记号索引](./sec-app-b.md#sec-app-b) | 576 |
 
 <a id="pdf-011"></a><a id="p-ix"></a>
 
 | 章节 | 页码 |
 |---|---:|
-| [附录 C　算法和定理索引](./sec-app-c.md#sec-app-c) | 580 |
+| [<samp>附录 C</samp>　算法和定理索引](./sec-app-c.md#sec-app-c) | 580 |
 | [人名索引](./sec-names.md#sec-names) | 582 |
 | [索引](./sec-index.md#sec-index) | 592 |

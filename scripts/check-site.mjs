@@ -516,6 +516,20 @@ async function checkVolume(volume, manifest, navigation) {
       }
     }
     const page = pageByHtml.get(name);
+    if (name === volume.routePrefix.slice(1) + '/index.html' || page?.kind === 'frontmatter') {
+      const sourceToc = page?.markdown ?? book.index;
+      const fields = scope.find('a samp').toArray();
+      equalSequence([...sourceToc.matchAll(/<samp>([^<]*)<\/samp>/g)].map(m => m[1].replaceAll('&nbsp;', '\u00a0')),
+        fields.map(el => $(el).text()), 'directory-number-fields', { file: name });
+      for (const el of fields) {
+        const section = $(el).text().trim().replace(/^\*/, '');
+        const lists = $(el).parents('ul');
+        if (!lists.length || !/^\d+(?:\.\d+)+$/.test(section)) continue;
+        const root = volume.chapterRoots.find(n => section === n || section.startsWith(n + '.'));
+        check(root && lists.length === section.split('.').length - root.split('.').length + 1,
+          'directory-section-nesting', { file: name, section, depth: lists.length });
+      }
+    }
     if (!page) continue;
     check(scope.length === 1, 'missing-book-content-container', { file: name });
     if (page.kind === 'index') checkIndexEntryLinks($, scope, page.markdown, name);

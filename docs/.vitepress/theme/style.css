@@ -126,6 +126,8 @@ html.dark {
   line-height: 1.35;
 }
 
+.vp-doc a samp { font-family: var(--vp-font-family-mono); }
+
 /* Keep numbers, wrapped titles and disclosure arrows in separate columns. */
 .VPSidebar .VPSidebarItem > .item > .link,
 .VPSidebar .VPSidebarItem > .item .text { min-width: 0; }
@@ -137,7 +139,8 @@ html.dark {
 }
 
 .VPSidebar .book-nav-number {
-  flex: 0 0 var(--book-nav-number-width);
+  flex: none;
+  font-family: var(--vp-font-family-mono);
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
 }

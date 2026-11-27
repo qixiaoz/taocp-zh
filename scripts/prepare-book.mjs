@@ -110,12 +110,9 @@ const sidebar = [
   { text: '习题答案', link: `${prefix}/${volume.answerStartAnchor}`, collapsed: true, items: pages.filter(p => p.kind === 'answers').map(p => ({ text: p.title, link: p.route })) },
   { text: '附录与索引', items: pages.filter(p => ['appendix', 'index'].includes(p.kind)).map(p => ({ text: p.title, link: p.route })) },
 ];
-function directoryItems(items, depth = 0) {
-  return items.map(item => `${'  '.repeat(depth)}- ${item.link ? `[${item.text}](${item.link.endsWith('.zip') ? '.' + item.link : relativeRoute(`${prefix}/index`, item.link === prefix + '/' ? `${prefix}/index` : item.link)})` : item.text}\n${item.items ? directoryItems(item.items, depth + 1) : ''}`).join('');
-}
-// Use relative source paths in content; VitePress applies the configured base.
-let directory = `# 全卷目录\n\n[开始阅读](./frontmatter.md)\n\n`;
-directory += directoryItems(sidebar.slice(1));
+// Share the actual Markdown tree, including sibling column widths, with GitHub.
+const directory = book.index.replace(/^# .+$/m, '# 全卷目录')
+  .replace('[卷前](./frontmatter.md)', '[开始阅读](./frontmatter.md)');
 await write(`docs${prefix}/index.md`, `---\ntitle: 全卷目录\n---\n\n${directory}`);
 
 

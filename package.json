@@ -8,6 +8,7 @@
     "node": ">=22.0.0"
   },
   "scripts": {
+    "book:toc": "node scripts/book-toc.mjs",
     "book:prepare": "node scripts/prepare-book.mjs",
     "docs:dev": "npm run book:prepare && vitepress dev docs --host 127.0.0.1",
     "docs:build": "npm run book:prepare && node --max-old-space-size=12288 node_modules/vitepress/bin/vitepress.js build docs && npm run site:check",
